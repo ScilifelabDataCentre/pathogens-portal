@@ -3,7 +3,7 @@
   <nav class="navbar is-light" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <div class="navbar-item">
-        SciLifeLab Covid Portal
+        SciLifeLab Covid Data Portal
       </div>
       <a role="button"
          class="navbar-burger"
@@ -21,6 +21,7 @@
         Home
       </router-link>
       <router-link to="/about" class="navbar-item">Search</router-link>
+      <div class="navbar-end"></div>
     </div>
   </nav>
 
