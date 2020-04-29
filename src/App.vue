@@ -32,6 +32,9 @@
     <a href="https://www.scilifelab.se/data/">
       <img class="logo" :src="require('./assets/data-centre-logo.svg')" alt="SciLife Data Centre logo"/>
     </a>
+    <a href="https://www.nbis.se">
+      <img class="logo" :src="require('./assets/nbislogo-orange-txt.svg')" alt="NBIS logo"/>
+    </a>
   </footer>
 </div>
 </template>
@@ -46,5 +49,6 @@
 
 img.logo {
     height: 70px;
+    margin: 16px;
 }
 </style>
