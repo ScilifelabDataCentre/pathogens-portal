@@ -1,5 +1,10 @@
 # corona-portal
 
+## Libraries
+
+* [vue.js](https://vuejs.org) as frontend framework
+* [bulma](https://bulma.io) is the CSS framework
+
 ## Project setup
 ```
 yarn install
