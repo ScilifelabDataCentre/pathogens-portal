@@ -17,11 +17,12 @@
     </div>
     <div class="navbar-menu" id="navbarMenu" :class="{'navbar-menu': true, 'is-active': showMenu}">
       <div class="navbar-start"></div>
+      <div class="navbar-end">
       <router-link to="/" class="navbar-item">
         Home
       </router-link>
-      <router-link to="/about" class="navbar-item">Search</router-link>
-      <div class="navbar-end"></div>
+      <router-link to="/about" class="navbar-item">About</router-link>
+      </div>
     </div>
   </nav>
 
