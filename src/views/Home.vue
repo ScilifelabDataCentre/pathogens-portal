@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home section">
     <h1 class="title is-1">SciLifeLab Covid Data Portal</h1>
 
     <div class="tile is-ancestor">
