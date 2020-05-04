@@ -1,4 +1,4 @@
-# corona-portal
+# Covid-19 Hub
 
 ## Libraries
 
