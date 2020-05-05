@@ -3,7 +3,7 @@
   <nav class="navbar is-light" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <div class="navbar-item">
-        SciLifeLab Covid Data Portal
+        Swedish COVID-19 Data Hub
       </div>
       <a role="button"
          class="navbar-burger"
@@ -21,7 +21,15 @@
       <router-link to="/" class="navbar-item">
         Home
       </router-link>
-      <router-link to="/about" class="navbar-item">About</router-link>
+      <router-link to="/about" class="navbar-item">
+        About
+      </router-link>
+      <router-link to="/about" class="navbar-item">
+        Datasets
+      </router-link>
+      <router-link to="/about" class="navbar-item">
+        Support
+      </router-link>
       </div>
     </div>
   </nav>
