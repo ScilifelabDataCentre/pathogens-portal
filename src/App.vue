@@ -38,10 +38,16 @@
 
   <footer class="footer">
     <a href="https://www.scilifelab.se/data/">
-      <img class="logo" :src="require('./assets/data-centre-logo.svg')" alt="SciLife Data Centre logo"/>
+      <img class="logo" :src="require('./assets/img/data-centre-logo.svg')" alt="SciLife Data Centre logo"/>
     </a>
     <a href="https://www.nbis.se">
-      <img class="logo" :src="require('./assets/nbislogo-orange-txt.svg')" alt="NBIS logo"/>
+      <img class="logo" :src="require('./assets/img/nbislogo-orange-txt.svg')" alt="NBIS logo"/>
+    </a>
+    <a href="http://www.elixir-sweden.org">
+      <img class="logo" :src="require('./assets/img/elixir-se-logo.png')" alt="NBIS logo"/>
+    </a>
+    <a href="https://www.vr.se">
+      <img class="logo" :src="require('./assets/img/vr-logo-sve.svg')" alt="VR logo"/>
     </a>
   </footer>
 </div>
@@ -57,6 +63,6 @@
 
 img.logo {
     height: 70px;
-    margin: 16px;
+    margin: 20px;
 }
 </style>
