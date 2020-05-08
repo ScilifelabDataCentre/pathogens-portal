@@ -1,4 +1,3 @@
-baseURL = "http://example.org/"
+baseURL = "https://www.covid19dataportal.se/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "c19portal_swe"
+title = "COVID-19 Data Portal Sweden"
