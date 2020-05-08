@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,400;0,500;0,700;1,400&display=swap');
+body {
+    font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
+}
+
+.navbar .navbar-brand {
+    max-width: 60%;
+}
+.navbar .navbar-brand img {
+    height: 55px;
+    max-width: 100%;
+}
+
+.header {
+    background-image: url('../img/csm_coronavirus_mc.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem 0;
+    margin-bottom: 2rem;
+}
