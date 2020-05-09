@@ -2,6 +2,10 @@
 title: About the hub
 ---
 
+The Swedish COVID-19 Data Portal is written and managed by the SciLifeLab Data Centre and partners.
+
+---
+
 To be written:
 
 * About Swedish plan

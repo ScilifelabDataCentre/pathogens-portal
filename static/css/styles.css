@@ -13,18 +13,19 @@ img {
     height: 55px;
     max-width: 100%;
 }
-.navbar-secondary {
-    padding-top: 0;
-}
-.navbar-secondary .navbar-nav a.nav-link {
+.navbar .navbar-primary-links a.nav-link {
     color: rgba(46, 104, 165, 0.8);
     font-weight: 600;
     font-size: 1.2em;
-    padding: 1rem;
 }
-.navbar-secondary .navbar-nav a.nav-link:hover,
-.navbar-secondary .navbar-nav a.nav-link:focus,
-.navbar-secondary .navbar-nav a.nav-link:active {
+@media all and (min-width: 768px) {
+    .navbar .navbar-nav a.nav-link {
+        padding: 1rem;
+    }
+}
+.navbar .navbar-primary-links a.nav-link:hover,
+.navbar .navbar-primary-links a.nav-link:focus,
+.navbar .navbar-primary-links a.nav-link:active {
     color: rgba(46, 104, 165, 1);
 }
 

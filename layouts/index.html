@@ -4,6 +4,38 @@
 
   {{ .Content }}
 
+  <div class="row mb-4">
+    {{/* Double 'range' loops because we have a list of maps. This is to ensure order and heading formatting. */}}
+    {{ range .Params.homepage_sections }}{{ range $section_title, $first_headings := . }}
+      <div class="col-md">
+        <h2 class="mt-4" id="{{ urlize $section_title }}">{{ $section_title }}</h2>
+        <div class="accordion" id="{{ urlize $section_title }}_accordion">
+          {{ range $first_headings }}{{ range $first_heading, $second_headings := . }}
+            <div class="card">
+              <div class="card-header">
+                <h2 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#{{ urlize $first_heading }}" aria-expanded="false" aria-controls="{{ urlize $first_heading }}">
+                    {{ $first_heading }}
+                  </button>
+                </h2>
+              </div>
+              <div id="{{ urlize $first_heading }}" class='collapse' data-parent="#{{ urlize $section_title }}_accordion">
+                <ul class="list-group list-group-flush border-top">
+                  {{ range $second_headings }}{{ range $second_heading, $second_url := . }}
+                    <li class="list-group-item"><a href="{{ $second_url }}">{{ $second_heading }}</a></li>
+                  {{ end }}{{ end }}
+                </ul>
+              </div>
+            </div>
+          {{ end }}{{ end }}
+        </div>
+      </div>
+
+    {{ end }}{{ end }}
+  </div>
+
+  <h2>Previous design</h2>
+  <p>Keeping here just for now, in case it can be useful..</p>
   <div class="row">
     <div class="col-md">
       <div class="card mb-3">
