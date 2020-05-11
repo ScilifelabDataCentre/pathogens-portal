@@ -39,14 +39,14 @@
         <li><a href="{{ .URL }}">{{ .Name }}</a></li>
       {{ end }}
       </ul>
-      <ul class="list-unstyled border-top pt-1">
+      <ul class="list-unstyled border-top pt-1 nav-languages">
       {{ if .IsTranslated }}
         {{ range .AllTranslations }}
-          <li><a href="{{ relURL .Permalink }}"><span>{{ .Language.LanguageName }}</span></a></li>
+          <li><a href="{{ relURL .Permalink }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"></a></li>
         {{ end }}
       {{ else }}
         {{ range $.Site.Home.AllTranslations }}
-          <li><a href="{{ relURL .Permalink }}"><span>{{ .Language.LanguageName }}</span></a></li>
+          <li><a href="{{ relURL .Permalink }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"></a></li>
         {{ end }}
       {{ end }}
       </ul>
