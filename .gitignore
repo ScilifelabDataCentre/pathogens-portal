@@ -3,3 +3,7 @@
 
 # OSX
 .DS_Store
+
+# backups
+*~
+\#*\#
