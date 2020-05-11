@@ -7,7 +7,7 @@
   <title>{{ .Site.Title }}</title>
   <meta name="description" content='{{ if .IsHome }}{{ .Param "description" }}{{ else }}{{ .Description }}{{ end }}'>
   {{ if .IsTranslated }}{{ range .Translations }}
-  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
+  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ relURL .Permalink }}" title="{{ .Language.LanguageName }}">
   {{ end }}{{ end }}
 
   <!-- Favicons -->

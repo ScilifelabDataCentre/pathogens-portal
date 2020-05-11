@@ -42,11 +42,11 @@
       <ul class="list-unstyled border-top pt-1">
       {{ if .IsTranslated }}
         {{ range .AllTranslations }}
-          <li><a href="{{ .Permalink }}"><span>{{ .Language.LanguageName }}</span></a></li>
+          <li><a href="{{ relURL .Permalink }}"><span>{{ .Language.LanguageName }}</span></a></li>
         {{ end }}
       {{ else }}
         {{ range $.Site.Home.AllTranslations }}
-          <li><a href="{{ .Permalink }}"><span>{{ .Language.LanguageName }}</span></a></li>
+          <li><a href="{{ relURL .Permalink }}"><span>{{ .Language.LanguageName }}</span></a></li>
         {{ end }}
       {{ end }}
       </ul>
