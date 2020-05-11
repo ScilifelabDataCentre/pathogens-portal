@@ -4,99 +4,37 @@
 
   {{ .Content }}
 
-  <div class="row mb-4">
-    {{/* Double 'range' loops because we have a list of maps. This is to ensure order and heading formatting. */}}
-    {{ range .Params.homepage_sections }}{{ range $section_title, $first_headings := . }}
-      <div class="col-md">
-        <h2 class="mt-4" id="{{ urlize $section_title }}">{{ $section_title }}</h2>
-        <div class="accordion" id="{{ urlize $section_title }}_accordion">
-          {{ range $first_headings }}{{ range $first_heading, $second_headings := . }}
-            <div class="card">
-              <div class="card-header">
-                <h2 class="mb-0">
-                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#{{ urlize $first_heading }}" aria-expanded="false" aria-controls="{{ urlize $first_heading }}">
-                    {{ $first_heading }}
-                  </button>
-                </h2>
-              </div>
-              <div id="{{ urlize $first_heading }}" class='collapse' data-parent="#{{ urlize $section_title }}_accordion">
-                <ul class="list-group list-group-flush border-top">
-                  {{ range $second_headings }}{{ range $second_heading, $second_url := . }}
-                    <li class="list-group-item"><a href="{{ $second_url }}">{{ $second_heading }}</a></li>
-                  {{ end }}{{ end }}
-                </ul>
-              </div>
-            </div>
-          {{ end }}{{ end }}
-        </div>
-      </div>
-
-    {{ end }}{{ end }}
-  </div>
-
-  <h2>Previous design</h2>
-  <p>Keeping here just for now, in case it can be useful..</p>
-  <div class="row">
+  <div class="row mb-4 homepage-accordions">
+    {{ range .Site.Menus.main }}
     <div class="col-md">
-      <div class="card mb-3">
-        <div class="card-header">
-          <h5>EBI Data Portal Services</h5>
-          <p class="small text-muted mb-0">
-            Follow links to the central EBI Covid19 Portal.
-          </p>
+      <h2 class="mt-4" id="{{ urlize .Identifier }}">{{ .Name }}</h2>
+      {{ if .Post }}<p class="small text-muted">{{ .Post }}</p>{{ end }}
+      <div class="accordion" id="{{ urlize .Identifier }}_accordion">
+      {{ range .Children }}
+        <div class="card">
+          <div class="card-header">
+              {{ if .HasChildren }}
+              <a href="{{ .URL }}" data-toggle="collapse" data-target="#{{ urlize .Identifier }}" aria-expanded="false" aria-controls="{{ urlize .Identifier }}">
+                {{ .Pre }}<span class="{{ if .Pre }}ml-2{{ end }} mr-2">{{ .Name }}</span>{{ .Post }}<i class="fas fa-fw fa-caret-down"></i>
+              </a>
+              {{ else }}
+              <a href="{{ .URL }}">{{ .Pre }}<span class="{{ if .Pre }}ml-2{{ end }} mr-2">{{ .Name }}</span>{{ .Post }}</a>
+              {{ end }}
+          </div>
+          {{ if .HasChildren }}
+          <div id="{{ urlize .Identifier }}" class='collapse' data-parent="#{{ urlize .Parent }}_accordion">
+            <ul class="list-group list-group-flush border-top">
+              {{ range .Children }}
+                <li class="list-group-item"><a href="{{ .URL }}">{{ .Pre }}<span class="{{ if .Pre }}ml-2{{ end }} mr-2">{{ .Name }}</span>{{ .Post }}</a></li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item"><a href="#">Sequences </a></li>
-          <li class="list-group-item"><a href="#">Expression </a></li>
-          <li class="list-group-item"><a href="#">Images </a></li>
-          <li class="list-group-item"><a href="#">Proteins </a></li>
-          <li class="list-group-item"><a href="#">Structures </a></li>
-          <li class="list-group-item"><a href="#" title="Data from Swedish governmental or health care registers">RUT </a></li>
-          <li class="list-group-item"><a href="#">Literature </a></li>
-        </ul>
+      {{ end }}
       </div>
     </div>
-    <div class="col-md">
-      <div class="card mb-3">
-        <div class="card-header">
-          <h5>Swedish Life Sciences Support</h5>
-          <p class="small text-muted mb-0">
-            Click to expand: guidelines and documentation.
-          </p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item"><a href="#">Prepare data</a> <i class="fa fa-caret-down text-black-50" aria-hidden="true"></i></li>
-          <li class="list-group-item"><a href="#">Collaborate</a> <i class="fa fa-caret-down text-black-50" aria-hidden="true"></i></li>
-          <li class="list-group-item"><a href="#">Data management guidelines</a> <i class="fa fa-caret-down text-black-50" aria-hidden="true"></i></li>
-          <li class="list-group-item"><a href="#">About health data</a> <i class="fa fa-caret-down text-black-50" aria-hidden="true"></i></li>
-          <li class="list-group-item"><a href="#">Status (dashboards)</a> <i class="fa fa-caret-down text-black-50" aria-hidden="true"></i></li>
-          <li class="list-group-item"><a href="#">Ethical, Legal, and Social Implications</a> <i class="fa fa-caret-down text-black-50" aria-hidden="true"></i></li>
-          <li class="list-group-item"><a href="#">Support</a> <i class="fa fa-caret-down text-black-50" aria-hidden="true"></i></li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-md">
-      <div class="card mb-3">
-        <div class="card-header">
-          <h5>SciLifeLab Platforms</h5>
-          <p class="small text-muted mb-0">
-            How we can help with Covid19 research.
-          </p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item"><a href="#">Genomics</a></li>
-          <li class="list-group-item"><a href="#">Spatial Omics</a></li>
-          <li class="list-group-item"><a href="#">Proteomics</a></li>
-          <li class="list-group-item"><a href="#">Metabolomics</a></li>
-          <li class="list-group-item"><a href="#">Single Cell Biology</a></li>
-          <li class="list-group-item"><a href="#">Bioimaging and Molecular Structure</a></li>
-          <li class="list-group-item"><a href="#">Chemical Biology and Genome Engineering</a></li>
-          <li class="list-group-item"><a href="#">Drug Discovery</a></li>
-          <li class="list-group-item"><a href="#">Diagnostics</a></li>
-          <li class="list-group-item"><a href="#">Bioinformatics</a></li>
-        </ul>
-      </div>
-    </div>
+    {{ end }}
   </div>
 
 </div>

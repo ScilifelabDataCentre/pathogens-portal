@@ -1,0 +1,52 @@
+baseURL: "https://www.covid19dataportal.se/"
+title: "COVID-19 Data Portal Sweden"
+params:
+  description: COVID-19 Data Portal for Swedish Research
+
+languages:
+  en:
+    languageName: English
+    contentDir: content/english
+    weight: 1
+    menu:
+      top_nav:
+        - name: European Hub
+          url: https://www.covid19dataportal.org/
+          weight: 20
+      main:
+        - identifier: genomics_transcriptomics_ebi_portal
+          parent: genomics_transcriptomics
+          name: EBI Portal
+          post: <i class="fas fa-fw fa-xs fa-external-link-alt"></i>
+          url: 'https://www.covid19dataportal.org/sequences'
+          weight: 30
+        - identifier: protein_data_ebi_portal
+          parent: protein_data
+          name: EBI Portal
+          post: <i class="fas fa-fw fa-xs fa-external-link-alt"></i>
+          url: 'https://www.covid19dataportal.org/proteins'
+          weight: 30
+
+  sv:
+    languageName: Svenska
+    contentDir: content/svenska
+    weight: 2
+    description: COVID-19 Dataportal för svensk forskning
+    menu:
+      top_nav:
+        - name: Europeiska portal
+          url: https://www.covid19dataportal.org/
+          weight: 20
+      main:
+        - identifier: genomics_transcriptomics_ebi_portal
+          parent: genomics_transcriptomics
+          name: EBI Portal
+          post: <i class="fas fa-fw fa-xs fa-external-link-alt"></i>
+          url: 'https://www.covid19dataportal.org/sequences'
+          weight: 30
+        - identifier: protein_data_ebi_portal
+          parent: protein_data
+          name: EBI Portal
+          post: <i class="fas fa-fw fa-xs fa-external-link-alt"></i>
+          url: 'https://www.covid19dataportal.org/proteins'
+          weight: 30

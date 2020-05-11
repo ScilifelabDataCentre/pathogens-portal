@@ -5,7 +5,10 @@
 
   <!-- Site meta -->
   <title>{{ .Site.Title }}</title>
-  <meta name="description" content="COVID-19 Data Portal for Swedish Research">
+  <meta name="description" content='{{ if .IsHome }}{{ .Param "description" }}{{ else }}{{ .Description }}{{ end }}'>
+  {{ if .IsTranslated }}{{ range .Translations }}
+  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ relURL .Permalink }}" title="{{ .Language.LanguageName }}">
+  {{ end }}{{ end }}
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -18,8 +21,6 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <!-- FontAwesome -->
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <!-- Covid Portal CSS -->
   <link rel="stylesheet" href="/css/styles.css">
 </head>
