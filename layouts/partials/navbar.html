@@ -8,9 +8,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapseTop">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://www.covid19dataportal.org/">European Hub</a></li>
-        <li class="nav-item"><a class="nav-link" href="/submit">Submit Data</a></li>
+        {{ range .Site.Menus.top_nav }}
+          <li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
       </ul>
     </div>
   </div>
@@ -19,17 +19,19 @@
   <div class="container">
     <div class="collapse navbar-collapse" id="navbarCollapseBottom">
       <ul class="navbar-nav mr-auto navbar-primary-links">
-        <li class="nav-item"><a class="nav-link" href="#">Sequences</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Expression</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Proteins</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Structures</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Literature</a></li>
+        {{ range .Site.Menus.main }}
+          {{ if eq .Identifier "data_types" }}
+            {{ range .Children }}
+              <li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+          {{ end }}
+        {{ end }}
       </ul>
       <hr class="d-md-none">
       <ul class="navbar-nav d-md-none">
-        <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://www.covid19dataportal.org/">European Hub</a></li>
-        <li class="nav-item"><a class="nav-link" href="/submit">Submit Data</a></li>
+        {{ range .Site.Menus.top_nav }}
+          <li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
       </ul>
     </div>
   </div>

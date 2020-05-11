@@ -4,40 +4,46 @@
       <p class="mb-0">To enquire on how to collaborate on the Swedish COVID-19 platform: <a href="mailto:datacentre@scilifelab.se">datacentre@scilifelab.se</a>.</p>
     </div>
     <div class="col-md">
-      <p class="mb-0">To share your data on the EU COVID-19 Data Portal: <a href="mailto:virus-dataflow@ebi.ac.uk">virus-dataflow@ebi.ac.uk</a>.</p>
+      <p class="mb-0">For bioinformatics support, please contact <a href="mailto:support@nbis.se">support@nbis.se</a>.</p>
     </div>
   </div>
   <div class="row border-bottom">
     <div class="col-md">
-      <h4 class="small text-uppercase text-black-50">Covid Data Resources</h4>
+      <h4 class="small text-uppercase text-black-50">Data Types</h4>
       <ul class="list-unstyled">
-        <li><a href="#">Sequences</a></li>
-        <li><a href="#">Gene Expression</a></li>
-        <li><a href="#">Protein Expression</a></li>
+        {{ range .Site.Menus.main }}
+          {{ if eq .Identifier "data_types" }}
+            {{ range .Children }}
+              <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+          {{ end }}
+        {{ end }}
       </ul>
     </div>
     <div class="col-md">
-      <h4 class="small text-uppercase text-black-50 d-none d-md-inline">&nbsp;</h4>
+      <h4 class="small text-uppercase text-black-50">Support Services</h4>
       <ul class="list-unstyled">
-        <li><a href="#">Proteins</a></li>
-        <li><a href="#">Proteins Structures</a></li>
-        <li><a href="#">Literature</a></li>
-        <li><a href="#">Other Resources</a></li>
+        {{ range .Site.Menus.main }}
+          {{ if eq .Identifier "support_services" }}
+            {{ range .Children }}
+              <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+          {{ end }}
+        {{ end }}
       </ul>
     </div>
     <div class="col-md">
       <h4 class="small text-uppercase text-black-50">About</h4>
       <ul class="list-unstyled">
-        <li><a href="/about">About the Portal</a></li>
-        <li><a href="#">SARS-CoV-2 Data Hubs</a></li>
-        <li><a href="#">Our Partners</a></li>
-        <li><a href="/submit">Submit Data</a></li>
+      {{ range .Site.Menus.top_nav }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
       </ul>
     </div>
-    <div class="col text-center my-3">
+    <div class="col-md text-center my-3">
       <a href="https://elixir-europe.org/about-us/who-we-are/nodes/sweden"><img src="/img/logos/elixir-se-logo.png"></a>
     </div>
-    <div class="col text-center my-3">
+    <div class="col-md text-center my-3">
       <a href="https://www.scilifelab.se"><img src="/img/logos/scilifelab-logo.svg"></a>
     </div>
   </div>
@@ -48,13 +54,9 @@
     <div class="col-md">
       <a href="/privacy">Privacy Notice</a>
     </div>
-    <div class="col text-center my-3">
-      <a href="https://ec.europa.eu/info/index_en"><img src="/img/logos/eu-logo--en.svg"></a>
-    </div>
-    <div class="col text-center my-3">
-      <a href="https://nbis.se"><img src="/img/logos/nbislogo-orange-txt.svg"></a>
-    </div>
-    <div class="col text-center my-3">
+    <div class="col-md text-center"></div>
+    <div class="col-md text-center"></div>
+    <div class="col-md text-center my-3">
       <a href="https://vr.se"><img src="/img/logos/vr-logo.png"></a>
     </div>
   </div>
@@ -64,3 +66,5 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- FontAwesome -->
+<script src="https://kit.fontawesome.com/471b59d3f8.js" crossorigin="anonymous"></script>
