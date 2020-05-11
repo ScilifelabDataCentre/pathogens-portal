@@ -15,7 +15,7 @@
           <div class="card-header">
               {{ if .HasChildren }}
               <a href="{{ .URL }}" data-toggle="collapse" data-target="#{{ urlize .Identifier }}" aria-expanded="false" aria-controls="{{ urlize .Identifier }}">
-                {{ .Pre }}<span class="{{ if .Pre }}ml-2{{ end }} mr-2">{{ .Name }}</span>{{ .Post }}
+                {{ .Pre }}<span class="{{ if .Pre }}ml-2{{ end }} mr-2">{{ .Name }}</span>{{ .Post }}<i class="fas fa-fw fa-caret-down"></i>
               </a>
               {{ else }}
               <a href="{{ .URL }}">{{ .Pre }}<span class="{{ if .Pre }}ml-2{{ end }} mr-2">{{ .Name }}</span>{{ .Post }}</a>

@@ -29,6 +29,16 @@ img {
     color: rgba(46, 104, 165, 1);
 }
 
+.navbar .navbar-nav.navbar-languages {
+    margin-left: 2rem;
+}
+.navbar .navbar-nav.navbar-languages li:not(:first-child) a {
+    padding-left: 0;
+}
+.navbar-languages li:not(:first-child) a span {
+    border-left: 1px solid #ccc;
+    padding-left: 1rem;
+}
 
 .header {
     background-image: url('../img/csm_coronavirus_mc.jpg');

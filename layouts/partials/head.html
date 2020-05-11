@@ -5,7 +5,10 @@
 
   <!-- Site meta -->
   <title>{{ .Site.Title }}</title>
-  <meta name="description" content="COVID-19 Data Portal for Swedish Research">
+  <meta name="description" content='{{ if .IsHome }}{{ .Param "description" }}{{ else }}{{ .Description }}{{ end }}'>
+  {{ if .IsTranslated }}{{ range .Translations }}
+  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
+  {{ end }}{{ end }}
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">

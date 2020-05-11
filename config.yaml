@@ -1,157 +1,52 @@
 baseURL: "https://www.covid19dataportal.se/"
-languageCode: "en-us"
 title: "COVID-19 Data Portal Sweden"
+params:
+  description: COVID-19 Data Portal for Swedish Research
 
-menu:
-  top_nav:
-    - name: About
-      url: /about
-      weight: 10
-    - name: European Hub
-      url: https://www.covid19dataportal.org/
-      weight: 20
-    - name: Submit Data
-      url: /submit
-      weight: 30
+languages:
+  en:
+    languageName: English
+    contentDir: content/english
+    weight: 1
+    menu:
+      top_nav:
+        - name: European Hub
+          url: https://www.covid19dataportal.org/
+          weight: 20
+      main:
+        - identifier: genomics_transcriptomics_ebi_portal
+          parent: genomics_transcriptomics
+          name: EBI Portal
+          post: <i class="fas fa-fw fa-xs fa-external-link-alt"></i>
+          url: 'https://www.covid19dataportal.org/sequences'
+          weight: 30
+        - identifier: protein_data_ebi_portal
+          parent: protein_data
+          name: EBI Portal
+          post: <i class="fas fa-fw fa-xs fa-external-link-alt"></i>
+          url: 'https://www.covid19dataportal.org/proteins'
+          weight: 30
 
-  main:
-
-    - identifier: data_types
-      name: Data Types
-      post: Click to expand a data type and see available resources.
-      url: '/data'
-      weight: 10
-
-    - identifier: genomics_transcriptomics
-      parent: data_types
-      name: Genomics & transcriptomics
-      url: '#'
-      weight: 10
-      pre: <i class="fas fa-fw fa-dna"></i>
-      post: <i class="fas fa-fw fa-caret-down"></i>
-    - identifier: genomics_transcriptomics_swedish_data
-      parent: genomics_transcriptomics
-      name: Swedish data
-      url: '#'
-    - identifier: genomics_transcriptomics_available_services
-      parent: genomics_transcriptomics
-      name: Available services
-      url: '#'
-    - identifier: genomics_transcriptomics_ebi_portal
-      parent: genomics_transcriptomics
-      name: EBI Portal
-      post: <i class="fas fa-fw fa-xs fa-external-link-alt"></i>
-      url: '#'
-
-    - identifier: protein_data
-      parent: data_types
-      name: Protein data
-      url: '#'
-      weight: 20
-      pre: <i class="fas fa-fw fa-shapes"></i>
-      post: <i class="fas fa-fw fa-caret-down"></i>
-    - identifier: protein_data_swedish_data
-      parent: protein_data
-      name: Swedish data
-      url: '#'
-    - identifier: protein_data_available_services
-      parent: protein_data
-      name: Available services
-      url: '#'
-    - identifier: protein_data_ebi_portal
-      parent: protein_data
-      name: EBI Portal
-      post: <i class="fas fa-fw fa-xs fa-external-link-alt"></i>
-      url: '#'
-
-    - identifier: imaging_data
-      parent: data_types
-      name: Imaging data
-      url: '#'
-      weight: 30
-      pre: <i class="fas fa-fw fa-microscope"></i>
-      post: <i class="fas fa-fw fa-caret-down"></i>
-    - identifier: imaging_data_swedish_data
-      parent: imaging_data
-      name: Swedish data
-      url: '#'
-    - identifier: imaging_data_available_services
-      parent: imaging_data
-      name: Available services
-      url: '#'
-    - identifier: imaging_data_ebi_portal
-      parent: imaging_data
-      name: EBI Portal
-      post: <i class="fas fa-fw fa-xs fa-external-link-alt"></i>
-      url: '#'
-
-    - identifier: compound_and_target_data
-      parent: data_types
-      name: Compound and target data
-      url: '#'
-      weight: 40
-      pre: <i class="fas fa-fw fa-bullseye"></i>
-      post: <i class="fas fa-fw fa-caret-down"></i>
-    - identifier: compound_and_target_data_swedish_data
-      parent: compound_and_target_data
-      name: Swedish data
-      url: '#'
-    - identifier: compound_and_target_data_available_services
-      parent: compound_and_target_data
-      name: Available services
-      url: '#'
-    - identifier: compound_and_target_data_ebi_portal
-      parent: compound_and_target_data
-      name: EBI Portal
-      post: <i class="fas fa-fw fa-xs fa-external-link-alt"></i>
-      url: '#'
-
-    - identifier: public_health_data
-      parent: data_types
-      name: Public health data
-      url: '#'
-      weight: 50
-      pre: <i class="fas fa-fw fa-ambulance"></i>
-      post: <i class="fas fa-fw fa-caret-down"></i>
-    - identifier: rut
-      parent: public_health_data
-      name: Register utiliser tool (RUT)
-      url: '#'
-    - identifier: public_health_statistics
-      parent: public_health_data
-      name: Public health statistics
-      url: '#'
-
-
-
-    - identifier: support_services
-      name: Support Services
-      post: General support services for Swedish COVID-19 researchers.
-      url: '/support'
-      weight: 20
-
-    - id: bioinformatics_and_data_management
-      parent: support_services
-      name: Bioinformatics
-      url: '#'
-      weight: 10
-    - id: general_data_repository
-      parent: support_services
-      name: General data repository
-      url: '#'
-      weight: 20
-    - id: tools_and_models_for_ai
-      parent: support_services
-      name: Tools and models for AI
-      url: '#'
-      weight: 30
-    - id: tools_for_collaborations
-      parent: support_services
-      name: Tools for collaborations
-      url: '#'
-      weight: 40
-    - id: submit_data
-      parent: support_services
-      name: Submit data
-      url: '#'
-      weight: 50
+  sv:
+    languageName: Svenska
+    contentDir: content/svenska
+    weight: 2
+    description: COVID-19 Dataportal för svensk forskning
+    menu:
+      top_nav:
+        - name: Europeiska portal
+          url: https://www.covid19dataportal.org/
+          weight: 20
+      main:
+        - identifier: genomics_transcriptomics_ebi_portal
+          parent: genomics_transcriptomics
+          name: EBI Portal
+          post: <i class="fas fa-fw fa-xs fa-external-link-alt"></i>
+          url: 'https://www.covid19dataportal.org/sequences'
+          weight: 30
+        - identifier: protein_data_ebi_portal
+          parent: protein_data
+          name: EBI Portal
+          post: <i class="fas fa-fw fa-xs fa-external-link-alt"></i>
+          url: 'https://www.covid19dataportal.org/proteins'
+          weight: 30

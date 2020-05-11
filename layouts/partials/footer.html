@@ -34,9 +34,20 @@
     </div>
     <div class="col-md">
       <h4 class="small text-uppercase text-black-50">About</h4>
-      <ul class="list-unstyled">
+      <ul class="list-unstyled mb-1">
       {{ range .Site.Menus.top_nav }}
         <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+      </ul>
+      <ul class="list-unstyled border-top pt-1">
+      {{ if .IsTranslated }}
+        {{ range .AllTranslations }}
+          <li><a href="{{ .Permalink }}"><span>{{ .Language.LanguageName }}</span></a></li>
+        {{ end }}
+      {{ else }}
+        {{ range $.Site.Home.AllTranslations }}
+          <li><a href="{{ .Permalink }}"><span>{{ .Language.LanguageName }}</span></a></li>
+        {{ end }}
       {{ end }}
       </ul>
     </div>
