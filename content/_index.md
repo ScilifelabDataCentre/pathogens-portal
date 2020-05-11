@@ -8,77 +8,43 @@ title: Accelerating research through data sharing
 homepage_sections:
     - Data Types:
         - Sequence data:
-            - Access to data: '#'
-            - Guidelines for meta data: '#'
-            - Guidelines for analysis: '#'
-            - Guidelines for publishing: '#'
-            - Access to platform: '#'
-            - Data type specific support: '#'
-            - Links to data type specific Data Hub services: '#'
+            - Swedish data: '#'
+            - Available services: '#'
+            - EBI Portal: '#'
         - Protein data:
-            - Access to data: '#'
-            - Guidelines for meta data: '#'
-            - Guidelines for analysis: '#'
-            - Guidelines for publishing: '#'
-            - Access to platform: '#'
-            - Data type specific support: '#'
-            - Links to data type specific Data Hub services: '#'
+            - Swedish data: '#'
+            - Available services: '#'
+            - EBI Portal: '#'
         - Imaging data:
-            - Access to data: '#'
-            - Guidelines for meta data: '#'
-            - Guidelines for analysis: '#'
-            - Guidelines for publishing: '#'
-            - Access to platform: '#'
-            - Data type specific support: '#'
-            - Links to data type specific Data Hub services: '#'
+            - Swedish data: '#'
+            - Available services: '#'
+            - EBI Portal: '#'
         - Compound and target data:
-            - Access to data: '#'
-            - Guidelines for meta data: '#'
-            - Guidelines for analysis: '#'
-            - Guidelines for publishing: '#'
-            - Access to platform: '#'
-            - Data type specific support: '#'
-            - Links to data type specific Data Hub services: '#'
+            - Swedish data: '#'
+            - Available services: '#'
+            - EBI Portal: '#'
         - Structures:
-            - Access to data: '#'
-            - Guidelines for meta data: '#'
-            - Guidelines for analysis: '#'
-            - Guidelines for publishing: '#'
-            - Access to platform: '#'
-            - Data type specific support: '#'
-            - Links to data type specific Data Hub services: '#'
+            - Swedish data: '#'
+            - Available services: '#'
+            - EBI Portal: '#'
         - Expression data:
-            - Access to data: '#'
-            - Guidelines for meta data: '#'
-            - Guidelines for analysis: '#'
-            - Guidelines for publishing: '#'
-            - Access to platform: '#'
-            - Data type specific support: '#'
-            - Links to data type specific Data Hub services: '#'
+            - Swedish data: '#'
+            - Available services: '#'
+            - EBI Portal: '#'
         - Public health data:
-            - Access to data: '#'
-            - Guidelines for meta data: '#'
-            - Guidelines for analysis: '#'
-            - Guidelines for publishing: '#'
-            - Access to platform: '#'
-            - Data type specific support: '#'
-            - Links to data type specific Data Hub services: '#'
+            - Swedish data: '#'
+            - Available services: '#'
+            - EBI Portal: '#'
     - Available Services:
-        - Data management plans:
-            - TBD: '#'
-        - NBIS support:
-            - TBD: '#'
-        - Data tracking:
-            - TBD: '#'
-        - Pipelines to archives in portal:
+        - Bioinformatics and data management support:
             - TBD: '#'
         - General data repository:
-            - SciLifeLab Figshare: https://scilifelab.figshare.com/
-        - Collaborative tools:
-            - Tools for communication, collaborative projects and sharing within projects: '#'
-        - AI model sharing:
+            - SciLifeLab Figshare: 'https://scilifelab.figshare.com/'
+        - Tools and models for AI:
             - Enable sharing of AI/ML models and deployment at data infrastructures: '#'
-        - Service hosting:
+        - Tools for collaborations:
+            - Tools for communication, collaborative projects and sharing within projects: '#'
+        - Submit data:
             - TBD: '#'
 ---
 
