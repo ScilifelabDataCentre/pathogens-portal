@@ -5,7 +5,19 @@
         {{- partial "navbar.html" . -}}
         {{- partial "header.html" . -}}
         <div id="content">
-        {{- block "main" . }}{{- end }}
+            {{ if or (gt .WordCount 500) (.Params.toc) }}
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 order-md-last">{{- partial "toc.html" . -}}</div>
+                        <div class="col-md-9 order-md-first mt-5">{{- block "main" . }}{{- end }}</div>
+                    </div>
+                </div>
+            {{ else }}
+                <div class="container mt-5">
+                    {{- block "main" . }}{{- end }}
+                </div>
+            {{ end }}
+            </div>
         </div>
         {{- partial "footer.html" . -}}
     </body>

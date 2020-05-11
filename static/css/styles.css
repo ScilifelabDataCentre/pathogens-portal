@@ -46,7 +46,6 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 3rem 0;
-    margin-bottom: 2rem;
 }
 
 footer .col-md {
@@ -61,4 +60,6 @@ footer img {
 .homepage-accordions .card-header a i {
     color: #555;
     text-decoration: none;
+    text-align: center;
+    width: 1.25em;
 }

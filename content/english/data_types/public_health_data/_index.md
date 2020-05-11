@@ -5,5 +5,5 @@ menu:
         identifier: public_health_data
         parent: data_types
         weight: 50
-        pre: <i class="fas fa-fw fa-ambulance"></i>
+        pre: <i class="fas fa-ambulance"></i>
 ---
