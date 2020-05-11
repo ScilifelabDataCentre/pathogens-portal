@@ -17,13 +17,25 @@ languages:
         - identifier: genomics_transcriptomics_ebi_portal
           parent: genomics_transcriptomics
           name: EBI Portal
-          post: <i class="fas fa-fw fa-xs fa-external-link-alt"></i>
+          post: <i class="fas fa-xs fa-external-link-alt"></i>
           url: 'https://www.covid19dataportal.org/sequences'
           weight: 30
         - identifier: protein_data_ebi_portal
           parent: protein_data
           name: EBI Portal
-          post: <i class="fas fa-fw fa-xs fa-external-link-alt"></i>
+          post: <i class="fas fa-xs fa-external-link-alt"></i>
+          url: 'https://www.covid19dataportal.org/proteins'
+          weight: 30
+        - identifier: imaging_data_ebi_portal
+          parent: imaging_data
+          name: EBI Portal
+          post: <i class="fas fa-xs fa-external-link-alt"></i>
+          url: 'https://www.covid19dataportal.org/sequences'
+          weight: 30
+        - identifier: compound_and_target_data_ebi_portal
+          parent: compound_and_target_data
+          name: EBI Portal
+          post: <i class="fas fa-xs fa-external-link-alt"></i>
           url: 'https://www.covid19dataportal.org/proteins'
           weight: 30
 
@@ -41,12 +53,12 @@ languages:
         - identifier: genomics_transcriptomics_ebi_portal
           parent: genomics_transcriptomics
           name: EBI Portal
-          post: <i class="fas fa-fw fa-xs fa-external-link-alt"></i>
+          post: <i class="fas fa-xs fa-external-link-alt"></i>
           url: 'https://www.covid19dataportal.org/sequences'
           weight: 30
         - identifier: protein_data_ebi_portal
           parent: protein_data
           name: EBI Portal
-          post: <i class="fas fa-fw fa-xs fa-external-link-alt"></i>
+          post: <i class="fas fa-xs fa-external-link-alt"></i>
           url: 'https://www.covid19dataportal.org/proteins'
           weight: 30
