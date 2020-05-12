@@ -87,6 +87,19 @@ h2,h3,h4,h5,h6 {
     padding: 3rem 0;
 }
 
+.breadcrumbs {
+    background-color: rgba(46, 104, 165, 0.1);
+    font-size: 0.8rem;
+}
+.breadcrumbs .breadcrumb {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+}
+.breadcrumbs .breadcrumb a {
+    color: #6c757d;
+}
+
 footer .col-md {
     padding: 0.5rem;
 }
