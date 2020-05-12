@@ -11,7 +11,7 @@ params:
       privacy: Privacy Notice
     sv:
       enquire_email_footer_dc: "För att fråga om hur man samarbetar på plattformen"
-      enquire_email_footer_bioinformatics: "För support för bioinformatik, vänligen kontakta"
+      enquire_email_footer_bioinformatics: "För support inom bioinformatik, kontakta"
       support_feedback: Support och Feedback
       privacy: Integritetspolicy
 
