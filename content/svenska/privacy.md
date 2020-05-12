@@ -1,6 +1,8 @@
-# Integritetspolicy
+---
+title: Integritetspolicy
+---
 
-SciLifeLab driver webbplatsen [https://www.covid19dataportal.se] (https://www.covid19dataportal.se), som tillhandahåller **tjänsten**.
+SciLifeLab driver webbplatsen [https://www.covid19dataportal.se](https://www.covid19dataportal.se), som tillhandahåller **tjänsten**.
 
 Denna sida används för att informera webbplatsbesökare om vår policy med insamling, användning och utlämnande av personlig information vid användande av vår **tjänst**, webbplatsen COVID-19 Data Portal Sweden.
 
@@ -8,7 +10,7 @@ Om du väljer att använda vår **tjänst**, samtycker du till insamling och anv
 Den personliga information som vi samlar in används för att tillhandahålla och förbättra tjänsten.
 Vi kommer inte att använda eller dela din information med någon annan än som beskrivs i denna integritetspolicy.
 
-Vår integritetspolicy skapades med hjälp av [Privacy Policy Template] (https://www.privacypolicytemplate.net) och [Disclaimer Generator] (https://www.disclaimergenerator.org/).
+Vår integritetspolicy skapades med hjälp av [Privacy Policy Template](https://www.privacypolicytemplate.net) och [Disclaimer Generator](https://www.disclaimergenerator.org/).
 
 ## Loggdata
 
@@ -21,7 +23,7 @@ Cookies är filer med liten mängd data som vanligtvis används some en anonym u
 
 Vår webbplats använder dessa "cookies" för att samla in information och för att förbättra vår **tjänst**. Du har möjlighet att antingen acceptera eller vägra dessa kakor och vet när en cookie skickas till din dator. Om du väljer att avslå våra cookies kanske du inte kan använda några delar av vår **tjänst**.
 
-För mer allmän information om kakor, vänligen läs ["What Are Cookies"] (https://www.cookieconsent.com/what-are-cookies/).
+För mer allmän information om kakor, vänligen läs ["What Are Cookies"](https://www.cookieconsent.com/what-are-cookies/).
 -->
 
 <!--
