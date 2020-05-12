@@ -6,7 +6,7 @@ menu:
         weight: 10
 ---
 
-Den svenska COVID-19 dataportalen är skriven och hanterad av SciLifeLab Data Center och partners.
+Den svenska COVID-19 dataportalen är skriven och hanterad av SciLifeLab Data Centre och partners.
 
 ---
 
