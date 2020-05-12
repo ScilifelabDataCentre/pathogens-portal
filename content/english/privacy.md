@@ -1,4 +1,6 @@
-# Privacy Policy
+---
+title: Privacy Policy
+---
 
 SciLifeLab operates the [https://www.covid19dataportal.se](https://www.covid19dataportal.se) website, which provides the **SERVICE**.
 

@@ -2,6 +2,18 @@ baseURL: "https://www.covid19dataportal.se/"
 title: "COVID-19 Data Portal Sweden"
 params:
   description: COVID-19 Data Portal for Swedish Research
+  # There is a hugo i18n package, but it seems like overkill for so few strings
+  lang_strings:
+    en:
+      enquire_email_footer_dc: "To enquire on how to collaborate on the Swedish COVID-19 platform"
+      enquire_email_footer_bioinformatics: "For bioinformatics support, please contact"
+      support_feedback: Support & Feedback
+      privacy: Privacy Notice
+    sv:
+      enquire_email_footer_dc: "För att fråga om hur man samarbetar på plattformen"
+      enquire_email_footer_bioinformatics: "För support inom bioinformatik, kontakta"
+      support_feedback: Support och Feedback
+      privacy: Integritetspolicy
 
 languages:
   en:
