@@ -4,6 +4,7 @@
     <body>
         {{- partial "navbar.html" . -}}
         {{- partial "header.html" . -}}
+        {{- block "header" . }}{{- end }}
         <div id="content">
             {{ if or (gt .WordCount 500) (.Params.toc) }}
                 <div class="container">

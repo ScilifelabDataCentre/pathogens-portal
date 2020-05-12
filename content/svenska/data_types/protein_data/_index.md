@@ -7,3 +7,8 @@ menu:
         weight: 20
         pre: <i class="fas fa-shapes"></i>
 ---
+
+
+[Tillgängliga tjänster](available_services)
+
+[Svensk data](swedish_data)
