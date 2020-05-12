@@ -5,6 +5,27 @@ body {
 img {
     max-width: 100%;
 }
+blockquote {
+    border-left: 5px solid rgba(46, 104, 165, 0.3);
+    padding-left: 1rem;
+    margin-left: 1rem;
+    color: #666;
+}
+img[src$='#floatleft'] {
+    float: left;
+    max-width: 200px;
+    max-height: 150px;
+}
+
+img[src$='#floatright']{
+    float: right;
+    max-width: 200px;
+    max-height: 150px;
+}
+
+h2,h3,h4,h5,h6 {
+    margin-top: 2rem;
+}
 
 .navbar .navbar-brand {
     max-width: 60%;
