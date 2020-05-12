@@ -1,5 +1,5 @@
 ---
-title: Information om folkhälsa
+title: Folkhälsodata
 menu:
     main:
         identifier: public_health_data

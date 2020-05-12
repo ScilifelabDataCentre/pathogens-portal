@@ -1,5 +1,5 @@
 ---
-title: Swedish data
+title: Svensk data
 menu:
     main:
         identifier: protein_data_swedish_data

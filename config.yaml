@@ -46,7 +46,7 @@ languages:
     description: COVID-19 Dataportal för svensk forskning
     menu:
       top_nav:
-        - name: Europeiska portal
+        - name: Europeiska portalen
           url: https://www.covid19dataportal.org/
           weight: 20
       main:

@@ -1,5 +1,5 @@
 ---
-title: Stöd service
+title: Stödtjänster
 menu:
     main:
         identifier: support_services

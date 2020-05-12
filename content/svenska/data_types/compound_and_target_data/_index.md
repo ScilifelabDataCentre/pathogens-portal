@@ -1,5 +1,5 @@
 ---
-title: Förening och måldata
+title: Substans och måldata
 menu:
     main:
         identifier: compound_and_target_data

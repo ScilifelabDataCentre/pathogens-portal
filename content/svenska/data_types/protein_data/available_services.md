@@ -1,5 +1,5 @@
 ---
-title: Available services
+title: Tillgängliga tjänster
 menu:
     main:
         identifier: protein_data_available_services
