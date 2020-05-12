@@ -1,5 +1,5 @@
 ---
-title: Public health statistics
+title: Statistik om folkhälsan
 menu:
     main:
         id: public_health_statistics
