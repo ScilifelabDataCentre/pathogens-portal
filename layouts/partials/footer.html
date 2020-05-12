@@ -1,10 +1,10 @@
 <footer class="container border-top mt-5 mb-5">
   <div class="row border-bottom small text-muted">
     <div class="col-md">
-      <p class="mb-0">To enquire on how to collaborate on the Swedish COVID-19 platform: <a href="mailto:datacentre@scilifelab.se">datacentre@scilifelab.se</a>.</p>
+      <p class="mb-0">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).enquire_email_footer_dc }}: <a href="mailto:datacentre@scilifelab.se">datacentre@scilifelab.se</a></p>
     </div>
     <div class="col-md">
-      <p class="mb-0">For bioinformatics support, please contact <a href="mailto:support@nbis.se">support@nbis.se</a>.</p>
+      <p class="mb-0">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).enquire_email_footer_bioinformatics }}: <a href="mailto:support@nbis.se">support@nbis.se</a></p>
     </div>
   </div>
   <div class="row border-bottom">
@@ -42,11 +42,11 @@
       <ul class="list-unstyled border-top pt-1 nav-languages">
       {{ if .IsTranslated }}
         {{ range .AllTranslations }}
-          <li><a href="{{ relURL .Permalink }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"></a></li>
+          <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"></a></li>
         {{ end }}
       {{ else }}
         {{ range $.Site.Home.AllTranslations }}
-          <li><a href="{{ relURL .Permalink }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"></a></li>
+          <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"></a></li>
         {{ end }}
       {{ end }}
       </ul>
@@ -60,10 +60,10 @@
   </div>
   <div class="row footer-lower-row">
     <div class="col-md">
-      <a href="https://www.scilifelab.se/data/">Support &amp; Feedback</a>
+      <a href="https://www.scilifelab.se/data/">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).support_feedback }}</a>
     </div>
     <div class="col-md">
-      <a href="/privacy">Privacy Notice</a>
+      <a href='{{ "/privacy" | relLangURL }}'>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).privacy }}</a>
     </div>
     <div class="col-md text-center"></div>
     <div class="col-md text-center"></div>

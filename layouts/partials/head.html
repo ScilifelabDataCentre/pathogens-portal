@@ -9,6 +9,7 @@
   {{ if .IsTranslated }}{{ range .Translations }}
   <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ relURL .Permalink }}" title="{{ .Language.LanguageName }}">
   {{ end }}{{ end }}
+  <meta http-equiv="content-language" content="{{ .Site.Language.Lang }}">
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">

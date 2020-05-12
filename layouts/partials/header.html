@@ -1,5 +1,35 @@
+{{ if not .IsHome }}
+
 <div class="header">
   <div class="container">
     <h1>{{ .Title }}</h1>
   </div>
 </div>
+
+{{ if .Parent }}
+<nav class="breadcrumbs" aria-label="breadcrumb">
+  <div class="container">
+    <ol class="breadcrumb">
+
+      {{/*
+      I know, this is ugly. But recursive functions seems hard in Hugo, and we only go 3 deep currently..
+      */}}
+
+      {{ if .Parent.Parent }}
+        {{ if .Parent.Parent.Parent }}
+          {{ if .Parent.Parent.Parent.Parent }}
+            <li class="breadcrumb-item"><a href="{{ .Parent.Parent.Parent.Parent.URL }}">{{ .Parent.Parent.Parent.Parent.Title }}</a></li>
+          {{ end }}
+          <li class="breadcrumb-item"><a href="{{ .Parent.Parent.Parent.URL }}">{{ .Parent.Parent.Parent.Title }}</a></li>
+        {{ end }}
+        <li class="breadcrumb-item"><a href="{{ .Parent.Parent.URL }}">{{ .Parent.Parent.Title }}</a></li>
+      {{ end }}
+
+      <li class="breadcrumb-item"><a href="{{ .Parent.URL }}">{{ .Parent.Title }}</a></li>
+      <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+    </ol>
+  </div>
+</nav>
+{{ end }}
+
+{{ end }}

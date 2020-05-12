@@ -1,5 +1,5 @@
 ---
-title: Förening och måldata
+title: Kemisk biologi
 menu:
     main:
         identifier: compound_and_target_data

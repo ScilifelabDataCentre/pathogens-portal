@@ -1,5 +1,5 @@
 ---
-title: Allmän databas
+title: Generall dataförvaring
 menu:
     main:
         identifier: general_data_repository

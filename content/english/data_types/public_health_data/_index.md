@@ -7,3 +7,7 @@ menu:
         weight: 50
         pre: <i class="fas fa-ambulance"></i>
 ---
+
+[Register utiliser tool (RUT)](rut)
+
+[Public health statistics](public_health_statistics)
