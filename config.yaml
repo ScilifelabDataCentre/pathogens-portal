@@ -1,7 +1,11 @@
 baseURL: "https://www.covid19dataportal.se/"
 title: "COVID-19 Data Portal Sweden"
 params:
+  title: "COVID-19 Data Portal Sweden"
   description: COVID-19 Data Portal for Swedish Research
+  images:
+    - /img/site_logo/CV19DP_logo_oneliner_SWE.png
+
   # There is a hugo i18n package, but it seems like overkill for so few strings
   lang_strings:
     en:
