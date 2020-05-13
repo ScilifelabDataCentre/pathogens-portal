@@ -10,7 +10,7 @@ menu:
 ---
 
 ![NBIS Logo](/img/logos/nbislogo-orange-txt.svg#floatright)
-SciLifeLab Bioinformatics platform [NBIS](http://nbis.se/) offers a wide range of skills to help with your COVID-19 related research project.
+SciLifeLab Bioinformatics platform [NBIS](https://nbis.se/) offers a wide range of skills to help with your COVID-19 related research project.
 We have ~90 expert staff that can support you with bioinformatics analysis, systems development, and data management.
 In all our projects we are committed to FAIR and reproducible research that meets the highest scientific standards.
 
@@ -30,9 +30,9 @@ The Systems developers team can help with anything from scaling and optimising y
 
 NBIS can also assist you with Data Management Planning, and data publishing and FAIRification of data before entering into the European COVID-19 data portals (see [Submit data](../submit_data)).
 
-For more information, please visit [nbis.se](nbis.se).
+For more information, please visit [nbis.se](https://nbis.se).
 
-Apply for support at: [nbis.se/support/](nbis.se/support/)
+Apply for support at: [nbis.se/support/](https://nbis.se/support/)
 
 ---
 
