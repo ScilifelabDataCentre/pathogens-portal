@@ -8,6 +8,7 @@
 {{ end }}
 
 {{ define "main" }}
+  {{ $overview := (index $.Site.Params.lang_strings .Site.Language.Lang).overview }}
 
   {{ .Content }}
 
@@ -31,8 +32,9 @@
           {{ if .HasChildren }}
           <div id="{{ urlize .Identifier }}" class='collapse' data-parent="#{{ urlize .Parent }}_accordion">
             <ul class="list-group list-group-flush border-top">
+              <li class="list-group-item"><a href="{{ .URL }}"><span class="mr-2">{{ $overview }}</span>{{ .Post }}</a></li>
               {{ range .Children }}
-                <li class="list-group-item"><a href="{{ .URL }}">{{ .Pre }}<span class="{{ if .Pre }}ml-2{{ end }} mr-2">{{ .Name }}</span>{{ .Post }}</a></li>
+                <li class="list-group-item"><a href="{{ .URL }}"><span class="mr-2">{{ .Name }}</span>{{ .Post }}</a></li>
               {{ end }}
             </ul>
           </div>
