@@ -26,6 +26,10 @@ img[src$='#floatright']{
 h2,h3,h4,h5,h6 {
     margin-top: 2rem;
 }
+div > h2:first-of-type,
+aside > h5 {
+    margin-top: 0;
+}
 
 .navbar .navbar-brand {
     max-width: 60%;
