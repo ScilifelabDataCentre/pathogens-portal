@@ -28,7 +28,7 @@ The Systems developers team can help with anything from scaling and optimising y
 
 ## Data Management
 
-NBIS can assist you with Data Management Planning, data publishing, and FAIRification of data before submission to the European COVID-19 data portals (see [Submit data](../submit_data)) according to the internationally agreed standards.
+NBIS can assist you with Data Management Planning, data publishing, and FAIRification of data before submission to the European COVID-19 data portals (see [Submit data](/submit)) according to the internationally agreed standards.
 
 For more information about NBIS, please visit [nbis.se](https://nbis.se).
 
