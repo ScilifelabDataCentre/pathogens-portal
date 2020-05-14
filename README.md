@@ -1,4 +1,5 @@
-# COVID-19 Data Portal Sweden
+# ![COVID-19 Data Portal Sweden](static/img/site_logo/CV19DP_logo_oneliner_SWE.png)
+## COVID-19 Data Portal Sweden
 
 This is the source code for the Swedish Covid-19 Data Portal:
 [https://www.covid19dataportal.se/](https://www.covid19dataportal.se/)
