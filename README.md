@@ -9,11 +9,11 @@ The main European site can be seen at [https://www.covid19dataportal.org/](https
 
 * [Introduction](#introduction)
 * [Development](#development)
-    * [Step 1: Access the code](#step_1_access_the_code)
-    * [Step 2a: Edit the files (online)](#step_2a_edit_the_files_online)
-    * [Step 2b: Edit the files (locally)](#step_2b_edit_the_files_locally)
-    * [Step 3: Make a pull request](#step_3_make_a_pull_request)
-* [How to get help](#how_to_get_help)
+    * [Step 1: Access the code](#step-1-access-the-code)
+    * [Step 2a: Edit the files (online)](#step-2a-edit-the-files-online)
+    * [Step 2b: Edit the files (locally)](#step-2b-edit-the-files-locally)
+    * [Step 3: Make a pull request](#step-3-make-a-pull-request)
+* [How to get help](#how-to-get-help)
 * [Credits](#credits)
 
 ## Introduction
