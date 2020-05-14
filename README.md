@@ -36,14 +36,18 @@ All website content is written in [Markdown](https://guides.github.com/features/
 
 The code is hosted on [GitHub](http://github.com/), so you'll need an account.
 
-Next, visit the code repository: [https://github.com/ScilifelabDataCentre/covid-hub](https://github.com/ScilifelabDataCentre/covid-hub)
+Next, visit the code repository: [https://github.com/ScilifelabDataCentre/covid-portal](https://github.com/ScilifelabDataCentre/covid-portal)
 
 In the top right, you'll see a button that says _"Fork"_. Click this, then select your username.
 This makes a copy of the repository under your personal account that you can edit.
 
 ### Step 2a: Edit the files (online)
 
+> This is best if you only want to make one or two minor tweaks.
+> If you want to make more substantial edits over a longer time frame, we recommend editing locally (_Step 2b_).
+
 The easiest way to edit the website files is on the GitHub website.
+
 On the web page of your _forked_ copy of the repository, look in the `content/` directory.
 Each subdirectory contains the website contents in English or Swedish.
 
@@ -134,13 +138,17 @@ Press Ctrl+C to stop
 Use the URL printed at the bottom of this message (here, it's `http://localhost:1313/`) to view the site.
 Every time you save a file, the page will automatically refresh in the browser.
 
+#### Docker
+
+If you would prefer not to use Hugo, you can use the provided Dockerfile to build and run a container.
+
 ### Step 3: Make a pull request
 
 Once you're finished with your edits and they are committed and pushed to your forked repository, it's time to open a pull request.
 
 You can find full documentation on the [GitHub help website](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests), however in short:
 
-* Visit the main repository: [https://github.com/ScilifelabDataCentre/covid-hub](https://github.com/ScilifelabDataCentre/covid-hub)
+* Visit the main repository: [https://github.com/ScilifelabDataCentre/covid-portal](https://github.com/ScilifelabDataCentre/covid-portal)
 * Click the button that reads _"New Pull Request"_
 * Click the text link near the top that says _"compare across forks"_
 * In the right-hand _"head repository"_ drop down, select your username / fork.
