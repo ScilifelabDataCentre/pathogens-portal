@@ -7,7 +7,7 @@ menu:
         weight: 10
 ---
 
-* [Genomics &amp; transcriptomics](/data_types/genomics_transcriptomics/)
+* Genomics &amp; transcriptomics
     * [Data](/data_types/genomics_transcriptomics/data/)
     * [Guidelines](/data_types/genomics_transcriptomics/guidelines/)
     * [Services](/data_types/genomics_transcriptomics/services/)
