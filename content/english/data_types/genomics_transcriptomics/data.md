@@ -21,6 +21,6 @@ For example, relevant methodologies could include:
 * Transcriptomic analysis of RNA in the host, to determine host response during infection
 * ..and many more
 
-Raw and assembled sequences related to the COVID-19 outbreak, including outbreak isolates and records relating to coronavirus biology.
+Published raw and assembled sequences related to the COVID-19 outbreak, including outbreak isolates and records relating to coronavirus biology:
 * [EBI Portal](https://www.covid19dataportal.org/sequences)
 * [Swedish data](swedish_data)
