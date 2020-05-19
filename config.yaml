@@ -39,25 +39,25 @@ languages:
           name: EBI Portal
           post: <i class="fas fa-xs fa-external-link-alt"></i>
           url: 'https://www.covid19dataportal.org/sequences'
-          weight: 30
+          weight: 40
         - identifier: protein_data_ebi_portal
           parent: protein_data
           name: EBI Portal
           post: <i class="fas fa-xs fa-external-link-alt"></i>
           url: 'https://www.covid19dataportal.org/proteins'
-          weight: 30
+          weight: 40
         - identifier: imaging_data_ebi_portal
           parent: imaging_data
           name: EBI Portal
           post: <i class="fas fa-xs fa-external-link-alt"></i>
           url: 'https://www.covid19dataportal.org/sequences'
-          weight: 30
+          weight: 40
         - identifier: compound_and_target_data_ebi_portal
           parent: compound_and_target_data
           name: EBI Portal
           post: <i class="fas fa-xs fa-external-link-alt"></i>
           url: 'https://www.covid19dataportal.org/proteins'
-          weight: 30
+          weight: 40
 
   sv:
     languageName: Svenska
