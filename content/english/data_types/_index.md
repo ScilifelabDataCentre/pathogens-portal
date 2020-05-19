@@ -8,9 +8,9 @@ menu:
 ---
 
 * [Genomics &amp; transcriptomics](/data_types/genomics_transcriptomics/)
-    * [Swedish data](/data_types/genomics_transcriptomics/swedish_data/)
-    * [Available services](/data_types/genomics_transcriptomics/available_services/)
-    * [EBI Portal](https://www.covid19dataportal.org/sequences)
+    * [Data](/data_types/genomics_transcriptomics/swedish_data/)
+    * [Guidelines](/data_types/genomics_transcriptomics/guidelines//)
+    * [Services](/data_types/genomics_transcriptomics/available_services/)
 * [Protein data](/data_types/protein_data/)
     * [Swedish data](/data_types/protein_data/swedish_data/)
     * [Available services](/data_types/protein_data/available_services/)
