@@ -6,7 +6,8 @@
         {{- partial "header.html" . -}}
         {{- block "header" . }}{{- end }}
         <div id="content">
-            {{ if or (gt .WordCount 500) (.Params.toc) }}
+            {{ $auto_toc := and (not (isset .Params "toc")) (gt .WordCount 500) }}
+            {{ if or ($auto_toc) (.Params.toc) }}
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3 order-md-last">{{- partial "toc.html" . -}}</div>

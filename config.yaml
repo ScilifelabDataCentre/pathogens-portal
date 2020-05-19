@@ -1,7 +1,11 @@
 baseURL: "https://www.covid19dataportal.se/"
 title: "COVID-19 Data Portal Sweden"
 params:
+  title: "COVID-19 Data Portal Sweden"
   description: COVID-19 Data Portal for Swedish Research
+  images:
+    - /img/site_logo/CV19DP_logo_oneliner_SWE.png
+
   # There is a hugo i18n package, but it seems like overkill for so few strings
   lang_strings:
     en:
@@ -10,12 +14,14 @@ params:
       enquire_email_footer_bioinformatics: "For bioinformatics support, please contact"
       support_feedback: Support & Feedback
       privacy: Privacy Notice
+      overview: Overview
     sv:
       home_title: Snabbare forskning genom datadelning
       enquire_email_footer_dc: "För att fråga om hur man samarbetar på plattformen"
       enquire_email_footer_bioinformatics: "För support inom bioinformatik, kontakta"
       support_feedback: Support och Feedback
       privacy: Integritetspolicy
+      overview: Översikt
 
 languages:
   en:
