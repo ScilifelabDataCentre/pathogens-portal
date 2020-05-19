@@ -22,6 +22,6 @@ For example, relevant methodologies could include:
 
 To find out more, please visit the following pages:
 
-* [Published genomics & transcriptomics COVID-19 data](data)
-* [Guidelines genomics & transcriptomics data](guidelines)
-* [Available services for Swedish research groups](services)
+* [Data](data)
+* [Guidelines](guidelines)
+* [Services](services)
