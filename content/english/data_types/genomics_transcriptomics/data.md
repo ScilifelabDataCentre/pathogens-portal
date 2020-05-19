@@ -8,7 +8,7 @@ menu:
         weight: 10
 ---
 
-## Access to data
+## Available data
 Raw and assembled sequences related to the COVID-19 outbreak, including outbreak isolates and records relating to coronavirus biology.
 * [EBI Portal](https://www.covid19dataportal.org/proteins)
 * [Swedish](swedish_data)
