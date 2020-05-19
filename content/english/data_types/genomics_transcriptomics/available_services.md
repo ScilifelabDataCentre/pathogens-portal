@@ -4,7 +4,7 @@ title: "Available services: genomics & transcriptomics"
 menu:
     main:
         name: Available services
-        id: genomics_transcriptomics_available_services
+        identifier: genomics_transcriptomics_available_services
         parent: genomics_transcriptomics
         weight: 20
 ---
