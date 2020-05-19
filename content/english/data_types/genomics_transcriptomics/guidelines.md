@@ -7,12 +7,9 @@ menu:
         parent: genomics_transcriptomics
         weight: 30
 ---
+## Guidelines for COVID-19 data
+Make your Covid-19 research data useful and accessible for the rest of the research community by publishing in a public repository together with descriptive metadata.
 
-The data life cycle is typically divided into design, generation, analysis, storage & archiving, and sharing. Below you will find information about infrastructure resources available during these phases.
+[NBIS](http://www.nbis.se/) can support you with Data Management Planning early on in the projects to make data sharing more efficient, both through [personal consultations](https://nbis.se/support/supportform/index.php?form=consultation) and by providing a [customised tool](https://dsw.scilifelab.se/) to create Data Management Plans. We can also assist you in identifying relevant repositories and common international standards for describing and publishing your data, as well as guide you through the submission process.
 
-![Data Life Cycle](/img/data_life_cycle_circle_logos.png)
-
-## Data design
-During this phase you plan for which data is needed to answer your research question.
-High quality science is often only possible if the resource facilities you intend to use gets involved already in the planning phase of a project.
-Consultation and advice regarding data management planning, data generation and data analysis are offered by [NBIS](https://nbis.se/) and [SciLifeLab](https://www.scilifelab.se/).
+* [More information about repositories, data formats and metadata standards](https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/covid-19/index.html#guidelines-about-repositories-data-formats-and-metadata-standards)
