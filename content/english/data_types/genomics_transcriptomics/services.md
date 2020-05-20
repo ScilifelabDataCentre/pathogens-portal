@@ -1,6 +1,5 @@
 ---
 title: "Services: genomics & transcriptomics"
-#toc: False
 menu:
     main:
         name: Services for researchers
