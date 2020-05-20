@@ -1,5 +1,5 @@
 ---
-title: Svensk genomik & transkriptomik data
+title: Genomik & transkriptomik data
 menu:
     main:
         identifier: genomics_transcriptomics_swedish_data
