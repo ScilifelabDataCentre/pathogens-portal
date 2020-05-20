@@ -9,4 +9,4 @@ menu:
 ---
 
 
-[Tillgängliga tjänster](available_services)
+[Tillgängliga tjänster](services)
