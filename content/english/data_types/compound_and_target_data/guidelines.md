@@ -5,7 +5,7 @@ menu:
         name: Guidelines
         identifier: compound_and_target_data_guidelines
         parent: compound_and_target_data
-        weight: 30
+        weight: 20
 ---
 
 ## Guidelines for COVID-19 data
