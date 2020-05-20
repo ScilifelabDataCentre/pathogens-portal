@@ -31,31 +31,6 @@ languages:
         - name: European Hub
           url: https://www.covid19dataportal.org/
           weight: 20
-      main:
-        - identifier: genomics_transcriptomics_ebi_portal
-          parent: genomics_transcriptomics
-          name: EBI Portal
-          post: <i class="fas fa-xs fa-external-link-alt"></i>
-          url: 'https://www.covid19dataportal.org/sequences'
-          weight: 40
-        - identifier: protein_data_ebi_portal
-          parent: protein_data
-          name: EBI Portal
-          post: <i class="fas fa-xs fa-external-link-alt"></i>
-          url: 'https://www.covid19dataportal.org/proteins'
-          weight: 40
-        - identifier: imaging_data_ebi_portal
-          parent: imaging_data
-          name: EBI Portal
-          post: <i class="fas fa-xs fa-external-link-alt"></i>
-          url: 'https://www.covid19dataportal.org/sequences'
-          weight: 40
-        - identifier: compound_and_target_data_ebi_portal
-          parent: compound_and_target_data
-          name: EBI Portal
-          post: <i class="fas fa-xs fa-external-link-alt"></i>
-          url: 'https://www.covid19dataportal.org/proteins'
-          weight: 40
 
   sv:
     languageName: Svenska
@@ -67,16 +42,3 @@ languages:
         - name: Europeiska portalen
           url: https://www.covid19dataportal.org/
           weight: 20
-      main:
-        - identifier: genomics_transcriptomics_ebi_portal
-          parent: genomics_transcriptomics
-          name: EBI Portal
-          post: <i class="fas fa-xs fa-external-link-alt"></i>
-          url: 'https://www.covid19dataportal.org/sequences'
-          weight: 30
-        - identifier: protein_data_ebi_portal
-          parent: protein_data
-          name: EBI Portal
-          post: <i class="fas fa-xs fa-external-link-alt"></i>
-          url: 'https://www.covid19dataportal.org/proteins'
-          weight: 30
