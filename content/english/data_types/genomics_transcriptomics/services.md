@@ -6,7 +6,7 @@ menu:
         name: Services
         identifier: genomics_transcriptomics_services
         parent: genomics_transcriptomics
-        weight: 20
+        weight: 30
 ---
 
 ## SciLifeLab National Genomics Infrastructure
