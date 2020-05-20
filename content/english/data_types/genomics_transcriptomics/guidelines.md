@@ -5,7 +5,7 @@ menu:
         name: Guidelines
         identifier: genomics_transcriptomics_guidelines
         parent: genomics_transcriptomics
-        weight: 30
+        weight: 20
 ---
 ## Guidelines for COVID-19 data
 Make your Covid-19 research data useful and accessible for the rest of the research community by publishing in a public repository together with descriptive metadata.
