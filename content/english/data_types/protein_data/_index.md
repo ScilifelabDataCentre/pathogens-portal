@@ -10,6 +10,6 @@ menu:
 
 To find out more, please visit the following pages:
 
-* [DPublished data](data)
+* [Published data](data)
 * [Guidelines for data producers](guidelines)
 * [Services for researchers](services)
