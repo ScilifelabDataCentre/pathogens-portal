@@ -1,12 +1,12 @@
 ---
-title: "Available services: genomics & transcriptomics"
+title: "Services: genomics & transcriptomics"
 #toc: False
 menu:
     main:
-        name: Available services
-        identifier: genomics_transcriptomics_available_services
+        name: Services
+        identifier: genomics_transcriptomics_services
         parent: genomics_transcriptomics
-        weight: 20
+        weight: 30
 ---
 
 ## SciLifeLab National Genomics Infrastructure

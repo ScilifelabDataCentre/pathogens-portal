@@ -1,10 +1,10 @@
 ---
-title: Guidelines for protein data
+title: Guidelines for imaging data
 menu:
     main:
         name: Guidelines
-        identifier: protein_data_guidelines
-        parent: protein_data
+        identifier: imaging_data_guidelines
+        parent: imaging_data
         weight: 20
 ---
 
@@ -14,14 +14,12 @@ Make your Covid-19 research data useful and accessible for the rest of the resea
 [NBIS](http://www.nbis.se/) can support you with Data Management Planning early on in the projects to make data sharing more efficient, both through [personal consultations](https://nbis.se/support/supportform/index.php?form=consultation) and by providing a [customised tool](https://dsw.scilifelab.se/) to create Data Management Plans. We can also assist you in identifying relevant repositories and common international standards for describing and publishing your data, as well as guide you through the submission process.
 
 ### Repositories
-For a curated list of relevant proteomics repositories see [FAIRsharing](https://fairsharing.org/) using the query ’[proteomics](https://fairsharing.org/search/?q=proteomics&content=biodbcore&name=&taxonomies=&organisations=&shortname=&description=&supportlinks=&licenses=&countries=&maintainers=&expanded_onto_domains=&expanded_onto_disciplines=&user_defined_tags=&record_id=&miriam_id=&search_state=hidden)’. 
 
-We recommend to use the [PRIDE](https://www.ebi.ac.uk/pride/) repository provided by the [ProteomeXchange](http://www.proteomexchange.org/) Consortium. The repository admits protein and peptide identification/quantification data with the accompanying mass spectra evidence and any other related data types. Submission is done using the [PX Submission Tool](https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool)
 
 ### Metadata
 Metadata provides 'data about data' , and may include information on the methodology used to collect the data, analytical and procedural information, definitions of variables, units of measurement, any assumptions made, the format and file type of the data and software used to collect and/or process the data. Researchers are strongly encouraged to use community metadata standards where these are in place.
 
-For proteomics, use the minimal information model specified in [MIAPE](https://doi.org/10.25504/FAIRsharing.8vv5fc), and fill them using the controlled vocabularies specified by the Proteomics Standards Initiative: [PSI CVs](https://doi.org/10.25504/FAIRsharing.sxh2dp)
+<!--- Suggestions of specifik metadata standards --->
 
 It is highly recommended to, already from the beginning of the project, structure e.g. sample metadata in a way that enables sequence data submission  without having to reformat the metadata.
 

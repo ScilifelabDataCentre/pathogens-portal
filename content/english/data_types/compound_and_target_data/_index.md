@@ -7,3 +7,9 @@ menu:
         weight: 40
         pre: <i class="fas fa-bullseye"></i>
 ---
+
+To find out more, please visit the following pages:
+
+* [Data](data)
+* [Guidelines](guidelines)
+* [Services](services)
