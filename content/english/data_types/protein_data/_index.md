@@ -8,6 +8,8 @@ menu:
         pre: <i class="fas fa-shapes"></i>
 ---
 
-[Services](services)
-[Guidelines](guidelines)
-[Data](data)
+To find out more, please visit the following pages:
+
+* [Data](data)
+* [Guidelines](guidelines)
+* [Services](services)
