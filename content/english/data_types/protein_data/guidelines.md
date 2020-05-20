@@ -5,7 +5,7 @@ menu:
         name: Guidelines
         identifier: protein_data_guidelines
         parent: protein_data
-        weight: 30
+        weight: 20
 ---
 
 ## Guidelines for COVID-19 data
