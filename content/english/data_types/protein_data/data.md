@@ -2,7 +2,7 @@
 title: Protein data
 menu:
     main:
-        name: Available data
+        name: Published data
         identifier: protein_data_data
         parent: protein_data
         weight: 10

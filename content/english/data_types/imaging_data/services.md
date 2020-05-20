@@ -2,6 +2,7 @@
 title: Services
 menu:
     main:
+        name: Services for researchers
         identifier: imaging_data_services
         parent: imaging_data
         weight: 30

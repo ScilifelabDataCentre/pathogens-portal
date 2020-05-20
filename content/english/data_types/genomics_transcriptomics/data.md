@@ -2,7 +2,7 @@
 title: Genomics & transcriptomics data
 menu:
     main:
-        name: Available data
+        name: Published data
         identifier: genomics_transcriptomics_data
         parent: genomics_transcriptomics
         weight: 10
