@@ -8,6 +8,6 @@ menu:
         pre: <i class="fas fa-shapes"></i>
 ---
 
-[Available Services](available_services)
-
-[Swedish data](swedish_data)
+[Services](services)
+[Guidelines](guidelines)
+[Data](data)
