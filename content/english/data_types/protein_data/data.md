@@ -3,7 +3,7 @@ title: Protein data
 menu:
     main:
         name: Published data
-        identifier: protein_data
+        identifier: protein_data_data
         parent: protein_data
         weight: 10
 ---
