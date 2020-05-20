@@ -3,7 +3,7 @@ title: "Services: genomics & transcriptomics"
 #toc: False
 menu:
     main:
-        name: Services
+        name: Services for researchers
         identifier: genomics_transcriptomics_services
         parent: genomics_transcriptomics
         weight: 30

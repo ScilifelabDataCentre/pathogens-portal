@@ -2,6 +2,7 @@
 title: Services
 menu:
     main:
+        name: Services for researchers
         identifier: protein_data_services
         parent: protein_data
         weight: 30

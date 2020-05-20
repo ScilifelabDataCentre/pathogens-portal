@@ -10,5 +10,3 @@ menu:
 
 
 [Tillgängliga tjänster](available_services)
-
-[Svensk data](swedish_data)

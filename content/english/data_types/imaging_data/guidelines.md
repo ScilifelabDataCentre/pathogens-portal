@@ -2,7 +2,7 @@
 title: Guidelines for imaging data
 menu:
     main:
-        name: Guidelines
+        name: Guidelines for data producers
         identifier: imaging_data_guidelines
         parent: imaging_data
         weight: 20
