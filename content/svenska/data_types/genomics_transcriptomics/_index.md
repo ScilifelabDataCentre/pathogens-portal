@@ -8,7 +8,7 @@ menu:
         pre: <i class="fas fa-dna"></i>
 ---
 
-Genomik och transkriptomik hänvisar till studien av DNA och RNA, vanligtvis med hjälp av next-generation sekvensering.
+Genomik och transkriptomik hänvisar till studiet av DNA och RNA, vanligtvis med hjälp av next-generation sekvensering.
 
 För mer information, besök följande sidor:
 
