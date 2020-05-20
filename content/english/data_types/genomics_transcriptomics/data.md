@@ -2,7 +2,7 @@
 title: Genomics & transcriptomics data
 menu:
     main:
-        name: Data
+        name: Published data
         identifier: genomics_transcriptomics_data
         parent: genomics_transcriptomics
         weight: 10
@@ -23,4 +23,3 @@ For example, relevant methodologies could include:
 
 Published raw and assembled sequences related to the COVID-19 outbreak, including outbreak isolates and records relating to coronavirus biology:
 * [EBI Portal](https://www.covid19dataportal.org/sequences)
-* [Swedish data](swedish_data)

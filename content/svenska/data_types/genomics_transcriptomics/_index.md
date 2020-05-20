@@ -9,5 +9,3 @@ menu:
 ---
 
 [Tillgängliga tjänster](available_services)
-
-[Svensk genomik & transkriptomik data](swedish_data)

@@ -2,7 +2,7 @@
 title: Guidelines for compound and target data
 menu:
     main:
-        name: Guidelines
+        name: Guidelines for data producers
         identifier: compound_and_target_data_guidelines
         parent: compound_and_target_data
         weight: 20
