@@ -4,7 +4,7 @@ menu:
     main:
         name: Data
         identifier: compound_and_target_data_data
-        parent: compund_and_target_data
+        parent: compound_and_target_data
         weight: 10
 ---
 
