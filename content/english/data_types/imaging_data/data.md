@@ -2,7 +2,7 @@
 title: Imaging data
 menu:
     main:
-        name: Data
+        name: Available data
         identifier: imaging_data_data
         parent: imaging_data
         weight: 10

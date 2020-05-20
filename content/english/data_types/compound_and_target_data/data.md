@@ -2,7 +2,7 @@
 title: Compound and target data
 menu:
     main:
-        name: Data
+        name: Available data
         identifier: compound_and_target_data_data
         parent: compound_and_target_data
         weight: 10
