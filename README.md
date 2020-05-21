@@ -53,8 +53,8 @@ Each subdirectory contains the website contents in English or Swedish.
 
 The filenames correspond to the website URL:
 
-* [https://www.covid19dataportal.se/data_types/protein_data/available_services/](https://www.covid19dataportal.se/data_types/protein_data/available_services/)
-    * `content/english/data_types/protein_data/available_services.md`
+* [https://www.covid19dataportal.se/data_types/protein_data/services/](https://www.covid19dataportal.se/data_types/protein_data/services/)
+    * `content/english/data_types/protein_data/services.md`
 * [https://www.covid19dataportal.se/sv/data_types/protein_data/](https://www.covid19dataportal.se/sv/data_types/protein_data/)
     * `content/svenska/data_types/protein_data/_index.md`
 

@@ -9,6 +9,7 @@ menu:
 ---
 
 ## Available data
+
 Genomics and transcriptomics refers to the study of DNA and RNA, typically using High-throughput sequencing.
 A number of different genomics and transcriptomics methods can be used to research the COVID-19 pandemic.
 
@@ -22,4 +23,5 @@ For example, relevant methodologies could include:
 * ..and many more
 
 Published raw and assembled sequences related to the COVID-19 outbreak, including outbreak isolates and records relating to coronavirus biology:
+
 * [EBI Portal](https://www.covid19dataportal.org/sequences)
