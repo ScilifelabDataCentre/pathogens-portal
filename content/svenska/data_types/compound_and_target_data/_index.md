@@ -7,3 +7,9 @@ menu:
         weight: 40
         pre: <i class="fas fa-bullseye"></i>
 ---
+
+För mer information, besök följande sidor:
+
+* [Publicerad data](data)
+* [Riktlinjer för data](guidelines)
+* [Tillgängliga tjänster](services)

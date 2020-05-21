@@ -12,5 +12,6 @@ Genomik och transkriptomik hänvisar till studiet av DNA och RNA, vanligtvis med
 
 För mer information, besök följande sidor:
 
-* [Genomik & transkriptomik data](data)
+* [Publicerad data](data)
+* [Riktlinjer för data](guidelines)
 * [Tillgängliga tjänster](services)
