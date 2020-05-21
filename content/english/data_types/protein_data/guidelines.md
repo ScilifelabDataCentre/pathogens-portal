@@ -21,7 +21,7 @@ We recommend to use the [PRIDE](https://www.ebi.ac.uk/pride/) repository provide
 ### Metadata
 Metadata provides 'data about data' , and may include information on the methodology used to collect the data, analytical and procedural information, definitions of variables, units of measurement, any assumptions made, the format and file type of the data and software used to collect and/or process the data. Researchers are strongly encouraged to use community metadata standards where these are in place.
 
-For proteomics, use the minimal information model specified in [MIAPE](https://doi.org/10.25504/FAIRsharing.8vv5fc), and fill them using the controlled vocabularies specified by the Proteomics Standards Initiative: [PSI CVs](https://doi.org/10.25504/FAIRsharing.sxh2dp)
+For proteomics, use the minimal information model specified in [MIAPE](https://doi.org/10.25504/FAIRsharing.8vv5fc), and fill them using the controlled vocabularies specified by the Proteomics Standards Initiative: [PSI CVs](https://doi.org/10.25504/FAIRsharing.sxh2dp).
 
 It is highly recommended to, already from the beginning of the project, structure e.g. sample metadata in a way that enables sequence data submission  without having to reformat the metadata.
 
