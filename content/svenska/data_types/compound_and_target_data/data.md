@@ -1,10 +1,10 @@
 ---
-title: Publicerad proteindata
+title: Publicerad kemisk biologi
 menu:
     main:
         name: Publicerad data
-        identifier: protein_data_data
-        parent: protein_data
+        identifier: compound_and_target_data_data
+        parent: compound_and_target_data
         weight: 10
 ---
 

@@ -1,10 +1,10 @@
 ---
-title: Publicerad proteindata
+title: Publicerad avbildningsdatadata
 menu:
     main:
         name: Publicerad data
-        identifier: protein_data_data
-        parent: protein_data
+        identifier: imaging_data_data
+        parent: imaging_data
         weight: 10
 ---
 
