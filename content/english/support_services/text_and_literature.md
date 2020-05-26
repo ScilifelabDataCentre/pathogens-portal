@@ -1,5 +1,5 @@
 ---
-title: Text and Literature
+title: Text and literature
 menu:
     main:
         identifier: text_and_literature
