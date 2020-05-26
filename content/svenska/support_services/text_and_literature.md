@@ -1,8 +1,8 @@
 ---
-title: Tools for collaborations
+title: Texter och litteratur
 menu:
     main:
-        identifier: tools_for_collaborations
+        identifier: text_and_literature
         parent: support_services
         weight: 40
         pre: <i class="fas fa-share-alt"></i>
