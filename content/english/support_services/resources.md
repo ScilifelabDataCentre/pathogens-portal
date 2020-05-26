@@ -1,8 +1,8 @@
 ---
-title: Tools and models for AI
+title: Resources
 menu:
     main:
-        identifier: tools_and_models_for_ai
+        identifier: resource_services
         parent: support_services
         weight: 30
         pre: <i class="fas fa-project-diagram"></i>
