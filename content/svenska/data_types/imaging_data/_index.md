@@ -1,5 +1,5 @@
 ---
-title: Avbildningsdata
+title: Bilddata
 menu:
     main:
         identifier: imaging_data
