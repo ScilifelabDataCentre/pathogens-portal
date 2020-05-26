@@ -1,5 +1,5 @@
 ---
-title: Public health data
+title: Health registry data
 menu:
     main:
         identifier: public_health_data
@@ -9,5 +9,3 @@ menu:
 ---
 
 [Register utiliser tool (RUT)](rut)
-
-[Public health statistics](public_health_statistics)
