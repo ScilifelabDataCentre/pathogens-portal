@@ -8,6 +8,8 @@ menu:
         pre: <i class="fas fa-shapes"></i>
 ---
 
-[Available Services](available_services)
+To find out more, please visit the following pages:
 
-[Swedish data](swedish_data)
+* [Published data](data)
+* [Guidelines for data producers](guidelines)
+* [Services for researchers](services)

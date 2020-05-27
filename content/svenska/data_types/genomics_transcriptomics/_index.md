@@ -8,6 +8,10 @@ menu:
         pre: <i class="fas fa-dna"></i>
 ---
 
-[Tillgängliga tjänster](available_services)
+Genomik och transkriptomik hänvisar till studiet av DNA och RNA, vanligtvis med hjälp av next-generation sekvensering.
 
-[Svensk genomik & transkriptomik data](swedish_data)
+För mer information, besök följande sidor:
+
+* [Publicerad data](data)
+* [Riktlinjer för data](guidelines)
+* [Tillgängliga tjänster](services)

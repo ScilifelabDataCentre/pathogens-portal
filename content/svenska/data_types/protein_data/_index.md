@@ -8,7 +8,8 @@ menu:
         pre: <i class="fas fa-shapes"></i>
 ---
 
+För mer information, besök följande sidor:
 
-[Tillgängliga tjänster](available_services)
-
-[Svensk data](swedish_data)
+* [Publicerad data](data)
+* [Riktlinjer för data](guidelines)
+* [Tillgängliga tjänster](services)
