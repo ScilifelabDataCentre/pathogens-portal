@@ -1,5 +1,5 @@
 ---
-title: Registerdata
+title: Public health data
 menu:
     main:
         identifier: public_health_data
@@ -7,5 +7,7 @@ menu:
         weight: 50
         pre: <i class="fas fa-ambulance"></i>
 ---
+
+Data from Swedish national health registers.
 
 [National health metadata repository - RUT](rut)
