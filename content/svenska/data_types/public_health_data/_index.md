@@ -8,6 +8,6 @@ menu:
         pre: <i class="fas fa-ambulance"></i>
 ---
 
-Meta data about studies in Swedish national health registers.
+Metadata för svensk registerforskning.
 
-[National health metadata repository - RUT](rut)
+[Metadata för svensk registerforskning - RUT](rut)
