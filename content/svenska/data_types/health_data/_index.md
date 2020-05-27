@@ -8,4 +8,4 @@ menu:
         pre: <i class="fas fa-ambulance"></i>
 ---
 
-[Nationell hälsa metadataförvaring - RUT](rut)
+[Metadata för nationella register - RUT](rut)

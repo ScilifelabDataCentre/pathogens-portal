@@ -1,5 +1,5 @@
 ---
-title: Nationell hälsa metadataförvaring - RUT
+title: Metadata för nationella register - RUT
 menu:
     main:
         identifier: rut
