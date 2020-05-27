@@ -10,8 +10,8 @@ menu:
 
 Protein data includes protein sequences or families, proteomic data, protein structure data and electron microscopy density maps for proteins.
 
-To find out more, please visit the following pages:
-
 * [Published data](data)
+
 * [Data guidelines](guidelines)
+
 * [Services for researchers](services)
