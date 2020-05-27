@@ -10,6 +10,16 @@ menu:
 
 ## SciLifeLab Genomics Platform
 
+[SciLifeLab Genomics Platform](https://www.scilifelab.se/infrastructure/?cat_13168) har ett antal olika anläggningar som erbjuder tjänster till forskare inom en rad olika tekniker.
+
+### Clinical Genomics Stockholm (Diagnostics Development)
+
+Clinical Genomics Stockholm-anläggningen har utvecklat ett WGS-baserat arbetsflöde för att förstå genetisk variation, särskilt i inställningar för sällsynta sjukdomar. Detta arbetsflöde inkluderar datagenerering, bioinformatisk analys och tolkning i vårt specialutvecklade kliniska beslutssupportsystem Scout.
+
+Vi tror att detta arbetsflöde kan vara användbart även för COVID-19-projekt som syftar till att förstå värdens mottaglighet. Data genereras till 30x täckning med PCR-fria bibliotek, bioinformatisk analys är omfattande och inkluderar anrop av SNV, INDEL, CNV, SV, STR och UPD. Varianter bearbetas med hjälp av en rankningsmodell innan de görs tillgängliga för tolkning i Scout. Denna infrastruktur har använts för analys av> 6000 WGS-prover.
+
+Huvudfokus för anläggningen Clinical Genomics Stockholm och plattformen för diagnostikutveckling är att stödja övergången av NGS till translationella och diagnostiska inställningar. Samarbetspartners inkluderar forskningsgrupper, sjukvård, myndigheter, industri och internationella grupper. Besök [vår webbplats](https://www.scilifelab.se/facilities/clinical-genomics-stockholm/) för att lära dig mer om våra tjänster och kontakta oss på [support@clinicalgenomics.se](mailto:support@clinicalgenomics.se) för att diskutera dit.
+
 ### High Throughput Genome Engineering (HTGE)
 
 SciLifeLab High Throughput Genome Engineering Facility erbjuder poolade CRISPR-skärmar från biblioteksdesign till dataanalys, allt från små, specialanpassade till genombredda guidebibliotek.
