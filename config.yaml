@@ -10,13 +10,13 @@ params:
   lang_strings:
     en:
       home_title: Accelerating research through data sharing
-      enquire_email_footer_dc: "To enquire on how to collaborate on the Swedish COVID-19 platform"
+      enquire_email_footer_dc: "Contact the Swedish COVID-19 Data Portal"
       enquire_email_footer_bioinformatics: "For bioinformatics support, please contact"
       support_feedback: Support & Feedback
       privacy: Privacy Notice
     sv:
       home_title: Snabbare forskning genom datadelning
-      enquire_email_footer_dc: "För att fråga om hur man samarbetar på plattformen"
+      enquire_email_footer_dc: "Kontakta den svenska Covid-19 dataportalen"
       enquire_email_footer_bioinformatics: "För support inom bioinformatik, kontakta"
       support_feedback: Support och Feedback
       privacy: Integritetspolicy
