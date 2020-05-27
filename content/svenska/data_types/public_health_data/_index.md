@@ -1,5 +1,5 @@
 ---
-title: Folkhälsodata
+title: Registerdata
 menu:
     main:
         identifier: public_health_data
@@ -8,6 +8,4 @@ menu:
         pre: <i class="fas fa-ambulance"></i>
 ---
 
-[Register utiliser tool (RUT)](rut)
-
-[Statistik om folkhälsan](public_health_statistics)
+[National health metadata repository - RUT](rut)
