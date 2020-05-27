@@ -28,6 +28,10 @@ Våra systemutvecklare kan hjälpa till med allt från optimering av dina verkty
 
 För att göra dataset tillgängliga i Europeiska COVID-19 portaler erbjuder NBIS stöd med planering av datahantering, FAIRifiering av data samt hjälp med publicering data i publika repositorier (se [Publicera data](../submit)) enligt internationellt överenskomna standarder.
 
+En datahanteringsplan (DHP) är ett levande dokument som beskriver hur ny och existerande data kommer att hanteras inom ramen för ditt forskningsprojekt samt när projektet är avslutat. För att din forskning och tillgängliggörande av din data ska bli mer effektiv är det rekommenderat, och i vissa fall obligatoriskt, att skapa en datahanteringsplan tidigt i ditt projekt.
+
+Vi tillhandahåller [ett verktyg](https://dsw.scilifelab.se) för att skapa DHP:er med mallar utformade i enlighet med Vetenskapsrådets krav. 
+
 För mer information om NBIS, besök [nbis.se](https://nbis.se).
 
 Ansök om support på: [nbis.se/support/](https://nbis.se/support/)
@@ -37,7 +41,7 @@ Ansök om support på: [nbis.se/support/](https://nbis.se/support/)
 ## NBIS är den [svenska noden](https://elixir-europe.org/about-us/who-we-are/nodes/sweden) i ELIXIR
 
 ![NBIS Logo](/img/logos/elixir-se-logo.png#floatright)
-I egenskap av den europeiska infrastrukturen för biologisk data tillhandahåller [ELIXIR](https://elixir-europe.org/) en rad tjänster som du kan använda för att studera SARS-CoV-2 coronavirus och COVID-19-sjukdomen.
+I egenskap av den europeiska infrastrukturen för biologisk data tillhandahåller [ELIXIR](https://elixir-europe.org/) en rad tjänster som du kan använda för att studera coronaviruset SARS-CoV-2 och sjukdomen COVID-19.
 
 * [ELIXIRs stöd för COVID19-forskning](https://elixir-europe.org/news/covid-19-support)
 * [ELIXIRs resurser för COVID19-forskning](https://elixir-europe.org/covid-19-resources)

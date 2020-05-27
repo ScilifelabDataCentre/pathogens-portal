@@ -30,6 +30,10 @@ The Systems developers team can help with anything from scaling and optimising y
 
 To make datasets available in the European COVID-19 data portals (see [Submit data](../submit)), NBIS can assist you with Data Management Planning, FAIRification of data, and data publishing to public repositories according to the internationally agreed standards.
 
+To make your research and data sharing more efficient it is recommended, and sometimes required by funders, to create a Data Management Plan early on in your project. A Data Management Plan (DMP) is a revisable document stating how you intend to handle new and existing data, both during and following the conclusion of your research project. 
+We provide a [customised tool](https://dsw.scilifelab.se/) for creating DMPs with templates conforming to the requirements of the Swedish Research Council and other stakeholders. 
+
+
 For more information about NBIS, please visit [nbis.se](https://nbis.se).
 
 Apply for support at: [nbis.se/support/](https://nbis.se/support/)
