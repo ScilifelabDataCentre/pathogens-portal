@@ -8,113 +8,251 @@ menu:
         pre: <i class="fas fa-project-diagram"></i>
 ---
 
-# Infrastructures
-* **[COVID-19 HPC Consortium](https://www.xsede.org/covid19-hpc-consortium)**
+## Infrastructures
 
-  The consortium encompasses computing capabilities from some of the most powerful and advanced computers in the world. It is possible to request allocations of up to 6 months.
+##### [COVID-19 HPC Consortium](https://www.xsede.org/covid19-hpc-consortium)
+The consortium encompasses computing capabilities from some of the most powerful and advanced computers in the world.
+It is possible to request allocations of up to 6 months.
 
-* **[Partnership for Advanced Computing in Europe (PRACE)](https://prace-ri.eu/prace-support-to-mitigate-impact-of-covid-19-pandemic/)**
+##### [ELIXIR Computing Resources](https://elixir-europe.org/services/tag/compute)
+ELIXIR nodes have made available a broad variety of computing resources.
 
-  PRACE provides access to world-class high performance computing resources for researchers from academia and industry. PRACE has a fast review track for project proposals requesting computing resources to contribute to the mitigation of the impact of the COVID-19 pandemic.
+##### [European Galaxy COVID-19 Project](https://covid19.galaxyproject.org/)
+Publicly accessible infrastructure and workflows for SARS-CoV-2 data analyses from different scientific domains (genomics, proteomics, metabolomics, cheminformatics...).
 
-* **[Swe-Clarin](https://sweclarin.se/)**
+##### [Partnership for Advanced Computing in Europe (PRACE)](https://prace-ri.eu/prace-support-to-mitigate-impact-of-covid-19-pandemic/)
+PRACE provides access to world-class high performance computing resources for researchers from academia and industry.
+PRACE has a fast review track for project proposals requesting computing resources to contribute to the mitigation of the impact of the COVID-19 pandemic.
 
-  Swe-Clarin makes text-based materials and text analysis tools available. It is a national node in the European CLARIN (Common Language Resources and Technology Infrastructure).
+##### [SciLifeLab BioImage Informatics](https://www.scilifelab.se/facilities/bioimage-informatics/)
+The BioImage Informatics Facility provides support and training needed to perform state-of-the-art analyses on image data, including machine learning.
+It also organizes monthly Call4Help sessions.
 
-* **[Swedish National Infrastructure for Computing (SNIC)](https://www.snic.se/)**
+##### [Swe-Clarin](https://sweclarin.se/)
+Swe-Clarin makes text-based materials and text analysis tools available.
+It is a national node in the European CLARIN (Common Language Resources and Technology Infrastructure).
 
-  SNIC is a national research infrastructure that makes available large-scale high performance computing resources, storage capacity, and advanced user support, for Swedish researchers.
+##### [Swedish National Infrastructure for Computing (SNIC)](https://www.snic.se/)
+SNIC is a national research infrastructure that makes available large-scale high performance computing resources, storage capacity, and advanced user support, for Swedish researchers.
+
+## Data
+
+### Text data
+
+##### [CDC COVID-19 Research Articles](https://www.cdc.gov/library/researchguides/2019novelcoronavirus/researcharticles.html)
+A downloadable database of COVID-19 literature.
+This database is updated by systematically searching various bibliographic databases and hand searching selected grey literature sources.
+
+##### [CORD-19 dataset](https://pages.semanticscholar.org/coronavirus-research)
+Large collection of scientific articles (currently 128000) related to coronaviruses from Pubmed, biorxiv, medrxiv and other sources.
+All articles are provided in a standardized JSON format.
+
+##### [CORD-19-on-FHIR](https://github.com/fhircat/CORD-19-on-FHIR)
+A version of the CORD-19 dataset with semantic annotations in FHIR RDF format.
+
+##### [Elsevier Novel Coronavirus Information Centre](https://www.elsevier.com/connect/coronavirus-information-center)
+Bulk download of Elsevier fulltext articles related to COVID-19 and other resources.
+
+##### [LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/ )
+A curated database of COVID-19 articles in PubMed compiled by the National Library of Medicine.
+
+##### [medRxiv and bioRxiv COVID-19 preprints](https://connect.medrxiv.org/relate/content/181)
+Combined page for all COVID-19 publications posted on medRxiv and bioRxiv.
+
+##### [Elsevier COVID-19 articles](https://www.elsevier.com/connect/coronavirus-information-center)
+Articles available for bulk download.
+
+##### [WHO database of COVID-19 publications](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov)
+
+### Clinical data and clinical trials
+
+##### [Clinicaltrial.gov](https://clinicaltrials.gov/)
+US clinical trials register.
+
+##### [EU Clinical Trials Register](https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&page=2)
+Official database of clinical trials within the EU.
+
+##### [Global Clinical Trial Tracker](https://www.covid-trials.org/)
+Map of clinical trials related to COVID-19 world wide.
+
+##### [International Clinical Trials Registry Platform](https://www.who.int/ictrp/en/)
+WHO database of clinical trials. See also [https://apps.who.int/trialsearch/](https://apps.who.int/trialsearch/).
+
+##### [LEOSS register](https://leoss.net/)
+Anonymous register with COVID-19 patient data from over 200 hospitals.
+
+##### [LIF coronavirus overview](https://www.lif.se/forskningsoversikt-coronavirus/)
+Overview over global vaccine and drug development projects
+
+### Epidemiology and mobility data
+
+##### [Apple Mobility Trends](https://www.apple.com/covid19/mobility)
+COVID-19 mobility data from Apple Maps.
+
+##### [COVID-19 Global Forecasting Kaggle Competition](https://www.kaggle.com/c/covid19-global-forecasting-week-5)
+Training and testing data for a weekly competition in forecasting COVID-19 cases and fatalities.
+
+##### [COVID-19 Symptom Tracker](https://www.covid19app.lu.se/)
+Maps with self-reported symptom data from a Swedish self-reporting app.
+
+##### [European Centre for Disease Prevention and Control (ECDC)](https://www.ecdc.europa.eu/en/covid-19-pandemic)
+Reports on worldwide COVID-19 cases.
+
+##### [GISAID/Nexstrain genomic epidemiology](https://nextstrain.org/ncov)
+https://www.gisaid.org/epiflu-applications/next-hcov-19-app/
+Evolution and worldwide distribution of SARS-CoV-2 genotypes.
+
+##### [Google Mobility Reports](https://www.google.com/covid19/mobility/)
+COVID-19 mobility data from Google Maps.
+
+##### [Institute for Health Metrics and Evaluation (IHME) - COVID19 Projections](https://covid19.healthdata.org/)
+Predictions for cases, tests, deaths and required hospital resources.
+
+##### [Johns Hopkins COVID-19 Dashboard](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
+https://systems.jhu.edu/research/public-health/ncov/
+
+##### [Our World in Data](https://ourworldindata.org/coronavirus)
+Worldwide COVID-19 statistics.
+
+##### [Swedish Intensive Care Register](https://www.icuregswe.org/data--resultat/covid-19-i-svensk-intensivvard/)
+Statistics about ICU admissions in Sweden.
+
+##### [Swedish Public Health Authorities (Folkhälsomyndigheten)](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/bekraftade-fall-i-sverige/)
+Official statistics about COVID-19 cases and tests in Sweden.
+
+##### [UNCOVER COVID-19 Challenge](https://www.kaggle.com/roche-data-science-coalition/uncover)
+This dataset is a curated collection of over 200 publicly available COVID-19 datasets from sources like Johns Hopkins, the WHO, the World Bank, the New York Times, and many others.
+It includes data on a wide variety of potentially powerful statistics and indicators, like local and national infection rates, global social distancing policies, geospatial data on movement of people, and more.
+The data comes with a Kaggle competition hosted by the Roche Data Science Coalition (RDSC) which comprises number of tasks developed and evaluated by global frontline healthcare providers, hospitals, suppliers, and policy makers.
+
+### Image data
+
+### Structural data
+
+##### [Deepmind structure predictions](https://deepmind.com/research/open-source/computational-predictions-of-protein-structures-associated-with-COVID-19)
+Structure predictions for COVID-19-related proteins from AlphaFold.
+
+##### [Xchem fragment screen data](https://covid.postera.ai/covid)
+Results from a large crystallographic fragment screen against the SARS-CoV-2 main protease (MPro, PDB ID: 6YB7) conducted by XChem at the Diamond Light Source.
+
+## Tools and other resources
+
+### Artificial intelligence models
+
+##### [COVID_BERT_base model](https://huggingface.co/deepset/covid_bert_base)
+A BERT base model fine-tuned on Covid-19-related texts for natural language processing.
+
+##### [National Library of Sweden - SweBERT models](https://github.com/Kungbib/swedish-bert-models )
+Swedish BERT and ALBERT models for natural language processing.
+
+##### [Swedish Public Employment Service – Swedish BERT models](https://github.com/af-ai-center/SweBERT)
+Swedish BERT models for natural language processing.
+
+### Other COVID-19 tools
+
+##### [COVID-19 Cell Atlas](https://www.covid19cellatlas.org/)
+Repository for cell-specific expression data.
+
+##### [COVID-19 Disease Map](https://covid.pages.uni.lu/)
+The COVID-19 Disease Map is an assembly of molecular interaction diagrams, established based on literature evidence.
+The focus is on host-pathogen interactions specific to the SARS-CoV-2 virus.
+
+##### [Skåne University Hospital 3D Printing Centre](http://3dskane.se/)
+Project descriptions for COVID-19 3D printing projects and contacts for volunteers.
+
+### General tools
+
+##### [BIAFlows](https://biaflows.neubias.org/)
+BIAFLOWS is an open-source web platform to benchmark and reproducibly deploy Bio Image Analysis (BIA) workflows.
+
+##### [Bioimage Informatics Search Engine (BISE)](http://biii.eu/)
+BISE is a search engine for tools, training materials and data for bioimage analysis.
+
+##### [ImJoy](https://imjoy.io/)
+ImJoy is a plugin powered hybrid computing platform for deploying deep learning applications such as advanced image analysis tools.
+
+##### [scispaCy](https://allenai.github.io/scispacy/)
+_scispaCy_ is a Python package containing spaCy models for processing medical text.
+
+##### [spaCy](https://spacy.io/)
+_spacy_ is a natural language processing library which integrates deep learning models for a variety of text analysis tasks.
+
+## Discussion groups, online workshops, networks
+
+##### [AI Innovation of Sweden](https://www.ai.se)
+National centre for applied AI research and innovation. Hosts projects, data lab, workshops and networking events.
+
+##### [AI Lund](http://ai.lu.se/)
+AI Lund is a network for research, education and innovation in the area of artificial intelligence. It is hosted by Lund University and open to everyone. AI Lund organizes a bi-weekly online discussion (AI Lund drop-in), regular workshops, training events and other activities. The website also has a channel with videos from past events.
+
+##### [Crowdfight Covid-19](https://crowdfightcovid19.org/)
+A platform that connects COVID-19 researchers with expert volunteers from various domains.
+
+##### [Data against Covid-19 forum](https://discourse.data-against-covid.org/)
+A forum that connects clinicians, virologists, immunologists with machine learners, bioinformaticians, epidemiologists and statisticians. For posting questions and finding collaborations.
+
+##### [ELLIS against Covid-19 online workshops](https://ellis.eu/covid-19)
+This series of online workshops presents projects on how to tackle Covid-19 using methods of machine learning and AI, carried out by leading international researchers.
+Research topics include outbreak prediction, epidemiological modelling, drug development, viral and host genome sequencing, and health care management.
+Meetings can be attended by live streaming or watched as recordings.
+
+##### [Image.sc Forum](https://forum.image.sc/)
+The forum’s focus is software-oriented aspects of scientific imaging, particularly (but not limited to) image analysis, processing, acquisition, storage, and management of digital scientific images.
+It is the primary discussion forum of the bioimaging community.
+
+##### [NEUBIAS](http://eubias.org/NEUBIAS/)
+NEUBIAS is a network of bioimage analysts in Europe, aiming at strengthening the bridge between life science, computer science and digital image processing.
+It also offers many training activities including online workshops and a [YouTube channel](https://www.youtube.com/channel/UC-oy7UpEhRfHQ-5ePCviKFg).
+
+##### [MakersofSweden Forum – Pandemihack channel](https://forum.makersofsweden.se/c/pandemihack/)
+Discussion forum and link list for makers engaged in COVID-19 projects.
+
+##### [SciLifeLab Forum – Covid-19 channel](https://forum.scilifelab.se/c/covid-19/)
+Discussion forum for the Swedish Covid-19 community and SciLifeLab infrastructures.
+
+## Training and teaching resources
+
+##### [AI Competence for Sweden](https://ai-competence.se/)
+Artificial intelligence courses and training for professionals provided by Swedish universities.
+
+##### [AI Lund TV](http://ai.lu.se/tv/)
+Videos from AI Lund workshops, seminars and training events, including technology-oriented topics and topics related to medicine, ethics and privacy.
+
+##### [Aitslab training collection](https://github.com/Aitslab/training)
+List of training resources related to data science and artificial intelligence curated by the Cell Death, Lysosomes and Artificial Intelligence Group at Lund University.
+
+##### [ELLIS against Covid-19](https://ellis.eu/covid-19)
+Recordings from workshops presenting different AI projects related to COVID-19.
+
+##### [Galaxy Training](https://training.galaxyproject.org/)
+Collection of tutorials developed and maintained by the worldwide Galaxy community.
+
+##### [NEUBIAS youtube channel](https://www.youtube.com/channel/UC-oy7UpEhRfHQ-5ePCviKFg)
+Videos related to bioimage analysis.
 
 
-# Data
+## Link lists with COVID-19 projects and resources
 
-## Text data
+##### [Aitslab COVID-19 Resource List](https://github.com/Aitslab/corona)
+List of COVID-19 resources curated by the Cell Death, Lysosomes and Artificial Intelligence Group at Lund University.
 
-* **[CORD-19 dataset](https://pages.semanticscholar.org/coronavirus-research)**
+##### [data-against-covid.org community wiki](https://discourse.data-against-covid.org/t/community-wiki-resources-on-data-science-and-friends)-vs-covid-19/731
+A list of data, services and other resources compiled by the data-against-covid.org community.
 
-  Large collection of scientific articles (currently 128000) related to coronaviruses from Pubmed, biorxiv, medrxiv and other sources. All articles are provided in a standardized json format.
+##### [CDC Link list](https://www.cdc.gov/library/researchguides/2019novelcoronavirus/datastatistics.html)
+Secondary data and statistics sources for COVID-19 researchers compiled by the CDC.
 
-* **[medRxiv and bioRxiv COVID-19 preprints](https://connect.medrxiv.org/relate/content/181)**
+##### [Open-Source-COVID-19](http://open-source-covid-19.weileizeng.com/index)
+A global collection of Open Source projects related to COVID-19.
 
-  Combined page for all COVID-19 publications posted on medRxiv and bioRxiv.
+##### [Hack the Crisis – Inspiration & resources](https://www.hackthecrisis.se/inspiration)
+A list of resources compiled to support participants of the Swedish Hack the Crisis hackathon.
 
-* **[Elsevier COVID-19 articles](https://www.elsevier.com/connect/coronavirus-information-center)**
+##### [Swelife COVID-19 Resource List](https://swelife.se/verktyg/covid-19/)
+A list of funding opportunities and other resources for COVID-19 projects.
 
-  Articles available for bulk download.
+##### [Utveckling i VGR – COVID-19 Resource List](https://vgrblogg.se/utveckling/2020/03/31/covid19-resurser-for-dig-som-vill-hacka-krisen/)
+A list of resources compiled to support participants of the Swedish Hack the Crisis hackathon.
 
-* **[WHO database of COVID-19 publications](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov)**
-
-## Structural data
-
-* **[Deepmind structure predictions](https://deepmind.com/research/open-source/computational-predictions-of-protein-structures-associated-with-COVID-19)**
-
-  Structure predictions for COVID-19-related proteins from AlphaFold.
-
-# Tools and other resources
-## COVID-19 tools
-
-* **[COVID-19 Cell Atlas](https://www.covid19cellatlas.org/)**
-
-  Repository for cell-specific expression data.
-
-* **[COVID-19 Disease Map](https://covid.pages.uni.lu/)**
-
-  The COVID-19 Disease Map is an assembly of molecular interaction diagrams, established based on literature evidence. The focus is on host-pathogen interactions specific to the SARS-CoV-2 virus.
-
-## General tools with relevance to COVID-19 research
-
-* **[BIAFlows](https://biaflows.neubias.org/)**
-
-  BIAFLOWS is an open-source web platform to benchmark and reproducibly deploy Bio Image Analysis (BIA) workflows.
-
-* **[Bioimage Informatics Search Engine (BISE)](http://biii.eu/)**
-
-  BISE is a search engine for tools, training materials and data for bioimage analysis.
-
-* **[ImJoy](https://imjoy.io/)**
-
-  ImJoy is a plugin powered hybrid computing platform for deploying deep learning applications such as advanced image analysis tools.
-
-# Discussion groups, online workshops, networks
-
-* **[AI Lund](http://ai.lu.se/)**
-
-  AI Lund is a network for research, education and innovation in the area of artificial intelligence. It is hosted by Lund University and open to everyone. AI Lund organizes a bi-weekly online discussion (AI Lund drop-in), regular workshops, training events and other activities. The website also has a channel with videos from past events.
-
-* **[Crowdfight Covid-19](https://crowdfightcovid19.org/)**
-
-  A platform that connects COVID-19 researchers with expert volunteers from various domains.
-
-* **[Data against Covid-19 forum](https://discourse.data-against-covid.org/)**
-
-  A forum that connects clinicians, virologists, immunologists with machine learners, bioinformaticians, epidemiologists and statisticians. For posting questions and finding collaborations.
-
-* **[ELLIS against Covid-19 online workshops](https://ellis.eu/covid-19)**
-
-  This series of online workshops presents projects on how to tackle Covid-19 using methods of machine learning and AI, carried out by leading international researchers. Research topics include outbreak prediction, epidemiological modelling, drug development, viral and host genome sequencing, and health care management. Meetings can be attended by live streaming or watched as recordings.
-
-* **[Image.sc Forum](https://forum.image.sc/)**
-
-  The forum’s focus is software-oriented aspects of scientific imaging, particularly (but not limited to) image analysis, processing, acquisition, storage, and management of digital scientific images. It is the primary discussion forum of the bioimaging community.
-
-* **[NEUBIAS](http://eubias.org/NEUBIAS/)**
-
-  NEUBIAS is a network of bioimage analysts in Europe, aiming at strengthening the bridge between life science, computer science and digital image processing. It also offers many training activities including online workshops and a youtube channel: https://www.youtube.com/channel/UC-oy7UpEhRfHQ-5ePCviKFg. 
-
-# Training and teaching resources
-
-* **[AI Lund TV](http://ai.lu.se/tv/)**
-
-  Videos from AI Lund workshops, seminars and training events, including technology-oriented topics and topics related to medicine, ethics and privacy.
-
-* **[Aitslab training collection](https://github.com/Aitslab/training)**
-
-  List of training resources related to data science and artificial intelligence curated by the Cell Death, Lysosomes and Artificial Intelligence Group at Lund University.
-
-* **[ELLIS against Covid-19](https://ellis.eu/covid-19)**
-
-  Recordings from workshops presenting different AI projects related to COVID-19.
-
-* **[NEUBIAS youtube channel](https://www.youtube.com/channel/UC-oy7UpEhRfHQ-5ePCviKFg)**
-
-  Videos related to bioimage analysis.
+##### [COVID-19 Biohackathon Resources](https://github.com/virtual-biohackathons/covid-19-bh20/blob/master/datasets_and_tools.md)
+A list of resources compiled to support participants of the COVID-19 Biohackathon.
