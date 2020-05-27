@@ -7,3 +7,114 @@ menu:
         weight: 30
         pre: <i class="fas fa-project-diagram"></i>
 ---
+
+# Infrastructures
+* **[COVID-19 HPC Consortium](https://www.xsede.org/covid19-hpc-consortium)**
+
+  The consortium encompasses computing capabilities from some of the most powerful and advanced computers in the world. It is possible to request allocations of up to 6 months.
+
+* **[Partnership for Advanced Computing in Europe (PRACE)](https://prace-ri.eu/prace-support-to-mitigate-impact-of-covid-19-pandemic/)**
+
+  PRACE provides access to world-class high performance computing resources for researchers from academia and industry. PRACE has a fast review track for project proposals requesting computing resources to contribute to the mitigation of the impact of the COVID-19 pandemic.
+
+* **[Swe-Clarin](https://sweclarin.se/)**
+
+  Swe-Clarin makes text-based materials and text analysis tools available. It is a national node in the European CLARIN (Common Language Resources and Technology Infrastructure).
+
+* **[Swedish National Infrastructure for Computing (SNIC)](https://www.snic.se/)**
+
+  SNIC is a national research infrastructure that makes available large-scale high performance computing resources, storage capacity, and advanced user support, for Swedish researchers.
+
+
+# Data
+
+## Text data
+
+* **[CORD-19 dataset](https://pages.semanticscholar.org/coronavirus-research)**
+
+  Large collection of scientific articles (currently 128000) related to coronaviruses from Pubmed, biorxiv, medrxiv and other sources. All articles are provided in a standardized json format.
+
+* **[medRxiv and bioRxiv COVID-19 preprints](https://connect.medrxiv.org/relate/content/181)**
+
+  Combined page for all COVID-19 publications posted on medRxiv and bioRxiv.
+
+* **[Elsevier COVID-19 articles](https://www.elsevier.com/connect/coronavirus-information-center)**
+
+  Articles available for bulk download.
+
+* **[WHO database of COVID-19 publications](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov)**
+
+## Structural data
+
+* **[Deepmind structure predictions](https://deepmind.com/research/open-source/computational-predictions-of-protein-structures-associated-with-COVID-19)**
+
+  Structure predictions for COVID-19-related proteins from AlphaFold.
+
+# Tools and other resources
+## COVID-19 tools
+
+* **[COVID-19 Cell Atlas](https://www.covid19cellatlas.org/)**
+
+  Repository for cell-specific expression data.
+
+* **[COVID-19 Disease Map](https://covid.pages.uni.lu/)**
+
+  The COVID-19 Disease Map is an assembly of molecular interaction diagrams, established based on literature evidence. The focus is on host-pathogen interactions specific to the SARS-CoV-2 virus.
+
+## General tools with relevance to COVID-19 research
+
+* **[BIAFlows](https://biaflows.neubias.org/)**
+
+  BIAFLOWS is an open-source web platform to benchmark and reproducibly deploy Bio Image Analysis (BIA) workflows.
+
+* **[Bioimage Informatics Search Engine (BISE)](http://biii.eu/)**
+
+  BISE is a search engine for tools, training materials and data for bioimage analysis.
+
+* **[ImJoy](https://imjoy.io/)**
+
+  ImJoy is a plugin powered hybrid computing platform for deploying deep learning applications such as advanced image analysis tools.
+
+# Discussion groups, online workshops, networks
+
+* **[AI Lund](http://ai.lu.se/)**
+
+  AI Lund is a network for research, education and innovation in the area of artificial intelligence. It is hosted by Lund University and open to everyone. AI Lund organizes a bi-weekly online discussion (AI Lund drop-in), regular workshops, training events and other activities. The website also has a channel with videos from past events.
+
+* **[Crowdfight Covid-19](https://crowdfightcovid19.org/)**
+
+  A platform that connects COVID-19 researchers with expert volunteers from various domains.
+
+* **[Data against Covid-19 forum](https://discourse.data-against-covid.org/)**
+
+  A forum that connects clinicians, virologists, immunologists with machine learners, bioinformaticians, epidemiologists and statisticians. For posting questions and finding collaborations.
+
+* **[ELLIS against Covid-19 online workshops](https://ellis.eu/covid-19)**
+
+  This series of online workshops presents projects on how to tackle Covid-19 using methods of machine learning and AI, carried out by leading international researchers. Research topics include outbreak prediction, epidemiological modelling, drug development, viral and host genome sequencing, and health care management. Meetings can be attended by live streaming or watched as recordings.
+
+* **[Image.sc Forum](https://forum.image.sc/)**
+
+  The forum’s focus is software-oriented aspects of scientific imaging, particularly (but not limited to) image analysis, processing, acquisition, storage, and management of digital scientific images. It is the primary discussion forum of the bioimaging community.
+
+* **[NEUBIAS](http://eubias.org/NEUBIAS/)**
+
+  NEUBIAS is a network of bioimage analysts in Europe, aiming at strengthening the bridge between life science, computer science and digital image processing. It also offers many training activities including online workshops and a youtube channel: https://www.youtube.com/channel/UC-oy7UpEhRfHQ-5ePCviKFg. 
+
+# Training and teaching resources
+
+* **[AI Lund TV](http://ai.lu.se/tv/)**
+
+  Videos from AI Lund workshops, seminars and training events, including technology-oriented topics and topics related to medicine, ethics and privacy.
+
+* **[Aitslab training collection](https://github.com/Aitslab/training)**
+
+  List of training resources related to data science and artificial intelligence curated by the Cell Death, Lysosomes and Artificial Intelligence Group at Lund University.
+
+* **[ELLIS against Covid-19](https://ellis.eu/covid-19)**
+
+  Recordings from workshops presenting different AI projects related to COVID-19.
+
+* **[NEUBIAS youtube channel](https://www.youtube.com/channel/UC-oy7UpEhRfHQ-5ePCviKFg)**
+
+  Videos related to bioimage analysis.
