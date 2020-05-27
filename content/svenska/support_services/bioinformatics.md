@@ -26,7 +26,7 @@ Våra systemutvecklare kan hjälpa till med allt från optimering av dina verkty
 
 ## Datahantering
 
-För att göra dataset tillgängliga i Europeiska COVID-19 portaler erbjuder NBIS stöd med planering av datahantering, FAIRifiering av data samt hjälp med publicering data i publika repositorier (se [Skicka in data](/submit)) enligt internationellt överenskomna standarder.
+För att göra dataset tillgängliga i Europeiska COVID-19 portaler erbjuder NBIS stöd med planering av datahantering, FAIRifiering av data samt hjälp med publicering data i publika repositorier (se [Publicera data](../submit)) enligt internationellt överenskomna standarder.
 
 För mer information om NBIS, besök [nbis.se](https://nbis.se).
 

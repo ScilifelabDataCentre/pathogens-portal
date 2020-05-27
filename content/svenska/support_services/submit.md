@@ -15,7 +15,7 @@ Vetenskapsrådet och SciLifeLab har undertecknat Wellcome Trusts ställningstaga
 > _"researchers share interim and final research data relating to the outbreak, together with protocols and standards used to collect the data, as rapidly and widely as possible - including with public health and research communities and the WHO"._
 
 För att leva upp till detta och göra dina Covid-19-forskningsdata användbara och tillgängliga för resten av forskarsamhället, bör de publiceras i ett publikt repositorie tillsammans med beskrivande metadata.
-Om ditt datamaterial består av datatyper där ett lämpligt internationellt repositorie finns tillgängligt ska det deponeras där, om inget sådant repositorie finns kan ditt datamaterial deponeras i ett [allmänt repositorie](/support_services/general_data_repository).
+Om ditt datamaterial består av datatyper där ett lämpligt internationellt repositorie finns tillgängligt ska det deponeras där, om inget sådant repositorie finns kan ditt datamaterial deponeras i ett [allmänt repositorie](../general_data_repository).
 
 För att effektivisera tillgängliggörande av data kan [NBIS](http://www.nbis.se/) hjälpa dig med att planera din datahantering i början av projektet, både genom [personliga konsultationer](https://nbis.se/support/supportform/index.php?form=consultation) och genom att tillhandahålla ett [anpassat verktyg](https://dsw.scilifelab.se/) för att skapa datahanteringsplaner.
 Vi kan också hjälpa dig att identifiera lämpliga repositorier och gemensamma internationella standarder för att beskriva och publicera dina data, samt vägleda dig genom publiceringsprocessen.
