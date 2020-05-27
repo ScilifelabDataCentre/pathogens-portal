@@ -6,7 +6,7 @@ menu:
         weight: 10
 ---
 
-The Swedish COVID-19 Data Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing, in particular the European COVID-19 Data Platform hosted at EMBL-EBI, to which it is closely linked.
+The Swedish COVID-19 Data Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing, in particular the [European COVID-19 Data Portal](https://covid19dataportal.org).
 
 The Swedish COVID-19 Data Portal is written and managed by the SciLifeLab Data Centre and partners. It is regularly updated with new services, tools and data. Suggestions, corrections or other comments are most welcome.
 
