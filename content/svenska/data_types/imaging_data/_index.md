@@ -8,7 +8,7 @@ menu:
         pre: <i class="fas fa-microscope"></i>
 ---
 
-För mer information, besök följande sidor:
+Biologisk bildanalys är ett växande fält som genererar stora mängder bilddata från olika mikroskopiteknologier. Analysen av dessa resulterar i ökad kunskap om funktion och organisation hos vävnader, celler och molekyler.
 
 * [Publicerad data](data)
 * [Riktlinjer för data](guidelines)
