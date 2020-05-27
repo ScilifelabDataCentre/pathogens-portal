@@ -10,9 +10,8 @@ menu:
 
 Proteindata inkluderar proteinsekvenser eller familjer, proteomikdata, proteinstrukturer och täthetskartor från elektronmikroskopi.
 
-
-För mer information, besök följande sidor:
-
 * [Publicerad data](data)
+
 * [Riktlinjer för data](guidelines)
+
 * [Tillgängliga tjänster](services)
