@@ -1,11 +1,11 @@
 ---
-title: Registerdata
+title: Health data
 menu:
     main:
-        identifier: public_health_data
+        identifier: health_data
         parent: data_types
         weight: 50
         pre: <i class="fas fa-ambulance"></i>
 ---
 
-[Register utiliser tool (RUT)](rut)
+[National health metadata repository - RUT](rut)

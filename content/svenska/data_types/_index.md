@@ -22,6 +22,5 @@ menu:
   * [Publicerad data](compound_and_target_data/data/)
   * [Riktlinjer för data](compound_and_target_data/guidelines/)
   * [Tillgängliga tjänster](compound_and_target_data/services/)
-* [Folkhälsodata](/data_types/public_health_data/)
-    * [Register utiliser tool (RUT)](/data_types/public_health_data/rut/)
-    * [Statistik om folkhälsan](/data_types/public_health_data/public_health_statistics/)
+* [Folkhälsodata](/data_types/health_data/)
+    * [Nationell hälsa metadataförvaring - RUT](/data_types/health_data/rut/)
