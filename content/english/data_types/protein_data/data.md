@@ -8,7 +8,7 @@ menu:
         weight: 10
 ---
 
-## Available data
+## Published Data
 
 The [Human Protein Atlas](https://www.proteinatlas.org) provides open access to protein expression data across human organs, tissues and cells. This protein resource is also organized into special sections focussing on the tissue expression, subcellular expression, proteins in the brain or in blood, proteins related to pathology and metabolic pathways.
 

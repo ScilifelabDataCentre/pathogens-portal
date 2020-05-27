@@ -8,7 +8,7 @@ menu:
         weight: 10
 ---
 
-## Available data
+## Published Data
 
 Published data related to the COVID-19 outbreak:
 * [EBI Portal](https://www.covid19dataportal.org/sequences)
