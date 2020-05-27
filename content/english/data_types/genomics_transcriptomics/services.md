@@ -29,6 +29,8 @@ For more information on our services, please refer to our webpage [https://www.s
 
 ### National Genomics Infrastructure (NGI)
 
+![NGI Logo](/img/logos/ngi-logo.svg#floatright)
+
 At the SciLifeLab [National Genomics Infrastructure (NGI)](https://ngisweden.scilifelab.se/),
 we provide a wide range of sequencing technologies and can offer state-of-the-art solutions for
 many different types of COVID-19 sequencing projects.
@@ -46,12 +48,14 @@ to discuss your specific project.
 
 #### Rapid cDNA and direct RNA sequencing of SARS-CoV-2 using Oxford Nanopore
 
+![Oxford Nanopore MinION](/img/MinION.jpg#floatrightbig)
+
 RNA viruses (including SARS-CoV-2, MERS, SARS) continually accumulate changes in their genomes
 that can be used to reconstruct the epidemiological processes that drive the spread of the virus.
 Most countries with an active outbreak have sequenced viruses from multiple individuals, allowing
 tracking of viral clades and geographic origin of regional outbreaks.
 
-The NGI has been granted money from [SciLifeLab](https://www.scilifelab.se/covid-19) and the
+The [National Genomics Infrastructure (NGI)](https://ngisweden.scilifelab.se/) has been granted money from [SciLifeLab](https://www.scilifelab.se/covid-19) and the
 [Knut & Wallenberg Foundation (KAW)](https://kaw.wallenberg.org/)
 to set up a protocol for SARS-CoV-2 sequencing using the fast and portable
 [Oxford Nanopore MinION sequencer](https://nanoporetech.com/products/minion).
@@ -78,3 +82,5 @@ are unknown and an important area to investigate further.
 
 For more information about the development and availability of these techniques, please
 get in touch  at [support@ngisweden.se](mailto:support@ngisweden.se).
+
+![Oxford Nanopore MinION](/img/MinION-2.jpg)
