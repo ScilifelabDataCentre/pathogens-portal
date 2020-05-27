@@ -53,7 +53,7 @@ A version of the CORD-19 dataset with semantic annotations in FHIR RDF format.
 ##### [Elsevier Novel Coronavirus Information Centre](https://www.elsevier.com/connect/coronavirus-information-center)
 Bulk download of Elsevier fulltext articles related to COVID-19 and other resources.
 
-##### [LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/ )
+##### [LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/)
 A curated database of COVID-19 articles in PubMed compiled by the National Library of Medicine.
 
 ##### [medRxiv and bioRxiv COVID-19 preprints](https://connect.medrxiv.org/relate/content/181)
@@ -99,8 +99,9 @@ Maps with self-reported symptom data from a Swedish self-reporting app.
 Reports on worldwide COVID-19 cases.
 
 ##### [GISAID/Nexstrain genomic epidemiology](https://nextstrain.org/ncov)
-https://www.gisaid.org/epiflu-applications/next-hcov-19-app/
 Evolution and worldwide distribution of SARS-CoV-2 genotypes.
+
+See also [https://www.gisaid.org/epiflu-applications/next-hcov-19-app/](https://www.gisaid.org/epiflu-applications/next-hcov-19-app/).
 
 ##### [Google Mobility Reports](https://www.google.com/covid19/mobility/)
 COVID-19 mobility data from Google Maps.
@@ -109,7 +110,7 @@ COVID-19 mobility data from Google Maps.
 Predictions for cases, tests, deaths and required hospital resources.
 
 ##### [Johns Hopkins COVID-19 Dashboard](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
-https://systems.jhu.edu/research/public-health/ncov/
+See also [https://systems.jhu.edu/research/public-health/ncov/](https://systems.jhu.edu/research/public-health/ncov/).
 
 ##### [Our World in Data](https://ourworldindata.org/coronavirus)
 Worldwide COVID-19 statistics.
@@ -183,7 +184,9 @@ _spacy_ is a natural language processing library which integrates deep learning 
 National centre for applied AI research and innovation. Hosts projects, data lab, workshops and networking events.
 
 ##### [AI Lund](http://ai.lu.se/)
-AI Lund is a network for research, education and innovation in the area of artificial intelligence. It is hosted by Lund University and open to everyone. AI Lund organizes a bi-weekly online discussion (AI Lund drop-in), regular workshops, training events and other activities. The website also has a channel with videos from past events.
+AI Lund is a network for research, education and innovation in the area of artificial intelligence. It is hosted by Lund University and open to everyone.
+AI Lund organizes a bi-weekly online discussion (AI Lund drop-in), regular workshops, training events and other activities.
+The website also has a channel with videos from past events.
 
 ##### [Crowdfight Covid-19](https://crowdfightcovid19.org/)
 A platform that connects COVID-19 researchers with expert volunteers from various domains.
@@ -236,7 +239,7 @@ Videos related to bioimage analysis.
 ##### [Aitslab COVID-19 Resource List](https://github.com/Aitslab/corona)
 List of COVID-19 resources curated by the Cell Death, Lysosomes and Artificial Intelligence Group at Lund University.
 
-##### [data-against-covid.org community wiki](https://discourse.data-against-covid.org/t/community-wiki-resources-on-data-science-and-friends)-vs-covid-19/731
+##### [data-against-covid.org community wiki](https://discourse.data-against-covid.org/t/community-wiki-resources-on-data-science-and-friends-vs-covid-19/731)
 A list of data, services and other resources compiled by the data-against-covid.org community.
 
 ##### [CDC Link list](https://www.cdc.gov/library/researchguides/2019novelcoronavirus/datastatistics.html)
