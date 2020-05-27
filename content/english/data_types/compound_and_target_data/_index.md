@@ -8,8 +8,8 @@ menu:
         pre: <i class="fas fa-bullseye"></i>
 ---
 
-To find out more, please visit the following pages:
+Data on compounds and targets primarily describe small molecules and their activity interacting with target molecules.
 
 * [Published data](data)
-* [Guidelines for data producers](guidelines)
+* [Data guidelines](guidelines)
 * [Services for researchers](services)

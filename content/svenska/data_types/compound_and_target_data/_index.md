@@ -8,7 +8,7 @@ menu:
         pre: <i class="fas fa-bullseye"></i>
 ---
 
-För mer information, besök följande sidor:
+Data inom områdena kemisk biologi och läkemedelsutveckling beskriver bl.a. små molekyler och deras aktivitet i interaktioner med andra målmolekyler.
 
 * [Publicerad data](data)
 * [Riktlinjer för data](guidelines)

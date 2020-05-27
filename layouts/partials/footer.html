@@ -9,28 +9,28 @@
   </div>
   <div class="row border-bottom">
     <div class="col-md">
-      <h4 class="small text-uppercase text-black-50">Data Types</h4>
-      <ul class="list-unstyled">
-        {{ range .Site.Menus.main }}
-          {{ if eq .Identifier "data_types" }}
+      {{ range .Site.Menus.main }}
+        {{ if eq .Identifier "data_types" }}
+          <h4 class="small text-uppercase text-black-50">{{ .Name }}</h4>
+          <ul class="list-unstyled">
             {{ range .Children }}
               <li><a href="{{ .URL }}">{{ .Name }}</a></li>
             {{ end }}
-          {{ end }}
+          </ul>
         {{ end }}
-      </ul>
+      {{ end }}
     </div>
     <div class="col-md">
-      <h4 class="small text-uppercase text-black-50">Support Services</h4>
-      <ul class="list-unstyled">
-        {{ range .Site.Menus.main }}
-          {{ if eq .Identifier "support_services" }}
+      {{ range .Site.Menus.main }}
+        {{ if eq .Identifier "support_services" }}
+          <h4 class="small text-uppercase text-black-50">{{ .Name }}</h4>
+          <ul class="list-unstyled">
             {{ range .Children }}
               <li><a href="{{ .URL }}">{{ .Name }}</a></li>
             {{ end }}
-          {{ end }}
+          </ul>
         {{ end }}
-      </ul>
+      {{ end }}
     </div>
     <div class="col-md">
       <h4 class="small text-uppercase text-black-50">About</h4>
@@ -51,24 +51,17 @@
       {{ end }}
       </ul>
     </div>
-    <div class="col-md text-center my-3">
-      <a href="https://elixir-europe.org/about-us/who-we-are/nodes/sweden"><img src="/img/logos/elixir-se-logo.png"></a>
-    </div>
-    <div class="col-md text-center my-3">
-      <a href="https://www.scilifelab.se"><img src="/img/logos/scilifelab-logo.svg"></a>
+    <div class="col-md text-center">
+      <a class="d-block my-4" href="https://www.scilifelab.se"><img src="/img/logos/scilifelab-logo.svg"></a>
+      <a class="d-block my-4" href="https://elixir-europe.org/about-us/who-we-are/nodes/sweden"><img src="/img/logos/elixir-se-logo.png"></a>
     </div>
   </div>
   <div class="row footer-lower-row">
-    <div class="col-md">
+    <div class="col-md-3 p-2">
       <a href="https://www.scilifelab.se/data/">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).support_feedback }}</a>
     </div>
-    <div class="col-md">
+    <div class="col-md-3 p-2">
       <a href='{{ "/privacy" | relLangURL }}'>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).privacy }}</a>
-    </div>
-    <div class="col-md text-center"></div>
-    <div class="col-md text-center"></div>
-    <div class="col-md text-center my-3">
-      <a href="https://vr.se"><img src="/img/logos/vr-logo.png"></a>
     </div>
   </div>
 </footer>
