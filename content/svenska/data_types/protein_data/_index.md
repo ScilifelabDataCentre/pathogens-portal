@@ -8,7 +8,7 @@ menu:
         pre: <i class="fas fa-shapes"></i>
 ---
 
-För mer information, besök följande sidor:
+Proteindata inkluderar proteinsekvenser eller familjer, proteomikdata, proteinstrukturer och täthetskartor från elektronmikroskopi.
 
 * [Publicerad data](data)
 * [Riktlinjer för data](guidelines)

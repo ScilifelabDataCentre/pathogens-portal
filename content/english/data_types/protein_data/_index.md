@@ -8,8 +8,8 @@ menu:
         pre: <i class="fas fa-shapes"></i>
 ---
 
-To find out more, please visit the following pages:
+Protein data includes protein sequences or families, proteomic data, protein structure data and electron microscopy density maps for proteins.
 
 * [Published data](data)
-* [Guidelines for data producers](guidelines)
+* [Data guidelines](guidelines)
 * [Services for researchers](services)

@@ -8,9 +8,8 @@ menu:
         pre: <i class="fas fa-microscope"></i>
 ---
 
-To find out more, please visit the following pages:
+Imaging is a growing field producing massive data from microscopy technologies, giving deep level insights in function and organisation of tissues, cells and molecules.
 
 * [Published data](data)
-* [Guidelines for data producers](guidelines)
+* [Data guidelines](guidelines)
 * [Services for researchers](services)
-

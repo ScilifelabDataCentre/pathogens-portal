@@ -5,21 +5,19 @@
         {{- partial "navbar.html" . -}}
         {{- partial "header.html" . -}}
         {{- block "header" . }}{{- end }}
-        <div id="content">
-            {{ $auto_toc := and (not (isset .Params "toc")) (gt .WordCount 500) }}
-            {{ if or ($auto_toc) (.Params.toc) }}
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 order-md-last">{{- partial "toc.html" . -}}</div>
-                        <div class="col-md-9 order-md-first mt-5">{{- block "main" . }}{{- end }}</div>
-                    </div>
+        {{ $auto_toc := and (not (isset .Params "toc")) (gt .WordCount 500) }}
+        {{ if or ($auto_toc) (.Params.toc) }}
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 order-md-last">{{- partial "toc.html" . -}}</div>
+                    <div class="col-md-9 order-md-first mt-5" id="content">{{- block "main" . }}{{- end }}</div>
                 </div>
-            {{ else }}
-                <div class="container mt-5">
-                    {{- block "main" . }}{{- end }}
-                </div>
-            {{ end }}
             </div>
+        {{ else }}
+            <div class="container mt-5" id="content">
+                {{- block "main" . }}{{- end }}
+            </div>
+        {{ end }}
         </div>
         {{- partial "footer.html" . -}}
     </body>
