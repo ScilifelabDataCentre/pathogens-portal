@@ -9,9 +9,9 @@ menu:
 ---
 
 ## Riktlinjer för COVID-19-data
-Gör dina Covid-19-forskningsdata användbara och tillgängliga för resten av forskarvärlden genom att publicera data och tillhörande metadata i ett publikt repositorie.
+Gör dina Covid-19-forskningsdata användbara och tillgängliga för resten av forskarvärlden genom att publicera data och tillhörande metadata i en öppen databas.
  
-[NBIS](http://www.nbis.se/) kan hjälpa dig med att i början av projektet planera datahanteringen för att effektivisera datadelning, både genom [konsultationer](https://nbis.se/support/supportform/index.php?form=consultation) och genom att tillhandahålla ett [verktyg](https://dsw.scilifelab.se/) för att skapa datahanteringsplaner. Vi kan också hjälpa dig att identifiera relevanta repositorier och etablerade internationella standarder för att beskriva och publicera dina data, samt vägleda dig genom publiceringsprocessen.
+[SciLifeLab](https://www.scilifelab.se) och [NBIS](http://www.nbis.se/) kan hjälpa dig med att i början av projektet planera datahanteringen för att effektivisera datadelning, både genom [konsultationer](https://nbis.se/support/supportform/index.php?form=consultation) och genom att tillhandahålla ett [verktyg](https://dsw.scilifelab.se/) för att skapa datahanteringsplaner. Vi kan också hjälpa dig att identifiera relevanta repositorier och etablerade internationella standarder för att beskriva och publicera dina data, samt vägleda dig genom publiceringsprocessen.
  
 ### Repositorier
 Vi föreslår att rådata samt assemblerad och annoterad genomdata skickas in till [ENA](https://www.ebi.ac.uk/ena). Se dokumentation om publiceringsprocessen [SARS-CoV-2 submission](https://ena-browser-docs.readthedocs.io/sv/latest/help_and_guides/sars-cov-2-submissions.html). Innan sekvensdata (t.ex. ‘shot gun’-sekvenser) skickas in är det nödvändigt att ta bort humana (kontaminerande) sekvenser.

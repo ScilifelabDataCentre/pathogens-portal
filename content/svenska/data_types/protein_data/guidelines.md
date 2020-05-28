@@ -9,11 +9,13 @@ menu:
 ---
 
 ## Riktlinjer för COVID-19-data
-Gör dina Covid-19-forskningsdata användbara och tillgängliga för resten av forskarvärlden genom att publicera data och tillhörande metadata i ett publikt repositorie.
+Gör dina Covid-19-forskningsdata användbara och tillgängliga för resten av forskarvärlden genom att publicera data och tillhörande metadata i en öppen databas.
  
-[NBIS](http://www.nbis.se/) kan hjälpa dig med att i början av projektet planera datahanteringen för att effektivisera datadelning, både genom [konsultationer](https://nbis.se/support/supportform/index.php?form=consultation) och genom att tillhandahålla ett [verktyg](https://dsw.scilifelab.se/) för att skapa datahanteringsplaner. Vi kan också hjälpa dig att identifiera relevanta repositorier och etablerade internationella standarder för att beskriva och publicera dina data, samt vägleda dig genom publiceringsprocessen.
+[SciLifeLab](https://www.scilifelab.se) och [NBIS](http://www.nbis.se/) kan hjälpa dig med att i början av projektet planera datahanteringen för att effektivisera datadelning, både genom [konsultationer](https://nbis.se/support/supportform/index.php?form=consultation) och genom att tillhandahålla ett [verktyg](https://dsw.scilifelab.se/) för att skapa datahanteringsplaner. Vi kan också hjälpa dig att identifiera relevanta repositorier och etablerade internationella standarder för att beskriva och publicera dina data, samt vägleda dig genom publiceringsprocessen.
  
 ### Repositorier
+[Uniprot](https://www.uniprot.org/) är en av de viktigaste databaserna för proteinsekvenser. Proteinfamiljer lagras i [Pfam](http://pfam.xfam.org/) och strukturer i [PDBe](https://www.ebi.ac.uk/pdbe/).
+
 Se [FAIRsharing](https://fairsharing.org/) med sökterm ’[proteomics](https://fairsharing.org/search/?q=proteomics&content=biodbcore&name=&taxonomies=&organisations=&shortname=&description=&supportlinks=&licenses=&countries=&maintainers=&expanded_onto_domains=&expanded_onto_disciplines=&user_defined_tags=&record_id=&miriam_id=&search_state=hidden)’ för en granskad lista över relevanta repositorier för proteomikdata.
 
 Vi rekommenderar att använda repositoriet [PRIDE](https://www.ebi.ac.uk/pride/), som tillhandahålls av  [ProteomeXchange Consortium](http://www.proteomexchange.org/). Repositoriet tar emot protein- och peptiddata, med tillhörande masspektra och övriga, relaterade, datatyper.

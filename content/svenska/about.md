@@ -6,6 +6,10 @@ menu:
         weight: 10
 ---
 
-Den svenska dataportalen för COVID-19 tillhandahåller information, riktlinjer, verktyg och tjänster, särskilt för att stödja forskare i Sverige att använda nationell och europeisk infrastruktur för datadelning. Portalen samordnas med den europeiska dataportalen för COVID-19 vid EMBL-EBI som är i drift sedan april 2020.
+Den svenska dataportalen för COVID-19 tillhandahåller information, riktlinjer, verktyg och tjänster för att stödja forskare att använda svenska och europeiska tjänster för datadelning, särskilt den [europeiska dataportalen för COVID-19](https://covid19dataportal.org).
 
-Den svenska COVID-19 dataportalen är skriven och hanterad av SciLifeLab Data Centre och partners.
+Den svenska COVID-19 dataportalen drivs av SciLifeLab Data Centre och partners på uppdrag av Vetenskapsrådet. Den uppdateras regelbundet, och förslag, korrigeringar och andra kommentarer uppskattas.
+
+SciLifeLab stödjer starkt öppen delning av forskningsdata och resultat, och har signerat ett ställningstagande från Wellcome Trust om [Delning av forskningsdata och resultat med relevans för forskningen kring coronaviruset och COVID-19](https://wellcome.ac.uk/coronavirus-covid-19/open-data).
+
+Kontakt: [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se)
