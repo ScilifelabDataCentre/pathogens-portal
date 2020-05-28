@@ -7,14 +7,15 @@ on:
 
 jobs:
   build:
+    if: github.repository == 'ScilifelabDataCentre/covid-portal'
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Publish to Registry
-      uses: elgohr/Publish-Docker-Github-Action@master
-      with:
-        name: scilifelabdatacentre/covid-portal
-        username: ${{ secrets.DOCKERHUB_USERNAME }}
-        password: ${{ secrets.DOCKERHUB_TOKEN }}
-        dockerfile: container/Dockerfile
-        tags: "dev"
+      - uses: actions/checkout@v2
+      - name: Publish to Docker Hub
+        uses: elgohr/Publish-Docker-Github-Action@master
+        with:
+          name: scilifelabdatacentre/covid-portal
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          dockerfile: container/Dockerfile
+          tags: "dev"
