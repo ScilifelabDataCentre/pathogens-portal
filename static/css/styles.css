@@ -11,27 +11,22 @@ blockquote {
     margin-left: 1rem;
     color: #666;
 }
-img[src$='#floatleft'] {
-    float: left;
+img[src$='#floatleft'], img[src$='#floatright'], img[src$='#floatleftbig'], img[src$='#floatrightbig']{
     max-width: 250px;
     max-height: 100px;
     margin: 0 1rem 1rem;
+}
+img[src$='#floatleft'], img[src$='#floatleftbig']{
+    float: left;
     margin-left: 0;
 }
-
-img[src$='#floatright']{
+img[src$='#floatright'], img[src$='#floatrightbig']{
     float: right;
-    max-width: 250px;
-    max-height: 100px;
-    margin: 0 1rem 1rem;
     margin-right: 0;
 }
-img[src$='#floatrightbig']{
-    float: right;
+img[src$='#floatleftbig'], img[src$='#floatrightbig']{
     max-width: 350px;
     max-height: 200px;
-    margin: 0 1rem 1rem;
-    margin-right: 0;
 }
 
 h2,h3,h4,h5,h6 {
@@ -118,15 +113,15 @@ li:empty {
     color: #6c757d;
 }
 
-#TableOfContents ul {
+.toc ul {
     padding-left: 1.5rem;
     margin-bottom: 0.5rem;
 }
-#TableOfContents ul ul {
+.toc ul ul {
     font-size: 0.9rem;
 }
 
-#content ul {
+.content ul:not([class]), .content ul[class=""] {
     margin-bottom: 1rem;
 }
 
