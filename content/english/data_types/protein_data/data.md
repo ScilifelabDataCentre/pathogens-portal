@@ -14,5 +14,6 @@ The [Human Protein Atlas](https://www.proteinatlas.org) provides open access to 
 
 A special page has been dedicated to [human proteins and Covid19](https://www.proteinatlas.org/humanproteome/sars-cov-2).
 
-Other published data related to the COVID-19 outbreak:
-* [EBI Portal](https://www.covid19dataportal.org/sequences)
+Other published data:
+* [Protein sequences at EBI Portal](https://www.covid19dataportal.org/proteins)
+* [Protein structures at EBI portal](https://www.covid19dataportal.org/structures)

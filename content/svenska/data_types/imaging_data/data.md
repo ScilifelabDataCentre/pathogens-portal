@@ -10,5 +10,5 @@ menu:
 
 ## Publicerad data
 
-Publicerat datamaterial rörande COVID-19 epidemin:
-* [EBI Portal](https://www.covid19dataportal.org/sequences)
+Publicerade bilddata vid EMBL-EBI:
+* [BioImage Archive](https://www.ebi.ac.uk/bioimage-archive/)
