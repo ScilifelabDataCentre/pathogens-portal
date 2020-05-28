@@ -10,5 +10,6 @@ menu:
 
 ## Publicerad data
 
-Publicerat datamaterial rörande COVID-19 epidemin:
-* [EBI Portal](https://www.covid19dataportal.org/sequences)
+Publicerat proteindata:
+* [Proteinsekvenser vid EBI Data Portal](https://www.covid19dataportal.org/sequences)
+* [Proteinstrukturer vid EBI Data Portal](https://www.covid19dataportal.org/structures)
