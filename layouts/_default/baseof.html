@@ -9,12 +9,12 @@
         {{ if or ($auto_toc) (.Params.toc) }}
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 order-md-last">{{- partial "toc.html" . -}}</div>
-                    <div class="col-md-9 order-md-first mt-5" id="content">{{- block "main" . }}{{- end }}</div>
+                    <div class="col-md-3 order-md-last toc">{{- partial "toc.html" . -}}</div>
+                    <div class="col-md-9 order-md-first mt-5 content">{{- block "main" . }}{{- end }}</div>
                 </div>
             </div>
         {{ else }}
-            <div class="container mt-5" id="content">
+            <div class="container mt-5 content">
                 {{- block "main" . }}{{- end }}
             </div>
         {{ end }}
