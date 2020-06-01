@@ -42,11 +42,11 @@
       <ul class="list-unstyled border-top pt-1 nav-languages">
       {{ if .IsTranslated }}
         {{ range .AllTranslations }}
-          <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt="{{ .Language.LanguageName }}"></a></li>
+          <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
         {{ end }}
       {{ else }}
         {{ range $.Site.Home.AllTranslations }}
-          <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt="{{ .Language.LanguageName }}"></a></li>
+          <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
         {{ end }}
       {{ end }}
       </ul>
