@@ -42,7 +42,7 @@ Apply for support at: [nbis.se/support/](https://nbis.se/support/)
 
 ## NBIS is the [Swedish node](https://elixir-europe.org/about-us/who-we-are/nodes/sweden) of ELIXIR
 
-![NBIS Logo](/img/logos/elixir-se-logo.png#floatright)
+![Elixir Sweden](/img/logos/elixir-se-logo.png#floatright)
 [ELIXIR](https://elixir-europe.org/) as the European infrastructure for biological data provides a range of services that you can use for studying the SARS-CoV-2 coronavirus and the COVID-19 disease.
 
 * [ELIXIR services to support COVID19 research](https://elixir-europe.org/news/covid-19-support)
