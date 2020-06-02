@@ -18,7 +18,7 @@ SciLifeLab och VR stödjer starkt öppen delning av forskningsdata och resultat,
 
 ### [SciLifeLab](https://www.scilifelab.se)
 
-SciLifeLab är ett nationellt center för molekylära biovetenskaper med fokus på forskning inom hälsa och miljö. Centret kombinerar ledande teknisk expertis med avancerat kunnande inom translationell medicin och molekylära biovetenskaper. Vårt mål är också att bygga en stark forskargruppering kring SciLifeLab genom utbildning och samverkan. SciLifeLab är en nationell resurs som drivs av [Karolinska Institutet] (https://www.ki.se/), [Kungliga Tekniska Högskolan] (https://www.kth.se/), [Stockholms universitet] (https://www.su.se/) och [Uppsala universitet] (https://www.uu.se/). Vi samarbetar med flera andra svenska universitet.
+SciLifeLab är ett nationellt center för molekylära biovetenskaper med fokus på forskning inom hälsa och miljö. Centret kombinerar ledande teknisk expertis med avancerat kunnande inom translationell medicin och molekylära biovetenskaper. Vårt mål är också att bygga en stark forskargruppering kring SciLifeLab genom utbildning och samverkan. SciLifeLab är en nationell resurs som drivs av [Karolinska Institutet](https://www.ki.se/), [Kungliga Tekniska Högskolan](https://www.kth.se/), [Stockholms universitet](https://www.su.se/) och [Uppsala universitet](https://www.uu.se/). Vi samarbetar med flera andra svenska universitet.
 
 SciLifeLab kombinerar teknisk expertis med avancerad kunskap inom translationell medicin och molekylärbiologi. Forskare i hela Sverige kan använda både de tekniker och den kunskap som finns på SciLifeLab. 
 
