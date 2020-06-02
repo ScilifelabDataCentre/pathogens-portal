@@ -23,7 +23,7 @@ For data types where no suitable international repository is available, your dat
 
 ##### Want support on data management planning?
 
-[SciLifeLab](https://www.scilifelab.se) and [NBIS](http://www.nbis.se/) can support you with Data Management Planning early on in the projects to make data sharing more efficient, both through [personal consultations](https://nbis.se/support/supportform/index.php?form=consultation) and by providing a [customised tool](https://dsw.scilifelab.se/) to create Data Management Plans.
+[SciLifeLab](https://www.scilifelab.se) and [NBIS](http://www.nbis.se/) can support you with Data Management Planning early on in the project to make data sharing more efficient, both through [personal consultations](https://nbis.se/support/supportform/index.php?form=consultation) and by providing a [customised tool](https://dsw.scilifelab.se/) to create Data Management Plans.
 We can also assist you in identifying relevant repositories and common international standards for describing and publishing your data, as well as guide you through the submission process.
 
 * [Request Data Management consultation from NBIS](https://nbis.se/support/supportform/index.php?form=consultation)
