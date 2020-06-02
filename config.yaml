@@ -14,12 +14,14 @@ params:
       enquire_email_footer_bioinformatics: "For bioinformatics support, please contact"
       support_feedback: Support & Feedback
       privacy: Privacy Notice
+      skip_to_content: Skip to main content
     sv:
       home_title: Snabbare forskning genom datadelning
       enquire_email_footer_dc: "Kontakta den svenska Covid-19 dataportalen"
       enquire_email_footer_bioinformatics: "För support inom bioinformatik, kontakta"
       support_feedback: Support och Feedback
       privacy: Integritetspolicy
+      skip_to_content: Hoppa till innehållet
 
 languages:
   en:

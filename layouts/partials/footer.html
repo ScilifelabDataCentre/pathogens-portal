@@ -11,7 +11,7 @@
     <div class="col-md">
       {{ range .Site.Menus.main }}
         {{ if eq .Identifier "data_types" }}
-          <h4 class="small text-uppercase text-black-50">{{ .Name }}</h4>
+          <h2 class="small text-uppercase text-black-50">{{ .Name }}</h2>
           <ul class="list-unstyled">
             {{ range .Children }}
               <li><a href="{{ .URL }}">{{ .Name }}</a></li>
@@ -23,7 +23,7 @@
     <div class="col-md">
       {{ range .Site.Menus.main }}
         {{ if eq .Identifier "support_services" }}
-          <h4 class="small text-uppercase text-black-50">{{ .Name }}</h4>
+          <h2 class="small text-uppercase text-black-50">{{ .Name }}</h2>
           <ul class="list-unstyled">
             {{ range .Children }}
               <li><a href="{{ .URL }}">{{ .Name }}</a></li>
@@ -33,7 +33,7 @@
       {{ end }}
     </div>
     <div class="col-md">
-      <h4 class="small text-uppercase text-black-50">About</h4>
+      <h2 class="small text-uppercase text-black-50">About</h2>
       <ul class="list-unstyled mb-1">
       {{ range .Site.Menus.top_nav }}
         <li><a href="{{ .URL }}">{{ .Name }}</a></li>
@@ -42,18 +42,18 @@
       <ul class="list-unstyled border-top pt-1 nav-languages">
       {{ if .IsTranslated }}
         {{ range .AllTranslations }}
-          <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"></a></li>
+          <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
         {{ end }}
       {{ else }}
         {{ range $.Site.Home.AllTranslations }}
-          <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"></a></li>
+          <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
         {{ end }}
       {{ end }}
       </ul>
     </div>
     <div class="col-md text-center">
-      <a class="d-block my-4" href="https://www.scilifelab.se"><img src="/img/logos/scilifelab-logo.svg"></a>
-      <a class="d-block my-4" href="https://elixir-europe.org/about-us/who-we-are/nodes/sweden"><img src="/img/logos/elixir-se-logo.png"></a>
+      <a class="d-block my-4" href="https://www.scilifelab.se"><img src="/img/logos/scilifelab-logo.svg" alt="SciLifeLab"></a>
+      <a class="d-block my-4" href="https://elixir-europe.org/about-us/who-we-are/nodes/sweden"><img src="/img/logos/elixir-se-logo.png" alt="Elixir Sweden"></a>
     </div>
   </div>
   <div class="row footer-lower-row">
