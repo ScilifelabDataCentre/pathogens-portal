@@ -15,22 +15,18 @@ Konsortiet omfattar datorkapacitet från några av de mest kraftfulla och avance
 Det är möjligt att begära tilldelningar på upp till 6 månader.
 
 ##### [ELIXIR Computing Resources](https://elixir-europe.org/services/tag/compute)
-ELIXIR-noder har gjort ett brett utbud av datoressurser tillgängliga.
+ELIXIR-noder har gjort ett brett utbud av datoresurser tillgängliga.
 
 ##### [European Galaxy COVID-19 Project](https://covid19.galaxyproject.org/)
-Offentligt tillgänglig infrastruktur och arbetsflöden för SARS-CoV-2-dataanalyser från olika vetenskapliga domäner (genomik, proteomik, metabolomik, keminformatik ...).
+Offentligt tillgängliga infrastrukturer och arbetsflöden för SARS-CoV-2-dataanalyser från olika vetenskapliga domäner (genomik, proteomik, metabolomik, keminformatik ...).
 
 ##### [Partnership for Advanced Computing in Europe (PRACE)](https://prace-ri.eu/prace-support-to-mitigate-impact-of-covid-19-pandemic/)
 PRACE ger tillgång till högklassiga datorresurser i världsklass för forskare från akademi och industri.
 PRACE har ett snabbt granskningsspår för projektförslag som begär beräkningsresurser för att bidra till att minska effekterna av COVID-19-pandemin.
 
-##### [SciLifeLab BioImage Informatics](https://www.scilifelab.se/facilities/bioimage-informatics/)
-BioImage Informatics Facility ger support och utbildning som krävs för att utföra toppmoderna analyser av bilddata, inklusive maskininlärning.
-Den organiserar också månatliga Call4Help-sessioner.
-
 ##### [Swe-Clarin](https://sweclarin.se/)
-Swe-Clarin ställer textbaserade material och verktyg för textanalys tillgängliga.
-Det är en nationell nod i den europeiska CLARIN (Common Language Resources and Technology Infrastructure).
+Swe-Clarin tillgängliggör textbaserade material och verktyg för textanalys.
+Det är en nationell nod i den europeiska infrastrukturen CLARIN (Common Language Resources and Technology Infrastructure).
 
 ##### [Swedish National Infrastructure for Computing (SNIC)](https://www.snic.se/)
 SNIC är en nationell forskningsinfrastruktur som tillhandahåller storskaliga högpresterande datorresurser, lagringskapacitet och avancerat användarsupport för svenska forskare.
@@ -92,12 +88,6 @@ Se även [https://systems.jhu.edu/research/public-health/ncov/](https://systems.
 
 ##### [Our World in Data](https://ourworldindata.org/coronavirus)
 COVID-19-statistik över hela världen.
-
-##### [Swedish Intensive Care Register](https://www.icuregswe.org/data--resultat/covid-19-i-svensk-intensivvard/)
-Statistik över ICU-antagningar i Sverige.
-
-##### [Swedish Public Health Authorities (Folkhälsomyndigheten)](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-sverige/)
-Officiell statistik om COVID-19 fall och tester i Sverige.
 
 ##### [UNCOVER COVID-19 Challenge](https://www.kaggle.com/roche-data-science-coalition/uncover)
 Detta datasätt är en kuraterad samling av över 200 offentligt tillgängliga COVID-19 datasätt från källor som Johns Hopkins, WHO, Världsbanken, New York Times och många andra.
