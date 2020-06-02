@@ -24,10 +24,6 @@ Publicly accessible infrastructure and workflows for SARS-CoV-2 data analyses fr
 PRACE provides access to world-class high performance computing resources for researchers from academia and industry.
 PRACE has a fast review track for project proposals requesting computing resources to contribute to the mitigation of the impact of the COVID-19 pandemic.
 
-##### [SciLifeLab BioImage Informatics](https://www.scilifelab.se/facilities/bioimage-informatics/)
-The BioImage Informatics Facility provides support and training needed to perform state-of-the-art analyses on image data, including machine learning.
-It also organizes monthly Call4Help sessions.
-
 ##### [Swe-Clarin](https://sweclarin.se/)
 Swe-Clarin makes text-based materials and text analysis tools available.
 It is a national node in the European CLARIN (Common Language Resources and Technology Infrastructure).
@@ -90,12 +86,6 @@ See also [https://systems.jhu.edu/research/public-health/ncov/](https://systems.
 
 ##### [Our World in Data](https://ourworldindata.org/coronavirus)
 Worldwide COVID-19 statistics.
-
-##### [Swedish Intensive Care Register](https://www.icuregswe.org/data--resultat/covid-19-i-svensk-intensivvard/)
-Statistics about ICU admissions in Sweden.
-
-##### [Swedish Public Health Authorities (Folkhälsomyndigheten)](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/bekraftade-fall-i-sverige/)
-Official statistics about COVID-19 cases and tests in Sweden.
 
 ##### [UNCOVER COVID-19 Challenge](https://www.kaggle.com/roche-data-science-coalition/uncover)
 This dataset is a curated collection of over 200 publicly available COVID-19 datasets from sources like Johns Hopkins, the WHO, the World Bank, the New York Times, and many others.
