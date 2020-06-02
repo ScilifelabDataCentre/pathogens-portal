@@ -16,7 +16,7 @@ The [SciLifeLab Genomics Platform](https://www.scilifelab.se/infrastructure/?cat
 
 The Clinical Genomics Stockholm facility has developed a WGS-based workflow for understanding genetic variation, especially in rare disease diagnostics settings. This workflow includes data generation, bioinformatics analysis and interpretation in our custom-developed clinical decision support system Scout.
 
-We believe this workflow may be useful also for COVID-19 projects aiming at understanding host susceptibility. Data generation is to 30x coverage using PCR-free libraries, bioinformatic analysis is comprehensive and includes calling of SNV, INDEL, CNV, SV, STR and UPDs. Variants are processed using a ranking model prior to made available for interpretation in Scout. This infrastructure has been applied to analysis of >6000 WGS samples.
+We believe this workflow may be useful also for COVID-19 projects aiming at understanding host susceptibility. Data generation is to 30x coverage using PCR-free liraries. The bioinformatic analysis is comprehensive and includes calling of SNV, INDEL, CNV, SV, STR and UPDs. Variants are processed using a ranking model prior to being made available for interpretation in Scout. This infrastructure has been applied to analysis of >6000 WGS samples.
 
 The main focus of the Clinical Genomics Stockholm facility and the Diagnostics Development platform is to support transition of NGS into translational and diagnostic settings. Collaborators include research groups, healthcare, governmental agencies, industry and international groups. Please visit [our website](https://www.scilifelab.se/facilities/clinical-genomics-stockholm/) to find out more about our services, and contact us at [support@clinicalgenomics.se](mailto:support@clinicalgenomics.se) to discuss your specific project.
 
@@ -25,7 +25,7 @@ The main focus of the Clinical Genomics Stockholm facility and the Diagnostics D
 The SciLifeLab High Throughput Genome Engineering Facility provides pooled CRISPR screens from library design to data-analysis, ranging from small, custom-made to genome-wide guide libraries.
 In the context of SARS-CoV-2 research, the method is particularly useful to study virus-host interactions and identify cellular genes that are required for virus entry, replication, propagation, release, etc.
 
-For more information on our services, please refer to our webpage [https://www.scilifelab.se/HTGE](https://www.scilifelab.se/HTGE) or contact [bernhard.schmierer@scilifelab.se](mailto:bernhard.schmierer@scilifelab.se).
+For more information about our services, please refer to our webpage [https://www.scilifelab.se/HTGE](https://www.scilifelab.se/HTGE) or contact [bernhard.schmierer@scilifelab.se](mailto:bernhard.schmierer@scilifelab.se).
 
 ### National Genomics Infrastructure (NGI)
 
