@@ -16,11 +16,10 @@ In all our projects we are committed to FAIR and reproducible research that meet
 
 Currently, we are prioritising research projects related to COVID-19.
 [Get in touch for a free consultation](https://nbis.se/support/) and find out how we can help your project become a success.
-We are all in this together.
 
 ## Bioinformatics
 
-We are experienced bioinformaticians with multiple areas of expertise in, but not limited to, a wide variety of applications (genetic variation, expression analysis, single cell, genome assembly & annotation, phylogenomics, proteomics, metabolomics, etc), machine learning, big data, integrative analysis, and biostatistics.
+We are experienced bioinformaticians with multiple areas of expertise in, but not limited to, a wide variety of applications such as genetic variation, expression analysis, single cell, genome assembly & annotation, phylogenomics, proteomics, metabolomics, machine learning, big data, integrative analysis, and biostatistics.
 
 ## Systems development
 
@@ -42,7 +41,7 @@ Apply for support at: [nbis.se/support/](https://nbis.se/support/)
 
 ## NBIS is the [Swedish node](https://elixir-europe.org/about-us/who-we-are/nodes/sweden) of ELIXIR
 
-![NBIS Logo](/img/logos/elixir-se-logo.png#floatright)
+![Elixir Sweden](/img/logos/elixir-se-logo.png#floatright)
 [ELIXIR](https://elixir-europe.org/) as the European infrastructure for biological data provides a range of services that you can use for studying the SARS-CoV-2 coronavirus and the COVID-19 disease.
 
 * [ELIXIR services to support COVID19 research](https://elixir-europe.org/news/covid-19-support)

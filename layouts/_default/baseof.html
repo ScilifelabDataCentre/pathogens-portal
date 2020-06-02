@@ -2,6 +2,7 @@
 <html lang="{{ .Site.Language.Lang }}">
     {{- partial "head.html" . -}}
     <body>
+        <a class="sr-only sr-only-focusable" href="#content">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).skip_to_content }}</a>
         {{- partial "navbar.html" . -}}
         {{- partial "header.html" . -}}
         {{- block "header" . }}{{- end }}
@@ -10,11 +11,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 order-md-last toc">{{- partial "toc.html" . -}}</div>
-                    <div class="col-md-9 order-md-first mt-5 content">{{- block "main" . }}{{- end }}</div>
+                    <div class="col-md-9 order-md-first mt-5 content" id="content">{{- block "main" . }}{{- end }}</div>
                 </div>
             </div>
         {{ else }}
-            <div class="container mt-5 content">
+            <div class="container mt-5 content" id="content">
                 {{- block "main" . }}{{- end }}
             </div>
         {{ end }}

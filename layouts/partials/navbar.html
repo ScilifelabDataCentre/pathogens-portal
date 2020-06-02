@@ -15,11 +15,11 @@
       <ul class="navbar-nav navbar-languages">
         {{ if .IsTranslated }}
           {{ range .AllTranslations }}
-            <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"></span></a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></span></a></li>
           {{ end }}
         {{ else }}
           {{ range $.Site.Home.AllTranslations }}
-            <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"></span></a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></span></a></li>
           {{ end }}
         {{ end }}
       </ul>
@@ -48,11 +48,11 @@
       <ul class="navbar-nav d-md-none nav-languages">
         {{ if .IsTranslated }}
           {{ range .AllTranslations }}
-            <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"></a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
           {{ end }}
         {{ else }}
           {{ range $.Site.Home.AllTranslations }}
-            <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"></a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
           {{ end }}
         {{ end }}
       </ul>
