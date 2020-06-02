@@ -21,7 +21,7 @@ params:
       enquire_email_footer_bioinformatics: "För support inom bioinformatik, kontakta"
       support_feedback: Support och Feedback
       privacy: Integritetspolicy
-      skip_to_content: Hoppa till huvudinnehåll
+      skip_to_content: Hoppa till innehållet
 
 languages:
   en:
