@@ -11,7 +11,7 @@
     <div class="col-md">
       {{ range .Site.Menus.main }}
         {{ if eq .Identifier "data_types" }}
-          <h4 class="small text-uppercase text-black-50">{{ .Name }}</h4>
+          <h2 class="small text-uppercase text-black-50">{{ .Name }}</h2>
           <ul class="list-unstyled">
             {{ range .Children }}
               <li><a href="{{ .URL }}">{{ .Name }}</a></li>
@@ -23,7 +23,7 @@
     <div class="col-md">
       {{ range .Site.Menus.main }}
         {{ if eq .Identifier "support_services" }}
-          <h4 class="small text-uppercase text-black-50">{{ .Name }}</h4>
+          <h2 class="small text-uppercase text-black-50">{{ .Name }}</h2>
           <ul class="list-unstyled">
             {{ range .Children }}
               <li><a href="{{ .URL }}">{{ .Name }}</a></li>
@@ -33,7 +33,7 @@
       {{ end }}
     </div>
     <div class="col-md">
-      <h4 class="small text-uppercase text-black-50">About</h4>
+      <h2 class="small text-uppercase text-black-50">About</h2>
       <ul class="list-unstyled mb-1">
       {{ range .Site.Menus.top_nav }}
         <li><a href="{{ .URL }}">{{ .Name }}</a></li>
