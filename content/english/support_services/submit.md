@@ -30,7 +30,7 @@ We can also assist you in identifying relevant repositories and common internati
 
 ##### Depositing data in a public repository
 
-By depositing data in a public repository, you accept that the data will be published and may be used and redistributed according to specific terms, which you sometimes can set yourself, sometimes are set by the repository. Data deposition is considered important and you may get credit and acknowledgement for sharing data. A publication often results in getting a unique identifier for your dataset, which often is required for a journal to accept a manuscript for publication. Data sharing is often required by funders.
+By depositing data in a public repository, you accept that the data will be published and may be used and redistributed according to specific terms set by yourself or the repository in question. Data deposition is considered important and you may get credit and acknowledgement for sharing data. A publication often results in getting a unique identifier for your dataset, which is often required for a journal to accept a manuscript for publication. Data sharing is often required by funders.
 
 If required, data can often be published with a set moratorium, which means that data will not go public until a date that you set.
 
