@@ -26,7 +26,7 @@ SciLifeLab kombinerar teknisk expertis med avancerad kunskap inom translationell
 
 Biomedicinsk forskning är inte bara teknikdriven utan blir alltmer datadriven. SciLifeLab samordnar och stöder aktiviteter under hela livscykeln för data, från projektplanering, dataproduktion, dataanalys, datadelning, till publicering och återanvändning av data, där forskare är beroende av avancerad dataanalys och e-infrastruktur.
 
-Vårt fokus är på data som härrör från användningen av SciLifeLab-infrastrukturplattformar, både för att främja forskning om att tillföra värde till data, forskning som härleder biologisk kunskap från data och infrastruktur som gör data sökbara och tillgängliga. På SciLifeLab ser vi data som en av de mest värdefulla och långvariga produkterna i våra verksamheter och strävar efter att göra våra data [FAIR] (https://www.force11.org/group/fairgroup/fairprinciples), att den hanteras enligt öppna vetenskapliga standarder och att dess långsiktiga värde för det vetenskapliga samfundet maximeras.
+Vårt fokus är på data som härrör från användningen av SciLifeLab-infrastrukturplattformar, både för att främja forskning om att tillföra värde till data, forskning som härleder biologisk kunskap från data och infrastruktur som gör data sökbara och tillgängliga. På SciLifeLab ser vi data som en av de mest värdefulla och långvariga produkterna i våra verksamheter och strävar efter att göra våra data [FAIR](https://www.force11.org/group/fairgroup/fairprinciples), att den hanteras enligt öppna vetenskapliga standarder och att dess långsiktiga värde för det vetenskapliga samfundet maximeras.
 
 ### [National Bioinformatics Infrastructure](https://nbis.se)
 
