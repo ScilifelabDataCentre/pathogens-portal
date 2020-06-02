@@ -16,11 +16,10 @@ In all our projects we are committed to FAIR and reproducible research that meet
 
 Currently, we are prioritising research projects related to COVID-19.
 [Get in touch for a free consultation](https://nbis.se/support/) and find out how we can help your project become a success.
-We are all in this together.
 
 ## Bioinformatics
 
-We are experienced bioinformaticians with multiple areas of expertise in, but not limited to, a wide variety of applications (genetic variation, expression analysis, single cell, genome assembly & annotation, phylogenomics, proteomics, metabolomics, etc), machine learning, big data, integrative analysis, and biostatistics.
+We are experienced bioinformaticians with multiple areas of expertise in, but not limited to, a wide variety of applications such as genetic variation, expression analysis, single cell, genome assembly & annotation, phylogenomics, proteomics, metabolomics, machine learning, big data, integrative analysis, and biostatistics.
 
 ## Systems development
 
