@@ -68,7 +68,7 @@ li:empty {
 }
 
 .navbar .navbar-nav.navbar-languages {
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 .navbar .navbar-nav.navbar-languages li:not(:first-child) a {
     padding-left: 0;
