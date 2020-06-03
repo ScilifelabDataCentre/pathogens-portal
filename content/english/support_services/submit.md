@@ -3,6 +3,7 @@ title: Submit data
 menu:
     top_nav:
         weight: 30
+        pre: <i class="fas fa-paper-plane mr-2"></i>
         post: highlight
     main:
         identifier: submit_data
