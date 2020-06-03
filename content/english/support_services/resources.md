@@ -199,7 +199,6 @@ Collection of tutorials developed and maintained by the worldwide Galaxy communi
 ##### [NEUBIAS youtube channel](https://www.youtube.com/channel/UC-oy7UpEhRfHQ-5ePCviKFg)
 Videos related to bioimage analysis.
 
-
 ## Link lists with COVID-19 projects and resources
 
 ##### [Aitslab COVID-19 Resource List](https://github.com/Aitslab/corona)
@@ -225,3 +224,6 @@ A list of resources compiled to support participants of the Swedish Hack the Cri
 
 ##### [COVID-19 Biohackathon Resources](https://github.com/virtual-biohackathons/covid-19-bh20/blob/master/datasets_and_tools.md)
 A list of resources compiled to support participants of the COVID-19 Biohackathon.
+
+##### [COVID-19 Research Funding Monitor](https://coronavirus.frontiersin.org/covid-19-research-funding-monitor)
+A curated list of open funding calls and other support for researchers, non-profit organizations and commercial organizations, specifically for COVID-19 research.

@@ -16,7 +16,7 @@ Koden är öppen källkod ([MIT-licens](https://choosealicense.com/licenses/mit/
 
 Vi välkomnar bidrag till webbplatsen - för att engagera dig, vänligen kontakta [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se)
 
-## Vilka organisationer står bakom portalen?
+## Organisationer står bakom portalen
 
 Den svenska COVID-19 dataportalen drivs av SciLifeLab Data Centre och partners på uppdrag av Vetenskapsrådet, som även koordinerar arbetet med europeiska satsningar.
 
@@ -44,10 +44,10 @@ Vårt fokus är på data som härrör från användningen av SciLifeLab-infrastr
 
 NBIS är en distribuerad nationell infrastruktur för bioinformatik med stöd från SciLifeLab, Vetenskapsrådet, alla större svenska universitet, samt Knut och Alice Wallenbergs stiftelse. NBIS tillhandahåller bioinformatiksupport och infrastruktur till forskare inom livsvetenskaperna, och har ett 90-tal experter över hela landet inom olika områden såsom DNA-, RNA- och proteinanalyser, systembiologi, genomanalyser, masspektrometri-proteomik, metabolomik. NBIS har också experter inom systemutveckling och datahantering. NBIS utgör den svenska noden i den europeiska infrastrukturen [ELIXIR](https://elixir-europe.org) för biologiska data.
 
-### Swedish Nationell Datatjänst
+### Svensk Nationell Datatjänst
 
 [https://snd.gu.se](https://snd.gu.se)
 
 Svensk Nationell Datatjänst hjälper forskare att bevara, underhålla och dela digitala forskningsdata och databeskrivningar. Vi ser till att forskningsdata enkelt kan hittas, användas och citeras. SND samlar data från alla vetenskapsområden. Vi lagrar existerande och nya forskningsdata på ett säkert och hållbart sätt för framtiden och samarbetar med internationella aktörer.
 
-Svensk Nationell Datatjänst styrs av ett konsortium bestående av sju lärosäten. Tillsammans med ytterligare ett 30-tal lärosäten bildar vi ett omfattande nätverk för att ta tillvara och dela värdefull forskningsdata.
+Svensk Nationell Datatjänst styrs av ett konsortium bestående av nio lärosäten. Tillsammans med ytterligare ett 30-tal lärosäten bildar vi ett omfattande nätverk för att ta tillvara och dela värdefull forskningsdata.

@@ -1,0 +1,9 @@
+# Markdownlint configuration file
+default: true,
+line-length: false
+no-duplicate-header:
+    siblings_only: true
+blanks-around-headings: false
+heading-increment: false
+ul-indent:
+    indent: 4
