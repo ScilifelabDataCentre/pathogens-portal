@@ -1,6 +1,8 @@
 ---
 title: Support Services
 menu:
+    top_nav:
+        weight: 30
     main:
         identifier: support_services
         post: General support services for Swedish COVID-19 researchers.

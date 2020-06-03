@@ -63,6 +63,9 @@
     <div class="col-md-3 p-2">
       <a href='{{ "/privacy" | relLangURL }}'>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).privacy }}</a>
     </div>
+    <div class="col-md-3 p-2">
+      <a href="https://github.com/ScilifelabDataCentre/covid-portal">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).github_link }}</a>
+    </div>
   </div>
 </footer>
 
@@ -72,3 +75,11 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <!-- FontAwesome -->
 <script src="https://kit.fontawesome.com/471b59d3f8.js" crossorigin="anonymous"></script>
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168266875-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-168266875-1');
+</script>

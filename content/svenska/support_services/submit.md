@@ -2,7 +2,9 @@
 title: Publicera data
 menu:
     top_nav:
-        weight: 30
+        weight: 40
+        pre: <i class="fas fa-paper-plane mr-2"></i>
+        post: highlight
     main:
         identifier: submit_data
         parent: support_services
@@ -11,7 +13,7 @@ menu:
 ---
 Publicera dina Covid-19-forskningsdata för att göra dem tillgängliga för resten av forskarsamhället. Data bör lagras i en öppen databas tillsammans med beskrivande metadata. För många datatyper finns internationalla databaser som kan anses vara _de facto_ standarder.
 
-##### Vill du dela data?
+##### Dela data
 
 [SciLifeLab](mailto:datacentre@scilifelab.se) eller [NBIS](mailto:support@nbis.se) kan ge stöd och information för var och hur du kan dela dina data i publika databaser. Se nedan för ytterligare länkar.
 
@@ -19,7 +21,7 @@ European Bioinformatics Institute (EBI) driver många olika internationella data
 
 Om ditt datamaterial består av datatyper där ingen annan lämplig databas finns tillgänglig kan det deponeras i ett [generellt datarepositorium](../general_data_repository).
 
-##### Behöver du stöd för datahanteringsplaner?
+##### Stöd för datahanteringsplaner
 
 För att effektivisera tillgängliggörande av data kan [SciLifeLab](https://www.scilifelab.se) och [NBIS](http://www.nbis.se/) hjälpa dig med att planera din datahantering i början av projektet, både genom [personliga konsultationer](https://nbis.se/support/supportform/index.php?form=consultation) och genom att tillhandahålla ett [anpassat verktyg](https://dsw.scilifelab.se/) för att skapa datahanteringsplaner.
 Vi kan också hjälpa dig att identifiera lämpliga repositorier och gemensamma internationella standarder för att beskriva och publicera dina data, samt vägleda dig genom publiceringsprocessen.
@@ -28,7 +30,7 @@ Vi kan också hjälpa dig att identifiera lämpliga repositorier och gemensamma 
 
 ##### Deponera data i en publik databas
 
-Genom att deponera data i en publik databas godkänner du att data publiceras under vissa villkor för användning, som du ibland kan bestämma själv, ibland specificeras av den databas där du väljer att lägga data. En publicering innebär oftast att du får en kod som unikt identifierar ditt dataset, och ofta krävs denna information av olika journaler för att ett manuskript ska accepteras för publicering. 
+Genom att deponera data i en publik databas godkänner du att data publiceras under vissa villkor för användning, som du ibland kan bestämma själv, ibland specificeras av den databas där du väljer att lägga data. En publicering innebär oftast att du får en kod som unikt identifierar ditt dataset, och ofta krävs denna information av olika journaler för att ett manuskript ska accepteras för publicering.
 
 Om så krävs, kan data förses med ett moratorium, dvs det blir inte publikt förrän vid ett visst datum som du bestämmer.
 
