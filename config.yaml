@@ -32,7 +32,7 @@ languages:
     weight: 1
     menu:
       top_nav:
-        - name: European Hub
+        - name: European Portal
           url: https://www.covid19dataportal.org/
           weight: 20
 
