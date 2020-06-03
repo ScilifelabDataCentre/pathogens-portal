@@ -95,6 +95,17 @@ li:empty {
 .nav-languages a:active img {
     opacity: 1;
 }
+.navbar .navbar-nav a.nav-link.highlight {
+    background-color: #3b9dd8;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+}
+.navbar .navbar-nav a.nav-link.highlight:hover,
+.navbar .navbar-nav a.nav-link.highlight:focus,
+.navbar .navbar-nav a.nav-link.highlight:active {
+    background-color: #de2c6c;
+}
 
 .header {
     background-image: url('../img/csm_coronavirus_mc.jpg');

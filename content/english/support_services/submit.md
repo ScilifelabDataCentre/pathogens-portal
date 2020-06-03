@@ -3,6 +3,7 @@ title: Submit data
 menu:
     top_nav:
         weight: 30
+        post: highlight
     main:
         identifier: submit_data
         parent: support_services

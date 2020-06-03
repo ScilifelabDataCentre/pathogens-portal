@@ -3,6 +3,7 @@ title: Publicera data
 menu:
     top_nav:
         weight: 30
+        post: highlight
     main:
         identifier: submit_data
         parent: support_services
@@ -28,7 +29,7 @@ Vi kan också hjälpa dig att identifiera lämpliga repositorier och gemensamma 
 
 ##### Deponera data i en publik databas
 
-Genom att deponera data i en publik databas godkänner du att data publiceras under vissa villkor för användning, som du ibland kan bestämma själv, ibland specificeras av den databas där du väljer att lägga data. En publicering innebär oftast att du får en kod som unikt identifierar ditt dataset, och ofta krävs denna information av olika journaler för att ett manuskript ska accepteras för publicering. 
+Genom att deponera data i en publik databas godkänner du att data publiceras under vissa villkor för användning, som du ibland kan bestämma själv, ibland specificeras av den databas där du väljer att lägga data. En publicering innebär oftast att du får en kod som unikt identifierar ditt dataset, och ofta krävs denna information av olika journaler för att ett manuskript ska accepteras för publicering.
 
 Om så krävs, kan data förses med ett moratorium, dvs det blir inte publikt förrän vid ett visst datum som du bestämmer.
 
