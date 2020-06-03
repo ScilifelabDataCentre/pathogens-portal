@@ -14,7 +14,7 @@ menu:
 
 Publish your Covid-19 research data to make it available for the rest of the research community. The data should be deposited in a public repository together with descriptive metadata. For many biological datatypes, there are international databases that can be considered _de facto_ standards.
 
-##### Want to submit data?
+##### Submitting data
 
 [SciLifeLab](mailto:datacentre@scilifelab.se) or [NBIS](mailto:support@nbis.se)
 can provide support for where and how to share data in a public database. For further links, see below.
@@ -23,7 +23,7 @@ The European Bioinformatics Institute (EBI) hosts many different international d
 
 For data types where no suitable international repository is available, your data can be deposited to a [General data repository](../general_data_repository).
 
-##### Want support on data management planning?
+##### Support for data management planning
 
 [SciLifeLab](https://www.scilifelab.se) and [NBIS](http://www.nbis.se/) can support you with Data Management Planning early on in the project to make data sharing more efficient, both through [personal consultations](https://nbis.se/support/supportform/index.php?form=consultation) and by providing a [customised tool](https://dsw.scilifelab.se/) to create Data Management Plans.
 We can also assist you in identifying relevant repositories and common international standards for describing and publishing your data, as well as guide you through the submission process.

@@ -201,7 +201,6 @@ Samling av tutorials utvecklade och underhållna av den globala Galaxy-gemenskap
 ##### [NEUBIAS youtube channel](https://www.youtube.com/channel/UC-oy7UpEhRfHQ-5ePCviKFg)
 Videor relaterade till biobildsanalys.
 
-
 ## Länklistor med COVID-19-projekt och resurser
 
 ##### [Aitslab COVID-19 Resource List](https://github.com/Aitslab/corona)

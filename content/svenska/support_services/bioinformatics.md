@@ -30,7 +30,7 @@ För att göra dataset tillgängliga i Europeiska COVID-19 portaler erbjuder NBI
 
 En datahanteringsplan (DHP) är ett levande dokument som beskriver hur ny och existerande data kommer att hanteras inom ramen för ditt forskningsprojekt samt när projektet är avslutat. För att din forskning och tillgängliggörande av din data ska bli mer effektiv är det rekommenderat, och i vissa fall obligatoriskt, att skapa en datahanteringsplan tidigt i ditt projekt.
 
-Vi tillhandahåller [ett verktyg](https://dsw.scilifelab.se) för att skapa DHP:er med mallar utformade i enlighet med Vetenskapsrådets krav. 
+Vi tillhandahåller [ett verktyg](https://dsw.scilifelab.se) för att skapa DHP:er med mallar utformade i enlighet med Vetenskapsrådets krav.
 
 För mer information om NBIS, besök [nbis.se](https://nbis.se).
 
