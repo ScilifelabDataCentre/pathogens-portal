@@ -63,11 +63,9 @@
     <div class="col-md-3 p-2">
       <a href='{{ "/privacy" | relLangURL }}'>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).privacy }}</a>
     </div>
-    {{ if .IsPage }}
     <div class="col-md-3 p-2">
       <a href="https://github.com/ScilifelabDataCentre/covid-portal">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).github_link }}</a>
     </div>
-    {{ end }}
   </div>
 </footer>
 
