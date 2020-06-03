@@ -4,7 +4,7 @@ body {
     font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
 }
 a {
-    color: #3E75C1;
+    color: #3b9dd8;
 }
 img {
     max-width: 100%;
@@ -68,7 +68,7 @@ li:empty {
 }
 
 .navbar .navbar-nav.navbar-languages {
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 .navbar .navbar-nav.navbar-languages li:not(:first-child) a {
     padding-left: 0;
@@ -94,6 +94,20 @@ li:empty {
 .nav-languages a:focus img,
 .nav-languages a:active img {
     opacity: 1;
+}
+.navbar .navbar-nav a.nav-link.highlight {
+    border: 1px solid rgba(46, 104, 165, 0.8);
+    color: rgba(46, 104, 165, 0.8);
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 2px;
+}
+.navbar .navbar-nav a.nav-link.highlight:hover,
+.navbar .navbar-nav a.nav-link.highlight:focus,
+.navbar .navbar-nav a.nav-link.highlight:active {
+    background-color: #de2c6c;
+    border-color: #de2c6c;
+    color: #ffffff;
 }
 
 .header {

@@ -2,7 +2,9 @@
 title: Submit data
 menu:
     top_nav:
-        weight: 30
+        weight: 40
+        pre: <i class="fas fa-paper-plane mr-2"></i>
+        post: highlight
     main:
         identifier: submit_data
         parent: support_services
