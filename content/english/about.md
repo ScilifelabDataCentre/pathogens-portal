@@ -10,7 +10,7 @@ The Swedish COVID-19 Data Portal provides information, guidelines, tools and ser
 
 Contact: [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se)
 
-## What organisations are behind the portal?
+## Organisations behind the portal
 
 The Swedish COVID-19 Data Portal is operated by the [SciLifeLab Data Centre](https://www.scilifelab.se/data) and partners. The [Swedish Research Council](https://vr.se) is responsible for coordination with the European initiative.
 

@@ -199,7 +199,6 @@ Collection of tutorials developed and maintained by the worldwide Galaxy communi
 ##### [NEUBIAS youtube channel](https://www.youtube.com/channel/UC-oy7UpEhRfHQ-5ePCviKFg)
 Videos related to bioimage analysis.
 
-
 ## Link lists with COVID-19 projects and resources
 
 ##### [Aitslab COVID-19 Resource List](https://github.com/Aitslab/corona)

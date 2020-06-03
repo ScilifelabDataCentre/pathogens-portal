@@ -10,7 +10,7 @@ Den svenska dataportalen för COVID-19 tillhandahåller information, riktlinjer,
 
 Kontakt: [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se)
 
-## Vilka organisationer står bakom portalen?
+## Organisationer står bakom portalen
 
 Den svenska COVID-19 dataportalen drivs av SciLifeLab Data Centre och partners på uppdrag av Vetenskapsrådet, som även koordinerar arbetet med europeiska satsningar.
 

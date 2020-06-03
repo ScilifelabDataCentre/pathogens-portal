@@ -10,7 +10,7 @@ menu:
 
 Protein analysis can be conducted using different types of methodologies and across different types of samples. A brief description of technologies using affinity proteomics or mass spectrometry is listed below:
 
-**Affinity-based protein detection**
+#### Affinity-based protein detection
 
 * Multiplexed analysis of proteins in body fluids at [Plasma Profiling](https://www.scilifelab.se/facilities/plasma-profiling/)
 
@@ -22,7 +22,7 @@ Protein analysis can be conducted using different types of methodologies and acr
 
 * Immunofluorescence analysis of cellular proteins at [Cell Profiling](https://www.scilifelab.se/facilities/cell-profiling/)
 
-**Mass spectrometry-based protein detection**
+#### Mass spectrometry-based protein detection
 
 * Using chemistry for functional proteomics at [Chemical Proteomics](https://bioms.se/technologies/chemical-proteomics/) and [SciLifeLab Chemical Proteomics](https://www.scilifelab.se/facilities/chemical-proteomics-core-facility)
 
@@ -36,4 +36,4 @@ Protein analysis can be conducted using different types of methodologies and acr
 
 * Screening of natural peptides at [Quantitative Clinical Peptidomics](https://bioms.se/technologies/diagnostic-proteomics-peptidomics/)
 
-* Screening of selected proteins in tissue or cells at [Targeted Proteomics](https://bioms.se/technologies/targeted-mass-spectrometry/) 
+* Screening of selected proteins in tissue or cells at [Targeted Proteomics](https://bioms.se/technologies/targeted-mass-spectrometry/)
