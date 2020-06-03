@@ -3,6 +3,8 @@ title: Publicera data
 menu:
     top_nav:
         weight: 40
+        pre: <i class="fas fa-paper-plane mr-2"></i>
+        post: highlight
     main:
         identifier: submit_data
         parent: support_services

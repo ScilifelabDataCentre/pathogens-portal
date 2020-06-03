@@ -9,7 +9,7 @@
     <div class="collapse navbar-collapse" id="navbarCollapseTop">
       <ul class="navbar-nav ml-auto">
         {{ range .Site.Menus.top_nav }}
-          <li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
+          <li class="nav-item"><a class="nav-link {{ .Post }}" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a></li>
         {{ end }}
       </ul>
       <ul class="navbar-nav navbar-languages">
@@ -41,7 +41,7 @@
       <hr class="d-md-none">
       <ul class="navbar-nav d-md-none">
         {{ range .Site.Menus.top_nav }}
-          <li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
+          <li class="nav-item"><a class="nav-link {{ .Post }}" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a></li>
         {{ end }}
       </ul>
       <hr class="d-md-none">
