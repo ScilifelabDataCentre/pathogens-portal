@@ -14,6 +14,7 @@ params:
       enquire_email_footer_bioinformatics: "For bioinformatics support, please contact"
       support_feedback: Support & Feedback
       privacy: Privacy Notice
+      github_link: Website code on GitHub
       skip_to_content: Skip to main content
     sv:
       home_title: Snabbare forskning genom datadelning
@@ -21,6 +22,7 @@ params:
       enquire_email_footer_bioinformatics: "För support inom bioinformatik, kontakta"
       support_feedback: Support och Feedback
       privacy: Integritetspolicy
+      github_link: Webbplatskod på GitHub
       skip_to_content: Hoppa till innehållet
 
 languages:

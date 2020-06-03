@@ -12,9 +12,9 @@ Contact: [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se)
 
 ## What organisations are behind the portal?
 
-The Swedish COVID-19 Data Portal is operated by the [SciLifeLab Data Centre](https://www.scilifelab.se/data) and partners. The [Swedish Research Council](https://vr.se) is responsible for coordination with the European initiative. 
+The Swedish COVID-19 Data Portal is operated by the [SciLifeLab Data Centre](https://www.scilifelab.se/data) and partners. The [Swedish Research Council](https://vr.se) is responsible for coordination with the European initiative.
 
-SciLifeLab and the Swedish Research Council are committed to the open sharing of data and results, and have both signed the Wellcome Trust statement on [Sharing research data and findings relevant to the novel coronavirus (COVID-19) outbreak](https://wellcome.ac.uk/coronavirus-covid-19/open-data). 
+SciLifeLab and the Swedish Research Council are committed to the open sharing of data and results, and have both signed the Wellcome Trust statement on [Sharing research data and findings relevant to the novel coronavirus (COVID-19) outbreak](https://wellcome.ac.uk/coronavirus-covid-19/open-data).
 
 ### [SciLifeLab](https://www.scilifelab.se)
 
@@ -24,7 +24,7 @@ SciLifeLab started out in 2010 as a joint effort between four universities: [Kar
 
 #### [Data at SciLifeLab](https://www.scilifelab.se/data/)
 
-Life science research is increasingly becoming not only technology-driven, but also data-driven. SciLifeLab coordinates and supports activities throughout the life cycle of data, from project planning, data production, data analysis, data sharing, to publishing and reuse of data, where researchers are dependent on advanced data analysis and e-infrastructures. 
+Life science research is increasingly becoming not only technology-driven, but also data-driven. SciLifeLab coordinates and supports activities throughout the life cycle of data, from project planning, data production, data analysis, data sharing, to publishing and reuse of data, where researchers are dependent on advanced data analysis and e-infrastructures.
 
 Our focus is on data arising from the use of SciLifeLab infrastructure platforms, both to promote research on adding value to data, research deriving biological knowledge from data, and infrastructure making data findable and available. At SciLifeLab, we see data as one of the most valuable and long-lasting products of our operations and strive to make our data [FAIR](https://www.force11.org/group/fairgroup/fairprinciples), handled according to open science standards and that its long- term value to the scientific community is maximized.
 
@@ -35,3 +35,11 @@ NBIS (National Bioinformatics Infrastructure Sweden) is a distributed national r
 ### [Swedish National Data Service](https://snd.gu.se)
 
 Swedish National Data Service has a primary function to support the accessibility, preservation, and re-use of research data and related materials. As a national infrastructure, SND coordinates a network of more than 30 universities and public research institutes in Sweden. SND is certified data repository and provides services for researchers to share and access research data from all research areas.
+
+## This website
+
+This website is built using [Hugo](https://gohugo.io/) and uses the [Bootstrap](https://getbootstrap.com/) framework.
+The code is open source ([MIT licence](https://choosealicense.com/licenses/mit/)) and is available on GitHub:
+[https://github.com/ScilifelabDataCentre/covid-portal](https://github.com/ScilifelabDataCentre/covid-portal)
+
+We welcome contributions to the website - to get involved, please contact [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se)
