@@ -34,7 +34,8 @@ SNIC is a national research infrastructure that makes available large-scale high
 ## Data
 
 ### Text data
-See [Text and Literature](../text_and_literature).
+See [Text and Literature](
+https://github.com/ScilifelabDataCentre/covid-portal/blob/develop/content/english/support_services/text_and_literature.md).
 
 ### Clinical data and clinical trials
 
