@@ -14,9 +14,9 @@ The National Pandemic Centre is a lab for
 at [Karolinska Institutet](https://ki.se/en). The aggregated statistics for
 the PCR-based tests are given in the graphs below.
 
-<div id="stacked-bar-chart">
+<div id="stacked-bar-chart"></div>
 
-<div id="cumulative-plot">
+<div id="cumulative-plot"></div>
 
 The dataset itself is available
 [here](https://datagraphics.dckube.scilifelab.se/dataset/65c5d7e6b505420c98714a4b348bafbb) and is updated daily.
