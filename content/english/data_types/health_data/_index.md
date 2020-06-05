@@ -16,3 +16,6 @@ Official statistics about COVID-19 cases and tests in Sweden.
 
 ##### [National health metadata repository - RUT](rut)
 Meta data for Swedish national health registers.
+
+##### [National Pandemic Centre Covid-19 test statistics](npc-statistics)
+Meta data for Swedish national health registers.
