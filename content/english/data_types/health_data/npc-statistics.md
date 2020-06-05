@@ -31,4 +31,3 @@ and [here for the cumulative plot](https://datagraphics.dckube.scilifelab.se/gra
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/85c0a41fb118495e88a1fccad37e821e.js?id=stacked-bar-chart"></script>
 
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/aa9e90ed7a5445a0bf70f0b81da2325e.js?id=cumulative-plot"></script>
-

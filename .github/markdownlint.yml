@@ -7,3 +7,8 @@ blanks-around-headings: false
 heading-increment: false
 ul-indent:
     indent: 4
+no-inline-html:
+  allowed_elements:
+    - div
+    - script
+    
