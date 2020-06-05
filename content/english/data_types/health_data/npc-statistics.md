@@ -7,24 +7,8 @@ menu:
         weight: 10
 ---
 
-The plots in this page show the number of SARS-CoV-2 tests processed
-at the National Pandemic Center (NPC) at Karolinska Institutet.
-
-<div class="d-md-none alert alert-info">
-     Scroll the plot sideways to view all data
-</div>
-<div class="plot_wrapper">
-     <div id="stacked-bar-chart"></div>
-</div>
-
-<div class="d-md-none alert alert-info">
-     Scroll the plot sideways to view all data
-</div>
-<div class="plot_wrapper">
-     <div id="cumulative-plot"></div>
-</div>
-
-In late March 2020, the
+The National Pandemic Centre (NPC) is a lab for
+[Covid-19 testing](https://ki.se/mtc/ctmr-and-covid-19) set up within the
 [Centre for Translational Microbiome Research (CTMR)](https://ki.se/en/research/centre-for-translational-microbiome-research-ctmr)
 at [Karolinska Institutet (KI)](https://ki.se/en)/
 [SciLifeLab](https://www.scilifelab.se/)
@@ -47,6 +31,22 @@ approximately 5000 test per day, with results typically returned within
 These numbers are compiled automatically and might not correspond to
 the numbers reported through other sources for different reasons.
 The data are updated once daily, and backdated changes to numbers might occur.
+
+#### Daily NPC test results
+
+<div class="d-md-none alert alert-info">Scroll the plot sideways to view all data</div>
+
+<div class="plot_wrapper"><div id="stacked-bar-chart"></div></div>
+
+#### Cumulative NPC test numbers
+
+<div class="d-md-none alert alert-info">Scroll the plot sideways to view all data</div>
+
+<div class="plot_wrapper"><div id="cumulative-plot"></div></div>
+
+The aggregated statistics for the PCR-based tests are shown in the graphs.
+The term "failed" indicates a test that was inconclusive or invalid
+for technical reasons.
 
 The dataset visualized in the graphs is available
 [here](https://datagraphics.dckube.scilifelab.se/dataset/bbbaf64a25a1452287a8630503f07418) and is updated daily.

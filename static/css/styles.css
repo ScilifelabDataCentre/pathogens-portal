@@ -161,3 +161,8 @@ footer img {
     text-align: center;
     width: 1.25em;
 }
+
+.plot_wrapper {
+    max-width: 100%;
+    overflow-x: auto;
+}
