@@ -1,5 +1,5 @@
 ---
-title: Registerdata
+title: Sjukvårdsdata
 menu:
     main:
         identifier: health_data
@@ -8,11 +8,15 @@ menu:
         pre: <i class="fas fa-ambulance"></i>
 ---
 
-##### [Intensivvårdsregistret](https://www.icuregswe.org/data--resultat/covid-19-i-svensk-intensivvard/)
-Statistik över ICU-antagningar i Sverige.
+##### [Svenska Intensivvårdsregistret](https://www.icuregswe.org/data--resultat/covid-19-i-svensk-intensivvard/)
+Statistik om inlagda till IVA i Sverige.
 
 ##### [Folkhälsomyndigheten](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/bekraftade-fall-i-sverige/)
 Officiell statistik om COVID-19 fall och tester i Sverige.
 
-##### [Metadata för svensk registerforskning - RUT](rut)
-Metadata för svensk registerforskning.
+##### [Metadata för nationella register - RUT](rut)
+Metadata för svenska nationella sjukvårdsregister.
+
+##### [Nationellt Pandemicentrum, statistik för COVID-19-tester](npc-statistics)
+Automatiskt genererad statistik för COVID-19 tester som utförs av NPC.
+Uppdateras dagligen.
