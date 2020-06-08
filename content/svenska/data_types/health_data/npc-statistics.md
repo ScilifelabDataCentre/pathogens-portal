@@ -9,7 +9,7 @@ menu:
 
 #### Dagligt antal tester vid NPC
 
-Totala antalet tester körda för varje dag, uppdelade på de med positivt, negativt eller icke-avgjort/felaktigt resultat.
+Totala antalet tester analyserade för varje dag, uppdelade på de med positivt, negativt eller icke-avgjort/felaktigt resultat.
 
 <div class="d-md-none alert alert-info">
   Skrolla grafen horisontellt för att se all data.
@@ -20,7 +20,7 @@ Totala antalet tester körda för varje dag, uppdelade på de med positivt, nega
 
 #### Kumulativt antal tester vid NPC
 
-Summan av alla tester körda vid NPC sedan start.
+Summan av alla tester analyserade vid NPC sedan start.
 
 <div class="d-md-none alert alert-info">
   Skrolla grafen horisontellt för att se all data.
