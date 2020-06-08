@@ -46,9 +46,9 @@ RNA-extraktionskapacitet, men expanderade på kort tid till en
 fullskalig verksamhet för att kunna erbjuda resurser för utökad
 SARS-CoV-2-testning i alla Sveriges regioner.
 
-Nationellt Pandemicenter (NPC) har en nuvarande analyskapacitet är ca 5000
-prover om dagen, med provsvar normalt inom 24 timmar från provets
-ankomst till labbet.
+Nationellt Pandemicenter (NPC) vid KI/SciLifeLab har en nuvarande
+analyskapacitet är ca 5000 prover om dagen, med provsvar normalt inom
+24 timmar från provets ankomst till labbet.
 
 Datan som visas på den här sidan är automatiskt sammanställd och stämmer inte
 nödvändigtvis överens med data som publicerats via andra kanaler
