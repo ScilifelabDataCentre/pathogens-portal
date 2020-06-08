@@ -1,5 +1,5 @@
 ---
-title: National Pandemic Centre Covid-19 test statistics
+title: Nationellt Pandemicenter Covid-19 teststatistik
 menu:
     main:
         identifier: npc-statistics
@@ -9,29 +9,34 @@ menu:
 
 #### Dagligt antal tester vid NPC
 
+Totala antalet tester analyserade för varje dag, uppdelade på de med positivt, negativt eller icke-avgjort/felaktigt resultat.
+
 <div class="d-md-none alert alert-info">
-  Scroll the plot sideways to view all data
+  Skrolla grafen horisontellt för att se all data.
 </div>
 <div class="plot_wrapper">
-     <div id="stacked-bar-chart"></div>
+  <div id="stacked-bar-chart"></div>
 </div>
 
 #### Kumulativt antal tester vid NPC
 
+Summan av alla tester analyserade vid NPC sedan start.
+
 <div class="d-md-none alert alert-info">
-  Scroll the plot sideways to view all data
+  Skrolla grafen horisontellt för att se all data.
 </div>
 <div class="plot_wrapper">
-     <div id="cumulative-plot"></div>
+  <div id="cumulative-plot"></div>
 </div>
 
-Vid slutet av mars 2020 ställde
+Nationellt Pandemicenter (NPC) är ett lab för
+[Covid-19 tester](https://ki.se/mtc/ctmr-and-covid-19) som har byggts upp
+vid
 [Centret för Translationell Mikrobiomforskning (CTMR)](https://ki.se/en/research/news-from-the-centre-for-translational-microbiome-research-ctmr)
 på [Karolinska Institutet (KI)](https://ki.se/)/
-[SciLifeLab](https://www.scilifelab.se/)
-snabbt om sitt laboratorium för storskalig mikrobiomforskning till ett center
-för att bistå Sverige med att
-[analysera SARS-CoV-2-prov](https://ki.se/mtc/ctmr-and-covid-19).
+[SciLifeLab](https://www.scilifelab.se/).
+I slutet av mars 2020 ställde man snabbt om sitt laboratorium för storskalig mikrobiomforskning till ett
+center för att bistå Sverige med att analysera SARS-CoV-2-prov.
 Detta möjliggjordes tack vare en donation från
 [Knut och Alice Wallenbergs stiftelse (KAW)](https://kaw.wallenberg.org/),
 i kombination med ett tidigare redan etablerat nära samarbete med
@@ -41,8 +46,9 @@ RNA-extraktionskapacitet, men expanderade på kort tid till en
 fullskalig verksamhet för att kunna erbjuda resurser för utökad
 SARS-CoV-2-testning i alla Sveriges regioner.
 
-Centrets nuvarande analyskapacitet är ca 5000 prover om dagen, med provsvar
-normalt inom 24 timmar från provets ankomst till labbet.
+Nationellt Pandemicenter (NPC) har en nuvarande analyskapacitet är ca 5000
+prover om dagen, med provsvar normalt inom 24 timmar från provets
+ankomst till labbet.
 
 Datan som visas på den här sidan är automatiskt sammanställd och stämmer inte
 nödvändigtvis överens med data som publicerats via andra kanaler
