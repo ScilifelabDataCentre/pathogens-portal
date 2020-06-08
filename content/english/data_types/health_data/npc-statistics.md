@@ -1,5 +1,5 @@
 ---
-title: National Pandemic Centre Covid-19 test statistics
+title: National Pandemic Centre SARS-CoV-2 (Covid-19) virus test statistics
 menu:
     main:
         identifier: npc-statistics
@@ -9,7 +9,8 @@ menu:
 
 #### Daily NPC test results
 
-Total number of tests run daily, separated into positive, negative and invalid/inconclusive results.
+Total number of SARS-CoV-2 (Covid-19) tests run daily, separated into
+positive, negative and invalid/inconclusive results.
 
 <div class="d-md-none alert alert-info">
   Scroll the plot sideways to view all data.
@@ -21,7 +22,7 @@ Total number of tests run daily, separated into positive, negative and invalid/i
 
 #### Cumulative NPC test numbers
 
-The sum of all tests run at NPC since the start.
+The sum of all SARS-CoV-2 (Covid-19) virus tests run at NPC since the start.
 
 <div class="d-md-none alert alert-info">
   Scroll the plot sideways to view all data.
@@ -32,7 +33,8 @@ The sum of all tests run at NPC since the start.
 </div>
 
 The National Pandemic Centre (NPC) is a lab for
-[Covid-19 testing](https://ki.se/mtc/ctmr-and-covid-19) set up within the
+[SARS-CoV-2 (Covid-19) testing](https://ki.se/mtc/ctmr-and-covid-19)
+set up within the
 [Centre for Translational Microbiome Research (CTMR)](https://ki.se/en/research/centre-for-translational-microbiome-research-ctmr)
 at [Karolinska Institutet (KI)](https://ki.se/en)/
 [SciLifeLab](https://www.scilifelab.se/).
@@ -50,7 +52,8 @@ increased SARS-CoV-2 testing capacity to all regions of Sweden.
 
 The current capacity of the National Pandemic Center at KI/SciLifeLab is
 approximately 5000 test per day, with results typically returned within
-24 hours from the sample arriving to the lab.
+24 hours from the sample arriving to the lab. Please note that only PCR-based
+analysis is performed at NPC, not serological (antibody-based) analysis.
 
 These numbers are compiled automatically and might not correspond to
 the numbers reported through other sources for different reasons.
