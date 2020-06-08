@@ -33,7 +33,7 @@ sedan start.
 </div>
 
 Nationellt Pandemicenter (NPC) är ett lab för
-[SARS-CoV-2 (Covid-19) tester](https://ki.se/mtc/ctmr-and-covid-19) som har byggts upp
+[SARS-CoV-2 (Covid-19)-tester](https://ki.se/mtc/ctmr-and-covid-19) som har byggts upp
 vid
 [Centret för Translationell Mikrobiomforskning (CTMR)](https://ki.se/en/research/news-from-the-centre-for-translational-microbiome-research-ctmr)
 på [Karolinska Institutet (KI)](https://ki.se/)/
