@@ -9,28 +9,36 @@ menu:
 
 #### Daily NPC test results
 
+Total number of tests run daily, separated into positive, negative and invalid/inconclusive results.
+
 <div class="d-md-none alert alert-info">
-  Scroll the plot sideways to view all data
+  Scroll the plot sideways to view all data.
 </div>
 
-<div class="plot_wrapper"><div id="stacked-bar-chart"></div></div>
+<div class="plot_wrapper">
+  <div id="stacked-bar-chart"></div>
+</div>
 
 #### Cumulative NPC test numbers
 
+The sum of all tests run at NPC since the start.
+
 <div class="d-md-none alert alert-info">
-  Scroll the plot sideways to view all data
+  Scroll the plot sideways to view all data.
 </div>
 
-<div class="plot_wrapper"><div id="cumulative-plot"></div></div>
+<div class="plot_wrapper">
+  <div id="cumulative-plot"></div>
+</div>
 
 The National Pandemic Centre (NPC) is a lab for
 [Covid-19 testing](https://ki.se/mtc/ctmr-and-covid-19) set up within the
 [Centre for Translational Microbiome Research (CTMR)](https://ki.se/en/research/centre-for-translational-microbiome-research-ctmr)
 at [Karolinska Institutet (KI)](https://ki.se/en)/
-[SciLifeLab](https://www.scilifelab.se/)
-quickly started converting their large-scale microbiome research lab into
-a center that can assist Sweden in
-[analyzing SARS-CoV-2 tests](https://ki.se/mtc/ctmr-and-covid-19).
+[SciLifeLab](https://www.scilifelab.se/).
+At the end of March 202 the large-scale microbiome research lab was
+quickly converted into a center that can assist Sweden in
+analyzing SARS-CoV-2 tests.
 This was made possible through a donation by the
 [Knut and Alice Wallenberg Foundation (KAW)](https://kaw.wallenberg.org/en)
 in combination with a previously established collaboration with
