@@ -1,5 +1,5 @@
 ---
-title: Nationellt Pandemicenter Covid-19 test statistik
+title: Nationellt Pandemicenter SARS-CoV-2 (Covid-19) virus analys-statistik
 menu:
     main:
         identifier: npc-statistics
@@ -9,7 +9,9 @@ menu:
 
 #### Dagligt antal tester vid NPC
 
-Totala antalet tester analyserade för varje dag, uppdelade på de med positivt, negativt eller icke-avgjort/felaktigt resultat.
+Totala antalet SARS-CoV-2 (Covid-19) virus tester analyserade för
+varje dag, uppdelade på de med positivt, negativt eller
+icke-avgjort/felaktigt resultat.
 
 <div class="d-md-none alert alert-info">
   Skrolla grafen horisontellt för att se all data.
@@ -20,7 +22,8 @@ Totala antalet tester analyserade för varje dag, uppdelade på de med positivt,
 
 #### Kumulativt antal tester vid NPC
 
-Summan av alla tester analyserade vid NPC sedan start.
+Summan av alla SARS-CoV-2 (Covid-19) virus tester analyserade vid NPC
+sedan start.
 
 <div class="d-md-none alert alert-info">
   Skrolla grafen horisontellt för att se all data.
@@ -30,7 +33,7 @@ Summan av alla tester analyserade vid NPC sedan start.
 </div>
 
 Nationellt Pandemicenter (NPC) är ett lab för
-[Covid-19 tester](https://ki.se/mtc/ctmr-and-covid-19) som har byggts upp
+[SARS-CoV-2 (Covid-19) tester](https://ki.se/mtc/ctmr-and-covid-19) som har byggts upp
 vid
 [Centret för Translationell Mikrobiomforskning (CTMR)](https://ki.se/en/research/news-from-the-centre-for-translational-microbiome-research-ctmr)
 på [Karolinska Institutet (KI)](https://ki.se/)/
@@ -48,9 +51,10 @@ SARS-CoV-2-testning i alla Sveriges regioner.
 
 Nationellt Pandemicenter (NPC) vid KI/SciLifeLab har en nuvarande
 analyskapacitet är ca 5000 prover om dagen, med provsvar normalt inom
-24 timmar från provets ankomst till labbet.
+24 timmar från provets ankomst till labbet. Notera att endast PCR-baserade
+analyser görs vid NPC, inte serologiska (antikroppsbaserade) analyser.
 
-Datan som visas på den här sidan är automatiskt sammanställd och stämmer inte
+Data som visas på den här sidan är automatiskt sammanställd och stämmer inte
 nödvändigtvis överens med data som publicerats via andra kanaler
 av olika anledningar. Datan uppdateras dagligen, och ändringar bakåt i
 tiden kan förekomma.
