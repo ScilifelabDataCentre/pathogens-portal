@@ -38,7 +38,7 @@ set up within the
 [Centre for Translational Microbiome Research (CTMR)](https://ki.se/en/research/centre-for-translational-microbiome-research-ctmr)
 at [Karolinska Institutet (KI)](https://ki.se/en)/
 [SciLifeLab](https://www.scilifelab.se/).
-At the end of March 202 the large-scale microbiome research lab was
+At the end of March 2020 the large-scale microbiome research lab was
 quickly converted into a center that can assist Sweden in
 analyzing SARS-CoV-2 tests.
 This was made possible through a donation by the
