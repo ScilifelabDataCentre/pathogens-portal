@@ -10,19 +10,19 @@ menu:
 #### Dagligt antal tester vid NPC
 
 <div class="d-md-none alert alert-info">
-  Scroll the plot sideways to view all data
+  Skrolla grafen horisontellt för att se allt data.
 </div>
 <div class="plot_wrapper">
-     <div id="stacked-bar-chart"></div>
+  <div id="stacked-bar-chart"></div>
 </div>
 
 #### Kumulativt antal tester vid NPC
 
 <div class="d-md-none alert alert-info">
-  Scroll the plot sideways to view all data
+  Skrolla grafen horisontellt för att se allt data.
 </div>
 <div class="plot_wrapper">
-     <div id="cumulative-plot"></div>
+  <div id="cumulative-plot"></div>
 </div>
 
 Vid slutet av mars 2020 ställde

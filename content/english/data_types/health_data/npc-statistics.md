@@ -10,18 +10,22 @@ menu:
 #### Daily NPC test results
 
 <div class="d-md-none alert alert-info">
-  Scroll the plot sideways to view all data
+  Scroll the plot sideways to view all data.
 </div>
 
-<div class="plot_wrapper"><div id="stacked-bar-chart"></div></div>
+<div class="plot_wrapper">
+  <div id="stacked-bar-chart"></div>
+</div>
 
 #### Cumulative NPC test numbers
 
 <div class="d-md-none alert alert-info">
-  Scroll the plot sideways to view all data
+  Scroll the plot sideways to view all data.
 </div>
 
-<div class="plot_wrapper"><div id="cumulative-plot"></div></div>
+<div class="plot_wrapper">
+  <div id="cumulative-plot"></div>
+</div>
 
 The National Pandemic Centre (NPC) is a lab for
 [Covid-19 testing](https://ki.se/mtc/ctmr-and-covid-19) set up within the
