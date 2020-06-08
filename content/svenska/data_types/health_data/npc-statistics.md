@@ -7,18 +7,19 @@ menu:
         weight: 10
 ---
 
-Graferna på denna sida visar antalet SARS-CoV-2 tester som analyserats på
-Nationellt Pandemicentrum (NPC) vid Karolinska Institutet.
+#### Dagligt antal tester vid NPC
 
 <div class="d-md-none alert alert-info">
-     Scroll the plot sideways to view all data
+  Scroll the plot sideways to view all data
 </div>
 <div class="plot_wrapper">
      <div id="stacked-bar-chart"></div>
 </div>
 
+#### Kumulativt antal tester vid NPC
+
 <div class="d-md-none alert alert-info">
-     Scroll the plot sideways to view all data
+  Scroll the plot sideways to view all data
 </div>
 <div class="plot_wrapper">
      <div id="cumulative-plot"></div>
