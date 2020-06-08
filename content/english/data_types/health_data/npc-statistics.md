@@ -9,9 +9,7 @@ menu:
 
 #### Daily NPC test results
 
-<p class="small">
-  Total number of tests run daily, separated into positive, negative and invalid/inconclusive results.
-</p>
+Total number of tests run daily, separated into positive, negative and invalid/inconclusive results.
 
 <div class="d-md-none alert alert-info">
   Scroll the plot sideways to view all data.
@@ -23,9 +21,7 @@ menu:
 
 #### Cumulative NPC test numbers
 
-<p class="small">
-  The sum of all tests run at NPC since the start.
-</p>
+The sum of all tests run at NPC since the start.
 
 <div class="d-md-none alert alert-info">
   Scroll the plot sideways to view all data.
