@@ -9,8 +9,12 @@ menu:
 
 #### Dagligt antal tester vid NPC
 
+<p class="small">
+  Totala antalet tester körda för varje dag, uppdelade på de med positivt, negativt eller icke-avgjort/felaktigt resultat.
+</p>
+
 <div class="d-md-none alert alert-info">
-  Skrolla grafen horisontellt för att se allt data.
+  Skrolla grafen horisontellt för att se all data.
 </div>
 <div class="plot_wrapper">
   <div id="stacked-bar-chart"></div>
@@ -18,8 +22,12 @@ menu:
 
 #### Kumulativt antal tester vid NPC
 
+<p class="small">
+   Summan av alla tester körda vid NPC sedan start.
+</p>
+
 <div class="d-md-none alert alert-info">
-  Skrolla grafen horisontellt för att se allt data.
+  Skrolla grafen horisontellt för att se all data.
 </div>
 <div class="plot_wrapper">
   <div id="cumulative-plot"></div>
@@ -27,7 +35,7 @@ menu:
 
 Nationellt Pandemicenter (NPC) är ett lab för
 [Covid-19 tester](https://ki.se/mtc/ctmr-and-covid-19) som har byggts upp
-vid 
+vid
 [Centret för Translationell Mikrobiomforskning (CTMR)](https://ki.se/en/research/news-from-the-centre-for-translational-microbiome-research-ctmr)
 på [Karolinska Institutet (KI)](https://ki.se/)/
 [SciLifeLab](https://www.scilifelab.se/).
