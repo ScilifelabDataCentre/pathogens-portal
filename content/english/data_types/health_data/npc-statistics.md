@@ -12,7 +12,7 @@ menu:
 Total number of SARS-CoV-2 (Covid-19) tests run daily, separated into
 positive, negative and invalid/inconclusive results.
 
-<div class="d-md-none alert alert-info">
+<div class="d-lg-none alert alert-info">
   Scroll the plot sideways to view all data.
 </div>
 
@@ -24,7 +24,7 @@ positive, negative and invalid/inconclusive results.
 
 The sum of all SARS-CoV-2 (Covid-19) virus tests run at NPC since the start.
 
-<div class="d-md-none alert alert-info">
+<div class="d-lg-none alert alert-info">
   Scroll the plot sideways to view all data.
 </div>
 
