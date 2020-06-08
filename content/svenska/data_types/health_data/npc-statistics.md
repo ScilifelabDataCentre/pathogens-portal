@@ -50,7 +50,7 @@ fullskalig verksamhet för att kunna erbjuda resurser för utökad
 SARS-CoV-2-testning i alla Sveriges regioner.
 
 Nationellt Pandemicenter (NPC) vid KI/SciLifeLab har en nuvarande
-analyskapacitet är ca 5000 prover om dagen, med provsvar normalt inom
+analyskapacitet på ca 5000 prover per dag, med provsvar normalt inom
 24 timmar från provets ankomst till labbet. Notera att endast PCR-baserade
 analyser görs vid NPC, inte serologiska (antikroppsbaserade) analyser.
 
