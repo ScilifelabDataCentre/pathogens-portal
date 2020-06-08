@@ -46,3 +46,8 @@ languages:
         - name: Europeiska portalen
           url: https://www.covid19dataportal.org/
           weight: 20
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
