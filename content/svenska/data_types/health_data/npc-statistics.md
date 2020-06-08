@@ -1,5 +1,5 @@
 ---
-title: Nationellt Pandemicenter SARS-CoV-2 (Covid-19) virus analys-statistik
+title: Nationellt Pandemicenter SARS-CoV-2 (Covid-19) virus analysstatistik
 menu:
     main:
         identifier: npc-statistics
