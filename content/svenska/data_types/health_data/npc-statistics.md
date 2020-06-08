@@ -1,5 +1,5 @@
 ---
-title: Nationellt Pandemicenter Covid-19 test statistik
+title: Nationellt Pandemicenter Covid-19 teststatistik
 menu:
     main:
         identifier: npc-statistics
