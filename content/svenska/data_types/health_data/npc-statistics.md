@@ -13,7 +13,7 @@ Totala antalet SARS-CoV-2 (Covid-19)-virustester analyserade för
 varje dag, uppdelade på de med positivt, negativt eller
 icke-avgjort/felaktigt resultat.
 
-<div class="d-md-none alert alert-info">
+<div class="d-lg-none alert alert-info">
   Skrolla grafen horisontellt för att se all data.
 </div>
 <div class="plot_wrapper">
@@ -25,7 +25,7 @@ icke-avgjort/felaktigt resultat.
 Summan av alla SARS-CoV-2 (Covid-19)-virustester analyserade vid NPC
 sedan start.
 
-<div class="d-md-none alert alert-info">
+<div class="d-lg-none alert alert-info">
   Skrolla grafen horisontellt för att se all data.
 </div>
 <div class="plot_wrapper">
