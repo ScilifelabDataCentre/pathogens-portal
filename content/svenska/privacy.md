@@ -4,7 +4,7 @@ title: Integritetspolicy
 
 SciLifeLab driver webbplatsen [https://www.covid19dataportal.se](https://www.covid19dataportal.se), som tillhandahåller **tjänsten**.
 
-Denna sida används för att informera webbplatsbesökare om vår policy med insamling, användning och utlämnande av personlig information vid användande av vår **tjänst**, webbplatsen COVID-19 Data Portal Sweden.
+Denna sida används för att informera webbplatsbesökare om vår policy med insamling, användning och utlämnande av personlig information vid användande av vår **tjänst**, webbplatsen Covid-19 Data Portal Sweden.
 
 Om du väljer att använda vår **tjänst**, samtycker du till insamling och användning av information i samband med denna policy.
 Den personliga information som vi samlar in används för att tillhandahålla och förbättra tjänsten.
