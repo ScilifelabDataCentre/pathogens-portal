@@ -14,9 +14,9 @@ Rika metadatabeskrivningar från myndighetsregister, nationella
 kvalitetsregister och provtagningssamlingar för biobank kan hittas via den
 digitala infrastrukturen och metadataplattformen RUT
 ([Register Utiliser Tool](https://www.registerforskning.se/en/registers-in-sweden/easier-to-find-register-data-with-the-register-utiliser-tool/)).
-RUT inkluderar för närvarande metadata med variabler från COVID-19
+RUT inkluderar för närvarande metadata med variabler från Covid-19
 från det nationella kvalitetsregistret för intensivvård (SIR).
-Tillägg av COVID-19-variabler till register sker för närvarande.
+Tillägg av Covid-19-variabler till register sker för närvarande.
 Införandet av nya register till RUT pågår.
 
 Det mesta av metadata och begrepp i RUT är på svenska.

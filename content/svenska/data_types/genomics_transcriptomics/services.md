@@ -16,7 +16,7 @@ menu:
 
 Clinical Genomics Stockholm-anläggningen har utvecklat ett WGS-baserat arbetsflöde för att förstå genetisk variation, särskilt i inställningar för sällsynta sjukdomar. Detta arbetsflöde inkluderar datagenerering, bioinformatisk analys och tolkning i vårt specialutvecklade kliniska beslutssupportsystem Scout.
 
-Vi tror att detta arbetsflöde kan vara användbart även för COVID-19-projekt som syftar till att förstå värdens mottaglighet. Data genereras till 30x täckning med PCR-fria bibliotek, bioinformatisk analys är omfattande och inkluderar anrop av SNV, INDEL, CNV, SV, STR och UPD. Varianter bearbetas med hjälp av en rankningsmodell innan de görs tillgängliga för tolkning i Scout. Denna infrastruktur har använts för analys av> 6000 WGS-prover.
+Vi tror att detta arbetsflöde kan vara användbart även för Covid-19-projekt som syftar till att förstå värdens mottaglighet. Data genereras till 30x täckning med PCR-fria bibliotek, bioinformatisk analys är omfattande och inkluderar anrop av SNV, INDEL, CNV, SV, STR och UPD. Varianter bearbetas med hjälp av en rankningsmodell innan de görs tillgängliga för tolkning i Scout. Denna infrastruktur har använts för analys av> 6000 WGS-prover.
 
 Huvudfokus för anläggningen Clinical Genomics Stockholm och plattformen för diagnostikutveckling är att stödja övergången av NGS till translationella och diagnostiska inställningar. Samarbetspartners inkluderar forskningsgrupper, sjukvård, myndigheter, industri och internationella grupper. Besök [vår webbplats](https://www.scilifelab.se/facilities/clinical-genomics-stockholm/) för att lära dig mer om våra tjänster och kontakta oss på [support@clinicalgenomics.se](mailto:support@clinicalgenomics.se) för att diskutera dit.
 
@@ -29,10 +29,10 @@ För mer information om våra tjänster, se vår hemsida [https://www.scilifelab
 
 ### National Genomics Infrastructure (NGI)
 
-Vid SciLifeLab [National Genomics Infrastructure (NGI)](ngisweden.scilifelab.se) har vi ett brett utbud av sekvenseringsteknologier och kan erbjuda toppmoderna lösningar för många olika typer av COVID-19-sekvenseringsprojekt.
+Vid SciLifeLab [National Genomics Infrastructure (NGI)](ngisweden.scilifelab.se) har vi ett brett utbud av sekvenseringsteknologier och kan erbjuda toppmoderna lösningar för många olika typer av Covid-19-sekvenseringsprojekt.
 
 Utöver [instrumentering](https://ngisweden.scilifelab.se/technologies/) och next-generation sequencing erbjuder NGI även [bibliotekspreparation](https://ngisweden.scilifelab.se/applications/) samt support vid projektplanering och [primär bioinformatisk analys](https://ngisweden.scilifelab.se/bioinformatics/).
-En stor del av de prov- och experimenttyper vi arbetar med kan vara till användning för forskning om COVID-19, oavsett om det gäller studier av viruset självt eller dess interaktioner med värden.
+En stor del av de prov- och experimenttyper vi arbetar med kan vara till användning för forskning om Covid-19, oavsett om det gäller studier av viruset självt eller dess interaktioner med värden.
 
 NGI fokuserar främst på forskningsgrupper inom svensk akademi, men vi jobbar även med industri och internationella grupper.
 Besök vår hemsida [https://ngisweden.scilifelab.se/contact/](https://ngisweden.scilifelab.se/contact/) för att få reda på mer om våra tjänster eller kontakta oss på [support@ngisweden.se](mailto:support@ngisweden.se) för att diskutera just ditt projekt.

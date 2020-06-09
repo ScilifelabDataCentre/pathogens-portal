@@ -16,5 +16,5 @@ A special page has been dedicated to [human proteins and Covid19](https://www.pr
 
 Other published data:
 
-* [Protein sequences at EBI Portal](https://www.covid19dataportal.org/proteins)
-* [Protein structures at EBI portal](https://www.covid19dataportal.org/structures)
+* [Protein sequences at European COVID-19 Data Portal](https://www.covid19dataportal.org/proteins)
+* [Protein structures at European COVID-19 Data Portal](https://www.covid19dataportal.org/structures)

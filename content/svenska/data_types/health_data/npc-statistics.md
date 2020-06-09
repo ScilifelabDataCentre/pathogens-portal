@@ -7,15 +7,30 @@ menu:
         weight: 10
 ---
 
-#### Dagligt antal tester vid NPC
+#### Totala antalet tester vid NPC
 
-Totala antalet SARS-CoV-2 (Covid-19)-virustester analyserade för
-varje dag, uppdelade på de med positivt, negativt eller
-icke-avgjort/felaktigt resultat.
+Det totala antalet SARS-CoV-2 (Covid-19)-virustester analyserade vid NPC
+uppdelade på de med positivt, negativt eller icke-avgjort/felaktigt
+resultat.
 
-<div class="d-md-none alert alert-info">
+<div class="d-lg-none alert alert-info">
   Skrolla grafen horisontellt för att se all data.
 </div>
+
+<div class="plot_wrapper">
+  <div id="grand-total-chart"></div>
+</div>
+
+#### Dagligt antal tester vid NPC
+
+Antalet SARS-CoV-2 (Covid-19)-virustester analyserade för varje dag
+uppdelade på de med positivt, negativt eller icke-avgjort/felaktigt
+resultat.
+
+<div class="d-lg-none alert alert-info">
+  Skrolla grafen horisontellt för att se all data.
+</div>
+
 <div class="plot_wrapper">
   <div id="stacked-bar-chart"></div>
 </div>
@@ -25,9 +40,10 @@ icke-avgjort/felaktigt resultat.
 Summan av alla SARS-CoV-2 (Covid-19)-virustester analyserade vid NPC
 sedan start.
 
-<div class="d-md-none alert alert-info">
+<div class="d-lg-none alert alert-info">
   Skrolla grafen horisontellt för att se all data.
 </div>
+
 <div class="plot_wrapper">
   <div id="cumulative-plot"></div>
 </div>
@@ -62,13 +78,16 @@ tiden kan förekomma.
 Datasetet som visualiseras i graferna finns tillgängligt
 [här](https://datagraphics.dckube.scilifelab.se/dataset/bbbaf64a25a1452287a8630503f07418).
 Källkoden för graferna finns
-[här för stapeldiagrammet](https://datagraphics.dckube.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc)
-och [här för den kumulativa grafen](https://datagraphics.dckube.scilifelab.se/graphic/e823c75ee55849e7999da56c6c869c7a).
+[här](https://datagraphics.dckube.scilifelab.se/graphic/ba0b27320fe74ad0aef59a26be6c37f1),
+[här](https://datagraphics.dckube.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc)
+och [här](https://datagraphics.dckube.scilifelab.se/graphic/9145856246004419983d39fcf56d9eb6).
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.12.2"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
 
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/ba0b27320fe74ad0aef59a26be6c37f1.js?id=grand-total-chart"></script>
+
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc.js?id=stacked-bar-chart"></script>
 
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/e823c75ee55849e7999da56c6c869c7a.js?id=cumulative-plot"></script>
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/9145856246004419983d39fcf56d9eb6.js?id=cumulative-plot"></script>
