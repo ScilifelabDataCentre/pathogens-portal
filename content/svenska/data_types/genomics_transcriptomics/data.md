@@ -24,4 +24,4 @@ Relevanta metoder inkluderar bland annat:
 
 Publicerade råa och sammansatta sekvenser relaterade till COVID-19-utbrottet, inklusive utbrottisolat och poster relaterade till coronavirusbiologi:
 
-* [EBI Portal](https://www.covid19dataportal.org/sequences)
+* [European COVID-19 Data Portal](https://www.covid19dataportal.org/sequences)
