@@ -1,5 +1,5 @@
 ---
-title: National Pandemic Centre SARS-CoV-2 (COVID-19) virus test statistics
+title: National Pandemic Centre SARS-CoV-2 (COVID-19) test statistics
 menu:
     main:
         identifier: npc-statistics
@@ -9,7 +9,7 @@ menu:
 
 #### Total NPC test numbers
 
-The grand total number of SARS-CoV-2 (COVID-19) tests run at NPC since
+The total number of SARS-CoV-2 (COVID-19) tests run at NPC since
 the start, split up into positive, negative and invalid/inconclusive
 results.
 
@@ -18,7 +18,7 @@ results.
 </div>
 
 <div class="plot_wrapper">
-  <div id="grand-total-chart"></div>
+  <div id="total-numbers-chart"></div>
 </div>
 
 #### Daily NPC test numbers
@@ -66,10 +66,11 @@ Karolinska Universitetslaboratoriet, the National Pandemic Center
 at KI/SciLifeLab quickly expanded into providing a facility providing
 increased SARS-CoV-2 testing capacity to all regions of Sweden.
 
-The current capacity of the National Pandemic Center at KI/SciLifeLab is
-approximately 5000 test per day, with results typically returned within
-24 hours from the sample arriving to the lab. Please note that only PCR-based
-analysis is performed at NPC, not serological (antibody-based) analysis.
+The current capacity of the National Pandemic Center at KI/SciLifeLab
+is approximately 5000 test per day, with results typically returned
+within 24 hours from the sample arriving to the lab. Please note that
+only PCR-based analysis is performed at NPC, not serological
+(antibody-based) analysis.
 
 These numbers are compiled automatically and might not correspond to
 the numbers reported through other sources for different reasons.
@@ -86,7 +87,7 @@ and [here](https://datagraphics.dckube.scilifelab.se/graphic/9145856246004419983
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.12.2"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
 
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/ba0b27320fe74ad0aef59a26be6c37f1.js?id=grand-total-chart"></script>
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/ba0b27320fe74ad0aef59a26be6c37f1.js?id=total-numbers-chart"></script>
 
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc.js?id=stacked-bar-chart"></script>
 
