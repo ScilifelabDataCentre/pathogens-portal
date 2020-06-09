@@ -24,4 +24,4 @@ For example, relevant methodologies could include:
 
 Published raw and assembled sequences related to the COVID-19 outbreak, including outbreak isolates and records relating to coronavirus biology:
 
-* [EBI Portal](https://www.covid19dataportal.org/sequences)
+* [European COVID-19 Data Portal](https://www.covid19dataportal.org/sequences)

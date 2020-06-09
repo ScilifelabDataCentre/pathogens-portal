@@ -14,7 +14,7 @@ menu:
 
 En särskild sida dedikeras till [humana proteiner och Covid-19](https://www.proteinatlas.org/humanproteome/sars-cov-2).
 
-Publicerat proteindata:
+Publicerad proteindata:
 
-* [Proteinsekvenser vid EBI Data Portal](https://www.covid19dataportal.org/sequences)
-* [Proteinstrukturer vid EBI Data Portal](https://www.covid19dataportal.org/structures)
+* [Proteinsekvenser i European COVID-19 Data Portal](https://www.covid19dataportal.org/sequences)
+* [Proteinstrukturer i European COVID-19 Data Portal](https://www.covid19dataportal.org/structures)
