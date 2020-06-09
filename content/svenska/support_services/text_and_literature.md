@@ -8,13 +8,13 @@ menu:
         pre: <i class="fas fa-share-alt"></i>
 ---
 
-För centrala COVID-19 nav för text och litteratur, se:
+För centrala Covid-19 nav för text och litteratur, se:
 
 * [EuropePMC vid Covid-19 Data Portal](https://www.covid19dataportal.org/literature?db=literature)
 * [BioRxiv och MedRxiv Covid-19 preprints](https://connect.medrxiv.org/relate/content/181)
 
-##### [CDC COVID-19 Research Articles](https://www.cdc.gov/library/researchguides/2019novelcoronavirus/researcharticles.html)
-En nedladdningsbar databas med COVID-19-litteratur.
+##### [CDC Covid-19 Research Articles](https://www.cdc.gov/library/researchguides/2019novelcoronavirus/researcharticles.html)
+En nedladdningsbar databas med Covid-19-litteratur.
 Denna databas uppdateras genom att systematiskt söka i olika bibliografiska databaser och handsöka utvalda grå litteraturkällor.
 
 ##### [CORD-19 dataset](https://pages.semanticscholar.org/coronavirus-research)
@@ -25,15 +25,15 @@ Alla artiklar tillhandahålls i ett standardiserat JSON-format.
 En version av CORD-19 dataset med semantiska kommentarer i FHIR RDF-format.
 
 ##### [Elsevier Novel Coronavirus Information Centre](https://www.elsevier.com/connect/coronavirus-information-center)
-Massnedladdning av Elsevier fulltextartiklar relaterade till COVID-19 och andra resurser.
+Massnedladdning av Elsevier fulltextartiklar relaterade till Covid-19 och andra resurser.
 
 ##### [LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/)
-En kuraterad databas med COVID-19-artiklar i PubMed sammanställd av National Library of Medicine.
+En kuraterad databas med Covid-19-artiklar i PubMed sammanställd av National Library of Medicine.
 
-##### [medRxiv and bioRxiv COVID-19 preprints](https://connect.medrxiv.org/relate/content/181)
-Kombinerad sida för alla COVID-19-publikationer publicerade på medRxiv och bioRxiv.
+##### [medRxiv and bioRxiv Covid-19 preprints](https://connect.medrxiv.org/relate/content/181)
+Kombinerad sida för alla Covid-19-publikationer publicerade på medRxiv och bioRxiv.
 
-##### [Elsevier COVID-19 articles](https://www.elsevier.com/connect/coronavirus-information-center)
+##### [Elsevier Covid-19 articles](https://www.elsevier.com/connect/coronavirus-information-center)
 Artiklar tillgängliga för bulknedladdning.
 
-##### [WHO database of COVID-19 publications](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov)
+##### [WHO database of Covid-19 publications](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov)

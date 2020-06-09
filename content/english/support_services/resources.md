@@ -107,7 +107,7 @@ Results from a large crystallographic fragment screen against the SARS-CoV-2 mai
 ### Artificial intelligence models
 
 ##### [COVID_BERT_base model](https://huggingface.co/deepset/covid_bert_base)
-A BERT base model fine-tuned on Covid-19-related texts for natural language processing.
+A BERT base model fine-tuned on COVID-19-related texts for natural language processing.
 
 ##### [National Library of Sweden - SweBERT models](https://github.com/Kungbib/swedish-bert-models )
 Swedish BERT and ALBERT models for natural language processing.
@@ -154,14 +154,14 @@ AI Lund is a network for research, education and innovation in the area of artif
 AI Lund organizes a bi-weekly online discussion (AI Lund drop-in), regular workshops, training events and other activities.
 The website also has a channel with videos from past events.
 
-##### [Crowdfight Covid-19](https://crowdfightcovid19.org/)
+##### [Crowdfight COVID-19](https://crowdfightcovid19.org/)
 A platform that connects COVID-19 researchers with expert volunteers from various domains.
 
-##### [Data against Covid-19 forum](https://discourse.data-against-covid.org/)
+##### [Data against COVID-19 forum](https://discourse.data-against-covid.org/)
 A forum that connects clinicians, virologists, immunologists with machine learners, bioinformaticians, epidemiologists and statisticians. For posting questions and finding collaborations.
 
-##### [ELLIS against Covid-19 online workshops](https://ellis.eu/covid-19)
-This series of online workshops presents projects on how to tackle Covid-19 using methods of machine learning and AI, carried out by leading international researchers.
+##### [ELLIS against COVID-19 online workshops](https://ellis.eu/covid-19)
+This series of online workshops presents projects on how to tackle COVID-19 using methods of machine learning and AI, carried out by leading international researchers.
 Research topics include outbreak prediction, epidemiological modelling, drug development, viral and host genome sequencing, and health care management.
 Meetings can be attended by live streaming or watched as recordings.
 
@@ -176,8 +176,8 @@ It also offers many training activities including online workshops and a [YouTub
 ##### [MakersofSweden Forum – Pandemihack channel](https://forum.makersofsweden.se/c/pandemihack/)
 Discussion forum and link list for makers engaged in COVID-19 projects.
 
-##### [SciLifeLab Forum – Covid-19 channel](https://forum.scilifelab.se/c/covid-19/)
-Discussion forum for the Swedish Covid-19 community and SciLifeLab infrastructures.
+##### [SciLifeLab Forum – COVID-19 channel](https://forum.scilifelab.se/c/covid-19/)
+Discussion forum for the Swedish COVID-19 community and SciLifeLab infrastructures.
 
 ## Training and teaching resources
 
@@ -190,7 +190,7 @@ Videos from AI Lund workshops, seminars and training events, including technolog
 ##### [Aitslab training collection](https://github.com/Aitslab/training)
 List of training resources related to data science and artificial intelligence curated by the Cell Death, Lysosomes and Artificial Intelligence Group at Lund University.
 
-##### [ELLIS against Covid-19](https://ellis.eu/covid-19)
+##### [ELLIS against COVID-19](https://ellis.eu/covid-19)
 Recordings from workshops presenting different AI projects related to COVID-19.
 
 ##### [Galaxy Training](https://training.galaxyproject.org/)

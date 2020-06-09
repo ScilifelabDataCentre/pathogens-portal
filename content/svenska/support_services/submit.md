@@ -45,4 +45,4 @@ Lärosätet har ett juridiskt ansvar att arkivera data. Den datapublicering som 
 #### Övriga resurser
 
 * [SciLifeLab Data Guidelines](https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/index.html)
-* [European Covid-19 Data Portal deponeringsinformation](https://www.covid19dataportal.org/submit-data)
+* [European COVID-19 Data Portal deponeringsinformation](https://www.covid19dataportal.org/submit-data)

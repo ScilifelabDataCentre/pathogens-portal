@@ -10,8 +10,8 @@ menu:
 
 For central COVID-19 hubs of text and literature, please see:
 
-* [EuropePMC at the Covid-19 Data Portal](https://www.covid19dataportal.org/literature?db=literature)
-* [BioRxiv and MedRxiv Covid-19 preprints](https://connect.medrxiv.org/relate/content/181)
+* [EuropePMC at the COVID-19 Data Portal](https://www.covid19dataportal.org/literature?db=literature)
+* [BioRxiv and MedRxiv COVID-19 preprints](https://connect.medrxiv.org/relate/content/181)
 
 ##### [CDC COVID-19 Research Articles](https://www.cdc.gov/library/researchguides/2019novelcoronavirus/researcharticles.html)
 A downloadable database of COVID-19 literature.

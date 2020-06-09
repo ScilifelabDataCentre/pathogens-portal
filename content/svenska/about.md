@@ -8,7 +8,7 @@ menu:
 
 ## Introduktion
 
-Den svenska dataportalen för COVID-19 tillhandahåller information, riktlinjer, verktyg och tjänster för att stödja forskare att använda svenska och europeiska tjänster för datadelning, särskilt den [europeiska dataportalen för COVID-19](https://covid19dataportal.org). Den uppdateras regelbundet, och förslag, korrigeringar och andra kommentarer uppskattas.
+Den svenska dataportalen för Covid-19 tillhandahåller information, riktlinjer, verktyg och tjänster för att stödja forskare att använda svenska och europeiska tjänster för datadelning, särskilt den [europeiska dataportalen för Covid-19](https://covid19dataportal.org). Den uppdateras regelbundet, och förslag, korrigeringar och andra kommentarer uppskattas.
 
 Den här webbplatsen är byggd med [Hugo](https://gohugo.io/) och använder [Bootstrap](https://getbootstrap.com/) ramverket.
 Koden är öppen källkod ([MIT-licens](https://choosealicense.com/licenses/mit/)) och är tillgänglig på GitHub:
@@ -18,9 +18,9 @@ Vi välkomnar bidrag till webbplatsen - för att engagera dig, vänligen kontakt
 
 ## Organisationer står bakom portalen
 
-Den svenska COVID-19 dataportalen drivs av SciLifeLab Data Centre och partners på uppdrag av Vetenskapsrådet, som även koordinerar arbetet med europeiska satsningar.
+Den svenska Covid-19 dataportalen drivs av SciLifeLab Data Centre och partners på uppdrag av Vetenskapsrådet, som även koordinerar arbetet med europeiska satsningar.
 
-SciLifeLab och VR stödjer starkt öppen delning av forskningsdata och resultat, och har bägge signerat ett ställningstagande från Wellcome Trust om [Delning av forskningsdata och resultat med relevans för forskningen kring coronaviruset och COVID-19](https://wellcome.ac.uk/coronavirus-covid-19/open-data).
+SciLifeLab och VR stödjer starkt öppen delning av forskningsdata och resultat, och har bägge signerat ett ställningstagande från Wellcome Trust om [Delning av forskningsdata och resultat med relevans för forskningen kring coronaviruset och Covid-19](https://wellcome.ac.uk/coronavirus-covid-19/open-data).
 
 ### SciLifeLab
 

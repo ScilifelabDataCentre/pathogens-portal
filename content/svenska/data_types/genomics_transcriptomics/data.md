@@ -11,7 +11,7 @@ menu:
 ## Publicerad data
 
 Genomik och transkriptomik syftar till studiet av DNA och RNA, vanligtvis genom next-generation sequencing.
-Det finns ett antal olika genomik- och transkriptomikmetoder som kan användas för att studera COVID-19-pandemin.
+Det finns ett antal olika genomik- och transkriptomikmetoder som kan användas för att studera Covid-19-pandemin.
 
 Relevanta metoder inkluderar bland annat:
 
@@ -22,6 +22,6 @@ Relevanta metoder inkluderar bland annat:
 * Analys av värdens transkriptom för att studera värdrespons under infektion
 * ...och många fler
 
-Publicerade råa och sammansatta sekvenser relaterade till COVID-19-utbrottet, inklusive utbrottisolat och poster relaterade till coronavirusbiologi:
+Publicerade råa och sammansatta sekvenser relaterade till Covid-19-utbrottet, inklusive utbrottisolat och poster relaterade till coronavirusbiologi:
 
 * [European COVID-19 Data Portal](https://www.covid19dataportal.org/sequences)

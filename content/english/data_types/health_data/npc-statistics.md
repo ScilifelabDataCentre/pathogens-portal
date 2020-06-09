@@ -1,5 +1,5 @@
 ---
-title: National Pandemic Centre SARS-CoV-2 (Covid-19) virus test statistics
+title: National Pandemic Centre SARS-CoV-2 (COVID-19) virus test statistics
 menu:
     main:
         identifier: npc-statistics
@@ -7,9 +7,9 @@ menu:
         weight: 10
 ---
 
-#### Grand total NPC test numbers
+#### Total NPC test numbers
 
-The grand total number of SARS-CoV-2 (Covid-19) tests run at NPC since
+The grand total number of SARS-CoV-2 (COVID-19) tests run at NPC since
 the start, split up into positive, negative and invalid/inconclusive
 results.
 
@@ -23,7 +23,7 @@ results.
 
 #### Daily NPC test numbers
 
-The number of SARS-CoV-2 (Covid-19) tests run daily, split up into
+The number of SARS-CoV-2 (COVID-19) tests run daily, split up into
 positive, negative and invalid/inconclusive results.
 
 <div class="d-lg-none alert alert-info">
@@ -36,7 +36,7 @@ positive, negative and invalid/inconclusive results.
 
 #### Cumulative NPC test numbers
 
-The sum of all SARS-CoV-2 (Covid-19) virus tests run at NPC since the
+The sum of all SARS-CoV-2 (COVID-19) virus tests run at NPC since the
 start, as a function of date, and split up into positive, negative
 and invalid/inconclusive results.
 
@@ -49,7 +49,7 @@ and invalid/inconclusive results.
 </div>
 
 The National Pandemic Centre (NPC) is a lab for
-[SARS-CoV-2 (Covid-19) testing](https://ki.se/mtc/ctmr-and-covid-19)
+[SARS-CoV-2 (COVID-19) testing](https://ki.se/mtc/ctmr-and-covid-19)
 set up within the
 [Centre for Translational Microbiome Research (CTMR)](https://ki.se/en/research/centre-for-translational-microbiome-research-ctmr)
 at [Karolinska Institutet (KI)](https://ki.se/en)/

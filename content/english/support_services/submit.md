@@ -12,14 +12,14 @@ menu:
         pre: <i class="fas fa-paper-plane"></i>
 ---
 
-Publish your Covid-19 research data to make it available for the rest of the research community. The data should be deposited in a public repository together with descriptive metadata. For many biological datatypes, there are international databases that can be considered _de facto_ standards.
+Publish your COVID-19 research data to make it available for the rest of the research community. The data should be deposited in a public repository together with descriptive metadata. For many biological datatypes, there are international databases that can be considered _de facto_ standards.
 
 ##### Submitting data
 
 [SciLifeLab](mailto:datacentre@scilifelab.se) or [NBIS](mailto:support@nbis.se)
 can provide support for where and how to share data in a public database. For further links, see below.
 
-The European Bioinformatics Institute (EBI) hosts many different international data repositories which should be used if appropriate. See their [Covid-19 Data Portal data submission page](https://www.covid19dataportal.org/submit-data).
+The European Bioinformatics Institute (EBI) hosts many different international data repositories which should be used if appropriate. See their [COVID-19 Data Portal data submission page](https://www.covid19dataportal.org/submit-data).
 
 For data types where no suitable international repository is available, your data can be deposited to a [General data repository](../general_data_repository).
 
@@ -47,4 +47,4 @@ The university has the legal responsibility to archive the data. Data publishing
 #### Other resources
 
 * [SciLifeLab Data Guidelines](https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/index.html)
-* [The European Covid-19 Data Portal data submission information](https://www.covid19dataportal.org/submit-data)
+* [The European COVID-19 Data Portal data submission information](https://www.covid19dataportal.org/submit-data)
