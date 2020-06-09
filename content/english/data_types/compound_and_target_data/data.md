@@ -14,4 +14,4 @@ COVID-19 related data can be find at the EBI Portal and small molecule related d
 
 > "ChEMBL is a manually curated database of bioactive molecules with drug-like properties. It brings together chemical, bioactivity and genomic data to aid the translation of genomic information into effective new drugs."
 
-See also published data related to the COVID-19 outbreak on the _Compounds_ page of the [European Covid-19 Data Portal](https://www.covid19dataportal.org/compounds).
+See also published data related to the COVID-19 outbreak on the _Compounds_ page of the [European COVID-19 Data Portal](https://www.covid19dataportal.org/compounds).
