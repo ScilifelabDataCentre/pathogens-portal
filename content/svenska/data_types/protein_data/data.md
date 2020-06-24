@@ -22,7 +22,7 @@ menu:
 * En särskild sida hos HPA dedikeras till [humana proteiner och
   SARS-CoV-2](https://www.proteinatlas.org/humanproteome/sars-cov-2).
 
-* [Nonstructural protein 10 (nsp10) from SARS CoV-2 (PDB:6ZCT)](https://www.rcsb.org/structure/6ZCT)  
+* [Nonstructural protein 10 (nsp10) from SARS CoV-2 (PDB:6ZCT)](https://www.ebi.ac.uk/pdbe/entry/pdb/6zct)
   3D-struktur bestämd med röntgendiffraktion.  
   Z.S. Fisher &amp; F. Kozielski,
   [European Spallation Source ERIC](https://europeanspallationsource.se/),
