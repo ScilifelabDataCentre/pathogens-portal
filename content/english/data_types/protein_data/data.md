@@ -32,4 +32,3 @@ menu:
 
 * [Protein sequences at European COVID-19 Data Portal](https://www.covid19dataportal.org/proteins)
 * [Protein structures at European COVID-19 Data Portal](https://www.covid19dataportal.org/structures)
-
