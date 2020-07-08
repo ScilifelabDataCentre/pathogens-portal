@@ -1,5 +1,5 @@
 ---
-title: National health metadata repository - RUT
+title: National Health Metadata Repository - RUT
 menu:
     main:
         identifier: rut

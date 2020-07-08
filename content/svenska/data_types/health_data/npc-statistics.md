@@ -35,6 +35,19 @@ resultat.
   <div id="stacked-bar-chart"></div>
 </div>
 
+#### Daglig fraktion positiva tester vid NPC
+
+Fraktionen SARS-CoV-2 (COVID-19)-virustester för varje dag som är positiva,
+i procent av alla tester (exkluderande icke-avgjort/felaktiga).
+
+<div class="d-lg-none alert alert-info">
+  Skrolla grafen horisontellt för att se all data.
+</div>
+
+<div class="plot_wrapper">
+  <div id="positive-bar-chart"></div>
+</div>
+
 #### Kumulativt antal tester vid NPC
 
 Summan av alla SARS-CoV-2 (Covid-19)-virustester analyserade vid NPC
@@ -79,7 +92,8 @@ Datasetet som visualiseras i graferna finns tillgängligt
 [här](https://datagraphics.dckube.scilifelab.se/dataset/bbbaf64a25a1452287a8630503f07418).
 Källkoden för graferna finns
 [här](https://datagraphics.dckube.scilifelab.se/graphic/ba0b27320fe74ad0aef59a26be6c37f1),
-[här](https://datagraphics.dckube.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc)
+[här](https://datagraphics.dckube.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc),
+[här](https://datagraphics.dckube.scilifelab.se/graphic/b31c50be59c84c93986c25b052115a65)
 och [här](https://datagraphics.dckube.scilifelab.se/graphic/9145856246004419983d39fcf56d9eb6).
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
@@ -89,5 +103,7 @@ och [här](https://datagraphics.dckube.scilifelab.se/graphic/9145856246004419983
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/ba0b27320fe74ad0aef59a26be6c37f1.js?id=grand-total-chart"></script>
 
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc.js?id=stacked-bar-chart"></script>
+
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/b31c50be59c84c93986c25b052115a65.js?id=positive-bar-chart"></script>
 
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/9145856246004419983d39fcf56d9eb6.js?id=cumulative-plot"></script>
