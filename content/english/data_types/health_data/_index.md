@@ -14,7 +14,7 @@ Statistics about ICU admissions in Sweden.
 ##### [Swedish Public Health Authorities (Folkhälsomyndigheten)](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/bekraftade-fall-i-sverige/)
 Official statistics about COVID-19 cases and tests in Sweden.
 
-##### [National health metadata repository - RUT](rut)
+##### [National Health Metadata Repository - RUT](rut)
 Meta data for Swedish national health registers.
 
 ##### [National Pandemic Centre COVID-19 test statistics](npc-statistics)

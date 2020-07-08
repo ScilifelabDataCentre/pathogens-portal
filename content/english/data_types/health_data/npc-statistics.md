@@ -34,6 +34,19 @@ positive, negative and invalid/inconclusive results.
   <div id="stacked-bar-chart"></div>
 </div>
 
+#### Daily NPC tests positive fraction
+
+The fraction of daily SARS-CoV-2 (COVID-19) tests that are positive,
+as percent of all tests (excluding invalid/inconclusive).
+
+<div class="d-lg-none alert alert-info">
+  Scroll the plot sideways to view all data.
+</div>
+
+<div class="plot_wrapper">
+  <div id="positive-bar-chart"></div>
+</div>
+
 #### Cumulative NPC test numbers
 
 The sum of all SARS-CoV-2 (COVID-19) virus tests run at NPC since the
@@ -80,7 +93,8 @@ The dataset visualized in the graphs is available
 [here](https://datagraphics.dckube.scilifelab.se/dataset/bbbaf64a25a1452287a8630503f07418) and is updated daily.
 The source code for the graphs are
 [here](https://datagraphics.dckube.scilifelab.se/graphic/ba0b27320fe74ad0aef59a26be6c37f1),
-[here](https://datagraphics.dckube.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc)
+[here](https://datagraphics.dckube.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc),
+[here](https://datagraphics.dckube.scilifelab.se/graphic/b31c50be59c84c93986c25b052115a65)
 and [here](https://datagraphics.dckube.scilifelab.se/graphic/9145856246004419983d39fcf56d9eb6).
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
@@ -90,5 +104,7 @@ and [here](https://datagraphics.dckube.scilifelab.se/graphic/9145856246004419983
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/ba0b27320fe74ad0aef59a26be6c37f1.js?id=total-numbers-chart"></script>
 
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc.js?id=stacked-bar-chart"></script>
+
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/b31c50be59c84c93986c25b052115a65.js?id=positive-bar-chart"></script>
 
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/9145856246004419983d39fcf56d9eb6.js?id=cumulative-plot"></script>
