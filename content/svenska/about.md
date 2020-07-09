@@ -6,7 +6,7 @@ menu:
         weight: 10
 ---
 
-## Introduktion
+# Introduktion
 
 Den svenska dataportalen för Covid-19 tillhandahåller information, riktlinjer, verktyg och tjänster för att stödja forskare att använda svenska och europeiska tjänster för datadelning, särskilt den [europeiska dataportalen för Covid-19](https://covid19dataportal.org). Den uppdateras regelbundet, och förslag, korrigeringar och andra kommentarer uppskattas.
 
@@ -16,13 +16,13 @@ Koden är öppen källkod ([MIT-licens](https://choosealicense.com/licenses/mit/
 
 Vi välkomnar bidrag till webbplatsen - för att engagera dig, vänligen kontakta [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se)
 
-## Organisationer står bakom portalen
+# Organisationer står bakom portalen
 
 Den svenska Covid-19 dataportalen drivs av SciLifeLab Data Centre och partners på uppdrag av Vetenskapsrådet, som även koordinerar arbetet med europeiska satsningar.
 
 SciLifeLab och VR stödjer starkt öppen delning av forskningsdata och resultat, och har bägge signerat ett ställningstagande från Wellcome Trust om [Delning av forskningsdata och resultat med relevans för forskningen kring coronaviruset och Covid-19](https://wellcome.ac.uk/coronavirus-covid-19/open-data).
 
-### SciLifeLab
+## SciLifeLab
 
 [https://www.scilifelab.se](https://www.scilifelab.se)
 
@@ -30,7 +30,7 @@ SciLifeLab är ett nationellt center för molekylära biovetenskaper med fokus p
 
 SciLifeLab kombinerar teknisk expertis med avancerad kunskap inom translationell medicin och molekylärbiologi. Forskare i hela Sverige kan använda både de tekniker och den kunskap som finns på SciLifeLab.
 
-### Data vid SciLifeLab
+## Data vid SciLifeLab
 
 [https://www.scilifelab.se/data/](https://www.scilifelab.se/data/)
 
@@ -38,13 +38,13 @@ Biomedicinsk forskning är inte bara teknikdriven utan blir alltmer datadriven. 
 
 Vårt fokus är på data som härrör från användningen av SciLifeLab-infrastrukturplattformar, både för att främja forskning om att tillföra värde till data, forskning som härleder biologisk kunskap från data och infrastruktur som gör data sökbara och tillgängliga. På SciLifeLab ser vi data som en av de mest värdefulla och långvariga produkterna i våra verksamheter och strävar efter att göra våra data [FAIR](https://www.force11.org/group/fairgroup/fairprinciples), att den hanteras enligt öppna vetenskapliga standarder och att dess långsiktiga värde för det vetenskapliga samfundet maximeras.
 
-### National Bioinformatics Infrastructure
+## National Bioinformatics Infrastructure
 
 [https://nbis.se](https://nbis.se)
 
 NBIS är en distribuerad nationell infrastruktur för bioinformatik med stöd från SciLifeLab, Vetenskapsrådet, alla större svenska universitet, samt Knut och Alice Wallenbergs stiftelse. NBIS tillhandahåller bioinformatiksupport och infrastruktur till forskare inom livsvetenskaperna, och har ett 90-tal experter över hela landet inom olika områden såsom DNA-, RNA- och proteinanalyser, systembiologi, genomanalyser, masspektrometri-proteomik, metabolomik. NBIS har också experter inom systemutveckling och datahantering. NBIS utgör den svenska noden i den europeiska infrastrukturen [ELIXIR](https://elixir-europe.org) för biologiska data.
 
-### Svensk Nationell Datatjänst
+## Svensk Nationell Datatjänst
 
 [https://snd.gu.se](https://snd.gu.se)
 
@@ -52,12 +52,12 @@ Svensk Nationell Datatjänst hjälper forskare att bevara, underhålla och dela 
 
 Svensk Nationell Datatjänst styrs av ett konsortium bestående av nio lärosäten. Tillsammans med ytterligare ett 30-tal lärosäten bildar vi ett omfattande nätverk för att ta tillvara och dela värdefull forskningsdata.
 
-## Lediga tjänster
+# Lediga tjänster
 
 Vill du arbeta med Covid-19 Dataportalen? Fem nya tjänster finns tillgängliga på SciLifeLab Data Center, en central enhet med ansvar för IT- och datahanteringsfrågor som arbetar för SciLifeLabs teknikplattformar, deras användare och svenska forskare i allmänhet. Vi har ett nationellt uppdrag och driver den svenska nationella Covid-19 forskningsdataportalen. Vi arbetar också med frågor om FAIR-data, öppen vetenskap och datadriven livsvetenskap. Arbetet vid Datacentret innebär att vara den del av Sveriges bästa infrastruktur för biovetenskap och ha möjlighet att aktivt utforma hur modern IT och datavetenskap integreras i svensk life science-forskning. Du kommer att bidra med att att maximera den vetenskapliga effekten av den stora mängden forskningsdata som genererats på SciLifeLab.
 
-- Data Steward: https://www.scilifelab.se/career/data-steward
-- Data Engineer (AI): https://www.scilifelab.se/career/data-engineer-artificial-intelligence
-- Data Engineer (visualisation): https://www.scilifelab.se/career/data-engineer-visualisation
-- Research Data Coordinator: https://www.scilifelab.se/career/coordinator-research-data
-- Webmaster: https://www.scilifelab.se/career/webmaster
+- Data Steward: [https://www.scilifelab.se/career/data-steward](https://www.scilifelab.se/career/data-steward)
+- Data Engineer (AI): [https://www.scilifelab.se/career/data-engineer-artificial-intelligence](https://www.scilifelab.se/career/data-engineer-artificial-intelligence)
+- Data Engineer (visualisation): [https://www.scilifelab.se/career/data-engineer-visualisation](https://www.scilifelab.se/career/data-engineer-visualisation)
+- Research Data Coordinator: [https://www.scilifelab.se/career/coordinator-research-data](https://www.scilifelab.se/career/coordinator-research-data)
+- Webmaster: [https://www.scilifelab.se/career/webmaster](https://www.scilifelab.se/career/webmaster)
