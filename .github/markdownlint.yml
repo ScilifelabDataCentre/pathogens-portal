@@ -11,4 +11,4 @@ no-inline-html:
   allowed_elements:
     - div
     - script
-    
+    - i
