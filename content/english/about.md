@@ -49,3 +49,13 @@ NBIS (National Bioinformatics Infrastructure Sweden) is a distributed national r
 [https://snd.gu.se](https://snd.gu.se)
 
 The Swedish National Data Service has a primary function to support the accessibility, preservation, and re-use of research data and related materials. As a national infrastructure, SND coordinates a network of more than 30 universities and public research institutes in Sweden. SND is certified data repository and provides services for researchers to share and access research data from all research areas.
+
+## Open Positions
+
+Would you like to work with the Covid-19 Data Portal? Five new positions are available at the SciLifeLab Data Centre, a central unit with responsibility for IT- and data management issues, serving the SciLifeLab technology platforms, their users and Swedish researchers in general. We have a national assignment and is the team that operates the Swedish national Covid-19 research data portal. We also work with issues about FAIR data, open science, and data driven life science. Working at the Data Centre, you will be at the core of Sweden’s top infrastructure for life sciences and have the opportunity to actively shape how state-of-the-art IT and data science are integrated in Swedish life science research. You will contribute to maximizing the scientific impact of the large amount of research data generated at SciLifeLab.
+
+- Data Steward: [https://www.scilifelab.se/career/data-steward](https://www.scilifelab.se/career/data-steward)
+- Data Engineer (AI): [https://www.scilifelab.se/career/data-engineer-artificial-intelligence](https://www.scilifelab.se/career/data-engineer-artificial-intelligence)
+- Data Engineer (visualisation): [https://www.scilifelab.se/career/data-engineer-visualisation](https://www.scilifelab.se/career/data-engineer-visualisation)
+- Research Data Coordinator: [https://www.scilifelab.se/career/coordinator-research-data](https://www.scilifelab.se/career/coordinator-research-data)
+- Webmaster: [https://www.scilifelab.se/career/webmaster](https://www.scilifelab.se/career/webmaster)
