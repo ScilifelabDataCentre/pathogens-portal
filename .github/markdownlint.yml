@@ -12,3 +12,4 @@ no-inline-html:
     - div
     - script
     - i
+    - a
