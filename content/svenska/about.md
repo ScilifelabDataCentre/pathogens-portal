@@ -51,13 +51,3 @@ NBIS är en distribuerad nationell infrastruktur för bioinformatik med stöd fr
 Svensk Nationell Datatjänst hjälper forskare att bevara, underhålla och dela digitala forskningsdata och databeskrivningar. Vi ser till att forskningsdata enkelt kan hittas, användas och citeras. SND samlar data från alla vetenskapsområden. Vi lagrar existerande och nya forskningsdata på ett säkert och hållbart sätt för framtiden och samarbetar med internationella aktörer.
 
 Svensk Nationell Datatjänst styrs av ett konsortium bestående av nio lärosäten. Tillsammans med ytterligare ett 30-tal lärosäten bildar vi ett omfattande nätverk för att ta tillvara och dela värdefull forskningsdata.
-
-## Lediga tjänster
-
-Vill du arbeta med Covid-19 Dataportalen? Fem nya tjänster finns tillgängliga på SciLifeLab Data Centre, en central enhet med ansvar för IT- och datahanteringsfrågor som arbetar för SciLifeLabs teknikplattformar, deras användare och svenska forskare i allmänhet. Vi har ett nationellt uppdrag och driver den svenska nationella Covid-19 forskningsdataportalen. Vi arbetar också med frågor om FAIR-data, öppen vetenskap och datadriven livsvetenskap. Arbetet vid SciLifeLab Data Centre innebär att vara del av Sveriges bästa infrastruktur för biovetenskap och ha möjlighet att aktivt utforma hur modern IT och datavetenskap integreras i svensk life science-forskning. Du kommer att bidra med att att maximera den vetenskapliga effekten av den stora mängden forskningsdata som genererats på SciLifeLab.
-
-- Data Steward: [https://www.scilifelab.se/career/data-steward](https://www.scilifelab.se/career/data-steward)
-- Data Engineer (AI): [https://www.scilifelab.se/career/data-engineer-artificial-intelligence](https://www.scilifelab.se/career/data-engineer-artificial-intelligence)
-- Data Engineer (visualisation): [https://www.scilifelab.se/career/data-engineer-visualisation](https://www.scilifelab.se/career/data-engineer-visualisation)
-- Research Data Coordinator: [https://www.scilifelab.se/career/coordinator-research-data](https://www.scilifelab.se/career/coordinator-research-data)
-- Webmaster: [https://www.scilifelab.se/career/webmaster](https://www.scilifelab.se/career/webmaster)
