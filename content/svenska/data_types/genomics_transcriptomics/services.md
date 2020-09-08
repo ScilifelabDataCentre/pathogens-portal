@@ -29,7 +29,7 @@ För mer information om våra tjänster, se vår hemsida [https://www.scilifelab
 
 ### National Genomics Infrastructure (NGI)
 
-Vid SciLifeLab [National Genomics Infrastructure (NGI)](ngisweden.scilifelab.se) har vi ett brett utbud av sekvenseringsteknologier och kan erbjuda toppmoderna lösningar för många olika typer av Covid-19-sekvenseringsprojekt.
+Vid SciLifeLab [National Genomics Infrastructure (NGI)](https://ngisweden.scilifelab.se) har vi ett brett utbud av sekvenseringsteknologier och kan erbjuda toppmoderna lösningar för många olika typer av Covid-19-sekvenseringsprojekt.
 
 Utöver [instrumentering](https://ngisweden.scilifelab.se/technologies/) och next-generation sequencing erbjuder NGI även [bibliotekspreparation](https://ngisweden.scilifelab.se/applications/) samt support vid projektplanering och [primär bioinformatisk analys](https://ngisweden.scilifelab.se/bioinformatics/).
 En stor del av de prov- och experimenttyper vi arbetar med kan vara till användning för forskning om Covid-19, oavsett om det gäller studier av viruset självt eller dess interaktioner med värden.
