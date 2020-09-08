@@ -16,7 +16,7 @@ Protein analysis can be conducted using different types of methodologies and acr
 
 * Array-based analysis of antibodies and autoantibody repertoires at [Autoimmunity Profiling](https://www.scilifelab.se/facilities/autoimmunity-profiling/)
 
-* Proximity-based assays for high-specificity protein analyses at [Proximity Assay](https://www.scilifelab.se/facilities/pla-single-cell-proteomics/)
+* Proximity-based assays for high-specificity protein analyses at [Proximity Assay](https://www.scilifelab.se/facilities/pla-proteomics)
 
 * Single cell and multi-target analysis in blood at [Mass Cytometry](https://www.scilifelab.se/facilities/mass-cytometry-2/)
 
@@ -24,7 +24,7 @@ Protein analysis can be conducted using different types of methodologies and acr
 
 #### Mass spectrometry-based protein detection
 
-* Using chemistry for functional proteomics at [Chemical Proteomics](https://bioms.se/technologies/chemical-proteomics/) and [SciLifeLab Chemical Proteomics](https://www.scilifelab.se/facilities/chemical-proteomics-core-facility)
+* Using chemistry for functional proteomics at [Chemical Proteomics](https://bioms.se/technologies/chemical-proteomics/) and [SciLifeLab Chemical Proteomics](https://www.scilifelab.se/facilities/chemical-proteomics/)
 
 * Post-translational modifications such as glycans and glycolipids at [Glycomics](https://bioms.se/technologies/glycomics/)
 
