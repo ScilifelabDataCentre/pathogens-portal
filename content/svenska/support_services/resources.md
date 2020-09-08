@@ -98,7 +98,7 @@ Uppgifterna levereras med en Kaggle-tävling som är värd av Roche Data Science
 
 ### Strukturella data
 
-##### [Deepmind structure predictions](https://deepmind.com/research/open-source/computational-predictions-of-protein-structures-associated-with-Covid-19)
+##### [DeepMind structure predictions](https://deepmind.com/research/open-source/computational-predictions-of-protein-structures-associated-with-COVID-19)
 Strukturprognoser för Covid-19-relaterade proteiner från AlphaFold.
 
 ##### [Xchem fragment screen data](https://covid.postera.ai/covid)
