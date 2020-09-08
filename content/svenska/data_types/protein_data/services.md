@@ -11,4 +11,5 @@ menu:
 ## Tillgängliga tjänster för proteindata
 
 * [BioMS](https://bioms.se/)
-* [Chemical proteomics & proteogenomics](https://www.scilifelab.se/facilities/chemical-proteomics-proteogenomics/)
+* [Chemical Proteomics, SciLifeLab](https://www.scilifelab.se/facilities/chemical-proteomics/)
+* [Proteogenomics, SciLifeLab](https://www.scilifelab.se/facilities/proteogenomics)
