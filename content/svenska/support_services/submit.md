@@ -17,7 +17,7 @@ Publicera dina Covid-19-forskningsdata för att göra dem tillgängliga för res
 ##### Dela data
 
 [SciLifeLab](https://www.scilifelab.se/) (datacentre@scilifelab.se) eller [NBIS](https://nbis.se/) (support@nbis.se)
-ger gärna personliga konsultationer för var och hur man delar data i en offentlig databas. Tveka inte att kontakta oss om du har några frågor. Din forskargrupp behöver inte vara ansluten till någon speciell institution för att få vår hjälp, vi är tillgängliga för alla forskare anslutna till svenska universitet och högskolor.
+kan ge stöd och information för var och hur du kan dela dina data i publika databaser. Tveka inte att kontakta oss om du har några frågor. Din forskargrupp behöver inte vara ansluten till någon speciell institution för att få vår hjälp, vi är tillgängliga för alla forskare anslutna till svenska universitet och högskolor.
 
 European Bioinformatics Institute (EBI) driver många olika internationella databaser som bör användas när så är lämpligt. Se deras [Covid-19 Data Portal data submission page](https://www.covid19dataportal.org/submit-data).
 
