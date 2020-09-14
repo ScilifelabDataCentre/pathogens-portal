@@ -18,7 +18,7 @@ Publish your COVID-19 research data to make it available for the rest of the res
 ##### Submitting data
 
 [SciLifeLab](https://www.scilifelab.se/) (datacentre@scilifelab.se) or [NBIS](https://nbis.se/) (support@nbis.se)
-is happy to provide personal consultations for where and how to share data in a public database. Do not hesitate to get in touch with us if you have any questions. Your research group does not have to be affiliated with any particular institution to get our help, we are available to help everyone working in Sweden.
+is happy to provide personal consultations for where and how to share data in a public database. Do not hesitate to get in touch with us if you have any questions. Your research group does not have to be affiliated with any particular institution to get our help, we are available to help everyone affiliated with a university in Sweden.
 
 The European Bioinformatics Institute (EBI) hosts many different international data repositories which should be used if appropriate. For further information, see their [COVID-19 Data Portal data submission page](https://www.covid19dataportal.org/submit-data).
 
