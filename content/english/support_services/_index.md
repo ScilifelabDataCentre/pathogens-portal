@@ -9,8 +9,8 @@ menu:
         weight: 20
 ---
 
+* [**Submitting data and data management planning**](submit)
 * [Bioinformatics & Data Management](bioinformatics)
 * [General data repository](general_data_repository)
 * [Resources](resources)
 * [Text and literature](text_and_literature)
-* [Submit data](submit)

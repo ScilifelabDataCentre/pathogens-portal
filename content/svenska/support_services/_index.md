@@ -9,8 +9,8 @@ menu:
         weight: 20
 ---
 
+* [**Publicering av forskningsdata och datahantering**](submit)
 * [Bioinformatik och datahantering](bioinformatics)
 * [Generall dataförvaring](general_data_repository)
 * [Resurser](resources)
 * [Texter och litteratur](text_and_literature)
-* [Publicera data](submit)
