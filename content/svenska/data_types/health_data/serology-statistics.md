@@ -1,5 +1,5 @@
 ---
-title: SciLifeLab Autoimmunity and Serology profiling facility SARS-CoV-2 antikropp analysstatistik
+title: SciLifeLab Autoimmunity and Serology profiling facility, statistik för SARS-CoV-2 antikroppstest
 menu:
     main:
         identifier: serology-statistics
