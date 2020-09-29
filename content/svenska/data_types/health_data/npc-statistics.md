@@ -48,6 +48,8 @@ i procent av alla tester (exkluderande icke-avgjort/felaktiga).
   <div id="positive-bar-chart"></div>
 </div>
 
+_*Observera att eftersom antalet rapporterade analyser varierar kan vissa dagar ha ett lågt antal prover, vilket påverkar statistiken mycket för den dagen, t.ex. 24 augusti där endast sju prover rapporterades, alla positiva._
+
 #### Kumulativt antal tester vid NPC
 
 Summan av alla SARS-CoV-2 (Covid-19)-virustester analyserade vid NPC

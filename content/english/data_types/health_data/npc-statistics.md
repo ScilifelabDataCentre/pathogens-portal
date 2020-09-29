@@ -47,6 +47,8 @@ as percent of all tests (excluding invalid/inconclusive).
   <div id="positive-bar-chart"></div>
 </div>
 
+_*Note that as the number of reported analyses vary, some days may have a low number of samples, affecting the statistics a lot for that day, e.g. August 24th where only seven samples were reported, all positive._
+
 #### Cumulative NPC test numbers
 
 The sum of all SARS-CoV-2 (COVID-19) virus tests run at NPC since the
