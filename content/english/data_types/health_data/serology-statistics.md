@@ -1,15 +1,17 @@
 ---
-title: SciLifeLab Autoimmunity and serology profiling facility serology test statistics
+title: SciLifeLab Autoimmunity and Serology profiling facility SARS-CoV-2 antibody test statistics
 menu:
     main:
         identifier: serology-statistics
         parent: health_data
         weight: 10
 ---
+<div class="alert alert-info">Graphs on this page are based on data as per September 25, 2020.
+</div>
 
 #### Weekly serology test numbers
 
-The number of serology tests run at SciLifeLab Autoimmunity and serology profiling facility weekly.
+The number of tests run at SciLifeLab Autoimmunity and Serology profiling facility weekly.
 
 <div class="d-lg-none alert alert-info">
   Scroll the plot sideways to view all data.
@@ -21,7 +23,7 @@ The number of serology tests run at SciLifeLab Autoimmunity and serology profili
 
 #### Cumulative serology test numbers
 
-The sum of all serology tests run at SciLifeLab Autoimmunity and serology profiling facility since the start.
+The sum of all tests run at SciLifeLab Autoimmunity and Serology profiling facility since the start.
 
 <div class="d-lg-none alert alert-info">
   Scroll the plot sideways to view all data.
@@ -31,9 +33,13 @@ The sum of all serology tests run at SciLifeLab Autoimmunity and serology profil
   <div id="cumulative-plot"></div>
 </div>
 
-In Spring 2020, researchers at [SciLifeLab](https://scilifelab.se/) and KTH Royal Institute of Technology have developed a serological test that can detect antibodies against COVID-19. This high-throughput serology test was developed in collaboration with Danderyd Hospital, Karolinska University Hospital and the Public Health Agency of Sweden, which have been engaged in evaluating and validating the test. The test [displayed accurate results](https://www.scilifelab.se/covid-19/kaw-program/serology/) and is considered highly reliable. Subsequently, the SciLifeLab’s [Autoimmunity Profiling facility](https://www.scilifelab.se/facilities/autoimmunity-profiling/) has carried out up to 8000 of such tests per week.
+During early phases of the Covid-19 pandemic, three [KTH](https://www.kth.se) research groups and the [Autoimmunity profiling facility](https://www.scilifelab.se/facilities/autoimmunity-profiling/) at [SciLifeLab](https://www.scilifelab.se) set out to [develop a serological assay](https://www.scilifelab.se/covid-19/kaw-program/serology/) for large scale testing of plasma and serum samples for antibodies to SARS-CoV-2. The work was initiated and coordinated by the three KTH professors Peter Nilsson, Sophia Hober and My Hedhammar.
 
-The development of the test has been coordinated by Peter Nilsson (SciLifeLab/KTH), Sophia Hober (KTH). The project is funded by KTH Royal Institute of Technology, Region Stockholm, Atlas Copco, Family Christian and Jennifer Dahlberg, Knut and Alice Wallenberg Foundation and the Erling-Persson Family Foundation.
+The development of the assay has been funded by Knut and Alice Wallenberg Foundation, Erling-Persson Family Foundation, KTH, SciLifeLab, Region Stockholm, Atlas Copco, Family Christian and Jennifer Dahlberg.
+
+By comparing and combining large number of variants of SARS-CoV-2 proteins as antigens, a highly sensitive and specific multiplex bead-based assay was established and applied in high throughput with up to 8000 samples analysed per week. The vast majority of samples analysed so far have been collected from health care personnel and within population based studies as well as from personnel in the pharmaceutical and biotechnology industry and also within a long range of research collaborations. Sample providers and research collaborators include [Danderyd University Hospital](https://www.scilifelab.se/news/four-out-of-five-still-have-antibodies-against-sars-cov-2), Karolinska University Hospital, Uppsala University Hospital, Skåne University Hospital, Örebro University Hospital, Sophiahemmet Hospital, Public Health Agency of Sweden, RISE Research Institutes of Sweden, AstraZeneca, Cytiva, Karolinska Institutet, KTH, Uppsala University and Lund University.
+
+The SciLifeLab facility has now changed its name to [Autoimmunity and Serology Profiling facility](https://www.scilifelab.se/facilities/autoimmunity-profiling/).
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.12.2"></script>
