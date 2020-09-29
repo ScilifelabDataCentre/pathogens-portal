@@ -21,5 +21,5 @@ Metadata för svenska nationella sjukvårdsregister.
 Automatiskt genererad statistik för Covid-19 tester som utförs av NPC.
 Uppdateras dagligen.
 
-##### [SciLifeLab Autoimmunity and Serology profiling facility SARS-CoV-2 antikropp analysstatistik](serology-statistics)
+##### [SciLifeLab Autoimmunity and Serology profiling facility, statistik för SARS-CoV-2 antikroppstest](serology-statistics)
 Statistik för SARS-CoV-2 antikroppstester som utförs av SciLifeLab Autoimmunity and Serology profiling facility. Uppdateras manuellt.
