@@ -13,7 +13,6 @@ Out of three Neanderthal genomes investigated, the Vindija *33.19* Neandertha
 
 The article is based on data-driven research method and used publicly available data: metadata from [The COVID-19 Host Genetics Initiative](http://www.covid19hg.org/), genome data from the [1000 Genomes Project](https://www.internationalgenome.org/), the Neandethal genome data from the [Max Planck Institute for Evolutionary Anthropology](http://cdna.eva.mpg.de/neandertal/), sequence data from [Ensembl](https://www.ensembl.org/), and map data from [OpenStreetMap](https://www.openstreetmap.org). The COVID-19 Host Genetics Initiative, started in the Spring 2020, is a collaborative effort by over 300 scientists in over 20 countries to bring genetic community together and to facilitate COVID-19 host genetics research.
 
-
 The researchers Zeberg and Pääbo have shared their results early via pre-print services ([bioRXiv](https://www.biorxiv.org/)) and gained large attention.
 
 #### Article
@@ -22,4 +21,4 @@ DOI: [10.1038/s41586-020-2818-3](https://doi.org/10.1038/s41586-020-2818-3)
 
 Zeberg, H., Pääbo, S. The major genetic risk factor for severe COVID-19 is inherited from Neanderthals. *Nature* (2020)
 
-*The project was founded by The Max Planck Society and the NOMIS Foundation.*\
+*The project was founded by The Max Planck Society and the NOMIS Foundation.*
