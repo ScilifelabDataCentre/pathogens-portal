@@ -7,9 +7,9 @@
   {{ range .Pages }}
       <div class="col-md-5 mx-2 mb-2 border bg-light">
         <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
-        <h6><a href="{{ .Permalink }}">{{ .Title }}</a></h6>
+        <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
         <p class="small text-muted">{{.Date.Format "2006-01-02"}}</p>
-        <p> {{ .Summary }} <br><a href="{{ .Permalink }}">Read more</a></p>
+        <p> {{ .Summary }} <br><a href="{{ .RelPermalink }}">Read more</a></p>
       </div>
   {{ end }}
   </div>
