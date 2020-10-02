@@ -21,4 +21,4 @@ Smyrlaki I., Ekman, M., Lentini, A., de Sousa, N. R., Papanicolaou, N., Vondrace
 
 #### Data
 
-Link to source data available under the DOI as above.
+Link to source data available under the DOI above.

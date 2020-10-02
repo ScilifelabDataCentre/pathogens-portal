@@ -69,7 +69,7 @@
       <div class="col-md mx-3 mb-2">
         <div class="row"><h5>{{ $.Param "teststats.npctitle" }}</h5></div>
         <div class="row"><div id="npc"></div></div>
-        <div class="row"><a href="/data_types/health_data/npc-statistics/">{{ $.Param "teststats.seemoretext" }} <i class="fas fa-arrow-circle-right"></i></a></div>
+        <div class="row"><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/health_data/npc-statistics/">{{ $.Param "teststats.seemoretext" }} <i class="fas fa-arrow-circle-right"></i></a></div>
       </div>
       <div class="col-md mx-3 mb-2">
         <div class="row"><h5>{{ $.Param "teststats.serologytitle" }}</h5></div>
