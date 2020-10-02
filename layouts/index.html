@@ -11,6 +11,24 @@
 
   {{ .Content }}
 
+  <div>
+    {{ range .Site.Menus.news }}
+    <h2>{{ .Name }}</h2>
+    {{ if .Post }}<p class="small text-muted">{{ .Post | markdownify}}</p>{{ end }}
+    {{ end }}
+      <div class="row">
+        {{ $news_high := where .Site.RegularPages "Section" "news" }}
+        {{ range first 3 $news_high }}
+            <div class="col-md mx-2 mb-2 border bg-light">
+              <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
+              <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
+              <p class="small text-muted">{{.Date.Format "2006-01-02"}}</p>
+              <p> {{ .Summary }} <br><a href="{{ .RelPermalink }}">Read more <i class="fas fa-arrow-circle-right"></i></a></p>
+            </div>
+        {{ end }}
+      </div>
+  </div>
+
   <div class="row mb-4 homepage-accordions">
     {{ range .Site.Menus.main }}
     <div class="col-md">
@@ -43,6 +61,31 @@
     </div>
     {{ end }}
   </div>
+
+  <div class="col">
+    <div class="row"><h2>{{ $.Param "teststats.name" }}</h2></div>
+    <div class="row"><span class="small text-muted">{{ $.Param "teststats.desc" | markdownify }}</span></div>
+    <div class="row">
+      <div class="col-md mx-3 mb-2">
+        <div class="row"><h5>{{ $.Param "teststats.npctitle" }}</h5></div>
+        <div class="row"><div id="npc"></div></div>
+        <div class="row"><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/health_data/npc-statistics/">{{ $.Param "teststats.seemoretext" }} <i class="fas fa-arrow-circle-right"></i></a></div>
+      </div>
+      <div class="col-md mx-3 mb-2">
+        <div class="row"><h5>{{ $.Param "teststats.serologytitle" }}</h5></div>
+        <div class="row"><div id="serology"></div></div>
+        <div class="row"><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/health_data/serology-statistics/">{{ $.Param "teststats.seemoretext" }} <i class="fas fa-arrow-circle-right"></i></a></div>
+      </div>
+    </div>
+  </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.12.2"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
+
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/69a97dd76b7d40208b19567822cadf6e.js?id=serology"></script>
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/4889dfd3392f4dc7a2e7f579f1cc95bf.js?id=npc"></script>
 
 
 {{ end }}
