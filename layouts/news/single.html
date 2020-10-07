@@ -1,7 +1,12 @@
 {{ define "main" }}
 
+{{ if .Params.needs_translation }} <div class="alert alert-info">
+  <i class="fas fa-exclamation-triangle"></i>
+  OBS Svensk översättning är snart tillgänglig.
+</div> {{ end }}
+
 <h2>{{ .Params.title_full }}</h2>
-<p class="text-muted">Published: {{ .Date.Format "2006-01-02"}}</p>
+<p class="text-muted">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).published_text }}: {{ .Date.Format "2006-01-02"}}</p>
 
 <figure class="figure float-right mx-2 w-50">
   <img src="{{ if (isset .Params "banner_large") }}{{ .Params.banner_large }}{{ else }}{{ .Params.banner }} {{ end }}" alt="{{ .Title }}" class="img-news-banner img-thumbnail">

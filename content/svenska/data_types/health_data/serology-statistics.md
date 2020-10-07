@@ -7,7 +7,7 @@ menu:
         weight: 10
 ---
 
-<div class="alert alert-info">Grafiken på denna sida är baserad på data senast uppdaterad den 25 september 2020.
+<div class="alert alert-info">Grafiken på denna sida är baserad på data senast uppdaterad den 7 oktober 2020.
 </div>
 
 #### Veckovis antal tester

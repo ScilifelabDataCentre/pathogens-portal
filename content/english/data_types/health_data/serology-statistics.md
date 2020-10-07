@@ -6,7 +6,7 @@ menu:
         parent: health_data
         weight: 10
 ---
-<div class="alert alert-info">Graphs on this page are based on data as per September 25, 2020.
+<div class="alert alert-info">Graphs on this page are based on data as per October 7, 2020.
 </div>
 
 #### Weekly serology test numbers
