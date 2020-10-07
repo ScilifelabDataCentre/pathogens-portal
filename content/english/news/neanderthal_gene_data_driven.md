@@ -16,7 +16,7 @@ The article is based on data-driven research method and used publicly available 
 
 The researchers Zeberg and Pääbo have shared their results early via pre-print services ([bioRXiv](https://www.biorxiv.org/)) and gained large attention.
 
-*The project was founded by The Max Planck Society and the NOMIS Foundation.*
+*The project was funded by The Max Planck Society and the NOMIS Foundation.*
 
 #### Article
 
