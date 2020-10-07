@@ -16,6 +16,8 @@ params:
       privacy: Privacy Notice
       github_link: Website code on GitHub
       skip_to_content: Skip to main content
+      readmore_text: Read more
+      published_text: Published
     sv:
       home_title: Snabbare forskning genom datadelning
       enquire_email_footer_dc: "Kontakta den svenska Covid-19 dataportalen"
@@ -24,6 +26,8 @@ params:
       privacy: Integritetspolicy
       github_link: Webbplatskod på GitHub
       skip_to_content: Hoppa till innehållet
+      readmore_text: Läs mer
+      published_text: Publicerad
 
 languages:
   en:

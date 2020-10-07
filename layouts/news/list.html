@@ -2,9 +2,18 @@
 
 {{ .Content }}
 
+{{ if eq $.Site.Language.LanguageName "Svenska" }}
+{{ $display_alert := "false" }}
+{{ range .RegularPages }}{{ if .Params.needs_translation }} {{$display_alert := "true" }} {{ end }} {{ end }}
+{{ if $display_alert}}<div class="alert alert-info">
+  <i class="fas fa-exclamation-triangle"></i>
+  <span class="small">Svensk översättning för de engelska texterna kommer inom kort.</span>
+</div> {{ end }}
+{{ end }}
+
 <div class="mt-3">
   <div class="row">
-  {{ range .Pages }}
+  {{ range .RegularPages }}
       <div class="col-md-5 mx-2 mb-2 border bg-light">
         <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
         <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
