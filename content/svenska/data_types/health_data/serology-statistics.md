@@ -7,12 +7,24 @@ menu:
         weight: 10
 ---
 
-<div class="alert alert-info">Grafiken på denna sida är baserad på data senast uppdaterad den 7 oktober 2020.
+<div class="alert alert-info">Grafiken på denna sida är baserad på data senast uppdaterad den 14 oktober 2020.
+</div>
+
+#### Totala antalet tester
+
+Det totala antalet SARS-CoV-2 antikroppstester analyserade vid SciLifeLab Autoimmunity and Serology profiling facility uppdelade på de med positivt, negativt eller "annat" resultat.
+
+<div class="d-lg-none alert alert-info">
+  Scroll the plot sideways to view all data.
+</div>
+
+<div class="plot_wrapper">
+  <div id="total-number"></div>
 </div>
 
 #### Veckovis antal tester
 
-Antalet SARS-CoV-2 antikroppstester analyserade per vecka vid SciLifeLab Autoimmunity and Serology profiling facility.
+Antalet SARS-CoV-2 antikroppstester analyserade per vecka vid SciLifeLab Autoimmunity and Serology profiling facility uppdelade på de med positivt, negativt eller "annat" resultat.
 
 <div class="d-lg-none alert alert-info">
   Scroll the plot sideways to view all data.
@@ -24,7 +36,7 @@ Antalet SARS-CoV-2 antikroppstester analyserade per vecka vid SciLifeLab Autoimm
 
 #### Kumulativt antal tester
 
-Summan av alla SARS-CoV-2 antikroppstester analyserade vid SciLifeLab Autoimmunity and Serology profiling facility sedan start.
+Summan av alla SARS-CoV-2 antikroppstester analyserade vid SciLifeLab Autoimmunity and Serology profiling facility sedan start uppdelade på de med positivt, negativt eller "annat" resultat.
 
 <div class="d-lg-none alert alert-info">
   Scroll the plot sideways to view all data.
@@ -49,5 +61,6 @@ SciLifeLab faciliteten har ny bytt namn - [Autoimmunity and Serology Profiling f
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.12.2"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
 
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/607cde61c50c4bf8a71eec1ade5e584c.js?id=bar-chart"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/7368d013a61c4961baa4c0a839234d75.js?id=cumulative-plot"></script>
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/da4fea8cda554f7daaf1a6a4aaf20c09.js?id=bar-chart"></script>
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/a0aa4518425a4d4caa91b14bceddfd14.js?id=cumulative-plot"></script>
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/874f2e10a86243d2a02de6bee37e6c61.js?id=total-number"></script>
