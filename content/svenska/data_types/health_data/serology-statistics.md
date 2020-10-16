@@ -8,8 +8,7 @@ menu:
         weight: 10
 ---
 
-<div class="alert alert-info">Grafiken på denna sida är baserad på data senast uppdaterad den 14 oktober 2020.
-</div>
+<div class="alert alert-info">Grafiken på denna sida är baserad på data senast uppdaterad den 14 oktober 2020.</div>
 
 #### Totala antalet tester
 
@@ -59,7 +58,6 @@ Under den tidig fasen av Covid-19-pandemin, påbörjade tre forskargrupper på [
 
 Utvecklingsarbetet har finansierats av Knut och Alice Wallenbergs Stiftelse, Familjen Erling-Perssons Stiftelse, KTH, SciLifeLab, KTH, Region Stockholm, Atlas Copco, Mercodia, Familjen Christian och Jennifer Dahlberg, Familjen Birgitta Klasén.
 
-
 Genom att jämföra och kombinera ett stort antal variationer av SARS- CoV- 2-proteiner som antigener, har en specifik array-baserad teknologi med hög känslighet etablerats och applicerats för storskalig analys av upp till 8000 prover per vecka. De allra flesta prover som hittills analyserats har samlats in från vårdpersonal och inom befolknings-baserade studier, från personal inom läkemedels- och bioteknikindustrin samt genom ett antal forskningssamarbeten.  
 
 Provinsamlingsenheter och forskningssamarbeten inkluderar [Danderyds Universitetssjukhus](https://www.scilifelab.se/news/four-out-of-five-still-have-antibodies-against-sars-cov-2), Karolinska Universitetssjukhuset, Akademiska sjukhuset i Uppsala, Skånes universitetssjukhus,  Örebro  Universitetssjukhus, Sophiahemmet, Folkhälsomyndigheten,  RISE Research Institutes of Sweden,  AstraZeneca,  Cytiva, SVPH, Karolinska  Institutet, KTH, Uppsala universitet och Lunds universitet.
@@ -68,7 +66,7 @@ SciLifeLab faciliteten har ny bytt namn - [Autoimmunity and Serology Profiling f
 
 #### Publikationer
 
-* Rudberg, A.S., Havervall, S., Månberg, A., Falk, A.J., Aguilera, K., Ng, H., Gabrielsson, L., Salomonsson, A.C., Hanke, L., Murrell, B., McInerney, G., Olofsson J., Andersson, E., Hellström, C., Bayati, S., Bergström, S., Pin, E., Sjöberg, R., Tegel, H., Hedhammar, M., Phillipson, M., Nilsson, P., Hober, S., Thålin, C. SARS-CoV-2 exposure, symptoms and seroprevalence in healthcare workers in Sweden. *Nature Communications* **11**, 5064 (2020). https://doi.org/10.1038/s41467-020-18848-0
+* Rudberg, A.S., Havervall, S., Månberg, A., Falk, A.J., Aguilera, K., Ng, H., Gabrielsson, L., Salomonsson, A.C., Hanke, L., Murrell, B., McInerney, G., Olofsson J., Andersson, E., Hellström, C., Bayati, S., Bergström, S., Pin, E., Sjöberg, R., Tegel, H., Hedhammar, M., Phillipson, M., Nilsson, P., Hober, S., Thålin, C. SARS-CoV-2 exposure, symptoms and seroprevalence in healthcare workers in Sweden. *Nature Communications* **11**, 5064 (2020). [https://doi.org/10.1038/s41467-020-18848-0](https://doi.org/10.1038/s41467-020-18848-0)
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.12.2"></script>

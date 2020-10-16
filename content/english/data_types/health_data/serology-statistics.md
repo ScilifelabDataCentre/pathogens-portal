@@ -37,7 +37,6 @@ The number of tests run at SciLifeLab Autoimmunity and Serology profiling facili
 
 <div class="small text-muted">*The category here denoted as "Other" includes all remaining serum, plasma and saliva samples where we have measured the levels of IgG, IgM or IgA antibodies targeting SARS-CoV-2 proteins. It includes all positive and negative controls, all replicated and rerun of samples and assays, all samples analysed during the continuous development and optimization, technically failed samples and all research associated projects.</div>
 
-
 #### Cumulative serology test numbers
 
 The sum of all tests run at SciLifeLab Autoimmunity and Serology profiling facility since the start, split up into positive, negative and "other" results.
@@ -64,7 +63,7 @@ The SciLifeLab facility has now changed its name to [Autoimmunity and Serology P
 
 #### Publications
 
-* Rudberg, A.S., Havervall, S., Månberg, A., Falk, A.J., Aguilera, K., Ng, H., Gabrielsson, L., Salomonsson, A.C., Hanke, L., Murrell, B., McInerney, G., Olofsson J., Andersson, E., Hellström, C., Bayati, S., Bergström, S., Pin, E., Sjöberg, R., Tegel, H., Hedhammar, M., Phillipson, M., Nilsson, P., Hober, S., Thålin, C. SARS-CoV-2 exposure, symptoms and seroprevalence in healthcare workers in Sweden. *Nature Communications* **11**, 5064 (2020). https://doi.org/10.1038/s41467-020-18848-0
+* Rudberg, A.S., Havervall, S., Månberg, A., Falk, A.J., Aguilera, K., Ng, H., Gabrielsson, L., Salomonsson, A.C., Hanke, L., Murrell, B., McInerney, G., Olofsson J., Andersson, E., Hellström, C., Bayati, S., Bergström, S., Pin, E., Sjöberg, R., Tegel, H., Hedhammar, M., Phillipson, M., Nilsson, P., Hober, S., Thålin, C. SARS-CoV-2 exposure, symptoms and seroprevalence in healthcare workers in Sweden. *Nature Communications* **11**, 5064 (2020). [https://doi.org/10.1038/s41467-020-18848-0](https://doi.org/10.1038/s41467-020-18848-0)
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.12.2"></script>
