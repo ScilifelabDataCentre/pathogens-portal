@@ -1,5 +1,6 @@
 ---
 title: SciLifeLab Autoimmunity and Serology profiling facility, statistik för SARS-CoV-2 antikroppstest
+toc: false
 menu:
     main:
         identifier: serology-statistics
@@ -7,12 +8,11 @@ menu:
         weight: 10
 ---
 
-<div class="alert alert-info">Grafiken på denna sida är baserad på data senast uppdaterad den 14 oktober 2020.
-</div>
+<div class="alert alert-info">Grafiken på denna sida är baserad på data senast uppdaterad den 14 oktober 2020.</div>
 
 #### Totala antalet tester
 
-Det totala antalet SARS-CoV-2 antikroppstester analyserade vid SciLifeLab Autoimmunity and Serology profiling facility uppdelade på de med positivt, negativt eller "annat" resultat.
+Det totala antalet SARS-CoV-2 antikroppstester analyserade vid SciLifeLab Autoimmunity and Serology profiling facility uppdelade på de med positivt, negativt eller "övrigt" resultat.
 
 <div class="d-lg-none alert alert-info">
   Scroll the plot sideways to view all data.
@@ -22,9 +22,11 @@ Det totala antalet SARS-CoV-2 antikroppstester analyserade vid SciLifeLab Autoim
   <div id="total-number"></div>
 </div>
 
+<div class="small text-muted">*Kategorin som benämns som "Övrigt" inkluderar alla återstående serum-, plasma- och salivprover där nivåer av IgG-, IgM- eller IgA-antikroppar riktade mot SARS-CoV-2-proteiner mätts. Kategorin innehåller alla positiva och negativa kontrollprover, alla replikat och omkörningar av prover och analyser, alla prover som analyserats som en del av utveckling och optimering, tekniskt misslyckade prover och prover inom forskningsassocierade projekt.</div>
+
 #### Veckovis antal tester
 
-Antalet SARS-CoV-2 antikroppstester analyserade per vecka vid SciLifeLab Autoimmunity and Serology profiling facility uppdelade på de med positivt, negativt eller "annat" resultat.
+Antalet SARS-CoV-2 antikroppstester analyserade per vecka vid SciLifeLab Autoimmunity and Serology profiling facility uppdelade på de med positivt, negativt eller "övrigt" resultat.
 
 <div class="d-lg-none alert alert-info">
   Scroll the plot sideways to view all data.
@@ -34,9 +36,11 @@ Antalet SARS-CoV-2 antikroppstester analyserade per vecka vid SciLifeLab Autoimm
   <div id="bar-chart"></div>
 </div>
 
+<div class="small text-muted">*Kategorin som benämns som "Övrigt" inkluderar alla återstående serum-, plasma- och salivprover där nivåer av IgG-, IgM- eller IgA-antikroppar riktade mot SARS-CoV-2-proteiner mätts. Kategorin innehåller alla positiva och negativa kontrollprover, alla replikat och omkörningar av prover och analyser, alla prover som analyserats som en del av utveckling och optimering, tekniskt misslyckade prover och prover inom forskningsassocierade projekt.</div>
+
 #### Kumulativt antal tester
 
-Summan av alla SARS-CoV-2 antikroppstester analyserade vid SciLifeLab Autoimmunity and Serology profiling facility sedan start uppdelade på de med positivt, negativt eller "annat" resultat.
+Summan av alla SARS-CoV-2 antikroppstester analyserade vid SciLifeLab Autoimmunity and Serology profiling facility sedan start uppdelade på de med positivt, negativt eller "övrigt" resultat.
 
 <div class="d-lg-none alert alert-info">
   Scroll the plot sideways to view all data.
@@ -46,16 +50,23 @@ Summan av alla SARS-CoV-2 antikroppstester analyserade vid SciLifeLab Autoimmuni
   <div id="cumulative-plot"></div>
 </div>
 
+<div class="small text-muted">*Kategorin som benämns som "Övrigt" inkluderar alla återstående serum-, plasma- och salivprover där nivåer av IgG-, IgM- eller IgA-antikroppar riktade mot SARS-CoV-2-proteiner mätts. Kategorin innehåller alla positiva och negativa kontrollprover, alla replikat och omkörningar av prover och analyser, alla prover som analyserats som en del av utveckling och optimering, tekniskt misslyckade prover och prover inom forskningsassocierade projekt.</div>
+
+#### Om tester vid SciLifeLab Autoimmunity and Serology profiling facility
+
 Under den tidig fasen av Covid-19-pandemin, påbörjade tre forskargrupper på [KTH](https://www.kth.se) tillsammans med [Autoimmunity profiling facility](https://www.scilifelab.se/facilities/autoimmunity-profiling/) vid SciLifeLab arbetet att [utveckla en serologisk analysmetod](https://www.scilifelab.se/covid-19/kaw-program/serology/) för att möjliggöra storskalig testning av  plasma- och  serumprover för antikroppar mot SARS-CoV-2. Arbetet initierades och  koordinerades  av tre KTH-professorer,  Peter Nilsson, Sophia Hober och My Hedhammar.
 
-Utvecklingsarbetet har finansierats av Knut och Alice Wallenbergs Stiftelse, Familjen Erling-Perssons Stiftelse, KTH, SciLifeLab, Region Stockholm, Atlas Copco, Familjen Christian och Jennifer Dahlberg.
+Utvecklingsarbetet har finansierats av Knut och Alice Wallenbergs Stiftelse, Familjen Erling-Perssons Stiftelse, KTH, SciLifeLab, KTH, Region Stockholm, Atlas Copco, Mercodia, Familjen Christian och Jennifer Dahlberg, Familjen Birgitta Klasén.
 
-Genom att jämföra och kombinera ett stort antal variationer av SARS- CoV- 2-proteiner som antigener, har en specifik array-baserad teknologi med hög känslighet etablerats och applicerats för storskalig analys av upp till 8000 prover per vecka.
-De allra flesta prover som hittills analyserats har samlats in från vårdpersonal och inom befolknings-baserade studier, från personal inom läkemedels- och bioteknikindustrin samt genom ett antal forskningssamarbeten.  
+Genom att jämföra och kombinera ett stort antal variationer av SARS- CoV- 2-proteiner som antigener, har en specifik array-baserad teknologi med hög känslighet etablerats och applicerats för storskalig analys av upp till 8000 prover per vecka. De allra flesta prover som hittills analyserats har samlats in från vårdpersonal och inom befolknings-baserade studier, från personal inom läkemedels- och bioteknikindustrin samt genom ett antal forskningssamarbeten.  
 
-Provinsamlingsenheter och forskningssamarbeten inkluderar [Danderyds Universitetssjukhus](https://www.scilifelab.se/news/four-out-of-five-still-have-antibodies-against-sars-cov-2), Karolinska Universitetssjukhuset, Akademiska sjukhuset i Uppsala, Skånes universitetssjukhus,  Örebro  Universitetssjukhus, Sophiahemmet, Folkhälsomyndigheten,  RISE Research Institutes of Sweden,  AstraZeneca,  Cytiva, Karolinska  Institutet, KTH, Uppsala universitet och Lunds universitet.
+Provinsamlingsenheter och forskningssamarbeten inkluderar [Danderyds Universitetssjukhus](https://www.scilifelab.se/news/four-out-of-five-still-have-antibodies-against-sars-cov-2), Karolinska Universitetssjukhuset, Akademiska sjukhuset i Uppsala, Skånes universitetssjukhus,  Örebro  Universitetssjukhus, Sophiahemmet, Folkhälsomyndigheten,  RISE Research Institutes of Sweden,  AstraZeneca,  Cytiva, SVPH, Karolinska  Institutet, KTH, Uppsala universitet och Lunds universitet.
 
 SciLifeLab faciliteten har ny bytt namn - [Autoimmunity and Serology Profiling facility](https://www.scilifelab.se/facilities/autoimmunity-profiling/).
+
+#### Publikationer
+
+* Rudberg, A.S., Havervall, S., Månberg, A., Falk, A.J., Aguilera, K., Ng, H., Gabrielsson, L., Salomonsson, A.C., Hanke, L., Murrell, B., McInerney, G., Olofsson J., Andersson, E., Hellström, C., Bayati, S., Bergström, S., Pin, E., Sjöberg, R., Tegel, H., Hedhammar, M., Phillipson, M., Nilsson, P., Hober, S., Thålin, C. SARS-CoV-2 exposure, symptoms and seroprevalence in healthcare workers in Sweden. *Nature Communications* **11**, 5064 (2020). [https://doi.org/10.1038/s41467-020-18848-0](https://doi.org/10.1038/s41467-020-18848-0)
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.12.2"></script>
