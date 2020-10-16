@@ -23,7 +23,7 @@ Det totala antalet SARS-CoV-2 antikroppstester analyserade vid SciLifeLab Autoim
   <div id="total-number"></div>
 </div>
 
-<span class="small text-muted">*Kategorin som benämns som "Övrigt" inkluderar alla återstående serum-, plasma- och salivprover där nivåer av IgG-, IgM- eller IgA-antikroppar riktade mot SARS-CoV-2-proteiner mätts. Kategorin innehåller alla positiva och negativa kontrollprover, alla replikat och omkörningar av prover och analyser, alla prover som analyserats som en del av utveckling och optimering, tekniskt misslyckade prover och prover inom forskningsassocierade projekt.</small>
+<div class="small text-muted">*Kategorin som benämns som "Övrigt" inkluderar alla återstående serum-, plasma- och salivprover där nivåer av IgG-, IgM- eller IgA-antikroppar riktade mot SARS-CoV-2-proteiner mätts. Kategorin innehåller alla positiva och negativa kontrollprover, alla replikat och omkörningar av prover och analyser, alla prover som analyserats som en del av utveckling och optimering, tekniskt misslyckade prover och prover inom forskningsassocierade projekt.</div>
 
 #### Veckovis antal tester
 
@@ -37,7 +37,7 @@ Antalet SARS-CoV-2 antikroppstester analyserade per vecka vid SciLifeLab Autoimm
   <div id="bar-chart"></div>
 </div>
 
-<span class="small text-muted">*Kategorin som benämns som "Övrigt" inkluderar alla återstående serum-, plasma- och salivprover där nivåer av IgG-, IgM- eller IgA-antikroppar riktade mot SARS-CoV-2-proteiner mätts. Kategorin innehåller alla positiva och negativa kontrollprover, alla replikat och omkörningar av prover och analyser, alla prover som analyserats som en del av utveckling och optimering, tekniskt misslyckade prover och prover inom forskningsassocierade projekt.</small>
+<div class="small text-muted">*Kategorin som benämns som "Övrigt" inkluderar alla återstående serum-, plasma- och salivprover där nivåer av IgG-, IgM- eller IgA-antikroppar riktade mot SARS-CoV-2-proteiner mätts. Kategorin innehåller alla positiva och negativa kontrollprover, alla replikat och omkörningar av prover och analyser, alla prover som analyserats som en del av utveckling och optimering, tekniskt misslyckade prover och prover inom forskningsassocierade projekt.</div>
 
 #### Kumulativt antal tester
 
@@ -51,7 +51,7 @@ Summan av alla SARS-CoV-2 antikroppstester analyserade vid SciLifeLab Autoimmuni
   <div id="cumulative-plot"></div>
 </div>
 
-<span class="small text-muted">*Kategorin som benämns som "Övrigt" inkluderar alla återstående serum-, plasma- och salivprover där nivåer av IgG-, IgM- eller IgA-antikroppar riktade mot SARS-CoV-2-proteiner mätts. Kategorin innehåller alla positiva och negativa kontrollprover, alla replikat och omkörningar av prover och analyser, alla prover som analyserats som en del av utveckling och optimering, tekniskt misslyckade prover och prover inom forskningsassocierade projekt.</small>
+<div class="small text-muted">*Kategorin som benämns som "Övrigt" inkluderar alla återstående serum-, plasma- och salivprover där nivåer av IgG-, IgM- eller IgA-antikroppar riktade mot SARS-CoV-2-proteiner mätts. Kategorin innehåller alla positiva och negativa kontrollprover, alla replikat och omkörningar av prover och analyser, alla prover som analyserats som en del av utveckling och optimering, tekniskt misslyckade prover och prover inom forskningsassocierade projekt.</div>
 
 #### Om tester vid SciLifeLab Autoimmunity and Serology profiling facility
 
@@ -68,7 +68,7 @@ SciLifeLab faciliteten har ny bytt namn - [Autoimmunity and Serology Profiling f
 
 #### Publikationer
 
-* Rudberg, A.S., Havervall, S., Månberg, A., Falk, A.J., Aguilera, K., Ng, H., Gabrielsson, L., Salomonsson, A.C., Hanke, L., Murrell, B., McInerney, G., Olofsson J., Andersson, E., Hellström, C., Bayati, S., Bergström, S., Pin, E., Sjöberg, R., Tegel, H., Hedhammar, M., Phillipson, M., Nilsson, P., Hober, S., Thålin, C. SARS-CoV-2 exposure, symptoms and seroprevalence in healthcare workers in Sweden. <br> *Nature Communications* **11**, 5064 (2020). https://doi.org/10.1038/s41467-020-18848-0
+* Rudberg, A.S., Havervall, S., Månberg, A., Falk, A.J., Aguilera, K., Ng, H., Gabrielsson, L., Salomonsson, A.C., Hanke, L., Murrell, B., McInerney, G., Olofsson J., Andersson, E., Hellström, C., Bayati, S., Bergström, S., Pin, E., Sjöberg, R., Tegel, H., Hedhammar, M., Phillipson, M., Nilsson, P., Hober, S., Thålin, C. SARS-CoV-2 exposure, symptoms and seroprevalence in healthcare workers in Sweden. *Nature Communications* **11**, 5064 (2020). https://doi.org/10.1038/s41467-020-18848-0
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.12.2"></script>
