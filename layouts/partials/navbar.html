@@ -30,12 +30,8 @@
   <div class="container">
     <div class="collapse navbar-collapse" id="navbarCollapseBottom">
       <ul class="navbar-nav mr-auto navbar-primary-links">
-        {{ range .Site.Menus.main }}
-          {{ if eq .Identifier "data_types" }}
-            {{ range .Children }}
+        {{ range .Site.Menus.horizontal }}
               <li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
-            {{ end }}
-          {{ end }}
         {{ end }}
       </ul>
       <hr class="d-md-none">

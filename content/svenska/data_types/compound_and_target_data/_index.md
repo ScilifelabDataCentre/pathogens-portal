@@ -6,6 +6,10 @@ menu:
         parent: data_types
         weight: 40
         pre: <i class="fas fa-bullseye"></i>
+    horizontal:
+        name: Kemisk biologi
+        identifier: compound_and_target_data_data
+        weight: 40
 ---
 
 Data inom områdena kemisk biologi och läkemedelsutveckling beskriver bl.a. små molekyler och deras aktivitet i interaktioner med andra målmolekyler.
