@@ -1,0 +1,18 @@
+{{ $current_page := .Title }}
+<div class="col-md-2 pl-0 pr-2">
+  <h5>Categories</h5>
+
+  {{ range .Sections }}
+  <a href="{{.URL }}">{{ .Title }}</a>
+  {{ end }}
+
+  <div class="col mb-2">
+        {{ range $taxonomy_term, $taxonomy := .Site.Taxonomies }}
+                <div class="row"><b>{{ (strings.TrimLeft "Available_data/" $taxonomy_term) | title | humanize }}</b></div>
+                <div class="row ml-0">{{ if eq ($current_page | urlize) $taxonomy_term }}All{{ else }} <a href="/{{ $taxonomy_term | urlize }}">All</a>{{ end }}</div>
+                    {{ range $key, $value := $taxonomy }}
+                            <div class="row ml-0">{{ if eq $current_page ($key | humanize )}} {{ $key | humanize }}{{ else }}<a href="/{{ $taxonomy_term | urlize}}/{{ $key | urlize }}">{{ $key | humanize }}</a>{{ end }}&nbsp;({{ .Count }})</div>
+                    {{ end }}
+            {{ end }}
+      </div>
+</div>
