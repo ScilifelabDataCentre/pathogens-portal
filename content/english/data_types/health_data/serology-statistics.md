@@ -9,8 +9,6 @@ menu:
 ---
 <div class="alert alert-info">Graphs on this page are based on data as per October 14, 2020.</div>
 
-
-
 #### Total serology test numbers
 
 The total number of tests run at SciLifeLab Autoimmunity and Serology profiling facility since the start, split up into positive, negative and "other" results.
@@ -24,7 +22,6 @@ The total number of tests run at SciLifeLab Autoimmunity and Serology profiling 
 </div>
 
 <span class="small text-muted">*The category here denoted as "Other" includes all remaining serum, plasma and saliva samples where we have measured the levels of IgG, IgM or IgA antibodies targeting SARS-CoV-2 proteins. It includes all positive and negative controls, all replicated and rerun of samples and assays, all samples analysed during the continuous development and optimization, technically failed samples and all research associated projects.</small>
-
 
 #### Weekly serology test numbers
 
