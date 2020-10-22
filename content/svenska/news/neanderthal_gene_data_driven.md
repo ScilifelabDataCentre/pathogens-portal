@@ -1,23 +1,21 @@
 ---
-title: Data-driven research shows that Neanderthal gene connected to severity of COVID-19 # short
-title_full: Data-driven research shows that Neanderthal gene connected to severity of COVID-19 # long
+title: Neandertalgenom kopplas till ökad risk för svår COVID-19 infektion i studie med datadriven forskningsmetod # short
+title_full: Neandertalgenom kopplas till ökad risk för svår COVID-19 infektion i studie med datadriven forskningsmetod # long
 date: 2020-10-02
-needs_translation: true
-summary: Study by Hugo Zeberg and Svante Pääbo fully based on openly available data published open access in *Nature*.
+summary:  Studie av Hugo Zeberg and Svante Pääbo som är helt baserad på öppen data publiceras med fri tillgång i Nature.
 banner: /news/banners/neanderthal_gene_data_driven.jpg
 banner_large: /news/banners/neanderthal_gene_data_driven_full.jpg
-banner_caption: "Skull of Homo sapiens neanderthalensis. <br> Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Homo_sapiens_neanderthalensis.jpg)."
+banner_caption: "Neandertalskalle. <br> Bild: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Homo_sapiens_neanderthalensis.jpg)."
 ---
+En nyligen  publicerad genetisk associationsstudie (*Eur. J Hum Genet* 28, 715-718, 2020; DOI: [10.1038/s41431-020-0636-6](https://doi.org/10.1038/s41431-020-0636-6)) pekade på en koppling mellan en en genvariant på kromosom 3 och risken för at drrabbas av svår COVID-19-infektion. Forskarna Hugo Zeberg (Max Planck Institute for Evolutionary Anthropology and Karolinska Institute) och Svante Pääbo (Max Planck Institute for Evolutionary Anthropology and Okinawa Institute of Science and Technology) har nu visat, genom datadriven paleogenetik/immunogenetik, att det lilla genomfragment på 50 kB, som ligger på kromosom 3, nedärvs från neandertalarna.
 
-A recent genetic association study by The COVID-19 Host Genetics Initiative (*Eur. J Hum Genet* 28, 715-718, 2020; DOI: [10.1038/s41431-020-0636-6](https://doi.org/10.1038/s41431-020-0636-6)) pointed to a connection between a small gene locus on Chromosome 3 and the risk of severe outcome of COVID-19 infection. Researchers Hugo Zeberg (Max Planck Institute for Evolutionary Anthropology and Karolinska Institute) and Svante Pääbo (Max Planck Institute for Evolutionary Anthropology and Okinawa Institute of Science and Technology) have now shown, by data-driven paleogenetics/immunogenetics, that this small genomic fragment of about 50 kb, situated on Chromosome 3, is inherited from the Neanderthals.
+Av tre neandertalgenom som studeras uppvisade Vindija *33.19* Neanderthal, som hittades i Vindija grottan i norra Kroatien, störst överensstämmelse med riskhaplotypen för allvarlig SARS-CoV-2-infektion och risk för sjukhusvistelse. Denna genvariant är vanligast förekommande i södra Asien (där det bärs av 50% av befolkningen). Cirka var sjätte europée bär riskhaplotypen. Författarna föreslår att riskhaplotypen kan bidra risk att drabbas av COVID-19  och risken för svår COVID-19-infektion.
 
-Out of three Neanderthal genomes investigated, the Vindija *33.19* Neanderthal, found in the Vindija Cave in northern Croatia, has the closest relationship with the risk haplotype for severe SARS-CoV-2 infection and hospitalization. This gene fragment is most common in South Asia (carried by 50% of the population). About one in six Europeans carry the risk haplotype. The authors suggest that the Neanderthal risk haplotype may contribute to COVID-19 risk and severe outcome of COVID-19 infection.
+Artikeln baseras på datadriven forskningsmetod och utgår ifrån data som är tillgängligt genom open science: metadata från [COVID-19 Host Genetics Initiative](http://www.covid19hg.org/), genomdata från [1000 Genomes Project](https://www.internationalgenome.org/), genomdata från neandertalana från [Max Planck Institute for Evolutionary Anthropology](http://cdna.eva.mpg.de/neandertal/), sekvensdata från [Ensembl](https://www.ensembl.org/) och kartdata från [OpenStreetMap](https://www.openstreetmap.org). COVID-19 Host Genetics Initiative, som startade våren 2020, är ​​ett samarbete mellan 300 forskare i över 20 länder för att sammanföra genetiska samhällen och för att underlätta COVID-19 värdgenetisk forskning.
 
-The article is based on data-driven research method and used publicly available data: metadata from [The COVID-19 Host Genetics Initiative](http://www.covid19hg.org/), genome data from the [1000 Genomes Project](https://www.internationalgenome.org/), the Neandethal genome data from the [Max Planck Institute for Evolutionary Anthropology](http://cdna.eva.mpg.de/neandertal/), sequence data from [Ensembl](https://www.ensembl.org/), and map data from [OpenStreetMap](https://www.openstreetmap.org). The COVID-19 Host Genetics Initiative, started in the Spring 2020, is a collaborative effort by over 300 scientists in over 20 countries to bring genetic community together and to facilitate COVID-19 host genetics research.
+Forskarna Zeberg och Pääbo har tidigt delat sina forskningsresultat via preprintservern ([bioRXiv](https://www.biorxiv.org/)) och och fått stor uppmärksamhet.
 
-The researchers Zeberg and Pääbo have shared their results early via pre-print services ([bioRXiv](https://www.biorxiv.org/)) and gained large attention.
-
-*The project was funded by The Max Planck Society and the NOMIS Foundation.*
+*Projektet finansierades av The Max Planck Society och NOMIS Foundation.*
 
 #### Article
 
