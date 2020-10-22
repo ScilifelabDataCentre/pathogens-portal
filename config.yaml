@@ -18,6 +18,11 @@ params:
       skip_to_content: Skip to main content
       readmore_text: Read more
       published_text: Published
+      dt_project: Project
+      dt_last_updated: Last updated
+      dt_available_data: Available data
+      dt_data_types: Data types
+      dt_entries_in_total: entries in total
     sv:
       home_title: Snabbare forskning genom datadelning
       enquire_email_footer_dc: "Kontakta den svenska Covid-19 dataportalen"
@@ -28,6 +33,11 @@ params:
       skip_to_content: Hoppa till innehållet
       readmore_text: Läs mer
       published_text: Publicerad
+      dt_project: Projekt
+      dt_last_updated: Senast uppdaterad
+      dt_available_data: Tillgängliga data
+      dt_data_types: Datatyper
+      dt_entries_in_total: resultat
 
 languages:
   en:

@@ -6,10 +6,6 @@ menu:
         parent: data_types
         weight: 30
         pre: <i class="fas fa-microscope"></i>
-    horizontal:
-        name: Bilddata
-        identifier: imaging_data_data
-        weight: 30
 ---
 
 Biologisk bildanalys är ett växande fält som genererar stora mängder bilddata från olika mikroskopiteknologier. Analysen av dessa resulterar i ökad kunskap om funktion och organisation hos vävnader, celler och molekyler.

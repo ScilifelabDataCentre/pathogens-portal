@@ -2,22 +2,28 @@
 
 {{ .Content }}
 
-<h4>Data available from research groups in Sweden</h4>
+<h4>{{ if eq $.Site.Language.LanguageName "Svenska" }}
+  Data tillgängliga från svenska forskargrupper
+  {{ else }}
+  Data available from research groups in Sweden
+  {{ end }}</h4>
 
 {{/*
-  Select and sort entries to be included depending on what kind of page we are on
+  Select and sort entries to be included depending on what page we are on
 */}}
 
 {{ $sel_entries := slice }}
-{{ if eq (len .Sections) 0 }}
-  {{ $sel_entries = .Pages}}
-{{ else }}
-{{ range .Sections }}
-  {{ $sel_entries = $sel_entries | append .Pages }}
-  {{ $sel_entries = ($sel_entries.ByParam "published").Reverse }}
+{{ $entries_path := strings.TrimPrefix "/sv" (strings.TrimRight "/" (string .URL)) }}
+{{ with .Sites.First.GetPage $entries_path }}
+  {{ if eq .Params.menu.main.parent "other_data" }}
+    {{ range .Sections}}
+    {{ $sel_entries = $sel_entries | append .Pages}}
+    {{ $sel_entries = ($sel_entries.ByParam "published").Reverse }}
+    {{ end }}
+  {{ else }}
+    {{ $sel_entries = $sel_entries | append .Pages}}
+  {{ end }}
 {{ end }}
-{{ end }}
-
 {{ $paginator := .Paginate $sel_entries 10 }}
 
 {{/*
@@ -28,46 +34,62 @@
   Compose table title.
 */}}
 
-{{ $composed_title := slice "Page" }}
-{{ $composed_title = $composed_title | append ($paginator.PageNumber | string) }}
-{{ $composed_title = $composed_title | append "out of" }}
-{{ $composed_title = $composed_title | append ($paginator.TotalPages | string) }}
-{{ if and (eq (len .Sections) 0) (eq .Parent.Title "Other data types") }}
-{{ $composed_title = $composed_title | append "in Other data types > "}}
-{{ $composed_title = $composed_title | append .Title }}
+{{ $composed_title := slice}}
+{{ if eq $.Site.Language.LanguageName "Svenska" }}
+  {{ $composed_title = $composed_title | append "Sida" }}
+  {{ $composed_title = $composed_title | append ($paginator.PageNumber | string) }}
+  {{ $composed_title = $composed_title | append "av" }}
+  {{ $composed_title = $composed_title | append ($paginator.TotalPages | string) }}
+  {{ if and (eq (len .Sections) 0) (eq .Parent.Title "Andra datatyper") }}
+    {{ $composed_title = $composed_title | append "i Andra datatyper > "}}
+    {{ $composed_title = $composed_title | append .Title }}
+  {{ end }}
+{{ else }}
+  {{ $composed_title = $composed_title | append "Page" }}
+  {{ $composed_title = $composed_title | append ($paginator.PageNumber | string) }}
+  {{ $composed_title = $composed_title | append "out of" }}
+  {{ $composed_title = $composed_title | append ($paginator.TotalPages | string) }}
+  {{ if and (eq (len .Sections) 0) (eq .Parent.Title "Other data types") }}
+    {{ $composed_title = $composed_title | append "in Other data types > "}}
+    {{ $composed_title = $composed_title | append .Title }}
+  {{ end }}
 {{ end }}
-
 {{ $composed_title = delimit $composed_title " "}}
 
-<div class="alert alert-info small"><i class="fas fa-exclamation-triangle"></i> Note that the lists of available data from research groups in Sweden are curated manually and as such may not be exhaustive. If you would like to see your dataset here or correct information about your dataset, please get in touch with us.</div>
-
+<div class="alert alert-info small"><i class="fas fa-exclamation-triangle"></i>
+  {{ if eq $.Site.Language.LanguageName "Svenska" }}
+  Vänligen notera att listan över tillgängliga dataset från svenska forskargrupper uppdateras manuellt och därför inte är fullständig. Om du vill att ditt dataset skall synliggöras eller vill korrigera information om dina dataset, vänligen kontakta oss.
+  {{ else }}
+  Note that the lists of available data from research groups in Sweden are curated manually and as such may not be exhaustive. If you would like to see your dataset here or correct information about your dataset, please get in touch with us.
+  {{ end }}
+</div>
 
 <div class="container">
   <div class="row">
     <div class="col-md-2 pl-0 pr-2">
-      <h5>Data types</h5>
+      <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).dt_data_types }}</h5>
       <div class="col mb-2">
         {{ $current_page := .Title }}
-        {{ if and (eq (len .Sections) 0) (ne .Parent.Title "Other data types") }}
-      <div class="row">{{ .Title }}</div>
+        {{ if and (eq (len .Sections) 0) (and (ne .Parent.Title "Other data types") (ne .Parent.Title "Andra datatyper") ) }}
+          <div class="row">{{ .Title }}</div>
         {{ else }}
-        {{ with .Site.GetPage "/data_types/other/data" }}
-        {{ range .Sections }}
-        <div class="row">{{ if ne $current_page .Title }}<a href="{{.URL }}">{{ .Title }}</a>{{ else }}{{ .Title }}{{ end }}&nbsp;({{ len .Pages}})</div>
-        {{ end }}
-        {{ end }}
+          {{ with .Site.GetPage "/data_types/other/data" }}
+            {{ range .Sections }}
+            <div class="row">{{ if ne $current_page .Title }}<a href="{{.URL }}">{{ .Title }}</a>{{ else }}{{ .Title }}{{ end }}&nbsp;({{ with .Sites.First.GetPage (strings.TrimPrefix "/sv" (strings.TrimRight "/" (string .URL))) }}{{ len .Pages }}{{ end }})</div>
+            {{ end }}
+          {{ end }}
         {{ end }}
       </div>
     </div>
     <div class="col-md-10">
-    <div class="row"><h5>{{ $composed_title }} ({{ len $sel_entries }} entries in total)</h5></div>
+    <div class="row"><h5>{{ $composed_title }} ({{ len $sel_entries }} {{ (index $.Site.Params.lang_strings .Site.Language.Lang).dt_entries_in_total }})</h5></div>
     <div class="row"><div class="table-responsive-md">
 <table class="table table-hover table-bordered">
   <thead class="thead-light">
     <tr>
-      <th scope="col">Project</th>
-      <th scope="col">Last updated</th>
-      <th scope="col">Available data</th>
+      <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).dt_project }}</th>
+      <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).dt_last_updated }}</th>
+      <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).dt_available_data }}</th>
     </tr>
   </thead>
   <tbody>

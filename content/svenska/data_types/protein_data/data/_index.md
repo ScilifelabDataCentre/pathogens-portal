@@ -6,20 +6,24 @@ menu:
         identifier: protein_data_data
         parent: protein_data
         weight: 10
+    horizontal:
+        name: Proteindata
+        identifier: protein_data_data
+        weight: 20
+type: data_table
 ---
+###### Se även: [Riktlinjer för datapublicering - proteindata](../guidelines) | [Tillgängliga tjänster - proteindata](../services)
 
 ## Publicerad data
 
-#### Från svenska forskargrupper
+#### Generella datarelaterade resurser
 
 * [Human Protein Atlas (HPA)](https://www.proteinatlas.org)
   tillhandahåller öppen data för proteinuttrycksnivåer i mänskliga
   organ, vävnader och celler. Denna proteinresurs är organiserad i
   olika delar som fokuserar på uttryck i vävnader, subcellulära
   proteinuttrycksnivåer, protein i hjärnan eller i blodet, och protein
-  relaterade till patologi och metaboliska nätverk.
-
-* En särskild sida hos HPA dedikeras till [humana proteiner och
+  relaterade till patologi och metaboliska nätverk. En särskild sida hos HPA dedikeras till [humana proteiner och
   SARS-CoV-2](https://www.proteinatlas.org/humanproteome/sars-cov-2).
 
 * [Nonstructural protein 10 (nsp10) from SARS CoV-2 (PDB:6ZCT)](https://www.ebi.ac.uk/pdbe/entry/pdb/6zct)
@@ -28,7 +32,6 @@ menu:
   [European Spallation Source ERIC](https://europeanspallationsource.se/),
   Lund, Sweden.
 
-#### Övrig proteindata
+#### Data tillgängliga på den europeiska versionen av COVID-19 Data Portalen
 
-* [Proteinsekvenser i European COVID-19 Data Portal](https://www.covid19dataportal.org/sequences)
-* [Proteinstrukturer i European COVID-19 Data Portal](https://www.covid19dataportal.org/structures)
+* [Sekvensdata, funktionella data och klassificeringsdata för SARS-COV-2 och andra värd](https://www.covid19dataportal.org/proteins?db=uniprot-covid19)
