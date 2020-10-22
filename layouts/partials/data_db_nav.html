@@ -1,0 +1,15 @@
+{{ $current_page := .Title }}
+<div class="col-md-2 pl-0 pr-2">
+  <h5>Data types</h5>
+  <div class="col mb-2">
+  <div class="row">{{ if eq .Parent.Title "Home" }}All{{ else }}<a href="/data_db/">All</a>{{ end }}</div>
+  {{ with .Site.GetPage "/data_db" }}
+  {{ range .Sections }}
+  {{ if gt (len .RegularPages) 0 }}
+  <div class="row">{{ if ne $current_page .Title }}<a href="{{.URL }}">{{ .Title }}</a>{{ else }}{{ .Title }}{{ end }}&nbsp;({{ len .RegularPages}})</div>
+  {{ end }}
+  {{ end }}
+  {{ end }}
+  </div>
+
+</div>

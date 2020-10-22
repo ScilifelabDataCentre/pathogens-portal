@@ -6,20 +6,31 @@ menu:
         identifier: protein_data_data
         parent: protein_data
         weight: 10
+    horizontal:
+        name: Protein data
+        identifier: protein_data_data
+        weight: 20
+type: data_table
+_build:
+    list: true
+    render: true
+cascade:
+    _build:
+        list: true
+        render: false
 ---
+###### See also: [Guidelines for submitting protein data](../guidelines) | [Services: protein data](../services)
 
 ## Published Data
 
-#### From Swedish research groups
+#### General useful data sources
 
 * The [Human Protein Atlas (HPA)](https://www.proteinatlas.org)
   provides open access to protein expression data across human organs,
   tissues and cells. This protein resource is organized into focused
   sections for tissue expression, subcellular expression, proteins in
   the brain or in blood, proteins related to pathology and metabolic
-  pathways.
-
-* A special page of HPA has been dedicated to [human proteins and
+  pathways. A special page of HPA has been dedicated to [human proteins and
   SARS-CoV-2](https://www.proteinatlas.org/humanproteome/sars-cov-2).
 
 * [Nonstructural protein 10 (nsp10) from SARS CoV-2 (PDB:6ZCT)](https://www.ebi.ac.uk/pdbe/entry/pdb/6zct)
@@ -28,7 +39,6 @@ menu:
   [European Spallation Source ERIC](https://europeanspallationsource.se/),
   Lund, Sweden.
 
-#### Other published data
+#### Data available on the European COVID-19 Data Portal
 
-* [Protein sequences at European COVID-19 Data Portal](https://www.covid19dataportal.org/proteins)
-* [Protein structures at European COVID-19 Data Portal](https://www.covid19dataportal.org/structures)
+* [Sequence, functional and classification data on SARS-CoV-2 and host proteins](https://www.covid19dataportal.org/proteins?db=uniprot-covid19)

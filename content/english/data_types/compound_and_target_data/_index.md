@@ -1,5 +1,5 @@
 ---
-title: Compound and target data
+title: Biochemistry
 menu:
     main:
         identifier: compound_and_target_data
