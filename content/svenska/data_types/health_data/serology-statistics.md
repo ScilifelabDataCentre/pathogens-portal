@@ -42,7 +42,6 @@ Antalet SARS-CoV-2 antikroppstester analyserade per vecka vid SciLifeLab Autoimm
 
 Det totala antalet SARS-CoV-2 antikroppstester analyserade på SciLifeLab Autoimmunity and Serology profiling facility sedan start, uppdelade i positivt IgG-testresultat, negativt IgG-testresultat, och R&D-tester (research and development).
 
-
 <div class="d-lg-none alert alert-info">
   Scroll the plot sideways to view all data.
 </div>
