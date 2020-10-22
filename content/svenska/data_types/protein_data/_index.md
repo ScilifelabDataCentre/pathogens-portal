@@ -6,10 +6,6 @@ menu:
         parent: data_types
         weight: 20
         pre: <i class="fas fa-shapes"></i>
-    horizontal:
-        name: Proteindata
-        identifier: protein_data_data
-        weight: 20
 ---
 
 Proteindata inkluderar proteinsekvenser eller familjer, proteomikdata, proteinstrukturer och täthetskartor från elektronmikroskopi.
