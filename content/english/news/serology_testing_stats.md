@@ -6,7 +6,6 @@ summary: We are launching a page with statistics on the SARS-CoV-2 antibody test
 banner: /news/banners/serology_testing_statistics.png
 banner_caption: Weekly serology test numbers.
 ---
-
 The Swedish national COVID-19 portal is launching a page with graphs depicting statistics on the SARS-CoV-2 antibody tests carried out at the [SciLifeLab Autoimmunity and Serology profiling facility](https://www.scilifelab.se/facilities/autoimmunity-profiling/). At this point, the total number of tests carried out each week can be viewed. The dataset behind the graphs will be updated manually. The page [can be viewed here](/data_types/health_data/serology-statistics/).
 
 The test used at the SciLifeLab Autoimmunity and Serology profiling facility is a result of work that was initiated and coordinated by three [KTH](https://www.kth.se) professors: Peter Nilsson, Sophia Hober and My Hedhammar. Their research groups developed a serological assay for large scale testing of plasma and serum samples for antibodies to SARS-CoV-2 already during early phases of the COVID-19 pandemic. By comparing and combining large number of variants of SARS-CoV-2 proteins as antigens, a highly sensitive and specific multiplex bead-based assay was established and applied in high throughput with up to 8000 samples analysed per week. The development of the assay has been funded by Knut and Alice Wallenberg Foundation, Erling-Persson Family Foundation, KTH, SciLifeLab, Region Stockholm, Atlas Copco, Family Christian and Jennifer Dahlberg.
