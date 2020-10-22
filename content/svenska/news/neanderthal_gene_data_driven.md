@@ -1,6 +1,6 @@
 ---
-title: Neandertalgenom kopplas till ökad risk för svår COVID-19 infektion i studie med datadriven forskningsmetod # short
-title_full: Neandertalgenom kopplas till ökad risk för svår COVID-19 infektion i studie med datadriven forskningsmetod # long
+title: Neandertalgenom kopplas till ökad risk för svår COVID-19 infektion i studie som använder datadriven forskningsmetod # short
+title_full: Neandertalgenom kopplas till ökad risk för svår COVID-19 infektion i studie som använder  datadriven forskningsmetod # long
 date: 2020-10-02
 summary:  Studie av Hugo Zeberg and Svante Pääbo som är helt baserad på öppen data publiceras med fri tillgång i Nature.
 banner: /news/banners/neanderthal_gene_data_driven.jpg
