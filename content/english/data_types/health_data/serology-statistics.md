@@ -7,7 +7,7 @@ menu:
         parent: health_data
         weight: 10
 ---
-<div class="alert alert-info">Graphs on this page are based on data as per October 14, 2020.</div>
+<div class="alert alert-info">Graphs on this page are based on data as per October 21, 2020.</div>
 
 #### Total serology test numbers
 
