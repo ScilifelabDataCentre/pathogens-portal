@@ -12,7 +12,7 @@ menu:
 
 #### Totala antalet tester
 
-Det totala antalet SARS-CoV-2 antikroppstester analyserade vid SciLifeLab Autoimmunity and Serology profiling facility uppdelade på de med positivt, negativt eller "övrigt" resultat.
+Det totala antalet SARS-CoV-2 antikroppstester analyserade vid SciLifeLab Autoimmunity and Serology profiling facility, uppdelade i positivt IgG-testresultat, negativt IgG-testresultat, och R&D-tester (research and development).
 
 <div class="d-lg-none alert alert-info">
   Scroll the plot sideways to view all data.
@@ -22,11 +22,11 @@ Det totala antalet SARS-CoV-2 antikroppstester analyserade vid SciLifeLab Autoim
   <div id="total-number"></div>
 </div>
 
-<div class="small text-muted">*Kategorin som benämns som "Övrigt" inkluderar alla återstående serum-, plasma- och salivprover där nivåer av IgG-, IgM- eller IgA-antikroppar riktade mot SARS-CoV-2-proteiner mätts. Kategorin innehåller alla positiva och negativa kontrollprover, alla replikat och omkörningar av prover och analyser, alla prover som analyserats som en del av utveckling och optimering, tekniskt misslyckade prover och prover inom forskningsassocierade projekt.</div>
+<div class="small text-muted">*Kategorin som benämns som "R&D" (research and development) inkluderar alla återstående serum-, plasma- och salivprover där nivåer av IgG-, IgM- eller IgA-antikroppar riktade mot SARS-CoV-2-proteiner mätts. Kategorin innehåller alla positiva och negativa kontrollprover, alla replikat och omkörningar av prover och analyser, alla prover som analyserats som en del av utveckling och optimering, tekniskt misslyckade prover och prover inom forskningsassocierade projekt.</div>
 
 #### Veckovis antal tester
 
-Antalet SARS-CoV-2 antikroppstester analyserade per vecka vid SciLifeLab Autoimmunity and Serology profiling facility uppdelade på de med positivt, negativt eller "övrigt" resultat.
+Antalet SARS-CoV-2 antikroppstester analyserade per vecka vid SciLifeLab Autoimmunity and Serology profiling facility, uppdelade i positivt IgG-testresultat, negativt IgG-testresultat, och R&D-tester (research and development).
 
 <div class="d-lg-none alert alert-info">
   Scroll the plot sideways to view all data.
@@ -36,11 +36,12 @@ Antalet SARS-CoV-2 antikroppstester analyserade per vecka vid SciLifeLab Autoimm
   <div id="bar-chart"></div>
 </div>
 
-<div class="small text-muted">*Kategorin som benämns som "Övrigt" inkluderar alla återstående serum-, plasma- och salivprover där nivåer av IgG-, IgM- eller IgA-antikroppar riktade mot SARS-CoV-2-proteiner mätts. Kategorin innehåller alla positiva och negativa kontrollprover, alla replikat och omkörningar av prover och analyser, alla prover som analyserats som en del av utveckling och optimering, tekniskt misslyckade prover och prover inom forskningsassocierade projekt.</div>
+<div class="small text-muted">*Kategorin som benämns som "R&D" (research and development) inkluderar alla återstående serum-, plasma- och salivprover där nivåer av IgG-, IgM- eller IgA-antikroppar riktade mot SARS-CoV-2-proteiner mätts. Kategorin innehåller alla positiva och negativa kontrollprover, alla replikat och omkörningar av prover och analyser, alla prover som analyserats som en del av utveckling och optimering, tekniskt misslyckade prover och prover inom forskningsassocierade projekt.</div>
 
 #### Kumulativt antal tester
 
-Summan av alla SARS-CoV-2 antikroppstester analyserade vid SciLifeLab Autoimmunity and Serology profiling facility sedan start uppdelade på de med positivt, negativt eller "övrigt" resultat.
+Det totala antalet SARS-CoV-2 antikroppstester analyserade på SciLifeLab Autoimmunity and Serology profiling facility sedan start, uppdelade i positivt IgG-testresultat, negativt IgG-testresultat, och R&D-tester (research and development).
+
 
 <div class="d-lg-none alert alert-info">
   Scroll the plot sideways to view all data.
@@ -50,7 +51,7 @@ Summan av alla SARS-CoV-2 antikroppstester analyserade vid SciLifeLab Autoimmuni
   <div id="cumulative-plot"></div>
 </div>
 
-<div class="small text-muted">*Kategorin som benämns som "Övrigt" inkluderar alla återstående serum-, plasma- och salivprover där nivåer av IgG-, IgM- eller IgA-antikroppar riktade mot SARS-CoV-2-proteiner mätts. Kategorin innehåller alla positiva och negativa kontrollprover, alla replikat och omkörningar av prover och analyser, alla prover som analyserats som en del av utveckling och optimering, tekniskt misslyckade prover och prover inom forskningsassocierade projekt.</div>
+<div class="small text-muted">*Kategorin som benämns som "R&D" (research and development) inkluderar alla återstående serum-, plasma- och salivprover där nivåer av IgG-, IgM- eller IgA-antikroppar riktade mot SARS-CoV-2-proteiner mätts. Kategorin innehåller alla positiva och negativa kontrollprover, alla replikat och omkörningar av prover och analyser, alla prover som analyserats som en del av utveckling och optimering, tekniskt misslyckade prover och prover inom forskningsassocierade projekt.</div>
 
 #### Om tester vid SciLifeLab Autoimmunity and Serology profiling facility
 

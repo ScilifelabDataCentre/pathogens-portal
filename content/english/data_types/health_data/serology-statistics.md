@@ -11,7 +11,7 @@ menu:
 
 #### Total serology test numbers
 
-The total number of tests run at SciLifeLab Autoimmunity and Serology profiling facility since the start, split up into positive, negative and "other" results.
+The total number of tests run at SciLifeLab Autoimmunity and Serology profiling facility since the start, split into tests with a positive IgG-result, tests with a negative IgG-result, and R&D tests.
 
 <div class="d-lg-none alert alert-info">
   Scroll the plot sideways to view all data.
@@ -21,11 +21,11 @@ The total number of tests run at SciLifeLab Autoimmunity and Serology profiling 
   <div id="total-number"></div>
 </div>
 
-<div class="small text-muted">*The category here denoted as "Other" includes all remaining serum, plasma and saliva samples where we have measured the levels of IgG, IgM or IgA antibodies targeting SARS-CoV-2 proteins. It includes all positive and negative controls, all replicated and rerun of samples and assays, all samples analysed during the continuous development and optimization, technically failed samples and all research associated projects.</div>
+<div class="small text-muted">*The category here denoted as "R&D" (research and development) includes all remaining serum, plasma and saliva samples where we have measured the levels of IgG, IgM or IgA antibodies targeting SARS-CoV-2 proteins. It includes all positive and negative controls, all replicated and rerun of samples and assays, all samples analysed during the continuous development and optimization, technically failed samples and all research associated projects.</div>
 
 #### Weekly serology test numbers
 
-The number of tests run at SciLifeLab Autoimmunity and Serology profiling facility weekly, split up into positive, negative and "other" results.
+The number of tests run at SciLifeLab Autoimmunity and Serology profiling facility weekly, split into tests with a positive IgG-result, tests with a negative IgG-result, and R&D tests.
 
 <div class="d-lg-none alert alert-info">
   Scroll the plot sideways to view all data.
@@ -35,11 +35,11 @@ The number of tests run at SciLifeLab Autoimmunity and Serology profiling facili
   <div id="bar-chart"></div>
 </div>
 
-<div class="small text-muted">*The category here denoted as "Other" includes all remaining serum, plasma and saliva samples where we have measured the levels of IgG, IgM or IgA antibodies targeting SARS-CoV-2 proteins. It includes all positive and negative controls, all replicated and rerun of samples and assays, all samples analysed during the continuous development and optimization, technically failed samples and all research associated projects.</div>
+<div class="small text-muted">*The category here denoted as "R&D" (research and development) includes all remaining serum, plasma and saliva samples where we have measured the levels of IgG, IgM or IgA antibodies targeting SARS-CoV-2 proteins. It includes all positive and negative controls, all replicated and rerun of samples and assays, all samples analysed during the continuous development and optimization, technically failed samples and all research associated projects.</div>
 
 #### Cumulative serology test numbers
 
-The sum of all tests run at SciLifeLab Autoimmunity and Serology profiling facility since the start, split up into positive, negative and "other" results.
+The sum of all tests run at SciLifeLab Autoimmunity and Serology profiling facility since the start, split into tests with a positive IgG-result, tests with a negative IgG-result, and R&D tests.
 
 <div class="d-lg-none alert alert-info">
   Scroll the plot sideways to view all data.
@@ -49,7 +49,7 @@ The sum of all tests run at SciLifeLab Autoimmunity and Serology profiling facil
   <div id="cumulative-plot"></div>
 </div>
 
-<div class="small text-muted">*The category here denoted as "Other" includes all remaining serum, plasma and saliva samples where we have measured the levels of IgG, IgM or IgA antibodies targeting SARS-CoV-2 proteins. It includes all positive and negative controls, all replicated and rerun of samples and assays, all samples analysed during the continuous development and optimization, technically failed samples and all research associated projects.</div>
+<div class="small text-muted">*The category here denoted as "R&D" (research and development) includes all remaining serum, plasma and saliva samples where we have measured the levels of IgG, IgM or IgA antibodies targeting SARS-CoV-2 proteins. It includes all positive and negative controls, all replicated and rerun of samples and assays, all samples analysed during the continuous development and optimization, technically failed samples and all research associated projects.</div>
 
 #### About serology testing at the Autoimmunity and Serology Profiling facility
 
