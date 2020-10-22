@@ -73,7 +73,7 @@
         {{ if and (eq (len .Sections) 0) (and (ne .Parent.Title "Other data types") (ne .Parent.Title "Andra datatyper") ) }}
           <div class="row">{{ .Title }}</div>
         {{ else }}
-          {{ with .Site.GetPage "/data_types/other/data" }}
+          {{ with .Site.GetPage "/data_types/other_data/data" }}
             {{ range .Sections }}
             <div class="row">{{ if ne $current_page .Title }}<a href="{{.URL }}">{{ .Title }}</a>{{ else }}{{ .Title }}{{ end }}&nbsp;({{ with .Sites.First.GetPage (strings.TrimPrefix "/sv" (strings.TrimRight "/" (string .URL))) }}{{ len .Pages }}{{ end }})</div>
             {{ end }}
