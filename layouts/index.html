@@ -18,9 +18,9 @@
     {{ end }}
     {{ $news_high := where .Site.RegularPages "Section" "news" }}
     {{ if eq $.Site.Language.LanguageName "Svenska" }}
-    {{ $display_alert := "false" }}
-    {{ range first 3 $news_high }}{{ if .Params.needs_translation }} {{$display_alert := "true" }} {{ end }} {{ end }}
-    {{ if $display_alert}}<div class="alert alert-info">
+    {{ $display_alert := false }}
+    {{ range first 3 $news_high }} {{ if .Params.needs_translation }} {{ $display_alert = true }} {{ end }} {{ end }}
+    {{ if $display_alert }}<div class="alert alert-info">
       <i class="fas fa-exclamation-triangle"></i>
       <span class="small">Svensk översättning för de engelska texterna kommer inom kort.</span>
     </div> {{ end }}
