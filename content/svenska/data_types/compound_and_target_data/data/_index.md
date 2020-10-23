@@ -15,7 +15,7 @@ type: data_table
 
 ###### Se även: [Riktlinjer för datapublicering - kemisk biologi](../guidelines) | [Tillgängliga tjänster - kemisk biologi](../services)
 
-På data portalen har begreppet ”Kemisk biologi” en bred betydelse och inkluderar exempelvis cell- och plasma profilering som mäter koncentrationen av biomarkörer i plasma.
+På dataportalen har begreppet ”Kemisk biologi” en bred betydelse och inkluderar exempelvis cell- och plasma profilering som mäter koncentrationen av biomarkörer i plasma.
 
 ## Publicerad data
 

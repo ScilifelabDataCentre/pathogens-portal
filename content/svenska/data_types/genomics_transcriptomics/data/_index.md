@@ -18,7 +18,7 @@ type: data_table
 
 #### Data tillgängliga på den europeiska versionen av COVID-19 Data Portalen
 
-Publicerade rådata och sammansatta sekvensdata som härrör ifrån COVID-19-utbrottet av, inkluderande isolat och information som relateras till coronavirusens biologi.
+Publicerade rådata och sammansatta sekvensdata som härrör ifrån COVID-19-utbrottet, inkluderande isolat och information som relateras till coronavirusens biologi.
 
 * [Rådata och sammansatta sekvensdata från SARS-CoV-2 och andra coronavirus](https://www.covid19dataportal.org/sequences?db=embl) (>25,000 inlagda poster i oktober 2020)
 * [Rådata och sammanlagda sekvenser och analyser human och andra värdar](https://www.covid19dataportal.org/host-sequences?db=hostSequences) (>900 inlagda poster i oktober 2020)
