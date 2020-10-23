@@ -1,5 +1,5 @@
 ---
-title: Publicerad avbildningsdata
+title: Publicerad bilddata
 menu:
     main:
         name: Publicerad data

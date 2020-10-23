@@ -34,4 +34,4 @@ type: data_table
 
 #### Data tillgängliga på den europeiska versionen av COVID-19 Data Portalen
 
-* [Sekvensdata, funktionella data och klassificeringsdata för SARS-COV-2 och andra värd](https://www.covid19dataportal.org/proteins?db=uniprot-covid19)
+* [Sekvensdata, funktionella data och klassificeringsdata för SARS-CoV-2 och andra värdprotein](https://www.covid19dataportal.org/proteins?db=uniprot-covid19)
