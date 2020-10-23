@@ -6,10 +6,6 @@ menu:
         parent: data_types
         weight: 50
         pre: <i class="fas fa-ambulance"></i>
-    horizontal:
-        name: Sjukvårdsdata
-        identifier: health_data
-        weight: 50
 ---
 
 ##### [Svenska Intensivvårdsregistret](https://www.icuregswe.org/data--resultat/covid-19-i-svensk-intensivvard/)
