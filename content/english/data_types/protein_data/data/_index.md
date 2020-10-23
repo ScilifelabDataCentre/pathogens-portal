@@ -33,12 +33,6 @@ cascade:
   pathways. A special page of HPA has been dedicated to [human proteins and
   SARS-CoV-2](https://www.proteinatlas.org/humanproteome/sars-cov-2).
 
-* [Nonstructural protein 10 (nsp10) from SARS CoV-2 (PDB:6ZCT)](https://www.ebi.ac.uk/pdbe/entry/pdb/6zct)
-  3D structure by x-ray diffraction.  
-  Z.S. Fisher &amp; F. Kozielski,
-  [European Spallation Source ERIC](https://europeanspallationsource.se/),
-  Lund, Sweden.
-
 #### Data available on the European COVID-19 Data Portal
 
 * [Sequence, functional and classification data on SARS-CoV-2 and host proteins](https://www.covid19dataportal.org/proteins?db=uniprot-covid19)
