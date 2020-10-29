@@ -1,0 +1,25 @@
+{{ $fndr := .Get "funder" }}
+<div class="table-responsive-md"><table id="{{ $fndr }}" class="table table-hover table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">Project title</th>
+      {{ if eq $fndr "kaw" }}<th scope="col">Area</th>{{ end }}
+      <th scope="col">Principal investigator</th>
+      <th scope="col">PI affiliation</th>
+      <th scope="col">Duration</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range $.Site.Data.funded_projects }}
+    {{ if eq .funder $fndr }}
+    <tr>
+      <td>{{ .project_title_eng }}</td>
+      {{ if eq $fndr "kaw" }}<td>{{ .area_eng }}</td>{{ end }}
+      <td>{{ .pi }}</td>
+      <td>{{ .pi_affiliation }}</td>
+      <td>{{ .start }} - {{ .end }}</td>
+    </tr>
+    {{ end }}
+    {{ end }}
+  </tbody>
+</table></div>
