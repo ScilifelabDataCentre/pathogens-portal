@@ -11,13 +11,8 @@ menu:
         identifier: health_data_data
         weight: 50
 type: data_table
-_build:
-    list: true
-    render: true
-cascade:
-    _build:
-        list: true
-        render: false  
+datatypes_to_display:
+- "Data type: Health data"
 ---
 
 ## Published Data

@@ -23,5 +23,10 @@ menu:
     * [Published data](compound_and_target_data/data/)
     * [Guidelines for data producers](compound_and_target_data/guidelines/)
     * [Services for researchers](compound_and_target_data/services/)
-* [Health data](health_data/)
+* [Health data](health_data/)    
+    * [Published data](health_data/data/)
     * [National health metadata repository - RUT](health_data/rut/)
+    * [National Pandemic Centre COVID-19 test statistics](health_data/npc-statistics)
+    * [SciLifeLab Autoimmunity and Serology profiling facility SARS-CoV-2 antibody test statistics](health_data/serology-statistics)
+* Other data types   
+    * [Published data](other_data/data/)
