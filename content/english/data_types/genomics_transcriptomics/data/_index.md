@@ -11,13 +11,8 @@ menu:
         identifier: genomics_transcriptomics_data
         weight: 10
 type: data_table
-_build:
-    list: true
-    render: true
-cascade:
-    _build:
-        list: true
-        render: false  
+datatypes_to_display:
+- "Data type: Genomics & transcriptomics"
 ---
 
 ###### See also: [Guidelines for submitting genomics & transcriptomics data](../guidelines) | [Services: genomics & transcriptomics](../services)

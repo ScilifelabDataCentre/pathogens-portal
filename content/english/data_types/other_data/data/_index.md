@@ -11,6 +11,9 @@ menu:
         identifier: other_data_data
         weight: 80
 type: data_table
+datatypes_to_display:
+- "Data type: Other data types > Other"
+- "Data type: Other data types > Serology data"
 ---
 
 ## Published Data
