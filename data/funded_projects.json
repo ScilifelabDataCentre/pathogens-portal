@@ -1,0 +1,972 @@
+[
+ {
+   "funder": "kaw",
+   "project_title_eng": "Uppsala COVID-19 ICU Biobank",
+   "area_eng": "Biobanks",
+   "pi": "Michael Hultström",
+   "pi_affiliation": "Uppsala University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Building Capacity - the Sahlgrenska Covid-19 Biobank",
+   "area_eng": "Biobanks",
+   "pi": "Magnus Gisslén",
+   "pi_affiliation": "University of Gothenburg",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "COVID-UMU: Sample collection and understanding the transition from mild to severe COVID-19",
+   "area_eng": "Biobanks",
+   "pi": "Clas Ahlm",
+   "pi_affiliation": "Umeå University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Assessment of SARS-CoV-2 specific antibodies in adults, and building a repository of samples from seroconverted asymptomatic adults",
+   "area_eng": "Biobanks",
+   "pi": "Åsa Torinsson Naluai",
+   "pi_affiliation": "University of Gothenburg",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "The spread of SARS-CoV-2 monitored by the serum samples routinely obtained through maternal screening and blood donor screening",
+   "area_eng": "Biobanks",
+   "pi": "Martin Sundqvist",
+   "pi_affiliation": "Örebro University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "The COMMUNITY Study- COVID-19 Biomarker and Immunity Study",
+   "area_eng": "Biobanks",
+   "pi": "Charlotte Thålin",
+   "pi_affiliation": "Karolinska Institutet / Danderyd Hospital",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Establishing a biobank of clinical specimens for studying evolution of viral diversity and development of immune response, including inflammation, seroprevalence and protective antibodies, in SARS-Cov2 infection (Biobank)",
+   "area_eng": "Biobanks",
+   "pi": "Patrik Medstrand",
+   "pi_affiliation": "Lund University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "A biomarker-based approach to rapidly identify COVID-19 patients at high risk of severe disease and mortality at 3 emergency departments in Region Skåne",
+   "area_eng": "Biobanks",
+   "pi": "Toralph Ruge",
+   "pi_affiliation": "Lund University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Simple and cheap remote test for infection based on HCR",
+   "area_eng": "Diagnostics for virus",
+   "pi": "Björn Högberg",
+   "pi_affiliation": "Karolinska Institutet",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "COVID-19 screening test design",
+   "area_eng": "Diagnostics for virus",
+   "pi": "Masood Kamali-Moghaddam",
+   "pi_affiliation": "Uppsala University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "iLACO-Sweden",
+   "area_eng": "Diagnostics for virus",
+   "pi": "Vicent Pelechano",
+   "pi_affiliation": "Karolinska Institutet",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Extraction-free high-sensitive RT assay for SARS-CoV-2 RNA detection",
+   "area_eng": "Diagnostics for virus",
+   "pi": "Björn Reinius",
+   "pi_affiliation": "Karolinska Institutet",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "RCA-COVID-DIA",
+   "area_eng": "Diagnostics for virus",
+   "pi": "Mats Nilsson",
+   "pi_affiliation": "Stockholm University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "COVseq – Developing COVseq for mass-scale SARS-CoV-2 sequencing",
+   "area_eng": "Viral sequence evolution",
+   "pi": "Nicola Crosetto",
+   "pi_affiliation": "Karolinska Institutet",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "A community resource for SARS-CoV-2 structure, interactome and evolution",
+   "area_eng": "Viral sequence evolution",
+   "pi": "Arne Elofsson",
+   "pi_affiliation": "Stockholm University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Rapid cDNA and direct RNA sequencing of SARS-CoV-2 using Oxford Nanopore",
+   "area_eng": "Viral sequence evolution",
+   "pi": "Lars Feuk",
+   "pi_affiliation": "Uppsala University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Analysis of essential genes and validity as drug targets",
+   "area_eng": "Viral sequence evolution",
+   "pi": "Tomas Nyman",
+   "pi_affiliation": "Stockholm University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Optimized expression of the SARS-Cov-2 Spike protein in mammalian cells for serology testing and functional studies",
+   "area_eng": "High-throughput and high-contents serology",
+   "pi": "Fredrik Sterky",
+   "pi_affiliation": "University of Gothenburg",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Production of SARS-CoV-2 surface proteins in HEK293 cells*",
+   "area_eng": "High-throughput and high-contents serology",
+   "pi": "Juni Andréll",
+   "pi_affiliation": "Stockholm University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Biological investigations of Covid-19 in cancer patients",
+   "area_eng": "High-throughput and high-contents serology",
+   "pi": "Gunilla Enblad",
+   "pi_affiliation": "Uppsala University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Peptides for serological test of COVID-19 antibodies and as molecular tools",
+   "area_eng": "High-throughput and high-contents serology",
+   "pi": "Ulf Göransson",
+   "pi_affiliation": "Uppsala University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Seroprevalence and predictors of COVID-19 disease severity in two areas of Sweden",
+   "area_eng": "High-throughput and high-contents serology",
+   "pi": "Anne Lindberg",
+   "pi_affiliation": "Umeå University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Large-scale production of a bio-safe antigen of COVID-19 and chimeric bat coronaviruses",
+   "area_eng": "High-throughput and high-contents serology",
+   "pi": "Kenta Okamoto",
+   "pi_affiliation": "Uppsala University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Translational serology for a population-wide assessment of Covid19 immunity",
+   "area_eng": "High-throughput and high-contents serology",
+   "pi": "Jochen Schwenk",
+   "pi_affiliation": "KTH",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Multiplex analysis of immune response against Covid-19",
+   "area_eng": "High-throughput and high-contents serology",
+   "pi": "Sofia Hober",
+   "pi_affiliation": "KTH",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Rapid development of novel antibody assays diagnosing Covid-19",
+   "area_eng": "High-throughput and high-contents serology",
+   "pi": "Jan-Åke Liljeqvist",
+   "pi_affiliation": "University of Gothenburg",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Human antibodies against the SARS-CoV-2 spike protein",
+   "area_eng": "High-throughput and high-contents serology",
+   "pi": "Mats Ohlin",
+   "pi_affiliation": "Lund University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Characterization of the B cell response during SARS-CoV-2 infection",
+   "area_eng": "High-throughput and high-contents serology",
+   "pi": "Karin Loré",
+   "pi_affiliation": "Karolinska Institutet",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "PLA-based large-scale analysis of Corona virus immunity",
+   "area_eng": "High-throughput and high-contents serology",
+   "pi": "Ulf Landegren",
+   "pi_affiliation": "Uppsala University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Neutralizing human B-cell derived monoclonal antibodies to SARS-CoV-2",
+   "area_eng": "High-throughput and high-contents serology",
+   "pi": "Pontus Nordenfelt",
+   "pi_affiliation": "Lund University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "SICoV – Serological Investigations on SARS-CoV-2 and other coronaviruses – improveddiagnostics and knowledge ",
+   "area_eng": "High-throughput and high-contents serology",
+   "pi": "Åke Lundkvist",
+   "pi_affiliation": "Uppsala University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Covid-19 patients",
+   "area_eng": "Biomarkers and systems biology",
+   "pi": "Jacob Odeberg",
+   "pi_affiliation": "KTH",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Prediction of severe disease in Covid-19",
+   "area_eng": "Biomarkers and systems biology",
+   "pi": "Lars-Magnus Andersson",
+   "pi_affiliation": "University of Gothenburg",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Taking back the control of the SARS-CoV2 antiviral immune response as a mean to neutralize the COVID19 disease pathogenicity",
+   "area_eng": "Biomarkers and systems biology",
+   "pi": "Marie Larsson",
+   "pi_affiliation": "Linköping University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Taking back the control of the SARS-CoV2 antiviral immune response as a mean to neutralize the COVID19 disease pathogenicity",
+   "area_eng": "Biomarkers and systems biology",
+   "pi": "Petter Brodinet",
+   "pi_affiliation": "Karolinska Institutet",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Establishing a biobank of clinical specimens for studying evolution of viral diversity and development of immune response, including inflammation, seroprevalence and protective antibodies, in SARS-Cov2 infection (Research project)",
+   "area_eng": "Biomarkers and systems biology",
+   "pi": "Patrik Medstrand",
+   "pi_affiliation": "Lund University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Dynamics and longevity of the specific adaptive immune response in COVID-19 patient",
+   "area_eng": "Biomarkers and systems biology",
+   "pi": "Davide Angeletti",
+   "pi_affiliation": "University of Gothenburg",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Immediate molecular response to SARS-CoV-2 infection",
+   "area_eng": "Host cell systems biology and targets",
+   "pi": "Jonas Klingström",
+   "pi_affiliation": "Karolinska Institutet",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Mapping SARS-CoV-2 host-pathogen interactions for drug repurposing",
+   "area_eng": "Host cell systems biology and targets",
+   "pi": "Ylva Ivarsson",
+   "pi_affiliation": "Uppsala University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Viral-host interaction of SARS-CoV-2 protein corona",
+   "area_eng": "Host cell systems biology and targets",
+   "pi": "Maria Pernemalmet",
+   "pi_affiliation": "Karolinska Institutet",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Profiling of host proteins associated to the envelope of SARS-CoV-2",
+   "area_eng": "Host cell systems biology and targets",
+   "pi": "Claudia Fredolini",
+   "pi_affiliation": "KTH",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Genetic screens to identify novel determinants of SARS-CoV-2 infection",
+   "area_eng": "Host cell systems biology and targets",
+   "pi": "Oscar Fernandez-Capetillo",
+   "pi_affiliation": "Karolinska Institutet",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Cellular thermal shift assay (CETSA) to identify host factors involved in SARS-CoV-2 entry and replication",
+   "area_eng": "Host cell systems biology and targets",
+   "pi": "Leo Hankeet",
+   "pi_affiliation": "Karolinska Institutet",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Identification of host factors targeted by coronaviruses by Thermal proteome profiling",
+   "area_eng": "Host cell systems biology and targets",
+   "pi": "Oscar Fernandez-Capetilloet",
+   "pi_affiliation": "Karolinska Institutet",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Creating synthetic biology tools to reveal the determinants of SARS-CoV-2 interactions with host cells",
+   "area_eng": "Host cell systems biology and targets",
+   "pi": "Erdinc Sezginet",
+   "pi_affiliation": "Karolinska Institutet",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Human precision cut lung slices as an ex vivo model for studying SARS-CoV2 infection and identifying potential therapies",
+   "area_eng": "Host cell systems biology and targets",
+   "pi": "Darcy Wagner",
+   "pi_affiliation": "Lund University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Identifying the Achilles heel of SARS-CoV-2 by using gene scissors",
+   "area_eng": "Host cell systems biology and targets",
+   "pi": "Claudia Kutter",
+   "pi_affiliation": "KTH",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "NEVERMORE COVID – Establishing a drug discovery platform for corona virus disease",
+   "area_eng": "Drug discovery and repurposing of drugs",
+   "pi": "Kristian Sandberg",
+   "pi_affiliation": "Uppsala University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "A high-quality drug repurposing set",
+   "area_eng": "Drug discovery and repurposing of drugs",
+   "pi": "Anna-Lena Gustavssonet",
+   "pi_affiliation": "Karolinska Institutet",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Multi-level profiling of Coronavirus-infected cells by combining Viral Entry Assays, Cell Painting, and DrugSEQ",
+   "area_eng": "Drug discovery and repurposing of drugs",
+   "pi": "Ola Spjuth",
+   "pi_affiliation": "Uppsala University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Spatial single cell mapping of SARS-CoV-2 interacting host proteins for quick and targeted drug repurposing",
+   "area_eng": "Drug discovery and repurposing of drugs",
+   "pi": "Charlotte Stadler",
+   "pi_affiliation": "KTH",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "FragCor – Fragment based NMR screen targeting SARS-Cov-2 proteins",
+   "area_eng": "Drug discovery and repurposing of drugs",
+   "pi": "Göran Karlsson",
+   "pi_affiliation": "University of Gothenburg",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "An adaptable therapeutic technology platform to treat SARS-CoV infections in immune suppressed individuals",
+   "area_eng": "Drug discovery and repurposing of drugs",
+   "pi": "Sara Mangsbo",
+   "pi_affiliation": "Uppsala University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Rapid testing for treatment of Covid-19",
+   "area_eng": "Drug discovery and repurposing of drugs",
+   "pi": "Kristina Nyström, Sahlgrenska University Hospital",
+   "pi_affiliation": "Sahlgrenska University Hospital",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Discovery of SARS-CoV-2 Inhibitors by Virtual Screening of Ultra-large Chemical Space",
+   "area_eng": "Drug discovery and repurposing of drugs",
+   "pi": "Jens Carlsson",
+   "pi_affiliation": "Uppsala University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Chemographic characterization of compounds binding to seven identified molecular targets from SARS-CoV-2",
+   "area_eng": "Drug discovery and repurposing of drugs",
+   "pi": "Anders Backlund",
+   "pi_affiliation": "Uppsala University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Distributed computing to generate the druggable conformational ensemble of sars-cov-2 proteins",
+   "area_eng": "Drug discovery and repurposing of drugs",
+   "pi": "Lucie Delemotte",
+   "pi_affiliation": "KTH",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "ARS-CoV-2 in sewage water as a tool for monitoring the potential circulation of the viruses in the population and rate of infections (SARS-CoV-2)",
+   "area_eng": "Environmental virus profiling",
+   "pi": "Zeynep Cetecioglu Gurol",
+   "pi_affiliation": "KTH",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Sewage as a proxy for SARS-CoV2 prevalence",
+   "area_eng": "Environmental virus profiling",
+   "pi": "Maja Malmberg",
+   "pi_affiliation": "SLU",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Detection, monitoring and genetic evaluation of SARS-CoV2 in wastewater treatment plants",
+   "area_eng": "Environmental virus profiling",
+   "pi": "Anna J. Székely",
+   "pi_affiliation": "Uppsala University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Surface persistence and SARS-CoV-2 exposure in the Stockholm Subway",
+   "area_eng": "Environmental virus profiling",
+   "pi": "Klas Udekwu",
+   "pi_affiliation": "SLU",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "A multi-level digital twin framework for Covid-19: from mechanisms of disease ethiology, to clinical decision-support and epidemiology",
+   "area_eng": "Data-driven research models and AI",
+   "pi": "Gunnar Cedersund",
+   "pi_affiliation": "Linköping University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Building a platform with AI models, datasets and web applications for fighting COVID-19",
+   "area_eng": "Data-driven research models and AI",
+   "pi": "Emma Lundberg",
+   "pi_affiliation": "KTH",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Artificial intelligence-based knowledge curation to direct COVID-19 research and public health efforts",
+   "area_eng": "Data-driven research models and AI",
+   "pi": "Sonja Aits",
+   "pi_affiliation": "Lund University",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "COVID-19 – a population-based project of ICU patients",
+   "area_eng": "Data-driven research models and AI",
+   "pi": "Emma Larssonet (will be combined with project below)",
+   "pi_affiliation": "Karolinska Institutet",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Characterization of ICU treated COVID patients in Sweden",
+   "area_eng": "Data-driven research models and AI",
+   "pi": "Jonathan Gripet (will be combined with project above)",
+   "pi_affiliation": "Karolinska Institutet",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Rapid testing of SARS-Cov-2 in national coordination with health care",
+   "area_eng": "Program for SARS-CoV-2 virus testing",
+   "pi": "Lars Engstrandet",
+   "pi_affiliation": "Karolinska Institutet, CTMR/SciLifeLab/GMS microbiology, Swedish Regions",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Development of high-throughput serology testing capability ",
+   "area_eng": "Program for SARS-CoV-2 virus testing",
+   "pi": "Peter Nilsson, Sophia Hober",
+   "pi_affiliation": "KTH",
+   "start": "",
+   "end": ""
+ },
+ {
+   "funder": "kaw",
+   "project_title_eng": "Sampling of COVID-19 patients for analysis of disease pathogenesis",
+   "area_eng": "Program for SARS-CoV-2 virus testing",
+   "pi": "Hans-Gustaf Ljunggrenet",
+   "pi_affiliation": "Karolinska University Hospital",
+   "start": "",
+   "end": ""
+ },
+ {
+    "funder": "vr",
+    "project_title_eng": "Glycan-based antivirals against SARS-CoV-2 and future pandemic viruses",
+    "area_eng": "",
+    "project_title_sv": "Glykan-baserade antivirala medel mot SARS-CoV-2 och framtidens pandemiska virus",
+    "area_sv": "",
+    "pi": "Niklas Arnberg",
+    "pi_affiliation": "Umeå universitet",
+    "start": "2020-08-01",
+    "end": "2020-12-31"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Cellular-mediated immunity against SARS-CoV-2",
+    "area_eng": "",
+    "project_title_sv": "Cellulär immunitet mot SARS-CoV-2",
+    "area_sv": "",
+    "pi": "Marcus Buggert",
+    "pi_affiliation": "Karolinska Institutet",
+    "start": "2020-08-01",
+    "end": "2020-12-31"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Organization and response to covid-19 of municipal health and social care of older people – impact on mortality and health care utilization in Region Stockholm",
+    "area_eng": "",
+    "project_title_sv": "Betydelsen av kommuners olika organisation av äldreomsorg och äldrevård och deras åtgärder mot covid-19 för dödlighet och vårdutnyttjande bland äldre personer i Region Stockholm",
+    "area_sv": "",
+    "pi": "Bo Burström",
+    "pi_affiliation": "Karolinska Institutet",
+    "start": "2020-08-01",
+    "end": "2020-12-31"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Convalescent plasma for treatment of COVID-19: A randomized controlled trial",
+    "area_eng": "",
+    "project_title_sv": "Konvalescent plasma för behandling av COVID-19: En randomiserad kontrollerad studie",
+    "area_sv": "",
+    "pi": "Joakim Dillner",
+    "pi_affiliation": "Karolinska Institutet",
+    "start": "2020-08-01",
+    "end": "2020-12-31"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Digital care and Covid-19: The scope for scaling up digital care in a time of an infectious pandemic in Sweden",
+    "area_eng": "",
+    "project_title_sv": "Digital vård och covid-19: Möjligheterna för digital vård i tider av samhällsspridning av infektionssjukdom i Sverige",
+    "area_sv": "",
+    "pi": "Björn Ekman",
+    "pi_affiliation": "Lunds universitet",
+    "start": "2020-08-01",
+    "end": "2020-12-31"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Collateral damage of COVID-19 in older adults: short and long-term health consequences of the epidemic outbreak",
+    "area_eng": "",
+    "project_title_sv": "Indirekta skador av COVID-19 hos äldre personer: hälsoeffekter på kort och lång sikt av epidemins utbrott",
+    "area_sv": "",
+    "pi": "Laura Fratiglioni",
+    "pi_affiliation": "Karolinska Institutet",
+    "start": "2020-08-01",
+    "end": "2020-12-31"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Targeting the most severely affected in the COVID-19 pandemic: older adults’ medications and other crucial factors in large nationwide data",
+    "area_eng": "",
+    "project_title_sv": "Studier av de mest utsatta i COVID-19 pandemin: äldre personers läkemedel och andra avgörande faktorer i stora registerdata",
+    "area_sv": "",
+    "pi": "Kristina Johnell",
+    "pi_affiliation": "Karolinska Institutet",
+    "start": "2020-08-01",
+    "end": "2020-12-31"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Characterization of SARS-CoV-2 specific antibody and T cell responses over time after infection: predicting the future by understanding correlates to protection",
+    "area_eng": "",
+    "project_title_sv": "Vad definierar en genomgången SARS-CoV-2 infektion och vad skyddar mot en ny?",
+    "area_sv": "",
+    "pi": "Jonas Klingström",
+    "pi_affiliation": "Karolinska Institutet",
+    "start": "2020-08-01",
+    "end": "2020-12-31"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Attenuation of SARS-CoV-2 infectivity and hyperinflammation in Covid-19 by heparin-related polysaccharides",
+    "area_eng": "",
+    "project_title_sv": "Minskad infektivitet av SARS-Cov2 virus och Covid19 hyperinflammation med heparin-relaterade polysackarider",
+    "area_sv": "",
+    "pi": "Jin-ping Li",
+    "pi_affiliation": "Uppsala universitet",
+    "start": "2020-08-01",
+    "end": "2020-12-31"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Antibody specificities for protective immunity after Covid-19 vaccination",
+    "area_eng": "",
+    "project_title_sv": "Antikroppsspecificitet för skyddande immunitet efter Covid-19 vaccinering",
+    "area_sv": "",
+    "pi": "Karin Loré",
+    "pi_affiliation": "Karolinska Institutet",
+    "start": "2020-08-01",
+    "end": "2020-12-31"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Effect of face-masks during air-borne pandemics from fluid mechanical aspects",
+    "area_eng": "",
+    "project_title_sv": "Inverkan av munskydd vid luftburna pandemier from ett strömningsmekaniskt perspektiv",
+    "area_sv": "",
+    "pi": "Staffan Lundström",
+    "pi_affiliation": "Luleå Tekniska Universitet",
+    "start": "2020-08-01",
+    "end": "2020-12-31"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Exploring immunologic and genetic factors in COVID-19 with relevance for immunity and long-term health: a new BAMSE follow-up",
+    "area_eng": "",
+    "project_title_sv": "",
+    "area_sv": "Immunologiska och genetiska faktorer vid COVID-19 av betydelse för immunitet och långsiktiga hälsoeffekter: en ny uppföljning av BAMSE-studien",
+    "pi": "Erik Melén",
+    "pi_affiliation": "Karolinska Institutet",
+    "start": "2020-08-01",
+    "end": "2020-12-31"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Mechanistic and therapeutic studies of the innate immune response in human subjects with COVID-19",
+    "area_eng": "",
+    "project_title_sv": "Mekanistiska och terapeutiska studier av det mänskliga medfödda immunsvaret vid COVID-19",
+    "area_sv": "",
+    "pi": "Bo Nilsson",
+    "pi_affiliation": "Uppsala universitet",
+    "start": "2020-08-01",
+    "end": "2020-12-31"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Neutrophil Extracellular Traps as Potential Driver of COVID-19",
+    "area_eng": "",
+    "project_title_sv": "Är neutrofiler involverade i sjukdomsutveckling av COVID-19?",
+    "area_sv": "",
+    "pi": "Mia Phillipson",
+    "pi_affiliation": "Uppsala universitet",
+    "start": "2020-08-01",
+    "end": "2020-12-31"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Covid-19 epidemic in Sweden and cardiometabolic disease: using available data from Swedish registers.",
+    "area_eng": "",
+    "project_title_sv": "Covid-19-epidemin i Sverige med fokus på kardiometabol sjukdom och sociodemografiska faktorer.",
+    "area_sv": "",
+    "pi": "Annika Rosengren",
+    "pi_affiliation": "Göteborgs universitet",
+    "start": "2020-08-01",
+    "end": "2020-12-31"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Inhibiting Corona virus-RNA translation with existing antibiotics and other small molecules",
+    "area_eng": "",
+    "project_title_sv": "Hämning av Corona virus-mRNA translation med befintliga antibiotika och andra små molekyler",
+    "area_sv": "",
+    "pi": "Suparna Sanyal",
+    "pi_affiliation": "Uppsala universitet",
+    "start": "2020-08-01",
+    "end": "2020-12-31"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Evaporation dynamics of COVID-bearing droplets under different atmospheric conditions",
+    "area_eng": "",
+    "project_title_sv": "Avdunstningsdynamik av COVID-droppar under olika atmosfäriska förhållanden",
+    "area_sv": "",
+    "pi": "Gaetano Sardina",
+    "pi_affiliation": "Chalmers tekniska högskola",
+    "start": "2020-08-01",
+    "end": "2020-12-31"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Diary of a pandemic: Monitoring of work-related stress symptoms among healthcare workers through a mobile application.",
+    "area_eng": "",
+    "project_title_sv": "Dagbok från en pandemi: Övervakning av arbetsrelaterade stressymtom hos vårdpersonal genom en mobilapplikation.",
+    "area_sv": "",
+    "pi": "Aleksandra Sjöström-Bujacz",
+    "pi_affiliation": "Karolinska Institutet",
+    "start": "2020-08-01",
+    "end": "2020-12-31"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Understanding respiratory and systemic immune responses during COVID-19: Implications for prediction of disease severity",
+    "area_eng": "",
+    "project_title_sv": "Studier av immunsvar i luftvägar och lungor för att förstå vad som dikterar sjukdomsgrad vid COVID-19",
+    "area_sv": "",
+    "pi": "Anna Smed-Sörensen",
+    "pi_affiliation": "Karolinska Institutet",
+    "start": "2020-08-01",
+    "end": "2020-12-31"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Covid-19 and androgen deprivation therapy for prostate cancer. Populationbased studies",
+    "area_eng": "",
+    "project_title_sv": "Covid-19 och hormonbehandling för prostatacancer. Populationsbaserade studier",
+    "area_sv": "",
+    "pi": "Pär Stattin",
+    "pi_affiliation": "Uppsala universitet",
+    "start": "2020-08-01",
+    "end": "2020-12-31"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "A genetic trap for small molecule inhibitors of the SARS-CoV-2 main protease",
+    "area_eng": "",
+    "project_title_sv": "En genetisk fälla för småmolekyler som inhiberar SARS-CoV-2 main protease",
+    "area_sv": "",
+    "pi": "Per Sunnerhagen",
+    "pi_affiliation": "Göteborgs universitet",
+    "start": "2020-08-01",
+    "end": "2020-12-31"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Antival compunds against CoV-2 helicase",
+    "area_eng": "",
+    "project_title_sv": "Antiviralt läkemedel mot CoV-2 helicase",
+    "area_sv": "",
+    "pi": "Anders Sönnerborg, Anders Götherström",
+    "pi_affiliation": "Karolinska Institutet",
+    "start": "2020-08-01",
+    "end": "2020-12-31"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Intravenous immunoglobulin to dampen covid-induced cell damage and hyperinflammation",
+    "area_eng": "",
+    "project_title_sv": "Kan intravenöst immunglobulin dämpa cellskada och inflammation och förbättra prognosen vid svår covid-19?",
+    "area_sv": "",
+    "pi": "Agnes Wold",
+    "pi_affiliation": "Göteborgs universitet",
+    "start": "2020-08-01",
+    "end": "2020-12-31"
+  },
+  {
+    "funder": "nordforsk",
+    "project_title_eng": "Addressing the smoking paradox in the etiology of COVID-19 through population-based studies",
+    "area_eng": "",
+    "project_title_sv": "",
+    "area_sv": "",
+    "pi": "Maria Rosaria Galanti",
+    "pi_affiliation": "Karolinska Institutet",
+    "start": "2020",
+    "end": "2022",
+    "url": "https://www.nordforsk.org/sv/projects/addressing-smoking-paradox-etiology-covid-19-through-population-based-studies-tobrisk-cov"
+  },
+  {
+    "funder": "nordforsk",
+    "project_title_eng": "Data streams and mathematical modelling pipelines to support preparedness and decision making for COVID-19 and future pandemics",
+    "area_eng": "",
+    "project_title_sv": "",
+    "area_sv": "",
+    "pi": "Tom Britton",
+    "pi_affiliation": "Stockholm University",
+    "start": "2020",
+    "end": "2022",
+    "url": "https://www.nordforsk.org/projects/data-streams-and-mathematical-modelling-pipelines-support-preparedness-and-decision-making"
+  },
+  {
+    "funder": "vinnova",
+    "project_title_eng": "Antibodies against SARS-CoV-2 verification of commercially available assays and a nuanced sustainable approach",
+    "area_eng": "",
+    "project_title_sv": "Antikroppar mot SARS-CoV-2 verifiering av kommersiella serologitester med en nyanserad och hållbar lösning",
+    "area_sv": "",
+    "pi": "Anna Fogdell-Hahn",
+    "pi_affiliation": "Karolinska institutet",
+    "start": "2020-07-01",
+    "end": "2021-06-30",
+    "url": ""
+  },
+  {
+    "funder": "vinnova",
+    "project_title_eng": "Identification of epitopes on SARS-CoV-2 viral particles for rapid development of neutralizing antibodies",
+    "area_eng": "",
+    "project_title_sv": "Identifiering av epitop på SARS-CoV-2 viruspartiklar för snabb utveckling av neutraliserande antikroppar",
+    "area_sv": "",
+    "pi": "Owe Orwar",
+    "pi_affiliation": "Oblique Therapeutics AB",
+    "start": "2020-09-01",
+    "end": "2021-12-31",
+    "url": ""
+  },
+  {
+    "funder": "vinnova",
+    "project_title_eng": "Validation of a fast and effective Corona diagnostic test for the healthcare system",
+    "area_eng": "",
+    "project_title_sv": "Validering av snabb och effektiv Coronaanalys till sjukvården",
+    "area_sv": "",
+    "pi": "Yalda Bogestål",
+    "pi_affiliation": "RISE Research Institutes of Sweden",
+    "start": "2020-05-11",
+    "end": "2020-10-30",
+    "url": ""
+  },
+  {
+    "funder": "vinnova",
+    "project_title_eng": "Targeting the SARS-CoV-2 spike protein to achieve hyperimmunicity and reduce infectivity",
+    "area_eng": "",
+    "project_title_sv": "Inriktning på SARS-CoV-2 spike protein för att erhålla hyperimmunicitet och och reducera infektivitet.",
+    "area_sv": "",
+    "pi": "Rickard Nordén",
+    "pi_affiliation": "Angered Hospital",
+    "start": "2020-10-01",
+    "end": "2021-03-31",
+    "url": ""
+  },
+  {
+    "funder": "vinnova",
+    "project_title_eng": "SARS-Cov-2 sensor for rapid sensitive virus detection",
+    "area_eng": "",
+    "project_title_sv": "SARS-Cov-2 sensor för snabb känslig virus-detektion",
+    "area_sv": "",
+    "pi": "Börje Sellergren",
+    "pi_affiliation": "SureCapture Technologies AB",
+    "start": "2020-07-01",
+    "end": "2021-06-30",
+    "url": ""
+  },
+  {
+    "funder": "vinnova",
+    "project_title_eng": "Evaluating therapeutic potential of integrin 10-selected MSCs in treatment of COVID-19 (ARDS)",
+    "area_eng": "",
+    "project_title_sv": "Evaluating therapeutic potential of integrin 10-selected MSCs in treatment of COVID-19 (ARDS)",
+    "area_sv": "",
+    "pi": "Caroline Ehrencrona",
+    "pi_affiliation": "Xintela AB",
+    "start": "2020-05-08",
+    "end": "2020-11-30",
+    "url": ""
+  }
+]

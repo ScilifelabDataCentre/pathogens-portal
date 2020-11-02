@@ -11,13 +11,8 @@ menu:
         identifier: protein_data_data
         weight: 20
 type: data_table
-_build:
-    list: true
-    render: true
-cascade:
-    _build:
-        list: true
-        render: false
+datatypes_to_display:
+- "Data type: Protein data"
 ---
 ###### See also: [Guidelines for submitting protein data](../guidelines) | [Services: protein data](../services)
 

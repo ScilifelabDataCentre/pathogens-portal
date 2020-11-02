@@ -11,13 +11,8 @@ menu:
         identifier: compound_and_target_data_data
         weight: 40
 type: data_table
-_build:
-    list: true
-    render: true
-cascade:
-    _build:
-        list: true
-        render: false  
+datatypes_to_display:
+- "Data type: Biochemistry"
 ---
 ###### See also: [Guidelines for submitting biochemistry data](../guidelines) | [Services: biochemistry data](../services)
 
