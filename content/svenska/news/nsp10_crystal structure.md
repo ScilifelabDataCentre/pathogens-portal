@@ -28,6 +28,7 @@ DOI: [10.3390/ijms21197375](https://doi.org/10.3390/ijms21197375)
 Rogstam A, Nyblom M, Christensen S, Sele C, Talibov VO, Lindvall, T., Andersson Rasmussen, A., André, I., Fisher, Z., Knecht, W., Kozielski F. Crystal Structure of Non-Structural Protein 10 from Severe Acute Respiratory Syndrome Coronavirus-2. *Int J Mol Sci* **21** (19) (2020)
 
 #### Data
-*   [PDB 6ZPE: Nonstructural protein 10 (nsp10) from SARS CoV-2, 1.58Å resolution](https://www.rcsb.org/structure/6ZPE)
-*   [PDB 6ZCT: Nonstructural protein 10 (nsp10) from SARS CoV-2, 2.55Å resolution](https://www.rcsb.org/structure/6ZCT)
-*   [Supplementary materials](http://www.mdpi.com/1422-0067/21/19/7375/s1)
+
+* [PDB 6ZPE: Nonstructural protein 10 (nsp10) from SARS CoV-2, 1.58Å resolution](https://www.rcsb.org/structure/6ZPE)
+* [PDB 6ZCT: Nonstructural protein 10 (nsp10) from SARS CoV-2, 2.55Å resolution](https://www.rcsb.org/structure/6ZCT)
+* [Supplementary materials](http://www.mdpi.com/1422-0067/21/19/7375/s1)
