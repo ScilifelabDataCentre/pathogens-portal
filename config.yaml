@@ -23,6 +23,11 @@ params:
       dt_available_data: Available data
       dt_data_types: Data types
       dt_entries_in_total: entries in total
+      projects_title: Project title
+      projects_area: Area
+      projects_pi: Principal investigator
+      projects_piaff: PI affiliation
+      projects_duration: Duration
     sv:
       home_title: Snabbare forskning genom datadelning
       enquire_email_footer_dc: "Kontakta den svenska Covid-19 dataportalen"
@@ -38,6 +43,11 @@ params:
       dt_available_data: Tillgängliga data
       dt_data_types: Datatyper
       dt_entries_in_total: resultat
+      projects_title: Projektitel
+      projects_area: Forskningsområde
+      projects_pi: Projektledare
+      projects_piaff: Koordinerande organisation
+      projects_duration: Start och slutdatum
 
 languages:
   en:
