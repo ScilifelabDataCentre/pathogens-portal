@@ -4,9 +4,9 @@ toc: false
 ---
 *Last updated: 31.10.2020*
 
-This is a manually curated list of research projects on COVID-19 which are funded by major funding agencies in Sweden. New projects are added on an ongoing basis. If you would like your project to be listed here, please get in touch with us (datacentre@scilifelab.se).
+This is a manually curated list of research projects on COVID-19 which are funded by major funding agencies in Sweden. New projects are added on an ongoing basis. If you would like your project to be listed here, please get in touch with us (datacentre@scilifelab.se). See also [SweCRIS](https://www.swecris.se/betasearch/?q=Covid&view=cards&lang=en), a database of all funded research projects in Sweden, where it is possible to search using custom keywords.
 
-See also [all funded research projects in the SweCRIS database](https://www.swecris.se/betasearch/?q=Covid&view=cards&lang=en) where it is also possible to search using custom keywords and [a list of 260 ethically approved clinical studies on COVID-19 in Sweden up until October 2020](https://www.kliniskastudier.se/statistik/kliniska-studier-rorande-covid-19.html) (only in Swedish).
+A list of all ethically approved clinical studies on COVID-19 in Sweden up until October 2020 [can be found here](https://www.kliniskastudier.se/statistik/kliniska-studier-rorande-covid-19.html) (only in Swedish).
 
 ## Swedish Research Council
 [vr.se](https://www.vr.se/)

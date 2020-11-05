@@ -2,21 +2,21 @@
 <div class="table-responsive-md"><table id="{{ $fndr }}" class="table table-hover table-bordered">
   <thead class="thead-light">
     <tr>
-      <th scope="col">Project title</th>
-      {{ if eq $fndr "kaw" }}<th scope="col">Area</th>{{ end }}
-      <th scope="col">Principal investigator</th>
-      <th scope="col">PI affiliation</th>
-      <th scope="col">Duration</th>
+      <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).projects_title }}</th>
+      {{ if eq $fndr "kaw" }}<th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).projects_area }}</th>{{ end }}
+      <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).projects_pi }}</th>
+      <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).projects_piaff }}</th>
+      <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).projects_duration }}</th>
     </tr>
   </thead>
   <tbody>
     {{ range $.Site.Data.funded_projects }}
     {{ if eq .funder $fndr }}
     <tr>
-      <td>{{ .project_title_eng }}</td>
+      <td><a href="{{ if and (eq $.Site.Language.LanguageName "Svenska") .url_sv }}{{ .url_sv }}{{ else }} {{ .url_eng }}{{ end }}">{{ if and (eq $.Site.Language.LanguageName "Svenska") .project_title_sv }}{{ .project_title_sv }}{{ else }}{{ .project_title_eng }}{{ end }}</a></td>
       {{ if eq $fndr "kaw" }}<td>{{ .area_eng }}</td>{{ end }}
       <td>{{ .pi }}</td>
-      <td>{{ .pi_affiliation }}</td>
+      <td>{{ if and (eq $.Site.Language.LanguageName "Svenska") .pi_affiliation_sv }}{{ .pi_affiliation_sv }}{{ else }} {{ .pi_affiliation_eng }}{{ end }}</td>
       <td>{{ .start }} - {{ .end }}</td>
     </tr>
     {{ end }}
