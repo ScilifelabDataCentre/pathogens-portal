@@ -16,3 +16,6 @@ no-inline-html:
     - img
     - b
     - span
+    - p
+    - label
+    - input
