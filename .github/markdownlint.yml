@@ -13,3 +13,6 @@ no-inline-html:
     - script
     - i
     - a
+    - img
+    - b
+    - span
