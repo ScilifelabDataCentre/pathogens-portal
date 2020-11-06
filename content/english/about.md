@@ -17,7 +17,7 @@ We welcome contributions to the website - to get involved, please contact [datac
 
 ### People behind the portal
 
-Many people from SciLifeLab, NBIS, and other organisations were involved in the initial development and content creation for the Swedish COVID-19 Data Portal. An incomplete list of contributors [can be found on Github](https://github.com/ScilifelabDataCentre/covid-portal/graphs/contributors). Since September 2020, the content of the portal is managed by a dedicated team at the [SciLifeLab Data Center](https://scilifelab.se/data/). We are also happy to answer your questions about data availability, data sharing, data management and all related issues; just send us an email.
+Many people from SciLifeLab, NBIS, and other organisations were involved in the initial development and content creation for the Swedish COVID-19 Data Portal. An incomplete list of contributors [can be found on Github](https://github.com/ScilifelabDataCentre/covid-portal/graphs/contributors). Since September 2020, the content of the portal is managed by a dedicated team at the [SciLifeLab Data Center](https://scilifelab.se/data/). We are happy to answer your questions about data availability, data sharing, data management and all related issues; just send us an email.
 
 <div class="container mb-3">
   <div class="row">
@@ -71,24 +71,24 @@ Through the portal, researchers can reach many different services for their COVI
 <div class="container">
    <div class="row">
      <div class="col-md-2 pt-2">
-       <div class="row"><img src="/img/people/nj.jpg" width="150" class="img-thumbnail"/></div>
+       <div class="row-cor"><img src="/img/people/nj.jpg" width="150" class="img-thumbnail"/></div>
        <div class="row"><b>Niclas Jareborg</b></div>
        <div class="row"><span class="text-muted">Data manager, NBIS</span></div>
      </div>
      <div class="col-md-2 pt-2">
-       <div class="row"><img src="/img/people/ek.jpg" width="150" class="img-thumbnail"/></div>
-       <div class="row"><b>Elin Kronander</b></div>
-       <div class="row"><span class="text-muted">Data steward, NBIS</span></div>
+       <div class="row-cor"><img src="/img/people/ek.jpg" width="150" class="img-thumbnail"/></div>
+       <div class="row-cor"><b>Elin Kronander</b></div>
+       <div class="row-cor"><span class="text-muted">Data steward, NBIS</span></div>
      </div>
      <div class="col-md-2 pt-2">
-       <div class="row"><img src="/img/people/me.jpg" width="150" class="img-thumbnail"/></div>
-       <div class="row"><b>Markus Englund</b></div>
-       <div class="row"><span class="text-muted">Data steward, NBIS</span></div>
+       <div class="row-cor"><img src="/img/people/me.jpg" width="150" class="img-thumbnail"/></div>
+       <div class="row-cor"><b>Markus Englund</b></div>
+       <div class="row-cor"><span class="text-muted">Data steward, NBIS</span></div>
      </div>
      <div class="col-md-2 pt-2">
-       <div class="row"><img src="/img/people/mn.jpg" width="150" class="img-thumbnail"/></div>
-       <div class="row"><b>Wolmar Nyberg Åkerström</b></div>
-       <div class="row"><span class="text-muted">Data steward, NBIS</span></div>
+       <div class="row-cor"><img src="/img/people/mn.jpg" width="150" class="img-thumbnail"/></div>
+       <div class="row-cor"><b>Wolmar Nyberg Åkerström</b></div>
+       <div class="row-cor"><span class="text-muted">Data steward, NBIS</span></div>
      </div>
     </div>
 </div>
