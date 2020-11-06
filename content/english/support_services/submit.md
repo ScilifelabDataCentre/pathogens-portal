@@ -70,7 +70,6 @@ Here are our data submission guidelines for each specific data type:
 
     * [SciLifeLab Data Repository](https://scilifelab.se/data/repository)
 
-
 ### Support for data management planning
 
 [SciLifeLab](https://www.scilifelab.se) and [NBIS](http://www.nbis.se/) can support you with Data Management Planning early on in the project to make data sharing more efficient, both through [personal consultations](https://nbis.se/support/supportform/index.php?form=consultation) and by providing a [customised tool](https://dsw.scilifelab.se/) to create Data Management Plans.
