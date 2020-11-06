@@ -1,10 +1,15 @@
 <script>
-  $(document).ready(function() {
-    $('table.table').DataTable({
-        "order": [[ 1, "asc" ]]
-    }
-    );
-} );
+  $(document).ready( function () {
+    var tables = $('.table').DataTable({
+      "dom": '<"top"i>rt<"bottom">p<"clear">'
+    });
+
+
+    $('#allSearch').on( 'keyup click', function () {
+      tables.tables().search($(this).val()).draw();
+
+    });
+  } );
 </script>
 
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
