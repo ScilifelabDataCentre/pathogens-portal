@@ -2,7 +2,7 @@
 title: Sammanställning av stora forskningsprojekt relaterade till Covid-19 från större anslagsgivare i Sverige
 toc: false
 ---
-*Senast uppdaterad: 31.10.2020*
+<i>Senast uppdaterad: 31.10.2020</i>
 
 Detta är en manuellt sammanställd lista över forskningsprojekt relaterade till Covid-19 som har forskningsanslag från större svenska forskningsfinansiärer. Nya projekt kommer att läggas till manuellt. Om du saknar ditt projekt och vill att ditt projekt skall synas på listan hör av dig till oss på datacentre@scilifelab.se. Vänligen se [SweCRIS](https://www.swecris.se/betasearch/?q=Covid&view=cards&lang=sv) databas där det är möjligt att söka projekt efter svenska forskningsprojekt från svenska forskningsfinansiärer.
 
