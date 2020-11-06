@@ -8,6 +8,11 @@ This is a manually curated list of research projects on COVID-19 which are funde
 
 A list of all ethically approved clinical studies on COVID-19 in Sweden up until October 2020 [can be found here](https://www.kliniskastudier.se/statistik/kliniska-studier-rorande-covid-19.html) (only in Swedish).
 
+<p>
+  <label for="allSearch">Search among projects on this page: </label>
+  <input type="text" placeholder="keyword..." id="allSearch">
+</p>
+
 ## Swedish Research Council
 [vr.se](https://www.vr.se/)
 
