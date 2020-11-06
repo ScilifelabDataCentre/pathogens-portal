@@ -11,82 +11,86 @@ menu:
 The Swedish COVID-19 Data Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing, in particular the [European COVID-19 Data Portal](https://covid19dataportal.org). It is regularly updated with new services, tools and data. Suggestions, corrections or other comments are most welcome.
 
 This website is built using [Hugo](https://gohugo.io/) and uses the [Bootstrap](https://getbootstrap.com/) framework.
-The code is open source ([MIT licence](https://choosealicense.com/licenses/mit/)) and is available on GitHub:
-[https://github.com/ScilifelabDataCentre/covid-portal](https://github.com/ScilifelabDataCentre/covid-portal)
+The code is open source ([MIT licence](https://choosealicense.com/licenses/mit/)) and is available on [GitHub: github.com/ScilifelabDataCentre/covid-portal](https://github.com/ScilifelabDataCentre/covid-portal)
 
 We welcome contributions to the website - to get involved, please contact [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se).
 
 ### People behind the portal
 
-Many people from SciLifeLab, NBIS, and other organisations were involved in the initial development and content creation for the Swedish COVID-19 Data Portal. An incomplete list of contributors [can be found on Github](https://github.com/ScilifelabDataCentre/covid-portal/graphs/contributors). Since September 2020, the content of the portal is managed by a dedicated team at the [SciLifeLab Data Center](https://scilifelab.se/data/). The data management questions are handled by the data management team at [NBIS](https://nbis.se/). We are happy to answer your questions about data availability, data sharing, data management and all related issues; just send us an email.
+Many people from SciLifeLab, NBIS, and other organisations were involved in the initial development and content creation for the Swedish COVID-19 Data Portal. An incomplete list of contributors [can be found on Github](https://github.com/ScilifelabDataCentre/covid-portal/graphs/contributors). Since September 2020, the content of the portal is managed by a dedicated team at the [SciLifeLab Data Center](https://scilifelab.se/data/). We are also happy to answer your questions about data availability, data sharing, data management and all related issues; just send us an email.
+
+<div class="container mb-3">
+  <div class="row">
+    <div class="col-md-2 pt-2">
+      <div class="row-cor"><img src="/img/people/ak.jpg" width="150" class="img-thumbnail"/></div>
+      <div class="row-cor"><b>Arnold Kochari</b></div>
+      <div class="row-cor"><span class="text-muted">Webmaster for the COVID-19 Data Portal, SciLifeLab</span></div>
+    </div>
+    <div class="col-md-2 pt-2">
+      <div class="row-cor"><img src="/img/people/kos.jpeg" width="150" class="img-thumbnail"/></div>
+      <div class="row-cor"><b>Katarina Öjefors Stark</b></div>
+      <div class="row-cor"><span class="text-muted">Coordinator for COVID-19 projects, SciLifeLab</span></div>
+    </div>
+    <div class="col-md-2 pt-2">
+      <div class="row-cor"><img src="/img/people/pt.jpg" width="150" class="img-thumbnail"/></div>
+      <div class="row-cor"><b>Parul Tewatia</b></div>
+      <div class="row-cor"><span class="text-muted">Data steward, SciLifeLab</span></div>
+    </div>
+    <div class="col-md-2 pt-2">
+      <div class="row-cor"><img src="/img/people/hk.jpg" width="150" class="img-thumbnail"/></div>
+      <div class="row-cor"><b>Hanna Kultima</b></div>
+      <div class="row-cor"><span class="text-muted">Data manager, coordinator, SciLifeLab</span></div>
+    </div>
+    <div class="col-md-2 pt-2">
+      <div class="row-cor"><img src="/img/people/jr.jpg" width="150" class="img-thumbnail"/></div>
+      <div class="row-cor"><b>Johan Rung</b></div>
+      <div class="row-cor"><span class="text-muted">Head of the Data Centre, SciLifeLab</span></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 pt-2">
+      <div class="row-cor"><img src="/img/people/pk.jpg" width="150" class="img-thumbnail"/></div>
+      <div class="row-cor"><b>Per Kraulis</b></div>
+      <div class="row-cor"><span class="text-muted">System development team leader, data engineer, SciLifeLab</span></div>
+    </div>
+    <div class="col-md-2 pt-2">
+      <div class="row-cor"><img src="/img/people/lo.jpg" width="150" class="img-thumbnail"/></div>
+      <div class="row-cor"><b>Linus Östberg</b></div>
+      <div class="row-cor"><span class="text-muted">Systems developer, system administrator, SciLifeLab</span></div>
+    </div>
+    <div class="col-md-2 pt-2">
+      <div class="row-cor"><img src="/img/people/pe.jpeg" width="150" class="img-thumbnail"/></div>
+      <div class="row-cor"><b>Phil Ewels</b></div>
+      <div class="row-cor"><span class="text-muted">Bioinformatics development lead, NGI</span></div>
+    </div>
+  </div>
+</div>
+
+Through the portal, researchers can reach many different services for their COVID-19 projects. The data management questions are handled by the data management team at [NBIS](https://nbis.se/), the National BIoinformatics Infrastructure which is also the SciLifeLab Bioinformatics Platform.
 
 <div class="container">
-  <div class="row">
-    <div class="col-md-2 pt-2">
-      <div class="row"><img src="/img/people/ak.jpg" width="150" class="img-thumbnail"/></div>
-      <div class="row"><b>Arnold Kochari</b></div>
-      <div class="row"><span class="text-muted">Webmaster for the COVID-19 Data Portal, SciLifeLab</span></div>
+   <div class="row">
+     <div class="col-md-2 pt-2">
+       <div class="row"><img src="/img/people/nj.jpg" width="150" class="img-thumbnail"/></div>
+       <div class="row"><b>Niclas Jareborg</b></div>
+       <div class="row"><span class="text-muted">Data manager, NBIS</span></div>
+     </div>
+     <div class="col-md-2 pt-2">
+       <div class="row"><img src="/img/people/ek.jpg" width="150" class="img-thumbnail"/></div>
+       <div class="row"><b>Elin Kronander</b></div>
+       <div class="row"><span class="text-muted">Data steward, NBIS</span></div>
+     </div>
+     <div class="col-md-2 pt-2">
+       <div class="row"><img src="/img/people/me.jpg" width="150" class="img-thumbnail"/></div>
+       <div class="row"><b>Markus Englund</b></div>
+       <div class="row"><span class="text-muted">Data steward, NBIS</span></div>
+     </div>
+     <div class="col-md-2 pt-2">
+       <div class="row"><img src="/img/people/mn.jpg" width="150" class="img-thumbnail"/></div>
+       <div class="row"><b>Wolmar Nyberg Åkerström</b></div>
+       <div class="row"><span class="text-muted">Data steward, NBIS</span></div>
+     </div>
     </div>
-    <div class="col-md-2 pt-2">
-      <div class="row"><img src="/img/people/kos.jpeg" width="150" class="img-thumbnail"/></div>
-      <div class="row"><b>Katarina Öjefors Stark</b></div>
-      <div class="row"><span class="text-muted">Coordinator for COVID-19 projects, SciLifeLab</span></div>
-    </div>
-    <div class="col-md-2 pt-2">
-      <div class="row"><img src="/img/people/pt.jpg" width="150" class="img-thumbnail"/></div>
-      <div class="row"><b>Parul Tewatia</b></div>
-      <div class="row"><span class="text-muted">Data steward, SciLifeLab</span></div>
-    </div>
-    <div class="col-md-2 pt-2">
-      <div class="row"><img src="/img/people/hk.jpg" width="150" class="img-thumbnail"/></div>
-      <div class="row"><b>Hanna Kultima</b></div>
-      <div class="row"><span class="text-muted">Data manager, coordinator, SciLifeLab</span></div>
-    </div>
-    <div class="col-md-2 pt-2">
-      <div class="row"><img src="/img/people/jr.jpg" width="150" class="img-thumbnail"/></div>
-      <div class="row"><b>Johan Rung</b></div>
-      <div class="row"><span class="text-muted">Head of the Data Centre, SciLifeLab</span></div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-2 pt-2">
-      <div class="row"><img src="/img/people/pk.jpg" width="150" class="img-thumbnail"/></div>
-      <div class="row"><b>Per Kraulis</b></div>
-      <div class="row"><span class="text-muted">System development team leader, data engineer, SciLifeLab</span></div>
-    </div>
-    <div class="col-md-2 pt-2">
-      <div class="row"><img src="/img/people/lo.jpg" width="150" class="img-thumbnail"/></div>
-      <div class="row"><b>Linus Östberg</b></div>
-      <div class="row"><span class="text-muted">Systems developer, system administrator, SciLifeLab</span></div>
-    </div>
-    <div class="col-md-2 pt-2">
-      <div class="row"><img src="/img/people/pe.jpeg" width="150" class="img-thumbnail"/></div>
-      <div class="row"><b>Phil Ewels</b></div>
-      <div class="row"><span class="text-muted">Bioinformatics development lead, NGI</span></div>
-    </div>
-    <div class="col-md-2 pt-2">
-      <div class="row"><img src="/img/people/nj.jpg" width="150" class="img-thumbnail"/></div>
-      <div class="row"><b>Niclas Jareborg</b></div>
-      <div class="row"><span class="text-muted">Data manager, NBIS</span></div>
-    </div>
-    <div class="col-md-2 pt-2">
-      <div class="row"><img src="/img/people/ek.jpg" width="150" class="img-thumbnail"/></div>
-      <div class="row"><b>Elin Kronander</b></div>
-      <div class="row"><span class="text-muted">Data steward, NBIS</span></div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-2 pt-2">
-      <div class="row"><img src="/img/people/me.jpg" width="150" class="img-thumbnail"/></div>
-      <div class="row"><b>Markus Englund</b></div>
-      <div class="row"><span class="text-muted">Data steward, NBIS</span></div>
-    </div>
-    <div class="col-md-2 pt-2">
-      <div class="row"><img src="/img/people/mn.jpg" width="150" class="img-thumbnail"/></div>
-      <div class="row"><b>Wolmar Nyberg Åkerström</b></div>
-      <div class="row"><span class="text-muted">Data steward, NBIS</span></div>
-    </div>
-  </div>
 </div>
 
 ### Organisations behind the portal
