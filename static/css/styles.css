@@ -200,3 +200,15 @@ footer img {
     background-color: #2e68a5 !important;
     border: solid 1px #2e68a5;
 }
+
+/* There is a bug in Safari whereby it stretches an image nested in a flexbox element to its natural height. I use the class below for rows with images to fix that. */
+
+.row_cor {
+  display: -ms-flexbox;
+  display: flex;
+  align-items: flex-start !important;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px ;
+}
