@@ -28,7 +28,7 @@ Here are our data submission guidelines for each specific data type:
 
     We suggest that raw virus sequence data as well as assembled and annotated genomes are submitted to [ENA](https://www.ebi.ac.uk/ena). See documentation about submission at [SARS-CoV-2 submission](https://ena-browser-docs.readthedocs.io/en/latest/help_and_guides/sars-cov-2-submissions.html). Before submission of raw sequence data (e.g. shotgun sequencing) it is necessary to remove contaminating human reads.
 
-    Host (human) sequence data requires restricted access, and NBIS is building a local federated version of the European Genome-phenome Archive (EGA) in Sweden (EGA-SE), allowing for the publication of sensitive personal data within a legal framework. Until local EGA is available, the dataset should remain in the secure analysis environment (e.g., at Bianca on [Uppmax](https://www.uppmax.uu.se/)). SciLifeLab [can help with publishing and access control](https://www.scilifelab.se/data/humandata/). In any case, we recommend to make a metadata-only record in the [SciLifeLab Data Repository](/support_services/general_data_repository/) with contact details on how to get access, and for which a DOI (ie a persistent identifier) can be issued. The DOI can then be used in the article to refer to the dataset. Once the Swedish EGA is operational, and the dataset is deposited there, the access information can be changed to point to the EGA ID. See [DOI: 10.17044/NBIS/G000014](https://doi.org/10.17044/NBIS/G000014) for an example.
+    Host (human) sequence data requires restricted access, and NBIS is building a local federated version of the European Genome-phenome Archive (EGA) in Sweden (EGA-SE), allowing for the publication of sensitive personal data within a legal framework. Until local EGA is available, the dataset should remain in the secure analysis environment (e.g., at Bianca on [Uppmax](https://www.uppmax.uu.se/)). SciLifeLab [can help with publishing and access control](https://www.scilifelab.se/data/humandata/). In any case, we recommend to make a metadata-only record in the [SciLifeLab Data Repository](/support_services/general_data_repository/) with contact details on how to get access, and for which a DOI (i.e., a persistent identifier) can be issued. The DOI can then be used in the article to refer to the dataset. Once the Swedish EGA is operational, and the dataset is deposited there, the access information can be changed to point to the EGA ID. See [DOI: 10.17044/NBIS/G000014](https://doi.org/10.17044/NBIS/G000014) for an example.
 
     * [The European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena)
     * [ENA SARS-CoV-2 submission guildelines](https://ena-browser-docs.readthedocs.io/en/latest/help_and_guides/sars-cov-2-submissions.html)
@@ -56,6 +56,7 @@ Here are our data submission guidelines for each specific data type:
     * [BioImage Archive](https://www.ebi.ac.uk/bioimage-archive/)
 
     ***
+
 * ##### Biochemistry
 
     We suggest that users submit data to [ChEMBL](https://www.ebi.ac.uk/chembl/) which is a manually curated database of bioactive molecules with drug-like properties run by EMBL-EBI. It brings together chemical, bioactivity and genomic data to aid the translation of genomic information into effective new drugs.
@@ -66,7 +67,7 @@ Here are our data submission guidelines for each specific data type:
 
 * ##### Health data
 
-    We suggest depositing anonymized or pseudonymised, individual-level measurements to the [SciLifeLab Data Repository](https://scilifelab.se/data/repository). The repository is managed locally by SciLifeLab Data Centre, and it allows to obtain a DOI which can then be referred to in the publication.
+    In cases where data cannot be deposited into a public database due to privacy restrictions we suggest creating a metadata-only record on the [SciLifeLab Data Repository](https://scilifelab.se/data/repository) with information about what data is available upon request and how such a request can be made. The repository is managed locally by the SciLifeLab Data Centre, and it allows to obtain a DOI which can then be referred to in the publication.
 
     * [SciLifeLab Data Repository](https://scilifelab.se/data/repository)
 
