@@ -18,6 +18,9 @@ params:
       skip_to_content: Skip to main content
       readmore_text: Read more
       published_text: Published
+      all_highlights: See all data highlights
+      next_highlight: Next
+      previous_highlight: Previous
       dt_project: Project
       dt_last_updated: Last updated
       dt_available_data: Available data
@@ -38,6 +41,9 @@ params:
       skip_to_content: Hoppa till innehållet
       readmore_text: Läs mer
       published_text: Publicerad
+      all_highlights: Se alla data i fokus
+      next_highlight: Nästa
+      previous_highlight: Föregående
       dt_project: Projekt
       dt_last_updated: Senast uppdaterad
       dt_available_data: Tillgängliga data
