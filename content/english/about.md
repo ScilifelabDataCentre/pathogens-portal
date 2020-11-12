@@ -76,6 +76,11 @@ Through the portal, researchers can reach many different services for their COVI
        <div class="row"><span class="text-muted">Data manager, NBIS</span></div>
      </div>
      <div class="col-md-2 pt-2">
+       <div class="row-cor"><img src="/img/people/yk.jpg" width="150" class="img-thumbnail"/></div>
+       <div class="row"><b>Yvonne Kallberg</b></div>
+       <div class="row"><span class="text-muted">Data steward, NBIS</span></div>
+     </div>
+     <div class="col-md-2 pt-2">
        <div class="row-cor"><img src="/img/people/ek.jpg" width="150" class="img-thumbnail"/></div>
        <div class="row-cor"><b>Elin Kronander</b></div>
        <div class="row-cor"><span class="text-muted">Data steward, NBIS</span></div>
