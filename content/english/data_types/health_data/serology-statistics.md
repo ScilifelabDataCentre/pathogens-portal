@@ -21,7 +21,7 @@ The total number of tests run at SciLifeLab Autoimmunity and Serology profiling 
   <div id="total-number"></div>
 </div>
 
-<div class="small text-muted">*The category here denoted as "R&D" (research and development) includes all remaining serum, plasma and saliva samples where we have measured the levels of IgG, IgM or IgA antibodies targeting SARS-CoV-2 proteins. It includes all positive and negative controls, all replicated and rerun of samples and assays, all samples analysed during the continuous development and optimization, technically failed samples and all research associated projects.<br> **"Fraction positive" here is the proportion of tests with a positive IgG-result out of all tests that were not R&D (i.e., the sum of tests with a positive IgG-result and tests with a negative IgG-result). </div>
+<div class="small text-muted">*The category here denoted as "R&D" (research and development) includes all remaining serum, plasma and saliva samples where we have measured the levels of IgG, IgM or IgA antibodies targeting SARS-CoV-2 proteins. It includes all positive and negative controls, all replicated and rerun of samples and assays, all samples analysed during the continuous development and optimization, technically failed samples and all research associated projects.<br> **"Proportion positive" here is the proportion of tests with a positive IgG-result out of all tests that were not R&D (i.e., the sum of tests with a positive IgG-result and tests with a negative IgG-result). </div>
 
 #### Weekly serology test numbers
 
