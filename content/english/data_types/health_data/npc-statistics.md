@@ -5,6 +5,7 @@ menu:
         identifier: npc-statistics
         parent: health_data
         weight: 10
+toc: false
 ---
 
 #### Total NPC test numbers
@@ -21,33 +22,64 @@ results.
   <div id="total-numbers-chart"></div>
 </div>
 
-#### Daily NPC test numbers
+#### NPC test numbers
 
-The number of SARS-CoV-2 (COVID-19) tests run daily, split up into
+The number of SARS-CoV-2 (COVID-19) tests run daily or weekly, split up into
 positive, negative and invalid/inconclusive results.
 
-<div class="d-lg-none alert alert-info">
-  Scroll the plot sideways to view all data.
+  <div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#daily_stacked_bar_chart" aria-expanded="true" aria-controls="#daily_stacked_bar_chart">
+    Daily
+  </button>
+  </div>
+<div class="collapse show" id="daily_stacked_bar_chart">
+  <div class="d-lg-none alert alert-info">
+    Scroll the plot sideways to view all data.
+  </div>
+  <div class="plot_wrapper">
+    <div id="stacked-bar-chart"></div>
+  </div>
+</div>
+<div id="dwbuttons">
+<button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#weekly_stacked_bar_chart" aria-expanded="true" aria-controls="weekly_stacked_bar_chart">
+  Weekly
+</button></div>
+<div class="collapse show" id="weekly_stacked_bar_chart">
+  <div class="d-lg-none alert alert-info">
+    Scroll the plot sideways to view all data.
+  </div>
+  <div class="plot_wrapper">
+    <div id="stacked-bar-chart-weekly"></div>
+  </div>
 </div>
 
-<div class="plot_wrapper">
-  <div id="stacked-bar-chart"></div>
-</div>
+#### NPC tests positive fraction
 
-#### Daily NPC tests positive fraction
-
-The fraction of daily SARS-CoV-2 (COVID-19) tests that are positive,
+The fraction of daily or weekly SARS-CoV-2 (COVID-19) tests that are positive,
 as percent of all tests (excluding invalid/inconclusive).
 
-<div class="d-lg-none alert alert-info">
-  Scroll the plot sideways to view all data.
-</div>
-
-<div class="plot_wrapper">
-  <div id="positive-bar-chart"></div>
-</div>
-
-_*Note that as the number of reported analyses vary, some days may have a low number of samples, affecting the statistics a lot for that day, e.g. August 24th where only seven samples were reported, all positive._
+  <div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#daily_positive_bar_chart" aria-expanded="true" aria-controls="#daily_positive_bar_chart">
+    Daily
+  </button></div>
+  <div class="collapse show" id="daily_positive_bar_chart">
+      <div class="d-lg-none alert alert-info">
+        Scroll the plot sideways to view all data.
+      </div>
+      <div class="plot_wrapper">
+        <div id="positive-bar-chart"></div>
+      </div>
+      <p class="small"><i>*Note that as the number of reported analyses vary, some days may have a low number of samples, affecting the statistics a lot for that day, e.g. August 24th where only seven samples were reported, all positive.</i></p>
+  </div>
+  <div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#weekly_positive_bar_chart" aria-expanded="true" aria-controls="weekly_positive_bar_chart">
+    Weekly
+  </button></div>
+  <div class="collapse show" id="weekly_positive_bar_chart">
+    <div class="d-lg-none alert alert-info">
+      Scroll the plot sideways to view all data.
+    </div>
+    <div class="plot_wrapper">
+      <div id="positive-bar-chart-weekly"></div>
+    </div>
+  </div>
 
 #### Cumulative NPC test numbers
 
@@ -107,6 +139,10 @@ and [here](https://datagraphics.dckube.scilifelab.se/graphic/9145856246004419983
 
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc.js?id=stacked-bar-chart"></script>
 
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/1f2322f4301c4773878c956c578e8caf.js?id=stacked-bar-chart-weekly"></script>
+
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/b31c50be59c84c93986c25b052115a65.js?id=positive-bar-chart"></script>
 
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/9145856246004419983d39fcf56d9eb6.js?id=cumulative-plot"></script>
+
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/7f27ae237b8146a498ab4014aadc35db.js?id=positive-bar-chart-weekly"></script>

@@ -21,34 +21,65 @@ resultat.
   <div id="grand-total-chart"></div>
 </div>
 
-#### Dagligt antal tester vid NPC
+#### Antal tester vid NPC
 
-Antalet SARS-CoV-2 (Covid-19)-virustester analyserade för varje dag
+Antalet SARS-CoV-2 (Covid-19)-virustester analyserade för varje dag eller varje vecka
 uppdelade på de med positivt, negativt eller icke-avgjort/felaktigt
 resultat.
 
+<div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#daily_stacked_bar_chart" aria-expanded="true" aria-controls="#daily_stacked_bar_chart">
+  Per dag
+</button>
+</div>
+<div class="collapse show" id="daily_stacked_bar_chart">
 <div class="d-lg-none alert alert-info">
   Skrolla grafen horisontellt för att se all data.
 </div>
-
 <div class="plot_wrapper">
   <div id="stacked-bar-chart"></div>
 </div>
-
-#### Daglig fraktion positiva tester vid NPC
-
-Fraktionen SARS-CoV-2 (COVID-19)-virustester för varje dag som är positiva,
-i procent av alla tester (exkluderande icke-avgjort/felaktiga).
-
+</div>
+<div id="dwbuttons">
+<button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#weekly_stacked_bar_chart" aria-expanded="true" aria-controls="weekly_stacked_bar_chart">
+Per vecka
+</button></div>
+<div class="collapse show" id="weekly_stacked_bar_chart">
 <div class="d-lg-none alert alert-info">
   Skrolla grafen horisontellt för att se all data.
 </div>
-
 <div class="plot_wrapper">
-  <div id="positive-bar-chart"></div>
+  <div id="stacked-bar-chart-weekly"></div>
+</div>
 </div>
 
-_*Observera att eftersom antalet rapporterade analyser varierar kan vissa dagar ha ett lågt antal prover, vilket påverkar statistiken mycket för den dagen, t.ex. 24 augusti där endast sju prover rapporterades, alla positiva._
+#### Fraktion positiva tester vid NPC
+
+Fraktionen SARS-CoV-2 (COVID-19)-virustester för varje dag eller vecka som är positiva,
+i procent av alla tester (exkluderande icke-avgjort/felaktiga).
+
+<div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#daily_positive_bar_chart" aria-expanded="true" aria-controls="#daily_positive_bar_chart">
+  Per dag
+</button></div>
+<div class="collapse show" id="daily_positive_bar_chart">
+    <div class="d-lg-none alert alert-info">
+      Skrolla grafen horisontellt för att se all data.
+    </div>
+    <div class="plot_wrapper">
+      <div id="positive-bar-chart"></div>
+    </div>
+    <p class="small"><i>*Observera att eftersom antalet rapporterade analyser varierar kan vissa dagar ha ett lågt antal prover, vilket påverkar statistiken mycket för den dagen, t.ex. 24 augusti där endast sju prover rapporterades, alla positiva.</i></p>
+</div>
+<div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#weekly_positive_bar_chart" aria-expanded="true" aria-controls="weekly_positive_bar_chart">
+  Per vecka
+</button></div>
+<div class="collapse show" id="weekly_positive_bar_chart">
+  <div class="d-lg-none alert alert-info">
+    Skrolla grafen horisontellt för att se all data.
+  </div>
+  <div class="plot_wrapper">
+    <div id="positive-bar-chart-weekly"></div>
+  </div>
+</div>
 
 #### Kumulativt antal tester vid NPC
 
@@ -106,6 +137,10 @@ och [här](https://datagraphics.dckube.scilifelab.se/graphic/9145856246004419983
 
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc.js?id=stacked-bar-chart"></script>
 
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/1f2322f4301c4773878c956c578e8caf.js?id=stacked-bar-chart-weekly"></script>
+
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/b31c50be59c84c93986c25b052115a65.js?id=positive-bar-chart"></script>
 
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/9145856246004419983d39fcf56d9eb6.js?id=cumulative-plot"></script>
+
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/7f27ae237b8146a498ab4014aadc35db.js?id=positive-bar-chart-weekly"></script>
