@@ -22,7 +22,7 @@ Det totala antalet SARS-CoV-2 antikroppstester analyserade vid SciLifeLab Autoim
   <div id="total-number"></div>
 </div>
 
-<div class="small text-muted">*Kategorin som benämns som "R&D" (research and development) inkluderar alla återstående serum-, plasma- och salivprover där nivåer av IgG-, IgM- eller IgA-antikroppar riktade mot SARS-CoV-2-proteiner mätts. Kategorin innehåller alla positiva och negativa kontrollprover, alla replikat och omkörningar av prover och analyser, alla prover som analyserats som en del av utveckling och optimering, tekniskt misslyckade prover och prover inom forskningsassocierade projekt. <br>**"Fraction positive" motsvarar proportionen av tester med positivt IgG-testresultat bland alla tester som inte var R&D (d.v.s., summan av tester med positivt IgG-testresultat och tester med negativt IgG-testresultat).</div>
+<div class="small text-muted">*Kategorin som benämns som "R&D" (research and development) inkluderar alla återstående serum-, plasma- och salivprover där nivåer av IgG-, IgM- eller IgA-antikroppar riktade mot SARS-CoV-2-proteiner mätts. Kategorin innehåller alla positiva och negativa kontrollprover, alla replikat och omkörningar av prover och analyser, alla prover som analyserats som en del av utveckling och optimering, tekniskt misslyckade prover och prover inom forskningsassocierade projekt. <br>**"Proportion positive" motsvarar proportionen av tester med positivt IgG-testresultat bland alla tester som inte var R&D (d.v.s., summan av tester med positivt IgG-testresultat och tester med negativt IgG-testresultat).</div>
 
 #### Veckovis antal tester
 
