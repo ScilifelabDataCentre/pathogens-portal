@@ -19,3 +19,5 @@ no-inline-html:
     - p
     - label
     - input
+    - button
+    - br
