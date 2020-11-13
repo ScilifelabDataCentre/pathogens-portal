@@ -212,3 +212,8 @@ footer img {
   margin-right: -15px;
   margin-left: -15px ;
 }
+
+#dwbuttons .collapsed {
+  background-color: white !important;
+  color: #5a626a !important;
+}
