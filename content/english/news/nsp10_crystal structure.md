@@ -2,7 +2,7 @@
 title: Crystal structure of SARS CoV-2 nsp-10 - a potential drug target for COVID-19 # short
 title_full: Crystal structure of SARS CoV-2 nsp-10 - a potential drug target for COVID-19 # long
 date: 2020-11-03
-summary: A study by Rogstam et al. published in the *International Journal of Molecular Sciences* along with the crystal structure of SARS CoV-2 non-structural protein 10 in the Protein Data Bank provides a starting point for structure-guided drug discovery and design.
+summary: A study by Rogstam and colleagues published along with the crystal structure of SARS CoV-2 non-structural protein 10 in the Protein Data Bank provides a starting point for structure-guided drug discovery and design.
 banner: /news/banners/nsp10.jpg
 banner_large: /news/banners/nsp10_large.jpeg
 banner_caption: "Source: PDB 6ZPE, DOI: 10.2210/pdb6ZPE/pdb"
