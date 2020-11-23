@@ -10,8 +10,7 @@ menu:
 
 The Swedish COVID-19 Data Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing, in particular the [European COVID-19 Data Portal](https://covid19dataportal.org). It is regularly updated with new services, tools and data. Suggestions, corrections or other comments are most welcome.
 
-This website is built using [Hugo](https://gohugo.io/) and uses the [Bootstrap](https://getbootstrap.com/) framework.
-The code is open source ([MIT licence](https://choosealicense.com/licenses/mit/)) and is available on [GitHub: github.com/ScilifelabDataCentre/covid-portal](https://github.com/ScilifelabDataCentre/covid-portal)
+This website is built using [Hugo](https://gohugo.io/) and uses the [Bootstrap](https://getbootstrap.com/) framework. In addition, we make use of <a href="https://datatables.net/">DataTables</a> and <a href="https://select2.org/">Select2</a> plugins for jQuery. The code is open source ([MIT licence](https://choosealicense.com/licenses/mit/)) and is available on [GitHub: github.com/ScilifelabDataCentre/covid-portal](https://github.com/ScilifelabDataCentre/covid-portal)
 
 We welcome contributions to the website - to get involved, please contact [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se).
 

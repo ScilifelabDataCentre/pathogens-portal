@@ -1,0 +1,1093 @@
+<form class="needs-validation" novalidate>
+
+<div class="accordion md-accordion" id="accordionForm" role="tablist" aria-multiselectable="true">
+  <div class="card">
+    <div class="card-header" role="tab" id="generalinfo">
+      <a data-toggle="collapse" data-parent="#accordionForm" href="#collapseGeneralInformation" aria-expanded="true"
+      aria-controls="collapseGeneralInformation">
+      <h5 class="mb-0">
+        General information* <i class="fas fa-angle-down rotate-icon"></i>
+      </h5>
+    </a>
+  </div>
+  <div id="collapseGeneralInformation" class="collapse show" role="tabpanel" aria-labelledby="generalinfo"
+  data-parent="#accordionForm">
+  <div class="card-body">
+    <div class="form-group">
+      <label for="biobank_name"><b>Biobank name:*</b></label>
+      <input type="text" class="form-control" name="biobank_name" required>
+      <small class="form-text text-muted">Provide the name of the biobank to which the collection belongs. If this biobank has not yet been added to the Swedish COVID-19 Biobank Registry, you need to <a href="/biobanks/add_biobank/">fill out this form to add it</a>.</small>
+    </div>
+    <div class="form-group">
+      <label for="name"><b>Collection name:*</b></label>
+      <input type="text" class="form-control" name="name" required>
+      <small class="form-text text-muted">Collection name (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-03</a>).</small>
+    </div>
+    <div class="form-group">
+      <label for="acronym"><b>Collection acronym:</b></label>
+      <input type="text" class="form-control" name="acronym">
+      <small class="form-text text-muted">Collection acronym (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-02</a>).</small>
+    </div>
+    <div class="form-group">
+      <label for="parent_collection"><b>Parent collection:</b></label>
+      <input type="text" class="form-control" name="parent_collection">
+      <small class="form-text text-muted">If this is a subcollection of a larger collection, provide the name or local ID of the parent collection.</small>
+    </div>
+    <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="local_id"><b>Local collection ID:*</b></label>
+      <input type="text" class="form-control" name="local_id" required>
+      <small class="form-text text-muted">Collection ID within the biobank.</small>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="id"><b>BBMRI-ERIC collection ID:</b></label>
+      <input type="text" class="form-control" name="id">
+      <small class="form-text text-muted">If the collection is already listed at BBMRI-ERIC, please provide its unique ID within BBMRI-ERIC. This ID is constructed from biobankID prefix + :collection: + local collection ID string (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-01</a>). For example, <i>bbmri-eric:ID:SE_9999:0000</i>.</small>
+    </div>
+    </div>
+    <div class="form-group regions">
+      <label for="region"><b>Region:*</b></label>
+      <div class="form-check">
+        <input id="region-bl" type="checkbox" name="region-bl" required>
+        <label for="region-bl" class="form-check-label">Blekinge</label>
+      </div>
+      <div class="form-check">
+        <input id="region-da" type="checkbox" name="region-da" required>
+        <label for="region-da" class="form-check-label">Dalarna</label>
+      </div>
+      <div class="form-check">
+        <input id="region-go" type="checkbox" name="region-go" required>
+        <label for="region-go" class="form-check-label">Gotland</label>
+      </div>
+      <div class="form-check">
+        <input id="region-ga" type="checkbox" name="region-ga" required>
+        <label for="region-ga" class="form-check-label">Gävleborg</label>
+      </div>
+      <div class="form-check">
+        <input id="region-ha" type="checkbox" name="region-ha" required>
+        <label for="region-ha" class="form-check-label">Halland</label>
+      </div>
+      <div class="form-check">
+        <input id="region-ja" type="checkbox" name="region-ja" required>
+        <label for="region-ja" class="form-check-label">Jämtland Härjedalen</label>
+      </div>
+      <div class="form-check">
+        <input id="region-jo" type="checkbox" name="region-jo" required>
+        <label for="region-jo" class="form-check-label">Jönköpings län</label>
+      </div>
+      <div class="form-check">
+        <input id="region-ka" type="checkbox" name="region-ka" required>
+        <label for="region-ka" class="form-check-label">Kalmar län</label>
+      </div>
+      <div class="form-check">
+        <input id="region-kr" type="checkbox" name="region-kr" required>
+        <label for="region-kr" class="form-check-label">Kronoberg</label>
+      </div>
+      <div class="form-check">
+        <input id="region-no" type="checkbox" name="region-no" required>
+        <label for="region-no" class="form-check-label">Norrbotten</label>
+      </div>
+      <div class="form-check">
+        <input id="region-sk" type="checkbox" name="region-sk" required>
+        <label for="region-sk" class="form-check-label">Skåne</label>
+      </div>
+      <div class="form-check">
+        <input id="region-st" type="checkbox" name="region-st" required>
+        <label for="region-st" class="form-check-label">Stockholm</label>
+      </div>
+      <div class="form-check">
+        <input id="region-so" type="checkbox" name="region-so" required>
+        <label for="region-so" class="form-check-label">Sörmland</label>
+      </div>
+      <div class="form-check">
+        <input id="region-up" type="checkbox" name="region-up" required>
+        <label for="region-up" class="form-check-label">Uppsala</label>
+      </div>
+      <div class="form-check">
+        <input id="region-var" type="checkbox" name="region-var" required>
+        <label for="region-var" class="form-check-label">Värmland</label>
+      </div>
+      <div class="form-check">
+        <input id="region-vasterbotten" type="checkbox" name="region-vasterbotten" required>
+        <label for="region-vasterbotten" class="form-check-label">Västerbotten</label>
+      </div>
+      <div class="form-check">
+        <input id="region-vasternorrland" type="checkbox" name="region-vasternorrland" required>
+        <label for="region-vasternorrland" class="form-check-label">Västernorrland</label>
+      </div>
+      <div class="form-check">
+        <input id="region-vastragotaland" type="checkbox" name="region-vastragotaland" required>
+        <label for="region-vastragotaland" class="form-check-label">Västra Götalandsregionen</label>
+      </div>
+      <div class="form-check">
+        <input id="region-vastmanland" type="checkbox" name="region-vastmanland" required>
+        <label for="region-vastmanland" class="form-check-label">Västmanland</label>
+      </div>
+      <div class="form-check">
+        <input id="region-or" type="checkbox" name="region-or" required>
+        <label for="region-or" class="form-check-label">Örebro län</label>
+      </div>
+      <div class="form-check">
+        <input id="region-os" type="checkbox" name="region-os" required>
+        <label for="region-os" class="form-check-label">Östergötland</label>
+        <div class="invalid-feedback"><b>Choose at least one region.</b></div>
+      </div>
+      <div><small class="form-text text-muted">Choose the region(s) from which the collection was collected.</small></div>
+    </div>
+    <div class="form-group">
+      <label for="description"><b>Collection description:</b></label>
+      <textarea class="form-control" id="description" rows="3"></textarea>
+      <small class="form-text text-muted">Collection description (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-08</a>).</small>
+    </div>
+    <div class="form-group">
+      <label for="url"><b>Collection homepage URL:</b></label>
+      <input type="url" class="form-control" name="url">
+      <small class="form-text text-muted">Collection homepage URL.</small>
+    </div>
+    <div class="form-group">
+        <label for="bioresource_reference"><b>Collection reference(s):</b></label>
+        <textarea class="form-control" id="bioresource_reference" rows="3"></textarea>
+        <small class="form-text text-muted">Please provide a reference to a published article or a preprint (including DOI) that should be cited when resources from this collection are used for research.</small>
+    </div>
+    <div class="form-group">
+      <label for="ethics_id"><b>Swedish ethical approval ID:*</b></label>
+      <input type="text" class="form-control" name="ethics_id" required>
+      <small class="form-text text-muted">Registration number of the Swedish ethical approval.</small>
+    </div>
+    <div class="form-group">
+      <label for="pi_name"><b>Principal investigator name</b></label>
+      <input type="text" class="form-control" name="pi_name">
+      <small class="form-text text-muted">Name of the principal investigator responsible for the collection.</small>
+    </div>
+    <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="sampling_start"><b>Start date of sampling:*</b></label>
+      <input type="date" class="form-control" name="sampling_start" required>
+      <small class="form-text text-muted">When did the sampling for this collection start.</small>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="sampling_end"><b>End date of sampling:</b></label>
+      <input type="date" class="form-control" name="sampling_end">
+      <small class="form-text text-muted">When did the sampling for this collection end. Leave blank is sampling is ongoing.</small>
+    </div>
+    </div>
+    <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="sampling_duration"><b>Until when will the collection be preserved?*</b></label>
+      <input type="date" class="form-control" name="sampling_duration" required>
+      <small class="form-text text-muted">Provide a date until which the collection is guaranteed to be available. After this date, the researchers will be advised to contact the biobank to ask whether the collection is still available.</small>
+    </div>
+    </div>
+    <div class="form-group types">
+      <label for="types"><b>Collection type(s):*</b></label>
+      <div class="form-check">
+        <input id="QUALITY_CONTROL" type="checkbox" name="QUALITY_CONTROL" required>
+        <label for="QUALITY_CONTROL" class="form-check-label">Quality control</label>
+      </div>
+      <div class="form-check">
+        <input id="BIRTH_COHORT" type="checkbox" name="BIRTH_COHORT" required>
+        <label for="BIRTH_COHORT" class="form-check-label">Birth cohort</label>
+      </div>
+      <div class="form-check">
+        <input id="POPULATION_BASED" type="checkbox" name="POPULATION_BASED" required>
+        <label for="POPULATION_BASED" class="form-check-label">Population-based</label>
+      </div>
+      <div class="form-check">
+        <input id="DISEASE_SPECIFIC" type="checkbox" name="DISEASE_SPECIFIC" required>
+        <label for="DISEASE_SPECIFIC" class="form-check-label">Disease specific</label>
+      </div>
+      <div class="form-check">
+        <input id="NON_HUMAN" type="checkbox" name="NON_HUMAN" required>
+        <label for="NON_HUMAN" class="form-check-label">Non-human</label>
+      </div>
+      <div class="form-check">
+        <input id="CASE_CONTROL" type="checkbox" name="CASE_CONTROL" required>
+        <label for="CASE_CONTROL" class="form-check-label">Case-Control</label>
+      </div>
+      <div class="form-check">
+        <input id="OTHER" type="checkbox" name="OTHER" required>
+        <label for="OTHER" class="form-check-label">Other</label>
+      </div>
+      <div class="form-check">
+        <input id="SAMPLE" type="checkbox" name="SAMPLE" required>
+        <label for="SAMPLE" class="form-check-label">Sample collection</label>
+      </div>
+      <div class="form-check">
+        <input id="RD" type="checkbox" name="RD" required>
+        <label for="RD" class="form-check-label">Rare disease collection</label>
+      </div>
+      <div class="form-check">
+        <input id="IMAGE" type="checkbox" name="IMAGE" required>
+        <label for="IMAGE" class="form-check-label">Image collection</label>
+      </div>
+      <div class="form-check">
+        <input id="PROSPECTIVE_COLLECTION" type="checkbox" name="PROSPECTIVE_COLLECTION" required>
+        <label for="PROSPECTIVE_COLLECTION" class="form-check-label">A prospective study</label>
+      </div>
+      <div class="form-check">
+        <input id="HOSPITAL" type="checkbox" name="HOSPITAL" required>
+        <label for="HOSPITAL" class="form-check-label">Hospital</label>
+      </div>
+      <div class="form-check">
+        <input id="CROSS_SECTIONAL" type="checkbox" name="CROSS_SECTIONAL" required>
+        <label for="CROSS_SECTIONAL" class="form-check-label">Cross-sectional</label>
+      </div>
+      <div class="form-check">
+        <input id="COHORT" type="checkbox" name="COHORT" required>
+        <label for="COHORT" class="form-check-label">Cohort</label>
+      </div>
+      <div class="form-check">
+        <input id="TWIN_STUDY" type="checkbox" name="TWIN_STUDY" required>
+        <label for="TWIN_STUDY" class="form-check-label">Twin-study</label>
+      </div>
+      <div class="form-check">
+        <input id="LONGITUDINAL" type="checkbox" name="LONGITUDINAL" required>
+        <label for="LONGITUDINAL" class="form-check-label">Longitudinal</label>
+        <div class="invalid-feedback"><b>Choose at least one collection type.</b></div>
+      </div>
+      <div><small class="form-text text-muted">Type(s) of collection.</small></div>
+    </div>
+    <div class="form-group data_categories">
+      <label for="data_categories"><b>Data categories:*</b></label>
+      <div class="form-check">
+        <input id="ANTIBODIES" type="checkbox" name="ANTIBODIES" required>
+        <label for="ANTIBODIES" class="form-check-label">Antibodies titer (IgM and IgG)</label>
+      </div>
+      <div class="form-check">
+        <input id="IMAGING_DATA" type="checkbox" name="IMAGING_DATA" required>
+        <label for="IMAGING_DATA" class="form-check-label">Imaging data</label>
+      </div>
+      <div class="form-check">
+        <input id="TREATMENT_PROTOCOL" type="checkbox" name="TREATMENT_PROTOCOL" required>
+        <label for="TREATMENT_PROTOCOL" class="form-check-label">Treatment protocol (types of drugs used)</label>
+      </div>
+      <div class="form-check">
+        <input id="NATIONAL_REGISTRIES" type="checkbox" name="NATIONAL_REGISTRIES" required>
+        <label for="NATIONAL_REGISTRIES" class="form-check-label">National registries</label>
+      </div>
+      <div class="form-check">
+        <input id="DiseaseDuration" type="checkbox" name="DiseaseDuration" required>
+        <label for="DiseaseDuration" class="form-check-label">Data on disease duration and disease outcome</label>
+      </div>
+      <div class="form-check">
+        <input id="SURVEY_DATA" type="checkbox" name="SURVEY_DATA" required>
+        <label for="SURVEY_DATA" class="form-check-label">Survey data</label>
+      </div>
+      <div class="form-check">
+        <input id="CLINICAL_SYMPTOMS" type="checkbox" name="CLINICAL_SYMPTOMS" required>
+        <label for="CLINICAL_SYMPTOMS" class="form-check-label">Data on clinical symptoms</label>
+      </div>
+      <div class="form-check">
+        <input id="CT" type="checkbox" name="CT" required>
+        <label for="CT" class="form-check-label">CT imaging of lungs, alternatively Xray</label>
+      </div>
+      <div class="form-check">
+        <input id="PHYSIOLOGICAL_BIOCHEMICAL_MEASUREMENTS" type="checkbox" name="PHYSIOLOGICAL_BIOCHEMICAL_MEASUREMENTS" required>
+        <label for="PHYSIOLOGICAL_BIOCHEMICAL_MEASUREMENTS" class="form-check-label">Physiological/Biochemical measurements</label>
+      </div>
+      <div class="form-check">
+        <input id="GENEALOGICAL_RECORDS" type="checkbox" name="GENEALOGICAL_RECORDS" required>
+        <label for="GENEALOGICAL_RECORDS" class="form-check-label">Genealogical records</label>
+      </div>
+      <div class="form-check">
+        <input id="MEDICAL_RECORDS" type="checkbox" name="MEDICAL_RECORDS" required>
+        <label for="MEDICAL_RECORDS" class="form-check-label">Medical records</label>
+      </div>
+      <div class="form-check">
+        <input id="BIOLOGICAL_SAMPLES" type="checkbox" name="BIOLOGICAL_SAMPLES" required>
+        <label for="BIOLOGICAL_SAMPLES" class="form-check-label">Biological samples</label>
+      </div>
+      <div class="form-check">
+        <input id="BLOOD" type="checkbox" name="BLOOD" required>
+        <label for="BLOOD" class="form-check-label">Blood count and other lab results especially at the moment of hospital admission</label>
+      </div>
+      <div class="form-check">
+        <input id="OTHER" type="checkbox" name="OTHER" required>
+        <label for="OTHER" class="form-check-label">Other</label>
+      </div>
+      <div class="form-check">
+        <input id="NAV" type="checkbox" name="NAV" required>
+        <label for="NAV" class="form-check-label">Not available</label>
+        <div class="invalid-feedback"><b>Choose at least one data category.</b></div>
+      </div>
+      <div><small class="form-text text-muted">Which types of data are available (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-13</a>).</small></div>
+    </div>
+    <div class="form-row">
+    <div class="form-group col-md-6">
+        <label for="size"><b>Size of the collection:*</b></label>
+        <input type="number" class="form-control" name="size" required>
+        <small class="form-text text-muted">Size of the collection to the given date.</small>
+        <div class="invalid-feedback"><b>Please insert a number.</b></div>
+    </div>
+    <div class="form-group col-md-6">
+        <label for="timestamp"><b>Date last updated:</b></label>
+        <input type="date" class="form-control" name="timestamp">
+        <small class="form-text text-muted">Date to which the indicated size of the collection was valid.</small>
+    </div>
+    </div>
+    <div class="form-group">
+      <label for="operational_standards"><b>Collection standards:</b></label>
+      <div class="form-check">
+        <input id="cen-ts-16826-1-2015" type="checkbox" name="cen-ts-16826-1-2015">
+        <label for="cen-ts-16826-1-2015" class="form-check-label">CEN/TS 16826-1:2015</label>
+      </div>
+      <div class="form-check">
+        <input id="cen-ts-16826-2-2015" type="checkbox" name="cen-ts-16826-2-2015">
+        <label for="cen-ts-16826-2-2015" class="form-check-label">CEN/TS 16826-2:2015</label>
+      </div>
+      <div class="form-check">
+        <input id="cen-ts-16827-1-2015" type="checkbox" name="cen-ts-16827-1-2015">
+        <label for="cen-ts-16827-1-2015" class="form-check-label">CEN/TS 16827-1:2015</label>
+      </div>
+      <div class="form-check">
+        <input id="cen-ts-16827-2-2015" type="checkbox" name="cen-ts-16827-2-2015">
+        <label for="cen-ts-16827-2-2015" class="form-check-label">CEN/TS 16827-2:2015</label>
+      </div>
+      <div class="form-check">
+        <input id="cen-ts-16827-3-2015" type="checkbox" name="cen-ts-16827-3-2015">
+        <label for="cen-ts-16827-3-2015" class="form-check-label">CEN/TS 16827-3:2015</label>
+      </div>
+      <div class="form-check">
+        <input id="cen-ts-16835-1-2015" type="checkbox" name="cen-ts-16835-1-2015">
+        <label for="cen-ts-16835-1-2015" class="form-check-label">CEN/TS 16835-1:2015</label>
+      </div>
+      <div class="form-check">
+        <input id="cen-ts-16835-2-2015" type="checkbox" name="cen-ts-16835-2-2015">
+        <label for="cen-ts-16835-2-2015" class="form-check-label">CEN/TS 16835-2:2015</label>
+      </div>
+      <div class="form-check">
+        <input id="cen-ts-16835-3-2015" type="checkbox" name="cen-ts-16835-3-2015">
+        <label for="cen-ts-16835-3-2015" class="form-check-label">CEN/TS 16835-3:2015</label>
+      </div>
+      <div class="form-check">
+        <input id="cen-ts-16945-2016" type="checkbox" name="cen-ts-16945-2016">
+        <label for="cen-ts-16945-2016" class="form-check-label">CEN/TS 16945:2016</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-9001" type="checkbox" name="iso-9001">
+        <label for="iso-9001" class="form-check-label">ISO 9001</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-15189" type="checkbox" name="iso-15189">
+        <label for="iso-15189" class="form-check-label">ISO 15189</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-15189-2012" type="checkbox" name="iso-15189-2012">
+        <label for="iso-15189-2012" class="form-check-label">ISO 15189:2012</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-15190" type="checkbox" name="iso-15190">
+        <label for="iso-15190" class="form-check-label">ISO 15190</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-17025" type="checkbox" name="iso-17025">
+        <label for="iso-17025" class="form-check-label">ISO 17025</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-17034-2016" type="checkbox" name="iso-17034-2016">
+        <label for="iso-17034-2016" class="form-check-label">ISO 17034:2016</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-17043-2010" type="checkbox" name="iso-17043-2010">
+        <label for="iso-17043-2010" class="form-check-label">ISO 17043:2010</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-20166-1" type="checkbox" name="iso-20166-1">
+        <label for="iso-20166-1" class="form-check-label">ISO 20166-1</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-20166-2" type="checkbox" name="iso-20166-2">
+        <label for="iso-20166-2" class="form-check-label">ISO 20166-2</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-20166-3" type="checkbox" name="iso-20166-3">
+        <label for="iso-20166-3" class="form-check-label">ISO 20166-3</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-20184-1" type="checkbox" name="iso-20184-1">
+        <label for="iso-20184-1" class="form-check-label">ISO 20184-1</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-20184-2" type="checkbox" name="iso-20184-2">
+        <label for="iso-20184-2" class="form-check-label">ISO 20184-2</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-20186-1" type="checkbox" name="iso-20186-1">
+        <label for="iso-20186-1" class="form-check-label">ISO 20186-1</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-20186-2" type="checkbox" name="iso-20186-2">
+        <label for="iso-20186-2" class="form-check-label">ISO 20186-2</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-20186-3" type="checkbox" name="iso-20186-3">
+        <label for="iso-20186-3" class="form-check-label">ISO 20186-3</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-fdis-20387" type="checkbox" name="iso-fdis-20387">
+        <label for="iso-fdis-20387" class="form-check-label">ISO 20387</label>
+      </div>
+      <div class="form-check">
+        <input id="nfs96-900" type="checkbox" name="nfs96-900">
+        <label for="nfs96-900" class="form-check-label">NFS96-900</label>
+      </div>
+      <div class="form-check">
+        <input id="oecd-guidelines" type="checkbox" name="oecd-guidelines">
+        <label for="oecd-guidelines" class="form-check-label">OECD Guidelines</label>
+      </div>
+      <div class="form-check">
+        <input id="oeci_accreditation" type="checkbox" name="oeci_accreditation">
+        <label for="oeci_accreditation" class="form-check-label">OECI Accreditation</label>
+      </div>
+      <div class="form-check">
+        <input id="others" type="checkbox" name="others">
+        <label for="others" class="form-check-label">Others</label>
+      </div>
+      <div><small class="form-text text-muted">List of standards to which the collection complies.</small></div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="card">
+  <div class="card-header" role="tab" id="donorInformation">
+    <a class="collapsed" data-toggle="collapse" data-parent="#accordionForm" href="#collapseDonorInformation"
+    aria-expanded="false" aria-controls="collapseDonorInformation">
+    <h5 class="mb-0">
+      Donor information <i class="fas fa-angle-down rotate-icon"></i>
+    </h5>
+  </a>
+</div>
+<div id="collapseDonorInformation" class="collapse" role="tabpanel" aria-labelledby="donorInformation"
+data-parent="#accordionForm">
+<div class="card-body">
+  <div class="form-group data_categories">
+    <label for="data_categories"><b>Sex:</b></label>
+    <div class="form-check">
+      <input id="NEUTERED_MALE" type="checkbox" name="NEUTERED_MALE">
+      <label for="NEUTERED_MALE" class="form-check-label">Neutered male (animal)</label>
+    </div>
+    <div class="form-check">
+      <input id="NEUTERED_FEMALE" type="checkbox" name="NEUTERED_FEMALE">
+      <label for="NEUTERED_FEMALE" class="form-check-label">Neutered female (animal)</label>
+    </div>
+    <div class="form-check">
+      <input id="UNDIFFERENTIAL" type="checkbox" name="UNDIFFERENTIAL">
+      <label for="UNDIFFERENTIAL" class="form-check-label">Undifferentiated</label>
+    </div>
+    <div class="form-check">
+      <input id="UNKNOWN" type="checkbox" name="UNKNOWN">
+      <label for="UNKNOWN" class="form-check-label">Unknown</label>
+    </div>
+    <div class="form-check">
+      <input id="MALE" type="checkbox" name="MALE">
+      <label for="MALE" class="form-check-label">Male</label>
+    </div>
+    <div class="form-check">
+      <input id="FEMALE" type="checkbox" name="FEMALE">
+      <label for="FEMALE" class="form-check-label">Female</label>
+    </div>
+    <div class="form-check">
+      <input id="NASK" type="checkbox" name="NASK">
+      <label for="NASK" class="form-check-label">Not asked</label>
+    </div>
+    <div class="form-check">
+      <input id="NAV" type="checkbox" name="NAV">
+      <label for="NAV" class="form-check-label">Not available</label>
+    </div>
+    <div><small class="form-text text-muted">The sex of the individuals in the sample collection (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-09</a>).</small></div>
+  </div>
+  <div class="form-group">
+    <label for="diagnosis_available"><b>Diagnoses available in the collection:</b></label>
+    <select class="js-select-diagnoses-multiple form-control" name="diagnosis_available" id="diagnosis_available" style="width:100%"></select>
+    <small class="form-text text-muted">Select one or multiple diagnoses (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-17</a>). Start typing in order to see options. We use <a href="https://icd.who.int/browse10/2019/en">ICD-10 codes for the diagnoses</a>. In case of COVID-19, the relevant diagnoses are: <i>U07.1 COVID-19, virus identified</i> and <i>U07.2 COVID-19, virus not identified</i></small>
+  </div>
+  <div class="form-row">
+  <div class="form-group col-md-6">
+      <label for="number_of_donors"><b>Number of donors:</b></label>
+      <input type="number" class="form-control" name="number_of_donors">
+      <small class="form-text text-muted">Number of donors from whom samples were obtained.</small>
+      <div class="invalid-feedback"><b>Please insert a number.</b></div>
+  </div>
+  </div>
+  <div class="form-row">
+  <div class="form-group col-md-6">
+      <label for="age_low"><b>Age of the youngest donor:</b></label>
+      <input type="number" class="form-control" name="age_low">
+      <small class="form-text text-muted">Age of youngest sample donor at time of sample donation (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-10</a>).</small>
+      <div class="invalid-feedback"><b>Please insert a number.</b></div>
+  </div>
+  <div class="form-group col-md-6">
+      <label for="age_high"><b>Age of the oldest donor:</b></label>
+      <input type="number" class="form-control" name="age_high">
+      <small class="form-text text-muted">Age of oldest sample donor at time of sample donation (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-11</a>).</small>
+      <div class="invalid-feedback"><b>Please insert a number.</b></div>
+  </div>
+  </div>
+  <div class="form-row">
+  <div class="form-group col-md-6">
+    <label for="age_unit"><b>Unit of the age values given above:</b></label>
+    <select class="form-control" id="age_unit" name="age_unit">
+      <option id="YEAR">YEAR</option>
+      <option id="MONTH">MONTH</option>
+      <option id="WEEK">WEEK</option>
+      <option id="DAY">DAY</option>
+    </select>
+    <small class="form-text text-muted">Unit defining Age Low and Age High. Can be one of the following values: years, months, weeks, days (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-12</a>).</small>
+  </div>
+  </div>
+  <div class="form-group">
+    <label for="autopsy"><b>Samples from deceased (autopsy)?</b></label>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="autopsy" id="yes" value="yes">
+      <label class="form-check-label" for="yes">Yes</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="autopsy" id="no" value="no">
+      <label class="form-check-label" for="no">No</label>
+    </div>
+    <small class="form-text text-muted">Indicate whether the samples were obtained during autopsies.</small>
+  </div>
+  <div class="form-group">
+    <label for="minors"><b>Samples from children/minors (<18 years old)?</b></label>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="minors" id="yes" value="yes">
+      <label class="form-check-label" for="yes">Yes</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="minors" id="no" value="no">
+      <label class="form-check-label" for="no">No</label>
+    </div>
+    <small class="form-text text-muted">Indicate whether the samples were obtained from individals below 18 years old.</small>
+  </div>
+  <div class="form-group">
+    <label for="inclusion_criteria"><b>Inclusion criteria:</b></label>
+    <textarea class="form-control" id="inclusion_criteria" rows="3"></textarea>
+    <small class="form-text text-muted">Provide a list of inclusion criteria.</small>
+  </div>
+  <div class="form-group">
+    <label for="exclusion_criteria"><b>Exclusion criteria:</b></label>
+    <textarea class="form-control" id="exclusion_criteria" rows="3"></textarea>
+    <small class="form-text text-muted">Provide a list of exclusion criteria.</small>
+  </div>
+
+</div>
+</div>
+</div>
+<div class="card">
+  <div class="card-header" role="tab" id="SampleInformation">
+    <a class="collapsed" data-toggle="collapse" data-parent="#accordionForm" href="#collapseSampleInformation"
+    aria-expanded="false" aria-controls="collapseSampleInformation">
+    <h5 class="mb-0">
+      Sample information <i class="fas fa-angle-down rotate-icon"></i>
+    </h5>
+  </a>
+</div>
+<div id="collapseSampleInformation" class="collapse" role="tabpanel" aria-labelledby="SampleInformation"
+data-parent="#accordionForm">
+<div class="card-body">
+  <div class="form-group materials">
+    <label for="materials"><b>Available materials:</b></label>
+    <div class="form-check">
+      <input id="BUFFY_COAT" type="checkbox" name="BUFFY_COAT">
+      <label for="BUFFY_COAT" class="form-check-label">Buffy Coat</label>
+    </div>
+    <div class="form-check">
+      <input id="CDNA" type="checkbox" name="CDNA">
+      <label for="CDNA" class="form-check-label">cDNA / mRNA</label>
+    </div>
+    <div class="form-check">
+      <input id="CSF" type="checkbox" name="CSF">
+      <label for="CSF" class="form-check-label">Cerebrospinal fluid</label>
+    </div>
+    <div class="form-check">
+      <input id="CELL_LINES" type="checkbox" name="CELL_LINES">
+      <label for="CELL_LINES" class="form-check-label">Cell lines</label>
+    </div>
+    <div class="form-check">
+      <input id="DNA" type="checkbox" name="DNA">
+      <label for="DNA" class="form-check-label">DNA</label>
+    </div>
+    <div class="form-check">
+      <input id="FECES" type="checkbox" name="FECES">
+      <label for="FECES" class="form-check-label">Feces</label>
+    </div>
+    <div class="form-check">
+      <input id="MICRO_RNA" type="checkbox" name="MICRO_RNA">
+      <label for="MICRO_RNA" class="form-check-label">microRNA</label>
+    </div>
+    <div class="form-check">
+      <input id="NASAL_SWAB" type="checkbox" name="NASAL_SWAB">
+      <label for="NASAL_SWAB" class="form-check-label">Nasal swab</label>
+    </div>
+    <div class="form-check">
+      <input id="PATHOGEN" type="checkbox" name="PATHOGEN">
+      <label for="PATHOGEN" class="form-check-label">Pathogen</label>
+    </div>
+    <div class="form-check">
+      <input id="PERIPHERAL_BLOOD_CELLS" type="checkbox" name="PERIPHERAL_BLOOD_CELLS">
+      <label for="PERIPHERAL_BLOOD_CELLS" class="form-check-label">Peripheral blood cells</label>
+    </div>
+    <div class="form-check">
+      <input id="PLASMA" type="checkbox" name="PLASMA">
+      <label for="PLASMA" class="form-check-label">Plasma</label>
+    </div>
+    <div class="form-check">
+      <input id="RNA" type="checkbox" name="RNA">
+      <label for="RNA" class="form-check-label">RNA</label>
+    </div>
+    <div class="form-check">
+      <input id="SALIVA" type="checkbox" name="SALIVA">
+      <label for="SALIVA" class="form-check-label">Saliva</label>
+    </div>
+    <div class="form-check">
+      <input id="SERUM" type="checkbox" name="SERUM">
+      <label for="SERUM" class="form-check-label">Serum</label>
+    </div>
+    <div class="form-check">
+      <input id="THROAT_SWAB" type="checkbox" name="THROAT_SWAB">
+      <label for="THROAT_SWAB" class="form-check-label">Throat swab</label>
+    </div>
+    <div class="form-check">
+      <input id="TISSUE_FROZEN" type="checkbox" name="TISSUE_FROZEN">
+      <label for="TISSUE_FROZEN" class="form-check-label">Tissue (frozen)</label>
+    </div>
+    <div class="form-check">
+      <input id="TISSUE_PARAFFIN_EMBEDDED" type="checkbox" name="TISSUE_PARAFFIN_EMBEDDED">
+      <label for="TISSUE_PARAFFIN_EMBEDDED" class="form-check-label">Tissue (paraffin preserved)</label>
+    </div>
+    <div class="form-check">
+      <input id="TISSUE_STAINED" type="checkbox" name="TISSUE_STAINED">
+      <label for="TISSUE_STAINED" class="form-check-label">Tissue (stained sections/slides)</label>
+    </div>
+    <div class="form-check">
+      <input id="URINE" type="checkbox" name="URINE">
+      <label for="URINE" class="form-check-label">Urine</label>
+    </div>
+    <div class="form-check">
+      <input id="WHOLE_BLOOD" type="checkbox" name="WHOLE_BLOOD">
+      <label for="WHOLE_BLOOD" class="form-check-label">Whole Blood</label>
+    </div>
+    <div class="form-check">
+      <input id="OTHER" type="checkbox" name="OTHER">
+      <label for="OTHER" class="form-check-label">Other</label>
+    </div>
+    <div><small class="form-text text-muted">Collection contains material(s) of this/these type(s) (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-14</a>).</small></div>
+  </div>
+  <div class="form-group storage_temperatures">
+    <label for="storage_temperatures"><b>Storage temperatures:</b></label>
+    <div class="form-check">
+      <input id="temperatureLN" type="checkbox" name="temperatureLN">
+      <label for="temperatureLN" class="form-check-label">Liquid Nitrogen</label>
+    </div>
+    <div class="form-check">
+      <input id="temperature-60to-85" type="checkbox" name="temperature-60to-85">
+      <label for="temperature-60to-85" class="form-check-label">-60°C to -80°C</label>
+    </div>
+    <div class="form-check">
+      <input id="temperature-18to-35" type="checkbox" name="temperature-18to-35">
+      <label for="temperature-18to-35" class="form-check-label">-18°C to -35°C</label>
+    </div>
+    <div class="form-check">
+      <input id="temperature2to10" type="checkbox" name="temperature2to10">
+      <label for="temperature2to10" class="form-check-label">2°C to 10°C</label>
+    </div>
+    <div class="form-check">
+      <input id="temperatureRoom" type="checkbox" name="temperatureRoom">
+      <label for="temperatureRoom" class="form-check-label">Room temperature</label>
+    </div>
+    <div class="form-check">
+      <input id="temperatureOther" type="checkbox" name="temperatureOther">
+      <label for="temperatureOther" class="form-check-label">Other</label>
+    </div>
+    <div><small class="form-text text-muted">Sample storage temperature(s) - SPREC 2.0 (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-15</a>).</small></div>
+  </div>
+  <div class="form-group">
+    <label for="sample_access_fee"><b>Sample access in exchange for a fee:</b></label>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="sample_access_fee" id="yes" value="yes">
+      <label class="form-check-label" for="yes">Yes</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="sample_access_fee" id="no" value="no">
+      <label class="form-check-label" for="no">No</label>
+    </div>
+    <small class="form-text text-muted">Denotes whether access to samples may be obtained on fee-based basis.</small>
+  </div>
+  <div class="form-group">
+    <label for="sample_access_joint_project"><b>Samples access on the basis of a joint project:</b></label>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="sample_access_joint_project" id="yes" value="yes">
+      <label class="form-check-label" for="yes">Yes</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="sample_access_joint_project" id="no" value="no">
+      <label class="form-check-label" for="no">No</label>
+    </div>
+    <small class="form-text text-muted">Denotes whether access to samples may be obtained on joint project basis.</small>
+  </div>
+  <div class="form-group">
+    <label for="sample_access_description"><b>Short description of sample access rules:</b></label>
+    <textarea class="form-control" id="sample_access_description" rows="3"></textarea>
+    <small class="form-text text-muted">Short description of sample access rules.</small>
+  </div>
+  <div class="form-group">
+    <label for="sample_access_uri"><b>URL describing access policy for samples:</b></label>
+    <input type="sample_access_uri" class="form-control" name="url">
+    <small class="form-text text-muted">URL describing access policy for the samples.</small>
+  </div>
+
+</div>
+</div>
+</div>
+<div class="card">
+  <div class="card-header" role="tab" id="ImagingInformation">
+    <a class="collapsed" data-toggle="collapse" data-parent="#accordionForm" href="#collapseImagingInformation"
+    aria-expanded="false" aria-controls="collapseImagingInformation">
+    <h5 class="mb-0">
+      Imaging data information <i class="fas fa-angle-down rotate-icon"></i>
+    </h5>
+  </a>
+</div>
+<div id="collapseImagingInformation" class="collapse" role="tabpanel" aria-labelledby="ImagingInformation"
+data-parent="#accordionForm">
+<div class="card-body">
+  <div class="form-group">
+    <label for="body_part_examined"><b>The examined body parts:</b></label>
+    <select class="js-select-bodypart-multiple form-control" name="body_part_examined" id="body_part_examined" style="width:100%"></select>
+    <small class="form-text text-muted">Select one or multiple body parts that were examined. The terms follow the <a href="http://bioportal.bioontology.org/ontologies/SNOMEDCT?p=summary">SNOMED CT ontology</a>.</small>
+  </div>
+  <div class="form-group">
+    <label for="imaging_modality"><b>Imaging modalities:</b></label>
+    <select class="js-select-imagingmodalities-multiple form-control" name="imaging_modality" id="imaging_modality" style="width:100%"></select>
+    <small class="form-text text-muted">Select one or multiple imaging modalities. The terms follow the <a href="https://www.dicomstandard.org/current">DICOM standard names</a>.</small>
+  </div>
+  <div class="form-group">
+    <label for="image_dataset_type"><b>Types of the imaging datasets:</b></label>
+    <select class="js-select-imagingdatatypes-multiple form-control" name="image_dataset_type" id="image_dataset_type" style="width:100%"></select>
+    <small class="form-text text-muted">Select one or multiple imaging dataset types. The terms follow the <a href="https://www.dicomstandard.org/current">DICOM Media Storage Standard SOP Classes</a>.</small>
+  </div>
+  <div class="form-group">
+    <label for="image_access_fee"><b>Imaging data access in exchange for a fee:</b></label>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="image_access_fee" id="yes" value="yes">
+      <label class="form-check-label" for="yes">Yes</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="image_access_fee" id="no" value="no">
+      <label class="form-check-label" for="no">No</label>
+    </div>
+    <small class="form-text text-muted">Denotes whether access to images may be obtained on fee-based basis.</small>
+  </div>
+  <div class="form-group">
+    <label for="image_joint_projects"><b>Imaging data access on the basis of a joint project:</b></label>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="image_joint_projects" id="yes" value="yes">
+      <label class="form-check-label" for="yes">Yes</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="image_joint_projects" id="no" value="no">
+      <label class="form-check-label" for="no">No</label>
+    </div>
+    <small class="form-text text-muted">Denotes whether access to images may be obtained on joint project basis.</small>
+  </div>
+  <div class="form-group">
+    <label for="image_access_description"><b>Short description of imaging data access rules:</b></label>
+    <textarea class="form-control" id="image_access_description" rows="3"></textarea>
+    <small class="form-text text-muted">Short description of imaging data access rules.</small>
+  </div>
+  <div class="form-group">
+    <label for="image_access_uri"><b>URL describing access policy for imaging data:</b></label>
+    <input type="image_access_uri" class="form-control" name="url">
+    <small class="form-text text-muted">URL describing access policy for the images.</small>
+  </div>
+</div>
+</div>
+</div>
+<div class="card">
+  <div class="card-header" role="tab" id="OtherData">
+    <a class="collapsed" data-toggle="collapse" data-parent="#accordionForm" href="#collapseOtherData"
+    aria-expanded="false" aria-controls="collapseOtherData">
+    <h5 class="mb-0">
+      Other data information <i class="fas fa-angle-down rotate-icon"></i>
+    </h5>
+  </a>
+</div>
+<div id="collapseOtherData" class="collapse" role="tabpanel" aria-labelledby="OtherData"
+data-parent="#accordionForm">
+<div class="card-body">
+  <div class="form-group">
+    <label for="data_access_fee"><b>Other data access in exchange for a fee:</b></label>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="data_access_fee" id="yes" value="yes">
+      <label class="form-check-label" for="yes">Yes</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="sample_access_fee" id="no" value="no">
+      <label class="form-check-label" for="no">No</label>
+    </div>
+    <small class="form-text text-muted">Denotes whether access to other data may be obtained on fee-based basis.</small>
+  </div>
+  <div class="form-group">
+    <label for="data_access_joint_project"><b>Other data access on the basis of a joint project:</b></label>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="data_access_joint_project" id="yes" value="yes">
+      <label class="form-check-label" for="yes">Yes</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="data_access_joint_project" id="no" value="no">
+      <label class="form-check-label" for="no">No</label>
+    </div>
+    <small class="form-text text-muted">Denotes whether access to other data may be obtained on joint project basis.</small>
+  </div>
+  <div class="form-group">
+    <label for="data_access_description"><b>Short description of other data access rules:</b></label>
+    <textarea class="form-control" id="data_access_description" rows="3"></textarea>
+    <small class="form-text text-muted">Short description of other data access rules.</small>
+  </div>
+  <div class="form-group">
+    <label for="data_access_uri"><b>URL describing access policy for other data:</b></label>
+    <input type="data_access_uri" class="form-control" name="url">
+    <small class="form-text text-muted">URL describing access policy for other data.</small>
+  </div>
+</div>
+</div>
+</div>
+<div class="card">
+  <div class="card-header" role="tab" id="Contact">
+    <a class="collapsed" data-toggle="collapse" data-parent="#accordionForm" href="#collapseContact"
+    aria-expanded="false" aria-controls="collapseContact">
+    <h5 class="mb-0">
+      Contact information* <i class="fas fa-angle-down rotate-icon"></i>
+    </h5>
+  </a>
+</div>
+<div id="collapseContact" class="collapse" role="tabpanel" aria-labelledby="Contact"
+data-parent="#accordionForm">
+<div class="card-body">
+  <h5>Collection head</h5>
+  <div class="form-row">
+  <div class="form-group col-md-6 mt-2">
+      <label for="head_firstname"><b>First name of the collection head:</b></label>
+      <input type="text" class="form-control" name="head_firstname">
+      <small class="form-text text-muted">First name of a person in charge of the collection, typically PI.</small>
+  </div>
+  <div class="form-group  col-md-6 mt-2">
+      <label for="head_lastname"><b>Last name of the collection head:</b></label>
+      <input type="text" class="form-control" name="head_lastname">
+      <small class="form-text text-muted">Last name of a person in charge of the collection, typically PI.</small>
+  </div>
+  </div>
+  <div class="form-row">
+  <div class="form-group col-md-6">
+      <label for="head_role"><b>Official role of the collection head:</b></label>
+      <input type="text" class="form-control" name="head_role">
+      <small class="form-text text-muted">Official role of the person in charge of the collection, typically PI.</small>
+  </div>
+  </div>
+  <h5>Collection contact person</h5>
+  <div class="form-row">
+  <div class="form-group col-md-6 mt-2">
+      <label for="first_name"><b>First name of the contact person for enquiries:*</b></label>
+      <input type="text" class="form-control" name="first_name" required>
+      <small class="form-text text-muted">First name of the person who handles enquiries and questions regarding this collection.</small>
+  </div>
+  <div class="form-group col-md-6 mt-2">
+      <label for="last_name"><b>Last name of the contact person for enquiries:*</b></label>
+      <input type="text" class="form-control" name="last_name" required>
+      <small class="form-text text-muted">First name of the person who handles enquiries and questions regarding this collection.</small>
+  </div>
+  </div>
+  <div class="form-row">
+  <div class="form-group col-md-6">
+      <label for="email"><b>E-mail of the contact person for enquiries:*</b></label>
+      <input type="email" class="form-control" name="email" required>
+      <small class="form-text text-muted">E-mail address of the person who handles enquiries and questions regarding this collection.</small>
+  </div>
+  <div class="form-group col-md-6">
+      <label for="phone"><b>Phone number of the contact person for enquiries:</b></label>
+      <input type="text" class="form-control" name="phone">
+      <small class="form-text text-muted">Phone number of the person who handles enquiries and questions regarding this collection. To be filled out including international prefix (+99999999999 form with no spaces).</small>
+  </div>
+  </div>
+  <h5>Other collaborations</h5>
+  <div class="form-group">
+    <label for="collaboration_commercial"><b>Open to collaboration with commercial partners:</b></label>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="collaboration_commercial" id="yes" value="yes">
+      <label class="form-check-label" for="yes">Yes</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="collaboration_commercial" id="no" value="no">
+      <label class="form-check-label" for="no">No</label>
+    </div>
+    <small class="form-text text-muted">Collection can be used for collaboration with commercial partners.</small>
+  </div>
+  <div class="form-group">
+    <label for="collaboration_non_for_profit"><b>Open to collaboration with not-for-profit partners:</b></label>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="collaboration_non_for_profit" id="yes" value="yes">
+      <label class="form-check-label" for="yes">Yes</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="collaboration_non_for_profit" id="no" value="no">
+      <label class="form-check-label" for="no">No</label>
+    </div>
+    <small class="form-text text-muted">Collection can be used for collaboration with not-for-profit partners.</small>
+  </div>
+</div>
+</div>
+</div>
+<div class="card">
+  <div class="card-header" role="tab" id="CollectionUsage">
+    <a class="collapsed" data-toggle="collapse" data-parent="#accordionForm" href="#collapseCollectionUsage"
+    aria-expanded="false" aria-controls="collapseCollectionUsage">
+    <h5 class="mb-0">
+      Publications based on the collection <i class="fas fa-angle-down rotate-icon"></i>
+    </h5>
+  </a>
+</div>
+<div id="collapseCollectionUsage" class="collapse" role="tabpanel" aria-labelledby="CollectionUsage"
+data-parent="#accordionForm">
+<div class="card-body">
+  <div class="form-group">
+    <label for="description"><b>Published articles and preprints which used the samples or data belonging to the collection:</b></label>
+    <textarea class="form-control" id="description" rows="5"></textarea>
+    <small class="form-text text-muted">Please provide a list with full references including DOIs for each published article or preprint. This information will be displayed on the collection page.</small>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<button type="submit" class="btn btn-secondary mt-3">Submit the form</button>
+</form>
+
+<script>
+  var form = document.querySelector('.needs-validation');
+  form.addEventListener('submit', function(event){
+      if(form.checkValidity() === false) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+      form.classList.add('was-validated')
+  })
+
+  $(function(){
+    var requiredCheckboxes = $('.regions :checkbox[required]');
+    requiredCheckboxes.change(function(){
+        if(requiredCheckboxes.is(':checked')) {
+            requiredCheckboxes.removeAttr('required');
+        } else {
+            requiredCheckboxes.attr('required', 'required');
+        }
+    });
+  });
+
+  $(function(){
+    var requiredCheckboxes = $('.types :checkbox[required]');
+    requiredCheckboxes.change(function(){
+        if(requiredCheckboxes.is(':checked')) {
+            requiredCheckboxes.removeAttr('required');
+        } else {
+            requiredCheckboxes.attr('required', 'required');
+        }
+    });
+  });
+
+  $(function(){
+    var requiredCheckboxes = $('.data_categories :checkbox[required]');
+    requiredCheckboxes.change(function(){
+        if(requiredCheckboxes.is(':checked')) {
+            requiredCheckboxes.removeAttr('required');
+        } else {
+            requiredCheckboxes.attr('required', 'required');
+        }
+    });
+  });
+
+  // bodyparts list
+  $(document).ready(function() {
+  $.ajax({
+    width: '100%',
+    async: true,
+    url: "/biobanks/bodyparts_list.json",
+    dataType: "json",
+    success: function (data) {
+      data = $.map(data, function (item) {
+        return {
+          text: item.text,
+          id: item.id
+        };
+      });
+      $(".js-select-bodypart-multiple").select2({
+        multiple: true,
+        data: data
+        });
+        }
+      });
+    });
+
+    // diagnoses list
+    $(document).ready(function() {
+      $.ajax({
+        async: true,
+        url: "/biobanks/diagnoses_list.json",
+        dataType: "json",
+        success: function (data) {
+          data = $.map(data, function (item) {
+            return {
+              text: item.text,
+              id: item.id
+            };
+          });
+          $(".js-select-diagnoses-multiple").select2({
+            multiple: true,
+            minimumInputLength: 2,
+            data: data
+          });
+        }
+      });
+    });
+
+    // imaging modalities list
+    $(document).ready(function() {
+      $.ajax({
+        async: true,
+        url: "/biobanks/imagingmodalities_list.json",
+        dataType: "json",
+        success: function (data) {
+          data = $.map(data, function (item) {
+            return {
+              text: item.text,
+              id: item.id
+            };
+          });
+          $(".js-select-imagingmodalities-multiple").select2({
+            multiple: true,
+            data: data
+          });
+        }
+      });
+    });
+
+    // imaging dataset types list
+    $(document).ready(function() {
+      $.ajax({
+        async: true,
+        url: "/biobanks/imagingdatatypes_list.json",
+        dataType: "json",
+        success: function (data) {
+          data = $.map(data, function (item) {
+            return {
+              text: item.text,
+              id: item.id
+            };
+          });
+          $(".js-select-imagingdatatypes-multiple").select2({
+            multiple: true,
+            data: data
+          });
+        }
+      });
+    });
+
+</script>
