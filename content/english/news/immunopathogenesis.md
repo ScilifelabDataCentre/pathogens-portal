@@ -18,10 +18,10 @@ The researchers found a profound and preferential decline in MAIT cells in the c
 
 The researchers shared their findings early in a preprint on medRxiv (first version published on 01.09.2020) and has gained attention and citations. The data from the article is available from the [article page on the *Science Immunology* website](https://immunology.sciencemag.org/content/suppl/2020/09/25/5.51.eabe1670.DC1). This project is part of the [Karolinska KI/K COVID-19 Immune Atlas](https://covid19cellatlas.com/#/).
 
-*The Project is funded by grants to J.K.S. from the Swedish Research Council (2016-03052), the Swedish Cancer Society (CAN 2017/777), the Swedish Heart-Lung Foundation (20180675), the Center for Innovative Medicine (20190732), and Karolinska Institutet. K.S. was supported by the Center for Innovative Medicine (20180864). H.-G.L. and the Karolinska COVID-19 Study Group were supported by the Knut and Alice Wallenberg foundation and Nordstjernan AB.*
+*The project is funded by grants to J.K.S. from the Swedish Research Council (2016-03052), the Swedish Cancer Society (CAN 2017/777), the Swedish Heart-Lung Foundation (20180675), the Center for Innovative Medicine (20190732), and Karolinska Institutet. K.S. was supported by the Center for Innovative Medicine (20180864). H.-G.L. and the Karolinska COVID-19 Study Group were supported by the Knut and Alice Wallenberg foundation and Nordstjernan AB.*
 
 #### Article
 
-DOI: [10.1126/sciimmunol.abe1670](https://doi.org/10.1126/sciimmunol.abe1670 )
+DOI: [10.1126/sciimmunol.abe1670](https://doi.org/10.1126/sciimmunol.abe1670)
 
 Parrot T., Gorin J-B., Ponzetta A, Maleki K.T., Kammann T., Emgård J., Perez-Potti A., Sekine T., Rivera-Ballesteros O., The Karolinska COVID-19 Study Group, Gredmark-Russ S., Rooyackers O., Folkesson E., Eriksson L. I., Norrby-Teglund A., Ljunggren H-G., Björkström N. K., Aleman S., Buggert M., Klingström J., Strålin K., Sandberg J. K.  *Science Immunology*, **5** (51), eabe1670 (2020).
