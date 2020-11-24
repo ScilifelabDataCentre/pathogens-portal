@@ -1186,5 +1186,45 @@
     "end": "2020-11-30",
     "url_sv": "https://www.swecris.se/betasearch/details/project/202002102Vinnova",
     "url_eng": "https://www.swecris.se/betasearch/details/project/202002102Vinnova?lang=en"
+  },
+  {
+    "funder": "horizon2020",
+    "project_title_eng": "Fighting-off coronavirus (SARS-CoV-2) with broad-spectrum antivirals: establishing animal viral challenge model",
+    "pi": "Anna-Lena Spetz",
+    "pi_affiliation_eng": "Stockholm University",
+    "pi_affiliation_sv": "Stockholms universitet",
+    "start": "2020-04-01",
+    "end": "2022-03-31",
+    "url_eng": "https://cordis.europa.eu/project/id/101003555"
+  },
+  {
+    "funder": "horizon2020",
+    "project_title_eng": "Antibody therapy against coronavirus (COVID-19)",
+    "pi": "Qiang Pan Hammarström, Harold Marcotte, Lennart Hammarström",
+    "pi_affiliation_eng": "Karolinska Institute",
+    "pi_affiliation_sv": "Karolinska Institutet",
+    "start": "2020-04-01",
+    "end": "2022-03-31",
+    "url_eng": "https://cordis.europa.eu/project/id/101003650"
+  },
+  {
+    "funder": "horizon2020",
+    "project_title_eng": "Rapid therapy development through Open Coronavirus Vaccine Platform",
+    "pi": "Matti Sällberg, Gustaf Ahlén",
+    "pi_affiliation_eng": "Karolinska Institute",
+    "pi_affiliation_sv": "Karolinska Institutet",
+    "start": "2020-04-01",
+    "end": "2022-03-31",
+    "url_eng": "https://cordis.europa.eu/project/id/101003666"
+  },
+  {
+    "funder": "horizon2020",
+    "project_title_eng": "Nanobodies and antibodies against 2019-nCoV",
+    "pi": "Benjamin Murrell, Gerald McInerney, Gunilla Karlsson Hedestam",
+    "pi_affiliation_eng": "Karolinska Institute",
+    "pi_affiliation_sv": "Karolinska Institutet",
+    "start": "2020-04-01",
+    "end": "2022-03-31",
+    "url_eng": "https://cordis.europa.eu/project/id/101003653"
   }
 ]

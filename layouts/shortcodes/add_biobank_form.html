@@ -1,0 +1,553 @@
+<form class="needs-validation" novalidate>
+
+  <div class="accordion md-accordion" id="accordionForm" role="tablist" aria-multiselectable="true">
+    <div class="card">
+      <div class="card-header" role="tab" id="generalinfo">
+        <a data-toggle="collapse" data-parent="#accordionForm" href="#collapseGeneralInformation" aria-expanded="true"
+        aria-controls="collapseGeneralInformation">
+        <h5 class="mb-0">
+          General information* <i class="fas fa-angle-down rotate-icon"></i>
+        </h5>
+      </a>
+    </div>
+    <div id="collapseGeneralInformation" class="collapse show" role="tabpanel" aria-labelledby="generalinfo"
+    data-parent="#accordionForm">
+    <div class="card-body">
+      <div class="form-group">
+        <label for="name"><b>Biobank name:*</b></label>
+        <input type="text" class="form-control" name="name" required>
+        <small class="form-text text-muted">Provide the full name of the biobank (as required by <a target="_blank" href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Biobank.md">MIABIS-2.0-03</a>).</small>
+      </div>
+      <div class="form-group">
+        <label for="juridicalPerson"><b>Juridical person:*</b></label>
+        <input type="text" class="form-control" name="juridicalPerson" required>
+        <small class="form-text text-muted">Juristic person of a biobank (as required by <a target="_blank" href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Biobank.md">MIABIS-2.0-05</a>).</small>
+      </div>
+      <div class="form-group regions">
+        <label for="region"><b>Region:*</b></label>
+        <div class="form-check">
+          <input id="region-bl" type="checkbox" name="region-bl" required>
+          <label for="region-bl" class="form-check-label">Blekinge</label>
+        </div>
+        <div class="form-check">
+          <input id="region-da" type="checkbox" name="region-da" required>
+          <label for="region-da" class="form-check-label">Dalarna</label>
+        </div>
+        <div class="form-check">
+          <input id="region-go" type="checkbox" name="region-go" required>
+          <label for="region-go" class="form-check-label">Gotland</label>
+        </div>
+        <div class="form-check">
+          <input id="region-ga" type="checkbox" name="region-ga" required>
+          <label for="region-ga" class="form-check-label">Gävleborg</label>
+        </div>
+        <div class="form-check">
+          <input id="region-ha" type="checkbox" name="region-ha" required>
+          <label for="region-ha" class="form-check-label">Halland</label>
+        </div>
+        <div class="form-check">
+          <input id="region-ja" type="checkbox" name="region-ja" required>
+          <label for="region-ja" class="form-check-label">Jämtland Härjedalen</label>
+        </div>
+        <div class="form-check">
+          <input id="region-jo" type="checkbox" name="region-jo" required>
+          <label for="region-jo" class="form-check-label">Jönköpings län</label>
+        </div>
+        <div class="form-check">
+          <input id="region-ka" type="checkbox" name="region-ka" required>
+          <label for="region-ka" class="form-check-label">Kalmar län</label>
+        </div>
+        <div class="form-check">
+          <input id="region-kr" type="checkbox" name="region-kr" required>
+          <label for="region-kr" class="form-check-label">Kronoberg</label>
+        </div>
+        <div class="form-check">
+          <input id="region-no" type="checkbox" name="region-no" required>
+          <label for="region-no" class="form-check-label">Norrbotten</label>
+        </div>
+        <div class="form-check">
+          <input id="region-sk" type="checkbox" name="region-sk" required>
+          <label for="region-sk" class="form-check-label">Skåne</label>
+        </div>
+        <div class="form-check">
+          <input id="region-st" type="checkbox" name="region-st" required>
+          <label for="region-st" class="form-check-label">Stockholm</label>
+        </div>
+        <div class="form-check">
+          <input id="region-so" type="checkbox" name="region-so" required>
+          <label for="region-so" class="form-check-label">Sörmland</label>
+        </div>
+        <div class="form-check">
+          <input id="region-up" type="checkbox" name="region-up" required>
+          <label for="region-up" class="form-check-label">Uppsala</label>
+        </div>
+        <div class="form-check">
+          <input id="region-var" type="checkbox" name="region-var" required>
+          <label for="region-var" class="form-check-label">Värmland</label>
+        </div>
+        <div class="form-check">
+          <input id="region-vasterbotten" type="checkbox" name="region-vasterbotten" required>
+          <label for="region-vasterbotten" class="form-check-label">Västerbotten</label>
+        </div>
+        <div class="form-check">
+          <input id="region-vasternorrland" type="checkbox" name="region-vasternorrland" required>
+          <label for="region-vasternorrland" class="form-check-label">Västernorrland</label>
+        </div>
+        <div class="form-check">
+          <input id="region-vastragotaland" type="checkbox" name="region-vastragotaland" required>
+          <label for="region-vastragotaland" class="form-check-label">Västra Götalandsregionen</label>
+        </div>
+        <div class="form-check">
+          <input id="region-vastmanland" type="checkbox" name="region-vastmanland" required>
+          <label for="region-vastmanland" class="form-check-label">Västmanland</label>
+        </div>
+        <div class="form-check">
+          <input id="region-or" type="checkbox" name="region-or" required>
+          <label for="region-or" class="form-check-label">Örebro län</label>
+        </div>
+        <div class="form-check">
+          <input id="region-os" type="checkbox" name="region-os" required>
+          <label for="region-os" class="form-check-label">Östergötland</label>
+          <div class="invalid-feedback"><b>Choose at least one region.</b></div>
+        </div>
+        <div><small class="form-text text-muted">Choose the region(s) in which the biobank is located.</small></div>
+      </div>
+      <div class="form-group">
+        <label for="biobank_sverige"><b>Is the biobank part of Biobank Sverige?*</b></label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="biobank_sverige" id="yes" value="yes" required>
+          <label class="form-check-label" for="yes">Yes</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="biobank_sverige" id="no" value="no">
+          <label class="form-check-label" for="no">No</label>
+        </div>
+        <small class="form-text text-muted">The biobank belong to the Biobank Sverige network.</small>
+      </div>
+      <div class="form-group">
+        <label for="id"><b>BBMRI-ERIC biobank ID:</b></label>
+        <input type="text" class="form-control" name="id">
+        <small class="form-text text-muted">If the biobank is already listed in BBMRI-ERIC, please provide its ID. These IDs are based on MIABIS 2.0 standard (ISO 3166-1 alpha-2 + underscore + biobank national ID or name), prefixed with bbmri-eric:ID: string. For example, <i>bbmri-eric:ID:SE_9999</i>.</small>
+      </div>
+      <div class="form-group">
+        <label for="partner_charter_signed"><b>Has the biobank signed the BBMRI-ERIC Partner Charter?</b></label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="partner_charter_signed" id="yes" value="yes">
+          <label class="form-check-label" for="yes">Yes</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="partner_charter_signed" id="no" value="no">
+          <label class="form-check-label" for="no">No</label>
+        </div>
+        <small class="form-text text-muted">The biobank has signed BBMRI-ERIC Partner Charter.</small>
+      </div>
+      <div class="form-group">
+        <label for="acronym"><b>Biobank acronym:</b></label>
+        <input type="text" class="form-control" name="acronym">
+        <small class="form-text text-muted">Biobank acronym (as required by <a target="_blank" href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Biobank.md">MIABIS-2.0-02</a>).</small>
+      </div>
+      <div class="form-group">
+        <label for="url"><b>Biobank homepage URL:</b></label>
+        <input type="url" class="form-control" name="url">
+        <small class="form-text text-muted">Biobank URL (as required by <a target="_blank" href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Biobank.md">MIABIS-2.0-04</a>).</small>
+      </div>
+      <div class="form-group">
+        <label for="description"><b>Biobank description:</b></label>
+        <textarea class="form-control" id="description" rows="3"></textarea>
+        <small class="form-text text-muted">Biobank description (as required by <a target="_blank" href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Biobank.md">MIABIS-2.0-08</a>).</small>
+      </div>
+      <div class="form-group">
+          <label for="bioresource_reference"><b>Biobank reference(s):</b></label>
+          <textarea class="form-control" id="bioresource_reference" rows="3"></textarea>
+          <small class="form-text text-muted">Please provide a reference to a published article or a preprint (including DOI) that should be cited when resources from this biobank are used for research.</small>
+      </div>
+      <div class="form-group">
+          <label for="logoURL"><b>Biobank logo URL:</b></label>
+          <input type="url" class="form-control" name="logoURL">
+          <small class="form-text text-muted">If the biobank has a logotype, please provide a URL of this logo (http://..). The logo will be displayed on the page of the biobank in the registry.</small>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="generalinfo">
+      <a data-toggle="collapse" data-parent="#accordionForm" href="#collapseContactInformation" aria-expanded="false"
+      aria-controls="collapseContactInformation">
+      <h5 class="mb-0">
+        Contact information* <i class="fas fa-angle-down rotate-icon"></i>
+      </h5>
+    </a>
+  </div>
+  <div id="collapseContactInformation" class="collapse" role="tabpanel" aria-labelledby="generalinfo"
+  data-parent="#accordionForm">
+  <div class="card-body">
+    <h5>Location</h5>
+    <div class="form-row">
+    <div class="form-group col-md-6">
+        <label for="city"><b>Biobank location city:*</b></label>
+        <input type="text" class="form-control" name="city" required>
+        <small class="form-text text-muted">Provide city name.</small>
+    </div>
+    <div class="form-group col-md-6">
+        <label for="zip"><b>Biobank location zip/postal code:</b></label>
+        <input type="text" class="form-control" name="zip">
+        <small class="form-text text-muted">Provide ZIP or Postal code.</small>
+    </div>
+    </div>
+    <div class="form-row">
+    <div class="form-group col-md-6">
+        <label for="latitude"><b>Biobank location latitude:</b></label>
+        <input type="text" class="form-control" name="latitude">
+        <small class="form-text text-muted">Latitude of the biobank in the WGS84 system (the one used by GPS), positive is northern hemisphere.</small>
+    </div>
+    <div class="form-group col-md-6">
+        <label for="longitude"><b>Biobank location longitude:</b></label>
+        <input type="text" class="form-control" name="longitude">
+        <small class="form-text text-muted">Longitude of the biobank in the WGS84 system (the one used by GPS), positive is to the East of Greenwich.</small>
+    </div>
+    </div>
+    <h5>Biobank head</h5>
+    <div class="form-row">
+    <div class="form-group col-md-6">
+        <label for="head_firstname"><b>First name of the biobank head:</b></label>
+        <input type="text" class="form-control" name="head_firstname">
+        <small class="form-text text-muted">First name of a person in charge of the biobank: typically PI or Director.</small>
+    </div>
+    <div class="form-group  col-md-6">
+        <label for="head_lastname"><b>Last name of the biobank head:</b></label>
+        <input type="text" class="form-control" name="head_lastname">
+        <small class="form-text text-muted">Last name of a person in charge of the biobank: typically PI or Director.</small>
+    </div>
+    </div>
+    <div class="form-row">
+    <div class="form-group col-md-6">
+        <label for="head_role"><b>Official role of the biobank head:</b></label>
+        <input type="text" class="form-control" name="head_role">
+        <small class="form-text text-muted">Official role of the person in charge of the biobank: typically PI or Director.</small>
+    </div>
+    </div>
+    <h5>Contact person</h5>
+    <div class="form-row">
+    <div class="form-group col-md-6">
+        <label for="first_name"><b>First name of the contact person for enquiries:*</b></label>
+        <input type="text" class="form-control" name="first_name" required>
+        <small class="form-text text-muted">First name of the person who handles enquiries and questions on behalf of the biobank.</small>
+    </div>
+    <div class="form-group col-md-6">
+        <label for="last_name"><b>Last name of the contact person for enquiries:*</b></label>
+        <input type="text" class="form-control" name="last_name" required>
+        <small class="form-text text-muted">First name of the person who handles enquiries and questions on behalf of the biobank.</small>
+    </div>
+    </div>
+    <div class="form-row">
+    <div class="form-group col-md-6">
+        <label for="email"><b>E-mail of the contact person for enquiries:*</b></label>
+        <input type="email" class="form-control" name="email" required>
+        <small class="form-text text-muted">E-mail address of the person who handles enquiries and questions on behalf of the biobank.</small>
+    </div>
+    <div class="form-group col-md-6">
+        <label for="phone"><b>Phone number of the contact person for enquiries:</b></label>
+        <input type="text" class="form-control" name="phone">
+        <small class="form-text text-muted">Phone number of the person who handles enquiries and questions on behalf of the biobank. To be filled out according to MIABIS 2.0 including international prefix (+99999999999 form with no spaces).</small>
+    </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="generalinfo">
+      <a data-toggle="collapse" data-parent="#accordionForm" href="#collapseCOVID19Information" aria-expanded="false"
+      aria-controls="collapseCOVID19Information">
+      <h5 class="mb-0">
+        COVID-19 catabilities <i class="fas fa-angle-down rotate-icon"></i>
+      </h5>
+    </a>
+  </div>
+  <div id="collapseCOVID19Information" class="collapse" role="tabpanel" aria-labelledby="generalinfo"
+  data-parent="#accordionForm">
+  <div class="card-body">
+    <div class="form-group">
+      <label for="covid19biobank"><b>Services provided by the biobank in relation to COVID-19:</b></label>
+      <div class="form-check">
+        <input id="TrialSetupClinical" type="checkbox" name="TrialSetupClinical">
+        <label for="TrialSetupClinical" class="form-check-label">Ability to set up clinical trials</label>
+      </div>
+      <div class="form-check">
+        <input id="proteomics" type="checkbox" name="proteomics">
+        <label for="proteomics" class="form-check-label">Proteomics studies including protein engineering and protein interactions</label>
+      </div>
+      <div class="form-check">
+        <input id="BSL3" type="checkbox" name="BSL3">
+        <label for="BSL3" class="form-check-label">BSL-3 laboratories available</label>
+      </div>
+      <div class="form-check">
+        <input id="BSL2" type="checkbox" name="BSL2">
+        <label for="BSL2" class="form-check-label">BSL-2 laboratories available</label>
+      </div>
+      <div class="form-check">
+        <input id="development_antibody" type="checkbox" name="development_antibody">
+        <label for="development_antibody" class="form-check-label">Antibody Development</label>
+      </div>
+      <div class="form-check">
+        <input id="VSF" type="checkbox" name="VSF">
+        <label for="VSF" class="form-check-label">Virus Sequencing Facility</label>
+      </div>
+      <div class="form-check">
+        <input id="Screening_tools" type="checkbox" name="Screening_tools">
+        <label for="Screening_tools" class="form-check-label">Screening tools for searching virus proteases inhibitors</label>
+      </div>
+      <div class="form-check">
+        <input id="Testing_Facility_Animal" type="checkbox" name="Testing_Facility_Animal">
+        <label for="Testing_Facility_Animal" class="form-check-label">Animal Testing Facility</label>
+      </div>
+      <div class="form-check">
+        <input id="PCR" type="checkbox" name="PCR">
+        <label for="PCR" class="form-check-label">Laboratories doing PCR-based diagnosis</label>
+      </div>
+      <div class="form-check">
+        <input id="ProspectiveCollections" type="checkbox" name="ProspectiveCollections">
+        <label for="ProspectiveCollections" class="form-check-label">Ability to set up prospective collections</label>
+      </div>
+      <div><small class="form-text text-muted">Availability of the services provided by the biobank in relation to COVID-19.</small></div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="generalinfo">
+      <a data-toggle="collapse" data-parent="#accordionForm" href="#collapseOtherInformation" aria-expanded="false"
+      aria-controls="collapseOtherInformation">
+      <h5 class="mb-0">
+        Other information <i class="fas fa-angle-down rotate-icon"></i>
+      </h5>
+    </a>
+  </div>
+  <div id="collapseOtherInformation" class="collapse" role="tabpanel" aria-labelledby="generalinfo"
+  data-parent="#accordionForm">
+  <div class="card-body">
+    <div class="form-group">
+      <label for="collaboration_commercial"><b>Is the biobank open for collaborations with commercial partners?</b></label>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="collaboration_commercial" id="yes" value="yes">
+        <label class="form-check-label" for="yes">Yes</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="collaboration_commercial" id="no" value="no">
+        <label class="form-check-label" for="no">No</label>
+      </div>
+      <small class="form-text text-muted">Biobank can be used for collaboration with commercial partners.</small>
+    </div>
+    <div class="form-group">
+      <label for="collaboration_non_for_profit"><b>Is the biobank open for collaborations with not-for-profit partners?</b></label>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="collaboration_non_for_profit" id="yes" value="yes">
+        <label class="form-check-label" for="yes">Yes</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="collaboration_non_for_profit" id="no" value="no">
+        <label class="form-check-label" for="no">No</label>
+      </div>
+      <small class="form-text text-muted">Biobank can be used for collaboration with not-for-profit partners.</small>
+    </div>
+    <div class="form-group">
+      <label for="capabilities"><b>Biobank capabilities:</b></label>
+      <div class="form-check">
+        <input id="nucleic-acid-extraction" type="checkbox" name="nucleic-acid-extraction">
+        <label for="nucleic-acid-extraction" class="form-check-label">Nucleic acid extraction</label>
+      </div>
+      <div class="form-check">
+        <input id="pathology-archive-access" type="checkbox" name="pathology-archive-access">
+        <label for="pathology-archive-access" class="form-check-label">Access to the full pathology archive</label>
+      </div>
+      <div class="form-check">
+        <input id="digital-imaging" type="checkbox" name="digital-imaging">
+        <label for="digital-imaging" class="form-check-label">Digital imaging</label>
+      </div>
+      <div class="form-check">
+        <input id="cell-culture" type="checkbox" name="cell-culture">
+        <label for="cell-culture" class="form-check-label">Cell culture</label>
+      </div>
+      <div class="form-check">
+        <input id="immunohistochemistry-scoring" type="checkbox" name="immunohistochemistry-scoring">
+        <label for="immunohistochemistry-scoring" class="form-check-label">Immunohistochemistry scoring</label>
+      </div>
+      <div class="form-check">
+        <input id="immunohistochemistry-staining" type="checkbox" name="immunohistochemistry-staining">
+        <label for="immunohistochemistry-staining" class="form-check-label">Immunohistochemistry staining</label>
+      </div>
+      <div class="form-check">
+        <input id="recontact" type="checkbox" name="recontact">
+        <label for="recontact" class="form-check-label">Ability to recontact</label>
+      </div>
+      <div class="form-check">
+        <input id="biomaterial-storage" type="checkbox" name="biomaterial-storage">
+        <label for="biomaterial-storage" class="form-check-label">Biological material storage</label>
+      </div>
+      <div class="form-check">
+        <input id="data-analytics" type="checkbox" name="data-analytics">
+        <label for="data-analytics" class="form-check-label">Data analytics</label>
+      </div>
+      <div class="form-check">
+        <input id="data-storage" type="checkbox" name="data-storage">
+        <label for="data-storage" class="form-check-label">Data Storage</label>
+      </div>
+      <div class="form-check">
+        <input id="tma-creation" type="checkbox" name="tma-creation">
+        <label for="tma-creation" class="form-check-label">Tissue micro array creation</label>
+      </div>
+      <div><small class="form-text text-muted">Capabilities that the biobank organisation can offer to researchers.</small></div>
+    </div>
+    <div class="form-group">
+      <label for="operational_standards"><b>Biobank operational standards:</b></label>
+      <div class="form-check">
+        <input id="cen-ts-16826-1-2015" type="checkbox" name="cen-ts-16826-1-2015">
+        <label for="cen-ts-16826-1-2015" class="form-check-label">CEN/TS 16826-1:2015</label>
+      </div>
+      <div class="form-check">
+        <input id="cen-ts-16826-2-2015" type="checkbox" name="cen-ts-16826-2-2015">
+        <label for="cen-ts-16826-2-2015" class="form-check-label">CEN/TS 16826-2:2015</label>
+      </div>
+      <div class="form-check">
+        <input id="cen-ts-16827-1-2015" type="checkbox" name="cen-ts-16827-1-2015">
+        <label for="cen-ts-16827-1-2015" class="form-check-label">CEN/TS 16827-1:2015</label>
+      </div>
+      <div class="form-check">
+        <input id="cen-ts-16827-2-2015" type="checkbox" name="cen-ts-16827-2-2015">
+        <label for="cen-ts-16827-2-2015" class="form-check-label">CEN/TS 16827-2:2015</label>
+      </div>
+      <div class="form-check">
+        <input id="cen-ts-16827-3-2015" type="checkbox" name="cen-ts-16827-3-2015">
+        <label for="cen-ts-16827-3-2015" class="form-check-label">CEN/TS 16827-3:2015</label>
+      </div>
+      <div class="form-check">
+        <input id="cen-ts-16835-1-2015" type="checkbox" name="cen-ts-16835-1-2015">
+        <label for="cen-ts-16835-1-2015" class="form-check-label">CEN/TS 16835-1:2015</label>
+      </div>
+      <div class="form-check">
+        <input id="cen-ts-16835-2-2015" type="checkbox" name="cen-ts-16835-2-2015">
+        <label for="cen-ts-16835-2-2015" class="form-check-label">CEN/TS 16835-2:2015</label>
+      </div>
+      <div class="form-check">
+        <input id="cen-ts-16835-3-2015" type="checkbox" name="cen-ts-16835-3-2015">
+        <label for="cen-ts-16835-3-2015" class="form-check-label">CEN/TS 16835-3:2015</label>
+      </div>
+      <div class="form-check">
+        <input id="cen-ts-16945-2016" type="checkbox" name="cen-ts-16945-2016">
+        <label for="cen-ts-16945-2016" class="form-check-label">CEN/TS 16945:2016</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-9001" type="checkbox" name="iso-9001">
+        <label for="iso-9001" class="form-check-label">ISO 9001</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-15189" type="checkbox" name="iso-15189">
+        <label for="iso-15189" class="form-check-label">ISO 15189</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-15189-2012" type="checkbox" name="iso-15189-2012">
+        <label for="iso-15189-2012" class="form-check-label">ISO 15189:2012</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-15190" type="checkbox" name="iso-15190">
+        <label for="iso-15190" class="form-check-label">ISO 15190</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-17025" type="checkbox" name="iso-17025">
+        <label for="iso-17025" class="form-check-label">ISO 17025</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-17034-2016" type="checkbox" name="iso-17034-2016">
+        <label for="iso-17034-2016" class="form-check-label">ISO 17034:2016</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-17043-2010" type="checkbox" name="iso-17043-2010">
+        <label for="iso-17043-2010" class="form-check-label">ISO 17043:2010</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-20166-1" type="checkbox" name="iso-20166-1">
+        <label for="iso-20166-1" class="form-check-label">ISO 20166-1</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-20166-2" type="checkbox" name="iso-20166-2">
+        <label for="iso-20166-2" class="form-check-label">ISO 20166-2</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-20166-3" type="checkbox" name="iso-20166-3">
+        <label for="iso-20166-3" class="form-check-label">ISO 20166-3</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-20184-1" type="checkbox" name="iso-20184-1">
+        <label for="iso-20184-1" class="form-check-label">ISO 20184-1</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-20184-2" type="checkbox" name="iso-20184-2">
+        <label for="iso-20184-2" class="form-check-label">ISO 20184-2</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-20186-1" type="checkbox" name="iso-20186-1">
+        <label for="iso-20186-1" class="form-check-label">ISO 20186-1</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-20186-2" type="checkbox" name="iso-20186-2">
+        <label for="iso-20186-2" class="form-check-label">ISO 20186-2</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-20186-3" type="checkbox" name="iso-20186-3">
+        <label for="iso-20186-3" class="form-check-label">ISO 20186-3</label>
+      </div>
+      <div class="form-check">
+        <input id="iso-fdis-20387" type="checkbox" name="iso-fdis-20387">
+        <label for="iso-fdis-20387" class="form-check-label">ISO 20387</label>
+      </div>
+      <div class="form-check">
+        <input id="nfs96-900" type="checkbox" name="nfs96-900">
+        <label for="nfs96-900" class="form-check-label">NFS96-900</label>
+      </div>
+      <div class="form-check">
+        <input id="oecd-guidelines" type="checkbox" name="oecd-guidelines">
+        <label for="oecd-guidelines" class="form-check-label">OECD Guidelines</label>
+      </div>
+      <div class="form-check">
+        <input id="oeci_accreditation" type="checkbox" name="oeci_accreditation">
+        <label for="oeci_accreditation" class="form-check-label">OECI Accreditation</label>
+      </div>
+      <div class="form-check">
+        <input id="others" type="checkbox" name="others">
+        <label for="others" class="form-check-label">Others</label>
+      </div>
+      <div><small class="form-text text-muted">Applied operational standards.</small></div>
+    </div>
+    <div class="form-group">
+        <label for="other_standards"><b>Other applied standards:</b></label>
+        <input type="text" class="form-control" name="other_standards">
+        <small class="form-text text-muted">Other standards that the biobank complies with.</small>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  <button type="submit" class="btn btn-secondary mt-3">Submit the form</button>
+</form>
+
+<script>
+  var form = document.querySelector('.needs-validation');
+  form.addEventListener('submit', function(event){
+      if(form.checkValidity() === false) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+      form.classList.add('was-validated')
+  })
+
+  $(function(){
+    var requiredCheckboxes = $('.regions :checkbox[required]');
+    requiredCheckboxes.change(function(){
+        if(requiredCheckboxes.is(':checked')) {
+            requiredCheckboxes.removeAttr('required');
+        } else {
+            requiredCheckboxes.attr('required', 'required');
+        }
+    });
+  });
+</script>
