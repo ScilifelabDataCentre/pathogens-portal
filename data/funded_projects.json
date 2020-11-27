@@ -1081,6 +1081,78 @@
     "url_eng": "https://www.swecris.se/betasearch/details/project/202005746VR?lang=en"
   },
   {
+    "funder": "vr",
+    "project_title_eng": "Immunological correlates of protection in COVID-19 disease and after COVID-19 vaccination",
+    "project_title_sv": "Immunologiskt skydd efter COVID-19 sjukdom och efter COVID-19 vaccination",
+    "pi": "Anna Smed Sörensen",
+    "pi_affiliation_eng": "Karolinska Institute",
+   "pi_affiliation_sv": "Karolinska Institutet",
+    "start": "2021-01-01",
+    "end": "2023-12-31",
+    "url_sv": "https://www.swecris.se/betasearch/details/project/202006100VR",
+    "url_eng": "https://www.swecris.se/betasearch/details/project/202006100VR?lang=en"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Stochastic modelling of epidemic outbreaks - post Covid-19",
+    "project_title_sv": "Stokastisk modellering av smittoutbrott - post Covid-19",
+    "pi": "Tom Britton",
+    "pi_affiliation_eng": "Stockholm University",
+   "pi_affiliation_sv": "Stockholms universitet",
+    "start": "2020-12-01",
+    "end": "2024-11-30",
+    "url_sv": "https://www.swecris.se/betasearch/details/project/202004744VR",
+    "url_eng": "https://www.swecris.se/betasearch/details/project/202004744VR?lang=en"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Wuhan Interaction with Stockholm Evidence-based Research (WISER) project on health perspectives in the older population facing the SARS-CoV-2 outbreak",
+    "project_title_sv": "Wuhan-interaktion med Stockholm (WISER) - ett evidensbaserat forskningsprojekt om hälsoperspektiv i den äldre befolkningen under SARS-CoV-2-utbrottet",
+    "pi": "Sara Hägg",
+    "pi_affiliation_eng": "Karolinska Institute",
+    "pi_affiliation_sv": "Karolinska Institutet",
+    "start": "2021-01-01",
+    "end": "2023-12-31",
+    "url_sv": "https://www.swecris.se/betasearch/details/project/202006101VR",
+    "url_eng": "https://www.swecris.se/betasearch/details/project/202006101VR?lang=en"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Mucosal immunity against SARS-CoV-2 – an unexplored field",
+    "project_title_sv": "Mucosaimmunitet mot SARS-CoV-2 - ett försummat fält",
+    "pi": "Qiang Pan-Hammarström",
+    "pi_affiliation_eng": " Karolinska Institute",
+    "pi_affiliation_sv": " Karolinska Institutet",
+    "start": "2021-01-01",
+    "end": "2023-12-31",
+    "url_sv": "https://www.swecris.se/betasearch/details/project/202006116VR",
+    "url_eng": "https://www.swecris.se/betasearch/details/project/202006116VR?lang=en"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Preventing paediatric pneumonia deaths in Nigeria",
+    "project_title_sv": "Förebyggande av dödsfall i barnpneumoni i Nigeria",
+    "pi": "Carina King",
+    "pi_affiliation_eng": "Karolinska Institute",
+    "pi_affiliation_sv": "Karolinska Institutet",
+    "start": "2020-12-01",
+    "end": "2022-12-31",
+    "url_sv": "https://www.swecris.se/betasearch/details/project/202004737VR",
+    "url_eng": "https://www.swecris.se/betasearch/details/project/202004737VR?lang=en"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Interdisciplinary framework on the role of adaptive cellular immunity in SARS-CoV-2 protection",
+    "project_title_sv": "Tvärvetenskapligt ramverk för adaptiv cellulär immunitet mot SARS-CoV-2",
+    "pi": "Marcus Buggert",
+    "pi_affiliation_eng": "Karolinska Institute",
+    "pi_affiliation_sv": "Karolinska Institutet",
+    "start": "2021-01-01",
+    "end": "2023-12-31",
+    "url_sv": "https://www.swecris.se/betasearch/details/project/202006121VR",
+    "url_eng": "https://www.swecris.se/betasearch/details/project/202006121VR?lang=en"
+  },
+  {
     "funder": "nordforsk",
     "project_title_eng": "Addressing the smoking paradox in the etiology of COVID-19 through population-based studies",
     "area_eng": "",
