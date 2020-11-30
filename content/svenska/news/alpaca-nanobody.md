@@ -16,6 +16,8 @@ Hanke and colleagues also reported a cryo electron microscopy structure of the s
 
 To facilitate further research on the potential of Ty1, detailed data has been publicly shared. The researchers have deposited the sequence of Ty1 in the NCBI GenBank sequence database, [accession MT784731](https://www.ncbi.nlm.nih.gov/nuccore/MT784731). ITC data are available [on Github](https://github.com/derpaule/Ty1_octet_itc). Next generation sequencing data is deposited at the SRA, under [BioProject ID PRJNA638614](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA638614). Jupyter notebooks to reproduce the NGS data processing are available [on Github](https://github.com/MurrellGroup/Ty1). The cryo-EM density map of SARS-CoV-2 spike glycoprotein with Ty1 nanobodies bound are deposited in the Electron Microscopy Data Bank, [EMD-11526](https://www.ebi.ac.uk/pdbe/entry/emdb/EMD-11526). The corresponding model was deposited in the Protein Data Bank (PDB), [accession 6ZXN](https://www.rcsb.org/structure/6ZXN).
 
+Those interested in the behind the paper story can read [this blog post by Gerald McInerney](https://naturemicrobiologycommunity.nature.com/posts/spike-tyson).
+
 *This project has received funding from the European Union’s Horizon 2020 research and innovation program under grant agreement No. 101003653 (CoroNAb), to G.M.M., G.B.K.H., and B.M. and from project grants from the Swedish Research Council to B.M. (2018-02381), B.M.H. (2017-6702 and 2018-3808) and to G.M.M. (2018-03914 and 2018-03843).*
 
 #### Article
