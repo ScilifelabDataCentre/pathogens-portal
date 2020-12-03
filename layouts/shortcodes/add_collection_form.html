@@ -40,99 +40,10 @@
       <small class="form-text text-muted">Collection ID within the biobank.</small>
     </div>
     <div class="form-group col-md-6">
-      <label for="id"><b>BBMRI-ERIC collection ID:</b></label>
-      <input type="text" class="form-control" name="id">
+      <label for="bbmri_id"><b>BBMRI-ERIC collection ID:</b></label>
+      <input type="text" class="form-control" name="bbmri_id">
       <small class="form-text text-muted">If the collection is already listed at BBMRI-ERIC, please provide its unique ID within BBMRI-ERIC. This ID is constructed from biobankID prefix + :collection: + local collection ID string (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-01</a>). For example, <i>bbmri-eric:ID:SE_9999:0000</i>.</small>
     </div>
-    </div>
-    <div class="form-group regions">
-      <label for="region"><b>Region:*</b></label>
-      <div class="form-check">
-        <input id="region-bl" type="checkbox" name="region-bl" required>
-        <label for="region-bl" class="form-check-label">Blekinge</label>
-      </div>
-      <div class="form-check">
-        <input id="region-da" type="checkbox" name="region-da" required>
-        <label for="region-da" class="form-check-label">Dalarna</label>
-      </div>
-      <div class="form-check">
-        <input id="region-go" type="checkbox" name="region-go" required>
-        <label for="region-go" class="form-check-label">Gotland</label>
-      </div>
-      <div class="form-check">
-        <input id="region-ga" type="checkbox" name="region-ga" required>
-        <label for="region-ga" class="form-check-label">Gävleborg</label>
-      </div>
-      <div class="form-check">
-        <input id="region-ha" type="checkbox" name="region-ha" required>
-        <label for="region-ha" class="form-check-label">Halland</label>
-      </div>
-      <div class="form-check">
-        <input id="region-ja" type="checkbox" name="region-ja" required>
-        <label for="region-ja" class="form-check-label">Jämtland Härjedalen</label>
-      </div>
-      <div class="form-check">
-        <input id="region-jo" type="checkbox" name="region-jo" required>
-        <label for="region-jo" class="form-check-label">Jönköpings län</label>
-      </div>
-      <div class="form-check">
-        <input id="region-ka" type="checkbox" name="region-ka" required>
-        <label for="region-ka" class="form-check-label">Kalmar län</label>
-      </div>
-      <div class="form-check">
-        <input id="region-kr" type="checkbox" name="region-kr" required>
-        <label for="region-kr" class="form-check-label">Kronoberg</label>
-      </div>
-      <div class="form-check">
-        <input id="region-no" type="checkbox" name="region-no" required>
-        <label for="region-no" class="form-check-label">Norrbotten</label>
-      </div>
-      <div class="form-check">
-        <input id="region-sk" type="checkbox" name="region-sk" required>
-        <label for="region-sk" class="form-check-label">Skåne</label>
-      </div>
-      <div class="form-check">
-        <input id="region-st" type="checkbox" name="region-st" required>
-        <label for="region-st" class="form-check-label">Stockholm</label>
-      </div>
-      <div class="form-check">
-        <input id="region-so" type="checkbox" name="region-so" required>
-        <label for="region-so" class="form-check-label">Sörmland</label>
-      </div>
-      <div class="form-check">
-        <input id="region-up" type="checkbox" name="region-up" required>
-        <label for="region-up" class="form-check-label">Uppsala</label>
-      </div>
-      <div class="form-check">
-        <input id="region-var" type="checkbox" name="region-var" required>
-        <label for="region-var" class="form-check-label">Värmland</label>
-      </div>
-      <div class="form-check">
-        <input id="region-vasterbotten" type="checkbox" name="region-vasterbotten" required>
-        <label for="region-vasterbotten" class="form-check-label">Västerbotten</label>
-      </div>
-      <div class="form-check">
-        <input id="region-vasternorrland" type="checkbox" name="region-vasternorrland" required>
-        <label for="region-vasternorrland" class="form-check-label">Västernorrland</label>
-      </div>
-      <div class="form-check">
-        <input id="region-vastragotaland" type="checkbox" name="region-vastragotaland" required>
-        <label for="region-vastragotaland" class="form-check-label">Västra Götalandsregionen</label>
-      </div>
-      <div class="form-check">
-        <input id="region-vastmanland" type="checkbox" name="region-vastmanland" required>
-        <label for="region-vastmanland" class="form-check-label">Västmanland</label>
-      </div>
-      <div class="form-check">
-        <input id="region-or" type="checkbox" name="region-or" required>
-        <label for="region-or" class="form-check-label">Örebro län</label>
-      </div>
-      <div class="form-check">
-        <input id="region-os" type="checkbox" name="region-os" required>
-        <label for="region-os" class="form-check-label">Östergötland</label>
-        <div class="invalid-feedback"><b>Choose at least one region.</b></div>
-      </div>
-      <div><small class="form-text text-muted">Choose the region(s) from which the collection was collected.</small></div>
     </div>
     <div class="form-group">
       <label for="description"><b>Collection description:</b></label>
@@ -154,11 +65,6 @@
       <input type="text" class="form-control" name="ethics_id" required>
       <small class="form-text text-muted">Registration number of the Swedish ethical approval.</small>
     </div>
-    <div class="form-group">
-      <label for="pi_name"><b>Principal investigator name</b></label>
-      <input type="text" class="form-control" name="pi_name">
-      <small class="form-text text-muted">Name of the principal investigator responsible for the collection.</small>
-    </div>
     <div class="form-row">
     <div class="form-group col-md-6">
       <label for="sampling_start"><b>Start date of sampling:*</b></label>
@@ -168,7 +74,7 @@
     <div class="form-group col-md-6">
       <label for="sampling_end"><b>End date of sampling:</b></label>
       <input type="date" class="form-control" name="sampling_end">
-      <small class="form-text text-muted">When did the sampling for this collection end. Leave blank is sampling is ongoing.</small>
+      <small class="form-text text-muted">When did the sampling for this collection end. Leave blank if sampling is ongoing.</small>
     </div>
     </div>
     <div class="form-row">
@@ -313,15 +219,25 @@
       <div><small class="form-text text-muted">Which types of data are available (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-13</a>).</small></div>
     </div>
     <div class="form-row">
-    <div class="form-group col-md-6">
-        <label for="size"><b>Size of the collection:*</b></label>
-        <input type="number" class="form-control" name="size" required>
+      <div class="form-group col-md-6">
+        <label for="order_of_magnitude"><b>Size of the collection:*</b></label>
+        <select class="form-control" id="order_of_magnitude" name="order_of_magnitude" required>
+          <option id="order_of_magnitude_null"> </option>
+          <option id="order_of_magnitude_0">&lt; 10</option>
+          <option id="order_of_magnitude_1">10 - 100</option>
+          <option id="order_of_magnitude_2">100 - 1000</option>
+          <option id="order_of_magnitude_3">1000 - 10.000</option>
+          <option id="order_of_magnitude_4">10.000 - 100.000</option>
+          <option id="order_of_magnitude_5">100.000 - 1.000.000</option>
+          <option id="order_of_magnitude_6">1.000.000 - 10.000.000</option>
+          <option id="order_of_magnitude_7">10.000.000 - 100.000.000</option>
+          <option id="order_of_magnitude_8">100.000.000 - 1.000.000.000</option>
+        </select>
         <small class="form-text text-muted">Size of the collection to the given date.</small>
-        <div class="invalid-feedback"><b>Please insert a number.</b></div>
-    </div>
+      </div>
     <div class="form-group col-md-6">
-        <label for="timestamp"><b>Date last updated:</b></label>
-        <input type="date" class="form-control" name="timestamp">
+        <label for="timestamp"><b>Date size information last updated:*</b></label>
+        <input type="date" class="form-control" name="timestamp" required>
         <small class="form-text text-muted">Date to which the indicated size of the collection was valid.</small>
     </div>
     </div>
@@ -460,80 +376,28 @@
 <div id="collapseDonorInformation" class="collapse" role="tabpanel" aria-labelledby="donorInformation"
 data-parent="#accordionForm">
 <div class="card-body">
-  <div class="form-group data_categories">
-    <label for="data_categories"><b>Sex:</b></label>
-    <div class="form-check">
-      <input id="NEUTERED_MALE" type="checkbox" name="NEUTERED_MALE">
-      <label for="NEUTERED_MALE" class="form-check-label">Neutered male (animal)</label>
-    </div>
-    <div class="form-check">
-      <input id="NEUTERED_FEMALE" type="checkbox" name="NEUTERED_FEMALE">
-      <label for="NEUTERED_FEMALE" class="form-check-label">Neutered female (animal)</label>
-    </div>
-    <div class="form-check">
-      <input id="UNDIFFERENTIAL" type="checkbox" name="UNDIFFERENTIAL">
-      <label for="UNDIFFERENTIAL" class="form-check-label">Undifferentiated</label>
-    </div>
-    <div class="form-check">
-      <input id="UNKNOWN" type="checkbox" name="UNKNOWN">
-      <label for="UNKNOWN" class="form-check-label">Unknown</label>
-    </div>
-    <div class="form-check">
-      <input id="MALE" type="checkbox" name="MALE">
-      <label for="MALE" class="form-check-label">Male</label>
-    </div>
-    <div class="form-check">
-      <input id="FEMALE" type="checkbox" name="FEMALE">
-      <label for="FEMALE" class="form-check-label">Female</label>
-    </div>
-    <div class="form-check">
-      <input id="NASK" type="checkbox" name="NASK">
-      <label for="NASK" class="form-check-label">Not asked</label>
-    </div>
-    <div class="form-check">
-      <input id="NAV" type="checkbox" name="NAV">
-      <label for="NAV" class="form-check-label">Not available</label>
-    </div>
-    <div><small class="form-text text-muted">The sex of the individuals in the sample collection (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-09</a>).</small></div>
-  </div>
   <div class="form-group">
     <label for="diagnosis_available"><b>Diagnoses available in the collection:</b></label>
     <select class="js-select-diagnoses-multiple form-control" name="diagnosis_available" id="diagnosis_available" style="width:100%"></select>
     <small class="form-text text-muted">Select one or multiple diagnoses (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-17</a>). Start typing in order to see options. We use <a href="https://icd.who.int/browse10/2019/en">ICD-10 codes for the diagnoses</a>. In case of COVID-19, the relevant diagnoses are: <i>U07.1 COVID-19, virus identified</i> and <i>U07.2 COVID-19, virus not identified</i></small>
   </div>
   <div class="form-row">
-  <div class="form-group col-md-6">
-      <label for="number_of_donors"><b>Number of donors:</b></label>
-      <input type="number" class="form-control" name="number_of_donors">
+    <div class="form-group col-md-6">
+      <label for="order_of_magnitude_donors"><b>Number of donors:</b></label>
+      <select class="form-control" id="order_of_magnitude_donors" name="order_of_magnitude_donors" required>
+        <option id="order_of_magnitude_donors_null"> </option>
+        <option id="order_of_magnitude_donors_0">&lt; 10</option>
+        <option id="order_of_magnitude_donors_1">10 - 100</option>
+        <option id="order_of_magnitude_donors_2">100 - 1000</option>
+        <option id="order_of_magnitude_donors_3">1000 - 10.000</option>
+        <option id="order_of_magnitude_donors_4">10.000 - 100.000</option>
+        <option id="order_of_magnitude_donors_5">100.000 - 1.000.000</option>
+        <option id="order_of_magnitude_donors_6">1.000.000 - 10.000.000</option>
+        <option id="order_of_magnitude_donors_7">10.000.000 - 100.000.000</option>
+        <option id="order_of_magnitude_donors_8">100.000.000 - 1.000.000.000</option>
+      </select>
       <small class="form-text text-muted">Number of donors from whom samples were obtained.</small>
-      <div class="invalid-feedback"><b>Please insert a number.</b></div>
-  </div>
-  </div>
-  <div class="form-row">
-  <div class="form-group col-md-6">
-      <label for="age_low"><b>Age of the youngest donor:</b></label>
-      <input type="number" class="form-control" name="age_low">
-      <small class="form-text text-muted">Age of youngest sample donor at time of sample donation (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-10</a>).</small>
-      <div class="invalid-feedback"><b>Please insert a number.</b></div>
-  </div>
-  <div class="form-group col-md-6">
-      <label for="age_high"><b>Age of the oldest donor:</b></label>
-      <input type="number" class="form-control" name="age_high">
-      <small class="form-text text-muted">Age of oldest sample donor at time of sample donation (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-11</a>).</small>
-      <div class="invalid-feedback"><b>Please insert a number.</b></div>
-  </div>
-  </div>
-  <div class="form-row">
-  <div class="form-group col-md-6">
-    <label for="age_unit"><b>Unit of the age values given above:</b></label>
-    <select class="form-control" id="age_unit" name="age_unit">
-      <option id="YEAR">YEAR</option>
-      <option id="MONTH">MONTH</option>
-      <option id="WEEK">WEEK</option>
-      <option id="DAY">DAY</option>
-    </select>
-    <small class="form-text text-muted">Unit defining Age Low and Age High. Can be one of the following values: years, months, weeks, days (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-12</a>).</small>
-  </div>
+    </div>
   </div>
   <div class="form-group">
     <label for="autopsy"><b>Samples from deceased (autopsy)?</b></label>
@@ -622,6 +486,10 @@ data-parent="#accordionForm">
     <div class="form-check">
       <input id="PATHOGEN" type="checkbox" name="PATHOGEN">
       <label for="PATHOGEN" class="form-check-label">Pathogen</label>
+    </div>
+    <div class="form-check">
+      <input id="PBMC" type="checkbox" name="PBMC">
+      <label for="PBMC" class="form-check-label">PBMC</label>
     </div>
     <div class="form-check">
       <input id="PERIPHERAL_BLOOD_CELLS" type="checkbox" name="PERIPHERAL_BLOOD_CELLS">
@@ -725,130 +593,6 @@ data-parent="#accordionForm">
     </div>
     <small class="form-text text-muted">Denotes whether access to samples may be obtained on joint project basis.</small>
   </div>
-  <div class="form-group">
-    <label for="sample_access_description"><b>Short description of sample access rules:</b></label>
-    <textarea class="form-control" id="sample_access_description" rows="3"></textarea>
-    <small class="form-text text-muted">Short description of sample access rules.</small>
-  </div>
-  <div class="form-group">
-    <label for="sample_access_uri"><b>URL describing access policy for samples:</b></label>
-    <input type="sample_access_uri" class="form-control" name="url">
-    <small class="form-text text-muted">URL describing access policy for the samples.</small>
-  </div>
-
-</div>
-</div>
-</div>
-<div class="card">
-  <div class="card-header" role="tab" id="ImagingInformation">
-    <a class="collapsed" data-toggle="collapse" data-parent="#accordionForm" href="#collapseImagingInformation"
-    aria-expanded="false" aria-controls="collapseImagingInformation">
-    <h5 class="mb-0">
-      Imaging data information <i class="fas fa-angle-down rotate-icon"></i>
-    </h5>
-  </a>
-</div>
-<div id="collapseImagingInformation" class="collapse" role="tabpanel" aria-labelledby="ImagingInformation"
-data-parent="#accordionForm">
-<div class="card-body">
-  <div class="form-group">
-    <label for="body_part_examined"><b>The examined body parts:</b></label>
-    <select class="js-select-bodypart-multiple form-control" name="body_part_examined" id="body_part_examined" style="width:100%"></select>
-    <small class="form-text text-muted">Select one or multiple body parts that were examined. The terms follow the <a href="http://bioportal.bioontology.org/ontologies/SNOMEDCT?p=summary">SNOMED CT ontology</a>.</small>
-  </div>
-  <div class="form-group">
-    <label for="imaging_modality"><b>Imaging modalities:</b></label>
-    <select class="js-select-imagingmodalities-multiple form-control" name="imaging_modality" id="imaging_modality" style="width:100%"></select>
-    <small class="form-text text-muted">Select one or multiple imaging modalities. The terms follow the <a href="https://www.dicomstandard.org/current">DICOM standard names</a>.</small>
-  </div>
-  <div class="form-group">
-    <label for="image_dataset_type"><b>Types of the imaging datasets:</b></label>
-    <select class="js-select-imagingdatatypes-multiple form-control" name="image_dataset_type" id="image_dataset_type" style="width:100%"></select>
-    <small class="form-text text-muted">Select one or multiple imaging dataset types. The terms follow the <a href="https://www.dicomstandard.org/current">DICOM Media Storage Standard SOP Classes</a>.</small>
-  </div>
-  <div class="form-group">
-    <label for="image_access_fee"><b>Imaging data access in exchange for a fee:</b></label>
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="image_access_fee" id="yes" value="yes">
-      <label class="form-check-label" for="yes">Yes</label>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="image_access_fee" id="no" value="no">
-      <label class="form-check-label" for="no">No</label>
-    </div>
-    <small class="form-text text-muted">Denotes whether access to images may be obtained on fee-based basis.</small>
-  </div>
-  <div class="form-group">
-    <label for="image_joint_projects"><b>Imaging data access on the basis of a joint project:</b></label>
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="image_joint_projects" id="yes" value="yes">
-      <label class="form-check-label" for="yes">Yes</label>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="image_joint_projects" id="no" value="no">
-      <label class="form-check-label" for="no">No</label>
-    </div>
-    <small class="form-text text-muted">Denotes whether access to images may be obtained on joint project basis.</small>
-  </div>
-  <div class="form-group">
-    <label for="image_access_description"><b>Short description of imaging data access rules:</b></label>
-    <textarea class="form-control" id="image_access_description" rows="3"></textarea>
-    <small class="form-text text-muted">Short description of imaging data access rules.</small>
-  </div>
-  <div class="form-group">
-    <label for="image_access_uri"><b>URL describing access policy for imaging data:</b></label>
-    <input type="image_access_uri" class="form-control" name="url">
-    <small class="form-text text-muted">URL describing access policy for the images.</small>
-  </div>
-</div>
-</div>
-</div>
-<div class="card">
-  <div class="card-header" role="tab" id="OtherData">
-    <a class="collapsed" data-toggle="collapse" data-parent="#accordionForm" href="#collapseOtherData"
-    aria-expanded="false" aria-controls="collapseOtherData">
-    <h5 class="mb-0">
-      Other data information <i class="fas fa-angle-down rotate-icon"></i>
-    </h5>
-  </a>
-</div>
-<div id="collapseOtherData" class="collapse" role="tabpanel" aria-labelledby="OtherData"
-data-parent="#accordionForm">
-<div class="card-body">
-  <div class="form-group">
-    <label for="data_access_fee"><b>Other data access in exchange for a fee:</b></label>
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="data_access_fee" id="yes" value="yes">
-      <label class="form-check-label" for="yes">Yes</label>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="sample_access_fee" id="no" value="no">
-      <label class="form-check-label" for="no">No</label>
-    </div>
-    <small class="form-text text-muted">Denotes whether access to other data may be obtained on fee-based basis.</small>
-  </div>
-  <div class="form-group">
-    <label for="data_access_joint_project"><b>Other data access on the basis of a joint project:</b></label>
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="data_access_joint_project" id="yes" value="yes">
-      <label class="form-check-label" for="yes">Yes</label>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="data_access_joint_project" id="no" value="no">
-      <label class="form-check-label" for="no">No</label>
-    </div>
-    <small class="form-text text-muted">Denotes whether access to other data may be obtained on joint project basis.</small>
-  </div>
-  <div class="form-group">
-    <label for="data_access_description"><b>Short description of other data access rules:</b></label>
-    <textarea class="form-control" id="data_access_description" rows="3"></textarea>
-    <small class="form-text text-muted">Short description of other data access rules.</small>
-  </div>
-  <div class="form-group">
-    <label for="data_access_uri"><b>URL describing access policy for other data:</b></label>
-    <input type="data_access_uri" class="form-control" name="url">
-    <small class="form-text text-muted">URL describing access policy for other data.</small>
-  </div>
 </div>
 </div>
 </div>
@@ -909,31 +653,6 @@ data-parent="#accordionForm">
       <small class="form-text text-muted">Phone number of the person who handles enquiries and questions regarding this collection. To be filled out including international prefix (+99999999999 form with no spaces).</small>
   </div>
   </div>
-  <h5>Other collaborations</h5>
-  <div class="form-group">
-    <label for="collaboration_commercial"><b>Open to collaborations with commercial partners:</b></label>
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="collaboration_commercial" id="yes" value="yes">
-      <label class="form-check-label" for="yes">Yes</label>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="collaboration_commercial" id="no" value="no">
-      <label class="form-check-label" for="no">No</label>
-    </div>
-    <small class="form-text text-muted">Collection can be used for collaborations with commercial partners.</small>
-  </div>
-  <div class="form-group">
-    <label for="collaboration_non_for_profit"><b>Open to collaborations with not-for-profit partners:</b></label>
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="collaboration_non_for_profit" id="yes" value="yes">
-      <label class="form-check-label" for="yes">Yes</label>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="collaboration_non_for_profit" id="no" value="no">
-      <label class="form-check-label" for="no">No</label>
-    </div>
-    <small class="form-text text-muted">Collection can be used for collaborations with not-for-profit partners.</small>
-  </div>
 </div>
 </div>
 </div>
@@ -950,8 +669,8 @@ data-parent="#accordionForm">
 data-parent="#accordionForm">
 <div class="card-body">
   <div class="form-group">
-    <label for="description"><b>Published articles and preprints which used the samples or data belonging to the collection:</b></label>
-    <textarea class="form-control" id="description" rows="5"></textarea>
+    <label for="publications_list"><b>Published articles and preprints which used the samples or data belonging to the collection:</b></label>
+    <textarea class="form-control" id="publications_list" rows="5"></textarea>
     <small class="form-text text-muted">Please provide a list with full references including DOIs for each published article or preprint. This information will be displayed on the collection page.</small>
   </div>
 </div>
@@ -970,17 +689,6 @@ data-parent="#accordionForm">
       }
       form.classList.add('was-validated')
   })
-
-  $(function(){
-    var requiredCheckboxes = $('.regions :checkbox[required]');
-    requiredCheckboxes.change(function(){
-        if(requiredCheckboxes.is(':checked')) {
-            requiredCheckboxes.removeAttr('required');
-        } else {
-            requiredCheckboxes.attr('required', 'required');
-        }
-    });
-  });
 
   $(function(){
     var requiredCheckboxes = $('.types :checkbox[required]');
