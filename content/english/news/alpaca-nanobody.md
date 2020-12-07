@@ -23,4 +23,4 @@ Those interested in the behind the paper story can read [this blog post by Geral
 
 DOI: [10.1038/s41467-020-18174-5](https://doi.org/10.1038/s41467-020-18174-5)
 
-Hanke, L., Vidakovics Perez, L., Sheward, D. J., Das, H., Schulte, T., Moliner-Morro, A., Corcoran, Achour, A., Karlsson Hedestam, G. B., Hällberg, B. M., Murrell, B. & McInerney, G. M. *Nat Commun*, **11**, 4420 (2020).
+Hanke, L., Vidakovics Perez, L., Sheward, D. J., Das, H., Schulte, T., Moliner-Morro, A., Corcoran, Achour, A., Karlsson Hedestam, G. B., Hällberg, B. M., Murrell, B. & McInerney, G. M. An alpaca nanobody neutralizes SARS-CoV-2 by blocking receptor interaction. *Nat Commun*, **11**, 4420 (2020).

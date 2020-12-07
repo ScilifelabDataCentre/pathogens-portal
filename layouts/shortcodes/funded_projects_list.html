@@ -6,7 +6,7 @@
       {{ if eq $fndr "kaw" }}<th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).projects_area }}</th>{{ end }}
       <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).projects_pi }}</th>
       <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).projects_piaff }}</th>
-      <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).projects_duration }}</th>
+      {{ if ne $fndr "hlf" }}<th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).projects_duration }}</th>{{ end }}
     </tr>
   </thead>
   <tbody>
@@ -17,7 +17,7 @@
       {{ if eq $fndr "kaw" }}<td>{{ .area_eng }}</td>{{ end }}
       <td>{{ .pi }}</td>
       <td>{{ if and (eq $.Site.Language.LanguageName "Svenska") .pi_affiliation_sv }}{{ .pi_affiliation_sv }}{{ else }} {{ .pi_affiliation_eng }}{{ end }}</td>
-      <td>{{ .start }} - {{ .end }}</td>
+      {{ if ne $fndr "hlf" }}<td>{{ .start }} - {{ .end }}</td>{{ end }}
     </tr>
     {{ end }}
     {{ end }}
