@@ -1298,5 +1298,235 @@
     "start": "2020-04-01",
     "end": "2022-03-31",
     "url_eng": "https://cordis.europa.eu/project/id/101003653"
+  },
+  {
+    "funder": "hlf",
+    "project_title_eng": "Hur coronavirus kan inverka vid hjärtstopp",
+    "project_title_sv": "Hur coronavirus kan inverka vid hjärtstopp",
+    "pi": "Araz Rawshan",
+    "pi_affiliation_eng": "Sahlgrenska University Hospital",
+    "pi_affiliation_sv": "Sahlrenska universitetssjukhuset",
+    "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/hjarta/",
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/hjarta/"
+  },
+  {
+    "funder": "hlf",
+    "project_title_eng": "Rätt behandling vid Covdi-19 hjärtmuskelskada",
+    "project_title_sv": "Rätt behandling vid Covdi-19 hjärtmuskelskada",
+    "pi": "Björn Redfors",
+    "pi_affiliation_eng": "Sahlgrenska University Hospital",
+    "pi_affiliation_sv": "Sahlrenska universitetssjukhuset",
+    "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/hjarta/",
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/hjarta/"
+  },
+  {
+    "funder": "hlf",
+    "project_title_eng": "Hur hjärtat påverkas vid Covid-19 inflammation",
+    "project_title_sv": "Hur hjärtat påverkas vid Covid-19 inflammation",
+    "pi": "Henrik Engblom",
+    "pi_affiliation_eng": "Karolinska Institute",
+    "pi_affiliation_sv": "Karolinska Institutet",
+    "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/hjarta/",
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/hjarta/"
+  },
+  {
+    "funder": "hlf",
+    "project_title_eng": "Faktorer som påverkar sjukdomsförloppet vid Covid-19",
+    "project_title_sv": "Faktorer som påverkar sjukdomsförloppet vid Covid-19",
+    "pi": "Caroline Stridsman",
+    "pi_affiliation_eng": "Umeå University; Sunderby hospital",
+    "pi_affiliation_sv": "Umeå universitet; Sunderbyns sjukhus",
+    "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/",
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/"
+  },
+  {
+    "funder": "hlf",
+    "project_title_eng": "Identifiering av vad som orsakar lungsvikt hos svår Covid-19",
+    "project_title_sv": "Identifiering av vad som orsakar lungsvikt hos svår Covid-19",
+    "pi": "Johan Erjefält",
+    "pi_affiliation_eng": "Lund University Hospital ",
+    "pi_affiliation_sv": "Universitetssjukhuset i Lund",
+    "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/",
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/"
+  },
+  {
+    "funder": "hlf",
+    "project_title_eng": "Minska negativa effekterna av respiratorvård",
+    "project_title_sv": "Minska negativa effekterna av respiratorvård",
+    "pi": "Lars Larsson",
+    "pi_affiliation_eng": "Karolinska Institute",
+    "pi_affiliation_sv": "Karolinska Institutet",
+    "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/",
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/"
+  },
+  {
+    "funder": "hlf",
+    "project_title_eng": "Orsakerna till andningssvikt vid dödsfall i Covid-19",
+    "project_title_sv": "Orsakerna till andningssvikt vid dödsfall i Covid-19",
+    "pi": "Anders Blomberg",
+    "pi_affiliation_eng": "University Hospital of Umeå",
+    "pi_affiliation_sv": "Norrlands universitetssjukhus",
+    "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/",
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/"
+  },
+  {
+    "funder": "hlf",
+    "project_title_eng": "Bakteriella infektioner vid Covid-19",
+    "project_title_sv": "Bakteriella infektioner vid Covid-19",
+    "pi": "Birgitta Henriques Normark",
+    "pi_affiliation_eng": "Karolinska Institute",
+    "pi_affiliation_sv": "Karolinska Institutet",
+    "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/",
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/"
+  },
+  {
+    "funder": "hlf",
+    "project_title_eng": "Mekanismerna bakom svår Covid-19",
+    "project_title_sv": "Mekanismerna bakom svår Covid-19",
+    "pi": "Bo Nilsson",
+    "pi_affiliation_eng": "Uppsala University Hospital",
+    "pi_affiliation_sv": "Uppsala Akademiska Sjukhuset",
+    "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/",
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/"
+  },
+  {
+    "funder": "hlf",
+    "project_title_eng": "Mänsklig genetik relaterad till Covid-19",
+    "project_title_sv": "Mänsklig genetik relaterad till Covid-19",
+    "pi": "Romeo Stefano",
+    "pi_affiliation_eng": "Gothenburg University; Sahlgrenska University Hospital",
+    "pi_affiliation_sv": "Göteborgs universitet; Sahlgrenska universitetssjukhuset",
+    "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/",
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/"
+  },
+  {
+    "funder": "hlf",
+    "project_title_eng": "Tidiga tecken på bestående lungsjukdom",
+    "project_title_sv": "Tidiga tecken på bestående lungsjukdom",
+    "pi": "Gunilla Westergren-Thorson",
+    "pi_affiliation_eng": "Lund University Hospital",
+    "pi_affiliation_sv": "Universitetssjukhuset i Lund",
+    "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/",
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/"
+  },
+  {
+    "funder": "hlf",
+    "project_title_eng": "Kliniska immunologiska parametrar för att förrutsäga skydd mot reinfektion",
+    "project_title_sv": "Kliniska immunologiska parametrar för att förrutsäga skydd mot reinfektion",
+    "pi": "Mats Bemark",
+    "pi_affiliation_eng": "Sahlgrenska University Hospital",
+    "pi_affiliation_sv": "Sahlgrenska Universitetssjukhuset",
+    "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/",
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/"
+  },
+  {
+    "funder": "hlf",
+    "project_title_eng": "Utvärdeing av behandling med ECMO vid Covid-19",
+    "project_title_sv": "Utvärdeing av behandling med ECMO vid Covid-19",
+    "pi": "Magnus Dalén",
+    "pi_affiliation_eng": "Karolinska University Hospital",
+    "pi_affiliation_sv": "Karolinska Universitetssjukhuset",
+    "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/",
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/"
+  },
+  {
+    "funder": "hlf",
+    "project_title_eng": "Utvärdering av astmamedicin för Covid-19",
+    "project_title_sv": "Utvärdering av astmamedicin för Covid-19",
+    "pi": "Daniel Andersson",
+    "pi_affiliation_eng": "Karolinska Institute",
+    "pi_affiliation_sv": "Karolinska Institutet",
+    "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/",
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/"
+  },
+  {
+    "funder": "hlf",
+    "project_title_eng": "Uppföljning av svår luftvägsinfektion av Covid-19",
+    "project_title_sv": "Uppföljning av svår luftvägsinfektion av Covid-19",
+    "pi": "Judith Bruchfeld",
+    "pi_affiliation_eng": "Karolinska University Hospital",
+    "pi_affiliation_sv": "Karolinska Universitetssjukhuset",
+    "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/ovrigt/",
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/ovrigt/"
+  },
+  {
+    "funder": "hlf",
+    "project_title_eng": "Förstå andnings och immunsystem under Covid-19",
+    "project_title_sv": "Förstå andnings och immunsystem under Covid-19",
+    "pi": "Anna Smed-Sörensen",
+    "pi_affiliation_eng": "Karolinska University Hospital",
+    "pi_affiliation_sv": "Karolinska Universitetssjukhuset",
+    "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/ovrigt/",
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/ovrigt/"
+  },
+  {
+    "funder": "hlf",
+    "project_title_eng": "Sjukdomens svårighetsgrad jämförs mellan olika regioner",
+    "project_title_sv": "Sjukdomens svårighetsgrad jämförs mellan olika regioner",
+    "pi": "Anne Lindberg",
+    "pi_affiliation_eng": "Umeå University",
+    "pi_affiliation_sv": "Umeå universitet",
+    "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/ovrigt/",
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/ovrigt/"
+  },
+  {
+    "funder": "hlf",
+    "project_title_eng": "Sjukdomsförebyggande av Covid-19 med etablerade mediciner",
+    "project_title_sv": "Sjukdomsförebyggande av Covid-19 med etablerade mediciner",
+    "pi": "Johan Sundström",
+    "pi_affiliation_eng": "Uppsala University Hospital",
+    "pi_affiliation_sv": "Uppsala Akademiska Sjukhuset",
+    "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/ovrigt/",
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/ovrigt/"
+  },
+  {
+    "funder": "hlf",
+    "project_title_eng": "Studie av 'mördar' celler inför vaccinutveckling",
+    "project_title_sv": "Studie av 'mördar' celler inför vaccinutveckling",
+    "pi": "Kristian Riebeck",
+    "pi_affiliation_eng": "Skåne University Hospital Malmö",
+    "pi_affiliation_sv": "Skånes universitetssjukhus i Malmö",
+    "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/ovrigt/",
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/ovrigt/"
+  },
+  {
+    "funder": "hlf",
+    "project_title_eng": "Brist på visst protein ökar risk för svår Covid-19",
+    "project_title_sv": "Brist på visst protein ökar risk för svår Covid-19",
+    "pi": "Maria Thunander",
+    "pi_affiliation_eng": "Lund University",
+    "pi_affiliation_sv": "Lunds universitet",
+    "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/ovrigt/",
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/ovrigt/"
+  },
+  {
+    "funder": "hlf",
+    "project_title_eng": "Vaccin mot SARS-CoV-2",
+    "project_title_sv": "Vaccin mot SARS-CoV-2",
+    "pi": "Jan Lötvall",
+    "pi_affiliation_eng": "Sahlgrenska University Hospital",
+    "pi_affiliation_sv": "Sahlgrenska Universitetssjukhuset",
+    "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/ovrigt/",
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/ovrigt/"
+  },
+  {
+    "funder": "hlf",
+    "project_title_eng": "Identifiering av genetiska riskfaktorer vid Covid-19",
+    "project_title_sv": "Identifiering av genetiska riskfaktorer vid Covid-19",
+    "pi": "Magnust Nordenskjöld",
+    "pi_affiliation_eng": "Karolinska Institute",
+    "pi_affiliation_sv": "Karolinska Institutet",
+    "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/ovrigt/",
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/ovrigt/"
+  },
+  {
+    "funder": "hlf",
+    "project_title_eng": "Hur påverkas epigenetiska mönster i arvsmassan av Covid-19",
+    "project_title_sv": "Hur påverkas epigenetiska mönster i arvsmassan av Covid-19",
+    "pi": "Maria Lerm",
+    "pi_affiliation_eng": "Linköping University",
+    "pi_affiliation_sv": "Linköpings Universitet",
+    "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/ovrigt/",
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/ovrigt/"
   }
 ]
