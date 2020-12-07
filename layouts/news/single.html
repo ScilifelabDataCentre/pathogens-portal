@@ -5,7 +5,7 @@
   Svensk översättning kommer inom kort.
 </div> {{ end }}
 
-<h2>{{ .Params.title_full }}</h2>
+<h2>{{ if .Params.title_full }}{{ .Params.title_full }}{{ else }}{{ .Title}}{{ end }}</h2>
 <p class="text-muted">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).published_text }}: {{ .Date.Format "2006-01-02"}}</p>
 
 <figure class="figure float-right mx-2 w-50">
