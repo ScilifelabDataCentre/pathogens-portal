@@ -7,4 +7,4 @@ menu:
         weight: 10
 ---
 
-*Senast uppdaterad: 07.12.2020*
+<i>Senast uppdaterad: 07.12.2020</i>
