@@ -7,7 +7,7 @@ menu:
         parent: genomics_transcriptomics
         weight: 10
     horizontal:
-        name: Genomik & transkriptomik
+        name: Genomik
         identifier: genomics_transcriptomics_data
         weight: 10
 type: data_table

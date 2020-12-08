@@ -57,15 +57,7 @@
       <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).dt_data_types }}</h5>
       <div class="col mb-2">
         {{ $current_page := .Title }}
-        {{ if and (eq (len .Sections) 0) (and (ne .Parent.Title "Other data types") (ne .Parent.Title "Andra datatyper") ) }}
           <div class="row">{{ .Title }} ({{ len $entries_to_display }})</div>
-        {{ else }}
-          {{ with .Site.GetPage "/data_types/other_data/data" }}
-            {{ range .Sections }}
-            <div class="row">{{ if ne $current_page .Title }}<a href="{{ .URL }}">{{ .Title }}</a>{{ else }}{{ .Title }} ({{ len $entries_to_display }}){{ end }}</div>
-            {{ end }}
-          {{ end }}
-        {{ end }}
       </div>
     </div>
     <div class="col-md-10">
@@ -116,7 +108,7 @@
                     {{ end }}
                   </span>
             </div>
-                <div class="row mb-1">{{ range $key, $content := .labels }} {{ if eq $key "Type: Preprint"}} [preprint]&nbsp;{{ end }}{{ end}} <i>{{ .journal.title }}</i>&nbsp;<b>{{ .journal.volume }}</b>&nbsp;{{if .journal.issue}}({{ .journal.issue }})&nbsp;{{ end }} {{ .journal.pages }}</div>
+                <div class="row mb-1">{{ range $key, $content := .labels }} {{ if eq $key "Type: Preprint"}} [preprint]&nbsp;{{ end }}{{ end}} <i>{{ .journal.title }}</i>{{ if .journal.volume }}&nbsp;<b>{{ .journal.volume }}</b>{{ end }}{{if .journal.issue}}&nbsp;({{ .journal.issue }})&nbsp;{{ end }}{{ if .journal.pages }}&nbsp;{{ .journal.pages }}{{ end }}</div>
                 <div class="row"><span class="text-muted">{{ .doi }}</span></div>
                 {{if .abstract }}<div class="row">
                   <a class="btn btn-link text-dark" data-toggle="collapse" href="#abstract{{ $index }}" role="button" aria-expanded="false" aria-controls="abstract{{ $index }}">
