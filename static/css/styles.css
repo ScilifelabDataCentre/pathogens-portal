@@ -60,17 +60,66 @@ li:empty {
 .navbar .navbar-primary-links a.nav-link {
     color: rgba(46, 104, 165, 0.8);
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: 1.15em;
 }
-@media all and (min-width: 768px) {
+
+@media all and (min-width: 992px) {
     .navbar .navbar-nav a.nav-link {
-        padding: 1rem;
+        padding: 0.8rem;
     }
 }
 .navbar .navbar-primary-links a.nav-link:hover,
 .navbar .navbar-primary-links a.nav-link:focus,
 .navbar .navbar-primary-links a.nav-link:active {
     color: rgba(46, 104, 165, 1);
+}
+
+.navbar .navbar-primary-links .dropdown-menu a{
+    color: rgba(46, 104, 165, 0.8);
+    font-weight: 500;
+}
+
+.navbar .navbar-primary-links .dropdown-menu a:hover,
+.navbar .navbar-primary-links .dropdown-menu a:focus,
+.navbar .navbar-primary-links .dropdown-menu a:active {
+    color: rgba(46, 104, 165, 1);
+    background-color: transparent;
+}
+
+
+.navbar .navbar-secondary-links a.nav-link {
+    color: rgba(77, 77, 77, 0.8);
+    font-weight: 500;
+    font-size: 1.15em;
+}
+
+.navbar .navbar-secondary-links a.nav-link:hover,
+.navbar .navbar-secondary-links a.nav-link:focus,
+.navbar .navbar-secondary-links a.nav-link:active {
+    color: rgba(77, 77, 77, 1);
+}
+
+.navbar .navbar-secondary-links .dropdown-menu a{
+    color: rgba(77, 77, 77, 0.8);
+    font-weight: 500;
+}
+
+.navbar .navbar-secondary-links .dropdown-menu a:hover,
+.navbar .navbar-secondary-links .dropdown-menu a:focus,
+.navbar .navbar-secondary-links .dropdown-menu a:active {
+    color: rgba(77, 77, 77, 1);
+    background-color: transparent;
+}
+
+.navbar .nav-menu-other {
+    color: rgba(77, 77, 77, 0.8);
+    font-weight: 500;
+    font-size: 1.15em;
+    margin: 0.8rem 0;
+}
+
+@media (max-width: 991px) {
+    .navbar .text-vert { display: none; }
 }
 
 .navbar .navbar-nav.navbar-languages {

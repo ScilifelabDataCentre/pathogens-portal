@@ -5,7 +5,7 @@ menu:
     projects:
         name: Ongoing research projects
         identifier: ongoing_projects
-        weight: 10
+        weight: 20
 ---
 <i>Last updated: 07.12.2020</i>
 

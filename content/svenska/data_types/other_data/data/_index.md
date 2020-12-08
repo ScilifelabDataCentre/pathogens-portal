@@ -6,10 +6,10 @@ menu:
         identifier: other_data_data
         parent: other_data
         weight: 10
-    horizontal:
+    other_data:
         name: Andra datatyper
-        identifier: other_data_data
-        weight: 80
+        identifier: other_other_data
+        weight: 20
 type: data_table
 ---
 
