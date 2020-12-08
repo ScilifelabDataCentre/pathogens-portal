@@ -95,7 +95,7 @@
                           {{ end }}
                           {{ end }}
                         </span><br>
-                        {{ range $key, $content := .labels }} {{ if eq $key "Type: Preprint"}} [preprint]&nbsp;{{ end }}{{ end}} <i>{{ .journal.title }}</i>&nbsp;<b>{{ .journal.volume }}</b>&nbsp;{{if .journal.issue}}({{ .journal.issue }})&nbsp;{{ end }} {{ .journal.pages }}. DOI: {{ .doi }}
+                        {{ range $key, $content := .labels }} {{ if eq $key "Type: Preprint"}} [preprint]&nbsp;{{ end }}{{ end}} <i>{{ .journal.title }}</i>{{ if .journal.volume }}&nbsp;<b>{{ .journal.volume }}</b>{{ end }}{{if .journal.issue}}&nbsp;({{ .journal.issue }})&nbsp;{{ end }}{{ if .journal.pages }}&nbsp;{{ .journal.pages }}{{ end }}.{{ if .doi}} DOI: {{ .doi }}{{ end }}
                       </td>
                       <td>{{ .published }}</td>
                     </tr>
