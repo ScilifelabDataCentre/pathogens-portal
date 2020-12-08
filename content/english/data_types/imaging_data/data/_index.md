@@ -7,8 +7,8 @@ menu:
         parent: imaging_data
         weight: 10
     horizontal:
-        name: Imaging data
-        identifier: imaging_data_data
+        name: Imaging
+        identifier: imaging_data
         weight: 30
 type: data_table
 datatypes_to_display:

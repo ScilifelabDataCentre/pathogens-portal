@@ -5,7 +5,7 @@ menu:
     projects:
         name: Events
         identifier: events
-        weight: 30
+        weight: 40
 ---
 
-Here will be an overview of major events on COVID-19.
+Overview of major events on COVID-19.
