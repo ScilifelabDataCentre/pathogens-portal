@@ -8,11 +8,12 @@
   Data available from research groups in Sweden
   {{ end }}</h4>
 
-<div class="alert alert-info small"><i class="fas fa-exclamation-triangle"></i>
-  {{ if eq $.Site.Language.LanguageName "Svenska" }}
-  Vänligen notera att listan över tillgängliga dataset från svenska forskargrupper uppdateras manuellt och därför inte är fullständig. Om du vill att ditt dataset skall synliggöras eller vill korrigera information om dina dataset, vänligen kontakta oss. Senast uppdaterad: {{ substr $.Site.Data.publications.timestamp 0 10 }}.
+<div>{{ if eq $.Site.Language.LanguageName "Svenska" }}
+  <p>Vänligen notera att listan över tillgängliga dataset från svenska forskargrupper uppdateras manuellt och därför inte är fullständig. Om du vill att ditt dataset skall synliggöras eller vill korrigera information om dina dataset, vänligen kontakta oss.</p>
+  <p><i>Senast uppdaterad: {{ substr $.Site.Data.publications.timestamp 0 10 }}</i></p>
   {{ else }}
-  Note that the lists of available data from research groups in Sweden are curated manually and as such may not be exhaustive. If you would like to see your dataset here or correct information about your dataset, please get in touch with us. Last updated: {{ substr $.Site.Data.publications.timestamp 0 10 }}.
+  <p>The list below is curated manually and as such may not be exhaustive. If you would like to see your dataset here or correct information about your dataset, please get in touch with us.</p>
+  <p><i>Last updated: {{ substr $.Site.Data.publications.timestamp 0 10 }}</i></p>
   {{ end }}
 </div>
 
@@ -199,7 +200,38 @@
   $(document).ready(function() {
     $('table.table').DataTable({
         "order": [[ 1, "desc" ]],
-        "columnDefs": [{ "orderable": false, "targets": 2 }]
+        "columnDefs": [{ "orderable": false, "targets": 2 }],
+        {{ if eq $.Site.Language.LanguageName "English" }}
+        "language": {
+             "lengthMenu": "Show _MENU_ entries per page",
+             "zeroRecords": "Nothing found.",
+             "info": "Showing _START_ to _END_ of _TOTAL_ entries.",
+             "infoEmpty": "No records available",
+             "infoFiltered": "(filtered from _MAX_ total records)",
+             "search": "Search:",
+             "paginate": {
+                "first":      "First",
+                "last":       "Last",
+                "next":       "Next",
+                "previous":   "Previous"
+                }
+            }
+        {{ else }}
+        "language": {
+             "lengthMenu": "Visa _MENU_ poster per sida",
+             "zeroRecords": "Inga resultat",
+             "info": "Visar _START_-_END_ av _TOTAL_ poster.",
+             "infoEmpty": "Inga resultat",
+             "infoFiltered": "(filtrerad av _MAX_ poster)",
+             "search": "Sök:",
+             "paginate": {
+                "first":      "Första",
+                "last":       "Sista",
+                "next":       "Nästa",
+                "previous":   "Föregående"
+                }
+            }
+        {{ end }}
     }
     );
 } );

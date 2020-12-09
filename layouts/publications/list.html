@@ -12,10 +12,22 @@
     {{ $entries_to_display = $entries_to_display | append $entry}}
 {{ end }}
 
+<div>{{ if eq $.Site.Language.LanguageName "Svenska" }}
+  <p><i>Senast uppdaterad: {{ substr $.Site.Data.publications.timestamp 0 10 }}</i></p>
+  {{ else }}
+  <p><i>Last updated: {{ substr $.Site.Data.publications.timestamp 0 10 }}</i></p>
+  {{ end }}
+</div>
+
 <div class="container">
   <div class="row">
     <div class="col-md-2 pl-0 pr-2">
-      <h5>Field/Topic</h5>
+      <div class="alert alert-info small"><i class="fas fa-exclamation-triangle"></i>
+        {{ if eq $.Site.Language.LanguageName "Swedish" }}Functionality for filtering publications is currently under development.
+        {{ else }}Funktion att filtrera publikationer är under utveckling.
+        {{ end }}
+      </div>
+      <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_field }}</h5>
       <div class="col mb-2">
           <div class="row">All ({{ len $entries_to_display }})</div>
           <div class="row">Biochemistry</div>
@@ -26,12 +38,12 @@
           <div class="row">Serology</div>
           <div class="row">Other</div>
       </div>
-      <h5>Data availability</h5>
+      <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_availability }}</h5>
       <div class="col mb-2">
           <div class="row">All ({{ len $entries_to_display }})</div>
           <div class="row">Data available</div>
       </div>
-      <h5>Publication type</h5>
+      <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_type }}</h5>
       <div class="col mb-2">
           <div class="row">All ({{ len $entries_to_display }})</div>
           <div class="row">Journal article</div>
@@ -39,14 +51,11 @@
           <div class="row">Preprint</div>
           <div class="row">Other</div>
       </div>
-      <h5>Year</h5>
+      <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_year }}</h5>
       <div class="col mb-2">
           <div class="row">All ({{ len $entries_to_display }})</div>
           <div class="row">2020</div>
           <div class="row">2021</div>
-      </div>
-      <div class="alert alert-info small"><i class="fas fa-exclamation-triangle"></i>
-        Functionality for filtering publications is currently under development.
       </div>
     </div>
     <div class="col-md-10">
@@ -55,8 +64,8 @@
               <table class="table">
                 <thead class="thead-light">
                   <tr>
-                    <th scope="col">Publication</th>
-                    <th scope="col">Published/updated</th>
+                    <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_pub }}</th>
+                    <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_updated }}</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -112,8 +121,38 @@
 $(document).ready( function () {
     $('table.table').DataTable({
       "order": [[ 1, "desc" ]],
+      {{ if eq $.Site.Language.LanguageName "English" }}
+      "language": {
+           "lengthMenu": "Show _MENU_ entries per page",
+           "zeroRecords": "Nothing found.",
+           "info": "Showing _START_ to _END_ of _TOTAL_ entries.",
+           "infoEmpty": "No records available",
+           "infoFiltered": "(filtered from _MAX_ total records)",
+           "search": "Search:",
+           "paginate": {
+              "first":      "First",
+              "last":       "Last",
+              "next":       "Next",
+              "previous":   "Previous"
+              }
+          }
+      {{ else }}
+      "language": {
+           "lengthMenu": "Visa _MENU_ poster per sida",
+           "zeroRecords": "Inga resultat",
+           "info": "Visar _START_-_END_ av _TOTAL_ poster.",
+           "infoEmpty": "Inga resultat",
+           "infoFiltered": "(filtrerad av _MAX_ poster)",
+           "search": "Sök:",
+           "paginate": {
+              "first":      "Första",
+              "last":       "Sista",
+              "next":       "Nästa",
+              "previous":   "Föregående"
+              }
+          }
+      {{ end }}
     }
-
     );
 } );
 </script>

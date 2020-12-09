@@ -34,6 +34,12 @@ params:
       menu_moretypes: More
       menu_biobanks: Biobanks
       menu_projects: Research projects
+      pubs_pub: Publication
+      pubs_updated: Published/updated
+      pubs_field: Field/Topic
+      pubs_availability: Data availability
+      pubs_type: Publication type
+      pubs_year: Year
     sv:
       home_title: Snabbare forskning genom datadelning
       enquire_email_footer_dc: "Kontakta den svenska Covid-19 dataportalen"
@@ -60,6 +66,12 @@ params:
       menu_moretypes: Flera
       menu_biobanks: Biobanker
       menu_projects: Forskningprojekt
+      pubs_pub: Artikel
+      pubs_updated: Publicerad/uppdaterad
+      pubs_field: Ämne
+      pubs_availability: Tillgängliga forskningsdata
+      pubs_type: Publikationstyp
+      pubs_year: År
 
 languages:
   en:

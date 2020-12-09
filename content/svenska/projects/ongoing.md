@@ -7,11 +7,12 @@ menu:
         identifier: ongoing_projects
         weight: 10
 ---
-<i>Senast uppdaterad: 07.12.2020</i>
 
 Detta är en manuellt sammanställd lista över forskningsprojekt relaterade till Covid-19 som har forskningsanslag från större svenska forskningsfinansiärer. Nya projekt kommer att läggas till manuellt. Om du saknar ditt projekt och vill att ditt projekt skall synas på listan hör av dig till oss på datacentre@scilifelab.se. Vänligen se [SweCRIS](https://www.swecris.se/betasearch/?q=Covid&view=cards&lang=sv) databas där det är möjligt att söka projekt efter svenska forskningsprojekt från svenska forskningsfinansiärer.
 
 Forskningsprojekt relaterade till Covid-19 med godkända etiska ansökningar (t.o.m. oktober 2020) [finner du här](https://www.kliniskastudier.se/statistik/kliniska-studier-rorande-covid-19.html).
+
+<i>Senast uppdaterad: 2020.12.07</i>
 
 <p>
   <label for="allSearch">Sök bland projekt på denna sida: </label>
