@@ -23,6 +23,8 @@ A list of all ethically approved clinical studies on COVID-19 in Sweden up until
 
 {{< funded_projects_list funder="vr" >}}
 
+{{< funded_projects_publications label="Funder: VR: Special COVID-19 funding" >}}
+
 ## SciLifeLab / Knut and Alice Wallenberg Foundation
 [scilifelab.se](https://www.scilifelab.se/) / [kaw.wallenberg.org](https://kaw.wallenberg.org/en)
 

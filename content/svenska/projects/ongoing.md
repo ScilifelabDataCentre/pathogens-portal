@@ -24,6 +24,8 @@ Forskningsprojekt relaterade till Covid-19 med godkända etiska ansökningar (t.
 
 {{< funded_projects_list funder="vr" >}}
 
+{{< funded_projects_publications label="Funder: VR: Special COVID-19 funding" >}}
+
 ## SciLifeLab / Knut och Alice Wallenbergs Stiftelse
 [scilifelab.se](https://www.scilifelab.se/) / [kaw.wallenberg.org](https://kaw.wallenberg.org/en)
 
