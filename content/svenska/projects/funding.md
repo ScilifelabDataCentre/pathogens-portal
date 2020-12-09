@@ -3,11 +3,11 @@ title: Upcoming funding calls on COVID-19 by major Swedish funding agencies
 toc: false
 menu:
     projects:
-        name: Funding opportunities
+        name: Kommande utlysningar
         identifier: upcoming_calls
         weight: 30
 ---
-<i>Last updated: 09.12.2020</i>
+<i>Senast uppdaterad: 09.12.2020</i>
 
 This is a list of upcoming funding opportunities offered by major funding agencies in Sweden: Swedish Research Council, NordForsk, Vinnova, Horizon 2020, SciLifeLab/Knut and Alice Wallenberg Foundation grants.
 
@@ -16,7 +16,7 @@ This is a list of upcoming funding opportunities offered by major funding agenci
 **Call homepage:** [scilifelab.se/covid-19/call-research-preparedness/](https://www.scilifelab.se/covid-19/call-research-preparedness/)
 
   <a class="btn " data-toggle="collapse" href="#sllkawdetails" role="button" aria-expanded="false" aria-controls="sllkawdetails" style="color: rgba(46, 104, 165, 1); font-weight: 500">
-    Read more <i class="fas fa-caret-down"></i></a>
+    Läs mer <i class="fas fa-caret-down"></i></a>
   <div class="collapse" id="sllkawdetails">
     <div class="card card-body">
 
@@ -41,18 +41,18 @@ Budget per project: up to 1 MSEK for the year 2021.
 </div>
 </div>
 
-#### Swedish Recearch Council: Project grant for research on viruses and virus-caused disease conditions
+#### Vetenskapsrådet: Projektbidrag inom virus och virusorsakade sjukdomstillstånd
 **Deadline:** 17.03.2021  
 **Call homepage:** [vr.se/english/applying-for-funding/calls/2020-11-10-project-grant-for-research-on-viruses-and-virus-caused-disease-conditions.html](https://www.vr.se/english/applying-for-funding/calls/2020-11-10-project-grant-for-research-on-viruses-and-virus-caused-disease-conditions.html)
 
 <a class="btn" data-toggle="collapse" href="#vrdetails" role="button" aria-expanded="false" aria-controls="vrdetails" style="color: rgba(46, 104, 165, 1); font-weight: 500">
-  Read more <i class="fas fa-caret-down"></i></a>
+  Läs mer <i class="fas fa-caret-down"></i></a>
 <div class="collapse" id="vrdetails">
   <div class="card card-body">
 
-The purpose of the grant is to give researchers the freedom to formulate their own research ideas, methods and implementation, and to solve a defined research task within a limited period of time. The focus of this call is on long-term research into basic virology and fundamental disease mechanisms caused by viruses.
+Syftet med bidraget är att ge forskare en frihet att själva formulera forskningsidé, metod och utförande, samt att lösa en definierad forskningsuppgift inom en begränsad tid. Inriktningen för detta bidrag syftar till långsiktig forskning inom basal virologisk forskning och grundläggande sjukdomsmekanismer som förorsakas av virus.
 
-The grant period is 1–3 years, and the maximum grant amount is 2.5 million SEK per year. You may not apply for this grant if you are the project leader for ongoing career support in basic virology research.
+Bidragstiden är 1–3 år och maxbeloppet är 2,5 miljoner kronor per år. Om du redan är projektledare för ett pågående karriärstöd inom grundläggande virusforskning, kan du inte söka detta bidrag.
 
 </div>
 </div>

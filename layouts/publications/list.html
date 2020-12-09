@@ -63,7 +63,7 @@
                   {{ range $index, $entry := $entries_to_display }}
                     <tr>
                       <td>
-                        <b><a target="_blank" href="{{ if .doi }}https:/doi.org/{{ .doi }}{{ else }}https://pubmed.ncbi.nlm.nih.gov/{{ .pmid }}{{ end}}">{{ .title }}</a></b><br>
+                        <b><a target="_blank" href="{{ if .doi }}https://doi.org/{{ .doi }}{{ else }}https://pubmed.ncbi.nlm.nih.gov/{{ .pmid }}{{ end}}">{{ .title }}</a></b><br>
                         <span class="text-muted">{{ with .authors }}
                           {{ if gt (len .) 8}}
                           {{ range first 8 . }}
