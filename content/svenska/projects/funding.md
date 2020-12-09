@@ -1,24 +1,27 @@
 ---
-title: Upcoming funding calls on COVID-19 by major Swedish funding agencies
+title: Översikt över kommande forskningsanslag relaterade till COVID-19
 toc: false
 menu:
     projects:
-        name: Kommande utlysningar
+        name: Kommande forskningsanslag
         identifier: upcoming_calls
         weight: 30
 ---
-<i>Senast uppdaterad: 09.12.2020</i>
 
-This is a list of upcoming funding opportunities offered by major funding agencies in Sweden: Swedish Research Council, NordForsk, Vinnova, Horizon 2020, SciLifeLab/Knut and Alice Wallenberg Foundation grants.
+Detta är en lista över kommande forskningsanslag relaterade till COVID-19 från stora svenska anslagsgivare: Vetenskapsrådet, Nordforsk, Vinnova, Horizon 2020 och Knut och Alice Wallenbergs Stiftelse.
+
+<i>Senast uppdaterad: 2020.12.09</i>
 
 #### SciLifeLab/KAW: COVID-19 pandemic research and preparedness
-**Deadline:** 15.01.2021  
-**Call homepage:** [scilifelab.se/covid-19/call-research-preparedness/](https://www.scilifelab.se/covid-19/call-research-preparedness/)
+**Sista ansökningsdag:** 15.01.2021  
+**Hemsida för utlysningen:** [scilifelab.se/covid-19/call-research-preparedness/](https://www.scilifelab.se/covid-19/call-research-preparedness/)
 
   <a class="btn " data-toggle="collapse" href="#sllkawdetails" role="button" aria-expanded="false" aria-controls="sllkawdetails" style="color: rgba(46, 104, 165, 1); font-weight: 500">
     Läs mer <i class="fas fa-caret-down"></i></a>
   <div class="collapse" id="sllkawdetails">
     <div class="card card-body">
+
+**OBS: Texten för detta forskningsanslag är bara tillgängligt på Engelska.*
 
 SciLifeLab is opening five calls for proposals on COVID-19 research that are announced at the same time to help scientists plan their efforts in light of the funding possibilities. Two calls represent the continuation of the ongoing KAW-supported SciLifeLab coordinated COVID-19 research program initiated in the spring of 2020. One call is specifically targeting effects of vaccination. One call will focus on suggestions (letter of intent) for ideas on pandemic preparedness and one on suggestions for data-driven research on COVID-19 (letter of intent). Detailed instructions for the applications for these calls will be made available in the next few weeks.
 
@@ -42,8 +45,8 @@ Budget per project: up to 1 MSEK for the year 2021.
 </div>
 
 #### Vetenskapsrådet: Projektbidrag inom virus och virusorsakade sjukdomstillstånd
-**Deadline:** 17.03.2021  
-**Call homepage:** [vr.se/english/applying-for-funding/calls/2020-11-10-project-grant-for-research-on-viruses-and-virus-caused-disease-conditions.html](https://www.vr.se/english/applying-for-funding/calls/2020-11-10-project-grant-for-research-on-viruses-and-virus-caused-disease-conditions.html)
+**Sista ansökningsdag:** 17.03.2021  
+**Hemsida för utlysningen:** [vr.se/english/applying-for-funding/calls/2020-11-10-project-grant-for-research-on-viruses-and-virus-caused-disease-conditions.html](https://www.vr.se/english/applying-for-funding/calls/2020-11-10-project-grant-for-research-on-viruses-and-virus-caused-disease-conditions.html)
 
 <a class="btn" data-toggle="collapse" href="#vrdetails" role="button" aria-expanded="false" aria-controls="vrdetails" style="color: rgba(46, 104, 165, 1); font-weight: 500">
   Läs mer <i class="fas fa-caret-down"></i></a>
