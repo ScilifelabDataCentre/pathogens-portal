@@ -3,7 +3,7 @@ title: Sammanställning av stora forskningsprojekt relaterade till Covid-19 frå
 toc: false
 menu:
     projects:
-        name: Pågående forskningsprojekt relaterade till Covid-19
+        name: Pågående forskningsprojekt
         identifier: ongoing_projects
         weight: 10
 ---
