@@ -88,7 +88,7 @@ languages:
     languageName: Svenska
     contentDir: content/svenska
     weight: 2
-    description: COVID-19 Dataportal för svensk forskning
+    description: Covid-19 Dataportal för svensk forskning
     menu:
       top_nav:
         - name: Europeiska portalen
