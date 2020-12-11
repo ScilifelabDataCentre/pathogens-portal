@@ -7,7 +7,7 @@ menu:
         parent: protein_data
         weight: 10
     horizontal:
-        name: Protein data
+        name: Proteins
         identifier: protein_data_data
         weight: 20
 type: data_table

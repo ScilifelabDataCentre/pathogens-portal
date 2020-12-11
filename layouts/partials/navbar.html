@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-light bg-white">
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
   <div class="container">
     <a class="navbar-brand" href="{{ relLangURL .Site.BaseURL }}">
       <img src="/img/site_logo/CV19DP_logo_oneliner_SWE.svg" alt="COVID-19 Data Portal Sweden">
@@ -26,13 +26,50 @@
     </div>
   </div>
 </nav>
-<nav class="navbar navbar-expand-md navbar-light pt-0">
+<nav class="navbar navbar-expand-lg navbar-light pt-0">
   <div class="container">
     <div class="collapse navbar-collapse" id="navbarCollapseBottom">
       <ul class="navbar-nav mr-auto navbar-primary-links">
         {{ range .Site.Menus.horizontal }}
               <li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
         {{ end }}
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{ (index $.Site.Params.lang_strings .Site.Language.Lang).menu_moretypes }}
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            {{ range .Site.Menus.other_data }}
+            <a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a>
+            {{ end }}
+          </div>
+        </li>
+      </ul>
+      <span class="nav-item nav-menu-other text-vert">&vert;</span>
+      <ul class="navbar-nav mr-auto navbar-secondary-links">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{ (index $.Site.Params.lang_strings .Site.Language.Lang).menu_biobanks }}
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            {{ range .Site.Menus.biobanks }}
+            <a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a>
+            {{ end }}
+            <a class="dropdown-item disabled" href="/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Sök i Covid-19 biobanksregistret (kommer inom kort){{ else }}Search in the Biobank Registry (coming soon){{ end }}</a>
+          </div>
+        </li>
+        {{ range .Site.Menus.horizontal_additional }}
+            <li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{ (index $.Site.Params.lang_strings .Site.Language.Lang).menu_projects }}
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            {{ range .Site.Menus.projects }}
+            <a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a>
+            {{ end }}
+          </div>
+        </li>
       </ul>
       <hr class="d-md-none">
       <ul class="navbar-nav d-md-none">
