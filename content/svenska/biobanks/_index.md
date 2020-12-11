@@ -13,4 +13,4 @@ Det svenska Covid-19 Biobanksregistret kommer möjliggöra för forskare att med
 
 Det svenska Covid-19 Biobanksregistret beräknas vara tillgängligt på Covid-19 dataportalen i början av 2021.
 
-*Informationen uppdaterades senast: 2020.12.09*
+<i>Informationen uppdaterades senast: 2020.12.09</i>

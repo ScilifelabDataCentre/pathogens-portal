@@ -13,4 +13,4 @@ The Swedish COVID-19 Biobank Registry will allow researchers to look for sample 
 
 The launch of the Swedish COVID-19 Biobank Registry is planned for the beginning of 2021. The service will be a part of the Swedish COVID-19 Data Portal.
 
-*This information was last updated: 2020.12.09*
+<i>This information was last updated: 2020.12.09</i>
