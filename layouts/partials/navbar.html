@@ -54,7 +54,7 @@
             {{ range .Site.Menus.biobanks }}
             <a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a>
             {{ end }}
-            <a class="dropdown-item disabled" href="/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Sök i Covid-19 biobanksregistret (kommer snart){{ else }}Search in the Biobank Registry (coming soon){{ end }}</a>
+            <a class="dropdown-item disabled" href="/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Sök i Covid-19 biobanksregistret (kommer inom kort){{ else }}Search in the Biobank Registry (coming soon){{ end }}</a>
           </div>
         </li>
         {{ range .Site.Menus.horizontal_additional }}
