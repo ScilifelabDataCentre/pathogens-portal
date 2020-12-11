@@ -26,7 +26,7 @@ SciLifeLab is opening five calls for proposals on COVID-19 research that are ann
 *Application accepted from:* existing PIs of the ongoing research areas can participate, along with new PIs from anywhere in Sweden who wish to join and have relevant new contributions.  
 *Budget per project:* 5-10 MSEK for the period 2021-2022.
 2. **Proposals from individual scientists with new contributions to the SciLifeLab-KAW COVID-19 research program**  
-*Application accepted from:* All PIs at a Swedish university.  
+*Application accepted from:* all PIs at a Swedish university.  
 *Budget per project:* 1-2 MSEK per year for 2021 and 2022.
 3. **New KAW supported COVID-19 research program on vaccine effects**  
 *Application accepted from:* team science applications by PIs at any Swedish university and collaborators in health care.  
