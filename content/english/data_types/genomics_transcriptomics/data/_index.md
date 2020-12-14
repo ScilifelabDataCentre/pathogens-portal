@@ -23,5 +23,5 @@ datatypes_to_display:
 
 Published raw and assembled sequences related to the COVID-19 outbreak, including outbreak isolates and records relating to coronavirus biology:
 
-* [Raw and assembled sequence and analysis of SARS-CoV-2 and other coronaviruses](https://www.covid19dataportal.org/sequences?db=embl) (>25,000 deposited items as of Oct 2020)
+* [Raw and assembled sequence and analysis of SARS-CoV-2 and other coronaviruses](https://www.covid19dataportal.org/sequences?db=embl-covid19) (>25,000 deposited items as of Oct 2020)
 * [Raw and assembled sequence and analysis of human and other hosts](https://www.covid19dataportal.org/host-sequences?db=hostSequences) (>900 deposited items as of Oct 2020)
