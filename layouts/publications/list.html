@@ -22,40 +22,44 @@
 <div class="container">
   <div class="row">
     <div class="col-md-2 pl-0 pr-2">
+      <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_field }}</h5>
+      <div class="col mb-2 ml-3 form-check">
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Biochemistry">{{ if eq $.Site.Language.LanguageName "Svenska" }}Kemisk biologi{{ else }}Biochemistry{{ end }}</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Genomics & transcriptomics">{{ if eq $.Site.Language.LanguageName "Svenska" }}Genomik & transkriptomik{{ else }}Genomics & transcriptomics{{ end }}</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Health data">{{ if eq $.Site.Language.LanguageName "Svenska" }}Hälsa{{ else }}Health{{ end }}</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Imaging data">{{ if eq $.Site.Language.LanguageName "Svenska" }}Bild{{ else }}Imaging{{ end }}</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Protein data">{{ if eq $.Site.Language.LanguageName "Svenska" }}Proteiner{{ else }}Proteins{{ end }}</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Serology data">{{ if eq $.Site.Language.LanguageName "Svenska" }}Serologi{{ else }}Serology{{ end }}</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Other data">{{ if eq $.Site.Language.LanguageName "Svenska" }}Övriga{{ else }}Other{{ end }}</div>
+      </div>
+      <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_availability }}</h5>
+      <div class="col mb-2 ml-3 form-check">
+          <div class="row"><input type="checkbox" class="form-check-input" name="data_av" disabled>{{ if eq $.Site.Language.LanguageName "Svenska" }}Tillgängliga data{{ else }}Data available{{ end }}</div>
+      </div>
+      <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_type }}</h5>
+      <div class="col mb-2 ml-3 form-check">
+          <div class="row"><input type="checkbox" class="form-check-input" name="pub_type" value="Type: Journal article">{{ if eq $.Site.Language.LanguageName "Svenska" }}Tidskrift{{ else }}Journal article{{ end }}</div>
+          <div class="row"><input type="checkbox" class="form-check-input" name="pub_type" value="Type: Review">{{ if eq $.Site.Language.LanguageName "Svenska" }}Review{{ else }}Review{{ end }}</div>
+          <div class="row"><input type="checkbox" class="form-check-input" name="pub_type" value="Type: Preprint">{{ if eq $.Site.Language.LanguageName "Svenska" }}Preprint{{ else }}Preprint{{ end }}</div>
+          <div class="row"><input type="checkbox" class="form-check-input" name="pub_type" value="Type: Other">{{ if eq $.Site.Language.LanguageName "Svenska" }}Annan{{ else }}Other{{ end }}</div>
+      </div>
+      <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_year }}</h5>
+      <div class="col mb-2 ml-3 form-check">
+          <div class="row"><input type="checkbox" class="form-check-input" name="year" value="2020" disabled>2020</div>
+          <div class="row"><input type="checkbox" class="form-check-input" name="year" value="2020" disabled>2021</div>
+      </div>
+      <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_funder }}</h5>
+      <div class="col mb-2 ml-3 form-check">
+          <div class="row"><input type="checkbox" class="form-check-input" name="funder" value="Funder: H2020">H2020</div>
+          <div class="row"><input type="checkbox" class="form-check-input" name="funder" value="Funder: KAW/SciLifeLab">KAW/SciLifeLab</div>
+          <div class="row"><input type="checkbox" class="form-check-input" name="funder" value="Funder: NordForsk">NordForsk</div>
+          <div class="row"><input type="checkbox" class="form-check-input" name="funder" value="Funder: VR">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vetenskapsrådet{{ else }}Swedish Research Council{{ end}}</div>
+          <div class="row"><input type="checkbox" class="form-check-input" name="funder" value="Funder: Vinnova">Vinnova</div>
+      </div>
       <div class="alert alert-info small"><i class="fas fa-exclamation-triangle"></i>
         {{ if eq $.Site.Language.LanguageName "English" }}Functionality for filtering publications is currently under development.
         {{ else }}Funktion att filtrera publikationer är under utveckling.
         {{ end }}
-      </div>
-      <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_field }}</h5>
-      <div class="col mb-2">
-          <div class="row">All ({{ len $entries_to_display }})</div>
-          <div class="row">Biochemistry</div>
-          <div class="row">Genomics & transcriptomics</div>
-          <div class="row">Health</div>
-          <div class="row">Imaging</div>
-          <div class="row">Proteins</div>
-          <div class="row">Serology</div>
-          <div class="row">Other</div>
-      </div>
-      <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_availability }}</h5>
-      <div class="col mb-2">
-          <div class="row">All ({{ len $entries_to_display }})</div>
-          <div class="row">Data available</div>
-      </div>
-      <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_type }}</h5>
-      <div class="col mb-2">
-          <div class="row">All ({{ len $entries_to_display }})</div>
-          <div class="row">Journal article</div>
-          <div class="row">Review</div>
-          <div class="row">Preprint</div>
-          <div class="row">Other</div>
-      </div>
-      <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_year }}</h5>
-      <div class="col mb-2">
-          <div class="row">All ({{ len $entries_to_display }})</div>
-          <div class="row">2020</div>
-          <div class="row">2021</div>
       </div>
     </div>
     <div class="col-md-10">
@@ -66,6 +70,9 @@
                   <tr>
                     <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_pub }}</th>
                     <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_updated }}</th>
+                    <th scope="col">Field/Topic</th>
+                    <th scope="col">Publication type</th>
+                    <th scope="col">Funder</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -107,6 +114,9 @@
                         {{ range $key, $content := .labels }} {{ if eq $key "Type: Preprint"}} [preprint]&nbsp;{{ end }}{{ end}} <i>{{ .journal.title }}</i>{{ if .journal.volume }}&nbsp;<b>{{ .journal.volume }}</b>{{ end }}{{if .journal.issue}}&nbsp;({{ .journal.issue }})&nbsp;{{ end }}{{ if .journal.pages }}&nbsp;{{ .journal.pages }}{{ end }}.{{ if .doi}} DOI: {{ .doi }}{{ end }}
                       </td>
                       <td>{{ .published }}</td>
+                      <td>{{ range $key, $content := .labels }} {{ if findRE "Data type *?" $key }} {{ $key }} {{ end }} {{ end }}</td>
+                      <td>{{ range $key, $content := .labels }} {{ if findRE "Type *?" $key }} {{ $key }} {{ end }} {{ end }}</td>
+                      <td>{{ range $key, $content := .labels }} {{ if findRE "Funder *?" $key }} {{ $key }} {{ end }} {{ end }}</td>
                     </tr>
                   {{ end }}
                 </tbody>
@@ -119,42 +129,81 @@
 
 <script>
 $(document).ready( function () {
-    $('table.table').DataTable({
-      "order": [[ 1, "desc" ]],
-      {{ if eq $.Site.Language.LanguageName "English" }}
-      "language": {
-           "lengthMenu": "Show _MENU_ entries per page",
-           "zeroRecords": "Nothing found.",
-           "info": "Showing _START_ to _END_ of _TOTAL_ entries.",
-           "infoEmpty": "No records available",
-           "infoFiltered": "(filtered from _MAX_ total records)",
-           "search": "Search:",
-           "paginate": {
-              "first":      "First",
-              "last":       "Last",
-              "next":       "Next",
-              "previous":   "Previous"
-              }
-          }
-      {{ else }}
-      "language": {
-           "lengthMenu": "Visa _MENU_ poster per sida",
-           "zeroRecords": "Inga resultat",
-           "info": "Visar _START_-_END_ av _TOTAL_ poster.",
-           "infoEmpty": "Inga resultat",
-           "infoFiltered": "(filtrerad av _MAX_ poster)",
-           "search": "Sök:",
-           "paginate": {
-              "first":      "Första",
-              "last":       "Sista",
-              "next":       "Nästa",
-              "previous":   "Föregående"
-              }
-          }
-      {{ end }}
-    }
-    );
+  var table = $('table.table').DataTable({
+    "order": [[ 1, "desc" ]],
+    "columnDefs": [{
+      "targets": [ 2,3,4 ],
+      "visible": false
+    }],
+    {{ if eq $.Site.Language.LanguageName "English" }}
+    "language": {
+         "lengthMenu": "Show _MENU_ entries per page",
+         "zeroRecords": "Nothing found.",
+         "info": "Showing _START_ to _END_ of _TOTAL_ entries",
+         "infoEmpty": "No records available",
+         "infoFiltered": "(filtered from _MAX_ records in total).",
+         "search": "Search:",
+         "paginate": {
+            "first":      "First",
+            "last":       "Last",
+            "next":       "Next",
+            "previous":   "Previous"
+            }
+        }
+    {{ else }}
+    "language": {
+         "lengthMenu": "Visa _MENU_ poster per sida",
+         "zeroRecords": "Inga resultat",
+         "info": "Visar _START_-_END_ av _TOTAL_ poster",
+         "infoEmpty": "Inga resultat",
+         "infoFiltered": "(filtrerad av _MAX_ poster).",
+         "search": "Sök:",
+         "paginate": {
+            "first":      "Första",
+            "last":       "Sista",
+            "next":       "Nästa",
+            "previous":   "Föregående"
+            }
+        }
+    {{ end }}
+  }
+  );
+
+ $('input:checkbox').on('change', function () {
+
+   var topics = $('input:checkbox[name="topic"]:checked').map(function() {
+     return this.value;
+   }).get().join('|');
+
+   // filter for publication type, with no regex, no smart filtering, not case sensitive
+   table.column(2).search(topics, true, false, false).draw(false);
+
+   //Publications type filter; build a filter string with an or(|) condition
+   var pub_types = $('input:checkbox[name="pub_type"]:checked').map(function() {
+     return this.value;
+   }).get().join('|');
+
+   table.column(3).search(pub_types, true, false, false).draw(false);
+
+   //Funder filter; build a filter string with an or(|) condition
+   var funders = $('input:checkbox[name="funder"]:checked').map(function() {
+     return this.value;
+   }).get().join('|');
+
+   table.column(4).search(funders, true, false, false).draw(false);
+
+   //Years filter; build a regex filter string with an or(|) condition
+   var years = $('input:checkbox[name="year"]:checked').map(function() {
+     return '^' + this.value + '$';
+   }).get().join('|');
+
+   // filter for year, without regex, smart filtering, not case sensitive
+   table.column(1).search(years, true, false, false).draw(false);
+
+ });
+
 } );
+
 </script>
 
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
