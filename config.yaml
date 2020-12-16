@@ -40,6 +40,7 @@ params:
       pubs_availability: Data availability
       pubs_type: Publication type
       pubs_year: Year
+      pubs_funder: Funder
     sv:
       home_title: Snabbare forskning genom datadelning
       enquire_email_footer_dc: "Kontakta den svenska Covid-19 dataportalen"
@@ -72,6 +73,7 @@ params:
       pubs_availability: Tillgängliga forskningsdata
       pubs_type: Publikationstyp
       pubs_year: År
+      pubs_funder: Forskningsfinansiär
 
 languages:
   en:
