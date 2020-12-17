@@ -18,14 +18,14 @@
       {{ if .Parent.Parent }}
         {{ if .Parent.Parent.Parent }}
           {{ if .Parent.Parent.Parent.Parent }}
-            <li class="breadcrumb-item"><a href="{{ .Parent.Parent.Parent.Parent.URL }}">{{ .Parent.Parent.Parent.Parent.Title }}</a></li>
+            <li class="breadcrumb-item"><a href="{{ .Parent.Parent.Parent.Parent.RelPermalink }}">{{ .Parent.Parent.Parent.Parent.Title }}</a></li>
           {{ end }}
-          <li class="breadcrumb-item"><a href="{{ .Parent.Parent.Parent.URL }}">{{ .Parent.Parent.Parent.Title }}</a></li>
+          <li class="breadcrumb-item"><a href="{{ .Parent.Parent.Parent.RelPermalink }}">{{ .Parent.Parent.Parent.Title }}</a></li>
         {{ end }}
-        <li class="breadcrumb-item"><a href="{{ .Parent.Parent.URL }}">{{ .Parent.Parent.Title }}</a></li>
+        <li class="breadcrumb-item"><a href="{{ .Parent.Parent.RelPermalink }}">{{ .Parent.Parent.Title }}</a></li>
       {{ end }}
 
-      <li class="breadcrumb-item"><a href="{{ .Parent.URL }}">{{ .Parent.Title }}</a></li>
+      <li class="breadcrumb-item"><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></li>
       <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
     </ol>
   </div>

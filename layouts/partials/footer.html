@@ -14,7 +14,7 @@
           <h2 class="small text-uppercase text-black-50">{{ .Name }}</h2>
           <ul class="list-unstyled">
             {{ range .Children }}
-              <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+              <li><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
             {{ end }}
           </ul>
         {{ end }}
@@ -26,7 +26,7 @@
           <h2 class="small text-uppercase text-black-50">{{ .Name }}</h2>
           <ul class="list-unstyled">
             {{ range .Children }}
-              <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+              <li><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
             {{ end }}
           </ul>
         {{ end }}
@@ -35,9 +35,13 @@
     <div class="col-md">
       <h2 class="small text-uppercase text-black-50">About</h2>
       <ul class="list-unstyled mb-1">
-      {{ range .Site.Menus.top_nav }}
-        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-      {{ end }}
+        {{ range first 1 .Site.Menus.top_nav }}
+          <li><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
+        {{ end }}
+          <li><a href="https://covid19dataportal.org/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Europeiska portalen{{ else }}European Portal{{ end }}</a></li>
+        {{ range after 1 .Site.Menus.top_nav }}
+          <li><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
+        {{ end }}
       </ul>
       <ul class="list-unstyled border-top pt-1 nav-languages">
       {{ if .IsTranslated }}

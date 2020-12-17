@@ -1,8 +1,5 @@
 ---
-title: Serologisk data
-_build:
-    list: true
-    render: true
+title: Publicerad serologisk data
 menu:
     other_data:
         name: Serologisk data
