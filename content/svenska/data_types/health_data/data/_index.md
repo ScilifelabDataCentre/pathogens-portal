@@ -1,5 +1,5 @@
 ---
-title: Hälsodata
+title: Publicerad hälsodata
 menu:
     main:
         name: Publicerad data
