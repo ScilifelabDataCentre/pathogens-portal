@@ -36,7 +36,7 @@ SNIC is a national research infrastructure that makes available large-scale high
 ### Text data
 See [Text and Literature](../text_and_literature).
 
-### Clinical data and clinical trials
+### Clinical trials
 
 ##### [Clinicaltrial.gov](https://clinicaltrials.gov/)
 US clinical trials register.
@@ -50,11 +50,48 @@ Map of clinical trials related to COVID-19 world wide.
 ##### [International Clinical Trials Registry Platform](https://www.who.int/ictrp/en/)
 WHO database of clinical trials. See also [https://apps.who.int/trialsearch/](https://apps.who.int/trialsearch/).
 
+##### [LIF coronavirus overview](https://www.lif.se/forskningsoversikt-coronavirus/)
+Overview over global vaccine and drug development projects
+
+### Clinical data and patient registries
+
 ##### [LEOSS register](https://leoss.net/)
 Anonymous register with COVID-19 patient data from over 200 hospitals.
 
-##### [LIF coronavirus overview](https://www.lif.se/forskningsoversikt-coronavirus/)
-Overview over global vaccine and drug development projects
+##### [ASH RC COVID-19 Registry](https://www.ashresearchcollaborative.org/s/covid-19-registry-data-summaries)
+COVID-19 Registry for Hematology
+
+##### [COVID-Hep.net](https://covid-hep.net/)
+Coronavirus (COVID-19) in liver disease reporting registry
+
+##### [ELSO registry](https://www.elso.org/Registry/FullCOVID19RegistryDashboard.aspx)
+COVID-19 patients on ECMO
+
+##### [EUROELSO](https://www.euroelso.net/covid-19/covid-19-survey/)
+ECMO use in adult COVID-19 patients in Europe
+
+##### [IntubateCOVID](https://www.intubatecovid.org/dashboards)
+COVID-10 Intubation registry
+
+##### [Pediatric COVID-19 U.S. Registry](https://www.pedscovid19registry.com/current-data.html)
+
+##### [PSOProtect](https://psoprotect.org/current-data/)
+Psoriasis Registry for Outcomes, Therapy and Epidemiology of COVID-19 Infection
+
+##### [SECURE-Cirrhosis](https://covidcirrhosis.web.unc.edu/updates-and-data/)
+Reporting Registry for COVID-19 in liver disease
+
+##### [SECURE-IBD](https://covidibd.org/current-data/)
+COVID-19 and Inflammatory Bowel Disease (IBD) Reporting Registry
+
+##### [SECURE-SCD](https://covidsicklecell.org/updates-data/)
+COVID-19 and Sickle Cell Disease Registry
+
+##### [The COVID-19 Global Rheumatology Alliance Global Registry](https://rheum-covid.org/updates/combined-data.html)
+Registers with data provided by providers and patients
+
+##### [VIRUS COVID-19 Registry](https://sccmcovid19.org/)
+Register of current ICU and hospital care patients
 
 ### Epidemiology and mobility data
 
@@ -91,8 +128,6 @@ Worldwide COVID-19 statistics.
 This dataset is a curated collection of over 200 publicly available COVID-19 datasets from sources like Johns Hopkins, the WHO, the World Bank, the New York Times, and many others.
 It includes data on a wide variety of potentially powerful statistics and indicators, like local and national infection rates, global social distancing policies, geospatial data on movement of people, and more.
 The data comes with a Kaggle competition hosted by the Roche Data Science Coalition (RDSC) which comprises number of tasks developed and evaluated by global frontline healthcare providers, hospitals, suppliers, and policy makers.
-
-### Image data
 
 ### Structural data
 
@@ -227,3 +262,5 @@ A list of resources compiled to support participants of the COVID-19 Biohackatho
 
 ##### [COVID-19 Research Funding Monitor](https://coronavirus.frontiersin.org/covid-19-research-funding-monitor)
 A curated list of open funding calls and other support for researchers, non-profit organizations and commercial organizations, specifically for COVID-19 research.
+
+##### [Harvard Dataverse COVID-19 collection](https://dataverse.harvard.edu/dataverse/covid19)
