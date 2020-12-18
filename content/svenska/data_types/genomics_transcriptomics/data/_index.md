@@ -1,5 +1,5 @@
 ---
-title: Genomik & transkriptomik data
+title: Publicerad genomik & transkriptomik data
 menu:
     main:
         name: Publicerad data

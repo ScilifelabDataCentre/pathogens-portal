@@ -80,22 +80,12 @@ languages:
     languageName: English
     contentDir: content/english
     weight: 1
-    menu:
-      top_nav:
-        - name: European Portal
-          url: https://www.covid19dataportal.org/
-          weight: 20
 
   sv:
     languageName: Svenska
     contentDir: content/svenska
     weight: 2
     description: Covid-19 Dataportal för svensk forskning
-    menu:
-      top_nav:
-        - name: Europeiska portalen
-          url: https://www.covid19dataportal.org/
-          weight: 20
 
 markup:
   goldmark:

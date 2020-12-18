@@ -5,6 +5,7 @@ menu:
     top_nav:
         name: About
         weight: 10
+        identifier: about
 ---
 ### Introduction
 
