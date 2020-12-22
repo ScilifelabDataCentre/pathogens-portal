@@ -10,7 +10,7 @@ toc: false
 
 <div class="alert alert-info small">
   <p><i class="fas fa-exclamation-triangle"></i> The National Pandemic Center (NPC) at Karolinska Institutet ceased operations on 2020-12-21.</p>
-  <p><strong>The data presented here receives no further updates</strong> and only remains for historical reference.</p>
+  <p><span class="font-weight-bold">The data presented here receives no further updates</span> and only remains for historical reference.</p>
   <a href="https://nyheter.ki.se/covid-19-tester-ki-atergar-till-ordinarie-laboratorieverksamhet-men-har-fortsatt-beredskap">KI Press Release</a>
 </div>
 

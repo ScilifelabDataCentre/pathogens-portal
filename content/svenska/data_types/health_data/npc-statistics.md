@@ -10,7 +10,7 @@ menu:
 <div class="alert alert-info small">
   <p><i class="fas fa-exclamation-triangle"></i>Nationellt Pandemicenter (NPC) vid Karolinska Institutet upphörde med
 sina aktiviteter 2020-12-21.</p>
-  <p><strong>Den data som visas här har slutat uppdateras</strong> och utgör endast historisk dokumentation.</p>
+  <p><span class="font-weight-bold">Den data som visas här har slutat uppdateras</span> och utgör endast historisk dokumentation.</p>
   <a href="https://nyheter.ki.se/covid-19-tester-ki-atergar-till-ordinarie-laboratorieverksamhet-men-har-fortsatt-beredskap">KIs pressmeddelande</a>
 </div>
 
@@ -101,14 +101,14 @@ sedan start.
   <div id="cumulative-plot"></div>
 </div>
 
-NPC var en facilitet för 
+NPC var en facilitet för
 [SARS-CoV-2 (COVID-19)-tester](https://ki.se/mtc/ctmr-and-covid-19)
 som byggdes upp vid
 [Centre for Translational Microbiome Research (CTMR)](https://ki.se/en/research/centre-for-translational-microbiome-research-ctmr)
 vid [Karolinska Institutet (KI)](https://ki.se/)/[SciLifeLab](https://www.scilifelab.se/).
 Under slutet av mars 2020 byggdes det storskaliga mikrobiom-forskningslabbet
 om till ett center för att bidra till testning av SARS-CoV-2 i Sverige.
-Detta möjliggjordes genom en donation från 
+Detta möjliggjordes genom en donation från
 [Knut and Alice Wallenberg Foundation (KAW)](https://kaw.wallenberg.org/)
 tillsammans med ett redan tidigare etablerat samarbete med
 [MGI Tech](https://en.mgitech.cn/) i Shenzen, Kina. Efter att först ha
