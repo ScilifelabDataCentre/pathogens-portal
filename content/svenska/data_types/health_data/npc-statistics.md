@@ -101,7 +101,7 @@ sedan start.
   <div id="cumulative-plot"></div>
 </div>
 
-NPC var en facilitet för
+Nationellt Pandemicenter (NPC) var en facilitet för
 [SARS-CoV-2 (COVID-19)-tester](https://ki.se/mtc/ctmr-and-covid-19)
 som byggdes upp vid
 [Centre for Translational Microbiome Research (CTMR)](https://ki.se/en/research/centre-for-translational-microbiome-research-ctmr)
@@ -117,9 +117,9 @@ Universitetslaboratoriet, expanderade NPC snabbt till att bli en
 facilitet för ökad kapacitet för SARS-CoV-2-tester åt alla regioner i
 Sverige.
 
-Kapaciteten vid det Nationella Pandemicentret vid KI/SciLifeLab nådde
+Kapaciteten vid Nationellt Pandemicenter vid KI/SciLifeLab nådde
 till slut ungefär 10.000 tester per dag, och resultaten skickades
-tillbaka i de flesta fall inom 24 timmar efter att provet inkommit
+i de flesta fall tillbaka inom 24 timmar efter att provet inkommit
 till labbet. NPC utförde endast PCR-baserad analys, inte serologisk
 (antikropps-baserad) analys.
 
