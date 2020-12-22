@@ -7,6 +7,13 @@ menu:
         weight: 10
 ---
 
+<div class="alert alert-info small">
+  <p><i class="fas fa-exclamation-triangle"></i>Nationellt Pandemicenter (NPC) vid Karolinska Institutet upphörde med
+sina aktiviteter 2020-12-21.</p>
+  <p><span class="font-weight-bold">Den data som visas här har slutat uppdateras</span> och utgör endast historisk dokumentation.</p>
+  <a href="https://nyheter.ki.se/covid-19-tester-ki-atergar-till-ordinarie-laboratorieverksamhet-men-har-fortsatt-beredskap">KIs pressmeddelande</a>
+</div>
+
 #### Totala antalet tester vid NPC
 
 Det totala antalet SARS-CoV-2 (Covid-19)-virustester analyserade vid NPC
@@ -94,32 +101,31 @@ sedan start.
   <div id="cumulative-plot"></div>
 </div>
 
-Nationellt Pandemicenter (NPC) är ett lab för
-[SARS-CoV-2 (Covid-19)-tester](https://ki.se/mtc/ctmr-and-covid-19) som har byggts upp
-vid
-[Centret för Translationell Mikrobiomforskning (CTMR)](https://ki.se/en/research/news-from-the-centre-for-translational-microbiome-research-ctmr)
-på [Karolinska Institutet (KI)](https://ki.se/)/
-[SciLifeLab](https://www.scilifelab.se/).
-I slutet av mars 2020 ställde man snabbt om sitt laboratorium för storskalig mikrobiomforskning till ett
-center för att bistå Sverige med att analysera SARS-CoV-2-prov.
-Detta möjliggjordes tack vare en donation från
-[Knut och Alice Wallenbergs stiftelse (KAW)](https://kaw.wallenberg.org/),
-i kombination med ett tidigare redan etablerat nära samarbete med
-[MGI Tech.](https://en.mgitech.cn/) i Shenzen, Kina.
-Till en början bistod NPC Karolinska Universitetslaboratoriet med
-RNA-extraktionskapacitet, men expanderade på kort tid till en
-fullskalig verksamhet för att kunna erbjuda resurser för utökad
-SARS-CoV-2-testning i alla Sveriges regioner.
+Nationellt Pandemicenter (NPC) var en facilitet för
+[SARS-CoV-2 (COVID-19)-tester](https://ki.se/mtc/ctmr-and-covid-19)
+som byggdes upp vid
+[Centre for Translational Microbiome Research (CTMR)](https://ki.se/en/research/centre-for-translational-microbiome-research-ctmr)
+vid [Karolinska Institutet (KI)](https://ki.se/)/[SciLifeLab](https://www.scilifelab.se/).
+Under slutet av mars 2020 byggdes det storskaliga mikrobiom-forskningslabbet
+om till ett center för att bidra till testning av SARS-CoV-2 i Sverige.
+Detta möjliggjordes genom en donation från
+[Knut and Alice Wallenberg Foundation (KAW)](https://kaw.wallenberg.org/)
+tillsammans med ett redan tidigare etablerat samarbete med
+[MGI Tech](https://en.mgitech.cn/) i Shenzen, Kina. Efter att först ha
+bidragit med kapacitet för RNA-extraktion åt Karolinska
+Universitetslaboratoriet, expanderade NPC snabbt till att bli en
+facilitet för ökad kapacitet för SARS-CoV-2-tester åt alla regioner i
+Sverige.
 
-Nationellt Pandemicenter (NPC) vid KI/SciLifeLab har en nuvarande
-analyskapacitet på ca 5000 prover per dag, med provsvar normalt inom
-24 timmar från provets ankomst till labbet. Notera att endast PCR-baserade
-analyser görs vid NPC, inte serologiska (antikroppsbaserade) analyser.
+Kapaciteten vid Nationellt Pandemicenter vid KI/SciLifeLab nådde
+till slut ungefär 10.000 tester per dag, och resultaten skickades
+i de flesta fall tillbaka inom 24 timmar efter att provet inkommit
+till labbet. NPC utförde endast PCR-baserad analys, inte serologisk
+(antikropps-baserad) analys.
 
 Data som visas på den här sidan är automatiskt sammanställd och stämmer inte
 nödvändigtvis överens med data som publicerats via andra kanaler
-av olika anledningar. Datan uppdateras dagligen, och ändringar bakåt i
-tiden kan förekomma.
+av olika anledningar.
 
 Datasetet som visualiseras i graferna finns tillgängligt
 [här](https://datagraphics.dckube.scilifelab.se/dataset/bbbaf64a25a1452287a8630503f07418).

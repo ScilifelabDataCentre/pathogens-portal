@@ -8,6 +8,12 @@ menu:
 toc: false
 ---
 
+<div class="alert alert-info small">
+  <p><i class="fas fa-exclamation-triangle"></i> The National Pandemic Center (NPC) at Karolinska Institutet ceased operations on 2020-12-21.</p>
+  <p><span class="font-weight-bold">The data presented here receives no further updates</span> and only remains for historical reference.</p>
+  <a href="https://nyheter.ki.se/covid-19-tester-ki-atergar-till-ordinarie-laboratorieverksamhet-men-har-fortsatt-beredskap">KI Press Release</a>
+</div>
+
 #### Total NPC test numbers
 
 The total number of SARS-CoV-2 (COVID-19) tests run at NPC since
@@ -95,36 +101,34 @@ and invalid/inconclusive results.
   <div id="cumulative-plot"></div>
 </div>
 
-The National Pandemic Centre (NPC) is a lab for
+NPC was a facility for
 [SARS-CoV-2 (COVID-19) testing](https://ki.se/mtc/ctmr-and-covid-19)
 set up within the
 [Centre for Translational Microbiome Research (CTMR)](https://ki.se/en/research/centre-for-translational-microbiome-research-ctmr)
-at [Karolinska Institutet (KI)](https://ki.se/en)/
-[SciLifeLab](https://www.scilifelab.se/).
+at
+[Karolinska Institutet (KI)](https://ki.se/en)/[SciLifeLab](https://www.scilifelab.se/).
 At the end of March 2020 the large-scale microbiome research lab was
-quickly converted into a center that can assist Sweden in
-analyzing SARS-CoV-2 tests.
-This was made possible through a donation by the
+quickly converted into a center to assist Sweden in analyzing
+SARS-CoV-2 tests. This was made possible through a donation by the
 [Knut and Alice Wallenberg Foundation (KAW)](https://kaw.wallenberg.org/en)
 in combination with a previously established collaboration with
-[MGI Tech.](https://en.mgitech.cn/) in Shenzen, China.
-Initially providing assistance with RNA-extraction capacity to
-Karolinska Universitetslaboratoriet, the National Pandemic Center
-at KI/SciLifeLab quickly expanded into providing a facility providing
-increased SARS-CoV-2 testing capacity to all regions of Sweden.
+[MGI Tech](https://en.mgitech.cn/) in Shenzen, China. Initially providing
+assistance with RNA-extraction capacity to Karolinska
+Universitetslaboratoriet, NPC quickly expanded into providing a
+facility providing increased SARS-CoV-2 testing capacity to all
+regions of Sweden.
 
-The current capacity of the National Pandemic Center at KI/SciLifeLab
-is approximately 5000 test per day, with results typically returned
-within 24 hours from the sample arriving to the lab. Please note that
-only PCR-based analysis is performed at NPC, not serological
-(antibody-based) analysis.
+The final capacity of the National Pandemic Center at KI/SciLifeLab
+reached approximately 10,000 test per day, with results typically
+returned within 24 hours from the sample arriving to the lab. NPC
+exclusively performed PCR-based analyses, not serological
+(antibody-based) analyses.
 
 These numbers are compiled automatically and might not correspond to
 the numbers reported through other sources for different reasons.
-The data are updated once daily, and backdated changes to numbers might occur.
 
 The dataset visualized in the graphs is available
-[here](https://datagraphics.dckube.scilifelab.se/dataset/bbbaf64a25a1452287a8630503f07418) and is updated daily.
+[here](https://datagraphics.dckube.scilifelab.se/dataset/bbbaf64a25a1452287a8630503f07418).
 The source code for the graphs are
 [here](https://datagraphics.dckube.scilifelab.se/graphic/ba0b27320fe74ad0aef59a26be6c37f1),
 [here](https://datagraphics.dckube.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc),
