@@ -1,5 +1,4 @@
-<form class="needs-validation" novalidate>
-
+<form class="needs-validation" novalidate action="https://biobank-forms.dckube.scilifelab.se/forms/add_biobank/">
   <div class="accordion md-accordion" id="accordionForm" role="tablist" aria-multiselectable="true">
     <div class="card">
       <div class="card-header" role="tab" id="generalinfo">
@@ -65,14 +64,14 @@
   </div>
   <div class="card">
     <div class="card-header" role="tab" id="generalinfo">
-      <a data-toggle="collapse" data-parent="#accordionForm" href="#collapseContactInformation" aria-expanded="false"
+      <a data-toggle="collapse" data-parent="#accordionForm" href="#collapseContactInformation" aria-expanded="true"
       aria-controls="collapseContactInformation">
       <h5 class="mb-0">
         Contact information* <i class="fas fa-angle-down rotate-icon"></i>
       </h5>
     </a>
   </div>
-  <div id="collapseContactInformation" class="collapse" role="tabpanel" aria-labelledby="generalinfo"
+  <div id="collapseContactInformation" class="collapse show" role="tabpanel" aria-labelledby="generalinfo"
   data-parent="#accordionForm">
   <div class="card-body">
     <h5>Location</h5>
@@ -109,7 +108,29 @@
   </div>
   </div>
   </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="submissionToken">
+      <a data-toggle="collapse" data-parent="#accordionForm" href="#collapseSubmissionToken" aria-expanded="true"
+         aria-controls="collapseSubmissionToken">
+      <h5 class="mb-0">
+        Submission password* <i class="fas fa-angle-down rotate-icon"></i>
+      </h5>
+      </a>
+    </div>
+    <div id="collapseSubmissionToken" class="collapse show" role="tabpanel" aria-labelledby="submissionToken"
+         data-parent="#accordionForm">
+      <div class="card-body">
+        <div class="form-group">
+          <label for="token"><b>Password:*</b></label>
+          <input type="text" class="form-control" name="token" required>
+          <small class="form-text text-muted">The password used to validate the submission.</small>
+        </div>
+      </div>
+    </div>
   </div>
+  </div>
+
+  <input type="url" id="originUrl" name="originUrl" value="" hidden />
 
   <button type="submit" class="btn btn-secondary mt-3">Submit the form</button>
 </form>
@@ -123,4 +144,6 @@
       }
       form.classList.add('was-validated')
   })
+
+  document.getElementById('originUrl').value = location.href;
 </script>
