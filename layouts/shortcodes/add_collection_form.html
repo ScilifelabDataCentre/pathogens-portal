@@ -1,4 +1,4 @@
-<form class="needs-validation" novalidate>
+<form class="needs-validation" novalidate action="https://biobank-forms.dckube.scilifelab.se/forms/add_collection/">
 
 <div class="accordion md-accordion" id="accordionForm" role="tablist" aria-multiselectable="true">
   <div class="card">
@@ -236,8 +236,8 @@
         <small class="form-text text-muted">Size of the collection to the given date.</small>
       </div>
     <div class="form-group col-md-6">
-        <label for="timestamp"><b>Date size information last updated:*</b></label>
-        <input type="date" class="form-control" name="timestamp" required>
+        <label for="order_of_magnitude_updated"><b>Date size information last updated:*</b></label>
+        <input type="date" class="form-control" name="order_of_magnitude_updated" required>
         <small class="form-text text-muted">Date to which the indicated size of the collection was valid.</small>
     </div>
     </div>
@@ -384,7 +384,7 @@ data-parent="#accordionForm">
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="order_of_magnitude_donors"><b>Number of donors:</b></label>
-      <select class="form-control" id="order_of_magnitude_donors" name="order_of_magnitude_donors" required>
+      <select class="form-control" id="order_of_magnitude_donors" name="order_of_magnitude_donors">
         <option id="order_of_magnitude_donors_null"> </option>
         <option id="order_of_magnitude_donors_0">&lt; 10</option>
         <option id="order_of_magnitude_donors_1">10 - 100</option>
@@ -676,7 +676,30 @@ data-parent="#accordionForm">
 </div>
 </div>
 </div>
+<div class="card">
+  <div class="card-header" role="tab" id="submissionToken">
+    <a data-toggle="collapse" data-parent="#accordionForm" href="#collapseSubmissionToken" aria-expanded="false"
+       aria-controls="collapseSubmissionToken">
+    <h5 class="mb-0">
+      Submission token* <i class="fas fa-angle-down rotate-icon"></i>
+    </h5>
+    </a>
+  </div>
+  <div id="collapseSubmissionToken" class="collapse" role="tabpanel" aria-labelledby="submissionToken"
+       data-parent="#accordionForm">
+    <div class="card-body">
+      <div class="form-group">
+        <label for="token"><b>Token:*</b></label>
+        <input type="text" class="form-control" name="token" required>
+        <small class="form-text text-muted">The token used to validate the submission.</small>
+      </div>
+    </div>
+  </div>
 </div>
+</div>
+
+<input type="url" id="originUrl" name="originUrl" value="" hidden />
+
 <button type="submit" class="btn btn-secondary mt-3">Submit the form</button>
 </form>
 
@@ -689,6 +712,8 @@ data-parent="#accordionForm">
       }
       form.classList.add('was-validated')
   })
+
+  document.getElementById('originUrl').value = location.href;
 
   $(function(){
     var requiredCheckboxes = $('.types :checkbox[required]');
@@ -712,28 +737,6 @@ data-parent="#accordionForm">
     });
   });
 
-  // bodyparts list
-  $(document).ready(function() {
-  $.ajax({
-    width: '100%',
-    async: true,
-    url: "/biobanks/bodyparts_list.json",
-    dataType: "json",
-    success: function (data) {
-      data = $.map(data, function (item) {
-        return {
-          text: item.text,
-          id: item.id
-        };
-      });
-      $(".js-select-bodypart-multiple").select2({
-        multiple: true,
-        data: data
-        });
-        }
-      });
-    });
-
     // diagnoses list
     $(document).ready(function() {
       $.ajax({
@@ -750,48 +753,6 @@ data-parent="#accordionForm">
           $(".js-select-diagnoses-multiple").select2({
             multiple: true,
             minimumInputLength: 2,
-            data: data
-          });
-        }
-      });
-    });
-
-    // imaging modalities list
-    $(document).ready(function() {
-      $.ajax({
-        async: true,
-        url: "/biobanks/imagingmodalities_list.json",
-        dataType: "json",
-        success: function (data) {
-          data = $.map(data, function (item) {
-            return {
-              text: item.text,
-              id: item.id
-            };
-          });
-          $(".js-select-imagingmodalities-multiple").select2({
-            multiple: true,
-            data: data
-          });
-        }
-      });
-    });
-
-    // imaging dataset types list
-    $(document).ready(function() {
-      $.ajax({
-        async: true,
-        url: "/biobanks/imagingdatatypes_list.json",
-        dataType: "json",
-        success: function (data) {
-          data = $.map(data, function (item) {
-            return {
-              text: item.text,
-              id: item.id
-            };
-          });
-          $(".js-select-imagingdatatypes-multiple").select2({
-            multiple: true,
             data: data
           });
         }
