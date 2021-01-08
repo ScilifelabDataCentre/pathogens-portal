@@ -21,8 +21,8 @@ type: data_table
 
 * [Folkhälsomyndigheten](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/bekraftade-fall-i-sverige): Officiell statistik om Covid-19 fall och tester i Sverige.
 
-* [Metadata för nationella register - RUT](rut): Metadata för svenska nationella sjukvårdsregister.
+* [Metadata för nationella register - RUT](/sv/data_types/health_data/rut): Metadata för svenska nationella sjukvårdsregister.
 
-* [Nationellt Pandemicentrum, statistik för Covid-19-tester](npc-statistics): Uppdateras dagligen.
+* [SciLifeLab Autoimmunity and Serology profiling facility, statistik för SARS-CoV-2 antikroppstest](/sv/data_types/health_data/serology-statistics): Uppdateras manuellt.
 
-* [SciLifeLab Autoimmunity and Serology profiling facility, statistik för SARS-CoV-2 antikroppstest](serology-statistics): Uppdateras manuellt.
+* [Nationellt Pandemicentrum, statistik för Covid-19-tester](/sv/data_types/health_data/npc-statistics/): SARS-CoV-2 (Covid-19)-virustester analyserade mellan april och december 2020.

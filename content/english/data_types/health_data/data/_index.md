@@ -27,6 +27,6 @@ datatypes_to_display:
 
 * [National Health Metadata Repository - RUT](../rut): Meta data for Swedish national health registers.
 
-* [National Pandemic Centre COVID-19 test statistics](../npc-statistics). Hosted by us, updated automatically on a daily basis.
-
 * [SciLifeLab Autoimmunity and Serology profiling facility SARS-CoV-2 antibody test statistics](../serology-statistics). Hosted by us, updated manually on a weekly basis.
+
+* [National Pandemic Centre COVID-19 test statistics](../npc-statistics). The daily number of tests carried out between April and December 2020 as well as test results.
