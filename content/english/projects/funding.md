@@ -6,6 +6,9 @@ menu:
         name: Funding opportunities
         identifier: upcoming_calls
         weight: 30
+    footer_sections:
+        name: Funding opportunities
+        weight: 40
 ---
 This is a list of upcoming funding opportunities offered by major funding agencies in Sweden: Swedish Research Council, NordForsk, Vinnova, Horizon 2020, SciLifeLab/Knut and Alice Wallenberg Foundation grants.
 

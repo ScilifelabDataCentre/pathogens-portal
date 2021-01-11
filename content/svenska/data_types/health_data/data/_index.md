@@ -7,7 +7,7 @@ menu:
         parent: health_data
         weight: 5
     horizontal:
-        name: Hälsodata
+        name: Sjukvårdsdata
         identifier: health_data
         weight: 50
 type: data_table
