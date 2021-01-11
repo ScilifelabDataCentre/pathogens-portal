@@ -2,7 +2,7 @@
 title: Hem
 teststats:
         name: Statistik om tester
-        desc: Den svenska dataportalen för Covid-19 har sidor med statistik om COVID-19-tester som utförs av [Nationellt Pandemicenter](/sv/data_types/health_data/npc-statistics/) (uppdateras automatiskt dagligen) och om antikroppstester för  SARS-CoV-2 som utförs av [SciLifeLab Autoimmunity and Serology profiling facility](/sv/data_types/health_data/serology-statistics/) (uppdateras manuellt).
+        desc: Den svenska dataportalen för Covid-19 har sidor med statistik om COVID-19-tester som utförs av [Nationellt Pandemicenter](/sv/data_types/health_data/npc-statistics/) (till och med december 2020) och om antikroppstester för  SARS-CoV-2 som utförs av [SciLifeLab Autoimmunity and Serology profiling facility](/sv/data_types/health_data/serology-statistics/) (uppdateras manuellt).
         npctitle: COVID-19 tester som utförs av NPC
         serologytitle: Antikroppstester som utförs av SciLifeLab
         seemoretext: Se mer
