@@ -6,6 +6,9 @@ menu:
         name: Kommande forskningsanslag
         identifier: upcoming_calls
         weight: 30
+    footer_sections:
+        name: Kommande forskningsanslag
+        weight: 40
 ---
 
 Detta är en lista över kommande forskningsanslag relaterade till COVID-19 från stora svenska anslagsgivare: Vetenskapsrådet, Nordforsk, Vinnova, Horizon 2020 och Knut och Alice Wallenbergs Stiftelse.

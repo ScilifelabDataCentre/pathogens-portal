@@ -6,6 +6,8 @@ menu:
         name: About
         weight: 10
         identifier: about
+    footer_about:
+        name: About
 ---
 ### Introduction
 

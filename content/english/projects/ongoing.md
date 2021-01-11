@@ -6,6 +6,9 @@ menu:
         name: Ongoing research projects
         identifier: ongoing_projects
         weight: 20
+    footer_sections:
+        name: Ongoing research projects
+        weight: 30
 ---
 This is a manually curated overview of research projects on COVID-19 which are funded by major funding agencies in Sweden. New projects are added on an ongoing basis. If you would like your project to be listed here, please get in touch with us (datacentre@scilifelab.se). See also [SweCRIS](https://www.swecris.se/betasearch/?q=Covid&view=cards&lang=en), a database of all funded research projects in Sweden, where it is possible to search using custom keywords.
 

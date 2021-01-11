@@ -4,6 +4,9 @@ menu:
     top_nav:
         name: Om dataportalen
         weight: 10
+    footer_about:
+        name: Om dataportalen
+        weight: 10
 toc: false
 ---
 
