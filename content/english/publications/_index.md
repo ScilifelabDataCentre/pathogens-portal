@@ -6,7 +6,7 @@ menu:
         identifier: publications
         weight: 10
     footer_sections:
-        name: Publications to date
+        name: Publications
         weight: 20
 ---
 
