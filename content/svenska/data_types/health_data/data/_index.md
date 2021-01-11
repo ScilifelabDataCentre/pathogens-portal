@@ -25,4 +25,4 @@ type: data_table
 
 * [SciLifeLab Autoimmunity and Serology profiling facility, statistik för SARS-CoV-2 antikroppstest](/sv/data_types/health_data/serology-statistics): Uppdateras manuellt.
 
-* [Nationellt Pandemicentrum, statistik för Covid-19-tester](/sv/data_types/health_data/npc-statistics/): SARS-CoV-2 (Covid-19)-virustester analyserade mellan april och december 2020.
+* [Nationellt Pandemicentrum, statistik för Covid-19-tester](/sv/data_types/health_data/npc-statistics/): Antal Covid-19 virustester och resultat av dessa som analyserades mellan april och december 2020 vid NPC.
