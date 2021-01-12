@@ -20,7 +20,7 @@
       </ul>
     </div>
     <div class="col-md">
-      <h2 class="small text-uppercase text-black-50">{{ if eq $.Site.Language.LanguageName "Svenska" }}Infotjänster{{ else }}Information services{{ end }}</h2>
+      <h2 class="small text-uppercase text-black-50">{{ if eq $.Site.Language.LanguageName "Svenska" }}Tjänster på dataportalen{{ else }}Portal services{{ end }}</h2>
       <ul class="list-unstyled">
       {{ range .Site.Menus.footer_sections }}
               <li><a href="{{ .Page.RelPermalink }}">{{ if or (eq .Name "Biobank Registry") (eq .Name "Biobanksregistret") }}<i class="fas fa-vials mr-1"></i>{{ end }}{{ .Name }}</a></li>
@@ -28,9 +28,9 @@
       </ul>
     </div>
     <div class="col-md">
+      <h2 class="small text-uppercase text-black-50">{{ if eq $.Site.Language.LanguageName "Svenska" }}Externa tjänster{{ else }}External services{{ end }}</h2>
       {{ range .Site.Menus.main }}
         {{ if eq .Identifier "support_services" }}
-          <h2 class="small text-uppercase text-black-50">{{ .Name }}</h2>
           <ul class="list-unstyled">
             {{ range .Children }}
               <li><a href="{{ .Page.RelPermalink }}">{{ if or (eq .Name "Submit data") (eq .Name "Publicera data") }}<i class="fas fa-paper-plane mr-1"></i>{{ end }}{{ .Name }}</a></li>
