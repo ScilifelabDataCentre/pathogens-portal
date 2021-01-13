@@ -72,6 +72,6 @@ SciLifeLab faciliteten har ny bytt namn - [Autoimmunity and Serology Profiling f
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.12.2"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
 
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/da4fea8cda554f7daaf1a6a4aaf20c09.js?id=bar-chart"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/a0aa4518425a4d4caa91b14bceddfd14.js?id=cumulative-plot"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/874f2e10a86243d2a02de6bee37e6c61.js?id=total-number"></script>
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/e5c031600d334d889f33080d3f0ac0dd.js?id=bar-chart"></script>
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/4c635b2679e648e384d952dd3e506ff1.js?id=cumulative-plot"></script>
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/63d9201aee8747c9b37c17ebb6b01c35.js?id=total-number"></script>
