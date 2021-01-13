@@ -13,8 +13,8 @@ toc: false
 * [Number of carried out tests and number of positive cases per age group per municipality, starting from week 39 of 2020.](#)
 * [Coronavirus load in the wastewater in the Southwestern Uppsala (inkAB) and Nothereastern Uppsala (InkC) wastewater treatment facilities](#)
 
-Researchers using these data in papers, books, posters, oral presentations and all other presentations should cite/acknowledge [...] 
+Researchers using these data in papers, books, posters, oral presentations, and all other presentations should cite/acknowledge [...]
 
-#### COVID Crush, interactive dashboard and reports
+#### CRUSH Covid, interactive dashboard and reports
 
 {{< crush_covid >}}
