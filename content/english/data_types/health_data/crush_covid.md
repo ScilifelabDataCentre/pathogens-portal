@@ -8,10 +8,7 @@ toc: false
 
 #### Download data behind the CRUSH Covid reports
 
-* [Number of carried out tests and number of positive cases per municipality quarter, per municipality, for the whole region, starting from week 39 of 2020.](#)
-* [Number of carried out tests and total population per postal code, starting from week ...](#)
-* [Number of carried out tests and number of positive cases per age group per municipality, starting from week 39 of 2020.](#)
-* [Coronavirus load in the wastewater in the Southwestern Uppsala (inkAB) and Nothereastern Uppsala (InkC) wastewater treatment facilities](#)
+* [Download the latest CRUSH Covid dataset](#)
 
 Researchers using these data in papers, books, posters, oral presentations, and all other presentations should cite/acknowledge [...]
 
