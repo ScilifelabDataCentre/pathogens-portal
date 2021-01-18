@@ -1,5 +1,5 @@
 ---
-title: Human species D adenovirus hexon capsid protein mediates cell entry through a direct interaction with CD46 # short
+title: Mechanism of entry used by human species D adenoviruses proving important for COVID-19 vaccine development
 date: 2021-01-18
 summary: New study identifies a noncanonical entry mechanism used by human adenoviruses, important for development of adenovirus-based vaccine vectors. The reported X-ray structural data was made available through the Protein Data Bank.
 banner: /news/banners/adenovirus.png
