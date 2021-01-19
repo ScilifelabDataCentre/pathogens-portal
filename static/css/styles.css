@@ -250,42 +250,25 @@ footer img {
     border: solid 1px #2e68a5;
 }
 
-/* For the biobanks registry */
+/* Styling pagination for the biobanks registry */
 
-.page-item.active .page-link
-{
+.page-item.active .page-link {
     background-color: #2e68a5;
     color: white;
     border-color: #2e68a5;
 }
 
-.page-link
-{
+.page-link {
     background-color: white;
     color: #2e68a5;
 }
 
-.pagination > li > a:focus,
-.pagination > li > a:hover,
-.pagination > li > span:focus,
-.pagination > li > span:hover
-{
-    color: #2e68a5;
-    background-color: #eee;
-    border-color: #ddd;
+.back-text {
+  color: #2e68a5 !important;
 }
 
-.pagination > .active > a
-{
-    color: white;
-    background-color: #2e68a5 !important;
-    border: solid 1px #2e68a5 !important;
-}
-
-.pagination > .active > a:hover
-{
-    background-color: #2e68a5 !important;
-    border: solid 1px #2e68a5;
+.back-text:hover {
+    text-decoration: underline;
 }
 
 /* There is a bug in Safari whereby it stretches an image nested in a flexbox element to its natural height. I use the class below for rows with images to fix that. */
