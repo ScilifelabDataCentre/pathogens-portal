@@ -15,11 +15,15 @@ type: data_table
 
 ## Publicerad data
 
-#### Data tillgängliga från publika svenska myndigheter och stora dataproducenter
+#### Data tillgängliga från svenska myndigheter och stora offentliga dataproducenter
 
 * [Svenska Intensivvårdsregistret](https://www.icuregswe.org/data--resultat/covid-19-i-svensk-intensivvard/): Statistik om inlagda till IVA i Sverige.
 
-* [Folkhälsomyndigheten](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/bekraftade-fall-i-sverige): Officiell statistik om Covid-19 fall och tester i Sverige.
+* [Svenska Graviditetsregistret](https://www.medscinet.com/gr/default.aspx): Uppgifter gällande alla gravida och nyfödda barn till mödrar med säkerställd Covid-19.
+
+* [Folkhälsomyndigheten: Bekräftade fall i Sverige](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/bekraftade-fall-i-sverige): Officiell statistik om Covid-19 fall och tester i Sverige.
+
+* [Folkhälsomyndigheten: Statistik över förbrukade vaccindoser mot Covid-19](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/vaccination-mot-covid-19/statistik-over-forbrukade-vaccindoser/): Officiell statistik om antalet vaccindoser som förbrukats.
 
 * [Metadata för nationella register - RUT](/sv/data_types/health_data/rut): Metadata för svenska nationella sjukvårdsregister.
 

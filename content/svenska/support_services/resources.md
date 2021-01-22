@@ -35,10 +35,9 @@ SNIC är en nationell forskningsinfrastruktur som tillhandahåller storskaliga h
 
 ### Textdata
 
-### Text data
 Se [Texter och litteratur](../text_and_literature).
 
-### Kliniska data och kliniska prövningar
+### Kliniska prövningar
 
 ##### [Clinicaltrial.gov](https://clinicaltrials.gov/)
 USA: s kliniska prövningar registreras.
@@ -51,6 +50,11 @@ Karta över kliniska prövningar relaterade till Covid-19 över hela världen.
 
 ##### [International Clinical Trials Registry Platform](https://www.who.int/ictrp/en/)
 WHO: s databas över kliniska prövningar. Se även [https://apps.who.int/trialsearch/](https://apps.who.int/trialsearch/).
+
+### Kliniska data och registerdata
+
+##### [Svenska Graviditetsregistret](https://www.medscinet.com/gr/default.aspx)
+Graviditetsregistret samlar uppgifter gällande alla gravida och nyfödda barn till mödrar med säkerställd Covid-19.
 
 ##### [LEOSS register](https://leoss.net/)
 Anonymt register med Covid-19-patientdata från över 200 sjukhus.
