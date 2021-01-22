@@ -1,5 +1,5 @@
 ---
-title: Nationellt Pandemicenter SARS-CoV-2 (Covid-19)-analysstatistik
+title: Nationellt Pandemicenter SARS-CoV-2 (covid-19)-analysstatistik
 menu:
     main:
         identifier: npc-statistics
@@ -16,7 +16,7 @@ sina aktiviteter 2020-12-21.</p>
 
 #### Totala antalet tester vid NPC
 
-Det totala antalet SARS-CoV-2 (Covid-19)-virustester analyserade vid NPC
+Det totala antalet SARS-CoV-2 (covid-19)-virustester analyserade vid NPC
 uppdelade på de med positivt, negativt eller icke-avgjort/felaktigt
 resultat.
 
@@ -30,7 +30,7 @@ resultat.
 
 #### Antal tester vid NPC
 
-Antalet SARS-CoV-2 (Covid-19)-virustester analyserade för varje dag eller varje vecka
+Antalet SARS-CoV-2 (covid-19)-virustester analyserade för varje dag eller varje vecka
 uppdelade på de med positivt, negativt eller icke-avgjort/felaktigt
 resultat.
 
@@ -90,7 +90,7 @@ i procent av alla tester (exkluderande icke-avgjort/felaktiga).
 
 #### Kumulativt antal tester vid NPC
 
-Summan av alla SARS-CoV-2 (Covid-19)-virustester analyserade vid NPC
+Summan av alla SARS-CoV-2 (covid-19)-virustester analyserade vid NPC
 sedan start.
 
 <div class="d-lg-none alert alert-info">

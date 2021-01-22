@@ -10,10 +10,10 @@ menu:
 ---
 
 ![NBIS Logo](/img/logos/nbislogo-orange-txt.svg#floatright)
-SciLifeLabs Bioinformatikplattform [NBIS](https://nbis.se/) har ett brett utbud av tjänster och erbjuder support till ditt Covid-19-relaterade forskningsprojekt.
+SciLifeLabs Bioinformatikplattform [NBIS](https://nbis.se/) har ett brett utbud av tjänster och erbjuder support till ditt covid-19-relaterade forskningsprojekt.
 Vi har ~90 experter som kan hjälpa dig med bioinformatisk analys, systemutveckling och datahantering. Vi står bakom FAIR-principerna och jobbar aktivt för att alla våra projekt ska vara reproducerbara och uppfylla de högsta vetenskapliga standarderna.
 
-För närvarande prioriterar vi forskningsprojekt relaterade till Covid-19.
+För närvarande prioriterar vi forskningsprojekt relaterade till covid-19.
 [Kontakta oss för en gratis konsultation](https://nbis.se/support/) och ta reda på hur vi kan bidra till att göra ditt projekt framgångsrikt.
 
 ## Bioinformatik
@@ -26,7 +26,7 @@ Våra systemutvecklare kan hjälpa till med allt från optimering av dina verkty
 
 ## Datahantering
 
-För att göra dataset tillgängliga i Europeiska Covid-19 portaler erbjuder NBIS stöd med planering av datahantering, FAIRifiering av data samt hjälp med publicering data i publika repositorier (se [Publicera data](../submit)) enligt internationellt överenskomna standarder.
+För att göra dataset tillgängliga i Europeiska covid-19 portaler erbjuder NBIS stöd med planering av datahantering, FAIRifiering av data samt hjälp med publicering data i publika repositorier (se [Publicera data](../submit)) enligt internationellt överenskomna standarder.
 
 En datahanteringsplan (DHP) är ett levande dokument som beskriver hur ny och existerande data kommer att hanteras inom ramen för ditt forskningsprojekt samt när projektet är avslutat. För att din forskning och tillgängliggörande av din data ska bli mer effektiv är det rekommenderat, och i vissa fall obligatoriskt, att skapa en datahanteringsplan tidigt i ditt projekt.
 
@@ -41,7 +41,7 @@ Ansök om support på: [nbis.se/support/](https://nbis.se/support/)
 ## NBIS är den [svenska noden](https://elixir-europe.org/about-us/who-we-are/nodes/sweden) i ELIXIR
 
 ![Elixir Sverige](/img/logos/elixir-se-logo.png#floatright)
-I egenskap av den europeiska infrastrukturen för biologisk data tillhandahåller [ELIXIR](https://elixir-europe.org/) en rad tjänster som du kan använda för att studera coronaviruset SARS-CoV-2 och sjukdomen Covid-19.
+I egenskap av den europeiska infrastrukturen för biologisk data tillhandahåller [ELIXIR](https://elixir-europe.org/) en rad tjänster som du kan använda för att studera coronaviruset SARS-CoV-2 och sjukdomen covid-19.
 
 * [ELIXIRs stöd för COVID19-forskning](https://elixir-europe.org/news/covid-19-support)
 * [ELIXIRs resurser för COVID19-forskning](https://elixir-europe.org/covid-19-resources)

@@ -12,7 +12,7 @@ menu:
         weight: 50
         pre: <i class="fas fa-paper-plane"></i>
 ---
-Publicera dina Covid-19-forskningsdata för att göra dem tillgängliga för resten av forskarsamhället. Data bör lagras i en öppen databas tillsammans med beskrivande metadata. För många datatyper finns internationalla databaser som kan anses vara _de facto_ standarder.
+Publicera dina covid-19-forskningsdata för att göra dem tillgängliga för resten av forskarsamhället. Data bör lagras i en öppen databas tillsammans med beskrivande metadata. För många datatyper finns internationalla databaser som kan anses vara _de facto_ standarder.
 
 ##### Dela data
 
