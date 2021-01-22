@@ -15,14 +15,18 @@ type: data_table
 
 ## Publicerad data
 
-#### Data tillgängliga från publika svenska myndigheter och stora dataproducenter
+#### Data tillgängliga från svenska myndigheter och stora offentliga dataproducenter
 
 * [Svenska Intensivvårdsregistret](https://www.icuregswe.org/data--resultat/covid-19-i-svensk-intensivvard/): Statistik om inlagda till IVA i Sverige.
 
-* [Folkhälsomyndigheten](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/bekraftade-fall-i-sverige): Officiell statistik om Covid-19 fall och tester i Sverige.
+* [Svenska Graviditetsregistret](https://www.medscinet.com/gr/default.aspx): Uppgifter gällande alla gravida och nyfödda barn till mödrar med säkerställd covid-19.
+
+* [Folkhälsomyndigheten: Bekräftade fall i Sverige](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/bekraftade-fall-i-sverige): Officiell statistik om covid-19 fall och tester i Sverige.
+
+* [Folkhälsomyndigheten: Statistik över förbrukade vaccindoser mot covid-19](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/vaccination-mot-covid-19/statistik-over-forbrukade-vaccindoser/): Officiell statistik om antalet vaccindoser som förbrukats.
 
 * [Metadata för nationella register - RUT](/sv/data_types/health_data/rut): Metadata för svenska nationella sjukvårdsregister.
 
 * [SciLifeLab Autoimmunity and Serology profiling facility, statistik för SARS-CoV-2 antikroppstest](/sv/data_types/health_data/serology-statistics): Uppdateras manuellt.
 
-* [Nationellt Pandemicentrum, statistik för Covid-19-tester](/sv/data_types/health_data/npc-statistics/): Antal Covid-19 virustester och resultat av dessa som analyserades mellan april och december 2020 vid NPC.
+* [Nationellt Pandemicentrum, statistik för covid-19-tester](/sv/data_types/health_data/npc-statistics/): Antal covid-19 virustester och resultat av dessa som analyserades mellan april och december 2020 vid NPC.

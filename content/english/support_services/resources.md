@@ -55,6 +55,9 @@ Overview over global vaccine and drug development projects
 
 ### Clinical data and patient registries
 
+##### [Swedish Pregnancy Register](https://www.medscinet.com/gr/default.aspx)
+The Swedish Pregnancy Register collects data about 99% of all childbirths in Sweden. Currently, the register collects data about all pregnant women diagnosed with COVID-19 and newborns born to mothers diagnosed with COVID-19.
+
 ##### [LEOSS register](https://leoss.net/)
 Anonymous register with COVID-19 patient data from over 200 hospitals.
 

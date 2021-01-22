@@ -5,7 +5,7 @@ menu:
         weight: 30
     main:
         identifier: support_services
-        post: Allmänna stödtjänster för svenska Covid-19-forskare.
+        post: Allmänna stödtjänster för svenska covid-19-forskare.
         weight: 20
 ---
 

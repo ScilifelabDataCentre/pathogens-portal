@@ -1,13 +1,13 @@
 ---
-title: Studie av Covid-19 RT-PCR test som inte kräver RNA-extraktion publicerad med data # short
-title_full: Studie av Covid-19 RT-PCR test som inte kräver RNA-extraktion publicerad med data # long
+title: Studie av covid-19 RT-PCR test som inte kräver RNA-extraktion publicerad med data # short
+title_full: Studie av covid-19 RT-PCR test som inte kräver RNA-extraktion publicerad med data # long
 date: 2020-10-01
 summary: Data från artiklen är fritt tillgänglig via *Nature Communications* och kod finns på Github.
 banner: /news/banners/rna_extraction_free_rt_pcr.png
 banner_caption: "Bild: Figur 1 från Smyrlaki et al., Nature Communications, 2020"
 ---
 
-COVID-19-infektion detekteras oftast med hjälp av RT-PCR, men RNA-extraktion för konventionell RT-PCR-baserad diagnostik är logistiskt krävande och kostsamt. För att förenkla COVID-19-testning har forskare vid Karolinska Institutet (PI: Björn Reinius; förstaförfattare; Ioanna Smyrlaki, Martin Ekman) därför utvecklat ett enkelt, billigt och RNA-extraktionsfritt RT-PCR-test, med bibehållen hög noggrannhet för att detektera positiva och negativa Covid-19-infektioner. Metoden har breda applikationer för att förenkla COVID-19-testning inom såväl som utanför vården och även för periodiska tester av asymptomatiska personer, vilket skulle kunna minska smittspridningen.
+COVID-19-infektion detekteras oftast med hjälp av RT-PCR, men RNA-extraktion för konventionell RT-PCR-baserad diagnostik är logistiskt krävande och kostsamt. För att förenkla COVID-19-testning har forskare vid Karolinska Institutet (PI: Björn Reinius; förstaförfattare; Ioanna Smyrlaki, Martin Ekman) därför utvecklat ett enkelt, billigt och RNA-extraktionsfritt RT-PCR-test, med bibehållen hög noggrannhet för att detektera positiva och negativa covid-19-infektioner. Metoden har breda applikationer för att förenkla COVID-19-testning inom såväl som utanför vården och även för periodiska tester av asymptomatiska personer, vilket skulle kunna minska smittspridningen.
 
 Forskarna har kontinuerligt delat sina resultat genom att publicera ett preprint på preprintservern medRxiv.org (första versionen 17 april 2020) och fått stor uppmärksamhet. Data från artiklen är fritt tillgängliga via [*Nature Communications*](https://www.nature.com/articles/s41467-020-18611-5) och kod tillhandahålls öppet på [github.com/reiniuslab/COVID19](https://github.com/reiniuslab/COVID19).
 

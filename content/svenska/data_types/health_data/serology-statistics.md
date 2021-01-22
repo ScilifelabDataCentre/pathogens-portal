@@ -54,7 +54,7 @@ Det totala antalet SARS-CoV-2 antikroppstester analyserade på SciLifeLab Autoim
 
 #### Om tester vid SciLifeLab Autoimmunity and Serology profiling facility
 
-Under den tidig fasen av Covid-19-pandemin, påbörjade tre forskargrupper på [KTH](https://www.kth.se) tillsammans med [Autoimmunity profiling facility](https://www.scilifelab.se/facilities/autoimmunity-profiling/) vid SciLifeLab arbetet att [utveckla en serologisk analysmetod](https://www.scilifelab.se/covid-19/kaw-program/serology/) för att möjliggöra storskalig testning av  plasma- och  serumprover för antikroppar mot SARS-CoV-2. Arbetet initierades och  koordinerades  av tre KTH-professorer,  Peter Nilsson, Sophia Hober och My Hedhammar.
+Under den tidig fasen av covid-19-pandemin, påbörjade tre forskargrupper på [KTH](https://www.kth.se) tillsammans med [Autoimmunity profiling facility](https://www.scilifelab.se/facilities/autoimmunity-profiling/) vid SciLifeLab arbetet att [utveckla en serologisk analysmetod](https://www.scilifelab.se/covid-19/kaw-program/serology/) för att möjliggöra storskalig testning av  plasma- och  serumprover för antikroppar mot SARS-CoV-2. Arbetet initierades och  koordinerades  av tre KTH-professorer,  Peter Nilsson, Sophia Hober och My Hedhammar.
 
 Utvecklingsarbetet har finansierats av Knut och Alice Wallenbergs Stiftelse, Familjen Erling-Perssons Stiftelse, KTH, SciLifeLab, KTH, Region Stockholm, Atlas Copco, Mercodia, Familjen Christian och Jennifer Dahlberg, Familjen Birgitta Klasén.
 
