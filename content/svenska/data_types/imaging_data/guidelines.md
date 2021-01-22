@@ -8,8 +8,8 @@ menu:
         weight: 20
 ---
 
-## Riktlinjer för Covid-19-data
-Gör dina Covid-19-forskningsdata användbara och tillgängliga för resten av forskarvärlden genom att publicera data och tillhörande metadata i en öppen databas.
+## Riktlinjer för covid-19 data
+Gör dina covid-19-forskningsdata användbara och tillgängliga för resten av forskarvärlden genom att publicera data och tillhörande metadata i en öppen databas.
 
 [SciLifeLab](https://www.scilifelab.se) och [NBIS](http://www.nbis.se/) kan hjälpa dig med att i början av projektet planera datahanteringen för att effektivisera datadelning, både genom [konsultationer](https://nbis.se/support/supportform/index.php?form=consultation) och genom att tillhandahålla ett [verktyg](https://dsw.scilifelab.se/) för att skapa datahanteringsplaner. Vi kan också hjälpa dig att identifiera relevanta repositorier och etablerade internationella standarder för att beskriva och publicera dina data, samt vägleda dig genom publiceringsprocessen.
 
