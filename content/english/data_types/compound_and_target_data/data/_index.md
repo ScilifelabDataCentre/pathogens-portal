@@ -22,7 +22,7 @@ On our portal, “Biochemistry” has a broad meaning, including cell- and plasm
 
 #### General useful data sources
 
-* Small molecule related data can be found in ChEMBL ([https://www.ebi.ac.uk/chembl/](https://www.ebi.ac.uk/chembl/)). ChEMBL is a manually curated database of bioactive molecules with drug-like properties. It brings together chemical, bioactivity and genomic data to aid the translation of genomic information into effective new drugs.
+* Small molecule related data can be found in [ChEMBL](https://www.ebi.ac.uk/chembl/). ChEMBL is a manually curated database of bioactive molecules with drug-like properties. It brings together chemical, bioactivity and genomic data to aid the translation of genomic information into effective new drugs.
 
 #### Data available on the European COVID-19 Data Portal
 

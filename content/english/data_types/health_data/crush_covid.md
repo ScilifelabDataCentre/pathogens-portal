@@ -8,7 +8,7 @@ toc: false
 
 #### Download data behind the CRUSH Covid reports
 
-* [Download the latest CRUSH Covid dataset](#)
+* Download the latest CRUSH Covid dataset [link]
 
 Researchers using these data in papers, books, posters, oral presentations, and all other presentations should cite/acknowledge [...]
 

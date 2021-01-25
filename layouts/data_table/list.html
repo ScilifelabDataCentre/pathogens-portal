@@ -32,6 +32,7 @@
 */}}
 
 {{ $entries_to_display := slice }}
+{{ $valid_db_list := slice "URL" "NA" "N/A" "GENBANK" "PDB" "BioProject" "GEO" "ISRCTN" "Dryad" "PubChem-Substance" "RefSeq" "dbGaP"}}
 
 {{ range $index, $entry := $.Site.Data.publications.publications }}
 {{ $correct_type := false }}
@@ -41,7 +42,6 @@
         {{ $correct_type = true}}
     {{ end }}
   {{ end }}
-  {{ $valid_db_list := slice "URL" "NA" "N/A" "GENBANK" "PBD" "BioProject" "GEO" "ISRCTN" "Dryad" "PubChem-Substance" "RefSeq" "dbGaP"}}
   {{ range .xrefs }}
     {{ if in $valid_db_list .db }}
       {{ $has_data = true}}
@@ -122,8 +122,14 @@
         <td>{{ .published }}</td>
         <td>
           {{ with .xrefs }}
+          {{ $total_dbs := 0 }}
+          {{ range . }}
+            {{ if in $valid_db_list .db}}
+              {{ $total_dbs = add $total_dbs 1 }}
+            {{ end }}
+          {{ end }}
           {{ $as_list := false }}
-            {{ if gt (len .) 1 }}
+            {{ if gt $total_dbs 1 }}
               {{ $as_list = true }}
             {{ end }}
           {{ if $as_list }}<ul class="pl-3">{{ end }}
@@ -212,8 +218,8 @@
              "paginate": {
                 "first":      "First",
                 "last":       "Last",
-                "next":       "Next",
-                "previous":   "Previous"
+                "next":       "»",
+                "previous":   "«"
                 }
             }
         {{ else }}
@@ -227,8 +233,8 @@
              "paginate": {
                 "first":      "Första",
                 "last":       "Sista",
-                "next":       "Nästa",
-                "previous":   "Föregående"
+                "next":       "»",
+                "previous":   "«"
                 }
             }
         {{ end }}

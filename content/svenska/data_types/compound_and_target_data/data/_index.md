@@ -21,7 +21,7 @@ På dataportalen har begreppet ”Kemisk biologi” en bred betydelse och inklud
 
 #### Generella datarelaterade resurser
 
-* Små molekyler och relaterade data återfinns i ChEMBL ([https://www.ebi.ac.uk/chembl/](https://www.ebi.ac.uk/chembl/)). ChEMBL är en manuellt kurerad databas över bioaktiva molekyler med läkemedelsliknande egenskaper. Det samlar kemiska, bioaktivitet och genomiska data för att underlätta översättningen av genomisk information till effektiva nya läkemedel.
+* Små molekyler och relaterade data återfinns i [ChEMBL](https://www.ebi.ac.uk/chembl/). ChEMBL är en manuellt kurerad databas över bioaktiva molekyler med läkemedelsliknande egenskaper. Det samlar kemiska, bioaktivitet och genomiska data för att underlätta översättningen av genomisk information till effektiva nya läkemedel.
 
 #### Data tillgängliga på den europeiska versionen av COVID-19 Data Portalen
 

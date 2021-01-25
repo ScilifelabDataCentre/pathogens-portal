@@ -287,3 +287,27 @@ footer img {
   background-color: white !important;
   color: #5a626a !important;
 }
+
+.preprint-icon {
+  color: white;
+  background-color: rgba(77, 77, 77, 0.8);
+  border-radius: 5px;
+  padding: 4px;
+  font-size: small;
+  font-weight: 500;
+}
+
+.data-available-icon {
+  color: white;
+  background-color: #de2c6c;
+  border-radius: 5px;
+  padding: 4px;
+  font-size: small;
+  font-weight: 500;
+}
+
+/* Override a default for the datatables. */
+
+div.dataTables_wrapper div.dataTables_info {
+    padding-top: 0 !important;
+}
