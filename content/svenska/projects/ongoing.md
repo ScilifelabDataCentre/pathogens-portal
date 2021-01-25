@@ -27,27 +27,35 @@ Forskningsprojekt relaterade till covid-19 med godkända etiska ansökningar (t.
 
 {{< funded_projects_list funder="vr" >}}
 
-{{< funded_projects_publications label="Funder: VR: Special COVID-19 funding" >}}
+{{< funded_projects_publications label="Funder: VR" >}}
 
 ## SciLifeLab / Knut och Alice Wallenbergs Stiftelse
 [scilifelab.se](https://www.scilifelab.se/) / [kaw.wallenberg.org](https://kaw.wallenberg.org/en)
 
 {{< funded_projects_list funder="kaw" >}}
 
+{{< funded_projects_publications label="Funder: KAW/SciLifeLab" >}}
+
 ## NordForsk
 [nordforsk.org](https://www.nordforsk.org/)
 
 {{< funded_projects_list funder="nordforsk" >}}
+
+{{< funded_projects_publications label="Funder: NordForsk" >}}
 
 ## Vinnova
 [vinnova.se](https://www.vinnova.se/)
 
 {{< funded_projects_list funder="vinnova" >}}
 
+{{< funded_projects_publications label="Funder: Vinnova" >}}
+
 ## Horizon 2020
 [ec.europa.eu](https://ec.europa.eu/programmes/horizon2020/en)
 
 {{< funded_projects_list funder="horizon2020" >}}
+
+{{< funded_projects_publications label="Funder: H2020" >}}
 
 ## Hjärt-Lungfonden
 [hjart-lungfonden.se](https://www.hjart-lungfonden.se/)
