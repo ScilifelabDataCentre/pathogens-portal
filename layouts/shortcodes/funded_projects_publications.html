@@ -1,12 +1,17 @@
 {{ $label := .Get "label" }}
-{{ $funder_name := .Get "funder_name" }}
 
-<a class="btn" data-toggle="collapse" href="#vrdetails" role="button" aria-expanded="false" aria-controls="vrdetails" style="font-weight: 500">
+{{ $label_href := replace $label " " "_" }}
+{{ $label_href := replace $label_href ":" "_" }}
+{{ $label_href := replace $label_href "/" "_" }}
+{{ $label_href := replace $label_href "-" "_" }}
+
+<a class="btn" data-toggle="collapse" href="#{{ $label_href }}" role="button" aria-expanded="false" aria-controls="vrdetails" style="font-weight: 500">
   {{ if eq $.Site.Language.LanguageName "Svenska" }}Publikationer{{ else }}Publications from the above listed projects{{ end }} <i class="fas fa-caret-down"></i></a>
-<div class="collapse" id="vrdetails">
+<div class="collapse" id="{{ $label_href }}">
   <div class="card card-body">
 
 <ul>
+{{ $valid_db_list := slice "URL" "NA" "N/A" "GENBANK" "PBD" "BioProject" "GEO" "ISRCTN" "Dryad" "PubChem-Substance" "RefSeq" "dbGaP"}}
 {{ range $.Site.Data.publications.publications }}
 {{ $display_entry := false}}
   {{ range $key, $content := .labels }}
@@ -15,6 +20,12 @@
     {{ end }}
   {{ end }}
   {{ if $display_entry }}
+  {{ $has_data := false }}
+  {{ range .xrefs }}
+    {{ if in $valid_db_list .db }}
+      {{ $has_data = true }}
+    {{ end }}
+  {{ end }}
   <p style="text-small">
   <a target="_blank" href="{{ if .doi }}https://doi.org/{{ .doi }}{{ else }}https://pubmed.ncbi.nlm.nih.gov/{{ .pmid }}{{ end}}">{{ .title }}</a><br>
   <span class="text-muted">{{ with .authors }}
@@ -48,7 +59,7 @@
     {{ end }}
     {{ end }}
   </span><br>
-  {{ range $key, $content := .labels }} {{ if eq $key "Type: Preprint"}} [preprint]&nbsp;{{ end }}{{ end}} <i>{{ .journal.title }}</i>{{ if .journal.volume }}&nbsp;<b>{{ .journal.volume }}</b>{{ end }}{{if .journal.issue}}&nbsp;({{ .journal.issue }})&nbsp;{{ end }}{{ if .journal.pages }}&nbsp;{{ .journal.pages }}{{ end }} ({{ substr .published 0 4 }}).{{ if .doi}} DOI: {{ .doi }}{{ end }}
+  <i>{{ .journal.title }}</i>{{ if .journal.volume }} <b>{{ .journal.volume }}</b>{{ end }}{{if .journal.issue}} ({{ .journal.issue }}){{ end }}{{ if .journal.pages }} {{ .journal.pages }}{{ end }}.{{ if .doi}} DOI: {{ .doi }}{{ end }} {{ range $key, $content := .labels }} {{ if eq $key "Type: Preprint"}} <span class="preprint-icon">preprint</span>{{ end }}{{ end}} {{ if $has_data }}<span class="data-available-icon">data&nbsp;available</span>{{ end }}
   </p>
   {{ end }}
 {{ end }}

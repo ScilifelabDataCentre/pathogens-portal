@@ -72,8 +72,8 @@
           </div>
         </li>
       </ul>
-      <hr class="d-md-none">
-      <ul class="navbar-nav d-md-none">
+      <hr class="d-lg-none">
+      <ul class="navbar-nav d-lg-none">
         {{ range first 1 .Site.Menus.top_nav }}
           <li class="nav-item"><a class="nav-link {{ .Post }}" href="{{ .Page.RelPermalink }}">{{ .Pre }}{{ .Name }}</a></li>
         {{ end }}
@@ -82,8 +82,8 @@
           <li class="nav-item"><a class="nav-link {{ .Post }}" href="{{ .Page.RelPermalink }}">{{ .Pre }}{{ .Name }}</a></li>
         {{ end }}
       </ul>
-      <hr class="d-md-none">
-      <ul class="navbar-nav d-md-none nav-languages">
+      <hr class="d-lg-none">
+      <ul class="navbar-nav d-lg-none nav-languages">
         {{ if .IsTranslated }}
           {{ range .AllTranslations }}
             <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
