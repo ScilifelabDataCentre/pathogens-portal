@@ -21,20 +21,34 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-2 pl-0 pr-2">
+    <div class="col-lg-2 pl-0 {{ if eq $.Site.Language.LanguageName "Svenska" }}mr-5{{ else }}mr-1{{ end }}">
       <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_field }}</h5>
       <div class="col mb-2 ml-3 form-check">
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Biochemistry">{{ if eq $.Site.Language.LanguageName "Svenska" }}Kemisk biologi{{ else }}Biochemistry{{ end }}</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Genomics & transcriptomics">{{ if eq $.Site.Language.LanguageName "Svenska" }}Genomik & transkriptomik{{ else }}Genomics & transcriptomics{{ end }}</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Health data">{{ if eq $.Site.Language.LanguageName "Svenska" }}Hälsa{{ else }}Health{{ end }}</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Imaging data">{{ if eq $.Site.Language.LanguageName "Svenska" }}Bild{{ else }}Imaging{{ end }}</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Protein data">{{ if eq $.Site.Language.LanguageName "Svenska" }}Proteiner{{ else }}Proteins{{ end }}</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Serology data">{{ if eq $.Site.Language.LanguageName "Svenska" }}Serologi{{ else }}Serology{{ end }}</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Other data">{{ if eq $.Site.Language.LanguageName "Svenska" }}Övriga{{ else }}Other{{ end }}</div>
+          {{ if eq $.Site.Language.LanguageName "Svenska" }}
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Imaging data">Bild</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Public Health">Folkhälsa</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Genomics & transcriptomics">Genomik & transkriptomik</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Health data">Hälsa</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Biochemistry">Kemisk biologi</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Drug Discovery">Läkemedelsutveckling</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Protein data">Proteiner</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Serology data">Serologi</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Other data">Övriga</div>
+          {{ else }}
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Biochemistry">Biochemistry</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Drug Discovery">Drug discovery</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Genomics & transcriptomics">Genomics & transcriptomics</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Health data">Health</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Imaging data">Imaging</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Protein data">Proteins</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Public Health">Public health</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Serology data">Serology</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Other data">Other</div>
+          {{ end }}
       </div>
       <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_availability }}</h5>
       <div class="col mb-2 ml-3 form-check">
-          <div class="row"><input type="checkbox" class="form-check-input" name="data_av" disabled>{{ if eq $.Site.Language.LanguageName "Svenska" }}Tillgängliga data{{ else }}Data available{{ end }}</div>
+          <div class="row"><input type="checkbox" class="form-check-input" name="data_available" value="data available">{{ if eq $.Site.Language.LanguageName "Svenska" }}Tillgängliga data{{ else }}Data available{{ end }}</div>
       </div>
       <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_type }}</h5>
       <div class="col mb-2 ml-3 form-check">
@@ -45,8 +59,8 @@
       </div>
       <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_year }}</h5>
       <div class="col mb-2 ml-3 form-check">
-          <div class="row"><input type="checkbox" class="form-check-input" name="year" value="2020" disabled>2020</div>
-          <div class="row"><input type="checkbox" class="form-check-input" name="year" value="2020" disabled>2021</div>
+          <div class="row"><input type="checkbox" class="form-check-input" name="year" value="2020">2020</div>
+          <div class="row"><input type="checkbox" class="form-check-input" name="year" value="2021">2021</div>
       </div>
       <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_funder }}</h5>
       <div class="col mb-2 ml-3 form-check">
@@ -56,16 +70,11 @@
           <div class="row"><input type="checkbox" class="form-check-input" name="funder" value="Funder: VR">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vetenskapsrådet{{ else }}Swedish Research Council{{ end}}</div>
           <div class="row"><input type="checkbox" class="form-check-input" name="funder" value="Funder: Vinnova">Vinnova</div>
       </div>
-      <div class="alert alert-info small"><i class="fas fa-exclamation-triangle"></i>
-        {{ if eq $.Site.Language.LanguageName "English" }}Functionality for filtering publications is currently under development.
-        {{ else }}Funktion att filtrera publikationer är under utveckling.
-        {{ end }}
-      </div>
     </div>
-    <div class="col-md-10">
+    <div class="col-lg">
           <div class="row">
-            <div class="table-responsive-md">
-              <table class="table">
+            <div class="table-responsive">
+              <table class="table" width="100%">
                 <thead class="thead-light">
                   <tr>
                     <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_pub }}</th>
@@ -73,10 +82,19 @@
                     <th scope="col">Field/Topic</th>
                     <th scope="col">Publication type</th>
                     <th scope="col">Funder</th>
+                    <th scope="col">Data availability</th>
+                    <th scope="col">Year</th>
                   </tr>
                 </thead>
                 <tbody>
+                  {{ $valid_db_list := slice "URL" "NA" "N/A" "GENBANK" "PBD" "BioProject" "GEO" "ISRCTN" "Dryad" "PubChem-Substance" "RefSeq" "dbGaP"}}
                   {{ range $index, $entry := $entries_to_display }}
+                  {{ $has_data := false }}
+                  {{ range .xrefs }}
+                    {{ if in $valid_db_list .db }}
+                      {{ $has_data = true }}
+                    {{ end }}
+                  {{ end }}
                     <tr>
                       <td>
                         <b><a target="_blank" href="{{ if .doi }}https://doi.org/{{ .doi }}{{ else }}https://pubmed.ncbi.nlm.nih.gov/{{ .pmid }}{{ end}}">{{ .title }}</a></b><br>
@@ -111,12 +129,14 @@
                           {{ end }}
                           {{ end }}
                         </span><br>
-                        {{ range $key, $content := .labels }} {{ if eq $key "Type: Preprint"}} [preprint]&nbsp;{{ end }}{{ end}} <i>{{ .journal.title }}</i>{{ if .journal.volume }}&nbsp;<b>{{ .journal.volume }}</b>{{ end }}{{if .journal.issue}}&nbsp;({{ .journal.issue }})&nbsp;{{ end }}{{ if .journal.pages }}&nbsp;{{ .journal.pages }}{{ end }}.{{ if .doi}} DOI: {{ .doi }}{{ end }}
+                        <i>{{ .journal.title }}</i>{{ if .journal.volume }} <b>{{ .journal.volume }}</b>{{ end }}{{if .journal.issue}} ({{ .journal.issue }}){{ end }}{{ if .journal.pages }} {{ .journal.pages }}{{ end }}.{{ if .doi}} DOI: {{ .doi }}{{ end }} {{ range $key, $content := .labels }} {{ if eq $key "Type: Preprint"}} <span class="preprint-icon">preprint</span>{{ end }}{{ end}} {{ if $has_data }}<span class="data-available-icon">data&nbsp;available</span>{{ end }}
                       </td>
                       <td>{{ .published }}</td>
                       <td>{{ range $key, $content := .labels }} {{ if findRE "Data type *?" $key }} {{ $key }} {{ end }} {{ end }}</td>
                       <td>{{ range $key, $content := .labels }} {{ if findRE "Type *?" $key }} {{ $key }} {{ end }} {{ end }}</td>
                       <td>{{ range $key, $content := .labels }} {{ if findRE "Funder *?" $key }} {{ $key }} {{ end }} {{ end }}</td>
+                      <td>{{ if $has_data }}data available{{ end }}</td>
+                      <td>{{ slicestr .published 0 4 }}</td>
                     </tr>
                   {{ end }}
                 </tbody>
@@ -130,9 +150,10 @@
 <script>
 $(document).ready( function () {
   var table = $('table.table').DataTable({
+    "sDom": '<"top row"<"col-md"i><"col-md"f>>rt<"bottom row"<"col-md"l><"col-md"p>><"clear">',
     "order": [[ 1, "desc" ]],
     "columnDefs": [{
-      "targets": [ 2,3,4 ],
+      "targets": [ 2,3,4,5,6 ],
       "visible": false
     }],
     {{ if eq $.Site.Language.LanguageName "English" }}
@@ -146,8 +167,8 @@ $(document).ready( function () {
          "paginate": {
             "first":      "First",
             "last":       "Last",
-            "next":       "Next",
-            "previous":   "Previous"
+            "next":       "»",
+            "previous":   "«"
             }
         }
     {{ else }}
@@ -161,8 +182,8 @@ $(document).ready( function () {
          "paginate": {
             "first":      "Första",
             "last":       "Sista",
-            "next":       "Nästa",
-            "previous":   "Föregående"
+            "next":       "»",
+            "previous":   "«"
             }
         }
     {{ end }}
@@ -178,27 +199,34 @@ $(document).ready( function () {
    // filter for publication type, with no regex, no smart filtering, not case sensitive
    table.column(2).search(topics, true, false, false).draw(false);
 
-   //Publications type filter; build a filter string with an or(|) condition
+   // Publications type filter
    var pub_types = $('input:checkbox[name="pub_type"]:checked').map(function() {
      return this.value;
    }).get().join('|');
 
    table.column(3).search(pub_types, true, false, false).draw(false);
 
-   //Funder filter; build a filter string with an or(|) condition
+   // Funder filter
    var funders = $('input:checkbox[name="funder"]:checked').map(function() {
      return this.value;
    }).get().join('|');
 
    table.column(4).search(funders, true, false, false).draw(false);
 
-   //Years filter; build a regex filter string with an or(|) condition
+   // Data availability filter
+   var data_available = $('input:checkbox[name="data_available"]:checked').map(function() {
+     return this.value;
+   }).get().join('|');
+
+   table.column(5).search(data_available, true, false, false).draw(false);
+
+   // Years filter
    var years = $('input:checkbox[name="year"]:checked').map(function() {
      return '^' + this.value + '$';
    }).get().join('|');
 
    // filter for year, without regex, smart filtering, not case sensitive
-   table.column(1).search(years, true, false, false).draw(false);
+   table.column(6).search(years, true, false, false).draw(false);
 
  });
 
