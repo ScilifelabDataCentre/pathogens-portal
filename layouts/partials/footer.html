@@ -23,7 +23,7 @@
       <h2 class="small text-uppercase text-black-50">{{ if eq $.Site.Language.LanguageName "Svenska" }}Tjänster på dataportalen{{ else }}Portal services{{ end }}</h2>
       <ul class="list-unstyled">
       {{ range .Site.Menus.footer_sections }}
-              <li><a href="{{ .Page.RelPermalink }}">{{ if or (eq .Name "Biobank Registry") (eq .Name "Biobanksregistret") }}<i class="fas fa-vials mr-1"></i>{{ end }}{{ .Name }}</a></li>
+              <li><a href="{{ .Page.RelPermalink }}">{{ if eq .Page.Section "biobanks" }}<i class="fas fa-vials mr-1"></i>{{ end }}{{ .Name }}</a></li>
       {{ end }}
       </ul>
     </div>
