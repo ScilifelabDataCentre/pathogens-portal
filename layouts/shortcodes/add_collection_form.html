@@ -14,8 +14,36 @@
   data-parent="#accordionForm">
   <div class="card-body">
     <div class="form-group">
-      <label for="biobank_name"><b>Biobank name:*</b></label>
-      <input type="text" class="form-control" name="biobank_name" required>
+      <label for="biobank_name"><b>Biobank:*</b></label>
+      <select class="form-control" id="biobank_name" name="biobank_name" required>
+        <option id="biobank_name_null"> </option>
+        <option value="c19dp:biobank:SE_1462">Blekinge biobank</option>
+        <option value="c19dp:biobank:SE_1873">Dalarna biobank (forskningsprov och nyinsamlade prov)</option>
+        <option value="c19dp:biobank:SE_1984">Gävleborg biobank</option>
+        <option value="c19dp:biobank:SE_1874">Dalarna biobank (diagnostiska patologiprov)</option>
+        <option value="c19dp:biobank:SE_1325">Halland biobank</option>
+        <option value="c19dp:biobank:SE_1398">Jämtland Härjedalen biobank</option>
+        <option value="c19dp:biobank:SE_1868">Jönköping biobank</option>
+        <option value="c19dp:biobank:SE_1488">Kalmar biobank (Patologi/cytologi)</option>
+        <option value="c19dp:biobank:SE_1490">Kalmar biobank (Klinisk mikrobiologi)</option>
+        <option value="c19dp:biobank:SE_1491">Kalmar biobank (Klinisk kemi)</option>
+        <option value="c19dp:biobank:SE_1340">Kronoberg biobank</option>
+        <option value="c19dp:biobank:SE_1003">Norrbotten biobank</option>
+        <option value="c19dp:biobank:SE_1136">Skåne biobank</option>
+        <option value="c19dp:biobank:SE_1916">Stockholm biobank</option>
+        <option value="c19dp:biobank:SE_1872">Sörmland biobank</option>
+        <option value="c19dp:biobank:SE_1827">Uppsala biobank</option>
+        <option value="c19dp:biobank:SE_1926">Värmland biobank</option>
+        <option value="c19dp:biobank:SE_1472">Västerbotten biobank</option>
+        <option value="c19dp:biobank:SE_1437">Västernorrland biobank (Avdelningen patologi och cytologi)</option>
+        <option value="c19dp:biobank:SE_1438">Västernorrland biobank (Laboratoriemedicin Västernorrland)</option>
+        <option value="c19dp:biobank:SE_1556">Västmanland biobank (Patologi/cytologi)</option>
+        <option value="c19dp:biobank:SE_1086">Västmanland biobank (Klinisk mikrobiologi)</option>
+        <option value="c19dp:biobank:SE_1442">Västmanland biobank (Klinisk kemi)</option>
+        <option value="c19dp:biobank:SE_1890">Västra Götaland biobank</option>
+        <option value="c19dp:biobank:SE_1456">Örebro biobank</option>
+        <option value="c19dp:biobank:SE_1001">Östergötland biobank</option>
+      </select>
       <small class="form-text text-muted">Provide the name of the biobank to which the collection belongs. If this biobank has not yet been added to the Swedish COVID-19 Sample Collection database, you need to <a href="/biobanks/add_biobank/">fill out this form to add it</a>.</small>
     </div>
     <div class="form-group">
@@ -84,8 +112,21 @@
       <small class="form-text text-muted">Provide a date until which the collection is guaranteed to be available. After this date, the researchers will be advised to contact the biobank to ask whether the collection is still available.</small>
     </div>
     </div>
-    <div class="form-group types">
-      <label for="types"><b>Collection type(s):*</b></label>
+    <div class="form-group types_sweden">
+      <label for="types_sweden"><b>Collection type(s) according to categorization in Sweden:*</b></label>
+      <div class="form-check">
+        <input id="RESEARCH_sample_collection" type="checkbox" name="RESEARCH_sample_collection" required>
+        <label for="RESEARCH_sample_collection" class="form-check-label">Research sample collection</label>
+      </div>
+      <div class="form-check">
+        <input id="HEALTHCARE_sample_collection" type="checkbox" name="HEALTHCARE_sample_collection" required>
+        <label for="HEALTHCARE_sample_collection" class="form-check-label">Healthcare sample collection</label>
+        <div class="invalid-feedback"><b>Choose at least one collection type.</b></div>
+      </div>
+      <div><small class="form-text text-muted">Type(s) of collection.</small></div>
+    </div>
+    <div class="form-group types_bbmri">
+      <label for="types_bbmri"><b>Collection type(s) according to BBMRI-ERIC:*</b></label>
       <div class="form-check">
         <input id="QUALITY_CONTROL" type="checkbox" name="QUALITY_CONTROL" required>
         <label for="QUALITY_CONTROL" class="form-check-label">Quality control</label>
@@ -123,20 +164,12 @@
         <label for="RD" class="form-check-label">Rare disease collection</label>
       </div>
       <div class="form-check">
-        <input id="RESEARCH_sample_collection" type="checkbox" name="RESEARCH_sample_collection" required>
-        <label for="RESEARCH_sample_collection" class="form-check-label"><b>Research sample collection</b></label>
-      </div>
-      <div class="form-check">
         <input id="IMAGE" type="checkbox" name="IMAGE" required>
         <label for="IMAGE" class="form-check-label">Image collection</label>
       </div>
       <div class="form-check">
         <input id="PROSPECTIVE_COLLECTION" type="checkbox" name="PROSPECTIVE_COLLECTION" required>
         <label for="PROSPECTIVE_COLLECTION" class="form-check-label">A prospective study</label>
-      </div>
-      <div class="form-check">
-        <input id="HEALTHCARE_sample_collection" type="checkbox" name="HEALTHCARE_sample_collection" required>
-        <label for="HEALTHCARE_sample_collection" class="form-check-label"><b>Healthcare sample collection</b></label>
       </div>
       <div class="form-check">
         <input id="HOSPITAL" type="checkbox" name="HOSPITAL" required>
@@ -159,7 +192,7 @@
         <label for="LONGITUDINAL" class="form-check-label">Longitudinal</label>
         <div class="invalid-feedback"><b>Choose at least one collection type.</b></div>
       </div>
-      <div><small class="form-text text-muted">Type(s) of collection.</small></div>
+      <div><small class="form-text text-muted">Type(s) of collection as per BBMRI-ERIC classification. Required for the collection to be included in BBMRI-ERIC.</small></div>
     </div>
     <div class="form-group data_categories">
       <label for="data_categories"><b>Data categories:*</b></label>
@@ -230,16 +263,16 @@
       <div class="form-group col-md-6">
         <label for="order_of_magnitude"><b>Size of the collection:*</b></label>
         <select class="form-control" id="order_of_magnitude" name="order_of_magnitude" required>
-          <option id="order_of_magnitude_null"> </option>
-          <option id="order_of_magnitude_0">&lt; 10</option>
-          <option id="order_of_magnitude_1">10 - 100</option>
-          <option id="order_of_magnitude_2">100 - 1000</option>
-          <option id="order_of_magnitude_3">1000 - 10.000</option>
-          <option id="order_of_magnitude_4">10.000 - 100.000</option>
-          <option id="order_of_magnitude_5">100.000 - 1.000.000</option>
-          <option id="order_of_magnitude_6">1.000.000 - 10.000.000</option>
-          <option id="order_of_magnitude_7">10.000.000 - 100.000.000</option>
-          <option id="order_of_magnitude_8">100.000.000 - 1.000.000.000</option>
+          <option value="order_of_magnitude_null"> </option>
+          <option value="order_of_magnitude_0">&lt; 10</option>
+          <option value="order_of_magnitude_1">10 - 100</option>
+          <option value="order_of_magnitude_2">100 - 1000</option>
+          <option value="order_of_magnitude_3">1000 - 10.000</option>
+          <option value="order_of_magnitude_4">10.000 - 100.000</option>
+          <option value="order_of_magnitude_5">100.000 - 1.000.000</option>
+          <option value="order_of_magnitude_6">1.000.000 - 10.000.000</option>
+          <option value="order_of_magnitude_7">10.000.000 - 100.000.000</option>
+          <option value="order_of_magnitude_8">100.000.000 - 1.000.000.000</option>
         </select>
         <small class="form-text text-muted">Size of the collection to the given date.</small>
       </div>
@@ -398,16 +431,16 @@ data-parent="#accordionForm">
     <div class="form-group col-md-6">
       <label for="order_of_magnitude_donors"><b>Number of donors:</b></label>
       <select class="form-control" id="order_of_magnitude_donors" name="order_of_magnitude_donors">
-        <option id="order_of_magnitude_donors_null"> </option>
-        <option id="order_of_magnitude_donors_0">&lt; 10</option>
-        <option id="order_of_magnitude_donors_1">10 - 100</option>
-        <option id="order_of_magnitude_donors_2">100 - 1000</option>
-        <option id="order_of_magnitude_donors_3">1000 - 10.000</option>
-        <option id="order_of_magnitude_donors_4">10.000 - 100.000</option>
-        <option id="order_of_magnitude_donors_5">100.000 - 1.000.000</option>
-        <option id="order_of_magnitude_donors_6">1.000.000 - 10.000.000</option>
-        <option id="order_of_magnitude_donors_7">10.000.000 - 100.000.000</option>
-        <option id="order_of_magnitude_donors_8">100.000.000 - 1.000.000.000</option>
+        <option value="order_of_magnitude_donors_null"> </option>
+        <option value="order_of_magnitude_donors_0">&lt; 10</option>
+        <option value="order_of_magnitude_donors_1">10 - 100</option>
+        <option value="order_of_magnitude_donors_2">100 - 1000</option>
+        <option value="order_of_magnitude_donors_3">1000 - 10.000</option>
+        <option value="order_of_magnitude_donors_4">10.000 - 100.000</option>
+        <option value="order_of_magnitude_donors_5">100.000 - 1.000.000</option>
+        <option value="order_of_magnitude_donors_6">1.000.000 - 10.000.000</option>
+        <option value="order_of_magnitude_donors_7">10.000.000 - 100.000.000</option>
+        <option value="order_of_magnitude_donors_8">100.000.000 - 1.000.000.000</option>
       </select>
       <small class="form-text text-muted">Number of donors from whom samples were obtained.</small>
     </div>
@@ -729,7 +762,18 @@ data-parent="#accordionForm">
   document.getElementById('originUrl').value = location.href;
 
   $(function(){
-    var requiredCheckboxes = $('.types :checkbox[required]');
+    var requiredCheckboxes = $('.types_bbmri :checkbox[required]');
+    requiredCheckboxes.change(function(){
+        if(requiredCheckboxes.is(':checked')) {
+            requiredCheckboxes.removeAttr('required');
+        } else {
+            requiredCheckboxes.attr('required', 'required');
+        }
+    });
+  });
+
+  $(function(){
+    var requiredCheckboxes = $('.types_sweden :checkbox[required]');
     requiredCheckboxes.change(function(){
         if(requiredCheckboxes.is(':checked')) {
             requiredCheckboxes.removeAttr('required');
