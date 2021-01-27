@@ -4,6 +4,6 @@ menu:
     other_data:
         name: Serologisk data
         identifier: serology_data
-        weight: 10
+        weight: 15
 type: data_table
 ---
