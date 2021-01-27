@@ -1,15 +1,10 @@
 ---
 title: Andra datatyper
 menu:
-    main:
-        name: Publicerad data
-        identifier: other_data_data
-        parent: other_data
-        weight: 10
     other_data:
         name: Andra datatyper
-        identifier: other_other_data
-        weight: 20
+        identifier: other_data
+        weight: 90
 type: data_table
 ---
 

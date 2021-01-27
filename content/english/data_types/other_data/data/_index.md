@@ -1,10 +1,10 @@
 ---
 title: Other data types
 menu:
-  other_data:
-      name: Other data types
-      identifier: other_data
-      weight: 90
+    other_data:
+        name: Other data
+        identifier: other_data
+        weight: 90
 type: data_table
 datatypes_to_display:
 - "Data type: Other data"
