@@ -1153,6 +1153,78 @@
     "url_eng": "https://www.swecris.se/betasearch/details/project/202006121VR?lang=en"
   },
   {
+    "funder": "vr",
+    "project_title_eng": "Innate-like unconventional T cells as new regulators of the immune response against viral infection",
+    "project_title_sv": "Naturliga okonventionella T-celler som nya modulatorer av immunsvaret mot virusinfektion",
+    "pi": "Andrea Ponzetta",
+    "pi_affiliation_eng": "Karolinska Institute",
+    "pi_affiliation_sv": "Karolinska institutet",
+    "start": "2020-12-01",
+    "end": "2023-12-31",
+    "url_sv": "https://www.swecris.se/betasearch/details/project/202006253VR",
+    "url_eng": "https://www.swecris.se/betasearch/details/project/202006253VR?lang=en"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "ARCTIC: contAct tRaCing prevenTion of Covid-19",
+    "project_title_sv": "ARCTIC: contAct tRaCing prevenTion of Covid-19",
+    "pi": "Carlo Fischione",
+    "pi_affiliation_eng": "KTH Royal Institute of Technology",
+    "pi_affiliation_sv": "Kungliga Tekniska högskolan",
+    "start": "2020-12-01",
+    "end": "2021-12-31",
+    "url_sv": "https://www.swecris.se/betasearch/details/project/202006315VR",
+    "url_eng": "https://www.swecris.se/betasearch/details/project/202006315VR?lang=en"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Creation of a COVID-19 Immune Atlas to rapidly repurpose available drugs targeting signaling and metabolism of immune cells",
+    "project_title_sv": "Skapandet av en COVID-19 resurs över immunsystemet för att snabbt återanvända tillgängliga läkemedel riktade mot metabolism och signalering",
+    "pi": "Martin Cornillet Jeannin",
+    "pi_affiliation_eng": "Karolinska Institute",
+    "pi_affiliation_sv": "Karolinska institutet",
+    "start": "2020-12-01",
+    "end": "2023-12-31",
+    "url_sv": "https://www.swecris.se/betasearch/details/project/202006250VR",
+    "url_eng": "https://www.swecris.se/betasearch/details/project/202006250VR?lang=en"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Decoding heterogeneity and durable immunity of lung resident memory T cells in health and acute respiratory infection",
+    "project_title_sv": "Avkodning av heterogenitet och hållbar immunitet för lungresidenta T-celler vid hälsa och akut luftvägsinfektion ",
+    "pi": "Takuya Sekine",
+    "pi_affiliation_eng": "Karolinska Institute",
+    "pi_affiliation_sv": "Karolinska institutet",
+    "start": "2020-12-01",
+    "end": "2023-12-31",
+    "url_sv": "https://www.swecris.se/betasearch/details/project/202006229VR",
+    "url_eng": "https://www.swecris.se/betasearch/details/project/202006229VR?lang=en"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Living with microbial roommates: Health literacy capability in antimicrobial resistance education",
+    "project_title_sv": "Leva med mikrober: Hälsolitteracitet i utbildning om antimikrobiell resistens",
+    "pi": "Martin Mickelsson",
+    "pi_affiliation_eng": "Uppsala University",
+    "pi_affiliation_sv": "Uppsala universitet",
+    "start": "2021-01-01",
+    "end": "2023-12-31",
+    "url_sv": "https://www.swecris.se/betasearch/details/project/202004567VR?lang=en",
+    "url_eng": "https://www.swecris.se/betasearch/details/project/202004567VR?lang=en?lang=en"
+  },
+  {
+    "funder": "vr",
+    "project_title_eng": "Design and development of mucosal vaccine vectors in commensal bacteria expressing SARS-CoV-2 antigens as a potential prophylactic method",
+    "project_title_sv": "Design och utveckling av mukosala vaccinvektorer hos kommensala bakterier som uttrycker SARS-CoV-2-antigener - en potentiell profylaktisk metod",
+    "pi": "Lars Engstrand",
+    "pi_affiliation_eng": "Karolinska Institute",
+    "pi_affiliation_sv": "Karolinska institutet",
+    "start": "2020-12-01",
+    "end": "2021-12-31",
+    "url_sv": "https://www.swecris.se/betasearch/details/project/202006320VR",
+    "url_eng": "https://www.swecris.se/betasearch/details/project/202006320VR?lang=en"
+  },
+  {
     "funder": "nordforsk",
     "project_title_eng": "Addressing the smoking paradox in the etiology of COVID-19 through population-based studies",
     "area_eng": "",
