@@ -23,7 +23,7 @@ type: data_table
 
 * [Folkhälsomyndigheten: Bekräftade fall i Sverige](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/bekraftade-fall-i-sverige): Officiell statistik om covid-19 fall och tester i Sverige.
 
-* [Folkhälsomyndigheten: Statistik över förbrukade vaccindoser mot covid-19](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/vaccination-mot-covid-19/statistik-over-forbrukade-vaccindoser/): Officiell statistik om antalet vaccindoser som förbrukats.
+* [Folkhälsomyndigheten: Statistik över förbrukade vaccindoser mot covid-19](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/vaccination-mot-covid-19/statistik/statistik-over-registrerade-vaccinationer-covid-19/): Officiell statistik om antalet vaccindoser som förbrukats.
 
 * [Metadata för nationella register - RUT](/sv/data_types/health_data/rut): Metadata för svenska nationella sjukvårdsregister.
 
