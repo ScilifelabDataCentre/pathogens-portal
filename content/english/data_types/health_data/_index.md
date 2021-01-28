@@ -11,9 +11,11 @@ menu:
 ##### [Swedish Intensive Care Register](https://www.icuregswe.org/data--resultat/covid-19-i-svensk-intensivvard/)
 Statistics about ICU admissions in Sweden.
 
-##### [Public Health Agency of Sweden: Number of cases and tests](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/bekraftade-fall-i-sverige/): Official statistics about COVID-19 cases and tests in Sweden.
+##### [Public Health Agency of Sweden: Number of cases and tests](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/bekraftade-fall-i-sverige/)
+Official statistics about COVID-19 cases and tests in Sweden.
 
-##### [Public Health Agency of Sweden: Number of administered vaccine doses](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/vaccination-mot-covid-19/statistik/statistik-over-registrerade-vaccinationer-covid-19/): Official statistics about the number of vaccines that have been administered in Sweden.
+##### [Public Health Agency of Sweden: Number of administered vaccine doses](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/vaccination-mot-covid-19/statistik/statistik-over-registrerade-vaccinationer-covid-19/)
+Official statistics about the number of vaccines that have been administered in Sweden.
 
 ##### [National Health Metadata Repository - RUT](rut)
 Meta data for Swedish national health registers.
