@@ -12,7 +12,7 @@ menu:
 ---
 This is a list of upcoming funding opportunities offered by major funding agencies in Sweden: Swedish Research Council, NordForsk, Vinnova, Horizon 2020, SciLifeLab/Knut and Alice Wallenberg Foundation grants.
 
-<i>Last updated: 2020.12.09</i>
+<i>Last updated: 2021.01.28</i>
 
 #### SciLifeLab/KAW: COVID-19 pandemic research and preparedness
 **Deadline:** 15.01.2021  
