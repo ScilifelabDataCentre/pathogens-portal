@@ -1,5 +1,5 @@
 ---
-title: Publicerad hälsodata
+title: Hälsodata
 menu:
     main:
         name: Publicerad data
@@ -7,9 +7,11 @@ menu:
         parent: health_data
         weight: 5
     horizontal:
-        name: Sjukvårdsdata
+        name: Hälsodata
         identifier: health_data
         weight: 50
+        params:
+          title_eng: Health
 type: data_table
 ---
 

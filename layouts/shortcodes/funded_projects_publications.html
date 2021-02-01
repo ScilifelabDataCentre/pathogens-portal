@@ -6,7 +6,21 @@
 {{ $label_href := replace $label_href "-" "_" }}
 
 <a class="btn" data-toggle="collapse" href="#{{ $label_href }}" role="button" aria-expanded="false" aria-controls="vrdetails" style="font-weight: 500">
-  {{ if eq $.Site.Language.LanguageName "Svenska" }}Publikationer{{ else }}Publications from the above listed projects{{ end }} <i class="fas fa-caret-down"></i></a>
+  {{ if eq $label "Funder: VR" }}
+    {{ if eq $.Site.Language.LanguageName "Svenska" }}
+      Publikationer
+    {{ else }}
+      Publications from projects (co-)funded by the Swedish Research Council (including previously awarded grants)
+    {{ end }}
+  {{ else }}
+    {{ if eq $.Site.Language.LanguageName "Svenska" }}
+      Publikationer
+    {{ else }}
+      Publications from the above listed projects
+    {{ end }}
+  {{ end }}
+  <i class="fas fa-caret-down"></i>
+</a>
 <div class="collapse" id="{{ $label_href }}">
   <div class="card card-body">
 

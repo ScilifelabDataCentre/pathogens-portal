@@ -1,10 +1,12 @@
 ---
-title: Andra datatyper
+title: Övriga data
 menu:
     other_data:
-        name: Andra datatyper
+        name: Övriga data
         identifier: other_data
         weight: 90
+        params:
+          title_eng: Other data
 type: data_table
 ---
 
