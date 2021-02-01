@@ -7,6 +7,8 @@ menu:
         weight: 10
 ---
 
+* **All data types**
+    * [Published data](all/data/)
 * **Genomics &amp; transcriptomics**
     * [Published data](genomics_transcriptomics/data/)
     * [Guidelines for data producers](genomics_transcriptomics/guidelines/)

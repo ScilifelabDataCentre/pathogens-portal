@@ -29,5 +29,5 @@ menu:
     * [SciLifeLab Autoimmunity and Serology profiling facility, statistik för SARS-CoV-2 antikroppstest](health_data/serology-statistics)
 * **Serologisk data**
     * [Publicerad data](serology/data/)
-* **Andra datatyper**
+* **Övriga data**
     * [Publicerad data](other_data/data/)

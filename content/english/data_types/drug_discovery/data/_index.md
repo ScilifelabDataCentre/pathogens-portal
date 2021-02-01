@@ -1,5 +1,5 @@
 ---
-title: Drug discovery
+title: Drug discovery data
 menu:
     other_data:
         name: Drug discovery

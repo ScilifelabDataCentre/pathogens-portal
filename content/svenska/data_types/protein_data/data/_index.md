@@ -1,5 +1,5 @@
 ---
-title: Publicerad proteindata
+title: Proteindata
 menu:
     main:
         name: Publicerad data
@@ -10,6 +10,8 @@ menu:
         name: Proteiner
         identifier: protein_data_data
         weight: 20
+        params:
+          title_eng: Protein data
 type: data_table
 ---
 ###### Se även: [Riktlinjer för datapublicering - proteindata](../guidelines) | [Tillgängliga tjänster - proteindata](../services)

@@ -1,5 +1,5 @@
 ---
-title: Public health
+title: Public health data
 menu:
     other_data:
         name: Public health

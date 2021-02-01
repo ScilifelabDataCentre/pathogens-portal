@@ -9,13 +9,54 @@
   {{ end }}</h4>
 
 <div>{{ if eq $.Site.Language.LanguageName "Svenska" }}
-  <p>Vänligen notera att listan över tillgängliga dataset från svenska forskargrupper uppdateras manuellt och därför inte är fullständig. Om du vill att ditt dataset skall synliggöras eller vill korrigera information om dina dataset, vänligen kontakta oss.</p>
+  <p>Vänligen notera att listan över tillgängliga dataset från svenska forskargrupper uppdateras manuellt och därför inte är fullständig. Om du vill att ditt dataset skall synliggöras eller vill korrigera information om dina dataset, vänligen kontakta oss. Publikationer som delar data där minst en medförfattare är affilierad till ett svenskt lärosäte inkluderas. I dagsläget inkluderas  både publikationer som öppet delar data eller som anges att data göra tillgängliga efter begäran från författarna. Men inom kort kommer endast publikationer som delar data öppet eller genom en metadata post inkluderas i datatabasen.</p>
   <p><i>Senast uppdaterad: {{ substr $.Site.Data.publications.timestamp 0 10 }}</i></p>
   {{ else }}
-  <p>The list below is curated manually and as such may not be exhaustive. If you would like to see your dataset here or correct information about your dataset, please get in touch with us.</p>
+  <p>The list below is curated manually and as such may not be exhaustive. If you would like to see your dataset here or correct information about your dataset, please get in touch with us. Projects sharing data where at least one author has an affiliation with a Swedish research institute are included. At this point, projects which share data openly or which explicitly promise to share data on request are included in this section. In the near future, only projects that either share data openly or have at least a metadata-only record with a clear data access procedure will be included.</p>
   <p><i>Last updated: {{ substr $.Site.Data.publications.timestamp 0 10 }}</i></p>
   {{ end }}
 </div>
+
+{{/*
+  Get all entries with available data into an array
+*/}}
+
+{{ $all_entries := slice }}
+{{ $valid_db_list := slice "URL" "NA" "N/A" "GENBANK" "PDB" "BioProject" "GEO" "ISRCTN" "Dryad" "PubChem-Substance" "RefSeq" "dbGaP"}}
+
+{{ range $index, $entry := $.Site.Data.publications.publications }}
+{{ $has_data := false }}
+  {{ range .xrefs }}
+    {{ if in $valid_db_list .db }}
+      {{ $has_data = true}}
+    {{ end }}
+  {{ end }}
+  {{ if $has_data }}
+    {{ $all_entries = $all_entries | append $entry }}
+  {{ end }}
+{{ end }}
+
+{{/*
+  Count how many entries we have for each data type
+*/}}
+
+
+{{ $all_data_types := slice "Data type: Biochemistry" "Data type: Drug Discovery" "Data type: Genomics & transcriptomics" "Data type: Health data" "Data type: Imaging data" "Data type: Other data" "Data type: Protein data" "Data type: Public Health" "Data type: Serology data" }}
+{{ $num_entries_per_data_type := dict }}
+
+{{ range $all_data_types }}
+  {{ $current_type := . }}
+  {{ $num_entries := 0 }}
+  {{ range $all_entries }}
+    {{ range $key, $content := .labels }}
+      {{ if eq $key $current_type}}
+          {{ $num_entries = add $num_entries 1}}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ $data_type_num_entries := dict $current_type $num_entries }}
+  {{ $num_entries_per_data_type = merge $num_entries_per_data_type $data_type_num_entries }}
+{{ end }}
 
 {{/*
   The following bit ensures that it is not necessary to copy the datatypes_to_display list in the Swedish version of the page
@@ -24,47 +65,100 @@
 {{ $datatypes_to_display := slice }}
 {{ $path := strings.TrimPrefix "/sv" (strings.TrimRight "/" (string .Page.RelPermalink)) }}
 {{ with .Sites.First.GetPage $path }}
-    {{ $datatypes_to_display = .Params.datatypes_to_display}}
+    {{ $datatypes_to_display = .Params.datatypes_to_display }}
 {{ end }}
 
 {{/*
   Select which entries from the database to display on this page
 */}}
 
+{{ $current_page := .Title }}
 {{ $entries_to_display := slice }}
-{{ $valid_db_list := slice "URL" "NA" "N/A" "GENBANK" "PDB" "BioProject" "GEO" "ISRCTN" "Dryad" "PubChem-Substance" "RefSeq" "dbGaP"}}
-
-{{ range $index, $entry := $.Site.Data.publications.publications }}
-{{ $correct_type := false }}
-{{ $has_data := false }}
+{{ range $all_entries }}
+  {{ $correct_type := false }}
   {{ range $key, $content := .labels }}
     {{ if in $datatypes_to_display $key}}
         {{ $correct_type = true}}
     {{ end }}
   {{ end }}
-  {{ range .xrefs }}
-    {{ if in $valid_db_list .db }}
-      {{ $has_data = true}}
+  {{ if and (ne $current_page "All data types") (ne $current_page "Alla datatyper") }}
+    {{ if $correct_type }}
+      {{ $entries_to_display = $entries_to_display | append . }}
     {{ end }}
-  {{ end }}
-  {{ if and $has_data $correct_type }}
-    {{ $entries_to_display = $entries_to_display | append $entry}}
+  {{ else }}
+      {{ $entries_to_display = $all_entries }}
   {{ end }}
 {{ end }}
 
 <div class="container">
   <div class="row">
-    <div class="col-md-2 pl-0 pr-2">
+    <div class="col-lg-2 pl-0 pr-2 {{ if eq $.Site.Language.LanguageName "Svenska" }}mr-5{{ end }}">
       <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).dt_data_types }}</h5>
       <div class="col mb-2">
-        {{ $current_page := .Title }}
-          <div class="row">{{ .Title }} ({{ len $entries_to_display }})</div>
+                <div class="row">{{ if or (eq .Title "All data types") (eq .Title "Alla datatyper") }}<b>{{ else }}<a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/data_types/all/data/">{{ end }}{{ if eq $.Site.Language.LanguageName "Svenska" }}Alla datatyper {{ else }}All data types {{ end }}({{ len $all_entries }}){{ if or (eq .Title "All data types") (eq .Title "Alla datatyper") }}</b>{{ else }}</a>{{ end }}</div>
+        {{ range .Site.Menus.horizontal }}
+                <div class="row">
+                  {{ if eq .Title $current_page}}
+                  <b>
+                  {{ else }}
+                  <a href="{{ .Page.RelPermalink }}">
+                  {{ end }}
+                  {{ .Title }}
+                  {{ $section_title := string "Hello" }}
+                  {{ if eq $.Site.Language.LanguageName "Svenska" }}
+                    {{ $section_title =  .Params.title_eng}}
+                  {{ else }}
+                    {{ $section_title = .Title}}
+                  {{ end }}
+                  {{ $this_type := strings.TrimRight " data" (lower $section_title) }}
+                  {{ range $type, $num := $num_entries_per_data_type }}
+                    {{ $type_in_dict := strings.TrimRight " data" ( strings.TrimPrefix "data type: " (lower $type) ) }}
+                    {{ if eq $this_type $type_in_dict }}
+                      ({{ $num }})
+                    {{ end }}
+                  {{ end }}
+                  {{ if eq .Title $current_page}}
+                  </b>
+                  {{ else }}
+                  </a>
+                  {{ end }}
+                </div>
+        {{ end }}
+        {{ range .Site.Menus.other_data }}
+                <div class="row">
+                  {{ if eq .Title $current_page}}
+                  <b>
+                  {{ else }}
+                  <a href="{{ .Page.RelPermalink }}">
+                  {{ end }}
+                  {{ .Title }}
+                  {{ $section_title := string "Hello" }}
+                  {{ if eq $.Site.Language.LanguageName "Svenska" }}
+                    {{ $section_title =  .Params.title_eng}}
+                  {{ else }}
+                    {{ $section_title = .Title}}
+                  {{ end }}
+                  {{ $this_type := strings.TrimRight " data" (lower $section_title) }}
+                  {{ range $type, $num := $num_entries_per_data_type }}
+                    {{ $type_in_dict := strings.TrimRight " data" ( strings.TrimPrefix "data type: " (lower $type) ) }}
+                    {{ if eq $this_type $type_in_dict }}
+                      ({{ $num }})
+                    {{ end }}
+                  {{ end }}
+                  {{ if eq .Title $current_page}}
+                  </b>
+                  {{ else }}
+                  </a>
+                  {{ end }}
+                </div>
+        {{ end }}
       </div>
     </div>
-    <div class="col-md-10">
-    <div class="row"><div class="table-responsive-md">
-<table class="table table-hover table-bordered">
-  <thead class="thead-light">
+    <div class="col-lg">
+          <div class="row">
+            <div class="table-responsive">
+              <table class="table table-hover table-bordered" width="100%">
+                <thead class="thead-light">
     <tr>
       <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).dt_project }}</th>
       <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).dt_last_updated }}</th>
@@ -107,9 +201,9 @@
                     {{ end }}
                     {{ end }}
                     {{ end }}
-                  </span>
-            </div>
-                <div class="row mb-1">{{ range $key, $content := .labels }} {{ if eq $key "Type: Preprint"}} [preprint]&nbsp;{{ end }}{{ end}} <i>{{ .journal.title }}</i>{{ if .journal.volume }}&nbsp;<b>{{ .journal.volume }}</b>{{ end }}{{if .journal.issue}}&nbsp;({{ .journal.issue }})&nbsp;{{ end }}{{ if .journal.pages }}&nbsp;{{ .journal.pages }}{{ end }}</div>
+                  </span><br>
+                  <span><i>{{ .journal.title }}</i>{{ if .journal.volume }} <b>{{ .journal.volume }}</b>{{ end }}{{if .journal.issue}} ({{ .journal.issue }}){{ end }}{{ if .journal.pages }} {{ .journal.pages }}{{ end }}</span>
+                </div>
                 <div class="row"><span class="text-muted">{{ .doi }}</span></div>
                 {{if .abstract }}<div class="row">
                   <a class="btn btn-link text-dark" data-toggle="collapse" href="#abstract{{ $index }}" role="button" aria-expanded="false" aria-controls="abstract{{ $index }}">
@@ -205,6 +299,7 @@
 <script>
   $(document).ready(function() {
     $('table.table').DataTable({
+        "sDom": '<"top row"<"col-md"i><"col-md"f>>rt<"bottom row"<"col-md"l><"col-md"p>><"clear">',
         "order": [[ 1, "desc" ]],
         "columnDefs": [{ "orderable": false, "targets": 2 }],
         {{ if eq $.Site.Language.LanguageName "English" }}
