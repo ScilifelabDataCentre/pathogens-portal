@@ -1,5 +1,5 @@
 ---
-title: Publicerad genomik & transkriptomik data
+title: Genomik & transkriptomik data 
 menu:
     main:
         name: Publicerad data
@@ -10,6 +10,8 @@ menu:
         name: Genomik
         identifier: genomics_transcriptomics_data
         weight: 10
+        params:
+          title_eng: Genomics & transcriptomics
 type: data_table
 ---
 ###### Se även: [Riktlinjer för datapublicering - Genomik & transkriptomik](../guidelines) | [Tillgängliga tjänster - Genomik & transkriptomik](../services)

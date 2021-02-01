@@ -1,5 +1,5 @@
 ---
-title: Other data types
+title: Other data
 menu:
     other_data:
         name: Other data

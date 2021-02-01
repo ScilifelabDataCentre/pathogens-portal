@@ -1,5 +1,5 @@
 ---
-title: Publicerad bilddata
+title: Bilddata
 menu:
     main:
         name: Publicerad data
@@ -10,6 +10,8 @@ menu:
         name: Bilddata
         identifier: imaging_data_data
         weight: 30
+        params:
+          title_eng: Imaging data
 type: data_table
 ---
 

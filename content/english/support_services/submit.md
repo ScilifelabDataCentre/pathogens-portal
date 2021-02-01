@@ -32,7 +32,7 @@ Here are our data submission guidelines for each specific data type:
 
     * [The European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena)
     * [ENA SARS-CoV-2 submission guildelines](https://ena-browser-docs.readthedocs.io/en/latest/help_and_guides/sars-cov-2-submissions.html)
-    * [SciLifeLab Data Repostory for metadata records of sequence data with restricted access](https://scilifelab.se/data/repository)
+    * [SciLifeLab Data Repository for metadata records of sequence data with restricted access](https://scilifelab.se/data/repository)
 
     ***
 
@@ -70,6 +70,8 @@ Here are our data submission guidelines for each specific data type:
     In cases where data cannot be deposited into a public repository due to privacy restrictions we suggest creating a metadata-only record on the [SciLifeLab Data Repository](https://scilifelab.se/data/repository) with information about what data is available upon request and how such a request can be made. The repository is managed locally by the SciLifeLab Data Centre, and it allows to obtain a DOI which can then be referred to in the publication.
 
     * [SciLifeLab Data Repository](https://scilifelab.se/data/repository)
+
+    ***
 
 ### Support for data management planning
 

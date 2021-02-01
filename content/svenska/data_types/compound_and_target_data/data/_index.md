@@ -1,5 +1,5 @@
 ---
-title: Publicerad kemisk biologi
+title: Kemisk biologi data
 menu:
     main:
         name: Publicerad data
@@ -10,6 +10,8 @@ menu:
         name: Kemisk biologi
         identifier: compound_and_target_data_data
         weight: 40
+        params:
+          title_eng: Biochemistry
 type: data_table
 ---
 
