@@ -1,0 +1,95 @@
+{{ define "main" }}
+
+{{ .Content }}
+
+<form class="needs-validation" novalidate>
+  <h2>Suggestions form</h2>
+  <div class="mb-3 mt-3">Please fill out this form to make suggestions. The data portal team will consider your suggestion within the next couple of days. If you provide your contact details, we will send you a response.</div>
+  <div class="form-group row">
+    <label for="Name" class="col-sm-3 col-form-label"><b>Name:</b></label>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" id="Name" placeholder="Name">
+      <small class="form-text text-muted">Please provide your name in case you would like to receive a response from us. In other cases, name is not required.</small>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="Email" class="col-sm-3 col-form-label"><b>E-mail:</b></label>
+    <div class="col-sm-9">
+      <input type="email" class="form-control" id="Email" placeholder="E-mail">
+      <small class="form-text text-muted">Please provide your e-mail address in case you would like to receive a response from us. In other cases, the e-mail address is not required.</small>
+    </div>
+  </div>
+  <div class="form-group row suggestion_type">
+    <div class="col-sm-3"><b>What are you suggesting?*</b></div>
+    <div class="col-sm-9">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="Dataset" name="Dataset" required>
+        <label class="form-check-label" for="Dataset">Dataset</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="Data_highlight" name="Data_highlight" required>
+        <label class="form-check-label" for="Data_highlight">Data highlight</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="Research_project" name="Research_project" required>
+        <label class="form-check-label" for="Research_project">Research project</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="Journal_publication" name="Journal_publication" required>
+        <label class="form-check-label" for="Journal_publication">Journal publication</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="Preprint" name="Preprint" required>
+        <label class="form-check-label" for="Preprint">Preprint</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="Funding_opportunity" name="Funding_opportunity" required>
+        <label class="form-check-label" for="Funding_opportunity">Funding opportunity</label>
+        <div class="invalid-feedback">Please select at least one box.</div>
+      </div>
+      <small class="form-text text-muted">You are welcome to suggest one or more items using this form.</small>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="Description" class="col-sm-3 col-form-label"><b>Suggestion:*</b></label>
+    <div class="col-sm-9">
+      <textarea class="form-control" id="Description" name="Description" rows=5 required></textarea>
+      <small class="form-text text-muted">Please provide the link(s) to your suggested dataset, project, publication, preprint, etc. and anything else that we should know. You are also welcome to write a request for help with sharing your own dataset in this field.</small>
+      <div class="invalid-feedback">Please describe what you are suggesting.</div>
+    </div>
+  </div>
+  <div class="g-recaptcha" data-sitekey="6LesV0gaAAAAAGFjazG7Hd_hN72cpeYm2woivBT3"></div>
+  <div class="form-group row">
+    <div class="col-sm-9">
+        <button type="submit" class="btn btn-secondary mt-3">Submit the form</button>
+    </div>
+  </div>
+</form>
+
+<h3>Personal data policy</h3>
+<p>[Personal data policy text goes here.] The personal data you provide in this form, your name, email address and phone number, will be used to maintain the Swedish COVID-19 Sample Collection database where information about biobanks and sample collections relevant for COVID-19 research will be made available. The registry will be a part of the <a href="https://covid19dataportal.se/">Swedish COVID-19 Data Portal</a>. The Data Portal is a service run by the SciLifeLab Data Centre on assignment from Vetenskapsrådet. It serves to address <a href="https://www.regeringen.se/regeringsuppdrag/2020/05/uppdrag-om-svensk-samordning-och-deltagande-i-eu-kommissionens-covid-19-dataplattform/">the government assignment to VR</a> to participate in the European open data platform for COVID-19 research.</p>
+
+<script>
+  var form = document.querySelector('.needs-validation');
+  form.addEventListener('submit', function(event){
+      if(form.checkValidity() === false) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+      form.classList.add('was-validated')
+  })
+
+  $(function(){
+    var requiredCheckboxes = $(':checkbox[required]');
+    requiredCheckboxes.change(function(){
+        if(requiredCheckboxes.is(':checked')) {
+            requiredCheckboxes.removeAttr('required');
+        } else {
+            requiredCheckboxes.attr('required', 'required');
+        }
+    });
+  });
+
+</script>
+
+{{ end }}
