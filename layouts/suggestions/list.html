@@ -74,9 +74,15 @@
   form.addEventListener('submit', function(event){
       if(form.checkValidity() === false) {
         event.preventDefault();
+        alert("Please fill out all required fields.");
         event.stopPropagation();
+        form.classList.add('was-validated')
       }
-      form.classList.add('was-validated')
+      var recaptcha = $("#g-recaptcha-response").val();
+      if (recaptcha === "") {
+          event.preventDefault();
+          alert("Please tick 'I'm not a robot' above the 'Submit' button.");
+      }
   })
 
   $(function(){
