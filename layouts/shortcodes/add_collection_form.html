@@ -65,7 +65,7 @@
     <div class="form-group col-md-6">
       <label for="local_id"><b>Local collection ID:*</b></label>
       <input type="text" class="form-control" name="local_id" required>
-      <small class="form-text text-muted">Collection ID within the biobank.</small>
+      <small class="form-text text-muted">Collection ID within the biobank. Please put "N/A" in case the local collection ID is not available (healthcare samples).</small>
     </div>
     <div class="form-group col-md-6">
       <label for="bbmri_id"><b>BBMRI-ERIC collection ID:</b></label>
@@ -91,7 +91,7 @@
     <div class="form-group">
       <label for="ethics_id"><b>Swedish ethical approval ID:*</b></label>
       <input type="text" class="form-control" name="ethics_id" required>
-      <small class="form-text text-muted">Registration number of the Swedish ethical approval.</small>
+      <small class="form-text text-muted">Registration number of the Swedish ethical approval. Please put "N/A" in case ethical approval was not required (healthcare samples).</small>
     </div>
     <div class="form-row">
     <div class="form-group col-md-6">
@@ -455,6 +455,10 @@ data-parent="#accordionForm">
       <input class="form-check-input" type="radio" name="autopsy" id="no" value="no">
       <label class="form-check-label" for="no">No</label>
     </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="autopsy" id="na" value="na">
+      <label class="form-check-label" for="na">N/A</label>
+    </div>
     <small class="form-text text-muted">Indicate whether the samples were obtained during autopsies.</small>
   </div>
   <div class="form-group">
@@ -466,6 +470,10 @@ data-parent="#accordionForm">
     <div class="form-check">
       <input class="form-check-input" type="radio" name="minors" id="no" value="no">
       <label class="form-check-label" for="no">No</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="autopsy" id="na" value="na">
+      <label class="form-check-label" for="na">N/A</label>
     </div>
     <small class="form-text text-muted">Indicate whether the samples were obtained from individals below 18 years old.</small>
   </div>
@@ -625,6 +633,10 @@ data-parent="#accordionForm">
       <input class="form-check-input" type="radio" name="sample_access_fee" id="no" value="no">
       <label class="form-check-label" for="no">No</label>
     </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="autopsy" id="na" value="na">
+      <label class="form-check-label" for="na">N/A</label>
+    </div>
     <small class="form-text text-muted">Denotes whether access to samples may be obtained on fee-based basis.</small>
   </div>
   <div class="form-group">
@@ -636,6 +648,10 @@ data-parent="#accordionForm">
     <div class="form-check">
       <input class="form-check-input" type="radio" name="sample_access_joint_project" id="no" value="no">
       <label class="form-check-label" for="no">No</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="autopsy" id="na" value="na">
+      <label class="form-check-label" for="na">N/A</label>
     </div>
     <small class="form-text text-muted">Denotes whether access to samples may be obtained on joint project basis.</small>
   </div>
