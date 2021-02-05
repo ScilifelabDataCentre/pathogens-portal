@@ -104,7 +104,7 @@
                   <a href="{{ .Page.RelPermalink }}">
                   {{ end }}
                   {{ .Title }}
-                  {{ $section_title := string "Hello" }}
+                  {{ $section_title := string "" }}
                   {{ if eq $.Site.Language.LanguageName "Svenska" }}
                     {{ $section_title =  .Params.title_eng}}
                   {{ else }}
