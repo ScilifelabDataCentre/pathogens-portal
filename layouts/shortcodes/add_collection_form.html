@@ -417,15 +417,26 @@
 <div id="collapseDonorInformation" class="collapse" role="tabpanel" aria-labelledby="donorInformation"
 data-parent="#accordionForm">
 <div class="card-body">
+  <div class="form-group">
+    <label for="covid19_diagnosis"><b>COVID-19 diagnosis:</b></label>
+    <div class="form-check">
+      <input id="COVID19_virus_identified" type="checkbox" name="COVID19_virus_identified">
+      <label for="COVID19_virus_identified" class="form-check-label">COVID-19, virus identified (laboratory-confirmed); U07.1</label>
+    </div>
+    <div class="form-check">
+      <input id="COVID19_virus_not_identified" type="checkbox" name="COVID19_virus_not_identified">
+      <label for="COVID19_virus_not_identified" class="form-check-label">COVID-19, virus not identified (suspect or probable); U07.2</label>
+    </div>
+  </div>
   <!--- <div class="form-group">
     <label for="diagnosis_available"><b>Diagnoses available in the collection:</b></label>
     <select class="js-select-diagnoses-multiple form-control" name="diagnosis_available[]" id="diagnosis_available" style="width:100%"></select>
     <small class="form-text text-muted">Select one or multiple diagnoses (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-17</a>). Start typing in order to see options. We use <a href="https://icd.who.int/browse10/2019/en">ICD-10 codes for the diagnoses</a>. In case of COVID-19, the relevant diagnoses are: <i>U07.1 COVID-19, virus identified</i> and <i>U07.2 COVID-19, virus not identified</i></small>
   </div> --->
   <div class="form-group">
-    <label for="diagnosis_available"><b>Diagnoses available in the collection:</b></label>
+    <label for="diagnosis_available"><b>Other diagnoses available in the collection:</b></label>
     <textarea class="form-control" id="diagnosis_available" rows="3" name="diagnosis_available"></textarea>
-    <small class="form-text text-muted">Provide one or multiple diagnoses (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-17</a>). We use <a href="https://icd.who.int/browse10/2019/en">ICD-10 codes for the diagnoses</a>. In case of COVID-19, the relevant diagnoses are: <i>U07.1 COVID-19, virus identified</i> and <i>U07.2 COVID-19, virus not identified</i>.</small>
+    <small class="form-text text-muted">Provide one or multiple diagnoses (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-17</a>). We use <a href="https://icd.who.int/browse10/2019/en">ICD-10 codes for the diagnoses</a>.</small>
   </div>
   <div class="form-row">
     <div class="form-group col-md-6">
@@ -472,7 +483,7 @@ data-parent="#accordionForm">
       <label class="form-check-label" for="no">No</label>
     </div>
     <div class="form-check">
-      <input class="form-check-input" type="radio" name="autopsy" id="na" value="na">
+      <input class="form-check-input" type="radio" name="minors" id="na" value="na">
       <label class="form-check-label" for="na">N/A</label>
     </div>
     <small class="form-text text-muted">Indicate whether the samples were obtained from individals below 18 years old.</small>
@@ -634,7 +645,7 @@ data-parent="#accordionForm">
       <label class="form-check-label" for="no">No</label>
     </div>
     <div class="form-check">
-      <input class="form-check-input" type="radio" name="autopsy" id="na" value="na">
+      <input class="form-check-input" type="radio" name="sample_access_fee" id="na" value="na">
       <label class="form-check-label" for="na">N/A</label>
     </div>
     <small class="form-text text-muted">Denotes whether access to samples may be obtained on fee-based basis.</small>
@@ -650,7 +661,7 @@ data-parent="#accordionForm">
       <label class="form-check-label" for="no">No</label>
     </div>
     <div class="form-check">
-      <input class="form-check-input" type="radio" name="autopsy" id="na" value="na">
+      <input class="form-check-input" type="radio" name="sample_access_joint_project" id="na" value="na">
       <label class="form-check-label" for="na">N/A</label>
     </div>
     <small class="form-text text-muted">Denotes whether access to samples may be obtained on joint project basis.</small>
