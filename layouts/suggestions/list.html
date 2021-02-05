@@ -3,7 +3,7 @@
 {{ .Content }}
 
 <form class="needs-validation" novalidate>
-  <h2>Suggestions form</h2>
+  <h2>Suggestions and contact form</h2>
   <div class="mb-3 mt-3">Please fill out this form to make suggestions. The data portal team will consider your suggestion within the next couple of days. If you provide your contact details, we will send you a response.</div>
   <div class="form-group row">
     <label for="Name" class="col-sm-3 col-form-label"><b>Name:</b></label>
@@ -49,6 +49,10 @@
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="Event" name="Event" required>
         <label class="form-check-label" for="Event">Event</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="Other" name="Other" required>
+        <label class="form-check-label" for="Other">Other</label>
         <div class="invalid-feedback">Please select at least one box.</div>
       </div>
       <small class="form-text text-muted">You are welcome to suggest one or more items using this form.</small>
@@ -58,7 +62,7 @@
     <label for="Description" class="col-sm-3 col-form-label"><b>Suggestion:*</b></label>
     <div class="col-sm-9">
       <textarea class="form-control" id="Description" name="Description" rows=5 required></textarea>
-      <small class="form-text text-muted">Please provide the link(s) to your suggested dataset, project, publication, preprint, etc. and anything else that we should know. You are also welcome to write a request for help with sharing your own dataset in this field.</small>
+      <small class="form-text text-muted">Please provide link(s) and/or DOI(s) to your suggested dataset, project, publication, preprint, etc. and anything else that we should know. You are also welcome to write a request for help with sharing your own dataset in this field.</small>
       <div class="invalid-feedback">Please describe what you are suggesting.</div>
     </div>
   </div>
