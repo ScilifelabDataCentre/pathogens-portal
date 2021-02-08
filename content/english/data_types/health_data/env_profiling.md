@@ -12,13 +12,15 @@ Because the genome of the coronavirus can be found in the feces of patients with
 
 Note that because different sample collection and data analysis methods are used in different research projects (i.e., in different cities), it is not possible to make comparisons of viral load across projects (i.e., across cities). Comparisons are supposed to made within each project (i.e., city) since the methodology remains across different weeks of measurement.
 
-### Viral load in wastewater treatment facilities in Uppsala
+## Viral load in wastewater treatment facilities in Uppsala
+
+<div class="container my-4 ml-4"><div class="row"><img src="/env_profiling/uppsala_vatten_logo.jpg" alt="Uppsala Vatten" height="50" class="mr-4"><img src="/env_profiling/slu_logo.png" alt="SLU, Swedish University of Agricultural Sciences" height="60" class="mr-4"></div></div>
 
 This project is run by Anna J. Székely (SLU, Swedish University of Agricultural Sciences) in collaboration with Uppsala Vatten. The amount of SARS-CoV-2 virus in the wastewater is measured in two wastewater treatment facilities in Uppsala city: one that processes water in the south-western part of city ('AB'), the other processes wastewater in the north-eastern part of the city ('C'). Please [consult this map for the exact sources of wastewater in each treatment facility](/env_profiling/avrinningskarta_inlopp_kungsangsverket.pdf). Measurements are taken one day a week, with several measurements taken during that day. A single score is calculated for that day per facility taking into account the flow of water at every measurement. A combined measure based on results from both facilities is calculated as well.
 
 Note that the scores provided in this dataset and depicted in plots are preliminary. The team is still conducting method efficiency checks that might slightly modify the final results.
 
-[Dowload the data: mean and SD per treatment facility and overall per week, .CSV file](#)  
+[Dowload the data: mean and SD per treatment facility and overall per week, CSV file](#)  
 
 **Principal investigator:** Anna J. Székely, SLU, Swedish University of Agricultural Sciences.  
 **Contact:** anna.szekely@slu.se
@@ -55,7 +57,7 @@ Note that the scores provided in this dataset and depicted in plots are prelimin
 
 {{< env_profiling_method_pubs city="uppsala" >}}
 
-### Viral load in wastewater treatment facilities in Stockholm
+## Viral load in wastewater treatment facilities in Stockholm
 
 Description of the project.. [...]
 
