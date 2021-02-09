@@ -29,6 +29,8 @@ type: data_table
 
 * [Metadata för nationella register - RUT](/sv/data_types/health_data/rut): Metadata för svenska nationella sjukvårdsregister.
 
-* [SciLifeLab Autoimmunity and Serology profiling facility, statistik för SARS-CoV-2 antikroppstest](/sv/data_types/health_data/serology-statistics): Uppdateras manuellt.
+* [SciLifeLab Autoimmunity and Serology profiling facility, statistik för SARS-CoV-2 antikroppstest](/sv/data_types/health_data/serology-statistics/): Uppdateras manuellt.
+
+* [CRUSH Covid data och dashboard, Region Uppsala](/sv/data_types/health_data/crush_covid/): Antal test per capita och % positiva fall i varje postnummer i Uppsala län.
 
 * [Nationellt Pandemicentrum, statistik för covid-19-tester](/sv/data_types/health_data/npc-statistics/): Antal covid-19 virustester och resultat av dessa som analyserades mellan april och december 2020 vid NPC.

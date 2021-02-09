@@ -26,3 +26,6 @@ Uppdateras dagligen.
 
 ##### [SciLifeLab Autoimmunity and Serology profiling facility, statistik för SARS-CoV-2 antikroppstest](serology-statistics)
 Statistik för SARS-CoV-2 antikroppstester som utförs av SciLifeLab Autoimmunity and Serology profiling facility. Uppdateras manuellt.
+
+##### [CRUSH Covid data och dashboard, Region Uppsala](crush_covid)
+Antal test per capita och % positiva fall i varje postnummer i Uppsala län.
