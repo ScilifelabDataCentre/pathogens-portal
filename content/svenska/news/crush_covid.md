@@ -19,7 +19,7 @@ At the moment, CRUSH Covid team is openly sharing data about the number of COVID
 
 #### Links
 
-- [CRUSH Covid dashboard and download link on the COVID-19 Data portal](http://localhost:1313/data_types/health_data/crush_covid/)
+- [CRUSH Covid dashboard and download link on the COVID-19 Data portal](/data_types/health_data/crush_covid/)
 - [Full-window CRUSH Covid dashboard](https://crush-covid.shinyapps.io/crush_covid/)
 
 #### Researchers working on CRUSH Covid
