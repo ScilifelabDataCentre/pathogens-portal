@@ -33,4 +33,6 @@ datatypes_to_display:
 
 * [SciLifeLab Autoimmunity and Serology profiling facility SARS-CoV-2 antibody test statistics](../serology-statistics). Hosted by us, updated manually on a weekly basis.
 
+* [CRUSH Covid data and dashboard, Uppsala Region](../crush_covid). Number of tests and % positivity in each postal code in Uppsala län.
+
 * [National Pandemic Centre COVID-19 test statistics](../npc-statistics). The daily number of tests carried out between April and December 2020 as well as test results.
