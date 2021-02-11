@@ -11,7 +11,7 @@ toc: false
 
 #### Ladda ner CRUSH Covid data
 
-* [Antal test per capita och % positiva fall i varje postnummer i Uppsala län, .csv fil](https://datagraphics.dckube.scilifelab.se/dataset/db4291542d924ce88ac8a23ab4c8f7fe.csv) (uppdaterad varje torsdag; Senast uppdaterad: 2021-02-04).
+* [Antal test per capita och % positiva fall i varje postnummer i Uppsala län, .csv fil](https://datagraphics.dckube.scilifelab.se/dataset/db4291542d924ce88ac8a23ab4c8f7fe.csv) (uppdaterad varje torsdag).
     För varje postnummer i Uppsala län, innehåller vår dataset datauppgifter om Covid-19 fall per capita, test per capita och % positiva fall. Våra uppskattningar beräknas utifrån den vuxna befolkningen i varje postnummer (personer 15 år och äldre). Som referens har både den totala befolkningen och den vuxna befolkningen inkluderats.
 * Mer data kommer att publiceras inom kort.
 
