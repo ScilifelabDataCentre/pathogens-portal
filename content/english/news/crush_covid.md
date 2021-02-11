@@ -21,7 +21,6 @@ At the moment, CRUSH Covid team is openly sharing data about the number of COVID
 - [CRUSH Covid dashboard and download link on the COVID-19 Data portal](http://localhost:1313/data_types/health_data/crush_covid/)
 - [Full-window CRUSH Covid dashboard](https://crush-covid.shinyapps.io/crush_covid/)
 
-
 #### Researchers working on CRUSH Covid
 
 - [Tove Fall](https://katalog.uu.se/empinfo/?id=N9-1007), [Beatrice Kennedy](https://katalog.uu.se/empinfo/?id=N17-265), [Ulf Hammar](https://katalog.uu.se/empinfo/?id=N18-916) (Department of Medical Sciences, Molecular epidemiology, Uppsala University)
