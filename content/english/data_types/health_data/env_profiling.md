@@ -20,7 +20,7 @@ This project is run by Anna J. Székely (SLU, Swedish University of Agricultural
 
 Note that the scores provided in this dataset and depicted in plots are preliminary. The team is still conducting method efficiency checks that might slightly modify the final results.
 
-[Dowload the data: mean and SD per treatment facility and overall per week, CSV file](#)  
+[Dowload the data: mean and SD per treatment facility and overall per week, CSV file](https://covid19dataportl.se)  
 
 **Principal investigator:** Anna J. Székely, SLU, Swedish University of Agricultural Sciences.  
 **Contact:** anna.szekely@slu.se
