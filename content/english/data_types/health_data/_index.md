@@ -23,7 +23,7 @@ Meta data for Swedish national health registers.
 ##### [SciLifeLab Autoimmunity and Serology profiling facility SARS-CoV-2 antibody test statistics](serology-statistics)
 Statistics for the SARS-CoV-2 antibody tests carried out at SciLifeLab Autoimmunity and Serology profiling facility. Updated manually.
 
-##### [CRUSH Covid data and dashboard, Uppsala Region](crush_covid).
+##### [CRUSH Covid data and dashboard, Uppsala Region](crush_covid)
 Number of tests and % positivity in each postal code in Uppsala län.
 
 ##### [National Pandemic Centre COVID-19 test statistics](npc-statistics)
