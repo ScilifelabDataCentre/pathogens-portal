@@ -21,8 +21,10 @@ Officiell statistik om antalet vaccindoser som förbrukats.
 Metadata för svenska nationella sjukvårdsregister.
 
 ##### [Nationellt Pandemicentrum, statistik för covid-19-tester](npc-statistics)
-Automatiskt genererad statistik för covid-19 tester som utförs av NPC.
-Uppdateras dagligen.
+Automatiskt genererad statistik för covid-19 tester som utförs av NPC. Uppdateras dagligen.
 
 ##### [SciLifeLab Autoimmunity and Serology profiling facility, statistik för SARS-CoV-2 antikroppstest](serology-statistics)
 Statistik för SARS-CoV-2 antikroppstester som utförs av SciLifeLab Autoimmunity and Serology profiling facility. Uppdateras manuellt.
+
+##### [CRUSH Covid data och dashboard, Region Uppsala](crush_covid)
+Antal test per capita och % positiva fall i varje postnummer i Uppsala län.
