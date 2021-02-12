@@ -2,20 +2,20 @@
 
 {{ .Content }}
 
-<form class="needs-validation" novalidate>
+<form class="needs-validation" novalidate action="https://biobank-forms.dckube.scilifelab.se/forms/suggestion/">
   <h2>Suggestions and contact form</h2>
   <div class="mb-3 mt-3">Please fill out this form to make suggestions. The data portal team will consider your suggestion within the next couple of days. If you provide your contact details, we will send you a response.</div>
   <div class="form-group row">
     <label for="Name" class="col-sm-3 col-form-label"><b>Name:</b></label>
     <div class="col-sm-9">
-      <input type="text" class="form-control" id="Name" placeholder="Name">
+      <input type="text" class="form-control" id="Name" name="Name" placeholder="Name">
       <small class="form-text text-muted">Please provide your name in case you would like to receive a response from us. In other cases, name is not required.</small>
     </div>
   </div>
   <div class="form-group row">
     <label for="Email" class="col-sm-3 col-form-label"><b>E-mail:</b></label>
     <div class="col-sm-9">
-      <input type="email" class="form-control" id="Email" placeholder="E-mail">
+      <input type="email" class="form-control" id="Email" name="Email" placeholder="E-mail">
       <small class="form-text text-muted">Please provide your e-mail address in case you would like to receive a response from us. In other cases, the e-mail address is not required.</small>
     </div>
   </div>
