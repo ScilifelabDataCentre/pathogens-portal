@@ -94,6 +94,8 @@
           alert("Please tick 'I'm not a robot' above the 'Submit' button.");
       }
   })
+  
+  document.getElementById('originUrl').value = location.href;
 
   $(function(){
     var requiredCheckboxes = $(':checkbox[required]');
