@@ -1,5 +1,9 @@
 ---
 title: Förslag och kontakt med svenska dataportalen för covid-19
+menu:
+    footer_about:
+        name: Förslag och kontakt
+        weight: 5
 ---
 
 Den svenska COVID-19 dataportalen samlar  tillgängliga dataset, pågående forskningsprojekt, kommande finansieringsmöjligheter,  och publikationer och pre-prints rörande Covid-19 och SARS-CoV-2 från forskare verksamma vid ett svenskt lärosäte.

@@ -10,4 +10,4 @@ teststats:
 
 The Swedish COVID-19 Data Portal provides information, guidelines, tools and services to support researchers in utilising Swedish and European infrastructures for data sharing, in particular the [European COVID-19 Data Portal](https://covid19dataportal.org).
 
-If you are working with COVID-19 data in Sweden and have questions about data sharing and data management, do not hesitate to get in touch with the SciLifeLab Data Centre: [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se). We are available to answer any sort of data-related questions.
+If you are working with COVID-19 data in Sweden and have questions about data sharing and data management, do not hesitate to get in touch with the SciLifeLab Data Centre: [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se). We are available to answer any sort of data-related questions. You are also welcome to [send us suggestions](/suggestions/) for datasets, data highlights, projects, publications, etc. that you would like to see featured on the portal.
