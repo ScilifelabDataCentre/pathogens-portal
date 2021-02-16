@@ -17,7 +17,7 @@ Koenig and colleagues first immunized one alpaca and one llama with the receptor
 
 In the next stage, the researchers used X-ray crystallography and electron cryomicroscopy (cryo-EM) to study how the different nanobodies bind to the spike protein on the SARS CoV-2 virus and defined two distinct binding epitopes. The VHH E and U, V, and W bind to distinct epitopes on the RBD. The results showed that VHH E employ its complementarity determining region (CDR) 1 and its unusually long, 22-amino acid CDR3 to bind the ACE2 binding site on the RBD.
 
-A biparatopic construct (VE) of VHH V and VHH E connected via a linker – a design guided by cryo-EM performed at the Karolinska Institutet’s 3D-EM facility – showed more than 100-fold improved neutralizing activity. In addition, the VE construct was found to eliminate the emergence of escape mutants.   
+A biparatopic construct (VE) of VHH V and VHH E connected via a linker – a design guided by cryo-EM performed at the Karolinska Institutet’s 3D-EM facility – showed more than 100-fold improved neutralizing activity. In addition, the VE construct was found to eliminate the emergence of escape mutants.
 
 In summary, the use of structure-based multivalent nanobodies may have potential clinical applications owing to increased neutralizing activity and protect from rapid emergence of novel mutant strains of SARS CoV-2. This research shows that nanobodies may be a promising way to develop additional new therapeutics for COVID-19. The company Dioscure SE has licensed the rights to develop therapeutics based on the research and aims to perform clinical trials during the spring of 2021.
 
