@@ -62,39 +62,42 @@ The Swedish Pregnancy Register collects data about 99% of all childbirths in Swe
 Anonymous register with COVID-19 patient data from over 200 hospitals.
 
 ##### [ASH RC COVID-19 Registry](https://www.ashresearchcollaborative.org/s/covid-19-registry-data-summaries)
-COVID-19 Registry for Hematology
+COVID-19 Registry for Hematology.
 
 ##### [COVID-Hep.net](https://covid-hep.net/)
-Coronavirus (COVID-19) in liver disease reporting registry
+Coronavirus (COVID-19) in liver disease reporting registry.
 
 ##### [ELSO registry](https://www.elso.org/Registry/FullCOVID19RegistryDashboard.aspx)
-COVID-19 patients on ECMO
+COVID-19 patients on ECMO.
 
 ##### [EUROELSO](https://www.euroelso.net/covid-19/covid-19-survey/)
-ECMO use in adult COVID-19 patients in Europe
+ECMO use in adult COVID-19 patients in Europe.
 
 ##### [IntubateCOVID](https://www.intubatecovid.org/dashboards)
-COVID-10 Intubation registry
+COVID-10 Intubation registry.
 
 ##### [Pediatric COVID-19 U.S. Registry](https://www.pedscovid19registry.com/current-data.html)
 
 ##### [PSOProtect](https://psoprotect.org/current-data/)
-Psoriasis Registry for Outcomes, Therapy and Epidemiology of COVID-19 Infection
+Psoriasis Registry for Outcomes, Therapy and Epidemiology of COVID-19 Infection.
 
 ##### [SECURE-Cirrhosis](https://covidcirrhosis.web.unc.edu/updates-and-data/)
-Reporting Registry for COVID-19 in liver disease
+Reporting Registry for COVID-19 in liver disease.
 
 ##### [SECURE-IBD](https://covidibd.org/current-data/)
-COVID-19 and Inflammatory Bowel Disease (IBD) Reporting Registry
+COVID-19 and Inflammatory Bowel Disease (IBD) Reporting Registry.
 
 ##### [SECURE-SCD](https://covidsicklecell.org/updates-data/)
-COVID-19 and Sickle Cell Disease Registry
+COVID-19 and Sickle Cell Disease Registry.
 
 ##### [The COVID-19 Global Rheumatology Alliance Global Registry](https://rheum-covid.org/updates/combined-data.html)
-Registers with data provided by providers and patients
+Registers with data provided by providers and patients.
 
 ##### [VIRUS COVID-19 Registry](https://sccmcovid19.org/)
-Register of current ICU and hospital care patients
+Register of current ICU and hospital care patients in the world.
+
+##### [Swedish medical products agency webpage on COVID-19](https://www.lakemedelsverket.se/sv/coronavirus)
+Information about approved medicines, medicines under evaluation, vaccines, reported side effects, and rules related to medicines in Sweden.
 
 ### Epidemiology and mobility data
 
