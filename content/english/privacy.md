@@ -2,7 +2,7 @@
 title: Privacy Policy
 ---
 
-SciLifeLab operates the [https://www.covid19dataportal.se](https://www.covid19dataportal.se) website (including its subdomains such as https://biobanks.covid19dataportal.se/), which provides the **SERVICE**.
+SciLifeLab operates the [https://www.covid19dataportal.se](https://www.covid19dataportal.se) website (including its subdomains such as [https://biobanks.covid19dataportal.se/](https://biobanks.covid19dataportal.se/)), which provides the **SERVICE**.
 
 This page is used to inform website visitors regarding our personal data processing policy. If you choose to use our **Service**, then your personal data will be processed in accordance with this policy.
 
