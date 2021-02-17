@@ -62,6 +62,9 @@ Anonymt register med covid-19-patientdata från över 200 sjukhus.
 ##### [LIF coronavirus overview](https://www.lif.se/forskningsoversikt-coronavirus/)
 Översikt över globala vaccin- och läkemedelsutvecklingsprojekt
 
+##### [Läkemedelsverkets sida om covid-19](https://www.lakemedelsverket.se/sv/coronavirus)
+Information om godkända läkemedel, läkemedel i löpande granskning, godkända coronavacciner, rapporterade biverkningar.
+
 ### Epidemiologi och mobilitetsdata
 
 ##### [Apple Mobility Trends](https://www.apple.com/covid19/mobility)
