@@ -26,7 +26,7 @@ Besides the study results, the researchers also shared data and analysis code pu
 
 #### Article
 
-DOI: [10.1126/science.abe6230](https://doi.org/10.1126/science.abe6230)
+DOI: [10.1038/s41467-021-21085-8](https://doi.org/10.1038/s41467-021-21085-8)
 
 Pang, J., Xu, F., Aondio, G., Li, Y., Fumagalli, A., Lu, M., Valmadre, G., Wei, J., Bian, Y., Canesi, M., Damiani, G., Zhang, Y., Yu, D., Chen, J., Ji, X., Sui, W., Wang, B., Wu, S., Kovacs, A., Revera, M., Wang, H., Jing, X., Zhang, Y., Chen, Y. & Cao Y. Efficacy and tolerability of bevacizumab in patients with severe COVID-19. *Nature Communications*, **12** (814) (2021).
 
