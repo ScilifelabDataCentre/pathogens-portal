@@ -10,10 +10,10 @@ The main European site can be seen at [https://www.covid19dataportal.org/](https
 
 - [Introduction](#introduction)
 - [Development](#development)
-  - [Step 1: Access the code](#step-1-access-the-code)
-  - [Step 2a: Edit the files (online)](#step-2a-edit-the-files-online)
-  - [Step 2b: Edit the files (locally)](#step-2b-edit-the-files-locally)
-  - [Step 3: Make a pull request](#step-3-make-a-pull-request)
+    - [Step 1: Access the code](#step-1-access-the-code)
+    - [Step 2a: Edit the files (online)](#step-2a-edit-the-files-online)
+    - [Step 2b: Edit the files (locally)](#step-2b-edit-the-files-locally)
+    - [Step 3: Make a pull request](#step-3-make-a-pull-request)
 - [How to get help](#how-to-get-help)
 - [Credits](#credits)
 
@@ -55,9 +55,9 @@ Each subdirectory contains the website contents in English or Swedish.
 The filenames correspond to the website URL:
 
 - [https://www.covid19dataportal.se/data_types/protein_data/services/](https://www.covid19dataportal.se/data_types/protein_data/services/)
-  - `content/english/data_types/protein_data/services.md`
+    - `content/english/data_types/protein_data/services.md`
 - [https://www.covid19dataportal.se/sv/data_types/protein_data/](https://www.covid19dataportal.se/sv/data_types/protein_data/)
-  - `content/svenska/data_types/protein_data/_index.md`
+    - `content/svenska/data_types/protein_data/_index.md`
 
 Go to the markdown file that you want to edit, then click the Pencil icon :pencil2: in the top right.
 This opens a web-based editor where you can add and edit content.
@@ -202,7 +202,7 @@ Sometimes calling an ImJoy plugin requires several lines of code, adding them to
 
 As an example, the following code block defines two functions (`vizarr` and `kaibu`), and they can then be called in the page:
 
-```
+```markdown
 ---
 title: My Awesome Page with ImJoy plugins
 
