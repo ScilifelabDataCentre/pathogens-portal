@@ -63,4 +63,3 @@ HPA UMAP: <a href="javascript:void(0);" onclick="api.createWindow({src: 'https:/
 HPA Classification: <a href="javascript:void(0);" onclick="api.createWindow({src: 'https://raw.githubusercontent.com/imjoy-team/imjoy-plugins/master/repository/HPA-Classification.imjoy.html', window_id: 'hpa-classification', window_style: {height: '500px'}});">run</a>
 
 <div id="hpa-classification"></div>
-
