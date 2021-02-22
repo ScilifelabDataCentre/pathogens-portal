@@ -44,4 +44,9 @@
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   {{ end }}
 
+  <!-- plotly -->
+  {{ if or (eq .Page.RelPermalink "/projects/dashboard/") (eq .Page.RelPermalink "/sv/projects/dashboard/")}}
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  {{ end }}
+
 </head>
