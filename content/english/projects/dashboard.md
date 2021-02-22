@@ -30,34 +30,7 @@ This wordcloud displays 200 most frequent words or phrases (where they make more
 
 We display funders for which we identified at least 20 publications.
 
-<div class="container">
-<div class="row mt-2">
-<div class="col mr-4">
-  <div class="row">
-  <h5>Swedish Research Council:</h5>
-  </div>
-  <div class="row">
-  <img src="/temp_pubs_plots/titles_vr.png">
-  </div>
-</div>
-<div class="col mr-4">
-  <div class="row">
-  <h5>SciLifeLab/KAW:</h5>
-  </div>
-  <div class="row">
-  <img src="/temp_pubs_plots/titles_kaw.png">
-  </div>
-</div>
-<div class="col">
-  <div class="row">
-  <h5>Horizon 2020:</h5>
-  </div>
-  <div class="row">
-  <img src="/temp_pubs_plots/titles_h2020.png">
-  </div>
-</div>
-</div>
-</div>
+<div class="container"> <div class="row mt-2"> <div class="col mr-4"> <div class="row"> <h5>Swedish Research Council:</h5> </div> <div class="row"> <img src="/temp_pubs_plots/titles_vr.png"> </div> </div> <div class="col mr-4"> <div class="row"> <h5>SciLifeLab/KAW:</h5> </div> <div class="row"> <img src="/temp_pubs_plots/titles_kaw.png"> </div> </div> <div class="col"> <div class="row"> <h5>Horizon 2020:</h5> </div> <div class="row"> <img src="/temp_pubs_plots/titles_h2020.png"> </div> </div> </div> </div>
 
 ## Most frequent words or phrases in the abstracts
 
@@ -71,31 +44,4 @@ The wordclouds display 200 most frequent words or phrases (where they make more 
 
 We display funders for which we identified at least 20 publications.
 
-<div class="container">
-<div class="row mt-2">
-<div class="col mr-4">
-  <div class="row">
-  <h5>Swedish Research Council:</h5>
-  </div>
-  <div class="row">
-  <img src="/temp_pubs_plots/abstracts_vr.png">
-  </div>
-</div>
-<div class="col mr-4">
-  <div class="row">
-  <h5>SciLifeLab/KAW:</h5>
-  </div>
-  <div class="row">
-  <img src="/temp_pubs_plots/abstracts_kaw.png">
-  </div>
-</div>
-<div class="col">
-  <div class="row">
-  <h5>Horizon 2020:</h5>
-  </div>
-  <div class="row">
-  <img src="/temp_pubs_plots/abstracts_h2020.png">
-  </div>
-</div>
-</div>
-</div>
+<div class="container"> <div class="row mt-2"> <div class="col mr-4"> <div class="row"> <h5>Swedish Research Council:</h5> </div> <div class="row"> <img src="/temp_pubs_plots/abstracts_vr.png"> </div> </div> <div class="col mr-4"> <div class="row"> <h5>SciLifeLab/KAW:</h5> </div> <div class="row"> <img src="/temp_pubs_plots/abstracts_kaw.png"> </div> </div> <div class="col"> <div class="row"> <h5>Horizon 2020:</h5> </div> <div class="row"> <img src="/temp_pubs_plots/abstracts_h2020.png"> </div> </div> </div> </div>
