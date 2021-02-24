@@ -58,7 +58,7 @@
             {{ range .Site.Menus.biobanks }}
             <a class="dropdown-item" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
             {{ end }}
-            <a class="dropdown-item disabled" href="/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Sök i Covid-19 biobanksregistret (kommer inom kort){{ else }}Search in the Sample Collection Database (coming soon){{ end }}</a>
+            <a class="dropdown-item" href="https://biobanks.covid19dataportal.se/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Sök i Covid-19 Provsamlingsregistret{{ else }}Search in the Sample Collection Database{{ end }}</a>
           </div>
         </li>
         <li class="nav-item dropdown">

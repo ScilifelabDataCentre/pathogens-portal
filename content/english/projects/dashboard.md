@@ -1,14 +1,6 @@
 ---
 title: Visalization of COVID-19 and SARS-CoV-2 research in Sweden as reflected in publications
 toc: false
-menu:
-    projects:
-        name: Publications statistics
-        identifier: dashboard
-        weight: 15
-    footer_sections:
-        name: Publications statistics
-        weight: 25
 ---
 The visualizations on this page reflect how research on COVID-10 and SARS-CoV-2 has been developing in Sweden in terms of the publication output. Specifically, we plot various aspects of journal publications and preprints where at least one author has an affiliation with a Swedish research institute. The database of the publications themselves [can be found on this page](/publications/). Note that our database is manually curated and as such may not be exhaustive.
 
@@ -28,6 +20,7 @@ This word cloud display most frequent words or phrases (where they make more sen
 
 <div class="row my-4"><div class="col-md-8"><img src="https://dc-dynamic.dckube.scilifelab.se/covid-portal/titles_all.png"></div></div>
 
+
 #### Publications divided by research funders
 
 We display funders for which we identified at least 20 publications.
@@ -41,6 +34,7 @@ The word clouds display most frequent words or phrases (where they make more sen
 #### All publications
 
 <div class="row my-4"><div class="col-md-8"><img src="https://dc-dynamic.dckube.scilifelab.se/covid-portal/abstracts_all.png"></div></div>
+
 
 #### Publications divided by research funders
 
