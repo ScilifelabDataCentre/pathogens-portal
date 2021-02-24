@@ -2,7 +2,7 @@
 title: Swedish COVID-19 Sample Collection Database
 menu:
     biobanks:
-        name: COVID-19 Sample Collection Database
+        name: About the COVID-19 Sample Collection Database
         identifier: biobanks
         weight: 10
     footer_sections:
@@ -14,6 +14,6 @@ In collaboration with [Biobank Sweden](https://biobanksverige.se/english/researc
 
 The Swedish COVID-19 Sample Collection database will allow researchers to look for sample collections meeting their research needs in the biobanks all over Sweden with a simple search function. It is planned that the researchers will be able to search using keywords, filter by collection type, available biological materials, available data types, donor diagnoses. For each collection, the researchers will find contact information for sample requests.
 
-The launch of the Swedish COVID-19 Sample Collection database is planned for the beginning of 2021. The service will be a part of the Swedish COVID-19 Data Portal.
+[**Search in the COVID-19 Sample Collection Database**](https://biobanks.covid19dataportal.se/)
 
-<i>This information was last updated: 2020.12.09</i>
+*More information will be made available later today.*
