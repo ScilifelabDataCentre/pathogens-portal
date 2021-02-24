@@ -1,0 +1,92 @@
+<div id="map" class="map"></div>
+<div id="overlay" style="background-color: white; border: 1px solid black; padding: 5px 10px;">
+  <script src="http://openlayers.org/en/v5.3.0/build/ol.js"></script>
+  <script>
+// locations
+var mapStart = ol.proj.transform([15.72, 58.48884], 'EPSG:4326', 'EPSG:3857');
+var pointOne = ol.proj.transform([13.38, 58.51], 'EPSG:4326', 'EPSG:3857');
+var pointTwo = ol.proj.transform([15.72213, 58.48515], 'EPSG:4326', 'EPSG:3857');
+
+// add features
+var houseSource = new ol.source.Vector({
+});
+var busSource = new ol.source.Vector({
+});
+
+var pointOneFeature = new ol.Feature({
+geometry: new ol.geom.Point(pointOne),
+name: 'Wastewater treatment facility 1',
+});
+houseSource.addFeature(pointOneFeature);
+
+var pointTwoFeature = new ol.Feature({
+geometry: new ol.geom.Point(pointTwo),
+name: 'Wastewater treatment facility 6',
+});
+busSource.addFeature(pointTwoFeature);
+
+//create the style
+var pointOneStyle = new ol.style.Style({
+image: new ol.style.Icon(/** @type {olx.style.IconOptions} */ ({
+anchor: [0.5, 46],
+anchorXUnits: 'fraction',
+anchorYUnits: 'pixels',
+opacity: 1,
+src: '/img/map_marker.png'
+}))
+});
+
+var pointTwoStyle = new ol.style.Style({
+image: new ol.style.Icon(/** @type {olx.style.IconOptions} */ ({
+anchor: [0.5, 46],
+anchorXUnits: 'fraction',
+anchorYUnits: 'pixels',
+opacity: 1,
+src: '/img/map_marker.png'
+}))
+});
+
+
+//add the feature vector to the layer vector, and apply a style to whole layer
+var pointOneLayer = new ol.layer.Vector({
+source: houseSource,
+style: pointOneStyle
+});
+
+var pointTwoLayer = new ol.layer.Vector({
+source: busSource,
+style: pointTwoStyle
+});
+
+// osm
+var mapLayer = new ol.layer.Tile({
+source: new ol.source.OSM()
+});
+
+var overlay = new ol.Overlay({
+element: document.getElementById('overlay'),
+positioning: 'bottom-center'
+});
+
+var view = new ol.View({
+center: mapStart,
+zoom: 5
+});
+
+var map = new ol.Map({
+target: 'map',
+layers: [mapLayer, pointOneLayer, pointTwoLayer],
+view: view
+});
+// register an event handler for the click event
+map.on("click", function(event) {
+map.forEachFeatureAtPixel(event.pixel, function (feature, layer) {
+var element = overlay.getElement();
+element.innerHTML =  feature.get('name');
+overlay.setPosition(event.coordinate);
+map.addOverlay(overlay);
+});
+});
+
+  </script>
+</div>
