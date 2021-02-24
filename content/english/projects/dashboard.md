@@ -1,5 +1,5 @@
 ---
-title: Visalization of COVID-19 and SARS-CoV-2 research in Sweden as reflected in publications
+title: Visualisation of COVID-19 and SARS-CoV-2 research in Sweden as reflected in publications
 toc: false
 menu:
     projects:
@@ -10,7 +10,7 @@ menu:
         name: Publications statistics
         weight: 25
 ---
-The visualizations on this page reflect how research on COVID-10 and SARS-CoV-2 has been developing in Sweden in terms of the publication output. Specifically, we plot various aspects of journal publications and preprints where at least one author has an affiliation with a Swedish research institute. The database of the publications themselves [can be found on this page](/publications/). Note that our database is manually curated and as such may not be exhaustive.
+The visualisations on this page reflect how research on COVID-10 and SARS-CoV-2 has been developing in Sweden in terms of the publication output. Specifically, we plot various aspects of journal publications and preprints where at least one author has an affiliation with a Swedish research institute. The database of the publications themselves [can be found on this page](/publications/). Note that our database is manually curated and as such may not be exhaustive.
 
 ## Number of new publications
 
