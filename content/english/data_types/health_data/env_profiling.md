@@ -7,7 +7,6 @@ menu:
         parent: health_data
         weight: 20
 ---
-
 ## Background
 
 SARS-CoV-2 virus genome can be detected in feces samples from COVID-19 patients using polymerase chain reaction (PCR) (see, for example, [Wu and colleagues, 2020](https://doi.org/10.1016/S2468-1253(20)30083-2)). Monitoring of SARS CoV-2 virus levels in wastewater from communities could therefore provide early surveillance of disease prevalence at a population-wide level, referred to as wastewater-based epidemiology ([Corpuz and colleagues, 2020](https://doi.org/10.1016/j.scitotenv.2020.140910)).
@@ -48,27 +47,39 @@ Note that the scores provided in this dataset and depicted in plots are prelimin
   <div id="uppsala_combined"></div>
 </div>
 
-##### Wastewater treatment facility AB, south-western part of Uppsala
-
-<div class="d-lg-none alert alert-info">
-  Scroll the plot sideways to view all data.
+<div class="row ml-1"><a class="btn" data-toggle="collapse" href="#uppsala_ab_plot" role="button" aria-expanded="false" aria-controls="uppsala_ab_plot" style="font-weight: 500">
+  Wastewater treatment facility AB, south-western part of Uppsala
+  <i class="fas fa-caret-down"></i>
+</a></div>
+<div class="collapse" id="uppsala_ab_plot">
+  <div class="card card-body">
+    <div class="row"><div class="col">
+    <div class="d-lg-none alert alert-info">
+      Scroll the plot sideways to view all data.
+    </div>
+    <div class="plot_wrapper">
+      <div id="uppsala_ab"></div>
+    </div>
+    </div></div>
+  </div>
 </div>
 
-<div class="plot_wrapper">
-  <div id="uppsala_ab"></div>
+<div class="row ml-1"><a class="btn" data-toggle="collapse" href="#uppsala_c_plot" role="button" aria-expanded="false" aria-controls="uppsala_c_plot" style="font-weight: 500">
+  Wastewater treatment facility C, north-eastern part of Uppsala
+  <i class="fas fa-caret-down"></i>
+</a></div>
+<div class="collapse" id="uppsala_c_plot">
+  <div class="card card-body">
+    <div class="row"><div class="col">
+    <div class="d-lg-none alert alert-info">
+      Scroll the plot sideways to view all data.
+    </div>
+    <div class="plot_wrapper">
+      <div id="uppsala_c"></div>
+    </div>
+    </div></div>
+  </div>
 </div>
-
-##### Wastewater treatment facility C, north-eastern part of Uppsala
-
-<div class="d-lg-none alert alert-info">
-  Scroll the plot sideways to view all data.
-</div>
-
-<div class="plot_wrapper">
-  <div id="uppsala_c"></div>
-</div>
-
-{{< env_profiling_method_pubs city="uppsala" >}}
 
 <a id="stockholm"><h2>Virus concentration in wastewater treatment facilities in Stockholm</h2></a>
 
@@ -95,14 +106,47 @@ See also [the page of the research group where summaries of data and preliminary
   <div id="stockholm_combined"></div>
 </div>
 
-##### Henriksdal wastewater treatment facility
+<div class="row ml-1"><a class="btn" data-toggle="collapse" href="#henriksdal_plot" role="button" aria-expanded="false" aria-controls="henriksdal_plot" style="font-weight: 500">
+  Henriksdal wastewater treatment facility
+  <i class="fas fa-caret-down"></i>
+</a></div>
+<div class="collapse" id="henriksdal_plot">
+  <div class="card card-body">
+    <div class="row"><div class="col">
+    Graph will be added here
+    </div></div>
+  </div>
+</div>
 
-##### Bromma wastewater treatment facility
+<div class="row ml-1"><a class="btn" data-toggle="collapse" href="#bromma_plot" role="button" aria-expanded="false" aria-controls="bromma_plot" style="font-weight: 500">
+  Bromma wastewater treatment facility
+  <i class="fas fa-caret-down"></i>
+</a></div>
+<div class="collapse" id="bromma_plot">
+  <div class="card card-body">
+    <div class="row"><div class="col">
+    Graph will be added here
+    </div></div>
+  </div>
+</div>
 
-##### Käppala wastewater treatment facility
+<div class="row ml-1"><a class="btn" data-toggle="collapse" href="#kappala_plot" role="button" aria-expanded="false" aria-controls="kappala_plot" style="font-weight: 500">
+  Käppala wastewater treatment facility
+  <i class="fas fa-caret-down"></i>
+</a></div>
+<div class="collapse" id="kappala_plot">
+  <div class="card card-body">
+    <div class="row"><div class="col">
+    Graph will be added here
+    </div></div>
+  </div>
+</div>
 
-
-{{< env_profiling_method_pubs city="stockholm" >}}
+<div class="row ml-0 mt-3"><b>Publications:</b></div><div class="row"><div class="col">
+<b><a target="_blank" href="https://doi.org/10.1016/j.scitotenv.2020.142939">Benchmarking virus concentration methods for quantification of SARS-CoV-2 in raw wastewate.</a></b><br>
+                    <span class="text-muted">Jafferali MH, Khatami K, Atasoy M, Birgersson M, Williams C, Cetecioglu Z.</span><br>
+                    <i>Science of The Total Environment</i> 755. DOI: 10.1016/j.scitotenv.2020.142939
+</div></div>
 
 <a id="umea"><h2>Virus concentration in wastewater treatment facilities in Umeå</h2></a>
 
@@ -125,8 +169,6 @@ The virus concentration for each week is measured/depicted compared to the virus
   <div id="umea_combined"></div>
 </div>
 
-{{< env_profiling_method_pubs city="umea" >}}
-
 <a id="orebro"><h2>Virus concentration in wastewater treatment facilities in Örebro</h2></a>
 
 This project is run by Maja Malmberg (SLU, Swedish University of Agricultural Sciences) in collaboration with the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and XXX. The amount of SARS-CoV-2 virus in the wastewater is measured in X wastewater treatment facilities in Örebro. Please consult this map for the exact sources of wastewater in each treatment facility.
@@ -147,8 +189,6 @@ The virus concentration for each week is measured/depicted compared to the virus
 <div class="plot_wrapper">
   <div id="orebro_combined"></div>
 </div>
-
-{{< env_profiling_method_pubs city="orebro" >}}
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.12.2"></script>
