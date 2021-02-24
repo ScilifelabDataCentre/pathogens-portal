@@ -5,6 +5,7 @@ summary: "In collaboration with Biobank Sweden, today we are launching a new sec
 banner: /news/banners/scd.png
 banner_large: /news/banners/scd_large.png
 banner_caption: Screenshot of the COVID-19 Sample Collection Database.
+needs_translation: true
 ---
 The COVID-19 pandemic and its effects on healthcare and society demonstrate the importance of openness and collaboration in research. Data sharing and reuse is of outmost importance to tackle the COVID-19 pandemic and to build preparedness for future outbreaks. One area where sharing is especially important is biobanking. Access to biobank samples is often needed to conduct research - for example, for drug discovery and drug repurposing.
 
