@@ -20,7 +20,6 @@ This word cloud display most frequent words or phrases (where they make more sen
 
 <div class="row my-4"><div class="col-md-8"><img src="https://dc-dynamic.dckube.scilifelab.se/covid-portal/titles_all.png"></div></div>
 
-
 #### Publications divided by research funders
 
 We display funders for which we identified at least 20 publications.
@@ -34,7 +33,6 @@ The word clouds display most frequent words or phrases (where they make more sen
 #### All publications
 
 <div class="row my-4"><div class="col-md-8"><img src="https://dc-dynamic.dckube.scilifelab.se/covid-portal/abstracts_all.png"></div></div>
-
 
 #### Publications divided by research funders
 
