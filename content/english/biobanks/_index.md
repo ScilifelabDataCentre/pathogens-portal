@@ -56,5 +56,4 @@ Each biobank has a dedicated page with general information about the organizatio
 
 <div class="row mb-4"><div class="col-lg-7"><img class="img-thumbnail" src="/img/biobanks/example_biobank.png" alt="Example of a page with information about a biobank"></div></div>
 
-
 *Information on this page was last updated: 2021.02.24*
