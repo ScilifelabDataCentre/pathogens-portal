@@ -15,5 +15,3 @@ I samarbete med [Biobank Sverige](https://biobanksverige.se/) och [SciLifeLab CO
 Det [svenska Covid-19 Provsamlingsregistret](https://biobanks.covid19dataportal.se/) möjliggör för forskare att med en enkel sökning söka i provsamlingar från hela Sverige efter biobanksprover från både vårdprovsamlingar och forskningsprovssamlingar med relevans för covid-19. Covid-19 provsamlingsregistret möjliggör för sökningar av nyckelord och att filtrera på typer av samlingar, biologiskt material, tillgängliga datatyper, diagnos etc. För varje samling kan forskarna även finna kontaktuppgifter till ansvarig för samlingen.
 
 [**Sök i Covid-19 Provsamlingsregistret**](https://biobanks.covid19dataportal.se/)
-
-*Mer information kommer vara tillgänglig senare under dagen.*
