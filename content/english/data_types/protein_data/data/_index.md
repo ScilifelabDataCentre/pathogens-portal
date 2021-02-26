@@ -12,7 +12,7 @@ menu:
         weight: 20
 type: data_table
 datatypes_to_display:
-- "Data type: Protein data"
+- "Category: Proteins"
 ---
 ###### See also: [Guidelines for submitting protein data](../guidelines) | [Services: protein data](../services)
 

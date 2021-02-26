@@ -3,74 +3,74 @@
 {{ .Content }}
 
 <form class="needs-validation" novalidate action="https://biobank-forms.dckube.scilifelab.se/forms/suggestion/">
-  <h2>Suggestions and contact form</h2>
-  <div class="mb-3 mt-3">Please fill out this form to make suggestions. The data portal team will consider your suggestion within the next couple of days. If you provide your contact details, we will send you a response.</div>
+  <h2>{{ if eq $.Site.Language.LanguageName "Svenska" }}Kontakta oss{{ else }}Suggestions and contact form{{ end }}</h2>
+  <div class="mb-3 mt-3">{{ if eq $.Site.Language.LanguageName "Svenska" }}Fyll i formuläret för att lämna ditt förslag. Teamet som arbetar med COVID-19 dataportalen kommer granska ditt förslag inom kort. Om du anger dina kontaktuppgifter kommer vi besvara förslaget.{{ else }}Please fill out this form to make suggestions. The data portal team will consider your suggestion within the next couple of days. If you provide your contact details, we will send you a response.{{ end }}</div>
   <div class="form-group row">
-    <label for="Name" class="col-sm-3 col-form-label"><b>Name:</b></label>
+    <label for="Name" class="col-sm-3 col-form-label"><b>{{ if eq $.Site.Language.LanguageName "Svenska" }}Namn:{{ else }}Name:{{ end }}</b></label>
     <div class="col-sm-9">
-      <input type="text" class="form-control" id="Name" name="Name" placeholder="Name">
-      <small class="form-text text-muted">Please provide your name in case you would like to receive a response from us. In other cases, name is not required.</small>
+      <input type="text" class="form-control" id="Name" name="Name" placeholder="{{ if eq $.Site.Language.LanguageName "Svenska" }}Namn{{ else }}Name{{ end }}">
+      <small class="form-text text-muted">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen ange dina kontaktuppgifter om du vill få ett svar från oss, om inte behöver du inte ange dina kontaktuppgifter.{{ else }}Please provide your name in case you would like to receive a response from us. In other cases, name is not required.{{ end }}</small>
     </div>
   </div>
   <div class="form-group row">
     <label for="Email" class="col-sm-3 col-form-label"><b>E-mail:</b></label>
     <div class="col-sm-9">
       <input type="email" class="form-control" id="Email" name="Email" placeholder="E-mail">
-      <small class="form-text text-muted">Please provide your e-mail address in case you would like to receive a response from us. In other cases, the e-mail address is not required.</small>
+      <small class="form-text text-muted">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen ange dina kontaktuppgifter om du vill få ett svar från oss, om inte behöver du inte ange dina kontaktuppgifter.{{ else }}Please provide your e-mail address in case you would like to receive a response from us. In other cases, the e-mail address is not required.{{ end }}</small>
     </div>
   </div>
   <div class="form-group row suggestion_type">
-    <div class="col-sm-3"><b>What are you suggesting?*</b></div>
+    <div class="col-sm-3"><b>{{ if eq $.Site.Language.LanguageName "Svenska" }}Vad föreslår du?*{{ else }}What are you suggesting?*{{ end }}</b></div>
     <div class="col-sm-9">
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="Dataset" name="Dataset" required>
-        <label class="form-check-label" for="Dataset">Dataset</label>
+        <label class="form-check-label" for="Dataset">{{ if eq $.Site.Language.LanguageName "Svenska" }}Dataset{{ else }}Dataset{{ end }}</label>
       </div>
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="Data_highlight" name="Data_highlight" required>
-        <label class="form-check-label" for="Data_highlight">Data highlight</label>
+        <label class="form-check-label" for="Data_highlight">{{ if eq $.Site.Language.LanguageName "Svenska" }}Data i focus/Nyhet{{ else }}Data highlight{{ end }}</label>
       </div>
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="Research_project" name="Research_project" required>
-        <label class="form-check-label" for="Research_project">Research project</label>
+        <label class="form-check-label" for="Research_project">{{ if eq $.Site.Language.LanguageName "Svenska" }}Forskningsprojekt{{ else }}Research project{{ end }}</label>
       </div>
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="Journal_publication" name="Journal_publication" required>
-        <label class="form-check-label" for="Journal_publication">Journal publication</label>
+        <label class="form-check-label" for="Journal_publication">{{ if eq $.Site.Language.LanguageName "Svenska" }}Publicerad artikel{{ else }}Journal publication{{ end }}</label>
       </div>
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="Preprint" name="Preprint" required>
-        <label class="form-check-label" for="Preprint">Preprint</label>
+        <label class="form-check-label" for="Preprint">{{ if eq $.Site.Language.LanguageName "Svenska" }}Preprint{{ else }}Preprint{{ end }}</label>
       </div>
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="Funding_opportunity" name="Funding_opportunity" required>
-        <label class="form-check-label" for="Funding_opportunity">Funding opportunity</label>
+        <label class="form-check-label" for="Funding_opportunity">{{ if eq $.Site.Language.LanguageName "Svenska" }}Anslag{{ else }}Funding opportunity{{ end }}</label>
       </div>
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="Event" name="Event" required>
-        <label class="form-check-label" for="Event">Event</label>
+        <label class="form-check-label" for="Event">{{ if eq $.Site.Language.LanguageName "Svenska" }}Evenemang{{ else }}Event{{ end }}</label>
       </div>
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="Other" name="Other" required>
-        <label class="form-check-label" for="Other">Other</label>
-        <div class="invalid-feedback">Please select at least one box.</div>
+        <label class="form-check-label" for="Other">{{ if eq $.Site.Language.LanguageName "Svenska" }}Övrigt{{ else }}Other{{ end }}</label>
+        <div class="invalid-feedback">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen välj minst ett alternativ.{{ else }}Please select at least one alternative.{{ end }}</div>
       </div>
-      <small class="form-text text-muted">You are welcome to suggest one or more items using this form.</small>
+      <small class="form-text text-muted">{{ if eq $.Site.Language.LanguageName "Svenska" }}Du är välkommen att lämna fler än ett förslag i formuläret.{{ else }}You are welcome to suggest one or more items using this form.{{ end }}</small>
     </div>
   </div>
   <div class="form-group row">
-    <label for="Description" class="col-sm-3 col-form-label"><b>Suggestion:*</b></label>
+    <label for="Description" class="col-sm-3 col-form-label"><b>{{ if eq $.Site.Language.LanguageName "Svenska" }}Förslag:*{{ else }}Suggestion:*{{ end }}</b></label>
     <div class="col-sm-9">
       <textarea class="form-control" id="Description" name="Description" rows=5 required></textarea>
-      <small class="form-text text-muted">Please provide link(s) and/or DOI(s) to your suggested dataset, project, publication, preprint, etc. and anything else that we should know. You are also welcome to write a request for help with sharing your own dataset in this field.</small>
-      <div class="invalid-feedback">Please describe what you are suggesting.</div>
+      <small class="form-text text-muted">{{ if eq $.Site.Language.LanguageName "Svenska" }}Ange gärna länk och / eller DOI till dataset, projekt, publikationer, preprint osv. och annan information som du vill föreslå.{{ else }}Please provide link(s) and/or DOI(s) to your suggested dataset, project, publication, preprint, etc. and anything else that we should know. You are also welcome to write a request for help with sharing your own dataset in this field.{{ end }}</small>
+      <div class="invalid-feedback">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen beskriv vad du föreslår.{{ else }}Please describe what you are suggesting.{{ end }}</div>
     </div>
   </div>
   <div class="g-recaptcha" data-sitekey="6LesV0gaAAAAAGFjazG7Hd_hN72cpeYm2woivBT3"></div>
   <input type="url" id="originUrl" name="originUrl" value="" hidden />
   <div class="form-group row">
     <div class="col-sm-9">
-        <button type="submit" class="btn btn-secondary mt-3">Submit the form</button>
+        <button type="submit" class="btn btn-secondary mt-3">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skicka in formuläret{{ else }}Submit the form{{ end }}</button>
     </div>
   </div>
 </form>
@@ -85,17 +85,17 @@
   form.addEventListener('submit', function(event){
       if(form.checkValidity() === false) {
         event.preventDefault();
-        alert("Please fill out all required fields.");
+        alert("{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen fyll i alla obligatoriska fält.{{ else }}Please fill out all required fields.{{ end }}");
         event.stopPropagation();
         form.classList.add('was-validated')
       }
       var recaptcha = $("#g-recaptcha-response").val();
       if (recaptcha === "") {
           event.preventDefault();
-          alert("Please tick 'I'm not a robot' above the 'Submit' button.");
+          alert("{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen markera 'I'm not a robot' ovanför 'Skicka' -knappen.{{ else }}Please tick 'I'm not a robot' above the 'Submit' button.{{ end }}");
       }
   })
-  
+
   document.getElementById('originUrl').value = location.href;
 
   $(function(){

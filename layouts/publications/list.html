@@ -25,25 +25,25 @@
       <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_field }}</h5>
       <div class="col mb-2 ml-3 form-check">
           {{ if eq $.Site.Language.LanguageName "Svenska" }}
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Imaging data">Bild</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Public Health">Folkhälsa</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Genomics & transcriptomics">Genomik & transkriptomik</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Health data">Hälsa</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Biochemistry">Kemisk biologi</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Drug Discovery">Läkemedelsutveckling</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Protein data">Proteiner</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Serology data">Serologi</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Other data">Övriga</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Category: Imaging">Bild</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Category: Public Health">Folkhälsa</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Category: Genomics & transcriptomics">Genomik & transkriptomik</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Category: Health">Hälsa</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Category: Biochemistry">Kemisk biologi</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Category: Drug Discovery">Läkemedelsutveckling</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Category: Proteins">Proteiner</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Category: Serology">Serologi</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Category: Other">Övriga</div>
           {{ else }}
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Biochemistry">Biochemistry</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Drug Discovery">Drug discovery</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Genomics & transcriptomics">Genomics & transcriptomics</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Health data">Health</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Imaging data">Imaging</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Protein data">Proteins</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Public Health">Public health</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Serology data">Serology</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Data type: Other data">Other</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Category: Biochemistry">Biochemistry</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Category: Drug Discovery">Drug discovery</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Category: Genomics & transcriptomics">Genomics & transcriptomics</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Category: Health">Health</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Category: Imaging">Imaging</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Category: Proteins">Proteins</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Category: Public Health">Public health</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Category: Serology">Serology</div>
+          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic" value="Category: Other">Other</div>
           {{ end }}
       </div>
       <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_availability }}</h5>
@@ -132,7 +132,7 @@
                         <i>{{ .journal.title }}</i>{{ if .journal.volume }} <b>{{ .journal.volume }}</b>{{ end }}{{if .journal.issue}} ({{ .journal.issue }}){{ end }}{{ if .journal.pages }} {{ .journal.pages }}{{ end }}.{{ if .doi}} DOI: {{ .doi }}{{ end }} {{ range $key, $content := .labels }} {{ if eq $key "Type: Preprint"}} <span class="preprint-icon">preprint</span>{{ end }}{{ end}} {{ if $has_data }}<span class="data-available-icon">data&nbsp;available</span>{{ end }}
                       </td>
                       <td>{{ .published }}</td>
-                      <td>{{ range $key, $content := .labels }} {{ if findRE "Data type *?" $key }} {{ $key }} {{ end }} {{ end }}</td>
+                      <td>{{ range $key, $content := .labels }} {{ if findRE "Category *?" $key }} {{ $key }} {{ end }} {{ end }}</td>
                       <td>{{ range $key, $content := .labels }} {{ if findRE "Type *?" $key }} {{ $key }} {{ end }} {{ end }}</td>
                       <td>{{ range $key, $content := .labels }} {{ if findRE "Funder *?" $key }} {{ $key }} {{ end }} {{ end }}</td>
                       <td>{{ if $has_data }}data available{{ end }}</td>

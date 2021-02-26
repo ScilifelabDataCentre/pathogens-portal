@@ -12,7 +12,7 @@ menu:
         weight: 40
 type: data_table
 datatypes_to_display:
-- "Data type: Biochemistry"
+- "Category: Biochemistry"
 ---
 ###### See also: [Guidelines for submitting biochemistry data](../guidelines) | [Services: biochemistry data](../services)
 

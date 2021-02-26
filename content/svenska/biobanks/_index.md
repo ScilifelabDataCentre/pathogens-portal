@@ -1,19 +1,58 @@
 ---
-title: Svenska covid-19 Biobanksregistret
+title: Om det svenska Covid-19 Provsamlingsregistret
 menu:
     biobanks:
-        name: Covid-19 Biobanksregistret
+        name: Om Covid-19 Provsamlingsregistret
         identifier: biobanks
         weight: 10
     footer_sections:
-        name: Biobanksregistret
+        name: Provsamlingsregistret
         weight: 10
 ---
 
-I samarbete med [Biobank Sverige](https://biobanksverige.se/) arbetar teamet bakom den svenska Covid-19 dataportalen med att utveckla det svenska Covid-19 Biobanksregistret där prover från svenska biobanker, som är relevanta för covid-19 forskning, kommer göras tillgängliga. Detta projekt är en del av en [större satsning från Vetenskapsrådet](https://www.vr.se/aktuellt/nyheter/nyhetsarkiv/2020-09-01-10-miljoner-till-biobank-sverige-for-samordning-av-covid-19-prover.html) att koordinera insamling av och tillgängliggörande av prover kopplade till covid-19.
+### Om det svenska Covid-19 Provsamlingsregistret
 
-Det svenska Covid-19 Biobanksregistret kommer möjliggöra för forskare att med en enkel sökning söka i provsamlingar från hela Sverige för biobanksprover. Planen är att möjliggöra för sökningar av nyckelord, filtrera typer av samlingar, biologiskt material, tillgängliga datatyper, diagnos etc. För varje samling kan forskarna finna kontaktuppgifter för samlingarna.
+Det [svenska Covid-19 Provsamlingsregistret](https://biobanks.covid19dataportal.se/) är ett verktyg för forskare som vill använda redan insamlade biobanksprover och data relaterade till covid-19 från svenska provsamlingar i sin forskning. Covid-19 Provsamlingsregistret möjliggör sökningar efter provsamlingar som uppfyller forskarens sökkriterier genom en filterfunktion. Filterfunktionen inkluderar: namn, nyckelord, diagnos, tillgängligt biologiskt material (exempelvis näsprov, DNA, salivprov, blod, RNA etc.), typ av samling (vårdprovsamling eller forskningsprovsamling, datatyp (biologiskt material eller register). Varje provsamling innehåller en beskrivning av provsamling, information om prov och patientgrupp samt kontaktinformation till provsamlingsansvarig.
 
-Det svenska Covid-19 Biobanksregistret beräknas vara tillgängligt på Covid-19 dataportalen i början av 2021.
+Både *vårdprovssamlingar* och *forskningsprovsamlingar* finns i provsamlingsregistret. Vårdprovsamlingar är primärt insamlade inom sjukvården för diagnos och behandling, men kan även tillgängliggöras för  forskning om etiskt tillstånd från Etikprövningsmyndigheten så medger. Rörande forskningsprovsamlingar har ansvarig forskare beslutsrätt över insamlade prover och för att få tillgång till dessa samlingar måste ansvarig forskare kontaktas. Innan proven kan göras tillgängliga krävs att det aktuella forskningsprojektet måste antingen ingå under ett godkännande eller erhålla ett nytt godkännande från Etikprövningsmyndigheten.
 
-<i>Informationen uppdaterades senast: 2020.12.09</i>
+I februari 2021 innehåller det svenska Covid-19 Provsamlingsregistret **26 provsamlingar** från **16 olika biobanker**. Provsamlingsregistret kommer gradvis att utökas med ytterligare provsamlingar.
+
+[**Sök i Covid-19 Provsamlingsregistret**](https://biobanks.covid19dataportal.se/)
+
+### Registrera en provsamling i Covid-19 Provsamlingsregistret
+
+För att registrera en provsamling i Covid-19 Provsamlingsregistret [kontakta Biobank Sverige](https://biobanksverige.se/provsamlingar-publicerade-i-covid-19-data-portal-sweden-underlattar-forskning-om-covid-19/) (på denna sida finner du länkar för att registrera olika typer av provsamlingar). För frågor, kommentarer, eller förslag om provsamlingsregistret kontakta datacentre@scilifelab.se.
+
+### Ansvariga organisationer
+
+Det svenska Covid-19 Provsamlingsregistret drivs av SciLifeLab Data Centre som ett samarbete mellan [Biobank Sverige](https://biobanksverige.se) och SciLifeLab nationella covid-19 forskningsprogram [forskningsmiljö Biobanks for COVID-19](https://www.scilifelab.se/covid-19/national-program/biobanks/). Provsamlingsregistret har utvecklasts av [SciLifeLab Data Centre](https://scilifelab.se/data) som en del av den nationella Covid-19 dataportalen. Utvecklingen av Provsamlingsregistret stöds av [ett intiativ från Vetenskapsrådet](https://www.vr.se/aktuellt/nyheter/nyhetsarkiv/2020-09-01-10-miljoner-till-biobank-sverige-for-samordning-av-covid-19-prover.html) till Biobank Sverige för att samordna insamlingen och tillgången till prover med koppling till covid-19.
+
+<div class="row">
+  <div class="col">
+    <img class="mr-4" src="https://covid19dataportal.se/img/logos/scilifelab-logo.svg" alt="SciLifeLab" height="40">
+    <img class="mr-4" src="https://covid19dataportal.se/img/logos/biobanksverige_logo.jpg" alt="Biobank Sverige" height="40">
+  </div>
+</div>
+
+### Funktionalitet
+
+##### Sökfunktion
+
+Relevanta provsamlingar kan identifieras genom att att använda ett eller flera filter på websidan vänstra kolumn.  Sökresultaten visas därefter på websidan högra sida. Se nedan exempel.
+
+<div class="row mb-4"><div class="col-lg-7"><img class="img-thumbnail" src="/img/biobanks/example_search.png" alt="Example of a page with search results" ></div></div>
+
+##### Provsamlingssidor
+
+Varje provsamling har en egen webbsida, vars innehåll har registrerats av provsamlingsansvarig eller biobanksamordnare med ansvar för provsamlingen. Generell information och bakgrund  samt beskrivning av patienter/provgivare samt tillgängliga provtyper (t.ex. vävnadsprov, RNA, saliv) ges till vänster på varje sida.  På den högra sidan anges kontaktuppgifter. För forskningsprovsamlingar anges både ansvarig forskare och provsamlingsansvarig (ofta är detta samma individ). För tillgång till vårdprovsamlingar för din forskning, kontakta biobankssamordnaren i aktuellt landsting/region. Se exempel nedan på en sida som visar en provsamling
+
+<div class="row mb-4"><div class="col-lg-7"><img class="img-thumbnail" src="/img/biobanks/example_collection.png" alt="Example of a page with information about a sample collection"></div></div>
+
+##### Biobanksidor
+
+Varje Biobank har en egen sida med generell information om organisation och vilka provsamlingar den aktuella biobanken har registrerat i Covid-19 Provsamlingsregistret. Se exemplet nedan.
+
+<div class="row mb-4"><div class="col-lg-7"><img class="img-thumbnail" src="/img/biobanks/example_biobank.png" alt="Example of a page with information about a biobank"></div></div>
+
+<i>Informationen på denna sida var senast uppdaterad: 2021.02.24</i>

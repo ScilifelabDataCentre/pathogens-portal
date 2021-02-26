@@ -7,5 +7,5 @@ menu:
         weight: 15
 type: data_table
 datatypes_to_display:
-- "Data type: Drug Discovery"
+- "Category: Drug Discovery"
 ---
