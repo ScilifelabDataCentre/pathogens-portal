@@ -1,4 +1,4 @@
-## Using ImJoy Plugins
+# Using ImJoy Plugins
 
 This website supports [ImJoy](https://imjoy.io) plugins which can be used to visualize, annotate, run analysis directly from the website.
 
