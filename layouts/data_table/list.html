@@ -170,7 +170,7 @@
       <tr>
         <td><div class="row mx-0"><div class="col">
                 <div class="row"><strong><a target="_blank" href="https://doi.org/{{ .doi }}">{{ .title }}</a></strong></div>
-                <div class="row mb-1">
+                <div class="row">
                   <span class="text-muted">{{ with .authors }}
                     {{ if gt (len .) 5}}
                     {{ range first 5 . }}
@@ -201,9 +201,9 @@
                     {{ end }}
                     {{ end }}
                     {{ end }}
-                  </span><br>
-                  <span><i>{{ .journal.title }}</i>{{ if .journal.volume }} <b>{{ .journal.volume }}</b>{{ end }}{{if .journal.issue}} ({{ .journal.issue }}){{ end }}{{ if .journal.pages }} {{ .journal.pages }}{{ end }}</span>
+                  </span>
                 </div>
+                <div class="row mb-1"><span><i>{{ .journal.title }}</i>{{ if .journal.volume }} <b>{{ .journal.volume }}</b>{{ end }}{{if .journal.issue}} ({{ .journal.issue }}){{ end }}{{ if .journal.pages }} {{ .journal.pages }}{{ end }}</span></div>
                 <div class="row"><span class="text-muted">{{ .doi }}</span></div>
                 {{if .abstract }}<div class="row">
                   <a class="btn btn-link text-dark" data-toggle="collapse" href="#abstract{{ $index }}" role="button" aria-expanded="false" aria-controls="abstract{{ $index }}">
