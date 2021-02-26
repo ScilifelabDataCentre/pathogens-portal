@@ -1,15 +1,5 @@
 ---
-title: AI Model Zoo
-menu:
-    main:
-        name: AI Models
-        identifier: ai_models
-        parent: data_types
-        weight: 200
-    horizontal:
-        name: AI Models
-        identifier: ai_models
-        weight: 200
+title: AI Models and browser-based tools
 imjoy:
     config:
         show_window_title: true
@@ -33,7 +23,7 @@ imjoy:
         }
     startup: |
         async function(){
-            
+
             imjoy.vizarr('https://s3.embassy.ebi.ac.uk/idr/zarr/v0.1/4495402.zarr', 'vizarr-embeded-1')
         }
 ---
