@@ -7,5 +7,5 @@ menu:
         weight: 40
 type: data_table
 datatypes_to_display:
-- "Data type: Public Health"
+- "Category: Public Health"
 ---
