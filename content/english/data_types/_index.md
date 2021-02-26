@@ -17,7 +17,7 @@ menu:
     * [Published data](protein_data/data/)
     * [Guidelines for data producers](protein_data/guidelines/)
     * [Services for researchers](protein_data/services/)
-* **Imaging dat**
+* **Imaging data**
     * [Published data](imaging_data/data/)
     * [Guidelines for data producers](imaging_data/guidelines/)
     * [Services for researchers](imaging_data/services/)
