@@ -12,7 +12,7 @@ menu:
         weight: 50
 type: data_table
 datatypes_to_display:
-- "Data type: Health data"
+- "Category: Health"
 ---
 
 ## Published Data

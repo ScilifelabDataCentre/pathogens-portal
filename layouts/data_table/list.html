@@ -41,7 +41,7 @@
 */}}
 
 
-{{ $all_data_types := slice "Data type: Biochemistry" "Data type: Drug Discovery" "Data type: Genomics & transcriptomics" "Data type: Health data" "Data type: Imaging data" "Data type: Other data" "Data type: Protein data" "Data type: Public Health" "Data type: Serology data" }}
+{{ $all_data_types := slice "Category: Biochemistry" "Category: Drug Discovery" "Category: Genomics & transcriptomics" "Category: Health" "Category: Imaging" "Category: Other" "Category: Proteins" "Category: Public Health" "Category: Serology" }}
 {{ $num_entries_per_data_type := dict }}
 
 {{ range $all_data_types }}
@@ -111,8 +111,11 @@
                     {{ $section_title = .Title}}
                   {{ end }}
                   {{ $this_type := strings.TrimRight " data" (lower $section_title) }}
+                  {{ if eq $section_title "Protein data"}}
+                    {{ $this_type = "proteins"}}
+                  {{ end }}
                   {{ range $type, $num := $num_entries_per_data_type }}
-                    {{ $type_in_dict := strings.TrimRight " data" ( strings.TrimPrefix "data type: " (lower $type) ) }}
+                    {{ $type_in_dict := strings.TrimRight " data" ( strings.TrimPrefix "category: " (lower $type) ) }}
                     {{ if eq $this_type $type_in_dict }}
                       ({{ $num }})
                     {{ end }}
@@ -132,7 +135,7 @@
                   <a href="{{ .Page.RelPermalink }}">
                   {{ end }}
                   {{ .Title }}
-                  {{ $section_title := string "Hello" }}
+                  {{ $section_title := string "" }}
                   {{ if eq $.Site.Language.LanguageName "Svenska" }}
                     {{ $section_title =  .Params.title_eng}}
                   {{ else }}
@@ -140,7 +143,7 @@
                   {{ end }}
                   {{ $this_type := strings.TrimRight " data" (lower $section_title) }}
                   {{ range $type, $num := $num_entries_per_data_type }}
-                    {{ $type_in_dict := strings.TrimRight " data" ( strings.TrimPrefix "data type: " (lower $type) ) }}
+                    {{ $type_in_dict := strings.TrimRight " data" ( strings.TrimPrefix "category: " (lower $type) ) }}
                     {{ if eq $this_type $type_in_dict }}
                       ({{ $num }})
                     {{ end }}
