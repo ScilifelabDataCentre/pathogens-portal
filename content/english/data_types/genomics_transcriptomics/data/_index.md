@@ -12,7 +12,7 @@ menu:
         weight: 10
 type: data_table
 datatypes_to_display:
-- "Data type: Genomics & transcriptomics"
+- "Category: Genomics & transcriptomics"
 ---
 
 ###### See also: [Guidelines for submitting genomics & transcriptomics data](../guidelines) | [Services: genomics & transcriptomics](../services)

@@ -12,7 +12,7 @@ menu:
         weight: 30
 type: data_table
 datatypes_to_display:
-- "Data type: Imaging data"
+- "Category: Imaging"
 ---
 
 ###### See also: [Guidelines for submitting imaging data](../guidelines) | [Services: imaging data](../services)

@@ -7,7 +7,7 @@ menu:
         weight: 90
 type: data_table
 datatypes_to_display:
-- "Data type: Other data"
+- "Category: Other"
 ---
 
 ## Published Data
