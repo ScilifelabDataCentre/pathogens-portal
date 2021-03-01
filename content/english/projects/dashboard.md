@@ -12,7 +12,6 @@ menu:
 ---
 The visualisations on this page reflect how research on COVID-10 and SARS-CoV-2 has been developing in Sweden in terms of the publication output. Specifically, we plot various aspects of journal publications and preprints where at least one author has an affiliation with a Swedish research institute. The database of the publications themselves [can be found on this page](/publications/). Note that our database is manually curated and as such may not be exhaustive. The full dataset of publications is available for download and use for other purposes, please see [DOI: 10.17044/scilifelab.14124014](https://doi.org/10.17044/scilifelab.14124014) for details.
 
-
 ## Number of new publications
 
 The graph displays the number of publications (including both journal publications and preprints) published each month as well as the cumulative total of publications per day. The dates reflect the preprint upload date or the official journal publication date, whichever is the most recent. A bump on the first day of each month appears due to that not every publication is published with a particular day of the month; all publications without a particular day of the month assigned are shown on the 1st day of that month.
