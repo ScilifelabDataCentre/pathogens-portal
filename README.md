@@ -1,4 +1,5 @@
 # ![COVID-19 Data Portal Sweden](static/img/site_logo/CV19DP_logo_oneliner_SWE.png)
+
 ## COVID-19 Data Portal Sweden
 
 This is the source code for the Swedish Covid-19 Data Portal:
@@ -7,26 +8,27 @@ This is the source code for the Swedish Covid-19 Data Portal:
 The website is the Swedish node for the European Covid-19 Data Portal project.
 The main European site can be seen at [https://www.covid19dataportal.org/](https://www.covid19dataportal.org/)
 
-* [Introduction](#introduction)
-* [Development](#development)
-    * [Step 1: Access the code](#step-1-access-the-code)
-    * [Step 2a: Edit the files (online)](#step-2a-edit-the-files-online)
-    * [Step 2b: Edit the files (locally)](#step-2b-edit-the-files-locally)
-    * [Step 3: Make a pull request](#step-3-make-a-pull-request)
-* [How to get help](#how-to-get-help)
-* [Credits](#credits)
+- [Introduction](#introduction)
+- [Development](#development)
+    - [Step 1: Access the code](#step-1-access-the-code)
+    - [Step 2a: Edit the files (online)](#step-2a-edit-the-files-online)
+    - [Step 2b: Edit the files (locally)](#step-2b-edit-the-files-locally)
+    - [Step 3: Make a pull request](#step-3-make-a-pull-request)
+- [How to get help](#how-to-get-help)
+- [Credits](#credits)
 
 ## Introduction
 
 This website is developed for [Vetenskapsrådet](https://www.vr.se/) by the [SciLifeLab Data Centre](https://www.scilifelab.se/data/).
 It is intended to provide a central place to provide information about:
 
-* Available COVID-19 datasets
-* Support services for COVID-19 researchers
-* Information and support for publishing and sharing COVID-19 datasets
+- Available COVID-19 datasets
+- Support services for COVID-19 researchers
+- Information and support for publishing and sharing COVID-19 datasets
+- Ongoing research projects and funding opportunities for COVID-19 research
 
 The site is built using the [Hugo](https://gohugo.io/) static web site generator.
-It uses the [Bootstrap](https://getbootstrap.com/) framework
+It uses the [Bootstrap](https://getbootstrap.com/) framework. In addition, it uses [Vega-Lite](https://vega.github.io/vega-lite/), [DataTables](https://datatables.net/), [Select2](https://select2.org/), [OpenLayers](https://openlayers.org/), [plotly](https://plotly.com/), [ImJoy](https://imjoy.io/).
 
 ## Development
 
@@ -53,10 +55,10 @@ Each subdirectory contains the website contents in English or Swedish.
 
 The filenames correspond to the website URL:
 
-* [https://www.covid19dataportal.se/data_types/protein_data/services/](https://www.covid19dataportal.se/data_types/protein_data/services/)
-    * `content/english/data_types/protein_data/services.md`
-* [https://www.covid19dataportal.se/sv/data_types/protein_data/](https://www.covid19dataportal.se/sv/data_types/protein_data/)
-    * `content/svenska/data_types/protein_data/_index.md`
+- [https://www.covid19dataportal.se/data_types/protein_data/services/](https://www.covid19dataportal.se/data_types/protein_data/services/)
+    - `content/english/data_types/protein_data/services.md`
+- [https://www.covid19dataportal.se/sv/data_types/protein_data/](https://www.covid19dataportal.se/sv/data_types/protein_data/)
+    - `content/svenska/data_types/protein_data/_index.md`
 
 Go to the markdown file that you want to edit, then click the Pencil icon :pencil2: in the top right.
 This opens a web-based editor where you can add and edit content.
@@ -148,24 +150,30 @@ Once you're finished with your edits and they are committed and pushed to your f
 
 You can find full documentation on the [GitHub help website](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests), however in short:
 
-* Visit the main repository: [https://github.com/ScilifelabDataCentre/covid-portal](https://github.com/ScilifelabDataCentre/covid-portal)
-* Click the button that reads _"New Pull Request"_
-* Click the text link near the top that says _"compare across forks"_
-* In the right-hand _"head repository"_ drop down, select your username / fork.
-* If you're happy with the list of commits shown, and the diff in the _"Files Changed"_ tab, fill in a title and description and click _"Create pull request"_
+- Visit the main repository: [https://github.com/ScilifelabDataCentre/covid-portal](https://github.com/ScilifelabDataCentre/covid-portal)
+- Click the button that reads _"New Pull Request"_
+- Click the text link near the top that says _"compare across forks"_
+- In the right-hand _"head repository"_ drop down, select your username / fork.
+- If you're happy with the list of commits shown, and the diff in the _"Files Changed"_ tab, fill in a title and description and click _"Create pull request"_
 
 Once created, a member of the website team will review your changes.
 Once approved, they will be merged and deployed.
 
+## Using ImJoy Plugins
+
+This website supports [ImJoy](https://imjoy.io) plugins which can be used to visualize, annotate, run analysis directly from the website. Please see the file DOCUMENTATION/ImJoy.md for examples of usage.
+
 ## How to get help
 
-If in doubt, you can ask for help on the [`#covid-19-data-hub`](https://scilifelab.slack.com/archives/C012X6S0D3N) channel on the SciLifeLab Slack, or email [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se).
+If in doubt, you can ask for help on the [`#covid-19-data-portal`](https://scilifelab.slack.com/archives/C012X6S0D3N) channel on the SciLifeLab Slack, or email [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se).
 
 ## Credits
+
 The website was built by [SciLifeLab Data Centre](https://www.scilifelab.se/data/) with the help of some additional SciLifeLab volunteers.
 
 The primary contributors have been:
 
-* [@pekrau](http://github.com/pekrau/): Project leader
-* [@ewels](https://github.com/ewels): Built the website
-* [@talavis](https://github.com/talavis): Server setup and more
+- [@pekrau](http://github.com/pekrau/): Project leader
+- [@akochari](http://github.com/akochari/): Project manager/webmaster
+- [@ewels](https://github.com/ewels): Built the website
+- [@talavis](https://github.com/talavis): Server setup and more
