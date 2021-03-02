@@ -10,7 +10,7 @@ menu:
         name: Publications statistics
         weight: 25
 ---
-The visualisations on this page reflect how research on COVID-10 and SARS-CoV-2 has been developing in Sweden in terms of the publication output. Specifically, we plot various aspects of journal publications and preprints where at least one author has an affiliation with a Swedish research institute. The database of the publications themselves [can be found on this page](/publications/). Note that our database is manually curated and as such may not be exhaustive. The full dataset of publications is available for download and use for other purposes, please see [DOI: 10.17044/scilifelab.14124014](https://doi.org/10.17044/scilifelab.14124014) for details.
+The visualisations on this page reflect how research on COVID-19 and SARS-CoV-2 has been developing in Sweden in terms of the publication output. Specifically, we plot various aspects of journal publications and preprints where at least one author has an affiliation with a Swedish research institute. The database of the publications themselves [can be found on this page](/publications/). Note that our database is manually curated and as such may not be exhaustive. The full dataset of publications is available for download and use for other purposes, please see [DOI: 10.17044/scilifelab.14124014](https://doi.org/10.17044/scilifelab.14124014) for details.
 
 ## Number of new publications
 
