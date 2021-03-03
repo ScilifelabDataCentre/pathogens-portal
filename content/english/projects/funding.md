@@ -12,7 +12,30 @@ menu:
 ---
 This is a list of upcoming funding opportunities offered by major funding agencies in Sweden relevant for COVID-19 research. Specifically, we present calls for proposals from the Swedish Research Council, NordForsk, Vinnova, Horizon Europe, and SciLifeLab/Knut and Alice Wallenberg Foundation grants.
 
-<i>Last updated: 2021.02.10</i>
+<i>Last updated: 2021.03.03</i>
+
+#### Swedish Research Council: Research environment grant for follow-up studies of COVID-19 vaccines
+**Deadline:** 13.04.2021  
+**Call homepage:** [vr.se/english/applying-for-funding/calls/2021-03-03-research-environment-grant-for-follow-up-studies-of-covid-19-vaccines.html](https://www.vr.se/english/applying-for-funding/calls/2021-03-03-research-environment-grant-for-follow-up-studies-of-covid-19-vaccines.html)
+
+The purpose of the grant is to give researchers the opportunity to collaborate nationally to conduct follow-up studies of COVID-19 vaccine that are justified by the needs of health and medical care and that contribute to a permanent infrastructure for future follow-up studies.
+
+<a class="btn" data-toggle="collapse" href="#vrdetails_vaccine" role="button" aria-expanded="false" aria-controls="vrdetails" style="color: rgba(46, 104, 165, 1); font-weight: 500">
+  Read more <i class="fas fa-caret-down"></i></a>
+<div class="collapse" id="vrdetails_vaccine">
+  <div class="card card-body">
+
+**Applicant:** Individual researcher with a clinical position covering a minimum of 20 per cent of a full-time equivalent  
+**Participating researchers:** A minimum of 3 and maximum of 10 researchers shall be invited to join the application  
+**Grant period:** 3–4 years. The entire grant amount will be paid out in 2021  
+**Grant amount:** Minimum 10 million SEK in total, maximum 25 million SEK in total  
+**Budgetary framework:** A total of approximately 50 million SEK  
+**Start of grant period:** Preliminarily June 2021  
+**Application period:** 23 March 2021 (14.00/2 pm) – 13 April 2021 (14.00/2 pm)  
+**Publication of grant award:** No later than end of June 2021
+
+</div>
+</div>
 
 #### Swedish Research Council: Project grant for research on viruses and virus-caused disease conditions
 **Deadline:** 17.03.2021  
