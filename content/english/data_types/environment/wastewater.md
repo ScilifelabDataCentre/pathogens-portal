@@ -1,12 +1,10 @@
 ---
 title: The amount of SARS-CoV-2 virus in wastewater across Sweden
 toc: false
-menu:
-    main:
-        identifier: env_profiling
-        parent: health_data
-        weight: 20
 ---
+
+We present wastewater epidemiology data from four Swedish cities - Uppsala, Stockholm, Umeå, and Örebro, with a total population of 1.5 million people. Wastewater surveilance could prove an effective system for monitoring COVID-19 prevalence and an early warning system for predicting upcoming outbreaks.
+
 ## Background
 
 SARS-CoV-2 virus genome can be detected in feces samples from COVID-19 patients using polymerase chain reaction (PCR) (see, for example, [Wu and colleagues, 2020](https://doi.org/10.1016/S2468-1253(20)30083-2)). Monitoring of SARS CoV-2 virus levels in wastewater from communities could therefore provide early surveillance of disease prevalence at a population-wide level, referred to as wastewater-based epidemiology ([Corpuz and colleagues, 2020](https://doi.org/10.1016/j.scitotenv.2020.140910)).
@@ -34,7 +32,7 @@ The samples are processed according to standard methods. Briefly, the viral cont
 
 Note that the scores provided in this dataset and depicted in plots are preliminary. The team is still conducting method efficiency checks that might slightly modify the final results.
 
-**Download the data:** [Mean and SD per wastewater collection channel and overall on measurement day, Excel file.](https://covid19dataportal.se) Data available starting from week 38 of 2020.
+**Download the data:** [Mean and SD per wastewater collection channel and overall on measurement day, Excel file.](https://covid19dataportal.se) Data available starting from week 38 of 2020; updated weekly.
 
 **Principal investigator:** Anna J. Székely, SLU, Swedish University of Agricultural Sciences.  
 **Contact:** anna.szekely@slu.se
@@ -91,9 +89,9 @@ This project, lead by prof. Zeynep Cetecioglu Gurol and colleagues (KTH Royal In
 
 After concentration, filtering, and preparation, the samples are analyzed using qPCR technique for SARS CoV-2 RNA. Primers of the nucleocapsid (N) gene were used to detect the SARS-COV-2 gene (previously used and verified by [Medema and colleagues (2020)](https://doi.org/10.1016/j.scitotenv.2020.142939). In some cases, the raw wastewater has been frozen at –20 degrees, and  concentrated wastewater or purified RNA have been stored at -80 C before the next analysis step was carried out. The concentration method used by prof. Zeynep Cetecioglu Gurol and her colleagues is based on their published study ([Jafferali and colleagues, 2021](https://doi.org/10.1016/j.scitotenv.2020.142939)) comparing four different concentration methods. The study concluded that the double ultrafiltration method adapted by KTH has a significantly higher efficiency compared to single filtration and adsorption methods. For detailed information about the concentration method, see the publication.
 
-See also [the page of the research group where summaries of data and preliminary results are presented](https://www.kth.se/water/research/covid-1.979048).
+See also [the page of the research group where summaries of data and preliminary conclusions are presented](https://www.kth.se/water/research/covid-1.979048).
 
-**Download the data:** [Gene copy number per week in raw wastewater, with bovine factor, Excel file.](https://covid19dataportal.se) The data is divided by Inlet Henriksdal, Sickla, Hässelby, Järva, Riksby, and Käppala. Data available (partially) starting from week 16 of 2020.
+**Download the data:** [Gene copy number per week in raw wastewater, with bovine factor, Excel file.](https://covid19dataportal.se) The data is divided by Inlet Henriksdal, Sickla, Hässelby, Järva, Riksby, and Käppala. Data available (partially) starting from week 16 of 2020; updated weekly.
 
 **Principal investigator:** Zeynep Cetecioglu Gurol (KTH Royal Institute of Technology)  
 **Contact:** zeynepcg@kth.se
@@ -120,7 +118,7 @@ After preparation, the viruses were extracted using ultra filtration and analyze
 
 The amount of SARS-CoV-2 for each week is measured/depicted compared to the amount of SARS-CoV-2 on November 6 2020.
 
-**Download the data:** [Gene copy number change (%) relative to Nov 6 2020 and flow level at each measurement day and weekly numbers, Excel file.](https://covid19dataportal.se/). Data is available starting from week 44 of 2020.
+**Download the data:** [Gene copy number change (%) relative to Nov 6 2020 and flow level at each measurement day and weekly numbers, Excel file.](https://covid19dataportal.se/). Data is available starting from week 44 of 2020; updated once in several weeks.
 
 **Principal investigator:** Maja Malmberg (SLU, Swedish University of Agricultural Sciences)  
 **Contact:** maja.malmberg@slu.se
@@ -141,7 +139,7 @@ After preparation, the viruses were extracted using ultra filtration and analyze
 
  The amount of SARS-CoV-2 for each week is measured/depicted compared to the amount of SARS-CoV-2 on November 6 2020.
 
-**Download the data:** [Gene copy number change (%) relative to Nov 6 2020 and flow level at each measurement day and weekly numbers, Excel file.](https://covid19dataportal.se/). Data is available starting from week 42 of 2020.
+**Download the data:** [Gene copy number change (%) relative to Nov 6 2020 and flow level at each measurement day and weekly numbers, Excel file.](https://covid19dataportal.se/). Data is available starting from week 42 of 2020; updated once in several weeks.
 
 **Principal investigator:** Maja Malmberg (SLU, Swedish University of Agricultural Sciences)  
 **Contact:** maja.malmberg@slu.se
