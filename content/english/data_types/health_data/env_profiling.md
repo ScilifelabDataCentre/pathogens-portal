@@ -1,5 +1,5 @@
 ---
-title: SARS-CoV-2 virus concentration in wastewater across Sweden
+title: The amount of SARS-CoV-2 virus in wastewater across Sweden
 toc: false
 menu:
     main:
@@ -15,11 +15,11 @@ Wastewater-based epidemiology studies the the amount of virus genome present in 
 
 Please note that the graphs presented below are only based on preliminary and not yet completely evaluated data. The shared data shall therefore be used with caution. Note that because different sample collection and data analysis methods are used in different research projects below (i.e, for different cities), it is not possible to make comparisons of viral load across these projects (i.e, across cities). Comparisons should be made within each project (i.e., city) since the methodology remains the same for different weeks of measurement. Wastewater monitoring should primarily be seen as a monitoring system. Taken together with data for infection testing, intensive care admissions, etc., it may help understanding of the regional dynamics of the COVID-19 pandemic.
 
-<div class="row"><div class="col-lg-6"><p>This page contains graphs depicting virus concentration in waste water various cities across Sweden and download the data behind. The location of each wastewater treatment plant is show on the map.</p>
-<ul><li><a href="#uppsala">Wastewater treatment facilities in Uppsala</a></li>
-<li><a href="#stockholm">Wastewater treatment facilities in Stockholm</a></li>
-<li><a href="#umea">Wastewater treatment facilities in Umeå</a></li>
-<li><a href="#orebro">Wastewater treatment facilities in Örebro</a></li>
+<div class="row"><div class="col-lg-6"><p>This page contains graphs depicting the amount of SARS-CoV-2 gene copies in waste water in various cities across Sweden and download the data behind. The location of each wastewater treatment plant is show on the map.</p>
+<ul><li><a href="#uppsala">Wastewater in Uppsala</a></li>
+<li><a href="#stockholm">Wastewater in Stockholm</a></li>
+<li><a href="#umea">Wastewater in Umeå</a></li>
+<li><a href="#orebro">Wastewater in Örebro</a></li>
 </ul></div><div class="col-lg-6">
 {{< env_profiling_map >}}
 </div></div>
