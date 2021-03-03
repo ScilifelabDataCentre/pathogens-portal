@@ -5,7 +5,7 @@ menu:
     projects:
         name: Pågående forskningsprojekt
         identifier: ongoing_projects
-        weight: 10
+        weight: 20
     footer_sections:
         name: Pågående forskningsprojekt
         weight: 30
