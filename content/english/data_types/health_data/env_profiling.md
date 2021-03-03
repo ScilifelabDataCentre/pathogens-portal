@@ -98,8 +98,6 @@ See also [the page of the research group where summaries of data and preliminary
 **Principal investigator:** Zeynep Cetecioglu Gurol (KTH Royal Institute of Technology)  
 **Contact:** zeynepcg@kth.se
 
-##### Wastewater treatment facilities in Stockholm combined
-
 <div class="d-lg-none alert alert-info">
   Scroll the plot sideways to view all data.
 </div>
