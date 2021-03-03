@@ -11,9 +11,32 @@ menu:
         weight: 40
 ---
 
-Detta är en lista över kommande forskningsanslag relaterade till COVID-19 från stora svenska anslagsgivare: Vetenskapsrådet, Nordforsk, Vinnova, Horizon 2020 och Knut och Alice Wallenbergs Stiftelse.
+Detta är en lista över kommande forskningsanslag relaterade till COVID-19 från stora svenska anslagsgivare: Vetenskapsrådet, Nordforsk, Vinnova, Horisont Europa, och Knut och Alice Wallenbergs Stiftelse.
 
-<i>Senast uppdaterad: 2021.02.10</i>
+<i>Senast uppdaterad: 2021.03.03</i>
+
+#### Vetenskapsrådet: Bidrag till forskningsmiljö för uppföljningsstudier av covid-19-vaccin
+**Sista ansökningsdag:** 13.04.2021  
+**Hemsida för utlysningen:** [vr.se/soka-finansiering/utlysningar/2021-03-03-bidrag-till---forskningsmiljo-for--uppfoljningsstudier-av-covid-19-vaccin.html](https://www.vr.se/soka-finansiering/utlysningar/2021-03-03-bidrag-till---forskningsmiljo-for--uppfoljningsstudier-av-covid-19-vaccin.html)
+
+Syftet med bidraget är att ge forskare möjlighet att i nationell samverkan genomföra uppföljningsstudier av covid-19-vaccin som är motiverade av hälso- och sjukvårdens behov och som bidrar till en beständig infrastruktur för framtida uppföljningsstudier.
+
+<a class="btn" data-toggle="collapse" href="#vrdetails_vaccine" role="button" aria-expanded="false" aria-controls="vrdetails" style="color: rgba(46, 104, 165, 1); font-weight: 500">
+  Läs mer <i class="fas fa-caret-down"></i></a>
+<div class="collapse" id="vrdetails_vaccine">
+  <div class="card card-body">
+
+**Söks av:** Enskild forskare som innehar klinisk tjänstgöring med en omfattning av minst 20 procent av en heltidsanställning  
+**Medverkande forskare:** Minst 3 och högst 10 forskare ska bjudas in att medverka i ansökan  
+**Bidragstid:** 3-4 år. Hela bidragsbeloppet betalas ut 2021  
+**Bidragsbelopp:** Minst 10 miljoner kronor totalt, max 25 miljoner kronor totalt  
+**Budgetram för utlysningen:** Totalt cirka 50 miljoner kronor  
+**Bidragsperioden startar:** Preliminärt juni 2021  
+**Ansökningsperiod:** 23 mars 2021 (kl. 14.00)–13 april 2021 (kl. 14.00)  
+**Bidragsbeslutet publiceras:** Senast i slutet av november 2021
+
+</div>
+</div>
 
 #### Vetenskapsrådet: Projektbidrag inom virus och virusorsakade sjukdomstillstånd
 **Sista ansökningsdag:** 17.03.2021  
