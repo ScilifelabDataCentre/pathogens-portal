@@ -19,7 +19,7 @@ Please note that the graphs presented below are only based on preliminary and no
 <li><a href="#umea">Wastewater in Umeå</a></li>
 <li><a href="#orebro">Wastewater in Örebro</a></li>
 </ul></div><div class="col-lg-6">
-{{< env_profiling_map >}}
+{{< wastewater_map >}}
 </div></div>
 
 <a id="uppsala"><h2>Amount of SARS-CoV-2 in Uppsala wastewater</h2></a>
