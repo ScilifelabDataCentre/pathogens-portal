@@ -112,7 +112,7 @@ See also [the page of the research group where summaries of data and preliminary
 
 <a id="umea"><h2>Amount of SARS-CoV-2 in Umeå wastewater</h2></a>
 
-This project is run by Maja Malmberg (SLU, Swedish University of Agricultural Sciences) in collaboration with the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and Mette Myrmel at the Norwegian University of Life Sciences. The amount of SARS-CoV-2 virus in the wastewater is measured in the wastewater treatment facility in Umeå. **link to a map here?**
+This project is run by Maja Malmberg (SLU, Swedish University of Agricultural Sciences) in collaboration with the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and Mette Myrmel at the Norwegian University of Life Sciences. The amount of SARS-CoV-2 virus in the wastewater is measured in the wastewater treatment facility in Umeå. Please [consult this map for the exact catchment area of the the wastewater collection channels](/env_profiling/umeaa.jpg).
 
 After preparation, the viruses were extracted using ultra filtration and analyzed using qPCR technique for SARS CoV-2 RNA. qPCR samples were normalized against PMMV. Until January 2021, three samples per week were taken and their results were pooled to provide a weekly estimate. From February 2021 on, samples are only collected at one time point per week. Primers used to detect the SARS-COV-2 gene (previously used and verified by [Corman and colleagues, 2020](https://doi.org/10.2807/1560-7917.ES.2020.25.3.2000045)).
 
@@ -133,7 +133,7 @@ The amount of SARS-CoV-2 for each week is measured/depicted compared to the amou
 
 <a id="orebro"><h2>Amount of SARS-CoV-2 in Örebro wastewater</h2></a>
 
-This project is run by Maja Malmberg (SLU, Swedish University of Agricultural Sciences) in collaboration with [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and Mette Myrmel at the Norwegian University of Life Sciences. The amount of SARS-CoV-2 virus in the wastewater is measured in the wastewater treatment facility in Örebro. **link to a map here?**
+This project is run by Maja Malmberg (SLU, Swedish University of Agricultural Sciences) in collaboration with [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and Mette Myrmel at the Norwegian University of Life Sciences. The amount of SARS-CoV-2 virus in the wastewater is measured in the wastewater treatment facility in Örebro.
 
 After preparation, the viruses were extracted using ultra filtration and analyzed using qPCR technique for SARS CoV-2 RNA. qPCR samples were normalized against PMMV. Until January 2021, three samples per week were taken and their results were pooled to provide a weekly estimate. From February 2021 on, samples are only collected at one time point per week. Primers used to detect the SARS-COV-2 gene (previously used and verified by [Corman and colleagues, 2020](https://doi.org/10.2807/1560-7917.ES.2020.25.3.2000045)).
 
