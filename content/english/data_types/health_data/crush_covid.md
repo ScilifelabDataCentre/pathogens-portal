@@ -11,7 +11,7 @@ toc: false
 
 #### Download CRUSH Covid data
 
-* [Number of tests and % positivity by postal code in Uppsala County, .csv file](https://datagraphics.dckube.scilifelab.se/dataset/db4291542d924ce88ac8a23ab4c8f7fe.csv) (updated every Thursday).
+* [Number of tests and % positivity by postal code in Uppsala County, .csv file](https://blobserver.dckube.scilifelab.se/blob/CRUSH_Covid_data.csv) (updated every Thursday).
     For each postal code which is found within the Uppsala län, the dataset contains weekly data on cases per capita, tests per capita and % positivity. Our estimates are calculated based on the adult population of each postal code (individuals 15 years of age and older). For reference, both the total population and the adult population are included.
 * More data will be made available for download in the near future.
 
