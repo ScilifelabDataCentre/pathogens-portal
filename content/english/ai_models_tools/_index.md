@@ -19,6 +19,7 @@ imjoy:
 ---
 
 This section presents tools for COVID-19 research and analyses that are available through the [COVID19AI.IO](https://covid19ai.io/) platform. The COVID-19 AI platform provides a place for sharing and finding AI models, datasets, and tools. The focus on is on image analysis. Specifically, the following are shared and made available on the platform:
+
 - machine learning model algorithms as well as pre-trained models,
 - datasets useful for ML model training purposes as well as for research in general,
 - tools that can be run simply inside the web-browser (for example, tools for manual image annotation and tools for automatic image classification based on available pre-trained models).
