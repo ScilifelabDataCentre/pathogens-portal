@@ -1,0 +1,109 @@
+<div id="map" class="map"></div>
+<div id="overlay" style="background-color: white; border: 1px solid black; padding: 5px 10px;">
+  <script src="https://openlayers.org/en/v5.3.0/build/ol.js"></script>
+  <script>
+// locations
+var mapStart = ol.proj.transform([14.774206, 62.117594], 'EPSG:4326', 'EPSG:3857');
+var uppsala = ol.proj.transform([17.640360, 59.858015], 'EPSG:4326', 'EPSG:3857');
+var stockholm = ol.proj.transform([18.072615, 59.325241], 'EPSG:4326', 'EPSG:3857');
+var umeaa = ol.proj.transform([20.265564, 63.824462], 'EPSG:4326', 'EPSG:3857');
+var orebro = ol.proj.transform([15.213611, 59.274811], 'EPSG:4326', 'EPSG:3857');
+
+// add features
+var uppsalaSource = new ol.source.Vector({
+});
+var stockholmSource = new ol.source.Vector({
+});
+var umeaaSource = new ol.source.Vector({
+});
+var orebroSource = new ol.source.Vector({
+});
+
+var uppsalaFeature = new ol.Feature({
+geometry: new ol.geom.Point(uppsala),
+name: 'Uppsala kommun/Uppsala minicipality: main wastewater treatment plant of Uppsala Vatten',
+});
+uppsalaSource.addFeature(uppsalaFeature);
+
+var stockholmFeature = new ol.Feature({
+geometry: new ol.geom.Point(stockholm),
+name: 'Stockholm: Henriksdal, Bromma, and Käppala wastewater treatment plants',
+});
+stockholmSource.addFeature(stockholmFeature);
+
+var umeaaFeature = new ol.Feature({
+geometry: new ol.geom.Point(umeaa),
+name: 'Umeå',
+});
+umeaaSource.addFeature(umeaaFeature);
+
+var orebroFeature = new ol.Feature({
+geometry: new ol.geom.Point(orebro),
+name: 'Örebro',
+});
+orebroSource.addFeature(orebroFeature);
+
+//create the style
+var pointStyle = new ol.style.Style({
+image: new ol.style.Icon(/** @type {olx.style.IconOptions} */ ({
+anchor: [0.5, 46],
+anchorXUnits: 'fraction',
+anchorYUnits: 'pixels',
+opacity: 1,
+src: '/img/map_marker.png'
+}))
+});
+
+//add the feature vector to the layer vector, and apply a style to whole layer
+var uppsalaLayer = new ol.layer.Vector({
+source: uppsalaSource,
+style: pointStyle
+});
+
+var stockholmLayer = new ol.layer.Vector({
+source: stockholmSource,
+style: pointStyle
+});
+
+var umeaaLayer = new ol.layer.Vector({
+source: umeaaSource,
+style: pointStyle
+});
+
+var orebroLayer = new ol.layer.Vector({
+source: orebroSource,
+style: pointStyle
+});
+
+// osm
+var mapLayer = new ol.layer.Tile({
+source: new ol.source.OSM()
+});
+
+var overlay = new ol.Overlay({
+element: document.getElementById('overlay'),
+positioning: 'bottom-center'
+});
+
+var view = new ol.View({
+center: mapStart,
+zoom: 3.5
+});
+
+var map = new ol.Map({
+target: 'map',
+layers: [mapLayer, uppsalaLayer, stockholmLayer, umeaaLayer, orebroLayer],
+view: view
+});
+// register an event handler for the click event
+map.on("click", function(event) {
+map.forEachFeatureAtPixel(event.pixel, function (feature, layer) {
+var element = overlay.getElement();
+element.innerHTML =  feature.get('name');
+overlay.setPosition(event.coordinate);
+map.addOverlay(overlay);
+});
+});
+
+  </script>
+</div>
