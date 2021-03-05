@@ -3,28 +3,18 @@ title: The amount of SARS-CoV-2 virus in wastewater across Sweden
 toc: false
 ---
 
-We present wastewater epidemiology data from four Swedish cities - Uppsala, Stockholm, Umeå, and Örebro, with a total population of 1.5 million people. Wastewater surveilance could prove an effective system for monitoring COVID-19 prevalence and an early warning system for predicting upcoming outbreaks.
+We present wastewater epidemiology data from four Swedish cities - Uppsala, Stockholm, Umeå, and Örebro, with a total population of 1.5 million people. Wastewater surveilance could prove an effective system for monitoring COVID-19 prevalence and an early warning system for predicting upcoming outbreaks. Note that because different sample collection and data analysis methods are used in different cities, it is not possible to make comparisons of viral load across these cities. Comparisons should be made within each city because the methodology remains the same. [See below for details](#background) on wastewater epidemiology.
 
-## Background
-
-SARS-CoV-2 virus genome can be detected in feces samples from COVID-19 patients using polymerase chain reaction (PCR) (see, for example, [Wu and colleagues, 2020](https://doi.org/10.1016/S2468-1253(20)30083-2)). Monitoring of SARS CoV-2 virus levels in wastewater from communities could therefore provide early surveillance of disease prevalence at a population-wide level, referred to as wastewater-based epidemiology ([Corpuz and colleagues, 2020](https://doi.org/10.1016/j.scitotenv.2020.140910)).
-
-Wastewater-based epidemiology studies the the amount of virus genome present in the wastewater, measured using PCR technology. Waste water, also referred too as “sewage,” includes water from households or building, kitchen sinks, toilets, showers. However, it could also include water from non-household sources (for example, rainwater and water from industrial use). Samples are periodically taken at wastewater treatment facilities, allowing to make comparisons of the viral load over time. It has previously been shown that the SARS CoV-2 virus content in wastewater can predict increases in infection in the population and follows the epidemic trend measured by the number of COVID-19 cases and hospitalization rate (see [Peccia and colleagues, 2020](https://doi.org/10.1038/s41587-020-0684-z)). During the COVID-19 pandemic, surveillance of viral RNA levels in waste water has become increasingly used to monitor and predict the spread of the disease.
-
-Please note that the graphs presented below are only based on preliminary and not yet completely evaluated data. The shared data shall therefore be used with caution. Note that because different sample collection and data analysis methods are used in different research projects below (i.e, for different cities), it is not possible to make comparisons of viral load across these projects (i.e, across cities). Comparisons should be made within each project (i.e., city) since the methodology remains the same for different weeks of measurement. Wastewater monitoring should primarily be seen as a monitoring system. Taken together with data for infection testing, intensive care admissions, etc., it may help understanding of the regional dynamics of the COVID-19 pandemic.
-
-<div class="row"><div class="col-lg-6"><p>This page contains graphs depicting the amount of SARS-CoV-2 gene copies in waste water in various cities across Sweden and download the data behind. The location of each wastewater treatment plant is show on the map.</p>
+<div class="row"><div class="col-lg-7"><p>Below, you can find graphs depicting the amount of SARS-CoV-2 gene copies in waste water in various cities across Sweden and links to download the data behind.</p>
 <ul><li><a href="#uppsala">Wastewater in Uppsala</a></li>
 <li><a href="#stockholm">Wastewater in Stockholm</a></li>
 <li><a href="#umea">Wastewater in Umeå</a></li>
 <li><a href="#orebro">Wastewater in Örebro</a></li>
-</ul></div><div class="col-lg-6">
+</ul></div><div class="col-lg-5">
 {{< wastewater_map >}}
 </div></div>
 
 <a id="uppsala"><h2>Amount of SARS-CoV-2 in Uppsala wastewater</h2></a>
-
-<div class="container ml-4 mb-2"><div class="row"><img src="/env_profiling/slu_logo.png" alt="SLU, Swedish University of Agricultural Sciences" height="50" class="mr-4 my-2"><img src="/img/logos/scilifelab-logo.svg" alt="SciLifeLab" height="40" class="mr-4 my-2"><img src="/env_profiling/uppsala_vatten_logo.jpg" alt="Uppsala Vatten" height="40" class="mr-4 my-2"></div></div>
 
 This project is run by Anna J. Székely (SLU, Swedish University of Agricultural Sciences) in collaboration with Uppsala Vatten. The amount of SARS-CoV-2 virus in the wastewater of Uppsala is estimated by analyzing raw wastewater collected at Kungsängsverket, Uppsala Vatten’s main treatment facility. The wastewater treated at the facility is collected by two main wastewater collection channels: one collects the wastewater of approximately 100 000 people from the south-western part of the city (‘AB’), and the other of almost 80 000 people from the north-eastern part of the city (‘C’). Please [consult this map for the exact catchment area of the two wastewater collection channels](/env_profiling/avrinningskarta_inlopp_kungsangsverket.pdf). Measurements are taken weekly, by processing a representative sample collected over 24 hours (i.e., flow compensated sample). The SARS-CoV-2 virus content of the wastewater on the given day is calculated based on the measured virus concentration and the flow of water at the given day. The virus content is normalized for population size to facilitate comparison. A combined measure based on results from both inlets is calculated as well.
 
@@ -83,9 +73,7 @@ Note that the scores provided in this dataset and depicted in plots are prelimin
 
 <a id="stockholm"><h2>Amount of SARS-CoV-2 in wastewater treatment facilities in Stockholm</h2></a>
 
-<div class="container ml-4 mb-2"><div class="row"><img src="/env_profiling/kth_logo.png" alt="KTH Royal Institute of Technology" height="50" class="mr-4 my-2"><img src="/img/logos/scilifelab-logo.svg" alt="SciLifeLab" height="40" class="mr-4 my-2"><img src="/env_profiling/svoa.jpg" alt="Stockholm Vatten och Avfall" height="40" class="mr-4 my-2"><img src="/env_profiling/kappala.png" alt="Käppalaförbundet" height="50" class="mr-4 my-2"></div></div>
-
-This project, lead by prof. Zeynep Cetecioglu Gurol and colleagues (KTH Royal Institute of Technology), is a collaboration between the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and the [SEED](https://www.kth.se/en/seed) and [Chemical Engineering](https://www.kth.se/ket/chemical-engineering-1.784196) departments at KTH, in close collaboration with Stockholm Vatten och Avfall and the Käppala Association. The sampling of wastewater, started in mid-April 2020, from Bromma, Henriksdal, and Käppala wastewater treatment plants (WWTP). These treatment plants receive wastewater from a population of approximately 360,000; 860,000 and 500,000, respectively. Please [consult this map for the exact catchment area of the the three wastewater collection channels](/env_profiling/map_wwtp_stockholm.png).
+This project, lead by prof. Zeynep Cetecioglu Gurol and colleagues (KTH Royal Institute of Technology), is a collaboration between the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and the [SEED](https://www.kth.se/en/seed) and [Chemical Engineering](https://www.kth.se/ket/chemical-engineering-1.784196) departments at KTH, in close collaboration with Stockholm Vatten och Avfall and the Käppala Association. The sampling of wastewater, started in mid-April 2020, from Bromma, Henriksdal, and Käppala wastewater treatment plants (WWTP). These treatment plants receive wastewater from a population of approximately 360,000; 860,000 and 500,000, respectively. Please [consult this map for the exact catchment area of the three wastewater collection channels](/env_profiling/map_wwtp_stockholm.png).
 
 After concentration, filtering, and preparation, the samples are analyzed using qPCR technique for SARS CoV-2 RNA. Primers of the nucleocapsid (N) gene were used to detect the SARS-COV-2 gene (previously used and verified by [Medema and colleagues (2020)](https://doi.org/10.1016/j.scitotenv.2020.142939). In some cases, the raw wastewater has been frozen at –20 degrees, and  concentrated wastewater or purified RNA have been stored at -80 C before the next analysis step was carried out. The concentration method used by prof. Zeynep Cetecioglu Gurol and her colleagues is based on their published study ([Jafferali and colleagues, 2021](https://doi.org/10.1016/j.scitotenv.2020.142939)) comparing four different concentration methods. The study concluded that the double ultrafiltration method adapted by KTH has a significantly higher efficiency compared to single filtration and adsorption methods. For detailed information about the concentration method, see the publication.
 
@@ -112,7 +100,7 @@ See also [the page of the research group where summaries of data and preliminary
 
 <a id="umea"><h2>Amount of SARS-CoV-2 in Umeå wastewater</h2></a>
 
-This project is run by Maja Malmberg (SLU, Swedish University of Agricultural Sciences) in collaboration with the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and Mette Myrmel at the Norwegian University of Life Sciences. The amount of SARS-CoV-2 virus in the wastewater is measured in the wastewater treatment facility in Umeå. Please [consult this map for the exact catchment area of the the wastewater collection channels](/env_profiling/umeaa.jpg).
+This project is run by Maja Malmberg (SLU, Swedish University of Agricultural Sciences) in collaboration with the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and Mette Myrmel at the Norwegian University of Life Sciences. The amount of SARS-CoV-2 virus in the wastewater is measured in the wastewater treatment facility in Umeå. Please [consult this map for the exact catchment area of the wastewater collection channels](/env_profiling/map_umeaa.jpg).
 
 After preparation, the viruses were extracted using ultra filtration and analyzed using qPCR technique for SARS CoV-2 RNA. qPCR samples were normalized against PMMV. Until January 2021, three samples per week were taken and their results were pooled to provide a weekly estimate. From February 2021 on, samples are only collected at one time point per week. Primers used to detect the SARS-COV-2 gene (previously used and verified by [Corman and colleagues, 2020](https://doi.org/10.2807/1560-7917.ES.2020.25.3.2000045)).
 
@@ -133,7 +121,7 @@ The amount of SARS-CoV-2 for each week is measured/depicted compared to the amou
 
 <a id="orebro"><h2>Amount of SARS-CoV-2 in Örebro wastewater</h2></a>
 
-This project is run by Maja Malmberg (SLU, Swedish University of Agricultural Sciences) in collaboration with [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and Mette Myrmel at the Norwegian University of Life Sciences. The amount of SARS-CoV-2 virus in the wastewater is measured in the wastewater treatment facility in Örebro.
+This project is run by Maja Malmberg (SLU, Swedish University of Agricultural Sciences) in collaboration with [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and Mette Myrmel at the Norwegian University of Life Sciences. The amount of SARS-CoV-2 virus in the wastewater is measured in the wastewater treatment facility in Örebro. Please [consult this map for the exact catchment area of the wastewater collection channels](/env_profiling/map_orebro.pdf).
 
 After preparation, the viruses were extracted using ultra filtration and analyzed using qPCR technique for SARS CoV-2 RNA. qPCR samples were normalized against PMMV. Until January 2021, three samples per week were taken and their results were pooled to provide a weekly estimate. From February 2021 on, samples are only collected at one time point per week. Primers used to detect the SARS-COV-2 gene (previously used and verified by [Corman and colleagues, 2020](https://doi.org/10.2807/1560-7917.ES.2020.25.3.2000045)).
 
@@ -151,6 +139,14 @@ After preparation, the viruses were extracted using ultra filtration and analyze
 <div class="plot_wrapper">
   <div id="orebro_combined"></div>
 </div>
+
+<a id="background"><h2>Background: Wastewater-based epidemiology</h2></a>
+
+SARS-CoV-2 virus genome can be detected in feces samples from COVID-19 patients using polymerase chain reaction (PCR) (see, for example, [Wu and colleagues, 2020](https://doi.org/10.1016/S2468-1253(20)30083-2)). Monitoring of SARS CoV-2 virus levels in wastewater from communities could therefore provide early surveillance of disease prevalence at a population-wide level, referred to as wastewater-based epidemiology ([Corpuz and colleagues, 2020](https://doi.org/10.1016/j.scitotenv.2020.140910)).
+
+Wastewater-based epidemiology studies the amount of virus genome present in the wastewater, measured using PCR technology. Waste water, also referred too as “sewage,” includes water from households or building, kitchen sinks, toilets, showers. However, it could also include water from non-household sources (for example, rainwater and water from industrial use). Samples are periodically taken at wastewater treatment facilities, allowing to make comparisons of the viral load over time. It has previously been shown that the SARS CoV-2 virus content in wastewater can predict increases in infection in the population and follows the epidemic trend measured by the number of COVID-19 cases and hospitalization rate (see [Peccia and colleagues, 2020](https://doi.org/10.1038/s41587-020-0684-z)). During the COVID-19 pandemic, surveillance of viral RNA levels in waste water has become increasingly used to monitor and predict the spread of the disease.
+
+Please note that the graphs presented on this page are based on preliminary and not yet completely evaluated data. The shared data shall therefore be used with caution. Note that because different sample collection and data analysis methods are used in different research projects below (i.e, for different cities), it is not possible to make comparisons of viral load across these projects (i.e, across cities). Comparisons should be made within each project (i.e., city) since the methodology remains the same for different weeks of measurement. Wastewater monitoring should primarily be seen as a monitoring system. Taken together with data for infection testing, intensive care admissions, etc., it may help understanding of the regional dynamics of the COVID-19 pandemic.
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.12.2"></script>
