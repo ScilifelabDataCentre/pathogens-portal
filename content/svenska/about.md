@@ -12,9 +12,7 @@ toc: false
 
 ### Introduktion
 
-<figure class="figure float-right">
-  <img width="500" src="/img/logos/scilifelab-logo.svg">
-</figure>
+<figure class="figure float-right"><img width="500" src="/img/logos/scilifelab-logo.svg"></figure>
 
 Den svenska dataportalen för covid-19 tillhandahåller information, riktlinjer, verktyg och tjänster för att stödja forskare att använda svenska och europeiska tjänster för datadelning, särskilt den [europeiska dataportalen för covid-19](https://covid19dataportal.org). Den uppdateras regelbundet, och förslag, korrigeringar och andra kommentarer uppskattas.
 
