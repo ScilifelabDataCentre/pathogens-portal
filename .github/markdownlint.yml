@@ -25,3 +25,4 @@ no-inline-html:
     - h2
     - ul
     - li
+    - figure
