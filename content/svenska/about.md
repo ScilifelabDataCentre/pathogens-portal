@@ -12,7 +12,13 @@ toc: false
 
 ### Introduktion
 
+<figure class="figure float-right">
+  <img width="500" src="/img/logos/scilifelab-logo.svg">
+</figure>
+
 Den svenska dataportalen för covid-19 tillhandahåller information, riktlinjer, verktyg och tjänster för att stödja forskare att använda svenska och europeiska tjänster för datadelning, särskilt den [europeiska dataportalen för covid-19](https://covid19dataportal.org). Den uppdateras regelbundet, och förslag, korrigeringar och andra kommentarer uppskattas.
+
+Den svenska dataportalen för covid-19 drivs av [SciLifeLab Data Centre](https://scilifelab.se/data/) och samarbetspartners.
 
 Den här webbplatsen är byggd med [Hugo](https://gohugo.io/) och använder [Bootstrap](https://getbootstrap.com/) ramverket.
 Koden är öppen källkod ([MIT-licens](https://choosealicense.com/licenses/mit/)) och är tillgänglig på GitHub:
@@ -40,6 +46,11 @@ Många personer från SciLifeLab, NBIS och andra organisationer har deltagit i u
       <div class="row-cor"><img src="/img/people/pt.jpg" width="150" class="img-thumbnail"/></div>
       <div class="row-cor"><b>Parul Tewatia</b></div>
       <div class="row-cor"><span class="text-muted">Data steward, SciLifeLab</span></div>
+    </div>
+    <div class="col-md-2 pt-2">
+      <div class="row-cor"><img src="/img/people/lh.png" width="150" class="img-thumbnail"/></div>
+      <div class="row-cor"><b>Liane Hughes</b></div>
+      <div class="row-cor"><span class="text-muted">Data Engineer, SciLifeLab</span></div>
     </div>
     <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/hk.jpg" width="150" class="img-thumbnail"/></div>
@@ -117,7 +128,7 @@ SciLifeLab är ett nationellt center för molekylära biovetenskaper med fokus p
 
 SciLifeLab kombinerar teknisk expertis med avancerad kunskap inom translationell medicin och molekylärbiologi. Forskare i hela Sverige kan använda både de tekniker och den kunskap som finns på SciLifeLab.
 
-##### Data vid SciLifeLab
+##### SciLifeLab Data Centre
 
 [https://www.scilifelab.se/data/](https://www.scilifelab.se/data/)
 

@@ -9,11 +9,18 @@ menu:
     footer_about:
         name: About
 ---
+
 ### Introduction
+
+<figure class="figure float-right">
+  <img width="500" src="/img/logos/scilifelab-logo.svg">
+</figure>
 
 The Swedish COVID-19 Data Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing, in particular the [European COVID-19 Data Portal](https://covid19dataportal.org). It is regularly updated with new services, tools and data. Suggestions, corrections or other comments are most welcome.
 
-This website is built using [Hugo](https://gohugo.io/) and uses the [Bootstrap](https://getbootstrap.com/) framework. In addition, we make use of [Vega/Vega-Lite](https://vega.github.io/vega-lite/) for interactive graphics,  [DataTables](https://datatables.net/) and [Select2](https://select2.org/) plugins for jQuery. The code is open source ([MIT licence](https://choosealicense.com/licenses/mit/)) and is available on [GitHub: github.com/ScilifelabDataCentre/covid-portal](https://github.com/ScilifelabDataCentre/covid-portal)
+The Swedish COVID-19 Data Portal is operated by the [SciLifeLab Data Centre](https://scilifelab.se/data/) and partners.
+
+This website is built using [Hugo](https://gohugo.io/) and uses the [Bootstrap](https://getbootstrap.com/) framework. In addition, we make use of [Vega/Vega-Lite](https://vega.github.io/vega-lite/) and [Plotly](https://plotly.com/) for interactive graphics,  [DataTables](https://datatables.net/) and [Select2](https://select2.org/) plugins for jQuery. The code is open source ([MIT licence](https://choosealicense.com/licenses/mit/)) and is available on [GitHub: github.com/ScilifelabDataCentre/covid-portal](https://github.com/ScilifelabDataCentre/covid-portal)
 
 We welcome contributions to the website - to get involved, please contact [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se).
 
@@ -37,6 +44,11 @@ Many people from SciLifeLab, NBIS, and other organisations were involved in the 
       <div class="row-cor"><img src="/img/people/pt.jpg" width="150" class="img-thumbnail"/></div>
       <div class="row-cor"><b>Parul Tewatia</b></div>
       <div class="row-cor"><span class="text-muted">Data steward, SciLifeLab</span></div>
+    </div>
+    <div class="col-md-2 pt-2">
+      <div class="row-cor"><img src="/img/people/lh.png" width="150" class="img-thumbnail"/></div>
+      <div class="row-cor"><b>Liane Hughes</b></div>
+      <div class="row-cor"><span class="text-muted">Data Engineer, SciLifeLab</span></div>
     </div>
     <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/hk.jpg" width="150" class="img-thumbnail"/></div>
