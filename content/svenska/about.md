@@ -51,6 +51,11 @@ Många personer från SciLifeLab, NBIS och andra organisationer har deltagit i u
       <div class="row-cor"><span class="text-muted">Data Engineer, SciLifeLab</span></div>
     </div>
     <div class="col-md-2 pt-2">
+      <div class="row-cor"><img src="/img/people/aa.jpeg" width="150" class="img-thumbnail"/></div>
+      <div class="row-cor"><b>Anna Asklöf</b></div>
+      <div class="row-cor"><span class="text-muted">Data Steward, SciLifeLab</span></div>
+    </div>
+    <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/hk.jpg" width="150" class="img-thumbnail"/></div>
       <div class="row-cor"><b>Hanna Kultima</b></div>
       <div class="row-cor"><span class="text-muted">Data manager, coordinator, SciLifeLab</span></div>
@@ -60,8 +65,6 @@ Många personer från SciLifeLab, NBIS och andra organisationer har deltagit i u
       <div class="row-cor"><b>Johan Rung</b></div>
       <div class="row-cor"><span class="text-muted">Head of the Data Centre, SciLifeLab</span></div>
     </div>
-  </div>
-  <div class="row">
     <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/pk.jpg" width="150" class="img-thumbnail"/></div>
       <div class="row-cor"><b>Per Kraulis</b></div>
