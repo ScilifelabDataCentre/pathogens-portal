@@ -1,7 +1,7 @@
 ---
 title: Neanderthal gene protecting against severe COVID-19 could be potential new drug target # short
 date: 2021-03-10
-summary: A new study largely relying on existing data re-use identified circulating proteins influencing COVID-19 susceptibility and severity. Based on these result, work on repurposing relevant existing drugs work can now be launched.
+summary: A new study largely relying on existing data re-use identified circulating proteins influencing COVID-19 susceptibility and severity. Based on these results, work on repurposing relevant existing drugs work can now be launched.
 banner: /news/banners/neanderthal-gene-protecting.png
 banner_large: /news/banners/neanderthal-gene-protecting-large.png
 banner_caption: "Source: Figure 2 of Zhao et al. 2021"
