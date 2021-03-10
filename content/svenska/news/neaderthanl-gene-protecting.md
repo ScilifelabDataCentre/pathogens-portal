@@ -1,7 +1,7 @@
 ---
 title: Neanderthal gene protecting against severe COVID-19 could be potential new drug target # short
 date: 2021-03-10
-summary: A new study largely relying on existing data re-use identified circulating proteins influencing COVID-19 susceptibility and severity. Based on these result, work on repurposing relevant existing drugs work can now be launched.
+summary: A new study largely relying on existing data re-use identified circulating proteins influencing COVID-19 susceptibility and severity. Based on these results, work on repurposing relevant existing drugs work can now be launched.
 banner: /news/banners/neanderthal-gene-protecting.png
 banner_large: /news/banners/neanderthal-gene-protecting-large.png
 banner_caption: "Source: Figure 2 of Zhao et al. 2021"
@@ -24,7 +24,7 @@ The study by Zhou, Butler-Laporte, Nakanishi, and colleagues is an example of wo
 
 In summary, Zhou, Butler-Laporte, Nakanishi, and colleagues suggest that results from the MR study and a case-control study show that increased levels of the p46 isoform of OAS1 protect against COVID-19 adverse outcomes, i.e., hospitalisations, susceptibility, and severe disease. The researchers highlight that OAS1 has plausible biological activity against SARS-CoV-2.  Therefore, drug repurposing of available therapies known to activate OAS1 could potentially be useful for developing future COVID-19 treatments.
 
-*The study was supported by grants from the Swedish Research Council (2014-02569) and the SciLifeLab/KAW National COVID-19 Research Program Project grant (KAW 2020.0182). In addition, a many international foundations contributed to the funding of the work , i.e.,  The Canadian Foundation for Innovation (CFI), the NIH Foundation, Cancer Research UK, Genome Québec, the Public Health Agency of Canada, the McGill Interdisciplinary Initiative in Infection and Immunity and the Fonds de Recherche Québec Santé (FRQS), Welcome Trust, , the European Union, the National Institute for Health Research-funded BioResource and the Clinical Research Facility and Biomedical Research Centre based at Guy’s and St. Thomas’ NHS Foundation Trust in partnership with King’s College London.*
+*The study was supported by grants from the Swedish Research Council (2014-02569) and the SciLifeLab/KAW National COVID-19 Research Program Project grant (KAW 2020.0182). In addition, a many international foundations contributed to the funding of the work , i.e.,  The Canadian Foundation for Innovation (CFI), the NIH Foundation, Cancer Research UK, Genome Québec, the Public Health Agency of Canada, the McGill Interdisciplinary Initiative in Infection and Immunity and the Fonds de Recherche Québec Santé (FRQS), Welcome Trust, the European Union, the National Institute for Health Research-funded BioResource and the Clinical Research Facility and Biomedical Research Centre based at Guy’s and St. Thomas’ NHS Foundation Trust in partnership with King’s College London.*
 
 #### Article
 
