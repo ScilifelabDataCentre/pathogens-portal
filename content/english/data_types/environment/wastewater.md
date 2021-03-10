@@ -92,6 +92,8 @@ See also [the page of the research group where summaries of data and preliminary
   <div id="stockholm_combined"></div>
 </div>
 
+<div class="small text-muted">*NB: All samples until week 21 of 2020 were received by the lab in week 21. Between weeks 21 and 33 of 2020 samples were analyzed biweekly. After week 33 of 2020, samples were analyzed weekly.</div>
+
 <div class="row ml-0 mt-3"><b>Publications:</b></div><div class="row"><div class="col">
 <b><a target="_blank" href="https://doi.org/10.1016/j.scitotenv.2020.142939">Benchmarking virus concentration methods for quantification of SARS-CoV-2 in raw wastewater.</a></b><br>
                     <span class="text-muted">Jafferali MH, Khatami K, Atasoy M, Birgersson M, Williams C, Cetecioglu Z.</span><br>
@@ -106,7 +108,7 @@ After preparation, the viruses were extracted using ultra filtration and analyze
 
 The amount of SARS-CoV-2 for each week is measured/depicted compared to the amount of SARS-CoV-2 on November 6 2020.
 
-**Download the data:** [Gene copy number change (%) relative to Nov 6 2020 and flow level at each measurement day and weekly numbers, Excel file.](https://covid19dataportal.se/). Data is available starting from week 44 of 2020; updated once in several weeks.
+**Download the data:** [Gene copy number change (%) relative to Nov 6 2020 and flow level at each measurement day and weekly numbers, Excel file.](https://covid19dataportal.se/). Data is available starting from week 44 of 2020; updated monthly.
 
 **Principal investigator:** Maja Malmberg (SLU, Swedish University of Agricultural Sciences)  
 **Contact:** maja.malmberg@slu.se
@@ -127,7 +129,7 @@ After preparation, the viruses were extracted using ultra filtration and analyze
 
  The amount of SARS-CoV-2 for each week is measured/depicted compared to the amount of SARS-CoV-2 on November 6 2020.
 
-**Download the data:** [Gene copy number change (%) relative to Nov 6 2020 and flow level at each measurement day and weekly numbers, Excel file.](https://covid19dataportal.se/). Data is available starting from week 42 of 2020; updated once in several weeks.
+**Download the data:** [Gene copy number change (%) relative to Nov 6 2020 and flow level at each measurement day and weekly numbers, Excel file.](https://covid19dataportal.se/). Data is available starting from week 42 of 2020; updated monthly.
 
 **Principal investigator:** Maja Malmberg (SLU, Swedish University of Agricultural Sciences)  
 **Contact:** maja.malmberg@slu.se
