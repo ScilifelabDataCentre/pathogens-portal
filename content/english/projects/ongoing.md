@@ -5,7 +5,7 @@ menu:
     projects:
         name: Ongoing research projects
         identifier: ongoing_projects
-        weight: 20
+        weight: 25
     footer_sections:
         name: Ongoing research projects
         weight: 30
@@ -16,51 +16,4 @@ A list of all ethically approved clinical studies on COVID-19 in Sweden up until
 
 <i>Last updated: 2021.02.17</i>
 
-<p>
-  <label for="allSearch">Search among projects on this page: </label>
-  <input type="text" placeholder="keyword..." id="allSearch">
-</p>
-
-## Swedish Research Council
-[vr.se](https://www.vr.se/)
-
-{{< funded_projects_list funder="vr" >}}
-
-{{< funded_projects_publications label="Funder: VR" >}}
-
-## SciLifeLab / Knut and Alice Wallenberg Foundation
-[scilifelab.se](https://www.scilifelab.se/) / [kaw.wallenberg.org](https://kaw.wallenberg.org/en)
-
-{{< funded_projects_list funder="kaw" >}}
-
-{{< funded_projects_publications label="Funder: KAW/SciLifeLab" >}}
-
-## NordForsk
-[nordforsk.org](https://www.nordforsk.org/)
-
-{{< funded_projects_list funder="nordforsk" >}}
-
-{{< funded_projects_publications label="Funder: NordForsk" >}}
-
-## Vinnova
-[vinnova.se](https://www.vinnova.se/)
-
-{{< funded_projects_list funder="vinnova" >}}
-
-{{< funded_projects_publications label="Funder: Vinnova" >}}
-
-## Horizon 2020
-[ec.europa.eu](https://ec.europa.eu/programmes/horizon2020/en)
-
-{{< funded_projects_list funder="horizon2020" >}}
-
-{{< funded_projects_publications label="Funder: H2020" >}}
-
-## Hjärt-Lungfonden
-[hjart-lungfonden.se](https://www.hjart-lungfonden.se/)
-
-**NB: Project titles of this funder are only available in Swedish.*
-
-{{< funded_projects_list funder="hlf" >}}
-
-{{< make_datatables >}}
+{{< funded_projects >}}

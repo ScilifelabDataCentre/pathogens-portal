@@ -31,6 +31,7 @@ params:
       projects_pi: Principal investigator
       projects_piaff: PI affiliation
       projects_duration: Duration
+      projects_funder: Funder
       menu_moretypes: More
       menu_biobanks: Biobanks
       menu_projects: Research projects
@@ -64,6 +65,7 @@ params:
       projects_pi: Projektledare
       projects_piaff: Koordinerande organisation
       projects_duration: Start och slutdatum
+      projects_funder: Forskningsfinansiär
       menu_moretypes: Flera
       menu_biobanks: Biobanker
       menu_projects: Forskningprojekt
