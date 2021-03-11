@@ -1,6 +1,8 @@
 [
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Uppsala COVID-19 ICU Biobank",
    "area_eng": "Biobanks",
    "pi": "Michael Hultström",
@@ -12,6 +14,8 @@
   },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Building Capacity - the Sahlgrenska Covid-19 Biobank",
    "area_eng": "Biobanks",
    "pi": "Magnus Gisslén",
@@ -23,6 +27,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "COVID-UMU: Sample collection and understanding the transition from mild to severe COVID-19",
    "area_eng": "Biobanks",
    "pi": "Clas Ahlm",
@@ -34,6 +40,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Assessment of SARS-CoV-2 specific antibodies in adults, and building a repository of samples from seroconverted asymptomatic adults",
    "area_eng": "Biobanks",
    "pi": "Åsa Torinsson Naluai",
@@ -45,6 +53,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "The spread of SARS-CoV-2 monitored by the serum samples routinely obtained through maternal screening and blood donor screening",
    "area_eng": "Biobanks",
    "pi": "Martin Sundqvist",
@@ -56,6 +66,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "The COMMUNITY Study- COVID-19 Biomarker and Immunity Study",
    "area_eng": "Biobanks",
    "pi": "Charlotte Thålin",
@@ -67,6 +79,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Establishing a biobank of clinical specimens for studying evolution of viral diversity and development of immune response, including inflammation, seroprevalence and protective antibodies, in SARS-Cov2 infection (Biobank)",
    "area_eng": "Biobanks",
    "pi": "Patrik Medstrand",
@@ -78,6 +92,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "A biomarker-based approach to rapidly identify COVID-19 patients at high risk of severe disease and mortality at 3 emergency departments in Region Skåne",
    "area_eng": "Biobanks",
    "pi": "Toralph Ruge",
@@ -89,6 +105,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Simple and cheap remote test for infection based on HCR",
    "area_eng": "Diagnostics for virus",
    "pi": "Björn Högberg",
@@ -100,6 +118,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "COVID-19 screening test design",
    "area_eng": "Diagnostics for virus",
    "pi": "Masood Kamali-Moghaddam",
@@ -111,6 +131,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "iLACO-Sweden",
    "area_eng": "Diagnostics for virus",
    "pi": "Vicent Pelechano",
@@ -122,6 +144,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Extraction-free high-sensitive RT assay for SARS-CoV-2 RNA detection",
    "area_eng": "Diagnostics for virus",
    "pi": "Björn Reinius",
@@ -133,6 +157,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "RCA-COVID-DIA",
    "area_eng": "Diagnostics for virus",
    "pi": "Mats Nilsson",
@@ -144,6 +170,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "COVseq – Developing COVseq for mass-scale SARS-CoV-2 sequencing",
    "area_eng": "Viral sequence evolution",
    "pi": "Nicola Crosetto",
@@ -155,6 +183,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "A community resource for SARS-CoV-2 structure, interactome and evolution",
    "area_eng": "Viral sequence evolution",
    "pi": "Arne Elofsson",
@@ -166,6 +196,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Rapid cDNA and direct RNA sequencing of SARS-CoV-2 using Oxford Nanopore",
    "area_eng": "Viral sequence evolution",
    "pi": "Lars Feuk",
@@ -177,6 +209,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Analysis of essential genes and validity as drug targets",
    "area_eng": "Viral sequence evolution",
    "pi": "Tomas Nyman",
@@ -188,6 +222,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Optimized expression of the SARS-Cov-2 Spike protein in mammalian cells for serology testing and functional studies",
    "area_eng": "High-throughput and high-contents serology",
    "pi": "Fredrik Sterky",
@@ -199,6 +235,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Production of SARS-CoV-2 surface proteins in HEK293 cells*",
    "area_eng": "High-throughput and high-contents serology",
    "pi": "Juni Andréll",
@@ -210,6 +248,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Biological investigations of Covid-19 in cancer patients",
    "area_eng": "High-throughput and high-contents serology",
    "pi": "Gunilla Enblad",
@@ -221,6 +261,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Peptides for serological test of COVID-19 antibodies and as molecular tools",
    "area_eng": "High-throughput and high-contents serology",
    "pi": "Ulf Göransson",
@@ -232,6 +274,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Seroprevalence and predictors of COVID-19 disease severity in two areas of Sweden",
    "area_eng": "High-throughput and high-contents serology",
    "pi": "Anne Lindberg",
@@ -243,6 +287,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Large-scale production of a bio-safe antigen of COVID-19 and chimeric bat coronaviruses",
    "area_eng": "High-throughput and high-contents serology",
    "pi": "Kenta Okamoto",
@@ -254,6 +300,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Translational serology for a population-wide assessment of Covid19 immunity",
    "area_eng": "High-throughput and high-contents serology",
    "pi": "Jochen Schwenk",
@@ -265,6 +313,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Multiplex analysis of immune response against Covid-19",
    "area_eng": "High-throughput and high-contents serology",
    "pi": "Sofia Hober",
@@ -276,6 +326,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Rapid development of novel antibody assays diagnosing Covid-19",
    "area_eng": "High-throughput and high-contents serology",
    "pi": "Jan-Åke Liljeqvist",
@@ -287,6 +339,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Human antibodies against the SARS-CoV-2 spike protein",
    "area_eng": "High-throughput and high-contents serology",
    "pi": "Mats Ohlin",
@@ -298,6 +352,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Characterization of the B cell response during SARS-CoV-2 infection",
    "area_eng": "High-throughput and high-contents serology",
    "pi": "Karin Loré",
@@ -309,6 +365,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "PLA-based large-scale analysis of Corona virus immunity",
    "area_eng": "High-throughput and high-contents serology",
    "pi": "Ulf Landegren",
@@ -320,6 +378,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Neutralizing human B-cell derived monoclonal antibodies to SARS-CoV-2",
    "area_eng": "High-throughput and high-contents serology",
    "pi": "Pontus Nordenfelt",
@@ -331,6 +391,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "SICoV – Serological Investigations on SARS-CoV-2 and other coronaviruses – improveddiagnostics and knowledge ",
    "area_eng": "High-throughput and high-contents serology",
    "pi": "Åke Lundkvist",
@@ -342,6 +404,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Covid-19 patients",
    "area_eng": "Biomarkers and systems biology",
    "pi": "Jacob Odeberg",
@@ -353,6 +417,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Prediction of severe disease in Covid-19",
    "area_eng": "Biomarkers and systems biology",
    "pi": "Lars-Magnus Andersson",
@@ -364,6 +430,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Taking back the control of the SARS-CoV2 antiviral immune response as a mean to neutralize the COVID19 disease pathogenicity",
    "area_eng": "Biomarkers and systems biology",
    "pi": "Marie Larsson",
@@ -375,6 +443,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Systems immunology analyses of the cytokine storm in COVID-19",
    "area_eng": "Biomarkers and systems biology",
    "pi": "Petter Brodin",
@@ -386,6 +456,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Establishing a biobank of clinical specimens for studying evolution of viral diversity and development of immune response, including inflammation, seroprevalence and protective antibodies, in SARS-Cov2 infection (Research project)",
    "area_eng": "Biomarkers and systems biology",
    "pi": "Patrik Medstrand",
@@ -397,6 +469,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Dynamics and longevity of the specific adaptive immune response in COVID-19 patient",
    "area_eng": "Biomarkers and systems biology",
    "pi": "Davide Angeletti",
@@ -408,6 +482,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Immediate molecular response to SARS-CoV-2 infection",
    "area_eng": "Host cell systems biology and targets",
    "pi": "Jonas Klingström",
@@ -419,6 +495,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Mapping SARS-CoV-2 host-pathogen interactions for drug repurposing",
    "area_eng": "Host cell systems biology and targets",
    "pi": "Ylva Ivarsson",
@@ -430,6 +508,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Viral-host interaction of SARS-CoV-2 protein corona",
    "area_eng": "Host cell systems biology and targets",
    "pi": "Maria Pernemalm",
@@ -441,6 +521,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Profiling of host proteins associated to the envelope of SARS-CoV-2",
    "area_eng": "Host cell systems biology and targets",
    "pi": "Claudia Fredolini",
@@ -452,6 +534,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Genetic screens to identify novel determinants of SARS-CoV-2 infection",
    "area_eng": "Host cell systems biology and targets",
    "pi": "Oscar Fernandez-Capetillo",
@@ -463,6 +547,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Cellular thermal shift assay (CETSA) to identify host factors involved in SARS-CoV-2 entry and replication",
    "area_eng": "Host cell systems biology and targets",
    "pi": "Leo Hanke",
@@ -474,6 +560,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Identification of host factors targeted by coronaviruses by Thermal proteome profiling",
    "area_eng": "Host cell systems biology and targets",
    "pi": "Oscar Fernandez-Capetillo",
@@ -485,6 +573,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Creating synthetic biology tools to reveal the determinants of SARS-CoV-2 interactions with host cells",
    "area_eng": "Host cell systems biology and targets",
    "pi": "Erdinc Sezgin",
@@ -496,6 +586,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Human precision cut lung slices as an ex vivo model for studying SARS-CoV2 infection and identifying potential therapies",
    "area_eng": "Host cell systems biology and targets",
    "pi": "Darcy Wagner",
@@ -507,6 +599,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Identifying the Achilles heel of SARS-CoV-2 by using gene scissors",
    "area_eng": "Host cell systems biology and targets",
    "pi": "Claudia Kutter",
@@ -518,6 +612,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "NEVERMORE COVID – Establishing a drug discovery platform for corona virus disease",
    "area_eng": "Drug discovery and repurposing of drugs",
    "pi": "Kristian Sandberg",
@@ -529,6 +625,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "A high-quality drug repurposing set",
    "area_eng": "Drug discovery and repurposing of drugs",
    "pi": "Anna-Lena Gustavsson",
@@ -540,6 +638,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Multi-level profiling of Coronavirus-infected cells by combining Viral Entry Assays, Cell Painting, and DrugSEQ",
    "area_eng": "Drug discovery and repurposing of drugs",
    "pi": "Ola Spjuth",
@@ -551,6 +651,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Spatial single cell mapping of SARS-CoV-2 interacting host proteins for quick and targeted drug repurposing",
    "area_eng": "Drug discovery and repurposing of drugs",
    "pi": "Charlotte Stadler",
@@ -562,6 +664,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "FragCor – Fragment based NMR screen targeting SARS-Cov-2 proteins",
    "area_eng": "Drug discovery and repurposing of drugs",
    "pi": "Göran Karlsson",
@@ -573,6 +677,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "An adaptable therapeutic technology platform to treat SARS-CoV infections in immune suppressed individuals",
    "area_eng": "Drug discovery and repurposing of drugs",
    "pi": "Sara Mangsbo",
@@ -584,6 +690,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Rapid testing for treatment of Covid-19",
    "area_eng": "Drug discovery and repurposing of drugs",
    "pi": "Kristina Nyström",
@@ -595,6 +703,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Discovery of SARS-CoV-2 Inhibitors by Virtual Screening of Ultra-large Chemical Space",
    "area_eng": "Drug discovery and repurposing of drugs",
    "pi": "Jens Carlsson",
@@ -606,6 +716,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Chemographic characterization of compounds binding to seven identified molecular targets from SARS-CoV-2",
    "area_eng": "Drug discovery and repurposing of drugs",
    "pi": "Anders Backlund",
@@ -617,6 +729,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Distributed computing to generate the druggable conformational ensemble of sars-cov-2 proteins",
    "area_eng": "Drug discovery and repurposing of drugs",
    "pi": "Lucie Delemotte",
@@ -628,6 +742,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "ARS-CoV-2 in sewage water as a tool for monitoring the potential circulation of the viruses in the population and rate of infections (SARS-CoV-2)",
    "area_eng": "Environmental virus profiling",
    "pi": "Zeynep Cetecioglu Gurol",
@@ -639,6 +755,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Sewage as a proxy for SARS-CoV2 prevalence",
    "area_eng": "Environmental virus profiling",
    "pi": "Maja Malmberg",
@@ -650,6 +768,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Detection, monitoring and genetic evaluation of SARS-CoV2 in wastewater treatment plants",
    "area_eng": "Environmental virus profiling",
    "pi": "Anna J. Székely",
@@ -661,6 +781,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Surface persistence and SARS-CoV-2 exposure in the Stockholm Subway",
    "area_eng": "Environmental virus profiling",
    "pi": "Klas Udekwu",
@@ -672,6 +794,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "A multi-level digital twin framework for Covid-19: from mechanisms of disease ethiology, to clinical decision-support and epidemiology",
    "area_eng": "Data-driven research models and AI",
    "pi": "Gunnar Cedersund",
@@ -683,6 +807,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Building a platform with AI models, datasets and web applications for fighting COVID-19",
    "area_eng": "Data-driven research models and AI",
    "pi": "Emma Lundberg",
@@ -694,6 +820,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Artificial intelligence-based knowledge curation to direct COVID-19 research and public health efforts",
    "area_eng": "Data-driven research models and AI",
    "pi": "Sonja Aits",
@@ -705,6 +833,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "COVID-19 – a population-based project of ICU patients",
    "area_eng": "Data-driven research models and AI",
    "pi": "Emma Larsson (will be combined with project below)",
@@ -716,6 +846,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Characterization of ICU treated COVID patients in Sweden",
    "area_eng": "Data-driven research models and AI",
    "pi": "Jonathan Grip (will be combined with project above)",
@@ -727,6 +859,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Rapid testing of SARS-Cov-2 in national coordination with health care",
    "area_eng": "Program for SARS-CoV-2 virus testing",
    "pi": "Lars Engstrand",
@@ -738,6 +872,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Development of high-throughput serology testing capability ",
    "area_eng": "Program for SARS-CoV-2 virus testing",
    "pi": "Peter Nilsson, Sophia Hober",
@@ -749,6 +885,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Sampling of COVID-19 patients for analysis of disease pathogenesis",
    "area_eng": "Program for SARS-CoV-2 virus testing",
    "pi": "Hans-Gustaf Ljunggren",
@@ -760,6 +898,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Sampling of COVID-19 patients for analysis of disease pathogenesis",
    "area_eng": "Program for SARS-CoV-2 virus testing",
    "pi": "Hans-Gustaf Ljunggren",
@@ -771,6 +911,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "The immunology of adverse events to SARS-CoV-2 vaccines",
    "area_eng": "Research program on vaccine effects",
    "pi": "Petter Brodin",
@@ -782,6 +924,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Register-based large-scale national population study to monitor Covid-19 vaccination effectiveness and safety (RECOVAC)",
    "area_eng": "Research program on vaccine effects",
    "pi": "Fredrik Nyberg",
@@ -793,6 +937,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "The Stockholm 65PLUS cohort- A prospective longitudinal study of immune responses induced after Covid-19 vaccination",
    "area_eng": "Research program on vaccine effects",
    "pi": "Anna-Lena Spetz",
@@ -804,6 +950,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Impact of immune suppressants on SARS-CoV 2 vaccination responses",
    "area_eng": "Research program on vaccine effects",
    "pi": "Fredrik Piehl",
@@ -815,6 +963,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "SARS-CoV-2 infections in relation to vaccination among healthcare workers of the Stockholm Region",
    "area_eng": "Research program on vaccine effects",
    "pi": "Joakim Dillner",
@@ -826,6 +976,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Immune responses to COVID-19 vaccination in unexposed, previously infected and immunosuppressed individuals",
    "area_eng": "Research program on vaccine effects",
    "pi": "Anna Lundgren",
@@ -837,6 +989,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "CoVASC - Covid Vaccination Antibody structural correlates",
    "area_eng": "Research program on vaccine effects",
    "pi": "Johan Malmström",
@@ -848,6 +1002,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Covid-19 vaccination in immunocompromised individuals: An interdisciplinary framework to gain mechanistic insight into durable immunity to SARS-CoV-2 infection",
    "area_eng": "Research program on vaccine effects",
    "pi": "Soo Aleman",
@@ -859,6 +1015,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "Efficacy and immunogenicity of a SARS-CoV-2 vaccine in highly immunocompromised recipients of CAR T cell therapy and allogeneic stem cell transplantation",
    "area_eng": "Research program on vaccine effects",
    "pi": "Karin Loré",
@@ -870,6 +1028,8 @@
  },
  {
    "funder": "kaw",
+   "funder_eng": "SciLifeLab / Knut and Alice Wallenberg Foundation",
+   "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
    "project_title_eng": "High Resolution Analysis of Vaccine-Induced Responses in SARS-CoV-2 Experienced Individuals",
    "area_eng": "Research program on vaccine effects",
    "pi": "Mattias Forsell",
@@ -881,7 +1041,9 @@
  },
  {
     "funder": "vr",
-    "project_title_eng": "Glycan-based antivirals against SARS-CoV-2 and future pandemic viruses",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Glycan-based antivirals against SARS-CoV-2 and future pandemic viruses",
     "area_eng": "",
     "project_title_sv": "Glykan-baserade antivirala medel mot SARS-CoV-2 och framtidens pandemiska virus",
     "area_sv": "",
@@ -895,7 +1057,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Cellular-mediated immunity against SARS-CoV-2",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Cellular-mediated immunity against SARS-CoV-2",
     "area_eng": "",
     "project_title_sv": "Cellulär immunitet mot SARS-CoV-2",
     "area_sv": "",
@@ -909,13 +1073,15 @@
   },
   {
     "funder": "vr",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
     "project_title_eng": "Organization and response to covid-19 of municipal health and social care of older people – impact on mortality and health care utilization in Region Stockholm",
     "area_eng": "",
     "project_title_sv": "Betydelsen av kommuners olika organisation av äldreomsorg och äldrevård och deras åtgärder mot covid-19 för dödlighet och vårdutnyttjande bland äldre personer i Region Stockholm",
     "area_sv": "",
     "pi": "Bo Burström",
     "pi_affiliation_eng": "Karolinska Institute",
-   "pi_affiliation_sv": "Karolinska Institutet",
+    "pi_affiliation_sv": "Karolinska Institutet",
     "start": "2020-08-01",
     "end": "2020-12-31",
     "url_sv": "https://www.swecris.se/betasearch/details/project/202005850VR",
@@ -923,7 +1089,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Convalescent plasma for treatment of COVID-19: A randomized controlled trial",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Convalescent plasma for treatment of COVID-19: A randomized controlled trial",
     "area_eng": "",
     "project_title_sv": "Konvalescent plasma för behandling av COVID-19: En randomiserad kontrollerad studie",
     "area_sv": "",
@@ -937,7 +1105,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Digital care and Covid-19: The scope for scaling up digital care in a time of an infectious pandemic in Sweden",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Digital care and Covid-19: The scope for scaling up digital care in a time of an infectious pandemic in Sweden",
     "area_eng": "",
     "project_title_sv": "Digital vård och covid-19: Möjligheterna för digital vård i tider av samhällsspridning av infektionssjukdom i Sverige",
     "area_sv": "",
@@ -951,7 +1121,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Collateral damage of COVID-19 in older adults: short and long-term health consequences of the epidemic outbreak",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Collateral damage of COVID-19 in older adults: short and long-term health consequences of the epidemic outbreak",
     "area_eng": "",
     "project_title_sv": "Indirekta skador av COVID-19 hos äldre personer: hälsoeffekter på kort och lång sikt av epidemins utbrott",
     "area_sv": "",
@@ -965,7 +1137,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Targeting the most severely affected in the COVID-19 pandemic: older adults’ medications and other crucial factors in large nationwide data",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Targeting the most severely affected in the COVID-19 pandemic: older adults’ medications and other crucial factors in large nationwide data",
     "area_eng": "",
     "project_title_sv": "Studier av de mest utsatta i COVID-19 pandemin: äldre personers läkemedel och andra avgörande faktorer i stora registerdata",
     "area_sv": "",
@@ -979,7 +1153,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Characterization of SARS-CoV-2 specific antibody and T cell responses over time after infection: predicting the future by understanding correlates to protection",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Characterization of SARS-CoV-2 specific antibody and T cell responses over time after infection: predicting the future by understanding correlates to protection",
     "area_eng": "",
     "project_title_sv": "Vad definierar en genomgången SARS-CoV-2 infektion och vad skyddar mot en ny?",
     "area_sv": "",
@@ -993,7 +1169,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Attenuation of SARS-CoV-2 infectivity and hyperinflammation in Covid-19 by heparin-related polysaccharides",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Attenuation of SARS-CoV-2 infectivity and hyperinflammation in Covid-19 by heparin-related polysaccharides",
     "area_eng": "",
     "project_title_sv": "Minskad infektivitet av SARS-Cov2 virus och Covid19 hyperinflammation med heparin-relaterade polysackarider",
     "area_sv": "",
@@ -1007,7 +1185,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Antibody specificities for protective immunity after Covid-19 vaccination",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Antibody specificities for protective immunity after Covid-19 vaccination",
     "area_eng": "",
     "project_title_sv": "Antikroppsspecificitet för skyddande immunitet efter covid-19 vaccinering",
     "area_sv": "",
@@ -1021,7 +1201,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Effect of face-masks during air-borne pandemics from fluid mechanical aspects",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Effect of face-masks during air-borne pandemics from fluid mechanical aspects",
     "area_eng": "",
     "project_title_sv": "Inverkan av munskydd vid luftburna pandemier from ett strömningsmekaniskt perspektiv",
     "area_sv": "",
@@ -1035,7 +1217,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Exploring immunologic and genetic factors in COVID-19 with relevance for immunity and long-term health: a new BAMSE follow-up",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Exploring immunologic and genetic factors in COVID-19 with relevance for immunity and long-term health: a new BAMSE follow-up",
     "area_eng": "",
     "project_title_sv": "",
     "area_sv": "Immunologiska och genetiska faktorer vid COVID-19 av betydelse för immunitet och långsiktiga hälsoeffekter: en ny uppföljning av BAMSE-studien",
@@ -1049,7 +1233,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Mechanistic and therapeutic studies of the innate immune response in human subjects with COVID-19",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Mechanistic and therapeutic studies of the innate immune response in human subjects with COVID-19",
     "area_eng": "",
     "project_title_sv": "Mekanistiska och terapeutiska studier av det mänskliga medfödda immunsvaret vid COVID-19",
     "area_sv": "",
@@ -1063,7 +1249,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Neutrophil Extracellular Traps as Potential Driver of COVID-19",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Neutrophil Extracellular Traps as Potential Driver of COVID-19",
     "area_eng": "",
     "project_title_sv": "Är neutrofiler involverade i sjukdomsutveckling av COVID-19?",
     "area_sv": "",
@@ -1077,7 +1265,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Covid-19 epidemic in Sweden and cardiometabolic disease: using available data from Swedish registers.",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Covid-19 epidemic in Sweden and cardiometabolic disease: using available data from Swedish registers.",
     "area_eng": "",
     "project_title_sv": "Covid-19-epidemin i Sverige med fokus på kardiometabol sjukdom och sociodemografiska faktorer.",
     "area_sv": "",
@@ -1091,7 +1281,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Inhibiting Corona virus-RNA translation with existing antibiotics and other small molecules",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Inhibiting Corona virus-RNA translation with existing antibiotics and other small molecules",
     "area_eng": "",
     "project_title_sv": "Hämning av Corona virus-mRNA translation med befintliga antibiotika och andra små molekyler",
     "area_sv": "",
@@ -1105,7 +1297,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Evaporation dynamics of COVID-bearing droplets under different atmospheric conditions",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Evaporation dynamics of COVID-bearing droplets under different atmospheric conditions",
     "area_eng": "",
     "project_title_sv": "Avdunstningsdynamik av COVID-droppar under olika atmosfäriska förhållanden",
     "area_sv": "",
@@ -1119,7 +1313,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Diary of a pandemic: Monitoring of work-related stress symptoms among healthcare workers through a mobile application.",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Diary of a pandemic: Monitoring of work-related stress symptoms among healthcare workers through a mobile application.",
     "area_eng": "",
     "project_title_sv": "Dagbok från en pandemi: Övervakning av arbetsrelaterade stressymtom hos vårdpersonal genom en mobilapplikation.",
     "area_sv": "",
@@ -1133,7 +1329,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Understanding respiratory and systemic immune responses during COVID-19: Implications for prediction of disease severity",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Understanding respiratory and systemic immune responses during COVID-19: Implications for prediction of disease severity",
     "area_eng": "",
     "project_title_sv": "Studier av immunsvar i luftvägar och lungor för att förstå vad som dikterar sjukdomsgrad vid COVID-19",
     "area_sv": "",
@@ -1147,7 +1345,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Covid-19 and androgen deprivation therapy for prostate cancer. Populationbased studies",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Covid-19 and androgen deprivation therapy for prostate cancer. Populationbased studies",
     "area_eng": "",
     "project_title_sv": "Covid-19 och hormonbehandling för prostatacancer. Populationsbaserade studier",
     "area_sv": "",
@@ -1161,7 +1361,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "A genetic trap for small molecule inhibitors of the SARS-CoV-2 main protease",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "A genetic trap for small molecule inhibitors of the SARS-CoV-2 main protease",
     "area_eng": "",
     "project_title_sv": "En genetisk fälla för småmolekyler som inhiberar SARS-CoV-2 main protease",
     "area_sv": "",
@@ -1175,7 +1377,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Antival compunds against CoV-2 helicase",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Antival compunds against CoV-2 helicase",
     "area_eng": "",
     "project_title_sv": "Antiviralt läkemedel mot CoV-2 helicase",
     "area_sv": "",
@@ -1189,7 +1393,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Intravenous immunoglobulin to dampen covid-induced cell damage and hyperinflammation",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Intravenous immunoglobulin to dampen covid-induced cell damage and hyperinflammation",
     "area_eng": "",
     "project_title_sv": "Kan intravenöst immunglobulin dämpa cellskada och inflammation och förbättra prognosen vid svår covid-19?",
     "area_sv": "",
@@ -1203,7 +1409,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Immunological correlates of protection in COVID-19 disease and after COVID-19 vaccination",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Immunological correlates of protection in COVID-19 disease and after COVID-19 vaccination",
     "project_title_sv": "Immunologiskt skydd efter COVID-19 sjukdom och efter COVID-19 vaccination",
     "pi": "Anna Smed Sörensen",
     "pi_affiliation_eng": "Karolinska Institute",
@@ -1215,7 +1423,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Stochastic modelling of epidemic outbreaks - post Covid-19",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Stochastic modelling of epidemic outbreaks - post Covid-19",
     "project_title_sv": "Stokastisk modellering av smittoutbrott - post covid-19",
     "pi": "Tom Britton",
     "pi_affiliation_eng": "Stockholm University",
@@ -1227,7 +1437,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Wuhan Interaction with Stockholm Evidence-based Research (WISER) project on health perspectives in the older population facing the SARS-CoV-2 outbreak",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Wuhan Interaction with Stockholm Evidence-based Research (WISER) project on health perspectives in the older population facing the SARS-CoV-2 outbreak",
     "project_title_sv": "Wuhan-interaktion med Stockholm (WISER) - ett evidensbaserat forskningsprojekt om hälsoperspektiv i den äldre befolkningen under SARS-CoV-2-utbrottet",
     "pi": "Sara Hägg",
     "pi_affiliation_eng": "Karolinska Institute",
@@ -1239,7 +1451,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Mucosal immunity against SARS-CoV-2 – an unexplored field",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Mucosal immunity against SARS-CoV-2 – an unexplored field",
     "project_title_sv": "Mucosaimmunitet mot SARS-CoV-2 - ett försummat fält",
     "pi": "Qiang Pan-Hammarström",
     "pi_affiliation_eng": " Karolinska Institute",
@@ -1251,7 +1465,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Preventing paediatric pneumonia deaths in Nigeria",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Preventing paediatric pneumonia deaths in Nigeria",
     "project_title_sv": "Förebyggande av dödsfall i barnpneumoni i Nigeria",
     "pi": "Carina King",
     "pi_affiliation_eng": "Karolinska Institute",
@@ -1263,7 +1479,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Interdisciplinary framework on the role of adaptive cellular immunity in SARS-CoV-2 protection",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Interdisciplinary framework on the role of adaptive cellular immunity in SARS-CoV-2 protection",
     "project_title_sv": "Tvärvetenskapligt ramverk för adaptiv cellulär immunitet mot SARS-CoV-2",
     "pi": "Marcus Buggert",
     "pi_affiliation_eng": "Karolinska Institute",
@@ -1275,7 +1493,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Innate-like unconventional T cells as new regulators of the immune response against viral infection",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Innate-like unconventional T cells as new regulators of the immune response against viral infection",
     "project_title_sv": "Naturliga okonventionella T-celler som nya modulatorer av immunsvaret mot virusinfektion",
     "pi": "Andrea Ponzetta",
     "pi_affiliation_eng": "Karolinska Institute",
@@ -1287,7 +1507,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "ARCTIC: contAct tRaCing prevenTion of Covid-19",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "ARCTIC: contAct tRaCing prevenTion of Covid-19",
     "project_title_sv": "ARCTIC: contAct tRaCing prevenTion of Covid-19",
     "pi": "Carlo Fischione",
     "pi_affiliation_eng": "KTH Royal Institute of Technology",
@@ -1299,7 +1521,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Creation of a COVID-19 Immune Atlas to rapidly repurpose available drugs targeting signaling and metabolism of immune cells",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Creation of a COVID-19 Immune Atlas to rapidly repurpose available drugs targeting signaling and metabolism of immune cells",
     "project_title_sv": "Skapandet av en COVID-19 resurs över immunsystemet för att snabbt återanvända tillgängliga läkemedel riktade mot metabolism och signalering",
     "pi": "Martin Cornillet Jeannin",
     "pi_affiliation_eng": "Karolinska Institute",
@@ -1311,7 +1535,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Decoding heterogeneity and durable immunity of lung resident memory T cells in health and acute respiratory infection",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Decoding heterogeneity and durable immunity of lung resident memory T cells in health and acute respiratory infection",
     "project_title_sv": "Avkodning av heterogenitet och hållbar immunitet för lungresidenta T-celler vid hälsa och akut luftvägsinfektion ",
     "pi": "Takuya Sekine",
     "pi_affiliation_eng": "Karolinska Institute",
@@ -1323,7 +1549,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Living with microbial roommates: Health literacy capability in antimicrobial resistance education",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Living with microbial roommates: Health literacy capability in antimicrobial resistance education",
     "project_title_sv": "Leva med mikrober: Hälsolitteracitet i utbildning om antimikrobiell resistens",
     "pi": "Martin Mickelsson",
     "pi_affiliation_eng": "Uppsala University",
@@ -1335,7 +1563,9 @@
   },
   {
     "funder": "vr",
-    "project_title_eng": "Design and development of mucosal vaccine vectors in commensal bacteria expressing SARS-CoV-2 antigens as a potential prophylactic method",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+   "project_title_eng": "Design and development of mucosal vaccine vectors in commensal bacteria expressing SARS-CoV-2 antigens as a potential prophylactic method",
     "project_title_sv": "Design och utveckling av mukosala vaccinvektorer hos kommensala bakterier som uttrycker SARS-CoV-2-antigener - en potentiell profylaktisk metod",
     "pi": "Lars Engstrand",
     "pi_affiliation_eng": "Karolinska Institute",
@@ -1347,6 +1577,8 @@
   },
   {
     "funder": "nordforsk",
+    "funder_eng": "NordForsk",
+    "funder_sv": "NordForsk",
     "project_title_eng": "Addressing the smoking paradox in the etiology of COVID-19 through population-based studies",
     "area_eng": "",
     "project_title_sv": "",
@@ -1361,6 +1593,8 @@
   },
   {
     "funder": "nordforsk",
+    "funder_eng": "NordForsk",
+    "funder_sv": "NordForsk",
     "project_title_eng": "Data streams and mathematical modelling pipelines to support preparedness and decision making for COVID-19 and future pandemics",
     "area_eng": "",
     "project_title_sv": "",
@@ -1375,6 +1609,8 @@
   },
   {
     "funder": "vinnova",
+    "funder_eng": "Vinnova",
+    "funder_sv": "Vinnova",
     "project_title_eng": "Antibodies against SARS-CoV-2 verification of commercially available assays and a nuanced sustainable approach",
     "area_eng": "",
     "project_title_sv": "Antikroppar mot SARS-CoV-2 verifiering av kommersiella serologitester med en nyanserad och hållbar lösning",
@@ -1389,6 +1625,8 @@
   },
   {
     "funder": "vinnova",
+    "funder_eng": "Vinnova",
+    "funder_sv": "Vinnova",
     "project_title_eng": "Identification of epitopes on SARS-CoV-2 viral particles for rapid development of neutralizing antibodies",
     "area_eng": "",
     "project_title_sv": "Identifiering av epitop på SARS-CoV-2 viruspartiklar för snabb utveckling av neutraliserande antikroppar",
@@ -1402,6 +1640,8 @@
   },
   {
     "funder": "vinnova",
+    "funder_eng": "Vinnova",
+    "funder_sv": "Vinnova",
     "project_title_eng": "Validation of a fast and effective Corona diagnostic test for the healthcare system",
     "area_eng": "",
     "project_title_sv": "Validering av snabb och effektiv Coronaanalys till sjukvården",
@@ -1415,6 +1655,8 @@
   },
   {
     "funder": "vinnova",
+    "funder_eng": "Vinnova",
+    "funder_sv": "Vinnova",
     "project_title_eng": "Targeting the SARS-CoV-2 spike protein to achieve hyperimmunicity and reduce infectivity",
     "area_eng": "",
     "project_title_sv": "Inriktning på SARS-CoV-2 spike protein för att erhålla hyperimmunicitet och och reducera infektivitet.",
@@ -1428,6 +1670,8 @@
   },
   {
     "funder": "vinnova",
+    "funder_eng": "Vinnova",
+    "funder_sv": "Vinnova",
     "project_title_eng": "SARS-Cov-2 sensor for rapid sensitive virus detection",
     "area_eng": "",
     "project_title_sv": "SARS-Cov-2 sensor för snabb känslig virus-detektion",
@@ -1441,6 +1685,8 @@
   },
   {
     "funder": "vinnova",
+    "funder_eng": "Vinnova",
+    "funder_sv": "Vinnova",
     "project_title_eng": "Evaluating therapeutic potential of integrin 10-selected MSCs in treatment of COVID-19 (ARDS)",
     "area_eng": "",
     "project_title_sv": "Evaluating therapeutic potential of integrin 10-selected MSCs in treatment of COVID-19 (ARDS)",
@@ -1454,6 +1700,8 @@
   },
   {
     "funder": "horizon2020",
+    "funder_eng": "Horizon 2020",
+    "funder_sv": "Horisont 2020",
     "project_title_eng": "Fighting-off coronavirus (SARS-CoV-2) with broad-spectrum antivirals: establishing animal viral challenge model",
     "pi": "Anna-Lena Spetz",
     "pi_affiliation_eng": "Stockholm University",
@@ -1464,6 +1712,8 @@
   },
   {
     "funder": "horizon2020",
+    "funder_eng": "Horizon 2020",
+    "funder_sv": "Horisont 2020",
     "project_title_eng": "Antibody therapy against coronavirus (COVID-19)",
     "pi": "Qiang Pan Hammarström, Harold Marcotte, Lennart Hammarström",
     "pi_affiliation_eng": "Karolinska Institute",
@@ -1474,6 +1724,8 @@
   },
   {
     "funder": "horizon2020",
+    "funder_eng": "Horizon 2020",
+    "funder_sv": "Horisont 2020",
     "project_title_eng": "Rapid therapy development through Open Coronavirus Vaccine Platform",
     "pi": "Matti Sällberg, Gustaf Ahlén",
     "pi_affiliation_eng": "Karolinska Institute",
@@ -1484,6 +1736,8 @@
   },
   {
     "funder": "horizon2020",
+    "funder_eng": "Horizon 2020",
+    "funder_sv": "Horisont 2020",
     "project_title_eng": "Nanobodies and antibodies against 2019-nCoV",
     "pi": "Benjamin Murrell, Gerald McInerney, Gunilla Karlsson Hedestam",
     "pi_affiliation_eng": "Karolinska Institute",
@@ -1494,6 +1748,8 @@
   },
   {
     "funder": "hlf",
+    "funder_eng": "Hjärt-Lungfonden",
+    "funder_sv": "Hjärt-Lungfonden",
     "project_title_eng": "Hur coronavirus kan inverka vid hjärtstopp",
     "project_title_sv": "Hur coronavirus kan inverka vid hjärtstopp",
     "pi": "Araz Rawshan",
@@ -1504,6 +1760,8 @@
   },
   {
     "funder": "hlf",
+    "funder_eng": "Hjärt-Lungfonden",
+    "funder_sv": "Hjärt-Lungfonden",
     "project_title_eng": "Rätt behandling vid Covdi-19 hjärtmuskelskada",
     "project_title_sv": "Rätt behandling vid Covdi-19 hjärtmuskelskada",
     "pi": "Björn Redfors",
@@ -1514,6 +1772,8 @@
   },
   {
     "funder": "hlf",
+    "funder_eng": "Hjärt-Lungfonden",
+    "funder_sv": "Hjärt-Lungfonden",
     "project_title_eng": "Hur hjärtat påverkas vid Covid-19 inflammation",
     "project_title_sv": "Hur hjärtat påverkas vid covid-19 inflammation",
     "pi": "Henrik Engblom",
@@ -1524,6 +1784,8 @@
   },
   {
     "funder": "hlf",
+    "funder_eng": "Hjärt-Lungfonden",
+    "funder_sv": "Hjärt-Lungfonden",
     "project_title_eng": "Faktorer som påverkar sjukdomsförloppet vid covid-19",
     "project_title_sv": "Faktorer som påverkar sjukdomsförloppet vid covid-19",
     "pi": "Caroline Stridsman",
@@ -1534,6 +1796,8 @@
   },
   {
     "funder": "hlf",
+    "funder_eng": "Hjärt-Lungfonden",
+    "funder_sv": "Hjärt-Lungfonden",
     "project_title_eng": "Identifiering av vad som orsakar lungsvikt hos svår covid-19",
     "project_title_sv": "Identifiering av vad som orsakar lungsvikt hos svår covid-19",
     "pi": "Johan Erjefält",
@@ -1544,6 +1808,8 @@
   },
   {
     "funder": "hlf",
+    "funder_eng": "Hjärt-Lungfonden",
+    "funder_sv": "Hjärt-Lungfonden",
     "project_title_eng": "Minska negativa effekterna av respiratorvård",
     "project_title_sv": "Minska negativa effekterna av respiratorvård",
     "pi": "Lars Larsson",
@@ -1554,6 +1820,8 @@
   },
   {
     "funder": "hlf",
+    "funder_eng": "Hjärt-Lungfonden",
+    "funder_sv": "Hjärt-Lungfonden",
     "project_title_eng": "Orsakerna till andningssvikt vid dödsfall i covid-19",
     "project_title_sv": "Orsakerna till andningssvikt vid dödsfall i covid-19",
     "pi": "Anders Blomberg",
@@ -1564,6 +1832,8 @@
   },
   {
     "funder": "hlf",
+    "funder_eng": "Hjärt-Lungfonden",
+    "funder_sv": "Hjärt-Lungfonden",
     "project_title_eng": "Bakteriella infektioner vid covid-19",
     "project_title_sv": "Bakteriella infektioner vid covid-19",
     "pi": "Birgitta Henriques Normark",
@@ -1574,6 +1844,8 @@
   },
   {
     "funder": "hlf",
+    "funder_eng": "Hjärt-Lungfonden",
+    "funder_sv": "Hjärt-Lungfonden",
     "project_title_eng": "Mekanismerna bakom svår covid-19",
     "project_title_sv": "Mekanismerna bakom svår covid-19",
     "pi": "Bo Nilsson",
@@ -1584,16 +1856,20 @@
   },
   {
     "funder": "hlf",
+    "funder_eng": "Hjärt-Lungfonden",
+    "funder_sv": "Hjärt-Lungfonden",
     "project_title_eng": "Mänsklig genetik relaterad till covid-19",
     "project_title_sv": "Mänsklig genetik relaterad till covid-19",
     "pi": "Romeo Stefano",
-    "pi_affiliation_eng": "Gothenburg University; Sahlgrenska University Hospital",
+    "pi_affiliation_eng": "University of Gothenburg; Sahlgrenska University Hospital",
     "pi_affiliation_sv": "Göteborgs universitet; Sahlgrenska universitetssjukhuset",
     "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/",
     "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/"
   },
   {
     "funder": "hlf",
+    "funder_eng": "Hjärt-Lungfonden",
+    "funder_sv": "Hjärt-Lungfonden",
     "project_title_eng": "Tidiga tecken på bestående lungsjukdom",
     "project_title_sv": "Tidiga tecken på bestående lungsjukdom",
     "pi": "Gunilla Westergren-Thorson",
@@ -1604,6 +1880,8 @@
   },
   {
     "funder": "hlf",
+    "funder_eng": "Hjärt-Lungfonden",
+    "funder_sv": "Hjärt-Lungfonden",
     "project_title_eng": "Kliniska immunologiska parametrar för att förrutsäga skydd mot reinfektion",
     "project_title_sv": "Kliniska immunologiska parametrar för att förrutsäga skydd mot reinfektion",
     "pi": "Mats Bemark",
@@ -1614,6 +1892,8 @@
   },
   {
     "funder": "hlf",
+    "funder_eng": "Hjärt-Lungfonden",
+    "funder_sv": "Hjärt-Lungfonden",
     "project_title_eng": "Utvärdeing av behandling med ECMO vid covid-19",
     "project_title_sv": "Utvärdeing av behandling med ECMO vid covid-19",
     "pi": "Magnus Dalén",
@@ -1624,6 +1904,8 @@
   },
   {
     "funder": "hlf",
+    "funder_eng": "Hjärt-Lungfonden",
+    "funder_sv": "Hjärt-Lungfonden",
     "project_title_eng": "Utvärdering av astmamedicin för covid-19",
     "project_title_sv": "Utvärdering av astmamedicin för covid-19",
     "pi": "Daniel Andersson",
@@ -1634,6 +1916,8 @@
   },
   {
     "funder": "hlf",
+    "funder_eng": "Hjärt-Lungfonden",
+    "funder_sv": "Hjärt-Lungfonden",
     "project_title_eng": "Uppföljning av svår luftvägsinfektion av covid-19",
     "project_title_sv": "Uppföljning av svår luftvägsinfektion av covid-19",
     "pi": "Judith Bruchfeld",
@@ -1644,6 +1928,8 @@
   },
   {
     "funder": "hlf",
+    "funder_eng": "Hjärt-Lungfonden",
+    "funder_sv": "Hjärt-Lungfonden",
     "project_title_eng": "Förstå andnings och immunsystem under covid-19",
     "project_title_sv": "Förstå andnings och immunsystem under covid-19",
     "pi": "Anna Smed-Sörensen",
@@ -1654,6 +1940,8 @@
   },
   {
     "funder": "hlf",
+    "funder_eng": "Hjärt-Lungfonden",
+    "funder_sv": "Hjärt-Lungfonden",
     "project_title_eng": "Sjukdomens svårighetsgrad jämförs mellan olika regioner",
     "project_title_sv": "Sjukdomens svårighetsgrad jämförs mellan olika regioner",
     "pi": "Anne Lindberg",
@@ -1664,6 +1952,8 @@
   },
   {
     "funder": "hlf",
+    "funder_eng": "Hjärt-Lungfonden",
+    "funder_sv": "Hjärt-Lungfonden",
     "project_title_eng": "Sjukdomsförebyggande av covid-19 med etablerade mediciner",
     "project_title_sv": "Sjukdomsförebyggande av covid-19 med etablerade mediciner",
     "pi": "Johan Sundström",
@@ -1674,6 +1964,8 @@
   },
   {
     "funder": "hlf",
+    "funder_eng": "Hjärt-Lungfonden",
+    "funder_sv": "Hjärt-Lungfonden",
     "project_title_eng": "Studie av 'mördar' celler inför vaccinutveckling",
     "project_title_sv": "Studie av 'mördar' celler inför vaccinutveckling",
     "pi": "Kristian Riebeck",
@@ -1684,6 +1976,8 @@
   },
   {
     "funder": "hlf",
+    "funder_eng": "Hjärt-Lungfonden",
+    "funder_sv": "Hjärt-Lungfonden",
     "project_title_eng": "Brist på visst protein ökar risk för svår covid-19",
     "project_title_sv": "Brist på visst protein ökar risk för svår covid-19",
     "pi": "Maria Thunander",
@@ -1694,6 +1988,8 @@
   },
   {
     "funder": "hlf",
+    "funder_eng": "Hjärt-Lungfonden",
+    "funder_sv": "Hjärt-Lungfonden",
     "project_title_eng": "Vaccin mot SARS-CoV-2",
     "project_title_sv": "Vaccin mot SARS-CoV-2",
     "pi": "Jan Lötvall",
@@ -1704,6 +2000,8 @@
   },
   {
     "funder": "hlf",
+    "funder_eng": "Hjärt-Lungfonden",
+    "funder_sv": "Hjärt-Lungfonden",
     "project_title_eng": "Identifiering av genetiska riskfaktorer vid covid-19",
     "project_title_sv": "Identifiering av genetiska riskfaktorer vid covid-19",
     "pi": "Magnust Nordenskjöld",
@@ -1714,6 +2012,8 @@
   },
   {
     "funder": "hlf",
+    "funder_eng": "Hjärt-Lungfonden",
+    "funder_sv": "Hjärt-Lungfonden",
     "project_title_eng": "Hur påverkas epigenetiska mönster i arvsmassan av covid-19",
     "project_title_sv": "Hur påverkas epigenetiska mönster i arvsmassan av covid-19",
     "pi": "Maria Lerm",
