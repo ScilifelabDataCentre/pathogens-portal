@@ -311,3 +311,13 @@ footer img {
 div.dataTables_wrapper div.dataTables_info {
     padding-top: 0 !important;
 }
+
+/* Vertical line for the homepage */
+
+@media all and (min-width: 992px) {
+    .vert-line-right {
+      border-right: 1px;
+      border-right-style: solid;
+      border-color: #ccc;
+    }
+}

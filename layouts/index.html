@@ -9,34 +9,38 @@
 
 {{ define "main" }}
 
+  <!-- Main content -->
   <div class="row">
-    <div class="col-md-8">
-      <div class="container mb-4">
+    <div class="col-lg-8 vert-line-right">
+
+      <!-- Available data -->
+      <div class="container mb-5">
         <div class="row"><h2>Available data</h2></div>
-        <div class="row"><p class="small text-muted">{{ if eq $.Site.Language.LanguageName "Svenska" }}Data tillgängliga från svenska forskargrupper.{{ else }}Data available from research groups in Sweden. <a href="/data_types/all/data/">See available data for all data types <i class="fas fa-arrow-circle-right"></i></a> {{ end }}</p></div>
+        <div class="row"><p class="small text-muted">{{ if eq $.Site.Language.LanguageName "Svenska" }}Swedish text here. {{ else }}Data available from research groups in Sweden. <a href="/data_types/all/data/">See available data for all data types <i class="fas fa-arrow-circle-right"></i></a> {{ end }}</p></div>
         <div class="row">
           <div class="col-md">
-            <div class="row"><h5><a href="">Genomics data (34) <i class="fas fa-arrow-circle-right"></i></a></h5></div>
-            <div class="row"><h5><a href="">Protein data (14) <i class="fas fa-arrow-circle-right"></i></a></h5></div>
-            <div class="row"><h5><a href="">Imaging data (7) <i class="fas fa-arrow-circle-right"></i></a></h5></div>
+            <div class="row"><h5><a href="">Genomics data (16) <i class="fas fa-arrow-circle-right"></i></a></h5></div>
+            <div class="row"><h5><a href="">Protein data (11) <i class="fas fa-arrow-circle-right"></i></a></h5></div>
+            <div class="row"><h5><a href="">Imaging data (4) <i class="fas fa-arrow-circle-right"></i></a></h5></div>
           </div>
           <div class="col-md">
-            <div class="row"><h5><a href="">Biochemistry (23) <i class="fas fa-arrow-circle-right"></i></a></h5></div>
-            <div class="row"><h5><a href="">Health data (13) <i class="fas fa-arrow-circle-right"></i></a></h5></div>
-            <div class="row"><h5><a href="">Drug discovery <i class="fas fa-arrow-circle-right"></i></a></h5></div>
+            <div class="row"><h5><a href="">Biochemistry (30) <i class="fas fa-arrow-circle-right"></i></a></h5></div>
+            <div class="row"><h5><a href="">Health data (57) <i class="fas fa-arrow-circle-right"></i></a></h5></div>
+            <div class="row"><h5><a href="">Drug discovery (4) <i class="fas fa-arrow-circle-right"></i></a></h5></div>
         </div>
           <div class="col-md">
-            <div class="row"><h5><a href="">Serology <i class="fas fa-arrow-circle-right"></i></a></h5></div>
-            <div class="row"><h5><a href="">Public health <i class="fas fa-arrow-circle-right"></i></a></h5></div>
-            <div class="row"><h5><a href="">Other data <i class="fas fa-arrow-circle-right"></i></a></h5></div>
+            <div class="row"><h5><a href="">Serology (7) <i class="fas fa-arrow-circle-right"></i></a></h5></div>
+            <div class="row"><h5><a href="">Public health (19) <i class="fas fa-arrow-circle-right"></i></a></h5></div>
+            <div class="row"><h5><a href="">Other data (14) <i class="fas fa-arrow-circle-right"></i></a></h5></div>
           </div>
         </div>
       </div>
 
-      <div class="container mb-4">
+      <!-- Data highlights -->
+      <div class="container mb-5">
         {{ range .Site.Menus.news }}
         <div class="row"><h2>{{ .Name }}</h2></div>
-        <div class="row"><p class="small text-muted">{{ if eq $.Site.Language.LanguageName "Svenska" }} Senaste publicerade data i fokus. <a href="/sv/news/">Se alla <i class="fas fa-arrow-circle-right"></i></a> {{ else }}Highlights of recent openly shared data and data re-use. <a href="/news/">See all highlights <i class="fas fa-arrow-circle-right"></i></a>{{ end }}</p></div>
+        <div class="row"><p class="small text-muted">{{ if eq $.Site.Language.LanguageName "Svenska" }} Swedish text here. <a href="/sv/news/">Se alla <i class="fas fa-arrow-circle-right"></i></a> {{ else }}Highlights of recent openly shared data and data re-use. <a href="/news/">See all highlights <i class="fas fa-arrow-circle-right"></i></a>{{ end }}</p></div>
         {{ end }}
         <div class="row">
         {{ $news_high := where .Site.RegularPages "Section" "news" }}
@@ -60,81 +64,125 @@
           </div>
       </div>
 
-      <div class="container mb-4">
-        <div class="row"><h2>COVID-19 Sample Collection Database</h2></div>
-        <div class="row"><p class="small text-muted">{{ if eq $.Site.Language.LanguageName "Svenska" }} Senaste publicerade data i fokus. <a href="/sv/news/">Se alla <i class="fas fa-arrow-circle-right"></i></a> {{ else }}Highlights of recent openly shared data and data re-use. <a href="/news/">See all highlights <i class="fas fa-arrow-circle-right"></i></a>{{ end }}</p></div>
+      <!-- Sample Collection Database -->
+      <div class="container mb-5">
+        <div class="row"><h2>Sample Collection Database</h2></div>
+        <div class="row"><p class="small text-muted">{{ if eq $.Site.Language.LanguageName "Svenska" }}Swedish text here. {{ else }}Registry of Swedish biobanks and sample collections for COVID-19 research. <a href="/biobanks/">About the database <i class="fas fa-arrow-circle-right"></i></a>{{ end }}</p></div>
         <div class="row">
-          The Swedish COVID-19 Sample Collection Database is a tool for researchers wishing to make use of samples and data stored in various biobanks across Sweden in their research. The database allows to find sample collections matching their needs using various filters. The filter searches include: name, keywords, diagnosis, available biological materials (e.g., nasal swabs, DNA, saliva, whole blood, RNA, etc.), sample collection type (healthcare sample collections or research sample collections) and data types (e.g., biological material and medical records). For each collection, a short description, donor information, sample information as well as contact information for sample requests are provided.
+          <div class="col-md-4">
+          <div class="row"><h5>Biobanks: 16</h5></div>
+          <div class="row"><h5>Collections: 27</h5></div>
+          <div class="row align-items-end">
+            <h5><a target="_blank" href="https://biobanks.covid19dataportal.se/">Search in the database <i class="fas fa-arrow-circle-right"></i></a></h5></div>
+          </div>
+          <div class="col-md-8">
+            <img class="img-thumbnail" src="/img/biobanks/scd_scr.png" alt="Sample Collection Database">
+          </div>
         </div>
       </div>
 
-    </div>
-
-
-    <div class="col-md-4 pl-5">
-      <div>
-      <div class="row"><h4>About the portal</h4></div>
-      <div class="row">
-        <p>The Swedish COVID-19 Data Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing. The portal is operated by SciLifeLab Data Centre and partners, among which is the <a href="https://covid19dataportal.org/">European COVID-19 Data Portal</a>. Suggestions, corrections, and other comments are most welcome.</p>
-      </div>
-      </div>
-      <div class="mt-2">
-      <div class="row bg-danger text-white pt-2 px-3"><h4>Share new COVID-19 data</h4></div>
-      <div class="row bg-danger text-white pb-2 px-3">The portal team is happy to assist you with submitting your data to open repositories or answer any questions about data management.</div>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="row mb-4 homepage-accordions">
-    {{ range .Site.Menus.main }}
-    <div class="col-md">
-      <h2 class="mt-4" id="{{ urlize .Identifier }}">{{ .Name }}</h2>
-      {{ if .Post }}<p class="small text-muted">{{ .Post }}</p>{{ end }}
-      <div class="accordion" id="{{ urlize .Identifier }}_accordion">
-      {{ range .Children }}
-        <div class="card">
-          <div class="card-header">
-              {{ if .HasChildren }}
-              <a href="{{ .Page.RelPermalink }}" data-toggle="collapse" data-target="#{{ urlize .Identifier }}" aria-expanded="false" aria-controls="{{ urlize .Identifier }}">
-                {{ .Pre }}<span class="{{ if .Pre }}ml-2{{ end }} mr-2">{{ .Name }}</span>{{ .Post }}<i class="fas fa-caret-down"></i>
-              </a>
-              {{ else }}
-              <a href="{{ .Page.RelPermalink }}">{{ .Pre }}<span class="{{ if .Pre }}ml-2{{ end }} mr-2">{{ .Name }}</span>{{ .Post }}</a>
-              {{ end }}
+      <!-- Research projects -->
+      <div class="container mb-5">
+        <div class="row"><h2>Research progress</h2></div>
+        <div class="row"><p class="small text-muted">{{ if eq $.Site.Language.LanguageName "Svenska" }}Swedish text here. {{ else }}Overview of ongoing research projects, publications, and funding opportunities in Sweden.{{ end }}</p></div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row"><h5><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/publications/">Publications (1043) <i class="fas fa-arrow-circle-right"></i></a></h5></div>
+            <div class="row"><h5><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/projects/ongoing/">Ongoing research projects (150) <i class="fas fa-arrow-circle-right"></i></a></h5></div>
+            <div class="row"><h5><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/projects/funding/">Funding opportunities (6) <i class="fas fa-arrow-circle-right"></i></a></h5></div>
           </div>
-          {{ if .HasChildren }}
-          <div id="{{ urlize .Identifier }}" class='collapse' data-parent="#{{ urlize .Parent }}_accordion">
-            <ul class="list-group list-group-flush border-top">
-              {{ range .Children }}
-                <li class="list-group-item"><a href="{{ .Page.RelPermalink }}"><span class="mr-2">{{ .Name }}</span>{{ .Post }}</a></li>
-              {{ end }}
-            </ul>
-          </div>
-          {{ end }}
         </div>
-      {{ end }}
+      </div>
+
+      <!-- Visualizations pages -->
+      <div class="container mb-5">
+        <div class="row"><h2>Recent SARS-CoV-2 testing results</h2></div>
+        <div class="row"><p class="small text-muted">{{ if eq $.Site.Language.LanguageName "Svenska" }}Swedish text here. {{ else }}Pages with recent data and visualizations on SARS-CoV-2 and COVID-19 tests carried out at various research facilities. {{ end }}</p></div>
+        <!-- Serology testing -->
+        <div class="row">
+          <div class="col-md mb-2">
+            <div class="row"><h6><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/health_data/serology-statistics/">{{ $.Param "teststats.serologytitle" }} <i class="fas fa-arrow-circle-right"></i></a></h6></div>
+            <div class="row"><div class="d-lg-none alert alert-info">Scroll the plot sideways to view all data.</div><div id="serology"></div></div>
+          </div>
+        </div>
+        <!-- Wastewater Uppsala -->
+        <div class="row">
+          <div class="col-md mb-2">
+            <div class="row"><h6><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#uppsala">Amount of SARS-CoV-2 in Uppsala wastewater <i class="fas fa-arrow-circle-right"></i></a></h6></div>
+            <div class="row"><div class="d-lg-none alert alert-info">Scroll the plot sideways to view all data.</div><div id="uppsala_wastewater"></div></div>
+          </div>
+        </div>
+        <!-- Wastewater Stockholm -->
+        <div class="row">
+          <div class="col-md mb-2">
+            <div class="row"><h6><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#stockholm">Amount of SARS-CoV-2 in Stockholm wastewater <i class="fas fa-arrow-circle-right"></i></a></h6></div>
+            <div class="row"><div class="d-lg-none alert alert-info">Scroll the plot sideways to view all data.</div><div id="stockholm_wastewater"></div></div>
+          </div>
+        </div>
+        <!-- Wastewater Umeå -->
+        <div class="row">
+          <div class="col-md mb-2">
+            <div class="row"><h6><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#umea">Amount of SARS-CoV-2 in Umeå wastewater <i class="fas fa-arrow-circle-right"></i></a></h6></div>
+            <div class="row"><div class="d-lg-none alert alert-info">Scroll the plot sideways to view all data.</div><div id="umea_wastewater"></div></div>
+          </div>
+        </div>
+        <!-- Wastewater Örebro -->
+        <div class="row">
+          <div class="col-md mb-2">
+            <div class="row"><h6><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#orebro">Amount of SARS-CoV-2 in Örebro wastewater <i class="fas fa-arrow-circle-right"></i></a></h6></div>
+            <div class="row"><div class="d-lg-none alert alert-info">Scroll the plot sideways to view all data.</div><div id="orebro_wastewater"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Partner projects -->
+      <div class="container mb-5">
+        <div class="row"><h2>Partner projects</h2></div>
       </div>
     </div>
-    {{ end }}
+
+    <!-- Right sidebar -->
+    <div class="col-lg-4">
+
+      <!-- About the portal -->
+      <div class="container">
+        <div class="row"><h4>About this portal</h4></div>
+        <div class="row">
+          <p>The Swedish COVID-19 Data Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing. The portal is a national node of the <a href="https://covid19dataportal.org/">European COVID-19 Data Portal</a>. The portal is operated by the <a href="https://scilifelab.se/data/">SciLifeLab Data Centre</a> and partners. Suggestions, corrections, and other comments are most welcome.</p>
+        </div>
+      </div>
+
+      <!-- Your your data ad -->
+      <div class="container mt-2">
+        <div class="row bg-danger text-white pt-2 px-3"><h4>Share new COVID-19 data</h4></div>
+        <div class="row bg-danger text-white pb-3 px-3">The portal team is happy to assist you with submitting your data to open repositories or answer any questions about data management.</div>
+        <div class="row bg-danger text-white pb-3 px-3"><h6><a style="color:white" href="">Support request <i class="fas fa-arrow-circle-right"></i></a></h6></div>
+      </div>
+
+      <!-- External support services -->
+      <div class="container mt-3">
+        <div class="row"><h4>External support services</h4></div>
+        <div class="row">
+           {{ range .Site.Menus.main }}
+                {{ if eq .Identifier "support_services" }}
+                  <div class="col homepage-accordions px-0">
+                    {{ range .Children }}
+                      <div class="card">
+                        <div class="card-header">
+                          <a href="{{ .Page.RelPermalink }}">{{ .Pre }}<span class="{{ if .Pre }}ml-2{{ end }} mr-2">{{ .Name }}</span>{{ .Post }}</a>
+                        </div>
+                      </div>
+                    {{ end }}
+                  </div>
+                {{ end }}
+            {{ end }}
+          </div>
+        </div>
+
+    </div>
+
   </div>
 
-  <div class="col">
-    <div class="row"><h2>{{ $.Param "teststats.name" }}</h2></div>
-    <div class="row"><span class="small text-muted">{{ $.Param "teststats.desc" | markdownify }}</span></div>
-    <div class="row">
-      <div class="col-md mx-3 mb-2">
-        <div class="row"><h5>{{ $.Param "teststats.npctitle" }}</h5></div>
-        <div class="row"><div id="npc"></div></div>
-        <div class="row"><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/health_data/npc-statistics/">{{ $.Param "teststats.seemoretext" }} <i class="fas fa-arrow-circle-right"></i></a></div>
-      </div>
-      <div class="col-md mx-3 mb-2">
-        <div class="row"><h5>{{ $.Param "teststats.serologytitle" }}</h5></div>
-        <div class="row"><div id="serology"></div></div>
-        <div class="row"><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/health_data/serology-statistics/">{{ $.Param "teststats.seemoretext" }} <i class="fas fa-arrow-circle-right"></i></a></div>
-      </div>
-    </div>
-  </div>
 
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
@@ -142,7 +190,9 @@
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
 
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/e4c6a7b8bff648a5adaabbdd3d994bf9.js?id=serology"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/4889dfd3392f4dc7a2e7f579f1cc95bf.js?id=npc"></script>
-
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/c5af1cd4c07741298b931d0d4cbf9156.js?id=uppsala_wastewater"></script>
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/017c5db7e9cf47aea6be323c13b61a25.js?id=stockholm_wastewater"></script>
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/f2eebe5990a6430fa57fefa5e34da81b.js?id=umea_wastewater"></script>
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/c922ca88bdec49e0a9b62ff67090b402.js?id=orebro_wastewater"></script>
 
 {{ end }}
