@@ -8,8 +8,7 @@ menu:
 ---
 
 <div class="alert alert-info small">
-  <p><i class="fas fa-exclamation-triangle"></i>Nationellt Pandemicenter (NPC) vid Karolinska Institutet upphörde med
-sina aktiviteter 2020-12-21.</p>
+  <p><i class="fas fa-exclamation-triangle"></i>Nationellt Pandemiskt center på Karolinska Institutet upphörde med högkapacitets PCR diagnostik 2020-12-21.</p>
   <p><span class="font-weight-bold">Den data som visas här har slutat uppdateras</span> och utgör endast historisk dokumentation.</p>
   <a href="https://nyheter.ki.se/covid-19-tester-ki-atergar-till-ordinarie-laboratorieverksamhet-men-har-fortsatt-beredskap">KIs pressmeddelande</a>
 </div>
