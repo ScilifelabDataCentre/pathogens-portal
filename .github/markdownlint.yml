@@ -27,3 +27,4 @@ no-inline-html:
     - li
     - figure
     - sup
+    - figcaption
