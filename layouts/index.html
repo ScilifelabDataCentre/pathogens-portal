@@ -74,15 +74,38 @@
     <div class="row"><h2>{{ $.Param "teststats.name" }}</h2></div>
     <div class="row"><span class="small text-muted">{{ $.Param "teststats.desc" | markdownify }}</span></div>
     <div class="row">
-      <div class="col-md mx-3 mb-2">
-        <div class="row"><h5>{{ $.Param "teststats.npctitle" }}</h5></div>
-        <div class="row"><div id="npc"></div></div>
-        <div class="row"><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/health_data/npc-statistics/">{{ $.Param "teststats.seemoretext" }} <i class="fas fa-arrow-circle-right"></i></a></div>
-      </div>
-      <div class="col-md mx-3 mb-2">
+      <div class="col">
         <div class="row"><h5>{{ $.Param "teststats.serologytitle" }}</h5></div>
         <div class="row"><div id="serology"></div></div>
         <div class="row"><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/health_data/serology-statistics/">{{ $.Param "teststats.seemoretext" }} <i class="fas fa-arrow-circle-right"></i></a></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="row"><h5>{{ $.Param "teststats.uppsala_wastewater" }}</h5></div>
+        <div class="row"><div id="uppsala_wastewater"></div></div>
+        <div class="row"><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#uppsala">{{ $.Param "teststats.seemoretext" }} <i class="fas fa-arrow-circle-right"></i></a></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="row"><h5>{{ $.Param "teststats.stockholm_wastewater" }}</h5></div>
+        <div class="row"><div id="stockholm_wastewater"></div></div>
+        <div class="row"><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#stockholm">{{ $.Param "teststats.seemoretext" }} <i class="fas fa-arrow-circle-right"></i></a></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="row"><h5>{{ $.Param "teststats.umeaa_wastewater" }}</h5></div>
+        <div class="row"><div id="umeaa_wastewater"></div></div>
+        <div class="row"><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#umea">{{ $.Param "teststats.seemoretext" }} <i class="fas fa-arrow-circle-right"></i></a></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="row"><h5>{{ $.Param "teststats.orebro_wastewater" }}</h5></div>
+        <div class="row"><div id="orebro_wastewater"></div></div>
+        <div class="row"><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#orebro">{{ $.Param "teststats.seemoretext" }} <i class="fas fa-arrow-circle-right"></i></a></div>
       </div>
     </div>
   </div>
@@ -93,7 +116,8 @@
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
 
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/e4c6a7b8bff648a5adaabbdd3d994bf9.js?id=serology"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/4889dfd3392f4dc7a2e7f579f1cc95bf.js?id=npc"></script>
-
-
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/48e8c01dbdb5415ea278549cba592b34.js?id=uppsala_wastewater"></script>
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/017c5db7e9cf47aea6be323c13b61a25.js?id=stockholm_wastewater"></script>
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/c922ca88bdec49e0a9b62ff67090b402.js?id=umeaa_wastewater"></script>
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/c922ca88bdec49e0a9b62ff67090b402.js?id=orebro_wastewater"></script>
 {{ end }}

@@ -6,6 +6,10 @@ teststats:
         npctitle: COVID-19 tests at NPC
         serologytitle: SARS-CoV-2 antibody tests at SciLifeLab
         seemoretext: See all graphs
+        uppsala_wastewater: Amount of SARS-CoV-2 in Uppsala wastewater
+        stockholm_wastewater: Amount of SARS-CoV-2 in Stockholm wastewater
+        orebro_wastewater: Amount of SARS-CoV-2 in Örebro wastewater
+        umeaa_wastewater: Amount of SARS-CoV-2 in Umeå wastewater
 ---
 
 The Swedish COVID-19 Data Portal provides information, guidelines, tools and services to support researchers in utilising Swedish and European infrastructures for data sharing, in particular the [European COVID-19 Data Portal](https://covid19dataportal.org).
