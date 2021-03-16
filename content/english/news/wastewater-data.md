@@ -26,16 +26,13 @@ In Stockholm, associate professor Zeynep Cetecioglu Gurol, KTH Royal Institute o
 
 In addition, the researchers in Stockholm have shown, in preliminary yet unpublished data, that increased SARS-CoV-2 levels in Stockholm correspond to both increased ICU admission levels and positive case numbers (see figure below). Zeynep Cetecioglu Gurol explains: "These results are important to show the significant correlation between gene copy number of SARS-CoV-2 in wastewater and positive case numbers. In addition of the reflection of transmission in the population, wastewater data provides us an early information of upcoming waves."
 
-<figure class="figure mx-2 w-50">
-  <img src="/news/banners/wastewater_stockholm_figure.png" class="img-thumbnail">
-  <figcaption class="figure-caption mt-1"><i>The amount of SARS-CoV-2 virus in wastewater and the number of COVID-19 cases in Stockholm. Source: research group of Zeynep Cetecioglu Gurol.</i></figcaption>
-</figure>
+<figure class="figure mx-2 w-50"><img src="/news/banners/wastewater_stockholm_figure.png" class="img-thumbnail"><figcaption class="figure-caption mt-1"><i>The amount of SARS-CoV-2 virus in wastewater and the number of COVID-19 cases in Stockholm. Source: research group of Zeynep Cetecioglu Gurol.</i></figcaption></figure>
 
 Associate professor Maja Malmberg, SLU, is collaborating with [Mette Myrmel](https://www.nmbu.no/emp/mette.myrmel) at the Norwegian University of Life Sciences to measure SARS CoV-2 levels in Umeå and Örebro. "By sharing our SARS CoV-2 wastewater data openly on the COVID-19 Data Portal we can in an easy and quick way make the results available to the general public, relevant authorities and researchers. I hope this can be useful as an early warning system for new waves of COVID-19 and contribute to preparedness for future pandemics," says Maja Malmberg.
 
 The graphs and data download links [can be found here](/data_types/environment/wastewater/). The datasets behind these graphs will be updated on a weekly basis.
 
-#### Page with wastewater epidemiology data:
+#### Page with wastewater epidemiology data
 
 <div class="row"><div class="col">
 <ul><li><a href="/data_types/environment/wastewater/#uppsala">Amount of SARS-CoV-2 in Uppsala wastewater</a></li>
