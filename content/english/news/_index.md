@@ -5,10 +5,10 @@ cascade:
   banner_caption: "3D rendering of a SARS-CoV-2 virion."
   toc: false
 menu:
-    news:
-        identifier: news
-        post: Latest published data highlights. [See all highlights.](/news/)
-        weight: 10
+    homepage_highlights:
+        name: Data highlights
+        identifier: highlights
+        post: Highlights of recent openly shared data and data re-use. <a href="/news/">See all highlights <i class="fas fa-arrow-circle-right"></i></a>
     footer_sections:
         name: Data highlights
         weight: 5

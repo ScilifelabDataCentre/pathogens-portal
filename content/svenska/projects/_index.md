@@ -1,5 +1,10 @@
 ---
 title: Forskningsprojekt relaterade till covid-19
+menu:
+    homepage_projects:
+      name: Forskningsprojekt
+      identifier: projects
+      post: Text in Swedish.
 ---
 
 - [Publikationer rörande covid-19 från svenska lärosäten](/sv/publications/)

@@ -8,6 +8,10 @@ menu:
     footer_sections:
         name: Sample Collections
         weight: 10
+    homepage_biobanks:
+        name: Sample Collection Database
+        identifier: biobanks
+        post: Registry of Swedish biobanks and sample collections for COVID-19 research. <a href="/biobanks/">About the database <i class="fas fa-arrow-circle-right"></i></a>
 toc: false
 ---
 
