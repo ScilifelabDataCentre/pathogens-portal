@@ -1,7 +1,7 @@
 ---
 title: Hem
 teststats:
-        name: Recent SARS-CoV-2 testing results in Sweden SWE
+        name: Recent SARS-CoV-2 testing results in Sweden
         desc: Swedish text here.
         uppsala_wastewater_title: Mängd SARS-CoV-2 virus i Uppsalas avloppsvatten
         stockholm_wastewater_title: Mängd SARS-CoV-2 virus i Stockholms avloppsvatten
