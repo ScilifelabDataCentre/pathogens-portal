@@ -66,6 +66,10 @@ SciLifeLab faciliteten har ny bytt namn - [Autoimmunity and Serology Profiling f
 
 #### Publikationer
 
+* Dillner, J., Elfström, K. M., Blomqvist, J., Eklund, C., Lagheden, C., Nordqvist-Kleppe, S., Hellström, C., Olofsson, J., Andersson, E., Jernbom Falk, A., Bergström, S., Hultin, E., Pin, E., Månberg, A., Nilsson, P., Hedhammar, M., Hober, S., Mattsson, J., Arroyo Mühr, L. S., Conneryd Lundgren, K.. Antibodies to SARS-CoV-2 and risk of past or future sick leave. *Scientific Reports* **11**, 5160 (2021). [https://doi.org/10.1038/s41598-021-84356-w](https://doi.org/10.1038/s41598-021-84356-w)
+
+* Dillner, J., Elfström, K. M., Blomqvist, J., Engstrand, L., Uhlén, M., Eklund, C., Boulund, F., Lagheden, C., Hamsten, M., Nordqvist-Kleppe, S., Seifert, M., Hellström, C., Olofsson, J., Andersson, E., Jernbom Falk, A., Bergström, S., Hultin, E., Pin, E., Pimenoff, V. N., Hassan, S., Månberg, A., Nilsson, P., Hedhammar, M., Hober, S., Mattsson, J., Arroyo Mühr, L. S., Conneryd Lundgren, K. High amounts of SARS-CoV-2 precede sickness among asymptomatic healthcare workers. *The Journal of Infectious Diseases*, jiab099 (2021). [https://doi.org/10.1093/infdis/jiab099](https://doi.org/10.1093/infdis/jiab099)
+
 * Rudberg, A.S., Havervall, S., Månberg, A., Falk, A.J., Aguilera, K., Ng, H., Gabrielsson, L., Salomonsson, A.C., Hanke, L., Murrell, B., McInerney, G., Olofsson J., Andersson, E., Hellström, C., Bayati, S., Bergström, S., Pin, E., Sjöberg, R., Tegel, H., Hedhammar, M., Phillipson, M., Nilsson, P., Hober, S., Thålin, C. SARS-CoV-2 exposure, symptoms and seroprevalence in healthcare workers in Sweden. *Nature Communications* **11**, 5064 (2020). [https://doi.org/10.1038/s41467-020-18848-0](https://doi.org/10.1038/s41467-020-18848-0)
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
