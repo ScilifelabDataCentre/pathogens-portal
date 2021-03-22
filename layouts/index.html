@@ -9,106 +9,257 @@
 
 {{ define "main" }}
 
-  {{ .Content }}
+  <!-- Main content -->
+  <div class="row">
+    <div class="col-lg-8 vert-line-right">
 
-  <div>
-    {{ range .Site.Menus.news }}
-    <h2>{{ .Name }}</h2>
-    {{ if .Post }}<p class="small text-muted">{{ .Post | markdownify}}</p>{{ end }}
-    {{ end }}
-    {{ $news_high := where .Site.RegularPages "Section" "news" }}
-    {{ if eq $.Site.Language.LanguageName "Svenska" }}
-    {{ $display_alert := false }}
-    {{ range first 3 $news_high }} {{ if .Params.needs_translation }} {{ $display_alert = true }} {{ end }} {{ end }}
-    {{ if $display_alert }}<div class="alert alert-info">
-      <i class="fas fa-exclamation-triangle"></i>
-      <span class="small">Svensk översättning för de engelska texterna kommer inom kort.</span>
-    </div> {{ end }}
-    {{ end }}
-      <div class="row">
-        {{ range first 3 $news_high }}
-            <div class="col-md mx-2 mb-2 border bg-light">
-              <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
-              <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
-              <p class="small text-muted">{{.Date.Format "2006-01-02"}}</p>
-              <p> {{ .Summary }} <br><a href="{{ .RelPermalink }}">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).readmore_text }} <i class="fas fa-arrow-circle-right"></i></a></p>
-            </div>
-        {{ end }}
-      </div>
-  </div>
+      <!-- Available data -->
 
-  <div class="row mb-4 homepage-accordions">
-    {{ range .Site.Menus.main }}
-    <div class="col-md">
-      <h2 class="mt-4" id="{{ urlize .Identifier }}">{{ .Name }}</h2>
-      {{ if .Post }}<p class="small text-muted">{{ .Post }}</p>{{ end }}
-      <div class="accordion" id="{{ urlize .Identifier }}_accordion">
-      {{ range .Children }}
-        <div class="card">
-          <div class="card-header">
-              {{ if .HasChildren }}
-              <a href="{{ .Page.RelPermalink }}" data-toggle="collapse" data-target="#{{ urlize .Identifier }}" aria-expanded="false" aria-controls="{{ urlize .Identifier }}">
-                {{ .Pre }}<span class="{{ if .Pre }}ml-2{{ end }} mr-2">{{ .Name }}</span>{{ .Post }}<i class="fas fa-caret-down"></i>
-              </a>
-              {{ else }}
-              <a href="{{ .Page.RelPermalink }}">{{ .Pre }}<span class="{{ if .Pre }}ml-2{{ end }} mr-2">{{ .Name }}</span>{{ .Post }}</a>
-              {{ end }}
-          </div>
-          {{ if .HasChildren }}
-          <div id="{{ urlize .Identifier }}" class='collapse' data-parent="#{{ urlize .Parent }}_accordion">
-            <ul class="list-group list-group-flush border-top">
-              {{ range .Children }}
-                <li class="list-group-item"><a href="{{ .Page.RelPermalink }}"><span class="mr-2">{{ .Name }}</span>{{ .Post }}</a></li>
-              {{ end }}
-            </ul>
-          </div>
+      {{/*
+        Get all entries with available data into an array
+      */}}
+
+      {{ $all_entries := slice }}
+      {{ $valid_db_list := slice "URL" "NA" "N/A" "GENBANK" "PDB" "BioProject" "GEO" "ISRCTN" "Dryad" "PubChem-Substance" "RefSeq" "dbGaP"}}
+
+      {{ range $index, $entry := $.Site.Data.publications.publications }}
+      {{ $has_data := false }}
+        {{ range .xrefs }}
+          {{ if in $valid_db_list .db }}
+            {{ $has_data = true}}
           {{ end }}
-        </div>
+        {{ end }}
+        {{ if $has_data }}
+          {{ $all_entries = $all_entries | append $entry }}
+        {{ end }}
       {{ end }}
-      </div>
+
+      {{/*
+        Count how many entries we have for each data type
+      */}}
+
+      {{ $all_data_types := slice "Category: Biochemistry" "Category: Drug Discovery" "Category: Genomics & transcriptomics" "Category: Health" "Category: Imaging" "Category: Other" "Category: Proteins" "Category: Public Health" "Category: Serology" }}
+      {{ $num_entries_per_data_type := dict }}
+
+      {{ range $all_data_types }}
+        {{ $current_type := . }}
+        {{ $num_entries := 0 }}
+        {{ range $all_entries }}
+          {{ range $key, $content := .labels }}
+            {{ if eq $key $current_type}}
+                {{ $num_entries = add $num_entries 1}}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        {{ $data_type_num_entries := dict $current_type $num_entries }}
+        {{ $num_entries_per_data_type = merge $num_entries_per_data_type $data_type_num_entries }}
+      {{ end }}
+
+      {{/*
+        The following bit ensures that it is not necessary to copy the datatypes_to_display list in the Swedish version of the page
+      */}}
+
+      {{ $datatypes_to_display := slice }}
+      {{ $path := strings.TrimPrefix "/sv" (strings.TrimRight "/" (string .Page.RelPermalink)) }}
+      {{ with .Sites.First.GetPage $path }}
+          {{ $datatypes_to_display = .Params.datatypes_to_display }}
+      {{ end }}
+
+      <div class="container mb-5">
+        {{ range .Site.Menus.homepage_available_data }}
+        <div class="row"><h2>{{ .Name }}</h2></div>
+        <div class="row"><p class="small text-muted">{{ .Post }}</p></div>
+        {{ end }}
+        <div class="row"><div class="row">
+        {{ $data_types_menu := .Site.Menus.horizontal | append .Site.Menus.other_data}}
+        {{ range $data_types_menu }}
+                <div class="col-md-4"><h5><a href="{{ .Page.RelPermalink }}">
+                  {{ .Name }}
+                  {{ $section_title := string "" }}
+                  {{ if eq $.Site.Language.LanguageName "Svenska" }}
+                    {{ $section_title =  .Params.title_eng}}
+                  {{ else }}
+                    {{ $section_title = .Title}}
+                  {{ end }}
+                  {{ $this_type := strings.TrimRight " data" (lower $section_title) }}
+                  {{ if eq $section_title "Protein data"}}
+                    {{ $this_type = "proteins"}}
+                  {{ end }}
+                  {{ range $type, $num := $num_entries_per_data_type }}
+                    {{ $type_in_dict := strings.TrimRight " data" ( strings.TrimPrefix "category: " (lower $type) ) }}
+                    {{ if eq $this_type $type_in_dict }}
+                      ({{ $num }})
+                    {{ end }}
+                  {{ end }}
+                <i class="fas fa-arrow-circle-right"></i></a></h5></div>
+        {{ end }}
+        </div></div>
     </div>
-    {{ end }}
+
+      <!-- Data highlights -->
+      <div class="container mb-5">
+        {{ range .Site.Menus.homepage_highlights }}
+        <div class="row"><h2>{{ .Name }}</h2></div>
+        <div class="row"><p class="small text-muted">{{ .Post }}</p></div>
+        {{ end }}
+        <div class="row">
+        {{ $news_high := where .Site.RegularPages "Section" "news" }}
+        {{ if eq $.Site.Language.LanguageName "Svenska" }}
+        {{ $display_alert := false }}
+        {{ range first 3 $news_high }} {{ if .Params.needs_translation }} {{ $display_alert = true }} {{ end }} {{ end }}
+        {{ if $display_alert }}<div class="alert alert-info">
+          <i class="fas fa-exclamation-triangle"></i>
+          <span class="small">Svensk översättning för de engelska texterna kommer inom kort.</span>
+        </div> {{ end }}
+        {{ end }}
+          <div class="row">
+            {{ range first 3 $news_high }}
+                <div class="col-md mx-2 mb-2 border bg-light">
+                  <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
+                  <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
+                  <p class="small text-muted">{{.Date.Format "2006-01-02"}}</p>
+                </div>
+            {{ end }}
+          </div>
+          </div>
+      </div>
+
+      <!-- Sample Collection Database -->
+      <div class="container mb-5">
+        {{ range .Site.Menus.homepage_biobanks }}
+        <div class="row"><h2>{{ .Name }}</h2></div>
+        <div class="row"><p class="small text-muted">{{ .Post }}</p></div>
+        {{ end }}
+        <div class="row">
+          <div class="col-md-4">
+          <div class="row"><h5>{{ if eq $.Site.Language.LanguageName "Svenska" }}Biobanker{{ else }}Biobanks{{ end }}: 16</h5></div>
+          <div class="row"><h5>{{ if eq $.Site.Language.LanguageName "Svenska" }}Provsamlingar{{ else }}Collections{{ end }}: 27</h5></div>
+          <div class="row align-items-end">
+            <h5><a target="_blank" href="https://biobanks.covid19dataportal.se/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Sök i provsamlingsregistret{{ else }}Search in the database{{ end }} <i class="fas fa-arrow-circle-right"></i></a></h5></div>
+          </div>
+          <div class="col-md-8">
+            <img class="img-thumbnail" src="/img/biobanks/scd_scr.png" alt="Sample Collection Database">
+          </div>
+        </div>
+      </div>
+
+      <!-- Research projects -->
+      <div class="container mb-5">
+        {{ range .Site.Menus.homepage_projects }}
+        <div class="row"><h2>{{ .Name }}</h2></div>
+        <div class="row"><p class="small text-muted">{{ .Post }}</p></div>
+        {{ end }}
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row"><h5>{{ if eq $.Site.Language.LanguageName "Svenska" }}<a href="/sv/publications/">Publikationer ({{ len $.Site.Data.publications.publications }}) <i class="fas fa-arrow-circle-right"></i></a>{{ else }}<a href="/publications/">Publications ({{ len $.Site.Data.publications.publications }}) <i class="fas fa-arrow-circle-right"></i></a>{{ end }}</h5></div>
+            <div class="row"><h5>{{ if eq $.Site.Language.LanguageName "Svenska" }}<a href="/sv/projects/ongoing/">Stora forskningsprojekt ({{ len $.Site.Data.funded_projects }}) <i class="fas fa-arrow-circle-right"></i></a>{{ else }}<a href="/projects/ongoing/">Ongoing research projects ({{ len $.Site.Data.funded_projects }}) <i class="fas fa-arrow-circle-right"></i></a>{{ end }}</h5></div>
+            {{ $funding_opportunities := 0 }}
+            {{ range $.Site.Data.funding_opportunities }}
+              {{ if ne .status "closed" }}
+                {{ $funding_opportunities = add $funding_opportunities 1}}
+              {{ end }}
+            {{ end }}
+            <div class="row"><h5>{{ if eq $.Site.Language.LanguageName "Svenska" }}<a href="/sv/projects/funding/">Kommande forskningsanslag ({{ $funding_opportunities }}) <i class="fas fa-arrow-circle-right"></i></a>{{ else }}<a href="/projects/funding/">Funding opportunities ({{ $funding_opportunities }}) <i class="fas fa-arrow-circle-right"></i></a>{{ end }}</h5></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Visualizations pages -->
+      <div class="container mb-5">
+        <div class="row"><h2>{{ $.Param "teststats.name" }}</h2></div>
+        <div class="row"><p class="small text-muted">{{ $.Param "teststats.desc" }}</p></div>
+        <!-- Serology testing -->
+        <div class="row">
+          <div class="col-md mb-2">
+            <div class="row"><h6><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/health_data/serology-statistics/">{{ $.Param "teststats.serologytitle" }} <i class="fas fa-arrow-circle-right"></i></a></h6></div>
+            <div class="row"><div class="d-lg-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div><div id="serology"></div></div>
+          </div>
+        </div>
+        <!-- Wastewater Uppsala -->
+        <div class="row">
+          <div class="col-md mb-2">
+            <div class="row"><h6><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#uppsala">{{ $.Param "teststats.uppsala_wastewater_title" }} <i class="fas fa-arrow-circle-right"></i></a></h6></div>
+            <div class="row">
+              <div class="d-lg-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+              <div id="uppsala_wastewater"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Wastewater Stockholm -->
+        <div class="row">
+          <div class="col-md mb-2">
+            <div class="row"><h6><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#stockholm">{{ $.Param "teststats.stockholm_wastewater_title" }} <i class="fas fa-arrow-circle-right"></i></a></h6></div>
+            <div class="row">
+              <div class="d-lg-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+              <div id="stockholm_wastewater"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Wastewater Umeå -->
+        <div class="row">
+          <div class="col-md mb-2">
+            <div class="row"><h6><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#umea">{{ $.Param "teststats.umeaa_wastewater_title" }} <i class="fas fa-arrow-circle-right"></i></a></h6></div>
+            <div class="row">
+              <div class="d-lg-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+            <div id="umea_wastewater"></div>
+          </div>
+          </div>
+        </div>
+        <!-- Wastewater Örebro -->
+        <div class="row">
+          <div class="col-md mb-2">
+            <div class="row"><h6><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#orebro">{{ $.Param "teststats.orebro_wastewater_title" }} <i class="fas fa-arrow-circle-right"></i></a></h6></div>
+            <div class="row">
+              <div class="d-lg-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+              <div id="orebro_wastewater"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Right sidebar -->
+    <div class="col-lg-4">
+
+      <!-- About the portal -->
+      <div class="container">
+        <div class="row"><h4>{{ if eq $.Site.Language.LanguageName "Svenska" }}Om dataportalen{{ else }}About this portal{{ end }}</h4></div>
+        <div class="row">
+          {{ .Content }}
+        </div>
+      </div>
+
+      <!-- Your your data ad -->
+      <div class="container mt-2">
+        <div class="row share-new-data text-white pt-2 px-3"><h4>Share new COVID-19 data</h4></div>
+        <div class="row share-new-data text-white pb-3 px-3">The portal team is happy to assist you with submitting your data to open repositories or answer any questions about data management.</div>
+        <div class="row share-new-data text-white pb-3 px-3"><h6><a style="color:white" href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/contact/">Support request <i class="fas fa-arrow-circle-right"></i></a></h6></div>
+      </div>
+
+      <!-- External support services -->
+      <div class="container mt-3">
+        <div class="row"><h4>{{ if eq $.Site.Language.LanguageName "Svenska" }}Externa stödtjänster{{ else }}External support services{{ end }}</h4></div>
+        <div class="row">
+           {{ range .Site.Menus.main }}
+                {{ if eq .Identifier "support_services" }}
+                  <div class="col homepage-accordions px-0">
+                    {{ range .Children }}
+                      <div class="card">
+                        <div class="card-header">
+                          <a href="{{ .Page.RelPermalink }}">{{ .Pre }}<span class="{{ if .Pre }}ml-2{{ end }} mr-2">{{ .Name }}</span>{{ .Post }}</a>
+                        </div>
+                      </div>
+                    {{ end }}
+                  </div>
+                {{ end }}
+            {{ end }}
+          </div>
+        </div>
+
+    </div>
   </div>
 
-  <div class="col">
-    <div class="row"><h2>{{ $.Param "teststats.name" }}</h2></div>
-    <div class="row"><span class="small text-muted">{{ $.Param "teststats.desc" | markdownify }}</span></div>
-    <div class="row">
-      <div class="col">
-        <div class="row"><h5>{{ $.Param "teststats.serologytitle" }}</h5></div>
-        <div class="row"><div id="serology"></div></div>
-        <div class="row"><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/health_data/serology-statistics/">{{ $.Param "teststats.seemoretext" }} <i class="fas fa-arrow-circle-right"></i></a></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <div class="row"><h5>{{ $.Param "teststats.uppsala_wastewater" }}</h5></div>
-        <div class="row"><div id="uppsala_wastewater"></div></div>
-        <div class="row"><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#uppsala">{{ $.Param "teststats.seemoretext" }} <i class="fas fa-arrow-circle-right"></i></a></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <div class="row"><h5>{{ $.Param "teststats.stockholm_wastewater" }}</h5></div>
-        <div class="row"><div id="stockholm_wastewater"></div></div>
-        <div class="row"><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#stockholm">{{ $.Param "teststats.seemoretext" }} <i class="fas fa-arrow-circle-right"></i></a></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <div class="row"><h5>{{ $.Param "teststats.umeaa_wastewater" }}</h5></div>
-        <div class="row"><div id="umeaa_wastewater"></div></div>
-        <div class="row"><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#umea">{{ $.Param "teststats.seemoretext" }} <i class="fas fa-arrow-circle-right"></i></a></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <div class="row"><h5>{{ $.Param "teststats.orebro_wastewater" }}</h5></div>
-        <div class="row"><div id="orebro_wastewater"></div></div>
-        <div class="row"><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#orebro">{{ $.Param "teststats.seemoretext" }} <i class="fas fa-arrow-circle-right"></i></a></div>
-      </div>
-    </div>
-  </div>
 
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
@@ -118,6 +269,7 @@
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/e4c6a7b8bff648a5adaabbdd3d994bf9.js?id=serology"></script>
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/48e8c01dbdb5415ea278549cba592b34.js?id=uppsala_wastewater"></script>
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/017c5db7e9cf47aea6be323c13b61a25.js?id=stockholm_wastewater"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/c922ca88bdec49e0a9b62ff67090b402.js?id=umeaa_wastewater"></script>
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/f2eebe5990a6430fa57fefa5e34da81b.js?id=umea_wastewater"></script>
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/c922ca88bdec49e0a9b62ff67090b402.js?id=orebro_wastewater"></script>
+
 {{ end }}

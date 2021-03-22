@@ -8,6 +8,10 @@ menu:
     footer_sections:
         name: Provsamlingsregistret
         weight: 10
+    homepage_biobanks:
+        name: Provsamlingsregistret
+        identifier: biobanks
+        post: Text in Swedish. <a href="/sv/biobanks/">Om det svenska provsamlingsregistret <i class="fas fa-arrow-circle-right"></i></a>
 ---
 
 ### Om det svenska Covid-19 Provsamlingsregistret

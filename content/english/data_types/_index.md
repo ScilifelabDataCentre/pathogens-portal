@@ -5,6 +5,11 @@ menu:
         identifier: data_types
         post: Click to expand a data type and see available resources.
         weight: 10
+    homepage_available_data:
+        name: Available data
+        identifier: available_data
+        post: Data available from research groups in Sweden. <a href="/data_types/all/data/">See available data for all data types <i class="fas fa-arrow-circle-right"></i></a>
+
 ---
 
 * **All data types**
