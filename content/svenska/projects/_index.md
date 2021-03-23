@@ -1,5 +1,10 @@
 ---
 title: Forskningsprojekt relaterade till covid-19
+menu:
+    homepage_projects:
+      name: Forskningsprojekt
+      identifier: projects
+      post: Översikt över pågående svenska forskningsprojekt och öppna utlysningar från anslagsgivare.
 ---
 
 - [Publikationer rörande covid-19 från svenska lärosäten](/sv/publications/)

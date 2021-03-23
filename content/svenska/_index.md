@@ -1,9 +1,12 @@
 ---
 title: Hem
 teststats:
-        name: Statistik om tester
-        desc: Den svenska dataportalen för covid-19 har sidor med statistik om COVID-19-tester som utförs av [Nationellt Pandemicenter](/sv/data_types/health_data/npc-statistics/) (till och med december 2020) och om antikroppstester för  SARS-CoV-2 som utförs av [SciLifeLab Autoimmunity and Serology profiling facility](/sv/data_types/health_data/serology-statistics/) (uppdateras manuellt).
-        npctitle: COVID-19 tester som utförs av NPC
+        name: Data från SARS-CoV-2 testning i Sverige
+        desc: Sidorna visar nya dataset och visualiseringar av SARS-CoV-2 och covid-19 tester som utfört av ett antal olika faciliteter.
+        uppsala_wastewater_title: Mängd SARS-CoV-2 virus i Uppsalas avloppsvatten
+        stockholm_wastewater_title: Mängd SARS-CoV-2 virus i Stockholms avloppsvatten
+        umeaa_wastewater_title: Mängd SARS-CoV-2 virus i Umeås avloppsvatten
+        orebro_wastewater_title: Mängd SARS-CoV-2 virus i Örebros avloppsvatten
         serologytitle: Antikroppstester som utförs av SciLifeLab
         seemoretext: Se mer
         uppsala_wastewater: Mängd SARS-CoV-2 virus i Uppsalas avloppsvatten
@@ -12,6 +15,4 @@ teststats:
         umeaa_wastewater: Mängd SARS-CoV-2 virus i Umeås avloppsvatten
 ---
 
-Den svenska dataportalen för covid-19 tillhandahåller information, riktlinjer, verktyg och tjänster för att stödja forskare att använda svenska och europeiska tjänster för datadelning, särskilt den [europeiska dataportalen för covid-19](https://covid19dataportal.org).
-
-Om du arbetar med covid-19-data i Sverige och har frågor om datadelning och datahantering kontakta SciLifeLab Data Centre: datacentre@scilifelab.se. Vi är tillgängliga för att svara på alla datarelaterade frågor. Vi välkomnar [förslag på nya funktioner och verktyg](/sv/suggestions/) samt förbättringsförslag från både forskarsamhälle och allmänhet
+Den svenska dataportalen för covid-19 tillhandahåller information, riktlinjer, verktyg och tjänster för att stödja forskare att använda svenska och europeiska tjänster för datadelning. Portalen är den svenska noden av-[European COVID-19 Data Portal](https://covid19dataportal.org) och drivs av [SciLifeLab Data Centre](https://scilifelab.se/data/) och samarbetspartners. Förslag, ändringar och kommentarer är [alltid välkomna](/contact/).

@@ -96,7 +96,8 @@
       <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).dt_data_types }}</h5>
       <div class="col mb-2">
                 <div class="row">{{ if or (eq .Title "All data types") (eq .Title "Alla datatyper") }}<b>{{ else }}<a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/data_types/all/data/">{{ end }}{{ if eq $.Site.Language.LanguageName "Svenska" }}Alla datatyper {{ else }}All data types {{ end }}({{ len $all_entries }}){{ if or (eq .Title "All data types") (eq .Title "Alla datatyper") }}</b>{{ else }}</a>{{ end }}</div>
-        {{ range .Site.Menus.horizontal }}
+        {{ $data_types_menu := .Site.Menus.horizontal | append .Site.Menus.other_data}}
+        {{ range $data_types_menu }}
                 <div class="row">
                   {{ if eq .Title $current_page}}
                   <b>
@@ -114,34 +115,6 @@
                   {{ if eq $section_title "Protein data"}}
                     {{ $this_type = "proteins"}}
                   {{ end }}
-                  {{ range $type, $num := $num_entries_per_data_type }}
-                    {{ $type_in_dict := strings.TrimRight " data" ( strings.TrimPrefix "category: " (lower $type) ) }}
-                    {{ if eq $this_type $type_in_dict }}
-                      ({{ $num }})
-                    {{ end }}
-                  {{ end }}
-                  {{ if eq .Title $current_page}}
-                  </b>
-                  {{ else }}
-                  </a>
-                  {{ end }}
-                </div>
-        {{ end }}
-        {{ range .Site.Menus.other_data }}
-                <div class="row">
-                  {{ if eq .Title $current_page}}
-                  <b>
-                  {{ else }}
-                  <a href="{{ .Page.RelPermalink }}">
-                  {{ end }}
-                  {{ .Title }}
-                  {{ $section_title := string "" }}
-                  {{ if eq $.Site.Language.LanguageName "Svenska" }}
-                    {{ $section_title =  .Params.title_eng}}
-                  {{ else }}
-                    {{ $section_title = .Title}}
-                  {{ end }}
-                  {{ $this_type := strings.TrimRight " data" (lower $section_title) }}
                   {{ range $type, $num := $num_entries_per_data_type }}
                     {{ $type_in_dict := strings.TrimRight " data" ( strings.TrimPrefix "category: " (lower $type) ) }}
                     {{ if eq $this_type $type_in_dict }}

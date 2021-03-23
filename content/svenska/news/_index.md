@@ -5,10 +5,10 @@ cascade:
   banner_caption: "3D-rendering av en virion av SARS-CoV-2."
   toc: false
 menu:
-    news:
-        identifier: news
-        post: Senaste publicerade data i fokus. [Se alla.](/sv/news/)
-        weight: 10
+    homepage_highlights:
+      name: Data i fokus
+      identifier: higlights
+      post: Nyhetsnotiser som lyfter fram delade forskningsdata eller data återanvändning. <a href="/sv/news/">Se alla data i fokus <i class="fas fa-arrow-circle-right"></i></a>
     footer_sections:
         name: Data i fokus
         weight: 5
