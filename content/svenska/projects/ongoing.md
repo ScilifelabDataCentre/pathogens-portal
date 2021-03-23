@@ -15,6 +15,6 @@ Detta är en manuellt sammanställd lista över forskningsprojekt relaterade til
 
 Forskningsprojekt relaterade till covid-19 med godkända etiska ansökningar (t.o.m. oktober 2020) [finner du här](https://www.kliniskastudier.se/statistik/kliniska-studier-rorande-covid-19.html).
 
-<i>Senast uppdaterad: 2021.02.17</i>
+<i>Senast uppdaterad: 2021.03.23</i>
 
 {{< funded_projects >}}
