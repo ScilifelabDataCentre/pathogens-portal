@@ -232,9 +232,9 @@
 
       <!-- Your your data ad -->
       <div class="container mt-2">
-        <div class="row share-new-data text-white pt-2 px-3"><h4>Share new COVID-19 data</h4></div>
-        <div class="row share-new-data text-white pb-3 px-3">The portal team is happy to assist you with submitting your data to open repositories or answer any questions about data management.</div>
-        <div class="row share-new-data text-white pb-3 px-3"><h6><a style="color:white" href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/contact/">Support request <i class="fas fa-arrow-circle-right"></i></a></h6></div>
+        <div class="row share-new-data text-white pt-2 px-3"><h4>{{ if eq $.Site.Language.LanguageName "Svenska" }}Dela nya covid-19 data{{ else }}Share new COVID-19 data{{ end }}</h4></div>
+        <div class="row share-new-data text-white pb-3 px-3">{{ if eq $.Site.Language.LanguageName "Svenska" }}Teamet som arbetar med covid-19 dataportalen hjälper dig gärna dela dina forskningsdata i öppna databaser och svarar på frågor om datadelning, datahantering eller andra datarelaterade frågor.{{ else }}The portal team is happy to assist you with submitting your data to open repositories or answer any questions about data management.{{ end }}</div>
+        <div class="row share-new-data text-white pb-3 px-3"><h6><a style="color:white" href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/contact/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Support{{ else }}Support request{{ end }} <i class="fas fa-arrow-circle-right"></i></a></h6></div>
       </div>
 
       <!-- External support services -->

@@ -6,8 +6,6 @@ menu:
         weight: 5
 ---
 
-Den svenska COVID-19 dataportalen samlar  tillgängliga dataset, pågående forskningsprojekt, kommande finansieringsmöjligheter,  och publikationer och pre-prints rörande Covid-19 och SARS-CoV-2 från forskare verksamma vid ett svenskt lärosäte.
+Om du har ett dataset du vill dela i ett öppet datarepositorie men behöver support eller har frågor rörande datahantering relaterat till ett covid-19 forskningsprojekt hjälper [teamet som arbetar med covid-19 dataportalen](/sv/about/) dig gärna. Fyll i formuläret nedan eller maila oss på [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se).
 
-Vi välkomnar förslag på nya funktioner och verktyg samt förbättringsförslag från både forskarsamhälle och allmänhet. Fyll enkelt i  formuläret nedan. Vi kommer därefter att utvärdera om ditt förslag kan läggas till covid-19 dataportalen. Du är välkommen att exempelvis skicka länkar till dataset, projekt, publikationer etc. eller länkar till publicerade artiklar som du saknar i publikationsdatabasen.
-
-Om du har data som du vill dela öppet men du inte är säker på hur du kan göra det hjälper vi i teamet som arbetar med covid-19 dataportalen dig gärna att hitta en lösning. Fyll i formuläret eller skicka ett epostmeddelande: datacenter@scilifelab.se.
+Den svenska covid-19 dataportalen samlar  tillgängliga dataset, pågående forskningsprojekt, kommande finansieringsmöjligheter, och publikationer och pre-prints rörande covid-19 och SARS-CoV-2 från forskare verksamma vid ett svenskt lärosäte. Vi välkomnar förslag på nya funktioner och verktyg samt förbättringsförslag från både forskarsamhälle och allmänhet. Fyll enkelt i  formuläret nedan. Vi kommer därefter att utvärdera om ditt förslag kan läggas till covid-19 dataportalen. Du är välkommen att exempelvis skicka länkar till dataset, projekt, publikationer etc. eller länkar till publicerade artiklar som du saknar i publikationsdatabasen.

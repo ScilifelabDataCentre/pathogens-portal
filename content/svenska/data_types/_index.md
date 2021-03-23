@@ -6,9 +6,9 @@ menu:
         post: Klicka för att utöka en datatyp och se tillgängliga resurser.
         weight: 10
     homepage_available_data:
-        name: Available data
+        name: Tillgängliga data
         identifier: available_data
-        post: Swedish text here. <a href="/sv/data_types/all/data/">See available data for all data types <i class="fas fa-arrow-circle-right"></i></a>
+        post: Data tillgängliga från svenska forskargrupper. <a href="/sv/data_types/all/data/">Se tillgängliga data för alla datatyper <i class="fas fa-arrow-circle-right"></i></a>
 ---
 
 * **Genomiks &amp; transcriptomik**
