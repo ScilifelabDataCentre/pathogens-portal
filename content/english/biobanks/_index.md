@@ -21,7 +21,7 @@ The [Swedish COVID-19 Sample Collection Database](https://biobanks.covid19datapo
 
 Both the so-called *healthcare sample collections* and *research sample collections* are listed in the database. Healthcare sample collections are intended for diagnostics, treatment, and healthcare use but can be made available if a corresponding ethical approval from the Swedish Ethical Review Authority has been obtained. In case of the research sample collections, the responsible researcher has the right of disposal to the sample collection and. Requests should be made directly to collection head. However, the new research study needs to either fall under the original ethics research approval or a new one will need to be obtained.
 
-As of February 2021, the Sample Collection Database contains information about **26 sample collections** from **16 different biobanks**. The database is gradually expanded as information about new sample collections and biobanks is submitted.
+As of March 2021, the Sample Collection Database contains information about **28 sample collections** from **16 different biobanks**. The database is gradually expanded as information about new sample collections and biobanks is submitted.
 
 [**Search in the COVID-19 Sample Collection Database**](https://biobanks.covid19dataportal.se/)
 
