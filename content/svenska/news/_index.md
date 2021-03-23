@@ -8,7 +8,7 @@ menu:
     homepage_highlights:
       name: Data i fokus
       identifier: higlights
-      post: Text in Swedish <a href="/sv/news/">Se alla data i fokus <i class="fas fa-arrow-circle-right"></i></a>
+      post: Nyhetsnotiser som lyfter fram delade forskningsdata eller data återanvändning. <a href="/sv/news/">Se alla data i fokus <i class="fas fa-arrow-circle-right"></i></a>
     footer_sections:
         name: Data i fokus
         weight: 5

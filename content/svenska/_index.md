@@ -1,8 +1,8 @@
 ---
 title: Hem
 teststats:
-        name: Recent SARS-CoV-2 testing results in Sweden
-        desc: Swedish text here.
+        name: Data från SARS-CoV-2 testning i Sverige
+        desc: Sidorna visar nya dataset och visualiseringar av SARS-CoV-2 och covid-19 tester som utfört av ett antal olika faciliteter.
         uppsala_wastewater_title: Mängd SARS-CoV-2 virus i Uppsalas avloppsvatten
         stockholm_wastewater_title: Mängd SARS-CoV-2 virus i Stockholms avloppsvatten
         umeaa_wastewater_title: Mängd SARS-CoV-2 virus i Umeås avloppsvatten
@@ -11,4 +11,4 @@ teststats:
         seemoretext: Se mer
 ---
 
-Den svenska dataportalen för covid-19 tillhandahåller information, riktlinjer, verktyg och tjänster för att stödja forskare att använda svenska och europeiska tjänster för datadelning, särskilt den [europeiska dataportalen för covid-19](https://covid19dataportal.org).
+Den svenska dataportalen för covid-19 tillhandahåller information, riktlinjer, verktyg och tjänster för att stödja forskare att använda svenska och europeiska tjänster för datadelning. Portalen är den svenska noden av-[European COVID-19 Data Portal](https://covid19dataportal.org) och drivs av [SciLifeLab Data Centre](https://scilifelab.se/data/) och samarbetspartners. Förslag, ändringar och kommentarer är [alltid välkomna](/contact/).
