@@ -28,12 +28,12 @@ Notera att resultaten i  dataseten och som visas i diagrammen är preliminära d
 
 ##### Kombinerade mätningar av SARS-CoV-2 virus i avloppsvatten Uppsala
 
-<div class="d-lg-none alert alert-info">
+<div class="d-md-none alert alert-info">
   Skrolla grafen horisontellt för att se alla data..
 </div>
 
 <div class="plot_wrapper">
-  <div id="uppsala_combined"></div>
+  <div class="table-responsive" id="uppsala_combined"></div>
 </div>
 
 <div class="row ml-1"><a class="btn" data-toggle="collapse" href="#uppsala_ab_plot" role="button" aria-expanded="false" aria-controls="uppsala_ab_plot" style="font-weight: 500">
@@ -43,11 +43,11 @@ Notera att resultaten i  dataseten och som visas i diagrammen är preliminära d
 <div class="collapse" id="uppsala_ab_plot">
   <div class="card card-body">
     <div class="row"><div class="col">
-    <div class="d-lg-none alert alert-info">
+    <div class="d-md-none alert alert-info">
       Skrolla grafen horisontellt för att se alla data..
     </div>
     <div class="plot_wrapper">
-      <div id="uppsala_ab"></div>
+      <div class="table-responsive" id="uppsala_ab"></div>
     </div>
     </div></div>
   </div>
@@ -60,11 +60,11 @@ Notera att resultaten i  dataseten och som visas i diagrammen är preliminära d
 <div class="collapse" id="uppsala_c_plot">
   <div class="card card-body">
     <div class="row"><div class="col">
-    <div class="d-lg-none alert alert-info">
+    <div class="d-md-none alert alert-info">
       Skrolla grafen horisontellt för att se alla data..
     </div>
     <div class="plot_wrapper">
-      <div id="uppsala_c"></div>
+      <div class="table-responsive" id="uppsala_c"></div>
     </div>
     </div></div>
   </div>
@@ -88,7 +88,7 @@ Se även [forskargruppens webbsida där sammanfattningar av data och preliminär
 </div>
 
 <div class="plot_wrapper">
-  <div id="stockholm_combined"></div>
+  <div class="table-responsive" id="stockholm_combined"></div>
 </div>
 
 <div class="small text-muted">*NB: Alla prover innan vecka 21 har kommit till labbet vecka 21. Mellan vecka 21 ochh 33 hr prover analyserats varanann vecka. Mellan vecka 21 och 33 har Efter vecka 33 har proverna analyserats verje vecka.</div>
@@ -112,12 +112,12 @@ Mängden SARS-CoV-2 RNA per vecka mäts/visauliseras jämfört med mängden SARS
 **Forskargruppledare:** Maja Malmberg (SLU, Sveriges Lantbruksuniversitet)  
 **Kontakt:** maja.malmberg@slu.se
 
-<div class="d-lg-none alert alert-info">
+<div class="d-md-none alert alert-info">
   Skrolla grafen horisontellt för att se alla data..
 </div>
 
 <div class="plot_wrapper">
-  <div id="umea_combined"></div>
+  <div class="table-responsive" id="umea_combined"></div>
 </div>
 
 <a id="orebro"><h2>Mängden SARS-CoV-2 i avloppsvatten från  avloppsreningsanläggningar i Örebro</h2></a>
@@ -133,12 +133,12 @@ Mängden SARS-CoV-2 RNA per vecka mäts / visaualiseras jämfört med mängden S
 **Forskargruppledare:** Maja Malmberg (SLU, Sveriges Lantbruksuniversitet)  
 **Kontakt:** maja.malmberg@slu.se
 
-<div class="d-lg-none alert alert-info">
+<div class="d-md-none alert alert-info">
   Skrolla grafen horisontellt för att se alla data..
 </div>
 
 <div class="plot_wrapper">
-  <div id="orebro_combined"></div>
+  <div class="table-responsive" id="orebro_combined"></div>
 </div>
 
 <a id="background"><h2>Bakgrund</h2></a>

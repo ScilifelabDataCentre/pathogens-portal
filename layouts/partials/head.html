@@ -45,7 +45,7 @@
   {{ end }}
 
   <!-- plotly -->
-  {{ if or (eq .Page.RelPermalink "/projects/dashboard/") (eq .Page.RelPermalink "/sv/projects/dashboard/")}}
+  {{ if or (or (eq .Page.RelPermalink "/projects/dashboard/") (eq .Page.RelPermalink "/sv/projects/dashboard/")) .IsHome }}
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   {{ end }}
 
