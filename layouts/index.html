@@ -266,8 +266,8 @@
           <div class="row"><h4>{{ if eq $.Site.Language.LanguageName "Svenska" }}Samarbetsprojekt{{ else }}Partner projects{{ end }}</h4></div>
           <div class="row border">
             <div class="col mx-3">
-              <div class="row mt-3"><a target="_blank" href="/data_types/health_data/crush_covid/"><img src="/img/logos/crush_covid_logo.png" alt="CRUSH Covid" height="25"></a></div>
-              <div class="row mt-3"><p><a href="/data_types/health_data/crush_covid/">CRUSH Covid</a> maps outbreaks in Uppsala County by visualizing the number of cases, test positivity, geographic distribution, age distribution, etc. Data on positivity per postal code is available for download and further re-use.</p></div>
+              <div class="row mt-3"><a target="_blank" href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/data_types/health_data/crush_covid/"><img src="/img/logos/crush_covid_logo.png" alt="CRUSH Covid" height="25"></a></div>
+              <div class="row mt-3"><p><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/data_types/health_data/crush_covid/">CRUSH Covid</a> maps outbreaks in Uppsala County by visualizing the number of cases, test positivity, geographic distribution, age distribution, etc. Data on positivity per postal code is available for download and further re-use.</p></div>
             </div>
           </div>
           </div>
