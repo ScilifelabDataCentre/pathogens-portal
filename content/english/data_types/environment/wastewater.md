@@ -29,12 +29,12 @@ Note that the scores provided in this dataset and depicted in plots are prelimin
 
 ##### Wastewater collection channels in Uppsala combined
 
-<div class="d-lg-none alert alert-info">
+<div class="d-md-none alert alert-info">
   Scroll the plot sideways to view all data.
 </div>
 
 <div class="plot_wrapper">
-  <div id="uppsala_combined"></div>
+  <div class="table-responsive" id="uppsala_combined"></div>
 </div>
 
 <div class="row ml-1"><a class="btn" data-toggle="collapse" href="#uppsala_ab_plot" role="button" aria-expanded="false" aria-controls="uppsala_ab_plot" style="font-weight: 500">
@@ -44,11 +44,11 @@ Note that the scores provided in this dataset and depicted in plots are prelimin
 <div class="collapse" id="uppsala_ab_plot">
   <div class="card card-body">
     <div class="row"><div class="col">
-    <div class="d-lg-none alert alert-info">
+    <div class="d-md-none alert alert-info">
       Scroll the plot sideways to view all data.
     </div>
     <div class="plot_wrapper">
-      <div id="uppsala_ab"></div>
+      <div class="table-responsive" id="uppsala_ab"></div>
     </div>
     </div></div>
   </div>
@@ -61,11 +61,11 @@ Note that the scores provided in this dataset and depicted in plots are prelimin
 <div class="collapse" id="uppsala_c_plot">
   <div class="card card-body">
     <div class="row"><div class="col">
-    <div class="d-lg-none alert alert-info">
+    <div class="d-md-none alert alert-info">
       Scroll the plot sideways to view all data.
     </div>
     <div class="plot_wrapper">
-      <div id="uppsala_c"></div>
+      <div class="table-responsive" id="uppsala_c"></div>
     </div>
     </div></div>
   </div>
@@ -89,7 +89,7 @@ See also [the page of the research group where summaries of data and preliminary
 </div>
 
 <div class="plot_wrapper">
-  <div id="stockholm_combined"></div>
+  <div class="table-responsive" id="stockholm_combined"></div>
 </div>
 
 <div class="small text-muted">*NB: All samples until week 21 of 2020 were received by the lab in week 21. Between weeks 21 and 33 of 2020 samples were analyzed biweekly. After week 33 of 2020, samples were analyzed weekly.</div>
@@ -113,12 +113,12 @@ The amount of SARS-CoV-2 for each week is measured/depicted compared to the amou
 **Principal investigator:** Maja Malmberg (SLU, Swedish University of Agricultural Sciences)  
 **Contact:** maja.malmberg@slu.se
 
-<div class="d-lg-none alert alert-info">
+<div class="d-md-none alert alert-info">
   Scroll the plot sideways to view all data.
 </div>
 
 <div class="plot_wrapper">
-  <div id="umea_combined"></div>
+  <div class="table-responsive" id="umea_combined"></div>
 </div>
 
 <a id="orebro"><h2>Amount of SARS-CoV-2 in Örebro wastewater</h2></a>
@@ -134,12 +134,12 @@ After preparation, the viruses were extracted using ultra filtration and analyze
 **Principal investigator:** Maja Malmberg (SLU, Swedish University of Agricultural Sciences)  
 **Contact:** maja.malmberg@slu.se
 
-<div class="d-lg-none alert alert-info">
+<div class="d-md-none alert alert-info">
   Scroll the plot sideways to view all data.
 </div>
 
 <div class="plot_wrapper">
-  <div id="orebro_combined"></div>
+  <div class="table-responsive" id="orebro_combined"></div>
 </div>
 
 <a id="background"><h2>Background: Wastewater-based epidemiology</h2></a>
