@@ -118,6 +118,7 @@
                   <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
                   <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
                   <p class="small text-muted">{{.Date.Format "2006-01-02"}}</p>
+                  <p>{{ .Summary }}</p>
                 </div>
             {{ end }}
           </div>
@@ -172,16 +173,19 @@
         <div class="row">
           <div class="col-md mb-2">
             <div class="row"><h6><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/health_data/serology-statistics/">{{ $.Param "teststats.serologytitle" }} <i class="fas fa-arrow-circle-right"></i></a></h6></div>
-            <div class="row"><div class="d-lg-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div><div id="serology"></div></div>
-          </div>
+            <div class="row">
+              <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+              <div class="table-responsive" id="serology"></div>
+            </div>
+            </div>
         </div>
         <!-- Wastewater Uppsala -->
         <div class="row">
           <div class="col-md mb-2">
             <div class="row"><h6><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#uppsala">{{ $.Param "teststats.uppsala_wastewater_title" }} <i class="fas fa-arrow-circle-right"></i></a></h6></div>
             <div class="row">
-              <div class="d-lg-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
-              <div id="uppsala_wastewater"></div>
+              <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+              <div class="table-responsive" id="uppsala_wastewater"></div>
             </div>
           </div>
         </div>
@@ -190,8 +194,8 @@
           <div class="col-md mb-2">
             <div class="row"><h6><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#stockholm">{{ $.Param "teststats.stockholm_wastewater_title" }} <i class="fas fa-arrow-circle-right"></i></a></h6></div>
             <div class="row">
-              <div class="d-lg-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
-              <div id="stockholm_wastewater"></div>
+              <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+              <div class="table-responsive" id="stockholm_wastewater"></div>
             </div>
           </div>
         </div>
@@ -200,8 +204,8 @@
           <div class="col-md mb-2">
             <div class="row"><h6><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#umea">{{ $.Param "teststats.umeaa_wastewater_title" }} <i class="fas fa-arrow-circle-right"></i></a></h6></div>
             <div class="row">
-              <div class="d-lg-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
-            <div id="umea_wastewater"></div>
+              <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+            <div class="table-responsive" id="umea_wastewater"></div>
           </div>
           </div>
         </div>
@@ -210,8 +214,8 @@
           <div class="col-md mb-2">
             <div class="row"><h6><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#orebro">{{ $.Param "teststats.orebro_wastewater_title" }} <i class="fas fa-arrow-circle-right"></i></a></h6></div>
             <div class="row">
-              <div class="d-lg-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
-              <div id="orebro_wastewater"></div>
+              <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+              <div class="table-responsive" id="orebro_wastewater"></div>
             </div>
           </div>
         </div>
