@@ -75,7 +75,6 @@ Note that the scores provided in this dataset and depicted in plots are prelimin
   </div>
 </div>
 
-
 <a id="stockholm"><h2>Amount of SARS-CoV-2 in wastewater treatment facilities in Stockholm</h2></a>
 
 This project, lead by associate professor Zeynep Cetecioglu Gurol and colleagues (KTH Royal Institute of Technology), is a collaboration between the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and the [SEED](https://www.kth.se/en/seed) and [Chemical Engineering](https://www.kth.se/ket/chemical-engineering-1.784196) departments at KTH, in close collaboration with Stockholm Vatten och Avfall and the Käppala Association. The sampling of wastewater, started in mid-April 2020, from Bromma, Henriksdal, and Käppala wastewater treatment plants (WWTP). These treatment plants receive wastewater from a population of approximately 360,000; 860,000 and 500,000, respectively. Please consult [this map for the exact catchment area of the wastewater collection channels in Käppala](/wastewater/map_Kappala.pdf) and [this map for the exact catchment area of the wastewater collection channels in Bromma and Henriksdal](/wastewater/map_Bromma_Henriksdal.pdf).
