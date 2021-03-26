@@ -163,6 +163,10 @@ Once approved, they will be merged and deployed.
 
 This website supports [ImJoy](https://imjoy.io) plugins which can be used to visualize, annotate, run analysis directly from the website. Please see the file DOCUMENTATION/ImJoy.md for examples of usage.
 
+## Adding data highlights
+
+Data highlights section of the portal works based on a number of custom functions. We therefore wrote instructions on how to add new data highlights, please see the file DOCUMENTATION/adding_new_data_highlights.md.
+
 ## How to get help
 
 If in doubt, you can ask for help on the [`#covid-19-data-portal`](https://scilifelab.slack.com/archives/C012X6S0D3N) channel on the SciLifeLab Slack, or email [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se).
