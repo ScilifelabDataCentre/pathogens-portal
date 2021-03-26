@@ -4,7 +4,7 @@
 
 {{ if eq $.Site.Language.LanguageName "Svenska" }}
 {{ $display_alert := false }}
-{{ range .RegularPages }}{{ if .Params.needs_translation }} {{ $display_alert = true }} {{ end }} {{ end }}
+{{ range .RegularPages }}{{ if and .Params.needs_translation (eq $.Site.Language.LanguageName "Svenska") }} {{ $display_alert = true }} {{ end }} {{ end }}
   {{ if $display_alert}}
   <div class="alert alert-info">
     <i class="fas fa-exclamation-triangle"></i>
