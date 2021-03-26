@@ -41,7 +41,7 @@ Andersson, M., Johansson, S., Karlsson, A. Title of the journal publication *Jou
 
 ```
 
-On the top of the file, surrounded by `---`, basic information for this data highlight is provided. It contains the title; publication date (desired; Hugo needs to be run on that day or later for it to appear); summary text that appears in the homepage and in the main page of the Data highlights section; location of the illustration to be displayed on the homepage (`banner`); localtion of the illustration on the page of the highlight (`banner_large`); caption text that will appear under the illustration on the page of the highlight; information about whether a Swedish translation is still needed or not (`needs_translation: yes` or `needs_translation: no``).
+On the top of the file, surrounded by `---`, basic information for this data highlight is provided. It contains the title; publication date (desired; Hugo needs to be run on that day or later for it to appear); summary text that appears in the homepage and in the main page of the Data highlights section; location of the illustration to be displayed on the homepage (`banner`); localtion of the illustration on the page of the highlight (`banner_large`); caption text that will appear under the illustration on the page of the highlight; information about whether a Swedish translation is still needed or not (`needs_translation: yes` or `needs_translation: no`).
 
 The title, date, summary, illustrations will appear where they are supposed to be.
 
