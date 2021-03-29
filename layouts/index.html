@@ -268,14 +268,14 @@
           <div class="row border">
             <div class="col mx-3 mb-2">
               <div class="row mt-3"><a target="_blank" href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/data_types/health_data/crush_covid/"><img src="/img/logos/crush_covid_logo.png" alt="CRUSH Covid" height="25"></a></div>
-              <div class="row mt-3"><span>CRUSH Covid maps outbreaks in Uppsala County by visualizing the number of cases, test positivity, geographic distribution, age distribution, etc. Data on positivity per postal code <a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/data_types/health_data/crush_covid/">is available for download and further re-use</a>.</span></div>
+              <div class="row mt-3"><span>{{ if eq $.Site.Language.LanguageName "Svenska" }}CRUSH Covid kartlägger SARS-COV-2 utbrott i Region Uppsala genom att visualisera antal prover som tagits, antal positiva prover, geografisk distribution, åldersfördelning mm. Data över antal positiva fall i ett visst postnummerområde <a href="/sv/data_types/health_data/crush_covid/">finns tillgängligt för datadelning och återanvändning av data</a>.{{ else }}CRUSH Covid maps outbreaks in Uppsala County by visualizing the number of cases, test positivity, geographic distribution, age distribution, etc. Data on positivity per postal code <a href="/data_types/health_data/crush_covid/">is available for download and further re-use</a>.{{ end }}</span></div>
             </div>
           </div>
           <!-- COVID Symptom Study Sweden -->
           <div class="row mt-2 border">
             <div class="col mx-3">
-                <div class="row"><h5><a target="_blank" href="">COVID Symptom Study Sweden</a></h5></div>
-                <div class="row"><span>CSSS continuously collects data on COVID-19 prevalence, symptoms, and vaccinations through a smartphone app with over 200.000 users in Sweden. Collected raw data <a href="https://www.covid19app.lu.se/forskare">can be requested for use in research projects</a>.</span></div>
+                <div class="row"><h5><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/news/symptom-study-sweden/">COVID Symptom Study Sweden</a></h5></div>
+                <div class="row"><span>{{ if eq $.Site.Language.LanguageName "Svenska" }}CSSS samlar kontinuerligt in data om Covid-19 förekomste, symptom, och vaccinationer med hjälp av en smartphone app med över 200.000 användare i Sverige. Insamlade rådata <a target="_blank" href="https://www.covid19app.lu.se/forskare">kan görs tillgängliga för forskningsprojekt</a>.{{ else }}CSSS continuously collects data on COVID-19 prevalence, symptoms, and vaccinations through a smartphone app with over 200.000 users in Sweden. Collected raw data <a target="_blank" href="https://www.covid19app.lu.se/forskare">can be requested for use in research projects</a>.{{ end }}</span></div>
                 <div class="row">{{- partial "symptoms_map_code.html" . -}}</div>
             </div>
           </div>
