@@ -20,6 +20,15 @@ The graph displays the number of publications (including both journal publicatio
 {{< publications_per_month >}}
 </div>
 
+## Ten most recent publications
+
+The table displays the ten most recent publications (including both journal publications and preprints). The date reflects the preprint upload date or the official journal publication date, whichever is the most recent. Authors are summarised in the same format as expected in 'in text' citations. Clicking on the title for a given publication will take you directly to that publication. Note though, that it will only be possible to read the full text of publication if it is open access or if you are granted access via a subscription (e.g. an institutional subscription, or private journal subscripton).
+
+<div class="table-responsive">
+{{< recent_ten >}}
+</div>
+
+
 ## Most frequent words or phrases in the titles
 
 This word cloud display most frequent words or phrases (where they make more sense) that appear in the titles of preprints or journal publications. Note that we have filtered out functional words (such as 'the', 'a', 'this', etc.) as well as words 'COVID-19' and 'SARS-CoV-2' since all publication titles contained those.
