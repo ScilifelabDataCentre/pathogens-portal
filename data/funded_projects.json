@@ -1828,6 +1828,20 @@
     "url_eng": "https://www.swecris.se/betasearch/details/project/202006320VR?lang=en"
   },
   {
+    "funder": "vr",
+    "funder_eng": "Swedish Research Council, Hjärt-Lungfonden, Swedish Foundation for Strategic Research",
+    "funder_sv": "Vetenskapsrådet, Hjärt-Lungfonden, Stiftelsen för Strategisk Forskning",
+    "project_title_eng": "Large-scale national initiative assessing symptoms, exposures and risk factors for Covid-19: COVID Symptom Study Sweden. Using a free smartphone app to facilitate real-time data collection of symptoms, exposures, and risk factors related to Covid-19.",
+    "project_title_sv": "Large-scale national initiative assessing symptoms, exposures and risk factors for Covid-19: COVID Symptom Study Sweden. Using a free smartphone app to facilitate real-time data collection of symptoms, exposures, and risk factors related to Covid-19.",
+    "pi": "Paul Franks, Maria Gomez",
+    "pi_affiliation_eng": "Lund University",
+    "pi_affiliation_sv": "Lunds universitets",
+    "start": "2020-04-29",
+    "end": "2024-10-01",
+    "url_sv": "https://www.covid19app.lu.se/",
+    "url_eng": "https://www.covid19app.lu.se/"
+  },
+  {
     "funder": "nordforsk",
     "funder_eng": "NordForsk",
     "funder_sv": "NordForsk",
