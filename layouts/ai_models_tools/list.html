@@ -1,0 +1,11 @@
+{{ define "main" }}
+
+{{ .Content }}
+
+<script>
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", "https://scilifelab.figshare.com/ndownloader/files/26654321", true);
+xmlhttp.send();
+</script>
+
+{{ end }}
