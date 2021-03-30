@@ -235,10 +235,10 @@
       </div>
 
       <!-- Your your data ad -->
-      <div class="container mt-2">
-        <div class="row share-new-data text-white pt-2 px-3"><h4>{{ if eq $.Site.Language.LanguageName "Svenska" }}Dela nya covid-19 data{{ else }}Share new COVID-19 data{{ end }}</h4></div>
-        <div class="row share-new-data text-white pb-3 px-3">{{ if eq $.Site.Language.LanguageName "Svenska" }}Teamet som arbetar med covid-19 dataportalen hjälper dig gärna dela dina forskningsdata i öppna databaser och svarar på frågor om datadelning, datahantering eller andra datarelaterade frågor.{{ else }}The portal team is happy to assist you with submitting your data to open repositories or answer any questions about data management.{{ end }}</div>
-        <div class="row share-new-data text-white pb-3 px-3"><h6><a style="color:white" href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/contact/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Support{{ else }}Support request{{ end }} <i class="fas fa-arrow-circle-right"></i></a></h6></div>
+      <div class="container mt-2 share-new-data">
+        <div class="row text-white pt-2 px-3"><h4>{{ if eq $.Site.Language.LanguageName "Svenska" }}Dela nya covid-19 data{{ else }}Share new COVID-19 data{{ end }}</h4></div>
+        <div class="row text-white pb-3 px-3">{{ if eq $.Site.Language.LanguageName "Svenska" }}Teamet som arbetar med covid-19 dataportalen hjälper dig gärna dela dina forskningsdata i öppna databaser och svarar på frågor om datadelning, datahantering eller andra datarelaterade frågor.{{ else }}The portal team is happy to assist you with submitting your data to open repositories or answer any questions about data management.{{ end }}</div>
+        <div class="row text-white pb-3 px-3"><h6><a style="color:white" href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/contact/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Support{{ else }}Support request{{ end }} <i class="fas fa-arrow-circle-right"></i></a></h6></div>
       </div>
 
       <!-- External support services -->
@@ -264,10 +264,19 @@
         <!-- Partner projects -->
         <div class="container mt-3">
           <div class="row"><h4>{{ if eq $.Site.Language.LanguageName "Svenska" }}Samarbetsprojekt{{ else }}Partner projects{{ end }}</h4></div>
+          <!-- CRUSH Covid -->
           <div class="row border">
-            <div class="col mx-3">
+            <div class="col mx-3 mb-2">
               <div class="row mt-3"><a target="_blank" href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/data_types/health_data/crush_covid/"><img src="/img/logos/crush_covid_logo.png" alt="CRUSH Covid" height="25"></a></div>
-              <div class="row mt-3"><p><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/data_types/health_data/crush_covid/">CRUSH Covid</a> maps outbreaks in Uppsala County by visualizing the number of cases, test positivity, geographic distribution, age distribution, etc. Data on positivity per postal code is available for download and further re-use.</p></div>
+              <div class="row mt-3"><span>{{ if eq $.Site.Language.LanguageName "Svenska" }}CRUSH Covid kartlägger SARS-COV-2 utbrott i Region Uppsala genom att visualisera antal prover som tagits, antal positiva prover, geografisk distribution, åldersfördelning mm. Data över antal positiva fall i ett visst postnummerområde <a href="/sv/data_types/health_data/crush_covid/">finns tillgängligt för datadelning och återanvändning av data</a>.{{ else }}CRUSH Covid maps outbreaks in Uppsala County by visualizing the number of cases, test positivity, geographic distribution, age distribution, etc. Data on positivity per postal code <a href="/data_types/health_data/crush_covid/">is available for download and further re-use</a>.{{ end }}</span></div>
+            </div>
+          </div>
+          <!-- COVID Symptom Study Sweden -->
+          <div class="row mt-2 border">
+            <div class="col mx-3">
+                <div class="row"><h5><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/news/symptom-study-sweden/">COVID Symptom Study Sweden</a></h5></div>
+                <div class="row"><span>{{ if eq $.Site.Language.LanguageName "Svenska" }}CSSS samlar kontinuerligt in data om Covid-19 förekomste, symptom, och vaccinationer med hjälp av en smartphone app med över 200.000 användare i Sverige. Insamlade rådata <a target="_blank" href="https://www.covid19app.lu.se/forskare">kan görs tillgängliga för forskningsprojekt</a>.{{ else }}CSSS continuously collects data on COVID-19 prevalence, symptoms, and vaccinations through a smartphone app with over 200.000 users in Sweden. Collected raw data <a target="_blank" href="https://www.covid19app.lu.se/forskare">can be requested for use in research projects</a>.{{ end }}</span></div>
+                <div class="row">{{- partial "symptoms_map_code.html" . -}}</div>
             </div>
           </div>
           </div>

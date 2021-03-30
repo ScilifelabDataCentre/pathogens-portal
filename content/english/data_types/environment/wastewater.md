@@ -37,6 +37,8 @@ Note that the scores provided in this dataset and depicted in plots are prelimin
   <div class="table-responsive" id="uppsala_combined"></div>
 </div>
 
+<div class="small text-muted">*Data for these weeks is not available.</div>
+
 <div class="row ml-1"><a class="btn" data-toggle="collapse" href="#uppsala_ab_plot" role="button" aria-expanded="false" aria-controls="uppsala_ab_plot" style="font-weight: 500">
   Wastewater collection channel AB, south-western part of Uppsala
   <i class="fas fa-caret-down"></i>
@@ -50,6 +52,7 @@ Note that the scores provided in this dataset and depicted in plots are prelimin
     <div class="plot_wrapper">
       <div class="table-responsive" id="uppsala_ab"></div>
     </div>
+    <div class="small text-muted">*Data for these weeks is not available.</div>
     </div></div>
   </div>
 </div>
@@ -67,6 +70,7 @@ Note that the scores provided in this dataset and depicted in plots are prelimin
     <div class="plot_wrapper">
       <div class="table-responsive" id="uppsala_c"></div>
     </div>
+    <div class="small text-muted">*Data for these weeks is not available.</div>
     </div></div>
   </div>
 </div>
@@ -121,6 +125,8 @@ The amount of SARS-CoV-2 for each week is measured/depicted compared to the amou
   <div class="table-responsive" id="umea_combined"></div>
 </div>
 
+<div class="small text-muted">*Data for these weeks is not available.</div>
+
 <a id="orebro"><h2>Amount of SARS-CoV-2 in Örebro wastewater</h2></a>
 
 This project is run by associate professor Maja Malmberg (SLU, Swedish University of Agricultural Sciences) in collaboration with [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and associate professor Mette Myrmel at the Norwegian University of Life Sciences. The amount of SARS-CoV-2 virus in the wastewater is measured in the wastewater treatment facility in Örebro. Please [consult this map for the exact catchment area of the wastewater collection channels](/wastewater/map_orebro.pdf).
@@ -141,6 +147,8 @@ After preparation, the viruses were extracted using ultra filtration and analyze
 <div class="plot_wrapper">
   <div class="table-responsive" id="orebro_combined"></div>
 </div>
+
+<div class="small text-muted">*Data for these weeks is not available.</div>
 
 <a id="background"><h2>Background: Wastewater-based epidemiology</h2></a>
 
