@@ -16,18 +16,16 @@ We present wastewater epidemiology data from four Swedish cities - Uppsala, Stoc
 
 <a id="uppsala"><h2>Amount of SARS-CoV-2 in Uppsala wastewater</h2></a>
 
-This project is run by associate professor Anna J. Székely (SLU, Swedish University of Agricultural Sciences) in collaboration with Uppsala Vatten. The amount of SARS-CoV-2 virus in the wastewater of Uppsala is estimated by analyzing raw wastewater collected at Kungsängsverket, Uppsala Vatten’s main treatment facility. The wastewater treated at the facility is collected by two main wastewater collection channels: one collects the wastewater of approximately 100 000 people from the south-western part of the city (‘AB’), and the other of almost 80 000 people from the north-eastern part of the city (‘C’). Please [consult this map for the exact catchment area of the two wastewater collection channels](/wastewater/avrinningskarta_inlopp_kungsangsverket.pdf). A combined measure based on results from both inlets is calculated as well. Measurements are taken weekly, by processing a representative sample collected over 24 hours (i.e., flow compensated sample). The SARS-CoV-2 virus content of the wastewater on the given day is normalized to the fecal matter content to avoid variation from flow differences and population fluctuation.
+This project is run by associate professor Anna J. Székely (SLU, Swedish University of Agricultural Sciences) in collaboration with Uppsala Vatten. The amount of SARS-CoV-2 virus in the wastewater of Uppsala is estimated by analyzing raw wastewater collected at Kungsängsverket, Uppsala Vatten’s main treatment facility. The wastewater treated at the facility is collected by two main wastewater collection channels and covers territory inhabited by approximately 180.000 people. Please [consult this map for the exact catchment area of the two wastewater collection channels](/wastewater/avrinningskarta_inlopp_kungsangsverket.pdf). Measurements are taken weekly, by processing a representative sample collected over 24 hours (i.e., flow compensated sample). The SARS-CoV-2 virus content of the wastewater on the given day is normalized to the fecal matter content to avoid variation from flow differences and population fluctuation.
 
 The samples are processed according to standard methods. Briefly, the viral content of the samples is concentrated according to the modified electronegative filtration method ([method C, Ahmed and colleagues, 2020](https://doi.org/10.1016/j.scitotenv.2020.139960)), viral RNA is extracted using the RNeasy PowerMicrobiome kit (Qiagen) and the copy number of SARS-CoV-2 genomes is quantified by RT-qPCR using the CDC RUO nCOV N1 assay (IDT DNA). The virus recovery efficiency of the process and the presence of potential inhibitors is monitored by adding to the samples bovine coronavirus (BCoV) as process surrogate virus. To correct for variations in population size and wastewater flow, we also quantify the pepper mild mottle virus (PMMoV) which is the most abundant RNA virus in human feces and serves as an estimator of human fecal content ([Symonds and colleagues, 2019](https://doi.org/10.1371/journal.ppat.1007639)).
 
 Note that the scores provided in this dataset and depicted in plots are preliminary. The team is still conducting method efficiency checks that might slightly modify the final results.
 
-**Download the data:** [Relative ratio of copy number of SARS-CoV-2 to PPMoV per wastewater collection channel and overall on measurement day, Excel file.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Uppsala.xlsx) Data available starting from week 38 of 2020; updated weekly.
+**Download the data:** [Relative ratio of copy number of SARS-CoV-2 to PPMoV, Excel file.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Uppsala.xlsx) Data available starting from week 38 of 2020; updated weekly.
 
 **Principal investigator:** Anna J. Székely, SLU, Swedish University of Agricultural Sciences.  
 **Contact:** anna.szekely@slu.se
-
-##### Wastewater collection channels in Uppsala combined
 
 <div class="d-md-none alert alert-info">
   Scroll the plot sideways to view all data.
@@ -38,42 +36,6 @@ Note that the scores provided in this dataset and depicted in plots are prelimin
 </div>
 
 <div class="small text-muted">*Data for these weeks is not available.</div>
-
-<div class="row ml-1"><a class="btn" data-toggle="collapse" href="#uppsala_ab_plot" role="button" aria-expanded="false" aria-controls="uppsala_ab_plot" style="font-weight: 500">
-  Wastewater collection channel AB, south-western part of Uppsala
-  <i class="fas fa-caret-down"></i>
-</a></div>
-<div class="collapse" id="uppsala_ab_plot">
-  <div class="card card-body">
-    <div class="row"><div class="col">
-    <div class="d-md-none alert alert-info">
-      Scroll the plot sideways to view all data.
-    </div>
-    <div class="plot_wrapper">
-      <div class="table-responsive" id="uppsala_ab"></div>
-    </div>
-    <div class="small text-muted">*Data for these weeks is not available.</div>
-    </div></div>
-  </div>
-</div>
-
-<div class="row ml-1"><a class="btn" data-toggle="collapse" href="#uppsala_c_plot" role="button" aria-expanded="false" aria-controls="uppsala_c_plot" style="font-weight: 500">
-  Wastewater collection channel C, north-eastern part of Uppsala
-  <i class="fas fa-caret-down"></i>
-</a></div>
-<div class="collapse" id="uppsala_c_plot">
-  <div class="card card-body">
-    <div class="row"><div class="col">
-    <div class="d-md-none alert alert-info">
-      Scroll the plot sideways to view all data.
-    </div>
-    <div class="plot_wrapper">
-      <div class="table-responsive" id="uppsala_c"></div>
-    </div>
-    <div class="small text-muted">*Data for these weeks is not available.</div>
-    </div></div>
-  </div>
-</div>
 
 <a id="stockholm"><h2>Amount of SARS-CoV-2 in wastewater treatment facilities in Stockholm</h2></a>
 
