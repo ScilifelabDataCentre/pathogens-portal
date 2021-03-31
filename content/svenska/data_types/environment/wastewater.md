@@ -15,18 +15,16 @@ Vi presenterar epidemiologiska data av mätningar av SARS-CoV-2 virus i avloppsv
 
 <a id="uppsala"><h2>Mängd SARS-CoV-2 virus i Uppsalas avloppsvatten</h2></a>
 
-Projektet leds av prof.Anna J. Székely (SLU, Sveriges Lantbruksuniversitet) i samarbete med Uppsala Vatten. Mängden SARS-CoV-2 virus i Uppsala stads avloppsvatten bestäms genom analys av avloppsvatten insamlat vid Kungsängsverket som är Uppsala Vattens största avloppsreningsverk. Avloppsvattnet från avloppsreningsverket samlas in från de två största upptagningsområdena för Uppsalas avloppsvatten: de södra delarna av Uppsala som har ca 100 000 invånare (‘AB’), and den nordöstra delarna v Uppsala som har ca. 80 000 invånare. (‘C’). [För kartor som visar respektive upptagningsområde för avloppsvattnet](/wastewater/avrinningskarta_inlopp_kungsangsverket.pdf). Kombinerade mätningar baserade på båda upptagningsområdena har beräknats. Mängd SARS-CoV-2 virus i Uppsalas avloppsvatten ett specifik datum har normaliserats jämfört med mängden mänsklig avföring för att undvika variation pga vattenflöde och populationsstorlek. Även kombinerad mängd SARS CoV-2 virus i avloppsvatten från båda upptagningsområdena beräknas och visualiseras veckovis.
+Projektet leds av prof.Anna J. Székely (SLU, Sveriges Lantbruksuniversitet) i samarbete med Uppsala Vatten. Mängden SARS-CoV-2 virus i Uppsala stads avloppsvatten bestäms genom analys av avloppsvatten insamlat vid Kungsängsverket som är Uppsala Vattens största avloppsreningsverk. Avloppsvattnet från avloppsreningsverket samlas in från de två största upptagningsområdena för Uppsalas avloppsvatten med ca. 180.000 invånare. [För kartor som visar respektive upptagningsområde för avloppsvattnet](/wastewater/avrinningskarta_inlopp_kungsangsverket.pdf). Mängd SARS-CoV-2 virus i Uppsalas avloppsvatten ett specifik datum har normaliserats jämfört med mängden mänsklig avföring för att undvika variation pga vattenflöde och populationsstorlek.
 
 Proverna bearbetas enligt standardmetoder. I korthet koncentreras virusinnehållet i proverna med hjälp av en modifierad elektronegativ filtreringsmetod ([metod C, Ahmed och kollegor, 2020](https://doi.org/10.1016/j.scitotenv.2020.139960)), virus RNA extraheras med hjälp av RNeasy PowerMicrobiome-kit (Qiagen) och mängden SARS-CoV-2 RNA kvantifieras genom RT-qPCR och användning av CDC RUO nCOV N1-analys (IDT DNA). För att studera metodens effektivitet och detektera eventuell närvaro av potentiella virushämmare tillsätts bovint koronavirus (BCoV) ett sk. process-surrogatvirus. För att korrigera för variation i populationen kvantifierar vi också pepper mild mottle virus (PMMoV), som är det vanligaste RNA-viruset i mänsklig avföring ([Symonds et al, 2019](https://doi.org/10.1371/journal.ppat.1007639)).
 
 Notera att resultaten i  dataseten och som visas i diagrammen är preliminära data. Forskargruppen genomför fortfarande kontroller av metodens effektivitet vilket kan förändra de slutliga resultaten något.
 
-**Ladda ner data:** [Relativt ratio av viruskopior SARS CoV-2  jämfört med mängd PPMoV från varje avloppsvattensupptagningsområde och mätt över en mätningsdag, Excel-fil.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Uppsala.xlsx) Data finns tillgängligt från och med vecka 38 2020; uppdateras varje vecka.
+**Ladda ner data:** [Relativt ratio av viruskopior SARS CoV-2  jämfört med mängd PPMoV, Excel-fil.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Uppsala.xlsx) Data finns tillgängligt från och med vecka 38 2020; uppdateras varje vecka.
 
 **Forskargrupppledare:** Anna J. Székely, SLU, Sveriges Lantbruksuniversitet.  
 **Kontakt:** anna.szekely@slu.se
-
-##### Kombinerade mätningar av SARS-CoV-2 virus i avloppsvatten Uppsala
 
 <div class="d-md-none alert alert-info">
   Skrolla grafen horisontellt för att se alla data..
@@ -34,40 +32,6 @@ Notera att resultaten i  dataseten och som visas i diagrammen är preliminära d
 
 <div class="plot_wrapper">
   <div class="table-responsive" id="uppsala_combined"></div>
-</div>
-
-<div class="row ml-1"><a class="btn" data-toggle="collapse" href="#uppsala_ab_plot" role="button" aria-expanded="false" aria-controls="uppsala_ab_plot" style="font-weight: 500">
-  Mätningar av SARS-CoV-2 virus i avloppsvatten Uppsala AB, sydvästra delen av Uppsala
-  <i class="fas fa-caret-down"></i>
-</a></div>
-<div class="collapse" id="uppsala_ab_plot">
-  <div class="card card-body">
-    <div class="row"><div class="col">
-    <div class="d-md-none alert alert-info">
-      Skrolla grafen horisontellt för att se alla data..
-    </div>
-    <div class="plot_wrapper">
-      <div class="table-responsive" id="uppsala_ab"></div>
-    </div>
-    </div></div>
-  </div>
-</div>
-
-<div class="row ml-1"><a class="btn" data-toggle="collapse" href="#uppsala_c_plot" role="button" aria-expanded="false" aria-controls="uppsala_c_plot" style="font-weight: 500">
-  Mätningar av SARS-CoV-2 virus i avloppsvatten Uppsala C, nordöstra delen av Uppsala
-  <i class="fas fa-caret-down"></i>
-</a></div>
-<div class="collapse" id="uppsala_c_plot">
-  <div class="card card-body">
-    <div class="row"><div class="col">
-    <div class="d-md-none alert alert-info">
-      Skrolla grafen horisontellt för att se alla data..
-    </div>
-    <div class="plot_wrapper">
-      <div class="table-responsive" id="uppsala_c"></div>
-    </div>
-    </div></div>
-  </div>
 </div>
 
 <a id="stockholm"><h2>Mängden SARS-CoV-2 i avloppsvatten från  avloppsreningsanläggningar i Stockholm</h2></a>
