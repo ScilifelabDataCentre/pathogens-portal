@@ -45,7 +45,7 @@ After concentration, filtering, and preparation, the samples are analyzed using 
 
 See also [the page of the research group where summaries of data and preliminary conclusions are presented](https://www.kth.se/water/research/covid-1.979048).
 
-**Download the data:** [Gene copy number per week in raw wastewater with bovine factor, weekly Ct values of PMMoV; Excel file.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Stockholm.xlsx) The data is divided by Inlet Henriksdal, Sickla, Hässelby, Järva, Riksby, and Käppala. Data available (partially) starting from week 16 of 2020; updated weekly.
+**Download the data:** [Gene copy number/week (raw wastewater) with bovine + PMMoV factor; Excel file.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Stockholm.xlsx) Numbers for Stockholm overall and divided by Inlet Henriksdal, Sickla, Hässelby, Järva, Riksby, and Käppala are available. Results are available (partially) starting from week 16 of 2020; updated weekly.
 
 **Principal investigator:** Zeynep Cetecioglu Gurol (KTH Royal Institute of Technology)  
 **Contact:** zeynepcg@kth.se
@@ -127,6 +127,6 @@ Please note that the graphs presented on this page are based on preliminary and 
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/6d16b18be0d74425b313040c502f29c8.js?id=uppsala_combined"></script>
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/20aa7fa76b29428fadc1884c59bc5d0b.js?id=uppsala_ab"></script>
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/a6de6f328d3d49bf97c2cd9784f012cc.js?id=uppsala_c"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/7db40a88e0f34ea69cebed7a4be51e55.js?id=stockholm_combined"></script>
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/956f9390690043b8ae5f62b90d22f84f.js?id=stockholm_combined"></script>
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/030ac237d44248dda87e2c9277a49cc7.js?id=umea_combined"></script>
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/fe03ef2220814eeeb3e99eb26a7c46e2.js?id=orebro_combined"></script>
