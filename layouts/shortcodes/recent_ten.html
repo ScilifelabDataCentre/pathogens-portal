@@ -5,9 +5,9 @@
   <table id="topTenPubTable" class="table table-striped">
     <thead>
       <tr>
-        <th style="width:10%">Published</th>
+        <th style="width:20%">Published</th>
         <th style="width:20%">Authors</th>
-        <th style="width:70%">Title</th>
+        <th style="width:60%">Title</th>
       </tr>
     </thead>
     <tbody>
@@ -18,7 +18,7 @@
 <!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
 
 <script type="text/javascript">
-  Plotly.d3.json("https://blobserver.dckube.scilifelab.se/blob/recent_ten.json", function (error, dyndata) {
+  Plotly.d3.json("https://dc-dynamic.dckube.scilifelab.se/covid-portal/recent10.json", function (error, dyndata) {
     let tbody = document.getElementById("topTenPubTable").getElementsByTagName('tbody')[0];
     dyndata["publications"].forEach(function (item) {
       let row = tbody.insertRow();
