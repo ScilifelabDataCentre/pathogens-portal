@@ -14,7 +14,7 @@ The visualisations on this page evaluate the development of COVID-19 and SARS-Co
 
 ## Number of new publications
 
-This graph displays the number of publications (including both journal publications and preprints) published each month, as well as the cumulative daily total of publications contained in the database. The dates reflect either the preprint upload date or the official journal publication date, whichever is the most recent. Where a given day of publictaion is not specified in the publication/upload date, we assign the date as the first of the month. This causes the appearance of a relatively sharp increase at the start of each month. This chart is updated daily. 
+This graph displays the number of publications (including both journal publications and preprints) published each month, as well as the cumulative daily total of publications contained in the database. The dates reflect either the preprint upload date or the official journal publication date, whichever is the most recent. Where a given day of publictaion is not specified in the publication/upload date, we assign the date as the first of the month. This causes the appearance of a relatively sharp increase at the start of each month. This chart is updated daily.
 
 <div class="table-responsive">
 {{< publications_per_month >}}
@@ -24,16 +24,15 @@ This graph displays the number of publications (including both journal publicati
 
 This table displays the ten most recent publications in our database (including both journal publications and preprints). The date reflects the preprint upload date or the official journal publication date, whichever is the most recent. Authors are summarised in the same format as expected in 'in text' citations. Clicking on the title for a given publication will take you directly to that publication. Note though, that it will only be possible to read the full text of publication if it is open access or if you are granted access via a subscription (e.g. an institutional subscription, or private journal subscripton).
 
-Any additions to the manually curated publications database will become visible on this table within a day. This feature is currently only available on the English language version of the site. 
+Any additions to the manually curated publications database will become visible on this table within a day. This feature is currently only available on the English language version of the site.
 
 <div class="table-responsive">
 {{< recent_ten >}}
 </div>
 
-
 ## Most frequent words or two word phrases in the titles
 
-These wordclouds display the words and two word phrases that appear most frequently in the titles of preprints or journal publications within the database. Note that we have filtered out commonly used words that are uninformative (e.g. 'the', 'a', 'this') as well as the words 'COVID-19' and 'SARS-CoV-2', since these appeared in almost all titles. The wordclouds are updated weekly. 
+These wordclouds display the words and two word phrases that appear most frequently in the titles of preprints or journal publications within the database. Note that we have filtered out commonly used words that are uninformative (e.g. 'the', 'a', 'this') as well as the words 'COVID-19' and 'SARS-CoV-2', since these appeared in almost all titles. The wordclouds are updated weekly.
 
 #### All publications
 
@@ -47,7 +46,7 @@ Wordclouds are displayed for each funder that we identified as having been assoc
 
 ## Most frequent words or two word phrases in the abstracts
 
-These wordclouds display the words and two word phrases that appear most frequently in the abstracts of preprints or journal publications within the database. Note that we have filtered out commonly used words that are uninformative (e.g. 'the', 'a', 'this') as well as the words 'COVID-19' and 'SARS-CoV-2', since these appeared in almost all abstracts. The wordclouds are updated weekly. 
+These wordclouds display the words and two word phrases that appear most frequently in the abstracts of preprints or journal publications within the database. Note that we have filtered out commonly used words that are uninformative (e.g. 'the', 'a', 'this') as well as the words 'COVID-19' and 'SARS-CoV-2', since these appeared in almost all abstracts. The wordclouds are updated weekly.
 
 #### All publications
 
