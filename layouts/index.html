@@ -93,6 +93,8 @@
                   {{ end }}
                 <i class="fas fa-arrow-circle-right"></i></a></h5></div>
         {{ end }}
+                <div class="col-md-4"><h5><a href="#testing_results">{{ $.Param "teststats.name" }}
+                <i class="fas fa-arrow-circle-right"></i></a></h5></div>
         </div></div>
     </div>
 
@@ -167,7 +169,7 @@
 
       <!-- Visualizations pages -->
       <div class="container mb-5">
-        <div class="row"><h2>{{ $.Param "teststats.name" }}</h2></div>
+        <div class="row"><a id="testing_results"><h2>{{ $.Param "teststats.name" }}</h2></a></div>
         <div class="row"><p class="small text-muted">{{ $.Param "teststats.desc" }}</p></div>
         <!-- Serology testing -->
         <div class="row">
