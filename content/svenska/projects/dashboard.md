@@ -9,6 +9,7 @@ menu:
     footer_sections:
         name: Statistik om forskningsartiklar
         weight: 25
+plotly: true
 ---
 Visualiseringarna på denna sida återspeglar hur produktionen av vetenskapliga forskningsartiklar kopplade till covid-19 och SARS-CoV-2 utvecklas över tid. Vi har valt att presentera en sammanställning av publicerade vetenskapliga artiklar och preprint där minst en författare är affilierad till ett svenskt lärosäte. Den svenska covid-19 publikationsdatabasen [nås här](/sv/publications/). Observera att sammanställningen görs manuellt och kan därför inte kan anses komplett. Den fullständiga sammanställningen av publikationer som visas på denna sida finns tillgänglig för nedladdning och användning för andra ändamål, se [DOI: 10.17044/scilifelab.14124014](https://doi.org/10.17044/scilifelab.14124014).
 
