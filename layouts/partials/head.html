@@ -30,8 +30,11 @@
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
   <!-- Data tables CSS -->
+  {{ if or (eq .Section "projects") (eq .Section "publications") (eq .Section "data_types")}}
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
+  {{ end }}
 
   <!-- Select2 -->
   {{ if eq .Section "biobanks" }}
@@ -45,8 +48,8 @@
   {{ end }}
 
   <!-- plotly -->
-  {{ if or (or (eq .Page.RelPermalink "/projects/dashboard/") (eq .Page.RelPermalink "/sv/projects/dashboard/")) .IsHome }}
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  {{ if $.Param "plotly" }}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.58.4/plotly.min.js"></script>
   {{ end }}
 
   <!-- Openlayers -->

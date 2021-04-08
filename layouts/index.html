@@ -93,6 +93,8 @@
                   {{ end }}
                 <i class="fas fa-arrow-circle-right"></i></a></h5></div>
         {{ end }}
+                <div class="col-md-4"><h5><a href="#testing_results">{{ $.Param "teststats.name" }}
+                <i class="fas fa-arrow-circle-right"></i></a></h5></div>
         </div></div>
     </div>
 
@@ -167,7 +169,7 @@
 
       <!-- Visualizations pages -->
       <div class="container mb-5">
-        <div class="row"><h2>{{ $.Param "teststats.name" }}</h2></div>
+        <div class="row"><a id="testing_results"><h2>{{ $.Param "teststats.name" }}</h2></a></div>
         <div class="row"><p class="small text-muted">{{ $.Param "teststats.desc" }}</p></div>
         <!-- Serology testing -->
         <div class="row">
@@ -274,8 +276,8 @@
           <!-- COVID Symptom Study Sweden -->
           <div class="row mt-2 border">
             <div class="col mx-3">
-                <div class="row"><h5><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/news/symptom-study-sweden/">COVID Symptom Study Sweden</a></h5></div>
-                <div class="row"><span>{{ if eq $.Site.Language.LanguageName "Svenska" }}CSSS samlar kontinuerligt in data om Covid-19 förekomste, symptom, och vaccinationer med hjälp av en smartphone app med över 200.000 användare i Sverige. Insamlade rådata <a target="_blank" href="https://www.covid19app.lu.se/forskare">kan görs tillgängliga för forskningsprojekt</a>.{{ else }}CSSS continuously collects data on COVID-19 prevalence, symptoms, and vaccinations through a smartphone app with over 200.000 users in Sweden. Collected raw data <a target="_blank" href="https://www.covid19app.lu.se/forskare">can be requested for use in research projects</a>.{{ end }}</span></div>
+                <div class="row"><h5><a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv/news/symptom-study-sweden/{{ else }}/data_types/health_data/symptom_study_sweden/{{ end }}">COVID Symptom Study Sweden</a></h5></div>
+                <div class="row"><span>{{ if eq $.Site.Language.LanguageName "Svenska" }}CSSS samlar kontinuerligt in data om Covid-19 förekomste, symptom, och vaccinationer med hjälp av en smartphone app med över 200.000 användare i Sverige. Insamlade rådata <a target="_blank" href="https://www.covid19app.lu.se/forskare">kan görs tillgängliga för forskningsprojekt</a>.{{ else }}CSSS continuously collects data on COVID-19 prevalence, symptoms, and vaccinations through a smartphone app with over 200.000 users in Sweden. Collected raw data <a target="_blank" href="https://www.covid19app.lu.se/forskare">can be requested for use in research projects</a>. Find out <a href="/data_types/health_data/symptom_study_sweden/">more about the project here</a>.{{ end }}</span></div>
                 <div class="row">{{- partial "symptoms_map_code.html" . -}}</div>
             </div>
           </div>

@@ -14,9 +14,11 @@ The [SciLifeLab Genomics Platform](https://www.scilifelab.se/infrastructure/?cat
 
 ### Clinical Genomics Stockholm (Diagnostics Development)
 
+In collaboration with Clinical Microbiology department at Karolinska University Hospital, Clinical Genomics Stockholm facility provides sequencing of SARS-CoV-2 using the ARTIC protocol. As part of this collaboration we can provide access to BSL-3 laboratories, high capacity DNA extraction, amplicon sequencing and bioinformatic analylsis. We have capacity to handle projects with thousands of samples, or projects in need of services in prospective manner.
+
 The Clinical Genomics Stockholm facility has developed a WGS-based workflow for understanding genetic variation, especially in rare disease diagnostics settings. This workflow includes data generation, bioinformatics analysis and interpretation in our custom-developed clinical decision support system Scout.
 
-We believe this workflow may be useful also for COVID-19 projects aiming at understanding host susceptibility. Data generation is to 30x coverage using PCR-free libraries. The bioinformatic analysis is comprehensive and includes calling of SNV, INDEL, CNV, SV, STR and UPDs. Variants are processed using a ranking model prior to being made available for interpretation in Scout. This infrastructure has been applied to analysis of >6000 WGS samples.
+We believe this workflow may be useful also for COVID-19 projects aiming at understanding host susceptibility. Data generation is to 30x coverage using PCR-free libraries. The bioinformatic analysis is comprehensive and includes calling of SNV, INDEL, CNV, SV, STR and UPDs. Variants are processed using a ranking model prior to being made available for interpretation in Scout. This infrastructure has been applied to analysis of >8000 WGS samples, including an increasing number of covid patients.
 
 The main focus of the Clinical Genomics Stockholm facility and the Diagnostics Development platform is to support transition of NGS into translational and diagnostic settings. Collaborators include research groups, healthcare, governmental agencies, industry and international groups. Please visit [our website](https://www.scilifelab.se/facilities/clinical-genomics-stockholm/) to find out more about our services, and contact us at [support@clinicalgenomics.se](mailto:support@clinicalgenomics.se) to discuss your specific project.
 
