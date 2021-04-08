@@ -26,6 +26,9 @@ Statistics for the SARS-CoV-2 antibody tests carried out at SciLifeLab Autoimmun
 ##### [CRUSH Covid data and dashboard, Region Uppsala](crush_covid)
 Number of tests and % positivity in each postal code in Uppsala län.
 
+##### [COVID Symptom Study Sweden](symptom_study_sweden)
+National research initiative for large-scale data collection and analysis of symptoms, exposure, and risk factors associated with the COVID-19 infection.
+
 ##### [National Pandemic Centre COVID-19 test statistics](npc-statistics)
 Automatically generated statistics for the COVID-19 tests done at NPC.
 Updated daily.
