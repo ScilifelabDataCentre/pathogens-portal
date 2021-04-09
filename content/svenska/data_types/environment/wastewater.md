@@ -26,8 +26,10 @@ Notera att resultaten i  dataseten och som visas i diagrammen är preliminära d
 **Forskargrupppledare:** Anna J. Székely, SLU, Sveriges Lantbruksuniversitet.  
 **Kontakt:** anna.szekely@slu.se
 
+<div class="alert alert-info">Senast uppdaterad: <span id="last_modified_uppsala"></span></div>
+
 <div class="d-md-none alert alert-info">
-  Skrolla grafen horisontellt för att se alla data..
+  Skrolla grafen horisontellt för att se alla data.
 </div>
 
 <div class="plot_wrapper">
@@ -47,8 +49,10 @@ Se även [forskargruppens webbsida där sammanfattningar av data och preliminär
 **Forskargruppledare:** Zeynep Cetecioglu Gurol (Kungliga Tekniska högskolan)  
 **Kontakt:** zeynepcg@kth.se
 
+<div class="alert alert-info">Senast uppdaterad: <span id="last_modified_stockholm"></span></div>
+
 <div class="d-lg-none alert alert-info">
-  Skrolla grafen horisontellt för att se alla data..
+  Skrolla grafen horisontellt för att se alla data.
 </div>
 
 <div class="plot_wrapper">
@@ -76,8 +80,10 @@ Mängden SARS-CoV-2 RNA per vecka mäts/visauliseras jämfört med mängden SARS
 **Forskargruppledare:** Maja Malmberg (SLU, Sveriges Lantbruksuniversitet)  
 **Kontakt:** maja.malmberg@slu.se
 
+<div class="alert alert-info">Senast uppdaterad: <span id="last_modified_umeaa"></span></div>
+
 <div class="d-md-none alert alert-info">
-  Skrolla grafen horisontellt för att se alla data..
+  Skrolla grafen horisontellt för att se alla data.
 </div>
 
 <div class="plot_wrapper">
@@ -97,8 +103,10 @@ Mängden SARS-CoV-2 RNA per vecka mäts / visaualiseras jämfört med mängden S
 **Forskargruppledare:** Maja Malmberg (SLU, Sveriges Lantbruksuniversitet)  
 **Kontakt:** maja.malmberg@slu.se
 
+<div class="alert alert-info">Senast uppdaterad: <span id="last_modified_orebro"></span></div>
+
 <div class="d-md-none alert alert-info">
-  Skrolla grafen horisontellt för att se alla data..
+  Skrolla grafen horisontellt för att se alla data.
 </div>
 
 <div class="plot_wrapper">
@@ -113,13 +121,13 @@ Avloppsvattenbaserad epidemiologi studerar mängden virusgenom i avloppsvattnet,
 
 Observera att graferna som presenteras inom sektionen baseras på preliminära och ännu inte fullständigt utvärderade data. Data som delas ska därför användas med försiktighet. Observera att eftersom olika metoder för insamling av avloppsprover och dataanalys används av olika forskningsprojekten som redovisas nedan(dvs för olika städer) är det inte möjligt jämföra virusmängen mellan projekten (dvs mellan städer). Jämförelser bör göras inom varje projekt (dvs. stad) eftersom metoden är densamma för alla mätningar. Mätningar av SARS CoV-2 i avloppsvatten bör främst ses en indikation på ökande smittspridning, tillsammans med andra datatyper som exempelvis antal positiva SARS CoV-2 test, antal patienter som behöver intensivvård etc och  bidra till kunskap om den regionala dynamiken i COVID-19-pandemi.
 
+{{< ww_dates_modified >}}
+
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.12.2"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
 
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/6d16b18be0d74425b313040c502f29c8.js?id=uppsala_combined"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/20aa7fa76b29428fadc1884c59bc5d0b.js?id=uppsala_ab"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/a6de6f328d3d49bf97c2cd9784f012cc.js?id=uppsala_c"></script>
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/956f9390690043b8ae5f62b90d22f84f.js?id=stockholm_combined"></script>
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/030ac237d44248dda87e2c9277a49cc7.js?id=umea_combined"></script>
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/fe03ef2220814eeeb3e99eb26a7c46e2.js?id=orebro_combined"></script>

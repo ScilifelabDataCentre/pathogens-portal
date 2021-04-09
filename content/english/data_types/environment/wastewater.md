@@ -27,6 +27,8 @@ Note that the scores provided in this dataset and depicted in plots are prelimin
 **Principal investigator:** Anna J. Székely, SLU, Swedish University of Agricultural Sciences.  
 **Contact:** anna.szekely@slu.se
 
+<div class="alert alert-info">Last updated: <span id="last_modified_uppsala"></span></div>
+
 <div class="d-md-none alert alert-info">
   Scroll the plot sideways to view all data.
 </div>
@@ -49,6 +51,8 @@ See also [the page of the research group where summaries of data and preliminary
 
 **Principal investigator:** Zeynep Cetecioglu Gurol (KTH Royal Institute of Technology)  
 **Contact:** zeynepcg@kth.se
+
+<div class="alert alert-info">Last updated: <span id="last_modified_stockholm"></span></div>
 
 <div class="d-lg-none alert alert-info">
   Scroll the plot sideways to view all data.
@@ -79,6 +83,8 @@ The amount of SARS-CoV-2 for each week is measured/depicted compared to the amou
 **Principal investigator:** Maja Malmberg (SLU, Swedish University of Agricultural Sciences)  
 **Contact:** maja.malmberg@slu.se
 
+<div class="alert alert-info">Last updated: <span id="last_modified_umeaa"></span></div>
+
 <div class="d-md-none alert alert-info">
   Scroll the plot sideways to view all data.
 </div>
@@ -102,6 +108,8 @@ After preparation, the viruses were extracted using ultra filtration and analyze
 **Principal investigator:** Maja Malmberg (SLU, Swedish University of Agricultural Sciences)  
 **Contact:** maja.malmberg@slu.se
 
+<div class="alert alert-info">Last updated: <span id="last_modified_orebro"></span></div>
+
 <div class="d-md-none alert alert-info">
   Scroll the plot sideways to view all data.
 </div>
@@ -120,13 +128,13 @@ Wastewater-based epidemiology studies the amount of virus genome present in the 
 
 Please note that the graphs presented on this page are based on preliminary and not yet completely evaluated data. The shared data shall therefore be used with caution. Note that because different sample collection and data analysis methods are used in different research projects below (i.e, for different cities), it is not possible to make comparisons of viral load across these projects (i.e, across cities). Comparisons should be made within each project (i.e., city) since the methodology remains the same for different weeks of measurement. Wastewater monitoring should primarily be seen as a monitoring system. Taken together with data for infection testing, intensive care admissions, etc., it may help understanding of the regional dynamics of the COVID-19 pandemic.
 
+{{< ww_dates_modified >}}
+
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.12.2"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
 
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/6d16b18be0d74425b313040c502f29c8.js?id=uppsala_combined"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/20aa7fa76b29428fadc1884c59bc5d0b.js?id=uppsala_ab"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/a6de6f328d3d49bf97c2cd9784f012cc.js?id=uppsala_c"></script>
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/956f9390690043b8ae5f62b90d22f84f.js?id=stockholm_combined"></script>
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/030ac237d44248dda87e2c9277a49cc7.js?id=umea_combined"></script>
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/fe03ef2220814eeeb3e99eb26a7c46e2.js?id=orebro_combined"></script>
