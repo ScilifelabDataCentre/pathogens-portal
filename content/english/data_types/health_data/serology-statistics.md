@@ -63,6 +63,8 @@ The SciLifeLab facility has now changed its name to [Autoimmunity and Serology P
 
 #### Publications
 
+* Havervall, S., Rosell, A., Phillipson, M., Mangsbo, S. M., Nilsson, P., Hober, S., Thålin, C. Symptoms and Functional Impairment Assessed 8 Months After Mild COVID-19 Among Health Care Workers. *JAMA*. [https://doi.org/10.1001/jama.2021.5612](https://doi.org/10.1001/jama.2021.5612)
+
 * Dillner, J., Elfström, K. M., Blomqvist, J., Eklund, C., Lagheden, C., Nordqvist-Kleppe, S., Hellström, C., Olofsson, J., Andersson, E., Jernbom Falk, A., Bergström, S., Hultin, E., Pin, E., Månberg, A., Nilsson, P., Hedhammar, M., Hober, S., Mattsson, J., Arroyo Mühr, L. S., Conneryd Lundgren, K.. Antibodies to SARS-CoV-2 and risk of past or future sick leave. *Scientific Reports* **11**, 5160 (2021). [https://doi.org/10.1038/s41598-021-84356-w](https://doi.org/10.1038/s41598-021-84356-w)
 
 * Dillner, J., Elfström, K. M., Blomqvist, J., Engstrand, L., Uhlén, M., Eklund, C., Boulund, F., Lagheden, C., Hamsten, M., Nordqvist-Kleppe, S., Seifert, M., Hellström, C., Olofsson, J., Andersson, E., Jernbom Falk, A., Bergström, S., Hultin, E., Pin, E., Pimenoff, V. N., Hassan, S., Månberg, A., Nilsson, P., Hedhammar, M., Hober, S., Mattsson, J., Arroyo Mühr, L. S., Conneryd Lundgren, K. High amounts of SARS-CoV-2 precede sickness among asymptomatic healthcare workers. *The Journal of Infectious Diseases*, jiab099 (2021). [https://doi.org/10.1093/infdis/jiab099](https://doi.org/10.1093/infdis/jiab099)
