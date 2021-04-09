@@ -22,5 +22,5 @@ Below are estimates of the prevalence of symptomatic COVID-19 cases in various c
 
 While estimates of symptomatic COVID-19 prevalence and basic demographic information about study participants are available through the project results dashboard and an R package, sharing of raw data with external researchers requires a corresponding ethical permit and a data transfer agreement. The researchers behind COVID Symptom Study Sweden welcome applications for data access. Please [see this page for more information on how to apply](https://www.covid19app.lu.se/forskare) (only available in Swedish).
 
-For more information, please visit [covid19app.lu.se](https://www.covid19app.lu.se/).    
+For more information, please visit [covid19app.lu.se](https://www.covid19app.lu.se/).  
 For questions about the study, please contact [covid-symptom-study@med.lu.se](mailto:covid-symptom-study@med.lu.se).
