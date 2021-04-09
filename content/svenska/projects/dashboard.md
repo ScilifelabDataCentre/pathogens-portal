@@ -21,9 +21,17 @@ Diagrammet visar antal publikationer (vilket inkluderar vetenskapliga artiklar o
 {{< publications_per_month >}}
 </div>
 
+## De senast publicerade publikationerna (tio senaste)
+
+Tabellen visar de tio senaste publikationerna (inkluderar både tidskriftsartiklar och preprints). Datumet som anges är antingen det första datumet ett preprint laddades upp på en preprintserver eller publikationsdatumet för vetenskapliga artiklar. Författarlistan anges i samma format som citeringar. Genom att klicka på en specifik publikation länkas du vidare till publikationen. Observera att det endast är möjligt att läsa fulltext versionen av publikationer som publiceras open access eller ifall du har tillgång till en prenumeration via högskola eller universitet samt via en egen tidskriftsprenumeration. Tillägg till den manuellt granskade publikationsdatabasen kommer bli synliga i denna tabell nästa dag.
+
+<div class="table-responsive">
+{{< recent_ten_swe >}}
+</div>
+
 ## Vanligast förekommande ord eller fraser i titlarna
 
-Detta ordmoln visar de vanligaste orden eller fraserna som förekommer i publikationernas titlar. Observera att vi har filtrerat bort funktionella ord (som 'the', 'a', 'this', etc.) samt 'COVID-19' och 'SARS-CoV-2' eftersom alla titlar innehöll dessa ord.
+Detta ordmoln visar de vanligaste orden eller fraserna som förekommer i publikationernas titlar. Observera att vi har filtrerat bort funktionella ord (som 'the', 'a', 'this', etc.) samt 'COVID-19' och 'SARS-CoV-2' eftersom alla titlar innehöll dessa ord. Alla ordmoln uppdateras veckovis.
 
 #### Alla publikationer
 
@@ -37,7 +45,7 @@ Vi visar endast anslagsgivare där vi identifierat minst 20 publikationer i publ
 
 ## Vanligast förkommande ord eller fraser i abstrakt
 
-Ordmolnen visar de vanligaste förekommande orden eller fraserna från abstrakten (inkl. både preprint och vetenskapliga artiklar). Observera att vi har filtrerat bort funktionella ord (som 'the', 'a', 'this', etc.) samt 'COVID-19' och 'SARS-CoV-2' eftersom alla abstrakt innehöll dessa ord.
+Ordmolnen visar de vanligaste förekommande orden eller fraserna från abstrakten (inkl. både preprint och vetenskapliga artiklar). Observera att vi har filtrerat bort funktionella ord (som 'the', 'a', 'this', etc.) samt 'COVID-19' och 'SARS-CoV-2' eftersom alla abstrakt innehöll dessa ord. Alla ordmoln uppdateras veckovis.
 
 #### Alla publikationer
 
