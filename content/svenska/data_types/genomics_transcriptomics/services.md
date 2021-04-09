@@ -14,9 +14,11 @@ menu:
 
 ### Clinical Genomics Stockholm (Diagnostics Development)
 
+I samarbete med Avdelningen för Klinisk mikrobiologi på Karolinska universitetssjukhuset kan SciLifeLab faciliteten Clinical Genomics Stockholm erbjuda SARS CoV-2 sekvensering enligt ARTIC protokollet. Som en del av samarbetet kan vi även erbjuda tillgång till BSL-3 laboratorier, high-capacity DNA extraction, sekvensering av amplikon och bioinformatisk analys. Vi har kapacitet att hantera tusentals prover och storskaliga projekt som behöver service och support.
+
 Clinical Genomics Stockholm-anläggningen har utvecklat ett WGS-baserat arbetsflöde för att förstå genetisk variation, särskilt i inställningar för sällsynta sjukdomar. Detta arbetsflöde inkluderar datagenerering, bioinformatisk analys och tolkning i vårt specialutvecklade kliniska beslutssupportsystem Scout.
 
-Vi tror att detta arbetsflöde kan vara användbart även för covid-19-projekt som syftar till att förstå värdens mottaglighet. Data genereras till 30x täckning med PCR-fria bibliotek, bioinformatisk analys är omfattande och inkluderar anrop av SNV, INDEL, CNV, SV, STR och UPD. Varianter bearbetas med hjälp av en rankningsmodell innan de görs tillgängliga för tolkning i Scout. Denna infrastruktur har använts för analys av> 6000 WGS-prover.
+Vi tror att detta arbetsflöde kan vara användbart även för covid-19-projekt som syftar till att förstå värdens mottaglighet. Data genereras till 30x täckning med PCR-fria bibliotek, bioinformatisk analys är omfattande och inkluderar anrop av SNV, INDEL, CNV, SV, STR och UPD. Varianter bearbetas med hjälp av en rankningsmodell innan de görs tillgängliga för tolkning i Scout. Denna infrastruktur har använts för analys av >8000 WGS-prover, inklusive ett ökande antal covidpatienter.
 
 Huvudfokus för anläggningen Clinical Genomics Stockholm och plattformen för diagnostikutveckling är att stödja övergången av NGS till translationella och diagnostiska inställningar. Samarbetspartners inkluderar forskningsgrupper, sjukvård, myndigheter, industri och internationella grupper. Besök [vår webbplats](https://www.scilifelab.se/facilities/clinical-genomics-stockholm/) för att lära dig mer om våra tjänster och kontakta oss på [support@clinicalgenomics.se](mailto:support@clinicalgenomics.se) för att diskutera dit.
 
