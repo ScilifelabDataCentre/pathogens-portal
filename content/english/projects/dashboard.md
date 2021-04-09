@@ -23,9 +23,7 @@ This graph displays the number of publications (including both journal publicati
 
 ## Ten most recent publications
 
-This table displays the ten most recent publications in our database (including both journal publications and preprints). The date reflects the preprint upload date or the official journal publication date, whichever is the most recent. Authors are summarised in the same format as expected in 'in text' citations. Clicking on the title for a given publication will take you directly to that publication. Note though, that it will only be possible to read the full text of publication if it is open access or if you are granted access via a subscription (e.g. an institutional subscription, or private journal subscripton).
-
-Any additions to the manually curated publications database will become visible on this table within a day. This feature is currently only available on the English language version of the site.
+This table displays the ten most recent publications in our database (including both journal publications and preprints). The date reflects the preprint upload date or the official journal publication date, whichever is the most recent. Authors are summarised in the same format as expected in 'in text' citations. Clicking on the title for a given publication will take you directly to that publication. Note though, that it will only be possible to read the full text of publication if it is open access or if you are granted access via a subscription (e.g. an institutional subscription, or private journal subscripton). Any additions to the manually curated publications database will become visible on this table within a day.
 
 <div class="table-responsive">
 {{< recent_ten >}}
