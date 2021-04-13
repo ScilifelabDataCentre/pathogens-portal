@@ -14,6 +14,10 @@ Insamlade personuppgifter kommer endast behandlas i forskningssyfte i enlighet
 
 Vi vill informera dig om att varje gång du besöker vår **tjänst** samlar vi in ​​information som din webbläsare skickar till oss som kallas Loggdata. Dessa loggdata kan innehålla information som din dators Internet Protocol-adress (“IP”), webbläsarversion, sidor i vår tjänst som du besöker, tid och datum för ditt besök, den tid du använt på dessa sidor och annan statistik.
 
+<a id="cookies"><h2>Kakor</h2></a>
+
+[...]
+
 ## Formulär
 
 Vår **tjänst** innehåller ett antal formulär vilka webbsidans besökare kan välja att använda för kontakt. Via kontaktformulären ges möjlighet gör webbsidans besökare att ange namn och epost adress.

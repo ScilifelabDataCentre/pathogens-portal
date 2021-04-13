@@ -13,6 +13,10 @@ We will not use or share your information with anyone except as described in thi
 
 We want to inform you that whenever you visit our **Service**, we collect information that your browser sends to us that is called Log Data. This Log Data may include information such as your computer’s Internet Protocol ("IP") address, browser version, pages of our **Service** that you visit, the time and date of your visit, the time spent on those pages, and other statistics.
 
+<a id="cookies"><h2>Cookies</h2></a>
+
+[..]
+
 ## Forms
 
 Our **Service** contains a number of forms through which the website visitors may choose to get in touch with us or send us suggestions. The website visitors may choose to provide their personal information such as, for example, their name and e-mail address, through these forms.
