@@ -1,7 +1,7 @@
 {{ if eq $.Site.Language.LanguageName "Svenska"}}
   {{ range $index, $cont := $.Site.Data.funding_opportunities }}
-    {{ if ne .status "closed" }}
-      <h4>{{ .funder_sv }}: {{ .title_sv }}</h4>
+      {{ if ne .title_sv "COVID-19 pandemic research and preparedness"}}
+      <h4>{{ if eq .status "closed"}}[Utlysningen har nu stängts] {{ end }}{{ .funder_sv }}: {{ .title_sv }}</h4>
       <p><strong>Sista ansökningsdag::</strong> {{ .deadline }}<br>
         <strong>Hemsida:</strong> <a href="{{ .url_sv }}">Hemsida för utlysningen</a></p>
       <p> {{ .desc_sv }}</p>
@@ -10,7 +10,7 @@
       <div class="collapse" id="details_{{ $index }}">
         <div class="card card-body">
           <p>
-            <strong>Söks av:</strong> {{ .applicant_sv}}<br>
+            <strong>Söks av:</strong> {{ .applicant_sv }}<br>
             <strong>Medverkande forskare:</strong> {{ .participating_res_sv }}<br>
             <strong>Bidragstid:</strong> {{ .period_sv }}<br>
             <strong>Bidragsbelopp:</strong> {{ .amount_sv }}<br>
@@ -21,12 +21,12 @@
           </p>
         </div>
       </div>
-    {{ end }}
+      {{ end }}
   {{ end }}
 {{ else }}
   {{ range $index, $cont := $.Site.Data.funding_opportunities }}
-    {{ if ne .status "closed" }}
-      <h4>{{ .funder_eng }}: {{ .title_eng }}</h4>
+    {{ if ne .title_eng "COVID-19 pandemic research and preparedness"}}
+      <h4>{{ if eq .status "closed"}}[CLOSED] {{ end }}{{ .funder_eng }}: {{ .title_eng }}</h4>
       <p><strong>Deadline:</strong> {{ .deadline }}<br>
         <strong>Detailed information:</strong> <a href="{{ .url_eng }}">Call homepage</a></p>
       <p> {{ .desc_eng }}</p>
@@ -46,6 +46,6 @@
           </p>
         </div>
       </div>
-    {{ end }}
+      {{ end }}
   {{ end }}
 {{ end }}
