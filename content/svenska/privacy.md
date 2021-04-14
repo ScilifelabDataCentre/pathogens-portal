@@ -37,7 +37,7 @@ Our **Service** uses cookies for two purposes. One purpose is to collect web sta
 
 The second purpose for which we use cookies is to know that you have accepted our use of cookies by clicking on the button "I understand" in our cookie message. This cookie is created stored by us, the website owner.
 
-##### Översikt av användningen av kakor på vår **tjänst**:
+##### Översikt av användningen av kakor på vår **tjänst**
 
 <table class="table table-hover table-responsive">
   <thead>
@@ -93,6 +93,7 @@ The second purpose for which we use cookies is to know that you have accepted ou
 Det finns flera sätt att begränsa vilka kakor som din webbläsare accepterar. Inställningarna varierar från webbläsare till webbläsare, men i allmänna ordalag kan man beskriva alternativen såhär.
 
 Du kan:
+
 - helt blockera kakor i webbläsarens inställningar,  
 - ställa in webbläsarens så att du manuellt får godkänna varje kaka,  
 - ställa in webbläsaren så att den blockerar tredjepartskakor,  

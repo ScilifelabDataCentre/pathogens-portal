@@ -88,6 +88,7 @@ The second purpose for which we use cookies is to know that you have accepted ou
 There are several ways of limiting the cookies that are accepted by your web browser. The settings vary from browser to browser, but in general, the options may be described as follows:
 
 You can:
+
 - block cookies entirely in the browser settings;  
 - set the browser so you can accept or reject each cookie manually;  
 - set the browser to block third party cookies;  
