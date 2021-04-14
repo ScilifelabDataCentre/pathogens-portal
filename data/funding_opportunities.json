@@ -1,6 +1,6 @@
 [
   {
-    "status": "open",
+    "status": "closed",
     "funder_eng": "Swedish Research Council",
     "funder_sv": "Vetenskapsrådet",
     "title_eng": "Research environment grant for follow-up studies of COVID-19 vaccines",
@@ -28,7 +28,7 @@
     "award_date_sv": "Senast i slutet av november 2021"
   },
  {
-   "status": "open",
+   "status": "closed",
    "funder_eng": "Swedish Research Council",
    "funder_sv": "Vetenskapsrådet",
    "title_eng": "Project grant for research on viruses and virus-caused disease conditions",
@@ -56,7 +56,7 @@
    "award_date_sv": "Senast i slutet av november 2021"
  },
  {
-   "status": "open",
+   "status": "closed",
    "funder_eng": "Swedish Research Council",
    "funder_sv": "Vetenskapsrådet",
    "title_eng": "Research project grant within medicine and health",
@@ -82,7 +82,7 @@
    "award_date_sv": "Senast i slutet av november 2021"
  },
  {
-   "status": "open",
+   "status": "closed",
    "funder_eng": "Swedish Research Council",
    "funder_sv": "Vetenskapsrådet",
    "title_eng": "Starting grant within medicine and health",
@@ -110,7 +110,7 @@
    "award_date_sv": "Senast i början av november 2021"
  },
  {
-   "status": "open",
+   "status": "closed",
    "funder_eng": "Swedish Research Council",
    "funder_sv": "Vetenskapsrådet",
    "title_eng": "Grant for half-time research position in a clinical environment",
@@ -138,7 +138,7 @@
    "award_date_sv": "Senast i början av november 2021"
  },
  {
-   "status": "open",
+   "status": "closed",
    "funder_eng": "Swedish Research Council",
    "funder_sv": "Vetenskapsrådet",
    "title_eng": "Swedish Research Council: Grant for half-time research within healthcare sciences",
@@ -174,7 +174,7 @@
    "deadline": "15.01.2021",
    "url_eng": "https://www.scilifelab.se/covid-19/call-research-preparedness/",
    "url_sv": "https://www.scilifelab.se/covid-19/call-research-preparedness/",
-   "desc_eng": "SciLifeLab is opening five calls for proposals on COVID-19 research that are announced at the same time to help scientists plan their efforts in light of the funding possibilities. Two calls represent the continuation of the ongoing KAW-supported SciLifeLab coordinated COVID-19 research program initiated in the spring of 2020. One call is specifically targeting effects of vaccination. One call will focus on suggestions (letter of intent) for ideas on pandemic preparedness and one on suggestions for data-driven research on COVID-19 (letter of intent). Detailed instructions for the applications for these calls will be made available in the next few weeks.",
+   "desc_eng": "SciLifeLab is opening five calls for proposals on COVID-19 research that are announced at the same time to help scientists plan their efforts in light of the funding possibilities. Two calls represent the continuation of the ongoing KAW-supported SciLifeLab coordinated COVID-19 research program initiated in the spring of 2020. One call is specifically targeting effects of vaccination. One call will focus on suggestions (letter of intent) for ideas on pandemic preparedness and one on suggestions for data-driven research on COVID-19 (letter of intent).",
    "desc_sv": "SciLifeLab is opening five calls for proposals on COVID-19 research that are announced at the same time to help scientists plan their efforts in light of the funding possibilities. Two calls represent the continuation of the ongoing KAW-supported SciLifeLab coordinated COVID-19 research program initiated in the spring of 2020. One call is specifically targeting effects of vaccination. One call will focus on suggestions (letter of intent) for ideas on pandemic preparedness and one on suggestions for data-driven research on COVID-19 (letter of intent).",
    "applicant_eng": "",
    "applicant_sv": "",
