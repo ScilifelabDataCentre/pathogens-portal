@@ -34,54 +34,7 @@ The second purpose for which we use cookies is to know that you have accepted ou
 
 ##### Detailed information about the cookies that are stored by our **Service**
 
-<table class="table table-hover table-responsive">
-  <thead>
-    <tr>
-      <th scope="col">Cookie</th>
-      <th scope="col">Purpose</th>
-      <th scope="col">Third-party</th>
-      <th scope="col">Provider</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>acceptCookies</td>
-      <td>Track accepting the use of cookies</td>
-      <td>No</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>_ga</td>
-      <td>Web analytics</td>
-      <td>Yes</td>
-      <td>Google Analytics</td>
-    </tr>
-    <tr>
-      <td>_gid</td>
-      <td>Web analytics</td>
-      <td>Yes</td>
-      <td>Google Analytics</td>
-    </tr>
-    <tr>
-      <td>_gat_gtag_UA_168266875_1</td>
-      <td>Web analytics</td>
-      <td>Yes</td>
-      <td>Google Analytics</td>
-    </tr>
-    <tr>
-      <td>utmz</td>
-      <td>Web analytics</td>
-      <td>Yes</td>
-      <td>Google Analytics</td>
-    </tr>
-    <tr>
-      <td>utma</td>
-      <td>Web analytics</td>
-      <td>Yes</td>
-      <td>Google Analytics</td>
-    </tr>
-  </tbody>
-</table>
+{{< cookies_table >}}
 
 ##### Limiting the cookies
 

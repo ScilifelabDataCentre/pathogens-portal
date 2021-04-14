@@ -39,54 +39,7 @@ The second purpose for which we use cookies is to know that you have accepted ou
 
 ##### Översikt av användningen av kakor på vår **tjänst**
 
-<table class="table table-hover table-responsive">
-  <thead>
-    <tr>
-      <th scope="col">Kaka</th>
-      <th scope="col">Syfte</th>
-      <th scope="col">Tredjepart</th>
-      <th scope="col">Leverantör</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>acceptCookies</td>
-      <td>Track accepting the use of cookies</td>
-      <td>Nej</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>_ga</td>
-      <td>Webbstatistik</td>
-      <td>Ja</td>
-      <td>Google Analytics</td>
-    </tr>
-    <tr>
-      <td>_gid</td>
-      <td>Webbstatistik</td>
-      <td>Ja</td>
-      <td>Google Analytics</td>
-    </tr>
-    <tr>
-      <td>_gat_gtag_UA_168266875_1</td>
-      <td>Webbstatistik</td>
-      <td>Ja</td>
-      <td>Google Analytics</td>
-    </tr>
-    <tr>
-      <td>utmz</td>
-      <td>Webbstatistik</td>
-      <td>Ja</td>
-      <td>Google Analytics</td>
-    </tr>
-    <tr>
-      <td>utma</td>
-      <td>Webbstatistik</td>
-      <td>Ja</td>
-      <td>Google Analytics</td>
-    </tr>
-  </tbody>
-</table>
+{{< cookies_table >}}
 
 ##### Begränsa kakor
 
