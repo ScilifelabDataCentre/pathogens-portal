@@ -1,5 +1,6 @@
 ---
 title: Integritetspolicy / Dataskyddspolicy
+toc: false
 ---
 
 SciLifeLab driver webbplatsen [https://www.covid19dataportal.se](https://www.covid19dataportal.se) (inkluderqande subdomäner som exempelvis [https://biobanks.covid19dataportal.se](https://biobanks.covid19dataportal.se/)), som tillhandahåller **tjänsten**.
@@ -25,6 +26,35 @@ Dina personuppgifter kommer att raderas när de inte längre är nödvändiga el
 ## Länkar till andra webbplatser
 
 Vår **tjänst** kan innehålla länkar till andra webbplatser. Om du klickar på en länk från tredje part kommer du att ledas till den webbplatsen. Observera att dessa externa webbplatser inte drivs av oss. Därför rekommenderar vi dig starkt att granska integritetspolicyn för dessa webbplatser. Vi har ingen kontroll över, och tar inget ansvar för innehåll, integritetspolicyer eller praxis på tredje parts webbplatser eller tjänster.
+
+<a id="cookies"><h2>Kakor</h2></a>
+
+<div class="alert alert-info"><i class="fas fa-exclamation-triangle"></i> <span class="small">Svensk översättning kommer inom kort.</span></div>
+
+Our **Service** uses cookies. A cookie is a text file that a website asks to store on the visitor’s computer. Cookies contain information that is needed for various functions on the website. Cookies can be created and stored by the website owner or created and stored by third parties. “Third party cookies” are created by external services, such as tools for collecting web statistics. They can be used to map your behaviour on several different websites. Most browsers offer the option of blocking this type of cookies.
+
+Our **Service** uses cookies for two purposes. One purpose is to collect web statistics about the visitors. Data from these cookies is used in the work on developing the functions and content of the **Service**. When collecting web statistics, we use Google Analytics, and it creates third party cookies.
+
+The second purpose for which we use cookies is to know that you have accepted our use of cookies by clicking on the button "I understand" in our cookie message. This cookie is created stored by us, the website owner.
+
+##### Översikt av användningen av kakor på vår **tjänst**
+
+{{< cookies_table >}}
+
+##### Begränsa kakor
+
+Det finns flera sätt att begränsa vilka kakor som din webbläsare accepterar. Inställningarna varierar från webbläsare till webbläsare, men i allmänna ordalag kan man beskriva alternativen såhär.
+
+Du kan:
+
+- helt blockera kakor i webbläsarens inställningar,  
+- ställa in webbläsarens så att du manuellt får godkänna varje kaka,  
+- ställa in webbläsaren så att den blockerar tredjepartskakor,  
+- ange ett antal betrodda webbplatser som din webbläsare accepterar kakor från,  
+- använda insticksprogram som helt eller delvis begränsar kakor baserat på anpassade villkor, och  
+- ställa in webbläsaren så att den rensar alla kakor när du stänger programmet.  
+
+Du kan läsa [mer om kakor på Post- och telestyrelsens webbplats](https://pts.se/sv/bransch/regler/lagar/lag-om-elektronisk-kommunikation/kakor-cookies/).
 
 ## Ändringar av denna integritetspolicy
 
