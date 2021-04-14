@@ -66,7 +66,7 @@
   </div>
   <div class="row footer-lower-row">
     <div class="col-md-3 p-2">
-      <a href="https://www.scilifelab.se/data/">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).support_feedback }}</a>
+      <a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/contact/">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).support_feedback }}</a>
     </div>
     <div class="col-md-3 p-2">
       <a href='{{ "/privacy" | relLangURL }}'>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).privacy }}</a>
