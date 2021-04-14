@@ -32,7 +32,7 @@ Our **Service** uses cookies for two purposes. One purpose is to collect web sta
 
 The second purpose for which we use cookies is to know that you have accepted our use of cookies by clicking on the button "I understand" in our cookie message. This cookie is created stored by us, the website owner.
 
-##### Detailed information about the cookies that are stored by our **Service**.
+##### Detailed information about the cookies that are stored by our **Service**
 
 <table class="table table-hover table-responsive">
   <thead>
