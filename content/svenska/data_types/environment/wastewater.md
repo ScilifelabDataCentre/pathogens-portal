@@ -30,7 +30,7 @@ Notera att resultaten i  dataseten och som visas i diagrammen är preliminära d
 
 <div class="alert alert-info">Senast uppdaterad: <span id="last_modified_uppsala"></span></div>
 
-#### Uppsala kommun
+#### Uppsala
 
 <div class="d-md-none alert alert-info">
   Skrolla grafen horisontellt för att se alla data.

@@ -31,7 +31,7 @@ Note that the scores provided in this dataset and depicted in plots are prelimin
 
 <div class="alert alert-info">Last updated: <span id="last_modified_uppsala"></span></div>
 
-#### Uppsala municipality
+#### Uppsala
 
 <div class="d-md-none alert alert-info">
   Scroll the plot sideways to view all data.
