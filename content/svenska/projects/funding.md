@@ -13,7 +13,7 @@ menu:
 
 Detta är en lista över kommande forskningsanslag relaterade till COVID-19 från stora svenska anslagsgivare: Vetenskapsrådet, Nordforsk, Vinnova, Horisont Europa, och Knut och Alice Wallenbergs Stiftelse.
 
-<i>Senast uppdaterad: 2021.04.14</i>
+<i>Senast uppdaterad: 2021.04.16</i>
 
 {{< funding_opportunities >}}
 

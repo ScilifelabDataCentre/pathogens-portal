@@ -5,22 +5,24 @@
       <p><strong>Sista ansökningsdag::</strong> {{ .deadline }}<br>
         <strong>Hemsida:</strong> <a href="{{ .url_sv }}">Hemsida för utlysningen</a></p>
       <p> {{ .desc_sv }}</p>
+      {{ if or .applicant_sv (or .participating_res_sv (or .period_sv (or .amount_sv (or .budget_framework_sv (or .start_period_sv (or .application_period_sv (or .award_date_sv)))))))}}
       <a class="btn" data-toggle="collapse" href="#details_{{ $index }}" role="button" aria-expanded="false" aria-controls="details_{{ $index }}" style="color: rgba(46, 104, 165, 1); font-weight: 500">
         Läs mer <i class="fas fa-caret-down"></i></a>
       <div class="collapse" id="details_{{ $index }}">
         <div class="card card-body">
           <p>
-            <strong>Söks av:</strong> {{ .applicant_sv }}<br>
-            <strong>Medverkande forskare:</strong> {{ .participating_res_sv }}<br>
-            <strong>Bidragstid:</strong> {{ .period_sv }}<br>
-            <strong>Bidragsbelopp:</strong> {{ .amount_sv }}<br>
-            <strong>Budgetary framework:</strong> {{ .budget_framework_sv }}<br>
-            <strong>Budgetram för utlysningen:</strong> {{ .start_period_sv }}<br>
-            <strong>Bidragsperioden startar:</strong> {{ .application_period_sv }}<br>
-            <strong>Ansökningsperiod:</strong> {{ .award_date_sv}}
+            {{ if .applicant_sv }}<strong>Söks av:</strong> {{ .applicant_sv }}<br>{{ end }}
+            {{ if .participating_res_sv }}<strong>Medverkande forskare:</strong> {{ .participating_res_sv }}<br> {{ end }}
+            {{ if .period_sv }}<strong>Bidragstid:</strong> {{ .period_sv }}<br>{{ end }}
+            {{ if .amount_sv }}<strong>Bidragsbelopp:</strong> {{ .amount_sv }}<br>{{ end }}
+            {{ if .budget_framework_sv }}<strong>Budgetram för utlysningen:</strong> {{ .budget_framework_sv }}<br>{{ end }}
+            {{ if .start_period_sv }}<strong>Bidragsperioden startar:</strong> {{ .start_period_sv }}<br>{{ end }}
+            {{ if .application_period_sv }}<strong>Ansökningsperiod:</strong> {{ .application_period_sv }}<br>{{ end }}
+            {{ if .award_date_sv }}<strong>Bidragsbeslutet publiceras:</strong> {{ .award_date_sv }}{{ end }}
           </p>
         </div>
       </div>
+      {{ end }}
       {{ end }}
   {{ end }}
 {{ else }}
@@ -30,22 +32,24 @@
       <p><strong>Deadline:</strong> {{ .deadline }}<br>
         <strong>Detailed information:</strong> <a href="{{ .url_eng }}">Call homepage</a></p>
       <p> {{ .desc_eng }}</p>
+      {{ if or .applicant_eng (or .participating_res_eng (or .period_eng (or .amount_eng (or .budget_framework_eng (or .start_period_eng (or .application_period_eng (or .award_date_eng)))))))}}
       <a class="btn" data-toggle="collapse" href="#details_{{ $index }}" role="button" aria-expanded="false" aria-controls="details_{{ $index }}" style="color: rgba(46, 104, 165, 1); font-weight: 500">
         Read more <i class="fas fa-caret-down"></i></a>
       <div class="collapse" id="details_{{ $index }}">
         <div class="card card-body">
           <p>
-            <strong>Applicant:</strong> {{ .applicant_eng}}<br>
-            <strong>Participating researchers:</strong> {{ .participating_res_eng }}<br>
-            <strong>Grant period:</strong> {{ .period_eng }}<br>
-            <strong>Grant amount:</strong> {{ .amount_eng }}<br>
-            <strong>Budgetary framework:</strong> {{ .budget_framework_eng }}<br>
-            <strong>Start of grant period:</strong> {{ .start_period_eng }}<br>
-            <strong>Application period:</strong> {{ .application_period_eng }}<br>
-            <strong>Publication of grant award:</strong> {{ .award_date_eng}}
+            {{ if .applicant_eng }}<strong>Applicant:</strong> {{ .applicant_eng }}<br>{{ end }}
+            {{ if .participating_res_eng }}<strong>Participating researchers:</strong> {{ .participating_res_eng }}<br>{{ end }}
+            {{ if .period_eng }}<strong>Grant period:</strong> {{ .period_eng }}<br>{{ end }}
+            {{ if .amount_eng }}<strong>Grant amount:</strong> {{ .amount_eng }}<br>{{ end }}
+            {{ if .budget_framework_eng }}<strong>Budgetary framework:</strong> {{ .budget_framework_eng }}<br>{{ end }}
+            {{ if .start_period_eng }}<strong>Start of grant period:</strong> {{ .start_period_eng }}<br>{{ end }}
+            {{ if .application_period_eng }}<strong>Application period:</strong> {{ .application_period_eng }}<br>{{ end }}
+            {{ if .award_date_eng }}<strong>Publication of grant award:</strong> {{ .award_date_eng}}{{ end }}
           </p>
         </div>
       </div>
+      {{ end }}
       {{ end }}
   {{ end }}
 {{ end }}
