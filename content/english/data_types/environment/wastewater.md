@@ -164,6 +164,8 @@ After preparation, the viruses were extracted using ultra filtration and analyze
 
 <div class="small text-muted">*Data for these weeks is not available.</div>
 
+<div class="small text-muted">**The samples from weeks 11 and 12 were stored in +4 °C for 2-3 weeks, this is different from what was done for all other samples.</div>
+
 <a id="background"><h2>Background: Wastewater-based epidemiology</h2></a>
 
 SARS-CoV-2 virus genome can be detected in feces samples from COVID-19 patients using polymerase chain reaction (PCR) (see, for example, [Wu and colleagues, 2020](https://doi.org/10.1016/S2468-1253(20)30083-2)). Monitoring of SARS CoV-2 virus levels in wastewater from communities could therefore provide early surveillance of disease prevalence at a population-wide level, referred to as wastewater-based epidemiology ([Corpuz and colleagues, 2020](https://doi.org/10.1016/j.scitotenv.2020.140910)).
