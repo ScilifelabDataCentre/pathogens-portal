@@ -12,7 +12,7 @@ menu:
 ---
 This is a list of upcoming funding opportunities offered by major funding agencies in Sweden relevant for COVID-19 research. Specifically, we present calls for proposals from the Swedish Research Council, NordForsk, Vinnova, Horizon Europe, and SciLifeLab/Knut and Alice Wallenberg Foundation grants.
 
-<i>Last updated: 2021.04.16</i>
+<i>Last updated: 2021.04.21</i>
 
 {{< funding_opportunities >}}
 
