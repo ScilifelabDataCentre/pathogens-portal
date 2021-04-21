@@ -163,7 +163,6 @@ Mängden SARS-CoV-2 RNA per vecka mäts / visaualiseras jämfört med mängden S
 
 <div class="small text-muted">**Proverna från vecka 11 och 12 har förvarats i +4 °C under 2-3 veckor innan analys vilket skiljer sig från övriga insamlade prover.</div>
 
-
 <a id="background"><h2>Bakgrund</h2></a>
 
 Epidemiologiska undersökningar av avloppsvatten kan användas för att studera SARS-CoV-2-virus i avföringsprover från COVID-19-patienter med RT-qPCR (se till exempel [Wu et al, 2020](https://doi.org/10.1016/S2468-1253(20)30083-2)). Övervakning av virusnivåerna av SARS CoV-2 i avloppsvatten från samhällen kan därför ge en tidig indikation på sjukdomsprevalensen på befolkningsnivå, kallad avloppsvattenbaserad epidemiologi ([Corpuz et al, 2020](https://doi.org/10.1016/j.scitotenv.2020.140910)).
