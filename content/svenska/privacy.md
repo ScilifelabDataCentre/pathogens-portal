@@ -29,15 +29,10 @@ Vår **tjänst** kan innehålla länkar till andra webbplatser. Om du klickar p�
 
 <a id="cookies"><h2>Kakor</h2></a>
 
-<div class="alert alert-info"><i class="fas fa-exclamation-triangle"></i> <span class="small">Svensk översättning kommer inom kort.</span></div>
+Vår **tjänst** använder kakor. En kaka är en liten datafil som en webbplats ber att få lagra på besökarens dator. En kaka innehåller information som behövs för olika funktioner på webbplatsen. En kaka kan skapas och lagras av webbplatsens ägare eller skapas och lagras av tredje part. ”Tredjepartskakor” skapas av externa tjänster, till exempel verktyg för att samla in webbstatistik. De kan användas för att kartlägga ditt beteende på flera olika webbplatser. De flesta webbläsare erbjuder möjligheten att blockera denna typ av kakor.
 
-Our **Service** uses cookies. A cookie is a text file that a website asks to store on the visitor’s computer. Cookies contain information that is needed for various functions on the website. Cookies can be created and stored by the website owner or created and stored by third parties. “Third party cookies” are created by external services, such as tools for collecting web statistics. They can be used to map your behaviour on several different websites. Most browsers offer the option of blocking this type of cookies.
-
-Our **Service** uses cookies for two purposes. One purpose is to collect web statistics about the visitors. Data from these cookies is used in the work on developing the functions and content of the **Service**. When collecting web statistics, we use Google Analytics, and it creates third party cookies.
-
-The second purpose for which we use cookies is to know that you have accepted our use of cookies by clicking on the button "I understand" in our cookie message. This cookie is created stored by us, the website owner.
-
-##### Översikt av användningen av kakor på vår **tjänst**
+Vår **tjänst** använder kakor för två ändamål. Det första syftet är att samla in webbstatistik om besökarna. Data från dessa kakor används i arbetet med att utveckling av funktioner och tjänster. När vi samlar in webbstatistik använder vi Google Analytics och det skapar kakor från tredje part.
+Det andra syftet för att använda kakor är att veta att du har accepterat vår användning av kakor genom att klicka på knappen "Jag förstår" i vårt kakor-meddelande. Denna kaka skapas lagrad av oss, webbplatsägaren.
 
 {{< cookies_table >}}
 
@@ -64,4 +59,6 @@ Vi kan uppdatera vår integritetspolicy då och då. Därför rekommenderar vi a
 
 Om du har några frågor eller förslag om vår integritetspolicy, tveka inte att kontakta oss.
 
-Vår dataskyddspolicy har skapats med hjälp av [Privacy Policy Template](https://www.privacypolicytemplate.net) och [Disclaimer Generator](https://www.disclaimergenerator.org/). Vår policy använder text från [Data protection policy of Uppsala University](https://www.uu.se/en/about-uu/data-protection-policy).
+Vår dataskyddspolicy har skapats med hjälp av [Privacy Policy Template](https://www.privacypolicytemplate.net) och [Disclaimer Generator](https://www.disclaimergenerator.org/). Vår policy använder text från [Data protection policy of Uppsala University](https://www.uu.se/en/about-uu/data-protection-policy). Texten om kakor har delvis kopierats och delar har anpassats [från Vetenskapsrådets webbplats](https://www.vr.se/om-kakor-pa-webbplatsen.html).
+
+##### Översikt av användningen av kakor på vår **tjänst**
