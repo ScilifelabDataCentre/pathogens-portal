@@ -136,6 +136,8 @@ Mängden SARS-CoV-2 RNA per vecka mäts/visauliseras jämfört med mängden SARS
 
 <div class="small text-muted">*Data från dessa veckor är inte tillgängliga.</div>
 
+<div class="small text-muted">**Proverna från vecka 11 och 12 har förvarats i +4 °C under 2-3 veckor innan analys vilket skiljer sig från övriga insamlade prover.</div>
+
 <a id="orebro"><h2>Mängden SARS-CoV-2 i avloppsvatten från  avloppsreningsanläggningar i Örebro</h2></a>
 
 Detta project leds av prof. Maja Malmberg (SLU, Sveriges Lantbruksuniversitet) i samarbete med [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) och Mette Myrmel vid Norwegian University of Life Sciences. Mängden SARS-CoV-2-virus i avloppsvattnet mäts i avloppsreningsanläggningen i Örebro. Se [den här kartan för det exakta avrinningsområdet för insamlingskanalerna](/wastewater/map_orebro.pdf).
