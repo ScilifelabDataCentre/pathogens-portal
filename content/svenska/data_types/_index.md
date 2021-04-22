@@ -27,7 +27,7 @@ menu:
     * [Publicerad data](compound_and_target_data/data/)
     * [Riktlinjer för data](compound_and_target_data/guidelines/)
     * [Tillgängliga tjänster](compound_and_target_data/services/)
-* **Sjukvårdsdata**
+* **Hälsodata**
     * [Metadata för nationella register - RUT](health_data/rut/)
     * [Nationellt Pandemicentrum, statistik för covid-19-tester](health_data/npc-statistics/)
     * [SciLifeLab Autoimmunity and Serology profiling facility, statistik för SARS-CoV-2 antikroppstest](health_data/serology-statistics)
