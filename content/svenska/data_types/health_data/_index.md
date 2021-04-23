@@ -1,5 +1,5 @@
 ---
-title: Sjukvårdsdata
+title: Hälsodata
 menu:
     main:
         identifier: health_data
