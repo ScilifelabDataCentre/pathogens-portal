@@ -60,7 +60,7 @@ Notera att resultaten i  dataseten och som visas i diagrammen är preliminära d
   <div class="table-responsive" id="enkoping_plot"></div>
 </div>
 
-#### Älkarleby
+#### Älvkarleby
 
 <div class="d-md-none alert alert-info">
   Scroll the plot sideways to view all data.
