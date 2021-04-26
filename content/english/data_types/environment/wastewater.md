@@ -63,7 +63,7 @@ Note that the scores provided in this dataset and depicted in plots are prelimin
   <div class="table-responsive" id="enkoping_plot"></div>
 </div>
 
-#### Älkarleby
+#### Älvkarleby
 
 <div class="d-md-none alert alert-info">
   Scroll the plot sideways to view all data.
