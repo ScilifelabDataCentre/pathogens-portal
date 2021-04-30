@@ -76,7 +76,7 @@
                 <tbody>
                   {{ range $.Site.Data.funded_projects }}
                     <tr>
-                      <td><a href="{{ if and (eq $.Site.Language.LanguageName "Svenska") .url_sv }}{{ .url_sv }}{{ else }} {{ .url_eng }}{{ end }}">{{ if and (eq $.Site.Language.LanguageName "Svenska") .project_title_sv }}{{ .project_title_sv }}{{ else }}{{ .project_title_eng }}{{ end }}</a></td>
+                      <td>{{ if eq $.Site.Language.LanguageName "Svenska" }} {{ if .url_sv }} <a href="{{ .url_sv}}"> {{ else if .url_eng }} <a href="{{ .url_eng }}"> {{ end }} {{ if .project_title_sv }} {{ .project_title_sv }} {{ else if .project_title_eng }} {{ .project_title_eng }} {{ end }} {{ if or .url_sv .url_eng }} </a> {{ end }} {{ else }} {{ if .url_eng }} <a href="{{ .url_eng}}"> {{ else if .url_sv }} <a href="{{ .url_sv }}"> {{ end }} {{ if .project_title_eng }} {{ .project_title_eng }} {{ else if .project_title_sv }} {{ .project_title_sv }} {{ end }} {{ if or .url_sv .url_eng }} </a> {{ end }} {{ end }}</td>
                       <td>{{ .pi }}</td>
                       <td>{{ if and (eq $.Site.Language.LanguageName "Svenska") .pi_affiliation_sv }}{{ .pi_affiliation_sv }}{{ else }} {{ .pi_affiliation_eng }}{{ end }}</td>
                       <td>{{ if and (eq $.Site.Language.LanguageName "Svenska") .funder_sv }}{{ .funder_sv }}{{ else }} {{ .funder_eng }}{{ end }}</td>
