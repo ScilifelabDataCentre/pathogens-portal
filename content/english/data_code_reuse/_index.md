@@ -28,8 +28,9 @@ We welcome projects that consist of re-analysis of publicly published data using
 #### How to submit an entry?
 
 - To enter a project into the competition, submit your project outcome (e.g. a PDF, a poster, a presentation, a dashboard, or a link) as an entry to the [SciLifeLab Data Repository](https://scilifelab.figshare.com/). You can log in with your Swedish university user ID or if you are not affiliated with a Swedish university get in touch with the Swedish COVID-19 Data Portal team at [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se) to obtain an account.
-- Information about the source of the original data or code used in the project as well as any newly generated data, code and other materials should be made publicly available as part of the SciLifeLab Data Repository item.
+- Any newly generated data, code and other materials should be made publicly available as part of the SciLifeLab Data Repository item.
 - Follow the SciLifeLab Data Repository [submission guidelines](https://www.scilifelab.se/data/repository/submission/) to add your entry.
+- Add information about, along with a link to, the source of the original data or code used in the project to the field called "Description" of your entry. 
 - Add the keyword “COVID-19 Data & Code Reuse Competition” in the field called “Keywords” of your entry.
 - Competition entries will go through standard review process of the SciLifeLab Data Repository. Please note that the review process takes about one week. Your submission must be approved and published by the deadline.
 - Competition entries will be accepted between the 15th of May and the 15th of September 2021.
