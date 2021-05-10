@@ -28,7 +28,7 @@
     "award_date_sv": "Senast i början av december 2021"
   },
   {
-    "status": "open",
+    "status": "closed",
     "funder_eng": "Horizon Europe",
     "funder_sv": "Horisont Europa",
     "title_eng": "FAIR and open data sharing in support to European preparedness for COVID-19 and other infectious diseases (HORIZON-INFRA-2021-EMERGENCY-01)",
@@ -40,7 +40,7 @@
     "desc_sv": "This action responds to the need to enable researchers, health care professionals and society at large to share, access, analyse, link and process research data and other research digital objects across disciplines and national borders in response to the COVID-19 pandemic. As seen with other infectious disease outbreaks, such as haemorrhagic fevers, COVID-19 will likely remain a societal challenge beyond the immediate outbreak, considering its destructive and disruptive impact on healthcare systems and the economy. In addition to the ongoing health threat from SARS-CoV-2, the risk from other emerging pathogens also persists, which will also require similar concerted action to identify and characterise infections with pandemic potential, and enable rapid public health action to mitigate health and societal impact. Provision of comprehensive open data on infectious agents and diseases during outbreaks support evidence-based quality assessment - across scientific, medical, public health and policy domains and promotes reproducibility of research outcomes. Particular importance should be placed on mobilising raw viral sequences and identifying and monitoring the spread of SARS-CoV-2 variants. European readiness for future pandemics is of utmost importance and should be addressed to ensure the preparedness of infrastructure building on already existing frameworks for broader use such as the EOSC."
   },
   {
-    "status": "open",
+    "status": "closed",
     "funder_eng": "Horizon Europe",
     "funder_sv": "Horisont Europa",
     "title_eng": "Research infrastructure services for rapid research responses to COVID-19 and other infectious disease epidemics (HORIZON-INFRA-2021-EMERGENCY-02",
@@ -52,7 +52,7 @@
     "desc_sv": "Proposals under this action, will integrate research infrastructure services to form a comprehensive and inclusive portfolio to support research in response to infectious disease epidemics or underpinning respective forefront research in the field. As a first immediate challenge, the delivered services should support research targeting newly emerging SARS-Cov-2 variants and addressing the on-going COVID-19 pandemic. Proposals will support the provision of trans-national and/or virtual access to researchers as well as training for using the infrastructures, and activities to improve, customise and integrate the services the infrastructures provide, so as to facilitate and integrate the access procedures and to further develop the remote or virtual provision of services."
   },
   {
-    "status": "open",
+    "status": "closed",
     "funder_eng": "Horizon Europe",
     "funder_sv": "Horisont Europa",
     "title_eng": "Vaccines & therapeutic clinical trials to boost COVID-19 prevention and treatment",
@@ -64,7 +64,7 @@
     "desc_sv": "Proposals submitted under this expression of interest should aim to further develop promising therapeutic or prophylactic candidates against SARS-CoV-2/COVID-19. The vaccine/treatment candidates should have completed preclinical development, including animal studies, and be ready to enter clinical evaluation in Phase I or II studies. Applicants should have addressed the current viral variants of concern in their pre-clinical work, and/or anticipated the emergence of new variants. Proposals should include a summary of results obtained in the concluded studies (pre-clinical and/or Phase I). Proposals are also expected to include assurances on sufficient and timely access to GMP production of the compound(s) to be trialled (the costs of which can be included in the proposal). In addition, options to upscale production for subsequent development beyond the activities for which funding is requested, should be indicated as appropriate."
     },
     {
-      "status": "open",
+      "status": "closed",
       "funder_eng": "Horizon Europe",
       "funder_sv": "Horisont Europa",
       "title_eng": "Cohorts united against COVID-19 variants of concern",
