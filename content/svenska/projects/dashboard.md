@@ -35,13 +35,13 @@ Detta ordmoln visar de vanligaste orden eller fraserna som förekommer i publika
 
 #### Alla publikationer
 
-<div class="row my-4"><div class="col-md-8"><img src="https://dc-dynamic.dckube.scilifelab.se/covid-portal/titles_all.png"></div></div>
+<div class="row my-4"><div class="col-md-8"><img src="https://blobserver.dckube.scilifelab.se/blob/covid-portal-titles_all.png"></div></div>
 
 #### Publikationer uppdelade på forskningsfinansiärer
 
 Vi visar endast anslagsgivare där vi identifierat minst 20 publikationer i publikationsdatabasen.
 
-<div class="container"> <div class="row mt-2"> <div class="col-md mr-4"> <div class="row"> <h5>Vetenskapsrådet:</h5> </div> <div class="row"> <img src="https://dc-dynamic.dckube.scilifelab.se/covid-portal/titles_vr.png"> </div> </div> <div class="col-md mr-4"> <div class="row"> <h5>SciLifeLab/KAW:</h5> </div> <div class="row"> <img src="https://dc-dynamic.dckube.scilifelab.se/covid-portal/titles_kaw.png"> </div> </div> <div class="col-md"> <div class="row"> <h5>Horizon 2020:</h5> </div> <div class="row"> <img src="https://dc-dynamic.dckube.scilifelab.se/covid-portal/titles_h2020.png"> </div> </div> </div> </div>
+<div class="container"> <div class="row mt-2"> <div class="col-md mr-4"> <div class="row"> <h5>Vetenskapsrådet:</h5> </div> <div class="row"> <img src="https://blobserver.dckube.scilifelab.se/blob/covid-portal-titles_vr.png"> </div> </div> <div class="col-md mr-4"> <div class="row"> <h5>SciLifeLab/KAW:</h5> </div> <div class="row"> <img src="https://blobserver.dckube.scilifelab.se/blob/covid-portal-titles_kaw.png"> </div> </div> <div class="col-md"> <div class="row"> <h5>Horizon 2020:</h5> </div> <div class="row"> <img src="https://blobserver.dckube.scilifelab.se/blob/covid-portal-titles_h2020.png"> </div> </div> </div> </div>
 
 ## Vanligast förkommande ord eller fraser i abstrakt
 
@@ -49,10 +49,10 @@ Ordmolnen visar de vanligaste förekommande orden eller fraserna från abstrakte
 
 #### Alla publikationer
 
-<div class="row my-4"><div class="col-md-8"><img src="https://dc-dynamic.dckube.scilifelab.se/covid-portal/abstracts_all.png"></div></div>
+<div class="row my-4"><div class="col-md-8"><img src="https://blobserver.dckube.scilifelab.se/blob/covid-portal-abstracts_all.png"></div></div>
 
 #### Publikationer uppdelade på forskningsfinansiärer
 
 Vi visar endast anslagsgivare där vi identifierat minst 20 publikationer i publikationsdatabasen.
 
-<div class="container"> <div class="row mt-2"> <div class="col-md mr-4"> <div class="row"> <h5>Vetenskapsrådet:</h5> </div> <div class="row"> <img src="https://dc-dynamic.dckube.scilifelab.se/covid-portal/abstracts_vr.png"> </div> </div> <div class="col-md mr-4"> <div class="row"> <h5>SciLifeLab/KAW:</h5> </div> <div class="row"> <img src="https://dc-dynamic.dckube.scilifelab.se/covid-portal/abstracts_kaw.png"> </div> </div> <div class="col-md"> <div class="row"> <h5>Horizon 2020:</h5> </div> <div class="row"> <img src="https://dc-dynamic.dckube.scilifelab.se/covid-portal/abstracts_h2020.png"> </div> </div> </div> </div>
+<div class="container"> <div class="row mt-2"> <div class="col-md mr-4"> <div class="row"> <h5>Vetenskapsrådet:</h5> </div> <div class="row"> <img src="https://blobserver.dckube.scilifelab.se/blob/covid-portal-abstracts_vr.png"> </div> </div> <div class="col-md mr-4"> <div class="row"> <h5>SciLifeLab/KAW:</h5> </div> <div class="row"> <img src="https://blobserver.dckube.scilifelab.se/blob/covid-portal-abstracts_kaw.png"> </div> </div> <div class="col-md"> <div class="row"> <h5>Horizon 2020:</h5> </div> <div class="row"> <img src="https://blobserver.dckube.scilifelab.se/blob/covid-portal-abstracts_h2020.png"> </div> </div> </div> </div>
