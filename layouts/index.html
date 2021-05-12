@@ -98,6 +98,15 @@
         </div></div>
     </div>
 
+      <!-- Data and Code Reuse Competition banner -->
+          <div class="container mb-5 data_code_reuse_block">
+              <div class="row px-3 pt-1"><h4>COVID-19 Data & Code Reuse Competition<h4></div>
+              <div class="row px-3"><p><b>Who?</b> Open to everyone, individuals or groups.<br>
+                <b>When?</b> Submit your entry between May 15 and September 15 2021.</p>
+              </div>
+              <div class="row pb-1 px-3 text-black"><h6><a style="color:black" href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/data_code_reuse/">{{ if eq $.Site.Language.LanguageName "Svenska" }}About the competition{{ else }}About the competition{{ end }} <i class="fas fa-arrow-circle-right"></i></a></h6></div>
+          </div>
+
       <!-- Data highlights -->
       <div class="container mb-5">
         {{ range .Site.Menus.homepage_highlights }}
@@ -126,6 +135,7 @@
           </div>
           </div>
       </div>
+
 
       <!-- Sample Collection Database -->
       <div class="container mb-5">

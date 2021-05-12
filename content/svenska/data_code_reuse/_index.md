@@ -3,6 +3,8 @@ title: COVID-19 Data & Code Reuse Competition
 toc: false
 ---
 
+<div class="alert alert-info"><i class="fas fa-exclamation-triangle"></i><span class="small">Svensk översättning kommer inom kort.</span></div>
+
 <figure class="figure float-right mx-2 w-50">
   <img src="/img/posters/data_code_reuse_poster_web.png" class="img-news-banner img-thumbnail">
 </figure>
