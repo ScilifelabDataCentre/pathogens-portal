@@ -124,6 +124,9 @@ Mängden SARS-CoV-2 RNA per vecka mäts/visauliseras jämfört med mängden SARS
 **Forskargruppledare:** Maja Malmberg (SLU, Sveriges Lantbruksuniversitet)  
 **Kontakt:** maja.malmberg@slu.se
 
+**Referera till detta dataset:**  
+Malmberg, M., Myrmel, M. & Khatri, M.. Dataset of SARS-CoV-2 in wastewater in Umeå, Sweden. [https://doi.org/10.17044/scilifelab.14376881.v1](https://doi.org/10.17044/scilifelab.14376881.v1) (2021).
+
 <div class="alert alert-info">Senast uppdaterad: <span id="last_modified_umeaa"></span></div>
 
 <div class="d-md-none alert alert-info">
@@ -150,6 +153,9 @@ Mängden SARS-CoV-2 RNA per vecka mäts / visaualiseras jämfört med mängden S
 
 **Forskargruppledare:** Maja Malmberg (SLU, Sveriges Lantbruksuniversitet)  
 **Kontakt:** maja.malmberg@slu.se
+
+**Referera till detta dataset:**  
+Malmberg, M., Myrmel, M. & Khatri, M.. Dataset of SARS CoV-2 in wastewater in Örebro, Sweden. [https://doi.org/10.17044/scilifelab.14377097.v1](https://doi.org/10.17044/scilifelab.14377097.v1) (2021).
 
 <div class="alert alert-info">Senast uppdaterad: <span id="last_modified_orebro"></span></div>
 
