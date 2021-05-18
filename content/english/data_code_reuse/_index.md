@@ -1,6 +1,8 @@
 ---
 title: COVID-19 Data & Code Reuse Competition
 toc: false
+aliases:
+  /data-code-reuse/
 ---
 
 <figure class="figure float-right mx-2 w-50">
