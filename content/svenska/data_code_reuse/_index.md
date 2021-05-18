@@ -1,6 +1,8 @@
 ---
 title: COVID-19 Data & Code Reuse Competition
 toc: false
+aliases:
+  /sv/data-code-reuse/
 ---
 
 <div class="alert alert-info"><i class="fas fa-exclamation-triangle"></i><span class="small">Svensk översättning kommer inom kort.</span></div>
