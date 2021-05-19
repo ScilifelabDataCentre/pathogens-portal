@@ -1,5 +1,5 @@
 ---
-title: Publikationer om covid-19 och SARS-CoV-19
+title: Publikationer om covid-19 och SARS-CoV-2
 menu:
     projects:
         name: Publikationer
