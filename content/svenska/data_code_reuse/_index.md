@@ -1,54 +1,52 @@
 ---
-title: COVID-19 Data & Code Reuse Competition
+title: Tävling: Återanvändning av covid-19 data och kod
 toc: false
 aliases:
   /sv/data-code-reuse/
 ---
 
-<div class="alert alert-info"><i class="fas fa-exclamation-triangle"></i><span class="small">Svensk översättning kommer inom kort.</span></div>
-
 <figure class="figure float-right mx-2 w-50">
   <img src="/img/posters/data_code_reuse_poster_web.png" class="img-news-banner img-thumbnail">
 </figure>
 
-The [Swedish COVID-19 Data Portal](https://covid19dataportal.se/) invites researchers and general public to take part in the **COVID-19 Data & Code Reuse Competition**. Participants should complete small-scale projects that make use of publicly shared data and/or code to combat the COVID-19 pandemic or any future pandemics.
+Den [svenska dataportalen för covid-19](https://covid19dataportal.se/) välkomnar forskare och allmänheten att delta i **COVID-19 Data & Code Reuse Competition**. Deltagare kan bidra med småskaliga projekt, vilka återanvänder publika data eller kod, i syfte att bekämpa covid-19-pandemin eller potentiella framtida pandemier.
 
-Three winning projects will be awarded support from the [SciLifeLab Data Centre](https://scilifelab.se/data) to promote the project and/or to enable follow-up work. The exact type of support provided will be tailored to the needs of each project. Support could comprise of, for example, free hosting for one year, free storage for one year, a feature on the COVID-19 Data portal (e.g. as a data highlight or a page with visualisations), and/or visibility through press and social media of SciLifeLab and SciLifeLab Data Centre.
+Tre vinnande projekt kommer att erbjudas support från [SciLifeLab Data Centre](https://scilifelab.se/data). Vilken exakt support som erbjuds kan utformas efter varje enskilt projekts specifika behov. Supporten kan bestå av fri hosting under ett år, fri lagring under ett år, medverkan på Covid-19 portalen (e.g som ”data i fokus” eller en sida med visualiseringar), och/eller synliggörande genom SciLifeLabs och SciLifeLab Data Centres press och sociala medier.
 
-We welcome various types of project. Projects could, for example, involve the reanalysis of existing publicly available data using a method different from that used originally or to answer a different question than in the original research. Alternatively, projects might reuse publicly shared code to process  a new set of data. Other possibilities include projects that produce individual visualisations, dashboards presenting publicly shared data in a novel way or web-services devoted to data and analyses. The emphasis of the projects submitted should be to maximise the utility of existing data and/or code.
+Vi välkomnar olika typer av projekt. Projekt kan t.ex. innefatta omtolkning av redan existerande publik tillgängliga data med en annan metod än originalmetoden eller för att besvara en ny frågeställning än den i originalforskningen. Dessutom kan ett projekt återanvända publik delad kod för att analysera nya data. Andra möjligheter inkluderar projekt som genererar visualiseringar som presenterar publikt delade data på ett nytt sätt. Stor vikt bör läggas vid att maximera nyttan av redan existerande data och/eller kod.
 
-#### Who can submit an entry?
+#### Vem kan skicka in ett bidrag?
 
-- The competition is **open to everyone**; both from academia (students, PhD candidates, postdocs, researchers, etc.) and the wider community.
-- Competition entries can be submitted either by **individuals or groups**. Collaborative projects are welcome.
+- Tävlingen är **öppen för alla**, både från akademi (studenter, doktorander, postdoktorer, forskare etc.) och allmänheten.
+- Tävlingsbidrag kan skickas in antingen av enskilda individer eller av en samarbetande grupp.
 
-#### How does the competition work?
+#### Hur fungerar tävlingen?
 
-- Participants are invited to enter small-scale research projects that contribute to the understanding of SARS-CoV-2, the fight against the COVID-19 pandemic or combatting future pandemics. The submitted projects should have a clear goal and outcome. Participants are welcome to spend as much or as little time on their competition entry as they wish.
-- Each competition entry must reuse data and/or code that has been made available in a public repository or assigned a DOI. We encourage the participants to search for data or code through the [Swedish COVID-19 Data Portal](https://covid19dataportal.se/), the [European COVID-19 Data Portal](https://covid19dataportal.org), and other [national COVID-19 Data Portals](https://covid19dataportal.se/partners/). Be sure to adhere to the license conditions under which the original data or code were published.
-- Participants are welcome to reuse their own data or code for new projects, as long they have been made publicly available before the competition entry is submitted.
-- Participants retain all rights to their project and are welcome to use the project outcome in any way they wish, including as part of further work or in publications.
+- Deltagare är välkomna att bidra med småskaliga forskningsprojekt vilka bidrar till ökad förståelse av SARS-CoV-2, kampen mot covid-19-pandemin eller framtida pandemier. Tävlingsbidraget bör ha ett tydligt mål och resultat. Deltagare är fria att spendera så mycket eller lite tid på bidraget som de önskar.
+- Varje enskilt tävlingsbidrag ska återanvända data och/eller kod som tidigare gjorts publikt tillgängliga i ett publikt repositorium eller också blivit tilldelat ett DOI. Vi uppmanar deltagare att söka efter data eller kod genom den [svenska dataportalen för covid-19](https://covid19dataportal.se/), den [europeiska dataportalen för covid-19](https://covid19dataportal.org),och andra [nationella dataportaler för covid-19](https://covid19dataportal.se/partners/).Var noga med att efterfölja de licensvillkor under vilka de ursprungliga data eller kod publicerades.  
+- Deltagare är välkomna att återanvända sina egna data eller kod i nya projekt så länge de gjorts publikt tillgängliga före tävlingsbidraget skickats in.
+- Deltagare behåller rättigheterna till sitt projekt och är fria att använda resultatet på vilket sätt de önskar, inklusive i framtida arbete och publikationer.
 
-#### How to submit an entry?
+#### Hur skickar jag in ett bidrag?
 
-- To enter a project into the competition, submit your project outcome (e.g. a PDF, a poster, a presentation, a dashboard, or a link) as an entry to the [SciLifeLab Data Repository](https://scilifelab.figshare.com/). You can log in with your Swedish university user ID or, if you are not affiliated with a Swedish university, you can get in touch with the SciLifeLab Data Centre at [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se) to obtain an account.
-- Any newly generated data, code and other materials should be made publicly available as part of the SciLifeLab Data Repository item submitted as an entry.
-- Follow the SciLifeLab Data Repository [submission guidelines](https://www.scilifelab.se/data/repository/submission/) to add your entry.
-- Provide information about and a link to, the source of the original data or code reused in the project in the "Description" field of your entry.
-- Add the keyword “COVID-19 Data & Code Reuse Competition” in the “Keywords” field of your entry.
-- Competition entries will go through the standard review process of the SciLifeLab Data Repository. Please note that the review process can take about one week. Your submission must be approved and published by the deadline.
-- Competition entries will be accepted between the 15th of May and the 15th of September 2021.
+- Skicka in ett tävlingsbidrag genom att publicera ditt projektresultat (en PDF, poster, presentation, dashboard eller länk) i  [SciLifeLab Data Repository](https://scilifelab.figshare.com/). Logga in på repositoriet med ditt SWAMID. Är du inte är ansluten till ett svenskt universitet kan du kontakta SciLifeLab Data Centre på  [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se) för att erhålla ett konto.  
+- All genererade data, kod och annat material bör göras publikt som en del av ditt tävlingsbidrag inskickat till SciLifeLab Data Repository.
+- Följ den här [guiden](https://www.scilifelab.se/data/repository/submission/) för att publicera ditt bidrag på SciLifeLab Data Repository.
+- I fältet ”Description” lägger du in information om (och en länk till) originaldata eller originalkod vilken användes i projektet.
+- Lägg till nyckelordet ” COVID-19 Data & Code Reuse Competition” i fältet “Keywords”.
+- Tävlingsbidrag kommer att gå igenom standardprocessen för review i SciLifeLab Data Repository. Vänligen notera att review-processen vanligen tar omkring en vecka. Ditt bidrag måste vara godkänt och publicerat före tävlingens slutdatum.
+- Tävlingsbidrag tas emot mellan den 15 maj och den 15 september 2021.
 
-#### Evaluation criteria
+#### Utvärderingskriterier
 
-- The submitted projects will be evaluated on the following criteria:
-    - Fulfillment of entry criteria.
-    - Demonstrated value of data and/or code reuse in fighting the COVID-19 pandemic or future pandemics.
-    - Clear scientific documentation and communication of the results.
-- The winning entries will be selected by a jury led by the [COVID-19 Data Portal team members](/about/).
+- Bidragen kommer att utvärderas baserat på följande kriterier:
+    - Fullföljande av tävlingskriterier.
+    - Påvisat värde av återanvändning av data och/eller kod i kampen mot covid-19-pandemin eller framtida pandemier.
+    - Tydlig vetenskaplig dokumentation och kommunicerande av projektresultaten.
+- De vinnande bidragen kommer att väljas av en jury ledd av [teamet bakom den svenska dataportalen för covid-19](/about/).
 
-#### Questions?
+#### Frågor?
 
-We are happy to answer any questions regarding the competition. You can get in touch with us by [submitting a question through this form](/contact/) or sending an email to [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se).
+Vi svarar gärna på frågor rörande tävlingen. Du kan kontakta oss, dels genom att [skicka in en fråga i det här formuläret](/contact/) eller genom att maila oss på [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se).
 
-**[Competition poster, .PDF](/img/posters/data_code_reuse_poster.pdf)**
+**[Poster, .PDF](/img/posters/data_code_reuse_poster.pdf)**
