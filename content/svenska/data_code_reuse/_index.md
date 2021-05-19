@@ -9,7 +9,7 @@ aliases:
   <img src="/img/posters/data_code_reuse_poster_web.png" class="img-news-banner img-thumbnail">
 </figure>
 
-Den [svenska dataportalen för covid-19 ](https://covid19dataportal.se/) välkomnar forskare och allmänheten att delta i **COVID-19 Data & Code Reuse Competition**. Deltagare kan bidra med småskaliga projekt, vilka återanvänder publika data eller kod, i syfte att bekämpa covid-19-pandemin eller potentiella framtida pandemier.
+Den [svenska dataportalen för covid-19](https://covid19dataportal.se/) välkomnar forskare och allmänheten att delta i **COVID-19 Data & Code Reuse Competition**. Deltagare kan bidra med småskaliga projekt, vilka återanvänder publika data eller kod, i syfte att bekämpa covid-19-pandemin eller potentiella framtida pandemier.
 
 Tre vinnande projekt kommer att erbjudas support från [SciLifeLab Data Centre](https://scilifelab.se/data). Vilken exakt support som erbjuds kan utformas efter varje enskilt projekts specifika behov. Supporten kan bestå av fri hosting under ett år, fri lagring under ett år, medverkan på Covid-19 portalen (e.g som ”data i fokus” eller en sida med visualiseringar), och/eller synliggörande genom SciLifeLabs och SciLifeLab Data Centres press och sociala medier.
 
