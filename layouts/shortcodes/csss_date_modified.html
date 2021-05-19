@@ -6,6 +6,6 @@ xmlhttp.onreadystatechange = function() {
     document.getElementById("last_modified").innerText = String(dataset_info.modified).substring(0,10);
   }
 };
-xmlhttp.open("GET", "https://blobserver.dckube.scilifelab.se/blob/CSSS_estimates.csv/info.json", true);
+xmlhttp.open("GET", "https://blobserver.dckube.scilifelab.se/blob/CSSS_estimates_mostrecent.csv/info.json", true);
 xmlhttp.send();
 </script>
