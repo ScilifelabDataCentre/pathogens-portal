@@ -1,10 +1,9 @@
 ---
-title: Tävling: Återanvändning av covid-19 data och kod
+title: "Tävling: Återanvändning av covid-19 data och kod"
 toc: false
 aliases:
   /sv/data-code-reuse/
 ---
-
 <figure class="figure float-right mx-2 w-50">
   <img src="/img/posters/data_code_reuse_poster_web.png" class="img-news-banner img-thumbnail">
 </figure>
