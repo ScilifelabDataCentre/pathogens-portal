@@ -1,15 +1,14 @@
 ---
-title: Tävling: Återanvändning av covid-19 data och kod
+title: "Tävling: Återanvändning av covid-19 data och kod"
 toc: false
 aliases:
   /sv/data-code-reuse/
 ---
-
 <figure class="figure float-right mx-2 w-50">
   <img src="/img/posters/data_code_reuse_poster_web.png" class="img-news-banner img-thumbnail">
 </figure>
 
-Den [svenska dataportalen för covid-19](https://covid19dataportal.se/) välkomnar forskare och allmänheten att delta i **COVID-19 Data & Code Reuse Competition**. Deltagare kan bidra med småskaliga projekt, vilka återanvänder publika data eller kod, i syfte att bekämpa covid-19-pandemin eller potentiella framtida pandemier.
+Den [svenska dataportalen för covid-19](https://covid19dataportal.se/sv/) välkomnar forskare och allmänheten att delta i **COVID-19 Data & Code Reuse Competition**. Deltagare kan bidra med småskaliga projekt, vilka återanvänder publika data eller kod, i syfte att bekämpa covid-19-pandemin eller potentiella framtida pandemier.
 
 Tre vinnande projekt kommer att erbjudas support från [SciLifeLab Data Centre](https://scilifelab.se/data). Vilken exakt support som erbjuds kan utformas efter varje enskilt projekts specifika behov. Supporten kan bestå av fri hosting under ett år, fri lagring under ett år, medverkan på Covid-19 portalen (e.g som ”data i fokus” eller en sida med visualiseringar), och/eller synliggörande genom SciLifeLabs och SciLifeLab Data Centres press och sociala medier.
 
@@ -23,7 +22,7 @@ Vi välkomnar olika typer av projekt. Projekt kan t.ex. innefatta omtolkning av 
 #### Hur fungerar tävlingen?
 
 - Deltagare är välkomna att bidra med småskaliga forskningsprojekt vilka bidrar till ökad förståelse av SARS-CoV-2, kampen mot covid-19-pandemin eller framtida pandemier. Tävlingsbidraget bör ha ett tydligt mål och resultat. Deltagare är fria att spendera så mycket eller lite tid på bidraget som de önskar.
-- Varje enskilt tävlingsbidrag ska återanvända data och/eller kod som tidigare gjorts publikt tillgängliga i ett publikt repositorium eller också blivit tilldelat ett DOI. Vi uppmanar deltagare att söka efter data eller kod genom den [svenska dataportalen för covid-19](https://covid19dataportal.se/), den [europeiska dataportalen för covid-19](https://covid19dataportal.org),och andra [nationella dataportaler för covid-19](https://covid19dataportal.se/partners/).Var noga med att efterfölja de licensvillkor under vilka de ursprungliga data eller kod publicerades.  
+- Varje enskilt tävlingsbidrag ska återanvända data och/eller kod som tidigare gjorts publikt tillgängliga i ett publikt repositorium eller också blivit tilldelat ett DOI. Vi uppmanar deltagare att söka efter data eller kod genom den [svenska dataportalen för covid-19](https://covid19dataportal.se/sv/), den [europeiska dataportalen för covid-19](https://covid19dataportal.org),och andra [nationella dataportaler för covid-19](/sv/partners/).Var noga med att efterfölja de licensvillkor under vilka de ursprungliga data eller kod publicerades.  
 - Deltagare är välkomna att återanvända sina egna data eller kod i nya projekt så länge de gjorts publikt tillgängliga före tävlingsbidraget skickats in.
 - Deltagare behåller rättigheterna till sitt projekt och är fria att använda resultatet på vilket sätt de önskar, inklusive i framtida arbete och publikationer.
 
@@ -43,10 +42,10 @@ Vi välkomnar olika typer av projekt. Projekt kan t.ex. innefatta omtolkning av 
     - Fullföljande av tävlingskriterier.
     - Påvisat värde av återanvändning av data och/eller kod i kampen mot covid-19-pandemin eller framtida pandemier.
     - Tydlig vetenskaplig dokumentation och kommunicerande av projektresultaten.
-- De vinnande bidragen kommer att väljas av en jury ledd av [teamet bakom den svenska dataportalen för covid-19](/about/).
+- De vinnande bidragen kommer att väljas av en jury ledd av [teamet bakom den svenska dataportalen för covid-19](/sv/about/).
 
 #### Frågor?
 
-Vi svarar gärna på frågor rörande tävlingen. Du kan kontakta oss, dels genom att [skicka in en fråga i det här formuläret](/contact/) eller genom att maila oss på [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se).
+Vi svarar gärna på frågor rörande tävlingen. Du kan kontakta oss, dels genom att [skicka in en fråga i det här formuläret](/sv/contact/) eller genom att maila oss på [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se).
 
 **[Poster, .PDF](/img/posters/data_code_reuse_poster.pdf)**
