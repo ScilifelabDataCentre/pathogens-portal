@@ -8,6 +8,8 @@ menu:
         params:
           title_eng: Serology data
 type: data_table
+aliases:
+  - /sv/data_types/serology/serology-statistics/
 ---
 
 ## Publicerad data

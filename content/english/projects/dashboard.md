@@ -35,13 +35,13 @@ These wordclouds display the words and two word phrases that appear most frequen
 
 #### All publications
 
-<div class="row my-4"><div class="col-md-8"><img src="https://dc-dynamic.dckube.scilifelab.se/covid-portal/titles_all.png"></div></div>
+<div class="row my-4"><div class="col-md-8"><img src="https://blobserver.dckube.scilifelab.se/blob/covid-portal-titles_all.png"></div></div>
 
 #### Publications attributed to particular research funders
 
 Wordclouds are displayed for each funder that we identified as having been associated with at least 20 publications in the database.
 
-<div class="container"> <div class="row mt-2"> <div class="col-md mr-4"> <div class="row"> <h5>Swedish Research Council:</h5> </div> <div class="row"> <img src="https://dc-dynamic.dckube.scilifelab.se/covid-portal/titles_vr.png"> </div> </div> <div class="col-md mr-4"> <div class="row"> <h5>SciLifeLab/KAW:</h5> </div> <div class="row"> <img src="https://dc-dynamic.dckube.scilifelab.se/covid-portal/titles_kaw.png"> </div> </div> <div class="col-md"> <div class="row"> <h5>Horizon 2020:</h5> </div> <div class="row"> <img src="https://dc-dynamic.dckube.scilifelab.se/covid-portal/titles_h2020.png"> </div> </div> </div> </div>
+<div class="container"> <div class="row mt-2"> <div class="col-md mr-4"> <div class="row"> <h5>Swedish Research Council:</h5> </div> <div class="row"> <img src="https://blobserver.dckube.scilifelab.se/blob/covid-portal-titles_vr.png"> </div> </div> <div class="col-md mr-4"> <div class="row"> <h5>SciLifeLab/KAW:</h5> </div> <div class="row"> <img src="https://blobserver.dckube.scilifelab.se/blob/covid-portal-titles_kaw.png"> </div> </div> <div class="col-md"> <div class="row"> <h5>Horizon 2020:</h5> </div> <div class="row"> <img src="https://blobserver.dckube.scilifelab.se/blob/covid-portal-titles_h2020.png"> </div> </div> </div> </div>
 
 ## Most frequent words or two word phrases in the abstracts
 
@@ -49,10 +49,10 @@ These wordclouds display the words and two word phrases that appear most frequen
 
 #### All publications
 
-<div class="row my-4"><div class="col-md-8"><img src="https://dc-dynamic.dckube.scilifelab.se/covid-portal/abstracts_all.png"></div></div>
+<div class="row my-4"><div class="col-md-8"><img src="https://blobserver.dckube.scilifelab.se/blob/covid-portal-abstracts_all.png"></div></div>
 
 #### Publications attributed to particular research funders
 
 Wordclouds are displayed for each funder that we identified as having been associated with at least 20 publications in the database.
 
-<div class="container"> <div class="row mt-2"> <div class="col-md mr-4"> <div class="row"> <h5>Swedish Research Council:</h5> </div> <div class="row"> <img src="https://dc-dynamic.dckube.scilifelab.se/covid-portal/abstracts_vr.png"> </div> </div> <div class="col-md mr-4"> <div class="row"> <h5>SciLifeLab/KAW:</h5> </div> <div class="row"> <img src="https://dc-dynamic.dckube.scilifelab.se/covid-portal/abstracts_kaw.png"> </div> </div> <div class="col-md"> <div class="row"> <h5>Horizon 2020:</h5> </div> <div class="row"> <img src="https://dc-dynamic.dckube.scilifelab.se/covid-portal/abstracts_h2020.png"> </div> </div> </div> </div>
+<div class="container"> <div class="row mt-2"> <div class="col-md mr-4"> <div class="row"> <h5>Swedish Research Council:</h5> </div> <div class="row"> <img src="https://blobserver.dckube.scilifelab.se/blob/covid-portal-abstracts_vr.png"> </div> </div> <div class="col-md mr-4"> <div class="row"> <h5>SciLifeLab/KAW:</h5> </div> <div class="row"> <img src="https://blobserver.dckube.scilifelab.se/blob/covid-portal-abstracts_kaw.png"> </div> </div> <div class="col-md"> <div class="row"> <h5>Horizon 2020:</h5> </div> <div class="row"> <img src="https://blobserver.dckube.scilifelab.se/blob/covid-portal-abstracts_h2020.png"> </div> </div> </div> </div>

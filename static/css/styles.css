@@ -366,3 +366,18 @@ div.dataTables_wrapper div.dataTables_info {
     border-color: rgba(77, 77, 77, 1);
     background: rgba(77, 77, 77, 1);
 }
+
+/*
+ * Styling for the banner of Data and Code reuse competition
+ */
+
+.data_code_reuse_block {
+     background-image: url('../img/csm_coronavirus_mc.jpg');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.data_code_reuse_block .title {
+    color: #cc3366;
+}

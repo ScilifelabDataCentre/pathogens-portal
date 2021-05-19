@@ -98,6 +98,25 @@
         </div></div>
     </div>
 
+      <!-- Data and Code Reuse Competition banner -->
+      {{ if eq $.Site.Language.LanguageName "Svenska" }}
+          <div class="container mb-5 data_code_reuse_block">
+              <div class="row px-3 pt-1"><h4>Tävling: Återanvändning av covid-19 data och kod<h4></div>
+              <div class="row px-3"><p><b>Vem?</b> Öppen för alla, både enskilda individer och grupper.<br>
+                <b>När?</b> Skicka in ditt bidrag mellan den 15 maj och 15 september 2021.</p>
+              </div>
+              <div class="row pb-1 px-3 text-black"><h6><a style="color:black" href="/sv/data_code_reuse/">Mer om tävlingen <i class="fas fa-arrow-circle-right"></i></a></h6></div>
+          </div>
+        {{ else }}
+          <div class="container mb-5 data_code_reuse_block">
+              <div class="row px-3 pt-1"><h4>COVID-19 Data & Code Reuse Competition<h4></div>
+              <div class="row px-3"><p><b>Who?</b> Open to everyone, individuals or groups.<br>
+                <b>When?</b> Submit your entry between May 15 and September 15 2021.</p>
+              </div>
+              <div class="row pb-1 px-3 text-black"><h6><a style="color:black" href="/data_code_reuse/">About the competition <i class="fas fa-arrow-circle-right"></i></a></h6></div>
+          </div>
+        {{ end }}
+
       <!-- Data highlights -->
       <div class="container mb-5">
         {{ range .Site.Menus.homepage_highlights }}
@@ -126,6 +145,7 @@
           </div>
           </div>
       </div>
+
 
       <!-- Sample Collection Database -->
       <div class="container mb-5">

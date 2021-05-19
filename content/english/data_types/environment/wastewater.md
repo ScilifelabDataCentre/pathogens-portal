@@ -127,6 +127,9 @@ The amount of SARS-CoV-2 for each week is measured/depicted compared to the amou
 **Principal investigator:** Maja Malmberg (SLU, Swedish University of Agricultural Sciences)  
 **Contact:** maja.malmberg@slu.se
 
+**How to cite:**  
+Malmberg, M., Myrmel, M. & Khatri, M.. Dataset of SARS-CoV-2 in wastewater in Umeå, Sweden. [https://doi.org/10.17044/scilifelab.14376881.v1](https://doi.org/10.17044/scilifelab.14376881.v1) (2021).
+
 <div class="alert alert-info">Last updated: <span id="last_modified_umeaa"></span></div>
 
 <div class="d-md-none alert alert-info">
@@ -153,6 +156,9 @@ After preparation, the viruses were extracted using ultra filtration and analyze
 
 **Principal investigator:** Maja Malmberg (SLU, Swedish University of Agricultural Sciences)  
 **Contact:** maja.malmberg@slu.se
+
+**How to cite:**  
+Malmberg, M., Myrmel, M. & Khatri, M.. Dataset of SARS CoV-2 in wastewater in Örebro, Sweden. [https://doi.org/10.17044/scilifelab.14377097.v1](https://doi.org/10.17044/scilifelab.14377097.v1) (2021).
 
 <div class="alert alert-info">Last updated: <span id="last_modified_orebro"></span></div>
 
