@@ -1,6 +1,13 @@
 ---
 title: Mängd SARS-CoV-2 virus i avloppsvatten från svenska städer
 toc: false
+menu:
+  other_data:
+      name: Samhälle och miljö
+      identifier: environment
+      weight: 50
+      params:
+        title_eng: Environment
 ---
 Vi presenterar epidemiologiska data av mätningar av SARS-CoV-2 virus i avloppsvatten från fyra svenska städer: Uppsala, Stockholm, Umeå och Örebro, med totalt 1.5 miljoner invånare.  Att mäta virusmängder i avloppsvatten kan var en del av ett system för att detektera och övervaka förekomsten av SARS-CoV-2 i samhället. Notera att direkt jämförelse av virusmängden mellan olika städer inte är möjlig pga olika hantering av insamlade avloppsprov och analys av data.  Jämförelser bör endast göras inom data som samlats in och visualiseras från en och samma stad. [För mer information om epidemiologiska data från mätningar av SARS-CoV-2 i avloppsvatten se nedan.](#background).
 

@@ -65,7 +65,7 @@
           {{ $datatypes_to_display = .Params.datatypes_to_display }}
       {{ end }}
 
-      <div class="container mb-5">
+      <div class="container mb-4">
         {{ range .Site.Menus.homepage_available_data }}
         <div class="row"><h2>{{ .Name }}</h2></div>
         <div class="row"><p class="small text-muted">{{ .Post }}</p></div>
@@ -93,14 +93,16 @@
                   {{ end }}
                 <i class="fas fa-arrow-circle-right"></i></a></h5></div>
         {{ end }}
-                <div class="col-md-4"><h5><a href="#testing_results">{{ $.Param "teststats.name" }}
-                <i class="fas fa-arrow-circle-right"></i></a></h5></div>
-        </div></div>
+        </div>
+      </div>
+      <div class="row mt-2"><h5><a href="#testing_results">{{ $.Param "teststats.name" }}
+          <i class="fas fa-arrow-circle-right"></i></a></h5>
+      </div>
     </div>
 
       <!-- Data and Code Reuse Competition banner -->
       {{ if eq $.Site.Language.LanguageName "Svenska" }}
-          <div class="container mb-5 data_code_reuse_block">
+          <div class="container mb-4 data_code_reuse_block">
               <div class="row px-3 pt-1"><h4>Tävling: Återanvändning av covid-19 data och kod<h4></div>
               <div class="row px-3"><p><b>Vem?</b> Öppen för alla, både enskilda individer och grupper.<br>
                 <b>När?</b> Skicka in ditt bidrag mellan den 15 maj och 15 september 2021.</p>
@@ -118,7 +120,7 @@
         {{ end }}
 
       <!-- Data highlights -->
-      <div class="container mb-5">
+      <div class="container mb-4">
         {{ range .Site.Menus.homepage_highlights }}
         <div class="row"><h2>{{ .Name }}</h2></div>
         <div class="row"><p class="small text-muted">{{ .Post }}</p></div>
@@ -148,7 +150,7 @@
 
 
       <!-- Sample Collection Database -->
-      <div class="container mb-5">
+      <div class="container mb-4">
         {{ range .Site.Menus.homepage_biobanks }}
         <div class="row"><h2>{{ .Name }}</h2></div>
         <div class="row"><p class="small text-muted">{{ .Post }}</p></div>
@@ -167,7 +169,7 @@
       </div>
 
       <!-- Research projects -->
-      <div class="container mb-5">
+      <div class="container mb-4">
         {{ range .Site.Menus.homepage_projects }}
         <div class="row"><h2>{{ .Name }}</h2></div>
         <div class="row"><p class="small text-muted">{{ .Post }}</p></div>
@@ -188,7 +190,7 @@
       </div>
 
       <!-- Visualizations pages -->
-      <div class="container mb-5">
+      <div class="container mb-4">
         <div class="row"><a id="testing_results"><h2>{{ $.Param "teststats.name" }}</h2></a></div>
         <div class="row"><p class="small text-muted">{{ $.Param "teststats.desc" }}</p></div>
         <!-- Serology testing -->
