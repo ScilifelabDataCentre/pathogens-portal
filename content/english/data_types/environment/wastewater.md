@@ -1,12 +1,17 @@
 ---
 title: The amount of SARS-CoV-2 virus in wastewater across Sweden
 toc: false
+menu:
+  other_data:
+      name: Environment
+      identifier: environment
+      weight: 50
 ---
 
 We present wastewater epidemiology data from four Swedish cities - Uppsala, Stockholm, Umeå, and Örebro, with a total population of 1.5 million people. Wastewater surveillance could prove an effective system for monitoring COVID-19 prevalence and an early warning system for predicting upcoming outbreaks. Note that because different sample collection and data analysis methods are used in different cities, it is not possible to make comparisons of viral load across these cities. Comparisons should be made within each city because the methodology remains the same. [See below for details](#background) on wastewater epidemiology.
 
 <div class="row"><div class="col-lg-7"><p>Below, you can find graphs depicting the amount of SARS-CoV-2 gene copies in waste water in various cities across Sweden and links to download the data behind.</p>
-<ul><li><a href="#uppsala">Wastewater in Uppsala and Uppsala and nearby municipalities</a></li>
+<ul><li><a href="#uppsala">Wastewater in Uppsala and nearby municipalities</a></li>
 <li><a href="#stockholm">Wastewater in Stockholm</a></li>
 <li><a href="#umea">Wastewater in Umeå</a></li>
 <li><a href="#orebro">Wastewater in Örebro</a></li>
