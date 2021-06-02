@@ -96,7 +96,12 @@
       <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).dt_data_types }}</h5>
       <div class="col mb-2">
                 <div class="row">{{ if or (eq .Title "All data types") (eq .Title "Alla datatyper") }}<b>{{ else }}<a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/data_types/all/data/">{{ end }}{{ if eq $.Site.Language.LanguageName "Svenska" }}Alla datatyper {{ else }}All data types {{ end }}({{ len $all_entries }}){{ if or (eq .Title "All data types") (eq .Title "Alla datatyper") }}</b>{{ else }}</a>{{ end }}</div>
-        {{ $data_types_menu := .Site.Menus.horizontal | append .Site.Menus.other_data}}
+        {{ $data_types_menu := .Site.Menus.horizontal }}
+        {{ range $ind, $el := .Site.Menus.other_data }}
+          {{ if and (ne $el.URL "/data_types/environment/wastewater/") (ne $el.URL "/sv/data_types/environment/wastewater/") }}
+            {{ $data_types_menu = $data_types_menu | append $el }}
+          {{ end }}
+        {{ end }}
         {{ range $data_types_menu }}
                 <div class="row">
                   {{ if eq .Title $current_page}}
