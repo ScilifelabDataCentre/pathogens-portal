@@ -1,0 +1,43 @@
+---
+title: The Swedish COVID-19 Data Portal one year on - focus on openly sharing data and code # short
+date: 2021-06-02
+summary: One year ago, on June 3rd 2020, the Swedish COVID-19 Data Portal was launched as the first national node of the European data sharing platform for COVID-19 research efforts. Here, we look back at highlights during this year.
+banner: /news/banners/first_year_portal.png
+banner_large: /news/banners/first_year_portal.png
+banner_caption: The Swedish COVID-19 Data Portal was launched on June 3 2020.
+---
+
+The COVID-19 pandemic has over the last year and a half caused a global public health crisis. This has in turn warranted accelerated research into the unknown SARS-COV-2 virus and the new COVID-19 disease. The global research community has in an unprecedented way refocused their efforts to meet the demand for rapid development of novel therapies and vaccines. Openly sharing data and code, increasing the possibility to reuse data, and collaborations have proven to be important in these efforts. The Swedish COVID-19 Data Portal is part of the effort to increase research data sharing and sharing of code.
+
+In the spring of 2020, the European Commission [took the initiative to develop a European data sharing platform for COVID-19 research efforts](](https://www.embl.org/news/science/embl-ebi-launches-covid-19-data-portal/)), operated by the European Molecular Biology Laboratory - European Bioinformatics Institute (EMBL-EBI). One year ago, on June 3rd 2020, [the Swedish COVID-19 Data Portal](https://covid19dataportal.se) was launched as the first national node of this platform. The Portal has been developed and is operated by the [SciLifeLab Data Centre](https://scilifelab.se/data) and partners [on assignment from the Swedish Research Council](https://www.vr.se/english/just-now/news/news-archive/2020-06-03-new-national-portal-makes-research-data-on-covid-19-accessible.html).
+
+The Swedish COVID-19 Data Portal provides guidelines, tools, and services for sharing and finding research data made available by Swedish researchers or through the international data repositories. Over the year of existence, [the Swedish COVID-19 Data Portal](https://covid19dataportal.se/) has had >22.000 visitors and >100.000 pageviews on the website, and [the portal team](/about) has provided general and hands-on support to a wide range of research projects.
+
+<figure class="figure img-fluid mx-2">
+  <img src="/news/banners/first_year_portal_in_numbers.png" class="img-thumbnail">
+  <figcaption class="figure-caption mt-1"><i>The year of the Swedish COVID-19 Data Portal in numbers. Number of visitors and pageviews along with the geographical distribution of the visitors on the right pane, content of the portal sections on the middle pane, number of projects receiving direct support on the left pane.</i></figcaption>
+</figure>
+
+> "As the team behind the Portal, we are all happy about the very positive response to our work. The COVID-19 Data Portal is today visited mostly by the research community, but we also get visitors working in healthcare and press as well as visitors from the general public," says Katarina Öjefors Stark, a research coordinator working in the Portal team.
+
+The Portal website consists of a number of services launched over the year of existence. For example, those looking for data and code can use discipline-specific [manually curated lists of openly shared data and/or code](/data_types/all/data/) by researchers affiliated to a Swedish research institute. Those wishing to make use of biomaterials and data accumulated in biobanks across Sweden would find the [the Swedish COVID-19 Sample Collection Database](/biobanks/) useful. This database, developed in collaboration with [Biobank Sweden](https://biobanksverige.se), allows researchers to look for biological samples and data meeting their criteria (search is possible based on materials, diagnosis, data types, disciplines). The database contains biobanks and sample collections from both health care and academia. To date, it contains information about 29 sample collections from 16 various biobanks. Another service within the Portal is [a manually curated database of publications on COVID-19 and SARS-CoV](/publications/) that lists all published articles and preprints where at least one author has an affiliation with a Swedish research institute. To date, the publication database contains over 1300 publications.
+
+<figure class="figure mx-2 img-fluid">
+  <img src="/news/banners/first_year_portal_timeline.png" class="img-thumbnail">
+  <figcaption class="figure-caption mt-1"><i>Timeline of the events during the year of existence of the Swedish COVID-19 Data Portal illustrating the timepoints of launch of various services and achievements.</i></figcaption>
+</figure>
+
+In addition to guidelines available on the Portal website, practical Data Management support is also offered by the [SciLifeLab Data Centre Data Management team and partners](/about). In the first year, nearly 200 projects have been in direct contact with the support team.
+
+The Swedish COVID-19 Data Portal also provides visibility to research projects sharing the data and code through the so-called [Data Highlights](/news/). The Data Highlights are news items promoting openly shared data and code that can potentially be used by many other researchers to make further discoveries as well as research projects which made new discoveries by re-using existing data and code.
+
+Finally, the Portal provides a place for various community-driven projects to publish their results or reach researchers in Sweden.  Among the general public and policy-makers, the section of the Portal displaying recent SARS-CoV-2 testing results has been especially popular. This section contains regularly updated results from [antibody testing carried out at the SciLifeLab Autoimmunity and Serology profiling facility](/data_types/health_data/serology-statistics/) as well as from [analyses of wastewater across Sweden](/data_types/environment/wastewater/). The Portal also has sections devoted to partner projects, currently [CRUSH Covid](/data_types/health_data/crush_covid/) and [COVID Symptom Study Sweden](/data_types/health_data/symptom_study_sweden/) (but always looking for new partners).
+
+
+> "All code developed for the Portal has been [shared on GitHub](https://github.com/ScilifelabDataCentre/covid-portal/tree/master) under an open source license. Because the code on which our Portal is based is freely available on GitHub, parts of it have been re-used by teams in other countries to rapidly develop their own national portals. For example, the Italian, Spanish, Slovenian, and Polish COVID-19 Data Portals have all used or are currently using parts of our code. This way, the Portal itself functions as a demonstration of the value of openly sharing code," says Arnold Kochari, one of the web developers in the portal team.
+
+Looking into future plans, the Portal team is currently working on development of new sections and visualizations for later this year. The COVID-19 pandemic is now in a new phase in Sweden where the vaccination coverage is increasing and vaccine research is coming into focus. The Portal is planning to launch corresponding sections devoted to vaccine research in the near future. Recently, the [COVID-19 Data & Code Reuse Competition](/data_code_reuse) was launched by the Portal. In this competition, the researchers and the general public are invited to prepare small projects making use of publicly shared data and/or code to combat the COVID-19 and future pandemics.
+
+> Johan Rung, Head of SciLifeLab Data Centre and leading the Portal team says: "Moving forward the COVID-19 Data Portal will build on the features already developed and made available during the first year. In addition, just as the societal response to the pandemic is currently in the process of moving towards vaccines and future pandemic preparedness, the Portal will develop new features to meet the new needs. We are thankful for the researchers who choose to share their data and code allowing new analyses, leading to new results and new knowledge, as well as increasing reproducibility. Our aim is to further improve our support to the important community efforts responding to this pandemic.”
+
+The [team behind the Swedish COVID-19 Data Portal](/about) always welcomes collaboration suggestions, questions about publishing and finding data, as well as data management in general, and feedback regarding the Portal itself. Do not hesitate to get in touch with us [using our contact form](/contact) or by sending us an email: datacentre@scilifelab.se.
