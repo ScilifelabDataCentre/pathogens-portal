@@ -28,3 +28,4 @@ no-inline-html:
     - figure
     - sup
     - figcaption
+    - iframe
