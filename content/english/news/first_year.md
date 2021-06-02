@@ -40,3 +40,7 @@ Looking into future plans, the Portal team is currently working on development o
 > Johan Rung, Head of SciLifeLab Data Centre and leading the Portal team says: "Moving forward the COVID-19 Data Portal will build on the features already developed and made available during the first year. In addition, just as the societal response to the pandemic is currently in the process of moving towards vaccines and future pandemic preparedness, the Portal will develop new features to meet the new needs. We are thankful for the researchers who choose to share their data and code allowing new analyses, leading to new results and new knowledge, as well as increasing reproducibility. Our aim is to further improve our support to the important community efforts responding to this pandemic.”
 
 The [team behind the Swedish COVID-19 Data Portal](/about) always welcomes collaboration suggestions, questions about publishing and finding data, as well as data management in general, and feedback regarding the Portal itself. Do not hesitate to get in touch with us [using our contact form](/contact) or by sending us an email: datacentre@scilifelab.se.
+
+Below you can watch a short video describing the portal and demonstrating some of the sections.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UUsoY6Lfa1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
