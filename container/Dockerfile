@@ -1,4 +1,4 @@
-FROM klakegg/hugo:0.80.0-onbuild AS build
+FROM klakegg/hugo:0.83.1-onbuild AS build
 
 FROM nginx:1.21-alpine
 COPY container/default.conf /etc/nginx/conf.d/default.conf
