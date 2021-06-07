@@ -35,7 +35,7 @@ Note that the scores provided in this dataset and depicted in plots are prelimin
 **Contact:** anna.szekely@slu.se
 
 **How to cite:**
-Székely, A. & Mohamed, N.. Dataset of SARS-CoV-2 wastewater data from Uppsala, and neighbouring towns Knivsta, Enköping, Östhammar and Älvkarleby, Sweden. https://doi.org/10.17044/scilifelab.14256317.v1 (2021).
+Székely, A. & Mohamed, N.. Dataset of SARS-CoV-2 wastewater data from Uppsala, and neighbouring towns Knivsta, Enköping, Östhammar and Älvkarleby, Sweden. [https://doi.org/10.17044/scilifelab.14256317.v1](https://doi.org/10.17044/scilifelab.14256317.v1) (2021).
 
 <div class="alert alert-info">Last updated: <span id="last_modified_uppsala"></span></div>
 
