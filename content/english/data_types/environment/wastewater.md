@@ -31,8 +31,11 @@ Note that the scores provided in this dataset and depicted in plots are prelimin
 
 **Download the data:** [Relative ratio of copy number of SARS-CoV-2 to PPMoV, Excel file.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Uppsala.xlsx) Data available starting from week 38 of 2020; updated weekly.
 
-**Principal investigator:** Anna J. Székely, SLU, Swedish University of Agricultural Sciences.  
+**Principal investigator:** Anna J. Székely, SLU, Swedish University of Agricultural Sciences.
 **Contact:** anna.szekely@slu.se
+
+**How to cite:**
+Székely, A. & Mohamed, N.. Dataset of SARS-CoV-2 wastewater data from Uppsala, and neighbouring towns Knivsta, Enköping, Östhammar and Älvkarleby, Sweden. https://doi.org/10.17044/scilifelab.14256317.v1 (2021).
 
 <div class="alert alert-info">Last updated: <span id="last_modified_uppsala"></span></div>
 
@@ -98,7 +101,7 @@ See also [the page of the research group where summaries of data and preliminary
 
 **Download the data:** [Gene copy number/week (raw wastewater) with bovine + PMMoV factor; Excel file.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Stockholm.xlsx) Numbers for Stockholm overall and divided by Inlet Henriksdal, Sickla, Hässelby, Järva, Riksby, and Käppala are available. Results are available (partially) starting from week 16 of 2020; updated weekly.
 
-**Principal investigator:** Zeynep Cetecioglu Gurol (KTH Royal Institute of Technology)  
+**Principal investigator:** Zeynep Cetecioglu Gurol (KTH Royal Institute of Technology)
 **Contact:** zeynepcg@kth.se
 
 <div class="alert alert-info">Last updated: <span id="last_modified_stockholm"></span></div>
@@ -129,10 +132,10 @@ The amount of SARS-CoV-2 for each week is measured/depicted compared to the amou
 
 **Download the data:** [Gene copy number change (%) relative to Nov 6 2020 and flow level at each measurement day and weekly numbers, Excel file.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Umeaa.xlsx). Data is available starting from week 44 of 2020; updated monthly.
 
-**Principal investigator:** Maja Malmberg (SLU, Swedish University of Agricultural Sciences)  
+**Principal investigator:** Maja Malmberg (SLU, Swedish University of Agricultural Sciences)
 **Contact:** maja.malmberg@slu.se
 
-**How to cite:**  
+**How to cite:**
 Malmberg, M., Myrmel, M. & Khatri, M.. Dataset of SARS-CoV-2 in wastewater in Umeå, Sweden. [https://doi.org/10.17044/scilifelab.14376881.v1](https://doi.org/10.17044/scilifelab.14376881.v1) (2021).
 
 <div class="alert alert-info">Last updated: <span id="last_modified_umeaa"></span></div>
@@ -159,10 +162,10 @@ After preparation, the viruses were extracted using ultra filtration and analyze
 
 **Download the data:** [Gene copy number change (%) relative to Nov 6 2020 and flow level at each measurement day and weekly numbers, Excel file.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Orebro.xlsx). Data is available starting from week 42 of 2020; updated monthly.
 
-**Principal investigator:** Maja Malmberg (SLU, Swedish University of Agricultural Sciences)  
+**Principal investigator:** Maja Malmberg (SLU, Swedish University of Agricultural Sciences)
 **Contact:** maja.malmberg@slu.se
 
-**How to cite:**  
+**How to cite:**
 Malmberg, M., Myrmel, M. & Khatri, M.. Dataset of SARS CoV-2 in wastewater in Örebro, Sweden. [https://doi.org/10.17044/scilifelab.14377097.v1](https://doi.org/10.17044/scilifelab.14377097.v1) (2021).
 
 <div class="alert alert-info">Last updated: <span id="last_modified_orebro"></span></div>
