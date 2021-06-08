@@ -178,6 +178,6 @@ The website was built by [SciLifeLab Data Centre](https://www.scilifelab.se/data
 The primary contributors have been:
 
 - [@pekrau](http://github.com/pekrau/): Project leader
-- [@akochari](http://github.com/akochari/): Project manager/webmaster
+- [@akochari](http://github.com/akochari/): Project manager/web developer
 - [@ewels](https://github.com/ewels): Built the website
 - [@talavis](https://github.com/talavis): Server setup and more

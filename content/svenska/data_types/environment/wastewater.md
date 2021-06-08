@@ -32,8 +32,11 @@ Notera att resultaten i  dataseten och som visas i diagrammen är preliminära d
 
 **Ladda ner data:** [Relativt ratio av viruskopior SARS CoV-2  jämfört med mängd PPMoV, Excel-fil.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Uppsala.xlsx) Data finns tillgängligt från och med vecka 38 2020; uppdateras varje vecka.
 
-**Forskargrupppledare:** Anna J. Székely, SLU, Sveriges Lantbruksuniversitet.  
+**Forskargrupppledare:** Anna J. Székely, SLU, Sveriges Lantbruksuniversitet.
 **Kontakt:** anna.szekely@slu.se
+
+**Referera till detta dataset:**
+Székely, A. & Mohamed, N.. Dataset of SARS-CoV-2 wastewater data from Uppsala, and neighbouring towns Knivsta, Enköping, Östhammar and Älvkarleby, Sweden. [https://doi.org/10.17044/scilifelab.14256317.v1](https://doi.org/10.17044/scilifelab.14256317.v1) (2021).
 
 <div class="alert alert-info">Senast uppdaterad: <span id="last_modified_uppsala"></span></div>
 
@@ -97,7 +100,7 @@ Se även [forskargruppens webbsida där sammanfattningar av data och preliminär
 
 **Ladda ner data:** [Mängd SARS CoV-2 RNA per vecka i råavloppsvatten, med bovin faktor och PPMoV faktor, Excel-fil](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Stockholm.xlsx). Uppgifterna delas av Inlet Henriksdal, Sickla, Hässelby, Järva, Riksby och Käppala. Data tillgänglig (delvis) från och med vecka 16 2020; uppdateras varje vecka.
 
-**Forskargruppledare:** Zeynep Cetecioglu Gurol (Kungliga Tekniska högskolan)  
+**Forskargruppledare:** Zeynep Cetecioglu Gurol (Kungliga Tekniska högskolan)
 **Kontakt:** zeynepcg@kth.se
 
 <div class="alert alert-info">Senast uppdaterad: <span id="last_modified_stockholm"></span></div>
@@ -128,10 +131,10 @@ Mängden SARS-CoV-2 RNA per vecka mäts/visauliseras jämfört med mängden SARS
 
 **Ladda ner data:** [Förändring i mängd SARS CoV-2 RNA (%) jämfört med Nov 6 2020 och flöde varje dag samt veckonummer, Excel fil.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Umeaa.xlsx). Data startar vecka 44 of 2020; uppdateras en gång per månad.
 
-**Forskargruppledare:** Maja Malmberg (SLU, Sveriges Lantbruksuniversitet)  
+**Forskargruppledare:** Maja Malmberg (SLU, Sveriges Lantbruksuniversitet)
 **Kontakt:** maja.malmberg@slu.se
 
-**Referera till detta dataset:**  
+**Referera till detta dataset:**
 Malmberg, M., Myrmel, M. & Khatri, M.. Dataset of SARS-CoV-2 in wastewater in Umeå, Sweden. [https://doi.org/10.17044/scilifelab.14376881.v1](https://doi.org/10.17044/scilifelab.14376881.v1) (2021).
 
 <div class="alert alert-info">Senast uppdaterad: <span id="last_modified_umeaa"></span></div>
@@ -158,10 +161,10 @@ Mängden SARS-CoV-2 RNA per vecka mäts / visaualiseras jämfört med mängden S
 
 **Ladda ner data:** [Förändring i mängd SARS CoV-2 RNA (%) jämfört med Nov 6 2020 och flöde varje dag samt veckonummer, Excel fil](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Orebro.xlsx). Data startar vecka 44 of 2020; uppdateras en gång per månad.
 
-**Forskargruppledare:** Maja Malmberg (SLU, Sveriges Lantbruksuniversitet)  
+**Forskargruppledare:** Maja Malmberg (SLU, Sveriges Lantbruksuniversitet)
 **Kontakt:** maja.malmberg@slu.se
 
-**Referera till detta dataset:**  
+**Referera till detta dataset:**
 Malmberg, M., Myrmel, M. & Khatri, M.. Dataset of SARS CoV-2 in wastewater in Örebro, Sweden. [https://doi.org/10.17044/scilifelab.14377097.v1](https://doi.org/10.17044/scilifelab.14377097.v1) (2021).
 
 <div class="alert alert-info">Senast uppdaterad: <span id="last_modified_orebro"></span></div>

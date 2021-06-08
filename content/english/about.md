@@ -32,7 +32,7 @@ Many people from SciLifeLab, NBIS, and other organisations were involved in the 
     <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/ak.jpg" width="150" class="img-thumbnail"/></div>
       <div class="row-cor"><b>Arnold Kochari</b></div>
-      <div class="row-cor"><span class="text-muted">Webmaster for the COVID-19 Data Portal, SciLifeLab</span></div>
+      <div class="row-cor"><span class="text-muted">Web developer for the COVID-19 Data Portal, SciLifeLab</span></div>
     </div>
     <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/kos.jpeg" width="150" class="img-thumbnail"/></div>
@@ -47,12 +47,12 @@ Many people from SciLifeLab, NBIS, and other organisations were involved in the 
     <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/lh.png" width="150" class="img-thumbnail"/></div>
       <div class="row-cor"><b>Liane Hughes</b></div>
-      <div class="row-cor"><span class="text-muted">Data Engineer, SciLifeLab</span></div>
+      <div class="row-cor"><span class="text-muted">Data engineer, SciLifeLab</span></div>
     </div>
     <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/aa.jpeg" width="150" class="img-thumbnail"/></div>
       <div class="row-cor"><b>Anna Asklöf</b></div>
-      <div class="row-cor"><span class="text-muted">Data Steward, SciLifeLab</span></div>
+      <div class="row-cor"><span class="text-muted">Data steward, SciLifeLab</span></div>
     </div>
     <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/hk.jpg" width="150" class="img-thumbnail"/></div>
@@ -67,7 +67,7 @@ Many people from SciLifeLab, NBIS, and other organisations were involved in the 
     <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/pk.jpg" width="150" class="img-thumbnail"/></div>
       <div class="row-cor"><b>Per Kraulis</b></div>
-      <div class="row-cor"><span class="text-muted">System development team leader, data engineer, SciLifeLab</span></div>
+      <div class="row-cor"><span class="text-muted">Systems development team leader, data engineer, SciLifeLab</span></div>
     </div>
     <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/lo.jpg" width="150" class="img-thumbnail"/></div>
