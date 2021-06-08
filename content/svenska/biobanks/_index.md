@@ -20,7 +20,7 @@ Det [svenska Covid-19 Provsamlingsregistret](https://biobanks.covid19dataportal.
 
 Både *vårdprovssamlingar* och *forskningsprovsamlingar* finns i provsamlingsregistret. Vårdprovsamlingar är primärt insamlade inom sjukvården för diagnos och behandling, men kan även tillgängliggöras för  forskning om etiskt tillstånd från Etikprövningsmyndigheten så medger. Rörande forskningsprovsamlingar har ansvarig forskare beslutsrätt över insamlade prover och för att få tillgång till dessa samlingar måste ansvarig forskare kontaktas. Innan proven kan göras tillgängliga krävs att det aktuella forskningsprojektet måste antingen ingå under ett godkännande eller erhålla ett nytt godkännande från Etikprövningsmyndigheten.
 
-I mars 2021 innehåller det svenska Covid-19 Provsamlingsregistret **29 provsamlingar** från **16 olika biobanker**. Provsamlingsregistret kommer gradvis att utökas med ytterligare provsamlingar.
+I juni 2021 innehåller det svenska Covid-19 Provsamlingsregistret **30 provsamlingar** från **17 olika biobanker**. Provsamlingsregistret kommer gradvis att utökas med ytterligare provsamlingar.
 
 [**Sök i Covid-19 Provsamlingsregistret**](https://biobanks.covid19dataportal.se/)
 
@@ -43,20 +43,20 @@ Det svenska Covid-19 Provsamlingsregistret drivs av SciLifeLab Data Centre som e
 
 ##### Sökfunktion
 
-Relevanta provsamlingar kan identifieras genom att att använda ett eller flera filter på websidan vänstra kolumn.  Sökresultaten visas därefter på websidan högra sida. Se nedan exempel.
+Relevanta provsamlingar kan identifieras genom att att använda ett eller flera filter på websidan vänstra kolumn.  Sökresultaten visas därefter på websidan högra sida.
 
-<div class="row mb-4"><div class="col-lg-7"><img class="img-thumbnail" src="/img/biobanks/example_search.png" alt="Example of a page with search results" ></div></div>
+<!-- <div class="row mb-4"><div class="col-lg-7"><img class="img-thumbnail" src="/img/biobanks/example_search.png" alt="Example of a page with search results" ></div></div> -->
 
 ##### Provsamlingssidor
 
-Varje provsamling har en egen webbsida, vars innehåll har registrerats av provsamlingsansvarig eller biobanksamordnare med ansvar för provsamlingen. Generell information och bakgrund  samt beskrivning av patienter/provgivare samt tillgängliga provtyper (t.ex. vävnadsprov, RNA, saliv) ges till vänster på varje sida.  På den högra sidan anges kontaktuppgifter. För forskningsprovsamlingar anges både ansvarig forskare och provsamlingsansvarig (ofta är detta samma individ). För tillgång till vårdprovsamlingar för din forskning, kontakta biobankssamordnaren i aktuellt landsting/region. Se exempel nedan på en sida som visar en provsamling
+Varje provsamling har en egen webbsida, vars innehåll har registrerats av provsamlingsansvarig eller biobanksamordnare med ansvar för provsamlingen. Generell information och bakgrund  samt beskrivning av patienter/provgivare samt tillgängliga provtyper (t.ex. vävnadsprov, RNA, saliv) ges till vänster på varje sida.  På den högra sidan anges kontaktuppgifter. För forskningsprovsamlingar anges både ansvarig forskare och provsamlingsansvarig (ofta är detta samma individ). För tillgång till vårdprovsamlingar för din forskning, kontakta biobankssamordnaren i aktuellt landsting/region.
 
-<div class="row mb-4"><div class="col-lg-7"><img class="img-thumbnail" src="/img/biobanks/example_collection.png" alt="Example of a page with information about a sample collection"></div></div>
+<!-- <div class="row mb-4"><div class="col-lg-7"><img class="img-thumbnail" src="/img/biobanks/example_collection.png" alt="Example of a page with information about a sample collection"></div></div> -->
 
 ##### Biobanksidor
 
-Varje Biobank har en egen sida med generell information om organisation och vilka provsamlingar den aktuella biobanken har registrerat i Covid-19 Provsamlingsregistret. Se exemplet nedan.
+Varje Biobank har en egen sida med generell information om organisation och vilka provsamlingar den aktuella biobanken har registrerat i Covid-19 Provsamlingsregistret.
 
-<div class="row mb-4"><div class="col-lg-7"><img class="img-thumbnail" src="/img/biobanks/example_biobank.png" alt="Example of a page with information about a biobank"></div></div>
+<!-- <div class="row mb-4"><div class="col-lg-7"><img class="img-thumbnail" src="/img/biobanks/example_biobank.png" alt="Example of a page with information about a biobank"></div></div> -->
 
 <i>Informationen på denna sida var senast uppdaterad: 2021.02.24</i>
