@@ -28,6 +28,12 @@ datatypes_to_display:
   pathways. A special page of HPA has been dedicated to [human proteins and
   SARS-CoV-2](https://www.proteinatlas.org/humanproteome/sars-cov-2).
 
+* [PRIDE PRoteomics IDEntifications (PRIDE) Archive database](https://www.ebi.ac.uk/pride/) - centralized, standards compliant, public data repository for mass spectrometry proteomics data, including protein and peptide identifications and the corresponding expression values, post-translational modifications and supporting mass spectra evidence (both as raw data and peak list files). PRIDE is a core member in the ProteomeXchange (PX) consortium, which provides a standardised way for submitting mass spectrometry based proteomics data to public-domain repositories. Datasets are submitted to ProteomeXchange via PRIDE and are handled by expert bio-curators. All PRIDE public datasets can also be searched in ProteomeCentral, the portal for all ProteomeXchange datasets.
+
+* [PROTEOMEEXCHANGE Consortium](http://www.proteomexchange.org/) - globally coordinated standard data submission and dissemination pipelines involving the main proteomics repositories.
+
+* [MassIVE](https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp) - a community resource developed by the NIH-funded Center for Computational Mass Spectrometry to promote the global, free exchange of mass spectrometry data. MassIVE datasets can be assigned ProteomeXchange accessions to satisfy publication requirements.
+
 #### Data available on the European COVID-19 Data Portal
 
 * [Sequence, functional and classification data on SARS-CoV-2 and host proteins](https://www.covid19dataportal.org/proteins?db=uniprot-covid19)

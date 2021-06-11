@@ -1,5 +1,5 @@
 ---
-title: Genomik & transkriptomik data 
+title: Genomik & transkriptomik data
 menu:
     main:
         name: Publicerad data
@@ -22,5 +22,5 @@ type: data_table
 
 Publicerade rådata och sammansatta sekvensdata som härrör ifrån COVID-19-utbrottet, inkluderande isolat och information som relateras till coronavirusens biologi.
 
-* [Rådata och sammansatta sekvensdata från SARS-CoV-2 och andra coronavirus](https://www.covid19dataportal.org/sequences?db=embl-covid19) (>25,000 inlagda poster i oktober 2020)
-* [Rådata och sammanlagda sekvenser och analyser human och andra värdar](https://www.covid19dataportal.org/host-sequences?db=hostSequences) (>900 inlagda poster i oktober 2020)
+* [Rådata och sammansatta sekvensdata från SARS-CoV-2 och andra coronavirus](https://www.covid19dataportal.org/sequences?db=embl-covid19) (>500,000 inlagda poster i juni 2021)
+* [Rådata och sammanlagda sekvenser och analyser human och andra värdar](https://www.covid19dataportal.org/host-sequences?db=hostSequences) (>15,000 inlagda poster i juni 2021)
