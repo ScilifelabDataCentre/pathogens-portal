@@ -23,11 +23,12 @@ datatypes_to_display:
 
 * [Swedish Pregnancy Register](https://www.medscinet.com/gr/default.aspx): Data about all pregnant women diagnosed with COVID-19 and newborns born to mothers diagnosed with COVID-19.
 
-* [Public Health Agency of Sweden: Number of cases and tests](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/bekraftade-fall-i-sverige/): Official statistics about COVID-19 cases and tests in Sweden.
+* Public Health Agency of Sweden:
+    * [Number of cases and tests](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/bekraftade-fall-i-sverige/): Official statistics about COVID-19 cases and tests in Sweden.
+    * [Number of administered vaccine doses](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/vaccination-mot-covid-19/statistik/statistik-over-registrerade-vaccinationer-covid-19/): Official statistics about the number of vaccines that have been administered in Sweden.
+    * [Variants of concern](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/statistik-och-analyser/sars-cov-2-virusvarianter-av-sarskild-betydelse): Official variants of concern in Sweden.
 
-* [Public Health Agency of Sweden: Number of administered vaccine doses](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/vaccination-mot-covid-19/statistik/statistik-over-registrerade-vaccinationer-covid-19/): Official statistics about the number of vaccines that have been administered in Sweden.
-
-* [Swedish National Board of Health and Welfare (Socialstyrelsen)](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/): Statistics on COVID-19 in Sweden - underlying cause of death; infected and deceased among the elderly and among persons with disabilities and residential arrangements; inpatient care.
+* [Swedish National Board of Health and Welfare (Socialstyrelsen)](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/): Statistics on COVID-19 in Sweden - underlying cause of death; infected and deceased among the elderly and among persons with disabilities and residential arrangements; inpatient care (updated every Wednesday).
 
 * [National Health Metadata Repository - RUT](../rut): Meta data for Swedish national health registers.
 
