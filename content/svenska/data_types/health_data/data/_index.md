@@ -23,9 +23,21 @@ type: data_table
 
 * [Svenska Graviditetsregistret](https://www.medscinet.com/gr/default.aspx): Uppgifter gällande alla gravida och nyfödda barn till mödrar med säkerställd covid-19.
 
-* [Folkhälsomyndigheten: Bekräftade fall i Sverige](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/bekraftade-fall-i-sverige): Officiell statistik om covid-19 fall och tester i Sverige.
+* Folkhälsomyndigheten:
+  * [Bekräftade fall i Sverige](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/bekraftade-fall-i-sverige): Officiell statistik om covid-19 fall och tester i Sverige.
+  * [Statistik över förbrukade vaccindoser mot covid-19](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/vaccination-mot-covid-19/statistik/statistik-over-registrerade-vaccinationer-covid-19/): Officiell statistik om antalet vaccindoser som förbrukats.
+  * [Statistik om SARS-CoV-2 virusvarianter](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/statistik-och-analyser/sars-cov-2-virusvarianter-av-sarskild-betydelse): Statistik om SARS-CoV-2 virusvarianter av särskild betydelse in Sverige.
 
-* [Folkhälsomyndigheten: Statistik över förbrukade vaccindoser mot covid-19](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/vaccination-mot-covid-19/statistik/statistik-over-registrerade-vaccinationer-covid-19/): Officiell statistik om antalet vaccindoser som förbrukats.
+* Socialstyrelsen (statistiken uppdateras varje onsdag):
+  * [Statistik om covid-19](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/)
+  * [Antal avlidna i covid-19](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/statistik-over-antal-avlidna-i-covid-19/)
+  * [Covid-19-patienter som vårdats på sjukhus](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/statistik-om-slutenvard-av-patienter-med-covid-19/)
+  * [Covid-19 bland äldre](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/statistik-om-covid-19-bland-aldre-efter-boendeform/)
+  * [Covid-19 bland personer med funktionsnedsättning](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/statistik-om-covid-19-bland-personer-med-funktionsnedsattning/)
+  * [Pandemins effekter på vården](https://www.socialstyrelsen.se/statistik-och-data/statistik/pandemins-effekter-pa-varden/)
+  * [Relaterad statistik](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/statistik-relaterad-till-covid-19/)
+
+* [Register, Socialstyrelsen](https://www.socialstyrelsen.se/statistik-och-data/register/): Socialstyrelsen förvaltar en rad register för att kunna analysera och följa utvecklingen i hälso- och sjukvården samt socialtjänsten.
 
 * [Metadata för nationella register - RUT](/sv/data_types/health_data/rut): Metadata för svenska nationella sjukvårdsregister.
 

@@ -38,6 +38,9 @@ See [Text and Literature](../text_and_literature).
 
 ### Clinical trials
 
+##### [Kliniskastudier.se](https://www.kliniskastudier.se/english/statistics.html)
+Swedish clinical studies.
+
 ##### [Clinicaltrial.gov](https://clinicaltrials.gov/)
 US clinical trials register.
 
@@ -52,6 +55,9 @@ WHO database of clinical trials. See also [https://apps.who.int/trialsearch/](ht
 
 ##### [LIF coronavirus overview](https://www.lif.se/forskningsoversikt-coronavirus/)
 Overview over global vaccine and drug development projects
+
+##### [Swedish Medical Products Agency](https://www.lakemedelsverket.se/en/coronavirus)
+Work and resources related to COVID-19 from the Swedish Medical Products Agency.
 
 ### Clinical data and patient registries
 
@@ -135,6 +141,23 @@ This dataset is a curated collection of over 200 publicly available COVID-19 dat
 It includes data on a wide variety of potentially powerful statistics and indicators, like local and national infection rates, global social distancing policies, geospatial data on movement of people, and more.
 The data comes with a Kaggle competition hosted by the Roche Data Science Coalition (RDSC) which comprises number of tasks developed and evaluated by global frontline healthcare providers, hospitals, suppliers, and policy makers.
 
+##### [ECDC dashboard on variants](https://www.ecdc.europa.eu/en/covid-19/situation-updates/variants-dashboard)
+Variants of interest and concern in the EU/EEA
+
+##### [ECDC Response Measures Database](https://covid-statistics.jrc.ec.europa.eu/RMeasures)
+Database of non-pharmaceutical interventions (NPIs) introduced by 30 countries in the European Union (EU) and European Economic Area (EEA) since 1 January 2020 in response to the COVID-19 pandemic caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).
+
+##### [WHO Coronavirus (COVID-19) Dashboard](https://covid19.who.int/)
+Confirmed cases, deaths, vaccine doses administered.
+
+##### [COVID-19 Tracker USA, CDC](https://covid.cdc.gov/covid-data-tracker/) and [Vaccinations in the USA](https://covid.cdc.gov/covid-data-tracker/#vaccinations)
+
+##### [epitweetr tool, ECDC](https://www.ecdc.europa.eu/en/publications-data/epitweetr-tool)
+The R-based tool epitweetr allows users to automatically monitor trends of tweets by time, place and topic, with the aim of detecting health threats early through signals, such as an unusual increase in the number of tweets. It was designed to support public health experts with the early detection of threats from infectious diseases but can be extended to all hazards and other fields of study by modifying the topics and keywords. [GitHub repository](https://github.com/EU-ECDC/epitweetr).
+
+##### [SCB, Statistics Sweden](https://www.scb.se/en/finding-statistics/coronavirus/press-releases-relating-to-coronavirus-covid-19)
+COVID-19: news releases
+
 ### Structural data
 
 ##### [Deepmind structure predictions](https://deepmind.com/research/open-source/computational-predictions-of-protein-structures-associated-with-COVID-19)
@@ -167,6 +190,11 @@ The focus is on host-pathogen interactions specific to the SARS-CoV-2 virus.
 
 ##### [Skåne University Hospital 3D Printing Centre](http://3dskane.se/)
 Project descriptions for COVID-19 3D printing projects and contacts for volunteers.
+
+##### [COVID-19 Social Science Research Tracker](https://github.com/natematias/covid-19-social-science-research)
+
+##### [COVID-19 Data Repository on ICPSR](https://www.openicpsr.org/openicpsr/covid19)
+Social, behavioral, and health sciences research data.
 
 ### General tools
 

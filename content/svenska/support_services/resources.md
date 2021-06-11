@@ -39,6 +39,9 @@ Se [Texter och litteratur](../text_and_literature).
 
 ### Kliniska prövningar
 
+##### [Kliniskastudier.se](https://www.kliniskastudier.se/english/statistics.html)
+Sveriges Kliniska Studier.
+
 ##### [Clinicaltrial.gov](https://clinicaltrials.gov/)
 USA: s kliniska prövningar registreras.
 
@@ -50,6 +53,9 @@ Karta över kliniska prövningar relaterade till covid-19 över hela världen.
 
 ##### [International Clinical Trials Registry Platform](https://www.who.int/ictrp/en/)
 WHO: s databas över kliniska prövningar. Se även [https://apps.who.int/trialsearch/](https://apps.who.int/trialsearch/).
+
+##### [Läkemedelsverket](https://www.lakemedelsverket.se/sv/coronavirus)
+Läkemedelsverket utreder och godkänner läkemedel och vacciner; tillsyn över tillverkning, distribution och försäljning av läkemedel; bedömer och beslutar om licensansökningar och dispenser samt hanterar restsituationer för läkemedel; tillsynsansvar för att medicintekniska produkter, till exempel medicinsk skyddsutrustning, uppfyller gällande regler.
 
 ### Kliniska data och registerdata
 
@@ -100,6 +106,12 @@ Covid-19-statistik över hela världen.
 Detta datasätt är en kuraterad samling av över 200 offentligt tillgängliga covid-19 datasätt från källor som Johns Hopkins, WHO, Världsbanken, New York Times och många andra.
 Den innehåller uppgifter om en mängd potentiellt kraftfull statistik och indikatorer, som lokala och nationella infektionshastigheter, global social distanspolitik, geospatial data om människors rörelse och mer.
 Uppgifterna levereras med en Kaggle-tävling som är värd av Roche Data Science Coalition (RDSC) som omfattar ett antal uppgifter som har utvecklats och utvärderats av globala leverantörer av frontlinjer, sjukhus, leverantörer och beslutsfattare.
+
+##### [ECDC Response Measures Database](https://covid-statistics.jrc.ec.europa.eu/RMeasures)
+The COVID-19 Response Measures Database, sammanställd av European Centre For Disease Prevention and Control (ECDC). Databasen innehåller en sammanställning av de icke-farmaceutiska åtgärder och interventioner, samt under vilken tid dessa varit i kraft, som introducerats för att möta COVID-19 pandemin i 30 länder som ingår i den Europeiska Unionen samt av länder i det Europeiska ekonomiska samarbetsområdet. Databasen granskas och uppdateras varannan vecka.
+
+##### [Statistiska centralbyrån](https://www.scb.se/hitta-statistik/corona/corona-i-statistiken/)
+Nyheter och statistik om hur coronavirusets spridning påverkar samhället.
 
 ### Bilddata
 
