@@ -1829,18 +1829,6 @@
   },
   {
     "funder": "vr",
-    "funder_eng": "Swedish Research Council",
-    "funder_sv": "Vetenskapsrådet",
-    "project_title_eng": "FASTER – National COVID-19 vaccine research platform",
-    "project_title_sv": "FASTER – Nationell covid-19-vaccinforskningsplattform",
-    "pi": "Pontus Naucler",
-    "pi_affiliation_eng": "Karolinska Institute",
-    "pi_affiliation_sv": "Karolinska institutet",
-    "url_sv": "https://www.vr.se/aktuellt/nyheter/nyhetsarkiv/2021-06-14-100-miljoner-till-uppfoljningsstudier-av-covid-19-vacciner.html",
-    "url_eng": "https://www.vr.se/english/just-now/news/news-archive/2021-06-14-100-million-sek-for-follow-up-studies-of-covid-19-vaccines.html"
-  },
-  {
-    "funder": "vr",
     "funder_eng": "Swedish Research Council, Hjärt-Lungfonden, Swedish Foundation for Strategic Research",
     "funder_sv": "Vetenskapsrådet, Hjärt-Lungfonden, Stiftelsen för Strategisk Forskning",
     "project_title_eng": "Large-scale national initiative assessing symptoms, exposures and risk factors for Covid-19: COVID Symptom Study Sweden. Using a free smartphone app to facilitate real-time data collection of symptoms, exposures, and risk factors related to Covid-19.",
@@ -2599,5 +2587,77 @@
     "pi": "Andrei Malinovschi",
     "pi_affiliation_eng": "Uppsala",
     "pi_affiliation_sv": "Uppsala"
+  },
+  {
+    "funder": "vr",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+    "project_title_eng": "COVID-19 Vaccine Effect, Response and Safety (COVERS) Sweden: Clinical and epidemiological studies with particular focus on vulnerable groups",
+    "project_title_sv": "COVID-19 Vaccin Effekt, Respons and Säkerhet (COVERS) Sverige: kliniska och epidemiologiska studier med speciellt focus på sårbara grupper ",
+    "pi": "Clas Ahlm",
+    "pi_affiliation_eng": "Umeå University",
+    "pi_affiliation_sv": "Umeå universitet",
+    "url_eng": "https://www.vr.se/english/just-now/news/news-archive/2021-06-14-100-million-sek-for-follow-up-studies-of-covid-19-vaccines.html",
+    "url_sv": "https://www.vr.se/aktuellt/nyheter/nyhetsarkiv/2021-06-14-100-miljoner-till-uppfoljningsstudier-av-covid-19-vacciner.html"
+  },
+  {
+    "funder": "vr",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+    "project_title_eng": "COVID-19 vaccination in immuno-suppressed individuals: An interdisciplinary collaboration to obtain clinical and mechanistic insight into lasting immunity against SARS-CoV-2 infection",
+    "project_title_sv": "Covid-19-vaccination hos immunsupprimerade individer: Ett interdisciplinärt samarbete för att få klinisk och mekanistisk inblick i varaktig immunitet mot SARS-CoV-2-infektion",
+    "pi": "Soo Aleman",
+    "pi_affiliation_eng": "Karolinska Institute",
+    "pi_affiliation_sv": "Karolinska institutet",
+    "url_eng": "https://www.vr.se/english/just-now/news/news-archive/2021-06-14-100-million-sek-for-follow-up-studies-of-covid-19-vaccines.html",
+    "url_sv": "https://www.vr.se/aktuellt/nyheter/nyhetsarkiv/2021-06-14-100-miljoner-till-uppfoljningsstudier-av-covid-19-vacciner.html"
+  },
+  {
+    "funder": "vr",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+    "project_title_eng": "Register studies and immunological effect studies of COVID-19 vaccination and build-up of infrastructure for pandemic preparedness at national level (RE-VISION)",
+    "project_title_sv":  "Registerstudier och immunologiska effektstudier av COVID-19 vaccination och uppbyggnad av infrastruktur för pandemiberedskap på nationell nivå (RE-VISION)" ,
+    "pi": "Magnus Gisslén",
+    "pi_affiliation_eng": "Gothenburg University",
+    "pi_affiliation_sv": "Göteborgs universitet",
+    "url_eng": "https://www.vr.se/english/just-now/news/news-archive/2021-06-14-100-million-sek-for-follow-up-studies-of-covid-19-vaccines.html",
+    "url_sv": "https://www.vr.se/aktuellt/nyheter/nyhetsarkiv/2021-06-14-100-miljoner-till-uppfoljningsstudier-av-covid-19-vacciner.html"
+  },
+  {
+    "funder": "vr",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+    "project_title_eng": "FASTER – National COVID-19 vaccine research platform" ,
+    "project_title_sv": "FASTER - Nationell Covid-19 vaccinforskningsplattform" ,
+    "pi": "Pontus Naucler",
+    "pi_affiliation_eng": "Karolinska Institute" ,
+    "pi_affiliation_sv": "Karolinska Institutet",
+    "url_eng": "https://www.vr.se/english/just-now/news/news-archive/2021-06-14-100-million-sek-for-follow-up-studies-of-covid-19-vaccines.html",
+    "url_sv": "https://www.vr.se/aktuellt/nyheter/nyhetsarkiv/2021-06-14-100-miljoner-till-uppfoljningsstudier-av-covid-19-vacciner.html"
+  },
+  {
+    "funder": "vr",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+    "project_title_eng": "Real time evaluation of COVID-19 vaccination in Swedish healthcare regions based on an information platform that supports system modelling and machine learning" ,
+    "project_title_sv":  "Realtidsutvärderingar av Covid-19-vaccination i svenska sjukvårdsregioner baserat på en informationsplattform som stöder systemmodellering och maskininlärning" ,
+    "pi": "Thomas Schön",
+    "pi_affiliation_eng": "Linköping University",
+    "pi_affiliation_sv": "Linköpings universitet",
+    "url_eng": "https://www.vr.se/english/just-now/news/news-archive/2021-06-14-100-million-sek-for-follow-up-studies-of-covid-19-vaccines.html",
+    "url_sv": "https://www.vr.se/aktuellt/nyheter/nyhetsarkiv/2021-06-14-100-miljoner-till-uppfoljningsstudier-av-covid-19-vacciner.html"
+  },
+  {
+    "funder": "vr",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+    "project_title_eng": "Epidemiological, immunological and genetic mapping of side effects of COVID-19 vaccines" ,
+    "project_title_sv": "Epidemiologisk, immunologisk och genetisk kartläggning av biverkningar till COVID-19 vaccin" ,
+    "pi": "Mia Wadelius",
+    "pi_affiliation_eng": "Uppsala University",
+    "pi_affiliation_sv": "Uppsala universitet",
+    "url_eng": "https://www.vr.se/english/just-now/news/news-archive/2021-06-14-100-million-sek-for-follow-up-studies-of-covid-19-vaccines.html",
+    "url_sv": "https://www.vr.se/aktuellt/nyheter/nyhetsarkiv/2021-06-14-100-miljoner-till-uppfoljningsstudier-av-covid-19-vacciner.html"
   }
 ]
