@@ -22,6 +22,8 @@ no-inline-html:
     - button
     - br
     - h5
+    - h4
+    - h3
     - h2
     - ul
     - li
