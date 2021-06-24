@@ -24,3 +24,9 @@ Uppskattningar av frekvensen symtomatiska COVID-19  fall och demografiska kartor
 
 För mer information, vänligen se [covid19app.lu.se](https://www.covid19app.lu.se/).  
 För mer information om studien vänligen kontakta [covid-symptom-study@med.lu.se](mailto:covid-symptom-study@med.lu.se).
+
+#### Publikationer
+
+* Kennedy, B., Fitipaldi, H., Hammar, U., Maziarz, M., Tsereteli, N., Oskolkov, N., Varotsis, G., Franks, C. A., Spiliopoulos, L., Adami, H-.O., Björk, J., Engblom, S., Fall, K., Grimby-Ekman, A., Litton, J-.E., Martinell, M., Oudin, A., Sjöström, T., Timpka, T., Sudre, C. H., Graham, M. S., du Cadet, J. L, Chan, A. T., Davies, R., Ganesh, S., May, A., Ourselin, S., Pujol, J. C., Selvachandran, S., Wolf, J., Spector, T. D., Steves, C. J., Gomez, M. F., Franks, P. W., Fall T. App-based COVID-19 surveillance and prediction: The COVID Symptom Study Sweden. *MedRxiv* (2021). [https://doi.org/10.1101/2021.06.16.21258691](https://doi.org/10.1101/2021.06.16.21258691)
+
+* Sudre, C. H., Murray, B., Varsavsky, T., Graham, M. S., Penfold, R. S., Bowyer, R. C., Capdevila Pujol, J., Klaser, K., Antonelli, M., Canas, L. S., Molteni, E., Modat, M., Cardoso, M. J., May, A., Ganesh, S.,Davies, R., Nguyen, L. H., Drew, D. A., Astley, C. M., Joshi, A. D., Merino, J., Tsereteli, N., Fall, T., Gomez, M. F., Duncan, E. L., Menni, C., Williams, F. M. K., Franks, P. W., Chan, A. T., Wolf, J., Ourselin, S., Spector, T., Steves, C. J. Attributes and predictors of long COVID. *Nature Medicine* **27**, 626-631 (2021). [https://doi.org/10.1038/s41591-021-01292-y](https://doi.org/10.1038/s41591-021-01292-y)
