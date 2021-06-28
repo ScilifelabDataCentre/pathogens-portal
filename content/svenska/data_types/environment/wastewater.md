@@ -9,6 +9,11 @@ menu:
       params:
         title_eng: Environment
 ---
+<div class="alert alert-info">
+  <i class="fas fa-exclamation-triangle"></i>
+  <span>Meddelande, 28.06.2021: På grund av semestertid kommer ibland uppdateringar av avloppsvattenmätningar att publiceras senare än angett.</span>
+</div>
+
 Vi presenterar epidemiologiska data av mätningar av SARS-CoV-2 virus i avloppsvatten från fyra svenska städer: Uppsala, Stockholm, Umeå och Örebro, med totalt 1.5 miljoner invånare.  Att mäta virusmängder i avloppsvatten kan var en del av ett system för att detektera och övervaka förekomsten av SARS-CoV-2 i samhället. Notera att direkt jämförelse av virusmängden mellan olika städer inte är möjlig pga olika hantering av insamlade avloppsprov och analys av data.  Jämförelser bör endast göras inom data som samlats in och visualiseras från en och samma stad. [För mer information om epidemiologiska data från mätningar av SARS-CoV-2 i avloppsvatten se nedan.](#background).
 
 <div class="row"><div class="col-lg-7"><p>För grafer som visar mängd av SARS-CoV-2-virus i avloppsvatten och delade tillhörande data se nedan.</p>
@@ -31,7 +36,7 @@ Notera att resultaten i dataseten och som visas i diagrammen är preliminära da
 
 **Ladda ner data:** [Relativt ratio av viruskopior SARS CoV-2  jämfört med mängd PPMoV, Excel-fil.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Uppsala.xlsx) Data finns tillgängligt från och med vecka 38 2020; uppdateras varje vecka.
 
-**Forskargrupppledare:** Anna J. Székely, SLU, Sveriges Lantbruksuniversitet.  
+**Forskargrupppledare:** Anna J. Székely, SLU, Sveriges Lantbruksuniversitet.
 **Kontakt:** anna.szekely@slu.se
 
 **Referera till detta dataset:**
