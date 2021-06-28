@@ -7,6 +7,10 @@ menu:
       identifier: environment
       weight: 50
 ---
+<div class="alert alert-info">
+  <i class="fas fa-exclamation-triangle"></i>
+  <span>Notification, 28.06.2021: Due to vacations, in the summer months the updates of wastewater measurements will sometimes be published with delays.</span>
+</div>
 
 We present wastewater epidemiology data from four Swedish cities - Uppsala, Stockholm, Umeå, and Örebro, with a total population of 1.5 million people. Wastewater surveillance could prove an effective system for monitoring COVID-19 prevalence and an early warning system for predicting upcoming outbreaks. Note that because different sample collection and data analysis methods are used in different cities, it is not possible to make comparisons of viral load across these cities. Comparisons should be made within each city because the methodology remains the same. [See below for details](#background) on wastewater epidemiology.
 
@@ -30,7 +34,7 @@ Note that the scores provided in this dataset and depicted in plots are prelimin
 
 **Download the data:** [Relative ratio of copy number of SARS-CoV-2 to PPMoV, Excel file.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Uppsala.xlsx) Data available starting from week 38 of 2020; updated weekly.
 
-**Principal investigator:** Anna J. Székely, SLU, Swedish University of Agricultural Sciences.  
+**Principal investigator:** Anna J. Székely, SLU, Swedish University of Agricultural Sciences.
 **Contact:** anna.szekely@slu.se
 
 **How to cite:**
@@ -164,7 +168,7 @@ Please note that the graphs presented on this page are based on preliminary and 
 {{< ww_dates_modified >}}
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.12.2"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
 
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/6d16b18be0d74425b313040c502f29c8.js?id=uppsala_combined"></script>
