@@ -97,6 +97,11 @@ See also [the page of the research group where summaries of data and preliminary
                     <i>Science of The Total Environment</i> 755. DOI: 10.1016/j.scitotenv.2020.142939
 </div></div>
 
+<b><a target="_blank" href="https://doi.org/10.17044/scilifelab.14315483">SARS-CoV-2 Wastewater Data from Stockholm, Sweden.</a></b><br>
+                    <span class="text-muted">Cetecioglu Z G, Williams, C, Khatami, K, Atasoy, M, Nandy, P, Jafferali, M H, Birgersson, M.</span><br>
+                    <i>SciLifeLab Data Repository</i> DOI: 10.17044/scilifelab.14315483
+</div></div>
+
 <a id="umea"><h2>Amount of SARS-CoV-2 in Umeå wastewater</h2></a>
 
 This project is run by associate professor Maja Malmberg (SLU, Swedish University of Agricultural Sciences) in collaboration with the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and associate professor Mette Myrmel at the Norwegian University of Life Sciences. The amount of SARS-CoV-2 virus in the wastewater is measured in the wastewater treatment facility in Umeå. Please [consult this map for the exact catchment area of the wastewater collection channels](/wastewater/map_umeaa.jpg).
