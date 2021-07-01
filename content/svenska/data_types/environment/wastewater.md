@@ -97,7 +97,6 @@ Se även [forskargruppens webbsida där sammanfattningar av data och preliminär
 <b><a target="_blank" href="https://doi.org/10.1016/j.scitotenv.2020.142939">Benchmarking virus concentration methods for quantification of SARS-CoV-2 in raw wastewater.</a></b><br>
                     <span class="text-muted">Jafferali MH, Khatami K, Atasoy M, Birgersson M, Williams C, Cetecioglu Z.</span><br>
                     <i>Science of The Total Environment</i> 755. DOI: 10.1016/j.scitotenv.2020.142939
-</div></div>
 
 <b><a target="_blank" href="https://doi.org/10.17044/scilifelab.14315483">SARS-CoV-2 Wastewater Data from Stockholm, Sweden.</a></b><br>
                     <span class="text-muted">Cetecioglu Z G, Williams, C, Khatami, K, Atasoy, M, Nandy, P, Jafferali, M H, Birgersson, M.</span><br>
