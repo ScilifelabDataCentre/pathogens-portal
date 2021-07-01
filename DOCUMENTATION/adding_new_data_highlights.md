@@ -18,7 +18,7 @@ summary: A new dataset containing a large amount of valuable data has been openl
 banner: /news/banners/example.png
 banner_large: /news/banners/example_large.png
 banner_caption: "Illustration of X. The image was taken from Y."
-needs_translation: no
+needs_translation: false
 ---
 
 This is the text of the highlight. This is the first paragraph. Introduce why this is an important topic.
@@ -41,11 +41,11 @@ Andersson, M., Johansson, S., Karlsson, A. Title of the journal publication *Jou
 
 ```
 
-On the top of the file, surrounded by `---`, basic information for this data highlight is provided. It contains the title; publication date (desired; Hugo needs to be run on that day or later for it to appear); summary text that appears in the homepage and in the main page of the Data highlights section; location of the illustration to be displayed on the homepage (`banner`); localtion of the illustration on the page of the highlight (`banner_large`); caption text that will appear under the illustration on the page of the highlight; information about whether a Swedish translation is still needed or not (`needs_translation: yes` or `needs_translation: no`).
+On the top of the file, surrounded by `---`, basic information for this data highlight is provided. It contains the title; publication date (desired; Hugo needs to be run on that day or later for it to appear); summary text that appears in the homepage and in the main page of the Data highlights section; location of the illustration to be displayed on the homepage (`banner`); localtion of the illustration on the page of the highlight (`banner_large`); caption text that will appear under the illustration on the page of the highlight; information about whether a (Swedish) translation is still needed or not (`needs_translation: true` or `needs_translation: false`).
 
 The title, date, summary, illustrations will appear where they are supposed to be.
 
-Do not forget that you will need to create an English as well as a Swedish version of the data highlight, corresponding to two separate files placed in two separate folders (see above). In case there is no translation to Swedish yet, the text in English can be used and the `needs_translation` parameter needs to be set to `yes` in which case an alert will appear on top of the page saying that the translation will be added later.
+Do not forget that you will need to create an English as well as a Swedish version of the data highlight, corresponding to two separate files placed in two separate folders (see above). In case there is no translation to Swedish yet, the text in English can be used and the `needs_translation` parameter needs to be set to `true` in which case an alert will appear on top of the page saying that the translation will be added later.
 
 ## Illustrations
 
