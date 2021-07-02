@@ -31,9 +31,7 @@ All data presented here is [available for download here](https://www.socialstyre
 
 ### Age distribution of Post-COVID cases
 
-
 ### Sex distribution of Post-COVID cases
-
 
 ### Geographic distribution of Post-COVID cases
 <div class="alert alert-info">Last updated: {{% postcovid_map_date_modified %}}.</div>
