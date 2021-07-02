@@ -1061,7 +1061,8 @@
    "pi_affiliation_sv": "Karolinska Institutet",
    "start": "2021",
    "end": "2022",
-   "url_eng": "https://www.scilifelab.se/news/the-national-scilifelab-kaw-covid-19-research-program-is-extended-through-funding-from-kaw"
+   "url_eng": "https://www.scilifelab.se/news/the-national-scilifelab-kaw-covid-19-research-program-is-extended-through-funding-from-kaw",
+   "post_covid": "true"
  },
  {
    "funder": "kaw",
@@ -1193,7 +1194,8 @@
    "pi_affiliation_sv": "Karolinska Institutet",
    "start": "2021",
    "end": "2022",
-   "url_eng": "https://www.scilifelab.se/news/the-national-scilifelab-kaw-covid-19-research-program-is-extended-through-funding-from-kaw"
+   "url_eng": "https://www.scilifelab.se/news/the-national-scilifelab-kaw-covid-19-research-program-is-extended-through-funding-from-kaw",
+   "post_covid": "true"
  },
  {
    "funder": "kaw",
@@ -1719,7 +1721,7 @@
     "funder": "vr",
     "funder_eng": "Swedish Research Council",
     "funder_sv": "Vetenskapsrådet",
-   "project_title_eng": "Preventing paediatric pneumonia deaths in Nigeria",
+    "project_title_eng": "Preventing paediatric pneumonia deaths in Nigeria",
     "project_title_sv": "Förebyggande av dödsfall i barnpneumoni i Nigeria",
     "pi": "Carina King",
     "pi_affiliation_eng": "Karolinska Institute",
@@ -2376,7 +2378,8 @@
     "project_title_sv": "Kronisk kardiovaskulär dysautonomi och POTS som långtidskonsekvens av COVID-19 infektion hos svenska patienter",
     "pi": "Artur Fedorowski",
     "pi_affiliation_eng": "Malmö",
-    "pi_affiliation_sv": "Malmö"
+    "pi_affiliation_sv": "Malmö",
+    "post_covid": "true"
   },
   {
     "funder": "hlf",
@@ -2416,7 +2419,8 @@
     "project_title_sv": "Effekten av specifika interventioner för patienter med långcovid-19",
     "pi": "Malin Nygren-Bonnier",
     "pi_affiliation_eng": "Stockholm",
-    "pi_affiliation_sv": "Stockholm"
+    "pi_affiliation_sv": "Stockholm",
+    "post_covid": "true"
   },
   {
     "funder": "hlf",
@@ -2496,7 +2500,8 @@
     "project_title_sv": "Behandlingsbara förändringar i lungor och hjärta identifierade genom obduktion av Covid-19 och postCovid patienter",
     "pi": "Laszlo Szekely",
     "pi_affiliation_eng": "Stockholm",
-    "pi_affiliation_sv": "Stockholm"
+    "pi_affiliation_sv": "Stockholm",
+    "post_covid": "true"
   },
   {
     "funder": "hlf",
