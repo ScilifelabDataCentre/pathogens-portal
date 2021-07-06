@@ -8,6 +8,14 @@
   Data available from research groups in Sweden
   {{ end }}</h4>
 
+<div class="alert alert-info">
+    <i class="fas fa-exclamation-triangle"></i>
+    <span>{{ if eq $.Site.Language.LanguageName "Svenska" }}
+    OBS! Teamet som arbetar med Portalen är på semester under juli och uppdateringar sker igen i augusti.
+    {{ else }}
+    Notification: The team is currently away for the summer, updates will recommence in August. {{ end }}</span>
+</div>
+
 <div>{{ if eq $.Site.Language.LanguageName "Svenska" }}
   <p>Vänligen notera att listan över tillgängliga dataset från svenska forskargrupper uppdateras manuellt och därför inte är fullständig. Om du vill att ditt dataset skall synliggöras eller vill korrigera information om dina dataset, <a href="/sv/suggestions/">vänligen kontakta oss</a>. Publikationer som delar data där minst en medförfattare är affilierad till ett svenskt lärosäte inkluderas. I dagsläget inkluderas  både publikationer som öppet delar data eller som anges att data göra tillgängliga efter begäran från författarna. Men inom kort kommer endast publikationer som delar data öppet eller genom en metadata post inkluderas i datatabasen.</p>
   <p><i>Senast uppdaterad: {{ substr $.Site.Data.publications.timestamp 0 10 }}</i></p>
