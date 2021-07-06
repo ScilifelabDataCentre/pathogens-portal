@@ -4,7 +4,7 @@ date: 2021-05-19
 summary: Saccon and colleagues studied changes in protein abundance caused by SARS-CoV-2 virus in susceptible cell lines using quantitative proteomics. All proteomics were made data openly available in different repositories.
 banner: /news/banners/cellular_response.png
 banner_large: /news/banners/cellular_response_large.png
-banner_caption: "Source: Figure 3 of Persson et al. 2021"
+banner_caption: "Source: Graphical Abstract of Saccon, Chen and Mikaeloff et al. 2021"
 needs_translation: true
 ---
 
