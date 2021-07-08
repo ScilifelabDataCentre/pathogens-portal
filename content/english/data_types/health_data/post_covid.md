@@ -15,23 +15,47 @@ For more information on *Post COVID-19 condition* in Sweden, please see [this se
 
 <div class="alert alert-info">Data last updated: 08.06.2021</div>
 
-Here, we visualize statistics on Post COVID-19 condition in Sweden collected and shared by The National Board of Health and Welfare (Socialstyrelsen). The majority of the statistics produced by The National Board of Health and Welfare is based on administrative registers. The central sources for statistics regarding COVID-19 is primarily the Patient Register and the Cause of Death Register. The data is updated once a month, on the second Wednesday of the month.
+Here, we visualize statistics on Post COVID-19 condition in Sweden collected and shared by The National Board of Health and Welfare (Socialstyrelsen). The majority of the statistics produced by The National Board of Health and Welfare is based on administrative registers. The central sources for statistics regarding COVID-19 is primarily the Patient Register and the Cause of Death Register. The data is updated once a month, on the second Wednesday of the month. All data presented here is [available for download here](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/). Additional data can be requested from the corresponding registers by researchers fulfilling the requirements for access, [the guidelines are available here](https://bestalladata.socialstyrelsen.se/data-for-forskning/).
 
-Since Post COVID-19 condition is not a clearly defined disease, over time various diagnoses were used for people with symptoms of Post COVID-19 condition. Here, we focus on diagnosis *U09.9 (ICD-10-SE) - Postinfectious state associated with covid-19, unspecified* (Example: Patient who five months ago fell ill with COVID-19; now have residual symptoms in the form of anosmia, lack of smell). Also relevant are the following diagnoses: *U10.9 (ICD-10-SE) - Multisystemic inflammatory syndrome associated with covid-19, unspecified* (Example: Condition temporally associated with covid-19: Cytokinstorm; Kawasaki-like syndrome; Multisystem Inflammatory Syndrome in Children [MIS-C]; Paediatric Inflammatory Multisystem Syndrome [PIMS]); *U08.9 (ICD-10-SE) - COVID-19 in the health history, unspecified* (used for the cases when an earlier confirmed or suspected case of COVID-19 has an effect on the current health status for people who no longer have COVID-19. See [this page for more information](https://www.socialstyrelsen.se/utveckla-verksamhet/e-halsa/klassificering-och-koder/icd-10/)).
+Since Post COVID-19 condition is not a clearly defined disease, over time various diagnoses were given to it. After the first cases of prolonged disease followed by COVID-19 infection in spring 2020, The National Board of Health and Welfare initiated the diagnosis *Z86.1A - COVID-19 in own medical history* (Covid-19 i den egna sjukhistorien) which started being used from June 1 2020. From January 1 2021, this diagnosis was replaced by *U08.9 (ICD-10-SE) - COVID-19 in own medical history, unspecified* in accordance with the new WHO (World Health Organization) guidelines. This diagnosis is recommended to be given for a person who is receiving healthcare of a different disease or damage but where it is considered to be relevant (of some importance) that this person has previously had COVID-19. This diagnosis should only be given after the person is considered to no longer have COVID-19. The current health condition should not be considered to be caused by COVID-19. This diagnosis is only an additional diagnosis (bidiagnos) and should only be assigned alongside a main diagnosis, it cannot be the main diagnosis itself.
 
-[Here some more info about definitions that Socialstyrelsen uses and how they count]
+From October 16 2020, the National Board of Health and Welfare initiated a new diagnosis *U09.9 (ICD-10-SE) - Postinfectious state associated with covid-19, unspecified* (Postinfektiöst tillstånd efter covid-19, ospecificerat), in accordance with new WHO guidelines. This new diagnosis supplemented and partially replaced the diagnoses Z86.1A. This diagnosis should only be given after the person is considered to no longer have COVID-19. The code is used for conditions that persist or occur after the acute infection has passsed. This is also an additional diagnosis (bidiagnos) and should be assigned alogside a main diagnosis.
 
-All data presented here is [available for download here](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/). Additional data can be requested from the corresponding registers by researchers fulfilling the requirements for access, [the guidelines are available here](https://bestalladata.socialstyrelsen.se/data-for-forskning/).
+For more information and current guidelines regarding diagnoses used for conditions related to COVID-19, see [this page on the website of the  The National Board of Health and Welfare](https://www.socialstyrelsen.se/utveckla-verksamhet/e-halsa/klassificering-och-koder/icd-10/).
 
-### Age distribution of cases
+### Age and sex distribution of diagnosed cases
 
-### Sex distribution of cases
+#### Diagnosis U09.9
 
-### Geographic distribution of cases
+This plot displays the number of patients diagnosed with *U09.9 (ICD-10-SE) - Postinfectious state associated with covid-19, unspecified* since the introduction of this diagnosis code, divided by age and sex.
+<div class="d-md-none alert alert-info">
+  Scroll the plot sideways to view all data.
+</div>
 
-The map below displays the current geographic distribution of patients given the diagnosis *U09.9 (ICD-10-SE) - Postinfectious state associated with covid-19, unspecified* across different counties in Sweden. Each county is colored according to the proportion of the patients from the total number of people with confirmed COVID-19 infection in that county since XXX (the time point when this diagnosis started being used).
+<div class="plot_wrapper">
+  <div class="table-responsive" id="diagnosed_age_sex_u09_9"></div>
+</div>
 
-{{< csss_map_large >}}
+#### Diagnosis Z86.1A/U08.9
+
+This plot displays the number of times patients diagnosed with *U08.9 (ICD-10-SE) - COVID-19 in own medical history, unspecified* or *Z86.1A - COVID-19 in own medical history* since the introduction of thes diagnoses codes, divided by age and sex.
+<div class="d-md-none alert alert-info">
+  Scroll the plot sideways to view all data.
+</div>
+
+<div class="plot_wrapper">
+  <div class="table-responsive" id="diagnosed_age_sex_u08_9"></div>
+</div>
+
+### Geographic distribution of diagnosed cases relative population
+
+[Description of what is plotted here]
+
+{{< postcovid_map_u09_9_relative_to_cases >}}
+
+### Geographic distribution of diagnosed cases relative to confirmed COVID-19 cases
+
+[Description of what is plotted here]
 
 ### Most common accompanying diagnoses
 
@@ -41,29 +65,43 @@ This table displays the most common diagnoses types (diagnosis groups) which hav
 
 {{< postcovid_accompanying_diagnoses >}}
 
+<span class="text-muted">*Note that a single person may have more than one accompanying diagnoses. However, if I person has the same issue on multiple doctor visits/healthcare contacts, the diagnosis is counted only once.*</span>
+
 ### Contacts with healthcare
+
+This plot displays the number of times patients diagnosed with *U08.9 (ICD-10-SE) - COVID-19 in own medical history, unspecified*, *Z86.1A - COVID-19 in own medical history*, or *U09.9 (ICD-10-SE) - Postinfectious state associated with covid-19, unspecified* have sought healthcare. Note that while the data below starts from week 22 of 2020, some diagnosis codes started being used at a later point in time (see information above). Every time such a patient sought healthcare after receiving the diagnosis is counted here. Numbers are displayed per week. Note that the data below is not full as information about the the number of contacts from some of the weeks is not available publicly due to privacy restrictions.
+
+<div class="d-md-none alert alert-info">
+  Scroll the plot sideways to view all data.
+</div>
+
+<div class="plot-wrapper">
+  <div class="table-responsive" id="healthcare_contacts_all"></div>
+</div>
+
+### Contacts with healthcare divided by patients' sex
 
 #### Diagnosis U09.9
 
-This plot displays the number of times patients diagnosed with *U09.9 (ICD-10-SE) - Postinfectious state associated with covid-19, unspecified* have sought healthcare, data starting from week 43 of 2020. Every time such a patient sought healthcare after receiving the diagnosis is counted here. Numbers are displayed per week and split by sex.
+This plot displays the number of times patients diagnosed with *U09.9 (ICD-10-SE) - Postinfectious state associated with covid-19, unspecified* have sought healthcare, data starting from week 43 of 2020. Every time such a patient sought healthcare after receiving the diagnosis is counted here. Numbers are displayed per week and split by sex. Note that the data below is not full as information about the the number of contacts from some of the weeks is not available publicly due to privacy restrictions.
 
 <div class="d-md-none alert alert-info">
   Scroll the plot sideways to view all data.
 </div>
 
-<div class="plot*wrapper">
+<div class="plot_wrapper">
   <div class="table-responsive" id="healthcare_contacts_u09_9"></div>
 </div>
 
-#### Diagnosis U08.9 or Z86.1A
+#### Diagnosis Z86.1A/U08.9
 
-This plot displays the number of times patients diagnosed with *U08.9 (ICD-10-SE) - COVID-19 in its own medical history, unspecified* or *Z86.1A - COVID-19 in its own medical history* have sought healthcare, starting from week 22 of 2020. Every time such a patient sought healthcare after receiving the diagnosis is counted here. Numbers are displayed per week and split by sex.
+This plot displays the number of times patients diagnosed with *U08.9 (ICD-10-SE) - COVID-19 in own medical history, unspecified* or *Z86.1A - COVID-19 in own medical history* have sought healthcare, starting from week 22 of 2020. Every time such a patient sought healthcare after receiving the diagnosis is counted here. Numbers are displayed per week and split by sex. Note that the data below is not full as information about the the number of contacts from some of the weeks is not available publicly due to privacy restrictions.
 
 <div class="d-md-none alert alert-info">
   Scroll the plot sideways to view all data.
 </div>
 
-<div class="plot*wrapper">
+<div class="plot_wrapper">
   <div class="table-responsive" id="healthcare_contacts_u08_9"></div>
 </div>
 
@@ -91,7 +129,7 @@ Individuals with *Post COVID-19 condition* exhibit symptoms lasting at least two
 
 In September 2020, WHO [established]((https://www.who.int/standards/classifications/classification-of-diseases/emergency-use-icd-codes-for-covid-19-disease-outbreak)) the ICD10 code for *Post COVID-19 condition* - *U09.9 -  Post COVID-19 condition, unspecified*.  A [WHO report from April 2021](https://www.who.int/publications/i/item/9789240025035) states that there is a real need to characterise and formerly define *Post COVID-19 condition* in order to increase understanding of the condition and facilitate diganosis. However, to date, *Post COVID-19 condition* still does not have a universal definition with regard to the symptoms and disease duration neccessary for diagnosis, and governmental agencies and institutes in different countries use their own definition and terms. Related diagnoses established by WHO are *U08.9 - Personal history of COVID-19, unspecified* and *U10.9 -  Multisystem inflammatory syndrome associated with COVID-19, unspecified*. The code *U08.9* is used to describe an earlier episode of COVID-19 (either confirmed or probable) that influenced the individual's health status, though they no longer have COVID-19. The code *U10.9* is used to describe a temporal association with COVID-19: Cytokine storm; Kawasaki-like syndrome; Multisystem Inflammatory Syndrome in Children (MIS-C); Paediatric Inflammatory Multisystem Syndrome (PIMS).
 
-In England, the [National Institute for Health and Care Excellence](https://en.wikipedia.org/wiki/National_Institute_for_Health_and_Care_Excellence) (NICE) has [defined]((https://www.nice.org.uk/guidance/ng188/chapter/context)) *Post-COVID-19 syndrome* as "Signs and symptoms that develop during or after an infection consistent with COVID‑19, continue for more than 12 weeks and are not explained by an alternative diagnosis. It usually presents with clusters of symptoms, often overlapping, which can fluctuate and change over time and can affect any system in the body". NICE states that *Post‑COVID‑19 syndrome* can be considered as a dignosis during the first three months after acute infection, while the healthcare system assesses whether the patient may have an alternative underlying disease that could explain the symptoms. Further, NICE [defines]((https://www.nice.org.uk/guidance/ng188/chapter/context)) the term *Long COVID* as "...signs and symptoms that continue or develop after acute COVID‑19. It includes both ongoing symptomatic COVID‑19 (from 4 to 12 weeks) and post‑COVID‑19 syndrome (12 weeks or more)”. In December 2020, NICE, in partnership with the Scottish Intercollegiate Guidelines Network and the Royal College of General Practitioners, published a [guideline for health and care practitioners](https://www.nice.org.uk/guidance/NG188) on identifying, assessing, and managing the long-term effects of COVID-19 (NG188).
+In England, the [National Institute for Health and Care Excellence](https://en.wikipedia.org/wiki/National_Institute_for_Health_and_Care_Excellence) (NICE) has [defined]((https://www.nice.org.uk/guidance/ng188/chapter/context)) *Post-COVID-19 syndrome* as "Signs and symptoms that develop during or after an infection consistent with COVID‑19, continue for more than 12 weeks and are not explained by an alternative diagnosis. It usually presents with clusters of symptoms, often overlapping, which can fluctuate and change over time and can affect any system in the body". NICE states that *Post‑COVID‑19 syndrome* can be considered as a dignosis during the first three months after acute infection, while the healthcare system assesses whether the patient may have an alternative underlying disease that could explain the symptoms. Further, NICE [defines]((https://www.nice.org.uk/guidance/ng188/chapter/context)) the term *Long COVID* as "...signs and symptoms that continue or develop after acute COVID‑19. It includes both ongoing symptomatic COVID‑19 (from 4 to 12 weeks) and post‑COVID‑19 syndrome (12 weeks or more)”. In December 2020, NICE, in partnership with the Scottish Intercollegiate Guidelines Network and the Royal College of General Practitioners, published a [guideline for health and care practitioners](https://www.nice.org.uk/guidance/NG188) (NG188) on identifying, assessing, and managing the long-term effects of COVID-19.
 
 In the USA, The [Centers for Disease Control and Prevention](https://en.wikipedia.org/wiki/Centers_for_Disease_Control_and_Prevention) (CDC) defines *Post-COVID conditions* as "a wide range of new, returning, or ongoing health problems people can experience more than four weeks after first being infected with the virus that causes COVID-19". The CDC distinguishes between *Long COVID*, *Multiorgan Effects of COVID-19*, and *Effects of COVID-19 Treatment or Hospitalisation*. *Long COVID* is defined as "a range of symptoms that can last weeks or months after first being infected with the virus that causes COVID-19 or can appear weeks after infection." People with long COVID are described as experiencing different combinations of the following symptoms; tiredness or fatigue, difficulty thinking or concentrating (sometimes referred to as “brain fog”),
 headache, loss of smell or taste, dizziness on standing, fast-beating or pounding heart (also known as heart palpitations), chest pain, difficulty breathing or shortness of breath, cough, joint or muscle pain, depression or anxiety, and fever. For information on *Post-COVID conditions* from The CDC, [see this page](https://www.cdc.gov/coronavirus/2019-ncov/long-term-effects.html). The [National Institutes of Health](https://en.wikipedia.org/wiki/National_Institutes_of_Health) (NIH) in the USA uses the term *Post-Acute Sequelae of SARS-CoV-2 infection* (PASC) to refer to the effects of COVID-19 after the initial stages of infection. In February 2021, the NIH [launched a research initiative](https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-launches-new-initiative-study-long-covid) to identify the causes of PASC and, ultimately, to find methods for prevention and treatments for individuals that don’t recover fully over a period of a few weeks following the acute infection phase of COVID-19.
@@ -111,3 +149,6 @@ A large number of research articles, case reports, and reviews focused on *post 
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.15.1"></script>
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/d8ccc0a02ad248c2ae7e5910806c3586.js?id=healthcare_contacts_u09_9"></script>
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/47b7d864db0840dab7c2ff6f8fffc011.js?id=healthcare_contacts_u08_9"></script>
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/a31cdae8f06a4ac08f8970e6dd750c13.js?id=healthcare_contacts_all"></script>
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/a483404a5b5146cfa9eaeef29d326388.js?id=diagnosed_age_sex_u09_9"></script>
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/ae0a086410ea489484d33035469c334f.js?id=diagnosed_age_sex_u08_9"></script>
