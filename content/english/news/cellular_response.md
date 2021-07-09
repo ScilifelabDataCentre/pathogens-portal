@@ -4,7 +4,7 @@ date: 2021-05-19
 summary: Saccon and colleagues studied changes in protein abundance caused by SARS-CoV-2 virus in susceptible cell lines using quantitative proteomics. All proteomics were made data openly available in different repositories.
 banner: /news/banners/cellular_response.png
 banner_large: /news/banners/cellular_response_large.png
-banner_caption: "Source: Figure 3 of Persson et al. 2021"
+banner_caption: "Source: Graphical Abstract of Saccon, Chen and Mikaeloff et al 2021"
 ---
 
 The COVID-19 pandemic has caused an unprecedented global public health challenge, as well as challenged societies and economies over the last years. The COVID-19 disease is caused by the SARS-CoV-2 virus, found to be a highly pathogenic coronavirus. Although SARS-CoV-2 is primarily known to affect the lung, cardiovascular, gastrointestinal, liver, neurological, hematological, and skin manifestations have also been documented in the disease pathology. Research suggests that all these anatomical sites could be vulnerable to the virus.  

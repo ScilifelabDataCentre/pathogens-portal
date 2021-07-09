@@ -40,7 +40,7 @@ Notera att resultaten i dataseten och som visas i diagrammen är preliminära da
 **Kontakt:** anna.szekely@slu.se
 
 **Referera till detta dataset:**
-Székely, A. & Mohamed, N.. Dataset of SARS-CoV-2 wastewater data from Uppsala, and neighbouring towns Knivsta, Enköping, Östhammar and Älvkarleby, Sweden. [https://doi.org/10.17044/scilifelab.14256317.v1](https://doi.org/10.17044/scilifelab.14256317.v1) (2021).
+Székely, A. & Mohamed, N. Dataset of SARS-CoV-2 wastewater data from Uppsala, and neighbouring towns Knivsta, Enköping, Östhammar and Älvkarleby, Sweden. [https://doi.org/10.17044/scilifelab.14256317.v1](https://doi.org/10.17044/scilifelab.14256317.v1) (2021).
 
 <div class="alert alert-info">Senast uppdaterad: <span id="last_modified_uppsala"></span></div>
 
@@ -81,6 +81,9 @@ Se även [forskargruppens webbsida där sammanfattningar av data och preliminär
 **Forskargruppledare:** Zeynep Cetecioglu Gurol (Kungliga Tekniska högskolan)
 **Kontakt:** zeynepcg@kth.se
 
+**Referera till detta dataset:**
+Cetecioglu Z G, Williams, C, Khatami, K, Atasoy, M, Nandy, P, Jafferali, M H, Birgersson, M. SARS-CoV-2 Wastewater Data from Stockholm, Sweden. [https://doi.org/10.17044/scilifelab.14315483](https://doi.org/10.17044/scilifelab.14315483) (2021).
+
 <div class="alert alert-info">Senast uppdaterad: <span id="last_modified_stockholm"></span></div>
 
 <div class="d-lg-none alert alert-info">
@@ -98,9 +101,6 @@ Se även [forskargruppens webbsida där sammanfattningar av data och preliminär
                     <span class="text-muted">Jafferali MH, Khatami K, Atasoy M, Birgersson M, Williams C, Cetecioglu Z.</span><br>
                     <i>Science of The Total Environment</i> 755. DOI: 10.1016/j.scitotenv.2020.142939
 
-<b><a target="_blank" href="https://doi.org/10.17044/scilifelab.14315483">SARS-CoV-2 Wastewater Data from Stockholm, Sweden.</a></b><br>
-                    <span class="text-muted">Cetecioglu Z G, Williams, C, Khatami, K, Atasoy, M, Nandy, P, Jafferali, M H, Birgersson, M.</span><br>
-                    <i>SciLifeLab Data Repository</i> DOI: 10.17044/scilifelab.14315483
 </div></div>
 
 <a id="umea"><h2>Mängden SARS-CoV-2 i avloppsvatten från  avloppsreningsanläggningar i Umeå</h2></a>
@@ -117,7 +117,7 @@ Mängden SARS-CoV-2 RNA per vecka mäts/visauliseras jämfört med mängden SARS
 **Kontakt:** maja.malmberg@slu.se
 
 **Referera till detta dataset:**
-Malmberg, M., Myrmel, M. & Khatri, M.. Dataset of SARS-CoV-2 in wastewater in Umeå, Sweden. [https://doi.org/10.17044/scilifelab.14376881.v1](https://doi.org/10.17044/scilifelab.14376881.v1) (2021).
+Malmberg, M., Myrmel, M. & Khatri, M. Dataset of SARS-CoV-2 in wastewater in Umeå, Sweden. [https://doi.org/10.17044/scilifelab.14376881.v1](https://doi.org/10.17044/scilifelab.14376881.v1) (2021).
 
 <div class="alert alert-info">Senast uppdaterad: <span id="last_modified_umeaa"></span></div>
 
@@ -133,6 +133,8 @@ Malmberg, M., Myrmel, M. & Khatri, M.. Dataset of SARS-CoV-2 in wastewater in Um
 
 <div class="small text-muted">**Proverna från vecka 11 och 12 har förvarats i +4 °C under 2-3 veckor innan analys vilket skiljer sig från övriga insamlade prover.</div>
 
+<div class="small text-muted">***Proverna från maj ( vecka 18-22) kommer delvis analyseras igen och är preliminära.</div>
+
 <a id="orebro"><h2>Mängden SARS-CoV-2 i avloppsvatten från  avloppsreningsanläggningar i Örebro</h2></a>
 
 Detta project leds av prof. Maja Malmberg (SLU, Sveriges Lantbruksuniversitet) i samarbete med [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) och Mette Myrmel vid Norwegian University of Life Sciences. Mängden SARS-CoV-2-virus i avloppsvattnet mäts i avloppsreningsanläggningen i Örebro. Se [den här kartan för det exakta avrinningsområdet för insamlingskanalerna](/wastewater/map_orebro.pdf).
@@ -147,7 +149,7 @@ Mängden SARS-CoV-2 RNA per vecka mäts / visaualiseras jämfört med mängden S
 **Kontakt:** maja.malmberg@slu.se
 
 **Referera till detta dataset:**
-Malmberg, M., Myrmel, M. & Khatri, M.. Dataset of SARS CoV-2 in wastewater in Örebro, Sweden. [https://doi.org/10.17044/scilifelab.14377097.v1](https://doi.org/10.17044/scilifelab.14377097.v1) (2021).
+Malmberg, M., Myrmel, M. & Khatri, M. Dataset of SARS CoV-2 in wastewater in Örebro, Sweden. [https://doi.org/10.17044/scilifelab.14377097.v1](https://doi.org/10.17044/scilifelab.14377097.v1) (2021).
 
 <div class="alert alert-info">Senast uppdaterad: <span id="last_modified_orebro"></span></div>
 
