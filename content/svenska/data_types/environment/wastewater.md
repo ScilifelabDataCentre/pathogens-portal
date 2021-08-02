@@ -92,7 +92,7 @@ Cetecioglu Z G, Williams, C, Khatami, K, Atasoy, M, Nandy, P, Jafferali, M H, Bi
 
 <div class="small text-muted">*NB: Alla prover innan vecka 21 har kommit till labbet vecka 21. Mellan vecka 21 och 33 har prover analyserats varannan vecka. Efter vecka 33 har proverna analyserats varje vecka.</div>
 
-<div class="small text-muted">Notera: Avloppsvattenmätningarna har gjorts varannan veckan, inte veckovis, från vecka 24 2021.</div>
+<div class="small text-muted">Notera: Avloppsvattenmätningarna har gjorts varannan vecka, inte veckovis, från vecka 24 2021.</div>
 
 <div class="row ml-0 mt-3"><b>Publikationer:</b></div><div class="row"><div class="col">
 <b><a target="_blank" href="https://doi.org/10.1016/j.scitotenv.2020.142939">Benchmarking virus concentration methods for quantification of SARS-CoV-2 in raw wastewater.</a></b><br>
