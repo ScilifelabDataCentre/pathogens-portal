@@ -7,10 +7,6 @@ menu:
       identifier: environment
       weight: 50
 ---
-<div class="alert alert-info">
-  <i class="fas fa-exclamation-triangle"></i>
-  <span>Notification, 28.06.2021: Due to vacations, in the summer months the updates of wastewater measurements will sometimes be published with delays.</span>
-</div>
 
 We present wastewater epidemiology data from four Swedish cities - Uppsala, Stockholm, Umeå, and Örebro, with a total population of 1.5 million people. Wastewater surveillance could prove an effective system for monitoring COVID-19 prevalence and an early warning system for predicting upcoming outbreaks. Note that because different sample collection and data analysis methods are used in different cities, it is not possible to make comparisons of viral load across these cities. Comparisons should be made within each city because the methodology remains the same. [See below for details](#background) on wastewater epidemiology.
 
@@ -92,7 +88,9 @@ Cetecioglu Z G, Williams, C, Khatami, K, Atasoy, M, Nandy, P, Jafferali, M H, Bi
   <div class="table-responsive" id="stockholm_combined"></div>
 </div>
 
-<div class="small text-muted">*NB: All samples until week 21 of 2020 were received by the lab in week 21. Between weeks 21 and 33 of 2020 samples were analyzed biweekly. After week 33 of 2020, samples were analyzed weekly.</div>
+<div class="small text-muted">*NB: All samples until week 21 of 2020 were received by the lab in week 21. Between weeks 21 and 33 of 2020 samples were analyzed biweekly. After week 33 of 2020, samples were analysed weekly.</div>
+
+<div class="small text-muted">Note: Measurements were taken fortnightly, rather than weekly, from week 24 of 2021.</div>
 
 <div class="row ml-0 mt-3"><b>Publications:</b></div><div class="row"><div class="col">
 <b><a target="_blank" href="https://doi.org/10.1016/j.scitotenv.2020.142939">Benchmarking virus concentration methods for quantification of SARS-CoV-2 in raw wastewater.</a></b><br>
