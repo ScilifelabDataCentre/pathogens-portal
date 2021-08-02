@@ -8,19 +8,21 @@
   Data available from research groups in Sweden
   {{ end }}</h4>
 
-<div class="alert alert-info">
-    <i class="fas fa-exclamation-triangle"></i>
-    <span>{{ if eq $.Site.Language.LanguageName "Svenska" }}
-    OBS! Teamet som arbetar med Portalen är på semester under juli och uppdateringar sker igen i augusti.
-    {{ else }}
-    Notification: The team is currently away for the summer, updates will recommence in August. {{ end }}</span>
-</div>
-
 <div>{{ if eq $.Site.Language.LanguageName "Svenska" }}
-  <p>Vänligen notera att listan över tillgängliga dataset från svenska forskargrupper uppdateras manuellt och därför inte är fullständig. Om du vill att ditt dataset skall synliggöras eller vill korrigera information om dina dataset, <a href="/sv/suggestions/">vänligen kontakta oss</a>. Publikationer som delar data där minst en medförfattare är affilierad till ett svenskt lärosäte inkluderas. I dagsläget inkluderas  både publikationer som öppet delar data eller som anges att data göra tillgängliga efter begäran från författarna. Men inom kort kommer endast publikationer som delar data öppet eller genom en metadata post inkluderas i datatabasen.</p>
+  <p>Vänligen notera att listan över tillgängliga dataset från svenska forskargrupper uppdateras manuellt och därför
+    inte är fullständig. Om du vill att ditt dataset skall synliggöras eller vill korrigera information om dina dataset,
+    <a href="/sv/suggestions/">vänligen kontakta oss</a>. Publikationer som delar data där minst en medförfattare är
+    affilierad till ett svenskt lärosäte inkluderas. I dagsläget inkluderas både publikationer som öppet delar data
+    eller som anges att data göra tillgängliga efter begäran från författarna. Men inom kort kommer endast publikationer
+    som delar data öppet eller genom en metadata post inkluderas i datatabasen.</p>
   <p><i>Senast uppdaterad: {{ substr $.Site.Data.publications.timestamp 0 10 }}</i></p>
   {{ else }}
-  <p>The list below is curated manually and as such may not be exhaustive. If you would like to see your dataset here or correct information about your dataset, <a href="/suggestions/">please get in touch with us</a>. Projects sharing data where at least one author has an affiliation with a Swedish research institute are included. At this point, projects which share data openly or which explicitly promise to share data on request are included in this section. In the near future, only projects that either share data openly or have at least a metadata-only record with a clear data access procedure will be included.</p>
+  <p>The list below is curated manually and as such may not be exhaustive. If you would like to see your dataset here or
+    correct information about your dataset, <a href="/suggestions/">please get in touch with us</a>. Projects sharing
+    data where at least one author has an affiliation with a Swedish research institute are included. At this point,
+    projects which share data openly or which explicitly promise to share data on request are included in this section.
+    In the near future, only projects that either share data openly or have at least a metadata-only record with a clear
+    data access procedure will be included.</p>
   <p><i>Last updated: {{ substr $.Site.Data.publications.timestamp 0 10 }}</i></p>
   {{ end }}
 </div>
@@ -34,14 +36,14 @@
 
 {{ range $index, $entry := $.Site.Data.publications.publications }}
 {{ $has_data := false }}
-  {{ range .xrefs }}
-    {{ if in $valid_db_list .db }}
-      {{ $has_data = true}}
-    {{ end }}
-  {{ end }}
-  {{ if $has_data }}
-    {{ $all_entries = $all_entries | append $entry }}
-  {{ end }}
+{{ range .xrefs }}
+{{ if in $valid_db_list .db }}
+{{ $has_data = true}}
+{{ end }}
+{{ end }}
+{{ if $has_data }}
+{{ $all_entries = $all_entries | append $entry }}
+{{ end }}
 {{ end }}
 
 {{/*
@@ -53,17 +55,17 @@
 {{ $num_entries_per_data_type := dict }}
 
 {{ range $all_data_types }}
-  {{ $current_type := . }}
-  {{ $num_entries := 0 }}
-  {{ range $all_entries }}
-    {{ range $key, $content := .labels }}
-      {{ if eq $key $current_type}}
-          {{ $num_entries = add $num_entries 1}}
-      {{ end }}
-    {{ end }}
-  {{ end }}
-  {{ $data_type_num_entries := dict $current_type $num_entries }}
-  {{ $num_entries_per_data_type = merge $num_entries_per_data_type $data_type_num_entries }}
+{{ $current_type := . }}
+{{ $num_entries := 0 }}
+{{ range $all_entries }}
+{{ range $key, $content := .labels }}
+{{ if eq $key $current_type}}
+{{ $num_entries = add $num_entries 1}}
+{{ end }}
+{{ end }}
+{{ end }}
+{{ $data_type_num_entries := dict $current_type $num_entries }}
+{{ $num_entries_per_data_type = merge $num_entries_per_data_type $data_type_num_entries }}
 {{ end }}
 
 {{/*
@@ -73,7 +75,7 @@
 {{ $datatypes_to_display := slice }}
 {{ $path := strings.TrimPrefix "/sv" (strings.TrimRight "/" (string .Page.RelPermalink)) }}
 {{ with .Sites.First.GetPage $path }}
-    {{ $datatypes_to_display = .Params.datatypes_to_display }}
+{{ $datatypes_to_display = .Params.datatypes_to_display }}
 {{ end }}
 
 {{/*
@@ -83,19 +85,19 @@
 {{ $current_page := .Title }}
 {{ $entries_to_display := slice }}
 {{ range $all_entries }}
-  {{ $correct_type := false }}
-  {{ range $key, $content := .labels }}
-    {{ if in $datatypes_to_display $key}}
-        {{ $correct_type = true}}
-    {{ end }}
-  {{ end }}
-  {{ if and (ne $current_page "All data types") (ne $current_page "Alla datatyper") }}
-    {{ if $correct_type }}
-      {{ $entries_to_display = $entries_to_display | append . }}
-    {{ end }}
-  {{ else }}
-      {{ $entries_to_display = $all_entries }}
-  {{ end }}
+{{ $correct_type := false }}
+{{ range $key, $content := .labels }}
+{{ if in $datatypes_to_display $key}}
+{{ $correct_type = true}}
+{{ end }}
+{{ end }}
+{{ if and (ne $current_page "All data types") (ne $current_page "Alla datatyper") }}
+{{ if $correct_type }}
+{{ $entries_to_display = $entries_to_display | append . }}
+{{ end }}
+{{ else }}
+{{ $entries_to_display = $all_entries }}
+{{ end }}
 {{ end }}
 
 <div class="container">
@@ -103,231 +105,273 @@
     <div class="col-lg-2 pl-0 pr-2 {{ if eq $.Site.Language.LanguageName "Svenska" }}mr-5{{ end }}">
       <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).dt_data_types }}</h5>
       <div class="col mb-2">
-                <div class="row">{{ if or (eq .Title "All data types") (eq .Title "Alla datatyper") }}<b>{{ else }}<a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/data_types/all/data/">{{ end }}{{ if eq $.Site.Language.LanguageName "Svenska" }}Alla datatyper {{ else }}All data types {{ end }}({{ len $all_entries }}){{ if or (eq .Title "All data types") (eq .Title "Alla datatyper") }}</b>{{ else }}</a>{{ end }}</div>
+        <div class="row">{{ if or (eq .Title "All data types") (eq .Title "Alla datatyper") }}<b>{{ else }}<a
+              href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/data_types/all/data/">{{ end }}{{ if eq $.Site.Language.LanguageName "Svenska" }}Alla
+              datatyper {{ else }}All data types
+              {{ end }}({{ len $all_entries }}){{ if or (eq .Title "All data types") (eq .Title "Alla datatyper") }}</b>{{ else }}</a>{{ end }}
+        </div>
         {{ $data_types_menu := .Site.Menus.horizontal }}
         {{ range $ind, $el := .Site.Menus.other_data }}
-          {{ if and (ne $el.URL "/data_types/environment/wastewater/") (ne $el.URL "/sv/data_types/environment/wastewater/") }}
-            {{ $data_types_menu = $data_types_menu | append $el }}
-          {{ end }}
+        {{ if and (ne $el.URL "/data_types/environment/wastewater/") (ne $el.URL "/sv/data_types/environment/wastewater/") }}
+        {{ $data_types_menu = $data_types_menu | append $el }}
+        {{ end }}
         {{ end }}
         {{ range $data_types_menu }}
-                <div class="row">
-                  {{ if eq .Title $current_page}}
-                  <b>
-                  {{ else }}
-                  <a href="{{ .Page.RelPermalink }}">
-                  {{ end }}
-                  {{ .Title }}
-                  {{ $section_title := string "" }}
-                  {{ if eq $.Site.Language.LanguageName "Svenska" }}
-                    {{ $section_title =  .Params.title_eng}}
-                  {{ else }}
-                    {{ $section_title = .Title}}
-                  {{ end }}
-                  {{ $this_type := strings.TrimRight " data" (lower $section_title) }}
-                  {{ if eq $section_title "Protein data"}}
-                    {{ $this_type = "proteins"}}
-                  {{ end }}
-                  {{ range $type, $num := $num_entries_per_data_type }}
-                    {{ $type_in_dict := strings.TrimRight " data" ( strings.TrimPrefix "category: " (lower $type) ) }}
-                    {{ if eq $this_type $type_in_dict }}
-                      ({{ $num }})
-                    {{ end }}
-                  {{ end }}
-                  {{ if eq .Title $current_page}}
-                  </b>
-                  {{ else }}
-                  </a>
-                  {{ end }}
-                </div>
+        <div class="row">
+          {{ if eq .Title $current_page}}
+          <b>
+            {{ else }}
+            <a href="{{ .Page.RelPermalink }}">
+              {{ end }}
+              {{ .Title }}
+              {{ $section_title := string "" }}
+              {{ if eq $.Site.Language.LanguageName "Svenska" }}
+              {{ $section_title =  .Params.title_eng}}
+              {{ else }}
+              {{ $section_title = .Title}}
+              {{ end }}
+              {{ $this_type := strings.TrimRight " data" (lower $section_title) }}
+              {{ if eq $section_title "Protein data"}}
+              {{ $this_type = "proteins"}}
+              {{ end }}
+              {{ range $type, $num := $num_entries_per_data_type }}
+              {{ $type_in_dict := strings.TrimRight " data" ( strings.TrimPrefix "category: " (lower $type) ) }}
+              {{ if eq $this_type $type_in_dict }}
+              ({{ $num }})
+              {{ end }}
+              {{ end }}
+              {{ if eq .Title $current_page}}
+          </b>
+          {{ else }}
+          </a>
+          {{ end }}
+        </div>
         {{ end }}
       </div>
     </div>
     <div class="col-lg">
-          <div class="row">
-            <div class="table-responsive">
-              <table class="table table-hover table-bordered" width="100%">
-                <thead class="thead-light">
-    <tr>
-      <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).dt_project }}</th>
-      <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).dt_last_updated }}</th>
-      <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).dt_available_data }}</th>
-    </tr>
-  </thead>
-  <tbody>
-    {{ range $index, $entry := $entries_to_display }}
-      <tr>
-        <td><div class="row mx-0"><div class="col">
-                <div class="row"><strong><a target="_blank" href="https://doi.org/{{ .doi }}">{{ .title }}</a></strong></div>
-                <div class="row">
-                  <span class="text-muted">{{ with .authors }}
-                    {{ if gt (len .) 5}}
-                    {{ range first 5 . }}
-                        {{ $family := (index . "family") }}
-                        {{ $initials := (index . "initials") }}
-                        {{ if not $initials }} {{ $initials = substr (index . "given") 0 1 }} {{ end }}
-                        {{ $family }} {{ $initials }},
-                    {{ end }}
-                    {{ range last 1 . }}
-                        {{ $family := (index . "family") }}
-                        {{ $initials := (index . "initials") }}
-                        {{ if not $initials }} {{ $initials = substr (index . "given") 0 1 }} {{ end }}
-                        [...], {{ $family }} {{ $initials }}
-                    {{ end }}
-                    {{ else }}
-                    {{ $n := sub (len .) 1}}
-                    {{ range first $n . }}
-                        {{ $family := (index . "family") }}
-                        {{ $initials := (index . "initials") }}
-                        {{ if not $initials }} {{ $initials = substr (index . "given") 0 1 }} {{ end }}
-                        {{ $family }} {{ $initials }},
-                    {{ end }}
-                    {{ range last 1 . }}
-                        {{ $family := (index . "family") }}
-                        {{ $initials := (index . "initials") }}
-                        {{ if not $initials }} {{ $initials = substr (index . "given") 0 1 }} {{ end }}
-                        {{ $family }} {{ $initials }}
-                    {{ end }}
-                    {{ end }}
-                    {{ end }}
-                  </span>
-                </div>
-                <div class="row mb-1"><span><i>{{ .journal.title }}</i>{{ if .journal.volume }} <b>{{ .journal.volume }}</b>{{ end }}{{if .journal.issue}} ({{ .journal.issue }}){{ end }}{{ if .journal.pages }} {{ .journal.pages }}{{ end }}</span></div>
-                <div class="row"><span class="text-muted">{{ .doi }}</span></div>
-                {{if .abstract }}<div class="row">
-                  <a class="btn btn-link text-dark" data-toggle="collapse" href="#abstract{{ $index }}" role="button" aria-expanded="false" aria-controls="abstract{{ $index }}">
-                    Abstract <i class="fas fa-caret-down"></i></a>
-                  <div class="collapse" id="abstract{{ $index }}">
-                    <div class="card card-body">{{ .abstract }}</div>
+      <div class="row">
+        <div class="table-responsive">
+          <table class="table table-hover table-bordered" width="100%">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).dt_project }}</th>
+                <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).dt_last_updated }}</th>
+                <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).dt_available_data }}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{ range $index, $entry := $entries_to_display }}
+              <tr>
+                <td>
+                  <div class="row mx-0">
+                    <div class="col">
+                      <div class="row"><strong><a target="_blank"
+                            href="https://doi.org/{{ .doi }}">{{ .title }}</a></strong></div>
+                      <div class="row">
+                        <span class="text-muted">{{ with .authors }}
+                          {{ if gt (len .) 5}}
+                          {{ range first 5 . }}
+                          {{ $family := (index . "family") }}
+                          {{ $initials := (index . "initials") }}
+                          {{ if not $initials }} {{ $initials = substr (index . "given") 0 1 }} {{ end }}
+                          {{ $family }} {{ $initials }},
+                          {{ end }}
+                          {{ range last 1 . }}
+                          {{ $family := (index . "family") }}
+                          {{ $initials := (index . "initials") }}
+                          {{ if not $initials }} {{ $initials = substr (index . "given") 0 1 }} {{ end }}
+                          [...], {{ $family }} {{ $initials }}
+                          {{ end }}
+                          {{ else }}
+                          {{ $n := sub (len .) 1}}
+                          {{ range first $n . }}
+                          {{ $family := (index . "family") }}
+                          {{ $initials := (index . "initials") }}
+                          {{ if not $initials }} {{ $initials = substr (index . "given") 0 1 }} {{ end }}
+                          {{ $family }} {{ $initials }},
+                          {{ end }}
+                          {{ range last 1 . }}
+                          {{ $family := (index . "family") }}
+                          {{ $initials := (index . "initials") }}
+                          {{ if not $initials }} {{ $initials = substr (index . "given") 0 1 }} {{ end }}
+                          {{ $family }} {{ $initials }}
+                          {{ end }}
+                          {{ end }}
+                          {{ end }}
+                        </span>
+                      </div>
+                      <div class="row mb-1"><span><i>{{ .journal.title }}</i>{{ if .journal.volume }}
+                          <b>{{ .journal.volume }}</b>{{ end }}{{if .journal.issue}}
+                          ({{ .journal.issue }}){{ end }}{{ if .journal.pages }} {{ .journal.pages }}{{ end }}</span>
+                      </div>
+                      <div class="row"><span class="text-muted">{{ .doi }}</span></div>
+                      {{if .abstract }}<div class="row">
+                        <a class="btn btn-link text-dark" data-toggle="collapse" href="#abstract{{ $index }}"
+                          role="button" aria-expanded="false" aria-controls="abstract{{ $index }}">
+                          Abstract <i class="fas fa-caret-down"></i></a>
+                        <div class="collapse" id="abstract{{ $index }}">
+                          <div class="card card-body">{{ .abstract }}</div>
+                        </div>
+                      </div>{{ end }}
+                    </div>
                   </div>
-                </div>{{ end }}
-              </div></div></td>
-        <td>{{ .published }}</td>
-        <td>
-          {{ with .xrefs }}
-          {{ $total_dbs := 0 }}
-          {{ range . }}
-            {{ if in $valid_db_list .db}}
-              {{ $total_dbs = add $total_dbs 1 }}
-            {{ end }}
-          {{ end }}
-          {{ $as_list := false }}
-            {{ if gt $total_dbs 1 }}
-              {{ $as_list = true }}
-            {{ end }}
-          {{ if $as_list }}<ul class="pl-3">{{ end }}
-            {{ range . }}
-              {{ if eq .db "URL"}}
-                  {{ $data_description := (index . "description") }}
-                  {{ $data_url := (index . "key") }}
-                  {{ if $as_list }}<li>{{ end }}<a target="_blank" href="{{ $data_url }}">{{ $data_description }}</a>{{ if $as_list }}</li>{{ end}}
-              {{ else if or (eq .db "NA") (eq .db "N/A")}}
-                  {{ $data_description := (index . "key") }}
-                  {{ if $as_list }}<li>{{ end }}{{ $data_description }}{{ if $as_list }}</li>{{ end}}
-              {{ else if eq .db "GENBANK"}}
-                  {{ $database := (index . "db") }}
-                  {{ $accession := (index . "key") }}
-                  {{ if $as_list }}<li>{{ end }}{{ $data_description := (index . "description") }}
-                  <a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/{{ $accession }}">{{ $database }} {{ $accession }}: {{ if $data_description }}{{ $data_description }}{{ end }}</a>{{ if $as_list }}</li>{{ end}}
-              {{ else if eq .db "PDB"}}
-                  {{ $database := (index . "db") }}
-                  {{ $accession := (index . "key") }}
-                  {{ $data_description := (index . "description") }}
-                  {{ if $as_list }}<li>{{ end }}<a target="_blank" href="https://www.rcsb.org/structure/{{ $accession }}">{{ $database }} {{ $accession }}{{ if $data_description }}: {{ $data_description }}{{ end }}</a>{{ if $as_list }}</li>{{ end}}
-              {{ else if eq .db "BioProject"}}
-                  {{ $database := (index . "db") }}
-                  {{ $accession := (index . "key") }}
-                  {{ $data_description := (index . "description") }}
-                  {{ if $as_list }}<li>{{ end }}<a target="_blank" href="https://www.ncbi.nlm.nih.gov/bioproject/{{ $accession }}">{{ $database }} {{ $accession }}{{ if $data_description }}: {{ $data_description }}{{ end }}</a>{{ if $as_list }}</li>{{ end}}
-              {{ else if eq .db "GEO"}}
-                  {{ $database := (index . "db") }}
-                  {{ $accession := (index . "key") }}
-                  {{ $data_description := (index . "description") }}
-                  {{ if $as_list }}<li>{{ end }}<a target="_blank" href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc={{ $accession }}">{{ $database }} {{ $accession }}{{ if $data_description }}: {{ $data_description }}{{ end }}</a>{{ if $as_list }}</li>{{ end}}
-              {{ else if eq .db "Dryad"}}
-                  {{ $database := (index . "db") }}
-                  {{ $accession := (index . "key") }}
-                  {{ $data_description := (index . "description") }}
-                  {{ if $as_list }}<li>{{ end }}<a target="_blank" href="https://datadryad.org/resource/doi:{{ $accession }}">{{ $database }} {{ $accession }}{{ if $data_description }}: {{ $data_description }}{{ end }}</a>{{ if $as_list }}</li>{{ end}}
-              {{ else if eq .db "ISRCTN"}}
-                  {{ $database := (index . "db") }}
-                  {{ $accession := (index . "key") }}
-                  {{ $data_description := (index . "description") }}
-                  {{ if $as_list }}<li>{{ end }}<a target="_blank" href="https://doi.org/10.1186/{{ $accession }}">{{ $database }} {{ $accession }}{{ if $data_description }}: {{ $data_description }}{{ end }}</a>{{ if $as_list }}</li>{{ end}}
-              {{ else if eq .db "PubChem-Substance"}}
-                  {{ $database := (index . "db") }}
-                  {{ $accession := (index . "key") }}
-                  {{ $data_description := (index . "description") }}
-                  {{ if $as_list }}<li>{{ end }}<a target="_blank" href="https://pubchem.ncbi.nlm.nih.gov/substance/{{ $accession }}">{{ $database }} {{ $accession }}{{ if $data_description }}: {{ $data_description }}{{ end }}</a>{{ if $as_list }}</li>{{ end}}
-              {{ else if eq .db "RefSeq"}}
-                  {{ $database := (index . "db") }}
-                  {{ $accession := (index . "key") }}
-                  {{ $data_description := (index . "description") }}
-                  {{ if $as_list }}<li>{{ end }}<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/{{ $accession }}">{{ $database }} {{ $accession }}{{ if $data_description }}: {{ $data_description }}{{ end }}</a>{{ if $as_list }}</li>{{ end}}
-              {{ else if eq .db "dbGaP"}}
-                  {{ $database := (index . "db") }}
-                  {{ $accession := (index . "key") }}
-                  {{ $data_description := (index . "description") }}
-                  {{ if $as_list }}<li>{{ end }}<a target="_blank" href="https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id={{ $accession }}">{{ $database }} {{ $accession }}{{ if $data_description }}: {{ $data_description }}{{ end }}</a>{{ if $as_list }}</li>{{ end}}
+                </td>
+                <td>{{ .published }}</td>
+                <td>
+                  {{ with .xrefs }}
+                  {{ $total_dbs := 0 }}
+                  {{ range . }}
+                  {{ if in $valid_db_list .db}}
+                  {{ $total_dbs = add $total_dbs 1 }}
+                  {{ end }}
+                  {{ end }}
+                  {{ $as_list := false }}
+                  {{ if gt $total_dbs 1 }}
+                  {{ $as_list = true }}
+                  {{ end }}
+                  {{ if $as_list }}<ul class="pl-3">{{ end }}
+                    {{ range . }}
+                    {{ if eq .db "URL"}}
+                    {{ $data_description := (index . "description") }}
+                    {{ $data_url := (index . "key") }}
+                    {{ if $as_list }}<li>{{ end }}<a target="_blank"
+                        href="{{ $data_url }}">{{ $data_description }}</a>{{ if $as_list }}</li>{{ end}}
+                    {{ else if or (eq .db "NA") (eq .db "N/A")}}
+                    {{ $data_description := (index . "key") }}
+                    {{ if $as_list }}<li>{{ end }}{{ $data_description }}{{ if $as_list }}</li>{{ end}}
+                    {{ else if eq .db "GENBANK"}}
+                    {{ $database := (index . "db") }}
+                    {{ $accession := (index . "key") }}
+                    {{ if $as_list }}<li>{{ end }}{{ $data_description := (index . "description") }}
+                      <a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/{{ $accession }}">{{ $database }}
+                        {{ $accession }}:
+                        {{ if $data_description }}{{ $data_description }}{{ end }}</a>{{ if $as_list }}</li>{{ end}}
+                    {{ else if eq .db "PDB"}}
+                    {{ $database := (index . "db") }}
+                    {{ $accession := (index . "key") }}
+                    {{ $data_description := (index . "description") }}
+                    {{ if $as_list }}<li>{{ end }}<a target="_blank"
+                        href="https://www.rcsb.org/structure/{{ $accession }}">{{ $database }}
+                        {{ $accession }}{{ if $data_description }}:
+                        {{ $data_description }}{{ end }}</a>{{ if $as_list }}</li>{{ end}}
+                    {{ else if eq .db "BioProject"}}
+                    {{ $database := (index . "db") }}
+                    {{ $accession := (index . "key") }}
+                    {{ $data_description := (index . "description") }}
+                    {{ if $as_list }}<li>{{ end }}<a target="_blank"
+                        href="https://www.ncbi.nlm.nih.gov/bioproject/{{ $accession }}">{{ $database }}
+                        {{ $accession }}{{ if $data_description }}:
+                        {{ $data_description }}{{ end }}</a>{{ if $as_list }}</li>{{ end}}
+                    {{ else if eq .db "GEO"}}
+                    {{ $database := (index . "db") }}
+                    {{ $accession := (index . "key") }}
+                    {{ $data_description := (index . "description") }}
+                    {{ if $as_list }}<li>{{ end }}<a target="_blank"
+                        href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc={{ $accession }}">{{ $database }}
+                        {{ $accession }}{{ if $data_description }}:
+                        {{ $data_description }}{{ end }}</a>{{ if $as_list }}</li>{{ end}}
+                    {{ else if eq .db "Dryad"}}
+                    {{ $database := (index . "db") }}
+                    {{ $accession := (index . "key") }}
+                    {{ $data_description := (index . "description") }}
+                    {{ if $as_list }}<li>{{ end }}<a target="_blank"
+                        href="https://datadryad.org/resource/doi:{{ $accession }}">{{ $database }}
+                        {{ $accession }}{{ if $data_description }}:
+                        {{ $data_description }}{{ end }}</a>{{ if $as_list }}</li>{{ end}}
+                    {{ else if eq .db "ISRCTN"}}
+                    {{ $database := (index . "db") }}
+                    {{ $accession := (index . "key") }}
+                    {{ $data_description := (index . "description") }}
+                    {{ if $as_list }}<li>{{ end }}<a target="_blank"
+                        href="https://doi.org/10.1186/{{ $accession }}">{{ $database }}
+                        {{ $accession }}{{ if $data_description }}:
+                        {{ $data_description }}{{ end }}</a>{{ if $as_list }}</li>{{ end}}
+                    {{ else if eq .db "PubChem-Substance"}}
+                    {{ $database := (index . "db") }}
+                    {{ $accession := (index . "key") }}
+                    {{ $data_description := (index . "description") }}
+                    {{ if $as_list }}<li>{{ end }}<a target="_blank"
+                        href="https://pubchem.ncbi.nlm.nih.gov/substance/{{ $accession }}">{{ $database }}
+                        {{ $accession }}{{ if $data_description }}:
+                        {{ $data_description }}{{ end }}</a>{{ if $as_list }}</li>{{ end}}
+                    {{ else if eq .db "RefSeq"}}
+                    {{ $database := (index . "db") }}
+                    {{ $accession := (index . "key") }}
+                    {{ $data_description := (index . "description") }}
+                    {{ if $as_list }}<li>{{ end }}<a target="_blank"
+                        href="https://www.ncbi.nlm.nih.gov/nuccore/{{ $accession }}">{{ $database }}
+                        {{ $accession }}{{ if $data_description }}:
+                        {{ $data_description }}{{ end }}</a>{{ if $as_list }}</li>{{ end}}
+                    {{ else if eq .db "dbGaP"}}
+                    {{ $database := (index . "db") }}
+                    {{ $accession := (index . "key") }}
+                    {{ $data_description := (index . "description") }}
+                    {{ if $as_list }}<li>{{ end }}<a target="_blank"
+                        href="https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id={{ $accession }}">{{ $database }}
+                        {{ $accession }}{{ if $data_description }}:
+                        {{ $data_description }}{{ end }}</a>{{ if $as_list }}</li>{{ end}}
+                    {{ end }}
+                    {{ end }}
+                    {{ if $as_list }}</ul>{{ end }}
+                  {{ end }}
+                </td>
+              </tr>
               {{ end }}
-            {{ end }}
-          {{ if $as_list }}</ul>{{ end }}
-          {{ end }}
-        </td>
-      </tr>
-    {{ end }}
-  </tbody>
-</table></div>
-</div>
+            </tbody>
+          </table>
+        </div>
+      </div>
 
-</div>
-</div>
+    </div>
+  </div>
 </div>
 
 
 <script>
-  $(document).ready(function() {
+  $(document).ready(function () {
     $('table.table').DataTable({
-        "sDom": '<"top row"<"col-md"i><"col-md"f>>rt<"bottom row"<"col-md"l><"col-md"p>><"clear">',
-        "order": [[ 1, "desc" ]],
-        "columnDefs": [{ "orderable": false, "targets": 2 }],
+      "sDom": '<"top row"<"col-md"i><"col-md"f>>rt<"bottom row"<"col-md"l><"col-md"p>><"clear">',
+      "order": [[1, "desc"]],
+      "columnDefs": [{ "orderable": false, "targets": 2 }],
         {{ if eq $.Site.Language.LanguageName "English" }}
         "language": {
-             "lengthMenu": "Show _MENU_ entries per page",
-             "zeroRecords": "Nothing found.",
-             "info": "Showing _START_ to _END_ of _TOTAL_ entries.",
-             "infoEmpty": "No records available",
-             "infoFiltered": "(filtered from _MAX_ total records)",
-             "search": "Search:",
-             "paginate": {
-                "first":      "First",
-                "last":       "Last",
-                "next":       "»",
-                "previous":   "«"
-                }
-            }
+    "lengthMenu": "Show _MENU_ entries per page",
+    "zeroRecords": "Nothing found.",
+    "info": "Showing _START_ to _END_ of _TOTAL_ entries.",
+    "infoEmpty": "No records available",
+    "infoFiltered": "(filtered from _MAX_ total records)",
+    "search": "Search:",
+    "paginate": {
+      "first": "First",
+      "last": "Last",
+      "next": "»",
+      "previous": "«"
+    }
+  }
         {{ else }}
-        "language": {
-             "lengthMenu": "Visa _MENU_ poster per sida",
-             "zeroRecords": "Inga resultat",
-             "info": "Visar _START_-_END_ av _TOTAL_ poster.",
-             "infoEmpty": "Inga resultat",
-             "infoFiltered": "(filtrerad av _MAX_ poster)",
-             "search": "Sök:",
-             "paginate": {
-                "first":      "Första",
-                "last":       "Sista",
-                "next":       "»",
-                "previous":   "«"
-                }
-            }
+    "language": {
+    "lengthMenu": "Visa _MENU_ poster per sida",
+    "zeroRecords": "Inga resultat",
+    "info": "Visar _START_-_END_ av _TOTAL_ poster.",
+    "infoEmpty": "Inga resultat",
+    "infoFiltered": "(filtrerad av _MAX_ poster)",
+    "search": "Sök:",
+    "paginate": {
+      "first": "Första",
+      "last": "Sista",
+      "next": "»",
+      "previous": "«"
+    }
+  }
         {{ end }}
     }
-    );
+  );
 } );
 </script>
 
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
+<script type="text/javascript" charset="utf8"
+  src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
 
 {{ end }}
