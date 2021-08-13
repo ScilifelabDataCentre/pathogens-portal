@@ -124,7 +124,7 @@ Dessa grafer visar antal vårdkontakter för patienter som diagnostiserats med e
   <div class="table-responsive" id="healthcare_contacts_u08_9"></div>
 </div>
 
-## Pågående forskningsprojektFormulärets överkant
+## Pågående forskningsprojekt
 
 Pågående Detta är en manuellt sammanställd översikt över forskningsprojekt med fokus på postcovid som fått forskningsanslag från större svenska anslagsgivare. Detta är inte en fullständig lista. Listan uppdateras kontinuerligt med nya projekt. Om du har ett forskningsprojekt inom området som du vill skall läggas upp här [kontakta oss på](/contact/). En lista över alla Covid-19 relaterade forskningsprojekt med anslag från större svenska anslagsgivare se [detta avsnitt av Covid-19 dataportalen](/projects/ongoing/).
 
