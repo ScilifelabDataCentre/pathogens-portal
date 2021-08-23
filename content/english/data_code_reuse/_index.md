@@ -45,7 +45,7 @@ If you are interested in participating in the competition and might need support
 
 - A feature on the COVID-19 Data Portal (e.g. a Data Highlight or page with visualisations).
 
--  Visibility through press and social media of SciLifeLab and SciLifeLab Data Centre. The winning projects will also be offered visibility on the Italian COVID-19 Data Portal.
+- Visibility through press and social media of SciLifeLab and SciLifeLab Data Centre. The winning projects will also be offered visibility on the Italian COVID-19 Data Portal.
 
 </a>
 </div>
