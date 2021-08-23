@@ -43,7 +43,7 @@ Om du är intresserad av att delta i tävlingen ch eventuellt beöver support fr
 
 - Fri hosting eller lagring under ett år.
 
-- En medverkan på Covid-19 portalen (e.g som ”data i fokus”) eller en sida med visualiseringar.
+- En medverkan på Covid-19 portalen (e.g som ”data i fokus” eller en sida med visualiseringar).
 
 - Synliggörande genom SciLifeLabs och SciLifeLab Data Centres press och sociala medier. De vinnande projekten kommer även att erbjudas synliggörande via den italienska COVID-19 portalen.
 
