@@ -3,157 +3,231 @@
     <div class="col-lg-2 pl-0 {{ if eq $.Site.Language.LanguageName "Svenska" }}mr-5{{ else }}mr-2{{ end }}">
       <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).projects_funder }}</h5>
       <div class="col mb-2 ml-3 form-check">
-          {{ if eq $.Site.Language.LanguageName "Svenska" }}
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder" value="Vetenskapsrådet">Vetenskapsrådet</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder" value="SciLifeLab / Knut och Alice Wallenbergs Stiftelse">SciLifeLab / Knut och Alice Wallenbergs Stiftelse</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder" value="NordForsk">NordForsk</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder" value="Vinnova">Vinnova</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder" value="Horisont 2020">Horisont 2020</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder" value="Formas">Formas</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder" value="Hjärt-Lungfonden">Hjärt-Lungfonden</div>
-          {{ else }}
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder" value="Swedish Research Council">Swedish Research Council</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder" value="SciLifeLab / Knut and Alice Wallenberg Foundation">SciLifeLab / Knut and Alice Wallenberg Foundation</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder" value="NordForsk">NordForsk</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder" value="Vinnova">Vinnova</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder" value="Horizon 2020">Horizon 2020</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder" value="Formas">Formas</div>
-          <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder" value="Hjärt-Lungfonden">Hjärt-Lungfonden</div>
-          {{ end }}
+        {{ if eq $.Site.Language.LanguageName "Svenska" }}
+        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
+            value="AFA-försäkring">AFA-försäkring</div>
+        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
+            value="Formas">Formas</div>
+        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
+            value="Forte">Forte</div>
+        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
+            value="Hjärt-Lungfonden">Hjärt-Lungfonden</div>
+        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
+            value="Horisont 2020">Horisont 2020</div>
+        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
+            value="NordForsk">NordForsk</div>
+        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
+            value="SciLifeLab / Knut och Alice Wallenbergs Stiftelse">SciLifeLab / Knut och Alice Wallenbergs Stiftelse
+        </div>
+        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
+            value="Stiftelsen för Strategisk Forskning">Stiftelsen för Strategisk Forskning</div>
+        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
+            value="Vetenskapsrådet">Vetenskapsrådet</div>
+        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
+            value="Vinnova">Vinnova</div>
+        {{ else }}
+        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
+            value="AFA-försäkring">AFA-försäkring</div>
+        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
+            value="Formas">Formas</div>
+        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
+            value="Forte">Forte</div>
+        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
+            value="Hjärt-Lungfonden">Hjärt-Lungfonden</div>
+        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
+            value="Horizon 2020">Horizon 2020</div>
+        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
+            value="NordForsk">NordForsk</div>
+        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
+            value="SciLifeLab / Knut and Alice Wallenberg Foundation">SciLifeLab / Knut and Alice Wallenberg Foundation
+        </div>
+        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
+            value="Swedish Foundation for Strategic Research">Swedish Foundation for Strategic Research</div>
+        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
+            value="Swedish Research Council">Swedish Research Council</div>
+        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
+            value="Vinnova">Vinnova</div>
+        {{ end }}
       </div>
       <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).projects_piaff }}</h5>
       <div class="col mb-2 ml-3 form-check">
         {{ if eq $.Site.Language.LanguageName "Svenska" }}
-        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Chalmers tekniska högskola">Chalmers tekniska högskola</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Karolinska Institutet">Karolinska Institutet</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Karolinska Universitetssjukhuset">Karolinska Universitetssjukhuset</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Kungliga Tekniska högskolan">Kungliga Tekniska högskolan</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Linköpings universitet">Linköpings universitet</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Luleå tekniska universitet">Luleå tekniska universitet</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Lunds universitet">Lunds universitet</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Universitetssjukhuset i Lund">Universitetssjukhuset i Lund</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Sahlgrenska universitetssjukhuset">Sahlgrenska universitetssjukhuset</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Stockholms universitet">Stockholms universitet</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Sveriges lantbruksuniversitet">Sveriges lantbruksuniversitet</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Södertörns högskola">Södertörns högskola</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Umeå universitet">Umeå universitet</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Norrlands universitetssjukhus">Norrlands universitetssjukhus</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Göteborgs universitet">Göteborgs universitet</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Uppsala universitet">Uppsala universitet</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Uppsala Akademiska Sjukhuset">Uppsala Akademiska Sjukhuset</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Örebro universitet">Örebro universitet</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Chalmers tekniska högskola">Chalmers tekniska högskola</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Karolinska Institutet">Karolinska Institutet</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Karolinska Universitetssjukhuset">Karolinska Universitetssjukhuset</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Kungliga Tekniska högskolan">Kungliga Tekniska högskolan</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Linköpings universitet">Linköpings universitet</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Luleå tekniska universitet">Luleå tekniska universitet</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Lunds universitet">Lunds universitet</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Universitetssjukhuset i Lund">Universitetssjukhuset i Lund</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Sahlgrenska universitetssjukhuset">Sahlgrenska universitetssjukhuset</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Stockholms universitet">Stockholms universitet</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Sveriges lantbruksuniversitet">Sveriges lantbruksuniversitet</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Södertörns högskola">Södertörns högskola</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Umeå universitet">Umeå universitet</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Norrlands universitetssjukhus">Norrlands universitetssjukhus</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Göteborgs universitet">Göteborgs universitet</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Uppsala universitet">Uppsala universitet</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Uppsala Akademiska Sjukhuset">Uppsala Akademiska Sjukhuset</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Örebro universitet">Örebro universitet</div>
         {{ else }}
-          <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Chalmers University of Technology">Chalmers University of Technology</div>
-          <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Karolinska Institute">Karolinska Institute</div>
-          <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Karolinska University Hospital">Karolinska University Hospital</div>
-          <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="KTH Royal Institute of Technology">KTH Royal Institute of Technology</div>
-          <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Linköping University">Linköping University</div>
-          <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Luleå University of Technology">Luleå University of Technology</div>
-          <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Lund University">Lund University</div>
-          <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Lund University Hospital">Lund University Hospital</div>
-          <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Sahlgrenska University Hospital">Sahlgrenska University Hospital</div>
-          <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Stockholm University">Stockholm University</div>
-          <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Swedish University of Agricultural Sciences">Swedish University of Agricultural Sciences</div>
-          <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Södertörn University">Södertörn University</div>
-          <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Umeå University">Umeå University</div>
-          <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="University Hospital of Umeå">University Hospital of Umeå</div>
-          <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="University of Gothenburg">University of Gothenburg</div>
-          <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Uppsala University">Uppsala University</div>
-          <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Uppsala University Hospital">Uppsala University Hospital</div>
-          <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation" value="Örebro University">Örebro University</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Chalmers University of Technology">Chalmers University of Technology</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Karolinska Institute">Karolinska Institute</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Karolinska University Hospital">Karolinska University Hospital</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="KTH Royal Institute of Technology">KTH Royal Institute of Technology</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Linköping University">Linköping University</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Luleå University of Technology">Luleå University of Technology</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Lund University">Lund University</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Lund University Hospital">Lund University Hospital</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Sahlgrenska University Hospital">Sahlgrenska University Hospital</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Stockholm University">Stockholm University</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Swedish University of Agricultural Sciences">Swedish University of Agricultural Sciences</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Södertörn University">Södertörn University</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Umeå University">Umeå University</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="University Hospital of Umeå">University Hospital of Umeå</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="University of Gothenburg">University of Gothenburg</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Uppsala University">Uppsala University</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Uppsala University Hospital">Uppsala University Hospital</div>
+        <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
+            value="Örebro University">Örebro University</div>
         {{ end }}
       </div>
     </div>
     <div class="col-lg">
-          <div class="row">
-            <div class="table-responsive">
-              <table class="table table-hover" width="100%">
-                <thead class="thead-light">
-                  <tr>
-                    <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).projects_title }}</th>
-                    <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).projects_pi }}</th>
-                    <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).projects_piaff }}</th>
-                    <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).projects_funder }}</th>
-                    <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).projects_duration }}</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {{ range $.Site.Data.funded_projects }}
-                    <tr>
-                      <td>{{ if eq $.Site.Language.LanguageName "Svenska" }} {{ if .url_sv }} <a href="{{ .url_sv}}"> {{ else if .url_eng }} <a href="{{ .url_eng }}"> {{ end }} {{ if .project_title_sv }} {{ .project_title_sv }} {{ else if .project_title_eng }} {{ .project_title_eng }} {{ end }} {{ if or .url_sv .url_eng }} </a> {{ end }} {{ else }} {{ if .url_eng }} <a href="{{ .url_eng}}"> {{ else if .url_sv }} <a href="{{ .url_sv }}"> {{ end }} {{ if .project_title_eng }} {{ .project_title_eng }} {{ else if .project_title_sv }} {{ .project_title_sv }} {{ end }} {{ if or .url_sv .url_eng }} </a> {{ end }} {{ end }}</td>
-                      <td>{{ .pi }}</td>
-                      <td>{{ if and (eq $.Site.Language.LanguageName "Svenska") .pi_affiliation_sv }}{{ .pi_affiliation_sv }}{{ else }} {{ .pi_affiliation_eng }}{{ end }}</td>
-                      <td>{{ if and (eq $.Site.Language.LanguageName "Svenska") .funder_sv }}{{ .funder_sv }}{{ else }} {{ .funder_eng }}{{ end }}</td>
-                      <td>{{ .start }} - {{ .end }}</td>
-                    </tr>
-                    {{ end }}
-                </tbody>
-              </table>
-            </div>
-          </div>
+      <div class="row">
+        <div class="table-responsive">
+          <table class="table table-hover" width="100%">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).projects_title }}</th>
+                <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).projects_pi }}</th>
+                <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).projects_piaff }}</th>
+                <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).projects_funder }}</th>
+                <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).projects_duration }}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{ range $.Site.Data.funded_projects }}
+              <tr>
+                <td>{{ if eq $.Site.Language.LanguageName "Svenska" }} {{ if .url_sv }} <a href="{{ .url_sv}}">
+                    {{ else if .url_eng }} <a href="{{ .url_eng }}"> {{ end }} {{ if .project_title_sv }}
+                      {{ .project_title_sv }} {{ else if .project_title_eng }} {{ .project_title_eng }} {{ end }}
+                      {{ if or .url_sv .url_eng }} </a> {{ end }} {{ else }} {{ if .url_eng }} <a href="{{ .url_eng}}">
+                      {{ else if .url_sv }} <a href="{{ .url_sv }}"> {{ end }} {{ if .project_title_eng }}
+                        {{ .project_title_eng }} {{ else if .project_title_sv }} {{ .project_title_sv }} {{ end }}
+                        {{ if or .url_sv .url_eng }} </a> {{ end }} {{ end }}</td>
+                <td>{{ .pi }}</td>
+                <td>
+                  {{ if and (eq $.Site.Language.LanguageName "Svenska") .pi_affiliation_sv }}{{ .pi_affiliation_sv }}{{ else }}
+                  {{ .pi_affiliation_eng }}{{ end }}</td>
+                <td>{{ if and (eq $.Site.Language.LanguageName "Svenska") .funder_sv }}{{ .funder_sv }}{{ else }}
+                  {{ .funder_eng }}{{ end }}</td>
+                <td>{{ .start }} - {{ .end }}</td>
+              </tr>
+              {{ end }}
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
 <script>
-$(document).ready( function () {
-  var table = $('table.table').DataTable({
-    "sDom": '<"top row"<"col-md"i><"col-md"f>>rt<"bottom row"<"col-md"l><"col-md"p>><"clear">',
-    "order": [[ 4, "desc" ]],
+  $(document).ready(function () {
+    var table = $('table.table').DataTable({
+      "sDom": '<"top row"<"col-md"i><"col-md"f>>rt<"bottom row"<"col-md"l><"col-md"p>><"clear">',
+      "order": [[4, "desc"]],
     {{ if eq $.Site.Language.LanguageName "English" }}
     "language": {
-         "lengthMenu": "Show _MENU_ projects per page",
-         "zeroRecords": "Nothing found.",
-         "info": "Showing _START_ to _END_ of _TOTAL_ projects",
-         "infoEmpty": "No records available",
-         "infoFiltered": "(filtered from _MAX_ projects in total).",
-         "search": "Search:",
-         "paginate": {
-            "first":      "First",
-            "last":       "Last",
-            "next":       "»",
-            "previous":   "«"
-            }
-        }
+    "lengthMenu": "Show _MENU_ projects per page",
+    "zeroRecords": "Nothing found.",
+    "info": "Showing _START_ to _END_ of _TOTAL_ projects",
+    "infoEmpty": "No records available",
+    "infoFiltered": "(filtered from _MAX_ projects in total).",
+    "search": "Search:",
+    "paginate": {
+      "first": "First",
+      "last": "Last",
+      "next": "»",
+      "previous": "«"
+    }
+  }
     {{ else }}
     "language": {
-         "lengthMenu": "Visa _MENU_ forskningsprojekt per sida",
-         "zeroRecords": "Inga resultat",
-         "info": "Visar _START_-_END_ av _TOTAL_ forskningsprojekt",
-         "infoEmpty": "Inga resultat",
-         "infoFiltered": "(filtrerad av _MAX_ forskningsprojekt).",
-         "search": "Sök:",
-         "paginate": {
-            "first":      "Första",
-            "last":       "Sista",
-            "next":       "»",
-            "previous":   "«"
-            }
-        }
+    "lengthMenu": "Visa _MENU_ forskningsprojekt per sida",
+    "zeroRecords": "Inga resultat",
+    "info": "Visar _START_-_END_ av _TOTAL_ forskningsprojekt",
+    "infoEmpty": "Inga resultat",
+    "infoFiltered": "(filtrerad av _MAX_ forskningsprojekt).",
+    "search": "Sök:",
+    "paginate": {
+      "first": "Första",
+      "last": "Sista",
+      "next": "»",
+      "previous": "«"
+    }
+  }
     {{ end }}
   }
   );
 
- $('input:checkbox').on('change', function () {
+  $('input:checkbox').on('change', function () {
 
-   // PI affiliation filter
-   var pi_affiliation = $('input:checkbox[name="pi_affiliation"]:checked').map(function() {
-     return this.value;
-   }).get().join('|');
+    // PI affiliation filter
+    var pi_affiliation = $('input:checkbox[name="pi_affiliation"]:checked').map(function () {
+      return this.value;
+    }).get().join('|');
 
-   // filter for pi affiliation, with no regex, no smart filtering, not case sensitive
-   table.column(2).search(pi_affiliation, true, false, false).draw(false);
+    // filter for pi affiliation, with no regex, no smart filtering, not case sensitive
+    table.column(2).search(pi_affiliation, true, false, false).draw(false);
 
-   // Funder filter
-   var funders = $('input:checkbox[name="funder"]:checked').map(function() {
-     return this.value;
-   }).get().join('|');
+    // Funder filter
+    var funders = $('input:checkbox[name="funder"]:checked').map(function () {
+      return this.value;
+    }).get().join('|');
 
-   table.column(3).search(funders, true, false, false).draw(false);
- });
+    table.column(3).search(funders, true, false, false).draw(false);
+  });
 
 } );
 
 </script>
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
+<script type="text/javascript" charset="utf8"
+  src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
