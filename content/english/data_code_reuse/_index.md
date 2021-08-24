@@ -41,7 +41,7 @@ If you are interested in participating in the competition and might need support
 <div class="container mt-2 share-new-data">
 <h4><a style="color:white">What can you win?</h4>
 
-- Free hosting or storage for one year.
+- Free hosting for one year.
 
 - A feature on the COVID-19 Data Portal (e.g. a Data Highlight or page with visualisations).
 

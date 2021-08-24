@@ -41,7 +41,7 @@ Om du är intresserad av att delta i tävlingen ch eventuellt beöver support fr
 <div class="container mt-2 share-new-data">
 <h4><a style="color:white">Vad kan du vinna?</h4>
 
-- Fri hosting eller lagring under ett år.
+- Fri hosting under ett år.
 
 - En medverkan på Covid-19 portalen (e.g som ”data i fokus” eller en sida med visualiseringar).
 
