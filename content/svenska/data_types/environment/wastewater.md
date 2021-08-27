@@ -14,7 +14,7 @@ Vi presenterar epidemiologiska data av mätningar av SARS-CoV-2 virus i avloppsv
 
 <div class="row"><div class="col-lg-7"><p>För grafer som visar mängd av SARS-CoV-2-virus i avloppsvatten och delade tillhörande data se nedan.</p>
 <ul><li><a href="#uppsala">Mätningar av SARS-CoV-2 virus i avloppsvatten i Uppsala</a></li>
-<li><a href="#uppsala_stockholm_örebro_umeå">Mätningar av SARS-CoV-2 virus i avloppsvatten i olika kommun i Uppsala och Stockholms län</a></li>
+<li><a href="#uppsala_stockholm_örebro_umeå">Mätningar av SARS-CoV-2 virus i avloppsvatten i olika kommun i Uppsala och Stockholms län, Örebro, och Umeå</a></li>
 <li><a href="#stockholm">Mätningar av SARS-CoV-2 virus i avloppsvatten Stockholm</a></li>
 <li><a href="#umea">Mätningar av SARS-CoV-2 virus i avloppsvatten Umeå</a></li>
 <li><a href="#orebro">Mätningar av SARS-CoV-2 virus i avloppsvatten Örebro</a></li>
