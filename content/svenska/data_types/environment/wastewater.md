@@ -14,7 +14,7 @@ Vi presenterar epidemiologiska data av mätningar av SARS-CoV-2 virus i avloppsv
 
 <div class="row"><div class="col-lg-7"><p>För grafer som visar mängd av SARS-CoV-2-virus i avloppsvatten och delade tillhörande data se nedan.</p>
 <ul><li><a href="#uppsala">Mätningar av SARS-CoV-2 virus i avloppsvatten i Uppsala</a></li>
-<li><a href="#uppsala_stockholm_county">Mätningar av SARS-CoV-2 virus i avloppsvatten i olika kommun i Uppsala och Stockholms län</a></li>
+<li><a href="#uppsala_stockholm_örebro_umeå">Mätningar av SARS-CoV-2 virus i avloppsvatten i olika kommun i Uppsala och Stockholms län</a></li>
 <li><a href="#stockholm">Mätningar av SARS-CoV-2 virus i avloppsvatten Stockholm</a></li>
 <li><a href="#umea">Mätningar av SARS-CoV-2 virus i avloppsvatten Umeå</a></li>
 <li><a href="#orebro">Mätningar av SARS-CoV-2 virus i avloppsvatten Örebro</a></li>
@@ -22,11 +22,14 @@ Vi presenterar epidemiologiska data av mätningar av SARS-CoV-2 virus i avloppsv
 {{< wastewater_map >}}
 </div></div>
 
-<h2>Mängd SARS-CoV-2 virus i avloppsvatten i Uppsala och närliggande orter</h2>
+<a id="Anna_S_methods"></a>
+<h2>Uppsala (inklusive närliggande orter), Umeå, och Örebro</h2>
 
 Projektet leds av prof. Anna J. Székely (SLU, Sveriges Lantbruksuniversitet) i samarbete med Uppsala Vatten, Roslagsvatten, Enköpings kommun, Gästrike Vatten, TEMAB m.m. Mängden SARS-CoV-2 virus i Uppsala stads avloppsvatten bestäms genom analys av avloppsvatten insamlat vid Kungsängsverket som är Uppsala Vattens största avloppsreningsverk. Avloppsvattnet från avloppsreningsverket samlas in från de två största upptagningsområdena för Uppsalas avloppsvatten med ca. 180.000 invånare. [För kartor som visar respektive upptagningsområde för avloppsvattnet i Uppsala](/wastewater/avrinningskarta_inlopp_kungsangsverket.pdf). Mängden SARS-CoV-2 virus i Ekerös avloppsvatten bestäms genom analys av avloppsvatten insamlat vid Ekebyhov, i Österåkers avloppsvatten bestäms genom analys av avloppsvatten insamlat vid Margretelund, i Vaxholms avloppsvatten bestäms genom analys av avloppsvatten insamlat vid Blynäs.
 
 Mängd SARS-CoV-2 virus i avloppsvatten ett specifik datum har normaliserats jämfört med mängden mänsklig avföring för att undvika variation pga vattenflöde och populationsstorlek. Proverna bearbetas enligt standardmetoder. I korthet koncentreras virusinnehållet i proverna med hjälp av en modifierad elektronegativ filtreringsmetod ([metod C, Ahmed och kollegor, 2020](https://doi.org/10.1016/j.scitotenv.2020.139960)), virus RNA extraheras med hjälp av RNeasy PowerMicrobiome-kit (Qiagen) och mängden SARS-CoV-2 RNA kvantifieras genom RT-qPCR och användning av CDC RUO nCOV N1-analys (IDT DNA). För att studera metodens effektivitet och detektera eventuell närvaro av potentiella virushämmare tillsätts bovint koronavirus (BCoV) ett sk. process-surrogatvirus. För att korrigera för variation i populationen kvantifierar vi också pepper mild mottle virus (PMMoV), som är det vanligaste RNA-viruset i mänsklig avföring ([Symonds et al, 2019](https://doi.org/10.1371/journal.ppat.1007639)).
+
+Från och med vecka 25 2021 (med start den 21 juni  2021) görs mätningarna av prover som samlats in från Umeå och Örebro av laboratoriet i Uppsala som leds av professor Anna J. Székely (SLU, Swedish University of Agricultural Sciences). Därför presenteras från och med vecka 25 resultaten av mätningar från Umeå och Örebro i [samma graf](#uppsala_stockholm_örebro_umeå) som mätningarna från Uppsala och omgivande städer.
 
 Notera att resultaten i dataseten och som visas i diagrammen är preliminära data. Forskargruppen genomför fortfarande kontroller av metodens effektivitet vilket kan förändra de slutliga resultaten något.
 
@@ -52,7 +55,7 @@ Székely, A. & Mohamed, N. Dataset of SARS-CoV-2 wastewater data from Uppsala, a
 
 <div class="small text-muted">*Data från dessa veckor är inte tillgängliga.</div>
 
-<a id="uppsala_stockholm_county"><h4>Olika kommun i Uppsala och Stockholms län</h4></a>
+<a id="uppsala_stockholm_örebro_umeå"><h4>Olika kommun i Uppsala och Stockholms lä, samt Örebro och Umeå</h4></a>
 
 <div class="d-lg-none alert alert-info">
   Skrolla grafen horisontellt för att se alla data.
@@ -64,7 +67,7 @@ Székely, A. & Mohamed, N. Dataset of SARS-CoV-2 wastewater data from Uppsala, a
 
 <div class="small text-muted">*Data från dessa veckor är inte tillgängliga.</div>
 
-<a id="stockholm"><h2>Mängden SARS-CoV-2 i avloppsvatten från  avloppsreningsanläggningar i Stockholm</h2></a>
+<a id="stockholm"><h2>Mängd SARS-CoV-2 i Stockholms avloppsvatten </h2></a>
 
 Detta projekt, lett av prof. Zeynep Cetecioglu Gurol och kollegor (KTH) är ett samarbete mellan [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) och avdelningarna [SEED](https://www.kth.se/en/seed) och [Chemical Engineering](https://www.kth.se/ket/chemical-engineering-1.784196) vid KTH, i nära samarbete med Stockholm Vatten och Avfall och Käppala Association. Provtagningen av avloppsvatten började i mitten av april 2020 från Bromma, Henriksdal och Käppala reningsverk. Dessa reningsverk får avloppsvatten från en befolkning på cirka 360 000; 860 000 respektive 500 000. Se [den här kartan för det exakta avrinningsområdet för insamlingskanalerna i Käppala](/wastewater/map_Kappala.pdf) och [den här kartan för det exakta avrinningsområdet för insamlingskanalerna i Bromma och Henriksdal](/wastewater/map_Bromma_Henriksdal.pdf).
 
@@ -92,7 +95,7 @@ Cetecioglu Z G, Williams, C, Khatami, K, Atasoy, M, Nandy, P, Jafferali, M H, Bi
 
 <div class="small text-muted">*NB: Alla prover innan vecka 21 har kommit till labbet vecka 21. Mellan vecka 21 och 33 har prover analyserats varannan vecka. Efter vecka 33 har proverna analyserats varje vecka.</div>
 
-<div class="small text-muted">Notera: Avloppsvattenmätningarna har gjorts varannan vecka, inte veckovis, från vecka 24 2021.</div>
+<div class="small text-muted">**NB: Avloppsvattenmätningarna har utförts varannan vecka, inte veckovis, mellan vecka 24 och vecka 32 2021.</div>
 
 <div class="row ml-0 mt-3"><b>Publikationer:</b></div><div class="row"><div class="col">
 <b><a target="_blank" href="https://doi.org/10.1016/j.scitotenv.2020.142939">Benchmarking virus concentration methods for quantification of SARS-CoV-2 in raw wastewater.</a></b><br>
@@ -101,13 +104,13 @@ Cetecioglu Z G, Williams, C, Khatami, K, Atasoy, M, Nandy, P, Jafferali, M H, Bi
 
 </div></div>
 
-<a id="umea"><h2>Mängden SARS-CoV-2 i avloppsvatten från  avloppsreningsanläggningar i Umeå</h2></a>
+<a id="umea"><h2>Mängd SARS-CoV-2 i avloppsvatten insamlat i  Umeå (före vecka 25, 2021)</h2></a>
 
 Detta project leds av prof. Maja Malmberg (SLU, Sveriges Lantbruksuniversitet) i samarbete med [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) och Mette Myrmel vid  Norwegian University of Life Sciences. Mängden SARS-CoV-2-virus i avloppsvattnet mäts i avloppsreningsanläggningen i Umeå. Se [den här kartan för det exakta avrinningsområdet för insamlingskanalerna](/wastewater/map_umeaa.jpg).
 
-Efter beredning har proverna extraherats och ultrafiltrats samt analyserats för SARS CoV-2 med RT-qPCR analys , proverna har normaliserats med PMMoV. Fram till januari 2021, samlades tre prover in per vecka, dessa prov poolades till ett prov per vecka. Från och med februari 2021 samlades endast prover in vid en tidpunkt per vecka. Primers som används för att detektera förekomsten av SARS-CoV-2 RNA har tidigare används av [Corman et al , 2020](https://doi.org/10.2807/1560-7917.ES.2020.25.3.2000045).
+Efter beredning har proverna extraherats och ultrafiltrats samt analyserats för SARS CoV-2 med RT-qPCR analys , proverna har normaliserats med PMMoV. Fram till januari 2021, samlades tre prover in per vecka, dessa prov poolades till ett prov per vecka. Från och med februari 2021 samlades endast prover in vid en tidpunkt per vecka. Primers som används för att detektera förekomsten av SARS-CoV-2 RNA har tidigare används av [Corman et al , 2020](https://doi.org/10.2807/1560-7917.ES.2020.25.3.2000045). Från vecka 25 2021 (veckan 21-27 juni 2021) har mätningarn av proverna istället skett i laboratoriet i Uppsala som leds av professor Anna J. Székely (SLU, Sveriges Lantbruksuniversitet). En beskrivning av metoden som används för att processa prover som samlats in efter vecka 25 2021 finns [här](#Anna_S_methods) och resultaten presenteras [här](#uppsala_stockholm_örebro_umeå). Observera att grafen nedan endast visar prover tom vecka 25 2021.
 
-Mängden SARS-CoV-2 RNA per vecka mäts/visauliseras jämfört med mängden SARS-CoV-2 on November 6 2020.
+Mängd SARS-CoV-2 RNA per vecka jämfört med mängd SARS-CoV-2 som uppmättes on November 6 2020.
 
 **Ladda ner data:** [Förändring i mängd SARS CoV-2 RNA (%) jämfört med Nov 6 2020 och flöde varje dag samt veckonummer, Excel fil.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Umeaa.xlsx). Data startar vecka 44 of 2020; uppdateras en gång per månad.
 
@@ -133,13 +136,13 @@ Malmberg, M., Myrmel, M. & Khatri, M. Dataset of SARS-CoV-2 in wastewater in Ume
 
 <div class="small text-muted">***Proverna från maj ( vecka 18-22) kommer delvis analyseras igen och är preliminära.</div>
 
-<a id="orebro"><h2>Mängden SARS-CoV-2 i avloppsvatten från  avloppsreningsanläggningar i Örebro</h2></a>
+<a id="orebro"><h2>Mängden SARS-CoV-2 i avloppsvatten från Örebro (före vecka 24, 2021)</h2></a>
 
 Detta project leds av prof. Maja Malmberg (SLU, Sveriges Lantbruksuniversitet) i samarbete med [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) och Mette Myrmel vid Norwegian University of Life Sciences. Mängden SARS-CoV-2-virus i avloppsvattnet mäts i avloppsreningsanläggningen i Örebro. Se [den här kartan för det exakta avrinningsområdet för insamlingskanalerna](/wastewater/map_orebro.pdf).
 
-Efter beredning har proverna extraherats och ultrafiltrats samt analyserats för SARS CoV-2 med RT-qPCR analys , proverna har normaliserats med PMMoV. Fram till januari 2021, samlades tre prover in per vecka, dessa prov poolades till ett prov per vecka. Från och med februari 2021 samlades endast prover in vid en tidpunkt per vecka. Primers som används för att detektera förekomsten av SARS-CoV-2 RNA har tidigare används av [Corman et al , 2020](https://doi.org/10.2807/1560-7917.ES.2020.25.3.2000045).
+Efter beredning har proverna extraherats och ultrafiltrats samt analyserats för SARS CoV-2 med RT-qPCR analys , proverna har normaliserats med PMMoV. Fram till januari 2021, samlades tre prover in per vecka, dessa prov poolades till ett prov per vecka. Från och med februari 2021 samlades endast prover in vid en tidpunkt per vecka. Primers som används för att detektera förekomsten av SARS-CoV-2 RNA har tidigare används av [Corman et al , 2020](https://doi.org/10.2807/1560-7917.ES.2020.25.3.2000045). Från vecka 25 2021 (veckan 21-27 juni 2021) har mätningarn av proverna istället skett i laboratoriet i Uppsala som leds av professor Anna J. Székely (SLU, Sveriges Lantbruksuniversitet). En beskrivning av metoden som används för att processa prover som samlats in efter vecka 25 2021 finns [här](#Anna_S_methods) och resultaten presenteras [här](#uppsala_stockholm_örebro_umeå). Observera att grafen nedan endast visar prover tom vecka 25 2021.
 
-Mängden SARS-CoV-2 RNA per vecka mäts / visaualiseras jämfört med mängden SARS-CoV-2 on November 6 2020.
+Mängd SARS-CoV-2 RNA per vecka jämfört med mängd SARS-CoV-2 som uppmättes on November 6 2020.
 
 **Ladda ner data:** [Förändring i mängd SARS CoV-2 RNA (%) jämfört med Nov 6 2020 och flöde varje dag samt veckonummer, Excel fil](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Orebro.xlsx). Data startar vecka 44 of 2020; uppdateras en gång per månad.
 
