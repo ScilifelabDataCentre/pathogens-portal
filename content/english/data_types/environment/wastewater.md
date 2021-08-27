@@ -12,7 +12,7 @@ We present wastewater epidemiology data from four Swedish cities (Uppsala, Stock
 
 <div class="row"><div class="col-lg-7"><p>Below, you can find graphs depicting the amount of SARS-CoV-2 gene copies in waste water in multiple cities across Sweden and links to download the underlying data.</p>
 <ul><li><a href="#uppsala">Wastewater in Uppsala</a></li>
-<li><a href="#uppsala_stockholm_örebro_umeå">Wastewater in municipalities across the counties of Uppsala and Stockholm, Örebro and Umeå.</a></li>
+<li><a href="#uppsala_stockholm_örebro_umeå">Wastewater in municipalities across the counties of Uppsala and Stockholm, Örebro and Umeå</a></li>
 <li><a href="#stockholm">Wastewater in Stockholm</a></li>
 <li><a href="#umea">Wastewater in Umeå (before week 25, 2021)</a></li>
 <li><a href="#orebro">Wastewater in Örebro (before week 25, 2021)</a></li>
