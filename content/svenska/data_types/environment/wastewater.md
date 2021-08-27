@@ -16,8 +16,8 @@ Vi presenterar epidemiologiska data av mätningar av SARS-CoV-2 virus i avloppsv
 <ul><li><a href="#uppsala">Mätningar av SARS-CoV-2 virus i avloppsvatten i Uppsala</a></li>
 <li><a href="#uppsala_stockholm_örebro_umeå">Mätningar av SARS-CoV-2 virus i avloppsvatten i olika kommun i Uppsala och Stockholms län, Örebro, och Umeå</a></li>
 <li><a href="#stockholm">Mätningar av SARS-CoV-2 virus i avloppsvatten Stockholm</a></li>
-<li><a href="#umea">Mätningar av SARS-CoV-2 virus i avloppsvatten Umeå</a></li>
-<li><a href="#orebro">Mätningar av SARS-CoV-2 virus i avloppsvatten Örebro</a></li>
+<li><a href="#umea">Mätningar av SARS-CoV-2 virus i avloppsvatten Umeå (före vecka 25, 2021)</a></li>
+<li><a href="#orebro">Mätningar av SARS-CoV-2 virus i avloppsvatten Örebro (före vecka 25, 2021)</a></li>
 </ul></div><div class="col-lg-5">
 {{< wastewater_map >}}
 </div></div>
@@ -136,7 +136,7 @@ Malmberg, M., Myrmel, M. & Khatri, M. Dataset of SARS-CoV-2 in wastewater in Ume
 
 <div class="small text-muted">***Proverna från maj ( vecka 18-22) kommer delvis analyseras igen och är preliminära.</div>
 
-<a id="orebro"><h2>Mängden SARS-CoV-2 i avloppsvatten från Örebro (före vecka 24, 2021)</h2></a>
+<a id="orebro"><h2>Mängden SARS-CoV-2 i avloppsvatten från Örebro (före vecka 25, 2021)</h2></a>
 
 Detta project leds av prof. Maja Malmberg (SLU, Sveriges Lantbruksuniversitet) i samarbete med [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) och Mette Myrmel vid Norwegian University of Life Sciences. Mängden SARS-CoV-2-virus i avloppsvattnet mäts i avloppsreningsanläggningen i Örebro. Se [den här kartan för det exakta avrinningsområdet för insamlingskanalerna](/wastewater/map_orebro.pdf).
 
