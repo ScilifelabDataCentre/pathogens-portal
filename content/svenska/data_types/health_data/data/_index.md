@@ -46,3 +46,5 @@ type: data_table
 * [CRUSH Covid data och dashboard, Region Uppsala](/sv/data_types/health_data/crush_covid/): Antal test per capita och % positiva fall i varje postnummer i Uppsala län.
 
 * [Nationellt Pandemicentrum, statistik för covid-19-tester](/sv/data_types/health_data/npc-statistics/): Antal covid-19 virustester och resultat av dessa som analyserades mellan april och december 2020 vid NPC.
+
+* [Postcovid](../post_covid): Information relaterad till diagnoser som använts för kvarstående och sena symptom. Inkluderar relevant demografisk information och data kring associerade symptom, forskning och bakgrundsinformation. Data uppdateras en gång per månad.

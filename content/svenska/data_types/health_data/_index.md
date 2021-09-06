@@ -28,3 +28,6 @@ Statistik för SARS-CoV-2 antikroppstester som utförs av SciLifeLab Autoimmunit
 
 ##### [CRUSH Covid data och dashboard, Region Uppsala](crush_covid)
 Antal test per capita och % positiva fall i varje postnummer i Uppsala län.
+
+##### [Postcovid](post_covid)
+Information relaterad till diagnoser som använts för kvarstående och sena symptom. Inkluderar relevant demografisk information och data kring associerade symptom, forskning och bakgrundsinformation. Data uppdateras en gång per månad.
