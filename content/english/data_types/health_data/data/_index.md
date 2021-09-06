@@ -30,12 +30,14 @@ datatypes_to_display:
 
 * [Swedish National Board of Health and Welfare (Socialstyrelsen)](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/): Statistics on COVID-19 in Sweden - underlying cause of death; infected and deceased among the elderly and among persons with disabilities and residential arrangements; inpatient care (updated every Wednesday).
 
-* [National Health Metadata Repository - RUT](../rut): Meta data for Swedish national health registers.
+* [National Health Metadata Repository - RUT](../rut): Metadata for Swedish national health registers.
 
-* [SciLifeLab Autoimmunity and Serology profiling facility SARS-CoV-2 antibody test statistics](../serology-statistics). Hosted by us, updated manually on a weekly basis.
+* [SciLifeLab Autoimmunity and Serology profiling facility SARS-CoV-2 antibody test statistics](../serology-statistics): Hosted by the portal, manually updated on a weekly basis.
 
-* [CRUSH Covid data and dashboard, Region Uppsala](../crush_covid). Number of tests and % positivity in each postal code in Uppsala län.
+* [CRUSH Covid data and dashboard, Region Uppsala](../crush_covid): Number of tests and % positivity in each postal code in Uppsala län.
 
-* [COVID Symptom Study Sweden](../symptom_study_sweden). National research initiative for large-scale data collection and analysis of symptoms, exposure, and risk factors associated with the COVID-19 infection.
+* [COVID Symptom Study Sweden](../symptom_study_sweden): National research initiative for large-scale data collection and analysis of symptoms, exposure, and risk factors associated with the COVID-19 infection.
 
-* [National Pandemic Centre COVID-19 test statistics](../npc-statistics). The daily number of tests carried out between April and December 2020 as well as test results.
+* [National Pandemic Centre COVID-19 test statistics](../npc-statistics): The daily number of tests carried out between April and December 2020 as well as test results.
+
+* [Statistics on post COVID-19 condition in Sweden](../post_covid): Information regarding the diagnoses associated with long-term affects following COVID-19 infection. Includes relevant demographic data as well as data on associated symptoms, research projects focused on the condition, and background information. Data updated monthly.

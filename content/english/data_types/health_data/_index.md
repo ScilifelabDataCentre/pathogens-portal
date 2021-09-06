@@ -18,7 +18,7 @@ Official statistics about COVID-19 cases and tests in Sweden.
 Official statistics about the number of vaccines that have been administered in Sweden.
 
 ##### [National Health Metadata Repository - RUT](rut)
-Meta data for Swedish national health registers.
+Metadata for Swedish national health registers.
 
 ##### [SciLifeLab Autoimmunity and Serology profiling facility SARS-CoV-2 antibody test statistics](serology-statistics)
 Statistics for the SARS-CoV-2 antibody tests carried out at SciLifeLab Autoimmunity and Serology profiling facility. Updated manually.
@@ -31,3 +31,6 @@ National research initiative for large-scale data collection and analysis of sym
 
 ##### [National Pandemic Centre COVID-19 test statistics](npc-statistics)
 Automatically generated daily statistics for the COVID-19 tests carried out at NPC between April and December 2020.
+
+##### [Statistics on post COVID-19 condition in Sweden](post_covid)
+Information regarding the diagnoses associated with long-term affects following COVID-19 infection. Includes relevant demographic data as well as data on associated symptoms, research projects focused on the condition, and background information. Data updated monthly.
