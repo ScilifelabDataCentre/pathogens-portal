@@ -18,8 +18,8 @@ The data related to Post COVID-19 condition is updated once a month, on the seco
 
 #### Data
 
-* Raw data used to generated statistics for the pages:  [available for download here](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/)
-* For more information on Post COVID-19 condition in Sweden, please see [this section](https://www.socialstyrelsen.se/coronavirus-covid-19/socialstyrelsens-roll-och-uppdrag/postcovid/) of the The National Board of Health and Welfare (Socialstyrelsen) website and their [report on Post-COVID condition (published April 2021)](https://www.socialstyrelsen.se/globalassets/sharepoint-dokument/artikelkatalog/ovrigt/2021-4-7351.pdf). 
-* [Classification of ICD codes for Covid-19](https://www.who.int/standards/classifications/classification-of-diseases/emergency-use-icd-codes-for-covid-19-disease-outbreak)   
+* Raw data used to generated statistics for the pages:  [available for download here](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/).
+* For more information on Post COVID-19 condition in Sweden, please see [this section](https://www.socialstyrelsen.se/coronavirus-covid-19/socialstyrelsens-roll-och-uppdrag/postcovid/) of the The National Board of Health and Welfare (Socialstyrelsen) website and their [report on Post-COVID condition (published April 2021)](https://www.socialstyrelsen.se/globalassets/sharepoint-dokument/artikelkatalog/ovrigt/2021-4-7351.pdf).
+* [Classification of ICD codes for Covid-19](https://www.who.int/standards/classifications/classification-of-diseases/emergency-use-icd-codes-for-covid-19-disease-outbreak).
 * WHO publications Expanding our understanding of post COVID-19 condition: [report of a WHO webinar - 9 February 2021](https://www.who.int/publications/i/item/9789240025035).
-* (Swedish resource for decision makers and healthcare staff) [Postcovid - kvarstående eller sena symtom efter covid-19. Stöd till beslutsfattare och personal i hälso- och sjukvården (del 2)] (https://www.socialstyrelsen.se/globalassets/sharepoint-dokument/artikelkatalog/ovrigt/2021-4-7351.pdf) 
+* (Swedish resource for decision makers and healthcare staff) Postcovid - kvarstående eller sena symtom efter covid-19. [Stöd till beslutsfattare och personal i hälso- och sjukvården](https://www.socialstyrelsen.se/globalassets/sharepoint-dokument/artikelkatalog/ovrigt/2021-4-7351.pdf) (del 2).
