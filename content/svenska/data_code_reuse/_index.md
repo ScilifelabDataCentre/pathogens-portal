@@ -8,7 +8,7 @@ aliases:
 <div class="alert alert-info">Deadline för COVID-19 Data & Code Reuse Competition är förlängd till den 5 december. Om du har planerat en submission till tidigare deadline i september vänligen kontakta oss på datacentre@scilifelab.se.</div>
 
 <figure class="figure float-right mx-2 w-50">
-  <img src="/img/posters/data_code_reuse_poster_web_extended_deadline.png" class="img-news-banner img-thumbnail">
+  <img src="/img/posters/data_code_reuse_poster_v3.png" class="img-news-banner img-thumbnail">
 </figure>
 
 Den [svenska dataportalen för covid-19](https://covid19dataportal.se/sv/) välkomnar forskare och allmänheten att delta i **COVID-19 Data & Code Reuse Competition**. Deltagare kan bidra med småskaliga projekt, vilka återanvänder publika data eller kod, i syfte att bekämpa covid-19-pandemin eller potentiella framtida pandemier.

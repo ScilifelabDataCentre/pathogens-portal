@@ -12,7 +12,7 @@ For more information on *Post COVID-19 condition* in Sweden, please see [this se
 
 ## Data sources and availability
 
-<div class="alert alert-info">All data last updated: 12.08.2021</div>
+<div class="alert alert-info">All data last updated: 09.09.2021</div>
 
 The data underlying the visualisations on this page are from [The Swedish Board of Health and Welfare](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/) and comprise of data from both the [Patient Register](https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/patientregistret/) and the [‘Cause of Death’ Register](https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/dodsorsaksregistret/). The data are updated monthly, on the second Wednesday of the month, and are available for download [here](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/). Additional data about COVID-19 can be requested from the corresponding registers by any researchers fulfilling the requirements for access, the guidelines for access via the RUT (Register Utiliser Tool) are available [here](https://bestalladata.socialstyrelsen.se/data-for-forskning/).
 
