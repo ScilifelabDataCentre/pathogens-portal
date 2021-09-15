@@ -101,7 +101,7 @@
           {{ end }}
         </div>
       </div>
-      <div class="row mt-2 border">
+      <div class="row mt-2">
         <h5><a href="#testing_results">{{ $.Param "teststats.name" }}
             <i class="fas fa-arrow-circle-right"></i></a></h5>
       </div>
@@ -109,33 +109,30 @@
 
     <!-- Data and Code Reuse Competition banner -->
     {{ if eq $.Site.Language.LanguageName "Svenska" }}
-    <div class="container mt-2 share-new-data">
+    <div class="container mb-4 competition-banner text-white">
       <div class="row px-3 pt-1">
-        <h4><a style="color:white">Tävling: Återanvändning av covid-19 data och kod</a>
-          <h4>
+        <h4>Tävling: Återanvändning av covid-19 data och kod<h4>
       </div>
-      <div class="row px-3"><a style="color:white">
+      <div class="row px-3">
           <p><b>Vem?</b> Öppen för alla, både enskilda individer och grupper.<br>
             <b>När?</b> Skicka in ditt bidrag mellan den 15 maj och 5 december 2021.</p>
-        </a>
       </div>
-      <div class="row pb-1 px-3 text-white">
+      <div class="row pb-1 px-3">
         <h6><a style="color:white" href="/sv/data_code_reuse/">Mer om tävlingen <i
               class="fas fa-arrow-circle-right"></i></a></h6>
       </div>
     </div>
     {{ else }}
-    <div class="container mt-2 share-new-data">
+    <div class="container mb-4 competition-banner text-white">
       <div class="row px-3 pt-1">
-        <h4><a style="color:white">COVID-19 Data & Code Reuse Competition</a>
+        <h4>COVID-19 Data & Code Reuse Competition
           <h4>
       </div>
-      <div class="row px-3"><a style="color:white">
+      <div class="row px-3">
           <p><b>Who?</b> Open to everyone, individuals or groups.<br>
             <b>When?</b> Submit your entry between May 15th and December 5th 2021.</p>
-        </a>
       </div>
-      <div class="row pb-1 px-3 text-white">
+      <div class="row pb-1 px-3">
         <h6><a style="color:white" href="/data_code_reuse/">About the competition <i
               class="fas fa-arrow-circle-right"></i></a></h6>
       </div>
