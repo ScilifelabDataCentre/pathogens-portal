@@ -3,6 +3,7 @@ title: Hem
 teststats:
         name: Data från SARS-CoV-2 testning i Sverige
         desc: Sidorna visar nya dataset och visualiseringar av SARS-CoV-2 och covid-19 tester som utfört av ett antal olika faciliteter.
+        othercitites_wastewater_title: Mängd SARS-CoV-2 virus i Uppsalas, Umeås, Örebros avloppsvatten
         uppsala_wastewater_title: Mängd SARS-CoV-2 virus i Uppsalas avloppsvatten
         stockholm_wastewater_title: Mängd SARS-CoV-2 virus i Stockholms avloppsvatten
         umeaa_wastewater_title: Mängd SARS-CoV-2 virus i Umeås avloppsvatten
