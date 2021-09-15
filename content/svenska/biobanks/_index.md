@@ -20,7 +20,7 @@ Det [svenska Covid-19 Provsamlingsregistret](https://biobanks.covid19dataportal.
 
 Både *vårdprovssamlingar* och *forskningsprovsamlingar* finns i provsamlingsregistret. Vårdprovsamlingar är primärt insamlade inom sjukvården för diagnos och behandling, men kan även tillgängliggöras för  forskning om etiskt tillstånd från Etikprövningsmyndigheten så medger. Rörande forskningsprovsamlingar har ansvarig forskare beslutsrätt över insamlade prover och för att få tillgång till dessa samlingar måste ansvarig forskare kontaktas. Innan proven kan göras tillgängliga krävs att det aktuella forskningsprojektet måste antingen ingå under ett godkännande eller erhålla ett nytt godkännande från Etikprövningsmyndigheten.
 
-I augusti 2021 innehåller det svenska Covid-19 Provsamlingsregistret **33 provsamlingar** från **18 olika biobanker**. Provsamlingsregistret kommer gradvis att utökas med ytterligare provsamlingar.
+I september 2021 innehåller det svenska Covid-19 Provsamlingsregistret **35 provsamlingar** från **18 olika biobanker**. Provsamlingsregistret kommer gradvis att utökas med ytterligare provsamlingar.
 
 [**Sök i Covid-19 Provsamlingsregistret**](https://biobanks.covid19dataportal.se/)
 
@@ -59,4 +59,4 @@ Varje Biobank har en egen sida med generell information om organisation och vilk
 
 <!-- <div class="row mb-4"><div class="col-lg-7"><img class="img-thumbnail" src="/img/biobanks/example_biobank.png" alt="Example of a page with information about a biobank"></div></div> -->
 
-<i>Informationen på denna sida var senast uppdaterad: 2021.09.07</i>
+<i>Informationen på denna sida var senast uppdaterad: 2021.09.15</i>
