@@ -1,9 +1,10 @@
 ---
 title: Home
 teststats:
-        name: Recent SARS-CoV-2 testing results
+        name: Recent statistics on COVID-19 in Sweden
         desc: Pages with recent data and visualizations on SARS-CoV-2 and COVID-19 tests carried out at various research facilities.
         serologytitle: SARS-CoV-2 antibody tests at SciLifeLab
+        othercitites_wastewater_title: Amount of SARS-CoV-2 in Uppsala, Umeå, Örebro and other cities' wastewater
         uppsala_wastewater_title: Amount of SARS-CoV-2 in Uppsala wastewater
         stockholm_wastewater_title: Amount of SARS-CoV-2 in Stockholm wastewater
         umeaa_wastewater_title: Amount of SARS-CoV-2 in Umeå wastewater
@@ -13,6 +14,7 @@ teststats:
         stockholm_wastewater: Amount of SARS-CoV-2 in Stockholm wastewater
         orebro_wastewater: Amount of SARS-CoV-2 in Örebro wastewater
         umeaa_wastewater: Amount of SARS-CoV-2 in Umeå wastewater
+        postcovidtitle: Post COVID-19 condition in Sweden
 plotly: true
 ---
 

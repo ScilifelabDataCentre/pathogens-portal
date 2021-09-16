@@ -109,33 +109,30 @@
 
     <!-- Data and Code Reuse Competition banner -->
     {{ if eq $.Site.Language.LanguageName "Svenska" }}
-    <div class="container mt-2 share-new-data">
+    <div class="container mb-4 competition-banner text-white">
       <div class="row px-3 pt-1">
-        <h4><a style="color:white">Tävling: Återanvändning av covid-19 data och kod</a>
-          <h4>
+        <h4>Tävling: Återanvändning av covid-19 data och kod<h4>
       </div>
-      <div class="row px-3"><a style="color:white">
+      <div class="row px-3">
           <p><b>Vem?</b> Öppen för alla, både enskilda individer och grupper.<br>
             <b>När?</b> Skicka in ditt bidrag mellan den 15 maj och 5 december 2021.</p>
-        </a>
       </div>
-      <div class="row pb-1 px-3 text-white">
+      <div class="row pb-2 px-3">
         <h6><a style="color:white" href="/sv/data_code_reuse/">Mer om tävlingen <i
               class="fas fa-arrow-circle-right"></i></a></h6>
       </div>
     </div>
     {{ else }}
-    <div class="container mt-2 share-new-data">
+    <div class="container mb-4 competition-banner text-white">
       <div class="row px-3 pt-1">
-        <h4><a style="color:white">COVID-19 Data & Code Reuse Competition</a>
+        <h4>COVID-19 Data & Code Reuse Competition
           <h4>
       </div>
-      <div class="row px-3"><a style="color:white">
+      <div class="row px-3">
           <p><b>Who?</b> Open to everyone, individuals or groups.<br>
             <b>When?</b> Submit your entry between May 15th and December 5th 2021.</p>
-        </a>
       </div>
-      <div class="row pb-1 px-3 text-white">
+      <div class="row pb-2 px-3">
         <h6><a style="color:white" href="/data_code_reuse/">About the competition <i
               class="fas fa-arrow-circle-right"></i></a></h6>
       </div>
@@ -193,7 +190,7 @@
             <h5>{{ if eq $.Site.Language.LanguageName "Svenska" }}Biobanker{{ else }}Biobanks{{ end }}: 18</h5>
           </div>
           <div class="row">
-            <h5>{{ if eq $.Site.Language.LanguageName "Svenska" }}Provsamlingar{{ else }}Collections{{ end }}: 33</h5>
+            <h5>{{ if eq $.Site.Language.LanguageName "Svenska" }}Provsamlingar{{ else }}Collections{{ end }}: 35</h5>
           </div>
           <div class="row align-items-end">
             <h5><a target="_blank"
@@ -274,36 +271,6 @@
           </div>
         </div>
       </div>
-      <!-- Wastewater Uppsala -->
-      <div class="row">
-        <div class="col-md mb-2">
-          <div class="row">
-            <h6><a
-                href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#uppsala">{{ $.Param "teststats.uppsala_wastewater_title" }}
-                <i class="fas fa-arrow-circle-right"></i></a></h6>
-          </div>
-          <div class="row">
-            <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
-              horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
-            <div class="table-responsive" id="uppsala_wastewater"></div>
-          </div>
-        </div>
-      </div>
-      <!-- Wastewater Uppsala combined -->
-      <!--<div class="row">
-        <div class="col-md mb-2">
-          <div class="row">
-            <h6><a
-                href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#uppsala_stockholm_örebro_umeå">{{ $.Param "teststats.combination_wastewater_title" }}
-                <i class="fas fa-arrow-circle-right"></i></a></h6>
-          </div>
-          <div class="row">
-            <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
-              horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
-            <div class="table-responsive" id="uppsala_stockholm_counties_plot"></div>
-          </div>
-        </div>
-      </div>  -->
       <!-- Wastewater Stockholm -->
       <div class="row">
         <div class="col-md mb-2">
@@ -319,33 +286,33 @@
           </div>
         </div>
       </div>
-      <!-- Wastewater Umeå -->
+      <!-- Wastewater SLU lab -->
       <div class="row">
         <div class="col-md mb-2">
           <div class="row">
             <h6><a
-                href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#umea">{{ $.Param "teststats.umeaa_wastewater_title" }}
+                href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#uppsala_stockholm_orebro_umea">{{ $.Param "teststats.othercitites_wastewater_title" }}
                 <i class="fas fa-arrow-circle-right"></i></a></h6>
           </div>
           <div class="row">
             <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
               horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
-            <div class="table-responsive" id="umea_wastewater"></div>
+            <div class="table-responsive" id="othercities_wastewater"></div>
           </div>
         </div>
       </div>
-      <!-- Wastewater Örebro -->
+      <!-- Post-covid condition -->
       <div class="row">
         <div class="col-md mb-2">
           <div class="row">
             <h6><a
-                href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/#orebro">{{ $.Param "teststats.orebro_wastewater_title" }}
+                href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/health_data/post_covid/">{{ $.Param "teststats.postcovidtitle" }}
                 <i class="fas fa-arrow-circle-right"></i></a></h6>
           </div>
           <div class="row">
             <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
               horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
-            <div class="table-responsive" id="orebro_wastewater"></div>
+            <div class="table-responsive" id="postcovid_halthcare_contacts"></div>
           </div>
         </div>
       </div>
@@ -455,20 +422,11 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.12.2"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.0.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
 
-<script
-  src="https://datagraphics.dckube.scilifelab.se/graphic/5ffebb57d9754410ac93bae1f4c44564.js?id=uppsala_stockholm_counties_plot"></script>
-<script
-  src="https://datagraphics.dckube.scilifelab.se/graphic/e4c6a7b8bff648a5adaabbdd3d994bf9.js?id=serology"></script>
-<script
-  src="https://datagraphics.dckube.scilifelab.se/graphic/48e8c01dbdb5415ea278549cba592b34.js?id=uppsala_wastewater"></script>
-<script
-  src="https://datagraphics.dckube.scilifelab.se/graphic/d6919a196bca4c9ea75833c2ac4a7fd5.js?id=stockholm_wastewater"></script>
-<script
-  src="https://datagraphics.dckube.scilifelab.se/graphic/f2eebe5990a6430fa57fefa5e34da81b.js?id=umea_wastewater"></script>
-<script
-  src="https://datagraphics.dckube.scilifelab.se/graphic/c922ca88bdec49e0a9b62ff67090b402.js?id=orebro_wastewater"></script>
-
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/e4c6a7b8bff648a5adaabbdd3d994bf9.js?id=serology"></script>
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/802399c945414efb93b05c64d70d723f.js?id=othercities_wastewater"></script>
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/d6919a196bca4c9ea75833c2ac4a7fd5.js?id=stockholm_wastewater"></script>
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/530ca62cc6f7449680793a252155fee3.js?id=postcovid_halthcare_contacts"></script>
 {{ end }}
