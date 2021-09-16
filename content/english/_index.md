@@ -14,6 +14,7 @@ teststats:
         stockholm_wastewater: Amount of SARS-CoV-2 in Stockholm wastewater
         orebro_wastewater: Amount of SARS-CoV-2 in Örebro wastewater
         umeaa_wastewater: Amount of SARS-CoV-2 in Umeå wastewater
+        postcovidtitle: Post COVID-19 condition in Sweden
 plotly: true
 ---
 
