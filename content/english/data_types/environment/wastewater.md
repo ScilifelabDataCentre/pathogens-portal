@@ -67,7 +67,6 @@ Please note that the plot below displays the same data, but the y axis is shown 
 
 <div class="small text-muted">*Data for these weeks is not available.</div>
 
-
 <a id="uppsala"><h4>Uppsala</h4></a>
 
 <div class="d-md-none alert alert-info">
