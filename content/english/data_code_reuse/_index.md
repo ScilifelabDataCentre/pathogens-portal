@@ -5,10 +5,10 @@ aliases:
   /data-code-reuse/
 ---
 
-<div class="alert alert-info">The deadline for the COVID-19 Data & Code Reuse Competition will be extended to December 5th. If you have planned to do a submission for the September deadline, please contact us at datacentre@scilifelab.se.</div>
+<div class="alert alert-info">The deadline for the COVID-19 Data & Code Reuse Competition has been extended to December 5th.</div>
 
 <figure class="figure float-right mx-2 w-50">
-  <img src="/img/posters/data_code_reuse_poster_web_extended_deadline.png" class="img-news-banner img-thumbnail">
+  <img src="/img/posters/data_code_reuse_poster_v3.png" class="img-news-banner img-thumbnail">
 </figure>
 
 The [Swedish COVID-19 Data Portal](https://covid19dataportal.se/) invites researchers and general public to take part in the **COVID-19 Data & Code Reuse Competition**. Participants should complete small-scale projects that make use of publicly shared data and/or code to combat the COVID-19 pandemic or any future pandemics.
@@ -38,8 +38,9 @@ If you are interested in participating in the competition and might need support
 - Add the keyword “COVID-19 Data & Code Reuse Competition” in the “Keywords” field of your entry.
 - Competition entries will go through the standard review process of the SciLifeLab Data Repository. Please note that the review process can take about one week. Your submission must be approved and published by the deadline.
 
-<div class="container mt-2 share-new-data">
-<h4><a style="color:white">What can you win?</h4>
+<div class="container py-1 share-new-data text-white">
+
+#### What can you win?
 
 - Free hosting for one year.
 
@@ -47,7 +48,6 @@ If you are interested in participating in the competition and might need support
 
 - Visibility through press and social media of SciLifeLab and SciLifeLab Data Centre. The winning projects will also be offered visibility on the Italian COVID-19 Data Portal.
 
-</a>
 </div>
 
 #### Evaluation criteria
