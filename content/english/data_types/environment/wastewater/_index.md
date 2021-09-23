@@ -6,44 +6,38 @@ menu:
       name: Environment
       identifier: environment
       weight: 50
+plotly: true
 ---
 
-We present wastewater epidemiology data from four Swedish cities (Uppsala, Stockholm, Umeå, and Örebro), which have a total population of 1.5 million people. Wastewater surveillance could prove an effective system for monitoring COVID-19 prevalence and act as an early warning system for predicting upcoming outbreaks. Note that where data for different cities are presented separately, different sample collection and data analysis methods were used. Thus, it is not necessarily possible to make direct comparisons of viral load between cities. Comparisons can be made for data presented together in plots, as the methodology used was the same (unless specifically noted otherwise). [See below for details](#background) on wastewater epidemiology.
+We present wastewater epidemiology data from various Swedish cities which have a total population of over 1.5 million people. Wastewater surveillance could prove an effective system for monitoring COVID-19 prevalence and act as an early warning system for predicting upcoming outbreaks. Note that where data for different cities are presented separately, different sample collection and data analysis methods were used. Thus, it is not necessarily possible to make direct comparisons of viral load between cities. Comparisons can be made for data presented together in plots, as the methodology used was the same (unless specifically noted otherwise). [See below for details](#background) on wastewater epidemiology.
 
 <div class="row"><div class="col-lg-7"><p>Below, you can find graphs depicting the amount of SARS-CoV-2 gene copies in waste water in multiple cities across Sweden and links to download the underlying data.</p>
-<ul><li><a href="#uppsala_stockholm_orebro_umea">Wastewater in municipalities across the counties of Uppsala and Stockholm, Örebro, and Umeå</a></li>
-<li><a href="#uppsala">Wastewater in Uppsala</a></li>
+<ul><li><a href="#anna_s_methods">Wastewater in Uppsala, Umeå, Örebro, Kalmar, and other municipalities</a></li>
 <li><a href="#stockholm">Wastewater in Stockholm</a></li>
-<li><a href="#umea">Wastewater in Umeå (before week 25, 2021)</a></li>
-<li><a href="#orebro">Wastewater in Örebro (before week 25, 2021)</a></li>
+<li><a href="./historic_orebro_umea/">Wastewater in Umeå and Örebro between October 2020 and June 2021 (historic data)</a></li>
 </ul></div><div class="col-lg-5">
 {{< wastewater_map >}}
 </div></div>
 
-<a id="Anna_S_methods"></a>
-<h2>Uppsala (including nearby municipalities), Umeå, and Örebro</h2>
+<a id="anna_s_methods"></a>
+<h2>Uppsala, Umeå, Örebro, Kalmar, and other municipalities</h2>
 
-The project focused on Uppsala wastewater is led by associate professor Anna J. Székely (SLU, Swedish University of Agricultural Sciences) in collaboration with Uppsala Vatten, Roslagsvatten, Enköpings kommun, Gästrike Vatten, TEMAB, and others.
+This project is led by associate professor Anna J. Székely (SLU, Swedish University of Agricultural Sciences) and associate professor Maja Malmberg (SLU, Swedish University of Agricultural Sciences). The project is made possible thanks to collaborations with Uppsala Vatten, Roslagsvatten, Enköpings kommun, Gästrike Vatten, TEMAB, and others.
 
-The amount of SARS-CoV-2 virus in the wastewater from Uppsala is estimated by analyzing raw wastewater collected at Kungsängsverket, Uppsala Vatten’s main treatment facility. The wastewater treated at the facility is collected by two main wastewater collection channels and covers territory inhabited by approximately 180,000 people. Please [consult this map for the exact catchment area of the two wastewater collection channels in Uppsala](/wastewater/avrinningskarta_inlopp_kungsangsverket.pdf). The amount of SARS-CoV-2 virus in the wastewater from municipalities surrounding municipalities is collected from other wastewater treatment plants. In particular, the amount of SARS-CoV-2 virus in the wastewater of Ekerö is estimated based on samples from Ekebyhov wastewater treatment plant, that of Österåker is based on Margretelund wastewater treatment plant, and that of Vaxholm is based on Blynäs wastewater treatment plant.
+The amount of SARS-CoV-2 virus in the Uppsala wastewater is estimated by analyzing raw wastewater collected at Kungsängsverket, Uppsala Vatten’s main treatment facility. The wastewater treated at the facility is collected by two main wastewater collection channels and covers territory inhabited by approximately 180,000 people. Please [consult this map for the exact catchment area of the two wastewater collection channels in Uppsala](/wastewater/avrinningskarta_inlopp_kungsangsverket.pdf). The amount of SARS-CoV-2 virus in the wastewater from municipalities surrounding municipalities is collected from other wastewater treatment plants. In particular, the amount of SARS-CoV-2 virus in the wastewater of Ekerö is estimated based on samples from Ekebyhov wastewater treatment plant, that of Österåker is based on Margretelund wastewater treatment plant, and that of Vaxholm is based on Blynäs wastewater treatment plant. Please [consult this map for the exact catchment area of the wastewater collection channels in Umeå](/wastewater/map_umeaa.jpg). Please [consult this map for the exact catchment area of the wastewater collection channels in Örebro](/wastewater/map_orebro.pdf).
 
 Measurements are taken weekly, by processing a representative sample collected over 24 hours (i.e. flow compensated sample). The SARS-CoV-2 virus content of the wastewater on the given day is normalized to the fecal matter content to avoid variation from flow differences and population fluctuation. The samples are processed according to standard methods. Briefly, the viral content of the samples is concentrated according to the modified electronegative filtration method ([method C, Ahmed and colleagues, 2020](https://doi.org/10.1016/j.scitotenv.2020.139960)), viral RNA is extracted using the RNeasy PowerMicrobiome kit (Qiagen) and the copy number of SARS-CoV-2 genomes is quantified by RT-qPCR using the CDC RUO nCOV N1 assay (IDT DNA). The virus recovery efficiency of the process and the presence of potential inhibitors is monitored by adding to the samples bovine coronavirus (BCoV) as process surrogate virus. To correct for variations in population size and wastewater flow, we also quantify the pepper mild mottle virus (PMMoV) which is the most abundant RNA virus in human feces and serves as an estimator of human fecal content ([Symonds and colleagues, 2019](https://doi.org/10.1371/journal.ppat.1007639)).
-
-From week 25 of 2021 (commencing 21st June, 2021), samples from Umeå and Örebro started to be processed in the same laboratory used for samples from Uppsala (i.e. that of associate professor Anna J. Székely (SLU, Swedish University of Agricultural Sciences)). As such, data from Umeå and Örebro from week 25 onwards are presented in [this graph](#uppsala_stockholm_orebro_umea) together with data from Uppsala and the surrounding municipalities.
 
 Note that the scores provided in the dataset and depicted in plots below are preliminary. The team is still conducting method efficiency checks that might slightly affect the final results.
 
 **Download the data:** [Relative ratio of copy number of SARS-CoV-2 to PPMoV, Excel file.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Uppsala.xlsx) Data available starting from week 38 of 2020; updated weekly.
 
-**Principal investigator:** Anna J. Székely, SLU, Swedish University of Agricultural Sciences.
-**Contact:** anna.szekely@slu.se
+**Contact:** anna.szekely@slu.se and maja.malmberg@slu.se
 
 **How to cite:**
 Székely, A. & Mohamed, N. Dataset of SARS-CoV-2 wastewater data from Uppsala, and neighbouring towns Knivsta, Enköping, Östhammar and Älvkarleby, Sweden. [https://doi.org/10.17044/scilifelab.14256317.v1](https://doi.org/10.17044/scilifelab.14256317.v1) (2021).
 
 <div class="alert alert-info">Last updated: <span id="last_modified_uppsala"></span></div>
-
-<a id="uppsala_stockholm_orebro_umea"><h4>Multiple municipalities across the counties of Uppsala and Stockholm, as well as Örebro and Umeå</h4></a>
 
 <div class="d-lg-none alert alert-info">
   Scroll the plot sideways to view all data.
@@ -67,18 +61,6 @@ Please note that the plot below displays the same data, but the y axis is shown 
 
 <div class="small text-muted">*Data for these weeks is not available.</div>
 
-<a id="uppsala"><h4>Uppsala</h4></a>
-
-<div class="d-md-none alert alert-info">
-  Scroll the plot sideways to view all data.
-</div>
-
-<div class="plot_wrapper">
-  <div class="table-responsive" id="uppsala_combined"></div>
-</div>
-
-<div class="small text-muted">*Data for these weeks is not available.</div>
-
 <a id="stockholm"><h2>Amount of SARS-CoV-2 in Stockholm wastewater</h2></a>
 
 This project, led by associate professor Zeynep Cetecioglu Gurol and colleagues (KTH Royal Institute of Technology), is a collaboration between the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and the [SEED](https://www.kth.se/en/seed) and [Chemical Engineering](https://www.kth.se/ket/chemical-engineering-1.784196) departments at KTH, in close collaboration with Stockholm Vatten och Avfall and the Käppala Association. The sampling of wastewater, started in mid-April 2020, from Bromma, Henriksdal, and Käppala wastewater treatment plants (WWTP). These treatment plants receive wastewater from a population of approximately 360,000; 860,000 and 500,000, respectively. Please consult [this map for the exact catchment area of the wastewater collection channels in Käppala](/wastewater/map_Kappala.pdf) and [this map for the exact catchment area of the wastewater collection channels in Bromma and Henriksdal](/wastewater/map_Bromma_Henriksdal.pdf).
@@ -89,7 +71,7 @@ See also [the page of the research group where summaries of data and preliminary
 
 **Download the data:** [Gene copy number/week (raw wastewater) with bovine + PMMoV factor; Excel file.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Stockholm.xlsx) Numbers for Stockholm overall and divided by Inlet Henriksdal, Sickla, Hässelby, Järva, Riksby, and Käppala are available. Results are available (partially) starting from week 16 of 2020; updated weekly.
 
-**Principal investigator:** Zeynep Cetecioglu Gurol (KTH Royal Institute of Technology)
+**Principal investigator:** Zeynep Cetecioglu Gurol (KTH Royal Institute of Technology)\
 **Contact:** zeynepcg@kth.se
 
 **How to cite:**
@@ -115,68 +97,6 @@ Cetecioglu Z G, Williams, C, Khatami, K, Atasoy, M, Nandy, P, Jafferali, M H, Bi
                     <i>Science of The Total Environment</i> 755. DOI: 10.1016/j.scitotenv.2020.142939
 </div></div>
 
-<a id="umea"><h2>Amount of SARS-CoV-2 in Umeå wastewater (before week 25, 2021)</h2></a>
-
-This project is led by associate professor Maja Malmberg (SLU, Swedish University of Agricultural Sciences) in collaboration with the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and associate professor Mette Myrmel at the Norwegian University of Life Sciences. The amount of SARS-CoV-2 virus in the wastewater of Umeå is measured using samples taken from the wastewater treatment facility in Umeå. Please [consult this map for the exact catchment area of the wastewater collection channels](/wastewater/map_umeaa.jpg).
-
-After preparation, the viruses were extracted using ultra filtration and analyzed using qPCR technique for SARS CoV-2 RNA. qPCR samples were normalized against PMMV. Until January 2021, three samples per week were taken and their results were pooled to provide a weekly estimate. From February 2021, samples were instead collected weekly. Primers were used to detect the SARS-COV-2 gene (previously used and verified by [Corman and colleagues (2020)](https://doi.org/10.2807/1560-7917.ES.2020.25.3.2000045)). From week 25 of 2021 (i.e. 21-27 June, 2021), the samples were instead processed by the laboratory of associate professor Anna J. Székely (SLU, Swedish University of Agricultural Sciences). A description of the method used to process samples collected after week 25 of 2021 can be found [here](#Anna_S_methods) and the resultant data is presented [here](#uppsala_stockholm_orebro_umea). As a result, the graph below only includes data produced using samples collected prior to week 25 of 2021.
-
-In the below graph, the amount of SARS-CoV-2 for each week is measured/depicted compared to the amount of SARS-CoV-2 on 6th November 2020.
-
-**Download the data:** [Gene copy number change (%) relative to 6th Nov 2020 and flow level at each measurement day and weekly numbers, Excel file.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Umeaa.xlsx). Data will be available from week 44 of 2020 - week 25 of 2021.
-
-**Principal investigator:** Maja Malmberg (SLU, Swedish University of Agricultural Sciences)
-**Contact:** maja.malmberg@slu.se
-
-**How to cite:**
-Malmberg, M., Myrmel, M. & Khatri, M. Dataset of SARS-CoV-2 in wastewater in Umeå, Sweden. [https://doi.org/10.17044/scilifelab.14376881.v1](https://doi.org/10.17044/scilifelab.14376881.v1) (2021).
-
-<div class="alert alert-info">Last updated: <span id="last_modified_umeaa"></span></div>
-
-<div class="d-md-none alert alert-info">
-  Scroll the plot sideways to view all data.
-</div>
-
-<div class="plot_wrapper">
-  <div class="table-responsive" id="umea_combined"></div>
-</div>
-
-<div class="small text-muted">*Data for these weeks is not available.</div>
-
-<div class="small text-muted">**The samples from weeks 11 and 12 were stored in +4 °C for 2-3 weeks, this is different from what was done for all other samples.</div>
-
-<div class="small text-muted">***Samples from May (weeks 18-22) are preliminary, as they will be subject to some reanalysis.</div>
-
-<a id="orebro"><h2>Amount of SARS-CoV-2 in Örebro wastewater (before week 25, 2021)</h2></a>
-
-This project is led by associate professor Maja Malmberg (SLU, Swedish University of Agricultural Sciences) in collaboration with [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and associate professor Mette Myrmel at the Norwegian University of Life Sciences. The amount of SARS-CoV-2 virus in the wastewater is measured from samples collected in the wastewater treatment facility in Örebro. Please [consult this map for the exact catchment area of the wastewater collection channels](/wastewater/map_orebro.pdf).
-
-After preparation, the viruses were extracted using ultra filtration and analyzed using qPCR technique for SARS CoV-2 RNA. qPCR samples were normalized against PMMV. Until January 2021, three samples per week were taken and their results were pooled to provide a weekly estimate. From February 2021, samples are only collected at one time point per week. Primers were used to detect the SARS-COV-2 gene (previously used and verified by [Corman and colleagues (2020)](https://doi.org/10.2807/1560-7917.ES.2020.25.3.2000045)). From week 25 of 2021 (i.e. 21-27 June, 2021), the samples were instead processed by the laboratory of associate professor Anna J. Székely (SLU, Swedish University of Agricultural Sciences). A description of the method used to process samples collected after week 25 of 2021 can be found [here](#Anna_S_methods) and the resultant data is presented [here](#uppsala_stockholm_orebro_umea). As a result, the graph below only includes data produced using samples collected prior to week 25 of 2021.
-
- In the below graph, the amount of SARS-CoV-2 for each week is measured/depicted compared to the amount of SARS-CoV-2 on 6th November 2020.
-
-**Download the data:** [Gene copy number change (%) relative to 6th Nov 2020 and flow level at each measurement day and weekly numbers, Excel file.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Orebro.xlsx). Data will be available from week 42 of 2020 - week 25 of 2021.
-
-**Principal investigator:** Maja Malmberg (SLU, Swedish University of Agricultural Sciences)
-**Contact:** maja.malmberg@slu.se
-
-**How to cite:**
-Malmberg, M., Myrmel, M. & Khatri, M. Dataset of SARS CoV-2 in wastewater in Örebro, Sweden. [https://doi.org/10.17044/scilifelab.14377097.v1](https://doi.org/10.17044/scilifelab.14377097.v1) (2021).
-
-<div class="alert alert-info">Last updated: <span id="last_modified_orebro"></span></div>
-
-<div class="d-md-none alert alert-info">
-  Scroll the plot sideways to view all data.
-</div>
-
-<div class="plot_wrapper">
-  <div class="table-responsive" id="orebro_combined"></div>
-</div>
-
-<div class="small text-muted">*Data for these weeks is not available.</div>
-
-<div class="small text-muted">**The samples from weeks 11 and 12 were stored in +4 °C for 2-3 weeks, this is different from what was done for all other samples.</div>
-
 <a id="background"><h2>Background: Wastewater-based epidemiology</h2></a>
 
 SARS-CoV-2 virus genome can be detected in feces samples from COVID-19 patients using polymerase chain reaction (PCR) (see, for example, [Wu and colleagues, 2020](https://doi.org/10.1016/S2468-1253(20)30083-2)). Monitoring of SARS CoV-2 virus levels in wastewater from communities could therefore provide early surveillance of disease prevalence at a population-wide level, referred to as wastewater-based epidemiology ([Corpuz and colleagues, 2020](https://doi.org/10.1016/j.scitotenv.2020.140910)).
@@ -191,9 +111,6 @@ Please note that the graphs presented on this page are based on preliminary and 
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
 
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/6d16b18be0d74425b313040c502f29c8.js?id=uppsala_combined"></script>
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/956f9390690043b8ae5f62b90d22f84f.js?id=stockholm_combined"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/030ac237d44248dda87e2c9277a49cc7.js?id=umea_combined"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/fe03ef2220814eeeb3e99eb26a7c46e2.js?id=orebro_combined"></script>
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/5ffebb57d9754410ac93bae1f4c44564.js?id=uppsala_stockholm_counties_plot"></script>
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/6fa1a93c1c064460bdeee6d94ffb6c8d.js?id=uppsala_stockholm_counties_plot_log"></script>
