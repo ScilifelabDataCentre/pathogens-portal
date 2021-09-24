@@ -30,10 +30,9 @@ Measurements are taken weekly, by processing a representative sample collected o
 
 Note that the scores provided in the dataset and depicted in plots below are preliminary. The team is still conducting method efficiency checks that might slightly affect the final results.
 
-**Download the data:** [Relative ratio of copy number of SARS-CoV-2 to PPMoV, Excel file.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Uppsala.xlsx) Data available starting from week 38 of 2020; updated weekly.
-
-**Contact:** anna.szekely@slu.se and maja.malmberg@slu.se
-
+**Download the data:** [Relative ratio of copy number of SARS-CoV-2 to PPMoV, CSV file.](https://datagraphics.dckube.scilifelab.se/dataset/0ac8fa02871745048491de74e5689da9.csv) Data available starting from week 38 of 2020; updated weekly.\
+**Interacting with the graphs:** Click on the names of municipalities in the legend in order to select or deselect cities that are displayed. Select a portion of the plot using your cursor in order to zoom in to a particular date range or y axis range. Double-click anywhere on the graph in order to return to the starting position\
+**Contact:** anna.szekely@slu.se and maja.malmberg@slu.se\
 **How to cite:**
 Székely, A. & Mohamed, N. Dataset of SARS-CoV-2 wastewater data from Uppsala, and neighbouring towns Knivsta, Enköping, Östhammar and Älvkarleby, Sweden. [https://doi.org/10.17044/scilifelab.14256317.v1](https://doi.org/10.17044/scilifelab.14256317.v1) (2021).
 
@@ -43,23 +42,15 @@ Székely, A. & Mohamed, N. Dataset of SARS-CoV-2 wastewater data from Uppsala, a
   Scroll the plot sideways to view all data.
 </div>
 
-<div class="plot_wrapper">
-  <div class="table-responsive" id="uppsala_stockholm_counties_plot"></div>
-</div>
-
-<div class="small text-muted">*Data for these weeks is not available.</div>
-
-<div class="d-lg-none alert alert-info">
-  Scroll the plot sideways to view all data.
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< wastewater_slu_lab_regular >}}</div>
 </div>
 
 Please note that the plot below displays the same data, but the y axis is shown as a log scale.
 
 <div class="plot_wrapper">
-  <div class="table-responsive" id="uppsala_stockholm_counties_plot_log"></div>
+  <div class="table-responsive">{{< wastewater_slu_lab_logyaxis >}}</div>
 </div>
-
-<div class="small text-muted">*Data for these weeks is not available.</div>
 
 <a id="stockholm"><h2>Amount of SARS-CoV-2 in Stockholm wastewater</h2></a>
 
