@@ -1,6 +1,6 @@
 ---
 title: The amount of SARS-CoV-2 virus in wastewater across Sweden
-toc: false
+toc: true
 menu:
   other_data:
       name: Environment
@@ -11,16 +11,11 @@ plotly: true
 
 We present wastewater epidemiology data from various Swedish cities which have a total population of over 1.5 million people. Wastewater surveillance could prove an effective system for monitoring COVID-19 prevalence and act as an early warning system for predicting upcoming outbreaks. Note that where data for different cities are presented separately, different sample collection and data analysis methods were used. Thus, it is not necessarily possible to make direct comparisons of viral load between cities. Comparisons can be made for data presented together in plots, as the methodology used was the same (unless specifically noted otherwise). [See below for details](#background) on wastewater epidemiology.
 
-<div class="row"><div class="col-lg-7"><p>Below, you can find graphs depicting the amount of SARS-CoV-2 gene copies in waste water in multiple cities across Sweden and links to download the underlying data.</p>
-<ul><li><a href="#anna_s_methods">Wastewater in Uppsala, Umeå, Örebro, Kalmar, and other municipalities</a></li>
-<li><a href="#stockholm">Wastewater in Stockholm</a></li>
-<li><a href="./historic_orebro_umea/">Wastewater in Umeå and Örebro between October 2020 and June 2021 (historic data)</a></li>
-</ul></div><div class="col-lg-5">
-{{< wastewater_map >}}
-</div></div>
+## Map of sample collection sites
 
-<a id="anna_s_methods"></a>
-<h2>Uppsala, Umeå, Örebro, Kalmar, and other municipalities</h2>
+<div class="row justify-content-center mb-4"><div class="col">{{< wastewater_map >}}</div></div>
+
+## Uppsala, Umeå, Örebro, Kalmar, and other municipalities
 
 This project is led by associate professor Anna J. Székely (SLU, Swedish University of Agricultural Sciences) and associate professor Maja Malmberg (SLU, Swedish University of Agricultural Sciences). The project is made possible thanks to collaborations with Uppsala Vatten, Roslagsvatten, Enköpings kommun, Gästrike Vatten, TEMAB, and others.
 
@@ -31,12 +26,12 @@ Measurements are taken weekly, by processing a representative sample collected o
 Note that the scores provided in the dataset and depicted in plots below are preliminary. The team is still conducting method efficiency checks that might slightly affect the final results.
 
 **Download the data:** [Relative ratio of copy number of SARS-CoV-2 to PPMoV, CSV file.](https://datagraphics.dckube.scilifelab.se/dataset/0ac8fa02871745048491de74e5689da9.csv) Data available starting from week 38 of 2020; updated weekly.\
-**Interacting with the graphs:** Click on the names of municipalities in the legend in order to select or deselect cities that are displayed. Select a portion of the plot using your cursor in order to zoom in to a particular date range or y axis range. Double-click anywhere on the graph in order to return to the starting position\
 **Contact:** anna.szekely@slu.se and maja.malmberg@slu.se\
 **How to cite:**
 Székely, A. & Mohamed, N. Dataset of SARS-CoV-2 wastewater data from Uppsala, and neighbouring towns Knivsta, Enköping, Östhammar and Älvkarleby, Sweden. [https://doi.org/10.17044/scilifelab.14256317.v1](https://doi.org/10.17044/scilifelab.14256317.v1) (2021).
 
 <div class="alert alert-info">Last updated: <span id="last_modified_uppsala"></span></div>
+<div class="alert alert-secondary small">Interacting with the plot: Click on the names of municipalities in the legend in order to select or deselect cities that are displayed. Select a portion of the plot using your cursor in order to zoom in to a particular date range or y axis range. Note that the axes ranges adapt to your selections. Double-click anywhere on the graph in order to return to the default view. It is also possible download the graph as a PNG file, zoom and reset using buttons which appear in the top right corner when you hover over the graph.</div>
 
 <div class="d-lg-none alert alert-info">
   Scroll the plot sideways to view all data.
@@ -52,7 +47,7 @@ Please note that the plot below displays the same data, but the y axis is shown 
   <div class="table-responsive">{{< wastewater_slu_lab_logyaxis >}}</div>
 </div>
 
-<a id="stockholm"><h2>Amount of SARS-CoV-2 in Stockholm wastewater</h2></a>
+## Stockholm
 
 This project, led by associate professor Zeynep Cetecioglu Gurol and colleagues (KTH Royal Institute of Technology), is a collaboration between the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and the [SEED](https://www.kth.se/en/seed) and [Chemical Engineering](https://www.kth.se/ket/chemical-engineering-1.784196) departments at KTH, in close collaboration with Stockholm Vatten och Avfall and the Käppala Association. The sampling of wastewater, started in mid-April 2020, from Bromma, Henriksdal, and Käppala wastewater treatment plants (WWTP). These treatment plants receive wastewater from a population of approximately 360,000; 860,000 and 500,000, respectively. Please consult [this map for the exact catchment area of the wastewater collection channels in Käppala](/wastewater/map_Kappala.pdf) and [this map for the exact catchment area of the wastewater collection channels in Bromma and Henriksdal](/wastewater/map_Bromma_Henriksdal.pdf).
 
@@ -88,7 +83,11 @@ Cetecioglu Z G, Williams, C, Khatami, K, Atasoy, M, Nandy, P, Jafferali, M H, Bi
                     <i>Science of The Total Environment</i> 755. DOI: 10.1016/j.scitotenv.2020.142939
 </div></div>
 
-<a id="background"><h2>Background: Wastewater-based epidemiology</h2></a>
+## Archived data
+
+- [Historic data for Örebro and Umeå; amount of SARS-CoV-2 in Umeå and Örebro wastewater between October 2020 and June 2021](historic_orebro_umea).
+
+## Background: Wastewater-based epidemiology
 
 SARS-CoV-2 virus genome can be detected in feces samples from COVID-19 patients using polymerase chain reaction (PCR) (see, for example, [Wu and colleagues, 2020](https://doi.org/10.1016/S2468-1253(20)30083-2)). Monitoring of SARS CoV-2 virus levels in wastewater from communities could therefore provide early surveillance of disease prevalence at a population-wide level, referred to as wastewater-based epidemiology ([Corpuz and colleagues, 2020](https://doi.org/10.1016/j.scitotenv.2020.140910)).
 
