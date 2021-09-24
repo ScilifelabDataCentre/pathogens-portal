@@ -103,5 +103,3 @@ Please note that the graphs presented on this page are based on preliminary and 
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
 
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/956f9390690043b8ae5f62b90d22f84f.js?id=stockholm_combined"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/5ffebb57d9754410ac93bae1f4c44564.js?id=uppsala_stockholm_counties_plot"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/6fa1a93c1c064460bdeee6d94ffb6c8d.js?id=uppsala_stockholm_counties_plot_log"></script>
