@@ -15,7 +15,6 @@ After preparation, the viruses were extracted using ultra filtration and analyze
 
 In the plots plots below, the amount of SARS-CoV-2 for each week is measured/depicted compared to the amount of SARS-CoV-2 on 6th November 2020.
 
-
 ### Amount of SARS-CoV-2 in Umeå wastewater between between October 2020 and June 2021
 
 **Download the data:** [Gene copy number change (%) relative to 6th Nov 2020 and flow level at each measurement day and weekly numbers, Excel file.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Umeaa.xlsx). Data will be available from week 44 of 2020 until week 22 of 2021.
@@ -35,7 +34,7 @@ Malmberg, M., Myrmel, M. & Khatri, M. Dataset of SARS-CoV-2 in wastewater in Ume
 
 <div class="small text-muted">**The samples from weeks 11 and 12 were stored in +4 °C for 2-3 weeks, this is different from what was done for all other samples.</div>
 
-###  Amount of SARS-CoV-2 in Örebro wastewater between October 2020 and June 2021
+### Amount of SARS-CoV-2 in Örebro wastewater between October 2020 and June 2021
 
 **Download the data:** [Gene copy number change (%) relative to 6th Nov 2020 and flow level at each measurement day and weekly numbers, Excel file.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Orebro.xlsx). Data will be available from week 42 of 2020 until week 22 of 2021.
 
@@ -53,7 +52,6 @@ Malmberg, M., Myrmel, M. & Khatri, M. Dataset of SARS CoV-2 in wastewater in Ör
 <div class="small text-muted">*Data for these weeks is not available.</div>
 
 <div class="small text-muted">**The samples from weeks 11 and 12 were stored in +4 °C for 2-3 weeks, this is different from what was done for all other samples.</div>
-
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
