@@ -1,11 +1,13 @@
 ---
-title: The amount of SARS-CoV-2 virus in wastewater across Sweden
+title: Mängd SARS-CoV-2 virus i avloppsvatten från svenska städer
 toc: true
 menu:
-  other_data:
-      name: Environment
-      identifier: environment
-      weight: 50
+other_data:
+    name: Samhälle och miljö
+    identifier: environment
+    weight: 50
+    params:
+      title_eng: Environment
 plotly: true
 ---
 
@@ -19,29 +21,29 @@ Vi presenterar epidemiologiska data av mätningar av SARS-CoV-2 virus i avloppsv
 
 <div class="row justify-content-center mb-4"><div class="col">{{< wastewater_map >}}</div></div>
 
-## Uppsala, Umeå, Örebro, Kalmar, and other municipalities
+## Uppsala, Umeå, Örebro, Kalmar, och andra orter
 
-This project is led by associate professor Anna J. Székely (SLU, Swedish University of Agricultural Sciences) and associate professor Maja Malmberg (SLU, Swedish University of Agricultural Sciences). The project is made possible thanks to collaborations with Uppsala Vatten, Roslagsvatten, Enköpings kommun, Gästrike Vatten, TEMAB, and others.
+Projektet leds av prof. Anna J. Székely (SLU, Sveriges Lantbruksuniversitet) och prof. Maja Malmberg (SLU, Sveriges Lantbruksuniversitet) i samarbete med Uppsala Vatten, Roslagsvatten, Enköpings kommun, Gästrike Vatten, TEMAB m.m.
 
-The amount of SARS-CoV-2 virus in the Uppsala wastewater is estimated by analyzing raw wastewater collected at Kungsängsverket, Uppsala Vatten’s main treatment facility. The wastewater treated at the facility is collected by two main wastewater collection channels and covers territory inhabited by approximately 180,000 people. Please [consult this map for the exact catchment area of the two wastewater collection channels in Uppsala](/wastewater/avrinningskarta_inlopp_kungsangsverket.pdf). The amount of SARS-CoV-2 virus in the wastewater from municipalities surrounding municipalities is collected from other wastewater treatment plants. In particular, the amount of SARS-CoV-2 virus in the wastewater of Ekerö is estimated based on samples from Ekebyhov wastewater treatment plant, that of Österåker is based on Margretelund wastewater treatment plant, and that of Vaxholm is based on Blynäs wastewater treatment plant. Please [consult this map for the exact catchment area of the wastewater collection channels in Umeå](/wastewater/map_umeaa.jpg). Please [consult this map for the exact catchment area of the wastewater collection channels in Örebro](/wastewater/map_orebro.pdf).
+Mängden SARS-CoV-2 virus i Uppsala stads avloppsvatten bestäms genom analys av avloppsvatten insamlat vid Kungsängsverket som är Uppsala Vattens största avloppsreningsverk. Avloppsvattnet från avloppsreningsverket samlas in från de två största upptagningsområdena för Uppsalas avloppsvatten med ca. 180.000 invånare. [För kartor som visar respektive upptagningsområde för avloppsvattnet i Uppsala](/wastewater/avrinningskarta_inlopp_kungsangsverket.pdf). Mängden SARS-CoV-2 virus i Ekerös avloppsvatten bestäms genom analys av avloppsvatten insamlat vid Ekebyhov, i Österåkers avloppsvatten bestäms genom analys av avloppsvatten insamlat vid Margretelund, i Vaxholms avloppsvatten bestäms genom analys av avloppsvatten insamlat vid Blynäs. Se [den här kartan för det exakta avrinningsområdet för insamlingskanalerna i Umeå](/wastewater/map_umeaa.jpg). Se [den här kartan för det exakta avrinningsområdet för insamlingskanalerna i Örebro](/wastewater/map_orebro.pdf).
 
-Measurements are taken weekly, by processing a representative sample collected over 24 hours (i.e. flow compensated sample). The SARS-CoV-2 virus content of the wastewater on the given day is normalized to the fecal matter content to avoid variation from flow differences and population fluctuation. The samples are processed according to standard methods. Briefly, the viral content of the samples is concentrated according to the modified electronegative filtration method ([method C, Ahmed and colleagues, 2020](https://doi.org/10.1016/j.scitotenv.2020.139960)), viral RNA is extracted using the RNeasy PowerMicrobiome kit (Qiagen) and the copy number of SARS-CoV-2 genomes is quantified by RT-qPCR using the CDC RUO nCOV N1 assay (IDT DNA). The virus recovery efficiency of the process and the presence of potential inhibitors is monitored by adding to the samples bovine coronavirus (BCoV) as process surrogate virus. To correct for variations in population size and wastewater flow, we also quantify the pepper mild mottle virus (PMMoV) which is the most abundant RNA virus in human feces and serves as an estimator of human fecal content ([Symonds and colleagues, 2019](https://doi.org/10.1371/journal.ppat.1007639)).
+Mängd SARS-CoV-2 virus i avloppsvatten ett specifik datum har normaliserats jämfört med mängden mänsklig avföring för att undvika variation pga vattenflöde och populationsstorlek. Proverna bearbetas enligt standardmetoder. I korthet koncentreras virusinnehållet i proverna med hjälp av en modifierad elektronegativ filtreringsmetod ([metod C, Ahmed och kollegor, 2020](https://doi.org/10.1016/j.scitotenv.2020.139960)), virus RNA extraheras med hjälp av RNeasy PowerMicrobiome-kit (Qiagen) och mängden SARS-CoV-2 RNA kvantifieras genom RT-qPCR och användning av CDC RUO nCOV N1-analys (IDT DNA). För att studera metodens effektivitet och detektera eventuell närvaro av potentiella virushämmare tillsätts bovint koronavirus (BCoV) ett sk. process-surrogatvirus. För att korrigera för variation i populationen kvantifierar vi också pepper mild mottle virus (PMMoV), som är det vanligaste RNA-viruset i mänsklig avföring ([Symonds et al, 2019](https://doi.org/10.1371/journal.ppat.1007639)).
 
-Note that the scores provided in the dataset and depicted in plots below are preliminary. The team is still conducting method efficiency checks that might slightly affect the final results.
+Notera att resultaten i dataseten och som visas i diagrammen är preliminära data. Forskargruppen genomför fortfarande kontroller av metodens effektivitet vilket kan förändra de slutliga resultaten något.
 
-**Download the data:** [Relative ratio of copy number of SARS-CoV-2 to PPMoV, CSV file.](https://datagraphics.dckube.scilifelab.se/dataset/0ac8fa02871745048491de74e5689da9.csv) Data available starting from week 38 of 2020; updated weekly.\
-**Contact:** anna.szekely@slu.se and maja.malmberg@slu.se\
-**How to cite:**
+**Ladda ner data:** [Relativt ratio av viruskopior SARS CoV-2 jämfört med mängd PPMoV, CSV-fil](https://datagraphics.dckube.scilifelab.se/dataset/0ac8fa02871745048491de74e5689da9.csv). Data finns tillgängligt från och med vecka 38 2020; uppdateras varje vecka.\
+**Kontakt:** anna.szekely@slu.se and maja.malmberg@slu.se\
+**Referera till detta dataset:**
 Székely, A. & Mohamed, N. Dataset of SARS-CoV-2 wastewater data from Uppsala, and neighbouring towns Knivsta, Enköping, Östhammar and Älvkarleby, Sweden. [https://doi.org/10.17044/scilifelab.14256317.v1](https://doi.org/10.17044/scilifelab.14256317.v1) (2021).
 
-<div class="alert alert-info">Last updated: <span id="last_modified_uppsala"></span></div>
+<div class="alert alert-info">Senast uppdaterad: <span id="last_modified_uppsala"></span></div>
 <div class="alert alert-secondary small">Interacting with the plot: Click on the names of municipalities in the legend in order to select or deselect cities that are displayed. Select a portion of the plot using your cursor in order to zoom in to a particular date range or y axis range. Note that the axes ranges adapt to your selections. Double-click anywhere on the graph in order to return to the default view. It is also possible download the graph as a PNG file, zoom and reset using buttons which appear in the top right corner when you hover over the graph.</div>
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="550px" >}}</div>
 </div>
 
-Please note that the plot below displays the same data, but the y axis is shown as a log scale.
+Observera att grafen nedan visar samma data, men y-axeln visas som en logskala
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_combined_slu_logyaxis.json" height="550px" >}}</div>
@@ -49,24 +51,24 @@ Please note that the plot below displays the same data, but the y axis is shown 
 
 ## Stockholm
 
-This project, led by associate professor Zeynep Cetecioglu Gurol and colleagues (KTH Royal Institute of Technology; zeynepcg@kth.se), is a collaboration between the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and the [SEED](https://www.kth.se/en/seed) and [Chemical Engineering](https://www.kth.se/ket/chemical-engineering-1.784196) departments at KTH, in close collaboration with Stockholm Vatten och Avfall and the Käppala Association. The sampling of wastewater, started in mid-April 2020, from Bromma, Henriksdal, and Käppala wastewater treatment plants (WWTP). These treatment plants receive wastewater from a population of approximately 360,000; 860,000 and 500,000, respectively. Please consult [this map for the exact catchment area of the wastewater collection channels in Käppala](/wastewater/map_Kappala.pdf) and [this map for the exact catchment area of the wastewater collection channels in Bromma and Henriksdal](/wastewater/map_Bromma_Henriksdal.pdf).
+Detta projekt, lett av prof. Zeynep Cetecioglu Gurol och kollegor (KTH) är ett samarbete mellan [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) och avdelningarna [SEED](https://www.kth.se/en/seed) och [Chemical Engineering](https://www.kth.se/ket/chemical-engineering-1.784196) vid KTH, i nära samarbete med Stockholm Vatten och Avfall och Käppala Association. Provtagningen av avloppsvatten började i mitten av april 2020 från Bromma, Henriksdal och Käppala reningsverk. Dessa reningsverk får avloppsvatten från en befolkning på cirka 360 000; 860 000 respektive 500 000. Se [den här kartan för det exakta avrinningsområdet för insamlingskanalerna i Käppala](/wastewater/map_Kappala.pdf) och [den här kartan för det exakta avrinningsområdet för insamlingskanalerna i Bromma och Henriksdal](/wastewater/map_Bromma_Henriksdal.pdf).
 
-After concentration, filtering, and preparation, the samples are analyzed using qPCR technique for SARS CoV-2 RNA. Primers of the nucleocapsid (N) gene were used to detect the SARS-COV-2 gene (previously used and verified by [Medema and colleagues (2020)](https://doi.org/10.1016/j.scitotenv.2020.142939)). In some cases, the raw wastewater has been frozen at –20 degrees, and  concentrated wastewater or purified RNA have been stored at -80 C before the next analysis step was carried out. The concentration method used by prof. Zeynep Cetecioglu Gurol and her colleagues is based on their published study ([Jafferali and colleagues, 2021](https://doi.org/10.1016/j.scitotenv.2020.142939)) comparing four different concentration methods. The study concluded that the double ultrafiltration method adapted by KTH has a significantly higher efficiency compared to single filtration and adsorption methods. For detailed information about the concentration method, see the publication.
+Efter koncentrering, filtrering och beredning analyseras proverna med RT-qPCR-teknik för SARS CoV-2 RNA. Primers mot nukleokapsidgenen (N) användes för att detektera SARS-COV-2-genen (tidigare använt och verifierat av [Medema et al (2020)](https://doi.org/10.1016/j.scitotenv.2020.142939). I vissa fall har det råa avloppsvattnet frusits ​​vid –20 °C och koncentrerat avloppsvatten eller renat RNA har lagrats vid -80°C innan nästa analyssteg genomfördes. Koncentrationsmetoden som används av prof. Zeynep Cetecioglu Gurol och hennes kollegor baseras på forskargruppens publicerade artikel ([Jafferali et al, 2021](https://doi.org/10.1016/j.scitotenv.2020.142939)) som jämför fyra olika metoder för att koncentrera avloppsvatten.  Studiens slutsats var att den dubbla ultrafiltreringsmetoden som anpassats av KTH gruppen  har betydligt högre effektivitet jämfört med enstaka filtrerings- och adsorptionsmetoder. För detaljerad information om metoden, se publikationen.
 
-See also [the page of the research group where summaries of data and preliminary conclusions are presented](https://www.kth.se/water/research/covid-1.979048).
+Se även [forskargruppens webbsida där sammanfattningar av data och preliminära slutsatser presenteras](https://www.kth.se/water/research/covid-1.979048).
 
-**Download the data:** [Relative N gene normalized by PPMoV; Excel file](https://blobserver.dckube.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx). Results are available (partially) starting from week 16 of 2020; updated weekly.
-
-**How to cite:**
+**Ladda ner data:** [Relative N gene normalized by PPMoV; Excel file](https://blobserver.dckube.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx). Data tillgänglig (delvis) från och med vecka 16 2020; uppdateras varje vecka. \
+**Kontakt:** zeynepcg@kth.se\
+**Referera till detta dataset:**
 Cetecioglu Z G, Williams, C, Khatami, K, Atasoy, M, Nandy, P, Jafferali, M H, Birgersson, M. SARS-CoV-2 Wastewater Data from Stockholm, Sweden. [https://doi.org/10.17044/scilifelab.14315483](https://doi.org/10.17044/scilifelab.14315483) (2021).
 
-<div class="alert alert-info">Last updated: <span id="last_modified_stockholm"></span></div>
+<div class="alert alert-info">Senast uppdaterad: <span id="last_modified_stockholm"></span></div>
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_combined_stockholm.json" height="550px" >}}</div>
 </div>
 
-<div class="row ml-0 mt-3"><b>Publications:</b></div><div class="row"><div class="col">
+<div class="row ml-0 mt-3"><b>Publikationer:</b></div><div class="row"><div class="col">
 <b><a target="_blank" href="https://doi.org/10.1016/j.scitotenv.2020.142939">Benchmarking virus concentration methods for quantification of SARS-CoV-2 in raw wastewater.</a></b><br>
                     <span class="text-muted">Jafferali MH, Khatami K, Atasoy M, Birgersson M, Williams C, Cetecioglu Z.</span><br>
                     <i>Science of The Total Environment</i> 755. DOI: 10.1016/j.scitotenv.2020.142939
