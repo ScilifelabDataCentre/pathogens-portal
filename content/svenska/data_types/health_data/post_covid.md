@@ -16,7 +16,7 @@ För mer information om postcovid i Sverige, se följande [avsnitt](https://www.
 
 ## Tillgängliga data
 
-<div class="alert alert-info">Senaste uppdatering: 09.09.2021</div>
+<div class="alert alert-info">Senaste uppdatering: 15.10.2021</div>
 
 Alla data som presenteras här finns tillgängliga för nedladdning från [Socialstyrelsen](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/) och bygger på data från Patientregistret [Patientregistret](https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/patientregistret/) och [Dödsorsaksregistret](https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/dodsorsaksregistret/). Data uppdateras varje månad, den andra onsdagen i månaden och finns tillgängliga [här](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/). Forskare kan ansöka om tillgänglighet till ytterligare data via RUT (Register Utiliser Tool) om deras projekt uppfyller kraven för åtkomst. Riktlinjerna finns [här](https://bestalladata.socialstyrelsen.se/data-for-forskning/) last.
 
@@ -60,23 +60,31 @@ Geografisk fördelning av diagnostiserade fall i förhållande till befolkningss
 
 #### Diagnoskod U09.9
 
-{{< postcovid_map_u09_9_relative_to_populationSwe >}}
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/map_postcovid_percent_of_population_U099_Swedish.json" height="500px" >}}</div>
+</div>
 
 #### Diagnoskod Z86.1A/U08.9
 
-{{< postcovid_map_u08_9_relative_to_populationSwe >}}
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/map_postcovid_percent_of_population_U089_Swedish.json" height="500px" >}}</div>
+</div>
 
 ### Geografisk fördelning av diagnostiserade fall relativt antal bekräftade fall
 
 Kartorna nedan visar antal individer som fått diagnoskoderna av intresse per län angivet i procent av det totalt antal bekräftade fall av covid-19 i länet (baserat på [data från Folkhälsomyndigheten](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/statistik-och-analyser/bekraftade-fall-i-sverige/)). Antal bekräftade fall bygger på kumulativa antalet positiva covid-19-test i regionen vid det datum som anges för den senaste uppdateringen av diagnoskoderna av intresse. Både totalt antal bekräftade fall av covid-19 och antal personer med diagnoskod av intresse kan ses genom att scrolla över ett visst län. Observera att de data som visualiseras på kartan bör tolkas med försiktighet. Antal bekräftade fall av covid-19-fall är sannolikt en underskattning. Individer som har covid-19 kan vara asymptomatiska och alla individer med covid-19 symtom testas inte och ingår inte i de rapporterade bekräftade fallen. Diagnoserna relaterade till postcovid introducerades vid olika tillfällen, och alla patienter kanske inte ännu fått en formell diagnos.
 
 #### Diagnoskod U09.9
-
-{{< postcovid_map_u09_9_relative_to_casesSwe >}}
+ 
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/map_postcovid_percent_of_covidcases_U099_Swedish.json" height="500px" >}}</div>
+</div>
 
 #### Diagnoskod Z86.1A/U08.9
 
-{{< postcovid_map_u08_9_relative_to_casesSwe >}}
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/map_postcovid_percent_of_covidcases_U089_Swedish.json" height="500px" >}}</div>
+</div>
 
 ### Vanligaste diagnosgrupper som rapporterats tillsammans med U09.9 Postinfektiöst tillstånd efter covid-19 (postcovid)
 
