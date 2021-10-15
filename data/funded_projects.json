@@ -3174,7 +3174,7 @@
     "funder": "afa",
     "funder_eng": "AFA-försäkring",
     "funder_sv": "AFA-försäkring",
-    "project_title_eng": "tEn extrem arbetsmiljösituation under covid-19 pandemin: Förebyggande insats efter traumatiska händelser i frontlinjen",
+    "project_title_eng": "En extrem arbetsmiljösituation under covid-19 pandemin: Förebyggande insats efter traumatiska händelser i frontlinjen",
     "project_title_sv": "En extrem arbetsmiljösituation under covid-19 pandemin: Förebyggande insats efter traumatiska händelser i frontlinjen",
     "pi": "Emily Holmes",
     "pi_affiliation_eng": "Uppsala University",
@@ -3183,5 +3183,20 @@
     "end": "2023",
     "url_eng": "https://www.afaforsakring.se/nyhetsrum/pressmeddelanden/2020/12/tretton-nya-covid-19-projekt-far-forskningsfinansiering/",
     "url_sv": "https://www.afaforsakring.se/nyhetsrum/pressmeddelanden/2020/12/tretton-nya-covid-19-projekt-far-forskningsfinansiering/"
+  },
+  {
+    "funder": "fk",
+    "funder_eng": "Swedish Social Insurance Agency",
+    "funder_sv": "Försäkringskassan",
+    "project_title_eng": "Sociodemografiska faktorer och risken att utveckla långtidssjukdom och komplikationer efter mild respektive svår Covid-19 - Ett fokus på nedsatt arbetsförmåga och utvecklandet av sjukdom i efterförloppet av Covid-19",
+    "project_title_sv": "Sociodemografiska faktorer och risken att utveckla långtidssjukdom och komplikationer efter mild respektive svår Covid-19 - Ett fokus på nedsatt arbetsförmåga och utvecklandet av sjukdom i efterförloppet av Covid-19",
+    "pi": "Maria Rosvall",
+    "pi_affiliation_eng": "University of Gothenburg",
+    "pi_affiliation_sv": "Göteborgs universitet",
+    "start": "2021",
+    "end": "2024",
+    "url_eng": "https://www.forsakringskassan.se/privatpers/!ut/p/z1/dYzBCsIwEES_ptfs1lYp3kKFShVUPLTuRVqJaTFmSxoN-PUWPAk6tze8GSCogWzz7HXje7aNmfhEi3O6XuVxkeMmK5I5ysM-TtLdrCyPCBUQ0KTgn0iEEkgbbj9v0rZJpoGcuiqnnHi4qe68H8ZlhBGGEIRm1kaJC98j_DXpePRQf5sw3Oxrqyr5Bi1D5sU!/?1dmy&mapping=%2Fprivatpers%2Fnyhetsarkiv&urile=wcm%3apath%3a%2FContentSE_Responsive%2Fnyheter%2Fnyhet-stod-till-forskning-om-covid-19-och-psykisk-ohalsa",
+    "url_sv": "https://www.forsakringskassan.se/privatpers/!ut/p/z1/dYzBCsIwEES_ptfs1lYp3kKFShVUPLTuRVqJaTFmSxoN-PUWPAk6tze8GSCogWzz7HXje7aNmfhEi3O6XuVxkeMmK5I5ysM-TtLdrCyPCBUQ0KTgn0iEEkgbbj9v0rZJpoGcuiqnnHi4qe68H8ZlhBGGEIRm1kaJC98j_DXpePRQf5sw3Oxrqyr5Bi1D5sU!/?1dmy&mapping=%2Fprivatpers%2Fnyhetsarkiv&urile=wcm%3apath%3a%2FContentSE_Responsive%2Fnyheter%2Fnyhet-stod-till-forskning-om-covid-19-och-psykisk-ohalsa",
+    "post_covid": "true"
   }
 ]
