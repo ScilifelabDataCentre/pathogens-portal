@@ -12,7 +12,7 @@ For more information on *Post COVID-19 condition* in Sweden, please see [this se
 
 ## Data sources and availability
 
-<div class="alert alert-info">All data last updated: 09.09.2021</div>
+<div class="alert alert-info">All data last updated: 15.10.2021</div>
 
 The data underlying the visualisations on this page are from [The Swedish Board of Health and Welfare](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/) and comprise of data from both the [Patient Register](https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/patientregistret/) and the [‘Cause of Death’ Register](https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/dodsorsaksregistret/). The data are updated monthly, on the second Wednesday of the month, and are available for download [here](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/). Additional data about COVID-19 can be requested from the corresponding registers by any researchers fulfilling the requirements for access, the guidelines for access via the RUT (Register Utiliser Tool) are available [here](https://bestalladata.socialstyrelsen.se/data-for-forskning/).
 
@@ -50,15 +50,19 @@ These plots display the number of times that patients were assigned the diagnose
 
 ### Geographic distribution of diagnosed cases relative to population size
 
-The maps below show the number of people that received the diagnoses of interest in each county as a percentage of the total population of that county. The total population of the county and the number of people who received the diagnosis can be seen by hovering the mouse above a particular county. Note that the range of values displayed differs between the two maps.
+The maps below show the number of people that received the diagnoses of interest in each county as a percentage of the total population of that county. The total population of the county and the number of people who received the diagnosis can be seen by hovering the mouse above a particular county. Please note that the range of values displayed differs between the two maps.
 
 #### Diagnosis U09.9
 
-{{< postcovid_map_u09_9_relative_to_population >}}
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/map_postcovid_percent_of_population_U099.json" height="500px" >}}</div>
+</div>
 
 #### Diagnosis Z86.1A/U08.9
 
-{{< postcovid_map_u08_9_relative_to_population >}}
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/map_postcovid_percent_of_population_U089.json" height="500px" >}}</div>
+</div>
 
 ### Geographic distribution of diagnosed cases relative to confirmed COVID-19 cases
 
@@ -66,11 +70,15 @@ The maps below show the number of people that received the diagnoses of interest
 
 #### Diagnosis U09.9
 
-{{< postcovid_map_u09_9_relative_to_cases >}}
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/map_postcovid_percent_of_covidcases_U099.json" height="500px" >}}</div>
+</div>
 
 #### Diagnosis Z86.1A/U08.9
 
-{{< postcovid_map_u08_9_relative_to_cases >}}
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/map_postcovid_percent_of_covidcases_U089.json" height="500px" >}}</div>
+</div>
 
 ### Most common accompanying diagnoses
 
