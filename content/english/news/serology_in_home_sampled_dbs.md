@@ -1,7 +1,7 @@
 ---
-title: Reliable profiling of IgG and IgM levels against several versions of SARS-CoV-2 proteins (S, RBD, N) in home-sampled dried blood spots
+title: Reliable profiling of IgG and IgM levels in home-sampled dried blood spots
 date: 2021-10-18
-summary: Roxhed et al. discusses the startegy of how self sampling at home can be effective by profiling IgG and IgM levels against several versions of SARS-CoV-2 proteins (S, RBD, N) in home-sampled dried blood spots (DBS). Metadata records and the analysis scripts used for the article are shared.
+summary: Roxhed et al. demonstrate how self sampling at home can be effective by profiling IgG and IgM levels against several versions of SARS-CoV-2 proteins (S, RBD, N) in home-sampled dried blood spots. Metadata records and the analysis scripts used for the article are shared.
 banner: /news/banners/Roxhed_figure1_thumbnail.png
 banner_large: /news/banners/Roxhed_figure1_full.png
 banner_caption: Figure 1 - Translational approach for multiplexed serology in home-sampled dried blood spots from Roxhed et al. (2021).
@@ -9,7 +9,7 @@ banner_caption: Figure 1 - Translational approach for multiplexed serology in ho
 
 The COVID-19 pandemic has over soon two years challenged societies worldwide in an unprecedented global public health challenge. Different diagnostic methods are important parts of the fight against the SARS-CoV-2 virus and to curb the consequences of the pandemic. Serological assays can be used to study the humoral immune system has coped with a previous infection. However, healthcare professionals are needed to draw venous blood for medical serology testing and the rapid self-tests using capillary blood currently available does not fulfill the requirements. Therefore, home-sampling, by i.e., dried blood spots (DBS), a method which is well-established for screening of neonates, in combination with medical laboratory analysis has been suggested as a route to do serology assays and to decrease societal infections.
 
-In a recent publication in Nature Communication researchers from KTH Royal Institute of Technology, Karolinska University Hospital, Karolinska Institutet, Stockholm University and Danderyd Hospital showed a multianalyte and multiplexed approach to reliably profile IgG and IgM levels against several versions of SARS-CoV-2 proteins (S, RBD, N) in home-sampled dried blood spots (DBS) (First author: Niclas Roxhed, Corresponding authors Jochen M. Schwenk and Niclas Roxhed).
+In a recent publication in *Nature Communications* researchers from KTH Royal Institute of Technology, Karolinska University Hospital, Karolinska Institutet, Stockholm University and Danderyd Hospital showed a multianalyte and multiplexed approach to reliably profile IgG and IgM levels against several versions of SARS-CoV-2 proteins (S, RBD, N) in home-sampled dried blood spots (DBS) (First author: Niclas Roxhed, Corresponding authors Jochen M. Schwenk and Niclas Roxhed).
 
 Roxhed and colleagues distributed precision home-sampling kits (two sets of 1000 kits along with questionnaires and forms for informed consent) to randomly selected households in Stockholm during April of 2020. This was during the first wave of the pandemic. They received 55% of the sampling cards back within the first three weeks, and out of these 82% (N = 878) of the participants had succeeded with self-sampling of blood. Women were found to be slightly over-represented in compliance and sampling success. The replies to the questionnaire showed none of the participants had tested positive for SARS-CoV-2 by PCR, though about one in eight (13%) self-reported fever under influenza-like symptoms and one in five (22%) listed symptoms related to issues with breathing. Half of the participants listed no symptoms.
 
@@ -35,4 +35,4 @@ Schwenk and colleagues also shared the analysis scripts used for the articles in
 
 DOI: [10.1038/s41467-021-23893-4](https://www.nature.com/articles/s41467-021-23893-4)
 
-Roxhed, N, Bendes, A, Dale, ma, Mattsson, C, Hanke, L, Dodig-Crnkovic, T, Murray, C, Meineke, B, Elsässer, S, Andréll, J, Havervall, S, Thålin, C, Eklund, C, Dillner, J, Beck, O, Thomas, C.E, McInerney, G, Hong, M-G, Murrell, B, Fredolini, C & Schwenk, J.M. Multianalyte serology in home-sampled blood enables an unbiased assessment of the immune response against SARS-CoV-2. Nature Communications Vol 12, Article number: 3695 (2021)
+Roxhed, N, Bendes, A, Dale, ma, Mattsson, C, Hanke, L, Dodig-Crnkovic, T, Murray, C, Meineke, B, Elsässer, S, Andréll, J, Havervall, S, Thålin, C, Eklund, C, Dillner, J, Beck, O, Thomas, C.E, McInerney, G, Hong, M-G, Murrell, B, Fredolini, C & Schwenk, J.M. Multianalyte serology in home-sampled blood enables an unbiased assessment of the immune response against SARS-CoV-2. *Nature Communications* **12**, 3695 (2021)
