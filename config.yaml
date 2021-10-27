@@ -93,3 +93,8 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+caches:
+  getjson:
+    dir: :cacheDir/:project
+    maxAge: 10s

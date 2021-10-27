@@ -19,6 +19,8 @@ Vi presenterar epidemiologiska data av mätningar av SARS-CoV-2 virus i avloppsv
 
 ## Uppsala, Umeå, Örebro, Kalmar, och andra orter
 
+<div class="alert alert-info">Date: <span id="slu_comment_date"></span><br>Commentary: <span id="slu_comment"></span></div>
+
 Projektet leds av prof. Anna J. Székely (SLU, Sveriges Lantbruksuniversitet) och prof. Maja Malmberg (SLU, Sveriges Lantbruksuniversitet) i samarbete med Uppsala Vatten, Roslagsvatten, Enköpings kommun, Gästrike Vatten, TEMAB m.m.
 
 Mängden SARS-CoV-2 virus i Uppsala stads avloppsvatten bestäms genom analys av avloppsvatten insamlat vid Kungsängsverket som är Uppsala Vattens största avloppsreningsverk. Avloppsvattnet från avloppsreningsverket samlas in från de två största upptagningsområdena för Uppsalas avloppsvatten med ca. 180.000 invånare. [För kartor som visar respektive upptagningsområde för avloppsvattnet i Uppsala](/wastewater/avrinningskarta_inlopp_kungsangsverket.pdf). Mängden SARS-CoV-2 virus i Ekerös avloppsvatten bestäms genom analys av avloppsvatten insamlat vid Ekebyhov, i Österåkers avloppsvatten bestäms genom analys av avloppsvatten insamlat vid Margretelund, i Vaxholms avloppsvatten bestäms genom analys av avloppsvatten insamlat vid Blynäs. Se [den här kartan för det exakta avrinningsområdet för insamlingskanalerna i Umeå](/wastewater/map_umeaa.jpg). Se [den här kartan för det exakta avrinningsområdet för insamlingskanalerna i Örebro](/wastewater/map_orebro.pdf).
@@ -89,4 +91,4 @@ Avloppsvattenbaserad epidemiologi studerar mängden virusgenom i avloppsvattnet,
 
 Observera att graferna som presenteras inom sektionen baseras på preliminära och ännu inte fullständigt utvärderade data. Data som delas ska därför användas med försiktighet. Observera att eftersom olika metoder för insamling av avloppsprover och dataanalys används av olika forskningsprojekten som redovisas nedan(dvs för olika städer) är det inte möjligt jämföra virusmängen mellan projekten (dvs mellan städer). Jämförelser bör göras inom varje projekt (dvs. stad) eftersom metoden är densamma för alla mätningar. Mätningar av SARS CoV-2 i avloppsvatten bör främst ses en indikation på ökande smittspridning, tillsammans med andra datatyper som exempelvis antal positiva SARS CoV-2 test, antal patienter som behöver intensivvård etc och  bidra till kunskap om den regionala dynamiken i COVID-19-pandemi.
 
-{{< ww_dates_modified >}}
+{{< ww_dynamic_content >}}
