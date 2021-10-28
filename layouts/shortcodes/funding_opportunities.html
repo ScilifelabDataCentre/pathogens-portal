@@ -1,3 +1,10 @@
+{{/* Automatically fetch updated date from input file modification time */}}
+{{ $fStat := os.Stat "data/funding_opportunities.json" }}
+<p><i>
+   {{ cond (eq $.Site.Language.LanguageName "Svenska") "Senast uppdaterad" "Last updated" }}:
+   {{ $fStat.ModTime.Format "2006-01-02" }}
+</i></p>
+
 {{ if eq $.Site.Language.LanguageName "Svenska"}}
   {{ range $index, $cont := $.Site.Data.funding_opportunities }}
       {{ if ne .title_sv "COVID-19 pandemic research and preparedness"}}
