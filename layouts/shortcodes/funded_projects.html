@@ -1,3 +1,10 @@
+{{/* Automatically fetch updated date from input file modification time */}}
+{{ $fStat := os.Stat "data/funded_projects.json" }}
+<p><i>
+   {{ cond (eq $.Site.Language.LanguageName "Svenska") "Senast uppdaterad" "Last updated" }}:
+   {{ $fStat.ModTime.Format "2006-01-02" }}
+</i></p>
+
 {{/*
   Make a list of unique funder names in English and in Swedish
 */}}
