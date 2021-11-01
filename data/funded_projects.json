@@ -842,7 +842,8 @@
     "pi_affiliation_sv": "Karolinska Institutet",
     "start": "2020",
     "end": "2021",
-    "url_eng": "https://www.scilifelab.se/covid-19/national-program/data/"
+    "url_eng": "https://www.scilifelab.se/covid-19/national-program/data/",
+    "register_based": "true"
   },
   {
     "funder": "kaw",
@@ -855,7 +856,8 @@
     "pi_affiliation_sv": "Karolinska Institutet",
     "start": "2020",
     "end": "2021",
-    "url_eng": "https://www.scilifelab.se/covid-19/national-program/data/"
+    "url_eng": "https://www.scilifelab.se/covid-19/national-program/data/",
+    "register_based": "true"
   },
   {
     "funder": "kaw",
@@ -933,7 +935,8 @@
     "pi_affiliation_sv": "Göteborgs universitet",
     "start": "2021",
     "end": "2022",
-    "url_eng": "https://www.gu.se/en/research/recovac"
+    "url_eng": "https://www.gu.se/en/research/recovac",
+    "register_based": "true"
   },
   {
     "funder": "kaw",
@@ -1339,7 +1342,8 @@
     "start": "2020-08-01",
     "end": "2020-12-31",
     "url_sv": "https://www.swecris.se/betasearch/details/project/202005850VR",
-    "url_eng": "https://www.swecris.se/betasearch/details/project/202005850VR?lang=en"
+    "url_eng": "https://www.swecris.se/betasearch/details/project/202005850VR?lang=en",
+    "register_based": "true"
   },
   {
     "funder": "vr",
@@ -1387,7 +1391,8 @@
     "start": "2020-08-01",
     "end": "2020-12-31",
     "url_sv": "https://www.swecris.se/betasearch/details/project/202005931VR",
-    "url_eng": "https://www.swecris.se/betasearch/details/project/202005931VR?lang=en"
+    "url_eng": "https://www.swecris.se/betasearch/details/project/202005931VR?lang=en",
+    "register_based": "true"
   },
   {
     "funder": "vr",
@@ -1403,7 +1408,8 @@
     "start": "2020-08-01",
     "end": "2020-12-31",
     "url_sv": "https://www.swecris.se/betasearch/details/project/202005805VR",
-    "url_eng": "https://www.swecris.se/betasearch/details/project/202005805VR?lang=en"
+    "url_eng": "https://www.swecris.se/betasearch/details/project/202005805VR?lang=en",
+    "register_based": "true"
   },
   {
     "funder": "vr",
@@ -1531,7 +1537,8 @@
     "start": "2020-08-01",
     "end": "2020-12-31",
     "url_sv": "https://www.swecris.se/betasearch/details/project/202005792VR",
-    "url_eng": "https://www.swecris.se/betasearch/details/project/202005792VR?lang=en"
+    "url_eng": "https://www.swecris.se/betasearch/details/project/202005792VR?lang=en",
+    "register_based": "true"
   },
   {
     "funder": "vr",
@@ -1611,7 +1618,8 @@
     "start": "2020-08-01",
     "end": "2020-12-31",
     "url_sv": "https://www.swecris.se/betasearch/details/project/202005866VR",
-    "url_eng": "https://www.swecris.se/betasearch/details/project/202005866VR?lang=en"
+    "url_eng": "https://www.swecris.se/betasearch/details/project/202005866VR?lang=en",
+    "register_based": "true"
   },
   {
     "funder": "vr",
@@ -1857,7 +1865,8 @@
     "start": "2020",
     "end": "2022",
     "url_sv": "https://www.nordforsk.org/sv/projects/addressing-smoking-paradox-etiology-covid-19-through-population-based-studies-tobrisk-cov",
-    "url_eng": "https://www.nordforsk.org/projects/addressing-smoking-paradox-etiology-covid-19-through-population-based-studies-tobrisk-cov"
+    "url_eng": "https://www.nordforsk.org/projects/addressing-smoking-paradox-etiology-covid-19-through-population-based-studies-tobrisk-cov",
+    "register_based": "true"
   },
   {
     "funder": "nordforsk",
@@ -2060,7 +2069,8 @@
     "pi_affiliation_eng": "Umeå University; Sunderby hospital",
     "pi_affiliation_sv": "Umeå universitet; Sunderbyns sjukhus",
     "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/",
-    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/"
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/",
+    "register_based": "true"
   },
   {
     "funder": "hlf",
@@ -2168,7 +2178,8 @@
     "pi_affiliation_eng": "Karolinska University Hospital",
     "pi_affiliation_sv": "Karolinska Universitetssjukhuset",
     "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/",
-    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/"
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/",
+    "register_based": "true"
   },
   {
     "funder": "hlf",
@@ -2298,7 +2309,8 @@
     "project_title_sv": "Risk, insjuknande och komplikationer av COVID-19 hos hjärt-kärl- och lungsjuka –longitudinell nationell registerstudie med regelbunden datauppdatering",
     "pi": "Fredrik Nyberg",
     "pi_affiliation_eng": "Gothenburg",
-    "pi_affiliation_sv": "Göteborg"
+    "pi_affiliation_sv": "Göteborg",
+    "register_based": "true"
   },
   {
     "funder": "hlf",
@@ -2318,7 +2330,8 @@
     "project_title_sv": "COVID-19 i Västsverige: långtidsuppföljning av hjärt- och lunghälsa med kliniska undersökningar och via register",
     "pi": "Hannu Kankaanranta",
     "pi_affiliation_eng": "Gothenburg",
-    "pi_affiliation_sv": "Göteborg"
+    "pi_affiliation_sv": "Göteborg",
+    "register_based": "true"
   },
   {
     "funder": "hlf",
@@ -2615,7 +2628,8 @@
     "pi_affiliation_eng": "Karolinska Institute",
     "pi_affiliation_sv": "Karolinska Institutet",
     "url_eng": "https://www.vr.se/english/just-now/news/news-archive/2021-06-14-100-million-sek-for-follow-up-studies-of-covid-19-vaccines.html",
-    "url_sv": "https://www.vr.se/aktuellt/nyheter/nyhetsarkiv/2021-06-14-100-miljoner-till-uppfoljningsstudier-av-covid-19-vacciner.html"
+    "url_sv": "https://www.vr.se/aktuellt/nyheter/nyhetsarkiv/2021-06-14-100-miljoner-till-uppfoljningsstudier-av-covid-19-vacciner.html",
+    "register_based": "true"
   },
   {
     "funder": "vr",
@@ -2627,7 +2641,8 @@
     "pi_affiliation_eng": "University of Gothenburg",
     "pi_affiliation_sv": "Göteborgs universitet",
     "url_eng": "https://www.vr.se/english/just-now/news/news-archive/2021-06-14-100-million-sek-for-follow-up-studies-of-covid-19-vaccines.html",
-    "url_sv": "https://www.vr.se/aktuellt/nyheter/nyhetsarkiv/2021-06-14-100-miljoner-till-uppfoljningsstudier-av-covid-19-vacciner.html"
+    "url_sv": "https://www.vr.se/aktuellt/nyheter/nyhetsarkiv/2021-06-14-100-miljoner-till-uppfoljningsstudier-av-covid-19-vacciner.html",
+    "register_based": "true"
   },
   {
     "funder": "vr",
@@ -2639,7 +2654,8 @@
     "pi_affiliation_eng": "Karolinska Institute",
     "pi_affiliation_sv": "Karolinska Institutet",
     "url_eng": "https://www.vr.se/english/just-now/news/news-archive/2021-06-14-100-million-sek-for-follow-up-studies-of-covid-19-vaccines.html",
-    "url_sv": "https://www.vr.se/aktuellt/nyheter/nyhetsarkiv/2021-06-14-100-miljoner-till-uppfoljningsstudier-av-covid-19-vacciner.html"
+    "url_sv": "https://www.vr.se/aktuellt/nyheter/nyhetsarkiv/2021-06-14-100-miljoner-till-uppfoljningsstudier-av-covid-19-vacciner.html",
+    "register_based": "true"
   },
   {
     "funder": "vr",
@@ -2999,7 +3015,8 @@
     "start": "2021",
     "end": "2023",
     "url_eng": "https://www.vr.se/swecris.html#/project/20200564_HLF",
-    "url_sv": "https://www.vr.se/swecris.html#/project/20200564_HLF"
+    "url_sv": "https://www.vr.se/swecris.html#/project/20200564_HLF",
+    "register_based": "true"
   },
   {
     "funder": "hlf",
