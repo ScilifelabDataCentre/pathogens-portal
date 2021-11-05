@@ -1,5 +1,5 @@
 ---
-title: Register-based research
+title: "Register-based research: information, tools, examples"
 toc: true
 ---
 
@@ -108,6 +108,7 @@ A *register-based study* can be defined as *“…an investigation of a research
 The [Swedish Research Council](https://www.vr.se) has set up a single national entry point for information and support for register-based data. [Registerforskning.se](https://registerforskning.se) is a website aimed at researcher who wish to use Swedish register-based data in their research. The website includes information about available registers, and guides the researchers in the register-based research process (identify, request, and use), and aims at making information about the legal requirements easily available. In most cases the data produced  in register-based  research cannot be openly shared (if data should be shared with a third party there is the need for a risk assessment), though new code may.
 
 There are several types of registers available in Sweden (note that the webpages listed below are in Swedish):
+
 - [National Public Authority Registers](https://www.registerforskning.se/sv/register-i-sverige/#Nationella-myndighetsregister)
 - [National Quality Registers](https://www.registerforskning.se/sv/register-i-sverige/#Kvalitetsregister)
 - Research-generated data, eg., from [SND](https://snd.gu.se/sv/catalogue/search)
