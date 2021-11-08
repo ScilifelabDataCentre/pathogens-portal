@@ -2,28 +2,28 @@
   {
     "registers_used": [
       {
-        "register_name_eng": "SNAR the Swedish National Airway Registry Luftvägsregistret",
+        "register_name_eng": "The Swedish National Airway Register",
         "register_link_eng": "https://lvr.registercentrum.se/in-english/the-swedish-national-airway-register/p/HJAjrgGPD",
-        "register_name_sv": "",
-        "register_link_sv": ""
+        "register_name_sv": "Luftvägsregistret",
+        "register_link_sv": "https://lvr.registercentrum.se"
       },
       {
-        "register_name_eng": "The Swedish Prescribed Drug Register (Socialstyrelsen)",
-        "register_link_eng": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/lakemedelsregistret/",
-        "register_name_sv": "",
-        "register_link_sv": ""
+        "register_name_eng": "The Swedish Prescribed Drug Register",
+        "register_link_eng": "https://www.socialstyrelsen.se/en/statistics-and-data/registers/register-information/the-swedish-prescribed-drug-register/",
+        "register_name_sv": "Läkemedelsregistret",
+        "register_link_sv": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/lakemedelsregistret//"
       },
       {
-        "register_name_eng": "National Patient Register (NPR)",
-        "register_link_eng": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/patientregistret/",
-        "register_name_sv": "",
-        "register_link_sv": ""
+        "register_name_eng": "The National Patient Register",
+        "register_link_eng": "https://www.socialstyrelsen.se/en/statistics-and-data/registers/register-information/the-national-patient-register/",
+        "register_name_sv": "Patientregistret",
+        "register_link_sv": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/patientregistret/"
       },
       {
-        "register_name_eng": "The Swedish Cause of Death Register",
+        "register_name_eng": "Cause of death",
         "register_link_eng": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/dodsorsaksregistret/",
-        "register_name_sv": "",
-        "register_link_sv": ""
+        "register_name_sv": "Dödsorsaksregistret",
+        "register_link_sv": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/dodsorsaksregistret/"
       },
       {
         "register_name_eng": "Statistics Sweden: Health and medical care",
@@ -117,8 +117,8 @@
       {
         "register_name_eng": "Sesar – Swedish sleep apnea registry- annual report 2019",
         "register_link_eng": "http://www.sesar.se/",
-        "register_name_sv": "",
-        "register_link_sv": ""
+        "register_name_sv": "Svenska Sömnapnéregistret",
+        "register_link_sv": "http://www.sesar.se/"
       }
     ],
     "publication": {
@@ -165,10 +165,10 @@
         "register_link_sv": ""
       },
       {
-        "register_name_eng": "Number of COVID-19 patients in intensive care from the Swedish ICU Registry",
-        "register_link_eng": "https://www.icuregswe.org",
-        "register_name_sv": "",
-        "register_link_sv": ""
+        "register_name_eng": "The Swedish Intensive Care Registry",
+        "register_link_eng": "https://www.icuregswe.org/en/",
+        "register_name_sv": "Svenska Intensivvårdsregistret",
+        "register_link_sv": "http://www.icuregswe.org"
       }
     ],
     "publication": {
@@ -208,10 +208,10 @@
   {
     "registers_used": [
       {
-        "register_name_eng": "Swedish Registry for Cardiopulmonary Resuscitation",
-        "register_link_eng": "https://skr.se/en/kvalitetsregister/hittaregister/registerarkiv/hjartstopp.44207.html",
-        "register_name_sv": "",
-        "register_link_sv": ""
+        "register_name_eng": "National Quality Registry for Cardiopulmonary Resuscitation",
+        "register_link_eng": "https://shlr.registercentrum.se",
+        "register_name_sv": "Svenska Hjärt- och lungräddningsregistret",
+        "register_link_sv": "https://shlr.registercentrum.se"
       }
     ],
     "publication": {
@@ -332,10 +332,10 @@
   {
     "registers_used": [
       {
-        "register_name_eng": "Swedish National Patient Registry",
-        "register_link_eng": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/patientregistret/",
-        "register_name_sv": "",
-        "register_link_sv": ""
+        "register_name_eng": "The National Patient Register",
+        "register_link_eng": "https://www.socialstyrelsen.se/en/statistics-and-data/registers/register-information/the-national-patient-register/",
+        "register_name_sv": "Patientregistret",
+        "register_link_sv": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/patientregistret/"
       }
     ],
     "publication": {
@@ -377,15 +377,15 @@
     "registers_used": [
       {
         "register_name_eng": "The Swedish Prescribed Drug Register",
-        "register_link_eng": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/lakemedelsregistret/",
-        "register_name_sv": "",
-        "register_link_sv": ""
+        "register_link_eng": "https://www.socialstyrelsen.se/en/statistics-and-data/registers/register-information/the-swedish-prescribed-drug-register/",
+        "register_name_sv": "Läkemedelsregistret",
+        "register_link_sv": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/lakemedelsregistret//"
       },
       {
-        "register_name_eng": "The Swedish Cause of Death Register",
+        "register_name_eng": "Cause of death",
         "register_link_eng": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/dodsorsaksregistret/",
-        "register_name_sv": "",
-        "register_link_sv": ""
+        "register_name_sv": "Dödsorsaksregistret",
+        "register_link_sv": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/dodsorsaksregistret/"
       }
     ],
     "publication": {
@@ -484,28 +484,28 @@
   {
     "registers_used": [
       {
-        "register_name_eng": "National Inpatient Register and Outpatient Specialist Care Register",
-        "register_link_eng": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/patientregistret/",
-        "register_name_sv": "",
-        "register_link_sv": ""
+        "register_name_eng": "The National Patient Register",
+        "register_link_eng": "https://www.socialstyrelsen.se/en/statistics-and-data/registers/register-information/the-national-patient-register/",
+        "register_name_sv": "Patientregistret",
+        "register_link_sv": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/patientregistret/"
       },
       {
-        "register_name_eng": "Total Population Register (RTB)",
+        "register_name_eng": "Total Population Register",
         "register_link_eng": "https://www.registerforskning.se/sv/register/familjer-i-rikets-totalbefolkning-rtb/",
-        "register_name_sv": "",
-        "register_link_sv": ""
+        "register_name_sv": "Register över totalbefolkningen",
+        "register_link_sv": "https://www.registerforskning.se/sv/register/familjer-i-rikets-totalbefolkning-rtb/"
       },
       {
-        "register_name_eng": "Cancer Register",
-        "register_link_eng": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/cancerregistret/",
-        "register_name_sv": "",
-        "register_link_sv": ""
+        "register_name_eng": "The Swedish Cancer Register",
+        "register_link_eng": "https://www.socialstyrelsen.se/en/statistics-and-data/registers/register-information/swedish-cancer-register/",
+        "register_name_sv": "Cancerregistret",
+        "register_link_sv": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/cancerregistret/"
       },
       {
-        "register_name_eng": "Swedish Prescribed Drug Register",
-        "register_link_eng": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/lakemedelsregistret/",
-        "register_name_sv": "",
-        "register_link_sv": ""
+        "register_name_eng": "The Swedish Prescribed Drug Register",
+        "register_link_eng": "https://www.socialstyrelsen.se/en/statistics-and-data/registers/register-information/the-swedish-prescribed-drug-register/",
+        "register_name_sv": "Läkemedelsregistret",
+        "register_link_sv": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/lakemedelsregistret//"
       }
     ],
     "publication": {
