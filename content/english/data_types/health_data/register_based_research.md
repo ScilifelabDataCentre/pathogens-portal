@@ -69,6 +69,10 @@ The table below is an overview of a number of different national public authorit
         <td><a href="https://lvr.registercentrum.se/in-english/the-swedish-national-airway-register/p/HJAjrgGPD">The Swedish National Airway Register</a></td>
       </tr>
       <tr>
+        <td><a href="https://www.karolinska.se/en/karolinska-university-hospital">Karolinska University Hospital</a></td>
+        <td><a href="https://www.medscinet.com/pnq/">Swedish Neonatal Quality Register</a></td>
+      </tr>
+      <tr>
         <td><a href="https://www.socialstyrelsen.se/en/National">National Board of Health and Welfare</a></td>
         <td><a href="https://www.socialstyrelsen.se/en/statistics-and-data/registers/register-information/the-swedish-prescribed-drug-register/">The Swedish Prescribed Drug Register</a></td>
       </tr>
@@ -96,11 +100,14 @@ Below is a manually curated overview of research projects using *Register data* 
 
 ## Examples of register-based research
 
-Below is a list of preprints and published scientific journal articles using *register-based data* involving at least one author affiliated with a Swedish university or research institute. Note that this list is based on a manually curated database and, as such, may not be exhaustive. If you think that a publication should be listed here but isn’t, or feel that information about a publication needs correction, please [get in touch with us](/contact/). For a list of all publications on COVID-19 and SARS-CoV-2 involving at least one author affiliated with a Swedish univerisity or research institute [see this section of the portal](/publications/).
+Below is a list of preprints and published scientific journal articles using *register-based data* involving at least one author affiliated with a Swedish university or research institute. Note that this list is based on a manually curated database and, as such, may not be exhaustive. If you think that a publication should be listed here but isn’t, or feel that information about a publication needs correction, please [get in touch with us](/contact/). For a list of all publications on COVID-19 and SARS-CoV-2 involving at least one author affiliated with a Swedish university or research institute [see this section of the portal](/publications/).
 
 {{< register_based_research_examples >}}
 
 ## Background
+
+Sweden has a long tradition of record keeping of registers containing person data and many of the health registers in Sweden have data from the 1950s and forward.
+A register contains personal data ( health data, demographic, socioeconomic etc) connected to personal numbers, a unique identifier, that allows linking between registers. The registers are kept safe by different Register holders and all use has to adhere to GDPR and others laws.
 
 A *register-based study* can be defined as *“…an investigation of a research question or hypothesis using data from (a) new or existing registry(-ies) for patient recruitment and data collection...”*. A register-based study may both be primary use of data and/ or secondary use of data. Secondary use of data means that the data in the register was originally collected for a different purpose. Register-based studies can be both clinical trials or a non-interventional trails/studies ([EMA, Guideline of register-based studies, 2020](https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-registry-based-studies_en.pdf)). Using register-based data gives the researchers the possibility to study real-patient data and capture longitudinal data, in so called “real-world practice”. Importantly, register-based research covers all quantitative scientific disciplines, for example, Public Health, Sociology, Demography, Psychology, Statistics, Medical and Social Sciences, Health Economics etc. that use registers in research. Sweden has a long tradition of population-based registers, and the use of personal identity numbers allows linking between registers. Therefore, Sweden has the unique opportunity to use rich data from different population-registers for research aimed at better public health.
 
