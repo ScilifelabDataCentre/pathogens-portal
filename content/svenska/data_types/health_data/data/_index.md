@@ -19,10 +19,6 @@ type: data_table
 
 #### Data tillgängliga från svenska myndigheter och stora offentliga dataproducenter
 
-* [Svenska Intensivvårdsregistret](https://www.icuregswe.org/data--resultat/covid-19-i-svensk-intensivvard/): Statistik om inlagda till IVA i Sverige.
-
-* [Svenska Graviditetsregistret](https://www.medscinet.com/gr/default.aspx): Uppgifter gällande alla gravida och nyfödda barn till mödrar med säkerställd covid-19.
-
 * Folkhälsomyndigheten:
     * [Bekräftade fall i Sverige](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/bekraftade-fall-i-sverige): Officiell statistik om covid-19 fall och tester i Sverige.
     * [Statistik över förbrukade vaccindoser mot covid-19](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/vaccination-mot-covid-19/statistik/statistik-over-registrerade-vaccinationer-covid-19/): Officiell statistik om antalet vaccindoser som förbrukats.
@@ -39,7 +35,13 @@ type: data_table
 
 * [Register, Socialstyrelsen](https://www.socialstyrelsen.se/statistik-och-data/register/): Socialstyrelsen förvaltar en rad register för att kunna analysera och följa utvecklingen i hälso- och sjukvården samt socialtjänsten.
 
+* [Registerforskning](../register_based_research/): information, verktyg, exempel
+
 * [Metadata för nationella register - RUT](/sv/data_types/health_data/rut): Metadata för svenska nationella sjukvårdsregister.
+
+* [Svenska Intensivvårdsregistret](https://www.icuregswe.org/data--resultat/covid-19-i-svensk-intensivvard/): Statistik om inlagda till IVA i Sverige.
+
+* [Svenska Graviditetsregistret](https://www.medscinet.com/gr/default.aspx): Uppgifter gällande alla gravida och nyfödda barn till mödrar med säkerställd covid-19.
 
 * [SciLifeLab Autoimmunity and Serology profiling facility, statistik för SARS-CoV-2 antikroppstest](/sv/data_types/health_data/serology-statistics/): Uppdateras manuellt.
 

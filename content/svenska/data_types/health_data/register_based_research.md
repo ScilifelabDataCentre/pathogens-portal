@@ -1,11 +1,19 @@
 ---
 title: Registerforskning
 toc: true
+menu:
+    projects:
+        name: Registerforskning
+        identifier: register_based
+        weight: 50
+    footer_sections:
+        name: Registerforskning
+        weight: 70
 ---
 
 <div class="alert alert-info">
   <i class="fas fa-exclamation-triangle"></i>
-  <span>Svensk översättning av denna sida kommer inom kort.</span>
+  <span>En svensk översättning av denna sida kommer inom kort.</span>
 </div>
 
 The current pandemic has highlighted the importance of accelerating research in order to meet the global health challenge. Knowledge about COVID-19 has, over the last two years, rapidly increased through research studies, pre-clinical studies, clinical trials, and register-based studies using real-patient data.

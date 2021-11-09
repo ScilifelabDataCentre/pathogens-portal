@@ -1,6 +1,14 @@
 ---
 title: "Register-based research: information, tools, examples"
 toc: true
+menu:
+    projects:
+        name: Register-based research
+        identifier: register_based
+        weight: 50
+    footer_sections:
+        name: Register-based research
+        weight: 70
 ---
 
 The current pandemic has highlighted the importance of accelerating research in order to meet the global health challenge. Knowledge about COVID-19 has, over the last two years, rapidly increased through research studies, pre-clinical studies, clinical trials, and register-based studies using real-patient data.
