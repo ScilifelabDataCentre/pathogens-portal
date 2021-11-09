@@ -20,7 +20,7 @@
         "register_link_sv": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/patientregistret/"
       },
       {
-        "register_name_eng": "Cause of death",
+        "register_name_eng": "The Swedish Cause of Death Register",
         "register_link_eng": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/dodsorsaksregistret/",
         "register_name_sv": "Dödsorsaksregistret",
         "register_link_sv": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/dodsorsaksregistret/"
@@ -115,7 +115,7 @@
   {
     "registers_used": [
       {
-        "register_name_eng": "Sesar – Swedish sleep apnea registry- annual report 2019",
+        "register_name_eng": "The Swedish Sleep Apnea Register",
         "register_link_eng": "http://www.sesar.se/",
         "register_name_sv": "Svenska Sömnapnéregistret",
         "register_link_sv": "http://www.sesar.se/"
@@ -158,12 +158,6 @@
   },
   {
     "registers_used": [
-      {
-        "register_name_eng": "Data on total (adult and pediatric) COVID-19 infection rate and death rate from the Swedish Public Health Agency",
-        "register_link_eng": "https://www.folkhalsomyndigheten.se",
-        "register_name_sv": "",
-        "register_link_sv": ""
-      },
       {
         "register_name_eng": "The Swedish Intensive Care Registry",
         "register_link_eng": "https://www.icuregswe.org/en/",
@@ -382,7 +376,7 @@
         "register_link_sv": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/lakemedelsregistret//"
       },
       {
-        "register_name_eng": "Cause of death",
+        "register_name_eng": "The Swedish Cause of Death Register",
         "register_link_eng": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/dodsorsaksregistret/",
         "register_name_sv": "Dödsorsaksregistret",
         "register_link_sv": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/dodsorsaksregistret/"
@@ -440,45 +434,6 @@
         "issn-l": "1549-1277"
       },
       "doi": "10.1371/journal.pmed.1003820"
-      }
-  },
-  {
-    "registers_used": [
-      {
-        "register_name_eng": "Statistics Sweden: Population",
-        "register_link_eng": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/population/",
-        "register_name_sv": "",
-        "register_link_sv": ""
-      }
-    ],
-    "publication": {
-      "title": "Excess mortality from COVID-19: weekly excess death rates by age and sex for Sweden and its most affected region.",
-      "authors": [
-        {
-          "family": "Modig",
-          "given": "Karin",
-          "initials": "K"
-        },
-        {
-          "family": "Ahlbom",
-          "given": "Anders",
-          "initials": "A"
-        },
-        {
-          "family": "Ebeling",
-          "given": "Marcus",
-          "initials": "M"
-        }
-      ],
-      "journal": {
-        "title": "Eur J Public Health",
-        "issn": "1464-360X",
-        "issn-l": "1101-1262",
-        "volume": "31",
-        "issue": "1",
-        "pages": "17-22"
-      },
-      "doi": "10.1093/eurpub/ckaa218"
       }
   },
   {

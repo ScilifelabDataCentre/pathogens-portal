@@ -5,7 +5,7 @@ toc: true
 
 The current pandemic has highlighted the importance of accelerating research in order to meet the global health challenge. Knowledge about COVID-19 has, over the last two years, rapidly increased through research studies, pre-clinical studies, clinical trials, and register-based studies using real-patient data.
 
-**Register-based data** can contribute with important real-patient data aspects to research and add a new dimension to the field. Linking register-based data, clinical data, and biobank samples can give insights into not yet not elucidated parts of COVID-19 disease urgently warranted. To facilitate register-based research, on this page we provide information, guidelines, and tools to support.
+[**Register-based data**](https://www.registerforskning.se/en/registers-in-sweden/) can contribute with important real-patient data aspects to research and add a new dimension to the field. Linking register-based data, clinical data, and biobank samples can give insights into not yet not elucidated parts of COVID-19 disease urgently warranted. To facilitate register-based research, on this page we provide information, guidelines, and tools to support.
 
 ## Subset of useful registers
 
@@ -22,7 +22,7 @@ The table below is an overview of a number of different national public authorit
     <tbody>
       <tr>
         <td><a href="https://www.socialstyrelsen.se/en/National">National Board of Health and Welfare</a></td>
-        <td><a href="https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/dodsorsaksregistret/">Cause of death</a></td>
+        <td><a href="https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/dodsorsaksregistret/">The Swedish Cause of Death Register</a></td>
       </tr>
       <tr>
         <td><a href="https://www.socialstyrelsen.se/en/National">National Board of Health and Welfare</a></td>
