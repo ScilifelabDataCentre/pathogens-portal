@@ -837,12 +837,13 @@
     "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
     "project_title_eng": "COVID-19 – a population-based project of ICU patients",
     "area_eng": "Data-driven research models and AI",
-    "pi": "Emma Larsson (will be combined with project below)",
+    "pi": "Emma Larsson",
     "pi_affiliation_eng": "Karolinska Institute",
     "pi_affiliation_sv": "Karolinska Institutet",
     "start": "2020",
     "end": "2021",
-    "url_eng": "https://www.scilifelab.se/covid-19/national-program/data/"
+    "url_eng": "https://www.scilifelab.se/covid-19/national-program/data/",
+    "register_based": "true"
   },
   {
     "funder": "kaw",
@@ -850,12 +851,13 @@
     "funder_sv": "SciLifeLab / Knut och Alice Wallenbergs Stiftelse",
     "project_title_eng": "Characterization of ICU treated COVID patients in Sweden",
     "area_eng": "Data-driven research models and AI",
-    "pi": "Jonathan Grip (will be combined with project above)",
+    "pi": "Jonathan Grip",
     "pi_affiliation_eng": "Karolinska Institute",
     "pi_affiliation_sv": "Karolinska Institutet",
     "start": "2020",
     "end": "2021",
-    "url_eng": "https://www.scilifelab.se/covid-19/national-program/data/"
+    "url_eng": "https://www.scilifelab.se/covid-19/national-program/data/",
+    "register_based": "true"
   },
   {
     "funder": "kaw",
@@ -933,7 +935,8 @@
     "pi_affiliation_sv": "Göteborgs universitet",
     "start": "2021",
     "end": "2022",
-    "url_eng": "https://www.gu.se/en/research/recovac"
+    "url_eng": "https://www.gu.se/en/research/recovac",
+    "register_based": "true"
   },
   {
     "funder": "kaw",
@@ -1339,7 +1342,8 @@
     "start": "2020-08-01",
     "end": "2020-12-31",
     "url_sv": "https://www.swecris.se/betasearch/details/project/202005850VR",
-    "url_eng": "https://www.swecris.se/betasearch/details/project/202005850VR?lang=en"
+    "url_eng": "https://www.swecris.se/betasearch/details/project/202005850VR?lang=en",
+    "register_based": "true"
   },
   {
     "funder": "vr",
@@ -1387,7 +1391,8 @@
     "start": "2020-08-01",
     "end": "2020-12-31",
     "url_sv": "https://www.swecris.se/betasearch/details/project/202005931VR",
-    "url_eng": "https://www.swecris.se/betasearch/details/project/202005931VR?lang=en"
+    "url_eng": "https://www.swecris.se/betasearch/details/project/202005931VR?lang=en",
+    "register_based": "true"
   },
   {
     "funder": "vr",
@@ -1403,7 +1408,8 @@
     "start": "2020-08-01",
     "end": "2020-12-31",
     "url_sv": "https://www.swecris.se/betasearch/details/project/202005805VR",
-    "url_eng": "https://www.swecris.se/betasearch/details/project/202005805VR?lang=en"
+    "url_eng": "https://www.swecris.se/betasearch/details/project/202005805VR?lang=en",
+    "register_based": "true"
   },
   {
     "funder": "vr",
@@ -1531,7 +1537,8 @@
     "start": "2020-08-01",
     "end": "2020-12-31",
     "url_sv": "https://www.swecris.se/betasearch/details/project/202005792VR",
-    "url_eng": "https://www.swecris.se/betasearch/details/project/202005792VR?lang=en"
+    "url_eng": "https://www.swecris.se/betasearch/details/project/202005792VR?lang=en",
+    "register_based": "true"
   },
   {
     "funder": "vr",
@@ -1611,7 +1618,8 @@
     "start": "2020-08-01",
     "end": "2020-12-31",
     "url_sv": "https://www.swecris.se/betasearch/details/project/202005866VR",
-    "url_eng": "https://www.swecris.se/betasearch/details/project/202005866VR?lang=en"
+    "url_eng": "https://www.swecris.se/betasearch/details/project/202005866VR?lang=en",
+    "register_based": "true"
   },
   {
     "funder": "vr",
@@ -1857,7 +1865,8 @@
     "start": "2020",
     "end": "2022",
     "url_sv": "https://www.nordforsk.org/sv/projects/addressing-smoking-paradox-etiology-covid-19-through-population-based-studies-tobrisk-cov",
-    "url_eng": "https://www.nordforsk.org/projects/addressing-smoking-paradox-etiology-covid-19-through-population-based-studies-tobrisk-cov"
+    "url_eng": "https://www.nordforsk.org/projects/addressing-smoking-paradox-etiology-covid-19-through-population-based-studies-tobrisk-cov",
+    "register_based": "true"
   },
   {
     "funder": "nordforsk",
@@ -2060,7 +2069,8 @@
     "pi_affiliation_eng": "Umeå University; Sunderby hospital",
     "pi_affiliation_sv": "Umeå universitet; Sunderbyns sjukhus",
     "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/",
-    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/"
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/",
+    "register_based": "true"
   },
   {
     "funder": "hlf",
@@ -2168,7 +2178,8 @@
     "pi_affiliation_eng": "Karolinska University Hospital",
     "pi_affiliation_sv": "Karolinska Universitetssjukhuset",
     "url_eng": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/",
-    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/"
+    "url_sv": "https://www.hjart-lungfonden.se/covid19/pagaende-forskning/lunga/",
+    "register_based": "true"
   },
   {
     "funder": "hlf",
@@ -2298,7 +2309,8 @@
     "project_title_sv": "Risk, insjuknande och komplikationer av COVID-19 hos hjärt-kärl- och lungsjuka –longitudinell nationell registerstudie med regelbunden datauppdatering",
     "pi": "Fredrik Nyberg",
     "pi_affiliation_eng": "Gothenburg",
-    "pi_affiliation_sv": "Göteborg"
+    "pi_affiliation_sv": "Göteborg",
+    "register_based": "true"
   },
   {
     "funder": "hlf",
@@ -2318,7 +2330,8 @@
     "project_title_sv": "COVID-19 i Västsverige: långtidsuppföljning av hjärt- och lunghälsa med kliniska undersökningar och via register",
     "pi": "Hannu Kankaanranta",
     "pi_affiliation_eng": "Gothenburg",
-    "pi_affiliation_sv": "Göteborg"
+    "pi_affiliation_sv": "Göteborg",
+    "register_based": "true"
   },
   {
     "funder": "hlf",
@@ -2615,7 +2628,8 @@
     "pi_affiliation_eng": "Karolinska Institute",
     "pi_affiliation_sv": "Karolinska Institutet",
     "url_eng": "https://www.vr.se/english/just-now/news/news-archive/2021-06-14-100-million-sek-for-follow-up-studies-of-covid-19-vaccines.html",
-    "url_sv": "https://www.vr.se/aktuellt/nyheter/nyhetsarkiv/2021-06-14-100-miljoner-till-uppfoljningsstudier-av-covid-19-vacciner.html"
+    "url_sv": "https://www.vr.se/aktuellt/nyheter/nyhetsarkiv/2021-06-14-100-miljoner-till-uppfoljningsstudier-av-covid-19-vacciner.html",
+    "register_based": "true"
   },
   {
     "funder": "vr",
@@ -2627,7 +2641,8 @@
     "pi_affiliation_eng": "University of Gothenburg",
     "pi_affiliation_sv": "Göteborgs universitet",
     "url_eng": "https://www.vr.se/english/just-now/news/news-archive/2021-06-14-100-million-sek-for-follow-up-studies-of-covid-19-vaccines.html",
-    "url_sv": "https://www.vr.se/aktuellt/nyheter/nyhetsarkiv/2021-06-14-100-miljoner-till-uppfoljningsstudier-av-covid-19-vacciner.html"
+    "url_sv": "https://www.vr.se/aktuellt/nyheter/nyhetsarkiv/2021-06-14-100-miljoner-till-uppfoljningsstudier-av-covid-19-vacciner.html",
+    "register_based": "true"
   },
   {
     "funder": "vr",
@@ -2639,7 +2654,8 @@
     "pi_affiliation_eng": "Karolinska Institute",
     "pi_affiliation_sv": "Karolinska Institutet",
     "url_eng": "https://www.vr.se/english/just-now/news/news-archive/2021-06-14-100-million-sek-for-follow-up-studies-of-covid-19-vaccines.html",
-    "url_sv": "https://www.vr.se/aktuellt/nyheter/nyhetsarkiv/2021-06-14-100-miljoner-till-uppfoljningsstudier-av-covid-19-vacciner.html"
+    "url_sv": "https://www.vr.se/aktuellt/nyheter/nyhetsarkiv/2021-06-14-100-miljoner-till-uppfoljningsstudier-av-covid-19-vacciner.html",
+    "register_based": "true"
   },
   {
     "funder": "vr",
@@ -2999,7 +3015,8 @@
     "start": "2021",
     "end": "2023",
     "url_eng": "https://www.vr.se/swecris.html#/project/20200564_HLF",
-    "url_sv": "https://www.vr.se/swecris.html#/project/20200564_HLF"
+    "url_sv": "https://www.vr.se/swecris.html#/project/20200564_HLF",
+    "register_based": "true"
   },
   {
     "funder": "hlf",
@@ -3198,5 +3215,131 @@
     "url_eng": "https://www.forsakringskassan.se/privatpers/!ut/p/z1/dYzBCsIwEES_ptfs1lYp3kKFShVUPLTuRVqJaTFmSxoN-PUWPAk6tze8GSCogWzz7HXje7aNmfhEi3O6XuVxkeMmK5I5ysM-TtLdrCyPCBUQ0KTgn0iEEkgbbj9v0rZJpoGcuiqnnHi4qe68H8ZlhBGGEIRm1kaJC98j_DXpePRQf5sw3Oxrqyr5Bi1D5sU!/?1dmy&mapping=%2Fprivatpers%2Fnyhetsarkiv&urile=wcm%3apath%3a%2FContentSE_Responsive%2Fnyheter%2Fnyhet-stod-till-forskning-om-covid-19-och-psykisk-ohalsa",
     "url_sv": "https://www.forsakringskassan.se/privatpers/!ut/p/z1/dYzBCsIwEES_ptfs1lYp3kKFShVUPLTuRVqJaTFmSxoN-PUWPAk6tze8GSCogWzz7HXje7aNmfhEi3O6XuVxkeMmK5I5ysM-TtLdrCyPCBUQ0KTgn0iEEkgbbj9v0rZJpoGcuiqnnHi4qe68H8ZlhBGGEIRm1kaJC98j_DXpePRQf5sw3Oxrqyr5Bi1D5sU!/?1dmy&mapping=%2Fprivatpers%2Fnyhetsarkiv&urile=wcm%3apath%3a%2FContentSE_Responsive%2Fnyheter%2Fnyhet-stod-till-forskning-om-covid-19-och-psykisk-ohalsa",
     "post_covid": "true"
-  }
+  },
+  {
+    "funder": "vr",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+    "project_title_eng": "Rädda nyfödda och mödrar liv i avlägsna ambition distrikt i samband med Covid-19 i Indien",
+    "project_title_sv": "Rädda nyfödda och mödrar liv i avlägsna ambition distrikt i samband med Covid-19 i Indien",
+    "pi": "Salla Atkins",
+    "pi_affiliation_eng": "Karolinska Institutet",
+    "pi_affiliation_sv": "Karolinska institutet",
+    "start": "2021",
+    "end": "2023",
+    "url_sv": "https://www.vr.se/english/applying-for-funding/decisions/2021-08-25-medicine-and-health.html",
+    "url_eng": "https://www.vr.se/english/applying-for-funding/decisions/2021-08-25-medicine-and-health.html"
+  },
+  {
+    "funder": "vr",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+    "project_title_eng": "Studier av de mest utsatta i COVID-19 pandemin: äldre personers riskprofiler, läkemedel, långsiktiga konsevenser och vaccination i stora registerdata",
+    "project_title_sv": "Studier av de mest utsatta i COVID-19 pandemin: äldre personers riskprofiler, läkemedel, långsiktiga konsevenser och vaccination i stora registerdata",
+    "pi": "Kristina Johnell",
+    "pi_affiliation_eng": "Karolinska Institutet",
+    "pi_affiliation_sv": "Karolinska institutet",
+    "start": "2021",
+    "end": "2024",
+    "url_sv": "https://www.vr.se/english/applying-for-funding/decisions/2021-08-25-medicine-and-health.html",
+    "url_eng": "https://www.vr.se/english/applying-for-funding/decisions/2021-08-25-medicine-and-health.html"
+  },
+  {
+    "funder": "vr",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+    "project_title_eng": "Sexuell och reproduktiv hälsa och rättigheter för unga: hur påverkas vårdens tillgänglighet, innehåll och kvalitet av digitaliseringen av hälso- och sjukvården under covid-19 pandemin? ",
+    "project_title_sv": "Sexuell och reproduktiv hälsa och rättigheter för unga: hur påverkas vårdens tillgänglighet, innehåll och kvalitet av digitaliseringen av hälso- och sjukvården under covid-19 pandemin? ",
+    "pi": "Kyriaki Kosidou",
+    "pi_affiliation_eng": "Karolinska Institutet",
+    "pi_affiliation_sv": "Karolinska institutet",
+    "start": "2021",
+    "end": "2024",
+    "url_sv": "https://www.vr.se/english/applying-for-funding/decisions/2021-08-25-medicine-and-health.html",
+    "url_eng": "https://www.vr.se/english/applying-for-funding/decisions/2021-08-25-medicine-and-health.html"
+  },
+  {
+    "funder": "vr",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+    "project_title_eng": "Sexuell och reproduktiv hälsa och rättigheter för unga: hur påverkas vårdens tillgänglighet, innehåll och kvalitet av digitaliseringen av hälso- och sjukvården under covid-19 pandemin? ",
+    "project_title_sv": "Sexuell och reproduktiv hälsa och rättigheter för unga: hur påverkas vårdens tillgänglighet, innehåll och kvalitet av digitaliseringen av hälso- och sjukvården under covid-19 pandemin? ",
+    "pi": "Kyriaki Kosidou",
+    "pi_affiliation_eng": "Karolinska Institutet",
+    "pi_affiliation_sv": "Karolinska institutet",
+    "start": "2021",
+    "end": "2023",
+    "url_sv": "https://www.vr.se/english/applying-for-funding/decisions/2021-08-25-medicine-and-health.html",
+    "url_eng": "https://www.vr.se/english/applying-for-funding/decisions/2021-08-25-medicine-and-health.html"
+  },
+  {
+    "funder": "vr",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+    "project_title_eng": "MEKANISTISKA STUDIER AV DET INTRAVASKULÄRA MEDFÖDDA IMMUNSYSTEMET (IIIS) VID COVID19 OCH ARDS AV ANNAN ORSAK",
+    "project_title_sv": "MEKANISTISKA STUDIER AV DET INTRAVASKULÄRA MEDFÖDDA IMMUNSYSTEMET (IIIS) VID COVID19 OCH ARDS AV ANNAN ORSAK",
+    "pi": "Bo Nilsson",
+    "pi_affiliation_eng": "Uppsala University",
+    "pi_affiliation_sv": "Uppsala universitet",
+    "start": "2021",
+    "end": "2024",
+    "url_sv": "https://www.vr.se/english/applying-for-funding/decisions/2021-08-25-medicine-and-health.html",
+    "url_eng": "https://www.vr.se/english/applying-for-funding/decisions/2021-08-25-medicine-and-health.html"
+  },
+  {
+    "funder": "vr",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+    "project_title_eng": "Rollen för MAIT celler i COVID-19 immunpatogenes och mRNA vaccin responsen",
+    "project_title_sv": "Rollen för MAIT celler i COVID-19 immunpatogenes och mRNA vaccin responsen",
+    "pi": "Johan Sanberg",
+    "pi_affiliation_eng": "Karolinska Institutet",
+    "pi_affiliation_sv": "Karolinska institutet",
+    "start": "2021",
+    "end": "2023",
+    "url_sv": "https://www.vr.se/english/applying-for-funding/decisions/2021-08-25-medicine-and-health.html",
+    "url_eng": "https://www.vr.se/english/applying-for-funding/decisions/2021-08-25-medicine-and-health.html"
+  },
+  {
+    "funder": "vr",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+    "project_title_eng": "Avgörande faktorer för mikrobiotans utveckling och koppling till allergi-risk under barndomen före och under COVID-19 pandemin",
+    "project_title_sv": "Avgörande faktorer för mikrobiotans utveckling och koppling till allergi-risk under barndomen före och under COVID-19 pandemin",
+    "pi": "Christina West",
+    "pi_affiliation_eng": "Umeå University",
+    "pi_affiliation_sv": "Umeå universitet",
+    "start": "2021",
+    "end": "2023",
+    "url_sv": "https://www.vr.se/english/applying-for-funding/decisions/2021-08-25-medicine-and-health.html",
+    "url_eng": "https://www.vr.se/english/applying-for-funding/decisions/2021-08-25-medicine-and-health.html"
+  },
+  {
+    "funder": "vr",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+    "project_title_eng": "Ultra-snabb identifiering av inhibitorer av SARS-CoV-2 för utveckling av antivirala läkemedel",
+    "project_title_sv": "Ultra-snabb identifiering av inhibitorer av SARS-CoV-2 för utveckling av antivirala läkemedel",
+    "pi": "Jens Carlsson",
+    "pi_affiliation_eng": "Uppsala University",
+    "pi_affiliation_sv": "Uppsala universitet",
+    "start": "2021",
+    "end": "2023",
+    "url_sv": "https://www.vr.se/english/applying-for-funding/decisions/2021-08-25-medicine-and-health.html",
+    "url_eng": "https://www.vr.se/english/applying-for-funding/decisions/2021-08-25-medicine-and-health.html"
+  },
+  {
+    "funder": "vr",
+    "funder_eng": "Swedish Research Council",
+    "funder_sv": "Vetenskapsrådet",
+    "project_title_eng": "Biomimetiska SARS-CoV-2-receptorer som värdcellsmodeller, diagnostiska verktyg och för antiviral forskning",
+    "project_title_sv": "Biomimetiska SARS-CoV-2-receptorer som värdcellsmodeller, diagnostiska verktyg och för antiviral forskning",
+    "pi": "Börje Sellergren",
+    "pi_affiliation_eng": "Malmö University",
+    "pi_affiliation_sv": "Malmö universitet",
+    "start": "2021",
+    "end": "2023",
+    "url_sv": "https://www.vr.se/english/applying-for-funding/decisions/2021-08-25-medicine-and-health.html",
+    "url_eng": "https://www.vr.se/english/applying-for-funding/decisions/2021-08-25-medicine-and-health.html"
+  }  
 ]

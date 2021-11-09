@@ -130,7 +130,7 @@ The below plots show the number of times that patients given one of the diagnose
 
 Below is a manually curated overview of research projects on *Post COVID-19 condition* that are funded by major funding agencies in Sweden. As it is manually curated, the list may not be exhaustive and new projects will be added as soon as possible. If you think that your project should be listed here but isn’t, please [get in touch with us](/contact/). For a list of all research projects funded by major funding agencies in Sweden [see this section of the portal](/projects/ongoing/).
 
-{{< postcovid_projects >}}
+{{< display_funded_projects filter_variable="post_covid" >}}
 
 <!-- ## Available data -->
 
