@@ -1,0 +1,517 @@
+[
+  {
+    "registers_used": [
+      {
+        "register_name_eng": "The Swedish National Airway Register",
+        "register_link_eng": "https://lvr.registercentrum.se/in-english/the-swedish-national-airway-register/p/HJAjrgGPD",
+        "register_name_sv": "Luftvägsregistret",
+        "register_link_sv": "https://lvr.registercentrum.se"
+      },
+      {
+        "register_name_eng": "The Swedish Prescribed Drug Register",
+        "register_link_eng": "https://www.socialstyrelsen.se/en/statistics-and-data/registers/register-information/the-swedish-prescribed-drug-register/",
+        "register_name_sv": "Läkemedelsregistret",
+        "register_link_sv": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/lakemedelsregistret//"
+      },
+      {
+        "register_name_eng": "The National Patient Register",
+        "register_link_eng": "https://www.socialstyrelsen.se/en/statistics-and-data/registers/register-information/the-national-patient-register/",
+        "register_name_sv": "Patientregistret",
+        "register_link_sv": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/patientregistret/"
+      },
+      {
+        "register_name_eng": "The Swedish Cause of Death Register",
+        "register_link_eng": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/dodsorsaksregistret/",
+        "register_name_sv": "Dödsorsaksregistret",
+        "register_link_sv": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/dodsorsaksregistret/"
+      },
+      {
+        "register_name_eng": "Statistics Sweden: Health and medical care",
+        "register_link_eng": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/health-and-medical-care/",
+        "register_name_sv": "",
+        "register_link_sv": ""
+      }
+    ],
+    "publication": {
+        "title": "Predictors of severe COVID-19 in a registry-based Swedish cohort of patients with chronic obstructive pulmonary disease (COPD)",
+        "authors": [
+          {
+            "family": "Stridsman",
+            "given": "Caroline",
+            "initials": "C"
+          },
+          {
+            "family": "Vanfleteren",
+            "given": "Lowie E G W",
+            "initials": "LEGW"
+          },
+          {
+            "family": "Konradsen",
+            "given": "Jon R",
+            "initials": "JR"
+          },
+          {
+            "family": "Axelsson Fisk",
+            "given": "Sten",
+            "initials": "S"
+          },
+          {
+            "family": "Pedroletti",
+            "given": "Christophe",
+            "initials": "C"
+          },
+          {
+            "family": "Sjöö",
+            "given": "Yvonne",
+            "initials": "Y"
+          },
+          {
+            "family": "Syk",
+            "given": "Jörgen",
+            "initials": "J"
+          },
+          {
+            "family": "Sterner",
+            "given": "Therese",
+            "initials": "T"
+          },
+          {
+            "family": "Lindberg",
+            "given": "Anne",
+            "initials": "A"
+          },
+          {
+            "family": "Tunsäter",
+            "given": "Alf",
+            "initials": "A"
+          },
+          {
+            "family": "Nyberg",
+            "given": "Fredrik",
+            "initials": "F"
+          },
+          {
+            "family": "Ekberg-Jansson",
+            "given": "Ann",
+            "initials": "A"
+          },
+          {
+            "family": "Karlsson Sundbaum",
+            "given": "Johanna",
+            "initials": "J"
+          }
+        ],
+        "journal": {
+          "title": "Eur Respir J",
+          "issn": "0903-1936",
+          "issn-l": null,
+          "volume": null,
+          "issue": null,
+          "pages": "2101920"
+        },
+        "doi": "10.1183/13993003.01920-2021"
+      }
+  },
+  {
+    "registers_used": [
+      {
+        "register_name_eng": "The Swedish Sleep Apnea Register",
+        "register_link_eng": "http://www.sesar.se/",
+        "register_name_sv": "Svenska Sömnapnéregistret",
+        "register_link_sv": "http://www.sesar.se/"
+      }
+    ],
+    "publication": {
+      "title": "Prolonged Effects of the COVID-19 Pandemic on Sleep Medicine Services-Longitudinal Data from the Swedish Sleep Apnea Registry.",
+      "authors": [
+        {
+          "family": "Grote",
+          "given": "Ludger",
+          "initials": "L"
+        },
+        {
+          "family": "Theorell-Haglöw",
+          "given": "Jenny",
+          "initials": "J"
+        },
+        {
+          "family": "Ulander",
+          "given": "Martin",
+          "initials": "M"
+        },
+        {
+          "family": "Hedner",
+          "given": "Jan",
+          "initials": "J"
+        }
+      ],
+      "journal": {
+        "title": "Sleep Med Clin",
+        "issn": "1556-4088",
+        "volume": "16",
+        "issue": "3",
+        "pages": "409-416",
+        "issn-l": null
+      },
+      "doi": "10.1016/j.jsmc.2021.05.008"
+      }
+  },
+  {
+    "registers_used": [
+      {
+        "register_name_eng": "The Swedish Intensive Care Registry",
+        "register_link_eng": "https://www.icuregswe.org/en/",
+        "register_name_sv": "Svenska Intensivvårdsregistret",
+        "register_link_sv": "http://www.icuregswe.org"
+      }
+    ],
+    "publication": {
+      "title": "The Covid-19 pandemic first wave in Sweden: a national registry study of the effects on pediatric anesthesia and surgery.",
+      "authors": [
+        {
+          "family": "Melander",
+          "given": "Sixten",
+          "initials": "S"
+        },
+        {
+          "family": "Almström",
+          "given": "Jimmy",
+          "initials": "J"
+        },
+        {
+          "family": "Enlund",
+          "given": "Gunnar",
+          "initials": "G"
+        },
+        {
+          "family": "Frykholm",
+          "given": "Peter",
+          "initials": "P"
+        }
+      ],
+      "journal": {
+        "title": "Paediatr Anaesth",
+        "issn": "1460-9592",
+        "volume": null,
+        "issue": null,
+        "issn-l": null
+      },
+      "doi": "10.1111/pan.14203"
+      }
+  },
+  {
+    "registers_used": [
+      {
+        "register_name_eng": "National Quality Registry for Cardiopulmonary Resuscitation",
+        "register_link_eng": "https://shlr.registercentrum.se",
+        "register_name_sv": "Svenska Hjärt- och lungräddningsregistret",
+        "register_link_sv": "https://shlr.registercentrum.se"
+      }
+    ],
+    "publication": {
+      "title": "Cardiac arrest in COVID-19: characteristics and outcomes of in- and out-of-hospital cardiac arrest. A report from the Swedish Registry for Cardiopulmonary Resuscitation",
+      "authors": [
+        {
+          "family": "Sultanian",
+          "given": "Pedram",
+          "initials": "P"
+        },
+        {
+          "family": "Lundgren",
+          "given": "Peter",
+          "initials": "P"
+        },
+        {
+          "family": "Strömsöe",
+          "given": "Anneli",
+          "initials": "A"
+        },
+        {
+          "family": "Aune",
+          "given": "Solveig",
+          "initials": "S"
+        },
+        {
+          "family": "Bergström",
+          "given": "Göran",
+          "initials": "G"
+        },
+        {
+          "family": "Hagberg",
+          "given": "Eva",
+          "initials": "E"
+        },
+        {
+          "family": "Hollenberg",
+          "given": "Jacob",
+          "initials": "J"
+        },
+        {
+          "family": "Lindqvist",
+          "given": "Jonny",
+          "initials": "J"
+        },
+        {
+          "family": "Djärv",
+          "given": "Therese",
+          "initials": "T"
+        },
+        {
+          "family": "Castelheim",
+          "given": "Albert",
+          "initials": "A"
+        },
+        {
+          "family": "Thorén",
+          "given": "Anna",
+          "initials": "A"
+        },
+        {
+          "family": "Hessulf",
+          "given": "Fredrik",
+          "initials": "F"
+        },
+        {
+          "family": "Svensson",
+          "given": "Leif",
+          "initials": "L"
+        },
+        {
+          "family": "Claesson",
+          "given": "Andreas",
+          "initials": "A"
+        },
+        {
+          "family": "Friberg",
+          "given": "Hans",
+          "initials": "H"
+        },
+        {
+          "family": "Nordberg",
+          "given": "Per",
+          "initials": "P"
+        },
+        {
+          "family": "Omerovic",
+          "given": "Elmir",
+          "initials": "E"
+        },
+        {
+          "family": "Rosengren",
+          "given": "Annika",
+          "initials": "A"
+        },
+        {
+          "family": "Herlitz",
+          "given": "Johan",
+          "initials": "J"
+        },
+        {
+          "family": "Rawshani",
+          "given": "Araz",
+          "initials": "A"
+        }
+      ],
+      "journal": {
+        "title": "Eur Heart J",
+        "issn": "0195-668X",
+        "issn-l": null,
+        "volume": "42",
+        "issue": "11",
+        "pages": "1094-1106"
+      },
+      "doi": "10.1093/eurheartj/ehaa1067"
+      }
+  },
+  {
+    "registers_used": [
+      {
+        "register_name_eng": "The National Patient Register",
+        "register_link_eng": "https://www.socialstyrelsen.se/en/statistics-and-data/registers/register-information/the-national-patient-register/",
+        "register_name_sv": "Patientregistret",
+        "register_link_sv": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/patientregistret/"
+      }
+    ],
+    "publication": {
+      "title": "Association between Renin-Angiotensin-Aldosterone system inhibitor use and COVID-19 Hospitalization and death: A 1,4 million patient Nation-Wide registry analysis.",
+      "authors": [
+        {
+          "family": "Savarese",
+          "given": "Gianluigi",
+          "initials": "G"
+        },
+        {
+          "family": "Benson",
+          "given": "Lina",
+          "initials": "L"
+        },
+        {
+          "family": "Sundström",
+          "given": "Johan",
+          "initials": "J"
+        },
+        {
+          "family": "Lund",
+          "given": "Lars H",
+          "initials": "LH"
+        }
+      ],
+      "journal": {
+        "title": "Eur J Heart Fail",
+        "issn": "1879-0844",
+        "issn-l": "1388-9842",
+        "volume": null,
+        "issue": null,
+        "pages": null
+      },
+      "doi": "10.1002/ejhf.2060"
+      }
+  },
+  {
+    "registers_used": [
+      {
+        "register_name_eng": "The Swedish Prescribed Drug Register",
+        "register_link_eng": "https://www.socialstyrelsen.se/en/statistics-and-data/registers/register-information/the-swedish-prescribed-drug-register/",
+        "register_name_sv": "Läkemedelsregistret",
+        "register_link_sv": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/lakemedelsregistret//"
+      },
+      {
+        "register_name_eng": "The Swedish Cause of Death Register",
+        "register_link_eng": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/dodsorsaksregistret/",
+        "register_name_sv": "Dödsorsaksregistret",
+        "register_link_sv": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/dodsorsaksregistret/"
+      }
+    ],
+    "publication": {
+      "title": "HMG-CoA reductase inhibitors and COVID-19 mortality in Stockholm, Sweden: A registry-based cohort study.",
+      "authors": [
+        {
+          "family": "Bergqvist",
+          "given": "Rita",
+          "initials": "R"
+        },
+        {
+          "family": "Ahlqvist",
+          "given": "Viktor H",
+          "initials": "VH",
+          "orcid": "0000-0003-1383-3194"
+        },
+        {
+          "family": "Lundberg",
+          "given": "Michael",
+          "initials": "M"
+        },
+        {
+          "family": "Hergens",
+          "given": "Maria-Pia",
+          "initials": "MP",
+          "orcid": "0000-0001-5397-3541"
+        },
+        {
+          "family": "Sundström",
+          "given": "Johan",
+          "initials": "J",
+          "orcid": "0000-0003-2247-8454"
+        },
+        {
+          "family": "Bell",
+          "given": "Max",
+          "initials": "M",
+          "orcid": "0000-0001-7464-0324"
+        },
+        {
+          "family": "Magnusson",
+          "given": "Cecilia",
+          "initials": "C"
+        }
+      ],
+      "journal": {
+        "title": "PLoS Med",
+        "issn": "1549-1676",
+        "volume": "18",
+        "issue": "10",
+        "pages": "e1003820",
+        "issn-l": "1549-1277"
+      },
+      "doi": "10.1371/journal.pmed.1003820"
+      }
+  },
+  {
+    "registers_used": [
+      {
+        "register_name_eng": "The National Patient Register",
+        "register_link_eng": "https://www.socialstyrelsen.se/en/statistics-and-data/registers/register-information/the-national-patient-register/",
+        "register_name_sv": "Patientregistret",
+        "register_link_sv": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/patientregistret/"
+      },
+      {
+        "register_name_eng": "Total Population Register",
+        "register_link_eng": "https://www.registerforskning.se/sv/register/familjer-i-rikets-totalbefolkning-rtb/",
+        "register_name_sv": "Register över totalbefolkningen",
+        "register_link_sv": "https://www.registerforskning.se/sv/register/familjer-i-rikets-totalbefolkning-rtb/"
+      },
+      {
+        "register_name_eng": "The Swedish Cancer Register",
+        "register_link_eng": "https://www.socialstyrelsen.se/en/statistics-and-data/registers/register-information/swedish-cancer-register/",
+        "register_name_sv": "Cancerregistret",
+        "register_link_sv": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/cancerregistret/"
+      },
+      {
+        "register_name_eng": "The Swedish Prescribed Drug Register",
+        "register_link_eng": "https://www.socialstyrelsen.se/en/statistics-and-data/registers/register-information/the-swedish-prescribed-drug-register/",
+        "register_name_sv": "Läkemedelsregistret",
+        "register_link_sv": "https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/lakemedelsregistret//"
+      }
+    ],
+    "publication": {
+      "title": "Burden and prevalence of prognostic factors for severe COVID-19 in Sweden.",
+      "authors": [
+        {
+          "family": "Gémes",
+          "given": "Katalin",
+          "initials": "K"
+        },
+        {
+          "family": "Talbäck",
+          "given": "Mats",
+          "initials": "M"
+        },
+        {
+          "family": "Modig",
+          "given": "Karin",
+          "initials": "K"
+        },
+        {
+          "family": "Ahlbom",
+          "given": "Anders",
+          "initials": "A"
+        },
+        {
+          "family": "Berglund",
+          "given": "Anita",
+          "initials": "A"
+        },
+        {
+          "family": "Feychting",
+          "given": "Maria",
+          "initials": "M"
+        },
+        {
+          "family": "Matthews",
+          "given": "Anthony A",
+          "initials": "AA",
+          "orcid": "0000-0002-1290-271X"
+        }
+      ],
+      "journal": {
+        "title": "Eur J Epidemiol",
+        "issn": "1573-7284",
+        "issn-l": "0393-2990",
+        "volume": "35",
+        "issue": "5",
+        "pages": "401-409"
+      },
+      "doi": "10.1007/s10654-020-00646-z"
+      }
+  }
+]
