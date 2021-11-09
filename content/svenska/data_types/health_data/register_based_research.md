@@ -141,4 +141,4 @@ The [Swedish Research Council](https://www.vr.se) also operates [the Register Ut
 
 In summary, the RUT tool that makes the metadata searchable and contributes to making the registered registers more FAIR (**F**indable, **A**ccessible, **I**nteroperable and **R**eusable, for more information about FAIR see [here](https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/fair_principles.html)). Note that though the tool is free of charge you need to use an email connected to a research institution, or to an authority or organization that holds registers to set up a <a href="https://rut.registerforskning.se/logga-in/">RUT account.</a>
 
-*Note: Most of the information in this section is courtesy of [registerforskning.se](https://registerforskning.se) and [vr.se](https://vr.se).*
+*Note: The information on this webpage is primarily based on available information from [registerforskning.se](https://registerforskning.se) and [vr.se](https://vr.se).*
