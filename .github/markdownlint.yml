@@ -31,3 +31,9 @@ no-inline-html:
     - sup
     - figcaption
     - iframe
+    - table
+    - thead
+    - tr
+    - th
+    - tbody
+    - td
