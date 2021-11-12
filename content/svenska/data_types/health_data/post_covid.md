@@ -16,7 +16,7 @@ För mer information om postcovid i Sverige, se följande [avsnitt](https://www.
 
 ## Tillgängliga data
 
-<div class="alert alert-info">Senaste uppdatering: 15.10.2021</div>
+<div class="alert alert-info">Senaste uppdatering: {{% postcovid_date_modified %}}</div>
 
 Alla data som presenteras här finns tillgängliga för nedladdning från [Socialstyrelsen](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/) och bygger på data från Patientregistret [Patientregistret](https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/patientregistret/) och [Dödsorsaksregistret](https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/dodsorsaksregistret/). Data uppdateras varje månad, den andra onsdagen i månaden och finns tillgängliga [här](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/). Forskare kan ansöka om tillgänglighet till ytterligare data via RUT (Register Utiliser Tool) om deras projekt uppfyller kraven för åtkomst. Riktlinjerna finns [här](https://bestalladata.socialstyrelsen.se/data-for-forskning/) last.
 
