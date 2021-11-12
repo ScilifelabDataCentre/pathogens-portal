@@ -19,8 +19,8 @@ SciLifeLab Data Centre will participate in work package 4 (WP4) and contribute t
 BY-COVID will not only focus on technical solutions but strives to simplify data access and reuse. The project is built on four “pillars”:
 
 - **Mobilise data** and thereby ensure that submitting raw sequences to core data hubs (e.g., the [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/), [Federated European Genome Archive (FEGA)](https://ega-archive.org/federated), [BBMRI biobank directory](https://directory.bbmri-eric.eu/)) is simple.
--	**Connect data** - to build the technical capacity that will make it possible to link sequence data and metadata. This will facilitate for expanding beyond scientific and medical data to broader metadata from for example public health and economics. In addition, to Support integration to the [European COVID-19 Data Portal](https://covid19dataportal.org/).
--	**Standardise data** - provide recommended data management protocols to encourage FAIR data standards and interoperability among resources.
--	**Expose and analyse data** - support exposure and analysis of FAIR data on infectious diseases through for example the open COVID-19 Galaxy analysis platform).
+- **Connect data** - to build the technical capacity that will make it possible to link sequence data and metadata. This will facilitate for expanding beyond scientific and medical data to broader metadata from for example public health and economics. In addition, to Support integration to the [European COVID-19 Data Portal](https://covid19dataportal.org/).
+- **Standardise data** - provide recommended data management protocols to encourage FAIR data standards and interoperability among resources.
+- **Expose and analyse data** - support exposure and analysis of FAIR data on infectious diseases through for example the open COVID-19 Galaxy analysis platform).
 
 Read more about BY-COVID [on the official website of the project](https://by-covid.org/) or follow the project on [Twitter](https://twitter.com/BYCOVID_eu) and [LinkedIn](https://www.linkedin.com/company/by-covid/). For updates about the Swedish COVID-19 Data Portal participation in BY-COVID, follow [the Twitter account of the SciLifeLab Data Centre](https://twitter.com/scilifelab_dc).
