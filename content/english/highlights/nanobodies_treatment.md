@@ -6,6 +6,7 @@ banner: /highlights/banners/nanobodies_treatment.png
 banner_caption: "Source: [PDB 7KN7](https://www.rcsb.org/structure/7KN7), Crystal structure of SARS-CoV-2 RBD complexed with nanobody VHH W and antibody Fab CC12.3"
 aliases:
     - /news/nanobodies_treatment
+    - /sv/news/nanobodies_treatment
 ---
 
 The COVID-19 pandemic has strained the healthcare systems and posed challenges to economic and social activity in many countries. Currently, a number of vaccines have been rolled out in record time. However, vaccines may not be suitable for all patients. Therefore, additional therapeutics or treatments of high-risk patients or patients already infected with the SARS CoV-2 virus are warranted.

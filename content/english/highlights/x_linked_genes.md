@@ -7,6 +7,7 @@ banner_large: /highlights/banners/Asano_full_size.jpg
 banner_caption: Figure 3 - Type I IFN responses to TLR7 agonist in TLR7-deficient pDCs and leukocytes from Asano et al. (2021).
 aliases:
     - /news/x_linked_genes
+    - /news/x_linked_genes
 ---
 
 The COVID-19 pandemic has challenged healthcare world-wide for almost two years. Research has shown that there is significant inter-individual clinical variability in SARS-CoV-2, with the virus causing asymptomatic disease in some cases, whilst the disease is fatal in others. Identifying the risk factors for the development of more severe, or even fatal, COVID-19 cases has become increasingly important

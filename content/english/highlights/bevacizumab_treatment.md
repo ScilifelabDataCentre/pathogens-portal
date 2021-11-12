@@ -7,6 +7,7 @@ banner_large: /highlights/banners/bevacizumab_large.png
 banner_caption: "Source: Figure 4 of Pang et al. (2021)."
 aliases:
     - /news/bevacizumab_treatment
+    - /sv/news/bevacizumab_treatment
 ---
 The COVID-19 pandemic has caused a serious health emergency and a global challenge for demand of novel drug development. Drug repurposing has emerged as one way to meet the demand for new COVID-19 treatments.
 

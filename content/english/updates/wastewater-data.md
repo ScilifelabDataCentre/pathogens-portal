@@ -7,6 +7,7 @@ banner_large: /updates/banners/wastewater_data_large.png
 banner_caption: "Screenshot of the page with SARS-CoV-2 wastewater data on the Swedish COVID-19 Data Portal."
 aliases:
     - /news/wastewater-data
+    - /sv/news/wastewater-data
 ---
 
 Today, the Swedish COVID-19 Data Portal is launching [a page with graphs depicting the amount of SARS-CoV-2 RNA in wastewater in four Swedish cities](/data_types/environment/wastewater/) - Uppsala, Stockholm, Örebro, and Umeå, with a total population of 1.5 million people. The corresponding data is available for download.

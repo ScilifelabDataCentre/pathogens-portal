@@ -7,6 +7,7 @@ banner_large: /updates/banners/postcovid_map_portal.png
 banner_caption: Geographic distribution of cases given a U09.9 diagnosis relative to population size.
 aliases:
     - /news/postcovid_launch
+    - /sv/news/postcovid_launch
 ---
 
 The Swedish [COVID-19 Data Portal](https://www.covid19dataportal.se) is now launching a section (including graphs, maps and tables) depicting statistics related to Post COVID-19 condition in Sweden  both in [English](https://www.covid19dataportal.se/data_types/health_data/post_covid/) and [Swedish](https://www.covid19dataportal.se/sv/data_types/health_data/post_covid/). The visualisations are based on data freely available from [The National Board of Health and Welfare](https://www.socialstyrelsen.se/statistik-och-data/), related to diagnoses U08.9, U09.9 and Z86.1A. The page also shows a short background, an overview of research projects focused on Post COVID-19 condition funded by funding agencies in Sweden, and links to recent scientific publications related to the topic (where at least one co-author is affiliated with a Swedish university or research institute). Please note that the lists of projects and publications list are manually curated, and may not be exhaustive.

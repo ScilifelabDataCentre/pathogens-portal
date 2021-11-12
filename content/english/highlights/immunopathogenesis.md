@@ -9,6 +9,7 @@ banner_caption: "Source: Figure 1 from Parrot et al., Science Immunology, 2020"
 toc: false
 aliases:
     - /news/immunopathogenesis
+    - /sv/news/immunopathogenesis
 ---
 Since the start of the COVID-19 pandemic almost a year ago the COVID-19 research efforts have been unprecedented. However, COVID-19 immunopathogenesis is still relatively poorly understood.
 

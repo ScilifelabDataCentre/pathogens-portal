@@ -7,6 +7,7 @@ banner_large: /updates/banners/first_year_portal.png
 banner_caption: The Swedish COVID-19 Data Portal was launched on June 3rd 2020.
 aliases:
     - /news/first_year
+    - /sv/news/first_year
 ---
 
 The COVID-19 pandemic has constituted a global public health crisis over the last year and a half. This crisis has driven the need for accelerated research into the unknown SARS-COV-2 virus and the new COVID-19 disease. In response, the global research community swiftly refocused their efforts to meet the demand for the rapid development of novel therapies and vaccines. The unprecedented speed of this response was made possible in part by the open sharing of data and code, which increased the opportunities for data reuse and the fostering of collaborations. The Swedish COVID-19 Data Portal is part of the effort to maximise the sharing of data and code.

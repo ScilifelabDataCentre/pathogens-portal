@@ -7,6 +7,7 @@ banner_large: /highlights/banners/neanderthal-gene-protecting-large.png
 banner_caption: "Source: Figure 2 of Zhao et al. 2021"
 aliases:
     - /news/neanderthal-gene-protecting
+    - /sv/news/neanderthal-gene-protecting
 ---
 
 The SARS-CoV-2 virus effects on global health causes an unprecedented challenge for healthcare and warrants rapid development of both drug therapies and drug repurposing. Today drug therapies for treatment of patients with severe COVID-19 is limited to dexamethasone therapy in oxygen-dependent patients, a number of drugs under restricted licensing, and drugs undergoing clinical trials. Lack of available therapies for COVID-19 highlights the importance of rapid development of disease-specific therapies aimed at biological targets to reduce morbidity and mortality. Large proteomics efforts, in combination with human genetics information, have been used to identify possible biological targets for future drug development.

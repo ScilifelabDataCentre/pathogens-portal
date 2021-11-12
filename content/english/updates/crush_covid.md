@@ -8,6 +8,7 @@ banner_large: /updates/banners/crush_covid_large.png
 banner_caption: "CRUSH Covid logo and partners: Uppsala University, Region Uppsala."
 aliases:
     - /news/crush_covid
+    - /sv/news/crush_covid
 ---
 
 The COVID-19 pandemic impact on healthcare, society, and everyday life warrants accelerated research and the possibility to follow the different parameters and identify outbreaks in real-time. CRUSH Covid is a collaboration between the Region Uppsala and researchers from four different departments at Uppsala University and one researcher at Swedish University of Agricultural Sciences.

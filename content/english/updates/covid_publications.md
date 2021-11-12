@@ -7,6 +7,7 @@ banner_large: /updates/banners/covid19_pubs_sw_large.png
 banner_caption: Number of journal articles and preprints on SARS-CoV-2 and COVID-19 where at least one author has an affiliation with a Swedish university or research institute. Interactive plot is available below on this page [on this page](/projects/dashboard/).
 aliases:
     - /news/covid_publications
+    - /sv/news/covid_publications
 ---
 
 The current COVID-19 pandemic, caused by the SARS-CoV-2 virus, has caused a global public health crisis, and challenged societies over the last year and a half. The pandemic has also, in a short time, transformed scientific research publishing. Researchers, especially those working in life sciences, have in record time changed their focus in order to fight the pandemic. This research contributed to developing novel treatments, therapies, and vaccines for COVID-19. Below, we take a look at the numbers of global and Swedish research publications over the year and a half of the pandemic.

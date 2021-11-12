@@ -7,6 +7,7 @@ banner: /updates/banners/serology_testing_statistics.png
 banner_caption: Weekly serology test numbers.
 aliases:
     - /news/serology_testing_stats
+    - /sv/news/serology_testing_stats
 ---
 The Swedish national COVID-19 portal is launching a page with graphs depicting statistics on the SARS-CoV-2 antibody tests carried out at the [SciLifeLab Autoimmunity and Serology profiling facility](https://www.scilifelab.se/facilities/autoimmunity-profiling/). At this point, the total number of tests carried out each week can be viewed. The dataset behind the graphs will be updated manually. The page [can be viewed here](/data_types/health_data/serology-statistics/).
 

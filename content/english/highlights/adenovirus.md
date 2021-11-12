@@ -7,6 +7,7 @@ banner_large: /highlights/banners/adenovirus.png
 banner_caption: "Source: Figure 3 of Persson et al. 2021"
 aliases:
     - /news/adenovirus/
+    - /sv/news/adenovirus/
 ---
 
 The COVID-19 pandemic has profoundly affected and changed society over the last year. Currently, in record time, a number of vaccines are under development. To date, two mRNA vaccines (Pfizer/BioNTech and Moderna) are in use in Sweden. Several other of the novel vaccines under development are based on genetically modified adenovirus vectors.

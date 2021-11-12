@@ -8,6 +8,7 @@ banner_caption: "Figure 2 from Patel, Ashton, et al (2021) showing 269 proteins 
 needs_translation: no
 aliases:
     - /news/proteomic_blood_profiling
+    - /news/proteomic_blood_profiling
 ---
 
 The current COVID-19 pandemic has increased the burden on healthcare and has a large socioeconomical impact on society. SARS-CoV-2 infection may manifest as a mild respiratory tract infection in most individuals, but in some individuals the infection progresses to severe pneumonia and acute respiratory distress syndrome which may lead to severe illness and mortality. Understanding proteomic differences between those individuals which are affected only mildly or not at all and those which are affected to a larger extent is important for understanding disease progression and identifying potential drug targets.

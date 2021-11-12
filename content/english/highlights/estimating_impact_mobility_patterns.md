@@ -8,6 +8,7 @@ banner_large: /highlights/banners/bryant_elofsson_large.png
 banner_caption: "Source: Part of Figure 1 of the corresponding article."
 aliases:
     - /news/estimating_impact_mobility_patterns
+    - /sv/news/estimating_impact_mobility_patterns
 ---
 During the Covid-19 pandemic governments across Europe have issued non-pharmaceutical interventions (NPIs), for example social distancing and school closing, to slow down the pandemic. European countries have recommended different NPIs and the effect on mobility patterns vary between countries.
 

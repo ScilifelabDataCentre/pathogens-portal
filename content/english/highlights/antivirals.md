@@ -7,6 +7,7 @@ banner_large: /highlights/banners/antivirals_large.png
 banner_caption: "Source: Courtesy of  Marjo-Riitta Puumalainen"
 aliases:
     - /news/antivirals
+    - /sv/news/antivirals
 ---
 
 The ongoing pandemic of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), has had severe social and economic consequences in many countries. The world has also seen recent serious outbreaks of other RNA viruses like Ebola virus (EBOV) and Crimean-Congo haemorrhagic fever virus (CCHFV) in the last decades. New antiviral strategies are therefore urgently needed. Targeting host cell pathways supporting viral replication is one approach to develop antiviral compounds. This could be especially important with new, unexplored viruses with limited information of virus biology.

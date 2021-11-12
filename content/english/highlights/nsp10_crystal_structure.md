@@ -9,6 +9,7 @@ banner_caption: "Source: PDB 6ZPE, DOI: 10.2210/pdb6ZPE/pdb"
 toc: false
 aliases:
     - /news/nsp10_crystal-structure
+    - /sv/news/nsp10_crystal-structure
 ---
 COVID-19 caused by the SARS-CoV-2 virus is now a global pandemic and continues to have severe socio-economic consequences in most parts of the world. The genome sequence of SARS CoV-2 was published in early 2020. Functional information about SARS CoV-2 is still not clear but previous work on the closely related SARS virus has provided some information. A large part of the genome is the Open Reading Frame 1ab (ORF1ab) containing 15 non-structural proteins (nsp1-nsp16), and the remaining part encodes four structural proteins (Spike (S), Nucleocapsid (N), Envelope (E) and Membrane (M) and some smaller accessory proteins which may differ between different coronavirus variants. Non-structural protein 10 (nsp10) is a small protein of ca. 140 amino acid residues found exclusively in viruses – but not in prokaryotes or eukaryotes - and has been shown to be involved in RNA replication.
 
