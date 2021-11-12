@@ -2,8 +2,8 @@
 title: Human genetic mapping can provide insight about COVID-19 pathogenesis and drug development
 date: 2021-08-10
 summary: Researchers in the COVID-19 Host Genetics initiative performed genome-wide association meta-analyses to examine the loci involved in the variation of COVID-19 disease severity and susceptibility between individuals. The data and code used in the project have been made available.
-banner: /highlights_updates/banners/chromosome__hullstrom_small.png
-banner_large: /highlights_updates/banners/chromosome__hullstrom.png
+banner: /highlights/banners/chromosome__hullstrom_small.png
+banner_large: /highlights/banners/chromosome__hullstrom.png
 banner_caption: Gene prioritisation using different evidence measures of gene annotation.
 aliases:
     - /news/insights_from_genetic_mapping

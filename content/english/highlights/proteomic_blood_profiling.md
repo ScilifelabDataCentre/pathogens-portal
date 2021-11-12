@@ -2,8 +2,8 @@
 title: Proteomic profiling in COVID-19 patients as biomarkers to monitor disease severity
 date: 2021-04-13
 summary: Recent study examined a large number of inflammatory, immune response, cardiovascular, and neurological markers in the blood of patients variously impacted by COVID-19. Data and analysis code were shared in public repositories.
-banner: /highlights_updates/banners/proteomic_blood_profiling.png
-banner_large: /highlights_updates/banners/proteomic_blood_profiling_large.png
+banner: /highlights/banners/proteomic_blood_profiling.png
+banner_large: /highlights/banners/proteomic_blood_profiling_large.png
 banner_caption: "Figure 2 from Patel, Ashton, et al (2021) showing 269 proteins significantly differentially expressed in COVID-19 patients."
 needs_translation: no
 aliases:

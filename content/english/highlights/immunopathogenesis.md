@@ -3,8 +3,8 @@ title: MAIT cell activation and dynamics studied in relation to COVID-19 disease
 title_full: MAIT cell activation and dynamics studied in relation to COVID-19 disease severity # long
 date: 2020-11-18
 summary: Tiphaine Parrot and colleagues studied changes in conventional and unconventional T cell subsets in patients with various disease severity using flow cytometry. The results were published along with the data.
-banner: /highlights_updates/banners/immunopathogenesis.png
-banner_large: /highlights_updates/banners/immunopathogenesis_large.jpg
+banner: /highlights/banners/immunopathogenesis.png
+banner_large: /highlights/banners/immunopathogenesis_large.jpg
 banner_caption: "Source: Figure 1 from Parrot et al., Science Immunology, 2020"
 toc: false
 aliases:

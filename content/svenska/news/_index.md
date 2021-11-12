@@ -1,14 +1,14 @@
 ---
 title: Data i fokus
 cascade:
-  banner: /highlights_updates/banners/default_banner.jpg
+  banner: /highlights/banners/default_banner.jpg
   banner_caption: "3D-rendering av en virion av SARS-CoV-2."
   toc: false
 menu:
     homepage_highlights:
       name: Data i fokus
       identifier: higlights
-      post: Nyhetsnotiser som lyfter fram delade forskningsdata eller data återanvändning. <a href="/sv/news/">Se alla data i fokus <i class="fas fa-arrow-circle-right"></i></a>
+      post: Nyhetsnotiser som lyfter fram delade forskningsdata eller data återanvändning. <a href="/highlights/">Endast tillgängliga på engelska <i class="fas fa-arrow-circle-right"></i></a>
     footer_sections:
         name: Data i fokus
         weight: 5

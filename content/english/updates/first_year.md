@@ -2,8 +2,8 @@
 title: The Swedish COVID-19 Data Portal one year on - focus on openly sharing data and code # short
 date: 2021-06-03
 summary: One year ago today, on June 3rd 2020, the Swedish COVID-19 Data Portal was launched and became the first national node of the European data sharing platform for COVID-19 research efforts. Here, we look back at the highlights over the last year.
-banner: /highlights_updates/banners/first_year_portal.png
-banner_large: /highlights_updates/banners/first_year_portal.png
+banner: /updates/banners/first_year_portal.png
+banner_large: /updates/banners/first_year_portal.png
 banner_caption: The Swedish COVID-19 Data Portal was launched on June 3rd 2020.
 aliases:
     - /news/first_year

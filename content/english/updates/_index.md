@@ -1,8 +1,8 @@
 ---
-title: Updates
+title: Portal news
 cascade:
-  banner: /highlights_updates/banners/default_banner.jpg
-  banner_caption: "3D rendering of a SARS-CoV-2 virion."
+  banner: /updates/banners/default_banner.png
+  banner_caption: "The Swedish COVID-19 Data Portal logo"
   toc: false
 menu:
     footer_sections:

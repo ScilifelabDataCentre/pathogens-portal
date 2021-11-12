@@ -3,8 +3,8 @@ title: Bayesian model for estimating the impact of mobility patterns on COVID-19
 title_full: Bayesian model for estimating the impact of mobility patterns on COVID-19 infection # long
 date: 2020-10-23
 summary: Patrick Bryant and Arne Elofsson shared code and instructions for modelling COVID-19 development using MCMC simulations based on mobile phone mobility data from Google mobility reports.
-banner: /highlights_updates/banners/bryant_elofsson.png
-banner_large: /highlights_updates/banners/bryant_elofsson_large.png
+banner: /highlights/banners/bryant_elofsson.png
+banner_large: /highlights/banners/bryant_elofsson_large.png
 banner_caption: "Source: Part of Figure 1 of the corresponding article."
 aliases:
     - /news/estimating_impact_mobility_patterns

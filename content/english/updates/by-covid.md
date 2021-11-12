@@ -2,9 +2,11 @@
 title: BY-COVID – a collaborative effort to tackle data challenges that can hinder effective pandemic response # short
 date: 2021-11-12
 summary: The BeYond-COVID (BY-COVID) is a recently launched €12 million project funded by Horizon Europe. The Swedish COVID-19 Data Portal is one of the 53 partners from 19 countries taking part in the project.
-banner: /news/banners/bycovid_logo.png
-banner_large: /news/banners/bycovid_concept.png
+banner: /updates/banners/bycovid_logo.png
+banner_large: /updates/banners/bycovid_concept.png
 banner_caption: Diagram illustrating the BY-COVID project concept.
+aliases:
+    - /news/by-covid
 ---
 The COVID-19 pandemic has caused a global public health emergency over the last two years and continues to affect lives. The global scientific community has, in an unprecedented way, collaborated in SARS-CoV-2 research efforts and contributed to the rapid development of vaccines and therapeutics. The scientific community needs to reflect upon their initial response to the crisis, identify factors that during the early stages of the pandemic hindered the SARS CoV-2 research efforts, and plan for future pandemics. In addition, during the present-day COVID-19 pandemic, countries world-wide have generated and shared vast amounts of data, as well as generated data from locally tracked SARS-CoV-2 variants. There is a need to ensure that data will not be a limiting factor in future pandemic preparedness.
 

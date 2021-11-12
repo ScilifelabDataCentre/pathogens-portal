@@ -3,7 +3,7 @@ title: Statistics on SARS-CoV-2 antibody tests carried out by SciLifeLab now ava
 title_full: Statistics on SARS-CoV-2 antibody tests carried out by SciLifeLab now available # long
 date: 2020-09-30
 summary: We are launching a page with statistics on the SARS-CoV-2 antibody tests carried out at the SciLifeLab Autoimmunity and Serology profiling facility.
-banner: /highlights_updates/banners/serology_testing_statistics.png
+banner: /updates/banners/serology_testing_statistics.png
 banner_caption: Weekly serology test numbers.
 aliases:
     - /news/serology_testing_stats

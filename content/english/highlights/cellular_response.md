@@ -2,8 +2,8 @@
 title: Quantitative proteomic provides important knowledge about cellular response against SARS CoV-2
 date: 2021-05-19
 summary: Saccon and colleagues studied changes in protein abundance caused by SARS-CoV-2 virus in susceptible cell lines using quantitative proteomics. All proteomics were made data openly available in different repositories.
-banner: /highlights_updates/banners/cellular_response.png
-banner_large: /highlights_updates/banners/cellular_response_large.png
+banner: /highlights/banners/cellular_response.png
+banner_large: /highlights/banners/cellular_response_large.png
 banner_caption: "Source: Graphical Abstract of Saccon, Chen and Mikaeloff et al 2021"
 aliases:
     - /news/cellular_response

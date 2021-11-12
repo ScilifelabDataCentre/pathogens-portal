@@ -2,8 +2,8 @@
 title: Swedish COVID-19 symptom data contribute to accelerating research about pandemic # short
 date: 2021-03-29
 summary: COVID Symptom Study Sweden collects data through a smartphone app to investigate prevalence, risk factors, and symptoms associated with COVID-19. To date, over 200.000 volunteers have enrolled in the study.
-banner: /highlights_updates/banners/csss.png
-banner_large: /highlights_updates/banners/csss_large.png
+banner: /highlights/banners/csss.png
+banner_large: /highlights/banners/csss_large.png
 banner_caption: "Visualization of the symptoms reported by app users over time. Source: [Dashboard of the COVID Symptom Study Sweden](https://csss-resultat.shinyapps.io/csss_dashboard/)"
 aliases:
     - /news/symptom-study-sweden

@@ -2,8 +2,8 @@
 title: Statistics, information, and research about Post COVID-19 condition in Sweden now available on the Portal  # short
 date: 2021-09-06
 summary: Today, for the first time, the Portal provides information and summary statistics to show the impact of ‘Post COVID-19 condition’ (‘Postcovid’ in Swedish) in Sweden, and the research underway. All data and code used on the page is publicly available.
-banner: /highlights_updates/banners/Portal_logo_postcovid_2.png
-banner_large: /highlights_updates/banners/postcovid_map_portal.png
+banner: /updates/banners/Portal_logo_postcovid_2.png
+banner_large: /updates/banners/postcovid_map_portal.png
 banner_caption: Geographic distribution of cases given a U09.9 diagnosis relative to population size.
 aliases:
     - /news/postcovid_launch

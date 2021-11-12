@@ -2,8 +2,8 @@
 title: Mechanism of entry used by human species D adenoviruses proving important for COVID-19 vaccine development # short
 date: 2021-01-18
 summary: New study identifies a noncanonical entry mechanism used by human adenoviruses, important for development of adenovirus-based vaccine vectors. The reported X-ray structural data was made available through the Protein Data Bank.
-banner: /highlights_updates/banners/adenovirus.png
-banner_large: /highlights_updates/banners/adenovirus.png
+banner: /highlights/banners/adenovirus.png
+banner_large: /highlights/banners/adenovirus.png
 banner_caption: "Source: Figure 3 of Persson et al. 2021"
 aliases:
     - /news/adenovirus/

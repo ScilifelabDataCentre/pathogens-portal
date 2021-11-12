@@ -3,8 +3,8 @@ title: Synthetic nanobodies are easy to produce and can effectively neutralize S
 title_full: Synthetic nanobodies are easy to produce and can effectively neutralize SARS-CoV-2 # long
 date: 2020-11-24
 summary: Recently published study demonstrates that it is possible to select highly specific binders with neutralizing activity against SARS-CoV-2 from a synthetic nanobody library in a short timeframe.
-banner: /highlights_updates/banners/synthetic_nanobodies.png
-banner_large: /highlights_updates/banners/synthetic_nanobodies_large.png
+banner: /highlights/banners/synthetic_nanobodies.png
+banner_large: /highlights/banners/synthetic_nanobodies_large.png
 banner_caption: "Source: Figure 5 from Custódio et al., Nature Communications, 2020"
 toc: false
 aliases:

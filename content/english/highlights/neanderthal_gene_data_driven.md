@@ -3,8 +3,8 @@ title: Data-driven research shows that Neanderthal gene connected to severity of
 title_full: Data-driven research shows that Neanderthal gene connected to severity of COVID-19 # long
 date: 2020-10-02
 summary: Study by Hugo Zeberg and Svante Pääbo fully based on openly available data published open access in *Nature*.
-banner: /highlights_updates/banners/neanderthal_gene_data_driven.jpg
-banner_large: /highlights_updates/banners/neanderthal_gene_data_driven_full.jpg
+banner: /highlights/banners/neanderthal_gene_data_driven.jpg
+banner_large: /highlights/banners/neanderthal_gene_data_driven_full.jpg
 banner_caption: "Skull of Homo sapiens neanderthalensis. <br> Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Homo_sapiens_neanderthalensis.jpg)."
 aliases:
     - /news/neanderthal_gene_data_driven

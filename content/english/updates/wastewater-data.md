@@ -2,8 +2,8 @@
 title: SARS-CoV-2 wastewater data from cities across Sweden now available  # short
 date: 2021-03-16
 summary: The Swedish COVID-19 Data Portal is launching [a section with wastewater epidemiology data](/data_types/environment/wastewater/). Weekly data from Uppsala, Stockholm, Umeå, and Örebro is presented in graphs and available for download.
-banner: /highlights_updates/banners/wastewater_data.png
-banner_large: /highlights_updates/banners/wastewater_data_large.png
+banner: /updates/banners/wastewater_data.png
+banner_large: /updates/banners/wastewater_data_large.png
 banner_caption: "Screenshot of the page with SARS-CoV-2 wastewater data on the Swedish COVID-19 Data Portal."
 aliases:
     - /news/wastewater-data

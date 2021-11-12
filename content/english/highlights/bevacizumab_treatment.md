@@ -2,8 +2,8 @@
 title: Bevacizumab treatment beneficial for patients with severe COVID-19  # short
 date: 2021-02-18
 summary: A recently published clinical study investigating bevacizumab, a humanized anti-VEGF monoclonal antibody, offers promising results in fighting severe COVID-19. Treatment progress data and analysis code were shared publicly.
-banner: /highlights_updates/banners/bevacizumab_small.png
-banner_large: /highlights_updates/banners/bevacizumab_large.png
+banner: /highlights/banners/bevacizumab_small.png
+banner_large: /highlights/banners/bevacizumab_large.png
 banner_caption: "Source: Figure 4 of Pang et al. (2021)."
 aliases:
     - /news/bevacizumab_treatment

@@ -21,6 +21,9 @@ params:
       all_highlights: See all data highlights
       next_highlight: Next
       previous_highlight: Previous
+      all_updates: See all updates
+      next_update: Next
+      previous_update: Previous
       dt_project: Project
       dt_last_updated: Last updated
       dt_available_data: Available data
@@ -53,6 +56,9 @@ params:
       readmore_text: Läs mer
       published_text: Publicerad
       all_highlights: Se alla data i fokus
+      next_highlight: Nästa
+      previous_highlight: Föregående
+      all_updates: Se alla uppdateringar
       next_highlight: Nästa
       previous_highlight: Föregående
       dt_project: Projekt

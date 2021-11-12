@@ -2,8 +2,8 @@
 title: Reliable profiling of IgG and IgM levels in home-sampled dried blood spots
 date: 2021-10-18
 summary: Roxhed et al. demonstrate how self sampling at home can be effective by profiling IgG and IgM levels against several versions of SARS-CoV-2 proteins (S, RBD, N) in home-sampled dried blood spots. Metadata records and the analysis scripts used for the article are shared.
-banner: /highlights_updates/banners/Roxhed_figure1_thumbnail.png
-banner_large: /highlights_updates/banners/Roxhed_figure1_full.png
+banner: /highlights/banners/Roxhed_figure1_thumbnail.png
+banner_large: /highlights/banners/Roxhed_figure1_full.png
 banner_caption: Figure 1 - Translational approach for multiplexed serology in home-sampled dried blood spots from Roxhed et al. (2021).
 aliases:
     - /news/serology_in_home_sampled_dbs
