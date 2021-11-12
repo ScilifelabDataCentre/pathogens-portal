@@ -2,8 +2,8 @@
 title: Interferon signatures in SARS-CoV-2 infected liver cells could provide knowledge for new antiviral therapies 
 date: 2021-07-06
 summary: Chen and Saccon et al. used a proteomics-based approach to study how SARS-CoV-2 infection affected Type-1 interferon signalling in liver cells. Both data and code are published.
-banner: /news/banners/Interferon_liver_small.png
-banner_large: /news/banners/Interferon_liver.png
+banner: /highlights_updates/banners/Interferon_liver_small.png
+banner_large: /highlights_updates/banners/Interferon_liver.png
 banner_caption: "Source: Figure 2B from Chen and Saccon et al. 2021"
 needs_translation: true
 ---

@@ -2,8 +2,8 @@
 title: New phenomics method for antiviral drug discovery may help to fight COVID-19
 date: 2021-08-02
 summary: Rietdijk and colleagues used a new phenomics approach to aid in the discovery of both novel drugs and drugs that could potentially be repurposed to fight COVID-19. Both data and code are published.
-banner: /news/banners/Rietdijk_abstract_small.png
-banner_large: /news/banners/Rietdijk_abstract_big.png
+banner: /highlights_updates/banners/Rietdijk_abstract_small.png
+banner_large: /highlights_updates/banners/Rietdijk_abstract_big.png
 banner_caption: "Source: Graphical abstract from Rietdijk et al. 2021"
 needs_translation: yes
 ---

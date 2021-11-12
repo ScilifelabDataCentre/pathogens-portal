@@ -3,7 +3,7 @@ title: Studie av covid-19 RT-PCR test som inte kräver RNA-extraktion publicerad
 title_full: Studie av covid-19 RT-PCR test som inte kräver RNA-extraktion publicerad med data # long
 date: 2020-10-01
 summary: Data från artiklen är fritt tillgänglig via *Nature Communications* och kod finns på Github.
-banner: /news/banners/rna_extraction_free_rt_pcr.png
+banner: /highlights_updates/banners/rna_extraction_free_rt_pcr.png
 banner_caption: "Bild: Figur 1 från Smyrlaki et al., Nature Communications, 2020"
 ---
 

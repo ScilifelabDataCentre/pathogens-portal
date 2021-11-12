@@ -2,8 +2,8 @@
 title: Pathogenesis of hyperinflammatory syndrome associated with COVID-19 in children # short
 date: 2020-12-07
 summary: Multiple autoantibodies and specific cytokines could be involved in the pathogenesis of MIS-C associated with COVID-19. Data and code made available in open repositories.
-banner: /news/banners/mis.png
-banner_large: /news/banners/mis_large.png
+banner: /highlights_updates/banners/mis.png
+banner_large: /highlights_updates/banners/mis_large.png
 banner_caption: "Source: Figure 1 of Consiglio et al. 2020, Cell."
 needs_translation: true
 ---

@@ -3,7 +3,7 @@ title: An alpaca-derived nanobody can potently neutralize SARS-CoV-2  # short
 title_full: An alpaca-derived nanobody can potently neutralize SARS-CoV-2 # long
 date: 2020-11-27
 summary: Leo Hanke and colleagues identified a SARS-CoV-2 RBD-specific single domain antibody fragment, *Ty1*, that potently neutralizes the virus. Ty1 should now be further investigated as a candidate for antiviral therapy.
-banner: /news/banners/tyson.jpg
+banner: /highlights_updates/banners/tyson.jpg
 banner_caption: "Tyson the alpaca. Photo courtesy of Leo Hanke."
 needs_translation: true
 ---

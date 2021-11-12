@@ -2,7 +2,7 @@
 title: Nanobodies promising new therapeutics for treatment of SARS CoV-2 # short
 date: 2021-02-16
 summary: A recently published study characterizes the mechanisms by which nanobodies neutralize or prevent of infection in molecular detail. Crystallographic coordinates, cryo-EM density maps, and atomic coordinates were deposited to public databases.
-banner: /news/banners/nanobodies_treatment.png
+banner: /highlights_updates/banners/nanobodies_treatment.png
 banner_caption: "Source: [PDB 7KN7](https://www.rcsb.org/structure/7KN7), Crystal structure of SARS-CoV-2 RBD complexed with nanobody VHH W and antibody Fab CC12.3"
 needs_translation: true
 ---

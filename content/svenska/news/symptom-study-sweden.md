@@ -2,8 +2,8 @@
 title: Swedish COVID-19 symptom data contribute to accelerating research about pandemic # short
 date: 2021-03-29
 summary: COVID Symptom Study Sweden collects data through a smartphone app to investigate prevalence, risk factors, and symptoms associated with COVID-19. To date, over 200.000 volunteers have enrolled in the study.
-banner: /news/banners/csss.png
-banner_large: /news/banners/csss_large.png
+banner: /highlights_updates/banners/csss.png
+banner_large: /highlights_updates/banners/csss_large.png
 banner_caption: "Visualization of the symptoms reported by app users over time. Source: [Dashboard of the COVID Symptom Study Sweden](https://csss-resultat.shinyapps.io/csss_dashboard/)"
 needs_translation: yes
 ---
@@ -13,7 +13,7 @@ The global COVID-19 pandemic has increased challenges to healthcare, society and
 COVID Symptom Study Sweden is run by Lund University and Uppsala University in collaboration with King’s College London and Zoe Global Ltd (Swedish PIs: prof. Tove Fall, Uppsala University, and prof. Maria Gomez and prof. Paul Franks, Lund University). The project aims to map the spread of COVID-19 in Sweden as well as to increase knowledge about the effect of SARS-CoV-2 on human body. The first aim includes investigation of temporal and geographical trends in SARS-CoV-2 spread and investigations of how changes in national strategies affect the spread.
 
 <figure class="figure float-left mx-2 w-25">
-  <img src="/news/banners/csss_map.png" class="img-thumbnail">
+  <img src="/highlights_updates/banners/csss_map.png" class="img-thumbnail">
   <figcaption class="figure-caption mt-1"><i>Estimated prevalence of symptomatic cases of COVID-19 in various counties in Sweden, as % of population. Estimates based on data reported by COVID Symptom Study App users, 29.03.2021.</i></figcaption>
 </figure>
 

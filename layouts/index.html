@@ -150,10 +150,10 @@
       </div>
       {{ end }}
       <div class="row">
-        {{ $news_high := where .Site.RegularPages "Section" "news" }}
+        {{ $highs := where .Site.RegularPages "Section" "highlights" }}
         {{ if eq $.Site.Language.LanguageName "Svenska" }}
         {{ $display_alert := false }}
-        {{ range first 3 $news_high }} {{ if .Params.needs_translation }} {{ $display_alert = true }} {{ end }}
+        {{ range first 3 $highs }} {{ if .Params.needs_translation }} {{ $display_alert = true }} {{ end }}
         {{ end }}
         {{ if $display_alert }}<div class="alert alert-info">
             <i class="fas fa-exclamation-triangle"></i>
@@ -161,7 +161,7 @@
         </div> {{ end }}
         {{ end }}
         <div class="row">
-          {{ range first 3 $news_high }}
+          {{ range first 3 $highs }}
           <div class="col-md mx-2 mb-2 border bg-light">
             <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
             <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>

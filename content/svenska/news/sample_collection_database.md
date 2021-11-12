@@ -2,8 +2,8 @@
 title: Database of COVID-19 sample collections and biobanks in Sweden launched  # short
 date: 2021-02-24
 summary: "In collaboration with Biobank Sweden, today we are launching a new section of the portal: the [Swedish COVID-19 Sample Collection Database](https://biobanks.covid19dataportal.se/). The database allows to search for available biobank sample collections."
-banner: /news/banners/scd.png
-banner_large: /news/banners/scd_large.png
+banner: /highlights_updates/banners/scd.png
+banner_large: /highlights_updates/banners/scd_large.png
 banner_caption: Screenshot of the COVID-19 Sample Collection Database.
 needs_translation: true
 ---

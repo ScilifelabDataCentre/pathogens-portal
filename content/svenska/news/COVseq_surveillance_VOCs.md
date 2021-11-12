@@ -3,8 +3,8 @@ title: Cost-effective COVseq method could be used for large-scale genomic survei
 title_full: Cost-effective COVseq method could be used for large-scale genomic surveillance of VOCs
 date: 2021-07-01
 summary: Simonetti, Zhang, and Harbers et al. have shared a cost-effective, scalable and versatile method (alongside associated data and code) that could facilitate large-scale genomic surveillance of variants of concern (VOCs). 
-banner: /news/banners/COVseq_small.png
-banner_large: /news/banners/COVseq.png
+banner: /highlights_updates/banners/COVseq_small.png
+banner_large: /highlights_updates/banners/COVseq.png
 banner_caption: "Source: Figure 1b of Simonetti et al. 2021"
 needs_translation: true
 ---

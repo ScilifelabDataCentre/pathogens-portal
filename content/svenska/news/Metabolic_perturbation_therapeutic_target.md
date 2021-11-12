@@ -2,8 +2,8 @@
 title: Metabolic perturbation of SARS-CoV-2 as a potential future therapeutic target
 date: 2021-10-07
 summary: Krishnan et al. showed that the SARS-CoV-2 virus can use and rewire metabolic pathways to their benefit in replication. Their findings indicate that host metabolic perturbation could be an attractive strategy to limit replication. Code and data from the study have been shared pubicly.
-banner: /news/banners/Krishnan_abstract_thumbnail.png
-banner_large: /news/banners/Krishnan_graphical_abstract.png
+banner: /highlights_updates/banners/Krishnan_abstract_thumbnail.png
+banner_large: /highlights_updates/banners/Krishnan_graphical_abstract.png
 banner_caption: Graphical abstract from Krishnan et al. (2021).
 needs_translation: true
 ---

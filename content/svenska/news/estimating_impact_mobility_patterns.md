@@ -4,8 +4,8 @@ title_full: Bayesian model for estimating the impact of mobility patterns on COV
 date: 2020-10-23
 summary: Patrick Bryant and Arne Elofsson shared code and instructions for modelling COVID-19 development using MCMC simulations based on mobile phone mobility data from Google mobility reports.
 needs_translation: true
-banner: /news/banners/bryant_elofsson.png
-banner_large: /news/banners/bryant_elofsson_large.png
+banner: /highlights_updates/banners/bryant_elofsson.png
+banner_large: /highlights_updates/banners/bryant_elofsson_large.png
 banner_caption: "Source: Part of Figure 1 of the corresponding article."
 ---
 During the Covid-19 pandemic governments across Europe have issued non-pharmaceutical interventions (NPIs), for example social distancing and school closing, to slow down the pandemic. European countries have recommended different NPIs and the effect on mobility patterns vary between countries.

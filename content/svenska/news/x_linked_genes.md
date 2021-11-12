@@ -2,8 +2,8 @@
 title: Clues to the genetic factors underlying greater susceptibility to severe COVID-19 in men
 date: 2021-11-03
 summary: The COVID Human Genetic Efforts consortium published a study on genetic factors underlying greater susceptibility to the severe COVID-19 in men. Relevant RNA-seq data were shared in Gene Expression Omnibus (GEO).
-banner: /news/banners/Asano_thumbnail.jpg
-banner_large: /news/banners/Asano_full_size.jpg
+banner: /highlights_updates/banners/Asano_thumbnail.jpg
+banner_large: /highlights_updates/banners/Asano_full_size.jpg
 banner_caption: Figure 3 - Type I IFN responses to TLR7 agonist in TLR7-deficient pDCs and leukocytes from Asano et al. (2021).
 needs_translation: true
 ---

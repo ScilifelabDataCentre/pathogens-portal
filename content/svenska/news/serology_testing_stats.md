@@ -3,7 +3,7 @@ title: Ny sida med statistik över SARS-CoV-2-antikroppstester som utförts av S
 title_full: Ny sida med statistik över SARS-CoV-2-antikroppstester som utförts av SciLifeLab # long
 date: 2020-09-30
 summary: Nu lanserar vi en ny sida med grafer som visar statistik över de SARS-CoV-2-antikroppstester som utförts vid SciLifeLab Autoimmunity and Serology profiling facility.
-banner: /news/banners/serology_testing_statistics.png
+banner: /highlights_updates/banners/serology_testing_statistics.png
 banner_caption: Antalet SARS-CoV-2 antikroppstester analyserade per vecka.
 ---
 

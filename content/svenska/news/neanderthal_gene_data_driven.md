@@ -3,8 +3,8 @@ title: Neandertalgenom kopplas till ökad risk för svår COVID-19 infektion i s
 title_full: Neandertalgenom kopplas till ökad risk för svår COVID-19 infektion i studie som använder  datadriven forskningsmetod # long
 date: 2020-10-02
 summary:  Studie av Hugo Zeberg and Svante Pääbo som är helt baserad på öppen data publiceras med fri tillgång i Nature.
-banner: /news/banners/neanderthal_gene_data_driven.jpg
-banner_large: /news/banners/neanderthal_gene_data_driven_full.jpg
+banner: /highlights_updates/banners/neanderthal_gene_data_driven.jpg
+banner_large: /highlights_updates/banners/neanderthal_gene_data_driven_full.jpg
 banner_caption: "Neandertalskalle. <br> Bild: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Homo_sapiens_neanderthalensis.jpg)."
 ---
 En nyligen  publicerad genetisk associationsstudie (*Eur. J Hum Genet* 28, 715-718, 2020; DOI: [10.1038/s41431-020-0636-6](https://doi.org/10.1038/s41431-020-0636-6)) pekade på en koppling mellan en en genvariant på kromosom 3 och risken för at drrabbas av svår COVID-19-infektion. Forskarna Hugo Zeberg (Max Planck Institute for Evolutionary Anthropology and Karolinska Institute) och Svante Pääbo (Max Planck Institute for Evolutionary Anthropology and Okinawa Institute of Science and Technology) har nu visat, genom datadriven paleogenetik/immunogenetik, att det lilla genomfragment på 50 kB, som ligger på kromosom 3, nedärvs från neandertalarna.

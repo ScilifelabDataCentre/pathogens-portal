@@ -2,8 +2,8 @@
 title: The Swedish SARS-CoV-2 and COVID-19 research output since the beginning of the pandemic  # short
 date: 2021-06-21
 summary: To date, 1.400+ journal articles and preprints have been published by researchers affiliated to a Swedish university or research institute. The database of these publications is compiled by the Portal and is available for download.
-banner: /news/banners/covid19_pubs_sw_small.png
-banner_large: /news/banners/covid19_pubs_sw_large.png
+banner: /highlights_updates/banners/covid19_pubs_sw_small.png
+banner_large: /highlights_updates/banners/covid19_pubs_sw_large.png
 banner_caption: Number of journal articles and preprints on SARS-CoV-2 and COVID-19 where at least one author has an affiliation with a Swedish university or research institute. Interactive plot is available below on this page [on this page](/projects/dashboard/).
 needs_translation: true
 ---

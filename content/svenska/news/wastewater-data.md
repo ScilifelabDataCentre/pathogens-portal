@@ -2,8 +2,8 @@
 title: SARS-CoV-2 wastewater data from cities across Sweden now available  # short
 date: 2021-03-16
 summary: The Swedish COVID-19 Data Portal is launching [a section with wastewater epidemiology data](/data_types/environment/wastewater/). Weekly data from Uppsala, Stockholm, Umeå, and Örebro is presented in graphs and available for download.
-banner: /news/banners/wastewater_data.png
-banner_large: /news/banners/wastewater_data_large.png
+banner: /highlights_updates/banners/wastewater_data.png
+banner_large: /highlights_updates/banners/wastewater_data_large.png
 banner_caption: "Screenshot of the page with SARS-CoV-2 wastewater data on the Swedish COVID-19 Data Portal."
 needs_translation: true
 ---
@@ -17,7 +17,7 @@ Coronavirus genome can be detected in faecal samples from COVID-19 patients usin
 During the COVID-19 pandemic surveillance of SARS-CoV-2 RNA levels in wastewater has become increasingly used to monitor and predict the spread of the disease. Early during the pandemic international studies (see for example [this article by Peccia and colleagues](https://www.nature.com/articles/s41587-020-0684-z)) proposed wastewater surveillance as an important source of day-to-day data. Presence of SARS-CoV-2 in municipal wastewater was reported early in the COVID-19 pandemic in [studies from the Netherlands](https://www.rivm.nl/en/news/novel-coronavirus-found-in-wastewater). However, wastewater surveillance has long been used to track spread of other diseases such as for example [polio](https://stm.sciencemag.org/content/9/383/eaaf6786).
 
 <figure class="figure mx-2 w-50">
-  <img src="/news/banners/wastewater_cycle.png" class="img-thumbnail">
+  <img src="/highlights_updates/banners/wastewater_cycle.png" class="img-thumbnail">
   <figcaption class="figure-caption mt-1"><i>Wastewater Epidemiology during the COVID-19 pandemic. (1) Towns and cities generate wastewater e.g. from sewage, that accumulates at wastewater plants. (2) Wastewater samples are collected from wastewater plants (3) Samples are processed in laboratories where the levels of SARS CoV-2 RNA are tested using qPCR (4) If SARS-CoV-2 RNA is not detected, people are advised to adopt some non-pharmaceutical interventions (NPIs), like handwashing (5) If SARS CoV-2 RNA is detected, people are advised to also adopt additional NPIs, like social distancing and wearing face masks. Source: SciLifeLab Data Centre.</i></figcaption>
 </figure>
 
@@ -27,7 +27,7 @@ In Stockholm, associate professor Zeynep Cetecioglu Gurol, KTH Royal Institute o
 
 In addition, the researchers in Stockholm have shown, in preliminary yet unpublished data, that increased SARS-CoV-2 levels in Stockholm correspond to both increased ICU admission levels and positive case numbers (see figure below). Zeynep Cetecioglu Gurol explains: "These results are important to show the significant correlation between gene copy number of SARS-CoV-2 in wastewater and positive case numbers. In addition of the reflection of transmission in the population, wastewater data provides us an early information of upcoming waves."
 
-<figure class="figure mx-2 w-50"><img src="/news/banners/wastewater_stockholm_figure.png" class="img-thumbnail"><figcaption class="figure-caption mt-1"><i>The amount of SARS-CoV-2 virus in wastewater and the number of COVID-19 cases in Stockholm. Source: research group of Zeynep Cetecioglu Gurol.</i></figcaption></figure>
+<figure class="figure mx-2 w-50"><img src="/highlights_updates/banners/wastewater_stockholm_figure.png" class="img-thumbnail"><figcaption class="figure-caption mt-1"><i>The amount of SARS-CoV-2 virus in wastewater and the number of COVID-19 cases in Stockholm. Source: research group of Zeynep Cetecioglu Gurol.</i></figcaption></figure>
 
 Associate professor Maja Malmberg, SLU, is collaborating with [Mette Myrmel](https://www.nmbu.no/emp/mette.myrmel) at the Norwegian University of Life Sciences to measure SARS CoV-2 levels in Umeå and Örebro. "By sharing our SARS CoV-2 wastewater data openly on the COVID-19 Data Portal we can in an easy and quick way make the results available to the general public, relevant authorities and researchers. I hope this can be useful as an early warning system for new waves of COVID-19 and contribute to preparedness for future pandemics," says Maja Malmberg.
 

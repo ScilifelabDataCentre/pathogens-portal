@@ -2,8 +2,8 @@
 title: A novel approach to discover and characterize broad-spectrum antivirals # short
 date: 2020-12-18
 summary: Newly discovered antiviral compounds showed broad-range antiviral activity against pathogenic RNA viruses such as SARS-CoV-2. The authors share data freely in open repositories.
-banner: /news/banners/antivirals.png
-banner_large: /news/banners/antivirals_large.png
+banner: /highlights_updates/banners/antivirals.png
+banner_large: /highlights_updates/banners/antivirals_large.png
 banner_caption: "Source: Courtesy of  Marjo-Riitta Puumalainen"
 needs_translation: true
 ---
