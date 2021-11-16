@@ -4,7 +4,7 @@
 
 ## Data highlight files
 
-The data highlights are generated from Markdown formatted files contained in the `/content/english/news/` folder (English version) as well as in the `/content/svenska/news/` folder (Swedish version). An English and Swedish version of a data highlight should have exactly the same filename (e.g., `test-highlight.md`; note the file extension `.md`). The file name used here will also be the URL of the data highlight (e.g., `test-highlight.md` will become `https://covid19dataportal.se/news/test-highlight/` and `https://covid19dataportal.se/sv/news/test-highlight/`).
+The data highlights are generated from Markdown formatted files contained in the `/content/english/highlights/` folder (English version) as well as in the `/content/svenska/highlights/` folder (Swedish version). An English and Swedish version of a data highlight should have exactly the same filename (e.g., `test-highlight.md`; note the file extension `.md`). The file name used here will also be the URL of the data highlight (e.g., `test-highlight.md` will become `https://covid19dataportal.se/highlights/test-highlight/` and `https://covid19dataportal.se/sv/highlights/test-highlight/`).
 
 ## Content of the data highlight files
 
@@ -15,8 +15,8 @@ Below is an example of a data highlight file content. You can copy this text int
 title: Important new dataset shared
 date: 2021-01-01
 summary: A new dataset containing a large amount of valuable data has been openly shared.
-banner: /news/banners/example.png
-banner_large: /news/banners/example_large.png
+banner: /highlights_updates/banners/example.png
+banner_large: /highlights_updates/banners/example_large.png
 banner_caption: "Illustration of X. The image was taken from Y."
 needs_translation: false
 ---
@@ -53,7 +53,7 @@ Typically, for each data highlight, we prepare two illustrations. One illustrati
 
 The smaller illustration needs to have the width that is twice the length (i.e., length `300 px` and width `600 px`). This way, it will easily fit the look of the page layouts.
 
-Both illustrations should be placed in the `/static/news/banners` folder. The URL of the images placed here will then be `https://covid19dataportal.se/news/banners/file_name.png`.
+Both illustrations should be placed in the `/static/highlights_updates/banners` folder. The URL of the images placed here will then be `https://covid19dataportal.se/highlights_updates/banners/file_name.png`.
 
 ## Publishing
 
