@@ -150,10 +150,10 @@
       </div>
       {{ end }}
       <div class="row">
-        {{ $news_high := where .Site.RegularPages "Section" "news" }}
+        {{ $highs := where .Site.RegularPages "Section" "highlights" }}
         {{ if eq $.Site.Language.LanguageName "Svenska" }}
         {{ $display_alert := false }}
-        {{ range first 3 $news_high }} {{ if .Params.needs_translation }} {{ $display_alert = true }} {{ end }}
+        {{ range first 3 $highs }} {{ if .Params.needs_translation }} {{ $display_alert = true }} {{ end }}
         {{ end }}
         {{ if $display_alert }}<div class="alert alert-info">
             <i class="fas fa-exclamation-triangle"></i>
@@ -161,7 +161,7 @@
         </div> {{ end }}
         {{ end }}
         <div class="row">
-          {{ range first 3 $news_high }}
+          {{ range first 3 $highs }}
           <div class="col-md mx-2 mb-2 border bg-light">
             <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
             <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
@@ -350,6 +350,27 @@
       </div>
     </div>
 
+    <!-- Portal updates -->
+    {{ if eq $.Site.Language.LanguageName "English" }}
+    <div class="container mt-3">
+      <div class="row">
+        <h4>Portal news</h4>
+      </div>
+      <!-- CRUSH Covid -->
+      <div class="row border">
+        {{ $updates := where .Site.RegularPages "Section" "updates" }}
+        <div class="col mx-3 mb-2">
+          {{ range $index, $el := first 3 $updates }}
+          <div class="row mt-3"><span><a href="{{ .RelPermalink }}">{{ .Title }}</a></span></div>
+          <div class="row small text-muted">{{ .Date.Format "2006-01-02" }}</div>
+          {{ if ne $index 2}}<hr>{{ end }}
+          {{ end }}
+          <div class="row mt-3"><span><a href="/updates/">See all portal news <i class="fas fa-arrow-circle-right"></i></a></span></div>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+
     <!-- External support services -->
     <div class="container mt-3">
       <div class="row">
@@ -400,7 +421,7 @@
         <div class="col mx-3">
           <div class="row">
             <h5><a
-                href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv/news/symptom-study-sweden/{{ else }}/data_types/health_data/symptom_study_sweden/{{ end }}">COVID
+                href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv/highlights/symptom-study-sweden/{{ else }}/data_types/health_data/symptom_study_sweden/{{ end }}">COVID
                 Symptom Study Sweden</a></h5>
           </div>
           <div class="row"><span>{{ if eq $.Site.Language.LanguageName "Svenska" }}CSSS samlar kontinuerligt in data om
