@@ -7,7 +7,7 @@ banner_large: /highlights/banners/csss_large.png
 banner_caption: "Visualization of the symptoms reported by app users over time. Source: [Dashboard of the COVID Symptom Study Sweden](https://csss-resultat.shinyapps.io/csss_dashboard/)"
 aliases:
     - /news/symptom-study-sweden
-    - /news/symptom-study-sweden
+    - /sv/news/symptom-study-sweden
 ---
 
 The global COVID-19 pandemic has increased challenges to healthcare, society and research. Monitoring societal spread of SARS-CoV-2 virus infection in order to mitigate the pandemic's societal effects is an important part of preventive infection control work. At the beginning of the pandemic, high-quality real-time data on the spread of SARS-CoV-2 in Sweden were lacking. To meet this need, already on April 29 2020 researchers at Lund University launched *[COVID Symptom Study Sweden](https://www.covid19app.lu.se/covid-symptom-study-sverige)*, a national research initiative for large-scale analysis of symptoms, exposure, and risk factors associated with COVID-19 infection. This initiative started collecting information using a non-commercial smartphone app in which participants self-reported health and symptoms data.

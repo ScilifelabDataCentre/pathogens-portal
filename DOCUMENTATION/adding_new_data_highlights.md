@@ -4,7 +4,7 @@
 
 ## Data highlight files
 
-The data highlights are generated from Markdown formatted files contained in the `/content/english/highlights/` folder (English version) as well as in the `/content/svenska/highlights/` folder (Swedish version). An English and Swedish version of a data highlight should have exactly the same filename (e.g., `test-highlight.md`; note the file extension `.md`). The file name used here will also be the URL of the data highlight (e.g., `test-highlight.md` will become `https://covid19dataportal.se/highlights/test-highlight/` and `https://covid19dataportal.se/sv/highlights/test-highlight/`).
+The data highlights are generated from Markdown formatted files contained in the `/content/english/highlights/` folder. The file name used here will also be the URL of the data highlight (e.g., `test-highlight.md` will become `https://covid19dataportal.se/highlights/test-highlight/`).
 
 ## Content of the data highlight files
 
@@ -15,10 +15,9 @@ Below is an example of a data highlight file content. You can copy this text int
 title: Important new dataset shared
 date: 2021-01-01
 summary: A new dataset containing a large amount of valuable data has been openly shared.
-banner: /highlights_updates/banners/example.png
-banner_large: /highlights_updates/banners/example_large.png
+banner: /highlights/banners/example.png
+banner_large: /highlights/banners/example_large.png
 banner_caption: "Illustration of X. The image was taken from Y."
-needs_translation: false
 ---
 
 This is the text of the highlight. This is the first paragraph. Introduce why this is an important topic.
@@ -31,7 +30,7 @@ This is the third paragraph of the data highlight.
 
 #### Data
 
-Either in the main text or here, we describe exactly what data has been shared, how it can be re-used, and give links to where it can be downloaded.
+Here we describe exactly what data has been shared, how it can be re-used, and give links to where it can be downloaded.
 
 #### Article
 
@@ -41,11 +40,9 @@ Andersson, M., Johansson, S., Karlsson, A. Title of the journal publication *Jou
 
 ```
 
-On the top of the file, surrounded by `---`, basic information for this data highlight is provided. It contains the title; publication date (desired; Hugo needs to be run on that day or later for it to appear); summary text that appears in the homepage and in the main page of the Data highlights section; location of the illustration to be displayed on the homepage (`banner`); localtion of the illustration on the page of the highlight (`banner_large`); caption text that will appear under the illustration on the page of the highlight; information about whether a (Swedish) translation is still needed or not (`needs_translation: true` or `needs_translation: false`).
+On the top of the file, surrounded by `---`, basic information for this data highlight is provided. It contains the title; publication date (desired; Hugo needs to be run on that day or later for it to appear); summary text that appears in the homepage and in the main page of the Data highlights section; location of the illustration to be displayed on the homepage (`banner`); localtion of the illustration on the page of the highlight (`banner_large`); caption text that will appear under the illustration on the page of the highlight.
 
 The title, date, summary, illustrations will appear where they are supposed to be.
-
-Do not forget that you will need to create an English as well as a Swedish version of the data highlight, corresponding to two separate files placed in two separate folders (see above). In case there is no translation to Swedish yet, the text in English can be used and the `needs_translation` parameter needs to be set to `true` in which case an alert will appear on top of the page saying that the translation will be added later.
 
 ## Illustrations
 
@@ -53,8 +50,8 @@ Typically, for each data highlight, we prepare two illustrations. One illustrati
 
 The smaller illustration needs to have the width that is twice the length (i.e., length `300 px` and width `600 px`). This way, it will easily fit the look of the page layouts.
 
-Both illustrations should be placed in the `/static/highlights_updates/banners` folder. The URL of the images placed here will then be `https://covid19dataportal.se/highlights_updates/banners/file_name.png`.
+Both illustrations should be placed in the `/static/highlights/banners` folder. The URL of the images placed here will then be `https://covid19dataportal.se/highlights/banners/file_name.png`.
 
 ## Publishing
 
-In order to publish a data highlight, make a pull request to the `develop` branch. Appearance of the data highlight can be tested when it is merged with the `develop` branch.
+In order to publish a data highlight, make a pull request to the `develop` branch.

@@ -5,7 +5,7 @@ date: 2020-10-15
 summary: This study used only a fraction of the large volume of serology data continuously collected by the ScilifeLab Autoimmunity and Serology profiling facility.
 aliases:
     - /news/serological_investigation_collaborations
-    - /news/serological_investigation_collaborations
+    - /sv/news/serological_investigation_collaborations
 ---
 
 Recently, the first study based on the data collected as part of the large-scale serology testing carried out at the ScilifeLab Autoimmunity and Serology profiling facility [has been published in Nature Communications](https://doi.org/10.1038/s41467-020-18848-0). The team of researchers behind this study (first authors: Ann-Sofie Rudberg and Sebastian Havervall; PIs: Peter Nilsson, Sophia Hober, and Charlotte Thålin) investigated the seroprevalence of SARS-CoV-2 IgG antibodies in healthcare workers at a large acute-care hospital in Sweden and associations with self-reported symptoms and occupational exposure to SARS-CoV-2. This study used only a fraction of the large volume of SARS-CoV-2 serology data collected by the [ScilifeLab Autoimmunity and Serology profiling facility](https://www.scilifelab.se/facilities/autoimmunity-profiling/) since the start of the COVID-19 pandemic. The collected data contains sensitive personal data and cannot be shared publicly, but the researchers welcome potential collaboration inquiries and data re-use requests from researchers.
