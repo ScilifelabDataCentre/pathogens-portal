@@ -9,7 +9,7 @@ banner_caption: "Source: Figure 5 from Custódio et al., Nature Communications, 
 toc: false
 aliases:
     - /news/synthetic_nanobodies
-    - /news/synthetic_nanobodies
+    - /sv/news/synthetic_nanobodies
 ---
 
 The COVID-19 pandemic has caused a large social and economic burden to society and health care all around the world. COVID-19 is caused by the SARS-CoV-2 virus that, just like its homolog SARS-CoV-1, uses the ACE2 (angiotensin converting enzyme 2) receptor to enter host cells. The virus uses a viral spike protein that, when it binds to the ACE2 receptor, mediates fusion of the viral membrane with the host membrane. The use of therapeutic neutralizing antibodies may be one way to tackle COVID-19. But traditional antibody production and development is known to be time-consuming and costly. An alternative to using human antibodies is to use *nanobodies* (single-domain antibodies) that can be used as therapeutics; they are small, have increased stability, and are relatively simple to produce. Recent publications have showed that nanobodies can inhibit the binding of the spike protein to ACE2 and neutralize the SARS-CoV-2 virus.
