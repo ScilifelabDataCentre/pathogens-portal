@@ -29,15 +29,15 @@ The table below is an overview of a number of different national public authorit
     </thead>
     <tbody>
       <tr>
-        <td><a href="https://www.socialstyrelsen.se/en/National">National Board of Health and Welfare</a></td>
+        <td><a href="https://www.socialstyrelsen.se/en/">National Board of Health and Welfare</a></td>
         <td><a href="https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/dodsorsaksregistret/">The Swedish Cause of Death Register</a></td>
       </tr>
       <tr>
-        <td><a href="https://www.socialstyrelsen.se/en/National">National Board of Health and Welfare</a></td>
+        <td><a href="https://www.socialstyrelsen.se/en/">National Board of Health and Welfare</a></td>
         <td><a href="https://www.socialstyrelsen.se/en/statistics-and-data/registers/register-information/the-national-patient-register/">The National Patient Register</a></td>
       </tr>
       <tr>
-        <td><a href="https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/Public">Public Health Agency of Sweden</a></td>
+        <td><a href="https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/">Public Health Agency of Sweden</a></td>
         <td><a href="https://www.folkhalsomyndigheten.se/smittskydd-beredskap/vaccinationer/nationella-vaccinationsregistret/">National vaccination register</a></td>
       </tr>
       <tr>
@@ -57,11 +57,11 @@ The table below is an overview of a number of different national public authorit
         <td><a href="https://www.ucr.uu.se/swedvasc/">National Quality Registry for Vascular Surgery</a></td>
       </tr>
       <tr>
-        <td><a href="https://www.socialstyrelsen.se/en/National">National Board of Health and Welfare</a></td>
+        <td><a href="https://www.socialstyrelsen.se/en/">National Board of Health and Welfare</a></td>
         <td><a href="https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/kommunal-halso--och-sjukvard/">Registret över insatser inom kommunal hälso- och sjukvård</a></td>
       </tr>
       <tr>
-        <td><a href="https://www.socialstyrelsen.se/en/National">National Board of Health and Welfare</a></td>
+        <td><a href="https://www.socialstyrelsen.se/en/">National Board of Health and Welfare</a></td>
         <td><a href="https://www.socialstyrelsen.se/en/statistics-and-data/registers/register-information/swedish-cancer-register/">The Swedish Cancer Register</a></td>
       </tr>
       <tr>
@@ -69,7 +69,7 @@ The table below is an overview of a number of different national public authorit
         <td><a href="https://www.icuregswe.org/en/">The Swedish Intensive Care Registry</a></td>
       </tr>
       <tr>
-        <td><a href="https://www.socialstyrelsen.se/en/National">National Board of Health and Welfare</a></td>
+        <td><a href="https://www.socialstyrelsen.se/en/">National Board of Health and Welfare</a></td>
         <td><a href="https://www.socialstyrelsen.se/en/statistics-and-data/registers/register-information/the-swedish-medical-birth-register/">The Swedish Medical Birth Register</a></td>
       </tr>
       <tr>
@@ -81,7 +81,7 @@ The table below is an overview of a number of different national public authorit
         <td><a href="https://www.medscinet.com/pnq/">Swedish Neonatal Quality Register</a></td>
       </tr>
       <tr>
-        <td><a href="https://www.socialstyrelsen.se/en/National">National Board of Health and Welfare</a></td>
+        <td><a href="https://www.socialstyrelsen.se/en/">National Board of Health and Welfare</a></td>
         <td><a href="https://www.socialstyrelsen.se/en/statistics-and-data/registers/register-information/the-swedish-prescribed-drug-register/">The Swedish Prescribed Drug Register</a></td>
       </tr>
       <tr>
