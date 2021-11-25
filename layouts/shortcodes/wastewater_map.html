@@ -17,6 +17,7 @@ var vaxholm = ol.proj.transform([18.328313440126077, 59.403145393512034], 'EPSG:
 var alvkarleby = ol.proj.transform([17.448652867267068, 60.56862983522246], 'EPSG:4326', 'EPSG:3857');
 var osteraker = ol.proj.transform([18.298028674534518, 59.48178878747741], 'EPSG:4326', 'EPSG:3857');
 var osthammar = ol.proj.transform([18.365252470912477, 60.25920939154839], 'EPSG:4326', 'EPSG:3857');
+var malmo = ol.proj.transform([13.004149561278064, 55.60004842745427], 'EPSG:4326', 'EPSG:3857');
 
 // add features
 var uppsalaSource = new ol.source.Vector({
@@ -44,6 +45,8 @@ var alvkarlebySource = new ol.source.Vector({
 var osterakerSource = new ol.source.Vector({
 });
 var osthammarSource = new ol.source.Vector({
+});
+var malmoSource = new ol.source.Vector({
 });
 
 var uppsalaFeature = new ol.Feature({
@@ -124,6 +127,12 @@ name: 'Östhammar',
 });
 osthammarSource.addFeature(osthammarFeature);
 
+var malmoFeature = new ol.Feature({
+geometry: new ol.geom.Point(malmo),
+name: 'Malmö: Sjölunda wastewater treatment plant',
+});
+malmoSource.addFeature(malmoFeature);
+
 //create the style
 var pointStyle = new ol.style.Style({
 image: new ol.style.Icon(/** @type {olx.style.IconOptions} */ ({
@@ -201,6 +210,11 @@ source: osthammarSource,
 style: pointStyle
 });
 
+var malmoLayer = new ol.layer.Vector({
+source: malmoSource,
+style: pointStyle
+});
+
 // osm
 var mapLayer = new ol.layer.Tile({
 source: new ol.source.OSM()
@@ -213,12 +227,12 @@ positioning: 'bottom-center'
 
 var view = new ol.View({
 center: mapStart,
-zoom: 5.1
+zoom: 4.7
 });
 
 var map = new ol.Map({
 target: 'map',
-layers: [mapLayer, uppsalaLayer, stockholmLayer, umeaaLayer, orebroLayer, kalmarLayer, ekeroLayer, enkopingLayer, knivstaLayer, tierpLayer, vaxholmLayer, alvkarlebyLayer, osterakerLayer, osthammarLayer],
+layers: [mapLayer, uppsalaLayer, stockholmLayer, umeaaLayer, orebroLayer, kalmarLayer, ekeroLayer, enkopingLayer, knivstaLayer, tierpLayer, vaxholmLayer, alvkarlebyLayer, osterakerLayer, osthammarLayer, malmoLayer],
 view: view
 });
 // register an event handler for the click event
