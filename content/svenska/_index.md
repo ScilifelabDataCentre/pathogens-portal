@@ -6,6 +6,7 @@ teststats:
         othercitites_wastewater_title: Mängd SARS-CoV-2 virus i Uppsalas, Umeås, Örebros avloppsvatten
         uppsala_wastewater_title: Mängd SARS-CoV-2 virus i Uppsalas avloppsvatten
         stockholm_wastewater_title: Mängd SARS-CoV-2 virus i Stockholms avloppsvatten
+        malmo_wastewater_title: Mängd SARS-CoV-2 virus i Malmös avloppsvatten
         umeaa_wastewater_title: Mängd SARS-CoV-2 virus i Umeås avloppsvatten
         orebro_wastewater_title: Mängd SARS-CoV-2 virus i Örebros avloppsvatten
         serologytitle: Antikroppstester som utförs av SciLifeLab

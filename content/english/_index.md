@@ -7,6 +7,7 @@ teststats:
         othercitites_wastewater_title: Amount of SARS-CoV-2 in Uppsala, Umeå, Örebro and other cities' wastewater
         uppsala_wastewater_title: Amount of SARS-CoV-2 in Uppsala wastewater
         stockholm_wastewater_title: Amount of SARS-CoV-2 in Stockholm wastewater
+        malmo_wastewater_title: Amount of SARS-CoV-2 in Malmö wastewater
         umeaa_wastewater_title: Amount of SARS-CoV-2 in Umeå wastewater
         orebro_wastewater_title: Amount of SARS-CoV-2 in Örebro wastewater
         seemoretext: See all graphs
