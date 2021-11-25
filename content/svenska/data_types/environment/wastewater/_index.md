@@ -19,7 +19,7 @@ Vi presenterar epidemiologiska data av mätningar av SARS-CoV-2 virus i avloppsv
 
 ## Uppsala, Umeå, Örebro, Kalmar, och andra orter
 
-<!-- <div class="alert alert-info">Date: <span id="slu_comment_date"></span><br>Commentary: <span id="slu_comment"></span></div> -->
+<div class="alert alert-info">Date: <span id="slu_comment_date"></span><br>Commentary: <span id="slu_comment"></span></div>
 
 Projektet leds av prof. Anna J. Székely (SLU, Sveriges Lantbruksuniversitet) och prof. Maja Malmberg (SLU, Sveriges Lantbruksuniversitet) i samarbete med Uppsala Vatten, Roslagsvatten, Enköpings kommun, Gästrike Vatten, TEMAB m.m.
 
