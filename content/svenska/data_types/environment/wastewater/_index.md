@@ -19,7 +19,7 @@ Vi presenterar epidemiologiska data av mätningar av SARS-CoV-2 virus i avloppsv
 
 ## Uppsala, Umeå, Örebro, Kalmar, och andra orter
 
-<div class="alert alert-info">Date: <span id="slu_comment_date"></span><br>Commentary: <span id="slu_comment"></span></div>
+<!-- <div class="alert alert-info">Date: <span id="slu_comment_date"></span><br>Commentary: <span id="slu_comment"></span></div> -->
 
 Projektet leds av prof. Anna J. Székely (SLU, Sveriges Lantbruksuniversitet) och prof. Maja Malmberg (SLU, Sveriges Lantbruksuniversitet) i samarbete med Uppsala Vatten, Roslagsvatten, Enköpings kommun, Gästrike Vatten, TEMAB m.m.
 
@@ -49,13 +49,15 @@ Observera att grafen nedan visar samma data, men y-axeln visas som en logskala
 
 ## Stockholm
 
+<!-- <div class="alert alert-info">Date: <span id="stockholm_comment_date"></span><br>Commentary: <span id="stockholm_comment"></span></div> -->
+
 Detta projekt, lett av prof. Zeynep Cetecioglu Gurol och kollegor (KTH) är ett samarbete mellan [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) och avdelningarna [SEED](https://www.kth.se/en/seed) och [Chemical Engineering](https://www.kth.se/ket/chemical-engineering-1.784196) vid KTH, i nära samarbete med Stockholm Vatten och Avfall och Käppala Association. Provtagningen av avloppsvatten började i mitten av april 2020 från Bromma, Henriksdal och Käppala reningsverk. Dessa reningsverk får avloppsvatten från en befolkning på cirka 360 000; 860 000 respektive 500 000. Se [den här kartan för det exakta avrinningsområdet för insamlingskanalerna i Käppala](/wastewater/map_Kappala.pdf) och [den här kartan för det exakta avrinningsområdet för insamlingskanalerna i Bromma och Henriksdal](/wastewater/map_Bromma_Henriksdal.pdf).
 
 Efter koncentrering, filtrering och beredning analyseras proverna med RT-qPCR-teknik för SARS CoV-2 RNA. Primers mot nukleokapsidgenen (N) användes för att detektera SARS-COV-2-genen (tidigare använt och verifierat av [Medema et al (2020)](https://doi.org/10.1016/j.scitotenv.2020.142939). I vissa fall har det råa avloppsvattnet frusits ​​vid –20 °C och koncentrerat avloppsvatten eller renat RNA har lagrats vid -80°C innan nästa analyssteg genomfördes. Den metod för att koncentrera prov som prof. Zeynep Cetecioglu Gurol och hennes grupp har använt från projektets början tom vecka 35 2021 baserades på en av forskargruppens egna artiklar ([Jafferali et al, 2021](https://doi.org/10.1016/j.scitotenv.2020.142939)), i artikeln jämfördes gruppens egen metod med fyra andra metoder för att koncentrera prover. Från vecka 35 2021 användes istället [Promegas kit](https://se.promega.com/applications/virus-detection-assay-coronavirus-detection-covid-19-sars-cov-2/wastewater-based-epidemiology-covid19/) för att koncentrera proverna.
 
 Se även [forskargruppens webbsida där sammanfattningar av data och preliminära slutsatser presenteras](https://www.kth.se/water/research/covid-1.979048).
 
-**Ladda ner data:** [Relative antal gener normaliserade för PPMoV; Excelfil](https://blobserver.dckube.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx). Data tillgänglig (delvis) från och med vecka 16 2020; uppdateras varje vecka. \
+**Ladda ner data:** [Relative copy number of SARS-CoV-2 to PMMoV; Excelfil](https://blobserver.dckube.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx). Data tillgänglig (delvis) från och med vecka 16 2020; uppdateras varje vecka. \
 **Kontakt:** zeynepcg@kth.se\
 **Referera till detta dataset:**
 Cetecioglu Z G, Williams, C, Khatami, K, Atasoy, M, Nandy, P, Jafferali, M H, Birgersson, M. SARS-CoV-2 Wastewater Data from Stockholm, Sweden. [https://doi.org/10.17044/scilifelab.14315483](https://doi.org/10.17044/scilifelab.14315483) (2021).
@@ -78,6 +80,24 @@ Observera att grafen nedan visar samma data, men y-axeln visas som en logskala
                     <i>Science of The Total Environment</i> 755. DOI: 10.1016/j.scitotenv.2020.142939
 </div></div>
 
+## Malmö
+
+<!-- <div class="alert alert-info">Date: <span id="malmo_comment_date"></span><br>Commentary: <span id="malmo_comment"></span></div> -->
+
+Analysen av SARS  CoV-2 från Malmös avloppsvatten leds av prof Zeynep Cetecioglu Gurol team från Kungliga Tekniska Högskolan (zeynepcg@kth.se). Analys av prov från Sjölunda avloppsreningsverk började v 39 2021.  Avloppsvattnet kommer från större delen av Malmö stad samt Burlöv och delar av Lomma, Staffanstorp och Svedala kommuner. Verket har cirka 300 000 personer anknutna till sig. [För en karta över upptagningsområdet se här](/wastewater/sjolunda.pdf). Malmös avloppsvattenepidemiologiska prover analyseras med samma metod som prover från Stockholm.
+
+**Ladda ner data:** [Relative copy number of SARS-CoV-2 to PMMoV; Excelfil](https://blobserver.dckube.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx). Data tillgänglig från och med vecka 39 2021; uppdateras varje vecka.
+
+<div class="alert alert-info">Senast uppdaterad: <span id="last_modified_malmo"></span></div>
+
+<div class="d-md-none alert alert-info">
+  Skrolla grafen horisontellt för att se alla data.
+</div>
+
+<div class="plot_wrapper">
+  <div class="table-responsive" id="malmo"></div>
+</div>
+
 ## Arkiverade data
 
 - [Historiska data för Örebro och Umeå, mängd SARS-CoV-2 i avloppsvatten från Umeå respektive Örebro mellan oktober 2020 och juni 2021](historic_orebro_umea)
@@ -92,3 +112,8 @@ Avloppsvattenbaserad epidemiologi studerar mängden virusgenom i avloppsvattnet,
 Observera att graferna som presenteras inom sektionen baseras på preliminära och ännu inte fullständigt utvärderade data. Data som delas ska därför användas med försiktighet. Observera att eftersom olika metoder för insamling av avloppsprover och dataanalys används av olika forskningsprojekten som redovisas nedan(dvs för olika städer) är det inte möjligt jämföra virusmängen mellan projekten (dvs mellan städer). Jämförelser bör göras inom varje projekt (dvs. stad) eftersom metoden är densamma för alla mätningar. Mätningar av SARS CoV-2 i avloppsvatten bör främst ses en indikation på ökande smittspridning, tillsammans med andra datatyper som exempelvis antal positiva SARS CoV-2 test, antal patienter som behöver intensivvård etc och  bidra till kunskap om den regionala dynamiken i COVID-19-pandemi.
 
 {{< ww_dynamic_content >}}
+
+<script src="https://cdn.jsdelivr.net/npm/vega@5.19.1"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.0.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.15.1"></script>
+<script src="https://datagraphics.dckube.scilifelab.se/graphic/1016b97372e9403da0b8e8e7bb14fa8d.js?id=malmo"></script>
