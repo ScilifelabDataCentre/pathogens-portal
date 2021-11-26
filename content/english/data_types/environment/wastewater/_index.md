@@ -11,9 +11,58 @@ plotly: true
 
 We present wastewater epidemiology data from various Swedish cities which have a total population of over 1.5 million people. Wastewater surveillance could prove an effective system for monitoring COVID-19 prevalence and act as an early warning system for predicting upcoming outbreaks. Note that where data for different cities are presented separately, different sample collection and data analysis methods were used. Thus, it is not necessarily possible to make direct comparisons of viral load between cities. Comparisons can be made for data presented together in plots, as the methodology used was the same (unless specifically noted otherwise). [See below for details](https://covid19dataportal.se/data_types/environment/wastewater/#background-wastewater-based-epidemiology) on wastewater epidemiology.
 
+## About SEEC
+
+The Swedish University of Agricultural Sciences node is analyzing samples from ...
+
+The KTH Royal Institute of Technology node is analyzing samples from ...
+
 ## Map of sample collection sites
 
 <div class="row justify-content-center mb-4"><div class="col">{{< wastewater_map >}}</div></div>
+
+## Recent wastewater measurements per municipality
+
+Note that Stockholm and Malmö are not included in the graph below because data from these cities cannot be directly compared to data from the cities included in this graph. That is the case because the method used to analyze samples from these cities is different from the method used to analyze samples from Stockholm and Malmö. In the future, SEEC hopes to unify the methods in such a way that data from all cities would be comparable to each other.
+
+### Stockholm
+
+### Malmö
+
+**Last updated:** <span id="last_modified_malmo"></span> \
+**Wastewater treatment plant:** Sjölunda avloppsreningsverk ([catchment area map](/wastewater/sjolunda.pdf)) \
+**Analysis method used:** [KTH Royal Institute of Technology node method](#kth-royal-institute-of-technology-node) \
+**Download the data:** [Excel file](https://blobserver.dckube.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx); results are available starting from week 39 of 2021; updated weekly.
+
+<div class="d-md-none alert alert-info">
+  Scroll the plot sideways to view all data.
+</div>
+
+<div class="plot_wrapper">
+  <div class="table-responsive" id="malmo"></div>
+</div>
+
+### Uppsala
+
+### Örebro
+
+### Umeå
+
+### Kalmar
+
+### Municipalities in Uppsala and Stockholm regions
+
+## Recent wastewater measurements in a single graph
+
+## Methods
+
+#### Swedish University of Agricultural Sciences (SLU) node
+
+#### KTH Royal Institute of Technology node
+
+## Background: wastewater-based epidemiology
+
+## Archived data
 
 ## Uppsala, Umeå, Örebro, Kalmar, and other municipalities
 
@@ -84,17 +133,7 @@ Please note that the plot below displays the same data, but the y axis is shown 
 
 Analysis of wastewater samples from Malmö is also led by associate professor Zeynep Cetecioglu Gurol and colleagues (KTH Royal Institute of Technology; zeynepcg@kth.se). Samples from the Sjölunda wastewater treatment plant were analyzed starting from week 39 of 2021. This plant processes water from the larger part of Malmö as well as from Burlöv municipanity and parts of Lomma, Staffanstorp, and Svedala municipalities. In total, there are around 300 000 people living in the catchment area of this wastewater treatment plant. See [a map of the catchment area and information in this PDF](/wastewater/sjolunda.pdf). The samples are analyzed using the same method as the one described for Stockholm above.
 
-**Download the data:** [Relative copy number of SARS-CoV-2 to PMMoV; Excel file](https://blobserver.dckube.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx). Results are available starting from week 39 of 2021; updated weekly.
 
-<div class="alert alert-info">Last updated: <span id="last_modified_malmo"></span></div>
-
-<div class="d-md-none alert alert-info">
-  Scroll the plot sideways to view all data.
-</div>
-
-<div class="plot_wrapper">
-  <div class="table-responsive" id="malmo"></div>
-</div>
 
 ## Archived data
 
