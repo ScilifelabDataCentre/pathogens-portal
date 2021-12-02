@@ -66,7 +66,7 @@ SciLifeLab faciliteten har ny bytt namn - [Autoimmunity and Serology Profiling f
 
 #### Publicerade vetenskapliga artiklar och preprint
 
-*Senast uppdaterad: 2021-11-15*
+Senast uppdaterad: 2021-11-15
 
 - Peter Bergman, Ola Blennow, Lotta Hansson, Stephan Mielke, Piotr
 Nowak, Puran Chen, Gunnar Söderdahl, Anders Österborg, Edvard Smith, David Wullimann, Jan Vesterbacka, Gustaf Lindgren,

@@ -63,7 +63,7 @@ The SciLifeLab facility has now changed its name to [Autoimmunity and Serology P
 
 #### Publications and preprints
 
-*Last updated: 2021-11-15*
+Last updated: 2021-11-15
 
 - Peter Bergman, Ola Blennow, Lotta Hansson, Stephan Mielke, Piotr
 Nowak, Puran Chen, Gunnar Söderdahl, Anders Österborg, Edvard Smith, David Wullimann, Jan Vesterbacka, Gustaf Lindgren,
