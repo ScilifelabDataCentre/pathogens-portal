@@ -12,10 +12,10 @@ Wastewater surveillance could prove to be an effective system for monitoring COV
 
 In this section, we present wastewater epidemiology data from various Swedish cities which have a total population of over 2.5 million people (over 25% of the population of Swden). The data presented here originates from analyses conducted by the [Swedish Environmental Epidemiology Center](https://www.scilifelab.se/pandemic-response/pandemic-laboratory-preparedness/swedish-environmental-epidemiology-center-seec/) (SEEC). Samples are analyzed in two nodes of SEEC:
 
-- **SEEC-SLU:** Part of the samples (Uppsala, Örebro, Umeå, Kalmar, and various municipalities in Uppsala and Stockholm region) are analyzed at the Swedish University of Agricultural Sciences node led by associate professor Anna J. Székely (anna.szekely@slu.se) and associate professor Maja Malmberg (maja.malmberg@slu.se).
-- **SEEC-KTH:** Part of the samples (Stockholm and Malmö) are analyzed at the KTH Royal Institute of Technology node led by associate professor Zeynep Cetecioglu Gurol (zeynepcg@kth.se). The methods used in each node are somewhat different, see [detailed description of methods below](#methods).
+- **SEEC-SLU:** Samples from Uppsala, Örebro, Umeå, Kalmar, and various municipalities in Uppsala and Stockholm region are analyzed at the Swedish University of Agricultural Sciences node led by associate professor Anna J. Székely (anna.szekely@slu.se) and associate professor Maja Malmberg (maja.malmberg@slu.se).
+- **SEEC-KTH:** Samples from Stockholm and Malmö are analyzed at the KTH Royal Institute of Technology node led by associate professor Zeynep Cetecioglu Gurol (zeynepcg@kth.se).
 
-Note that the values provided in the datasets and depicted in plots below are preliminary and should not be overinterpreted. The teams are still conducting method efficiency checks that might affect the final results.
+The methods used in each node are somewhat different, see [detailed description of methods below](#methods). Note that the values provided in the datasets and depicted in plots below are preliminary and should not be overinterpreted. The teams are still conducting method efficiency checks that might affect the final results.
 
 ## Map of sample collection sites
 
@@ -23,13 +23,13 @@ Note that the values provided in the datasets and depicted in plots below are pr
 
 ## Comments on the recent wastewater measurements
 
-##### SEEC-SLU
+#### SEEC-SLU
 
 <div><b>Date:</b> <span id="slu_comment_date"></span><br><b>Commentary:</b> <span id="slu_comment"></span></div>
 
 #### SEEC-KTH
 
-[Some text here]
+<div><b>Date:</b> <span id="kth_comment_date"></span><br><b>Commentary:</b> <span id="kth_comment"></span></div>
 
 ## Recent wastewater measurements per municipality
 
@@ -37,7 +37,7 @@ Note that the values provided in the datasets and depicted in plots below are pr
 
 **Last updated:** <span id="last_modified_stockholm"></span> \
 **Wastewater treatment plant:** Bromma, Henriksdal, and Käppala ([catchment area of Käppala](/wastewater/map_Kappala.pdf), [catchment area of Bromma and Henriksdal](/wastewater/map_Bromma_Henriksdal.pdf)) \
-**Analysis method used:** [SEEC KTH Royal Institute of Technology node method](#kth-royal-institute-of-technology-node) \
+**Analysis method used:** [SEEC KTH Royal Institute of Technology node method](#seec-kth-1) \
 **Download the data:** [Excel file](https://blobserver.dckube.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx); results are available starting from week 16 of 2020; updated weekly.
 
 <div class="d-md-none alert alert-info">
@@ -51,7 +51,7 @@ Note that the values provided in the datasets and depicted in plots below are pr
 
 **Last updated:** <span id="last_modified_malmo"></span> \
 **Wastewater treatment plant:** Sjölunda avloppsreningsverk ([catchment area map](/wastewater/sjolunda.pdf)) \
-**Analysis method used:** [SEEC KTH Royal Institute of Technology node method](#kth-royal-institute-of-technology-node) \
+**Analysis method used:** [SEEC KTH Royal Institute of Technology node method](#seec-kth-1) \
 **Download the data:** [Excel file](https://blobserver.dckube.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx); results are available starting from week 39 of 2021; updated weekly.
 
 <div class="d-md-none alert alert-info">
@@ -65,7 +65,7 @@ Note that the values provided in the datasets and depicted in plots below are pr
 
 **Last updated:** <span id="last_modified_uppsala"></span> \
 **Wastewater treatment plant:** Kungsängsverket ([catchment area map](/wastewater/avrinningskarta_inlopp_kungsangsverket.pdf)) \
-**Analysis method used:** [SEEC Swedish University of Agricultural Sciences (SLU) node method](#swedish-university-of-agricultural-sciences-slu-node)\
+**Analysis method used:** [SEEC Swedish University of Agricultural Sciences (SLU) node method](#seec-slu-1)\
 **Download the data:** [Relative ratio of copy number of SARS-CoV-2 to PPMoV, CSV file](https://datagraphics.dckube.scilifelab.se/api/dataset/0ac8fa02871745048491de74e5689da9.csv); data available starting from week 38 of 2020; updated weekly.
 
 <div class="d-md-none alert alert-info">
@@ -77,9 +77,9 @@ Note that the values provided in the datasets and depicted in plots below are pr
 
 ### Örebro
 
-**Last updated:** <span id="last_modified_uppsala"></span> \
+**Last updated:** <span id="last_modified_orebro"></span> \
 **Wastewater treatment plant:** ([catchment area map](/wastewater/map_orebro.pdf)) \
-**Analysis method used:** [SEEC Swedish University of Agricultural Sciences (SLU) node method](#swedish-university-of-agricultural-sciences-slu-node)\
+**Analysis method used:** [SEEC Swedish University of Agricultural Sciences (SLU) node method](#seec-slu-1)\
 **Download the data:** [Relative ratio of copy number of SARS-CoV-2 to PPMoV, CSV file](https://datagraphics.dckube.scilifelab.se/api/dataset/0ac8fa02871745048491de74e5689da9.csv); data available starting from week 25 of 2021; updated weekly.
 
 <div class="d-md-none alert alert-info">
@@ -91,9 +91,9 @@ Note that the values provided in the datasets and depicted in plots below are pr
 
 ### Umeå
 
-**Last updated:** <span id="last_modified_uppsala"></span> \
+**Last updated:** <span id="last_modified_umea"></span> \
 **Wastewater treatment plant:** ([catchment area map](/wastewater/map_umeaa.jpg)) \
-**Analysis method used:** [SEEC Swedish University of Agricultural Sciences (SLU) node method](#swedish-university-of-agricultural-sciences-slu-node)\
+**Analysis method used:** [SEEC Swedish University of Agricultural Sciences (SLU) node method](#seec-slu-1)\
 **Download the data:** [Relative ratio of copy number of SARS-CoV-2 to PPMoV, CSV file](https://datagraphics.dckube.scilifelab.se/api/dataset/0ac8fa02871745048491de74e5689da9.csv); data available starting from week 25 of 2021; updated weekly.
 
 <div class="d-md-none alert alert-info">
@@ -105,9 +105,9 @@ Note that the values provided in the datasets and depicted in plots below are pr
 
 ### Kalmar
 
-**Last updated:** <span id="last_modified_uppsala"></span> \
+**Last updated:** <span id="last_modified_kalmar"></span> \
 **Wastewater treatment plant:**  \
-**Analysis method used:** [SEEC Swedish University of Agricultural Sciences (SLU) node method](#swedish-university-of-agricultural-sciences-slu-node)\
+**Analysis method used:** [SEEC Swedish University of Agricultural Sciences (SLU) node method](#seec-slu-1)\
 **Download the data:** [Relative ratio of copy number of SARS-CoV-2 to PPMoV, CSV file](https://datagraphics.dckube.scilifelab.se/api/dataset/0ac8fa02871745048491de74e5689da9.csv); data available starting from week 34 of 2021; updated weekly.
 
 <div class="d-md-none alert alert-info">
@@ -119,9 +119,9 @@ Note that the values provided in the datasets and depicted in plots below are pr
 
 ### Other municipalities in Uppsala and Stockholm regions
 
-**Last updated:** <span id="last_modified_uppsala"></span> \
+**Last updated:** <span id="last_modified_slu_other"></span> \
 **Wastewater treatment plant:** The amount of SARS-CoV-2 virus in the wastewater of Ekerö is estimated based on samples from Ekebyhov wastewater treatment plant, that of Österåker is based on Margretelund wastewater treatment plant, and that of Vaxholm is based on Blynäs wastewater treatment plant. \
-**Analysis method used:** [SEEC Swedish University of Agricultural Sciences (SLU) node method](#swedish-university-of-agricultural-sciences-slu-node)\
+**Analysis method used:** [SEEC Swedish University of Agricultural Sciences (SLU) node method](#seec-slu-1)\
 **Download the data:** [Relative ratio of copy number of SARS-CoV-2 to PPMoV, CSV file](https://datagraphics.dckube.scilifelab.se/api/dataset/0ac8fa02871745048491de74e5689da9.csv); updated weekly.
 
 <div class="d-md-none alert alert-info">
@@ -131,7 +131,7 @@ Note that the values provided in the datasets and depicted in plots below are pr
   <div class="table-responsive" id="various_plot"></div>
 </div>
 
-## Recent wastewater measurements in a single graph
+## All wastewater measurements in a single graph
 
 The graph below allows for comparison of SARS-CoV-2 levels in wastewater across wastewater treatment plants. Note that Stockholm and Malmö are not included in the graph below because data from these cities cannot be directly compared to data from the cities included in this graph. That is the case because the method used to analyze samples from these cities is somewhat different from the method used to analyze samples from Stockholm and Malmö. In the future, SEEC hopes to unify the methods in such a way that data from all cities would be comparable to each other.
 
@@ -157,9 +157,11 @@ Measurements are taken weekly, by processing a representative sample collected o
 
 #### SEEC-KTH
 
-The samples are analyzed at KTH Royal Institute of Technology node as a collaboration between the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and the [SEED](https://www.kth.se/en/seed) and [Chemical Engineering](https://www.kth.se/ket/chemical-engineering-1.784196) departments at KTH, in close collaboration with Stockholm Vatten och Avfall and the Käppala Association.
+The samples are analyzed at KTH Royal Institute of Technology node as a collaboration between the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and the [KTH Water Centre](https://www.kth.se/water), [Chemical Engineering](https://www.kth.se/ket/chemical-engineering-1.784196), and [Protein Science](https://www.kth.se/pro/protein-science-1.784558) departments at KTH, in close collaboration with Stockholm Vatten och Avfall and the Käppala Association. Three collection channels (Järva, Hässelby and Riksby) are analyzed in Bromma and two (Henriskdal and Sickla) are analyzed in Henriksdal treatment plant.
 
-After concentration, filtering, and preparation, the samples are analyzed using qPCR technique for SARS CoV-2 RNA. Primers of the nucleocapsid (N) gene were used to detect the SARS-COV-2 gene (previously used and verified by [Medema and colleagues (2020)](https://doi.org/10.1016/j.scitotenv.2020.142939)). In some cases, the raw wastewater has been frozen at –20 degrees, and  concentrated wastewater or purified RNA have been stored at -80 C before the next analysis step was carried out. The concentration method used by prof. Zeynep Cetecioglu Gurol and her colleagues from the beginning of the project until week 35 of 2021 was based on their published study ([Jafferali and colleagues, 2021](https://doi.org/10.1016/j.scitotenv.2020.142939)) comparing four different concentration methods. From week 35 of 2021, the group is using [the Promega kit](https://se.promega.com/applications/virus-detection-assay-coronavirus-detection-covid-19-sars-cov-2/wastewater-based-epidemiology-covid19/) for the concentration step.
+One-day representative samples (collected over 24 hours) are received every week from the three WWTP. An aliquot of the samples is analyzed weekly and another two aliquots are kept in -20°C (chemical bank) and -80°C (biobank) to have a record of all the samples received and to have the possibility of further investigations. For the weekly measurement, samples are concentrated, and RNA is extracted using Maxwell RSC Enviro TNA kit (Promega). Aliquots of the extracted RNA are stored at -80°C as RNA-biobank and one aliquot is analyzed. The copy number of SARS-CoV-2 is quantified by RT-qPCR, using primers of the nucleocapsid (N) gene detect in the SARS-CoV-2 genome (previously used and verified by [Medema and colleagues (2020)](https://doi.org/10.1016/j.scitotenv.2020.142939)). The SARS-CoV-2 virus content in the wastewater is normalized using Pepper Mild Mottle Virus (PMMoV), which is an indicator of the faecal matter content ([Kitajima and colleagues (2018)](https://doi.org/10.1038/s41545-018-0019-5)). This  normalization corrects the variation of flow rate in the WWTP and population fluctuation. Positive control standards for SARS-CoV-2 and PMMoV are from IDT-DNA are used in the RT-qPCR, while negative controls are tap water (RNA extraction step) and nuclease-free water (RT-qPCR step).
+
+The concentration method used by SEEC-KTH from the beginning of the project until week 35 of 2021 was based on their published study ([Jafferali and colleagues, 2021](https://doi.org/10.1016/j.scitotenv.2020.142939)) comparing four different concentration methods. From week 35 of 2021, the group is using [the Promega kit](https://se.promega.com/applications/virus-detection-assay-coronavirus-detection-covid-19-sars-cov-2/wastewater-based-epidemiology-covid19/) for the concentration step.
 
 ## Background: Wastewater-based epidemiology
 
