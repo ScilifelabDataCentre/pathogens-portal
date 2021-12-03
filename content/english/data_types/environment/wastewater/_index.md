@@ -176,7 +176,6 @@ Please note that the graphs presented on this page are based on preliminary and 
 - [Historic data for Örebro and Umeå; amount of SARS-CoV-2 in Umeå and Örebro wastewater between October 2020 and June 2021](historic_orebro_umea).
 - [Historic data for Stockholm;  Gene copy number/week (raw wastewater) with bovine + PMMoV factor between April 2020 and August 2021](historic_stockholm)
 
-
 <!-- <div class="alert alert-info">Date: <span id="stockholm_comment_date"></span><br>Commentary: <span id="stockholm_comment"></span></div> -->
 
 <!-- <div class="alert alert-info">Date: <span id="malmo_comment_date"></span><br>Commentary: <span id="malmo_comment"></span></div> -->
