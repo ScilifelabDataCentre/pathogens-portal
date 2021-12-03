@@ -165,10 +165,8 @@ In the *samples.xml* file, we can define many samples inside a `<SAMPLE_SET>` 
 * Multiple `<SAMPLE_ATTRIBUTE>` tags : defining all other metadata fields
 
 To see an example of a `<SAMPLE_SET>` please [see this example from ENA](https://ena-docs.readthedocs.io/en/latest/submit/samples/programmatic.html).
-<!-- Does each sample just contain one title, one sample name and one description tag? Give examples of potential attribute tags?-->
 
 Sample aliases are defined within the `<SAMPLE>` tag, e.g. `<SAMPLE alias='this_alias'>`. In the example data, the alias has been suffixed with the word ‘programmatic’. Aliases must be unique.
-<!-- I do feel like an example of a real alias would be useful here, just so I can see what I could have as an alias-->
 
 #### Submit the Samples
 
@@ -196,11 +194,11 @@ Check the resultant receipt file to see whether your update was successful. Note
 
 From this point in the 'route 2' submission tutorial, the instructions differ according to whether you are submitting raw reads or assemblies. This section details how users can submit 'raw reads'. For instructions on how to submit assemblies, please see the 'Validate and submit sequence assemblies' section below.
 
-As in all previous steps, this type of submission is performed using XML files. In the case of raw reads, we must submit 2 types of objects: experiments and reads. Experiments hold information about library preparation and sequencing protocols, and also provide a link to the appropriate study and samples. Runs simply link experiments and data files. <!-- checked this with Yvonne - supposed to be reads and not runs?-->
+As in all previous steps, this type of submission is performed using XML files. In the case of raw reads, we must submit 2 types of objects: experiments and runs. Experiments hold information about library preparation and sequencing protocols, and also provide a link to the appropriate study and samples. Runs simply link experiments and data files.
 
 Submissions are defined using different metadata objects. To know more about metadata objects, please [read this section](/support_services/tutorial_ena/tutorial_ena_terminology/) of this tutorial.
 
-Please go to the example data that you downloaded earlier, and locate example XMLs for both experiments and reads in the `runs/programmatic` directory. Make the following edits: <!-- checked this with Yvonne - supposed to be 02-route/runs?-->
+Please go to the example data that you downloaded earlier, and locate example XMLs for both experiments and runs in the `02-route/runs` directory. Make the following edits:
 
 * In **experiments.xml**, replace all occurrences of PRJEB#### with your study accession number, and all occurrences of SAME###### with the equivalent sample accessions.
 
