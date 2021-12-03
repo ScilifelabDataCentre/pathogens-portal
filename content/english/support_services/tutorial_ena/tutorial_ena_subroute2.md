@@ -225,22 +225,11 @@ This section of the 'route 2' tutorial details how users can submit sequence ass
 
 A new JSON-based REST service was introduced by ENA this year specifically for the submission of SARS-CoV-2 sequences. In this service, sequences are not held in FASTA files. Rather, they are included directly in the JSON itself, thus greatly simplifying the process of submission. This is only made possible due to the small size and relatively low complexity of the genome. For more information on this system, including useful code snippets, please see [ENA documentation on this topic](https://ena-covid19-docs.readthedocs.io/en/latest/help_and_guides/webin-cli-rest.html).
 
-<!-- LIANE - you have checked with Yvonne about multiple aspects of that given below. YOU NEED TO FINISH THIS AS NEEDED -->
-
-<!-- :::{tabbed} Unix/MacOS -->
 ```bash
 cd $WORKSHOP/02-route/sequences/
 ls
 cat hCoV-19_isolate_1.json
 ```
-<!-- :::
-
-:::{tabbed} Windows
-```
-cd $WORKSHOP\02-route\sequences\
-dir
-```
-::: -->
 
 Note that this JSON object contains the exact same information as that of its equivalent manifest file. The only difference is that the sequence is embedded directly into the JSON payload. We will send the entire JSON object (via the `POST` protocol) to the Webin-CLI-REST (test) service of ENA using cURL.
 
@@ -249,6 +238,8 @@ This service also provides both validation and submission services, as with the 
 * Validation: [https://wwwdev.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19/validate](https://wwwdev.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19/validate).
 
 * Submission: [https://wwwdev.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19](https://wwwdev.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19/validate).
+
+<!-- LIANE - YOU NEED TO FINISH THIS AS NEEDED - BIG CODE EXAMPLE -->
 
 Let's validate the contents of `hCoV-19_isolate_1.json`. Remember to replace `-u user:pass` with your webin credentials, and to substitute in your own accessions into the JSON object:
 ```bash
@@ -273,49 +264,16 @@ curl -X 'POST' -u user:pass   \
 
 To submit the sequence, simply remove `/validate` from the URL above and run again.
 
+<!-- LIANE - COPIED FROM ROUTE 1 CAN WE USE HERE??? -->
 
+### What happens after submission
 
+Once the submitted sequences have been processed, they will be distributed as **EMBL flat files**, see [this example from ENA](https://ena-docs.readthedocs.io/en/latest/submit/fileprep/flat-file-example.html) to understand the format. These files largely comprise of:
 
+1. Metadata, such as author names and addresses (contained in lines beginning with `R`, e.g. `RA`, `RL`, `RG`)
+2. Sample information, located inside a `source` block
+3. The sequence itself
 
+Upon generation of the EMBL file, sequences also acquire a sequence accession number. This accession number will comprise of 2 upper case letters followed by 6 numbers, e.g. [LR991698](https://www.ebi.ac.uk/ena/browser/api/embl/LR991698.2?lineLimit=1000).
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### collapsable element example
-
-  <div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="False" aria-controls="collapseExample">
-    Click here for more information about...
-  </button>
-  </div>
-<div class="collapse" id="collapseExample">
-<div class="text-center">
-  <img src="/img/ena_tutorial/ENA_logo_2021.png" width="350" class="rounded">
-</div>
-  </div>
-</div>
+For each assembly submission, Webin will report a unique accession number that starts with ERZ. For most assemblies, this accession number is for internal processing only and will not be visible in the browser. However, for SARS-CoV-2 assemblies, sequence accessions will continue to be assigned and the ERZ records will also be available in the browser to provide a point of access for the submitted file(s).

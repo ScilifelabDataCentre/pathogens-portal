@@ -25,9 +25,9 @@ Här följer riktlinjer för publicering av data uppdelat på datatyp:
 
 * ##### Genomik & transkriptomik data
 
-    Vi föreslår att rådata och sammansatta sekvensdata skickas in  till [ENA](https://www.ebi.ac.uk/ena). För vidare information om att publicera data på ENA se [SARS-CoV-2 submission](https://ena-browser-docs.readthedocs.io/en/latest/help_and_guides/sars-cov-2-submissions.html). Innan sekvensdata (t.ex. ”shot gun”-sekvenser) skickas in är det nödvändigt att ta bort humana (kontaminerande) sekvenser.
+    Vi föreslår att rådata och sammansatta sekvensdata skickas in  till [ENA](https://www.ebi.ac.uk/ena). ENA har skapat dokumentation för att underlätta för forskare att [publicera SARS CoV-2 data via ENA](https://ena-browser-docs.readthedocs.io/en/latest/help_and_guides/sars-cov-2-submissions.html). För att ytterligare underlätta detta arbete har vi skapat en handledning [se här](/support_services/tutorial_ena/tutorial_ena_intro).
 
-    Humana värdsekvensdata kräver kontrollerad åtkomst, och NBIS utvecklar för närvarande en lokal version av European Genome-phenome Archive (EGA) i Sverige (EGA-SE) vilket kommer möjliggöra arkivering och delning av känsliga data inom en rättslig ram.  
+    Innan sekvensdata (t.ex. ”shot gun”-sekvenser) skickas in är det nödvändigt att ta bort humana (kontaminerande) sekvenser. Humana värdsekvensdata kräver kontrollerad åtkomst, och NBIS utvecklar för närvarande en lokal version av European Genome-phenome Archive (EGA) i Sverige (EGA-SE) vilket kommer möjliggöra arkivering och delning av känsliga data inom en rättslig ram.  
 
     Tills dess att EGA-SE är tillgänglig, bör känsliga data fortsätta förvaras i en säker miljön (t.ex. på BIANCA på [Uppmax](https://www.uppmax.uu.se/)).  SciLifeLab kan [hjälpa er med förfrågningar om åtkomst och publicering](https://www.scilifelab.se/data/humandata/). Vi föreslår att ett meta-data post skapas i [SciLifeLab Data Repository](/support_services/general_data_repository/), med kontaktinformation för åtkomst, vilket genererar en permanent identifierare, en doi. DOI:n kan därefter användas i vetenskapliga publikationer för att hänvisa till dataseten. När den svenska EGA tagits i drift, och dataseten skickats in, kan åtkomstinformationen ändras för att hänvisa till EGA. Se till exempel [DOI: 10.17044/NBIS/G000014](https://doi.org/10.17044/NBIS/G000014).
 
