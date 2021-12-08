@@ -1,8 +1,10 @@
 ---
 title: The Administration and Study of Vaccines in Sweden
-toc: False
+toc: true
 plotly: true
 ---
+
+## General information on vaccine research
 
 Over the last two years, the COVID-19 pandemic has challenged societies and healthcare systems worldwide, and vaccines and therapeautic treatments have been rapidly developed in response. To date, the [European Medicines Agency (EMA)](https://www.ema.europa.eu/en) has approved four vaccines against COVID-19:
 
@@ -17,7 +19,7 @@ This page is focussed on vaccine research. On it, we [visualise](/data_types/hea
 
 The section also displays a subset of ongoing [Swedish research projects](/data_types/health_data/vaccines/#ongoing-research-projects) related to vaccine research. These projects are focussed broadly on vaccines and, as such, they include life science projects, registery-based projects, and public health projects. We also [show a subset of publications](/data_types/health_data/vaccines/#publications) related to vaccine research by researchers affiliated with a Swedish University or Research Institute. Lastly, we provide more [detailed information on some projects](/data_types/health_data/vaccines/#vaccine-research-projects) on vaccine research that are sharing data.
 
-#### Additional resources about COVID-19 vaccines:
+### Additional resources on COVID-19 vaccines
 
 The **Swedish Health Agency** provides general information about COVID-19 [here](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/).
 
@@ -29,11 +31,11 @@ The **European Centre for Disease Prevention and Control** (ECDC) shows informat
 
 Information about the vaccines is available from the **Centre for disease Control** [here](https://www.cdc.gov/coronavirus/2019-ncov/vaccines/index.html).
 
-### Visualisations related to vaccination coverage
+## Visualisations related to vaccination coverage
 
 The visualisations in this section are based on publicly available data from the [Swedish Health Agency (Folkhälsomyndigheten, FoHM)](www.folkhalsomyndigheten.se). Follow [this link](https://www.folkhalsomyndigheten.se/folkhalsorapportering-statistik/statistikdatabaser-och-visualisering/vaccinationsstatistik/statistik-for-vaccination-mot-covid-19/) to view their summary of statistics related to vaccination against COVID-19 in Sweden (only available in Swedish). The data used to produce the visualations can be downloaded [here](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data). For each visualisation, we describe which part of the dataset was used and how the calculations were done. The data is updated weekly (on Thursdays).
 
-#### General summary statistics
+### General summary statistics
 
 In this section, we examine the overall levels of vaccination in Sweden, as well as the recent rate of vaccination. 
 
@@ -52,7 +54,7 @@ To summarise, in total, {placeholder: one_dose_swe}% of the population above aro
 
 Reuters COVID-19 Tracker provides some additional summary information on vaccinations against COVID-19 (as well as information regarding the implementation of lockdown measures and cases) [for Sweden](https://graphics.reuters.com/world-coronavirus-tracker-and-maps/countries-and-territories/sweden/). In particular, the data includes how many doses would be needed to provide 100% of the population with 2 doses, and an estimation of how long (based on the current number of doses administered daily) it might take to vaccinate 10% more of the total population.
 
-#### Administration of vaccinations over time
+### Administration of vaccinations over time
 
 The first vaccine doses were administered in Sweden in early 2021. As with other countries, the vaccine program rollout was such that the vaccine became available to decreasing age groups over time (MAYBE WE SHOULD HAVE THIS INCLUDED AS GENERAL INFORMATION SOMEWHERE ELSE ON THE PAGE?? COULD ALSO EXTEND THE INFO).
 
@@ -66,31 +68,31 @@ Please keep in mind that this data differs from the percentages as calculated by
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/vaccine_timeseries_pop_barchart.json" height="500px" >}}</div>
 </div>
 
-#### Administration of vaccinations in each county (lan)
+### Administration of vaccinations in each county (lan)
 
 In this section, we explore the levels of vaccination coverage for each of the three doses in each county (lan) of Sweden. We again use the latest data on the population size for each county from [Statistics Sweden (SCB)](https://www.scb.se/en/finding-statistics/statistics-by-subject-area/population/population-composition/population-statistics/pong/tables-and-graphs/monthly-statistics--the-whole-country/population-statistics-2021/) to calculate the number of each type of dose administered as a percentage of the whole population of that county. We take the number of first and second doses administered in that county from the 'Vaccinerade tidsserie' tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)). Again, please note that the 'raw numbers' related to these doses represent the vaccinations administered to those aged at least 16. As of December 2021, there is no directly comparable 'raw numbers' data availabble for the third 'booster' dose. However, data is available on the total number of individuals aged 18+ that have received each dose in each county (see 'Totalt' values in the Dos 3 per åldersgrupp tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)). We have therefore made use of these values to calculate the percentage of the population that have received the third dose.
 
 Again, please note that these percentage values will differ from those calculated by FoHM, whose calculations only consider the size of the population born since the start of 2005, rather than the whole population.
 
-##### Administration of one vaccine dose:
+#### Administration of one vaccine dose:
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/onedose_pop_map.json" height="500px" >}}</div>
 </div>
 
-##### Administration of two vaccine doses:
+#### Administration of two vaccine doses:
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/twodose_pop_map.json" height="500px" >}}</div>
 </div>
 
-##### Administration of three vaccine doses:
+#### Administration of three vaccine doses:
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/threedose_pop_map.json" height="500px" >}}</div>
 </div>
 
-#### Administration of vaccinations according to age group
+### Administration of vaccinations according to age group
 
 We constructed the below heatmap to show how the relative numbers of people vaccinated differs according to age. Unsurprisingly, the more advanced age groups tend to have higher levels of vaccination for each dose, as they are given access at an earlier stage.
 
@@ -102,44 +104,44 @@ As of December 2021, data is available for individuals above the age of 12 for t
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/vaccine_heatmap.json" height="750px" >}}</div>
 </div>
 
-### Ongoing research projects
+## Ongoing research projects
 
 Below is a manually curated overview of projects focussed on **vaccine research** that are/were funded by major funding agencies in Sweden. As it is manually curated, the list may not be exhaustive, but new projects will be added as soon as possible. If you are aware of a project that is not listed here but ought to be, please [get in touch with us](/contact/). For a list of all research projects funded by major funding agencies in Sweden, see [this section of the portal](/projects/funding/) instead.
 
-### Publications
+## Publications
 
 Below is a subset of pre-prints and published scientific journal articles on the subject of **vaccine research** involving at least one author affiliated with a Swedish university or research institute. This list is based on a manually curated database and, as such, may not be exhaustive. If you think that a publication should be listed here but isn’t, or feel that information about a publication requires correction, please [get in touch with us](/contact/). For a full list of all publications related to COVID-19 and SARS-CoV-2 that involve at least one author affiliated with a Swedish univerisity or research institute, please see [this section of the portal](/publications/).
 
-### Vaccine research projects
+## Vaccine research projects
 
-#### RECOVAC
+### RECOVAC
 
 The [**RECOVAC project**](https://www.gu.se/en/research/recovac) stands for Register-based large-scale national population study to monitor Covid-19 vaccination effectiveness and safety. It is a subproject to **SCIFI-PEARL**. (for more information about **SciFI-PEARL** se below) The project aim is to continuously follow-up Covid-19 vaccination research effectiveness and safety in Sweden using a linked multi-register observational study, *...deliver continuous Covid-19 vaccination follow-up and research on effectiveness and safety in a nationwide linked  multi-register, regularly updated, observational study for timely response to key scientific questions...* [RECOVAC webpage](https://www.gu.se/en/research/recovac),Gothenburg University.
 
 The **RECOVAC project**, will also address potential vaccine adverse effect related to vaccination status and characteristics of the subjects. Study population and data will be regularly updated every 1-3 months. In summary, this research provides a unique resource of continuous data that can be used for future epidemiological research on Covid-19 vaccination. In addition, the research can be used support public health and safety, as well as for policy-making related to the present-day Covid-19 pandemic. The research group from Gothenburg University has also launched aa web app [*"Symptoms"*](https://www.symptoms.se/recovac/fpi ) that will enable patient self-reporting of symptoms, which will then directly contribute to vaccine monitoring and safety in the research project.
 
-##### Visualisations
+#### Visualisations
 
 To be added from Patricia
 
-##### General information:
+#### General information:
 EPN Nr xxx
 
-###### Contact information
+#### Contact information
 Prof *Fredrik Nyberg*, Project leader and Guest Professor for Register epidemiology,
 Gothenburg University. Email: fredrik.nyberg@gu.se or Email: scifipearl@medicin.gu.se
 *Patricia Ernst*, Project coordinator SCIFI-PEARL and RECOVAC. Email: patricia.ernst@gu.se
 
-###### Funders
+#### Funders
 SciLifeLab / Knut and Alice Wallenbergs Foundation, [Swedish Research Council](www.vr.se)
 
-##### Data availability
+#### Data availability
 In order to get data from the **RECOVAC project** xxx
 
-##### Terms for access for the **RECOVAC project datasets**
+#### Terms for access for the **RECOVAC project datasets**
 The database can only be used for xxx (this section will come from Patricia)
 
-##### Publications and pre-prints
+#### Publications and pre-prints
 *Publications*
 Stridsman C, Vanfleteren LEGW, Konradsen JR, Axelsson Fisk S, Pedroletti C, Sjöö Y, Syk J, Sterner T, Lindberg A, Tunsäter A, Nyberg F, Ekberg-Jansson A, Karlsson Sundbaum J
 *Eur Respir J* 58 (5) 2101920 [2021-11-00; online 2021-08-19]
@@ -153,7 +155,7 @@ Thirty-Day Outcomes of Children and Adolescents With COVID-19: An International 
 *Preprints*
 Nyberg F, Lindh M, Vanfleteren LEGW, Hammar N, Wettermark B, Sundström J, Santosa A, Kirui BK, Gisslén M.(2021) Adverse events of special interest for COVID-19 vaccines - background incidences vary by sex, age and time period and are affected by the pandemic. [Preprint, online 2021-10-05]
 
-#### SCIFI-PEARL
+### SCIFI-PEARL
 
 The **SCIFI-PEARL project** [Swedish Covid-19 Investigation for Future Insights – a Population Epidemiology Approach using Register Linkage](https://www.gu.se/en/research/scifi-pearl) is a multi-register observational study using *register-based data* to answer questions related to Covid-19 disease. These questions include, for example; risk factors for unfavorable prognosis, and if aspects of comorbidity, treatments, or anamnesis increase long-term consequences of Covid-19 infections. In addition, the project  also addresses questions related to public health, such as if the present-day pandemics and vaccination program has affected drug use, or healthcare in individuals and society.
 
