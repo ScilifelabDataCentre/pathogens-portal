@@ -142,4 +142,3 @@ Please note that the graphs presented on this page are based on preliminary and 
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/bd6bf95d7ae34ed0a9442cfc3408c57f.js?id=umea_plot"></script>
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/26cc6ddeaf224e3aa623a67f0a06aed1.js?id=kalmar_plot"></script>
 <script src="https://datagraphics.dckube.scilifelab.se/graphic/f0c83b41de5543fab358c60626b2b548.js?id=various_plot"></script>
-  
