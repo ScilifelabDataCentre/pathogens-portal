@@ -61,25 +61,112 @@ By comparing and combining large number of variants of SARS-CoV-2 proteins as an
 
 The SciLifeLab facility has now changed its name to [Autoimmunity and Serology Profiling facility](https://www.scilifelab.se/facilities/autoimmunity-profiling/).
 
-#### Publications
+#### Publications and preprints
 
-* Alkharaan, H., Bayati, S., Hellström, C., Aleman, S., Olsson, A., Lindahl, K., Bogdanovic, G., Healy, K., Tsilingaridis, G., De Palma, P., Hober, S., Månberg, A., Nilsson, P., Pin, E., Sällberg Chen, M. Persisting salivary IgG against SARS-CoV-2 at 9 months after mild COVID-19: a complementary approach to population surveys. *The Journal of Infectious Diseases*, **224** 407-414 (2021). [https://doi.org/10.1093/infdis/jiab256](https://doi.org/10.1093/infdis/jiab256)
+Last updated: 2021-11-15
 
-* Dillner, J., Elfström, K. M., Blomqvist, J., Eklund, C., Lagheden, C., Nordqvist-Kleppe, S., Hellström, C., Olofsson, J., Andersson, E., Jernbom Falk, A., Bergström, S., Hultin, E., Pin, E., Månberg, A., Nilsson, P., Hedhammar, M., Hober, S., Mattsson, J., Arroyo Mühr, L. S., Conneryd Lundgren, K. Antibodies to SARS-CoV-2 and risk of past or future sick leave. *Scientific Reports* **11**, 5160 (2021). [https://doi.org/10.1038/s41598-021-84356-w](https://doi.org/10.1038/s41598-021-84356-w)
+- Peter Bergman, Ola Blennow, Lotta Hansson, Stephan Mielke, Piotr
+Nowak, Puran Chen, Gunnar Söderdahl, Anders Österborg, Edvard Smith, David Wullimann, Jan Vesterbacka, Gustaf Lindgren,
+Lisa Blixt, Gustav Friman, Emilie Wahren Borgstrom, Anna Nordlander, Angelica Cuapio Gomez, Mira Akber, Davide Valentini,
+Anna-Carin Norlin, Anders Thalme, Gordana Bogdanovic, Sandra Muschiol, Peter Nilsson, Sophia Hober, Karin Lore, Margaret
+Sällberg Chen, Marcus Buggert, Hans-Gustav Ljunggren, Per Ljungman, Soo Aleman. Safety and efficacy of the mRNA BNT162b2 vaccine against SARS-CoV-2 in five groups of immunocompromised patients and
+healthy controls in a prospective open-label clinical trial. *EBioMedicine* **in press**. [https://doi.org/10.1101/2021.09.07.21263206](https://doi.org/10.1101/2021.09.07.21263206)
 
-* Dillner, J., Elfström, K. M., Blomqvist, J., Engstrand, L., Uhlén, M., Eklund, C., Boulund, F., Lagheden, C., Hamsten, M., Nordqvist-Kleppe, S., Seifert, M., Hellström, C., Olofsson, J., Andersson, E., Jernbom Falk, A., Bergström, S., Hultin, E., Pin, E., Pimenoff, V. N., Hassan, S., Månberg, A., Nilsson, P., Hedhammar, M., Hober, S., Mattsson, J., Arroyo Mühr, L. S., Conneryd Lundgren, K. High amounts of SARS-CoV-2 precede sickness among asymptomatic healthcare workers. *The Journal of Infectious Diseases*, **224** jiab099 (2021). [https://doi.org/10.1093/infdis/jiab099](https://doi.org/10.1093/infdis/jiab099)
+- Raphael Carapito, Richard Li, Julie Helms, Christine Carapito, Sharvari Gujja, Véronique Rolli, Raony Guimaraes, Jose Malagon-
+Lopez, Perrine Spinnhirny, Razieh Mohseninia, Aurélie Hirschler, Leslie Muller, Paul Bastard, Adrian Gervais, Qian Zhang,
+Francois Danion, Yvon Ruch, Maleka Schenck-Dhif, Olivier Collange, Thiên-Nga Chamaraux-Tran, Anne Molitor, Angélique
+Pichot, Alice Bernard, Ouria Tahar, Sabrina Bibi-Triki, Haiguo Wu, Nicodème Paul, Sylvain Mayeur, Annabel Larnicol, Geraldine
+Laumond, Julia Frappier, Sylvie Schmidt, Antoine Hanauer, Cécile Macquin, Tristan Stemmelen, Michael Simons, Xavier
+Mariette, Olivier Hermine, Samira Fafi-Kremer, Bernard Goichot, Bernard Drenou, Khaldoun Kuteifan, Julien Pottecher, Paul-
+Michel Mertes, Shweta Kailasan, M. Javad Aman, Elisa Pin, Peter Nilsson, Anne Thomas, Alain Viari, Damien Sanlaville, Francis
+Schneider, Jean Sibilia, Pierre-Louis Tharaux, Jean-Laurent Casanova, Yves Hansmann, Daniel Lidar, Mirjana Radosavljevic,
+Jeffrey Gulcher, Ferhat Meziani, Christiane Moog, Thomas W Chittenden, Seiamak Bahram. Identification of driver genes for severe forms of COVID-19 in a deeply phenotyped young patient cohort. *Science Translational Medicine* (2021). [https://doi.org/10.1126/scitranslmed.abj7521](https://doi.org/10.1126/scitranslmed.abj7521)
 
-* Hassan, S. S., Seigerud, Å., Abdirahman, R., Arroyo Mühr, L. S., Nordqvist Kleppe, S., Pin, E., Månberg, A., Hober, S., Nilsson, P., Engstrand, L., Miriam Elfström, K., Blomqvist, J., Conneryd Lundgren, K., Dillner, J. SARS-CoV-2 infections amongst personnel providing home care services for older persons in Stockholm, Sweden. *Journal of Internal Medicine*, **290** 430-436 (2021). [https://doi.org/10.1111/joim.13274](https://doi.org/10.1111/joim.13274)
+- Sara Mravinacova, Malin Jönsson, Jonas Klingström, Jamil Yousef, Cecilia Hellström, Sebastian Havervall, Sara Kanje, Charlotte Thålin, Elisa Pin, Hanna Tegel, Peter
+Nilsson, Anna Månberg, Sophia Hober. A cell free high-throughput assay for assessment of SARS-CoV-2 neutralization capability. *New Biotechnology* **66** (2022). [https://doi.org/10.1016/j.nbt.2021.10.002](https://doi.org/10.1016/j.nbt.2021.10.002)
 
-* Havervall, S., Rosell, A., Phillipson, M., Mangsbo, S. M., Nilsson, P., Hober, S., Thålin, C. Symptoms and Functional Impairment Assessed 8 Months After Mild COVID-19 Among Health Care Workers. *JAMA* **19**, 2015-16 (2021). [https://doi.org/10.1001/jama.2021.5612](https://doi.org/10.1001/jama.2021.5612)
+- Sebastian Havervall, Ulrika Marking, Nina Greilert-Norin, Max Gordon, Henry Ng, Wanda Christ, Kim Blom, Mia Phillipson, Peter Nilsson, Sophia Hober, Jonas Klingström,
+Sara Mangsbo, Mikael Åberg, Charlotte Thålin. Impact of SARS-CoV-2 infection on vaccine-induced immune responses over time. *medRxiv* (2021). [https://doi.org/10.1101/2021.10.16.21264948](https://doi.org/10.1101/2021.10.16.21264948)
 
-* Hober, S., Hellström, C., Olofsson, J., Andersson, E., Bergström, S., Falk, A. J., Bayati, S., Mravinacova, S., Sjöberg2, R., Yousef, J., Skoglund, L., Kanje, S., Berling, A., Svensson, A-. S., Jensen, G., Enstedt, H., Afshari, D., Xu, L. L, Zwahlen, M., von Feilitzen, K., Hanke, L., Murrell, B., McInerney, G., Karlsson Hedestam, G. B., Lendel, C., Roth, R. G., Skoog, I., Svenungsson, E., Olsson, T., Fogdell-Hahn, A., Lindroth, Y., Lundgren, M., Maleki, K. T., Lagerqvist, N., Klingström, J., Da Silva Rodrigues, R., Muschiol, S., Bogdanovic, G., Arroyo Mühr, L. S., Eklund, C., Lagheden, C., Dillner, J., Sivertsson, Å., Havervall, S., Thålin, C., Tegel, H., Pin, E., Månberg, A., Hedhammar, M., Nilsson, P. Systematic evaluation of SARS-CoV-2 antigens enables a highly speciﬁc and sensitive multiplex serological COVID-19 assay. *Clinical and Translational Immunology* **10**, e1312 (2021). [http://dx.doi.org/10.1002/cti2.1312](http://dx.doi.org/10.1002/cti2.1312)
+- Katie Healy, Elisa Pin, Puran Chen, Gunnar Söderdahl, Piotr Nowak, Stephan Mielke, Lotta Hansson, Peter Bergman,
+Edvard Smith, Per Ljungman, Davide Valentini, Ola Blennow, Anders Österborg, Giorgio Gabarrini, Khaled Al-Manei, Hassan
+Alkharaan, Michal Jacek Sobkowiak, Xinling Xu, Mira Akber, Karin Loré, Cecilia Hellström, Sandra Muschiol, Gordana
+Bogdanovic, Markus Buggert, Hans-Gustaf Ljunggren, Sophia Hober, Peter Nilsson, Soo Aleman, Margaret Sällberg Chen. Appearance of IgG to SARS-CoV-2 in saliva effectively indicates seroconversion in mRNA vaccinated immunocompromised
+individuals. *medRxiv* (2021). [https://doi.org/10.1101/2021.09.30.21264377](https://doi.org/10.1101/2021.09.30.21264377)
 
-* Kharlamova, N., Dunn, N., Bedri, S. K., Jerling, S., Almgren, M., Faustini, F., Gunnarsson, I., Rönnelid, J., Pullerits, R., Gjertsson, I., Lundberg, K., Månberg, A., Pin, E., Nilsson, P., Hober, S., Fink, K., Fogdell-Hahn1, A. False positive results in SARS-CoV-2 serological tests for samples from patients with chronic inflammatory diseases. *Frontiers in Immunology* **12**, 666114 (2021). [https://doi.org/10.3389/fimmu.2021.666114](https://doi.org/10.3389/fimmu.2021.666114)
+- Sara M Mangsbo, Sebastian Havervall, Ida Laurén, Robin Lindsay, August Jernbom Falk, Ulrika Marking, Martin Lord, Marcus Buggert, Pierre
+Dönnes, Gustaf Christoffersson, Peter Nilsson, Sophia Hober, Mia Phillipson, Jonas Klingström, Charlotte Thålin. An evaluation of a FluoroSpot assay as a diagnostic tool to determine SARS-CoV-2 specific T-cell responses. *PLOS ONE* **16(9)** (2021). [https://doi.org/10.1371/journal.pone.0258041](https://doi.org/10.1371/journal.pone.0258041)
 
-* Klevebro, S., Bahram, F., Elfström, K. M., Hellberg, U., Hober, S., Kebede Merid, S., Kull, I., Nilsson, P., Tornvall, P., Wang, G., Conneryd Lundgren, K., Ponzer, S., Dillner, J., Melén, E. Risk of SARS-CoV-2 exposure among hospital healthcare workers in relation to patient contact and type of care. *Scandinavian Journal of Public Health*, 1-6 (2021). [https://doi.org/10.1177/14034948211022434](https://doi.org/10.1177/14034948211022434)
+- Lisa Blixt, Gordana Bogdanovic, Marcus Buggert, Yu Gao, Sophia Hober, Katie Healy, Hemming
+Johansson, Christian Kjellander, Sara Mravinacova, Sandra Muschiol, Peter Nilsson, Marzia Palma, Elisa Pin, C.I. Edvard Smith,
+Olga Stromberg, Margaret Sällberg Chen, Rula Zain, Lotta Hansson and Anders Österborg. Covid-19 in patients with chronic lymphocytic leukemia: Clinical outcome and B- and T-cell immunity during 13 months in
+consecutive patients. *Leukemia* (2021). [https://doi.org/10.1038/s41375-021-01424-w](https://doi.org/10.1038/s41375-021-01424-w)
 
-* Rudberg, A. S., Havervall, S., Månberg, A., Falk, A.J., Aguilera, K., Ng, H., Gabrielsson, L., Salomonsson, A. C., Hanke, L., Murrell, B., McInerney, G., Olofsson J., Andersson, E., Hellström, C., Bayati, S., Bergström, S., Pin, E., Sjöberg, R., Tegel, H., Hedhammar, M., Phillipson, M., Nilsson, P., Hober, S., Thålin, C. SARS-CoV-2 exposure, symptoms and seroprevalence in healthcare workers in Sweden. *Nature Communications* **11**, 5064 (2020). [https://doi.org/10.1038/s41467-020-18848-0](https://doi.org/10.1038/s41467-020-18848-0)
+- Klara Asplund Högelin; Nicolas Ruffin; Elisa Pin; Anna Månberg; Sophia Hober; Guro Gafvelin; Hans Grönlund;
+Peter Nilsson; Mohsen Khademi; Tomas Olsson; Fredrik Piehl; Faiez Al Nimer. Development of humoral and cellular immunological memory against SARS-CoV-2 despite B-cell depleting treatment in
+multiple sclerosis. *iScience* **24(9)**. [https://doi.org/10.1016/j.isci.2021.103078](https://doi.org/10.1016/j.isci.2021.103078)
+
+- Sebastian Havervall, Henry Ng, August Jernbom Falk, Nina Greilert-Norin, Anna Månberg, Ulrika
+Wimmercranz-Marking, Ida Laurén, Lena Gabrielsson, Ann-Christin Salomonsson, Katherina Aguilera, Martha Kihlgren, Maja
+Månsson, Cecilia Hellström, Eni Andersson, Jennie Olofsson, Lovisa Skoglund, Jamil Yousef, Elisa Pin, Martin Lord, My
+Hedhammar, Hanna Tegel, Pierre Dönnes, Mia Phillipson, Peter Nilsson, Jonas Klingström, Sara Mangsbo, Sophia Hober,
+Charlotte Thålin. Robust humoral and cellular immune responses and low risk for reinfection at least eight months following asymptomatic
+to mild COVID-19. *J Internal Medicine* (2021). [https://doi.org/10.1111/joim.13387](https://doi.org/10.1111/joim.13387)
+
+- Miriam Elfström, Jonas Blomqvist, Peter Nilsson, Sophia Hober, Elisa Pin, Anna Månberg, Ville N. Pimenoff, Laila Sara Arroyo Mühr, Kalle Conneryd Lundgren, Joakim Dillner. Differences in risk for SARS-CoV-2 infection among healthcare workers. *Preventive Medicine Reports* **24** (2021). [https://doi.org/10.1016/j.pmedr.2021.101518](https://doi.org/10.1016/j.pmedr.2021.101518)
+
+- Sebastian Havervall, Ulrika Marking, Nina Greilert-Norin, Henry Ng, Ann-Christin Salomonsson, Cecilia Hellström, Elisa
+Pin, Kim Blom, Sara Mangsbo, Mia Phillipson, Jonas Klingström, Mikael Åberg, Sophia Hober, Peter Nilsson, Charlotte Thålin. Antibody Responses After a Single Dose of ChAdOx1 nCoV-19 Vaccine in Healthcare Workers Previously Infected with SARS-
+CoV-2. *EBioMedicine* **70** (2021). [https://doi.org/10.1016/j.ebiom.2021.103523](https://doi.org/10.1016/j.ebiom.2021.103523)
+
+- Sebastian Havervall, Ulrika Marking, Max Gordon, Henry Ng, Nina Greilert-Norin, Sarah Lindbo, Kim Blom, Peter Nilsson, Mia Phillipson, Jonas Klingström, Sara Mangsbo, Mikael
+Åberg, Sophia Hober, Charlotte Thålin. Neutralization of VOCs including Delta one year post COVID-19 or vaccine. *medRxiv* (2021). [https://doi.org/10.1101/2021.08.12.21261951](https://doi.org/10.1101/2021.08.12.21261951)
+
+- Sophia Hober, Cecilia Hellström, Jennie Olofsson, Eni Andersson, Sofia Bergström, August Jernbom Falk, Shaghayegh Bayati,
+Sara Mravinacova, Ronald Sjöberg, Jamil Yousef, Lovisa Skoglund, Sara Kanje, Anna Berling, Anne-Sophie Svensson, Gabriella
+Jenssen, Henric Enstedt, Delaram Afshari, Lan Xu, Martin Zwahlen, Kalle von Feilitzen, Leo Hanke, Ben Murrell, Gerald
+McInerney, Gunilla B. Karlsson Hedestam, Christofer Lendel, Robert G. Roth, Ingmar Skoog, Elisabet Svenungsson, Tomas
+Olsson, Anna Fogdell-Hahn, Ylva Lindroth, Maria Lundgren, Kimia T. Maleki, Nina Lagerqvist, Jonas Klingström, Rui Da Silva
+Rodrigues, Sandra Muschiol, Gordana Bogdanovic, Laila Sara Arroyo Mühr, Carina Eklund, Camilla Lagheden, Joakim Dillner,
+Åsa Sivertsson, Sebastian Havervall, Charlotte Thålin, Hanna Tegel, Elisa Pin, Anna Månberg, My Hedhammar, Peter Nilsson. Systematic evaluation of SARS-CoV-2 antigens enables a highly specific and sensitive multiplex serological COVID-19 assay. *Clinical & Translational Immunology* **e1312** (2021). [http://dx.doi.org/10.1002/cti2.1312](http://dx.doi.org/10.1002/cti2.1312)
+
+- Susanna Klevebro, Fuad Bahram, Miriam Elfström, Ulrika Hellberg, Sophia Hober, Simon Kebede Merid, Inger Kull, Peter Nilsson, Per
+Tornvall, Gang Wang, Kalle Conneryd Lundgren, Sari Ponzer, Joakim Dillner, Erik Melén. Risk of SARS-CoV-2 exposure among hospital healthcare workers in relation to patient contact and type of care. *Scand J Publ Health* **49** (2021). [https://journals.sagepub.com/doi/10.1177/14034948211022434](https://journals.sagepub.com/doi/10.1177/14034948211022434)
+
+- Thomas Åkerlund, Katherina Zakikhany, Charlotta Löfström, Evelina Lindmark, Henrik Källberg, Ulla Elofsson, Karin Cederbrant, Erik Nygren, Anders Kallin, Nina Lagerkvist, Peter
+Nilsson, Sophia Hober, Anna Ridderstad Wollberg, Åsa Szekely Björndal. Stable IgG-antibody levels in patients with mild SARS-CoV-2 infection. *medRxiv* (2021). [https://doi.org/10.1101/2021.06.16.21258960](https://doi.org/10.1101/2021.06.16.21258960)
+
+- Hassan Alkharaan, Shaghayegh Bayati, Cecilia Hellström, Annika Olsson, Karin Lindahl, Gordana Bogdanovic, Soo Aleman, Georgios Tsilingaridis, Patricia De Palma, Sophia Hober, Anna Månberg, Peter Nilsson, Elisa Pin, Margaret Sällberg
+Chen. Persisting Salivary IgG against SARS-CoV-2 at 9 Months After Mild COVID-19 – A Complementary Approach to Population
+Surveys. *J Infectious Diseases* **224** (2021). [https://doi.org/10.1093/infdis/jiab256](https://doi.org/10.1093/infdis/jiab256)
+
+- Nastya Kharlamova, Nicky Dunn, Sahl Khalid Bedri, Svante Jerling, Malin Almgren, Francesca Faustini, Iva Gunnarsson, Johan Rönnelid,
+Rille Pullerits, Inger Gjertsson, Karin Lundberg, Anna Månberg, Elisa Pin, Peter Nilsson, Sophia Hober, Katharina Fink and Anna
+Fogdell-Hahn. False positive results in SARS-CoV-2 serological tests for samples from patients with chronic inflammatory diseases. *Frontiers in Immunology* **12** (2021). [https://doi.org/10.3389/fimmu.2021.666114](https://doi.org/10.3389/fimmu.2021.666114)
+
+- Sebastian Havervall, Axel Rosell, Mia Phillipson, Sara Mangsbo, Peter Nilsson, Sophia Hober, Charlotte Thålin. Symptoms and functional impairment assessed 8 months after mild COVID-19 among health care workers. *JAMA* **325** (2021).
+
+- Sadaf Sakina Hassan, Åsa Seigerud, Roda Abdirahman, Laila Sara Arroyo Mühr, Sara Nordqvist-Kleppe, Elisa Pin, Anna Månberg, Sophia
+Hober, Peter Nilsson, Lars Engstrand, Miriam Elfström, Jonas Blomqvist, Kalle Conneryd-Lundgren, Joakim Dillner. SARS-CoV-2 infections among personnel providing home care services for older persons in Stockholm, Sweden. *J Internal Medicine* **290** (2021). [https://doi.org/10.1111/joim.13274](https://doi.org/10.1111/joim.13274)
+
+- Joakim Dillner, Miriam Elfström, Jonas Blomqvist, Carina Eklund, Camilla Lagheden, Sara Nordqvist-Kleppe, Cecilia Hellström, Jennie Olofsson, Eni Andersson, August Jernbom Falk, Sofia
+Bergström, Emilie Hultin, Elisa Pin, Anna Månberg, Peter Nilsson, My Hedhammar, Sophia Hober, Johan Mattsson, Laila Sara
+Arroyo Mühr, Kalle Conneryd Lundgren. Antibodies to SARS-CoV-2 and risk of past or future sick leave. *Scientific Reports* **11** (2021). [https://doi.org/10.1038/s41598-021-84356-w](https://doi.org/10.1038/s41598-021-84356-w)
+
+- Joakim Dillner, Miriam Elfström, Jonas Blomqvist, Lars Engstrand, Mathias Uhlén, Carina Eklund, Fredrik Boulund, Camilla Lagheden, Marica Hamsten, Sara
+Nordqvist-Kleppe, Maike Seifert, Cecilia Hellström, Jennie Olofsson, Eni Andersson, August Jernbom Falk, Sofia Bergström,
+Emilie Hultin, Elisa Pin, Ville N Pimenoff, Sadaf Hassan, Anna Månberg, Peter Nilsson, My Hedhammar, Sophia Hober, Johan
+Mattsson, Laila Sara Arroyo Mühr, Kalle Conneryd-Lundgren. High amounts of SARS-CoV-2 precede sickness among asymptomatic healthcare workers. *J Infectious Diseases* **224** (2021). [https://doi.org/10.1093/infdis/jiab099](https://doi.org/10.1093/infdis/jiab099)
+
+- Sebastian Havervall, August Jernbom Falk, Jonas Klingström, Henry Ng, Nina Greilert-Norin, Lena Gabrielsson, Ann-Christin
+Salomonsson, Eva Isaksson, Ann-Sofie Rudberg, Cecilia Hellström, Eni Andersson, Jennie Olofsson, Lovisa Skoglund, Jamil
+Yousef, Elisa Pin, Wanda Christ, Mikaela Olausson, My Hedhammar, Hanna Tegel, Sara Mangsbo, Mia Phillipson, Anna
+Månberg, Sophia Hober, Peter Nilsson, Charlotte Thålin. SARS-CoV-2 induces a durable and antigen specific humoral immunity after asymptomatic to mild COVID-19 infection. *medRxiv* (2021) [https://doi.org/10.1101/2021.01.03.21249162](https://doi.org/10.1101/2021.01.03.21249162)
+
+- Ann-Sofie Rudberg, Sebastian Havervall, Anna Månberg, August Jernbom Falk, Katherina Aguilera, Henry Ng, Lena Gabrielsson, Ann-Christin Salomonsson,
+Leo Hanke, Ben Murrell, Gerald McInerney, Jennie Olofsson, Eni Andersson, Cecilia Hellström, Shaghayegh Bayati, Sofia
+Bergström, Elisa Pin, Ronald Sjöberg, Hanna Tegel, My Hedhammar, Mia Phillipson, Peter Nilsson, Sophia Hober, Charlotte
+Thålin. SARS-CoV-2 exposure, symptoms and seroprevalence in healthcare workers in Sweden. *Nature Communications* **11** (2020). [https://doi.org/10.1038/s41467-020-18848-0](https://doi.org/10.1038/s41467-020-18848-0)
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.12.2"></script>
