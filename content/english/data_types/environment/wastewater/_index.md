@@ -47,7 +47,7 @@ Please note that the plot below displays the same data, but the y axis is shown 
 
 ## Stockholm
 
-<div class="alert alert-info">Date: <span id="kth_comment_date"></span><br>Commentary: <span id="kth_comment"></span></div>
+<!-- <div class="alert alert-info">Date: <span id="stockholm_comment_date"></span><br>Commentary: <span id="stockholm_comment"></span></div> -->
 
 This project, led by associate professor Zeynep Cetecioglu Gurol and colleagues (KTH Royal Institute of Technology; zeynepcg@kth.se), is a collaboration between the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and the [SEED](https://www.kth.se/en/seed) and [Chemical Engineering](https://www.kth.se/ket/chemical-engineering-1.784196) departments at KTH, in close collaboration with Stockholm Vatten och Avfall and the Käppala Association. The sampling of wastewater, started in mid-April 2020, from Bromma, Henriksdal, and Käppala wastewater treatment plants (WWTP). These treatment plants receive wastewater from a population of approximately 360,000; 860,000 and 500,000, respectively. Please consult [this map for the exact catchment area of the wastewater collection channels in Käppala](/wastewater/map_Kappala.pdf) and [this map for the exact catchment area of the wastewater collection channels in Bromma and Henriksdal](/wastewater/map_Bromma_Henriksdal.pdf).
 
