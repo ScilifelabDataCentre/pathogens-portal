@@ -61,10 +61,13 @@
       <div class="col mb-2 ml-3 form-check">
           <div class="row"><input type="checkbox" class="form-check-input" name="year" value="2020">2020</div>
           <div class="row"><input type="checkbox" class="form-check-input" name="year" value="2021">2021</div>
+          <div class="row"><input type="checkbox" class="form-check-input" name="year" value="2022">2022</div>
       </div>
       <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_funder }}</h5>
       <div class="col mb-2 ml-3 form-check">
+          <div class="row"><input type="checkbox" class="form-check-input" name="funder" value="Funder: Forte">Forte</div>
           <div class="row"><input type="checkbox" class="form-check-input" name="funder" value="Funder: H2020">H2020</div>
+          <div class="row"><input type="checkbox" class="form-check-input" name="funder" value="Funder: Hjärt-Lungfonden">Hjärt-Lungfonden</div>
           <div class="row"><input type="checkbox" class="form-check-input" name="funder" value="Funder: KAW/SciLifeLab">KAW/SciLifeLab</div>
           <div class="row"><input type="checkbox" class="form-check-input" name="funder" value="Funder: NordForsk">NordForsk</div>
           <div class="row"><input type="checkbox" class="form-check-input" name="funder" value="Funder: VR">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vetenskapsrådet{{ else }}Swedish Research Council{{ end}}</div>
