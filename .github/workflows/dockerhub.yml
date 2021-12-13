@@ -28,4 +28,4 @@ jobs:
           file: Dockerfiles/Dockerfile
           context: .
           push: true
-          tags: scilifelabdatacentre/covid-portal:${{ steps.docker-tag.outputs.tag }}
+          tags: scilifelabdatacentre/covid-portal:${{ env.BRANCH }}
