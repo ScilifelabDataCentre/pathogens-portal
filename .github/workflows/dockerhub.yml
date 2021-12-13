@@ -4,6 +4,7 @@ on:
     branches:
       - master
       - develop
+      - main
   release:
     types: [published]
 jobs:
