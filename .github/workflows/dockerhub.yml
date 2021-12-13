@@ -2,9 +2,7 @@ name: Publish Docker image
 on:
   push:
     branches:
-      - master
       - develop
-      - main
   release:
     types: [published]
 jobs:
@@ -28,4 +26,4 @@ jobs:
           file: Dockerfiles/Dockerfile
           context: .
           push: true
-          tags: scilifelabdatacentre/covid-portal:${GITHUB_REF##*/}
+          tags: scilifelabdatacentre/covid-portal:develop
