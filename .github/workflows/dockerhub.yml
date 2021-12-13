@@ -28,4 +28,4 @@ jobs:
           file: Dockerfiles/Dockerfile
           context: .
           push: true
-          tags: scilifelabdatacentre/covid-portal:${{ env.BRANCH }}
+          tags: scilifelabdatacentre/covid-portal:${GITHUB_REF##*/}
