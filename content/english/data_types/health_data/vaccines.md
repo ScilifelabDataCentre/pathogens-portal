@@ -17,19 +17,17 @@ All except **Covid-19 Vaccine** (Janssen) have been used in Sweden, though only 
 
 This page is focussed on vaccine research. On it, we [visualise](/data_types/health_data/vaccines/#visualisations-related-to-vaccination-coverage) information about the amount of people (across different regions, different age groups, or in Sweden generally) that have received one, two, or three doses of vaccination. We also provide links to the publicly available data underlying those visualisations. The visualisations do not include information about the type of vaccine used.
 
-The section also displays ongoing [Swedish research projects](/data_types/health_data/vaccines/#ongoing-research-projects) related to vaccine research. These projects are focussed broadly on vaccines and, as such, they include life science projects, registery-based projects, and public health projects. We also [show a subset of publications](/data_types/health_data/vaccines/#publications) related to vaccine research by researchers affiliated with a Swedish University or Research Institute. Lastly, we provide more [detailed information on some projects](/data_types/health_data/vaccines/#vaccine-research-projects) on vaccine research that are sharing data.
+The section also displays ongoing [Swedish research projects](/data_types/health_data/vaccines/#ongoing-research-projects) related to vaccine research. These projects are focussed broadly on vaccines and, as such, they include life science projects, registery-based projects, and public health projects. We also [show a subset of publications](/data_types/health_data/vaccines/#publications) related to vaccine research by researchers affiliated with a Swedish University or Research Institute.
+
+We invite researchers affiliated to a Swedish research institute to get in touch with us about adding information about their vaccine research data or visualizations on this page; send as an email to datacentre@scilifelab.se.
 
 ### Additional resources on COVID-19 vaccines
 
-The **Swedish Health Agency** provides general information about COVID-19 [here](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/).
-
-The **Swedish Medical Products Agency** provides information about COVID-19 vaccines [here](https://www.lakemedelsverket.se/en/coronavirus/covid-19-vaccine).
-
-For health information connected to vaccination and tests by different **Swedish Regions**, see [Regional information on 1177](https://www.1177.se/).
-
-The **European Centre for Disease Prevention and Control** (ECDC) shows information about the vaccines [here](https://www.ecdc.europa.eu/en/covid-19/prevention-and-control/vaccines).
-
-Information about the vaccines is available from the **Centre for disease Control** [here](https://www.cdc.gov/coronavirus/2019-ncov/vaccines/index.html).
+- The **Swedish Health Agency** provides general information about COVID-19 [here](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/).
+- The **Swedish Medical Products Agency** provides information about COVID-19 vaccines [here](https://www.lakemedelsverket.se/en/coronavirus/covid-19-vaccine).
+- For health information connected to vaccination and tests by different **Swedish Regions**, see [Regional information on 1177](https://www.1177.se/).
+- The **European Centre for Disease Prevention and Control** (ECDC) shows information about the vaccines [here](https://www.ecdc.europa.eu/en/covid-19/prevention-and-control/vaccines).
+- Information about the vaccines is available from the **Centre for disease Control** [here](https://www.cdc.gov/coronavirus/2019-ncov/vaccines/index.html).
 
 ## Visualisations related to vaccination coverage
 
@@ -39,7 +37,7 @@ The visualisations in this section are based on publicly available data from the
 
 In this section, we examine the overall levels of vaccination in Sweden, as well as the recent rate of vaccination.
 
-Here, we compare two methods of vaccination. The first one is calculating vaccination rates for Sweden by taking the number of vaccinated individuals that are at least 16 years of age.This method thus essentially approximates the vaccination rate of the population above 16 years of age. The latter is considering the percentage of the entire population vaccinated. We display the results of both calculations for each vaccine dose (first, second, and third) on the chart below to highlight how the method of calculation used influences the data.
+Here, we compare two methods of vaccination. The first one is calculating vaccination rates for Sweden by taking the number of vaccinated individuals that are at least 16 years of age. This method thus essentially approximates the vaccination rate of the population above 16 years of age. The latter is considering the percentage of the entire population vaccinated. We display the results of both calculations for each vaccine dose (first, second, and third) on the chart below to highlight how the method of calculation used influences the data.
 *Note that the doses are sometimes refereed to as first dose, fully vaccinated, and booster dose.*
 
 For calculations produced using the 'At least 16 years method', we use data from the Vaccinerade tidsserie tab of the [FoHM data](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data), specifically the percentage calculation. For the 'whole population method', we instead take the total number of vaccines and use the latest count of the population size of Sweden (available from from [Statistics Sweden (SCB)](https://www.scb.se/en/finding-statistics/statistics-by-subject-area/population/population-composition/population-statistics/pong/tables-and-graphs/monthly-statistics--the-whole-country/population-statistics-2021/)) to calculate it as a percentage.
@@ -51,7 +49,7 @@ For calculations produced using the 'At least 16 years method', we use data from
 <!-- THE BELOW PARAGRAPH CONTAINS MULTIPLE PLACEHOLDERS FOR LIVE TEXT -->
 <!-- All the placeholders are calculated in vaccine_indicator_panel_content -->
 
-To summarise, in total, {placeholder: one_dose_swe}% of the population above around 16 years of age have received one dose of vaccination against COVID-19, which represents {placeholder: one_dose_pop}% of the whole population. The values indicate that {placeholder: rate_onedose_lastwk}% of the population over 16 were vaccinated over the last week (a change in rate of {placeholder: onedose_ratechange}% compared to the previous week), or {placeholder: one_dose_pop_lastweek}% of the whole population (a change of {placeholder: onedose_ratechange_pop}% compared to the previous week). By contrast, {placeholder: least_two_dose_swe}% of those over 16, and {placeholder: least_two_dose_pop}%, of the whole population have received two doses in total. Further, {placeholder: rate_leasttwodose_lastwk}% of those over 16 and {placeholder: least_two_dose_pop_lastweek}% of the whole population received their second dose last week (a change in rate of {placeholder: twodose_ratechange}% and {placeholder: twodose_ratechange_pop}% compared to the previous week, respectively). Lastly, {placeholder: third_vacc_dose_tot}% of the population above 16 has received a third 'booster' dose, representing {placeholder: third_vacc_dose_pop}% of the whole population. Since no time series data is available for the third dose yet, it is not possible to calculate data related to rates at this stage.
+To summarise, in total, <span id="sixteen_plus_one_dose"></span>% of the population above around 16 years of age have received one dose of vaccination against COVID-19, which represents <span id="population_one_dose"></span>% of the whole population.
 
 Reuters COVID-19 Tracker provides some additional summary information on vaccinations against COVID-19 (as well as information regarding the implementation of lockdown measures and cases) [for Sweden](https://graphics.reuters.com/world-coronavirus-tracker-and-maps/countries-and-territories/sweden/). In particular, the data includes how many doses would be needed to provide 100% of the population with 2 doses, and an estimation of how long (based on the current number of doses administered daily) it might take to vaccinate 10% more of the total population.
 
@@ -63,14 +61,13 @@ As of December 2021, data about the administration of vaccinations over time is 
 
 Please keep in mind that this data differs from the percentages as calculated by FoHM that uses above 16 years of age, but is comparable to the calculations used by other countries, see the information in the 'general summary statistics' section for details.
 
-**NOTE ON THE GRAPH:** Click on the coloured squares in the legend of the below graph to toggle which datasets are displayed.
+**Note on the graph:** Click on the coloured squares in the legend of the below graph to toggle which datasets are displayed.
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/vaccine_timeseries_pop_barchart.json" height="500px" >}}</div>
 </div>
 
 ### Administration of vaccinations in each county (län)
-
 
 In this section, we explore the levels of vaccination coverage for each of the three doses in each county (län) of Sweden. We again use the latest data on the population size for each county from [Statistics Sweden (SCB)](https://www.scb.se/en/finding-statistics/statistics-by-subject-area/population/population-composition/population-statistics/pong/tables-and-graphs/monthly-statistics--the-whole-country/population-statistics-2021/) to calculate the number of each type of dose administered as a percentage of the whole population of that county. We take the number of first and second doses administered in that county from the 'Vaccinerade tidsserie' tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)). Again, please note that the 'raw numbers' related to these doses represent the vaccinations administered to those aged at least 16. As of December 2021, there is no directly comparable 'raw numbers' data available for the third 'booster' dose. However, data is available on the total number of individuals aged 18+ that have received each dose in each county (see 'Totalt' values in the Dos 3 per åldersgrupp tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)). We have therefore made use of these values to calculate the percentage of the population that have received the third dose.
 
@@ -100,7 +97,7 @@ We constructed the below heatmap to show how the relative numbers of people vacc
 
 As of December 2021, data is available for individuals above the age of 12 for the first and second vaccine doeses (available in the 'Vaccinerade ålder' tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)), and for people above the age of 18 for the third dose (available in the 'Dos 3 per åldersgrupp' tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)). In this case, we have not performed any recalculation, so the numbers are the same as those provided by FoHM.
 
-**NOTE ABOUT THE HEATMAP:** A white colouration indicates that no data is available for that age group.
+**Note about the heatmap:** A white colouration indicates that no data is available for that age group.
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/vaccine_heatmap.json" height="750px" >}}</div>
@@ -114,6 +111,8 @@ Below is a manually curated overview of projects focussed on **vaccine research*
 
 ## Publications
 
-Below is a subset of pre-prints and published scientific journal articles on the subject of **vaccine research** involving at least one author affiliated with a Swedish university or research institute. This list is based on a manually curated database and, as such, may not be exhaustive. If you think that a publication should be listed here but isn’t, or feel that information about a publication requires correction, please [get in touch with us](/contact/). For a full list of all publications related to COVID-19 and SARS-CoV-2 that involve at least one author affiliated with a Swedish university or research institute, please see [this section of the portal](/publications/).
+Below is a subset of preprints and published scientific journal articles on the subject of **vaccine research** involving at least one author affiliated with a Swedish university or research institute. If you would like for your publication to be displayed here, or feel that information about a publication requires correction, please [get in touch with us](/contact/). For a full list of all publications related to COVID-19 and SARS-CoV-2 that involve at least one author affiliated with a Swedish university or research institute, please see [this section of the portal](/publications/).
 
 {{< vaccines_publications >}}
+
+{{< vaccines_dynamic_content >}}
