@@ -43,3 +43,5 @@ datatypes_to_display:
 * [National Pandemic Centre COVID-19 test statistics](../npc-statistics): The daily number of tests carried out between April and December 2020 as well as test results.
 
 * [Statistics on post COVID-19 condition in Sweden](../post_covid): Information regarding the diagnoses associated with long-term affects following COVID-19 infection. Includes relevant demographic data as well as data on associated symptoms, research projects focused on the condition, and background information. Data updated monthly.
+
+* [Vaccine administration and vaccine research](../vaccines): Visualiations of the vaccine administration in Sweden, research projects on vaccines, publications on vaccines.
