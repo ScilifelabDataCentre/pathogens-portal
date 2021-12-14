@@ -8,10 +8,10 @@ plotly: true
 
 Over the last two years, the COVID-19 pandemic has challenged societies and healthcare systems worldwide, and vaccines and therapeautic treatments have been rapidly developed in response. To date, the [European Medicines Agency (EMA)](https://www.ema.europa.eu/en) has approved four vaccines against COVID-19:
 
-* **Comirnaty** - produced by Pfizer/BioNTech, approved on 21st December 2020.
-* **Spikevax** - produced by Moderna, approved on 6th January 2021.
-* **Vaxzevria** - produced by AstraZeneca, approved on 29th January 2021.
-* **Covid-19 Vaccine** - produced by Janssen, approved on 11th March 2021.
+- **Comirnaty** - produced by Pfizer/BioNTech, approved on 21st December 2020.
+- **Spikevax** - produced by Moderna, approved on 6th January 2021.
+- **Vaxzevria** - produced by AstraZeneca, approved on 29th January 2021.
+- **Covid-19 Vaccine** - produced by Janssen, approved on 11th March 2021.
 
 All except **Covid-19 Vaccine** (Janssen) have been used in Sweden, though only **Comirnaty** (Pfizer/BioNTech) and **Spikevax** (Moderna) are currently available. **Vaxzevria** (AstraZeneca) ceased to be provided after 1st September 2021.
 
@@ -70,19 +70,19 @@ In this section, we explore the levels of vaccination coverage for each of the t
 
 Again, please note that these percentage values will differ from those calculated by FoHM, whose calculations only consider the size of the population born since the start of 2005, hence 16 years and older rather than the whole population.
 
-#### Administration of one vaccine dose:
+#### Administration of one vaccine dose
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/onedose_pop_map.json" height="500px" >}}</div>
 </div>
 
-#### Administration of two vaccine doses:
+#### Administration of two vaccine doses
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/twodose_pop_map.json" height="500px" >}}</div>
 </div>
 
-#### Administration of three vaccine doses:
+#### Administration of three vaccine doses
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/threedose_pop_map.json" height="500px" >}}</div>

@@ -3,7 +3,6 @@ title: The Administration and Study of Vaccines in Sweden
 toc: false
 plotly: true
 ---
-
 <div class="alert alert-info">
   <i class="fas fa-exclamation-triangle"></i>
   <span>En svensk översättning av denna sida kommer inom kort.</span>
@@ -13,10 +12,10 @@ plotly: true
 
 Over the last two years, the COVID-19 pandemic has challenged societies and healthcare systems worldwide, and vaccines and therapeautic treatments have been rapidly developed in response. To date, the [European Medicines Agency (EMA)](https://www.ema.europa.eu/en) has approved four vaccines against COVID-19:
 
-* **Comirnaty** - produced by Pfizer/BioNTech, approved on 21st December 2020.
-* **Spikevax** - produced by Moderna, approved on 6th January 2021.
-* **Vaxzevria** - produced by AstraZeneca, approved on 29th January 2021.
-* **Covid-19 Vaccine** - produced by Janssen, approved on 11th March 2021.
+- **Comirnaty** - produced by Pfizer/BioNTech, approved on 21st December 2020.
+- **Spikevax** - produced by Moderna, approved on 6th January 2021.
+- **Vaxzevria** - produced by AstraZeneca, approved on 29th January 2021.
+- **Covid-19 Vaccine** - produced by Janssen, approved on 11th March 2021.
 
 All except **Covid-19 Vaccine** (Janssen) have been used in Sweden, though only **Comirnaty** (Pfizer/BioNTech) and **Spikevax** (Moderna) are currently available. **Vaxzevria** (AstraZeneca) ceased to be provided after 1st September 2021.
 
@@ -26,15 +25,11 @@ The section also displays ongoing [Swedish research projects](/data_types/health
 
 ### Additional resources on COVID-19 vaccines
 
-The **Swedish Health Agency** provides general information about COVID-19 [here](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/).
-
-The **Swedish Medical Products Agency** provides information about COVID-19 vaccines [here](https://www.lakemedelsverket.se/en/coronavirus/covid-19-vaccine).
-
-For health information connected to vaccination and tests by different **Swedish Regions**, see [Regional information on 1177](https://www.1177.se/).
-
-The **European Centre for Disease Prevention and Control** (ECDC) shows information about the vaccines [here](https://www.ecdc.europa.eu/en/covid-19/prevention-and-control/vaccines).
-
-Information about the vaccines is available from the **Centre for disease Control** [here](https://www.cdc.gov/coronavirus/2019-ncov/vaccines/index.html).
+- The **Swedish Health Agency** provides general information about COVID-19 [here](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/).
+- The **Swedish Medical Products Agency** provides information about COVID-19 vaccines [here](https://www.lakemedelsverket.se/en/coronavirus/covid-19-vaccine).
+- For health information connected to vaccination and tests by different **Swedish Regions**, see [Regional information on 1177](https://www.1177.se/).
+- The **European Centre for Disease Prevention and Control** (ECDC) shows information about the vaccines [here](https://www.ecdc.europa.eu/en/covid-19/prevention-and-control/vaccines).
+- Information about the vaccines is available from the **Centre for disease Control** [here](https://www.cdc.gov/coronavirus/2019-ncov/vaccines/index.html).
 
 ## Visualisations related to vaccination coverage
 
@@ -73,24 +68,23 @@ Please keep in mind that this data differs from the percentages as calculated by
 
 ### Administration of vaccinations in each county (län)
 
-
 In this section, we explore the levels of vaccination coverage for each of the three doses in each county (län) of Sweden. We again use the latest data on the population size for each county from [Statistics Sweden (SCB)](https://www.scb.se/en/finding-statistics/statistics-by-subject-area/population/population-composition/population-statistics/pong/tables-and-graphs/monthly-statistics--the-whole-country/population-statistics-2021/) to calculate the number of each type of dose administered as a percentage of the whole population of that county. We take the number of first and second doses administered in that county from the 'Vaccinerade tidsserie' tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)). Again, please note that the 'raw numbers' related to these doses represent the vaccinations administered to those aged at least 16. As of December 2021, there is no directly comparable 'raw numbers' data available for the third 'booster' dose. However, data is available on the total number of individuals aged 18+ that have received each dose in each county (see 'Totalt' values in the Dos 3 per åldersgrupp tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)). We have therefore made use of these values to calculate the percentage of the population that have received the third dose.
 
 Again, please note that these percentage values will differ from those calculated by FoHM, whose calculations only consider the size of the population born since the start of 2005, hence 16 years and older rather than the whole population.
 
-#### Administration of one vaccine dose:
+#### Administration of one vaccine dose
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/onedose_pop_map.json" height="500px" >}}</div>
 </div>
 
-#### Administration of two vaccine doses:
+#### Administration of two vaccine doses
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/twodose_pop_map.json" height="500px" >}}</div>
 </div>
 
-#### Administration of three vaccine doses:
+#### Administration of three vaccine doses
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/threedose_pop_map.json" height="500px" >}}</div>
