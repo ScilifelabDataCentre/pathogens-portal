@@ -50,3 +50,5 @@ type: data_table
 * [Nationellt Pandemicentrum, statistik för covid-19-tester](/sv/data_types/health_data/npc-statistics/): Antal covid-19 virustester och resultat av dessa som analyserades mellan april och december 2020 vid NPC.
 
 * [Postcovid](../post_covid): Information relaterad till diagnoser som använts för kvarstående och sena symptom. Inkluderar relevant demografisk information och data kring associerade symptom, forskning och bakgrundsinformation. Data uppdateras en gång per månad.
+
+* [Vaccine administration and vaccine research](../vaccines): Visualiations of the vaccine administration in Sweden, research projects on vaccines, publications on vaccines.
