@@ -46,9 +46,6 @@ For calculations produced using the 'At least 16 years method', we use data from
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/Total_vaccinated_barchart.json" height="500px" >}}</div>
 </div>
 
-<!-- THE BELOW PARAGRAPH CONTAINS MULTIPLE PLACEHOLDERS FOR LIVE TEXT -->
-<!-- All the placeholders are calculated in vaccine_indicator_panel_content -->
-
 To summarise, in total, <span id="sixteen_plus_one_dose"></span>% of the population above around 16 years of age have received one dose of vaccination against COVID-19, which represents <span id="population_one_dose"></span>% of the whole population.
 
 Reuters COVID-19 Tracker provides some additional summary information on vaccinations against COVID-19 (as well as information regarding the implementation of lockdown measures and cases) [for Sweden](https://graphics.reuters.com/world-coronavirus-tracker-and-maps/countries-and-territories/sweden/). In particular, the data includes how many doses would be needed to provide 100% of the population with 2 doses, and an estimation of how long (based on the current number of doses administered daily) it might take to vaccinate 10% more of the total population.
