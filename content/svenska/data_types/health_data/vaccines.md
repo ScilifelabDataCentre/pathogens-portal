@@ -1,5 +1,5 @@
 ---
-title: The Administration and Study of Vaccines in Sweden
+title: Administrering av vaccin och vaccinforskning i Sverige
 toc: true
 plotly: true
 ---
