@@ -7,6 +7,7 @@ teststats:
         serologytitle: Antikroppstester som utförs av SciLifeLab
         seemoretext: Se mer
         postcovidtitle: Statistik om postcovid i Sverige
+        vaccinestitle: Administrering av vaccin i Sverige
 plotly: true
 ---
 
