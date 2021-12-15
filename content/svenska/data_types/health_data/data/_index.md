@@ -51,4 +51,4 @@ type: data_table
 
 * [Postcovid](../post_covid): Information relaterad till diagnoser som använts för kvarstående och sena symptom. Inkluderar relevant demografisk information och data kring associerade symptom, forskning och bakgrundsinformation. Data uppdateras en gång per månad.
 
-* [Vaccine administration and vaccine research](../vaccines): Visualiations of the vaccine administration in Sweden, research projects on vaccines, publications on vaccines.
+* [Administrering av vaccin och vaccinforskning](../vaccines): Visualiseringar av statistik relaterad till det svenska Covid-19 vaccinationsprogrammet, forskningsprojekt relaterade till vaccinforskning och publikationer kring ämnet.

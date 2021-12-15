@@ -19,7 +19,9 @@ This page is focussed on vaccine research. On it, we [visualise](/data_types/hea
 
 The section also displays ongoing [Swedish research projects](/data_types/health_data/vaccines/#ongoing-research-projects) related to vaccine research. These projects are focussed broadly on vaccines and, as such, they include life science projects, registery-based projects, and public health projects. We also [show a subset of publications](/data_types/health_data/vaccines/#publications) related to vaccine research by researchers affiliated with a Swedish University or Research Institute.
 
-We invite researchers affiliated to a Swedish research institute to get in touch with us about adding information about their vaccine research data or visualizations on this page; send as an email to datacentre@scilifelab.se.
+<div class="alert alert-info">
+    <i class="fas fa-info-circle"></i> We invite researchers affiliated to a Swedish research institute to get in touch with us about adding information about their vaccine research data or visualizations on this page; send as an email to datacentre@scilifelab.se.
+</div>
 
 ### Additional resources on COVID-19 vaccines
 
@@ -46,7 +48,7 @@ For calculations produced using the 'At least 16 years method', we use data from
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/Total_vaccinated_barchart.json" height="500px" >}}</div>
 </div>
 
-To summarise, in total, <span id="sixteen_plus_one_dose"></span>% of the population above around 16 years of age have received one dose of vaccination against COVID-19, which represents <span id="population_one_dose"></span>% of the whole population.
+To summarise, in total, <span id="sixteen_plus_one_dose"></span>% of the population above around 16 years of age have received at least one dose of vaccination against COVID-19, which represents <span id="population_one_dose"></span>% of the whole population. The values indicate that <span id="sixteen_plus_one_dose_lastweek"></span>% of the population over 16 were vaccinated over the last week (a change in rate of <span id="sixteen_plus_one_dose_rate_change"></span>% compared to the previous week), or <span id="population_one_dose_lastweek"></span>% of the whole population (a change of <span id="population_one_dose_rate_change"></span>% compared to the previous week). By contrast, <span id="sixteen_plus_two_doses"></span>% of those over 16, and <span id="population_two_doses"></span>%, of the whole population have received at least two doses in total. Further, <span id="sixteen_plus_two_doses_lastweek"></span>% of those over 16 and <span id="population_two_doses_lastweek"></span>% of the whole population received their second dose last week (a change in rate of <span id="sixteen_plus_two_doses_rate_change"></span>% and <span id="population_two_doses_rate_change"></span>% compared to the previous week, respectively). Lastly, <span id="sixteen_plus_three_doses"></span>% of the population above 16 has received a third 'booster' dose, representing <span id="population_three_doses"></span>% of the whole population. Since no time series data is available for the third dose yet, it is not possible to calculate data related to rates at this stage.
 
 Reuters COVID-19 Tracker provides some additional summary information on vaccinations against COVID-19 (as well as information regarding the implementation of lockdown measures and cases) [for Sweden](https://graphics.reuters.com/world-coronavirus-tracker-and-maps/countries-and-territories/sweden/). In particular, the data includes how many doses would be needed to provide 100% of the population with 2 doses, and an estimation of how long (based on the current number of doses administered daily) it might take to vaccinate 10% more of the total population.
 
