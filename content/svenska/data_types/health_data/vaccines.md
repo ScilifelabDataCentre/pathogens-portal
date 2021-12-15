@@ -21,7 +21,11 @@ All except **Covid-19 Vaccine** (Janssen) have been used in Sweden, though only 
 
 This page is focussed on vaccine research. On it, we [visualise](/data_types/health_data/vaccines/#visualisations-related-to-vaccination-coverage) information about the amount of people (across different regions, different age groups, or in Sweden generally) that have received one, two, or three doses of vaccination. We also provide links to the publicly available data underlying those visualisations. The visualisations do not include information about the type of vaccine used.
 
-The section also displays ongoing [Swedish research projects](/data_types/health_data/vaccines/#ongoing-research-projects) related to vaccine research. These projects are focussed broadly on vaccines and, as such, they include life science projects, registery-based projects, and public health projects. We also [show a subset of publications](/data_types/health_data/vaccines/#publications) related to vaccine research by researchers affiliated with a Swedish University or Research Institute. Lastly, we provide more [detailed information on some projects](/data_types/health_data/vaccines/#vaccine-research-projects) on vaccine research that are sharing data.
+The section also displays ongoing [Swedish research projects](/data_types/health_data/vaccines/#ongoing-research-projects) related to vaccine research. These projects are focussed broadly on vaccines and, as such, they include life science projects, registery-based projects, and public health projects. We also [show a subset of publications](/data_types/health_data/vaccines/#publications) related to vaccine research by researchers affiliated with a Swedish University or Research Institute.
+
+<div class="alert alert-info">
+    <i class="fas fa-info-circle"></i> We invite researchers affiliated to a Swedish research institute to get in touch with us about adding information about their vaccine research data or visualizations on this page; send as an email to datacentre@scilifelab.se.
+</div>
 
 ### Additional resources on COVID-19 vaccines
 
