@@ -1,6 +1,6 @@
 ---
 title: Statistics, information, and research related to COVID-19 Vaccination in Sweden now available on the Portal
-date: 2021-11-15
+date: 2021-12-15
 summary: The Visualizations are based on data freely available from the Swedish Health Agency (Folkhälsomyndigheten).
 banner: /updates/banners/vaccines_heatmap_small.png
 banner_large: /updates/banners/vaccines_heatmap_large.png
