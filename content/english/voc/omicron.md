@@ -52,18 +52,18 @@ This section presents a list of the available data related to Omicron (or relate
 <b><a target="_blank" href="https://doi.org/10.6084/m9.figshare.17129771.v1">Supplementary information: Structural-bioinformatics analysis of SARS-CoV-2 variants reveals higher hACE2 receptor binding affinity for Omicron B.1.1.529 spike RBD compared to wild-type reference.</a></b><br>
 <span class="text-muted">Durmaz, Vedat; Köchl, Katharina; Singh, Amit; Hetmann, Michael; Parigger, Lena; Krassnigg, Andreas</span><br>
 <i>figshare</i> (2021). 10.6084/m9.figshare.17129771.v1.
-</div><hr>
+</div>
 
 <div mb-2>
 <b><a target="_blank" href="https://doi.org/10.6084/m9.figshare.17105090.v1">Genomic sequences of Omicron variants of SARS-CoV-2 from November 9 to November 28, 2021.</a></b><br>
 <span class="text-muted">Yeh, Ting Yu; Contreras, Gregory</span><br>
 <i>figshare</i> (2021). 10.6084/m9.figshare.17105090.v1.
-</div><hr>
+</div>
 
 <div mb-2>
 <b><a target="_blank" href="https://www.ecdc.europa.eu/en/covid-19/data">COVID-19 datasets from the European Centre for Disease Prevention and Control.</a></b><br>
 <span class="text-muted">European Centre for Disease Prevention and Control</span><br> (2021).
-</div><hr>
+</div>
 
 <p class="text-muted">No openly available data from Swedish researchers tracked as of Dec 14.</p>
 
@@ -98,21 +98,21 @@ In this section, we present announcements about ongoing research efforts from re
 </div>
 
 <div class="alert alert-info mb-2">
-  <h6>Sequences available: 10 Omicron samples</h5>
+  <h6>Sequences available: 10 Omicron samples</h6>
   <p class="small mb-2 text-muted">2021-12-14 15:34</p>
   <p>The Hammond lab are now running sequencing of SARS-CoV-2 variant. In our last batch of 100 samples, 10 were found to be the new Omicron. Please find the metadata record in the SciLifeLab Data Repository (doi.xxx) where we describe our work and how other researchers request access to the  bam.files. More sequences are run weekly. We are always interested in establishing new collaborations contact Dr Hammond.</p>
   <p><b>Contact:</b> Lucas Hammond, <a href="#">lucas.hammond@umu.se</a></p>
 </div>
 
 <div class="alert alert-info mb-2">
-  <h6>Interested in collaborators running MS</h5>
+  <h6>Interested in collaborators running MS</h6>
   <p class="small mb-2 text-muted">2021-12-14 15:34</p>
   <p>A have an open call coming up and our group are interested in applying together with other labs with a similar interest in how well vaccinations protects against new variants. We are running the serology but are interested in collaborators running MS. Data Centre has kindly agreed to set interested labs in contact with me. Best regards Maria A.</p>
   <p><b>Contact:</b> Maria A, <a href="#">a.maria@gu.se</a></p>
 </div>
 
 <div class="alert alert-info mb-2">
-  <h6>Looking for in-house/commercial primers for detection of Omicron with RT-qPCR</h5>
+  <h6>Looking for in-house/commercial primers for detection of Omicron with RT-qPCR</h6>
   <p class="small mb-2 text-muted">2021-12-14 12:20</p>
   <p>The Andersson Lab has been working on influenza since 2010. Recent development of the pandemic and the emergence or another SARS-CoV2- variant has made us decide to start working on variant detection. Would you be willing to share “in-house” made/commercial primers for detection of Omicron with RT-qPCR?. We hope to get our work up and running before Christmas. Data Centre can help set us in contact. Thank you!</p>
   <p><b>Contact:</b> Niclas Andersson, <a href="#">niclas.andersson@uu.se</a></p>

@@ -45,7 +45,7 @@ Note that in some countries (e.g. the UK) VOIs may instead be called 'variants u
 
 A *Variant under Monitoring* (*VUM*) may exhibit some similarities to known VOCs. Data about these variants could come from epidemiological monitoring, screening or preliminary research data.
 
-Increased knowledge about SARS-CoV-2 variants is undoubtedly important for detecting and monitoring the spread of COVID-19 disease and local outbreaks. For example, research into current SARS-CoV-2 variants could facilitate the earlier detection of future variants, and a greater understanding of national and regional trends in spread. Advancing knowledge on SARS-CoV-2 variants is also key in enabling the research community to advise policymakers and governments in planning measures to reduce disease spead, and healthcare resource allocations. This could include, for example, recommendations on when to employ different non-pharmaceutical interventions (NPIs), such as personal protective measures, environmental measures, physical distancing, and travel restrictions. 
+Increased knowledge about SARS-CoV-2 variants is undoubtedly important for detecting and monitoring the spread of COVID-19 disease and local outbreaks. For example, research into current SARS-CoV-2 variants could facilitate the earlier detection of future variants, and a greater understanding of national and regional trends in spread. Advancing knowledge on SARS-CoV-2 variants is also key in enabling the research community to advise policymakers and governments in planning measures to reduce disease spead, and healthcare resource allocations. This could include, for example, recommendations on when to employ different non-pharmaceutical interventions (NPIs), such as personal protective measures, environmental measures, physical distancing, and travel restrictions.
 
 Over the last two years the research community has advanced our understanding of the SARS-CoV-2 virus at an unprecedented rate. In continuing this work, both now and after the pandemic, the research community contributes to pandemic preparedness; enabling an even faster response in furture pandemics.
 
@@ -115,14 +115,14 @@ For full definitions and table of current **VOCs**, **VOIs**, and **VUMs** see [
   </table>
 </div>
 
-*Pango lineage refers to https://cov-lineages.org/. The list of VOCs will be updated by the portal team ASAP after new data becomes available. It was last updated 2021-12-10<!-- can we automate this date?-->. Please see below for more information about the variants listed.*
+*Pango lineage refers to [classifications found here](https://cov-lineages.org/). The list of VOCs will be updated by the portal team ASAP after new data becomes available. It was last updated 2021-12-10<!-- can we automate this date?-->. Please see below for more information about the variants listed.*
 
-**19A	Wuhan/Hu-1/2019**
+##### 19A Wuhan/Hu-1/2019
 
 * This is the original SARS CoV-2 variant, which originated in Wuhan, China.
 * The first sequences were added to GISAID 26th December 2019 by the National Institute for Communicable Disease Control and Prevention (ICDC), Chinese Center for Disease Control and Prevention, China.
 
-**Alpha  20I/501Y.V1**	 (lineage B.1.1.7, VOC202012/01)
+##### Alpha 20I/501Y.V1 (lineage B.1.1.7, VOC202012/01)
 
 * This variant originted in the United Kingdom in September 2020, and has since been referred to as 20I/501Y.V1, VOC 202012/01, B.1.1.7, or Alpha.
 * It has a large number of mutations, including spike protein substitutions: 69del, 70del, 144del, (E484K*) (S494P), N501Y, A570D, D614G, P681H, T716I, S982A, D1118H (K1191N*).
@@ -131,7 +131,7 @@ For full definitions and table of current **VOCs**, **VOIs**, and **VUMs** see [
 * This variant had, according to the **Swedish Public Health Agency**, become the dominant strain in most Swedish counties by April 2021. However, as of Dec 2021, the incidence has been drastically reduced by the spread of other variants.
 * There is evidence for an impact on *transmissibility*, and *disease severity*, for example [Davies et al Science](https://doi.org/10.1126/science.abg3055), [Davies et al Nature, 2021](10.1038/s41586-021-03426-1) [Shen et al. Cell Host & Microbe, 2021](10.1016/j.chom.2021.03.002).
 
-**Beta 20H/501Y.V2**	 (lineage B.1.351)
+##### Beta 20H/501Y.V2 (lineage B.1.351)
 
 * This variant originated in South Africa in October 2020. It has also been known as 20H/501Y.V2 or B.1.351.
 * Spike protein substitutions present: D80A, D215G, 241del, 242del, 243del, K417N, E484K, N501Y, D614G, A701V. A.
@@ -139,7 +139,7 @@ For full definitions and table of current **VOCs**, **VOIs**, and **VUMs** see [
 * The first cases were detected in Sweden at the end of December 2020.
 * There is evidence for an impact on *transmissibility* [Tegally et al Nature 2021](https://doi.org/10.1038/s41586-021-03402-9), *host immunity* [Cele et al Nature 2021](https://doi.org/10.1038/s41586-021-03471-w), and *disease severity* [Funk et al Eurosurveillance 2021](https://doi.org/10.2807/1560-7917.ES.2021.26.16.2100348).
 
-**Gamma	20H/501Y.V3** (lineage P.1))
+##### Gamma	20H/501Y.V3 (lineage P.1))
 
 * This variant originated in Brazil. It was first identified in travellers that arrived from Brazil into Japan. The travellers were tested in Tokyo, Japan, and the results were reported by *the National Institute of Infectious Diseases* (NIID), Japan.
 * The spike mutations of interest are: K417T, E484K, N501Y, D614G, H655Y.
@@ -147,7 +147,7 @@ For full definitions and table of current **VOCs**, **VOIs**, and **VUMs** see [
 * Recent research indicates that the P.1 variant may overcome immunity gained following infection by other SARS CoV-2 variants, and that vaccines may less effective against this variant [Wang P, Wang M, Yu J, et al. 2021, pre-print](https://doi.org/10.1038/s41586-021-03398-2).
 * There is evidence for an impact on *transmissibility* [Faria et al. 2021](https://doi.org/10.1126/science.abh2644), *host immunity* [Dejnirattisai et al Cell 2021](https://doi.org/10.1016/j.cell.2021.03.055), and *disease severity* [Funk et al NEJM 2021](https://doi.org/10.2807/1560-7917.ES.2021.26.16.2100348).
 
-**Delta	(lineage B.1.617.2)**
+##### Delta	(lineage B.1.617.2)
 
 * The variant originated in India. It was first detected in February 2021, and was named in May 2021.
 * *Delta* is currently (Dec 2021) the most widely spread SARS-CoV-2 variant in Sweden and the world.
@@ -156,7 +156,7 @@ For full definitions and table of current **VOCs**, **VOIs**, and **VUMs** see [
 * This variant was detected in Sweden in April 2021.
 * There is evidence of impact on *transmissibility* [UK government](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/988619/Variants_of_Concern_VOC_Technical_Briefing_12_England.pdf.), *disease severity*, [Havervall et al. 2021](https.//doi.org/10.1016/j.ebiom.2021.103523), and *host immunity* [Bernal et al. 2021](https://doi.org/10.1056/NEJMoa2108891).
 
-**Omicron	21K  (lineage B.1.1.629)**		*Current source of outbreak*
+##### Omicron	21K (lineage B.1.1.629) Current source of outbreak
 
 * The variant was first detected in South Africa and Botswana in November 2021. As of December 2021, it has been detected in over 50 countries, 23 of which are in the EU/EEA.
 * [WHO](https://www.who.int/news/item/26-11-2021-classification-of-omicron-(b.1.1.529-sars-cov-2-variant-of-concern) declared Omicron to be a Variant of Concern (VOC), on 26th November 2021.
@@ -192,46 +192,49 @@ For more information on what is shown in the panels, please see e.g. this [2018 
 
 On the left hand side of the visualisations, there is a vertical menu that can be used to animate and change the layout of the visualisations, filter data, and change the view of the tree. See below for infomration on the use of these options
 
-**Date Range**
+##### Date Range
 
 The **Date Range** option can be used to filter the data so that a specific timeframe is displayed. You can press the 'play' and 'reset' buttons below it to animate the visualisations to play through the period selected. This can be useful if, for example, you want to examine the spread of a new VOC.
 
-**Color By**
+##### Color By
 
 The **Color By** menu can be used to select what aspect of the data related to sequences is displayed. You can select e.g. 'clade' to see the variants, 'PANGO Lineage by GISAID', and 'date' (please note that continuous variables like date show as averages, so must be interpreted with this in mind).
 
-**Tree Options**
+##### Tree Options
 
 **Tree Options** can be used to determine how the tree is displayed. You can use the 'Layout' options to select the format in which the tree is displayed, and the 'Branch Length' options to set what determines relative branch length.
 
-**Map Options**
+##### Map Options
 
-**Map Options** can be used to set the granularity of data displayed on the geographic map, though the options available will depend on the granularity of the data available in GISAID. In each build, 'Region' shows data grouped by continent, 'Country' shows data grouped by country, 'division' typically shows data displayed by county, and 'location' shows data for grouped by smaller subdivisions. In this build, 'Region' primarily shows data for Europe, 'Country' focuses on data from Sweden, 'division' mostly includes data for Swedish counties and some other regions, and 'location' shows data for some smaller subdivisions, though such data is not widely available for Sweden. 
+**Map Options** can be used to set the granularity of data displayed on the geographic map, though the options available will depend on the granularity of the data available in GISAID. In each build, 'Region' shows data grouped by continent, 'Country' shows data grouped by country, 'division' typically shows data displayed by county, and 'location' shows data for grouped by smaller subdivisions. In this build, 'Region' primarily shows data for Europe, 'Country' focuses on data from Sweden, 'division' mostly includes data for Swedish counties and some other regions, and 'location' shows data for some smaller subdivisions, though such data is not widely available for Sweden.
 
-**Other options**
+##### Other options
 
 The remaining options on the left hand menu, e.g. **Frequency/Animation/Panel Options** are used for changing data display, animation features and toggling the visualisations shown.
 
-##  Useful links for further reading about SARS-CoV-2 variants
+## Useful links for further reading about SARS-CoV-2 variants
 
 This section includes links to other sources of information about variants that can be used to find out more. Note that links from all over the world are included, not just Sweden.
 
-**Swedish Health Agency (Swedish Folkhälsomyndigheten)**
+##### Swedish Health Agency (Swedish Folkhälsomyndigheten)
 Detection and statistics of *variants of concern* by *Swedish Health Agency* are found [here](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/statistik-och-analyser/sars-cov-2-virusvarianter-av-sarskild-betydelse/) and [here](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/statistik-och-analyser/sars-cov-2-virusvarianter-av-sarskild-betydelse/sars-cov-2-virusvarianter-av-sarskild-betydelse/).
 *Please note that these pages are only available in Swedish*.
 
-**ECDC** [ECDC Dashboard](https://www.ecdc.europa.eu/en/covid-19/situation-updates/variants-dashboard) shows a dashboard of SARS-CoV-2 variants in EU/EEA.
+##### ECDC
+[ECDC Dashboard](https://www.ecdc.europa.eu/en/covid-19/situation-updates/variants-dashboard) shows a dashboard of SARS-CoV-2 variants in EU/EEA.
 [ECDC country overview report](https://covid19-country-overviews.ecdc.europa.eu/#4_Variants_of_concern)
 [Data on SARS-CoV-2 variants in the EU/EEA](https://www.ecdc.europa.eu/en/publications-data/data-virus-variants-covid-19-eueea). *Note that the data shown in the EDCD Dashboard are sourced from the European Surveillance System [TESSy]( https://www.ecdc.europa.eu/en/publications-data/european-surveillance-system-tessy  ) or from the [GISAID EpiCoV database](https://www.gisaid.org).*
 
-**Centre for Disease Control (CDC)** information about SAS-CoV-2 variants is found [here](
-https://www.cdc.gov/coronavirus/2019-ncov/variants/about-variants.html)
+##### Centre for Disease Control (CDC) 
+Information about SAS-CoV-2 variants is found [here](https://www.cdc.gov/coronavirus/2019-ncov/variants/about-variants.html)
 
-**Danish Health Authority** information about Covid-19 statistics and charts are found [here](
-https://www.sst.dk/en/english/corona-eng/status-of-the-epidemic/covid-19-updates-statistics-and-charts )
+##### Danish Health Authority
+Information about Covid-19 statistics and charts are found [here](https://www.sst.dk/en/english/corona-eng/status-of-the-epidemic/covid-19-updates-statistics-and-charts )
 
-**Finnish Institute for Health and Welfare** information about Covid-19 variants is found [here](https://thl.fi/en/web/infectious-diseases-and-vaccinations/what-s-new/coronavirus-covid-19-latest-updates/transmission-and-protection-coronavirus/coronavirus-variants#omicron)
+##### Finnish Institute for Health and Welfare
+Information about Covid-19 variants is found [here](https://thl.fi/en/web/infectious-diseases-and-vaccinations/what-s-new/coronavirus-covid-19-latest-updates/transmission-and-protection-coronavirus/coronavirus-variants#omicron)
 
-**Links from the UK** information about variants circulating in the UK (typically reflective of those in Sweden) can be found dashboards produced by [Wellcome Sanger](https://covid19.sanger.ac.uk/lineages/raw?lineage=B.1.1.529) and [COG-UK](https://sars2.cvr.gla.ac.uk/cog-uk/). The UK government also regularly [publishes information](https://www.gov.uk/government/publications/covid-19-variants-genomically-confirmed-case-numbers) about the numbers of cases attributed to different variants.
+##### Links from the UK
+Information about variants circulating in the UK (typically reflective of those in Sweden) can be found dashboards produced by [Wellcome Sanger](https://covid19.sanger.ac.uk/lineages/raw?lineage=B.1.1.529) and [COG-UK](https://sars2.cvr.gla.ac.uk/cog-uk/). The UK government also regularly [publishes information](https://www.gov.uk/government/publications/covid-19-variants-genomically-confirmed-case-numbers) about the numbers of cases attributed to different variants.
 
 **References:** The information on this webpage is based on information from primarily ECDC, CDC, Swedish Public Health Agency, as well as publications.
