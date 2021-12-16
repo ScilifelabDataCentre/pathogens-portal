@@ -1,0 +1,46 @@
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary mb-2" data-toggle="modal" data-target="#annModal">
+  Add an announcement
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="annModal" tabindex="-1" role="dialog" aria-labelledby="annModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="annModalLabel">Add an announcement</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="name">Name*</label>
+            <input type="text" class="form-control" id="name" required>
+            <small class="form-text text-muted">Will be displayed together with the announcement.</small>
+          </div>
+          <div class="form-group">
+            <label for="contact">Email address and/or other contact information*</label>
+            <input type="text" class="form-control" id="contact" required>
+            <small class="form-text text-muted">Will be displayed together with the announcement.</small>
+          </div>
+          <div class="form-group">
+            <label for="title">Announcement title*</label>
+            <input type="text" class="form-control" id="title" required>
+            <small class="form-text text-muted">One line to describe what the announcement is about.</small>
+          </div>
+          <div class="form-group">
+            <label for="announcement">Announcement text*</label>
+            <textarea class="form-control" id="announcement" rows="3" required></textarea>
+          </div>
+        </form>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+      <div class="modal-footer">
+        <div>Please note that the submitted announcements will appear after moderation. The Portal team checks the submissions regularly to publish new announcements as soon as possible. Get in touch with us by e-mail if you have any questions.</div>
+      </div>
+    </div>
+  </div>
+</div>
