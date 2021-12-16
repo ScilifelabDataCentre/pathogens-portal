@@ -139,7 +139,7 @@ For full definitions and table of current **VOCs**, **VOIs**, and **VUMs** see [
 * The first cases were detected in Sweden at the end of December 2020.
 * There is evidence for an impact on *transmissibility* [Tegally et al Nature 2021](https://doi.org/10.1038/s41586-021-03402-9), *host immunity* [Cele et al Nature 2021](https://doi.org/10.1038/s41586-021-03471-w), and *disease severity* [Funk et al Eurosurveillance 2021](https://doi.org/10.2807/1560-7917.ES.2021.26.16.2100348).
 
-##### Gamma	20H/501Y.V3 (lineage P.1))
+##### Gamma 20H/501Y.V3 (lineage P.1)
 
 * This variant originated in Brazil. It was first identified in travellers that arrived from Brazil into Japan. The travellers were tested in Tokyo, Japan, and the results were reported by *the National Institute of Infectious Diseases* (NIID), Japan.
 * The spike mutations of interest are: K417T, E484K, N501Y, D614G, H655Y.
@@ -147,7 +147,7 @@ For full definitions and table of current **VOCs**, **VOIs**, and **VUMs** see [
 * Recent research indicates that the P.1 variant may overcome immunity gained following infection by other SARS CoV-2 variants, and that vaccines may less effective against this variant [Wang P, Wang M, Yu J, et al. 2021, pre-print](https://doi.org/10.1038/s41586-021-03398-2).
 * There is evidence for an impact on *transmissibility* [Faria et al. 2021](https://doi.org/10.1126/science.abh2644), *host immunity* [Dejnirattisai et al Cell 2021](https://doi.org/10.1016/j.cell.2021.03.055), and *disease severity* [Funk et al NEJM 2021](https://doi.org/10.2807/1560-7917.ES.2021.26.16.2100348).
 
-##### Delta	(lineage B.1.617.2)
+##### Delta (lineage B.1.617.2)
 
 * The variant originated in India. It was first detected in February 2021, and was named in May 2021.
 * *Delta* is currently (Dec 2021) the most widely spread SARS-CoV-2 variant in Sweden and the world.
@@ -156,10 +156,10 @@ For full definitions and table of current **VOCs**, **VOIs**, and **VUMs** see [
 * This variant was detected in Sweden in April 2021.
 * There is evidence of impact on *transmissibility* [UK government](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/988619/Variants_of_Concern_VOC_Technical_Briefing_12_England.pdf.), *disease severity*, [Havervall et al. 2021](https.//doi.org/10.1016/j.ebiom.2021.103523), and *host immunity* [Bernal et al. 2021](https://doi.org/10.1056/NEJMoa2108891).
 
-##### Omicron	21K (lineage B.1.1.629) Current source of outbreak
+##### Omicron 21K (lineage B.1.1.629) Current source of outbreak
 
 * The variant was first detected in South Africa and Botswana in November 2021. As of December 2021, it has been detected in over 50 countries, 23 of which are in the EU/EEA.
-* [WHO](https://www.who.int/news/item/26-11-2021-classification-of-omicron-(b.1.1.529-sars-cov-2-variant-of-concern) declared Omicron to be a Variant of Concern (VOC), on 26th November 2021.
+* [WHO](https://www.who.int/news/item/26-11-2021-classification-of-omicron-(b.1.1.529-sars-cov-2-variant-of-concern)) declared Omicron to be a Variant of Concern (VOC), on 26th November 2021.
 * The variant is characterised by 30 changes, including three small deletions and one small insertion in the spike protein. Fifteen of the changes are found in the receptor binding domain. The changes include:
 A67V, Δ69-70, T95I, G142D, Δ143-145, Δ211, ins214EPE, G339D, S371L, S373P, S375F, K417N, N440K, G446S, S477N, T478K, E484A, Q493R, G496S, Q498R, N501Y, Y505H, T547K, D614G, H655Y, N679K, P681H, N764K, D796Y, N856K, Q954H, N969K, L981F [ECDC, 2021](https://www.ecdc.europa.eu/sites/default/files/documents/threat-assessment-covid-19-emergence-sars-cov-2-variant-omicron-december-2021.pdf).
 * This variant was first detected in Sweden in Dec 2021.
@@ -225,7 +225,7 @@ Detection and statistics of *variants of concern* by *Swedish Health Agency* are
 [ECDC country overview report](https://covid19-country-overviews.ecdc.europa.eu/#4_Variants_of_concern)
 [Data on SARS-CoV-2 variants in the EU/EEA](https://www.ecdc.europa.eu/en/publications-data/data-virus-variants-covid-19-eueea). *Note that the data shown in the EDCD Dashboard are sourced from the European Surveillance System [TESSy]( https://www.ecdc.europa.eu/en/publications-data/european-surveillance-system-tessy  ) or from the [GISAID EpiCoV database](https://www.gisaid.org).*
 
-##### Centre for Disease Control (CDC) 
+##### Centre for Disease Control (CDC)
 Information about SAS-CoV-2 variants is found [here](https://www.cdc.gov/coronavirus/2019-ncov/variants/about-variants.html)
 
 ##### Danish Health Authority
