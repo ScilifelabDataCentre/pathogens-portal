@@ -8,7 +8,7 @@ toc: true
     <a class="nav-link active" href="#"><b>Variants of Concern (VOC)</b></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="omicron">Omicron<br>(Most recent VOC)</a>
+    <a class="nav-link" href="omicron">Omicron<br></a>
   </li>
 </ul></div></div>
 
@@ -63,7 +63,7 @@ For full definitions and table of current **VOCs**, **VOIs**, and **VUMs** see [
       <tr>
         <th scope="col">Status</th>
         <th scope="col">WHO label</th>
-        <th scope="col">NextStrain</th>
+        <th scope="col">Nextstrain</th>
         <th scope="col">Pango lineage</th>
         <th scope="col">Location and date of first detection</th>
       </tr>
@@ -171,17 +171,22 @@ A67V, Δ69-70, T95I, G142D, Δ143-145, Δ211, ins214EPE, G339D, S371L, S373P, S3
 
 ## Exploring the variants present in Sweden in detail
 
-### NextStrain as a tool
+#### Nextstrain as a tool
 
-[NextStrain](https://nextstrain.org) was developed as a tool to enable the tracking of pathogen evolution in real time. It has been used to visualise and explore the relationship between, and transmission of, multiple different viruses (e.g. avian influenza and zika). Users are able to follow simple [step-by-step instructions](https://docs.nextstrain.org/en/latest/index.html) to produce their own 'builds' using genetic sequences. In these 'builds', genetic sequences are used to complete various calculations, and visualisations are produced to display the results.
+[Nextstrain](https://nextstrain.org) was developed as a tool to enable the tracking of pathogen evolution in real time. It has been used to visualise and explore the relationship between, and transmission of, multiple different viruses (e.g. avian influenza and zika). Users are able to follow simple [step-by-step instructions](https://docs.nextstrain.org/en/latest/index.html) to produce their own 'builds' using genetic sequences. In these 'builds', genetic sequences are used to complete various calculations, and visualisations are produced to display the results.
 
-It is perhaps unsurprising then, that [NextStrain](https://nextstrain.org) was quickly adopted on a large scale for research related to the SARS-COV-2 pandemic. Since early 2020, it has been used the world over to explore mutations across different SARS-COV-2 variants, visualise the spread of different variants, and to identify potential outbreaks, among other things. In order to expand the data available for use with NextStrain, and thus the reliability and usefulness of conclusions that could be drawn from these 'builds', it was quickly integrated with data from [GISAID](https://www.gisaid.org). GISAID is a database of genetic sequences for influenza viruses and SARS-COV-2. Public health officials and researchers frequently submit ad make use of the genetic sequence data stored on GISAID. Though the data stored is not truly open, researchers can gain access by applying and agreeing to the conditions set on using the data.
+It is perhaps unsurprising then, that [Nextstrain](https://nextstrain.org) was quickly adopted on a large scale for research related to the SARS-COV-2 pandemic. Since early 2020, it has been used the world over to explore mutations across different SARS-COV-2 variants, visualise the spread of different variants, and to identify potential outbreaks, among other things. In order to expand the data available for use with Nextstrain, and thus the reliability and usefulness of conclusions that could be drawn from these 'builds', it was quickly integrated with data from [GISAID](https://www.gisaid.org). GISAID is a database of genetic sequences for influenza viruses and SARS-COV-2. Public health officials and researchers frequently submit ad make use of the genetic sequence data stored on GISAID. Though the data stored is not truly open, researchers can gain access by applying and agreeing to the conditions set on using the data.
 
-More recently, NextStrain has begun to produce builds using data from the [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/home). Data from ENA is completely open, but far fewer sequences are included in this database.
+More recently, Nextstrain has begun to produce builds using data from the [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/home). Data from ENA is completely open, but far fewer sequences are included in this database.
 
-### Exploring a NextStrain build for Sweden
+#### Exploring a Nextstrain build for Sweden
 
-[This NextStrain build](https://nextstrain.org/groups/neherlab/ncov/sweden), maintained by the Neher lab and NextStrain team, focusses specifically on sequences from Sweden. There are 4 main visualisation panels:
+<figure class="figure float-right mx-3 w-50">
+  <img src="/voc/nextstrain_build.png" alt="Screenshot from the Nextstrain build for Sweden" class="img-thumbnail">
+  <figcaption class="figure-caption mt-1"><i>Screenshot from the Nextstrain build for Sweden</i></figcaption>
+</figure>
+
+[This Nextstrain build](https://nextstrain.org/groups/neherlab/ncov/sweden), maintained by the Neher lab and Nextstrain team, focusses specifically on sequences from Sweden. There are 4 main visualisation panels:
 
 1. A phylogenetic tree showing the relationships between variants.
 2. A geographic map that, by defailt, shows which variants have been detected in Sweden and their relative prevalence. Other aspects of the data related to sequences (e.g. the sampling date) can be displayed instead by using the **Color By** dropdown menu (located to the left of the visualisations panel). **NOTE:** Some data are visible for other countries in the map. This is expected because a subset of sequences from all over the world is needed to properly root the phylogenetic tree (see [here](https://docs.nextstrain.org/projects/ncov/en/latest/analysis/data-prep.html) for information on subsampling procedures).
@@ -236,5 +241,7 @@ Information about Covid-19 variants is found [here](https://thl.fi/en/web/infect
 
 ##### Links from the UK
 Information about variants circulating in the UK (typically reflective of those in Sweden) can be found dashboards produced by [Wellcome Sanger](https://covid19.sanger.ac.uk/lineages/raw?lineage=B.1.1.529) and [COG-UK](https://sars2.cvr.gla.ac.uk/cog-uk/). The UK government also regularly [publishes information](https://www.gov.uk/government/publications/covid-19-variants-genomically-confirmed-case-numbers) about the numbers of cases attributed to different variants.
+
+<hr>
 
 **References:** The information on this webpage is based on information from primarily ECDC, CDC, Swedish Public Health Agency, as well as publications.

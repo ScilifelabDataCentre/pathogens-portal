@@ -10,13 +10,13 @@ aliases:
     <a class="nav-link" href="../">Variants of Concern (VOC)</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="#"><b>Omicron<br>(Most recent VOC)</b></a>
+    <a class="nav-link active" href="#"><b>Omicron<br></b></a>
   </li>
 </ul></div></div>
 
-On this page we have compiled current knowledge on Omicron, the latest SARS-CoV-2 variant to be designated as a Variant of Concern (VOC). This includes any information availble data, ongoing research efforts, initial findings, among other things related to Omicron. Please see [this page for information on other VOCs](../).
+On this page we have compiled current knowledge on Omicron, the latest SARS-CoV-2 variant to be designated as a Variant of Concern (VOC). This includes availble data, ongoing research efforts, initial findings, among other things related to Omicron. Please see [this page for information on other VOCs](../).
 
-We make all possible efforts to track pre-prints, publications, and other resources related to Omicron and link them below. Researchers and organisations from around Sweden are also welcome to submit their datasets and to make relevant announcements on this page. If you feel like something is missing that should be included, or you wish to make a submission/announcement, please use the forms below or email us at datacentre@scilifelab.se. The team behind the COVID-19 Data Portal continuously monitors incoming suggestions, and new items are published as soon as possible.
+We make all possible efforts to track preprints, publications, and other resources related to Omicron and link them below. Researchers and organisations from around Sweden are also welcome to submit their datasets and to make relevant announcements on this page. If you feel like something is missing that should be included, or you wish to make a submission/announcement, please use the forms below or email us at datacentre@scilifelab.se. The team behind the COVID-19 Data Portal continuously monitors incoming suggestions, and new items are published as soon as possible.
 
 ## Available data
 
@@ -24,24 +24,15 @@ This section presents a list of the available data related to Omicron (or relate
 
 {{< omicron_page_suggest_available_data >}}
 
-<div mb-2>
-<b><a target="_blank" href="https://doi.org/10.6084/m9.figshare.17129771.v1">Supplementary information: Structural-bioinformatics analysis of SARS-CoV-2 variants reveals higher hACE2 receptor binding affinity for Omicron B.1.1.529 spike RBD compared to wild-type reference.</a></b><br>
-<span class="text-muted">Durmaz, Vedat; Köchl, Katharina; Singh, Amit; Hetmann, Michael; Parigger, Lena; Krassnigg, Andreas</span><br>
-<i>figshare</i> (2021). 10.6084/m9.figshare.17129771.v1.
-</div><br>
-
-<div mb-2>
-<b><a target="_blank" href="https://doi.org/10.6084/m9.figshare.17105090.v1">Genomic sequences of Omicron variants of SARS-CoV-2 from November 9 to November 28, 2021.</a></b><br>
-<span class="text-muted">Yeh, Ting Yu; Contreras, Gregory</span><br>
-<i>figshare</i> (2021). 10.6084/m9.figshare.17105090.v1.
-</div><br>
-
-<div mb-2>
-<b><a target="_blank" href="https://www.ecdc.europa.eu/en/covid-19/data">COVID-19 datasets from the European Centre for Disease Prevention and Control.</a></b><br>
-<span class="text-muted">European Centre for Disease Prevention and Control</span><br> (2021).
-</div><br>
+#### Data available from research groups in Sweden
 
 <p class="text-muted">No openly available data from Swedish researchers tracked as of Dec 14.</p>
+
+#### Data available from research groups in other countries
+
+- Genomic sequences of Omicron variants of SARS-CoV-2 from November 9 to November 28, 2021 (Yeh, Ting Yu; Contreras, Gregory), DOI: [10.6084/m9.figshare.17105090.v1](https://doi.org/10.6084/m9.figshare.17105090.v1)
+- Supplementary material to *Structural-bioinformatics analysis of SARS-CoV-2 variants reveals higher hACE2 receptor binding affinity for Omicron B.1.1.529 spike RBD compared to wild-type reference* (Durmaz, Köchl et al 2021, Research Square, DOI: [10.21203/rs.3.rs-1153124/v1](https://doi.org/10.21203/rs.3.rs-1153124/v1)):  Input and final structure files as well as Pandas Dataframes of interaction, energies exported as Python Pickle files generated within this work; A GISAID acknowledgment table containing sequence data used in this
+study. DOI: [10.6084/m9.figshare.17129771.v1](https://doi.org/10.6084/m9.figshare.17129771.v1)
 
 ## Ongoing research efforts
 
@@ -79,16 +70,10 @@ In this section, we present announcements about ongoing research efforts from re
   </div>
 </div> -->
 
-## Relevant publications and preprints
-
-Here we display a selection of preprints and journal publications reporting results on Omicron VoC.
-
-{{< omicron_page_pubs >}}
-
 ## Exploring Omicron VoC in Sweden using Nextstrain
 
 <figure class="figure float-right mx-3 w-50">
-  <img src="/voc/nextstrain_build.png" alt="Screenshot from the Nextstrain build" class="img-thumbnail">
+  <img src="/voc/nextstrain_omicron.png" alt="Screenshot from the Nextstrain build" class="img-thumbnail">
   <figcaption class="figure-caption mt-1"><i>Screenshot from the Nextstrain build</i></figcaption>
 </figure>
 
@@ -103,13 +88,19 @@ There are 4 main visualisation panels in Nextstrain:
 
 For more information on what is shown in the panels, please see e.g. this [2018 paper by Hadfield et al.](https://academic.oup.com/bioinformatics/article/34/23/4121/5001388), or [this section on interpreting analyses](https://docs.nextstrain.org/en/latest/learn/interpret/index.html) in the Nextrain documentation. Further, to understand how different visuaalisations relate to each other, see [the narrative written by Hodcroft et al. in 2020](https://nextstrain.org/narratives/trees-background).
 
+## Relevant publications and preprints
+
+Here we display a selection of preprints and journal publications reporting results on Omicron VoC.
+
+{{< omicron_page_pubs >}}
+
 ## Other useful resources
 
 Here we list a number of useful resources related to the new *SARS-CoV-2 Omicron variant* (last updated 2021-12-13)
 
 - [Information from the **WHO** about *Omicon* as a variant of concern (2021-11-26)](https://www.who.int/news/item/26-11-2021-classification-of-omicron-(b.1.1.529)-sars-cov-2-variant-of-concern)
-- [Epidemiological report from **ECDC** Dec 10 2021](https://www.ecdc.europa.eu/en/news-events/epidemiological-update-omicron-data-10-december)
-- [Epidemiological report from **ECDC** Dec 12 2021](https://www.ecdc.europa.eu/en/news-events/epidemiological-update-omicron-data-12-december)
+- [Epidemiological reports from **ECDC**](https://www.ecdc.europa.eu/en/news-events)
+- [Data on SARS-CoV-2 variants in the EU/EEA from **ECDC**](https://www.ecdc.europa.eu/en/publications-data/data-virus-variants-covid-19-eueea)
 - [Information about *Omicron* from the **CDC**](https://www.cdc.gov/coronavirus/2019-ncov/variants/omicron-variant.html)
 - [Information about *Omicron* from the **Statens Serum Institute, Denmark**](https://www.ssi.dk/aktuelt/nyheder/2021/status-pa-omikron-varianten-b11529-pr-061221)
 - [Statens Serum Institute, Denmark Rapport Dec 12 2021](https://covid19.ssi.dk/virusvarianter/omikron)
@@ -118,7 +109,7 @@ Here we list a number of useful resources related to the new *SARS-CoV-2 Omicron
 - [For lineages and information related to sequences from **Cov-lineages**](https://cov-lineages.org/global_report_B.1.1.529.html)
 - [Lineages and information related to sequences from **Nextstrain**](https://nextstrain.org/groups/neherlab/ncov/sweden)
 - [Assembled information about the Omicron from the **PHA4GE** (Bioinformatics Pipelines & Visualization Working Group)](https://github.com/pha4ge/pipeline-resources/blob/main/docs/omicron-resources.md)
-- [VEO report on mutations and variation in publicly shared SARS-CoV-2 raw sequencing data, Report No. 10, 15 December 2021](https://www.veo-europe.eu/news/nyhed?id=%7B1B87370A-0EBB-4412-81E5-9390A6FCDC07%7D)
+- [**VEO** report on mutations and variation in publicly shared SARS-CoV-2 raw sequencing data, Report No. 10, 15 December 2021](https://www.veo-europe.eu/news/nyhed?id=%7B1B87370A-0EBB-4412-81E5-9390A6FCDC07%7D)
 
 ## Get in touch with us
 
