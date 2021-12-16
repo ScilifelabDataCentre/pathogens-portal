@@ -20,31 +20,7 @@ This page aims to compile information about available data, ongoing research eff
 
 This section presents a list of the available data useful for research into the Omicron VoC shared by researchers affiliated to a Swedish research institute. We welcome suggestions submitted through the form below or by e-mail: datacentre@scilifelab.se. All submissions appear after the moderation by the Portal team.
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary mb-2" data-toggle="modal" data-target="#exampleModalTwo">
-  Add available data
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalTwo" tabindex="-1" role="dialog" aria-labelledby="exampleModalTwoLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalTwoLabel">Add available data</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        [form will appear here]
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Submit</button>
-      </div>
-    </div>
-  </div>
-</div>
+{{< omicron_page_suggest_available_data >}}
 
 <p class="text-muted">No openly available data from Swedish researchers tracked as of Dec 14.</p>
 
@@ -52,31 +28,7 @@ This section presents a list of the available data useful for research into the 
 
 We welcome announcements about ongoing research efforts from researchers and organizations in Sweden: share what you are currently working on and/or your results; look for collaborators for your project or certain tasks; look for data, equipment, reagents, etc. Any announcement useful for advacing research on Omicron is welcome. Feel free to submit the information using the form or by sending us an e-mail to datacentre@scilifelab.se.
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary mb-2" data-toggle="modal" data-target="#exampleModal">
-  Add an announcement
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Add an announcement</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        [form will appear here]
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Submit</button>
-      </div>
-    </div>
-  </div>
-</div>
+{{< omicron_page_add_announcement >}}
 
 <div class="alert alert-info mb-2">
   <h6>Sequences available: 10 Omicron samples</h5>
