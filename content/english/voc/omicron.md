@@ -7,18 +7,20 @@ aliases:
 
 <div class="row mb-4"><div class="col col-sm-8"><ul class="nav nav-tabs nav-justified">
   <li class="nav-item">
-    <a class="nav-link" href="../"><b>Variants of Concern (VoC)</b></a>
+    <a class="nav-link" href="../">Variants of Concern (VOC)</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="#">Omicron VoC</a>
+    <a class="nav-link active" href="#"><b>Omicron<br>(Most recent VOC)</b></a>
   </li>
 </ul></div></div>
 
-This page aims to compile information about available data, ongoing research efforts and first findings regarding the Omicron Variant of Concern (VoC) of SARS-CoV-2. Researchers and organizations from around Sweden are welcome to submit their datasets and announcements. We also present the relevant preprints and publications and links to other useful resources are provided. Please submit your suggestions using the forms below or by e-mail: datacentre@scilifelab.se. The team behind the COVID-19 Data Portal is continuously monitoring incoming suggestions and new items are published as soon as possible. Please see [this page for background on VoC information about other VoC](../).
+On this page we have compiled current knowledge on Omicron, the latest SARS-CoV-2 variant to be designated as a Variant of Concern (VOC). This includes any information availble data, ongoing research efforts, initial findings, among other things related to Omicron. Please see [this page for information on other VOCs](../).
+
+We make all possible efforts to track pre-prints, publications, and other resources related to Omicron and link them below. Researchers and organisations from around Sweden are also welcome to submit their datasets and to make relevant announcements on this page. If you feel like something is missing that should be included, or you wish to make a submission/announcement, please use the forms below or email us at datacentre@scilifelab.se. The team behind the COVID-19 Data Portal continuously monitors incoming suggestions, and new items are published as soon as possible.
 
 ## Available data
 
-This section presents a list of the available data useful for research into the Omicron VoC shared by researchers affiliated to a Swedish research institute. We welcome suggestions submitted through the form below or by e-mail: datacentre@scilifelab.se. All submissions appear after the moderation by the Portal team.
+This section presents a list of the available data related to Omicron (or related work that could benefit research into this variant) shared by researchers affiliated to a Swedish research institute. We welcome the submission of suggestions for additional datasets, either using the form below or by e-mail: datacentre@scilifelab.se. All submissions will be moderated by the Portal team before they appear on the page.
 
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary mb-2" data-toggle="modal" data-target="#exampleModalTwo">
@@ -46,11 +48,28 @@ This section presents a list of the available data useful for research into the 
   </div>
 </div>
 
+<div mb-2>
+<b><a target="_blank" href="https://doi.org/10.6084/m9.figshare.17129771.v1">Supplementary information: Structural-bioinformatics analysis of SARS-CoV-2 variants reveals higher hACE2 receptor binding affinity for Omicron B.1.1.529 spike RBD compared to wild-type reference.</a></b><br>
+<span class="text-muted">Durmaz, Vedat; Köchl, Katharina; Singh, Amit; Hetmann, Michael; Parigger, Lena; Krassnigg, Andreas</span><br>
+<i>figshare</i> (2021). 10.6084/m9.figshare.17129771.v1.
+</div><hr>
+
+<div mb-2>
+<b><a target="_blank" href="https://doi.org/10.6084/m9.figshare.17105090.v1">Genomic sequences of Omicron variants of SARS-CoV-2 from November 9 to November 28, 2021.</a></b><br>
+<span class="text-muted">Yeh, Ting Yu; Contreras, Gregory</span><br>
+<i>figshare</i> (2021). 10.6084/m9.figshare.17105090.v1.
+</div><hr>
+
+<div mb-2>
+<b><a target="_blank" href="https://www.ecdc.europa.eu/en/covid-19/data">COVID-19 datasets from the European Centre for Disease Prevention and Control.</a></b><br>
+<span class="text-muted">European Centre for Disease Prevention and Control</span><br> (2021).
+</div><hr>
+
 <p class="text-muted">No openly available data from Swedish researchers tracked as of Dec 14.</p>
 
 ## Ongoing research efforts
 
-We welcome announcements about ongoing research efforts from researchers and organizations in Sweden: share what you are currently working on and/or your results; look for collaborators for your project or certain tasks; look for data, equipment, reagents, etc. Any announcement useful for advacing research on Omicron is welcome. Feel free to submit the information using the form or by sending us an e-mail to datacentre@scilifelab.se.
+In this section, we present announcements about ongoing research efforts from researchers and organisations in Sweden. Please feel free to share what you are currently working on and/or your results, to seek collaborators to aid with aspects of your work (e.g. data, equipment, reagents, etc.). Any announcement useful for advacing research on Omicron is welcome. Feel free to submit the information either by using the form below or by sending us an e-mail to datacentre@scilifelab.se.
 
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary mb-2" data-toggle="modal" data-target="#exampleModal">
