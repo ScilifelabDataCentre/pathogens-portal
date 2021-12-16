@@ -43,7 +43,6 @@ This section presents a list of the available data related to Omicron (or relate
 
 <p class="text-muted">No openly available data from Swedish researchers tracked as of Dec 14.</p>
 
-
 ## Ongoing research efforts
 
 In this section, we present announcements about ongoing research efforts from researchers and organisations in Sweden. Please feel free to share what you are currently working on and/or your results, to seek collaborators to aid with aspects of your work (e.g. data, equipment, reagents, etc.). Any announcement useful for advacing research on Omicron is welcome. Feel free to submit the information either by using the form below or by sending us an e-mail to datacentre@scilifelab.se.
