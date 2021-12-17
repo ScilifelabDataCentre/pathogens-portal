@@ -34,13 +34,13 @@ toc : true
   </li>
 </ul>
 
-## Submission Route 2
+<br>
 
-### When to use this route
+## When to use this route
 
 Route 2 is recommended for those with advanced knowledge of using command line, and for those doing bulk submissions. It is the most suitable route for high-throughput, frequent submissions and automated systems. For this route, the metadata is typically provided to ENA in XML documents. This is true in all cases except for sequence assemblies, where the metadata is instead provided in JSON format. In either case, the metadata are submitted using cURL.
 
-### Necessary preparation
+## Necessary preparation
 
 Before commencing with the submission, the following things are required:
 
@@ -50,13 +50,13 @@ Before commencing with the submission, the following things are required:
 
 **Note:** this submission route works well in a Mac or Linux environment. For Windows users, we recommend downloading a Ubuntu app or a virtual Linux machine for smooth submissions.
 
-#### Data required for route 2
+### Data required for route 2
 
 All of the data required to complete this submission can be downloaded together in a single zip file by clicking [here](/ENA_tutorial_data/example_data.zip). In this part of the tutorial, we wil make use of the information in the '02-route' and 'example data' subfolders.
 
 <!-- LIANE/YVONNE: remember to check whether you need to unzip in Windows (use same file for both routes, so check both)- you don't need to for Mac-->
 
-#### Create checksums (MD5)
+### Create checksums (MD5)
 
 The data files need to be uploaded to the dropbox on ENA's servers (see below). In order to check for successful file transfers, it is necessary to compute [MD5s](https://en.wikipedia.org/wiki/MD5) for each file prior to upload. Follow the steps below to do this:
 
@@ -70,11 +70,11 @@ It is possible to calculate MD5 on several files at once using a for-loop:
 
 This command calculates checksums for all files starting with `SARS-CoV-2-Sample`.
 
-#### Upload data files
+### Upload data files
 
 Data files and the MD5 checksum files must be uploaded before starting the submission. There are multiple ways in which the upload can be done:
 
-##### Using the Webin File Uploader
+#### Using the Webin File Uploader
 
 The most user-friendly approach is [Using Webin File Uploader](https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html#using-webin-file-uploader), a Java web start application downloadable from [here](http://www.ebi.ac.uk/ena/upload/WebinUploader.jnlp):
 
@@ -87,7 +87,7 @@ The most user-friendly approach is [Using Webin File Uploader](https://ena-docs.
 7. Select the files to upload. You can use the `Select All` button to select all of the files for upload.
 8. Click on the `Upload` button.
 
-##### Use the command line FTP client
+#### Use the command line FTP client
 
 Another option is to use a command line FTP client in Linux or Mac:
 
@@ -97,7 +97,7 @@ Another option is to use a command line FTP client in Linux or Mac:
 4. Use the `mput <filename>` command to upload files.
 5. Use the `bye` command to exit the FTP client.
 
-##### Use the Windows File Explorer
+#### Use the Windows File Explorer
 
 It is also possible to use Windows File Explorer:
 
@@ -117,9 +117,9 @@ For other options to upload, more detailed instructions, or troubleshooting, ple
 
 <!-- LIANE FILE 01 STARTS HERE!-->
 
-### Route 2 submission methods for raw reads/assemblies
+## Submission method
 
-#### Registering a Study
+### Registering a Study
 
 In this section, we will use the materials in the *02-route/study/* subfolder of the example data that you downloaded earlier. Use the following commands in the command line to navigate to the folder and view its contents:
 
@@ -133,7 +133,7 @@ In the *study* subfolder, you will find two example XML files (the file type req
 
 Edit *project.xml* to create a project alias that is unique to you. Once complete, you are ready to send the project.xml and submission.xml files (using the `<ADD/>` action) to the test service using the following cURL command:
 
-`curl -u username:password -F "SUBMISSION=@submission.xml" -F "PROJECT=@project.xml" "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"*` 
+`curl -u username:password -F "SUBMISSION=@submission.xml" -F "PROJECT=@project.xml" "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"*`
 
 **Note**: Replace `username` with your Webin username (starting with Webin-), and `password` with your Webin password.
 
@@ -143,7 +143,7 @@ The attribute 'success' in thie receipt file will have a value of either true or
 
 <!-- LIANE FILE 02 STARTS HERE!-->
 
-#### Registering Samples
+### Registering Samples
 
 In this section, we will use the materials in the *02-route/samples/* subfolder of the example data that you downloaded earlier. This subfolder contains multiple XML files. Use the following commands in the command line prompt to navigate to the folder and view its contents:
 
@@ -168,7 +168,7 @@ To see an example of a `<SAMPLE_SET>` please [see this example from ENA](https:/
 
 Sample aliases are defined within the `<SAMPLE>` tag, e.g. `<SAMPLE alias='this_alias'>`. In the example data, the alias has been suffixed with the word ‘programmatic’. Aliases must be unique.
 
-#### Submit the Samples
+### Submit the Samples
 
 As with study registration (above), we need to use cURL to send the samples.xml and submission.xml files (using the `<ADD/>` action) to the test service:
 
@@ -176,7 +176,7 @@ As with study registration (above), we need to use cURL to send the samples.xml 
 
 You should again receive a 'receipt XML' with information regarding submission success and accession numbers. Note that, in this instance, you will also receive a `<SAMPLE>` tag for each submitted sample (when using the sample data for this tutorial, you should see 3). Please take note of each sample alias and accession, as you will need these later when submitting data files.
 
-#### Modifying Samples
+### Modifying Samples
 
 Sometimes, previously uploaded metadata needs to be updated. You can do this by editing the sample.xml file to include the correct values, and resubmitting it with a submission.xml file containing the `<MODIFY/>` action in place of `<ADD/>`:
 
@@ -190,7 +190,7 @@ Check the resultant receipt file to see whether your update was successful. Note
 
 <!-- LIANE FILE 03 STARTS HERE!-->
 
-#### Submitting Raw Reads
+### Submitting Raw Reads
 
 From this point in the 'route 2' submission tutorial, the instructions differ according to whether you are submitting raw reads or assemblies. This section details how users can submit 'raw reads'. For instructions on how to submit assemblies, please see the 'Validate and submit sequence assemblies' section below.
 
@@ -219,7 +219,7 @@ For additional information, please see [ENA documentation on programmatic submis
 
 <!-- LIANE FILE 04 STARTS HERE!-->
 
-#### Validate and submit sequence assemblies
+### Validate and submit sequence assemblies
 
 This section of the 'route 2' tutorial details how users can submit sequence assemblies. For instructions on how to submit raw reads, please see the 'Submit raw reads' section above.
 
@@ -242,31 +242,32 @@ This service also provides both validation and submission services, as with the 
 <!-- LIANE - YOU NEED TO FINISH THIS AS NEEDED - BIG CODE EXAMPLE -->
 
 Let's validate the contents of `hCoV-19_isolate_1.json`. Remember to replace `-u user:pass` with your webin credentials, and to substitute in your own accessions into the JSON object:
-```bash
-curl -X 'POST' -u user:pass   \
-  'https://wwwdev.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19/validate' \
-  -H 'accept: application/json' \
-  -H 'Content-Type: application/json' \
-  -d '{
-    "study": "PRJEB#####",
-    "sample": "ERS#######",
-    "runRef": "ERR#######",
-    "name": "hCov-19_isolate_1",
-    "coverage": 100,
-    "program": "ARTIC fieldbioinformatics (minimap2/nanopolish) 1.1.3 (nanopolish 0.13.2)",
-    "platform": "ILLUMINA",
-    "minGapLength": 3,
-    "moleculeType": "genomic RNA",
-    "description": "example sequence #1 for workshop",
-    "sequence": "NNNNNNNNNTTATACCTTCCCAGGTAACAAACCAACCAACTTTCGATCTCTTGTAGATCTGTTCTCTAAACGAACTTTAAAATCTGTGTGGCTGTCACTCGGCTGCATGCTTAGTGCACTCACGCAGTATAATTAATAACTAATTACTGTCGTTGACAGGACACGAGTAACTCGTCTATCTTCTGCAGGCTGCTTACGGTTTCGTCCGTGTTGCAGCCGATCATCAGCACATCTAGGTTTTGTCCGGGTGTGACCGAAAGGTAAGATGGAGAGCCTTGTCCCTGGTTTCAACGAGAAAACACACGTCCAACTCAGTTTGCCTGTTTTACAGGTTCGCGACGTGCTCGTACGTGGCTTTGGAGACTCCGTGGAGGAGGTCTTATCAGAGGCACGTCAACATCTTAAAGATGGCACTTGTGGCTTAGTAGAAGTTGAAAAAGGCGTTTTGCCTCAACTTGAACAGCCCTATGTGTTCATCAAACGTTCGGATGCTCGACTGCACCTCATGGTCATGTTATGGTTGAGCTGGTAGCAGAACTCGAAGGCATTCAGTACGGTCGTAGTGGTGAGACACTTGGTGTCCTTGTCCCTCATGTGGGCGAAATACCAGTGGCTTACCGCAAGGTTCTTCTTCGTAAGAACGGTAATAAAGGAGCTGGTGGCCATAGTTACGGCGCCGATCTAAAGTCATTTGACTTAGGCGACGAGCTTGG"
-  }'
-```
 
-To submit the sequence, simply remove `/validate` from the URL above and run again.
+```bash
+curl -X 'POST' -u user:pass
+'https://wwwdev.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19/validate'
+-H 'accept: application/json'
+-H 'Content-Type: application/json'
+-d '{
+  "study": "PRJEB#####",
+  "sample": "ERS#######",
+  "runRef": "ERR#######",
+  "name": "hCov-19_isolate_1",
+  "coverage": 100,
+  "program": "ARTIC fieldbioinformatics (minimap2/nanopolish) 1.1.3 (nanopolish 0.13.2)",
+  "platform": "ILLUMINA",
+  "minGapLength": 3,
+  "moleculeType": "genomic RNA",
+  "description": "example sequence #1 for workshop",
+  "sequence": "NNNNNNNNNTTATACCTTCCCAGGTAACAAACCAACCAACTTTCGATCTCTTGTA......."
+  }'
+  ```
+
+To submit the sequence, simply remove `/validate` from the URL in the above command and run it again.
 
 <!-- LIANE - COPIED FROM ROUTE 1 CAN WE USE HERE??? -->
 
-### What happens after submission
+## What happens after submission
 
 Once the submitted sequences have been processed, they will be distributed as **EMBL flat files**, see [this example from ENA](https://ena-docs.readthedocs.io/en/latest/submit/fileprep/flat-file-example.html) to understand the format. These files largely comprise of:
 

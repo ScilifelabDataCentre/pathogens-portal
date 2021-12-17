@@ -33,11 +33,9 @@ toc : true
   </li>
 </ul>
 
-## Terminology and Metadata
+<br>This page contains information on the terminology used by ENA related to sequences and metadata. We also describe how metadata relates to the sequencing process, as well as how ENA uses and stores metadata.
 
-This page contains information on the terminology used by ENA related to sequences and metadata. We also describe how metadata relates to the sequencing process, as well as how ENA uses and stores metadata.
-
-### Definition of data types (as used in ENA)
+## Definition of data types (as used in ENA)
 
 * **'Raw' sequence data** - Sequence data that is obtained directly from a sequencing instrument (e.g. in FASTA, FASTQ, BAM, or CRAM files). ENA recommends the use of FASTA/FASTQ file formats (described [below](/support_services/tutorial_ena/tutorial_ena_terminology/#definition-of-metadata-objects)), but accepts also other file formats.
 
@@ -45,7 +43,7 @@ This page contains information on the terminology used by ENA related to sequenc
 
 * **Metadata** - Description of the data that gives, at a minimum, sufficient information to reproduce the data collection method (e.g. description of how the source material was obtained and details about the sequencing process, such as library preparation and the instruments used). In ENA, all metadata related to a research project is represented by different types of metadata objects. See [below](/support_services/tutorial_ena/tutorial_ena_terminology/#definition-of-metadata-objects) for an explaination of different types of object.
 
-### Definition of metadata objects
+## Definition of metadata objects
 
 ENA recognises multiple 'levels'/'types' of metadata related to sequencing projects. These different 'levels'/'types' of metadata are represented by different metadata objects. For example, general project information (such as the project title) is defined in the **study (project)** object, sequenced source material is included in the **samples** object, and details about the sequencing experiment are captured in the **experiment** object.
 
@@ -69,9 +67,9 @@ Different metadata objects relate to different stages of the sequencing process.
 
 Metadata objects are related to each other in different ways, for information on how data objects are used and how they are related to one another, see this [video](https://youtu.be/M9srsSieEB4) produced by ENA.
 
-### Description of sequence file formats
+## Description of sequence file formats
 
-#### FASTA
+### FASTA
 
 A text-based file format used for nucleotide, peptide, or protein sequences. The sequences themselves are preceded by the sequence name, which comprises a single line. The sequence name is preceded by a single right-facing arrow (‘>’) that distinguishes it from the sequence itself.
 
@@ -81,7 +79,7 @@ A sequence in FASTA format may look e.g.:
 GTTTATACCTTCCCAGGTAACAAACCAACCAACTTTCGATCTCT...
 AAACGAACTTTAAAATCTGTGTGGCTGTCACTCGGCTGCATGCT...
 
-#### FASTQ
+### FASTQ
 
 A FASTQ file is a text-based file format that contains sequence data (including sequence name) in a similar way to FASTA files (described above). The main difference between the two is that FASTQ files include information about data quality, whilst FASTA files do not.
 

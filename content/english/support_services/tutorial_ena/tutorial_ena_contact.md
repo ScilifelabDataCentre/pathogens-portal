@@ -33,7 +33,9 @@ toc : true
   </li>
 </ul>
 
-## Getting further support
+<br>
+
+## <b>Getting Further Support</b>
 
 ### About the use of this tutorial/Brokering to ENA
 
