@@ -14,7 +14,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <form>
+        <form class="needs-validation" novalidate action="https://biobank-forms.dckube.scilifelab.se/forms/omicron_announcement/">
           <div class="form-group">
             <label for="name">Name*</label>
             <input type="text" class="form-control" id="name" required>
@@ -34,13 +34,52 @@
             <label for="announcement">Announcement text*</label>
             <textarea class="form-control" id="announcement" rows="3" required></textarea>
           </div>
+          <div class="g-recaptcha" data-sitekey="6LesV0gaAAAAAGFjazG7Hd_hN72cpeYm2woivBT3"></div>
+          <input type="url" id="originUrl" name="originUrl" value="" hidden />
+          <div class="form-group row">
+            <div class="col-sm-9">
+                <button type="button" class="btn btn-secondary mt-3" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary mt-3">Submit</button>
+            </div>
+          </div>
         </form>
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Submit</button>
       </div>
       <div class="modal-footer">
-        <div>Please note that the submitted announcements will appear after moderation. The Portal team checks the submissions regularly to publish new announcements as soon as possible. Get in touch with us by e-mail if you have any questions.</div>
+        <div><p>Please note that the submitted announcements will appear after moderation. The Portal team checks the submissions regularly to publish new announcements as soon as possible. Get in touch with us by e-mail if you have any questions.</p>
+          <p>Our personal data policy <a href="/privacy/">can be found on this page</a>.</p>
+        </div>
       </div>
     </div>
   </div>
 </div>
+
+<script>
+  var form = document.querySelector('.needs-validation');
+  form.addEventListener('submit', function(event){
+      if(form.checkValidity() === false) {
+        event.preventDefault();
+        alert("{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen fyll i alla obligatoriska fält.{{ else }}Please fill out all required fields.{{ end }}");
+        event.stopPropagation();
+        form.classList.add('was-validated')
+      }
+      var recaptcha = $("#g-recaptcha-response").val();
+      if (recaptcha === "") {
+          event.preventDefault();
+          alert("{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen markera 'I'm not a robot' ovanför 'Skicka' -knappen.{{ else }}Please tick 'I'm not a robot' above the 'Submit' button.{{ end }}");
+      }
+  })
+
+  document.getElementById('originUrl').value = location.href;
+
+  $(function(){
+    var requiredCheckboxes = $(':checkbox[required]');
+    requiredCheckboxes.change(function(){
+        if(requiredCheckboxes.is(':checked')) {
+            requiredCheckboxes.removeAttr('required');
+        } else {
+            requiredCheckboxes.attr('required', 'required');
+        }
+    });
+  });
+
+</script>

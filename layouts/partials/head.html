@@ -43,7 +43,7 @@
   {{ end }}
 
   <!-- reCAPTCHA -->
-  {{ if eq .Page.Section "contact"}}
+  {{ if or (eq .Page.Section "contact") (eq .Page.Section "voc") }}
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   {{ end }}
 

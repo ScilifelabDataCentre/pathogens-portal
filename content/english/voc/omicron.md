@@ -66,7 +66,7 @@ Here we display a selection of preprints and journal publications reporting resu
 
 ## Other useful resources
 
-Here we list a number of useful resources related to the new *SARS-CoV-2 Omicron variant* (last updated 2021-12-13)
+Here we list a number of useful resources related to the new *SARS-CoV-2 Omicron variant*.
 
 - [Information from the **WHO** about *Omicon* as a variant of concern (2021-11-26)](https://www.who.int/news/item/26-11-2021-classification-of-omicron-(b.1.1.529)-sars-cov-2-variant-of-concern)
 - [Epidemiological reports from **ECDC**](https://www.ecdc.europa.eu/en/news-events)
