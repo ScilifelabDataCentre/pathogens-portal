@@ -176,7 +176,7 @@ To view the contents of this folder, you can open it using a file explorer or us
 
 **Note**: Windows users should replace the forward slash (`/`) in the code above with a backslash (`\`).
 
-This subfolder contains three manifest files, each named 'paired_fastq_manifest_sample*.txt' (where * represents a number between 1 and 3). These manifest files contain the metadata for raw read files, which is used to connect the samples with the raw sequences. Preparation of such manifest files are key when submitting raw reads.
+This subfolder contains three manifest files, each named 'paired_fastq_manifest_sample\*.txt' (where \* represents a number between 1 and 3). These manifest files contain the metadata for raw read files, which is used to connect the samples with the raw sequences. Preparation of such manifest files are key when submitting raw reads.
 
 #### Prepare manifest files
 
@@ -209,7 +209,7 @@ The field values for STUDY and SAMPLE need taken from the metadata objects that 
 
 Open a command prompt window and navigate to the *runs* subfolder of the 01-route folder of the example data files, using the `cd` command (e.g. `cd $WORKSHOP/01-route/runs/`). Use `\` instead on Windows.
 
-The Webin-CLI requires that you provide information about who you are and what you want to do before use. You can do this by using one of the available **’options’**. In the command prompt window, type in the appropriate command from those given below to see the available options. Please note that the filepath should give the location of Webin-CLI. Below, it is assumed that a path variable ('DOWNLOADS') has been created which contains the full path to the folder where the program was downloaded [LINK TO PREP]().
+The Webin-CLI requires that you provide information about who you are and what you want to do before use. You can do this by using one of the available **’options’**. In the command prompt window, type in the appropriate command from those given below to see the available options. Please note that the filepath should give the location of Webin-CLI. Below, it is assumed that a path variable ('DOWNLOADS') has been created which contains the full path to the folder where the program was downloaded. See [this section in the preparation for submissions tab](/support_services/tutorial_ena/tutorial_ena_subprep/#obtaining-example-data) to see how to do this.
 
 * **On Windows** - java -jar $DOWNLOADS\webin-cli-4.2.3.jar –help
 * **On Mac** - java -jar $DOWNLOADS/webin-cli-4.2.3.jar -help
@@ -270,7 +270,7 @@ To view the contents of this folder, you can open it using a file explorer or us
 
 Windows users should replace `/` in the above with `\`.
 
-In the folder, you'll see that there are three manifest files (named 'hCov-19_isolate_*_manifest.txt', where * is a number between 1 and 3); one for each of the 3 example sample data files. The manifest files contain information about the corresponding sequence, including the name of the FASTA file containing that sequence.
+In the folder, you'll see that there are three manifest files (named 'hCov-19_isolate_\*_manifest.txt', where \* is a number between 1 and 3); one for each of the 3 example sample data files. The manifest files contain information about the corresponding sequence, including the name of the FASTA file containing that sequence.
 
 There are 6 files in the folder `$WORKSHOP/data/sequences/`; one FASTA sequence file and one chromosome list file for each of the three samples. The chromosome list file defines the list of 'chromosomes', in the case of SARS-CoV-2, we simply list the sequences as 'chromosome 1'. Sequences must have a unique name within the submission that is provided in the FASTA files. It is essential that the sequence names are consistent between files, for example, the chromosome list file must refer to the chromosome sequences using the unique sequence names.
 
@@ -288,9 +288,9 @@ Manifest files, which provide information about data files, need to be prepared 
 * **PLATFORM** - The sequencing platform, or comma-separated list of platforms.
 * **MINGAPLENGTH** - Minimum length of consecutive Ns to be considered a gap (optional).
 * **MOLECULETYPE** - For SARS-CoV2 Molecule type will be either genomic RNA or viral cRNA, depending on your library preparation strategy.
-* **DESCRIPTION** -	Free text description (optional).
+* **DESCRIPTION** - Free text description (optional).
 * **FASTA** - Single FASTA file (compressed format).
-* **CHROMOSOME_LIST** -	Chromosome list file (compressed format).
+* **CHROMOSOME_LIST** - Chromosome list file (compressed format).
 
 The manifest file can be created in a text editor (e.g. Notepad) of your choice. You can use one of the manifest files in the example data folder (that you downloaded earlier for this tutorial) as a reference when making your own manifest file fo SARS-CoV-2 sequence data. Please note though, that the field values might differ for your project.
 
@@ -313,12 +313,12 @@ You then need to 'tell' Webin-CLI who you are and what you want to do. This can 
 * **On Windows** - java -jar $DOWNLOADS\webin-cli-4.2.3.jar –help
 * **On Mac** - java -jar $DOWNLOADS/webin-cli-4.2.3.jar -help
 
-In the above commands, you need to provide the location of Webin-CLI. Here we assume that 'DOWNLOADS' has been created as a path variable, which contains the full path to the folder where the program was downloaded [LINK TO PREP]().
+In the above commands, you need to provide the location of Webin-CLI. Here we assume that 'DOWNLOADS' has been created as a path variable, which contains the full path to the folder where the program was downloaded. See [this section in the preparation for submissions tab](/support_services/tutorial_ena/tutorial_ena_subprep/#obtaining-example-data) to see how to do this.
 
 You will make use of following options:
 
 * `-context`: the submission type (genome).
-* `-userName`: the Webin submission account name. 
+* `-userName`: the Webin submission account name.
 * `-password`: the Webin submission account password.
 * `-manifest`: the manifest file name.
 * `-outputDir`: directory for output files.

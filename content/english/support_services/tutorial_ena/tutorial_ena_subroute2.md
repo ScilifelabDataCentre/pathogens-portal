@@ -44,9 +44,9 @@ Route 2 is recommended for those with advanced knowledge of using command line, 
 
 Before commencing with the submission, the following things are required:
 
-1.  **A text editor and software to read/edit data in .xml format** - The text editor should ideally have the ability to highlight XML formatted files.
+1. **A text editor and software to read/edit data in .xml format** - The text editor should ideally have the ability to highlight XML formatted files.
 
-2.  **cURL** - A command line facility with cURL installed.
+2. **cURL** - A command line facility with cURL installed.
 
 **Note:** this submission route works well in a Mac or Linux environment. For Windows users, we recommend downloading a Ubuntu app or a virtual Linux machine for smooth submissions.
 

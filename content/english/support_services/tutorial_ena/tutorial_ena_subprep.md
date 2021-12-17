@@ -45,7 +45,7 @@ All the files that are submitted to ENA need to be in the appropriate format to 
 
 In order to do a submission, you need an account in ENA. To create an account, go to [ENA submission homepage](https://www.ebi.ac.uk/ena/submit/webin/), click on **Register**, and fill in the required details.
 
-*Log in page on the ENA submission homepage:* 
+*Log in page on the ENA submission homepage:*
 
 <div class="text-center">
   <img src="/img/ena_tutorial/ENA_login_startpage.png" height="350" class="rounded">
@@ -71,8 +71,7 @@ Whether you use your own data or the example data, we recommend that you use the
 
 To ensure that sample data is registered with at least a minimum amount of metadata, ENA provides “Sample Checklists” which are used during registration to tailor these samples to fit minimum standards. The most appropriate checklist for SARS-CoV-2 viral submissions is the *[ENA virus pathogen reporting standard checklist, or ERC000033](https://www.ebi.ac.uk/ena/browser/view/ERC000033)*. This includes 9 mandatory, 15 recommended, and 11 optional fields (along with any additional user-defined fields). Please note that some fields are free text, while others have controlled vocabulary.
 
-In order to ensure that your SARS-CoV-2 data is properly described, we recommend downloading and filling in [this metadata template](/ENA_tutorial_data/metadata_template_ERC000033.xlsx). 
-This template not only contains the ENA checklist for the sample data, but also describes all levels of metadata required for a submission. The template is divided into five sheets, namely; **study**, **sample**, **experiment**, **run** and **analysis**. The experiment and run sheets are used for describing the raw reads, and the analysis sheet is used for describing the sequence assembly.
+In order to ensure that your SARS-CoV-2 data is properly described, we recommend downloading and filling in [this metadata template](/ENA_tutorial_data/metadata_template_ERC000033.xlsx). This template not only contains the ENA checklist for the sample data, but also describes all levels of metadata required for a submission. The template is divided into five sheets, namely; **study**, **sample**, **experiment**, **run** and **analysis**. The experiment and run sheets are used for describing the raw reads, and the analysis sheet is used for describing the sequence assembly.
 
 In each sheet, the first row is the **ENA virus sample checklist field**, the second row is the **ENA definition** (provides a description of the field), and the third row is **ENA requirement status** (whether the field is mandatory, recommended or optional). When you populate the sheets with your metadata, you can delete the second and third row. The default values for SARS-CoV2 submissions are pre-filled (in red) for relevant fields.
 

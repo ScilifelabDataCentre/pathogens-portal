@@ -57,14 +57,16 @@ ENA provides three methods of submission; interactive submissions, command line 
 
 No single one of the above methods from ENA enables a complete submission. Users must therefore neccessarily use a combination of methods to complete their submission(s). The different methods can be combined in multiple ways, but certain combinations will work better in particular situations. We have developed two 'routes' of submission using combinations best suited to the needs/experience of users. This section will help you to choose the route of submission best suited for your needs:
 
-1.	Choose **Route 1** if:
-  * You have little to no knowledge of using command line.
-  * You are submitting a small number of sequences (typically one to ten, but could be used for more).
+1. Choose **Route 1** if:
 
-2.	Choose **Route 2** if:
-  * You have advanced knowledge of using command line.
-  * You are doing a bulk submission of sequences (typically more than 100).
+* You have little to no knowledge of using command line.
+* You are submitting a small number of sequences (typically one to ten, but could be used for more).
 
-When you decide on the most appropriate route, progress to the [Submission Route 1 tab](/support_services/tutorial_ena/tutorial_ena_subroute1) or [Submission Route 2 tab](/support_services/tutorial_ena/tutorial_ena_subroute2) to learn how to complete the submission. 
+2. Choose **Route 2** if:
+
+* You have advanced knowledge of using command line.
+* You are doing a bulk submission of sequences (typically more than 100).
+
+When you decide on the most appropriate route, progress to the [Submission Route 1 tab](/support_services/tutorial_ena/tutorial_ena_subroute1) or [Submission Route 2 tab](/support_services/tutorial_ena/tutorial_ena_subroute2) to learn how to complete the submission.
 
 We have restructured the example data originally provided by ENA for use with the two submission routes. This data can be [downloaded here](/ENA_tutorial_data/example_data.zip). The example data is useful for familiarising yourself with how to structure your data for submission, and with completing a submission. However, you're welcome to move through the steps of this tutorial using your own data instead.
