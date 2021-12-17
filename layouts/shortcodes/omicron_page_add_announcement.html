@@ -14,28 +14,28 @@
         </button>
       </div>
       <div class="modal-body">
-        <form class="needs-validation" novalidate action="https://biobank-forms.dckube.scilifelab.se/forms/omicron_announcement/">
+        <form class="needs-validation-ann" novalidate action="https://biobank-forms.dckube.scilifelab.se/forms/omicron_announcement/">
           <div class="form-group">
             <label for="name">Name*</label>
-            <input type="text" class="form-control" id="name" required>
+            <input type="text" class="form-control" id="name" name="name" required>
             <small class="form-text text-muted">Will be displayed together with the announcement.</small>
           </div>
           <div class="form-group">
             <label for="contact">Email address and/or other contact information*</label>
-            <input type="text" class="form-control" id="contact" required>
+            <input type="text" class="form-control" id="contact" name="contact" required>
             <small class="form-text text-muted">Will be displayed together with the announcement.</small>
           </div>
           <div class="form-group">
             <label for="title">Announcement title*</label>
-            <input type="text" class="form-control" id="title" required>
+            <input type="text" class="form-control" id="title" name="title" required>
             <small class="form-text text-muted">One line to describe what the announcement is about.</small>
           </div>
           <div class="form-group">
             <label for="announcement">Announcement text*</label>
-            <textarea class="form-control" id="announcement" rows="3" required></textarea>
+            <textarea class="form-control" id="announcement" name="announcement" rows="3" required></textarea>
           </div>
           <div class="g-recaptcha" data-sitekey="6LesV0gaAAAAAGFjazG7Hd_hN72cpeYm2woivBT3"></div>
-          <input type="url" id="originUrl" name="originUrl" value="" hidden />
+          <input type="url" id="originUrl" name="originUrl" value="" hidden /> -->
           <div class="form-group row">
             <div class="col-sm-9">
                 <button type="button" class="btn btn-secondary mt-3" data-dismiss="modal">Close</button>
@@ -54,18 +54,18 @@
 </div>
 
 <script>
-  var form = document.querySelector('.needs-validation');
+  var form = document.querySelector('.needs-validation-ann');
   form.addEventListener('submit', function(event){
       if(form.checkValidity() === false) {
         event.preventDefault();
-        alert("{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen fyll i alla obligatoriska fält.{{ else }}Please fill out all required fields.{{ end }}");
+        alert("Please fill out all required fields.");
         event.stopPropagation();
         form.classList.add('was-validated')
       }
       var recaptcha = $("#g-recaptcha-response").val();
       if (recaptcha === "") {
           event.preventDefault();
-          alert("{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen markera 'I'm not a robot' ovanför 'Skicka' -knappen.{{ else }}Please tick 'I'm not a robot' above the 'Submit' button.{{ end }}");
+          alert("Please tick 'I'm not a robot' above the 'Submit' button.");
       }
   })
 
