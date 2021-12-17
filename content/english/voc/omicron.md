@@ -26,13 +26,11 @@ This section presents a list of the available data related to Omicron (or relate
 
 #### Data available from research groups in Sweden
 
-<p class="text-muted">No openly available data from Swedish researchers tracked as of Dec 14.</p>
+{{< omicron_page_av_data_swe >}}
 
 #### Data available from research groups in other countries
 
-- Genomic sequences of Omicron variants of SARS-CoV-2 from November 9 to November 28, 2021 (Yeh, Ting Yu; Contreras, Gregory), DOI: [10.6084/m9.figshare.17105090.v1](https://doi.org/10.6084/m9.figshare.17105090.v1)
-- Supplementary material to *Structural-bioinformatics analysis of SARS-CoV-2 variants reveals higher hACE2 receptor binding affinity for Omicron B.1.1.529 spike RBD compared to wild-type reference* (Durmaz, Köchl et al 2021, Research Square, DOI: [10.21203/rs.3.rs-1153124/v1](https://doi.org/10.21203/rs.3.rs-1153124/v1)):  Input and final structure files as well as Pandas Dataframes of interaction, energies exported as Python Pickle files generated within this work; A GISAID acknowledgment table containing sequence data used in this
-study. DOI: [10.6084/m9.figshare.17129771.v1](https://doi.org/10.6084/m9.figshare.17129771.v1)
+{{< omicron_page_av_data_int >}}
 
 ## Ongoing research efforts
 
