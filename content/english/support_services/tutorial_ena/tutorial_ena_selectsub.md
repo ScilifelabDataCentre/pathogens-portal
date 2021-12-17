@@ -57,12 +57,12 @@ ENA provides three methods of submission; interactive submissions, command line 
 
 No single one of the above methods from ENA enables a complete submission. Users must therefore neccessarily use a combination of methods to complete their submission(s). The different methods can be combined in multiple ways, but certain combinations will work better in particular situations. We have developed two 'routes' of submission using combinations best suited to the needs/experience of users. This section will help you to choose the route of submission best suited for your needs:
 
-1. Choose **Route 1** if:
+Choose **Route 1** if:
 
 * You have little to no knowledge of using command line.
 * You are submitting a small number of sequences (typically one to ten, but could be used for more).
 
-2. Choose **Route 2** if:
+Choose **Route 2** if:
 
 * You have advanced knowledge of using command line.
 * You are doing a bulk submission of sequences (typically more than 100).
