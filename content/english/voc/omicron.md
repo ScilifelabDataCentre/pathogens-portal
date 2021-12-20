@@ -84,3 +84,5 @@ Here we list a number of useful resources related to the new *SARS-CoV-2 Omicron
 ## Get in touch with us
 
 Do you have suggestions or other feedback? Get in touch with us by e-mailing datacentre@scilifelab.se.
+
+{{< omicron_page_form_scripts >}}

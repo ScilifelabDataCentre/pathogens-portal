@@ -15,40 +15,35 @@
       </div>
       <div class="modal-body">
         <div class="mb-2">You are welcome to submit information about your own dataset or a suggestion for a dataset published by someone else that you think may be useful on this page. Information about both openly available and restricted access datasets can be submitted. In the latter case we ask for a clear description of access conditions - who will be granted access, what is the procedure, and what are are expections.</div>
-        <form>
+        <form class="needs-validation-av-data" novalidate action="x">
           <div class="form-group">
-            <label for="name">Your name</label>
-            <input type="text" class="form-control" id="name">
+            <label for="omicron_av_data_name">Your name</label>
+            <input type="text" class="form-control" id="omicron_av_data_name" name="omicron_av_data_name">
           </div>
           <div class="form-group">
-            <label for="contact">Your email address</label>
-            <input type="email" class="form-control" id="contact">
+            <label for="omicron_av_data_email">Your email address</label>
+            <input type="email" class="form-control" id="omicron_av_data_email" name="omicron_av_data_email">
           </div>
           <div class="form-group">
-            <label for="link">If available, link to the data</label>
-            <input type="text" class="form-control" id="link">
+            <label for="omicron_av_data_link">If available, link to the data</label>
+            <input type="text" class="form-control" id="omicron_av_data_link" name="omicron_av_data_link" required>
             <small class="form-text text-muted">Provide link to where the data can be found or, if possible, preferably DOI.</small>
           </div>
           <div class="form-group">
-            <label for="description">Description of the data and access conditions</label>
-            <textarea class="form-control" id="description" rows="3"></textarea>
+            <label for="omicron_av_data_description">Description of the data and access conditions</label>
+            <textarea class="form-control" id="omicron_av_data_description" name="omicron_av_data_description" rows="3" required></textarea>
             <small class="form-text text-muted">If data is not available openly, please provide a clear description of access conditions - who will be granted access, what is the procedure, and what are are expections.</small>
           </div>
-          <div class="form-group">
-            <label for="own_dataset">Is this your own dataset?</label>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="own_dataset" id="yes" value="yes" required>
-              <label class="form-check-label" for="yes">Yes</label>
+          <div id="form_av_data_recaptcha"></div>
+          <input type="url" id="originUrl_av_data" name="originUrl" value="" hidden />
+          <input type='hidden' name='origin' value='omicron_voc_av_data'>
+          <div class="form-group row">
+            <div class="col-sm-9">
+                <button type="button" class="btn btn-secondary mt-3" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary mt-3">Submit</button>
             </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="own_dataset" id="no" value="no">
-              <label class="form-check-label" for="no">No</label>
-            </div>
-            <small class="form-text text-muted">In case it is your own dataset, we may get in touch with you if we need clarifications.</small>
           </div>
         </form>
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Submit</button>
       </div>
       <div class="modal-footer">
         <div><p>Please note that the submitted available data will appear after moderation. The Portal team checks the submissions regularly to publish new available data as soon as possible. Get in touch with us by e-mail if you have any questions.</p>
