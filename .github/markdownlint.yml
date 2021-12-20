@@ -37,3 +37,4 @@ no-inline-html:
     - th
     - tbody
     - td
+    - hr

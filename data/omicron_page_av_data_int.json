@@ -1,0 +1,11 @@
+[
+  {
+    "mdtext": "Genomic sequences of Omicron variants of SARS-CoV-2 from November 9 to November 28, 2021 (Yeh, Ting Yu; Contreras, Gregory), DOI: [10.6084/m9.figshare.17105090.v1](https://doi.org/10.6084/m9.figshare.17105090.v1)."
+  },
+  {
+    "mdtext": "Supplementary material to *Structural-bioinformatics analysis of SARS-CoV-2 variants reveals higher hACE2 receptor binding affinity for Omicron B.1.1.529 spike RBD compared to wild-type reference* (Durmaz, Köchl et al 2021, Research Square, DOI: [10.21203/rs.3.rs-1153124/v1](https://doi.org/10.21203/rs.3.rs-1153124/v1)):  Input and final structure files as well as Pandas Dataframes of interaction, energies exported as Python Pickle files generated within this work; A GISAID acknowledgment table containing sequence data used in this study. DOI: [10.6084/m9.figshare.17129771.v1](https://doi.org/10.6084/m9.figshare.17129771.v1)"
+  },
+  {
+    "mdtext": "Data on risk of SARS-CoV-2 reinfection associated with emergence of the Omicron variant in South Africa: Counts of reinfections and primary infections by province, age group (5-year bands), and sex (M, F, U) between 04 March 2020 and 27 November 2021; Daily time series of primary infections and suspected reinfections by specimen receipt date (national) (Pulliam, Juliet R.C.; van Schalkwyk, Cari; Govender, Nevashan et al.). DOI: [10.5281/zenodo.5745339](https://doi.org/10.5281/zenodo.5745339)."
+  }
+]

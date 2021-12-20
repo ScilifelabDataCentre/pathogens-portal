@@ -31,29 +31,29 @@
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
+  {{ if or (eq .Section "projects") (eq .Section "publications") (eq .Section "data_types") (eq .Section "voc")}}
   <!-- Data tables CSS -->
-  {{ if or (eq .Section "projects") (eq .Section "publications") (eq .Section "data_types")}}
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
   {{ end }}
 
-  <!-- Select2 -->
   {{ if eq .Section "biobanks" }}
+  <!-- Select2 -->
   <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
   {{ end }}
 
-  <!-- reCAPTCHA -->
-  {{ if eq .Page.Section "contact"}}
+  {{ if or (eq .Page.Section "contact") }}
+  <!-- reCAPTCHA for contact page -->
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   {{ end }}
 
-  <!-- plotly -->
   {{ if $.Param "plotly" }}
+  <!-- plotly -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.58.4/plotly.min.js"></script>
   {{ end }}
 
-  <!-- Openlayers -->
   {{ if or (eq .Page.RelPermalink "/data_types/environment/wastewater/") (eq .Page.RelPermalink "/sv/data_types/environment/wastewater/")}}
+  <!-- Openlayers -->
   <link rel="stylesheet" href="https://openlayers.org/en/v5.3.0/css/ol.css" type="text/css">
   {{ end }}
 
@@ -119,6 +119,26 @@
       }
     });
   </script>
+  {{ end }}
+
+
+  {{ if eq .Page.Section "voc" }}
+  <!-- reCAPTCHA for Omicron VoC page (because multiple on a single page) -->
+  <script type="text/javascript">
+  var verifyCallback = function(response) {
+    alert(response);
+  };
+  var widgetId1;
+  var widgetId2;
+  var onloadCallback = function() {
+    av_data_recaptcha = grecaptcha.render('form_av_data_recaptcha', {
+      'sitekey' : '6LesV0gaAAAAAGFjazG7Hd_hN72cpeYm2woivBT3'
+    });
+    ann_recaptcha = grecaptcha.render('form_ann_recaptcha', {
+      'sitekey' : '6LesV0gaAAAAAGFjazG7Hd_hN72cpeYm2woivBT3'
+    });
+  };
+ </script>
   {{ end }}
 
 </head>
