@@ -11,11 +11,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 order-md-last toc">{{- partial "toc.html" . -}}</div>
-                    <div class="col-md-9 order-md-first mt-5 content" id="content">{{- block "main" . }}{{- end }}</div>
+                    <div class="col-md-9 order-md-first content" id="content">{{- block "main" . }}{{- end }}</div>
                 </div>
             </div>
         {{ else }}
-            <div class="container mt-5 content" id="content">
+            <div class="container content" id="content">
                 {{- block "main" . }}{{- end }}
             </div>
         {{ end }}
