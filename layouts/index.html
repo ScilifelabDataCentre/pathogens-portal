@@ -10,7 +10,12 @@
 
 <!-- Main content -->
 <div class="row">
-  <div class="col-lg-8 vert-line-right">
+  <div class="col-lg-8 vert-line-right mt-3">
+
+    <!-- Omicron VoC banner -->
+    <div class="container mb-4 omicron_banner">
+    <a href="/voc/omicron">Special section on Omicron VoC: data & announcements</a>
+    </div>
 
     <!-- Available data -->
 
@@ -63,10 +68,6 @@
     {{ with .Sites.First.GetPage $path }}
     {{ $datatypes_to_display = .Params.datatypes_to_display }}
     {{ end }}
-
-    <div class="container my-4 omicron_banner">
-    <a href="/voc/omicron">Special section on Omicron VoC: data & announcements</a>
-    </div>
 
     <div class="container mb-4">
       {{ range .Site.Menus.homepage_available_data }}
