@@ -12,8 +12,9 @@ Over the last two years, the COVID-19 pandemic has challenged societies and heal
 - **Spikevax** - produced by Moderna, approved on 6th January 2021.
 - **Vaxzevria** - produced by AstraZeneca, approved on 29th January 2021.
 - **Covid-19 Vaccine** - produced by Janssen, approved on 11th March 2021.
+- **Nuvaxovid** - procuded by Novavax, approved on 20th December 2021.
 
-All except **Covid-19 Vaccine** (Janssen) have been used in Sweden, though only **Comirnaty** (Pfizer/BioNTech) and **Spikevax** (Moderna) are currently available. **Vaxzevria** (AstraZeneca) ceased to be provided after 1st September 2021.
+As of December 2021, only **Comirnaty** (Pfizer/BioNTech) and **Spikevax** (Moderna) are available in Sweden. **Vaxzevria** (AstraZeneca) was used in past but is no longer used after 1st September 2021.
 
 This page is focussed on vaccine research. On it, we [visualise](/data_types/health_data/vaccines/#visualisations-related-to-vaccination-coverage) information about the amount of people (across different regions, different age groups, or in Sweden generally) that have received one, two, or three doses of vaccination. We also provide links to the publicly available data underlying those visualisations. The visualisations do not include information about the type of vaccine used.
 
