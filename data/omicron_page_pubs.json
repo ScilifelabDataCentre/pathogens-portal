@@ -1,0 +1,140 @@
+[
+  {
+    "pmcid": "PMC8660660",
+    "authors": "Ferré, Valentine Marie; Peiffer-Smadja, Nathan; Visseaux, Benoit; Descamps, Diane; Ghosn, Jade; Charpentier, Charlotte",
+    "publication_year": 2021,
+    "publication_month": 12,
+    "title": "Omicron SARS-CoV-2 variant: What we know and what we don’t",
+    "journal": "Anaesth Crit Care Pain Med",
+    "first_pub_date": "2021-12-10"
+  },
+  {
+    "pmcid": "PMC8654462",
+    "authors": "Stampfer, Samuel D.; Goldwater, Marissa-Skye; Bujarski, Sean; Regidor, Bernard; Zhang, Wenjuan; Feinstein, Aaron J.; Swift, Regina; Eshaghian, Shahrooz; Vail, Eric; Berenson, James R.",
+    "publication_year": 2021,
+    "publication_month": 12,
+    "title": "Severe breakthrough COVID-19 with a heavily mutated variant in a multiple myeloma patient 10 weeks after vaccination",
+    "journal": "Clin Infect Pract",
+    "first_pub_date": "2021-12-09"
+  },
+  {
+    "pmcid": "PMC8634699",
+    "doi": "10.1016/j.ijid.2021.11.040",
+    "authors": "Petersen, Eskild; Ntoumi, Francine; Hui, David S; Abubakar, Aisha; Kramer, Laura D; Obiero, Christina; Tambyah, Paul Anantharajah; Blumberg, Lucille; Yapi, Richard; Al-Abri, Seif; Pinto, Tatiana de Castro Abreu; Yeboah-Manu, Dorothy; Haider, Najmul; Asogun, Danny; Velavan, Thirumalaisamy P; Kapata, Nathan; Bates, Matthew; Ansumana, Rashid; Montaldo, Chiara; Mucheleng'anga, Luchenga; Tembo, John; Mwaba, Peter; Himwaze, Cordelia M; Hamid, Muzamil Mahdi Abdel; Mfinanga, Sayoki; Mboera, Leonard; Raj, Tajudeen; Aklillu, Eleni; Veas, Francisco; Edwards, Sarah; Kaleebu, Pontiano; McHugh, Timothy D; Chakaya, Jeremiah; Nyirenda, Thomas; Bockarie, Moses; Nyasulu, Peter S; Wejse, Christian; Muyembe-Tamfum, Jean-Jacques; Azhar, Esam I; Maeurer, Markus; Nachega, Jean B; Kock, Richard; Ippolito, Giuseppe; Zumla, Alimuddin",
+    "publication_year": 2021,
+    "publication_month": 12,
+    "title": "Emergence of new SARS-CoV-2 Variant of Concern Omicron (B.1.1.529) - highlights Africa's research capabilities, but exposes major knowledge gaps, inequities of vaccine distribution, inadequacies in global COVID-19 response and control efforts.",
+    "journal": "Int J Infect Dis",
+    "first_pub_date": "2021-12-01"
+  },
+  {
+    "doi": "10.1101/2021.12.13.21267668",
+    "authors": "Lu, Lu; Mok, Bobo; Chen, Linlei; Chan, Jacky; Tsang, Owen; Lam, Bosco; Chuang, Vivien; Chu, Allen; Chan, Ally; Ip, Jonathan; Chan, Brian; Zhang, Ruiqi; Yip, Cyril; Cheng, Vincent; Chan, Kwok-Hung; Hung, Ivan; Yuen, Kwok-Yung; Chen, Honglin; To, Kelvin",
+    "publication_year": 2021,
+    "title": "Neutralization of SARS-CoV-2 Omicron variant by sera from BNT162b2 or Coronavac vaccine recipients",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "open_access": "N",
+    "first_pub_date": "2021-12-14"
+  },
+  {
+    "doi": "10.1101/2021.12.13.21267670",
+    "authors": "Nemet, Ital; Kliker, Limor; Lustig, Yaniv; Zuckerman, Neta; Cohen, Carmit; Kreiss, Yitshak; Alroy-Preis, Sharo; Regev-Yochay, Gili; Mendelson, Ella; Mandelboim, Michal",
+    "publication_year": 2021,
+    "title": "Third BNT162b2 vaccination neutralization of SARS-CoV-2 Omicron infection",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "open_access": "N",
+    "first_pub_date": "2021-12-14"
+  },
+  {
+    "doi": "10.1101/2021.12.08.21267491",
+    "authors": "Rössler, Annika; Riepler, Lydia; Bante, David; Laer, Dorothee von; Kimpel, Janine",
+    "publication_year": 2021,
+    "title": "SARS-CoV-2 B.1.1.529 variant (Omicron) evades neutralization by sera from vaccinated and convalescent individuals",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "open_access": "N",
+    "first_pub_date": "2021-12-11"
+  },
+  {
+    "doi": "10.1101/2021.12.14.21267755",
+    "authors": "Garcia-Beltran, Wilfredo; St Denis, Kerri; Hoelzemer, Angelique; Lam, Evan; Nitido, Adam; Sheehan, Maegan; Berrios, Cristhian; Ofoman, Onosereme; Chang, Christina; Hauser, Blake; Feldman, Jared; Gregory, David; Poznansky, Mark; Schmidt, Aaron; Iafrate, John; Naranbhai, Vivek; Balazs, Alejandro",
+    "publication_year": 2021,
+    "title": "mRNA-based COVID-19 vaccine boosters induce neutralizing immunity against SARS-CoV-2 Omicron variant",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "open_access": "N",
+    "first_pub_date": "2021-12-14"
+  },
+  {
+    "doi": "10.1101/2021.12.14.21267769",
+    "authors": "Gruell, Henning; Vanshylla, Kanika; Tober-Lau, Pinkus; Hillus, David; Schommers, Philipp; Lehmann, Clara; Kurth, Florian; Sander, Leif Erik; Klein, Florian",
+    "publication_year": 2021,
+    "title": "mRNA booster immunization elicits potent neutralizing serum activity against the SARS-CoV-2 Omicron variant",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "open_access": "N",
+    "first_pub_date": "2021-12-14"
+  },
+  {
+    "doi": "10.1101/2021.12.13.21267748",
+    "authors": "Khoury, David; Steain, Megan; Triccas, James; Sigal, Alex; Davenport, Miles Philip; Cromer, Deborah",
+    "publication_year": 2021,
+    "title": "Analysis: A meta-analysis of Early Results to predict Vaccine efficacy against Omicron",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "open_access": "N",
+    "first_pub_date": "2021-12-14"
+  },
+  {
+    "doi": "10.1101/2021.12.14.21267615",
+    "authors": "Andrews, Nick; Stowe, Julia; Kirsebom, Freja; Toffa, Samuel; Rickeard, Tim; Gallagher, Eileen; Gower, Charlotte; Kall, Meaghan; Groves, Natalie; O'Connell, Anne-Marie; Simons, David; Blomquist, Paula; Dabrera, Gavin; Myers, Richard; Ladhani, Shamez; Amirthalingam, Gayatri; Gharbia, Saheer; Barrett, Jeffrey; Elson, Richard; Ferguson, Neil; Zambon, Maria; Campbell, Colin NJ; Brown, Kevin; Hopkins, Susan; Chand, Meera; Ramsay, Mary; Lopez Bernal, Jamie",
+    "publication_year": 2021,
+    "title": "Effectiveness of COVID-19 vaccines against the Omicron (B.1.1.529) variant of concern",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "open_access": "N",
+    "first_pub_date": "2021-12-14"
+  },
+  {
+    "doi": "10.1101/2021.12.12.472269",
+    "authors": "Cameroni, Elisabetta; Saliba, Christian; Bowen, John; Rosen, Laura; Culap, Katja; Pinto, Dora; De Marco, Anna; Zepeda, Samantha; di Iulio, Julia; Zatta, Fabrizia; Kaiser, Hanna; Noack, Julia; Farhat, Nisar; Czudnochowski, Nadine; Havenar-Daughton, Colin; Sprouse, Kaitlin; Dillen, Josh; Powell, Abigail; Chen, Alex; Maher, Cyrus; Yin, Li; Sun, David; Soriaga, Leah; Gustafsson, Claes; Chu, Helen; Franko, Nicholas; Logue, Jenni; Iqbal, Najeeha Talat; Mazzitelli, Ignacio; Geffner, Jorge; Grifantini, Renata; Gori, Andrea; Riva, Agostino; Giannini, Olivier; Ceschi, Alessandro; Ferrari, Paolo; Franzetti-Pellanda, Alessandra; Garzoni, Christian; Hebner, Christy; Purcell, Lisa; Piccoli, Luca; Pizzuto, Matteo Samuele; Walls, Alexandra; Telenti, Amalio; Virgin, Herbert; Lanzavecchia, Antonio; Veesler, David; Snell, Gyorgy; Corti, Davide",
+    "publication_year": 2021,
+    "title": "Broadly neutralizing antibodies overcome SARS-CoV-2 Omicron antigenic shift",
+    "journal": "bioRxiv",
+    "preprint": "Y",
+    "open_access": "N",
+    "first_pub_date": "2021-12-14"
+  },
+  {
+    "doi": "10.1101/2021.12.12.472313",
+    "authors": "Lubin, Joseph; Markosian, Christopher; Balamurugan, D; Pasqualini, Renata; Arap, Wadih; Burley, Stephen; Khare, Sagar",
+    "publication_year": 2021,
+    "title": "Structural models of SARS-CoV-2 Omicron variant in complex with ACE2 receptor or antibodies suggest altered binding interfaces",
+    "journal": "bioRxiv",
+    "preprint": "Y",
+    "open_access": "N",
+    "first_pub_date": "2021-12-13"
+  },
+  {
+    "doi": "10.1101/2021.12.12.21267646",
+    "authors": "Schmidt, Fabian; Muecksch, Frauke; Weisblum, Yiska; Da Silva, Justin; Bednarski, Eva; Cho, Alice; Wang, Zijun; Gaebler, Christian; Caskey, Marina; Nussenzweig, Michel; Hatziioannou, Theodora; Bieniasz, Paul",
+    "publication_year": 2021,
+    "title": "Plasma neutralization properties of the SARS-CoV-2 Omicron variant",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "open_access": "N",
+    "first_pub_date": "2021-12-13"
+  },
+  {
+    "doi": "10.1101/2021.12.12.472286",
+    "authors": "Hoffmann, Markus; Krüger, Nadine; Schulz, Sebastian; Cossmann, Anne; Rocha, Cheila; Kempf, Amy; Nehlmeier, Inga; Graichen, Luise; Moldenhauer, Anna-Sophie; Winkler, Martin Sebastian; Lier, Martin; Dopfer-Jablonka, Alexandra; Jäck, Hans-Martin; Behrens, Georg; Pöhlmann, Stefan",
+    "publication_year": 2021,
+    "title": "The Omicron variant is highly resistant against antibody-mediated neutralization - implications for control of the COVID-19 pandemic",
+    "journal": "bioRxiv",
+    "preprint": "Y",
+    "open_access": "N",
+    "first_pub_date": "2021-12-13"
+  }
+]
