@@ -5,6 +5,11 @@
     <h1>{{ if eq .Parent.Section "news"}}{{ .Parent.Title }}{{ else }}{{ .Title }}{{ end }}</h1>
   </div>
 </div>
+{{ if ne .Page.Section "voc" }}
+<div class="container my-2 omicron_banner">
+<a href="/voc/omicron">Special section on Omicron VoC: data & announcements</a>
+</div>
+{{ end }}
 
 {{ if .Parent }}
 <nav class="breadcrumbs" aria-label="breadcrumb">
