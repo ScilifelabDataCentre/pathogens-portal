@@ -11,11 +11,6 @@
         event.stopPropagation();
         form_ann.classList.add('was-validated')
       }
-      var recaptcha = $("#g-recaptcha-response").val();
-      if (recaptcha === "") {
-          event.preventDefault();
-          alert("Please tick 'I'm not a robot' above the 'Submit' button.");
-      }
   })
 
   var form_av_data = document.querySelector('.needs-validation-av-data');
@@ -25,11 +20,6 @@
         alert("Please fill out all required fields.");
         event.stopPropagation();
         form_av_data.classList.add('was-validated')
-      }
-      var recaptcha = $("#g-recaptcha-response").val();
-      if (recaptcha === "") {
-          event.preventDefault();
-          alert("Please tick 'I'm not a robot' above the 'Submit' button.");
       }
   })
 
