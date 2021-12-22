@@ -1,5 +1,12 @@
 [
   {
+    "date_time": "2021-12-22 16:50",
+    "name": "Arnold Kochari",
+    "contact_info": "arnold.kochari@scilifelab.se",
+    "title": "Proportion of Omicron VoC in Region Skåne",
+    "text": "Region Skåne is publishing the proportion of variants in the samples sequenced every week, [it can be followed on this page](https://www.skane.se/digitala-rapporter/lagesbild-covid-19-i-skane/sekvensering/). During week 49, 21.8% of samples were of the Omicron VoC (out of 565 sequenced samples in total that week)."
+  },
+  {
     "date_time": "2021-12-20 12:55",
     "name": "Arnold Kochari",
     "contact_info": "arnold.kochari@scilifelab.se",

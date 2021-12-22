@@ -136,5 +136,35 @@
     "preprint": "Y",
     "open_access": "N",
     "first_pub_date": "2021-12-13"
+  },
+  {
+    "doi": "10.1101/2021.12.19.21268028",
+    "authors": "Raquel Viana, Sikhulile Moyo, Daniel Gyamfi Amoako, Houriiyah Tegally, Cathrine Scheepers, Richard J Lessells, Jennifer Giandhari, Nicole Wolter, Josie Everatt, Andrew Rambaut, Christian Althaus, Eduan Wilkinson, Adriano Mendes, Amy Strydom, Michaela Davids, Simnikiwe Mayaphi, Simani Gaseitsiwe, Wonderful T Choga, Dorcas Maruapula, Boitumelo Zuze, Botshelo Radibe, Legodile Koopile, Roger Shapiro, Shahin Lockman, Mpaphi B. Mbulawa, Thongbotho Mphoyakgosi, Pamela Smith-Lawrence, Mosepele Mosepele, Mogomotsi Matshaba, Kereng Masupu, Mohammed Chand, Charity Joseph, Lesego Kuate-Lere, Onalethatha Lesetedi-Mafoko, Kgomotso Moruisi, Lesley Scott, Wendy Stevens, Constantinos Kurt Wibmer, Anele Mnguni, Arshad Ismail, Boitshoko Mahlangu, Darren P. Martin, Verity Hill, Rachel Colquhoun, Modisa S. Motswaledi, James Emmanuel San, Noxolo Ntuli, Gerald Motsatsi, Sureshnee Pillay, Thabo Mohale, Upasana Ramphal, Yeshnee Naidoo, Naume Tebeila, Marta Giovanetti, Koleka Mlisana, Carolyn Williamson, Nei-yuan Hsiao, Nokukhanya Msomi, Kamela Mahlakwane, Susan Engelbrecht, Tongai Maponga, Wolfgang Preiser, Zinhle Makatini, Oluwakemi Laguda-Akingba, Lavanya Singh, Ugochukwu J. Anyaneji, Monika Moir, Stephanie van Wyk, Derek Tshiabuila, Yajna Ramphal, Arisha Maharaj, Sergei Pond, Alexander G Lucaci, Steven Weaver, Maciej F Boni, Koen Deforche, Kathleen Subramoney, Diana Hardie, Gert Marais, Deelan Doolabh, Rageema Joseph, Nokuzola Mbhele, Luicer Olubayo, Arash Iranzadeh, Alexander E Zarebski, Joseph Tsui, Moritz UG Kraemer, Oliver G Pybus, Dominique Goedhals, Phillip Armand Bester, Martin M Nyaga, Peter N Mwangi, Allison Glass, Florette Treurnicht, Marietjie Venter, Jinal N. Bhiman, Anne von Gottberg, Tulio de Oliveira",
+    "publication_year": 2021,
+    "title": "Rapid epidemic expansion of the SARS-CoV-2 Omicron variant in southern Africa",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "open_access": "Y",
+    "first_pub_date": "2021-12-21"
+  },
+  {
+    "doi": "10.1101/2021.12.14.21267615",
+    "authors": "Nick Andrews, Julia Stowe, Freja Kirsebom, Samuel Toffa, Tim Rickeard, Eileen Gallagher, Charlotte Gower, Meaghan Kall, Natalie Groves, Anne-Marie O’Connell, David Simons, Paula B. Blomquist, Asad Zaidi, Sophie Nash, Nurin Iwani Binti Abdul Aziz, Simon Thelwall, Gavin Dabrera, Richard Myers, Gayatri Amirthalingam, Saheer Gharbia, Jeffrey C. Barrett, Richard Elson, Shamez N Ladhani, Neil Ferguson, Maria Zambon, Colin NJ Campbell, Kevin Brown, Susan Hopkins, Meera Chand, Mary Ramsay, Jamie Lopez Bernal",
+    "publication_year": 2021,
+    "title": "Effectiveness of COVID-19 vaccines against the Omicron (B.1.1.529) variant of concern",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "open_access": "Y",
+    "first_pub_date": "2021-12-14"
+  },
+  {
+    "doi": "10.1101/2021.12.19.473380",
+    "authors": "Dhiraj Mannar, James W. Saville, Xing Zhu, Shanti S. Srivastava, Alison M. Berezuk, Katharine Tuttle, Citliali Marquez, Inna Sekirov, Sriram Subramaniam",
+    "publication_year": 2021,
+    "title": "SARS-CoV-2 Omicron Variant: ACE2 Binding, Cryo-EM Structure of Spike Protein-ACE2 Complex and Antibody Evasion",
+    "journal": "bioRxiv",
+    "preprint": "Y",
+    "open_access": "N",
+    "first_pub_date": "2021-12-21"
   }
 ]

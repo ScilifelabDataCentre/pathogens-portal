@@ -80,6 +80,7 @@ Here we list a number of useful resources related to the new *SARS-CoV-2 Omicron
 - [Lineages and information related to sequences from **Nextstrain**](https://nextstrain.org/groups/neherlab/ncov/sweden)
 - [Assembled information about the Omicron from the **PHA4GE** (Bioinformatics Pipelines & Visualization Working Group)](https://github.com/pha4ge/pipeline-resources/blob/main/docs/omicron-resources.md)
 - [**VEO** report on mutations and variation in publicly shared SARS-CoV-2 raw sequencing data, Report No. 10, 15 December 2021](https://www.veo-europe.eu/news/nyhed?id=%7B1B87370A-0EBB-4412-81E5-9390A6FCDC07%7D)
+- [Proportion of different variants of concern in positive samples sequenced in **Region Skåne**](https://www.skane.se/digitala-rapporter/lagesbild-covid-19-i-skane/sekvensering/)
 
 ## Get in touch with us
 
