@@ -102,7 +102,7 @@ For full definitions and table of current **VOCs**, **VOIs**, and **VUMs** see [
         <td>Delta</td>
         <td>21AS/478K</td>
         <td>B.1.617.2</td>
-        <td>India, Dec 2021</td>
+        <td>India, Dec 2020</td>
       </tr>
       <tr>
         <td>Current VOC</td>
