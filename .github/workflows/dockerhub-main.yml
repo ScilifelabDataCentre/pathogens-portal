@@ -26,4 +26,4 @@ jobs:
           file: Dockerfiles/Dockerfile
           context: .
           push: true
-          tags: scilifelabdatacentre/covid-portal:latest
+          tags: scilifelabdatacentre/covid-portal:latest-latest
