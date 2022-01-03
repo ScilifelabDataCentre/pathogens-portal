@@ -25,19 +25,19 @@ We welcome contributions to the website - to get involved, please contact [datac
 
 ### People behind the portal
 
-Many people from SciLifeLab, NBIS, and other organisations were involved in the initial development and content creation for the Swedish COVID-19 Data Portal. An incomplete list of contributors [can be found on Github](https://github.com/ScilifelabDataCentre/covid-portal/graphs/contributors). Since September 2020, the content of the portal is managed by a dedicated team at the [SciLifeLab Data Center](https://scilifelab.se/data/). We are happy to answer your questions about data availability, data sharing, data management and all related issues; just send us an email.
+Many people from SciLifeLab, NBIS, and other organisations were involved in the initial development and content creation for the Swedish COVID-19 Data Portal. An incomplete list of contributors [can be found on Github](https://github.com/ScilifelabDataCentre/covid-portal/graphs/contributors). Since September 2020, the content of the portal is managed by a dedicated team at the [SciLifeLab Data Centre](https://scilifelab.se/data/). We are happy to answer your questions about data availability, data sharing, data management and all related issues; just send us an email.
 
 <div class="container mb-3">
   <div class="row">
     <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/ak.jpg" width="150" class="img-thumbnail"/></div>
       <div class="row-cor"><b>Arnold Kochari</b></div>
-      <div class="row-cor"><span class="text-muted">Web developer for the COVID-19 Data Portal, SciLifeLab</span></div>
+      <div class="row-cor"><span class="text-muted">Project leader, SciLifeLab</span></div>
     </div>
     <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/kos.jpeg" width="150" class="img-thumbnail"/></div>
       <div class="row-cor"><b>Katarina Öjefors Stark</b></div>
-      <div class="row-cor"><span class="text-muted">Coordinator for COVID-19 projects, SciLifeLab</span></div>
+      <div class="row-cor"><span class="text-muted">Coordinator for COVID-19 projects and data steward, SciLifeLab</span></div>
     </div>
     <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/pt.jpg" width="150" class="img-thumbnail"/></div>
@@ -53,6 +53,11 @@ Many people from SciLifeLab, NBIS, and other organisations were involved in the 
       <div class="row-cor"><img src="/img/people/aa.jpeg" width="150" class="img-thumbnail"/></div>
       <div class="row-cor"><b>Anna Asklöf</b></div>
       <div class="row-cor"><span class="text-muted">Data steward, SciLifeLab</span></div>
+    </div>
+    <div class="col-md-2 pt-2">
+      <div class="row-cor"><img src="/img/people/sp.jpeg" width="150" class="img-thumbnail"/></div>
+      <div class="row-cor"><b>Senthilkumar Panneerselvam</b></div>
+      <div class="row-cor"><span class="text-muted">Systems developer, SciLifeLab</span></div>
     </div>
     <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/hk.jpg" width="150" class="img-thumbnail"/></div>

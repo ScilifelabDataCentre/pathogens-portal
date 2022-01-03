@@ -37,7 +37,9 @@ The section also displays ongoing [Swedish research projects](/data_types/health
 
 ## Visualisations related to vaccination coverage
 
-The visualisations in this section are based on publicly available data from the [Swedish Health Agency (Folkhälsomyndigheten, FoHM)](www.folkhalsomyndigheten.se). Follow [this link](https://www.folkhalsomyndigheten.se/folkhalsorapportering-statistik/statistikdatabaser-och-visualisering/vaccinationsstatistik/statistik-for-vaccination-mot-covid-19/) to view their summary of statistics related to vaccination against COVID-19 in Sweden (only available in Swedish). The data used to produce the visualations can be downloaded [here](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data). For each visualisation, we describe which part of the dataset was used and how the calculations were done. The data is updated weekly (on Thursdays).
+<div class="alert alert-info">Visualisations on this page last updated: <span id="visualisations_date_modified"></span>.</div>
+
+The visualisations in this section are based on publicly available data from the [Swedish Health Agency (Folkhälsomyndigheten, FoHM)](https://folkhalsomyndigheten.se). Follow [this link](https://www.folkhalsomyndigheten.se/folkhalsorapportering-statistik/statistikdatabaser-och-visualisering/vaccinationsstatistik/statistik-for-vaccination-mot-covid-19/) to view their summary of statistics related to vaccination against COVID-19 in Sweden (only available in Swedish). The data used to produce the visualations can be downloaded [here](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data). For each visualisation, we describe which part of the dataset was used and how the calculations were done. The data is updated weekly (on Thursdays).
 
 ### General summary statistics
 

@@ -1,48 +1,54 @@
 <script>
 var to_be_added = new Array();
-to_be_added[0] = "https://blobserver.dckube.scilifelab.se/blob/vaccine_text_inserts.json";
+to_be_added[0] = "https://blobserver.dckube.scilifelab.se/blob/Total_vaccinated_barchart.json/info.json";
+to_be_added[1] = "https://blobserver.dckube.scilifelab.se/blob/vaccine_text_inserts.json";
 
 
 
 var els = new Array();
-els[0] = "sixteen_plus_one_dose"
-els[1] = "population_one_dose",
-els[2] = "sixteen_plus_one_dose_lastweek",
-els[3] = "sixteen_plus_one_dose_rate_change",
-els[4] = "population_one_dose_lastweek",
-els[5] = "population_one_dose_rate_change",
-els[6] = "sixteen_plus_two_doses",
-els[7] = "population_two_doses",
-els[8] = "sixteen_plus_two_doses_lastweek",
-els[9] = "population_two_doses_lastweek",
-els[10] = "sixteen_plus_two_doses_rate_change",
-els[11] = "population_two_doses_rate_change",
-els[12] = "sixteen_plus_three_doses"
-els[13] = "population_three_doses"
+els[0] = "visualisations_date_modified"
+els[1] = "sixteen_plus_one_dose"
+els[2] = "population_one_dose",
+els[3] = "sixteen_plus_one_dose_lastweek",
+els[4] = "sixteen_plus_one_dose_rate_change",
+els[5] = "population_one_dose_lastweek",
+els[6] = "population_one_dose_rate_change",
+els[7] = "sixteen_plus_two_doses",
+els[8] = "population_two_doses",
+els[9] = "sixteen_plus_two_doses_lastweek",
+els[10] = "population_two_doses_lastweek",
+els[11] = "sixteen_plus_two_doses_rate_change",
+els[12] = "population_two_doses_rate_change",
+els[13] = "sixteen_plus_three_doses"
+els[14] = "population_three_doses"
 
 var request = new Array();
 
-for (var i=0; i<1; i++){
+for (var i=0; i<2; i++){
    (function(i) {
       request[i] = new XMLHttpRequest();
       request[i].open("GET", to_be_added[i], true);
       request[i].onreadystatechange = function (oEvent) {
-        if (i<1 & this.readyState == 4 && this.status == 200) {
+        if (i==0 & this.readyState == 4 && this.status == 200) {
+             var file_info = JSON.parse(this.responseText);
+             document.getElementById(els[0]).innerText = String(file_info.modified).substring(0,10);
+           };
+        if (i==1 & this.readyState == 4 && this.status == 200) {
              var content = JSON.parse(this.responseText);
-             document.getElementById(els[0]).innerText = String(content.sixteen_plus_one_dose);
-             document.getElementById(els[1]).innerText = String(content.population_one_dose);
-             document.getElementById(els[2]).innerText = String(content.sixteen_plus_one_dose_lastweek);
-             document.getElementById(els[3]).innerText = String(content.sixteen_plus_one_dose_rate_change);
-             document.getElementById(els[4]).innerText = String(content.population_one_dose_lastweek);
-             document.getElementById(els[5]).innerText = String(content.population_one_dose_rate_change);
-             document.getElementById(els[6]).innerText = String(content.sixteen_plus_two_doses);
-             document.getElementById(els[7]).innerText = String(content.population_two_doses);
-             document.getElementById(els[8]).innerText = String(content.sixteen_plus_two_doses_lastweek);
-             document.getElementById(els[9]).innerText = String(content.population_two_doses_lastweek);
-             document.getElementById(els[10]).innerText = String(content.sixteen_plus_two_doses_rate_change);
-             document.getElementById(els[11]).innerText = String(content.population_two_doses_rate_change);
-             document.getElementById(els[12]).innerText = String(content.sixteen_plus_three_doses);
-             document.getElementById(els[13]).innerText = String(content.population_three_doses);
+             document.getElementById(els[1]).innerText = String(content.sixteen_plus_one_dose);
+             document.getElementById(els[2]).innerText = String(content.population_one_dose);
+             document.getElementById(els[3]).innerText = String(content.sixteen_plus_one_dose_lastweek);
+             document.getElementById(els[4]).innerText = String(content.sixteen_plus_one_dose_rate_change);
+             document.getElementById(els[5]).innerText = String(content.population_one_dose_lastweek);
+             document.getElementById(els[6]).innerText = String(content.population_one_dose_rate_change);
+             document.getElementById(els[7]).innerText = String(content.sixteen_plus_two_doses);
+             document.getElementById(els[8]).innerText = String(content.population_two_doses);
+             document.getElementById(els[9]).innerText = String(content.sixteen_plus_two_doses_lastweek);
+             document.getElementById(els[10]).innerText = String(content.population_two_doses_lastweek);
+             document.getElementById(els[11]).innerText = String(content.sixteen_plus_two_doses_rate_change);
+             document.getElementById(els[12]).innerText = String(content.population_two_doses_rate_change);
+             document.getElementById(els[13]).innerText = String(content.sixteen_plus_three_doses);
+             document.getElementById(els[14]).innerText = String(content.population_three_doses);
            };
       };
       request[i].send(null);
