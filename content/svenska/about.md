@@ -33,12 +33,12 @@ Många personer från SciLifeLab, NBIS och andra organisationer har deltagit i u
     <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/ak.jpg" width="150" class="img-thumbnail"/></div>
       <div class="row-cor"><b>Arnold Kochari</b></div>
-      <div class="row-cor"><span class="text-muted">Web developer for the COVID-19 Data Portal, SciLifeLab</span></div>
+      <div class="row-cor"><span class="text-muted">Project leader, SciLifeLab</span></div>
     </div>
     <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/kos.jpeg" width="150" class="img-thumbnail"/></div>
       <div class="row-cor"><b>Katarina Öjefors Stark</b></div>
-      <div class="row-cor"><span class="text-muted">Coordinator for COVID-19 projects, SciLifeLab</span></div>
+      <div class="row-cor"><span class="text-muted">Coordinator for COVID-19 projects and data steward, SciLifeLab</span></div>
     </div>
     <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/pt.jpg" width="150" class="img-thumbnail"/></div>
@@ -54,6 +54,11 @@ Många personer från SciLifeLab, NBIS och andra organisationer har deltagit i u
       <div class="row-cor"><img src="/img/people/aa.jpeg" width="150" class="img-thumbnail"/></div>
       <div class="row-cor"><b>Anna Asklöf</b></div>
       <div class="row-cor"><span class="text-muted">Data steward, SciLifeLab</span></div>
+    </div>
+    <div class="col-md-2 pt-2">
+      <div class="row-cor"><img src="/img/people/sp.jpeg" width="150" class="img-thumbnail"/></div>
+      <div class="row-cor"><b>Senthilkumar Panneerselvam</b></div>
+      <div class="row-cor"><span class="text-muted">Systems developer, SciLifeLab</span></div>
     </div>
     <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/hk.jpg" width="150" class="img-thumbnail"/></div>
