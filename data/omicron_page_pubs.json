@@ -166,5 +166,55 @@
     "preprint": "Y",
     "open_access": "N",
     "first_pub_date": "2021-12-21"
+  },
+  {
+    "doi": "10.1038/d41586-021-03826-3",
+    "authors": "Lihong Liu, Sho Iketani, Yicheng Guo, Jasper F-W. Chan, Maple Wang, Liyuan Liu, Yang Luo, Hin Chu, Yiming Huang, Manoj S. Nair, Jian Yu, Kenn K-H. Chik, Terrence T-T. Yuen, Chaemin Yoon, Kelvin K-W. To, Honglin Chen, Michael T. Yin, Magdalena E. Sobieszczyk, Yaoxing Huang, Harris H. Wang, Zizhang Sheng, Kwok-Yung Yuen & David D. Ho",
+    "publication_year": 2021,
+    "title": "Striking antibody evasion manifested by the Omicron variant of SARS-CoV-2",
+    "journal": "Nature",
+    "preprint": "N",
+    "open_access": "N",
+    "first_pub_date": "2021-12-22"
+  },
+  {
+    "doi": "10.1016/j.tmaid.2021.102252",
+    "authors": "Chengzhuo Tong, Wenzhong Shi, Anshu Zhang, Zhicheng Shi",
+    "publication_year": 2021,
+    "title": "Tracking and controlling the spatiotemporal spread of SARS-CoV-2 Omicron variant in South Africa",
+    "journal": "Travel Medicine and Infectious Disease",
+    "preprint": "N",
+    "open_access": "",
+    "first_pub_date": "2021-12-30"
+  },
+  {
+    "doi": "10.1016/S0140-6736(21)02844-0",
+    "authors": "Wanwisa Dejnirattisai, Robert H Shaw, Piyada Supasa, Chang Liu, Arabella SV Stuart, Andrew J Pollard, Xinxue Liu, Teresa Lambe, Derrick Crook, Dave I Stuart, Juthathip Mongkolsapaya, Jonathan S Nguyen-Van-Tam, Matthew D Snape, Gavin R Screaton, the Com-COV2 study group",
+    "publication_year": 2021,
+    "title": "Reduced neutralisation of SARS-CoV-2 omicron B.1.1.529 variant by post-immunisation serum",
+    "journal": "The Lancet",
+    "preprint": "N",
+    "open_access": "",
+    "first_pub_date": "2021-12-20"
+  },
+  {
+    "doi": "10.21203/rs.3.rs-1196079/v1",
+    "authors": "Anna R. Mäkelä, Hasan Uğurlu, Liina Hannula, Petja Salminen, Ravi Kant, Riku Fagerlund, Anu Haveri, Tomas Strandin, Lauri Kareinen, Jussi Hepojoki, Lev Levanov, Arja Pasternack, Rauno A. Naves, Olli Ritvos, Pamela Österlund, Tarja Sironen, Olli Vapalahti, Anja Kipar, Juha T. Huiskonen, Ilona Rissanen, Kalle Saksela",
+    "publication_year": 2021,
+    "title": "Intranasal inhibitor blocks omicron and other variants of SARS-CoV-2",
+    "journal": "Research Square",
+    "preprint": "Y",
+    "open_access": "Y",
+    "first_pub_date": "2021-12-28"
+  },
+  {
+    "doi": "10.1101/2021.12.28.474380",
+    "authors": "Matthew McCallum, Nadine Czudnochowski, Laura E. Rosen, Samantha K. Zepeda, John E. Bowen, Josh R. Dillen, Abigail E. Powell, Tristan I. Croll, Jay Nix, Herbert W. Virgin, Davide Corti, Gyorgy Snell, David Veesler",
+    "publication_year": 2021,
+    "title": "Structural basis of SARS-CoV-2 Omicron immune evasion and receptor engagement",
+    "journal": "bioRxiv",
+    "preprint": "Y",
+    "open_access": "Y",
+    "first_pub_date": "2021-12-31"
   }
 ]
