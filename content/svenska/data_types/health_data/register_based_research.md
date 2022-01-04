@@ -55,6 +55,10 @@ The table below is an overview of a number of different national public authorit
       </tr>
       <tr>
         <td><a href="https://www.karolinska.se/en/karolinska-university-hospital">Karolinska University Hospital</a></td>
+        <td><a href="https://covid19register.se/">Quality Registry for SARS-CoV-2 (COVID-19)</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.karolinska.se/en/karolinska-university-hospital">Karolinska University Hospital</a></td>
         <td><a href="https://palliativregistret.se">National Quality Registry for Pregnancy</a></td>
       </tr>
       <tr>
