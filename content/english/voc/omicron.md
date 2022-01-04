@@ -62,6 +62,12 @@ For more information on what is shown in the panels, please see e.g. this [2018 
 
 Here we display a selection of preprints and journal publications reporting results on Omicron VoC.
 
+#### Publications and preprints with participation of research groups in Sweden
+
+{{< omicron_page_pubs_swe >}}
+
+#### Publications and preprints by research groups in other countries
+
 {{< omicron_page_pubs >}}
 
 ## Other useful resources
@@ -81,6 +87,7 @@ Here we list a number of useful resources related to the new *SARS-CoV-2 Omicron
 - [Assembled information about the Omicron from the **PHA4GE** (Bioinformatics Pipelines & Visualization Working Group)](https://github.com/pha4ge/pipeline-resources/blob/main/docs/omicron-resources.md)
 - [**VEO** report on mutations and variation in publicly shared SARS-CoV-2 raw sequencing data, Report No. 10, 15 December 2021](https://www.veo-europe.eu/news/nyhed?id=%7B1B87370A-0EBB-4412-81E5-9390A6FCDC07%7D)
 - [Proportion of different variants of concern in positive samples sequenced in **Region Skåne**](https://www.skane.se/digitala-rapporter/lagesbild-covid-19-i-skane/sekvensering/)
+- [Ontario COVID-19 Dashboard: Tracking Omicron](https://covid19-sciencetable.ca/ontario-dashboard/)
 
 ## Get in touch with us
 

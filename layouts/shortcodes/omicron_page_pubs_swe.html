@@ -1,0 +1,36 @@
+<div class="row">
+  <div class="col">
+    <div class="table-responsive">
+      <table class="table table-hover table-bordered" width="100%">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_pub }}</th>
+            <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_updated }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ range $index, $entry := $.Site.Data.omicron_page_pubs_swe }}
+            <tr>
+              <td>
+                <strong><a target="_blank" href="{{ if .doi }}https://doi.org/{{ .doi }}{{ else }}https://pubmed.ncbi.nlm.nih.gov/{{ .pmcid }}{{ end}}">{{ .title }}</a></strong><br>
+                  <span class="text-muted"> {{ if gt (len .authors) 200 }}{{ slicestr .authors 0 200}}[...]{{ else }}{{ .authors }}{{ end }}</span><br>
+                  <span><i>{{ .journal }}</i>{{ if .volume }}
+                    <b>{{ .volume }}</b>{{ end }}{{if .issue }}
+                    ({{ .issue }}){{ end }}{{ if .pages }} {{ .pages }}{{ end }}.</span> <span class="text-muted">{{ if .doi }}DOI: {{ .doi }}{{ else }}PMCID: {{ .pmcid}}{{ end }}</span>{{ if eq .preprint "Y"}} <span class="preprint-icon">preprint</span>{{ end }}
+                {{if .abstract }}<br>
+                  <a class="btn btn-link text-dark" data-toggle="collapse" href="#abstract{{ $index }}"
+                    role="button" aria-expanded="false" aria-controls="abstract{{ $index }}">
+                    Abstract <i class="fas fa-caret-down"></i></a>
+                  <div class="collapse" id="abstract{{ $index }}">
+                    <div class="card card-body">{{ .abstract }}</div>
+                  </div>
+                {{ end }}
+              </td>
+              <td>{{ .first_pub_date }}</td>
+            </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
