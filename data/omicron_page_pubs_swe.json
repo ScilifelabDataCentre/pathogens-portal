@@ -8,5 +8,15 @@
     "preprint": "Y",
     "open_access": "Y",
     "first_pub_date": "2022-01-01"
+  },
+  {
+    "doi": "10.21203/rs.3.rs-1217466/v1",
+    "authors": "Yu Gao, Curtis Cai, Alba Grifoni, Thomas Müller, Julia Niessl, Anna Olofsson, Marion Humbert, Lotta Hansson, Anders Österborg, Peter Bergman, Puran Chen, Annika Olsson, Johan K. Sandberg, Daniela Weiskopf, David A. Price, Hans-Gustaf Ljunggren, Annika C. Karlsson, Alessandro Sette, Soo Aleman, Marcus Buggert",
+    "publication_year": 2022,
+    "title": "Ancestral SARS-CoV-2-specific T cells cross-recognize Omicron (B.1.1.529)",
+    "journal": "Research Square",
+    "preprint": "Y",
+    "open_access": "Y",
+    "first_pub_date": "2022-01-03"
   }
 ]
