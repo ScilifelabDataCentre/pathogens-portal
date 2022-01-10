@@ -1,5 +1,25 @@
 [
   {
+    "doi": "10.1101/2022.01.03.474825",
+    "authors": "Daniel J. Sheward, Pradeepa Pushparaj, Hrishikesh Das, Changil Kim, Sungyong Kim, Leo Hanke, Robert Dyrdak, Gerald M McInerney, Jan Albert, Ben Murrell, Gunilla B. Karlsson Hedestam, Martin Hällberg",
+    "publication_year": 2022,
+    "title": "Structural basis of Omicron neutralization by affinity-matured public antibodies",
+    "journal": "bioRxiv",
+    "preprint": "Y",
+    "open_access": "Y",
+    "first_pub_date": "2022-01-04"
+  },
+  {
+    "doi": "10.21203/rs.3.rs-1217466/v1",
+    "authors": "Yu Gao, Curtis Cai, Alba Grifoni, Thomas Müller, Julia Niessl, Anna Olofsson, Marion Humbert, Lotta Hansson, Anders Österborg, Peter Bergman, Puran Chen, Annika Olsson, Johan K. Sandberg, Daniela Weiskopf, David A. Price, Hans-Gustaf Ljunggren, Annika C. Karlsson, Alessandro Sette, Soo Aleman, Marcus Buggert",
+    "publication_year": 2022,
+    "title": "Ancestral SARS-CoV-2-specific T cells cross-recognize Omicron (B.1.1.529)",
+    "journal": "Research Square",
+    "preprint": "Y",
+    "open_access": "Y",
+    "first_pub_date": "2022-01-03"
+  },
+  {
     "doi": "10.1101/2021.12.10.21267523",
     "authors": "Maren Schubert, Federico Bertoglio, Stephan Steinke, Philip Alexander Heine, Mario Alberto Ynga-Durand, Fanglei Zuo, Likun Du, Janin Korn, Marko Milošević, Esther Veronika Wenzel, Henrike Maass, Fran Krstanović, Saskia Polten, Marina PribanićMatešić, Ilija Brizić, Antonio Piralla, Fausto Baldanti, Lennart Hammarström, Stefan Dübel, Alan Šustić, Harold Marcotte, Monika Strengert, Alen Protić, Qiang Pan-Hammarström, Luka Čičin-Šain, Michael Hust",
     "publication_year": 2022,
