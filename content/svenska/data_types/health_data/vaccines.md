@@ -16,8 +16,9 @@ Over the last two years, the COVID-19 pandemic has challenged societies and heal
 - **Spikevax** - produced by Moderna, approved on 6th January 2021.
 - **Vaxzevria** - produced by AstraZeneca, approved on 29th January 2021.
 - **Covid-19 Vaccine** - produced by Janssen, approved on 11th March 2021.
+- **Nuvaxovid** - produced by Novavax, approved on 20th December 2021.
 
-All except **Covid-19 Vaccine** (Janssen) have been used in Sweden, though only **Comirnaty** (Pfizer/BioNTech) and **Spikevax** (Moderna) are currently available. **Vaxzevria** (AstraZeneca) ceased to be provided after 1st September 2021.
+As of December 2021, only **Comirnaty** (Pfizer/BioNTech) and **Spikevax** (Moderna) are available in Sweden. **Vaxzevria** (AstraZeneca) was used in past but is no longer used after 1st September 2021.
 
 This page is focussed on vaccine research. On it, we [visualise](/data_types/health_data/vaccines/#visualisations-related-to-vaccination-coverage) information about the amount of people (across different regions, different age groups, or in Sweden generally) that have received one, two, or three doses of vaccination. We also provide links to the publicly available data underlying those visualisations. The visualisations do not include information about the type of vaccine used.
 
@@ -65,7 +66,7 @@ As of December 2021, data about the administration of vaccinations over time is 
 
 Please keep in mind that this data differs from the percentages as calculated by FoHM, who use the 'at least 12 years method'. However, the data is comparable to the calculations reported by other countries, see the information in the 'general summary statistics' section for details.
 
-**NOTE ON THE GRAPH:** Click on the coloured squares in the legend of the below graph to toggle which datasets are displayed.
+**Note on the graph:** Click on the coloured squares in the legend of the below graph to toggle which datasets are displayed.
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/vaccine_timeseries_pop_barchart.json" height="500px" >}}</div>
@@ -101,7 +102,7 @@ We constructed the below heatmap to show how the relative numbers of people vacc
 
 As of December 2021, data is available for individuals above the age of 12 for the first and second vaccine doeses (available in the 'Vaccinerade ålder' tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)), and for people above the age of 18 for the third dose (available in the 'Dos 3 per åldersgrupp' tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)). In this case, we have not performed any recalculation, so the numbers are the same as those provided by FoHM.
 
-**NOTE ABOUT THE HEATMAP:** A white colouration indicates that no data is available for that age group.
+**Note about the heatmap:** A white colouration indicates that no data is available for that age group.
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/vaccine_heatmap.json" height="750px" >}}</div>
@@ -115,7 +116,7 @@ Below is a manually curated overview of projects focussed on **vaccine research*
 
 ## Publications
 
-Below is a subset of pre-prints and published scientific journal articles on the subject of **vaccine research** involving at least one author affiliated with a Swedish university or research institute. This list is based on a manually curated database and, as such, may not be exhaustive. If you think that a publication should be listed here but isn’t, or feel that information about a publication requires correction, please [get in touch with us](/contact/). For a full list of all publications related to COVID-19 and SARS-CoV-2 that involve at least one author affiliated with a Swedish university or research institute, please see [this section of the portal](/publications/).
+Below is a subset of preprints and published scientific journal articles on the subject of **vaccine research** involving at least one author affiliated with a Swedish university or research institute. If you would like for your publication to be displayed here, or feel that information about a publication requires correction, please [get in touch with us](/contact/). For a full list of all publications related to COVID-19 and SARS-CoV-2 that involve at least one author affiliated with a Swedish university or research institute, please see [this section of the portal](/publications/).
 
 {{< vaccines_publications >}}
 

@@ -12,7 +12,7 @@ Over the last two years, the COVID-19 pandemic has challenged societies and heal
 - **Spikevax** - produced by Moderna, approved on 6th January 2021.
 - **Vaxzevria** - produced by AstraZeneca, approved on 29th January 2021.
 - **Covid-19 Vaccine** - produced by Janssen, approved on 11th March 2021.
-- **Nuvaxovid** - procuded by Novavax, approved on 20th December 2021.
+- **Nuvaxovid** - produced by Novavax, approved on 20th December 2021.
 
 As of December 2021, only **Comirnaty** (Pfizer/BioNTech) and **Spikevax** (Moderna) are available in Sweden. **Vaxzevria** (AstraZeneca) was used in past but is no longer used after 1st September 2021.
 
