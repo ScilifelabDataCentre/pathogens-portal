@@ -1,5 +1,15 @@
 [
   {
+    "doi": "10.1101/2022.01.04.22268755",
+    "authors": "Fanglei Zuo, Hassan Abolhassani, Likun Du, Antonio Piralla, Federico Bertoglio, Leire de Campos-Mata, Hui Wan, Maren Schubert, Yating Wang, Rui Sun, Irene Cassaniti, Stelios Vlachiotis, Makiko Kumagai-Braesch, Juni Andréll, Zhaoxia Zhang, Yintong Xue, Esther Veronika Wenzel, Luigi Calzolai, Luca Varani, Nima Rezaei, Zahra Chavoshzadeh, Fausto Baldanti, Michael Hust, Lennart Hammarström, Harold Marcotte, Qiang Pan-Hammarström",
+    "publication_year": 2022,
+    "title": "Heterologous immunization with inactivated vaccine followed by mRNA booster elicits strong humoral and cellular immune responses against the SARS-CoV-2 Omicron variant",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "open_access": "Y",
+    "first_pub_date": "2022-01-06"
+  },
+  {
     "doi": "10.1101/2022.01.03.474825",
     "authors": "Daniel J. Sheward, Pradeepa Pushparaj, Hrishikesh Das, Changil Kim, Sungyong Kim, Leo Hanke, Robert Dyrdak, Gerald M McInerney, Jan Albert, Ben Murrell, Gunilla B. Karlsson Hedestam, Martin Hällberg",
     "publication_year": 2022,
@@ -28,5 +38,25 @@
     "preprint": "Y",
     "open_access": "Y",
     "first_pub_date": "2022-01-01"
+  },
+  {
+    "doi": "10.1101/2021.12.23.21268321",
+    "authors": "Nerea Martín Almazán, Afsar Rahbar, Marcus Carlsson, Tove Hoffman, Linda Kolstad, Bengt Rönnberg, Mattia Russel Pantalone, Ilona Lewensohn Fuchs, Anna Nauclér, Mats Ohlin, Mariusz Sacharczuk, Piotr Religa, Stefan Amér, Christian Molnár, Åke Lundkvist, Andres Susrud, Birger Sörensen, Cecilia Söderberg-Nauclér",
+    "publication_year": 2021,
+    "title": "Influenza A H1N1–mediated pre-existing immunity to SARS-CoV-2 predicts COVID-19 outbreak dynamics",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "open_access": "Y",
+    "first_pub_date": "2021-12-25"
+  },
+  {
+    "doi": "10.1016/j.jaut.2021.102779",
+    "authors": "Saathvik R Kannan, Austin N Spratt, Kalicharan Sharma, Hitendra S Chand, Siddappa N Byrareddy, Kamal Singh",
+    "publication_year": 2021,
+    "title": "Omicron SARS-CoV-2 variant: Unique features and their impact on pre-existing antibodies",
+    "journal": "Journal of Autoimmunity",
+    "preprint": "N",
+    "open_access": "Y",
+    "first_pub_date": "2021-12-13"
   }
 ]

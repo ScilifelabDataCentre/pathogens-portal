@@ -216,5 +216,43 @@
     "preprint": "Y",
     "open_access": "Y",
     "first_pub_date": "2021-12-31"
+  },
+  {
+    "doi": "10.21203/rs.3.rs-1214484/v1",
+    "authors": "Giuseppe Lippi, Camilla Mattiuzzi, Brandon M. Henry",
+    "publication_year": 2022,
+    "title": "Is SARS-CoV-2 Omicron (B.1.1.529) variant causing different symptoms?",
+    "journal": "Research Square",
+    "preprint": "Y",
+    "open_access": "Y",
+    "first_pub_date": "2022-01-06"
+  },
+  {
+    "doi": "10.1002/jmv.27575",
+    "authors": "Giuseppe Lippi, Camilla Mattiuzzi, Brandon M. Henry",
+    "publication_year": 2022,
+    "title": "Neutralizing potency of COVID-19 vaccines against the SARS-CoV-2 Omicron (B.1.1.529) variant",
+    "journal": "Journal of Medical Virology",
+    "preprint": "N",
+    "first_pub_date": "2022-01-05"
+  },
+  {
+    "doi": "10.1016/j.ccell.2021.12.014",
+    "authors": "Cong Zeng, John P Evans, Karthik Chakravarthy, Panke Qu, Sarah Reisinger, No-Joon Song, Mark P Rubinstein, Peter G Shields, Zihai Li, Shan-Lu Liu",
+    "publication_year": 2021,
+    "title": "COVID-19 mRNA booster vaccines elicit strong protection against SARS-CoV-2 Omicron variant in patients with cancer",
+    "journal": "Cancer Cell",
+    "preprint": "N",
+    "first_pub_date": "2021-12-30"
+  },
+  {
+    "doi": "10.1101/2021.12.13.21267748",
+    "authors": "David S. Khoury, Megan Steain, James A. Triccas, Alex Sigal, Miles P. Davenport,  Deborah Cromer",
+    "publication_year": 2021,
+    "title": "A meta-analysis of Early Results to predict Vaccine efficacy against Omicron",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "open_access": "Y",
+    "first_pub_date": "2021-12-17"
   }
 ]

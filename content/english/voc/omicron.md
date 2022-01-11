@@ -88,6 +88,8 @@ Here we list a number of useful resources related to the new *SARS-CoV-2 Omicron
 - [**VEO** report on mutations and variation in publicly shared SARS-CoV-2 raw sequencing data, Report No. 10, 15 December 2021](https://www.veo-europe.eu/news/nyhed?id=%7B1B87370A-0EBB-4412-81E5-9390A6FCDC07%7D)
 - [Proportion of different variants of concern in positive samples sequenced in **Region Skåne**](https://www.skane.se/digitala-rapporter/lagesbild-covid-19-i-skane/sekvensering/)
 - [Ontario COVID-19 Dashboard: Tracking Omicron](https://covid19-sciencetable.ca/ontario-dashboard/)
+- [ESCMID Urgent update on Omicron SARS-CoV-2 variant, 2021-12-22](https://eacademy.escmid.org/escmid/2021/covid-19-webinars/348220/)
+- [Statens Serum Institut: Antigen tests can detect new variants, 2022-01-07](https://www.ssi.dk/aktuelt/nyheder/2022/antigentest-undersoger-for-varianter)
 
 ## Get in touch with us
 
