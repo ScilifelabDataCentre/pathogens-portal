@@ -254,5 +254,50 @@
     "preprint": "Y",
     "open_access": "Y",
     "first_pub_date": "2021-12-17"
+  },
+  {
+    "doi": "10.1056/NEJMc2119236",
+    "authors": "Annika Rössler, Lydia Riepler, David Bante, Dorothee von Laer, Janine Kimpel",
+    "publication_year": 2022,
+    "title": "SARS-CoV-2 Omicron Variant Neutralization in Serum from Vaccinated and Convalescent Persons",
+    "journal": "NEJM",
+    "preprint": "N",
+    "first_pub_date": "2022-01-12"
+  },
+  {
+    "doi": "10.1002/cbic.202100681",
+    "authors": "Chuanxiong Nie, Anil Kumar Sahoo, Andreas Herrmann, Matthias Ballauff, Roland R Netz, Rainer Haag",
+    "publication_year": 2022,
+    "title": "Charge Matters: Mutations in Omicron variant favor Binding to Cells",
+    "journal": "ChemBioChem",
+    "preprint": "N",
+    "first_pub_date": "2022-01-12"
+  },
+  {
+    "doi": "10.1101/2021.12.27.21268278",
+    "authors": "Frederik Plesner Lyngse, Laust Hvas Mortensen, Matthew J. Denwood, Lasse Engbo Christiansen, Camilla Holten Møller, Robert Leo Skov, Katja Spiess, Anders Fomsgaard, Maria Magdalena Lassaunière, Morten Rasmussen, Marc Stegger, Claus Nielsen, Raphael Niklaus Sieber, Arieh Sierra Cohen, Frederik Trier Møller, Maria Overvad, Kåre Mølbak, Tyra Grove Krause, Carsten Thure Kirkeby",
+    "publication_year": 2021,
+    "title": "SARS-CoV-2 Omicron VOC Transmission in Danish Households",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "first_pub_date": "2021-12-27"
+  },
+  {
+    "doi": "10.1101/2021.12.22.21268246",
+    "authors": "Gert Marais, Nei-yuan Hsiao, Arash Iranzadeh, Deelan Doolabh, Annabel Enoch, Chun-yat Chu, Carolyn Williamson, Adrian Brink, Diana Hardie",
+    "publication_year": 2021,
+    "title": "Saliva swabs are the preferred sample for Omicron detection",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "first_pub_date": "2021-12-24"
+  },
+  {
+    "doi": "10.1101/2021.12.15.21267805",
+    "authors": "Nicole A. Doria-Rose, Xiaoying Shen, Stephen D Schmidt, Sijy O’Dell, Charlene McDanal, Wenhong Feng, Jin Tong, Amanda Eaton, Maha Maglinao, Haili Tang, Kelly E. Manning, Venkata-Viswanadh Edara, Lilin Lai, Madison Ellis, Kathryn Moore, Katharine Floyd, Stephanie L. Foster, Robert L. Atmar, Kirsten E. Lyke, Tongqing Zhou, Lingshu Wang, Yi Zhang, Martin R Gaudinski, Walker P Black, Ingelise Gordon, Mercy Guech, Julie E Ledgerwood, John N Misasi, Alicia Widge, Paul C. Roberts, John Beigel, Bette Korber, Rolando Pajon, John R. Mascola, Mehul S. Suthar, David C. Montefiori",
+    "publication_year": 2021,
+    "title": "Booster of mRNA-1273 Strengthens SARS-CoV-2 Omicron Neutralization",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "first_pub_date": "2021-12-21"
   }
 ]

@@ -56,7 +56,7 @@ Detta diagram visar antalet gånger patienter som diagnostiserats med diagnoser 
 
 ### Geografisk fördelning av diagnostiserade fall relativt populationens storlek
 
-Geografisk fördelning av diagnostiserade fall i förhållande till befolkningsstorlek. Kartorna nedan visar antal individer som med respektive diagnoskod uppdelat per län i procent av den totala befolkningen i länet. Den totala befolkningsmängden per län och antal personer med diagnoskoden visas genom att scrolla över ett visst län. Observera att intervallen som används för de två kartorna inte är detsamma.
+Geografisk fördelning av diagnostiserade fall i förhållande till befolkningsstorlek. Kartorna nedan visar antal individer som med respektive diagnoskod uppdelat per län i procent av den totala befolkningen i länet. Den totala befolkningsmängden per län och antal personer med diagnoskoden visas genom att scrolla över ett visst län.
 
 #### Diagnoskod U09.9
 
