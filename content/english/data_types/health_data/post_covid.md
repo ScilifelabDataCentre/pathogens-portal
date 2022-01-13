@@ -50,7 +50,7 @@ These plots display the number of times that patients were assigned the diagnose
 
 ### Geographic distribution of diagnosed cases relative to population size
 
-The maps below show the number of people that received the diagnoses of interest in each county as a percentage of the total population of that county. The total population of the county and the number of people who received the diagnosis can be seen by hovering the mouse above a particular county. Please note that the range of values displayed differs between the two maps.
+The maps below show the number of people that received the diagnoses of interest in each county as a percentage of the total population of that county. The total population of the county and the number of people who received the diagnosis can be seen by hovering the mouse above a particular county.
 
 #### Diagnosis U09.9
 
