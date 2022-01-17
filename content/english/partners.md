@@ -1,9 +1,9 @@
 ---
-title: Other national COVID-19 Data Portals
+title: National COVID-19 Data Portals
 toc: false
 menu:
     footer_about:
-        name: Other national portals
+        name: National portals
         weight: 30
 ---
 
