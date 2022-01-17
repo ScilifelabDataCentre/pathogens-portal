@@ -1,9 +1,9 @@
 ---
-title: Övriga nationella Covid-19 dataportaler
+title: Nationella Covid-19 dataportaler
 toc: false
 menu:
     footer_about:
-        name: Övriga nationella portaler
+        name: Nationella portaler
         weight: 30
 ---
 
