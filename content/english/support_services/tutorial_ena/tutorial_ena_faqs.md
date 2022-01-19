@@ -58,9 +58,9 @@ For more information on the FAIR principles, please see the [go-fair website](ht
 
 There are two main international databases in which COVID-19 sequences have been made openly available en masse; the Global Initiative on Sharing Avian Influenza Data ([GISAID](https://www.gisaid.org)), and the European Nucleotide Archive ([ENA](https://www.ebi.ac.uk/ena/browser/home)).
 
-So, which should you use? We actually recommend that you submit sequences to both databases where possible (see [information in the Introduction tab](/support_services/tutorial_ena/tutorial_ena_intro) for details), as they each offer relative advantages for research compared to the other. In some cases though, this may not be possible. For example, GISAID only accepts assemblies reflecting a consensus sequence, whereas ENA accepts both 'raw sequences' and assemblies. Thus, in the case of 'raw' sequence data, please submit to ENA. 
+So, which should you use? We actually recommend that you submit sequences to both databases where possible (see [information in the Introduction tab](/support_services/tutorial_ena/tutorial_ena_intro) for details), as they each offer relative advantages for research compared to the other. In some cases though, this may not be possible. For example, GISAID only accepts assemblies reflecting a consensus sequence, whereas ENA accepts both 'raw sequences' and assemblies. Thus, in the case of 'raw' sequence data, please submit to ENA.
 
-Work is ongoing to streamline submitting sequences to both databases. Ultimately, we aim to make it just as easy to submit to both databases as it is to submit to just one. 
+Work is ongoing to streamline submitting sequences to both databases. Ultimately, we aim to make it just as easy to submit to both databases as it is to submit to just one.
 
 ### Who owns/runs ENA?
 
