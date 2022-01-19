@@ -31,15 +31,18 @@ toc : true
   <li class="nav-item">
     <a class="nav-link active" href="#"><b>Get Help</b></a>
   </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/support_services/tutorial_ena/tutorial_ena_faqs">FAQs</a>
+  </li>
 </ul>
 
 <br>
 
-## <b>Getting Further Support</b>
+## Getting Further Support
 
 ### About the use of this tutorial/Brokering to ENA
 
-If you have any questions/comments regarding the tutorial itself, need general advice with submission, or would like us to broker a submission, please contact us [using this form](https://www.covid19dataportal.se/contact/) or send an email to us at [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se).
+If you have any questions/comments regarding the tutorial itself, need general advice with submission, or would like the Swedish COVID Data Portal team to broker a submission, please contact us [using this form](https://www.covid19dataportal.se/contact/) or send an email to us at [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se).
 
 ### Whilst making a submission
 
