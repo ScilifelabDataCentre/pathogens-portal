@@ -1,5 +1,25 @@
 [
   {
+    "status": "to be opened",
+    "funder_eng": "SSMF",
+    "funder_sv": "SSMF",
+    "title_eng": "SSMF Consolidator Grant",
+    "title_sv": "SSMF Consolidator Grant",
+    "deadline": "15.04.2022",
+    "url_eng": "https://www.ssmf.se/for-scientists/consolidator-grant/",
+    "url_sv": "https://www.ssmf.se/for-forskare/consolidator-grant/",
+    "desc_eng": "A five-year grant that gives prominent researchers the opportunity to strengthen their position as independent researchers.",
+    "desc_sv": "Ett femårigt anslag som ger framstående forskare möjligheten att stärka sin position som självständiga forskare.",
+    "applicant_eng": "Individual researcher who is employed at a Swedish University. If the grant is awarded, the recipient must be employed by the grant manager at the start of the grant and for the duration of the grant period. This employment must be at least 50% full time employment. Applicants do not have to be employed by the grant manager at the time of making the application. Your doctoral degree should be between 7 and 12 years old. The degree may be up to 24 months older to account for time used for sick and parental leave, AT/ST service and military service.",
+    "applicant_sv": "Enskild forskare som är anställd vid svenskt lärosäte. Om bidrag beviljas ska mottagaren vara anställd av anslagsförvaltaren när bidragsperioden börjar och sedan under hela bidragsperioden. Anställningen ska omfatta minst 50 procent av en heltidsanställning. Sökande behöver inte vara anställd av anslagsförvaltaren vid ansökningstillfället. Din doktorsexamen måste var 7-12 år. Avräkningsbar tid kan godkännas med totalt 24 månader för sjuk- och föräldraledighet, AT/ST-tjänstgöring och militärtjänstgöring.",
+    "period_eng": "5 years",
+    "period_sv": "5 år",
+    "amount_eng": "2 200 000 SEK per year, including indirect costs",
+    "amount_sv": "2 200 000 kronor/år inklusive indirekta kostnader",
+    "application_period_eng": "15 March 2022 – 15 April 2022 (24.00/midnight)",
+    "application_period_sv": "15 Mars 2022 – 15 April 2022 (24.00/midnatt)"
+  },
+  {
     "status": "open",
     "funder_eng": "JPIAMR",
     "funder_sv": "JPIAMR",
