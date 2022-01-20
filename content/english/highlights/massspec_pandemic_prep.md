@@ -1,7 +1,7 @@
 ---
 title: Mass spectrometry suggested as a future essential analytical contribution to Covid-19 pandemic readiness
 date: 2022-01-20
-summary: Hober et al. present how LC-MRM/MS has potential for use as the basis from a scalable method that should facilitate future pandemic preparedness. The data has been openly shared. 
+summary: Hober et al. present how LC-MRM/MS could form the basis of a scalable method that should facilitate future pandemic preparedness. The data has been openly shared. 
 banner: /highlights/banners/Hober_covid_bigger.png
 banner_large: /highlights/banners/Hober_covid_bigger.png
 banner_caption: "Illustration courtesy of Andreas Hober. An analytical approach able to detect viral proteins based on peptide immuno-affinity enrichment combined with LC-MRM/MS."
