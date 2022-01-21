@@ -299,5 +299,50 @@
     "journal": "medRxiv",
     "preprint": "Y",
     "first_pub_date": "2021-12-21"
+  },
+  {
+    "doi": "10.1016/j.ebiom.2021.103805",
+    "authors": "Gemma Moncunill, Ruth Aguilar, Marta Ribes, Natalia Ortega, Rocío Rubio, Gemma Salmerón, María José Molina, Marta Vidal, Diana Barrios, Robert A Mitchell, Alfons Jiménez, Cristina Castellana, Pablo Hernández-Luis, Pau Rodó, Susana Méndez, Anna Llupià, Laura Puyol, Natalia Rodrigo Melero, Carlo Carolis, Alfredo Mayor, Luis Izquierdo, Pilar Varela, Antoni Trilla, Anna Vilella, Sonia Barroso, Ana Angulo, Pablo Engel, Marta Tortajada, Alberto L García-Basteiro, Carlota Dobaño",
+    "publication_year": 2022,
+    "title": "Determinants of early antibody responses to COVID-19 mRNA vaccines in a cohort of exposed and naïve healthcare workers",
+    "journal": "EBioMedicine",
+    "preprint": "N",
+    "first_pub_date": "2022-01-11"
+  },
+  {
+    "doi": "10.1056/NEJMc2119641",
+    "authors": "Fabian Schmidt, Frauke Muecksch, Yiska Weisblum, Justin Da Silva, Eva Bednarski, Alice Cho, Zijun Wang, Christian Gaebler, Marina Caskey, Michel C Nussenzweig, Theodora Hatziioannou, Paul D Bieniasz",
+    "publication_year": 2021,
+    "title": "Plasma Neutralization of the SARS-CoV-2 Omicron Variant",
+    "journal": "NEJM",
+    "preprint": "N",
+    "first_pub_date": "2021-12-30"
+  },
+  {
+    "doi": "10.1016/j.gpb.2022.01.001",
+    "authors": "Wentai Ma, Jing Yang, Haoyi Fu, Chao Su, Caixia Yu, Qihui Wang, Ana Tereza Ribeiro de Vasconcelos, Georgii A Bazykin, Yiming Bao, Mingkun Li",
+    "publication_year": 2022,
+    "title": "Genomic perspectives on the emerging SARS-CoV-2 omicron variant",
+    "journal": "Genomics Proteomics Bioinformatics",
+    "preprint": "N",
+    "first_pub_date": "2022-01-13"
+  },
+  {
+    "doi": "10.1101/2021.12.24.21268360",
+    "authors": "Robert Sinto, Dwi Utomo, Suwarti, Erni J. Nelwan, Henry Surendra, Cindy Natasha, Fransiska, Deborah Theresia, Adella Faiqa Ranitria, Decy Subekti, Nunung Nuraeni, Winahyu Handayani, Mutia Rahardjani, J. Kevin Baird, Susanna Dunachie, Anuraj H. Shankar, Raph L. Hamers",
+    "publication_year": 2021,
+    "title": "Serum anti-Spike antibody titers before and after heterologous booster with mRNA-1273 SARS-CoV-2 vaccine following two doses of inactivated whole-virus CoronaVac vaccine",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "first_pub_date": "2021-12-24"
+  },
+  {
+    "doi": "10.1101/2021.12.27.474275",
+    "authors": "Laura Vangeel, Winston Chiu, Steven De Jonghe, Piet Maes, Bram Slechten, Joren Raymenants, Emmanuel André, Pieter Leyssen, Johan Neyts, Dirk Jochmans",
+    "publication_year": 2022,
+    "title": "Remdesivir, Molnupiravir and Nirmatrelvir remain active against SARS-CoV-2 Omicron and other variants of concern",
+    "journal": "bioRxiv",
+    "preprint": "Y",
+    "first_pub_date": "2022-01-15"
   }
 ]
