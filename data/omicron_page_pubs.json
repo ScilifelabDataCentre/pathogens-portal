@@ -344,5 +344,14 @@
     "journal": "bioRxiv",
     "preprint": "Y",
     "first_pub_date": "2022-01-15"
+  },
+  {
+    "doi": "10.5281/zenodo.5747871",
+    "authors": "Mauro Petrillo, Maddalena Querci, Philippe Corbisier, Antonio Marchini, Gerhard Buttinger, Guy Van den Eede",
+    "publication_year": 2021,
+    "title": "In Silico Design of Specific Primer Sets for the Detection of B.1.1.529 SARS-CoV-2 Variant of Concern (Omicron)",
+    "journal": "Zenodo",
+    "preprint": "Y",
+    "first_pub_date": "2021-12-01"
   }
 ]

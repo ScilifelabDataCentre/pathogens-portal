@@ -1,4 +1,6 @@
 [
+  { "mdtext": "From Petrillo, Querci et al.: *In Silico Design of Specific Primer Sets for the Detection of B.1.1.529 SARS-CoV-2 Variant of Concern (Omicron)*, DOI: [10.5281/zenodo.5747871](https://doi.org/10.5281/zenodo.5747871)."
+  },
   {
     "mdtext": "From Mannar, Saville et al. (DOI: [10.1101/2021.12.19.473380](https://doi.org/10.1101/2021.12.19.473380)): Unbound Omicron spike protein trimer (PDB ID [7T9J](https://www.rcsb.org/structure/7T9J), [EMD-25759](https://www.emdataresource.org/EMD-25759)), global ACE2-bound Omicron spike protein trimer (PDB ID [7T9K](https://www.rcsb.org/structure/7T9K), [EMD-25760](https://www.emdataresource.org/EMD-25760)), focus-refinement of the ACE2-RBD interface for the ACE2-bound Omicron spike protein trimer (PDB ID [7T9L](https://www.rcsb.org/structure/7T9L), [EMD-25761](https://www.emdataresource.org/EMD-25761))."
   },
