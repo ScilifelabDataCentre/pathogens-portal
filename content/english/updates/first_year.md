@@ -17,7 +17,7 @@ In the spring of 2020, the European Commission [took the initiative to develop a
 The Swedish COVID-19 Data Portal provides guidance, tools, and services for finding and sharing research data made available by Swedish and international researchers. Since its launch, [the Swedish COVID-19 Data Portal](https://covid19dataportal.se/) has had >22,000 visitors and >100,000 pageviews and [the portal team](/about) has provided support for a wide range of research projects.
 
 <figure class="figure img-fluid mx-2">
-  <img src="/highlights_updates/banners/first_year_portal_in_numbers.png" class="img-thumbnail">
+  <img src="/updates/banners/first_year_portal_in_numbers.png" class="img-thumbnail">
   <figcaption class="figure-caption mt-1"><i>The Swedish COVID-19 Data Portal in numbers. The number of visitors and pageviews and the geographical distribution of visitors is displayed on the right pane, the content of different sections of the Portal on the middle pane, and the number of projects receiving direct support on the left pane.</i></figcaption>
 </figure>
 
@@ -26,7 +26,7 @@ The Swedish COVID-19 Data Portal provides guidance, tools, and services for find
 The Portal website comprises a number of services launched over the last year. For example, anyone looking for data and/or code can make use of discipline-specific, [manually curated lists of openly shared data and/or code](/data_types/all/data/) that have been made available by researchers affiliated with a Swedish research institute. Those wishing to make use of biomaterials and data accumulated in biobanks across Sweden will find the [the Swedish COVID-19 Sample Collection Database](/biobanks/) useful. This database, developed in collaboration with [Biobank Sweden](https://biobanksverige.se), allows researchers to look for biomaterial collections matching their criteria (it is possible to perform searches based on materials, diagnosis, sample collection types). The database contains biobanks and sample collections from both healthcare and academia. To date, it contains information about 29 sample collections from 16 different biobanks. Another service within the Portal is [a manually curated database of publications on COVID-19 and SARS-CoV-2](/publications/) that lists all published articles and preprints involving at least one author affiliated with a Swedish research institute. To date, the publication database contains information on over 1300 publications.
 
 <figure class="figure mx-2 img-fluid">
-  <img src="/highlights_updates/banners/first_year_portal_timeline.png" class="img-thumbnail">
+  <img src="/updates/banners/first_year_portal_timeline.png" class="img-thumbnail">
   <figcaption class="figure-caption mt-1"><i>Timeline of the events during the last year of the Swedish COVID-19 Data Portal; illustrating the timings of the launches of various services and key milestones.</i></figcaption>
 </figure>
 
