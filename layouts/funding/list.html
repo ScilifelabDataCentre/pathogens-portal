@@ -1,0 +1,173 @@
+{{ define "main" }}
+
+{{ .Content }}
+
+{{/* Automatically fetch updated date from input file modification time */}}
+{{ $fStat := os.Stat "data/funded_projects.json" }}
+
+<p><i>
+   {{ cond (eq $.Site.Language.LanguageName "Svenska") "Senast uppdaterad" "Last updated" }}:
+   {{ $fStat.ModTime.Format "2006-01-02" }}
+</i></p>
+
+{{/*
+  Make a list of unique funder names
+*/}}
+{{ $all_funders:= slice }}
+{{ range $.Site.Data.funding }}
+  {{ $all_funders = $all_funders | append .funder }}
+{{ end }}
+{{ $funders := $all_funders | uniq }}
+
+{{/*
+  Make a list of unique PI affiliations in English and in Swedish
+*/}}
+{{ $all_topics := slice }}
+{{ range $.Site.Data.funding }}
+    {{ $all_topics = $all_topics | append .topic }}
+{{ end }}
+{{ $topics := $all_topics | uniq }}
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-2 pl-0 {{ if eq $.Site.Language.LanguageName "Svenska" }}mr-5{{ else }}mr-2{{ end }}">
+      <h5>Funder</h5>
+      <div class="col mb-2 ml-3 form-check">
+          {{ range sort $funders }}
+            <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
+                value="{{ . }}">{{ . }}</div>
+          {{ end }}
+      </div>
+      <h5>Topic</h5>
+      <div class="col mb-2 ml-3 form-check">
+          {{ range sort $topics }}
+            <div class="row"><input type="checkbox" class="form-check-input" name="topic"
+                value="{{ . }}">{{ . }}</div>
+          {{ end }}
+      </div>
+    </div>
+    <div class="col-lg">
+      <div class="row">
+        <div class="table-responsive">
+          <table class="table table-hover" width="100%">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col">Call title</th>
+                <th scope="col">Funder</th>
+                <th scope="col">Deadline</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{ range $ind, $cont := $.Site.Data.funding }}
+              <tr>
+                <td>
+
+                  {{ range .topic }}
+                  <strong>{{ . }}</strong> |
+                  {{ end }}
+
+                  {{ .call_title }}
+
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#call_details{{ $ind }}">
+                    details
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="call_details{{ $ind }}" tabindex="-1" role="dialog" aria-labelledby="call_details{{ $ind }}Label" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="call_details{{ $ind }}Label">{{ .call_title }}</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          ...
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </td>
+                <td>{{ .funder }}</td>
+                <td>{{ .submission_deadline | time.Format ":date_long" }}</td>
+              </tr>
+              {{ end }}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function () {
+    var table = $('table.table').DataTable({
+      "sDom": '<"top row"<"col-md"i><"col-md"f>>rt<"bottom row"<"col-md"l><"col-md"p>><"clear">',
+      "order": [[4, "desc"]],
+    {{ if eq $.Site.Language.LanguageName "English" }}
+    "language": {
+    "lengthMenu": "Show _MENU_ projects per page",
+    "zeroRecords": "Nothing found.",
+    "info": "Showing _START_ to _END_ of _TOTAL_ projects",
+    "infoEmpty": "No records available",
+    "infoFiltered": "(filtered from _MAX_ projects in total).",
+    "search": "Search:",
+    "paginate": {
+      "first": "First",
+      "last": "Last",
+      "next": "»",
+      "previous": "«"
+    }
+  }
+    {{ else }}
+    "language": {
+    "lengthMenu": "Visa _MENU_ forskningsprojekt per sida",
+    "zeroRecords": "Inga resultat",
+    "info": "Visar _START_-_END_ av _TOTAL_ forskningsprojekt",
+    "infoEmpty": "Inga resultat",
+    "infoFiltered": "(filtrerad av _MAX_ forskningsprojekt).",
+    "search": "Sök:",
+    "paginate": {
+      "first": "Första",
+      "last": "Sista",
+      "next": "»",
+      "previous": "«"
+    }
+  }
+    {{ end }}
+  }
+  );
+
+  $('input:checkbox').on('change', function () {
+
+    // PI affiliation filter
+    var pi_affiliation = $('input:checkbox[name="pi_affiliation"]:checked').map(function () {
+      return this.value;
+    }).get().join('|');
+
+    // filter for pi affiliation, with no regex, no smart filtering, not case sensitive
+    table.column(2).search(pi_affiliation, true, false, false).draw(false);
+
+    // Funder filter
+    var funders = $('input:checkbox[name="funder"]:checked').map(function () {
+      return this.value;
+    }).get().join('|');
+
+    table.column(3).search(funders, true, false, false).draw(false);
+  });
+
+} );
+
+</script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
+<script type="text/javascript" charset="utf8"
+  src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
+
+{{ end }}
