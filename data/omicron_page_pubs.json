@@ -353,5 +353,14 @@
     "journal": "Zenodo",
     "preprint": "Y",
     "first_pub_date": "2021-12-01"
+  },
+  {
+    "doi": "10.1126/science.abn7760",
+    "authors": "Dhiraj Mannar, James W. Saville, Xing Zhu, Shanti S. Srivastava, Alison M. Berezuk, Katharine S. Tuttle, Ana Citlali Marquez, Inna Sekirov, Sriram Subramaniam",
+    "publication_year": 2022,
+    "title": "SARS-CoV-2 Omicron variant: Antibody evasion and cryo-EM structure of spike protein–ACE2 complex",
+    "journal": "Science",
+    "preprint": "N",
+    "first_pub_date": "2022-01-20"
   }
 ]
