@@ -1,6 +1,9 @@
 # Hugo default output directory
 /public
 
+# more Hugo stuff
+.hugo_build.lock
+
 # OSX
 .DS_Store
 
