@@ -51,7 +51,7 @@ Before commencing with the submission, the following things are required:
 
 2. **cURL** - A command line facility with cURL installed.
 
-**Note:** this submission route works well in a Mac or Linux environment. For Windows users, we recommend downloading a Ubuntu app or a virtual Linux machine for smooth submissions.
+**Note:** This submission route works well in a Mac or Linux environment. For Windows users, we recommend downloading a Ubuntu app or a virtual Linux machine for smooth submissions.
 
 ### Data required for route 2
 
@@ -75,7 +75,7 @@ It is possible to calculate MD5 on several files at once using a for-loop:
 
 >for s in SARS-CoV-2-Sample*<br>>  do<br>>  md5sum $s > $s.md5<br>>  done
 
-This command calculates checksums for all files with names beginning `SARS-CoV-2-Sample`.
+This command calculates checksums for all files with names beginning with `SARS-CoV-2-Sample`.
 
 ### Upload data files
 
@@ -142,7 +142,7 @@ In the *study* subfolder, you will find two example XML files (the file type req
 
 * **project.xml** - This XML file contains the metadata for the study, including e.g. title of the study.
 
-* **submission.xml** - This file declares one or more Webin submission service actions. The action can be `<ADD/>`, which is used to submit new objects. The user can decide the study release date, which is the date that the study will become public, along with all data associated with it. By default, the release date will be set as two months after the data of submission, but the submitter can select any date within 2 years of the present date. This can be done using the `<HOLD/>` action, and may look e.g. `<HOLD HoldUntilDate="TODO: release date"/>`. You can modify release date by replacing `<ADD/>` with `<MODIFY/>`. The submission.xml file in the $WORKSHOP folder that you set up, defines the `<ADD/>` action that will allow you to create a new study.
+* **submission.xml** - This file declares one or more Webin submission service actions. The action can be `<ADD/>`, which is used to submit new objects. The user can decide the study release date, which is the date that the study will become public, along with all data associated with it. By default, the release date will be set as two months after the date of submission, but the submitter can select any date within 2 years of the present date. This can be done using the `<HOLD/>` action, and may look e.g. `<HOLD HoldUntilDate="TODO: release date"/>`. You can modify release date by replacing `<ADD/>` with `<MODIFY/>`. The submission.xml file in the $WORKSHOP folder that you set up, defines the `<ADD/>` action that will allow you to create a new study.
 
 Edit *project.xml* to create a project alias that is unique to you. Once complete, you are ready to send the project.xml and submission.xml files (using the `<ADD/>` action) to the test service using the following cURL command:
 
@@ -172,10 +172,10 @@ You will see the following files:
 
 In the *samples.xml* file, we can define many samples inside a `<SAMPLE_SET>` tag. Each sample (enclosed in `<SAMPLE>` tags), must contain:
 
-* `<TITLE>` tags : defining the title of the sample
-* `<SAMPLE_NAME>` tags : defining the taxonomic information
-* `<DESCRIPTION>` tags : providing a description of what has been sampled
-* Multiple `<SAMPLE_ATTRIBUTE>` tags : defining all other metadata fields
+* `<TITLE>` tags: defining the title of the sample
+* `<SAMPLE_NAME>` tags: defining the taxonomic information
+* `<DESCRIPTION>` tags: providing a description of what has been sampled
+* Multiple `<SAMPLE_ATTRIBUTE>` tags: defining all other metadata fields
 
 To see an example of a `<SAMPLE_SET>` please [see this example from ENA](https://ena-docs.readthedocs.io/en/latest/submit/samples/programmatic.html).
 
@@ -203,7 +203,7 @@ Check the receipt file to see whether your update was successful. Note that the 
 
 <!-- LIANE FILE 03 STARTS HERE!-->
 
-### Submitting raw reads
+### Submit raw reads
 
 As in all previous steps, this type of submission is performed using XML files. In the case of raw reads, we must submit two types of object: experiments and runs. Experiments hold information about library preparation and sequencing protocols, and also provide a link to the appropriate study and samples. Runs simply link experiments and data files.
 
@@ -284,4 +284,4 @@ Once the submitted sequences have been processed, they will be distributed as **
 
 Upon generation of the EMBL file, sequences also acquire a sequence accession number. This accession number will comprise of 2 upper case letters followed by 6 numbers, e.g. [LR991698](https://www.ebi.ac.uk/ena/browser/api/embl/LR991698.2?lineLimit=1000).
 
-For each assembly submission, Webin will report a unique accession number. The accession number will start with ERZ. For most assemblies, the accession number is only used for internal processing and will not be visible in the browser. However, for SARS-CoV-2 assemblies, sequence accessions will continue to be assigned and the ERZ records will also be available in the browser to provide a point of access for the submitted file(s).
+For each assembly submission, Webin will report a unique accession number (starting with ERZ). For most assemblies, this number is only used for internal processing and will not be visible in the browser. However, for SARS-CoV-2 assemblies, the ERZ records will also be available in the browser to provide a point of access for the submitted file(s).

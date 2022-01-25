@@ -83,9 +83,9 @@ The Webin submission portal will be required to complete a Route 1 submission. Y
 
 * **Studies (Projects) (Label 2 in the above figure)**: All related options are coloured yellow. The **Register Study** option leads to an interface where you can register new studies. The **Submit XMLs** interface enables studies to be submitted in XML format. The **Studies Report** option allows you to review and edit previously submitted studies, and to change their release date.
 
-* **Samples (Label 3 in the above figure)**: All related options are coloured green. The **Register Samples** option allows you to select and customise a sample checklist, download a template spreadsheet, and then re-upload a completed spreadsheet in order to register your samples. The **Register Taxonomy** option enables you to request that another taxa is added to the taxonomy database (in the event that your submission includes a taxa that is not currently included). The **Studies Report** option allows you to review and edit previously submitted samples.
+* **Samples (Label 3 in the above figure)**: All related options are coloured green. The **Register Samples** option allows you to select and customise a sample checklist, download a template spreadsheet, and then upload a completed spreadsheet in order to register your samples. The **Register Taxonomy** option enables you to request that another taxa is added to the taxonomy database (in the event that your submission includes a taxa that is not currently included). The **Studies Report** option allows you to review and edit previously submitted samples.
 
-* **Raw Reads (Experiments and Runs) (Label 4 in the above figure)**: All related options are coloured orange. The **Submit reads** option enables you to select a type of read data, download an appropriate template spreadsheet, and then re-upload a completed spreadsheet to register your read data. The **Submit XMLs** interface enables experiments and runs to be submitted in XML format. The **Runs Report** option allows you to review and edit previously submitted runs and experiments. The **Run Files Report** option allows you to review the status of files associated with previously submitted runs. The **Run Processing Report** option allows you to review the processing status of files associated with previously submitted runs. The **Unsubmitted Files Report** option allows you to review the status of unsubmitted files (before you can submit a run file, you must upload it to your accounts FTP area, and these are considered 'unsubmitted').
+* **Raw Reads (Experiments and Runs) (Label 4 in the above figure)**: All related options are coloured orange. The **Submit reads** option enables you to select a type of read data, download an appropriate template spreadsheet, and then upload a completed spreadsheet to register your read data. The **Submit XMLs** interface enables experiments and runs to be submitted in XML format. The **Runs Report** option allows you to review and edit previously submitted runs and experiments. The **Run Files Report** option allows you to review the status of files associated with previously submitted runs. The **Run Processing Report** option allows you to review the processing status of files associated with previously submitted runs. The **Unsubmitted Files Report** option allows you to review the status of unsubmitted files (before you can submit a run file, you must upload it to your accounts FTP area, and these are considered 'unsubmitted').
 
 * **Data Analyses (Label 5 in the above figure)**: All related options are coloured blue. The **Create annotated sequence spreadsheet** option allows you to select, download, and customise a template that can be used to make a submission via Webin-CLI. The **Submit XMLs** interface enables analyses to be submitted in XML format. The **Analyses Report** option enables you to review and edit previously submitted analyses. The **Analysis File Report** option enables you to review the status of files associated with previously submitted analyses. The **Analysis Processing Report** option enables you to review the processing status of files associated with previously submitted analyses.
 
@@ -125,21 +125,21 @@ Before registering the samples, you must prepare the spreadsheets for submission
 
 The information that you need to provide will differ dependent on e.g. the type of sampling done. Some fields are mandatory, whilst others are recommended or optional (summarised in the below image). The ENA provides a virus pathogen metadata checklist ([ERC000033](https://www.ebi.ac.uk/ena/browser/view/ERC000033)) that should be used as guidance for the submission of samples for SARS-CoV2.
 
-  <div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="False" aria-controls="collapseExample">
+<div class="text-center">
+  <img src="/img/ena_tutorial/Register_sample_metadata_opt.png" height="400" class="rounded">
+</div>
+
+*The above image is adapted from one produced by Sam Holt for the ENA Facility Day 2020.*
+
+<div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#mandatorycollapse" aria-expanded="False" aria-controls="mandatorycollapse">
     Click here for how to deal with mandatory fields for which you have no data
-  </button>
-  </div>
-<div class="collapse" id="collapseExample">
+</button>
+</div>
+<div class="collapse" id="mandatorycollapse">
   <div class="card card-body">
         <span>Some metadata fields are mandatory. However, in some cases, data for these fields is unavailable for some reason. This will not prevent submission, but any such missing data must be reported appropriately in ENA. In order to do this, users should fill the respective fields using the appropriate INSDC-approved term, which are used to indicate not only that data is missing, but also why. For more information about reporting missing metadata values and the INSDC-approved terms that can be used, see <a href="https://ena-docs.readthedocs.io/en/latest/submit/samples/missing-values.html?highlight=insdc%20missing#reporting-missing-values">here</a>. </span>
   </div>
 </div>
-
-<div class="text-center">
-  <img src="/img/ena_tutorial/Register_sample_metadata_opt.png" height="500" class="rounded">
-</div>
-
-*The above image is adapted from one produced by Sam Holt for the ENA Facility Day 2020.*
 
 ### Submit samples
 
@@ -153,7 +153,7 @@ Both of the above options lead to the same place, which gives two options: (1) D
 
 Select the latter and upload the filled sample template that you made when [preparing your submission](/support_services/tutorial_ena/tutorial_ena_subprep). Click on **Submit Completed Spreadsheet**, verify that the submission was successful in the pop-up Submission window, and then click **Close**.
 
-**Note:** Example data for three samples is provided in the 'data/samples/' folder of the example data provided with this tutorial in both .xlsx and .tsv formats. 'Sample_spreadsheet.xlsx' is annotated such that different features are colour coded, and important features are highlighted. 'Sample_spreadsheet.tsv' contains the same data in a tab-separated format, which is the format accepted for submission. Each row of these datasets represents a sample, while each column represents a metadata field.
+**Note:** Example data for three samples is provided in the 'data/samples/' folder of the example data provided with this tutorial in both .xlsx and .tsv formats. 'sample_spreadsheet.xlsx' is annotated such that different features are colour coded, and important features are highlighted. 'sample_spreadsheet.tsv' contains the same data in a tab-separated format, which is the format accepted for submission. Each row of these datasets represents a sample, while each column represents a metadata field.
 
 <!-- Should we link the xlsx/tsv file again here? are they called this? do we provide the tsv format somewhere? - YVONNE/PARUL, please check-->
 
@@ -165,7 +165,7 @@ Select the latter and upload the filled sample template that you made when [prep
 
 <!-- LIANE - MORE INPUT IS NEEDED HERE FROM 03-submit-raw-reads -->
 
-### Submitting raw reads
+### Submit raw reads
 
 #### Explore the example data
 
@@ -354,4 +354,4 @@ Once the submitted sequence assemblies have been processed, they will be distrib
 
 Upon generation of the EMBL file, sequences also acquire a sequence accession number. This accession number will comprise of 2 upper case letters followed by 6 numbers, e.g. [LR991698](https://www.ebi.ac.uk/ena/browser/api/embl/LR991698.2?lineLimit=1000).
 
-Please note that for each assembly submission, Webin will report a unique accession number (which will start with ERZ). For most assemblies, this accession number is for internal processing only and will not be visible in the browser. Please notes that for SARS-CoV-2 assemblies, the sequence acession numbers will continue to be assigned. Additionally, the ERZ records will also be available in the browser to provide a point of access for the submitted file(s).
+For each assembly submission, Webin will report a unique accession number (starting with ERZ). For most assemblies, this number is only used for internal processing and will not be visible in the browser. However, for SARS-CoV-2 assemblies, the ERZ records will also be available in the browser to provide a point of access for the submitted file(s).

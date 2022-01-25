@@ -42,7 +42,7 @@ toc : true
 
 ### Why should I submit sequences?
 
-The availability of sequence data has been crucial in tracking the spread of variants, the identification of new variants, and understanding the relative risk to public health posed by different variants. This information is crucial in the development of policies to prevent the spread of the virus (e.g. face mask mandates, travel restrictions), the allocation of public resources (e.g. healthcare resources), and the development and deployment if vaccines, treatments, and tests.
+The availability of sequence data has been vital for tracking the spread of variants, the identification of new variants, and understanding the relative risk to public health posed by different variants. If sequences had not been made available, it would have hindered efforts to fight the pandemic. Specifically, it would have been more difficult to develop effective policies to prevent the spread of the virus (e.g. face mask mandates, travel restrictions), to appropriately allocate public resources (e.g. healthcare resources), and to develop and deploy vaccines, treatments, and tests.
 
 By making sequences openly available, and adhering to the FAIR principles (see below) when submitting data, you enable others to reuse your data and thus make a significant contribution to COVID-19 research efforts and thus in fighting the pandemic.
 
@@ -60,15 +60,15 @@ There are two main international databases in which COVID-19 sequences have been
 
 So, which should you use? We actually recommend that you submit sequences to both databases where possible (see [information in the Introduction tab](/support_services/tutorial_ena/tutorial_ena_intro) for details), as they each offer relative advantages for research compared to the other. In some cases though, this may not be possible. For example, GISAID only accepts assemblies reflecting a consensus sequence, whereas ENA accepts both 'raw sequences' and assemblies. Thus, in the case of 'raw' sequence data, please submit to ENA.
 
-Work is ongoing to streamline submitting sequences to both databases. Ultimately, we aim to make it just as easy to submit to both databases as it is to submit to just one.
+Work is ongoing to streamline the process for submitting sequences to both databases. Ultimately, we hope to make it as easy to submit to both databases as it is to submit to just one.
 
 ### Who owns/runs ENA?
 
-The ENA is a core data resource of ELIXIR (the European life-sciences Infrastructure for biological Information). See [here](https://elixir-europe.org/platforms/data/core-data-resources) for more information about what this means.
+ENA is maintained by [EMBL-EBI](https://www.ebi.ac.uk/about), and is a core data resource of ELIXIR (the European life-sciences Infrastructure for biological Information). See [here](https://elixir-europe.org/platforms/data/core-data-resources) for more information about what this means.
 
 ### Is submitting to ENA secure?
 
-Whilst it is considered openly available, access to data submitted to GISAID is restricted to those with verified accounts. Access to data submitted to ENA is not subject to similar restrictions. Some submitted are therefore concerened that submissions to ENA are somehow less secure. This is not the case though. To access data in GISAID, users must agree to their [terms of use](https://www.gisaid.org/registration/terms-of-use/). This could essentially be considered a licence for use, similar to that used for other types of data (e.g. an MIT licence). ENA can therefore be considered to have a 'more open' licence, which involves fewer restrictions. In theory, the same users can access data in both databases. The differences are simply e.g. GISAID data cannot be shared as freely as that in ENA. Note also, that data in GISAID could also be submitted to ENA.
+Whilst it is considered openly available, access to data submitted to GISAID is restricted to those with verified accounts. Access to data submitted to ENA is not subject to similar restrictions. Some submitters are therefore concerened that submissions to ENA are somehow less secure. This is not the case though. To access data in GISAID, users must agree to their [terms of use](https://www.gisaid.org/registration/terms-of-use/). This could essentially be considered a licence for use, similar to that used for other types of data (e.g. an MIT licence). ENA can therefore be considered to have a 'more open' licence, which involves fewer restrictions. In theory, the same users can access data in both databases, the difference is that GISAID data cannot be shared as freely as ENA data. In addition, data in GISAID could also be submitted to ENA.
 
 ### Can I get help submitting my data to ENA?
 

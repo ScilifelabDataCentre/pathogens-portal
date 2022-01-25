@@ -82,7 +82,7 @@ In order to ensure that your SARS-CoV-2 data is properly described, we recommend
 
 <!-- this is not true, it is only in the sample sheet that the checklist applies, so perhaps rephrase? -->
 <!-- I have tried to rephrase the below based on the above comment, please check -->
-In the sample sheet, the first row is the **ENA virus sample checklist field**, the second row is the **ENA definition** (provides a description of the field), and the third row is **ENA requirement status** (whether the field is mandatory, recommended or optional). When you populate the sheet with your metadata, you can delete the second and third row. The default values for SARS-CoV2 submissions are pre-filled (in red) for relevant fields.
+In the sample sheet, the first row is the **ENA virus sample checklist field**, the second row is the **ENA definition** (provides a description of the field), and the third row is **ENA requirement status** (whether the field is mandatory, recommended or optional). When you populate the sheet with your metadata, you can delete the second and third row. The default values for SARS-CoV2 submissions are pre-filled (in red) for relevant fields. Some fields have controlled vocabulary, which are available in the template as drop-down lists (the lists become visible when you click on a cell).
 
 For your convenience, we also provide [this pre-filled version of the metadata template](/ENA_tutorial_data/metadata_template_ERC000033_filled.xlsx), so that you can see how the template should be populated for use with the example data. This can also help with understanding how to fill in such a template for your own data.
 

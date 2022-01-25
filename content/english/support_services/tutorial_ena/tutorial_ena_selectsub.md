@@ -42,9 +42,9 @@ toc : true
 
 There are multiple ways to submit data and sequences into ENA. In order to do a submission of of 'raw' sequences and/or assemblies, you need to use a combination of interactive interfaces in ENA, command-line based software, and APIs for scripts/custom software. The prospect of using multiple tools and determining which tools are better to use for a given part of a submission can seem daunting, especially if you are unfamiliar with the tools. In this tutorial, we have devised two submission 'routes' that enable you to do a complete submission, and explain how to to use the tools. Which route will work best for you will depend on your comfort with using the different tools provided by ENA and the size of your submission (i.e. the number of sequences included).
 
-On this page, we first briefly [summarise how ENA refers to different submission methods](/support_services/tutorial_ena/tutorial_ena_selectsub/#submission-methods-described-by-ena). Understanding the descriptions of methods used by ENA will be useful when referencing any resources that they have produced.
+On this page, we first briefly summarise how ENA refers to [different submission methods](/support_services/tutorial_ena/tutorial_ena_selectsub/#submission-methods-described-by-ena). Understanding the descriptions of methods used by ENA will be useful when referencing any resources that they have produced.
 
-Then, we [describe the two routes of submission that we recommend and explain how to choose between them](/support_services/tutorial_ena/tutorial_ena_selectsub/#submission-routes-devised-for-this-tutorial).
+Then, we describe the [two routes of submission](/support_services/tutorial_ena/tutorial_ena_selectsub/#submission-routes-devised-for-this-tutorial) that we recommend and explain how to choose between them.
 
 ## Submission methods described by ENA
 
@@ -60,12 +60,12 @@ ENA described three methods of submission, none of which can be used in isolatio
 
 As mentioned above, a combination of these methods is needed to complete a submission. The methods can be combined in multiple ways, but certain combinations will work better in particular situations. We have developed two 'routes' of submission that comprise two different combinations of methods. Users can chose the route that is most likely to suit their needs:
 
-Choose [Route 1](/support_services/tutorial_ena/tutorial_ena_subroute1) if:
+Choose [**Route 1**](/support_services/tutorial_ena/tutorial_ena_subroute1) if:
 
 * You have little to no knowledge of using command line tools.
 * You are submitting a small number of sequences (typically one to ten, but could be used for more).
 
-Choose [Route 2](/support_services/tutorial_ena/tutorial_ena_subroute2) if:
+Choose [**Route 2**](/support_services/tutorial_ena/tutorial_ena_subroute2) if:
 
 * You have advanced knowledge of using command line tools.
 * You are doing a bulk submission of sequences (typically more than 50).
