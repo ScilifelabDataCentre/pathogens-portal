@@ -1,5 +1,5 @@
-FROM klakegg/hugo:0.83.1-onbuild AS build
+FROM klakegg/hugo:0.91.2-onbuild AS build
 
-FROM nginx:1.21-alpine
+FROM nginx:alpine
 COPY Dockerfiles/default.conf /etc/nginx/conf.d/default.conf
 COPY --from=build /target /usr/share/nginx/html
