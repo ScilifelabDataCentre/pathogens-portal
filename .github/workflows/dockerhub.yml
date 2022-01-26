@@ -1,8 +1,7 @@
+---
 name: Publish Docker image
 on:
   push:
-    branches:
-      - develop
   release:
     types: [published]
 jobs:
@@ -26,4 +25,4 @@ jobs:
           file: Dockerfiles/Dockerfile
           context: .
           push: true
-          tags: scilifelabdatacentre/covid-portal:develop
+          tags: scilifelabdatacentre/covid-portal:${{ steps.docker-tag.outputs.tag }}
