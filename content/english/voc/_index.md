@@ -170,7 +170,6 @@ A67V, Δ69-70, T95I, G142D, Δ143-145, Δ211, ins214EPE, G339D, S371L, S373P, S3
 * We provide more details in the [Omicron tab of this page](/omicron).
 * For more information about SARS-CoV-2 Omicron variant, see [this Italian Covid-19 Data Portal highlight (2021-12-02)](https://www.covid19dataportal.it/highlights/highlight34/).
 
-
 ## Exploring the variants present in Sweden in detail
 
 #### Nextstrain as a tool
