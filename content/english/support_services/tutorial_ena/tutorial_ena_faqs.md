@@ -2,7 +2,7 @@
 title: Tutorial for SARS-CoV-2 genome data submission to ENA
 menu:
     main:
-        identifier: tutorial_ena_FAQs
+        identifier: tutorial_ena_faqs
         parent: support_services
         weight: 20
         pre: <i class="fas fa-share-alt"></i>
