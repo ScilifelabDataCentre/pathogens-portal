@@ -90,6 +90,7 @@ Here we list a number of useful resources related to the new *SARS-CoV-2 Omicron
 - [Ontario COVID-19 Dashboard: Tracking Omicron](https://covid19-sciencetable.ca/ontario-dashboard/)
 - [ESCMID Urgent update on Omicron SARS-CoV-2 variant, 2021-12-22](https://eacademy.escmid.org/escmid/2021/covid-19-webinars/348220/)
 - [Statens Serum Institut: Antigen tests can detect new variants, 2022-01-07](https://www.ssi.dk/aktuelt/nyheder/2022/antigentest-undersoger-for-varianter)
+- [Nextstrain: Phylogenetic analysis of SARS-CoV-2 clusters in their international context - cluster DanishCluster](https://nextstrain.org/groups/neherlab/ncov/DanishCluster)
 
 ## Get in touch with us
 

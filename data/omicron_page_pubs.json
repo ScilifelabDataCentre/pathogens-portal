@@ -362,5 +362,77 @@
     "journal": "Science",
     "preprint": "N",
     "first_pub_date": "2022-01-20"
+  },
+  {
+    "doi": "10.1016/j.antiviral.2022.105253",
+    "authors": "Rana Abdelnabi, Caroline S Foo, Xin Zhang, Viktor Lemmens, Piet Maes, Bram Slechten, Joren Raymenants, Emmanuel André, Birgit Weynand, Kai Dallemier, Johan Neyts",
+    "publication_year": 2022,
+    "title": "The omicron (B.1.1.529) SARS-CoV-2 variant of concern does not readily infect Syrian hamsters",
+    "journal": "Antiviral Research",
+    "preprint": "N",
+    "first_pub_date": "2022-01-21"
+  },
+  {
+    "doi": "10.1016/S0140-6736(22)00017-4",
+    "authors": "Nicole Wolter, Waasila Jassat, Sibongile Walaza, Richard Welch, Harry Moultrie, Michelle Groome, Daniel Gyamfi Amoako, Josie Everatt, Jinal N Bhiman, Cathrine Scheepers, Naume Tebeila, Nicola Chiwandire, Mignon du Plessis, Nevashan Govender, Arshad Ismail, Allison Glass, Koleka Mlisana, Wendy Stevens, Florette K Treurnicht, Zinhle Makatini, Nei-Yuan Hsiao, Raveen Parboosing, Jeannette Wadula, Hannah Hussey, Mary-Ann Davies, Andrew Boulle, Anne von Gottberg, Cheryl Cohen",
+    "publication_year": 2022,
+    "title": "Early assessment of the clinical severity of the SARS-CoV-2 omicron variant in South Africa: a data linkage study",
+    "journal": "The Lancet",
+    "preprint": "N",
+    "first_pub_date": "2022-01-19"
+  },
+  {
+    "doi": "10.1016/S0140-6736(22)00092-7",
+    "authors": "Mary Wu, Emma C Wall, Edward J Carr, Ruth Harvey, Hermaleigh Townsley, Harriet V Mears, Lorin Adams, Svend Kjaer, Gavin Kelly, Scott Warchal, Chelsea Sawyer, Caitlin Kavanagh, Christophe J Queval, Yenting Ngai, Emine Hatipoglu, Karen Ambrose, Steve Hindmarsh, Rupert Beale, Steve Gamblin, Michael Howell, George Kassiotis, Vincenzo Libri, Bryan Williams, Sonia Gandhi, Charles Swanton, David Lv Bauer",
+    "publication_year": 2022,
+    "title": "Three-dose vaccination elicits neutralising antibodies against omicron",
+    "journal": "The Lancet",
+    "preprint": "N",
+    "first_pub_date": "2022-01-19"
+  },
+  {
+    "doi": "10.1016/j.chom.2021.12.005",
+    "authors": "Chun-Yang Lin, Joshua Wolf, David C Brice, Yilun Sun, Macauley Locke, Sean Cherry, Ashley H Castellaw, Marie Wehenkel, Jeremy Chase Crawford, Veronika I Zarnitsyna, Daniel Duque, Kim J Allison, E Kaitlynn Allen, Scott A Brown, Alexandra H Mandarano, Jeremie H Estepp, SJTRC Study Team; Charles Taylor, Carmen Molina-Paris, Stacey Schultz-Cherry, Li Tang, Paul G Thomas, Maureen A McGargill",
+    "publication_year": 2021,
+    "title": "Pre-existing humoral immunity to human common cold coronaviruses negatively impacts the protective SARS-CoV-2 antibody response",
+    "journal": "Cell Host Microbe",
+    "preprint": "N",
+    "first_pub_date": "2021-12-06"
+  },
+  {
+    "doi": "10.1101/2022.01.24.22269666",
+    "authors": "Bethany Girard, Joanne Tomassini, Weiping Deng, Maha Maglinao, Honghong Zhou, Amparo Figueroa, Sabine Schnyder Gamloush, David C Montefiori, Rituparna Das, Rolando Pajon",
+    "publication_year": 2022,
+    "title": "mRNA-1273 Vaccine-elicited Neutralization of SARS-CoV-2 Omicron in Adolescents and Children",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "first_pub_date": "2022-01-25"
+  },
+  {
+    "doi": "10.1101/2022.01.22.22269660",
+    "authors": "Chrispin Chaguza, Andreas Coppi, Rebecca Earnest, David Ferguson, Nicholas Kerantzas, Frederick Warner, H. Patrick Young, Mallery I. Breban, Kendall Billig, Robert Tobias Koch, Kien Pham, Chaney C. Kalinich, Isabel M. Ott, Joseph R. Fauver, Anne M. Hahn, Irina R. Tikhonova, Christopher Castaldi, Bony De Kumar, Christian M. Pettker, Joshua L. Warren, Daniel M. Weinberger, Marie L. Landry, David R. Peaper, Wade Schulz, Chantal B.F. Vogels, Nathan D. Grubaugh",
+    "publication_year": 2022,
+    "title": "Rapid emergence of SARS-CoV-2 Omicron variant is associated with an infection advantage over Delta in vaccinated persons",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "first_pub_date": "2022-01-25"
+  },
+  {
+    "doi": "10.1101/2022.01.20.22269406",
+    "authors": "Andre Peralta Santos, Pedro Pinto Leite, Pedro Casaca, Eugenia Fernandes, Eduardo Freire Rodrigues, Joana Moreno, Vasco Ricoca,  View ORCID ProfileJoao Paulo Gomes, Rita Ferreira, Joana Isidro, Miguel Pinto, Vitor Borges, Luis Vieira, Silvia Duarte, Carlos Sousa, Luis Menezes, Joao Pedro Almeida, Bibiana Ferreira, Ana Matias, Ana Pelorito, Samanta Freire, Teresa Grilo, Claudia Medeiro Borges, Vera Moutinho, Irina Kislaya, Ana Paula Rodrigues, Andreia Leite, Baltazar Nunes",
+    "publication_year": 2022,
+    "title": "Omicron (BA.1) SARS-CoV-2 variant is associated with reduced risk of hospitalization and length of stay compared with Delta (B.1.617.2)",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "first_pub_date": "2022-01-25"
+  },
+  {
+    "doi": "10.1101/2022.01.25.22269735",
+    "authors": "Koichi Furukawa, Lidya Handayani Tjan, Yukiya Kurahashi, Silvia Sutandhio, Mitsuhiro Nishimura, Yasuko Mori",
+    "publication_year": 2022,
+    "title": "Acquired neutralizing breadth against SARS-CoV-2 variants including Omicron after three doses of mRNA COVID-19 vaccination and the vaccine efficacy",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "first_pub_date": "2022-01-25"
   }
 ]
