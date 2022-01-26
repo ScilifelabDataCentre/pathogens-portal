@@ -50,11 +50,17 @@ In order to do a submission, you need an account in ENA. To create an account, p
 
 *Login page on the ENA submission homepage:*
 
+<br>
+
 <div class="text-center">
   <img src="/img/ena_tutorial/ENA_login_startpage.png" height="350" class="rounded">
 </div>
 
+<br>
+
 *Enter account details to obtain an account in ENA:*
+
+<br>
 
 <div class="text-center">
   <img src="/img/ena_tutorial/ENA_login_detailspage.png" height="500" class="rounded">

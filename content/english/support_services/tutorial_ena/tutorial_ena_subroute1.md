@@ -68,10 +68,15 @@ The Webin command line submission interface (Webin-CLI) is used to validate, upl
 
 The Webin submission portal will be required to complete a Route 1 submission. You will need an account to access the portal. You can register for an account [here](https://www.ebi.ac.uk/ena/submit/webin/accountInfo). After logging in, you will see the landing page (shown below) that includes multiple options for completing your submission. In this section, you can get more information on what each of the options do. The options that you will need to complete a submission using Route 1 are explained in the subsequent sections of this page.
 
+<br>
+
 <div class="text-center">
   <img src="/img/ena_tutorial/ENA_landing_page.png" height="400" class="rounded">
 </div>
-  <div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="False" aria-controls="collapseExample">
+
+<br>
+
+<div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="False" aria-controls="collapseExample">
     Click here for more details on the different sections of the portal indicated in the above image
   </button>
   </div>
@@ -101,19 +106,29 @@ You can gain more information about how to use the options to complete the funct
 
 First, log in to the [Webin submission portal test service](https://wwwdev.ebi.ac.uk/ena/submit/webin) with your Webin username and password. In the top left of the welcome page, there is a Dashboard menu that expands when you click on it. Click it and select **Register Study (Project)** (as shown in the first picture below), or click on the **Register Study** option in the **Studies (Projects)** section on the landing page (studies options are shown in yellow in the second image below).
 
+<br>
+
 <div class="text-center">
   <img src="/img/ena_tutorial/Step1_register_study.png" height="400" class="rounded">
 </div>
+
+<br>
 
 <div class="text-center">
   <img src="/img/ena_tutorial/Step1_register_study_picb.png" height="400" class="rounded">
 </div>
 
+<br>
+
 Second, enter the details of the project, such as title and description. Asterisks (*) denote mandatory fields. The 'Release date' is the date that the record should become publicly available. This can be updated later, so if you are unsure on a precise date, you can provide an estimated date. If you do this though, please remember to update it accordingly.
+
+<br>
 
 <div class="text-center">
   <img src="/img/ena_tutorial/Step2_register_study.png" height="400" class="rounded">
 </div>
+
+<br>
 
 Lastly, click **Submit**. A pop-up window will appear, check that the submission was successful by reading the content of the window, then click **Close**.
 
@@ -147,23 +162,25 @@ You can register samples either by clicking on the Dashboard menu (top left of t
 
 Both of the above options lead to the same place, which gives two options: (1) Download spreadsheet to register samples, and (2) Upload filled spreadsheet to register samples.
 
+<br>
+
 <div class="text-center">
   <img src="/img/ena_tutorial/Register_sample_options.png" height="250" class="rounded">
 </div>
+
+<br>
 
 Select the latter and upload the filled sample template that you made when [preparing your submission](/support_services/tutorial_ena/tutorial_ena_subprep). Click on **Submit Completed Spreadsheet**, verify that the submission was successful in the pop-up Submission window, and then click **Close**.
 
 **Note:** Example data for three samples is provided in the 'data/samples/' folder of the example data provided with this tutorial in both .xlsx and .tsv formats. 'sample_spreadsheet.xlsx' is annotated such that different features are colour coded, and important features are highlighted. 'sample_spreadsheet.tsv' contains the same data in a tab-separated format, which is the format accepted for submission. Each row of these datasets represents a sample, while each column represents a metadata field.
 
-<!-- Should we link the xlsx/tsv file again here? are they called this? do we provide the tsv format somewhere? - YVONNE/PARUL, please check-->
+<br>
 
 <div class="text-center">
   <img src="/img/ena_tutorial/Register_sample_success.png" height="500" class="rounded">
 </div>
 
-<!-- LIANE - END OF 02-register-samples -->
-
-<!-- LIANE - MORE INPUT IS NEEDED HERE FROM 03-submit-raw-reads -->
+<br>
 
 ### Submit raw reads
 

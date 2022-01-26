@@ -57,11 +57,7 @@ Before commencing with the submission, the following things are required:
 
 All of the data required to complete this submission can be downloaded together in a single zip file by clicking [here](/ENA_tutorial_data/example_data.zip). In this part of the tutorial, we will make use of the information in the '02-route' and 'data' subfolders.
 
-<!-- changed the above to 'data' subfolder because that's what it looks like when I download it (LH)-->
-
-<!-- LIANE/YVONNE: remember to check whether you need to unzip in Windows (use same file for both routes, so check both)- you don't need to for Mac-->
-
-**Note:** If you use your own data, you can fill in the metadata template, for instructions on how to do this please see [this section in the preparation for submissions tab](/support_services/tutorial_ena/tutorial_ena_subprep/#preparing-the-metadata). <!-- We should just double check this link works in the portal (we will check them all anyway)-->
+**Note:** If you use your own data, you can fill in the metadata template, for instructions on how to do this please see [this section in the preparation for submissions tab](/support_services/tutorial_ena/tutorial_ena_subprep/#preparing-the-metadata).
 
 ### Create checksums (MD5)
 
@@ -128,8 +124,6 @@ For other options to upload, more detailed instructions, or troubleshooting, ple
 
 **Note**: Always keep a local copy of the uploaded files until the files have been successfully submitted and archived. The ENA dropbox is a temporary transit area and is not backed up.
 
-<!-- LIANE FILE 01 STARTS HERE!-->
-
 ## How to do a route 2 submission
 
 ### Register a study
@@ -153,8 +147,6 @@ Edit *project.xml* to create a project alias that is unique to you. Once complet
 After you run the above command in your command prompt, you will receive a ‘receipt.xml’ file. This file will contain information about the contents and success of your submission, as well as your study accession.
 
 The attribute 'success' in the receipt file will have a value of either true or false. If the value is false, it indicates that submission was unsuccessful. In this case, please check the rest of the receipt file for error messages. When you have resolved the errors indicated, you can try the submission again. If the value is true, then it indicates that the submission was successful. The receipt will contain the accession number of the study metdata object that you submitted. The accession number generated will be the one you will include in a publication. Please take note of your study accession number at this stage, we will use this later to submit other objects to this study.
-
-<!-- LIANE FILE 02 STARTS HERE!-->
 
 ### Prepare information for samples
 
@@ -201,8 +193,6 @@ Sometimes, previously uploaded metadata needs to be updated. You can do this by 
 
 Check the receipt file to see whether your update was successful. Note that the receipt file will also report which samples have not been updated.
 
-<!-- LIANE FILE 03 STARTS HERE!-->
-
 ### Submit raw reads
 
 As in all previous steps, this type of submission is performed using XML files. In the case of raw reads, we must submit two types of object: experiments and runs. Experiments hold information about library preparation and sequencing protocols, and also provide a link to the appropriate study and samples. Runs simply link experiments and data files.
@@ -227,8 +217,6 @@ We will send these XML files to the test service using cURL with the following c
 `curl -u username:password -F "SUBMISSION=@submission.xml" -F "EXPERIMENT=@experiments.xml" -F "RUN=@runs.xml" "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"`
 
 For additional information, please see [this section of the documentation from ENA](https://ena-docs.readthedocs.io/en/latest/submit/reads/programmatic.html).
-
-<!-- LIANE FILE 04 STARTS HERE!-->
 
 ### Validate and submit sequence assemblies
 
