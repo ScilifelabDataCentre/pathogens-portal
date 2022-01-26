@@ -107,7 +107,7 @@ For full definitions and table of current **VOCs**, **VOIs**, and **VUMs** see [
       <tr>
         <td>Current VOC</td>
         <td>Omicron</td>
-        <td>21K</td>
+        <td>21K, 21L, 21M</td>
         <td>B.1.1.529</td>
         <td>South Africa and Botswana, Nov 2021</td>
       </tr>
@@ -162,12 +162,14 @@ For full definitions and table of current **VOCs**, **VOIs**, and **VUMs** see [
 * [WHO](https://www.who.int/news/item/26-11-2021-classification-of-omicron-(b.1.1.529-sars-cov-2-variant-of-concern)) declared Omicron to be a Variant of Concern (VOC), on 26th November 2021.
 * The variant is characterised by 30 changes, including three small deletions and one small insertion in the spike protein. Fifteen of the changes are found in the receptor binding domain. The changes include:
 A67V, Δ69-70, T95I, G142D, Δ143-145, Δ211, ins214EPE, G339D, S371L, S373P, S375F, K417N, N440K, G446S, S477N, T478K, E484A, Q493R, G496S, Q498R, N501Y, Y505H, T547K, D614G, H655Y, N679K, P681H, N764K, D796Y, N856K, Q954H, N969K, L981F [ECDC, 2021](https://www.ecdc.europa.eu/sites/default/files/documents/threat-assessment-covid-19-emergence-sars-cov-2-variant-omicron-december-2021.pdf).
+* Currently, three subvariants of SATS-CoV-2 Omicron VoC are described: BA.1, BA.2 and BA.3. The most common one worldwide is BA.1, it accounts for most of Omicron VoC cases. However, Scandinavia BA.2 is spreading fast at this point ([Statens Serum Institute, 2022-01-20](https://en.ssi.dk/news/news/2022/omicron-variant-ba2-accounts-for-almost-half-of-all-danish-omicron-cases).
 * This variant was first detected in Sweden in Dec 2021.
 * Few publications are available to date (less than 25 in PubMed and around 20 in the largest pre-print servers (as of 2021-12-13)).
 * There is evidence of an impact on *host immunity* [Pulliam et al. 2021](https://doi.org/10.1101/2021.11.11.212660689). Further, a preliminary result by ([Cele et al](https://www.medrxiv.org/content/10.1101/2021.12.08.21267417v1)) showed a reduction in the neutralisation capacity of antibodies resulting from vaccination compated to other SARS CoV-2 variants.
 * Preliminary results from a Swedish cohort study comprising of random blood donors (N=17) state that the mean fold-reduction was around 7, indicating that Omicron has an increased capacity for neutralisation compared to the Delta variant. This infromation was presented on Twitter by [Ben Murrell (@BenjMurrell, 2021-12-07)](https://twitter.com/BenjMurrell/status/1468341478363746310), was referenced in [Nature News](https://www.nature.com/articles/d41586-021-03672-3), and made available as a pre-print [Steward et al. 2021](https://drive.google.com/file/d/1CuxmNYj5cpIuxWXhjjVmuDqntxXwlfXQ/view).
 * We provide more details in the [Omicron tab of this page](/omicron).
 * For more information about SARS-CoV-2 Omicron variant, see [this Italian Covid-19 Data Portal highlight (2021-12-02)](https://www.covid19dataportal.it/highlights/highlight34/).
+
 
 ## Exploring the variants present in Sweden in detail
 
