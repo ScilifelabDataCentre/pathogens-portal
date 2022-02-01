@@ -104,7 +104,7 @@ You can gain more information about how to use the options to complete the funct
 
 ### Register a study (project)
 
-First, log in to the [Webin submission portal test service](https://wwwdev.ebi.ac.uk/ena/submit/webin) with your Webin username and password. In the top left of the welcome page, there is a Dashboard menu that expands when you click on it. Click it and select **Register Study (Project)** (as shown in the first picture below), or click on the **Register Study** option in the **Studies (Projects)** section on the landing page. The options for 'Study' are shown in yellow on the welcome page - see label 2 in the above image and refer to the second image below for a more 'zoomed in' image of the options.
+First, log in to the [Webin submission portal test service](https://wwwdev.ebi.ac.uk/ena/submit/webin) with your Webin username and password. In the top left of the welcome page, there is a Dashboard menu that expands when you click on it. Click it and select **Register Study (Project)** (as shown in the first picture below), or click on the **Register Study** option in the **Studies (Projects)** section on the landing page. The options for 'Study' are shown in yellow on the welcome page. See label 2 in the image above to determine where the 'Study' options are on the welcome page, and refer to the second image below for a more 'zoomed in' image of the options.
 
 <br>
 
