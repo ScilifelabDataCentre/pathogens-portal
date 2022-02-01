@@ -12,6 +12,7 @@ menu:
 
 * [**Submitting data and data management planning**](submit)
 * [Bioinformatics & Data Management](bioinformatics)
+* [Submitting Data to ENA](tutorial_ena/tutorial_ena_intro)
 * [General data repository](general_data_repository)
 * [Resources](resources)
 * [Text and literature](text_and_literature)
