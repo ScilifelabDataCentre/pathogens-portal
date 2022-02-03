@@ -106,7 +106,7 @@ Again, please note that these percentage values will differ from those calculate
 
 We constructed the below heatmap to show how the relative numbers of people vaccinated differs according to age. Unsurprisingly, the more advanced age groups tend to have higher levels of vaccination for each dose, as they are given access at an earlier stage.
 
-Data is available for individuals born in or before 2003 (i.e. at least 18-19 years old) for the first and second vaccine doses (available in the 'Vaccinerade ålder' tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)), and for people born in or before 2009 (i.e. at least 12-13 years old) for the third dose (available in the 'Dos 3 per åldersgrupp' tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)). In this case, we have not performed any recalculation, so the numbers are the same as those provided by FoHM.
+Data is available for individuals born in or before 2009 (i.e. at least 12-13 years old) for the first and second vaccine doses (available in the 'Vaccinerade ålder' tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)), and for people born in or before 2003 (i.e. at least 18-19 years old) for the third dose (available in the 'Dos 3 per åldersgrupp' tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)). In this case, we have not performed any recalculation, so the numbers are the same as those provided by FoHM.
 
 **Note about the heatmap:** A white colouration indicates that no data is available for that age group.
 
