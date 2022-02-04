@@ -14,7 +14,7 @@ type: data_table
 datatypes_to_display:
 - "Category: Biochemistry"
 ---
-###### See also: [Guidelines for submitting biochemistry data](../guidelines) | [Services: biochemistry data](../services)
+###### See also: [Services: biochemistry data](../services)
 
 ## Published Data
 
