@@ -13,5 +13,4 @@ Genomics and transcriptomics refers to the study of DNA and RNA, typically using
 To find out more, please visit the following pages:
 
 * [Published data](data)
-* [Guidelines for data producers](guidelines)
 * [Services for researchers](services)

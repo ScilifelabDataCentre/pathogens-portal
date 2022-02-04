@@ -15,7 +15,7 @@ datatypes_to_display:
 - "Category: Imaging"
 ---
 
-###### See also: [Guidelines for submitting imaging data](../guidelines) | [Services: imaging data](../services)
+###### See also: [Services: imaging data](../services)
 
 ## Published Data
 

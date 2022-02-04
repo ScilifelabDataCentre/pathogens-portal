@@ -11,5 +11,4 @@ menu:
 Data on compounds and targets primarily describe small molecules and their activity interacting with target molecules.
 
 * [Published data](data)
-* [Data guidelines](guidelines)
 * [Services for researchers](services)
