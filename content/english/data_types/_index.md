@@ -16,7 +16,6 @@ menu:
     * [Published data](all/data/)
 * **Biochemistry**
     * [Published data](compound_and_target_data/data/)
-    * [Guidelines for data producers](compound_and_target_data/guidelines/)
     * [Services for researchers](compound_and_target_data/services/)
 * **Drug discovery**
     * [Published data](drug_discovery/data/)
@@ -24,7 +23,6 @@ menu:
     * [The amount of SARS-CoV-2 virus in wastewater across Sweden](environment/wastewater/)
 * **Genomics &amp; transcriptomics**
     * [Published data](genomics_transcriptomics/data/)
-    * [Guidelines for data producers](genomics_transcriptomics/guidelines/)
     * [Services for researchers](genomics_transcriptomics/services/)
 * **Health data**
     * [Published data](health_data/data/)
@@ -35,11 +33,9 @@ menu:
     * [COVID Symptom Study Sweden](health_data/symptom_study_sweden/)
 * **Imaging data**
     * [Published data](imaging_data/data/)
-    * [Guidelines for data producers](imaging_data/guidelines/)
     * [Services for researchers](imaging_data/services/)
 * **Protein data**
     * [Published data](protein_data/data/)
-    * [Guidelines for data producers](protein_data/guidelines/)
     * [Services for researchers](protein_data/services/)
 * **Public health**
     * [Published data](public_health/data/)
