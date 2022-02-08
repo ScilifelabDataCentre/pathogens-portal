@@ -1,42 +1,12 @@
 ---
 title: Tutorial for SARS-CoV-2 genome data submission to ENA
+toc : false # in case of the ena tutorial pages the table of contents is inserted inside the template, ena_tutorial
+type: ena_tutorial
 menu:
-    main:
-        identifier: tutorial_ena_subprep
-        parent: support_services
-        weight: 20
-        pre: <i class="fas fa-share-alt"></i>
-toc : true
+    ena_tutorial:
+        name: Preparation for Submissions
+        weight: 30
 ---
-
-<ul class="nav nav-tabs nav-justified">
-  <li class="nav-item">
-    <a class="nav-link" href="/support_services/tutorial_ena/tutorial_ena_intro">Introduction</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/support_services/tutorial_ena/tutorial_ena_terminology">Terminology<br>and Metadata</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link active" href="#"><b>Preparation for<br>Submissions</b></a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/support_services/tutorial_ena/tutorial_ena_selectsub">Select<br>Submission Route</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/support_services/tutorial_ena/tutorial_ena_subroute1">Submission<br>Route 1</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/support_services/tutorial_ena/tutorial_ena_subroute2">Submission<br>Route 2</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/support_services/tutorial_ena/tutorial_ena_contact">Get Help</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/support_services/tutorial_ena/tutorial_ena_faqs">FAQs</a>
-  </li>
-</ul>
-
-<br>
 
 It is necessary to do some preparation of files before submission, regardless of the eventual [submission route that you select](/support_services/tutorial_ena/tutorial_ena_selectsub). This page explains how to perform these initial steps, so that you can successfully complete your submission.
 
