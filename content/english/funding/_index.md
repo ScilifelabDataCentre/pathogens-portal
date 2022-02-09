@@ -19,7 +19,7 @@ This is a list of upcoming funding opportunities offered by major funding agenci
 
 ## Open funding calls
 
-{{< funding_table topic="all" >}}
+{{< funding_table >}}
 
 ## Recurring funding calls
 

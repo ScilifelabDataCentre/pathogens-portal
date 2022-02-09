@@ -1,5 +1,5 @@
-{{/* Pick up the variable passed from the markdown file */}}
-{{ $topic_to_display := .Get "topic" }}
+{{/* If I wanted to display only particular topics, pick up the variable passed from the markdown file */}}
+{{/* $topic_to_display := .Get "topic" */}}
 
 <p><i>
    {{ cond (eq $.Site.Language.LanguageName "Svenska") "Senast uppdaterad" "Last updated" }}:
@@ -18,7 +18,6 @@
 
 
 {{ $topics := slice }}
-{{ if eq $topic_to_display "all" }}
 {{/*
   Make a list of unique topics
 */}}
@@ -27,7 +26,6 @@
     {{ $all_topics = $all_topics | append .topic }}
 {{ end }}
 {{ $topics = $all_topics | uniq }}
-{{ end }}
 
 <div class="container">
   <div class="row">
@@ -39,7 +37,6 @@
                 value="{{ . }}">{{ . }}</div>
           {{ end }}
       </div>
-      {{ if eq $topic_to_display "all"}}
       <h5>Topic</h5>
       <div class="col mb-2 ml-3 form-check">
           {{ range sort $topics }}
@@ -47,7 +44,6 @@
                 value="{{ . }}">{{ . }}</div>
           {{ end }}
       </div>
-      {{ end }}
     </div>
     <div class="col-lg">
       <div class="row">
@@ -63,6 +59,7 @@
             </thead>
             <tbody>
               {{ range $ind, $cont := $.Site.Data.funding }}
+              {{ if gt (.submission_deadline | time.Format "20060102") (now | time.Format "20060102") }}
               <tr>
                 <td>
                   <div class="row">
@@ -113,6 +110,7 @@
                 <td>{{ .funder }}</td>
                 <td>{{ range .topic }}<span class="badge badge-success">{{ . }}</span>{{ end }}</td>
               </tr>
+              {{ end }}
               {{ end }}
             </tbody>
           </table>
