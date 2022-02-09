@@ -21,7 +21,7 @@ In summary, using trans-ancestry fine-mapping, the researchers studied 20,779 ho
 
 #### Funding
 
-*A number of international funders supported this study, as well as the Jeanssons and Magnus Bergvalls Foundations  and the Swedish Research Council*
+A number of international funders supported this study, as well as the Jeanssons and Magnus Bergvalls Foundations  and the Swedish Research Council
 
 #### Data
 
