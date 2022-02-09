@@ -1,5 +1,5 @@
 ---
-title: Upcoming funding calls on COVID-19 by major Swedish funding agencies
+title: Upcoming funding calls
 toc: false
 menu:
     projects:
@@ -18,3 +18,11 @@ aliases:
 This is a list of upcoming funding opportunities offered by major funding agencies in Sweden relevant for COVID-19 research. Specifically, we present calls for proposals from the Swedish Research Council, NordForsk, Vinnova, Horizon Europe, and SciLifeLab/Knut and Alice Wallenberg Foundation grants.
 
 ## Open funding calls
+
+{{< funding_table topic="all" >}}
+
+## Recurring funding calls
+
+Paragraph about general - VR, Vinnova, Wallengerg..
+
+Paragraph about specific - antibiotic resistance: JPIAMR, PAR; infectious diseases: [..]
