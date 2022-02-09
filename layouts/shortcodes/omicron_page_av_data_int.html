@@ -1,7 +1,7 @@
 {{ if gt (len $.Site.Data.omicron_page_av_data_int) 0 }}
 <ul>
   {{ range $.Site.Data.omicron_page_av_data_int }}
-  <li>{{ .mdtext | markdownify }}</li>
+  <li><p>{{ .mdtext | markdownify }}</p></li>
   {{ end }}
 </ul>
 {{ end }}
