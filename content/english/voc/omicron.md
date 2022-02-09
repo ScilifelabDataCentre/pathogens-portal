@@ -24,6 +24,8 @@ This section presents a list of the available data related to Omicron (or relate
 
 {{< omicron_page_suggest_available_data >}}
 
+#### SARS-CoV-2 mutations in wastewater across Sweden
+
 #### Data available from research groups in Sweden
 
 {{< omicron_page_av_data_swe >}}
