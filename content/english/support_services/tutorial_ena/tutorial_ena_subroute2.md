@@ -44,50 +44,85 @@ This command calculates checksums for all files with names beginning with `SARS-
 
 ### Upload data files
 
-Sequence files and the MD5 checksum files must be uploaded before starting the submission. There are multiple ways in which the upload can be done:
+Sequence files and the MD5 checksum files must be uploaded before starting the submission. There are multiple ways in which the upload can be done. Please click on one of the options below to view the instructions in an expandible section.
 
-#### Using the Webin File Uploader
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Using the Webin File Uploader
+        </button>
+      </h5>
+    </div>
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        <span>The most user-friendly approach is to <a href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html#using-webin-file-uploader">use the Webin File Uploader</a>. This is a Java web start application that can be downloaded <a href="http://www.ebi.ac.uk/ena/upload/WebinUploader.jnlp">here</a>. After Java is set up, follow the steps below:
+<ol>
+<li>Launch the application.</li>
+<li>Enter your Webin username in the `Username` field and your Webin password in the `Password` field.</li>
+<li>Browse into the local `Upload Directory`, which contains the data files that you want to upload. You can use the `...` button to do this.</li>
+<li>Click ‘OK’ to see a list of all files contained in the selected directory displayed in the Webin File Uploader window.</li>
+<li>Choose the `Overwrite` option if you want to replace any existing files that were previously uploaded.</li>
+<li>Choose the `Upload Tree` option if you wish to preserve the directory structure when uploading files to the Webin upload area. By default, the files will be uploaded into the root directory of your Webin upload area.</li>
+<li>Select the files to upload. You can use the `Select All` button to select all of the files for upload.</li>
+<li>Click on the `Upload` button.</li>
+</ol>
+The above steps are adapted from <a href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html#using-webin-file-uploader">ENA</a></span>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Use the command line FTP client
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        <span>Another option is to use a command line FTP client in Linux or Mac:
+<ol>
+<li>Open a terminal and type `lftp webin2.ebi.ac.uk -u Webin-xxxxx`. Enter your username at the end in place of xxxxx.</li>
+<li>Enter your password when prompted.</li>
+<li>Type `ls` to check the content of your drop box.</li>
+<li>Use the `mput <filename>` command to upload files.</li>
+<li>Use the `bye` command to exit the FTP client.</li>
+</ol>
+The above steps are adapted from <a href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html#uploading-files-using-command-line-ftp-client">ENA</a></span>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Use the Windows File Explorer
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        <span>It is also possible to use Windows File Explorer:
+<ol>
+<li>Launch the Windows File Explorer application.</li>
+<li>Click on `Add a network location` in the `Computer` tab.</li>
+<li>Click `Next`.</li>
+<li>Select `Choose a custom network location` and click `Next`.</li>
+<li>Type `ftp://webin.ebi.ac.uk` in the `Internet or network address` field and click `Next`.</li>
+<li>Unselect `Log on anonymously`, type your Webin user name in the `User name` field and click `Next`.</li>
+<li>Type a network location to show in Windows Explorer e.g. `webin.ebi.ac.uk` then click `Next`.</li>
+<li>Click `Finish`.</li>
+<li>When using the new folder you will be prompted for your Webin password. Type your password and click `Log on`.</li>
+</ol>
+The above steps are adapted from <a href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html#using-windows-file-explorer">ENA</a></span>
+      </div>
+    </div>
+  </div>
+</div>
 
-The most user-friendly approach is to [use the Webin File Uploader](https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html#using-webin-file-uploader). This is a Java web start application that can be downloaded [here](http://www.ebi.ac.uk/ena/upload/WebinUploader.jnlp):
-
-1. Launch the application.
-2. Enter your Webin username in the `Username` field and your Webin password in the `Password` field.
-3. Browse into the local `Upload Directory`, which contains the data files that you want to upload. You can use the `...` button to do this.
-4. Click ‘OK’ to see a list of all files contained in the selected directory displayed in the Webin File Uploader window.
-5. Choose the `Overwrite` option if you want to replace any existing files that were previously uploaded.
-6. Choose the `Upload Tree` option if you wish to preserve the directory structure when uploading files to the Webin upload area. By default, the files will be uploaded into the root directory of your Webin upload area.
-7. Select the files to upload. You can use the `Select All` button to select all of the files for upload.
-8. Click on the `Upload` button.
-
-*The above steps are adapted from [ENA](https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html#using-webin-file-uploader)* <!--Parul/yvonne, please check the reference-->
-
-#### Use the command line FTP client
-
-Another option is to use a command line FTP client in Linux or Mac:
-
-1. Open a terminal and type `lftp webin2.ebi.ac.uk -u Webin-xxxxx`. Enter your username at the end in place of xxxxx.
-2. Enter your password when prompted.
-3. Type `ls` to check the content of your drop box.
-4. Use the `mput <filename>` command to upload files.
-5. Use the `bye` command to exit the FTP client.
-
-*The above steps are adapted from [ENA](https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html#uploading-files-using-command-line-ftp-client)* <!--Parul/yvonne, please check the reference-->
-
-#### Use the Windows File Explorer
-
-It is also possible to use Windows File Explorer:
-
-1. Launch the Windows File Explorer application.
-2. Click on `Add a network location` in the `Computer` tab.
-3. Click `Next`.
-4. Select `Choose a custom network location` and click `Next`.
-5. Type `ftp://webin.ebi.ac.uk` in the `Internet or network address` field and click `Next`.
-6. Unselect `Log on anonymously`, type your Webin user name in the `User name` field and click `Next`.
-7. Type a network location to show in Windows Explorer e.g. `webin.ebi.ac.uk` then click `Next`.
-8. Click `Finish`.
-9. When using the new folder you will be prompted for your Webin password. Type your password and click `Log on`.
-
-*The above steps are adapted from [ENA](https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html#using-windows-file-explorer)* <!--Parul/yvonne, please check the reference-->
+<br>
 
 For other options to upload, more detailed instructions, or troubleshooting, please see [this section of ENA's tutorial](https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html).
 
