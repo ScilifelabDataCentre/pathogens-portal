@@ -1,0 +1,169 @@
+[
+  {
+    "topic": ["General"],
+    "funder": "SSMF",
+    "call_title": "SSMF Consolidator Grant",
+    "call_url": "https://www.ssmf.se/for-scientists/consolidator-grant/",
+    "call_description": "A five-year grant that gives prominent researchers the opportunity to strengthen their position as independent researchers.",
+    "submission_deadline": "2022-04-15",
+    "submission_opendate": "2022-03-15",
+    "funding_period": "5 years",
+    "funding_amount": "2 200 000 SEK per year, including indirect costs"
+  },
+  {
+    "topic": ["Antibiotic resistance"],
+    "funder": "JPIAMR",
+    "call_title": "Project grant for international research collaboration within antimicrobial resistance (JPIAMR)",
+    "submission_deadline": "2022-03-15",
+    "call_url": "https://www.vr.se/english/applying-for-funding/calls/2021-12-03-project-grant-for-international-research-collaboration-within-antimicrobial-resistance-jpiamr.html",
+    "call_description": "The purpose of the grant is to support international collaboration within the Joint Programming Initiative on Antimicrobial Resistance (JPIAMR). Sweden, via the Swedish Research Council, the Swedish International Development Cooperation Agency, and Vinnova is one of the 17 countries taking part in the call."
+  },
+  {
+    "topic": ["General"],
+    "funder": "Swedish Research Council",
+    "call_title": "International post doc grant within medicine and health (spring call)",
+    "submission_deadline": "2022-02-22",
+    "call_url": "https://www.vr.se/english/applying-for-funding/calls/2021-11-17-international-post-doc-grant-within-medicine-and-health-spring-call.html",
+    "call_description": "The purpose of the grant is to give researchers recently awarded a doctoral degree from a Swedish higher education institution (HEI) the opportunity to expand their networks and their competences by working abroad under secure employment conditions. The grant is also intended to promote the quality and renewal of Swedish research.",
+    "applicant": "Individual researcher who completed a doctoral degree no more than 2 years ago, or who will have completed a doctoral degree before the start of the grant period, that is no later than 30 June 2022.",
+    "funding_period": "1.5–3 years",
+    "funding_amount": "1 150 000 SEK per year. A further total of 50 000 SEK per year may be applied for, for one or more accompanying family members",
+    "decision_date": "No later than the beginning of June 2022"
+  },
+  {
+    "topic": ["COVID-19"],
+    "funder": "Swedish Research Council",
+    "call_title": "Project grant for research into post-COVID",
+    "submission_deadline": "2021-08-17",
+    "call_url": "https://www.vr.se/english/applying-for-funding/calls/2021-04-20-project-grant-for-research-within-post-covid-syndrome.html",
+    "call_description": "The purpose of the project grant is to fund research into post-infectious conditions with remaining or late-onset symptoms following COVID-19 infection (post-COVID).",
+    "applicant": "Individual researcher",
+    "funding_period": "1–4 years. The entire grant amount will be paid out in 2021",
+    "funding_amount": "Minimum 400 000 SEK per year, maximum 2 500 000 SEK per year",
+    "decision_date": "No later than the beginning of December 2021"
+  },
+  {
+    "topic": ["Infectious diseases"],
+    "funder": "Swedish Research Council",
+    "call_title": "Proof of concept within the infection area",
+    "submission_deadline": "2021-08-17",
+    "call_url": "https://www.vr.se/english/applying-for-funding/calls/2021-04-21-proof-of-concept-within-the-infection-area.html",
+    "call_description": "The purpose of the grant is to bridge the gap between basic research and commercialisation of research results within the infection area. The proof of concept grant offers persons who are receiving or have received a grant from the Swedish Research Council the opportunity to further develop their research results. This is done by verifying the usability and suitability of a new method, product or process developed from a previous research project and carrying out activities that prepare for innovation or commercialisation.",
+    "applicant": "Individual researcher who is receiving or has received a grant from the Swedish Research Council with a grant period ending in 2019, 2020 or 2021.",
+    "funding_period": "1-2 years",
+    "funding_amount": "Minimum 500 000 SEK in total, maximum 2 000 000 SEK in total",
+    "decision_date": "No later than the beginning of December 2021"
+  },
+  {
+    "topic": ["Infectious diseases", "COVID-19"],
+    "funder": "Horizon Europe",
+    "call_title": "FAIR and open data sharing in support to European preparedness for COVID-19 and other infectious diseases (HORIZON-INFRA-2021-EMERGENCY-01)",
+    "submission_deadline": "2021-05-06",
+    "call_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-infra-2021-emergency-01",
+    "call_description": "This action responds to the need to enable researchers, health care professionals and society at large to share, access, analyse, link and process research data and other research digital objects across disciplines and national borders in response to the COVID-19 pandemic. As seen with other infectious disease outbreaks, such as haemorrhagic fevers, COVID-19 will likely remain a societal challenge beyond the immediate outbreak, considering its destructive and disruptive impact on healthcare systems and the economy. In addition to the ongoing health threat from SARS-CoV-2, the risk from other emerging pathogens also persists, which will also require similar concerted action to identify and characterise infections with pandemic potential, and enable rapid public health action to mitigate health and societal impact. Provision of comprehensive open data on infectious agents and diseases during outbreaks support evidence-based quality assessment - across scientific, medical, public health and policy domains and promotes reproducibility of research outcomes. Particular importance should be placed on mobilising raw viral sequences and identifying and monitoring the spread of SARS-CoV-2 variants. European readiness for future pandemics is of utmost importance and should be addressed to ensure the preparedness of infrastructure building on already existing frameworks for broader use such as the EOSC."
+  },
+  {
+    "topic": ["Infectious diseases", "COVID-19"],
+    "funder": "Horizon Europe",
+    "call_title": "Research infrastructure services for rapid research responses to COVID-19 and other infectious disease epidemics (HORIZON-INFRA-2021-EMERGENCY-02",
+    "submission_deadline": "2021-05-06",
+    "call_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-infra-2021-emergency-02",
+    "call_description": "Proposals under this action, will integrate research infrastructure services to form a comprehensive and inclusive portfolio to support research in response to infectious disease epidemics or underpinning respective forefront research in the field. As a first immediate challenge, the delivered services should support research targeting newly emerging SARS-Cov-2 variants and addressing the on-going COVID-19 pandemic. Proposals will support the provision of trans-national and/or virtual access to researchers as well as training for using the infrastructures, and activities to improve, customise and integrate the services the infrastructures provide, so as to facilitate and integrate the access procedures and to further develop the remote or virtual provision of services."
+  },
+  {
+    "topic": ["COVID-19"],
+    "funder": "Horizon Europe",
+    "call_title": "Vaccines & therapeutic clinical trials to boost COVID-19 prevention and treatment",
+    "submission_deadline": "2021-05-06",
+    "call_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2021-corona-01-01",
+    "call_description": "Proposals submitted under this expression of interest should aim to further develop promising therapeutic or prophylactic candidates against SARS-CoV-2/COVID-19. The vaccine/treatment candidates should have completed preclinical development, including animal studies, and be ready to enter clinical evaluation in Phase I or II studies. Applicants should have addressed the current viral variants of concern in their pre-clinical work, and/or anticipated the emergence of new variants. Proposals should include a summary of results obtained in the concluded studies (pre-clinical and/or Phase I). Proposals are also expected to include assurances on sufficient and timely access to GMP production of the compound(s) to be trialled (the costs of which can be included in the proposal). In addition, options to upscale production for subsequent development beyond the activities for which funding is requested, should be indicated as appropriate."
+  },
+  {
+    "topic": ["COVID-19"],
+    "funder": "Horizon Europe",
+    "call_title": "Cohorts united against COVID-19 variants of concern",
+    "submission_deadline": "2021-05-06",
+    "call_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2021-corona-01-02",
+    "call_description": "Proposals submitted under this expression of interest are expected to build on existing large-scale, multi-centre, regional or international cohorts worldwide and/or establish new ones linked to those. These cohorts should aim to rapidly advance the knowledge on SARS-CoV-2 and its emerging variants of concern, with the aim of developing evidence-based strategic and robust recommendations for the effective control and prevention of COVID-19 infection. The regional or international cohort(s) should allow to rapidly and consistently provide estimations on the occurrence and spread of emerging variants of concern in different parts of the world. They should contribute to a better understanding of their transmissibility, virulence and pathogenicity."
+  },
+  {
+    "topic": ["COVID-19"],
+    "funder": "Swedish Research Council",
+    "call_title": "Research environment grant for follow-up studies of COVID-19 vaccines",
+    "submission_deadline": "2021-04-13",
+    "call_url": "https://www.vr.se/english/applying-for-funding/calls/2021-03-03-research-environment-grant-for-follow-up-studies-of-covid-19-vaccines.html",
+    "call_description": "The purpose of the grant is to give researchers the opportunity to collaborate nationally to conduct follow-up studies of COVID-19 vaccine that are justified by the needs of health and medical care and that contribute to a permanent infrastructure for future follow-up studies.",
+    "applicant": "Individual researcher with a clinical position covering a minimum of 20 per cent of a full-time equivalent",
+    "funding_period": "3–4 years. The entire grant amount will be paid out in 2021",
+    "funding_amount": "Minimum 10 million SEK in total, maximum 25 million SEK in total",
+    "decision_date": "No later than end of June 2021"
+  },
+  {
+    "topic": ["Infectious diseases"],
+    "funder": "Swedish Research Council",
+    "call_title": "Project grant for research on viruses and virus-caused disease conditions",
+    "submission_deadline": "2021-03-17",
+    "call_url": "https://www.vr.se/english/applying-for-funding/calls/2020-11-10-project-grant-for-research-on-viruses-and-virus-caused-disease-conditions.html",
+    "call_description": "The purpose is to give researchers the freedom to formulate their own research ideas, methods and implementation, and to solve a defined research task within a limited period of time. The focus of this call is on long-term research into basic virology and fundamental disease mechanisms caused by viruses.",
+    "applicant": "Individual researcher",
+    "funding_period": "1–3 years",
+    "funding_amount": "Minimum 400 000 SEK per year, Maximum 2 500 000 SEK per year",
+    "decision_date": "No later than the end of November 2021"
+  },
+  {
+    "topic": ["General"],
+    "funder": "Swedish Research Council",
+    "call_title": "Research project grant within medicine and health",
+    "submission_deadline": "2021-03-17",
+    "call_url": "https://www.vr.se/english/applying-for-funding/calls/2020-11-10-research-project-grant-within-medicine-and-health.html",
+    "call_description": "The purpose of the project grant is to give researchers the freedom to formulate their own research idea, method and implementation, and to solve a specific research task within a limited period.",
+    "applicant": "Individual researcher",
+    "funding_period": "1–5 years",
+    "funding_amount": "Minimum 400 000 SEK per year, Maximum 2 500 000 SEK per year",
+    "decision_date": "No later than the end of November 2021"
+  },
+  {
+    "topic": ["General"],
+    "funder": "Swedish Research Council",
+    "call_title": "Starting grant within medicine and health",
+    "submission_deadline": "2021-03-17",
+    "call_url": "https://www.vr.se/english/applying-for-funding/calls/2020-11-10-starting-grant-within-medicine-and-health.html",
+    "call_description": "The purpose of the grant is to give junior researchers the opportunity to establish themselves as independent researchers in Sweden.",
+    "applicant": "Individual researcher who has completed a doctoral degree more than 2 years ago and up to 7 years ago.",
+    "funding_period": "4 years",
+    "funding_amount": "1 500 000 SEK per year",
+    "decision_date": "No later than the beginning of November 2021"
+  },
+  {
+    "topic": ["General"],
+    "funder": "Swedish Research Council",
+    "call_title": "Grant for half-time research position in a clinical environment",
+    "submission_deadline": "2021-03-17",
+    "call_url": "https://www.vr.se/english/applying-for-funding/calls/2020-11-10-grant-for-half-time-research-position-in-a-clinical-environment.html",
+    "call_description": "The purpose of the grant is to give clinically active persons the opportunity to conduct research on a half-time basis in parallel with developing their clinical skills. The aim is to reinforce and renew medical and clinical research.",
+    "applicant": "Individual researcher who has completed a doctoral degree no more than 10 years ago.",
+    "funding_period": "3 years (with the opportunity of a 3 year extension)",
+    "funding_amount": "1 850 000 SEK per year",
+    "decision_date": "No later than the beginning of November 2021"
+  },
+  {
+    "topic": ["General"],
+    "funder": "Swedish Research Council",
+    "call_title": "Swedish Research Council: Grant for half-time research within healthcare sciences",
+    "submission_deadline": "2021-03-17",
+    "call_url": "https://www.vr.se/english/applying-for-funding/calls/2020-11-10-grant-for-half-time-research-within-healthcare-sciences.html",
+    "call_description": "The purpose of the grant is to give healthcare professionals the opportunity to conduct research on a half-time basis and to establish themselves as independent researchers in parallel with developing their professional competence. The call aims to promote international collaboration and mobility within Sweden.",
+    "applicant": "Individual researcher who has completed a doctoral degree no more than 10 years ago.",
+    "funding_period": "3 years",
+    "funding_amount": "1 850 000 SEK per year",
+    "decision_date": "No later than the beginning of November 2021"
+  },
+  {
+    "topic": ["COVID-19"],
+    "funder": "SciLifeLab/KAW",
+    "call_title": "COVID-19 pandemic research and preparedness",
+    "submission_deadline": "2021-01-15",
+    "call_url": "https://www.scilifelab.se/covid-19/call-research-preparedness/",
+    "call_description": "SciLifeLab is opening five calls for proposals on COVID-19 research that are announced at the same time to help scientists plan their efforts in light of the funding possibilities. Two calls represent the continuation of the ongoing KAW-supported SciLifeLab coordinated COVID-19 research program initiated in the spring of 2020. One call is specifically targeting effects of vaccination. One call will focus on suggestions (letter of intent) for ideas on pandemic preparedness and one on suggestions for data-driven research on COVID-19 (letter of intent). 1. *Proposals from existing research areas (RAs) in the SciLifeLab-KAW COVID-19 program*, 2. *Proposals from individual scientists with new contributions to the SciLifeLab-KAW COVID-19 research program*, 3. *New KAW supported COVID-19 research program on vaccine effects*, 4. *Laboratory preparedness for pandemics*, 5. *Data-driven life science (DDLS) on COVID-19*."
+  }
+]
