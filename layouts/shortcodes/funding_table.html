@@ -4,7 +4,7 @@
 <p><i>
    {{ cond (eq $.Site.Language.LanguageName "Svenska") "Senast uppdaterad" "Last updated" }}:
    {{/* {{ $fStat.ModTime.Format "2006-01-02" }} */}}
-   2022-xx-xx
+   2022-01-15
 </i></p>
 
 {{/*
@@ -48,7 +48,7 @@
     <div class="col-lg">
       <div class="row">
         <div class="table-responsive">
-          <table class="table table-hover" width="100%">
+          <table class="table table-hover funding-opportunities" width="100%">
             <thead class="thead-light">
               <tr>
                 <th scope="col">Call title</th>
@@ -69,7 +69,7 @@
                   </div>
                   {{ if .call_description }}<div class="row">
                     <div class="col text-muted">
-                      {{ truncate 200 .call_description }}
+                      {{ truncate 190 .call_description | markdownify }}
                     </div>
                   </div>{{ end }}
                   <div class="row mt-2">
@@ -94,8 +94,8 @@
                               {{ if .funding_period }}<b>Funding period:</b> {{ .funding_period}}<br>{{ end }}
                               {{ if .applicant }}<b>Eligible applicant:</b> {{ .applicant | markdownify }}<br>{{ end }}
                               {{ if .decision_date }}<b>Decision date:</b> {{ .decision_date }}<br>{{ end }}<p>
-                              {{ if .call_description }}<p><b>Call description:</b><br><small>{{ .call_description | markdownify }}</small></p>{{ end }}
-                              {{ if .call_url }}<p><a href="{{ .call_url }}"> See call website for more information <i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a></p>{{ end }}
+                              <p><b>Call description:</b><br><small>{{ .call_description | markdownify }}</small></p>
+                              <p><a href="{{ .call_url }}">See call website for more information <i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a></p>
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -108,7 +108,12 @@
                 </td>
                 <td>{{ .submission_deadline | time.Format ":date_long" }}</td>
                 <td>{{ .funder }}</td>
-                <td>{{ range .topic }}<span class="badge badge-success">{{ . }}</span>{{ end }}</td>
+                <td>{{ range .topic }}<span class="topic_badge
+                  {{ if eq . "COVID-19"}}topic_badge_covid
+                  {{ else if eq . "Infectious diseases"}}topic_badge_infectious_d
+                  {{ else if eq . "Antibiotic resistance"}}topic_badge_antib_r
+                  {{ else }}topic_badge_general
+                  {{ end }} ">{{ . }}</span>{{ end }}</td>
               </tr>
               {{ end }}
               {{ end }}
@@ -121,65 +126,48 @@
 </div>
 
 <script>
-  $(document).ready(function () {
-    var table = $('table.table').DataTable({
-      "sDom": '<"top row"<"col-md"i><"col-md"f>>rt<"bottom row"<"col-md"l><"col-md"p>><"clear">',
-      "order": [[4, "desc"]],
-    {{ if eq $.Site.Language.LanguageName "English" }}
-    "language": {
-    "lengthMenu": "Show _MENU_ projects per page",
-    "zeroRecords": "Nothing found.",
-    "info": "Showing _START_ to _END_ of _TOTAL_ projects",
-    "infoEmpty": "No records available",
-    "infoFiltered": "(filtered from _MAX_ projects in total).",
-    "search": "Search:",
-    "paginate": {
-      "first": "First",
-      "last": "Last",
-      "next": "»",
-      "previous": "«"
-    }
-  }
-    {{ else }}
-    "language": {
-    "lengthMenu": "Visa _MENU_ forskningsprojekt per sida",
-    "zeroRecords": "Inga resultat",
-    "info": "Visar _START_-_END_ av _TOTAL_ forskningsprojekt",
-    "infoEmpty": "Inga resultat",
-    "infoFiltered": "(filtrerad av _MAX_ forskningsprojekt).",
-    "search": "Sök:",
-    "paginate": {
-      "first": "Första",
-      "last": "Sista",
-      "next": "»",
-      "previous": "«"
-    }
-  }
-    {{ end }}
-  }
-  );
+  $(document).ready( function () {
+    var table = $('.funding-opportunities').DataTable({
+      "dom": '<"top">rt<"bottom"><"clear">',
+      "pageLength": 5,
+      "language": {
+           "lengthMenu": "Show _MENU_ projects per page.",
+           "zeroRecords": "Nothing found.",
+           "info": "Showing _START_ to _END_ of _TOTAL_ calls.",
+           "infoEmpty": "No calls available",
+           "infoFiltered": "(filtered from _MAX_ total calls)",
+           "search": "Search:",
+           "paginate": {
+              "first":      "First",
+              "last":       "Last",
+              "next":       "Next",
+              "previous":   "Previous"
+              }
+          }
+    });
 
-  $('input:checkbox').on('change', function () {
+    $('input:checkbox').on('change', function () {
 
-    // PI affiliation filter
-    var pi_affiliation = $('input:checkbox[name="pi_affiliation"]:checked').map(function () {
-      return this.value;
-    }).get().join('|');
+      // Funder filter
+      var funder = $('input:checkbox[name="funder"]:checked').map(function () {
+        return this.value;
+      }).get().join('|');
 
-    // filter for pi affiliation, with no regex, no smart filtering, not case sensitive
-    table.column(2).search(pi_affiliation, true, false, false).draw(false);
+      table.column(2).search(funder, true, false, false).draw(false);
 
-    // Funder filter
-    var funders = $('input:checkbox[name="funder"]:checked').map(function () {
-      return this.value;
-    }).get().join('|');
+      // Topic filter
+      var topic = $('input:checkbox[name="topic"]:checked').map(function () {
+        return this.value;
+      }).get().join('|');
 
-    table.column(3).search(funders, true, false, false).draw(false);
-  });
+      table.column(3).search(topic, true, false, false).draw(false);
+    });
 
-} );
+  } );
+
 
 </script>
+
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
 <script type="text/javascript" charset="utf8"
   src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>

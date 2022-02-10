@@ -3,10 +3,10 @@
     "topic": ["General"],
     "funder": "SSMF",
     "call_title": "SSMF Consolidator Grant",
-    "submission_deadline": "2022-04-15",
-    "submission_opendate": "2022-03-15",
     "call_url": "https://www.ssmf.se/for-scientists/consolidator-grant/",
     "call_description": "A five-year grant that gives prominent researchers the opportunity to strengthen their position as independent researchers.",
+    "submission_deadline": "2022-04-15",
+    "submission_opendate": "2022-03-15",
     "funding_period": "5 years",
     "funding_amount": "2 200 000 SEK per year, including indirect costs"
   },

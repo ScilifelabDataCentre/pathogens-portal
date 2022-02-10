@@ -396,3 +396,40 @@ div.dataTables_wrapper div.dataTables_info {
     font-size: 28px;
     font-weight: bold;
 }
+
+/*
+* Styling of badges to indicate topics
+*/
+
+.topic_badge {
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.topic_badge_general {
+  color: #fff;
+  background-color: #6c757d;
+}
+
+.topic_badge_covid {
+  color: #fff;
+  background-color: #de2c6c;
+}
+
+.topic_badge_antib_r {
+  color: #fff;
+  background-color: #6a60af;
+}
+
+.topic_badge_infectious_d {
+  color: #fff;
+  background-color: #a34fa4;
+}

@@ -204,19 +204,19 @@
                 projects ({{ len $.Site.Data.funded_projects }}) <i class="fas fa-arrow-circle-right"></i></a>{{ end }}
             </h5>
           </div>
-          {{ $funding_opportunities := 0 }}
-          {{ range $.Site.Data.funding_opportunities }}
-          {{ if ne .status "closed" }}
-          {{ $funding_opportunities = add $funding_opportunities 1}}
+          {{ if ne $.Site.Language.LanguageName "Svenska" }}
+            {{ $funding_opportunities := 0 }}
+            {{ range $.Site.Data.funding }}
+              {{ if gt (.submission_deadline | time.Format "20060102") (now | time.Format "20060102") }}
+                {{ $funding_opportunities = add $funding_opportunities 1}}
+              {{ end }}
+            {{ end }}
+            <div class="row">
+              <h5><a href="/projects/funding/">Open funding
+                  opportunities{{ if ne $funding_opportunities 0}} ({{ $funding_opportunities }}){{ end }} <i
+                    class="fas fa-arrow-circle-right"></i></a></h5>
+            </div>
           {{ end }}
-          {{ end }}
-          <div class="row">
-            <h5>{{ if eq $.Site.Language.LanguageName "Svenska" }}<a href="/sv/projects/funding/">Kommande
-                forskningsanslag{{ if ne $funding_opportunities 0}} ({{ $funding_opportunities }}){{ end }} <i
-                  class="fas fa-arrow-circle-right"></i></a>{{ else }}<a href="/projects/funding/">Funding
-                opportunities{{ if ne $funding_opportunities 0}} ({{ $funding_opportunities }}){{ end }} <i
-                  class="fas fa-arrow-circle-right"></i></a>{{ end }}</h5>
-          </div>
         </div>
       </div>
     </div>
