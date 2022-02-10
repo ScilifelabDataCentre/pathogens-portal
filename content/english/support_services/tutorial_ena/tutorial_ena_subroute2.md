@@ -57,7 +57,7 @@ Sequence files and the MD5 checksum files must be uploaded before starting the s
     </div>
     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
       <div class="card-body">
-        The most user-friendly approach is to <a href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html#using-webin-file-uploader">use the Webin File Uploader</a>. This is a Java web start application that can be downloaded <a href="http://www.ebi.ac.uk/ena/upload/WebinUploader.jnlp">here</a>. After Java is set up, follow the steps below:
+        <span>The most user-friendly approach is to <a href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html#using-webin-file-uploader">use the Webin File Uploader</a>. This is a Java web start application that can be downloaded <a href="http://www.ebi.ac.uk/ena/upload/WebinUploader.jnlp">here</a>. After Java is set up, follow the steps below:
 <ol>
 <li>Launch the application.</li>
 <li>Enter your Webin username in the `Username` field and your Webin password in the `Password` field.</li>
@@ -68,7 +68,7 @@ Sequence files and the MD5 checksum files must be uploaded before starting the s
 <li>Select the files to upload. You can use the `Select All` button to select all of the files for upload.</li>
 <li>Click on the `Upload` button.</li>
 </ol>
-The above steps are adapted from <a href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html#using-webin-file-uploader">ENA</a>
+The above steps are adapted from <a href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html#using-webin-file-uploader">ENA</a></span>
       </div>
     </div>
   </div>
@@ -82,7 +82,7 @@ The above steps are adapted from <a href="https://ena-docs.readthedocs.io/en/lat
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
       <div class="card-body">
-        Another option is to use a command line FTP client in Linux or Mac:
+        <span>Another option is to use a command line FTP client in Linux or Mac:
 <ol>
 <li>Open a terminal and type `lftp webin2.ebi.ac.uk -u Webin-xxxxx`. Enter your username at the end in place of xxxxx.</li>
 <li>Enter your password when prompted.</li>
@@ -90,7 +90,7 @@ The above steps are adapted from <a href="https://ena-docs.readthedocs.io/en/lat
 <li>Use the `mput <filename>` command to upload files.</li>
 <li>Use the `bye` command to exit the FTP client.</li>
 </ol>
-The above steps are adapted from <a href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html#uploading-files-using-command-line-ftp-client">ENA</a>
+The above steps are adapted from <a href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html#uploading-files-using-command-line-ftp-client">ENA</a></span>
       </div>
     </div>
   </div>
@@ -104,7 +104,7 @@ The above steps are adapted from <a href="https://ena-docs.readthedocs.io/en/lat
     </div>
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
       <div class="card-body">
-        It is also possible to use Windows File Explorer:
+        <span>It is also possible to use Windows File Explorer:
 <ol>
 <li>Launch the Windows File Explorer application.</li>
 <li>Click on `Add a network location` in the `Computer` tab.</li>
@@ -116,7 +116,7 @@ The above steps are adapted from <a href="https://ena-docs.readthedocs.io/en/lat
 <li>Click `Finish`.</li>
 <li>When using the new folder you will be prompted for your Webin password. Type your password and click `Log on`.</li>
 </ol>
-The above steps are adapted from <a href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html#using-windows-file-explorer">ENA</a>
+The above steps are adapted from <a href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html#using-windows-file-explorer">ENA</a></span>
       </div>
     </div>
   </div>
