@@ -15,7 +15,7 @@ datatypes_to_display:
 - "Category: Genomics & transcriptomics"
 ---
 
-###### See also: [Guidelines for submitting genomics & transcriptomics data](../guidelines) | [Services: genomics & transcriptomics](../services)
+###### See also: [Services: genomics & transcriptomics](../services)
 
 ## Published Data
 

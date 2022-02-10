@@ -1,7 +1,7 @@
 # Hugo default output directory
 /public
 
-# more Hugo
+# more Hugo stuff
 .hugo_build.lock
 
 # OSX
