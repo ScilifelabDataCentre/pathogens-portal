@@ -1,4 +1,6 @@
-[
+{
+  "last_updated": "2022-01-15",
+  "calls": [
   {
     "topic": ["General"],
     "funder": "SSMF",
@@ -167,3 +169,4 @@
     "call_description": "SciLifeLab is opening five calls for proposals on COVID-19 research that are announced at the same time to help scientists plan their efforts in light of the funding possibilities. Two calls represent the continuation of the ongoing KAW-supported SciLifeLab coordinated COVID-19 research program initiated in the spring of 2020. One call is specifically targeting effects of vaccination. One call will focus on suggestions (letter of intent) for ideas on pandemic preparedness and one on suggestions for data-driven research on COVID-19 (letter of intent). 1. *Proposals from existing research areas (RAs) in the SciLifeLab-KAW COVID-19 program*, 2. *Proposals from individual scientists with new contributions to the SciLifeLab-KAW COVID-19 research program*, 3. *New KAW supported COVID-19 research program on vaccine effects*, 4. *Laboratory preparedness for pandemics*, 5. *Data-driven life science (DDLS) on COVID-19*."
   }
 ]
+}
