@@ -206,7 +206,7 @@
           </div>
           {{ if ne $.Site.Language.LanguageName "Svenska" }}
             {{ $funding_opportunities := 0 }}
-            {{ range $.Site.Data.funding }}
+            {{ range $.Site.Data.funding.calls }}
               {{ if gt (.submission_deadline | time.Format "20060102") (now | time.Format "20060102") }}
                 {{ $funding_opportunities = add $funding_opportunities 1}}
               {{ end }}

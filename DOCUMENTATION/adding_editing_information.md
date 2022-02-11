@@ -19,3 +19,9 @@ We collect funding opportunities relevant for COVID-19, infectious diseases, and
   "submission_deadline": "date in format '2006-01-02', required field"
 }
 ```
+
+At the beginning of the file `data/funding.json` there is a field for the last updated date of this file. The date here needs to be updated whenever new calls are added or changes are made.
+
+```JSON
+  "last_updated": "2006-01-02",
+```
