@@ -3,15 +3,14 @@
 
 <p><i>
    {{ cond (eq $.Site.Language.LanguageName "Svenska") "Senast uppdaterad" "Last updated" }}:
-   {{/* {{ $fStat.ModTime.Format "2006-01-02" }} */}}
-   2022-01-15
+   {{ $.Site.Data.funding.last_updated }}
 </i></p>
 
 {{/*
   Make a list of unique funder names
 */}}
 {{ $all_funders:= slice }}
-{{ range $.Site.Data.funding }}
+{{ range $.Site.Data.funding.calls }}
   {{ $all_funders = $all_funders | append .funder }}
 {{ end }}
 {{ $funders := $all_funders | uniq }}
@@ -22,7 +21,7 @@
   Make a list of unique topics
 */}}
 {{ $all_topics := slice }}
-{{ range $.Site.Data.funding }}
+{{ range $.Site.Data.funding.calls }}
     {{ $all_topics = $all_topics | append .topic }}
 {{ end }}
 {{ $topics = $all_topics | uniq }}
@@ -58,7 +57,7 @@
               </tr>
             </thead>
             <tbody>
-              {{ range $ind, $cont := $.Site.Data.funding }}
+              {{ range $ind, $cont := $.Site.Data.funding.calls }}
               {{ if gt (.submission_deadline | time.Format "20060102") (now | time.Format "20060102") }}
               <tr>
                 <td>
