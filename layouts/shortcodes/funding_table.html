@@ -3,7 +3,6 @@
 
 <p><i>
    {{ cond (eq $.Site.Language.LanguageName "Svenska") "Senast uppdaterad" "Last updated" }}:
-   {{/* {{ $fStat.ModTime.Format "2006-01-02" }} */}}
    {{ $.Site.Data.funding.last_updated }}
 </i></p>
 
