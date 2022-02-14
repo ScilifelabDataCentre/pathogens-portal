@@ -1,6 +1,30 @@
 {
-  "last_updated": "2022-01-15",
+  "last_updated": "2022-02-11",
   "calls": [
+    {
+    "topic": ["General"],
+    "funder": "Swedish Research Council",
+    "call_title": "Research project grant within medicine and health",
+    "call_url": "https://www.vr.se/english/applying-for-funding/calls/2021-11-17-research-project-grant-within-medicine-and-health.html",
+    "call_description": "Project grant is to give researchers the freedom to formulate by themselves the research concept, method and implementation, and to solve a specific research task within a limited period.",
+    "submission_deadline": "2022-03-15",
+    "submission_opendate": "2022-02-09",
+    "funding_period": "1-5 years",
+    "funding_amount": "Minimum 400 000 SEK per year, maximum 2 500 000 SEK per year",
+    "decision_date": "No later than the beginning of November 2022"
+    }, 
+    {
+    "topic": ["General"],
+    "funder": "Swedish Research Council",
+    "call_title": "Grant for half-time research position in a clinical environment",
+    "call_url": "https://www.vr.se/english/applying-for-funding/calls/2021-11-17-grant-for-half-time-research-position-in-a-clinical-environment.html",
+    "call_description": "A three-year grant to give clinically active persons the opportunity to conduct research on a half-time basis in parallel with developing their clinical skills.",
+    "submission_deadline": "2022-03-15",
+    "submission_opendate": "2022-02-09",
+    "funding_period": "3 years",
+    "funding_amount": "1 850 000 SEK per year",
+    "decision_date": "No later than the beginning of November 2022"
+  },
   {
     "topic": ["General"],
     "funder": "SSMF",

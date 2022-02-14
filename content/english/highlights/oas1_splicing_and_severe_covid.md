@@ -1,7 +1,7 @@
 ---
 title: OAS1 splicing found to be associated with risk of severe COVID-19
 date: 2022-02-09
-summary: In this article, Huffman et al studied individuals across different ancestry groups and discusses the association between OAS1 slpicing and severity of COVID-19. Data related to this study is shared pubicly.
+summary: In this article, Huffman et al studied individuals across different ancestry groups and discusses the association between OAS1 splicing and severity of COVID-19. Data related to this study is shared publicly.
 banner: /highlights/banners/Huffman_multi_ancestry_COVID.png
 banner_large: /highlights/banners/Huffman_multi_ancestry_COVID_large.png
 banner_caption: Illustration provided by Hugo Zeberg
