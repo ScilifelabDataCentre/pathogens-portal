@@ -11,6 +11,7 @@ menu:
 ---
 
 * [**Submitting data**](submit)
+* [Tutorial for submitting data to ENA](tutorial_ena/tutorial_ena_intro)
 * [Data management](data_management)
 * [Bioinformatics](bioinformatics)
 * [Resources](resources)
