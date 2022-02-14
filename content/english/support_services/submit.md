@@ -11,18 +11,24 @@ menu:
         parent: support_services
         weight: 50
         pre: <i class="fas fa-paper-plane"></i>
+aliases:
+  - /data_types/genomics_transcriptomics/guidelines/
+  - /data_types/compound_and_target_data/guidelines/
+  - /data_types/imaging_data/guidelines/
+  - /data_types/protein_data/guidelines/
+  - /support_services/general_data_repository/
 ---
 
 Publish your COVID-19 research data to make it available for the rest of the research community. The data should be deposited in a public repository together with descriptive metadata. For many biological datatypes, there are international databases that can be considered _de facto_ standards.
 
-### Submitting data
+## Submitting data
 
 [SciLifeLab](https://www.scilifelab.se/) (datacentre@scilifelab.se) or [NBIS](https://nbis.se/) (support@nbis.se)
 can provide personal consultations for where and how to share data in a public database. Do not hesitate to get in touch with us if you have any questions. Your research group does not have to be affiliated with any particular institution to get our help, we are available to help everyone affiliated with a university in Sweden.
 
 The European Bioinformatics Institute (EBI) hosts many different international data repositories which should be used if appropriate. For further information, see their [COVID-19 Data Portal data submission page](https://www.covid19dataportal.org/submit-data). For data types where no suitable international repository is available, your data can be deposited to the [SciLifeLab Data Repository](https://scilifelab.se/data/repository) which is run by the SciLifeLab Data Centre. For human data which needs to be stored in a safe environment with controlled access, SciLifeLab [can help with publishing and access control](https://www.scilifelab.se/data/humandata/).
 
-Here are our data submission guidelines for each specific data type:
+Below are our data submission guidelines for each specific data type. you can also find information in [The European COVID-19 Data Portal data submission information](https://www.covid19dataportal.org/submit-data).
 
 * ##### Genomics & transcriptomics data
 
@@ -73,28 +79,16 @@ Here are our data submission guidelines for each specific data type:
 
     ***
 
-### Support for data management planning
+### General data repositories
 
-[SciLifeLab](https://www.scilifelab.se) and [NBIS](http://www.nbis.se/) can support you with Data Management Planning early on in the project to make data sharing more efficient, both through [personal consultations](https://nbis.se/support/supportform/index.php?form=consultation) and by providing a [customised tool](https://dsw.scilifelab.se/) to create Data Management Plans.
-We can also assist you in identifying relevant repositories and common international standards for describing and publishing your data, as well as guide you through the submission process.
+Most life science data types can be published as raw or processed data in repositories at the [EMBL-EBI](https://www.ebi.ac.uk) as described under [Data types](https://covid19dataportal.se/data_types/). When no archive is suitable, use a general purpose repository such as [Figshare](https://figshare.com) or [Zenodo](https://zenodo.org). This includes documents, presentations, figures, protocols, or other information that you want to make public at any stage in the research process. A publication here is permanent, and provides a Digital Object Identifier, DOI.
 
-* [Request Data Management consultation from NBIS](https://nbis.se/support/supportform/index.php?form=consultation)
+SciLifeLab supports COVID-19 related data to be published in the [SciLifeLab Data Repository](https://scilifelab.figshare.com).
 
-###### Depositing data in a public repository
+If you have datasets related to COVID-19 research that are best suited for this type of repository, please contact the SciLifeLab Data Centre at [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se) or visit our [repository support page](https://www.scilifelab.se/data/repository).
 
-By depositing data in a public repository, you accept that the data will be published and may be used and redistributed according to specific terms set by yourself or the repository in question. Data deposition is considered important and you may get credit and acknowledgement for sharing data. A publication often results in getting a unique identifier for your dataset, which is often required for a journal to accept a manuscript for publication. Data sharing is often required by funders.
+#### Published data at General Data Repositories
 
-If required, data can often be published with a set moratorium, which means that data will not go public until a date that you set.
+[Figshare COVID-19 open research data](https://covid19.figshare.com)
 
-_Note that data from human individuals might need special considerations when it comes to publishing._
-
-###### Storing the data at your university or SNIC
-
-In Sweden, raw measurement data that is generated in a project belongs to the university, while the results are owned by the researcher - the so called teacher's exception. Unless the data needs protection because of contractual obligations or personal privacy, for example in sensitive personal data such as biomedical measurements of humans, data is considered public.
-
-The university has the legal responsibility to archive the data. Data publishing as supported here is important for the research process, but does not replace the legal responsibility of the university. As a researcher, you are recommended to ensure long term storage of your data in facilities provided by your university. While a project is active, compute and storage services can be provided by [Swedish National Infrastructure for Computing, SNIC](https://snic.se).
-
-##### Other resources
-
-* [SciLifeLab Data Guidelines](https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/index.html)
-* [The European COVID-19 Data Portal data submission information](https://www.covid19dataportal.org/submit-data)
+[Zenodo Coronavirus Disease Research Community](https://zenodo.org/communities/covid-19/)

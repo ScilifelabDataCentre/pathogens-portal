@@ -1,0 +1,172 @@
+{{/* If I wanted to display only particular topics, pick up the variable passed from the markdown file */}}
+{{/* $topic_to_display := .Get "topic" */}}
+
+<p><i>
+   {{ cond (eq $.Site.Language.LanguageName "Svenska") "Senast uppdaterad" "Last updated" }}:
+   {{ $.Site.Data.funding.last_updated }}
+</i></p>
+
+{{/*
+  Make a list of unique funder names
+*/}}
+{{ $all_funders:= slice }}
+{{ range $.Site.Data.funding.calls }}
+  {{ $all_funders = $all_funders | append .funder }}
+{{ end }}
+{{ $funders := $all_funders | uniq }}
+
+
+{{ $topics := slice }}
+{{/*
+  Make a list of unique topics
+*/}}
+{{ $all_topics := slice }}
+{{ range $.Site.Data.funding.calls }}
+    {{ $all_topics = $all_topics | append .topic }}
+{{ end }}
+{{ $topics = $all_topics | uniq }}
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-2 pl-0 {{ if eq $.Site.Language.LanguageName "Svenska" }}mr-5{{ else }}mr-2{{ end }}">
+      <h5>Funder</h5>
+      <div class="col mb-2 ml-3 form-check">
+          {{ range sort $funders }}
+            <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
+                value="{{ . }}">{{ . }}</div>
+          {{ end }}
+      </div>
+      <h5>Topic</h5>
+      <div class="col mb-2 ml-3 form-check">
+          {{ range sort $topics }}
+            <div class="row"><input type="checkbox" class="form-check-input" name="topic"
+                value="{{ . }}">{{ . }}</div>
+          {{ end }}
+      </div>
+    </div>
+    <div class="col-lg">
+      <div class="row">
+        <div class="table-responsive">
+          <table class="table table-hover funding-opportunities" width="100%">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col">Call title</th>
+                <th scope="col">Deadline</th>
+                <th scope="col">Funder</th>
+                <th scope="col">Topics</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{ range $ind, $cont := $.Site.Data.funding.calls }}
+              {{ if gt (.submission_deadline | time.Format "20060102") (now | time.Format "20060102") }}
+              <tr>
+                <td>
+                  <div class="row">
+                    <div class="col">
+                      <h6><a href="{{ .call_url }}">{{ .call_title }}</a></h6>
+                    </div>
+                  </div>
+                  {{ if .call_description }}<div class="row">
+                    <div class="col text-muted">
+                      {{ truncate 190 .call_description | markdownify }}
+                    </div>
+                  </div>{{ end }}
+                  <div class="row mt-2">
+                    <div class="col">
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#call_details{{ $ind }}">
+                        Details
+                      </button>
+                      <div class="modal fade" id="call_details{{ $ind }}" tabindex="-1" role="dialog" aria-labelledby="call_details{{ $ind }}Label" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="call_details{{ $ind }}Label">{{ .call_title }}</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body funding_details">
+                              <p><b>Funder:</b> {{ .funder }}<br>
+                              {{ if .submission_opendate}}<b>Submission opens:</b> {{ .submission_opendate | time.Format ":date_long" }}<br>{{ end }}
+                              <b>Submission deadline:</b> {{ .submission_deadline | time.Format ":date_long" }}<br>
+                              {{ if .funding_amount }}<b>Funding amount:</b> {{ .funding_amount }}<br>{{ end }}
+                              {{ if .funding_period }}<b>Funding period:</b> {{ .funding_period}}<br>{{ end }}
+                              {{ if .applicant }}<b>Eligible applicant:</b> {{ .applicant | markdownify }}<br>{{ end }}
+                              {{ if .decision_date }}<b>Decision date:</b> {{ .decision_date }}<br>{{ end }}<p>
+                              <p><b>Call description:</b><br><small>{{ .call_description | markdownify }}</small></p>
+                              <p><a href="{{ .call_url }}">See call website for more information <i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a></p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                </td>
+                <td>{{ .submission_deadline | time.Format ":date_long" }}</td>
+                <td>{{ .funder }}</td>
+                <td>{{ range .topic }}<span class="topic_badge
+                  {{ if eq . "COVID-19"}}topic_badge_covid
+                  {{ else if eq . "Infectious diseases"}}topic_badge_infectious_d
+                  {{ else if eq . "Antibiotic resistance"}}topic_badge_antib_r
+                  {{ else }}topic_badge_general
+                  {{ end }} ">{{ . }}</span>{{ end }}</td>
+              </tr>
+              {{ end }}
+              {{ end }}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(document).ready( function () {
+    var table = $('.funding-opportunities').DataTable({
+      "dom": '<"top">rt<"bottom"><"clear">',
+      "pageLength": 5,
+      "language": {
+           "lengthMenu": "Show _MENU_ projects per page.",
+           "zeroRecords": "Nothing found.",
+           "info": "Showing _START_ to _END_ of _TOTAL_ calls.",
+           "infoEmpty": "No calls available",
+           "infoFiltered": "(filtered from _MAX_ total calls)",
+           "search": "Search:",
+           "paginate": {
+              "first":      "First",
+              "last":       "Last",
+              "next":       "Next",
+              "previous":   "Previous"
+              }
+          }
+    });
+
+    $('input:checkbox').on('change', function () {
+
+      // Funder filter
+      var funder = $('input:checkbox[name="funder"]:checked').map(function () {
+        return this.value;
+      }).get().join('|');
+
+      table.column(2).search(funder, true, false, false).draw(false);
+
+      // Topic filter
+      var topic = $('input:checkbox[name="topic"]:checked').map(function () {
+        return this.value;
+      }).get().join('|');
+
+      table.column(3).search(topic, true, false, false).draw(false);
+    });
+
+  } );
+
+
+</script>
+
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
+<script type="text/javascript" charset="utf8"
+  src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>

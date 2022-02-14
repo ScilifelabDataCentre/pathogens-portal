@@ -419,7 +419,7 @@
   },
   {
     "doi": "10.1101/2022.01.20.22269406",
-    "authors": "Andre Peralta Santos, Pedro Pinto Leite, Pedro Casaca, Eugenia Fernandes, Eduardo Freire Rodrigues, Joana Moreno, Vasco Ricoca,  View ORCID ProfileJoao Paulo Gomes, Rita Ferreira, Joana Isidro, Miguel Pinto, Vitor Borges, Luis Vieira, Silvia Duarte, Carlos Sousa, Luis Menezes, Joao Pedro Almeida, Bibiana Ferreira, Ana Matias, Ana Pelorito, Samanta Freire, Teresa Grilo, Claudia Medeiro Borges, Vera Moutinho, Irina Kislaya, Ana Paula Rodrigues, Andreia Leite, Baltazar Nunes",
+    "authors": "Andre Peralta Santos, Pedro Pinto Leite, Pedro Casaca, Eugenia Fernandes, Eduardo Freire Rodrigues, Joana Moreno, Vasco Ricoca, Joao Paulo Gomes, Rita Ferreira, Joana Isidro, Miguel Pinto, Vitor Borges, Luis Vieira, Silvia Duarte, Carlos Sousa, Luis Menezes, Joao Pedro Almeida, Bibiana Ferreira, Ana Matias, Ana Pelorito, Samanta Freire, Teresa Grilo, Claudia Medeiro Borges, Vera Moutinho, Irina Kislaya, Ana Paula Rodrigues, Andreia Leite, Baltazar Nunes",
     "publication_year": 2022,
     "title": "Omicron (BA.1) SARS-CoV-2 variant is associated with reduced risk of hospitalization and length of stay compared with Delta (B.1.617.2)",
     "journal": "medRxiv",
@@ -434,5 +434,95 @@
     "journal": "medRxiv",
     "preprint": "Y",
     "first_pub_date": "2022-01-25"
+  },
+  {
+    "doi": "10.1016/j.ajpath.2022.01.007",
+    "authors": "Paul A. Christensen, Randall J. Olsen, S. Wesley Long, Richard SnehalJames J. DavisMatthew Ojeda SaavedraKristina ReppondMadison N. ShyerJessica CambricRyan GaddRashi M. ThakurAkanksha BatajooRegan ManghamSindy PenaTrina TrinhJacob C. KinskeyGuy WilliamsRobert OlsonJimmy GolliharJames M. Musser",
+    "publication_year": 2022,
+    "title": "Signals of significantly increased vaccine breakthrough, decreased hospitalization rates, and less severe disease in patients with COVID-19 caused by the Omicron variant of SARS-CoV-2 in Houston, Texas",
+    "journal": "The American Journal of Pathology",
+    "preprint": "N",
+    "first_pub_date": "2022-02-03"
+  },
+  {
+    "doi": "10.1016/j.jmoldx.2022.01.004",
+    "authors": "Ryan J. Dikdan, Salvatore A.E. Marras, Amanda P. Field, Alicia Brownlee, Alexander Cironi, D. Ashley Hill, Sanjay Tyagi",
+    "publication_year": 2022,
+    "title": "Multiplex PCR Assays for Identifying all Major SARS-CoV-2 Variants",
+    "journal": "The Journal of Molecular Diagnostics",
+    "preprint": "N",
+    "first_pub_date": "2022-02-01"
+  },
+  {
+    "doi": "10.1038/s41591-022-01715-4",
+    "authors": "Paul R. Wratil, Marcel Stern, Alina Priller, Annika Willmann, Giovanni Almanzar, Emanuel Vogel, Martin Feuerherd, Cho-Chin Cheng, Sarah Yazici, Catharina Christa, Samuel Jeske, Gaia Lupoli, Tim Vogt, Manuel Albanese, Ernesto Mejías-Pérez, Stefan Bauernfried, Natalia Graf, Hrvoje Mijocevic, Martin Vu, Kathrin Tinnefeld, Jochen Wettengel, Dieter Hoffmann, Maximilian Muenchhoff, Christopher Daechert, Helga Mairhofer, Stefan Krebs, Volker Fingerle, Alexander Graf, Philipp Steininger, Helmut Blum, Veit Hornung, Bernhard Liebl, Klaus Überla, Martina Prelog, Percy Knolle, Oliver T. Keppler & Ulrike Protzer",
+    "publication_year": 2022,
+    "title": "Three exposures to the spike protein of SARS-CoV-2 by either infection or vaccination elicit superior neutralizing immunity to all variants of concern",
+    "journal": "Nature Medicine",
+    "preprint": "N",
+    "first_pub_date": "2022-01-28"
+  },
+  {
+    "doi": "10.1101/2022.01.28.22270044",
+    "authors": "Frederik Plesner Lyngse, Carsten Thure Kirkeby, Matthew Denwood, Lasse Engbo Christiansen, Kåre Mølbak, Camilla Holten Møller, Robert Leo Skov, Tyra Grove Krause, Morten Rasmussen, Raphael Niklaus Sieber, Thor Bech Johannesen, Troels Lillebaek, Jannik Fonager, Anders Fomsgaard, Frederik Trier Møller, Marc Stegger, Maria Overvad, Katja Spiess, Laust Hvas Mortensen",
+    "publication_year": 2022,
+    "title": "Transmission of SARS-CoV-2 Omicron VOC subvariants BA.1 and BA.2: Evidence from Danish Households",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "first_pub_date": "2022-01-30"
+  },
+  {
+    "doi": "10.1101/2022.01.28.22269968",
+    "authors": "Sydney Stanley, Donald J. Hamel, Ian D. Wolf, Stefan Riedel, Sanjucta Dutta, Annie Cheng, James E. Kirby, Phyllis J. Kanki",
+    "publication_year": 2022,
+    "title": "Limit of Detection for Rapid Antigen Testing of the SARS-CoV-2 Omicron Variant",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "first_pub_date": "2022-01-30"
+  },
+  {
+    "doi": "10.1101/2022.01.28.22269986",
+    "authors": "Suvichada Assawakosri, Sitthichai Kanokudom, Nungruthai Suntronwong, Chompoonut Auphimai, Pornjarim Nilyanimit, Preeyaporn Vichaiwattana, Thanunrat Thongmee, Thaneeya Duangchinda, Warangkana Chantima, Pattarakul Pakchotanon, Donchida Srimuan, Thaksaporn Thatsanatorn, Sirapa Klinfueng, Ritthideach Yorsang, Natthinee Sudhinaraset, Nasamon Wanlapakorn, Juthathip Mongkolsapaya, Sittisak Honsawek, Yong Poovorawan",
+    "publication_year": 2022,
+    "title": "Neutralizing Activities against the Omicron Variant after a Heterologous Booster in Healthy Adults Receiving Two Doses of CoronaVac Vaccination",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "first_pub_date": "2022-01-29"
+  },
+  {
+    "doi": "10.1101/2022.01.27.22269865",
+    "authors": "Blake Martin, Peter E. DeWitt, Seth Russell, L. Nelson Sanchez-Pinto, Melissa A. Haendel, Richard Moffitt, Tellen D. Bennett",
+    "publication_year": 2022,
+    "title": "Acute upper airway disease in children with the omicron (B.1.1.529) variant of SARS-CoV-2: a report from the National COVID Cohort Collaborative (N3C)",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "first_pub_date": "2022-01-30"
+  },
+  {
+    "doi": "10.1101/2022.01.28.21268186",
+    "authors": "Taxiarchis Chassalevris, Serafeim C. Chaintoutis, Michalis Koureas, Maria Petala, Evangelia Moutou, Christina Beta, Maria Kyritsi, Christos Hadjichristodoulou, Margaritis Kostoglou, Thodoris Karapantsios, Agis Papadopoulos, Nikolaos Papaioannou, Chrysostomos I. Dovas",
+    "publication_year": 2022,
+    "title": "Wastewater monitoring using a novel, cost-effective PCR-based method that rapidly captures the transition patterns of SARS-CoV-2 variant prevalence (from Delta to Omicron) in the absence of conventional surveillance evidence",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "first_pub_date": "2022-01-30"
+  },
+  {
+    "doi": "10.1101/2022.01.28.22269986",
+    "authors": "Suvichada Assawakosri, Sitthichai Kanokudom, Nungruthai Suntronwong, Chompoonut Auphimai, Pornjarim Nilyanimit, Preeyaporn Vichaiwattana, Thanunrat Thongmee, Thaneeya Duangchinda, Warangkana Chantima, Pattarakul Pakchotanon, Donchida Srimuan, Thaksaporn Thatsanatorn, Sirapa Klinfueng, Ritthideach Yorsang, Natthinee Sudhinaraset, Nasamon Wanlapakorn, Juthathip Mongkolsapaya, Sittisak Honsawek, Yong Poovorawan",
+    "publication_year": 2022,
+    "title": "Neutralizing Activities against the Omicron Variant after a Heterologous Booster in Healthy Adults Receiving Two Doses of CoronaVac Vaccination",
+    "journal": "medRxiv",
+    "preprint": "Y",
+    "first_pub_date": "2022-01-29"
+  },
+  {
+    "doi": "10.1101/2022.01.25.477784",
+    "authors": "Sophie M-C. Gobeil, Rory Henderson, Victoria Stalls, Katarzyna Janowska, Xiao Huang, Aaron May, Micah Speakman, Esther Beaudoin, Kartik Manne, Dapeng Li, Rob Parks, Maggie Barr, Margaret Deyton, Mitchell Martin, Katayoun Mansouri, Robert J. Edwards, Gregory D. Sempowski, Kevin O. Saunders, Kevin Wiehe, Wilton Williams, Bette Korber, Barton F. Haynes, Priyamvada Acharya",
+    "publication_year": 2022,
+    "title": "Structural diversity of the SARS-CoV-2 Omicron spike",
+    "journal": "bioRxiv",
+    "preprint": "Y",
+    "first_pub_date": "2022-01-26"
   }
 ]
