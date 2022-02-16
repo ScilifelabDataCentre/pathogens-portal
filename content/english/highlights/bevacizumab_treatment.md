@@ -5,6 +5,7 @@ summary: A recently published clinical study investigating bevacizumab, a humani
 banner: /highlights/banners/bevacizumab_small.png
 banner_large: /highlights/banners/bevacizumab_large.png
 banner_caption: "Source: Figure 4 of Pang et al. (2021)."
+topics: [COVID-19, Infectious diseases]
 aliases:
     - /news/bevacizumab_treatment
     - /sv/news/bevacizumab_treatment

@@ -5,6 +5,7 @@ summary: Chen and Saccon et al. used a proteomics-based approach to study how SA
 banner: /highlights/banners/Interferon_liver_small.png
 banner_large: /highlights/banners/Interferon_liver.png
 banner_caption: "Source: Figure 2B from Chen and Saccon et al. 2021"
+topics: [COVID-19, Infectious diseases]
 aliases:
     - /news/interferon_signatures_liver
     - /sv/news/interferon_signatures_liver

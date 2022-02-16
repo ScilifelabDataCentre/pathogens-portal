@@ -1,9 +1,13 @@
 {{ define "main" }}
 
-{{ if .Params.needs_translation }} <div class="alert alert-info">
-  <i class="fas fa-exclamation-triangle"></i>
-  Svensk översättning kommer inom kort.
-</div> {{ end }}
+{{ range (.GetTerms "topics") }}
+<span class="topic_badge_large
+  {{ if eq .LinkTitle "COVID-19"}}topic_badge_covid
+  {{ else if eq .LinkTitle "Infectious diseases"}}topic_badge_infectious_d
+  {{ else if eq .LinkTitle "Antibiotic resistance"}}topic_badge_antib_r
+  {{ else }}topic_badge_general
+  {{ end }} "><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
+{{ end }}
 
 <h2>{{ if .Params.title_full }}{{ .Params.title_full }}{{ else }}{{ .Title}}{{ end }}</h2>
 <p class="text-muted">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).published_text }}: {{ .Date.Format "2006-01-02"}}</p>

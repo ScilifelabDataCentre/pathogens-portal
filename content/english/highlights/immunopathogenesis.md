@@ -7,6 +7,7 @@ banner: /highlights/banners/immunopathogenesis.png
 banner_large: /highlights/banners/immunopathogenesis_large.jpg
 banner_caption: "Source: Figure 1 from Parrot et al., Science Immunology, 2020"
 toc: false
+topics: [COVID-19, Infectious diseases]
 aliases:
     - /news/immunopathogenesis
     - /sv/news/immunopathogenesis

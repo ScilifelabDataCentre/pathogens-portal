@@ -5,6 +5,7 @@ summary: Recent study finds that drug repurposing can offer an average of an 11-
 banner: /highlights/banners/drug_repurposing_small.jpeg
 banner_large: /highlights/banners/drug_repurposing.jpeg
 banner_caption: "Source: Figure 4 of Rivero-García et al. 2021"
+topics: [COVID-19, Infectious diseases]
 ---
 
 The COVID-19 pandemic has over almost two years challenged global healthcare. Vaccines towards COVID-19 have been developed in record-time but therapeutics to treat the novel disease are still warranted. World-wide efforts to identify new and effective therapeutics candidates for COVID-19 have been going on since the beginning of the pandemic, for example the [Coronavirus Treatment Acceleration Program](https://www.fda.gov/drugs/coronavirus-covid-19-drugs/coronavirus-treatment-acceleration-program-ctap) started by the FDA in the US. The traditional *“one drug—one gene—one disease”* in Drug discovery has been successful in many cases in past but may have economical downsides as well as risk leaving patients suffering from rare conditions with limited therapeutic options. *Polypharmacology* which refers to a drugs' ability to target more than one protein and *drug repurposing ("repositioning")* defined as using an already approved drug for a new therapeutic indication are approaches to mitigate these problems.
