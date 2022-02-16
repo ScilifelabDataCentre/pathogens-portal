@@ -7,6 +7,7 @@ banner: /highlights/banners/nsp10.jpg
 banner_large: /highlights/banners/nsp10_large.jpeg
 banner_caption: "Source: PDB 6ZPE, DOI: 10.2210/pdb6ZPE/pdb"
 toc: false
+topics: [COVID-19, Infectious diseases]
 aliases:
     - /news/nsp10_crystal-structure
     - /sv/news/nsp10_crystal-structure

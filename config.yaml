@@ -104,3 +104,8 @@ caches:
   getjson:
     dir: :cacheDir/:project
     maxAge: 10s
+
+taxonomies:
+  topic: topics
+permalinks:
+  topics: "/highlights/:slug/"

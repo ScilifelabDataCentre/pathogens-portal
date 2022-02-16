@@ -2,17 +2,6 @@
 
 {{ .Content }}
 
-{{ if eq $.Site.Language.LanguageName "Svenska" }}
-{{ $display_alert := false }}
-{{ range .RegularPages }}{{ if and .Params.needs_translation (eq $.Site.Language.LanguageName "Svenska") }} {{ $display_alert = true }} {{ end }} {{ end }}
-  {{ if $display_alert}}
-  <div class="alert alert-info">
-    <i class="fas fa-exclamation-triangle"></i>
-    <span class="small">Svensk översättning för de engelska texterna kommer inom kort.</span>
-  </div>
-  {{ end }}
-{{ end }}
-
 <div class="container mt-3">
   <div class="row">
   {{ $third_element := 2 }}
@@ -22,6 +11,14 @@
   {{ range $index, $content := $full_rows }}
       <div class="col-md mx-2 mb-2 border bg-light">
           <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
+          {{ range (.GetTerms "topics") }}
+              <span class="topic_badge_small
+              {{ if eq .LinkTitle "COVID-19"}}topic_badge_covid
+              {{ else if eq .LinkTitle "Infectious diseases"}}topic_badge_infectious_d
+              {{ else if eq .LinkTitle "Antibiotic resistance"}}topic_badge_antib_r
+              {{ else }}topic_badge_general
+              {{ end }} "><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
+          {{ end }}
           <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
           <p class="small text-muted">{{.Date.Format "2006-01-02"}}</p>
           <p> {{ .Summary }} <br><a href="{{ .RelPermalink }}">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).readmore_text }} <i class="fas fa-arrow-circle-right"></i></a></p>
@@ -36,6 +33,14 @@
       {{ range last $mod .RegularPages }}
       <div class="col-md mx-2 mb-2 border bg-light">
           <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
+          {{ range (.GetTerms "topics") }}
+              <span class="topic_badge_small
+              {{ if eq .LinkTitle "COVID-19"}}topic_badge_covid
+              {{ else if eq .LinkTitle "Infectious diseases"}}topic_badge_infectious_d
+              {{ else if eq .LinkTitle "Antibiotic resistance"}}topic_badge_antib_r
+              {{ else }}topic_badge_general
+              {{ end }} "><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
+          {{ end }}
           <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
           <p class="small text-muted">{{.Date.Format "2006-01-02"}}</p>
           <p> {{ .Summary }} <br><a href="{{ .RelPermalink }}">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).readmore_text }} <i class="fas fa-arrow-circle-right"></i></a></p>
@@ -47,6 +52,14 @@
       {{ range last $mod .RegularPages }}
       <div class="col-md mx-2 mb-2 border bg-light">
           <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
+          {{ range (.GetTerms "topics") }}
+              <span class="topic_badge_small
+              {{ if eq .LinkTitle "COVID-19"}}topic_badge_covid
+              {{ else if eq .LinkTitle "Infectious diseases"}}topic_badge_infectious_d
+              {{ else if eq .LinkTitle "Antibiotic resistance"}}topic_badge_antib_r
+              {{ else }}topic_badge_general
+              {{ end }} "><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
+          {{ end }}
           <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
           <p class="small text-muted">{{.Date.Format "2006-01-02"}}</p>
           <p> {{ .Summary }} <br><a href="{{ .RelPermalink }}">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).readmore_text }} <i class="fas fa-arrow-circle-right"></i></a></p>

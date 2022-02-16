@@ -6,6 +6,7 @@ summary: Study by Hugo Zeberg and Svante Pääbo fully based on openly available
 banner: /highlights/banners/neanderthal_gene_data_driven.jpg
 banner_large: /highlights/banners/neanderthal_gene_data_driven_full.jpg
 banner_caption: "Skull of Homo sapiens neanderthalensis. <br> Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Homo_sapiens_neanderthalensis.jpg)."
+topics: [COVID-19, Infectious diseases]
 aliases:
     - /news/neanderthal_gene_data_driven
     - /sv/news/neanderthal_gene_data_driven
