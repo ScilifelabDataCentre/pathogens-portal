@@ -5,6 +5,7 @@ summary: Rietdijk and colleagues used a new phenomics approach to aid in the dis
 banner: /highlights/banners/Rietdijk_abstract_small.png
 banner_large: /highlights/banners/Rietdijk_abstract_big.png
 banner_caption: "Source: Graphical abstract from Rietdijk et al. 2021"
+topics: [COVID-19, Infectious diseases]
 aliases:
     - /news/phenomics_method_drug_discovery
     - /sv/news/phenomics_method_drug_discovery

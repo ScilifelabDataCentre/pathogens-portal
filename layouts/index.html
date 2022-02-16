@@ -123,18 +123,9 @@
       </div>
       {{ end }}
       <div class="row">
-        {{ $highs := where .Site.RegularPages "Section" "highlights" }}
-        {{ if eq $.Site.Language.LanguageName "Svenska" }}
-        {{ $display_alert := false }}
-        {{ range first 3 $highs }} {{ if .Params.needs_translation }} {{ $display_alert = true }} {{ end }}
-        {{ end }}
-        {{ if $display_alert }}<div class="alert alert-info">
-            <i class="fas fa-exclamation-triangle"></i>
-            <span class="small">Svensk översättning för de engelska texterna kommer inom kort.</span>
-        </div> {{ end }}
-        {{ end }}
+        {{ $highlights := where .Site.RegularPages "Section" "highlights" }}
         <div class="row">
-          {{ range first 3 $highs }}
+          {{ range first 3 $highlights }}
           <div class="col-md mx-2 mb-2 border bg-light">
             <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
             <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>

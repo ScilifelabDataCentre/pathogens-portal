@@ -5,6 +5,7 @@ summary: A new study largely relying on existing data re-use identified circulat
 banner: /highlights/banners/neanderthal-gene-protecting.png
 banner_large: /highlights/banners/neanderthal-gene-protecting-large.png
 banner_caption: "Source: Figure 2 of Zhao et al. 2021"
+topics: [COVID-19, Infectious diseases]
 aliases:
     - /news/neanderthal-gene-protecting
     - /sv/news/neanderthal-gene-protecting

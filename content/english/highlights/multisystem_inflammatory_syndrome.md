@@ -5,6 +5,7 @@ summary: Multiple autoantibodies and specific cytokines could be involved in the
 banner: /highlights/banners/mis.png
 banner_large: /highlights/banners/mis_large.png
 banner_caption: "Source: Figure 1 of Consiglio et al. 2020, Cell."
+topics: [COVID-19, Infectious diseases]
 aliases:
     - /news/multisystem_inflammatory_syndrome
     - /sv/news/multisystem_inflammatory_syndrome

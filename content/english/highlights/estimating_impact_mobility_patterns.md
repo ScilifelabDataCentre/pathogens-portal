@@ -6,6 +6,7 @@ summary: Patrick Bryant and Arne Elofsson shared code and instructions for model
 banner: /highlights/banners/bryant_elofsson.png
 banner_large: /highlights/banners/bryant_elofsson_large.png
 banner_caption: "Source: Part of Figure 1 of the corresponding article."
+topics: [COVID-19, Infectious diseases]
 aliases:
     - /news/estimating_impact_mobility_patterns
     - /sv/news/estimating_impact_mobility_patterns
