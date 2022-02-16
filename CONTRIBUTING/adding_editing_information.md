@@ -50,7 +50,6 @@ Both illustrations should be placed in the `/static/highlights/banners` folder. 
 
 The data highlights are generated from Markdown formatted files contained in the `/content/english/highlights/` folder. The file name used here will also be the URL of the data highlight (e.g., `test-highlight.md` will become `https://covid19dataportal.se/highlights/test-highlight/`).
 
-
 ### Content of the data highlight files
 
 Below is an example of a data highlight file content. You can copy this text into your markdown file and edit it to write your own data highlight.
