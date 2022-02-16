@@ -2,7 +2,7 @@
 
 <div class="header">
   <div class="container">
-    <h1>{{ if eq .Parent.Section "news"}}{{ .Parent.Title }}{{ else }}{{ .Title }}{{ end }}</h1>
+    <h1>{{ if eq .Parent.Section "topics" }}{{ with .Site.GetPage "/highlights" }}{{ .Title }}{{ end }}: {{ .Title }}{{ else }}{{ .Title }}{{ end }}</h1>
   </div>
 </div>
 {{ if ne .Page.Section "voc" }}
@@ -30,7 +30,15 @@
         <li class="breadcrumb-item"><a href="{{ .Parent.Parent.RelPermalink }}">{{ .Parent.Parent.Title }}</a></li>
       {{ end }}
 
-      <li class="breadcrumb-item"><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></li>
+      {{/*
+       Make an exception for topics which are only used for data highlights
+      */}}
+
+      {{ if eq .Parent.Title "Topics" }}
+        <li class="breadcrumb-item"><a href="/highlights/">Data highlights</a>
+      {{ else }}
+        <li class="breadcrumb-item"><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></li>
+      {{ end }}
       <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
     </ol>
   </div>
