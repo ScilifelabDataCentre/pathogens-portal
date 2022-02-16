@@ -1,6 +1,30 @@
 {
-  "last_updated": "2022-02-11",
+  "last_updated": "2022-02-16",
   "calls": [
+    {
+    "topic": ["General"],
+    "funder": "Swedish Research Council",
+    "call_title": "Consolidator grant within medicine and health",
+    "call_url": "https://www.vr.se/english/applying-for-funding/calls/2021-11-17-consolidator-grant-within-medicine-and-health.html",
+    "call_description": "The purpose of the grant is to give the most prominent junior researchers the opportunity to consolidate their research and broaden their activities as independent researchers.",
+    "submission_deadline": "2022-03-15",
+    "submission_opendate": "2022-02-09",
+    "funding_period": "5 years",
+    "funding_amount": "2 000 000 SEK per year",
+    "decision_date": "No later than the beginning of November 2022"
+    }, 
+    {
+    "topic": ["General"],
+    "funder": "Swedish Research Council",
+    "call_title": "Starting grant within medicine and health",
+    "call_url": "https://www.vr.se/english/applying-for-funding/calls/2021-11-17-starting-grant-within-medicine-and-health.html",
+    "call_description": "The aim of the grant is to give junior researchers the opportunity to establish themselves as independent researchers in Sweden.",
+    "submission_deadline": "2022-03-15",
+    "submission_opendate": "2022-02-09",
+    "funding_period": "4 years",
+    "funding_amount": "1 500 000 SEK per year",
+    "decision_date": "No later than the beginning of November 2022"
+    }, 
     {
     "topic": ["General"],
     "funder": "Swedish Research Council",
