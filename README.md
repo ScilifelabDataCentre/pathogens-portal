@@ -2,7 +2,7 @@
 
 ## COVID-19 Data Portal Sweden
 
-This is the source code for the Swedish Covid-19 Data Portal:
+This is the source code for the Swedish CCOVID-19 Data Portal:
 [https://www.covid19dataportal.se/](https://www.covid19dataportal.se/)
 
 The website is the Swedish node for the European Covid-19 Data Portal project.
@@ -161,11 +161,11 @@ Once approved, they will be merged and deployed.
 
 ## Using ImJoy Plugins
 
-This website supports [ImJoy](https://imjoy.io) plugins which can be used to visualize, annotate, run analysis directly from the website. Please see the file DOCUMENTATION/ImJoy.md for examples of usage.
+This website supports [ImJoy](https://imjoy.io) plugins which can be used to visualize, annotate, run analysis directly from the website. Please see the file CONTRIBUTING/ImJoy.md for examples of usage.
 
 ## Adding data highlights
 
-Data highlights section of the portal works based on a number of custom functions. We therefore wrote instructions on how to add new data highlights, please see the file DOCUMENTATION/adding_new_data_highlights.md.
+Data highlights section of the portal works based on a number of custom functions. We therefore wrote instructions on how to add new data highlights, please see the CONTRIBUTING folder.
 
 ## How to get help
 
