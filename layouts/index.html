@@ -14,7 +14,7 @@
 
     <!-- Omicron VoC banner -->
     <div class="container mb-4 omicron_banner">
-    <a href="/voc/omicron">Special section on Omicron VoC: data & announcements</a>
+      <a href="/voc/omicron">Special section on Omicron VoC: data & announcements</a>
     </div>
 
     <!-- Available data -->
@@ -298,12 +298,15 @@
           <div class="row">
             <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
               horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
-              <div class="table-responsive"><div id="https://blobserver.dckube.scilifelab.se/blob/vaccine_heatmap_small.json" class="plotly" style="width:600px;height:300px"></div></div>
-              <script>
-              Plotly.d3.json('https://blobserver.dckube.scilifelab.se/blob/vaccine_heatmap_small.json', function(err, fig) {
-                  Plotly.plot('https://blobserver.dckube.scilifelab.se/blob/vaccine_heatmap_small.json', fig.data, fig.layout, {responsive: true});
+            <div class="table-responsive">
+              <div id="https://blobserver.dckube.scilifelab.se/blob/vaccine_heatmap_small.json" class="plotly"
+                style="width:600px;height:300px"></div>
+            </div>
+            <script>
+              Plotly.d3.json('https://blobserver.dckube.scilifelab.se/blob/vaccine_heatmap_small.json', function (err, fig) {
+                Plotly.plot('https://blobserver.dckube.scilifelab.se/blob/vaccine_heatmap_small.json', fig.data, fig.layout, { responsive: true });
               });
-              </script>
+            </script>
           </div>
         </div>
       </div>
@@ -355,9 +358,11 @@
           {{ range $index, $el := first 3 $updates }}
           <div class="row mt-3"><span><a href="{{ .RelPermalink }}">{{ .Title }}</a></span></div>
           <div class="row small text-muted">{{ .Date.Format "2006-01-02" }}</div>
-          {{ if ne $index 2}}<hr>{{ end }}
+          {{ if ne $index 2}}
+          <hr>{{ end }}
           {{ end }}
-          <div class="row mt-3"><span><a href="/updates/">See all portal news <i class="fas fa-arrow-circle-right"></i></a></span></div>
+          <div class="row mt-3"><span><a href="/updates/">See all portal news <i
+                  class="fas fa-arrow-circle-right"></i></a></span></div>
         </div>
       </div>
     </div>
@@ -413,20 +418,39 @@
         <div class="col mx-3">
           <div class="row">
             <h5><a
-                href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv/highlights/symptom-study-sweden/{{ else }}/data_types/health_data/symptom_study_sweden/{{ end }}">COVID
+                href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv//data_types/health_data/symptom_study_sweden/{{ else }}/data_types/health_data/symptom_study_sweden/{{ end }}">COVID
                 Symptom Study Sweden</a></h5>
           </div>
           <div class="row"><span>{{ if eq $.Site.Language.LanguageName "Svenska" }}CSSS samlar kontinuerligt in data om
               Covid-19 förekomste, symptom, och vaccinationer med hjälp av en smartphone app med över 200.000 användare
               i Sverige. Insamlade rådata <a target="_blank" href="https://www.covid19app.lu.se/forskare">kan görs
                 tillgängliga för forskningsprojekt</a>. Läs <a
-                href="/sv/data_types/health_data/symptom_study_sweden/">mer om projektet här</a>.{{ else }}CSSS
+                href="/sv/data_types/health_data/symptom_study_sweden/">mer om projektet här</a>.
+              <div class="table-responsive">
+                <div id="https://blobserver.dckube.scilifelab.se/blob/symptoms_map_swedish.json" class="plotly"
+                  style="height:300px"></div>
+              </div>
+              <script>
+                Plotly.d3.json('https://blobserver.dckube.scilifelab.se/blob/symptoms_map_swedish.json', function (err, fig) {
+                  Plotly.plot('https://blobserver.dckube.scilifelab.se/blob/symptoms_map_swedish.json', fig.data, fig.layout, { responsive: true });
+                });
+              </script>
+              {{ else }}CSSS
               continuously collects data on COVID-19 prevalence, symptoms, and vaccinations through a smartphone app
               with over 200.000 users in Sweden. Collected raw data <a target="_blank"
                 href="https://www.covid19app.lu.se/forskare">can be requested for use in research projects</a>. Find out
-              <a href="/data_types/health_data/symptom_study_sweden/">more about the project here</a>.{{ end }}</span>
+              <a href="/data_types/health_data/symptom_study_sweden/">more about the project here</a>.
+              <div class="table-responsive">
+                <div id="https://blobserver.dckube.scilifelab.se/blob/symptoms_map_english.json" class="plotly"
+                  style="height:300px"></div>
+              </div>
+              <script>
+                Plotly.d3.json('https://blobserver.dckube.scilifelab.se/blob/symptoms_map_english.json', function (err, fig) {
+                  Plotly.plot('https://blobserver.dckube.scilifelab.se/blob/symptoms_map_english.json', fig.data, fig.layout, { responsive: true });
+                });
+              </script>
+              {{ end }}</span>
           </div>
-          <div class="row">{{- partial "symptoms_map_code.html" . -}}</div>
         </div>
       </div>
     </div>
@@ -438,9 +462,14 @@
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.0.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
 
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/e4c6a7b8bff648a5adaabbdd3d994bf9.js?id=serology"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/6d16b18be0d74425b313040c502f29c8.js?id=uppsala_wastewater"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/93bad55e86ad4b0f97d4d27c77862bc9.js?id=stockholm_wastewater"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/530ca62cc6f7449680793a252155fee3.js?id=postcovid_halthcare_contacts"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/d262787e199b4c9b8fbbaf5f95edb7bc.js?id=malmo_wastewater"></script>
+<script
+  src="https://datagraphics.dckube.scilifelab.se/graphic/e4c6a7b8bff648a5adaabbdd3d994bf9.js?id=serology"></script>
+<script
+  src="https://datagraphics.dckube.scilifelab.se/graphic/6d16b18be0d74425b313040c502f29c8.js?id=uppsala_wastewater"></script>
+<script
+  src="https://datagraphics.dckube.scilifelab.se/graphic/93bad55e86ad4b0f97d4d27c77862bc9.js?id=stockholm_wastewater"></script>
+<script
+  src="https://datagraphics.dckube.scilifelab.se/graphic/530ca62cc6f7449680793a252155fee3.js?id=postcovid_halthcare_contacts"></script>
+<script
+  src="https://datagraphics.dckube.scilifelab.se/graphic/d262787e199b4c9b8fbbaf5f95edb7bc.js?id=malmo_wastewater"></script>
 {{ end }}
