@@ -2,8 +2,7 @@
 {{/* $topic_to_display := .Get "topic" */}}
 
 <p><i>
-   {{ cond (eq $.Site.Language.LanguageName "Svenska") "Senast uppdaterad" "Last updated" }}:
-   {{ $.Site.Data.funding.last_updated }}
+   Last updated: {{ $.Site.Data.funding.last_updated }}
 </i></p>
 
 {{/*
@@ -29,17 +28,17 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-2 pl-0 {{ if eq $.Site.Language.LanguageName "Svenska" }}mr-5{{ else }}mr-2{{ end }}">
-      <h5>Funder</h5>
-      <div class="col mb-2 ml-3 form-check">
-          {{ range sort $funders }}
-            <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
-                value="{{ . }}">{{ . }}</div>
-          {{ end }}
-      </div>
       <h5>Topic</h5>
       <div class="col mb-2 ml-3 form-check">
           {{ range sort $topics }}
             <div class="row"><input type="checkbox" class="form-check-input" name="topic"
+                value="{{ . }}">{{ . }}</div>
+          {{ end }}
+      </div>
+      <h5>Funder</h5>
+      <div class="col mb-2 ml-3 form-check">
+          {{ range sort $funders }}
+            <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
                 value="{{ . }}">{{ . }}</div>
           {{ end }}
       </div>
@@ -73,7 +72,7 @@
                   </div>{{ end }}
                   <div class="row mt-2">
                     <div class="col">
-                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#call_details{{ $ind }}">
+                      <button type="button" class="btn_details btn_details_primary" data-toggle="modal" data-target="#call_details{{ $ind }}">
                         Details
                       </button>
                       <div class="modal fade" id="call_details{{ $ind }}" tabindex="-1" role="dialog" aria-labelledby="call_details{{ $ind }}Label" aria-hidden="true">
@@ -92,7 +91,7 @@
                               {{ if .funding_amount }}<b>Funding amount:</b> {{ .funding_amount }}<br>{{ end }}
                               {{ if .funding_period }}<b>Funding period:</b> {{ .funding_period}}<br>{{ end }}
                               {{ if .applicant }}<b>Eligible applicant:</b> {{ .applicant | markdownify }}<br>{{ end }}
-                              {{ if .decision_date }}<b>Decision date:</b> {{ .decision_date }}<br>{{ end }}<p>
+                              {{ if .decision_date }}<b>Decision date:</b> {{ .decision_date }}<br>{{ end }}</p>
                               <p><b>Call description:</b><br><small>{{ .call_description | markdownify }}</small></p>
                               <p><a href="{{ .call_url }}">See call website for more information <i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a></p>
                             </div>
@@ -107,7 +106,7 @@
                 </td>
                 <td>{{ .submission_deadline | time.Format ":date_long" }}</td>
                 <td>{{ .funder }}</td>
-                <td>{{ range .topic }}<span class="topic_badge_large
+                <td>{{ range .topic }}<span class="mx-1 my-1 topic_badge_large
                   {{ if eq . "COVID-19"}}topic_badge_covid
                   {{ else if eq . "Infectious diseases"}}topic_badge_infectious_d
                   {{ else if eq . "Antibiotic resistance"}}topic_badge_antib_r
