@@ -188,13 +188,18 @@
                 ({{ len $.Site.Data.publications.publications }}) <i class="fas fa-arrow-circle-right"></i></a>{{ end }}
             </h5>
           </div>
+          {{ if ne $.Site.Language.LanguageName "Svenska" }}
+            {{ $research_projects := 0 }}
+            {{ range $.Site.Data.research_projects.projects }}
+                {{ if gt (.enddate | time.Format "20060102") (now | time.Format "20060102") }}
+                  {{ $research_projects = add $research_projects 1}}
+                {{ end }}
+            {{ end }}
           <div class="row">
-            <h5>{{ if eq $.Site.Language.LanguageName "Svenska" }}<a href="/sv/projects/ongoing/">Stora
-                forskningsprojekt ({{ len $.Site.Data.funded_projects }}) <i
-                  class="fas fa-arrow-circle-right"></i></a>{{ else }}<a href="/projects/ongoing/">Ongoing research
-                projects ({{ len $.Site.Data.funded_projects }}) <i class="fas fa-arrow-circle-right"></i></a>{{ end }}
+            <h5><a href="/research_projects/">Ongoing research projects ({{ $research_projects }}) <i class="fas fa-arrow-circle-right"></i></a>
             </h5>
           </div>
+          {{ end }}
           {{ if ne $.Site.Language.LanguageName "Svenska" }}
             {{ $funding_opportunities := 0 }}
             {{ range $.Site.Data.funding.calls }}
