@@ -107,7 +107,7 @@
                 </td>
                 <td>{{ .submission_deadline | time.Format ":date_long" }}</td>
                 <td>{{ .funder }}</td>
-                <td>{{ range .topic }}<span class="topic_badge
+                <td>{{ range .topic }}<span class="topic_badge_large
                   {{ if eq . "COVID-19"}}topic_badge_covid
                   {{ else if eq . "Infectious diseases"}}topic_badge_infectious_d
                   {{ else if eq . "Antibiotic resistance"}}topic_badge_antib_r
@@ -118,6 +118,7 @@
               {{ end }}
             </tbody>
           </table>
+
         </div>
       </div>
     </div>
@@ -128,7 +129,6 @@
   $(document).ready( function () {
     var table = $('.funding-opportunities').DataTable({
       "dom": '<"top">rt<"bottom"><"clear">',
-      "pageLength": 5,
       "language": {
            "lengthMenu": "Show _MENU_ projects per page.",
            "zeroRecords": "Nothing found.",
