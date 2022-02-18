@@ -1,7 +1,7 @@
 ---
 title: Newly discovered Fu2 nanobody hold potential for future antiviral development
 date: 2022-02-17
-summary: In this study, Hanke and colleagues discovered a new nanobody. The new RBD-specific Fu2 nanobody was found to utilize a unique neitralization mechanism. Data was shared openly in, eg. The Electron Microscopy Data Bank.
+summary: In this study, Hanke and colleagues discovered a new nanobody. The new RBD-specific Fu2 nanobody was found to utilize a unique neutralization mechanism. Data was shared openly in, eg. The Electron Microscopy Data Bank.
 banner: /highlights/banners/bispecific_monomeric_nanobody.png
 banner_large: /highlights/banners/bispecific_monomeric_nanobody_large.png
 banner_caption: Fig 2-f Modelling of simultaneous spike-Fu2-ACE2 binding shows that Fu2 blocks the binding of ACE2, from Hanke, L., Das, H., Sheward, D.J. et al (2022)
