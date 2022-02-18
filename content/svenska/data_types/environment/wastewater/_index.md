@@ -35,7 +35,34 @@ Notera att resultaten i dataseten och som visas i diagrammen är preliminära da
 Székely, A. & Mohamed, N. Dataset of SARS-CoV-2 wastewater data from Uppsala, and neighbouring towns Knivsta, Enköping, Östhammar and Älvkarleby, Sweden. [https://doi.org/10.17044/scilifelab.14256317.v1](https://doi.org/10.17044/scilifelab.14256317.v1) (2021).
 
 <div class="alert alert-info">Senast uppdaterad: <span id="last_modified_uppsala"></span></div>
-<div class="alert alert-secondary small">För att interagera med visualiseringen, klicka på kommunens namn att markera eller avmarkera kommuner av intresse som visas. Placera muspekaren på grafen och zooma in på den tidsperiod som är av intresse. Vänligen notera att axlarnas intervall anpassas efter de kriterier som läggs in. Dubbelklickar på grafen för att komma tillbaka till startläget. Det är även möjligt att ladda ner grafen i PNG format, zooma och köra återställning med hjälp av de knappar som visas i övre högra hörnet när du håller muspekaren över grafen.</div>
+
+<div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#vis_instr_one" aria-expanded="False" aria-controls="mandatorycollapse">
+    Vänligen tryck här för information om hur du kan  använda grafens interaktiva funktioner
+</button>
+</div>
+<div class="collapse" id="vis_instr_one">
+  <div class="card card-body">
+        <span>
+
+Linjediagrammen på den här sidan har flera interaktiva funktioner. Du kan använda funktionerna för att visualisera tillgängliga SARS-COV-2 avloppsvattendata  på olika sätt. Du kan till exempel välja att endast se data inom ett visst tidsintervall, eller från en given ort. Nedan förklarar vi hur du själv kan bestämma hur du gör inställningarna med de tillgängliga interaktiva funktionerna.
+
+##### Visa endast en ort
+
+För att endast visa data från en ort dubbelklicka på ortsnamnet i baneret till höger. För att avmarkera en ort klicka endast en gång på ortsnamnet. Om en ort avmarkeras kommer denna gråmarkeras och ortens data visas inte i grafen. I inställningar är alla orter markerade i startläget. För att avmarkera alla orter tryck "Deselect all areas" knappen. Du kan markera alla orter igen genom "Reselect all areas" knappen
+
+##### Visulisera endast vissa intervall på x eller y-axel
+
+I diagrammen nedan representerar y-axeln kopiantalet för SARS-CoV-2 i förhållande till PMMoV medan x-axeln representerar datumet. Om du vill se värden inom ett givet värdeintervall på axlarna kan du göra detta genom att klicka och dra med musen. Till exempel, för att se all data inom en given tidsram kan du klicka nära startdatumet på x-axeln och dra för att skapa en rektangel som omfattar hela y-axeln och det datumintervall på x-axeln som du vill ha att se. Grafen kommer sedan att zooma in i intervallet som du valt.
+
+##### Att utläsa exakta mätvärden
+
+Det kan vara svårt att exakt läsa de exakta mätvärdena på data från en graf. För att se det exakta datavärdet, håll muspekaren över datapunkten av intresse. En ruta kommer att visas som visar y-axelvärdena för alla mätplatser för ett visst datum (dvs det x-axelvärdet).
+
+##### Andra funktioner
+
+Om du håller muspekaren över grafen kommer du att se några ytterligare alternativa funktioner som grå ikoner uppe till höger. Du kan använda dessa funktioner för att zooma in/ut ur  (med hjälp av + och - ikonerna), och för att ändra skalan på axlarna så att data från de "valda" platserna visas på de mest lämpliga axlarna (detta kan göras med hjälp av autoskala eller återställ axlar, som ser ut som en ruta som innehåller pilar respektive ett hus).</span>
+  </div>
+</div>
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="550px" >}}</div>
@@ -63,6 +90,34 @@ Se även [forskargruppens webbsida där sammanfattningar av data och preliminär
 Cetecioglu Z G, Williams, C, Khatami, K, Atasoy, M, Nandy, P, Jafferali, M H, Birgersson, M. SARS-CoV-2 Wastewater Data from Stockholm, Sweden. [https://doi.org/10.17044/scilifelab.14315483](https://doi.org/10.17044/scilifelab.14315483) (2021).
 
 <div class="alert alert-info">Senast uppdaterad: <span id="last_modified_stockholm"></span></div>
+
+<div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#vis_instr_two" aria-expanded="False" aria-controls="mandatorycollapse">
+    Vänligen tryck här för information om hur du kan  använda grafens interaktiva funktioner
+</button>
+</div>
+<div class="collapse" id="vis_instr_two">
+  <div class="card card-body">
+        <span>
+
+Linjediagrammen på den här sidan har flera interaktiva funktioner. Du kan använda funktionerna för att visualisera tillgängliga SARS-COV-2 avloppsvattendata  på olika sätt. Du kan till exempel välja att endast se data inom ett visst tidsintervall, eller från en given ort. Nedan förklarar vi hur du själv kan bestämma hur du gör inställningarna med de tillgängliga interaktiva funktionerna.
+
+##### Visa endast en ort
+
+För att endast visa data från en ort dubbelklicka på ortsnamnet i baneret till höger. För att avmarkera en ort klicka endast en gång på ortsnamnet. Om en ort avmarkeras kommer denna gråmarkeras och ortens data visas inte i grafen. I inställningar är alla orter markerade i startläget. För att avmarkera alla orter tryck "Deselect all areas" knappen. Du kan markera alla orter igen genom "Reselect all areas" knappen
+
+##### Visulisera endast vissa intervall på x eller y-axel
+
+I diagrammen nedan representerar y-axeln kopiantalet för SARS-CoV-2 i förhållande till PMMoV medan x-axeln representerar datumet. Om du vill se värden inom ett givet värdeintervall på axlarna kan du göra detta genom att klicka och dra med musen. Till exempel, för att se all data inom en given tidsram kan du klicka nära startdatumet på x-axeln och dra för att skapa en rektangel som omfattar hela y-axeln och det datumintervall på x-axeln som du vill ha att se. Grafen kommer sedan att zooma in i intervallet som du valt.
+
+##### Att utläsa exakta mätvärden
+
+Det kan vara svårt att exakt läsa de exakta mätvärdena på data från en graf. För att se det exakta datavärdet, håll muspekaren över datapunkten av intresse. En ruta kommer att visas som visar y-axelvärdena för alla mätplatser för ett visst datum (dvs det x-axelvärdet).
+
+##### Andra funktioner
+
+Om du håller muspekaren över grafen kommer du att se några ytterligare alternativa funktioner som grå ikoner uppe till höger. Du kan använda dessa funktioner för att zooma in/ut ur  (med hjälp av + och - ikonerna), och för att ändra skalan på axlarna så att data från de "valda" platserna visas på de mest lämpliga axlarna (detta kan göras med hjälp av autoskala eller återställ axlar, som ser ut som en ruta som innehåller pilar respektive ett hus).</span>
+  </div>
+</div>
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_combined_stockholm.json" height="550px" >}}</div>
