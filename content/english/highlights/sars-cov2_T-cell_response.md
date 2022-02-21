@@ -20,7 +20,6 @@ In summary, the sensitivity and specificity of a FluoroSpot SARS-CoV-2 T-cell as
 
 <p style="background-color: #E0E0E0; padding: 10px; border-radius: 4px;">
     Read more about the <a href="https://www.scilifelab.se/pandemic-response/covid-19-research-program/">SciLifeLab/KAW National COVID-19 Research Program</a>. The aim of the SciLifeLab/KAW National COVID-19 research program is to provide useful knowledge about the current situation during the corona pandemic and also to provide knowledge for future pandemics. In addition, the program aims to improve preventions, diagnostics and treatments of viral disease, a clearer real-time overview of the pandemic, integrate data across technologies, and research domains, and create better predictive models. This research program is made possible by funding from <a href="https://kaw.wallenberg.org/en">Knut and Alice Wallenberg Foundation</a> (KAW). More about the Covid-19 efforts funded by KAW <a href="https://kaw.wallenberg.org/en/foundations-efforts-against-corona-virus">here</a>.
-    
 </p>
 
 #### Data
