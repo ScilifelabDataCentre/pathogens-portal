@@ -1,5 +1,5 @@
 ---
-title: COMMUNITY study provides important insights for future predictions of SARS CoV-2 infection
+title: Study provides important insights for future predictions of SARS CoV-2 infection
 date: 2022-02-21
 summary: Mangsbo and colleagues investigated sensitivity and specificity of a SARS-CoV-2 T-cell assay. Research warrants further research into that future T-cell receptor sequencing as future tools for prediction of previous infections. Data and metadata available.
 banner: /highlights/banners/sarscov2_tcell_response.png
