@@ -1,9 +1,0 @@
-{{ define "main" }}
-
-{{ with .Site.GetPage "/highlights" }}{{ .Content }}{{ end }}
-
-<h3>Topic: {{ .Title }}</h3>
-
-{{- partial "highlights.html" . -}}
-
-{{ end }}
