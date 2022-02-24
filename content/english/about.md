@@ -2,7 +2,7 @@
 title: About the data portal
 toc: false
 menu:
-    top_nav:
+    navbar_top:
         name: About
         weight: 10
         identifier: about

@@ -1,6 +1,10 @@
 ---
 title: Contact and suggestions form
 menu:
+    navbar_top:
+        name: Contact
+        weight: 20
+        identifier: contact
     footer_about:
         name: Suggestions and contact
         weight: 5
