@@ -1,11 +1,10 @@
 ---
-title: Submit data
+title: Share data
 toc: false
 menu:
-    top_nav:
+    top_actions:
         weight: 40
-        pre: <i class="fas fa-paper-plane mr-2"></i>
-        post: highlight
+        pre: <i class="bi bi-server mr-2"></i>
     main:
         identifier: submit_data
         parent: support_services
@@ -17,6 +16,7 @@ aliases:
   - /data_types/imaging_data/guidelines/
   - /data_types/protein_data/guidelines/
   - /support_services/general_data_repository/
+  - /submit/
 ---
 
 Publish your COVID-19 research data to make it available for the rest of the research community. The data should be deposited in a public repository together with descriptive metadata. For many biological datatypes, there are international databases that can be considered _de facto_ standards.
