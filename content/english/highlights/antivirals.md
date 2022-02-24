@@ -5,7 +5,7 @@ summary: Newly discovered antiviral compounds showed broad-range antiviral activ
 banner: /highlights/banners/antivirals.png
 banner_large: /highlights/banners/antivirals_large.png
 banner_caption: "Source: Courtesy of  Marjo-Riitta Puumalainen"
-topics: [COVID-19, Infectious diseases]
+highlights_topics: [COVID-19, Infectious diseases]
 aliases:
     - /news/antivirals
     - /sv/news/antivirals

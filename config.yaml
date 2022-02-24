@@ -106,6 +106,6 @@ caches:
     maxAge: 10s
 
 taxonomies:
-  topic: topics
+  highlights_topic: highlights_topics
 permalinks:
-  topics: "/highlights/:slug/"
+  highlights_topics: "/highlights/topics/:slug/"

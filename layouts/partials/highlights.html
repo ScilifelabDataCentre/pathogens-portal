@@ -7,7 +7,7 @@
   {{ range $index, $content := $full_rows }}
       <div class="col-md mx-2 mb-2 border bg-light">
           <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
-          {{ range (.GetTerms "topics") }}
+          {{ range (.GetTerms "highlights_topics") }}
               <span class="topic_badge_small
               {{ if eq .LinkTitle "COVID-19"}}topic_badge_covid
               {{ else if eq .LinkTitle "Infectious diseases"}}topic_badge_infectious_d
@@ -29,7 +29,7 @@
       {{ range last $mod .RegularPages }}
       <div class="col-md mx-2 mb-2 border bg-light">
           <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
-          {{ range (.GetTerms "topics") }}
+          {{ range (.GetTerms "highlights_topics") }}
               <span class="topic_badge_small
               {{ if eq .LinkTitle "COVID-19"}}topic_badge_covid
               {{ else if eq .LinkTitle "Infectious diseases"}}topic_badge_infectious_d
@@ -48,7 +48,7 @@
       {{ range last $mod .RegularPages }}
       <div class="col-md mx-2 mb-2 border bg-light">
           <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
-          {{ range (.GetTerms "topics") }}
+          {{ range (.GetTerms "highlights_topics") }}
               <span class="topic_badge_small
               {{ if eq .LinkTitle "COVID-19"}}topic_badge_covid
               {{ else if eq .LinkTitle "Infectious diseases"}}topic_badge_infectious_d

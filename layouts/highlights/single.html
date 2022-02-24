@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ range (.GetTerms "topics") }}
+{{ range (.GetTerms "highlights_topics") }}
 <span class="topic_badge_large
   {{ if eq .LinkTitle "COVID-19"}}topic_badge_covid
   {{ else if eq .LinkTitle "Infectious diseases"}}topic_badge_infectious_d

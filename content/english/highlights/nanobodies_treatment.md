@@ -4,7 +4,7 @@ date: 2021-02-16
 summary: A recently published study characterizes the mechanisms by which nanobodies neutralize or prevent of infection in molecular detail. Crystallographic coordinates, cryo-EM density maps, and atomic coordinates were deposited to public databases.
 banner: /highlights/banners/nanobodies_treatment.png
 banner_caption: "Source: [PDB 7KN7](https://www.rcsb.org/structure/7KN7), Crystal structure of SARS-CoV-2 RBD complexed with nanobody VHH W and antibody Fab CC12.3"
-topics: [COVID-19, Infectious diseases]
+highlights_topics: [COVID-19, Infectious diseases]
 aliases:
     - /news/nanobodies_treatment
     - /sv/news/nanobodies_treatment

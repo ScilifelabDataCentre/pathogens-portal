@@ -2,14 +2,9 @@
 
 <div class="header">
   <div class="container">
-    <h1>{{ if eq .Parent.Section "topics" }}{{ with .Site.GetPage "/highlights" }}{{ .Title }}{{ end }}: {{ .Title }}{{ else }}{{ .Title }}{{ end }}</h1>
+    <h1>{{ if eq .Parent.Section "highlights_topics" }}{{ with .Site.GetPage "/highlights" }}{{ .Title }}{{ end }}: {{ .Title }}{{ else }}{{ .Title }}{{ end }}</h1>
   </div>
 </div>
-{{ if ne .Page.Section "voc" }}
-<div class="container my-2 omicron_banner">
-<a href="/voc/omicron">Special section on Omicron VoC: data & announcements</a>
-</div>
-{{ end }}
 
 {{ if .Parent }}
 <nav class="breadcrumbs" aria-label="breadcrumb">
@@ -34,7 +29,7 @@
        Make an exception for topics which are only used for data highlights
       */}}
 
-      {{ if eq .Parent.Title "Topics" }}
+      {{ if eq .Parent.Title "Highlights_topics" }}
         <li class="breadcrumb-item"><a href="/highlights/">Data highlights</a>
       {{ else }}
         <li class="breadcrumb-item"><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></li>
