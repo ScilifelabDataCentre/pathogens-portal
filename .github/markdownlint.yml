@@ -21,6 +21,7 @@ no-inline-html:
     - input
     - button
     - br
+    - h6
     - h5
     - h4
     - h3

@@ -60,15 +60,9 @@ For more information on what is shown in the panels, please see e.g. this [2018 
 
 ## Relevant publications and preprints
 
-Here we display a selection of preprints and journal publications reporting results on Omicron VoC.
-
-#### Publications and preprints with participation of research groups in Sweden
+Here we display a selection of preprints and journal publications with participation of research groups in Sweden reporting results on Omicron VoC.
 
 {{< omicron_page_pubs_swe >}}
-
-#### Publications and preprints by research groups in other countries
-
-{{< omicron_page_pubs >}}
 
 ## Other useful resources
 
@@ -91,6 +85,7 @@ Here we list a number of useful resources related to the new *SARS-CoV-2 Omicron
 - [ESCMID Urgent update on Omicron SARS-CoV-2 variant, 2021-12-22](https://eacademy.escmid.org/escmid/2021/covid-19-webinars/348220/)
 - [Statens Serum Institut: Antigen tests can detect new variants, 2022-01-07](https://www.ssi.dk/aktuelt/nyheder/2022/antigentest-undersoger-for-varianter)
 - [Nextstrain: Phylogenetic analysis of SARS-CoV-2 clusters in their international context - cluster DanishCluster](https://nextstrain.org/groups/neherlab/ncov/DanishCluster)
+- [WHO Statement on Omicron sublineage BA.2](https://www.who.int/news/item/22-02-2022-statement-on-omicron-sublineage-ba.2)
 
 ## Get in touch with us
 

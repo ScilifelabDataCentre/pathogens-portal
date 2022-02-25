@@ -11,7 +11,7 @@
 <div class="row">
   <div class="col">
     <div class="table-responsive">
-      <table id="{{ if gt (len $entries_to_display) 20 }}pubs_table{{ end }}" class="table table-hover table-bordered" width="100%">
+      <table id="{{ if gt (len $entries_to_display) 10 }}pubs_table{{ end }}" class="table table-hover table-bordered" width="100%">
         <thead class="thead-light">
           <tr>
             <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_pub }}</th>
@@ -56,3 +56,48 @@
     </div>
   </div>
 </div>
+
+<script>
+  $(document).ready(function() {
+    $('#pubs_table').DataTable({
+        "sDom": '<"top row"<"col-md"i><"col-md"f>>rt<"bottom row"<"col-md"l><"col-md"p>><"clear">',
+        "order": [[ 1, "desc" ]],
+        "columnDefs": [{ "orderable": false, "targets": 1 }],
+        {{ if eq $.Site.Language.LanguageName "English" }}
+        "language": {
+             "lengthMenu": "Show _MENU_ publications per page",
+             "zeroRecords": "Nothing found.",
+             "info": "Showing _START_ to _END_ of _TOTAL_ entries.",
+             "infoEmpty": "No publications available",
+             "infoFiltered": "(filtered from _MAX_ total records)",
+             "search": "Search:",
+             "paginate": {
+                "first":      "First",
+                "last":       "Last",
+                "next":       "»",
+                "previous":   "«"
+                }
+            }
+        {{ else }}
+        "language": {
+             "lengthMenu": "Visa _MENU_ publikationer per sida",
+             "zeroRecords": "Inga resultat",
+             "info": "Visar _START_-_END_ av _TOTAL_ poster.",
+             "infoEmpty": "Inga publikationer",
+             "infoFiltered": "(filtrerad av _MAX_ poster)",
+             "search": "Sök:",
+             "paginate": {
+                "first":      "Första",
+                "last":       "Sista",
+                "next":       "»",
+                "previous":   "«"
+                }
+            }
+        {{ end }}
+    }
+    );
+} );
+</script>
+
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
