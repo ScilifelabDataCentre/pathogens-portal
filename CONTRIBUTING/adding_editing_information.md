@@ -5,6 +5,7 @@ In order to add or edit information on the Portal, make a fork of this repositor
 **Table of contents:**
 
 - [Funding opportunities](#funding-opportunities)
+- [Ongoing research projects](#ongoing-research-projects)
 - [Data highlights](#data-highlights)
 - [News about the Portal](#news-about-the-portal)
 
@@ -29,6 +30,31 @@ We collect funding opportunities relevant for COVID-19, infectious diseases, and
 ```
 
 At the beginning of the file `data/funding.json` there is a field for the last updated date of this file. The date here needs to be updated whenever new calls are added or changes are made.
+
+```JSON
+  "last_updated": "2006-01-02",
+```
+
+## Ongoing research projects
+
+We maintain a database of currently ongoing research projects on COVID-19, infectious diseases, and antibiotic resistance in Sweden. These are displayed under `/research_projects/`. The data is stored in JSON format in `data/research_projects.json`. Below is the format used for each entry. All required fields have to be filled out and in some cases there is a specific format. Note that for the field *topic* you should choose one or more topics corresponding of the call.
+
+```JSON
+{
+  "topic": ["COVID-19","Infectious diseases","Antibiotic resistance"],
+  "funder": "funder name, required field",
+  "project_title": "title of the research project, required field",
+  "project_description": "description of the project, optional field, markdown formatting allowed",
+  "funding_amount": "funding amount in SEK (e.g., 9.000.000 SEK), optional field",
+  "pi": "name of the principal investigator responsible for the project, optional field",
+  "pi_affiliation": "name of the university/institute where the project is carried out, optional field",
+  "startdate": "project start date in format '2006-01-02', optional field",
+  "enddate": "expected project end date in format '2006-01-02', required field",
+  "url": "URL (starting with http:// or https://) where more information about the project can be found, optional field"
+}
+```
+
+At the beginning of the file `data/research_projects.json` there is a field for the last updated date of this file. The date here needs to be updated whenever new projects are added or changes are made.
 
 ```JSON
   "last_updated": "2006-01-02",
