@@ -97,8 +97,6 @@ This is the second paragraph of the text of the highlight. Markdown formatting s
 
 We typically describe exactly what data has been shared, how it can be re-used, and give links to where it can be downloaded.
 
-*We typically put funder information near the end of the text, in italic font.*
-
 #### Data
 
 * [Shared dataset 1](https://example.com/data1/): description of shared dataset 1
@@ -110,6 +108,10 @@ We typically describe exactly what data has been shared, how it can be re-used, 
 DOI: [_put_DOI_here](https://doi.org/_put_DOI_here)
 
 Andersson, M., Johansson, S., Karlsson, A. Title of the journal publication *Journal Title*, **X** (X) (20XX).
+
+#### Funding
+
+We typically put funder information near the end, here.
 
 ```
 
