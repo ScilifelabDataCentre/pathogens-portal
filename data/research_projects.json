@@ -2209,7 +2209,7 @@
     "url": "https://www.vr.se/english/swecris.html#/project/2021-06121_VR"
   },
   {
-    "topic": ["antibiotic resistance"],
+    "topic": ["Antibiotic resistance"],
     "funder": "VR",
     "project_title": "Antibiotic resistance: The role of chemical pollution in urban wastewater",
     "pi": "Charlotte Turner",
@@ -2219,7 +2219,7 @@
     "url": "https://www.vr.se/english/swecris.html#/project/2021-04909_VR"
   },
   {
-    "topic": ["antibiotic resistance"],
+    "topic": ["Antibiotic resistance"],
     "funder": "VR",
     "project_title": "Pivmecillinam in the treatment of urinary tract infections caused by ESBL-producing bacteria - a randomized study",
     "pi": "Thomas Tängdén",
@@ -2229,7 +2229,7 @@
     "url": "https://www.vr.se/english/swecris.html#/project/2021-06574_VRR"
   },
   {
-    "topic": ["antibiotic resistance"],
+    "topic": ["Antibiotic resistance"],
     "funder": "Vinnova",
     "project_title": "Preparations for the Eurostars application “Novel breakthrough non-antibiotic treatment of acne”y",
     "pi": "Anna-Karin Tidén",
@@ -2239,7 +2239,7 @@
     "url": "https://www.vr.se/english/swecris.html#/project/2021-06574_VRR"
   },
   {
-    "topic": ["antibiotic resistance"],
+    "topic": ["Antibiotic resistance"],
     "funder": "Vinnova",
     "project_title": "PLATINEA 2.0 Availability and individualized use of antibioticsy",
     "pi": "Thomas Tängdén",
@@ -2249,7 +2249,7 @@
     "url": "https://www.vr.se/english/swecris.html#/project/2021-02699_Vinnova"
   },
   {
-    "topic": ["antibiotic resistance"],
+    "topic": ["Antibiotic resistance"],
     "funder": "Vinnova",
     "project_title": " Morphological switch of atypical mycobacteria - impact on virulence and antibiotic resistance",
     "pi": "Julia Lienard",
@@ -2259,7 +2259,7 @@
     "url": "https://www.vr.se/english/swecris.html#/project/2020-01497_VR"
   },
   {
-    "topic": ["antibiotic resistance"],
+    "topic": ["Antibiotic resistance"],
     "funder": "Vinnova",
     "project_title": "Morphological switch of atypical mycobacteria - impact on virulence and antibiotic resistance",
     "pi": "Julia Lienard",
@@ -2267,9 +2267,9 @@
     "startdate": "2021-01-01",
     "enddate": "2024-12-31",
     "url": "https://www.vr.se/english/swecris.html#/project/2020-01497_VR"
-  },  
+  },
   {
-    "topic": ["antibiotic resistance"],
+    "topic": ["Antibiotic resistance"],
     "funder": "VR",
     "project_title": "Optimised use of antibiotics to improve clinical efficacy and reduce the risk of resistance development",
     "pi": "Thomas Tängdén",
@@ -2277,9 +2277,9 @@
     "startdate": "2021-01-01",
     "enddate": "2023-12-31",
     "url": "https://www.vr.se/english/swecris.html#/project/2020-02320_VR"
-  },  
+  },
   {
-    "topic": ["antibiotic resistance"],
+    "topic": ["Antibiotic resistance"],
     "funder": "VR",
     "project_title": "Antimicrobial resistance in zoonotic pathogens – a challenge for urban small holder livestock production system",
     "pi": "Sofia Boqvist",
@@ -2287,9 +2287,9 @@
     "startdate": "2021-01-01",
     "enddate": "2023-12-31",
     "url": "https://www.vr.se/english/swecris.html#/project/2020-03631_VR"
-  },  
+  },
   {
-    "topic": ["antibiotic resistance"],
+    "topic": ["Antibiotic resistance"],
     "funder": "VR",
     "project_title": "LEADING: Low-level Exposure to Antibiotics Disturbs Interactions among Non-pathogenic bacteria in the Gastrointestinal tract",
     "pi": "Johan Bengtsson-Palme",
@@ -2297,6 +2297,6 @@
     "startdate": "2021-01-01",
     "enddate": "2024-12-31",
     "url": "https://www.vr.se/english/swecris.html#/project/2020-03631_VR"
-  },    
+  }
 ]
 }

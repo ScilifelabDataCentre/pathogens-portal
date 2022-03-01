@@ -26,16 +26,19 @@ In Sweden, raw measurement data that is generated in a project belongs to the un
 The university has the legal responsibility to archive the data. Data publishing as supported here is important for the research process, but does not replace the legal responsibility of the university. As a researcher, you are recommended to ensure long term storage of your data in facilities provided by your university. While a project is active, compute and storage services can be provided by [Swedish National Infrastructure for Computing, SNIC](https://snic.se).
 
 ## Metadata
+
 Metadata provides 'data about data' , and may include information on the methodology used to collect the data, analytical and procedural information, definitions of variables, units of measurement, any assumptions made, the format and file type of the data and software used to collect and/or process the data. Researchers are strongly encouraged to use community metadata standards where these are in place. It is highly recommended to, from the very beginning of the project, structure e.g. sample metadata in a way that enables sequence data submission  without having to reformat the metadata.
 
 Here are our metadata guidelines for each specific data type:
 
 * ##### Genomics & transcriptomics data
+
 [MINSEQE](https://doi.org/10.25504/FAIRsharing.a55z32) (Minimal Information about a high throughput SEQuencing Experiment) is the preferred minimal metadata standard for transcriptomics data in general. For viral data, consider using the [ENA virus pathogen reporting standard checklist](https://www.ebi.ac.uk/ena/data/view/ERC000033).
 
 ***
 
 * ##### Protein data
+
 For proteomics, use the minimal information model specified in [MIAPE](https://doi.org/10.25504/FAIRsharing.8vv5fc), and fill them using the controlled vocabularies specified by the Proteomics Standards Initiative: [PSI CVs](https://doi.org/10.25504/FAIRsharing.sxh2dp).
 
 ***
