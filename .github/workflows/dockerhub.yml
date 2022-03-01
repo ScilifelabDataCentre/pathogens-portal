@@ -2,8 +2,10 @@
 name: Publish Docker image
 on:
   push:
-  release:
-    types: [published]
+    branches:
+      - master
+      - develop
+      - develop2
 jobs:
   push_to_registry:
     if: github.repository == 'ScilifelabDataCentre/covid-portal'
