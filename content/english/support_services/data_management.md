@@ -6,6 +6,10 @@ menu:
         parent: support_services
         weight: 20
         pre: <i class="fas fa-database"></i>
+    data_menu:
+        identifier: data_management
+        name: Data management
+        weight: 50
 ---
 
 [SciLifeLab](https://www.scilifelab.se) and [NBIS](http://www.nbis.se/) can support you with Data Management Planning early on in the project to make data sharing more efficient, both through [personal consultations](https://nbis.se/support/supportform/index.php?form=consultation) and by providing a [customised tool](https://dsw.scilifelab.se/) to create Data Management Plans.

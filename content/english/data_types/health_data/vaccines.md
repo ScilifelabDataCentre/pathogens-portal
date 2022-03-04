@@ -2,6 +2,12 @@
 title: The Administration and Study of Vaccines in Sweden
 toc: true
 plotly: true
+menu:
+    data_menu:
+        identifier: vaccines
+        name: Vaccine administration in Sweden
+        weight: 30
+        parent: dashboards
 ---
 
 ## General information on vaccine research

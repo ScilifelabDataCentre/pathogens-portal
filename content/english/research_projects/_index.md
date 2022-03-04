@@ -2,10 +2,10 @@
 title: Ongoing research projects on COVID-19 funded by major Swedish funding agencies
 toc: false
 menu:
-    projects:
+    research_menu:
         name: Ongoing research projects
         identifier: ongoing_projects
-        weight: 25
+        weight: 10
     footer_sections:
         name: Ongoing research projects
         weight: 30

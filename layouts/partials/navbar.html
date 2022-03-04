@@ -6,7 +6,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapseBottom" aria-controls="navbarCollapseBottom" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="d-flex align-items-end flex-column">
+    <div class="d-flex align-items-end flex-column collapse navbar-collapse">
         <div class="collapse navbar-collapse">
           <ul class="navbar-nav ml-auto navbar-top">
             {{ range .Site.Menus.navbar_top }}
@@ -38,13 +38,6 @@
 <nav class="navbar navbar-expand-lg navbar-light pt-0">
   <div class="container">
     <div class="collapse navbar-collapse" id="navbarCollapseBottom">
-      <hr class="d-lg-none">
-      <ul class="navbar-nav d-lg-none">
-        {{ range .Site.Menus.top_actions }}
-          <li class="nav-item"><a class="nav-link highlight" href="{{ .Page.RelPermalink }}">{{ .Pre }}{{ .Name }}</a></li>
-        {{ end }}
-      </ul>
-      <hr class="d-lg-none">
       <ul class="navbar-nav d-lg-none nav-languages">
         {{ if .IsTranslated }}
           {{ range .AllTranslations }}
@@ -56,47 +49,70 @@
           {{ end }}
         {{ end }}
       </ul>
+      <hr class="d-lg-none">
+      <ul class="navbar-nav d-lg-none">
+        {{ range .Site.Menus.top_actions }}
+          <li class="nav-item"><a class="nav-link highlight" href="{{ .Page.RelPermalink }}">{{ .Pre }}{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+      <hr class="d-lg-none">
     </div>
   </div>
 </nav>
 
 <!-- Main menu -->
-<div class="container">
-  <div class="row">
+<div class="container mb-1">
+  <div class="row main_menu">
     <div class="col-lg-5">
       <div class="row">
         <div class="col main_menu_item">
-          <span><i class="bi bi-table"></i> <a href="#">Data</a></span>
+          <span><i class="bi bi-table"></i> Data</span>
         </div>
         </div>
         <div class="row">
           <div class="col main_menu_item_sub">
-            <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available datasets</a>
-            <a href="#">Data highlights</a>
-            <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dashboards</a>
-            <a href="#">Sample collection database</a>
-            <a href="#">Data management</a>
+            {{ range .Site.Menus.data_menu }}
+              {{ if .HasChildren }}
+                <div class="d-inline">
+                <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
+                <div class="dropdown-menu main_menu_item_sub_dropdown" aria-labelledby="navbarDropdownMenuLink">
+                  {{ range .Children }}
+                  <a class="dropdown-item" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+                  {{ end }}
+                </div>
+                </div>
+              {{ else }}
+              <div class="d-inline">
+                  <a href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+              </div>
+              {{ end }}
+            {{ end }}
           </div>
         </div>
       </div>
-      <div class="col-lg-3 mt-2 mt-lg-0 border-right">
+      <div class="col-lg-3 mt-3 mt-lg-0 border-right">
         <div class="row">
-          <div class="col main_menu_item">
-            <i class="bi bi-grid-fill"></i> <a href="#">Resources</a>
+          <div class="col main_menu_item" style="color:rgba(0, 0, 0, 0.5)">
+            <i class="bi bi-grid-fill"></i> Resources
           </div>
         </div>
         <div class="row">
           <div class="col main_menu_item">
             <i class="fas fa-flask"></i> <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research & Funding</a>
+            <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+              {{ range .Site.Menus.research_menu }}
+              <a class="dropdown-item" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+              {{ end }}
+            </div>
           </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
           <div class="col main_menu_item">
             <span><i class="bi bi-calendar3-week"></i> <a href="#">Events</a></span>
           </div>
-        </div>
+        </div> -->
       </div>
-      <div class="col-lg-4 my-2 my-lg-0">
+      <div class="col-lg-4 my-3 my-lg-0">
         <span class="topics_title">Topics:</span>
         {{ range .Site.Menus.topics_menu }}<span class="mx-1 my-1 topic_badge_small
           {{ if eq .Name "COVID-19"}}topic_badge_covid
@@ -107,33 +123,3 @@
       </div>
   </div>
 </div>
-
-<!-- On single line -->
-<!--
-<div class="container">
-  <div class="row">
-    <div class="col-5">
-      <div class="row">
-        <div class="col-2 main_menu_item">
-          <span><i class="bi bi-table"></i> Data</span>
-        </div>
-        <div class="col main_menu_item_sub">
-          <a href="#">Available datasets</a>
-          <a href="#">Data highlights</a>
-          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dashboards</a>
-          <a href="#">Sample collection database</a>
-          <a href="#">Submit data</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-2 main_menu_item">
-      <i class="bi bi-grid-fill"></i> <a href="#">Resources</a>
-    </div>
-    <div class="col main_menu_item">
-      <i class="fas fa-flask"></i> <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research & Funding</a>
-    </div>
-    <div class="col main_menu_item">
-      <span><i class="bi bi-calendar3-week"></i> <a href="#">Events</a></span>
-    </div>
-  </div>
-</div> -->

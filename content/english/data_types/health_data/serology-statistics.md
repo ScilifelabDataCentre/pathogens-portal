@@ -6,6 +6,11 @@ menu:
         identifier: serology-statistics
         parent: health_data
         weight: 10
+    data_menu:
+        identifier: serology
+        name: SARS-CoV-2 antibody tests at SciLifeLab
+        weight: 10
+        parent: dashboards
 ---
 <div class="alert alert-info">Graphs on this page are based on data as per {{% serology_date_modified %}}.</div>
 

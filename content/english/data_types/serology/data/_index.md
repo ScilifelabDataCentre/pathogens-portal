@@ -1,6 +1,11 @@
 ---
 title: Serology data
 menu:
+    data_menu:
+        identifier: serology
+        name: Serology data
+        weight: 80
+        parent: available_datasets
     other_data:
         name: Serology
         identifier: serology_data
@@ -16,4 +21,4 @@ aliases:
 
 #### Data available from Swedish public agencies and large data produces
 
-* [SciLifeLab Autoimmunity and Serology profiling facility SARS-CoV-2 antibody test statistics](/data_types/health_data/serology-statistics/). Hosted by us, updated manually on a weekly basis.  
+* [SciLifeLab Autoimmunity and Serology profiling facility SARS-CoV-2 antibody test statistics](/data_types/health_data/serology-statistics/). Hosted by us, updated manually on a weekly basis.
