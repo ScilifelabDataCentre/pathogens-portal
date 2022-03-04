@@ -170,9 +170,20 @@ li:empty {
 }
 
 .main_menu_item {
-  color: rgba(46, 104, 165, 1);
+  color: rgba(46, 104, 165, 0.8);
   font-weight: 500;
   font-size: 1.4em;
+}
+
+.main_menu_item a {
+  color: rgba(46, 104, 165, 0.8);
+  text-decoration: none;
+}
+
+.main_menu_item  a:hover,
+.main_menu_item  a:focus,
+.main_menu_item  a:active {
+    color: rgba(46, 104, 165, 1);
 }
 
 .main_menu_item_sub a {
@@ -187,6 +198,13 @@ li:empty {
   white-space: nowrap;
   border-right: 1px solid #ccc;
   padding-right: 0.5rem;
+  text-decoration: none;
+}
+
+.main_menu_item_sub a:hover,
+.main_menu_item_sub a:focus,
+.main_menu_item_sub a:active {
+    color: rgba(46, 104, 165, 1);
 }
 
 .main_menu_item_sub_dropdown a {
