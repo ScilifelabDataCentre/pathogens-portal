@@ -16,6 +16,12 @@
               {{ range .AllTranslations }}
                 <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></span></a></li>
               {{ end }}
+            {{ else if .Parent.IsTranslated }}
+                <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></span></a></li>
+                <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Permalink }}"><span lang="sv">sv <img src="/img/flag-sv.svg" alt=""></span></a></li>
+            {{ else if .Parent.Parent.IsTranslated }}
+                <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></span></a></li>
+                <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Parent.Permalink }}"><span lang="sv">sv <img src="/img/flag-sv.svg" alt=""></span></a></li>
             {{ else }}
               {{ range $.Site.Home.AllTranslations }}
                 <li class="nav-item navbar-languages"><a class="nav-link" href="{{ relURL .Permalink }}"><span lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></span></a></li>
@@ -43,7 +49,6 @@
           {{ range .AllTranslations }}
             <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
           {{ end }}
-        {{ else }}
           {{ range $.Site.Home.AllTranslations }}
             <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
           {{ end }}
