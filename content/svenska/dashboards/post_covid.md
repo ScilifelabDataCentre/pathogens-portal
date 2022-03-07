@@ -2,6 +2,8 @@
 title: "Post COVID-19 i Sverige, statistik, forskningsprojekt, tillgängliga data"
 toc: true
 plotly: true
+aliases:
+    - /sv/data_types/health_data/post_covid/
 ---
 
 <div class="alert alert-info">Vänligen notera att graferna endast har engelska figurtexter.</div>

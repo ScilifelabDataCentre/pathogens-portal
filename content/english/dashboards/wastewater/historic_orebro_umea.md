@@ -1,6 +1,8 @@
 ---
 title: "Historic data for Örebro and Umeå"
 toc: false
+aliases:
+    - /data_types/environment/wastewater/historic_orebro_umea/
 ---
 
 This page displays data on the amount of SARS-CoV-2 in Umeå and Örebro wastewater between October 2020 and June 2021. After June 2021, a new method is used for analyses of wastewater, and [the most recent data can be found here](../).

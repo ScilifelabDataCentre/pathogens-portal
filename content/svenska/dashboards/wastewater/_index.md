@@ -9,6 +9,8 @@ other_data:
     params:
       title_eng: Environment
 plotly: true
+aliases:
+    - /sv/data_types/environment/wastewater/
 ---
 
 Vi presenterar epidemiologiska data av mätningar av SARS-CoV-2 virus i avloppsvatten från olika svenska städer med totalt över 1.5 miljoner invånare. Att mäta virusmängder i avloppsvatten kan var en del av ett system för att detektera och övervaka förekomsten av SARS-CoV-2 i samhället. Notera att direkt jämförelse av virusmängden mellan olika städer inte är möjlig pga olika hantering av insamlade avloppsprov och analys av data.  Jämförelser bör endast göras inom data som samlats in och visualiseras från en och samma stad. [För mer information om epidemiologiska data från mätningar av SARS-CoV-2 i avloppsvatten se nedan](https://covid19dataportal.se/sv/data_types/environment/wastewater/#bakgrund).

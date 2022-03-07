@@ -1,6 +1,8 @@
 ---
 title: "Historiska data för Stockholm"
 toc: false
+aliases:
+    - /sv/data_types/environment/wastewater/historic_stockholm/
 ---
 
 Den här sidan visar data om mängden SARS-CoV-2 i Stockholm mellan april 2020 och augusti 2021 beräknat som genkopienummer/vecka (från avloppsvatten) standardiserat med bovint coronavirus+ PMMoV.  Från september 2021 ändrades metoden. Se [den här sidan för de senaste uppgifterna](../).

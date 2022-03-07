@@ -1,6 +1,8 @@
 ---
 title: "Historiska data för Örebro och Umeå"
 toc: false
+aliases:
+    - /sv/data_types/environment/wastewater/historic_orebro_umea/
 ---
 
 Denna sida visar data för mängd SARS-CoV-2 i avloppsvatten från Umeå och Örebro mellan oktober 2020 och juni 2021. Från juni 2021 ändrades metoden. Se [den här sidan](../) för de senaste uppgifterna.

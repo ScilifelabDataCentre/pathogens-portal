@@ -1,6 +1,8 @@
 ---
 title: CRUSH Covid data and dashboard, Region Uppsala
 toc: false
+aliases:
+    - /data_types/health_data/crush_covid/
 ---
 
 <div class="containter"><div class="row mr-2 mt-2"><div class="col-lg-9"><p><b>CRUSH Covid</b> is a collaboration between the Region Uppsala and researchers from five different departments at Uppsala University. The purpose of the project is to map outbreaks of COVID-19 in Uppsala County and contribute to mitigation of their impact through informing the public. Information on the CRUSH Covid dashboard is updated every Thursday.</p>

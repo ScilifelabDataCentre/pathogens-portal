@@ -5,6 +5,8 @@ menu:
         identifier: npc-statistics
         parent: health_data
         weight: 10
+aliases:
+    - /sv/data_types/health_data/npc-statistics/
 ---
 
 <div class="alert alert-info small">

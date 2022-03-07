@@ -6,6 +6,8 @@ menu:
         identifier: serology-statistics
         parent: health_data
         weight: 10
+aliases:
+    - /sv/data_types/health_data/serology-statistics/
 ---
 
 <div class="alert alert-info">Grafiken på denna sida är baserad på data senast uppdaterad den {{% serology_date_modified %}}.</div>

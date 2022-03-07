@@ -1,14 +1,14 @@
 ---
-title: The Administration and Study of Vaccines in Sweden
+title: Administrering av vaccin och vaccinforskning i Sverige
 toc: true
 plotly: true
-menu:
-    data_menu:
-        identifier: vaccines
-        name: Vaccine administration in Sweden
-        weight: 30
-        parent: dashboards
+aliases:
+    - /sv/data_types/health_data/vaccines/
 ---
+<div class="alert alert-info">
+  <i class="fas fa-exclamation-triangle"></i>
+  <span>En svensk översättning av denna sida kommer inom kort.</span>
+</div>
 
 ## General information on vaccine research
 

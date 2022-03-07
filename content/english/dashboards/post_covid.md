@@ -8,6 +8,8 @@ menu:
         name: Post COVID-19 condition in Sweden
         weight: 40
         parent: dashboards
+aliases:
+    - /data_types/health_data/post_covid/
 ---
 
 Since the beginning of 2020, the COVID-19 pandemic has challenged healthcare and dramatically changed daily life for people worldwide. The severity of symptoms experienced by patients during the acute infection phase of COVID-19 disease varies between individuals from mild to severe. After this phase, patients usually show no signs that the disease will have any long-term consequences for their health, regardless of the severity of symptoms experienced during the acute infection phase. However, research has shown that some patients exhibit symptoms for prolonged periods following this phase. Such symptoms include, for example, deep fatigue, joint pain, ‘brain fog’ (difficulty concentrating on certain tasks for longer periods of time), and heart palpitations ([Brodin 2021](https://doi.org/10.1038/s41591-020-01202-8); [Marx 2021](https://doi.org/10.1038/s41592-021-01145-z)). This condition has been referred to in multiple ways, including *Post COVID-19 condition*, *Post-COVID*, and *Long COVID*. On this page, we use the term *Post COVID-19 condition* for consistency. See the *[Background Information](#background)* section below for more detail about the nomenclature used and relevant research.

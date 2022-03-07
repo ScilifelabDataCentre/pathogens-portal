@@ -6,6 +6,8 @@ menu:
         parent: health_data
         weight: 10
 toc: false
+aliases:
+    - /data_types/health_data/npc-statistics/
 ---
 
 <div class="alert alert-info small">
