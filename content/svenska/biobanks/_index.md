@@ -1,10 +1,9 @@
 ---
 title: Om det svenska Covid-19 Provsamlingsregistret
 menu:
-    biobanks:
-        name: Om Covid-19 Provsamlingsregistret
-        identifier: biobanks
-        weight: 10
+    swe_menu:
+        name: Provsamlingsregistret
+        weight: 30
     footer_sections:
         name: Provsamlingsregistret
         weight: 10

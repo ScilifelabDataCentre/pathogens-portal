@@ -1,10 +1,6 @@
 ---
 title: Nationellt Pandemicenter SARS-CoV-2 (covid-19)-analysstatistik
 menu:
-    main:
-        identifier: npc-statistics
-        parent: health_data
-        weight: 10
 aliases:
     - /sv/data_types/health_data/npc-statistics/
 ---

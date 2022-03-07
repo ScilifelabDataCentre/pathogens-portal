@@ -1,6 +1,14 @@
 ---
 title: Förslag och kontakt med svenska dataportalen för covid-19
 menu:
+    swe_menu:
+        name: Kontakt
+        weight: 99
+        identifier: contact
+    navbar_top:
+        name: Kontakt
+        weight: 20
+        identifier: contact
     footer_about:
         name: Förslag och kontakt
         weight: 5

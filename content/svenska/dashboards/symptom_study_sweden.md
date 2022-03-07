@@ -4,6 +4,12 @@ toc: false
 plotly: true
 aliases:
     - /sv/data_types/health_data/symptom_study_sweden/
+menu:
+    swe_menu:
+        identifier: symptom_study_sweden
+        name: COVID Symptom Study Sverige
+        weight: 80
+        parent: dashboards
 ---
 
 **COVID Symptom Study Sverige** är ett nationellt forskningsinitiativ för att samla in och kartlägga symptom på covid-19 och studera trender i smittspridning samt studera riskfaktorer associerade med covid-19 infektion. Projektet drivs av Lunds universitet och Uppsala universitet i samarbete med King’s College London och hälsoföretaget ZOE Global Ltd som utvecklat och driver appen. COVID Symptom Study Sverige leds av professor Paul Franks och professor Maria Gomez (Lunds universitet) samt professor Tove Fall (Uppsala universitet).

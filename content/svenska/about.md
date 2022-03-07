@@ -1,7 +1,10 @@
 ---
 title: Om dataportalen
 menu:
-    top_nav:
+    swe_menu:
+        name: Om dataportalen
+        weight: 90
+    navbar_top:
         name: Om dataportalen
         weight: 10
     footer_about:

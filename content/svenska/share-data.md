@@ -1,8 +1,9 @@
 ---
-title: Share data
+title: Dela data
 toc: false
 menu:
     top_actions:
+        name: Dela data
         weight: 40
         pre: <i class="bi bi-server mr-2"></i>
     main:
@@ -10,13 +11,18 @@ menu:
         parent: support_services
         weight: 50
 aliases:
-  - /data_types/genomics_transcriptomics/guidelines/
-  - /data_types/compound_and_target_data/guidelines/
-  - /data_types/imaging_data/guidelines/
-  - /data_types/protein_data/guidelines/
-  - /support_services/general_data_repository/
-  - /submit/
+  - /sv/data_types/genomics_transcriptomics/guidelines/
+  - /sv/data_types/compound_and_target_data/guidelines/
+  - /sv/data_types/imaging_data/guidelines/
+  - /sv/data_types/protein_data/guidelines/
+  - /sv/support_services/general_data_repository/
+  - /sv/submit/
 ---
+
+<div class="alert alert-info">
+  <i class="bi bi-exclamation-triangle-fill"></i>
+  <span>En svensk översättning av denna sida kommer inom kort.</span>
+</div>
 
 Publish your COVID-19 research data to make it available for the rest of the research community. The data should be deposited in a public repository together with descriptive metadata. For many biological datatypes, there are international databases that can be considered _de facto_ standards.
 

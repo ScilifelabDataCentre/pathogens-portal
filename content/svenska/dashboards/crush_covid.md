@@ -3,6 +3,12 @@ title: CRUSH Covid data och dashboard, Region Uppsala
 toc: false
 aliases:
     - /sv/data_types/health_data/crush_covid/
+menu:
+    swe_menu:
+        identifier: crush_covid
+        name: CRUSH Covid (Uppsala)
+        weight: 90
+        parent: dashboards
 ---
 
 <div class="containter"><div class="row mr-2 mt-2"><div class="col-lg-9"><p><b>CRUSH Covid</b> är ett samarbete mellan Region Uppsala och forskare från fem olika institutioner vid Uppsala universitet. Syftet med projektet är att kartlägga utbrott av covid-19 i Uppsala län och att bidra till att dämpa påverkan genom information till allmänheten. Information på CRUSH Covids dashboard uppdateras varje torsdag.</p>

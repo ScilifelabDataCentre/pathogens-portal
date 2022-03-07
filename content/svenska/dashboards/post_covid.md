@@ -3,7 +3,7 @@ title: "Post COVID-19 i Sverige, statistik, forskningsprojekt, tillgängliga dat
 toc: true
 plotly: true
 menu:
-    data_menu:
+    swe_menu:
         identifier: post_covid
         name: Post COVID-19 i Sverige
         weight: 40

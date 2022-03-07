@@ -3,7 +3,7 @@ title: Administrering av COVID-19 vaccin och vaccinforskning i Sverige
 toc: true
 plotly: true
 menu:
-    data_menu:
+    swe_menu:
         identifier: vaccines
         name: Administrering av COVID-19 vaccin i Sverige
         weight: 30

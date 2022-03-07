@@ -3,10 +3,10 @@ title: Dashboards
 toc: false
 plotly: true
 menu:
-    data_menu:
+    swe_menu:
         identifier: dashboards
         name: Dashboards
-        weight: 30
+        weight: 20
 ---
 
 <div class="alert alert-info">

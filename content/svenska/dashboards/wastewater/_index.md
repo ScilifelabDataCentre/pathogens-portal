@@ -2,7 +2,7 @@
 title: Mängd SARS-CoV-2 virus i avloppsvatten från svenska städer
 toc: true
 menu:
-  data_menu:
+  swe_menu:
       identifier: wastewater
       name: Mängd SARS-CoV-2 virus i avloppsvatten från svenska städer
       weight: 30
