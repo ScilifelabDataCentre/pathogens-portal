@@ -11,7 +11,7 @@ menu:
     homepage_biobanks:
         name: Sample Collection Database
         identifier: biobanks
-        post: Registry of Swedish biobanks and sample collections for COVID-19 research. <a href="/biobanks/">About the database <i class="fas fa-arrow-circle-right"></i></a>
+        post: Registry of Swedish biobanks and sample collections for COVID-19 research. <a href="/biobanks/">About the database <i class="bi bi-arrow-right-circle-fill"></i></a>
 toc: false
 ---
 
@@ -23,7 +23,7 @@ Both the so-called *healthcare sample collections* and *research sample collecti
 
 As of September 2021, the Sample Collection Database contains information about **35 sample collections** from **18 different biobanks**. The database is gradually expanded as information about new sample collections and biobanks is submitted.
 
-<span style="font-size:1.3em;"><b><a href="https://biobanks.covid19dataportal.se/">Search in the COVID-19 Sample Collection Database <i class="fas fa-arrow-circle-right"></i> </a></b></span>
+<span style="font-size:1.3em;"><b><a href="https://biobanks.covid19dataportal.se/">Search in the COVID-19 Sample Collection Database <i class="bi bi-arrow-right-circle-fill"></i> </a></b></span>
 
 ### Submit information about sample collections
 

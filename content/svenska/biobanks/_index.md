@@ -11,7 +11,7 @@ menu:
     homepage_biobanks:
         name: Provsamlingsregistret
         identifier: biobanks
-        post: Register över tillgängliga biobanks prover kopplade till covid-19. <a href="/sv/biobanks/">Om det svenska provsamlingsregistret <i class="fas fa-arrow-circle-right"></i></a>
+        post: Register över tillgängliga biobanks prover kopplade till covid-19. <a href="/sv/biobanks/">Om det svenska provsamlingsregistret <i class="bi bi-arrow-right-circle-fill"></i></a>
 ---
 
 ### Om det svenska Covid-19 Provsamlingsregistret

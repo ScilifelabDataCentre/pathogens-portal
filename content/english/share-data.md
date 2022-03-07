@@ -9,7 +9,6 @@ menu:
         identifier: submit_data
         parent: support_services
         weight: 50
-        pre: <i class="fas fa-paper-plane"></i>
 aliases:
   - /data_types/genomics_transcriptomics/guidelines/
   - /data_types/compound_and_target_data/guidelines/

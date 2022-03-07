@@ -17,7 +17,7 @@
           {{ end }}
           <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
           <p class="small text-muted">{{.Date.Format "2006-01-02"}}</p>
-          <p> {{ .Summary }} <br><a href="{{ .RelPermalink }}">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).readmore_text }} <i class="fas fa-arrow-circle-right"></i></a></p>
+          <p> {{ .Summary }} <br><a href="{{ .RelPermalink }}">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).readmore_text }} <i class="bi bi-arrow-right-circle-fill"></i></a></p>
       </div>
       {{ if eq $index $third_element }}
       <div class="w-100"></div>
@@ -39,7 +39,7 @@
           {{ end }}
           <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
           <p class="small text-muted">{{.Date.Format "2006-01-02"}}</p>
-          <p> {{ .Summary }} <br><a href="{{ .RelPermalink }}">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).readmore_text }} <i class="fas fa-arrow-circle-right"></i></a></p>
+          <p> {{ .Summary }} <br><a href="{{ .RelPermalink }}">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).readmore_text }} <i class="bi bi-arrow-right-circle-fill"></i></a></p>
       </div>
       {{ end }}
       <div class="col-md mx-2 mb-2"></div>
@@ -58,7 +58,7 @@
           {{ end }}
           <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
           <p class="small text-muted">{{.Date.Format "2006-01-02"}}</p>
-          <p> {{ .Summary }} <br><a href="{{ .RelPermalink }}">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).readmore_text }} <i class="fas fa-arrow-circle-right"></i></a></p>
+          <p> {{ .Summary }} <br><a href="{{ .RelPermalink }}">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).readmore_text }} <i class="bi bi-arrow-right-circle-fill"></i></a></p>
       </div>
       {{ end }}
       <div class="col-md mx-2 mb-2"></div>

@@ -5,7 +5,6 @@ menu:
         identifier: protein_data
         parent: data_types
         weight: 20
-        pre: <i class="fas fa-shapes"></i>
 ---
 
 Protein data includes protein sequences or families, proteomic data, protein structure data and electron microscopy density maps for proteins.

@@ -6,7 +6,6 @@ menu:
         identifier: bioinformatics
         parent: support_services
         weight: 10
-        pre: <i class="fas fa-laptop-code"></i>
 ---
 
 ![NBIS Logo](/img/logos/nbislogo-orange-txt.svg#floatright)

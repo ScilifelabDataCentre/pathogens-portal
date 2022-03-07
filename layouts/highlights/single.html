@@ -23,12 +23,12 @@
   <hr>
   <div class="row mt-3">
     <div class="col mx-0 text-left">
-      {{ if .NextInSection }}<a href="{{ .NextInSection.RelPermalink }}"><i class="fas fa-arrow-circle-left"></i> {{ (index $.Site.Params.lang_strings .Site.Language.Lang).next_highlight }} </a>{{ end }}
+      {{ if .NextInSection }}<a href="{{ .NextInSection.RelPermalink }}"><i class="bi bi-arrow-left-circle-fill"></i> {{ (index $.Site.Params.lang_strings .Site.Language.Lang).next_highlight }} </a>{{ end }}
     </div>
     <div class="col text-center">
       <a href="{{ .Parent.Permalink }}">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).all_highlights }} </a>
     </div>  <div class="col text-right">
-      {{ if .PrevInSection }}<a href="{{ .PrevInSection.RelPermalink }}">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).previous_highlight }} <i class="fas fa-arrow-circle-right"></i></a>{{ end }}
+      {{ if .PrevInSection }}<a href="{{ .PrevInSection.RelPermalink }}">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).previous_highlight }} <i class="bi bi-arrow-right-circle-fill"></i></a>{{ end }}
     </div>
   </div>
   <div class="row">

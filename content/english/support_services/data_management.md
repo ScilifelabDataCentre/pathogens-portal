@@ -5,7 +5,6 @@ menu:
         identifier: data_management
         parent: support_services
         weight: 20
-        pre: <i class="fas fa-database"></i>
     data_menu:
         identifier: data_management
         name: Data management

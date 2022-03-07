@@ -12,7 +12,7 @@ menu:
     homepage_highlights:
         name: Data highlights
         identifier: highlights
-        post: Highlights of recent openly shared data and data re-use. <a href="/highlights/">See all highlights <i class="fas fa-arrow-circle-right"></i></a>
+        post: Highlights of recent openly shared data and data re-use. <a href="/highlights/">See all highlights <i class="bi bi-arrow-right-circle-fill"></i></a>
     footer_sections:
         name: Data highlights
         weight: 5
