@@ -1,5 +1,5 @@
 ---
-title: The Administration and Study of Vaccines in Sweden
+title: The Administration and Study of COVID-19 Vaccines in Sweden
 toc: true
 plotly: true
 menu:

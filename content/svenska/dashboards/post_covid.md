@@ -2,6 +2,12 @@
 title: "Post COVID-19 i Sverige, statistik, forskningsprojekt, tillgängliga data"
 toc: true
 plotly: true
+menu:
+    data_menu:
+        identifier: post_covid
+        name: Post COVID-19 i Sverige
+        weight: 40
+        parent: dashboards
 aliases:
     - /sv/data_types/health_data/post_covid/
 ---

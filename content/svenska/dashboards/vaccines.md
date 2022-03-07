@@ -1,7 +1,13 @@
 ---
-title: Administrering av vaccin och vaccinforskning i Sverige
+title: Administrering av COVID-19 vaccin och vaccinforskning i Sverige
 toc: true
 plotly: true
+menu:
+    data_menu:
+        identifier: vaccines
+        name: Administrering av COVID-19 vaccin i Sverige
+        weight: 30
+        parent: dashboards
 aliases:
     - /sv/data_types/health_data/vaccines/
 ---

@@ -1,13 +1,19 @@
 ---
-title: SciLifeLab Autoimmunity and Serology profiling facility, statistik för SARS-CoV-2 antikroppstest
+title: SciLifeLab Autoimmunity and Serology profiling facility, statistik för SARS-CoV-2 antikroppstester
 toc: false
 menu:
     main:
         identifier: serology-statistics
         parent: health_data
         weight: 10
+    data_menu:
+        identifier: serology
+        name: Statistik för SARS-CoV-2 antikroppstester vid SciLifeLab
+        weight: 10
+        parent: dashboards
 aliases:
     - /sv/data_types/health_data/serology-statistics/
+
 ---
 
 <div class="alert alert-info">Grafiken på denna sida är baserad på data senast uppdaterad den {{% serology_date_modified %}}.</div>

@@ -2,12 +2,17 @@
 title: Mängd SARS-CoV-2 virus i avloppsvatten från svenska städer
 toc: true
 menu:
-other_data:
-    name: Samhälle och miljö
-    identifier: environment
-    weight: 50
-    params:
-      title_eng: Environment
+  data_menu:
+      identifier: wastewater
+      name: Mängd SARS-CoV-2 virus i avloppsvatten från svenska städer
+      weight: 30
+      parent: dashboards
+  other_data:
+      name: Samhälle och miljö
+      identifier: environment
+      weight: 50
+      params:
+        title_eng: Environment
 plotly: true
 aliases:
     - /sv/data_types/environment/wastewater/
