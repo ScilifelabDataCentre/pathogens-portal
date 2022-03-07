@@ -2,7 +2,7 @@
 title: Serology data
 menu:
     data_menu:
-        identifier: serology
+        identifier: serology_data
         name: Serology data
         weight: 80
         parent: available_datasets
