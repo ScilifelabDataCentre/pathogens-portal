@@ -7,7 +7,7 @@ menu:
         weight: 10
         identifier: about
     footer_about:
-        name: About
+        name: About the portal
         weight: 10
 ---
 

@@ -6,8 +6,8 @@ menu:
         weight: 20
         identifier: contact
     footer_about:
-        name: Suggestions and contact
-        weight: 5
+        name: Contact form
+        weight: 20
 aliases:
     - /suggestions/
 ---

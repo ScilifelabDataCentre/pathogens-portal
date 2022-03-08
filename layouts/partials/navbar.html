@@ -47,8 +47,15 @@
       <ul class="navbar-nav d-lg-none nav-languages">
         {{ if .IsTranslated }}
           {{ range .AllTranslations }}
-            <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
+              <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
           {{ end }}
+        {{ else if .Parent.IsTranslated }}
+              <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
+              <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Permalink }}" lang="sv">Svenska <img src="/img/flag-sv.svg" alt=""></a></li>
+        {{ else if .Parent.Parent.IsTranslated }}
+              <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
+              <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Parent.Permalink }}" lang="sv">Svenska <img src="/img/flag-sv.svg" alt=""></a></li>
+        {{ else }}
           {{ range $.Site.Home.AllTranslations }}
             <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
           {{ end }}
