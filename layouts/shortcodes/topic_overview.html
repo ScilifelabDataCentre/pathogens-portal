@@ -1,0 +1,44 @@
+<h3>Available datasets</h3>
+
+{{ $page_topic := .Page.Params.topic }}
+
+{{ range $key, $taxonomy := .Site.Taxonomies.highlights_topics }}
+    {{ if eq $key $page_topic }}
+    <h3>Data highlights</h3>
+    <span><a href="/highlights/topics/{{ $key }}">See all data highlights on {{ $key }} <i class="bi bi-arrow-right-circle-fill"></i></a>
+    <div class="container mt-3">
+      <div class="row">
+      {{ $col_width :="col-md"}}
+      {{ if lt (len $taxonomy.Pages) 3 }}
+        {{ $col_width = "col-md-4"}}
+      {{ end }}
+      {{ range first 3 $taxonomy.Pages }}
+          <div class="{{ $col_width }} mx-2 mb-2 border bg-light">
+              <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
+              {{ range (.GetTerms "highlights_topics") }}
+                  <span class="topic_badge_small
+                  {{ if eq .LinkTitle "COVID-19"}}topic_badge_covid
+                  {{ else if eq .LinkTitle "Infectious diseases"}}topic_badge_infectious_d
+                  {{ else if eq .LinkTitle "Antibiotic resistance"}}topic_badge_antib_r
+                  {{ else }}topic_badge_general
+                  {{ end }} "><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
+              {{ end }}
+              <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
+              <p class="small text-muted">{{.Date.Format "2006-01-02"}}</p>
+              <p> {{ .Summary }} <br><a href="{{ .RelPermalink }}">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).readmore_text }} <i class="bi bi-arrow-right-circle-fill"></i></a></p>
+          </div>
+      {{ end }}
+      </div>
+    </div>
+    {{ end }}
+{{ end }}
+
+<h3>Dashboards</h3>
+
+<h3>Sample collection database</h3>
+
+<h3>Resources</h3>
+
+<h3>Ongoing research projects</h3>
+
+<h3>Funding opportunities</h3>
