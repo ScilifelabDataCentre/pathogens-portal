@@ -8,6 +8,6 @@ menu:
         weight: 30
 ---
 
-Below is an overview of various sections of *The Swedish Pandemic Preparedness Portal* where information about research data and resources relevant to antibiotic resistance can be found.
+Below is an overview of various sections of *The Swedish COVID-19 & Pandemic Preparedness Portal* where information about research data and resources relevant to antibiotic resistance can be found.
 
 {{< topic_overview >}}
