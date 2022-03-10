@@ -33,8 +33,11 @@ img[src$='#floatleftbig'], img[src$='#floatrightbig']{
     max-height: 200px;
 }
 
-h2,h3 {
+h2 {
     margin-top: 3rem;
+}
+h3 {
+    margin-top: 2rem;
 }
 h4 {
     margin-top: 1rem;
