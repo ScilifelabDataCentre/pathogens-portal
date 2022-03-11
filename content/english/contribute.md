@@ -31,5 +31,4 @@ There are multiple ways to add/edit information on the Portal. Choose any method
       <p><b><a href="https://github.com/ScilifelabDataCentre/covid-portal/blob/develop/CONTRIBUTING/adding_editing_information.md">Contribute through GitHub <i class="bi bi-arrow-right-circle-fill"></i></a></b></p>
     </div>
   </div>
-
 </div>
