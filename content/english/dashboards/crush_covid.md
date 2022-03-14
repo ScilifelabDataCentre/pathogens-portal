@@ -1,6 +1,12 @@
 ---
 title: CRUSH Covid data and dashboard, Region Uppsala
 toc: false
+menu:
+    data_menu:
+        identifier: crush_covid
+        name: "Partner dashboard: CRUSH Covid (Uppsala)"
+        weight: 80
+        parent: dashboards
 aliases:
     - /data_types/health_data/crush_covid/
 ---

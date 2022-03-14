@@ -2,6 +2,12 @@
 title: COVID Symptom Study Sweden
 toc: false
 plotly: true
+menu:
+    data_menu:
+        identifier: symptom_study
+        name: "Partner dashboard: COVID Symptom Study Sweden"
+        weight: 90
+        parent: dashboards
 aliases:
     - /data_types/health_data/symptom_study_sweden/
 ---
