@@ -13,121 +13,66 @@ menu:
 
 ### Introduction
 
-<figure class="figure float-right"><img width="500" src="/img/logos/scilifelab-logo.svg"></figure>
+<figure class="figure float-right"><img width="300" src="/img/logos/scilifelab-logo.svg"></figure>
 
-The Swedish COVID-19 Data Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing, in particular the [European COVID-19 Data Portal](https://covid19dataportal.org). It is regularly updated with new services, tools and data. Suggestions, corrections or other comments are most welcome.
+The *Swedish COVID-19 & Pandemic Preparedness Data Portal* provides information about available datasets, resources, tools and services to support researchers working on topics relevant to pandemic preparedness in all Swedish research institutions in data-related questions.
 
-The Swedish COVID-19 Data Portal is operated by the [SciLifeLab Data Centre](https://scilifelab.se/data/) and partners.
+The Portal is operated by the [SciLifeLab Data Centre](https://scilifelab.se/data/) and partners with the aim to serve all researchers in Sweden working on topics relevant to pandemic preparedness. We welcome community contributions to the Portal and [provide different ways to contribute](/contribute/). In addition to running the Portal, the team can also either [provide support on data-related questions or help find suitable support services](/support/).
 
-This website is built using [Hugo](https://gohugo.io/) and uses the [Bootstrap](https://getbootstrap.com/) framework. In addition, we make use of [Vega/Vega-Lite](https://vega.github.io/vega-lite/) and [Plotly](https://plotly.com/) for interactive graphics,  [DataTables](https://datatables.net/) and [Select2](https://select2.org/) plugins for jQuery. The code is open source ([MIT licence](https://choosealicense.com/licenses/mit/)) and is available on [GitHub: github.com/ScilifelabDataCentre/covid-portal](https://github.com/ScilifelabDataCentre/covid-portal)
+This website is built using [Hugo](https://gohugo.io/) in combination with [Bootstrap](https://getbootstrap.com/) for styling, [DataTables](https://datatables.net/) for tables, [Vega/Vega-Lite](https://vega.github.io/vega-lite/) and [Plotly](https://plotly.com/) for interactive graphics. The code is open source ([MIT licence](https://choosealicense.com/licenses/mit/)) and [is available on GitHub](https://github.com/ScilifelabDataCentre/covid-portal). Re-use of the website code or contributions to the website code are welcome.
 
-We welcome contributions to the website - to get involved, please contact [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se).
+### History of the Portal
 
-### People behind the portal
+The Portal was launched in June 2020 [on assignment and with funding from the Swedish Research Council (Vetenskapsrådet)](https://www.vr.se/english/just-now/news/news-archive/2020-06-03-new-national-portal-makes-research-data-on-covid-19-accessible.html). The Swedish COVID-19 Data Portal became the first national node of the [European COVID-19 Data Platform](https://covid19dataportal.eu/) which in turn was [initiated and funded by the European Comission](https://www.embl.org/news/science/embl-ebi-launches-covid-19-data-portal/) (you can find an [overview of other national nodes here](/partners/)). We wrote a summary of what happened on the Portal during its first year [in this news item](/updates/first_year/). The Portal focused on SARS-CoV-2 and COVID-19 research data exclusively until the end of 2021.
 
-Many people from SciLifeLab, NBIS, and other organisations were involved in the initial development and content creation for the Swedish COVID-19 Data Portal. An incomplete list of contributors [can be found on Github](https://github.com/ScilifelabDataCentre/covid-portal/graphs/contributors). Since September 2020, the content of the portal is managed by a dedicated team at the [SciLifeLab Data Centre](https://scilifelab.se/data/). We are happy to answer your questions about data availability, data sharing, data management and all related issues; just send us an email.
+From 2022, the Portal expanded to cover other research relevant to pandemic preparedness and became a part of the [SciLifeLab Pandemic Laboratory Preparedness programme](https://www.scilifelab.se/pandemic-response/pandemic-laboratory-preparedness/). The SciLifeLab Pandemic Laboratory Preparedness Programme is funded by the earmarked governmental funding to SciLifeLab ([Research proposition Prop. 202/21:60](https://www.regeringen.se/rattsliga-dokument/proposition/2020/12/forskning-frihet-framtid--kunskap-och-innovation-for-sverige/)).
+
+From the start, the Portal is operated by the [SciLifeLab Data Centre](https://scilifelab.se/data/) and partners with a considerable amount of community input. Many people have contributed to building the initial and subsequent versions of the Portal by writing the website code or contributing with content. An overview of some of the early and recent contributors [can be found on GitHub](https://github.com/ScilifelabDataCentre/covid-portal/graphs/contributors).
+
+### People behind the Portal
+
+Many people from SciLifeLab, NBIS, and other organisations were involved in the initial and subsequent development and content creation for the Portal. An incomplete list of contributors [can be found on GitHub](https://github.com/ScilifelabDataCentre/covid-portal/graphs/contributors). The current team actively working on the Portal can be found below. We are happy to help you with using the Portal, discuss your suggestions about existing and new sections and content as well as answer your questions about data availability, data sharing, data management and all related issues; just send us an email.
 
 <div class="container mb-3">
   <div class="row">
     <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/ak.jpg" width="150" class="img-thumbnail"/></div>
       <div class="row-cor"><b>Arnold Kochari</b></div>
-      <div class="row-cor"><span class="text-muted">Project leader, SciLifeLab</span></div>
+      <div class="row-cor"><span class="text-muted">Project leader</span></div>
     </div>
     <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/kos.jpeg" width="150" class="img-thumbnail"/></div>
       <div class="row-cor"><b>Katarina Öjefors Stark</b></div>
-      <div class="row-cor"><span class="text-muted">Coordinator for COVID-19 projects and data steward, SciLifeLab</span></div>
-    </div>
-    <div class="col-md-2 pt-2">
-      <div class="row-cor"><img src="/img/people/pt.jpg" width="150" class="img-thumbnail"/></div>
-      <div class="row-cor"><b>Parul Tewatia</b></div>
-      <div class="row-cor"><span class="text-muted">Data steward, SciLifeLab</span></div>
+      <div class="row-cor"><span class="text-muted">Data steward</span></div>
     </div>
     <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/lh.png" width="150" class="img-thumbnail"/></div>
       <div class="row-cor"><b>Liane Hughes</b></div>
-      <div class="row-cor"><span class="text-muted">Data engineer, SciLifeLab</span></div>
-    </div>
-    <div class="col-md-2 pt-2">
-      <div class="row-cor"><img src="/img/people/aa.jpeg" width="150" class="img-thumbnail"/></div>
-      <div class="row-cor"><b>Anna Asklöf</b></div>
-      <div class="row-cor"><span class="text-muted">Data steward, SciLifeLab</span></div>
+      <div class="row-cor"><span class="text-muted">Data engineer</span></div>
     </div>
     <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/sp.jpeg" width="150" class="img-thumbnail"/></div>
       <div class="row-cor"><b>Senthilkumar Panneerselvam</b></div>
-      <div class="row-cor"><span class="text-muted">Systems developer, SciLifeLab</span></div>
+      <div class="row-cor"><span class="text-muted">Systems developer</span></div>
     </div>
     <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/hk.jpg" width="150" class="img-thumbnail"/></div>
       <div class="row-cor"><b>Hanna Kultima</b></div>
-      <div class="row-cor"><span class="text-muted">Data manager, coordinator, SciLifeLab</span></div>
+      <div class="row-cor"><span class="text-muted">Data management team leader at SciLifeLab</span></div>
     </div>
     <div class="col-md-2 pt-2">
       <div class="row-cor"><img src="/img/people/jr.jpg" width="150" class="img-thumbnail"/></div>
       <div class="row-cor"><b>Johan Rung</b></div>
-      <div class="row-cor"><span class="text-muted">Head of the Data Centre, SciLifeLab</span></div>
-    </div>
-    <div class="col-md-2 pt-2">
-      <div class="row-cor"><img src="/img/people/pk.jpg" width="150" class="img-thumbnail"/></div>
-      <div class="row-cor"><b>Per Kraulis</b></div>
-      <div class="row-cor"><span class="text-muted">Systems development team leader, data engineer, SciLifeLab</span></div>
-    </div>
-    <div class="col-md-2 pt-2">
-      <div class="row-cor"><img src="/img/people/lo.jpg" width="150" class="img-thumbnail"/></div>
-      <div class="row-cor"><b>Linus Östberg</b></div>
-      <div class="row-cor"><span class="text-muted">Systems developer, system administrator, SciLifeLab</span></div>
-    </div>
-    <div class="col-md-2 pt-2">
-      <div class="row-cor"><img src="/img/people/pe.jpeg" width="150" class="img-thumbnail"/></div>
-      <div class="row-cor"><b>Phil Ewels</b></div>
-      <div class="row-cor"><span class="text-muted">Bioinformatics development lead, NGI</span></div>
+      <div class="row-cor"><span class="text-muted">Head of the SciLifeLab Data Centre</span></div>
     </div>
   </div>
 </div>
 
-Through the portal, researchers can reach many different services for their COVID-19 projects. The data management questions are handled by the data management team at [NBIS](https://nbis.se/), the National BIoinformatics Infrastructure which is also the SciLifeLab Bioinformatics Platform.
-
-<div class="container">
-   <div class="row">
-     <div class="col-md-2 pt-2">
-       <div class="row-cor"><img src="/img/people/nj.jpg" width="150" class="img-thumbnail"/></div>
-       <div class="row"><b>Niclas Jareborg</b></div>
-       <div class="row"><span class="text-muted">Data manager, NBIS</span></div>
-     </div>
-     <div class="col-md-2 pt-2">
-       <div class="row-cor"><img src="/img/people/yk.jpg" width="150" class="img-thumbnail"/></div>
-       <div class="row"><b>Yvonne Kallberg</b></div>
-       <div class="row"><span class="text-muted">Data steward, NBIS</span></div>
-     </div>
-     <div class="col-md-2 pt-2">
-       <div class="row-cor"><img src="/img/people/ek.jpg" width="150" class="img-thumbnail"/></div>
-       <div class="row-cor"><b>Elin Kronander</b></div>
-       <div class="row-cor"><span class="text-muted">Data steward, NBIS</span></div>
-     </div>
-     <div class="col-md-2 pt-2">
-       <div class="row-cor"><img src="/img/people/me.jpg" width="150" class="img-thumbnail"/></div>
-       <div class="row-cor"><b>Markus Englund</b></div>
-       <div class="row-cor"><span class="text-muted">Data steward, NBIS</span></div>
-     </div>
-     <div class="col-md-2 pt-2">
-       <div class="row-cor"><img src="/img/people/mn.jpg" width="150" class="img-thumbnail"/></div>
-       <div class="row-cor"><b>Wolmar Nyberg Åkerström</b></div>
-       <div class="row-cor"><span class="text-muted">Data steward, NBIS</span></div>
-     </div>
-    </div>
-</div>
-
-### Organisations behind the portal
-
-The Swedish COVID-19 Data Portal is operated by the [SciLifeLab Data Centre](https://www.scilifelab.se/data) and partners. The [Swedish Research Council](https://vr.se) is responsible for coordination with the European initiative.
-
-SciLifeLab and the Swedish Research Council are committed to the open sharing of data and results, and have both signed the Wellcome Trust statement on [Sharing research data and findings relevant to the novel coronavirus (COVID-19) outbreak](https://wellcome.ac.uk/coronavirus-covid-19/open-data).
+### Organisations behind the Portal
 
 ##### SciLifeLab
 
-[https://www.scilifelab.se](https://www.scilifelab.se)
+[scilifelab.se](https://www.scilifelab.se)
 
 SciLifeLab, Science for Life Laboratory, is an institution for the advancement of molecular biosciences in Sweden. We are funded as a national research infrastructure by the Swedish government. Our organization leverages the unique strengths of individual researchers across Sweden into a focused resource for the life science community. We provide access for thousands of researchers to the cutting-edge instrumentation and deep scientific expertise necessary to be internationally competitive in bioscience research. This infrastructure is supported and developed by our research community, including internationally recognized experts in life science and technology. Our facilities and expertise create a unique environment for carrying out health and environmental research at the highest level.
 
@@ -135,20 +80,38 @@ SciLifeLab started out in 2010 as a joint effort between four universities: [Kar
 
 ##### SciLifeLab Data Centre
 
-[https://www.scilifelab.se/data/](https://www.scilifelab.se/data/)
+[scilifelab.se/data/](https://www.scilifelab.se/data/)
 
 Life science research is increasingly becoming not only technology-driven, but also data-driven. SciLifeLab coordinates and supports activities throughout the life cycle of data, from project planning, data production, data analysis, data sharing, to publishing and reuse of data, where researchers are dependent on advanced data analysis and e-infrastructures.
 
 Our focus is on data arising from the use of SciLifeLab infrastructure platforms, both to promote research on adding value to data, research deriving biological knowledge from data, and infrastructure making data findable and available. At SciLifeLab, we see data as one of the most valuable and long-lasting products of our operations and strive to make our data [FAIR](https://www.force11.org/group/fairgroup/fairprinciples), handled according to open science standards and that its long- term value to the scientific community is maximized.
 
-##### National Bioinformatics Infrastructure
+### Partner organisations
 
-[https://nbis.se](https://nbis.se)
+##### The European COVID-19 Data Platform
+
+[covid19dataportal.org](https://covid19dataportal.org/)
+
+<figure class="figure float-right mx-3"><img height="50" alt="The European COVID-19 Data Platform logo" src="/img/logos/european_covid19dataportal.svg"></figure>
+
+The COVID-19 & Pandemic Preparedness Data Portal is a national node of the [European COVID-19 Data Platform](https://www.covid19dataportal.org/) which is operated by the [European Bioinformatics Institute](https://ebi.ac.uk), a part of the [European Molecular Biology Laboratory](https://www.embl.org/) (EMBL-EBI) together with the European Commission, with EU Member States, and with research partners such as ELIXIR. An overview of other national nodes [can be found here](/partners/).
+
+The COVID-19 Data Platform aims to aim is to facilitate data sharing and analysis, and to accelerate coronavirus research. It enables researchers to upload, access and analyse COVID-19 related reference data and specialist datasets. It is synchronised with COVID-19-related data and scientific literature held in EMBL-EBI's data resources, including ENA, UniProt, PDBe, EMDB, Expression Atlas and Europe PMC. The data continue to grow in diversity and volume and include sequences, structures, expression data, compound screens, biochemistries and scientific publications.
+
+##### BY-COVID consortium
+
+[by-covid.org](https://by-covid.org/)
+
+<figure class="figure float-right mx-3"><img height="40" alt="BY-COVID logo" src="/img/logos/by-covid-logo.svg"></figure>
+
+The Swedish COVID-19 & Pandemic Preparedness Data Portal is one of the partners in the [BY-COVID consortium](https://by-covid.org/). BY-COVID is [funded by the European Comission](https://by-covid.org/news-events/by-covid-launch/) and brings together [53 partners from 19 countries](https://by-covid.org/about) and stakeholders from the biomedical field, hospitals, public health, social sciences and humanities.
+
+The BeYond-COVID project aims to make COVID-19 data accessible to scientists in laboratories but also to anyone who can use it, such as medical staff in hospitals or government officials. Going beyond SARS-CoV-2 data, the project will provide a framework for making data from other infectious diseases open and accessible to everyone. The project will integrate established national and European infrastructures with ELIXIR, BBMRI, ECRIN, PHIRI and CESSDA. It will build on existing efforts, such as the COVID-19 Data Platform and the Versatile Emerging infectious disease Observatory project (VEO), maximising efficiency. It will also develop synergies with the European Health Data Space.
+
+##### National Bioinformatics Infrastructure (NBIS)
+
+[nbis.se](https://nbis.se)
+
+<figure class="figure float-right mx-3"><img height="80" alt="National Bioinformatics Infrastructure (NBIS) logo" src="/img/logos/nbislogo-orange-txt.svg"></figure>
 
 NBIS (National Bioinformatics Infrastructure Sweden) is a distributed national research infrastructure supported by the Swedish Research Council (Vetenskapsrådet), Science for Life Laboratory, all major Swedish universities and the Knut and Alice Wallenberg Foundation, providing state-of-the-art bioinformatics to the Swedish life science researchers community. NBIS is also the Swedish contact point to the European infrastructure for biological information [ELIXIR](https://www.elixir-europe.org/).
-
-##### Swedish National Data Service
-
-[https://snd.gu.se](https://snd.gu.se)
-
-The Swedish National Data Service has a primary function to support the accessibility, preservation, and re-use of research data and related materials. As a national infrastructure, SND coordinates a network of more than 30 universities and public research institutes in Sweden. SND is certified data repository and provides services for researchers to share and access research data from all research areas.
