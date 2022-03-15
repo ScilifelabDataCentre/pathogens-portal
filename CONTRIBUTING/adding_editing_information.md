@@ -128,7 +128,7 @@ At the beginning of the file `data/research_projects.json` there is a field for 
 
 ## Data highlights
 
-**Data highlights** is a section of the portal which contains news items promoting recent openly shared data that can potentially be used by many other researchers to make further discoveries or notable data re-use examples.
+__Data highlights__ is a section of the portal which contains news items promoting recent openly shared data that can potentially be used by many other researchers to make further discoveries or notable data re-use examples.
 
 ### Illustrations
 
