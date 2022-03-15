@@ -4,7 +4,7 @@ We welcome contributions from the community in all sections of our Portal. Here,
 
 In short, in order to add or edit information on the Portal, make a fork of this repository and make changes in the corresponding section as described below. After making changes to the section which you would like to edit/add to as described below, you should send a pull request to the `develop` branch. We will review and approve it asap.
 
-**Table of contents:**
+__Table of contents:__
 
 - [General instructions: how to propose changes/additions](#general-instructions-how-to-start)
 - [Available datasets](#available-datasets)
@@ -73,11 +73,11 @@ Because the Portal is built on Hugo, it is quite easy to run a full version of t
 
 ## Available datasets
 
-*Instructions coming soon.*
+_Instructions coming soon._
 
 ## Funding opportunities
 
-We collect funding opportunities relevant for COVID-19, infectious diseases, and antibiotic resistance research. These are displayed under `/funding/`. The data is stored in JSON format in `data/funding.json`. Below is the format used for each entry. All required fields have to be filled out and in some cases there is a specific format. Note that for the field *topic* you should choose one or more topics corresponding of the call.
+We collect funding opportunities relevant for COVID-19, infectious diseases, and antibiotic resistance research. These are displayed under `/funding/`. The data is stored in JSON format in `data/funding.json`. Below is the format used for each entry. All required fields have to be filled out and in some cases there is a specific format. Note that for the field _topic_ you should choose one or more topics corresponding of the call.
 
 ```JSON
 {
@@ -103,7 +103,7 @@ At the beginning of the file `data/funding.json` there is a field for the last u
 
 ## Ongoing research projects
 
-We maintain a database of currently ongoing research projects on COVID-19, infectious diseases, and antibiotic resistance in Sweden. These are displayed under `/research_projects/`. The data is stored in JSON format in `data/research_projects.json`. Below is the format used for each entry. All required fields have to be filled out and in some cases there is a specific format. Note that for the field *topic* you should choose one or more topics corresponding of the call.
+We maintain a database of currently ongoing research projects on COVID-19, infectious diseases, and antibiotic resistance in Sweden. These are displayed under `/research_projects/`. The data is stored in JSON format in `data/research_projects.json`. Below is the format used for each entry. All required fields have to be filled out and in some cases there is a specific format. Note that for the field _topic_ you should choose one or more topics corresponding of the call.
 
 ```JSON
 {
@@ -199,7 +199,7 @@ Both illustrations should be placed in the `/static/updates/banners` folder. The
 
 ### News files
 
-The news items can be added in the folder `/content/updates/`. Each news item is a file with extension *.md*. The file name used here will also be the URL of the news item (e.g., `test-news.md` will become `https://covid19dataportal.se/updates/test-news/`).
+The news items can be added in the folder `/content/updates/`. Each news item is a file with extension __.md__. The file name used here will also be the URL of the news item (e.g., `test-news.md` will become `https://covid19dataportal.se/updates/test-news/`).
 
 ### Content of the news files
 
@@ -217,7 +217,7 @@ banner_caption: "Illustration of X. The image was taken from Y."
 
 This is the text of the news item. This is the first paragraph.
 
-This is the second paragraph of the text of the news item. Markdown formatting should be used in the text. For example, you can make a piece of text italic by placing an asterisk at the beginning and end, *like this*. You can make a piece of text bold by placing two asterisks at the beginning and end, **like this**. You can also add a link with square brackets following round round brackets, [like this](https://example.com/data/).
+This is the second paragraph of the text of the news item. Markdown formatting should be used in the text. For example, you can make a piece of text italic by placing an asterisk at the beginning and end, _like this_. You can make a piece of text bold by placing two asterisks at the beginning and end, __like this__. You can also add a link with square brackets following round round brackets, [like this](https://example.com/data/).
 
 This is the third paragraph of the news item.
 
