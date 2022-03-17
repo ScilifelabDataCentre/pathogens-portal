@@ -1,17 +1,83 @@
 # Instructions on adding and editing information displayed on the Portal
 
-In order to add or edit information on the Portal, make a fork of this repository and make changes as described below. After making changes to the section which you would like to edit/add to as described below, you should send a pull request to the `develop` branch. We will review and approve it asap.
+We welcome contributions from the community in all sections of our Portal. Here, we describe contributing through GitHub - either through the GitHub web interface or through a local copy on your computer. You should have basic knowledge of the GitHub web interface or CLI in order to be able to use this way of contributing. There are multiple other ways to contribute so that you can use the way that is most convenient for you. Please [see this page for information on other ways you can send contributions](https://covid19dataportal.se/contribute/).
 
-**Table of contents:**
+In short, in order to add or edit information on the Portal, make a fork of this repository and make changes in the corresponding section as described below. After making changes to the section which you would like to edit/add to as described below, you should send a pull request to the `develop` branch. We will review and approve it asap.
 
+__Table of contents:__
+
+- [General instructions: how to propose changes/additions](#general-instructions-how-to-start)
+- [Available datasets](#available-datasets)
 - [Funding opportunities](#funding-opportunities)
 - [Ongoing research projects](#ongoing-research-projects)
 - [Data highlights](#data-highlights)
 - [News about the Portal](#news-about-the-portal)
 
+## General instructions: how to propose changes/additions
+
+All information displayed on the Portal is contained within [this GitHub repository](https://github.com/ScilifelabDataCentre/covid-portal). Some of the sections use information that is stored in the `data` folder in .JSON format while other sections use information that is stored in the `content` folder in Markdown format.
+
+### Using the web interface
+
+- Navigate to the folder and file that is indicated below in the corresponding section.
+- Click on the top right corner of the document ("Edit this file"). This should create a fork of the original repository in your own GitHub account. You should see a page where you can directly edit the content.
+- Make changes as described below; do not forget to change the last update date on top of the document if needed.
+- Scroll to the bottom of the page. Describe what you have changed and press 'Propose changes'
+- You should now find yourself on a page where you can create a pull request. Check that the pull request will be sent to the base repository `SciLifeLabDataCentre/covid-portal` and base `develop`. You can also review the changes you made. Click on "Create pull request" if everything looks good.
+- Once created, a member of the Portal team will review your changes.
+Once approved, they will be merged and published.
+
+### Using a local copy
+
+If you prefer, you can edit the website files on your computer in your favourite text editor. Fork this repository to your account. Then, clone the forked repository to your machine:
+
+```bash
+git clone git@github.com:[YOUR-USERNAME]/covid-portal.git
+cd covid-portal
+```
+
+To make it easier to pull in changes made by others, you can add the main repository as a remote:
+
+```bash
+git remote add upstream https://github.com/ScilifelabDataCentre/covid-portal.git
+```
+
+Then you can fetch changes at any time from this remote:
+
+```bash
+git pull upstream develop
+```
+
+When you have finished editing, commit and push to your fork:
+
+```bash
+git add .
+git commit -m "My changes"
+git push
+```
+
+Once you're finished with your edits and they are committed and pushed to your forked repository, it's time to open a pull request. In short:
+
+- Visit the main repository: [https://github.com/ScilifelabDataCentre/covid-portal](https://github.com/ScilifelabDataCentre/covid-portal)
+- Click the button that reads _"New Pull Request"_
+- Click the text link near the top that says _"compare across forks"_
+- In the right-hand _"head repository"_ drop down, select your username / fork.
+- If you're happy with the list of commits shown, and the diff in the _"Files Changed"_ tab, fill in a title and description and click _"Create pull request"_
+
+Once created, a member of the Portal team will review your changes.
+Once approved, they will be merged and published.
+
+#### Testing with a local copy of the Portal
+
+Because the Portal is built on Hugo, it is quite easy to run a full version of the Portal on your computer and see how your changes look while doing that. See [this page for information on how to do that](../running_a_local_copy.md).
+
+## Available datasets
+
+_Instructions coming soon._
+
 ## Funding opportunities
 
-We collect funding opportunities relevant for COVID-19, infectious diseases, and antibiotic resistance research. These are displayed under `/funding/`. The data is stored in JSON format in `data/funding.json`. Below is the format used for each entry. All required fields have to be filled out and in some cases there is a specific format. Note that for the field *topic* you should choose one or more topics corresponding of the call.
+We collect funding opportunities relevant for COVID-19, infectious diseases, and antibiotic resistance research. These are displayed under `/funding/`. The data is stored in JSON format in `data/funding.json`. Below is the format used for each entry. All required fields have to be filled out and in some cases there is a specific format. Note that for the field _topic_ you should choose one or more topics corresponding of the call.
 
 ```JSON
 {
@@ -37,7 +103,7 @@ At the beginning of the file `data/funding.json` there is a field for the last u
 
 ## Ongoing research projects
 
-We maintain a database of currently ongoing research projects on COVID-19, infectious diseases, and antibiotic resistance in Sweden. These are displayed under `/research_projects/`. The data is stored in JSON format in `data/research_projects.json`. Below is the format used for each entry. All required fields have to be filled out and in some cases there is a specific format. Note that for the field *topic* you should choose one or more topics corresponding of the call.
+We maintain a database of currently ongoing research projects on COVID-19, infectious diseases, and antibiotic resistance in Sweden. These are displayed under `/research_projects/`. The data is stored in JSON format in `data/research_projects.json`. Below is the format used for each entry. All required fields have to be filled out and in some cases there is a specific format. Note that for the field _topic_ you should choose one or more topics corresponding of the call.
 
 ```JSON
 {
@@ -62,7 +128,7 @@ At the beginning of the file `data/research_projects.json` there is a field for 
 
 ## Data highlights
 
-**Data highlights** is a section of the portal which contains news items promoting recent openly shared data that can potentially be used by many other researchers to make further discoveries or notable data re-use examples.
+__Data highlights__ is a section of the portal which contains news items promoting recent openly shared data that can potentially be used by many other researchers to make further discoveries or notable data re-use examples.
 
 ### Illustrations
 
@@ -133,7 +199,7 @@ Both illustrations should be placed in the `/static/updates/banners` folder. The
 
 ### News files
 
-The news items can be added in the folder `/content/updates/`. Each news item is a file with extension *.md*. The file name used here will also be the URL of the news item (e.g., `test-news.md` will become `https://covid19dataportal.se/updates/test-news/`).
+The news items can be added in the folder `/content/updates/`. Each news item is a file with extension __.md__. The file name used here will also be the URL of the news item (e.g., `test-news.md` will become `https://covid19dataportal.se/updates/test-news/`).
 
 ### Content of the news files
 
@@ -151,7 +217,7 @@ banner_caption: "Illustration of X. The image was taken from Y."
 
 This is the text of the news item. This is the first paragraph.
 
-This is the second paragraph of the text of the news item. Markdown formatting should be used in the text. For example, you can make a piece of text italic by placing an asterisk at the beginning and end, *like this*. You can make a piece of text bold by placing two asterisks at the beginning and end, **like this**. You can also add a link with square brackets following round round brackets, [like this](https://example.com/data/).
+This is the second paragraph of the text of the news item. Markdown formatting should be used in the text. For example, you can make a piece of text italic by placing an asterisk at the beginning and end, _like this_. You can make a piece of text bold by placing two asterisks at the beginning and end, __like this__. You can also add a link with square brackets following round round brackets, [like this](https://example.com/data/).
 
 This is the third paragraph of the news item.
 
