@@ -3,6 +3,18 @@
   "calls": [
     {
     "topic": ["General"],
+    "funder": "SciLifeLab",
+    "call_title": "Call for new Pandemic Laboratory Preparedness capabilities (PLP-2)",
+    "call_url": "https://www.scilifelab.se/pandemic-response/calls/call-for-new-pandemic-laboratory-preparedness-capabilities-plp-2/",
+    "call_description": "The aim of this Expression of Interest (EoI) call is to develop services and capabilities that will facilitate laboratory pandemic preparedness and to address big questions within infectious diseases like antimicrobial resistance. Ideally these capabilities will be developed within or in close collaboration with current SciLifeLab infrastructure, but they can also include new proposals that could eventually form future SciLifeLab infrastructure services and units. The primary purpose of this call is technology development and adaptation to enable comprehensive monitoring and detection of pathogenic organisms, monitoring immune responses, analyzing antimicrobial resistance and studies of virulence mechanisms. The second purpose is to start services and prepare pipelines and practices for PLP data sharing capabilities together with the SciLifeLab Data Centre and national authorities (FoHM and others) that could be deployed in the case of the next pandemic. The third aim is to acquire sustainable support in collaboration with participating institutions to create sustainability of the pandemic preparedness.",
+    "submission_deadline": "2022-05-02",
+    "submission_opendate": "2022-03-11",
+    "funding_period": "2 years",
+    "funding_amount": "2 MSEK per year",
+    "decision_date": "May and June 2022"
+    },
+    {
+    "topic": ["General"],
     "funder": "Swedish Research Council",
     "call_title": "Consolidator grant within medicine and health",
     "call_url": "https://www.vr.se/english/applying-for-funding/calls/2021-11-17-consolidator-grant-within-medicine-and-health.html",
