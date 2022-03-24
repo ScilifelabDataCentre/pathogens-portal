@@ -7,8 +7,18 @@ menu:
         weight: 20
 ---
 
-[SciLifeLab](https://www.scilifelab.se) and [NBIS](http://www.nbis.se/) can support you with Data Management Planning early on in the project to make data sharing more efficient, both through [personal consultations](https://nbis.se/support/supportform/index.php?form=consultation) and by providing a [customised tool](https://dsw.scilifelab.se/) to create Data Management Plans.
+[SciLifeLab](https://www.scilifelab.se) and [NBIS](http://www.nbis.se/) can support you with data management planning early on in the project to make data sharing more efficient.
 We can also assist you in identifying relevant repositories and common international standards for describing and publishing your data, as well as guide you through the submission process.
+
+## Data management resources provided by NBIS
+
+[A Brief Introduction to Data Management](https://www.nbis.se/infrastructure/data-management/dm-introduction.html)
+
+[SciLifeLab Data Guidelines](https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/index.html) - data type specific guidelines for good data management practices
+
+[SciLifeLab DS Wizard, DSW](http://dsw.scilifelab.se/) - a customised tool for creating Data Management Plans (DMPs) with templates conforming to the requirements of the Swedish Research Council and other stakeholders
+
+[Free Consultations](https://nbis.se/support/supportform/index.php?form=consultation) - data stewards from NBIS are available to discuss and provide support regarding data management questions
 
 ## Depositing data in a public repository
 
@@ -18,13 +28,14 @@ If required, data can often be published with a set moratorium, which means that
 
 _Note that data from human individuals might need special considerations when it comes to publishing._
 
-## Storing the data at your university or SNIC
+## Storing data at your university or SNIC
 
 In Sweden, raw measurement data that is generated in a project belongs to the university, while the results are owned by the researcher - the so called teacher's exception. Unless the data needs protection because of contractual obligations or personal privacy, for example in sensitive personal data such as biomedical measurements of humans, data is considered public.
 
 The university has the legal responsibility to archive the data. Data publishing as supported here is important for the research process, but does not replace the legal responsibility of the university. As a researcher, you are recommended to ensure long term storage of your data in facilities provided by your university. While a project is active, compute and storage services can be provided by [Swedish National Infrastructure for Computing, SNIC](https://snic.se).
 
 ## Metadata
+
 Metadata provides 'data about data' , and may include information on the methodology used to collect the data, analytical and procedural information, definitions of variables, units of measurement, any assumptions made, the format and file type of the data and software used to collect and/or process the data. Researchers are strongly encouraged to use community metadata standards where these are in place. It is highly recommended to, from the very beginning of the project, structure e.g. sample metadata in a way that enables sequence data submission  without having to reformat the metadata.
 
 Here are our metadata guidelines for each specific data type:
@@ -42,3 +53,9 @@ For proteomics, use the minimal information model specified in [MIAPE](https://d
 ***
 
 [More information about metadata standards](https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/covid-19/index.html#guidelines-about-repositories-data-formats-and-metadata-standards)
+
+## Other data management resources
+
+[The ELIXIR Research Data Management Kit, RDMkit](https://rdmkit.elixir-europe.org)
+
+[Swedish National Data Service - Manage data](https://snd.gu.se/en/manage-data)

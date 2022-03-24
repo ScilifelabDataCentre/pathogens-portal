@@ -45,6 +45,8 @@ params:
       pubs_type: Publication type
       pubs_year: Year
       pubs_funder: Funder
+      twitter_link: Twitter
+      linkedin_link: LinkedIn
     sv:
       home_title: Snabbare forskning genom datadelning
       enquire_email_footer_dc: "Kontakta den svenska Covid-19 dataportalen"

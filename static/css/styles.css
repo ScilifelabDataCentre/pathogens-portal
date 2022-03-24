@@ -455,9 +455,24 @@ div.dataTables_wrapper div.dataTables_info {
     padding: 0.5rem 1rem;
     border-radius: 2px;
     text-align: center;
-    font-size: 28px;
+    font-size: 1.2em;
     font-weight: bold;
 }
+
+.ena_tutorial_banner {
+    border: 1px solid rgba(77, 77, 77, 0.8);
+    color: rgba(77, 77, 77, 0.8);
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.ena_tutorial_banner a {
+    color: rgba(77, 77, 77, 0.8);
+}
+
 
 /*
 * Styling of badges to indicate topics

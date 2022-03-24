@@ -1,5 +1,5 @@
 {
-  "last_updated": "2022-02-16",
+  "last_updated": "2022-02-01",
   "projects": [
   {
     "topic": ["COVID-19","Infectious diseases"],
@@ -2197,6 +2197,106 @@
     "enddate": "2024-12-31",
     "url": "https://www.vr.se/english/just-now/news/news-archive/2021-06-14-100-million-sek-for-follow-up-studies-of-covid-19-vaccines.html",
     "vaccine": "true"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "VR",
+    "project_title": "Rapid and sensitive sequence-based methods for diagnosis of bacterial and viral respiratory infections and corresponding host responses",
+    "pi": "Birgitta Henriques Normark",
+    "pi_affiliation": "Umeå University",
+    "startdate": "2020-01-01",
+    "enddate": "2021-12-31",
+    "url": "https://www.vr.se/english/swecris.html#/project/2021-06121_VR"
+  },
+  {
+    "topic": ["Antibiotic resistance"],
+    "funder": "VR",
+    "project_title": "Antibiotic resistance: The role of chemical pollution in urban wastewater",
+    "pi": "Charlotte Turner",
+    "pi_affiliation": "Lund University",
+    "startdate": "2022-01-01",
+    "enddate": "2024-12-31",
+    "url": "https://www.vr.se/english/swecris.html#/project/2021-04909_VR"
+  },
+  {
+    "topic": ["Antibiotic resistance"],
+    "funder": "VR",
+    "project_title": "Pivmecillinam in the treatment of urinary tract infections caused by ESBL-producing bacteria - a randomized study",
+    "pi": "Thomas Tängdén",
+    "pi_affiliation": "Uppsala University",
+    "startdate": "2022-01-01",
+    "enddate": "2023-12-31",
+    "url": "https://www.vr.se/english/swecris.html#/project/2021-06574_VRR"
+  },
+  {
+    "topic": ["Antibiotic resistance"],
+    "funder": "Vinnova",
+    "project_title": "Preparations for the Eurostars application “Novel breakthrough non-antibiotic treatment of acne”y",
+    "pi": "Anna-Karin Tidén",
+    "pi_affiliation": "Uppsala University",
+    "startdate": "2021-012-01",
+    "enddate": "2022-04-30",
+    "url": "https://www.vr.se/english/swecris.html#/project/2021-06574_VRR"
+  },
+  {
+    "topic": ["Antibiotic resistance"],
+    "funder": "Vinnova",
+    "project_title": "PLATINEA 2.0 Availability and individualized use of antibioticsy",
+    "pi": "Thomas Tängdén",
+    "pi_affiliation": "Uppsala University",
+    "startdate": "2021-10-01",
+    "enddate": "2026-09-30",
+    "url": "https://www.vr.se/english/swecris.html#/project/2021-02699_Vinnova"
+  },
+  {
+    "topic": ["Antibiotic resistance"],
+    "funder": "Vinnova",
+    "project_title": " Morphological switch of atypical mycobacteria - impact on virulence and antibiotic resistance",
+    "pi": "Julia Lienard",
+    "pi_affiliation": "Lund University",
+    "startdate": "2021-01-01",
+    "enddate": "2024-12-31",
+    "url": "https://www.vr.se/english/swecris.html#/project/2020-01497_VR"
+  },
+  {
+    "topic": ["Antibiotic resistance"],
+    "funder": "Vinnova",
+    "project_title": "Morphological switch of atypical mycobacteria - impact on virulence and antibiotic resistance",
+    "pi": "Julia Lienard",
+    "pi_affiliation": "Lund University",
+    "startdate": "2021-01-01",
+    "enddate": "2024-12-31",
+    "url": "https://www.vr.se/english/swecris.html#/project/2020-01497_VR"
+  },
+  {
+    "topic": ["Antibiotic resistance"],
+    "funder": "VR",
+    "project_title": "Optimised use of antibiotics to improve clinical efficacy and reduce the risk of resistance development",
+    "pi": "Thomas Tängdén",
+    "pi_affiliation": "Uppsala University",
+    "startdate": "2021-01-01",
+    "enddate": "2023-12-31",
+    "url": "https://www.vr.se/english/swecris.html#/project/2020-02320_VR"
+  },
+  {
+    "topic": ["Antibiotic resistance"],
+    "funder": "VR",
+    "project_title": "Antimicrobial resistance in zoonotic pathogens – a challenge for urban small holder livestock production system",
+    "pi": "Sofia Boqvist",
+    "pi_affiliation": "Lund University",
+    "startdate": "2021-01-01",
+    "enddate": "2023-12-31",
+    "url": "https://www.vr.se/english/swecris.html#/project/2020-03631_VR"
+  },
+  {
+    "topic": ["Antibiotic resistance"],
+    "funder": "VR",
+    "project_title": "LEADING: Low-level Exposure to Antibiotics Disturbs Interactions among Non-pathogenic bacteria in the Gastrointestinal tract",
+    "pi": "Johan Bengtsson-Palme",
+    "pi_affiliation": "Lund University",
+    "startdate": "2021-01-01",
+    "enddate": "2024-12-31",
+    "url": "https://www.vr.se/english/swecris.html#/project/2020-03631_VR"
   }
 ]
 }
