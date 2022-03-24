@@ -1,5 +1,5 @@
 {
-  "last_updated": "2022-02-16",
+  "last_updated": "2022-03-22",
   "calls": [
     {
     "topic": ["General"],
@@ -24,7 +24,7 @@
     "funding_period": "5 years",
     "funding_amount": "2 000 000 SEK per year",
     "decision_date": "No later than the beginning of November 2022"
-    }, 
+    },
     {
     "topic": ["General"],
     "funder": "Swedish Research Council",
@@ -36,7 +36,7 @@
     "funding_period": "4 years",
     "funding_amount": "1 500 000 SEK per year",
     "decision_date": "No later than the beginning of November 2022"
-    }, 
+    },
     {
     "topic": ["General"],
     "funder": "Swedish Research Council",
@@ -48,7 +48,7 @@
     "funding_period": "1-5 years",
     "funding_amount": "Minimum 400 000 SEK per year, maximum 2 500 000 SEK per year",
     "decision_date": "No later than the beginning of November 2022"
-    }, 
+    },
     {
     "topic": ["General"],
     "funder": "Swedish Research Council",
@@ -71,6 +71,17 @@
     "submission_opendate": "2022-03-15",
     "funding_period": "5 years",
     "funding_amount": "2 200 000 SEK per year, including indirect costs"
+  },
+  {
+    "topic": ["General"],
+    "funder": "SSMF",
+    "call_title": "SSMF Starting Grant",
+    "call_url": "https://www.ssmf.se/for-scientists/starting-grant/",
+    "call_description": "SSMF’s four-year Starting Grant is intended to give promising young researchers the opportunity to establish themselves as independent researchers. This support is aimed at those with postdoctoral qualifications, and covers salaries and associated operating expenses. The grant can be used for research in all areas of medicine. SSMF supports both basic research and applied research.",
+    "submission_deadline": "2022-04-15",
+    "submission_opendate": "2022-03-15",
+    "funding_period": "4 years",
+    "funding_amount": "1 700 000 SEK per year, including indirect costs"
   },
   {
     "topic": ["Antibiotic resistance"],
