@@ -1,14 +1,20 @@
 {{ define "main" }}
 
 <div class="container mt-2 py-1 border text-center font-italic text-muted">
+  {{ if eq $.Site.Language.LanguageName "Svenska" }}
+  Vi arbetar med att bredda Portalens inriktning att inkludera alla forskningsområden kopplade till pandemisk beredskap.
+  <br>Vissa av Portalens sektioner har redan uppdaterats medan andra kommer uppdateras snarast.
+  {{ else }}
   We are currently working on extending the scope of the Portal to include pandemic preparedness in general.
   <br>Some sections of the Portal have already transitioned whereas others will transition in the near future.
+  {{ end }}
 </div>
 
 <!-- Main content -->
 <div class="row">
   <div class="col-lg-8 vert-line-right mt-3">
 
+    {{ if eq $.Site.Language.LanguageName "English" }}
     <!-- Omicron VoC banner -->
     <div class="container mb-2 omicron_banner">
       <a href="/voc/omicron">Special section on Omicron VoC: data & announcements</a>
@@ -18,6 +24,7 @@
     <div class="container mb-4 ena_tutorial_banner">
       <a href="/support_services/tutorial_ena/tutorial_ena_intro/"><img height="30px" src="/img/ena_tutorial/ENA_logo_2021.png"></a> <a href="/support_services/tutorial_ena/tutorial_ena_intro/">Tutorial for SARS-CoV-2 genome data submission to ENA</a>
     </div>
+    {{ end }}
 
     <!-- Available data -->
 
