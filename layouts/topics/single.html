@@ -1,10 +1,19 @@
 {{ define "main" }}
 
-{{ .Content }}
+{{ $page_topic := .Page.Params.topic }}
+
+{{ if eq $page_topic "Antibiotic resistance" }}
+<div class="alert alert-info">
+  <i class="bi bi-exclamation-circle-fill"></i>
+  <span><i>Antibiotic resistance</i> is a new topic on the Portal, and we are currently working on adding more information.</span>
+</div>
+{{ end }}
+
+<div class="container">
+  <p>Below is an overview of various sections of <i>The Swedish COVID-19 & Pandemic Preparedness Portal</i> where information about research data and resources relevant to {{ $page_topic }} can be found. For a short background on this topic below, <a href="#background">see the description below</a>.</p>
+</div>
 
 <!-- <h3>Available datasets</h3> -->
-
-{{ $page_topic := .Page.Params.topic }}
 
 {{ range $key, $taxonomy := .Site.Taxonomies.highlights_topics }}
     {{ if eq $key (urlize $page_topic) }}
@@ -213,7 +222,7 @@
 {{ end }}
 {{ if gt (len $topic_funding) 0 }}
 <h3><i class="bi bi-three-dots-vertical"></i> Open funding opportunities ({{ len $topic_funding }})</h3>
-<div class="container mt-3">
+<div class="container mt-3 mb-5">
   <div class="table-responsive">
   <table class="table table-hover funding-opportunities" width="100%">
     <thead class="thead-light">
@@ -288,5 +297,8 @@
 </div>
 </div>
 {{ end }}
+
+<!-- Content from the markdown file -->
+{{ .Content }}
 
 {{ end }}
