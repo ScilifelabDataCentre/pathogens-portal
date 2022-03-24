@@ -5,7 +5,7 @@ summary: Roxhed et al. demonstrate how self sampling at home can be effective by
 banner: /highlights/banners/Roxhed_figure1_thumbnail.png
 banner_large: /highlights/banners/Roxhed_figure1_full.png
 banner_caption: Figure 1 - Translational approach for multiplexed serology in home-sampled dried blood spots from Roxhed et al. (2021).
-topics: [COVID-19, Infectious diseases]
+highlights_topics: [COVID-19, Infectious diseases]
 aliases:
     - /news/serology_in_home_sampled_dbs
     - /sv/news/serology_in_home_sampled_dbs

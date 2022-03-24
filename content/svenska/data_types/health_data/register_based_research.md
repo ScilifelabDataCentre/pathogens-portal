@@ -12,7 +12,7 @@ menu:
 ---
 
 <div class="alert alert-info">
-  <i class="fas fa-exclamation-triangle"></i>
+  <i class="bi bi-exclamation-triangle-fill"></i>
   <span>En svensk översättning av denna sida kommer inom kort.</span>
 </div>
 

@@ -1,6 +1,11 @@
 ---
 title: Imaging data
 menu:
+    data_menu:
+        identifier: imaging
+        name: Imaging data
+        weight: 40
+        parent: available_datasets
     main:
         name: Published data
         identifier: imaging_data_data

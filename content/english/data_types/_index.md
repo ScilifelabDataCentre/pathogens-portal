@@ -1,15 +1,14 @@
 ---
-title: Data Types
+title: Available datasets
 menu:
-    main:
-        identifier: data_types
-        post: Click to expand a data type and see available resources.
-        weight: 10
     homepage_available_data:
-        name: Available data
+        name: Available datasets
         identifier: available_data
-        post: Data available from research groups in Sweden. <a href="/data_types/all/data/">See available data for all data types <i class="fas fa-arrow-circle-right"></i></a>
-
+        post: Data available from research groups in Sweden. <a href="/data_types/all/data/">See available data for all data types <i class="bi bi-arrow-right-circle-fill"></i></a>
+    data_menu:
+        identifier: available_datasets
+        name: Available datasets
+        weight: 10
 ---
 
 * **All data types**

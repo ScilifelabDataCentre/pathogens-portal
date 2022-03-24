@@ -1,6 +1,11 @@
 ---
 title: Health data
 menu:
+    data_menu:
+        identifier: health
+        name: Health data
+        weight: 60
+        parent: available_datasets
     main:
         name: Published data
         identifier: health_data_data

@@ -5,7 +5,7 @@ summary: Saccon and colleagues studied changes in protein abundance caused by SA
 banner: /highlights/banners/cellular_response.png
 banner_large: /highlights/banners/cellular_response_large.png
 banner_caption: "Source: Graphical Abstract of Saccon, Chen and Mikaeloff et al 2021"
-topics: [COVID-19, Infectious diseases]
+highlights_topics: [COVID-19, Infectious diseases]
 aliases:
     - /news/cellular_response
     - /sv/news/cellular_response

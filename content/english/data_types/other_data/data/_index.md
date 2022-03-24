@@ -1,6 +1,11 @@
 ---
 title: Other data
 menu:
+    data_menu:
+        identifier: other
+        name: Other data types
+        weight: 110
+        parent: available_datasets
     other_data:
         name: Other data
         identifier: other_data

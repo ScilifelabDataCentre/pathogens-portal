@@ -1,10 +1,10 @@
 ---
 title: Funding opportunities
 menu:
-    projects:
+    research_menu:
+        identifier: funding
         name: Funding opportunities
-        identifier: upcoming_calls
-        weight: 30
+        weight: 20
     footer_sections:
         name: Funding opportunities
         weight: 40

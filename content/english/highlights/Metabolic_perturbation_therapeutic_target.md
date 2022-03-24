@@ -5,7 +5,7 @@ summary: Krishnan et al. showed that the SARS-CoV-2 virus can use and rewire met
 banner: /highlights/banners/Krishnan_abstract_thumbnail.png
 banner_large: /highlights/banners/Krishnan_graphical_abstract.png
 banner_caption: Graphical abstract from Krishnan et al. (2021).
-topics: [COVID-19, Infectious diseases]
+highlights_topics: [COVID-19, Infectious diseases]
 aliases:
     - /news/metabolic_perturbation_therapeutic_target
     - /sv/news/metabolic_perturbation_therapeutic_target

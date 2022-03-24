@@ -6,7 +6,7 @@ summary: Simonetti, Zhang, and Harbers et al. have shared a cost-effective, scal
 banner: /highlights/banners/COVseq_small.png
 banner_large: /highlights/banners/COVseq.png
 banner_caption: "Source: Figure 1b of Simonetti et al. 2021"
-topics: [COVID-19, Infectious diseases]
+highlights_topics: [COVID-19, Infectious diseases]
 aliases:
     - /news/covseq_surveillance_vocs
     - /sv/news/covseq_surveillance_vocs

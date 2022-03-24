@@ -5,7 +5,7 @@ date: 2020-10-01
 summary: Study by Björn Reinius and co-workers published open access in *Nature Communications* along with source data and the computational code.
 banner: /highlights/banners/rna_extraction_free_rt_pcr.png
 banner_caption: "Source: Figure 1 from Smyrlaki et al., Nature Communications, 2020"
-topics: [COVID-19, Infectious diseases]
+highlights_topics: [COVID-19, Infectious diseases]
 aliases:
     - /news/rna_extraction_free_rt_pcr
     - /svnews/rna_extraction_free_rt_pcr

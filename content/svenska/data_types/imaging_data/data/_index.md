@@ -15,7 +15,7 @@ menu:
 type: data_table
 ---
 
-###### Se även: [Riktlinjer för datapublicering - avbildningsdata](../guidelines) | [Tillgängliga tjänster - avbildningsdata](../services)
+###### Se även: [Tillgängliga tjänster - avbildningsdata](../services)
 
 ## Publicerad data
 

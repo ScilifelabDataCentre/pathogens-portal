@@ -5,7 +5,7 @@ summary: The COVID Human Genetic Efforts consortium published a study on genetic
 banner: /highlights/banners/Asano_thumbnail.jpg
 banner_large: /highlights/banners/Asano_full_size.jpg
 banner_caption: Figure 3 - Type I IFN responses to TLR7 agonist in TLR7-deficient pDCs and leukocytes from Asano et al. (2021).
-topics: [COVID-19, Infectious diseases]
+highlights_topics: [COVID-19, Infectious diseases]
 aliases:
     - /news/x_linked_genes
     - /sv/news/x_linked_genes

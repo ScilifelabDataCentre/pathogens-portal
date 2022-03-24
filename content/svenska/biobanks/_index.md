@@ -1,17 +1,16 @@
 ---
 title: Om det svenska Covid-19 Provsamlingsregistret
 menu:
-    biobanks:
-        name: Om Covid-19 Provsamlingsregistret
-        identifier: biobanks
-        weight: 10
+    swe_menu:
+        name: Provsamlingsregistret
+        weight: 30
     footer_sections:
         name: Provsamlingsregistret
         weight: 10
     homepage_biobanks:
         name: Provsamlingsregistret
         identifier: biobanks
-        post: Register över tillgängliga biobanks prover kopplade till covid-19. <a href="/sv/biobanks/">Om det svenska provsamlingsregistret <i class="fas fa-arrow-circle-right"></i></a>
+        post: Register över tillgängliga biobanks prover kopplade till covid-19. <a href="/sv/biobanks/">Om det svenska provsamlingsregistret <i class="bi bi-arrow-right-circle-fill"></i></a>
 ---
 
 ### Om det svenska Covid-19 Provsamlingsregistret

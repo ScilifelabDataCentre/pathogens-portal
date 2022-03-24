@@ -1,12 +1,9 @@
-{{ define "header" }}
-<div class="header">
-  <div class="container">
-    <h1>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).home_title }}</h1>
-  </div>
-</div>
-{{ end }}
-
 {{ define "main" }}
+
+<div class="container mt-2 py-1 border text-center font-italic text-muted">
+  We are currently working on extending the scope of the Portal to include pandemic preparedness in general.
+  <br>Some sections of the Portal have already transitioned whereas others will transition in the near future.
+</div>
 
 <!-- Main content -->
 <div class="row">
@@ -106,14 +103,14 @@
                 ({{ $num }})
                 {{ end }}
                 {{ end }}
-                <i class="fas fa-arrow-circle-right"></i></a></h5>
+                <i class="bi bi-arrow-right-circle-fill"></i></a></h5>
           </div>
           {{ end }}
         </div>
       </div>
       <div class="row mt-2">
         <h5><a href="#testing_results">{{ $.Param "teststats.name" }}
-            <i class="fas fa-arrow-circle-right"></i></a></h5>
+            <i class="bi bi-arrow-right-circle-fill"></i></a></h5>
       </div>
     </div>
 
@@ -164,8 +161,7 @@
           <div class="row align-items-end">
             <h5><a target="_blank"
                 href="https://biobanks.covid19dataportal.se/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Sök i
-                provsamlingsregistret{{ else }}Search in the database{{ end }} <i
-                  class="fas fa-arrow-circle-right"></i></a></h5>
+                provsamlingsregistret{{ else }}Search in the database{{ end }} <i class="bi bi-arrow-right-circle-fill"></i></a></h5>
           </div>
         </div>
         <div class="col-md-8">
@@ -189,8 +185,8 @@
           <div class="row">
             <h5>{{ if eq $.Site.Language.LanguageName "Svenska" }}<a href="/sv/publications/">Publikationer
                 ({{ len $.Site.Data.publications.publications }}) <i
-                  class="fas fa-arrow-circle-right"></i></a>{{ else }}<a href="/publications/">Publications
-                ({{ len $.Site.Data.publications.publications }}) <i class="fas fa-arrow-circle-right"></i></a>{{ end }}
+                  class="bi bi-arrow-right-circle-fill"></i></a>{{ else }}<a href="/publications/">Publications
+                ({{ len $.Site.Data.publications.publications }}) <i class="bi bi-arrow-right-circle-fill"></i></a>{{ end }}
             </h5>
           </div>
           {{ if ne $.Site.Language.LanguageName "Svenska" }}
@@ -201,7 +197,7 @@
                 {{ end }}
             {{ end }}
           <div class="row">
-            <h5><a href="/research_projects/">Ongoing research projects ({{ $research_projects }}) <i class="fas fa-arrow-circle-right"></i></a>
+            <h5><a href="/research_projects/">Ongoing research projects ({{ $research_projects }}) <i class="bi bi-arrow-right-circle-fill"></i></a>
             </h5>
           </div>
           {{ end }}
@@ -215,7 +211,7 @@
             <div class="row">
               <h5><a href="/funding/">Open funding
                   opportunities{{ if ne $funding_opportunities 0}} ({{ $funding_opportunities }}){{ end }} <i
-                    class="fas fa-arrow-circle-right"></i></a></h5>
+                    class="bi bi-arrow-right-circle-fill"></i></a></h5>
             </div>
           {{ end }}
         </div>
@@ -236,7 +232,7 @@
           <div class="row">
             <h6><a
                 href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/health_data/serology-statistics/">{{ $.Param "teststats.serologytitle" }}
-                <i class="fas fa-arrow-circle-right"></i></a></h6>
+                <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
           </div>
           <div class="row">
             <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
@@ -251,7 +247,7 @@
           <div class="row">
             <h6><a
                 href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/">{{ $.Param "teststats.wastewater_main_title" }}
-                <i class="fas fa-arrow-circle-right"></i></a></h6>
+                <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
           </div>
           <div class="row">
             <h6>Stockholm</h6>
@@ -279,7 +275,7 @@
           <div class="row">
             <h6><a
                 href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/health_data/post_covid/">{{ $.Param "teststats.postcovidtitle" }}
-                <i class="fas fa-arrow-circle-right"></i></a></h6>
+                <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
           </div>
           <div class="row">
             <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
@@ -294,7 +290,7 @@
           <div class="row">
             <h6><a
                 href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/health_data/vaccines/">{{ $.Param "teststats.vaccinestitle" }}
-                <i class="fas fa-arrow-circle-right"></i></a></h6>
+                <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
           </div>
           <div class="row">
             <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
@@ -342,7 +338,7 @@
       <div class="row text-white pb-3 px-3">
         <h6><a style="color:white"
             href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/contact/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Support{{ else }}Support
-            request{{ end }} <i class="fas fa-arrow-circle-right"></i></a></h6>
+            request{{ end }} <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
       </div>
     </div>
 
@@ -363,7 +359,7 @@
           <hr>{{ end }}
           {{ end }}
           <div class="row mt-3"><span><a href="/updates/">See all portal news <i
-                  class="fas fa-arrow-circle-right"></i></a></span></div>
+                  class="bi bi-arrow-right-circle-fill"></i></a></span></div>
         </div>
       </div>
     </div>

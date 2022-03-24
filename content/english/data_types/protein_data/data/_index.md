@@ -1,6 +1,11 @@
 ---
 title: Protein data
 menu:
+    data_menu:
+        identifier: protein
+        name: Protein data
+        weight: 30
+        parent: available_datasets
     main:
         name: Published data
         identifier: protein_data_data
