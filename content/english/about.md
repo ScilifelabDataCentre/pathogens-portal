@@ -23,7 +23,7 @@ This website is built using [Hugo](https://gohugo.io/) in combination with [Boot
 
 ### History of the Portal
 
-The Portal was launched in June 2020 [on assignment and with funding from the Swedish Research Council (Vetenskapsrådet)](https://www.vr.se/english/just-now/news/news-archive/2020-06-03-new-national-portal-makes-research-data-on-covid-19-accessible.html). The Swedish COVID-19 Data Portal became the first national node of the [European COVID-19 Data Platform](https://covid19dataportal.eu/) which in turn was [initiated and funded by the European Comission](https://www.embl.org/news/science/embl-ebi-launches-covid-19-data-portal/) (you can find an [overview of other national nodes here](/partners/)). We wrote a summary of what happened on the Portal during its first year [in this news item](/updates/first_year/). The Portal focused on SARS-CoV-2 and COVID-19 research data exclusively until the end of 2021.
+The Portal was launched in June 2020 [on assignment and with funding from the Swedish Research Council (Vetenskapsrådet)](https://www.vr.se/english/just-now/news/news-archive/2020-06-03-new-national-portal-makes-research-data-on-covid-19-accessible.html). The Swedish COVID-19 Data Portal became the first national node of the [European COVID-19 Data Platform](https://covid19dataportal.eu/) which in turn was [initiated and funded by the European Commission](https://www.embl.org/news/science/embl-ebi-launches-covid-19-data-portal/) (you can find an [overview of other national nodes here](/partners/)). We wrote a summary of what happened on the Portal during its first year [in this news item](/updates/first_year/). The Portal focused on SARS-CoV-2 and COVID-19 research data exclusively until the end of 2021.
 
 From 2022, the Portal expanded to cover other research relevant to pandemic preparedness and became a part of the [SciLifeLab Pandemic Laboratory Preparedness programme](https://www.scilifelab.se/pandemic-response/pandemic-laboratory-preparedness/). The SciLifeLab Pandemic Laboratory Preparedness Programme is funded by the earmarked governmental funding to SciLifeLab ([Research proposition Prop. 202/21:60](https://www.regeringen.se/rattsliga-dokument/proposition/2020/12/forskning-frihet-framtid--kunskap-och-innovation-for-sverige/)).
 
@@ -108,10 +108,12 @@ The Swedish COVID-19 & Pandemic Preparedness Data Portal is one of the partners 
 
 The BeYond-COVID project aims to make COVID-19 data accessible to scientists in laboratories but also to anyone who can use it, such as medical staff in hospitals or government officials. Going beyond SARS-CoV-2 data, the project will provide a framework for making data from other infectious diseases open and accessible to everyone. The project will integrate established national and European infrastructures with ELIXIR, BBMRI, ECRIN, PHIRI and CESSDA. It will build on existing efforts, such as the COVID-19 Data Platform and the Versatile Emerging infectious disease Observatory project (VEO), maximising efficiency. It will also develop synergies with the European Health Data Space.
 
-##### National Bioinformatics Infrastructure (NBIS)
+##### National Bioinformatics Infrastructure (NBIS) and ELIXIR Sweden
 
 [nbis.se](https://nbis.se)
 
 <figure class="figure float-right mx-3"><img height="80" alt="National Bioinformatics Infrastructure (NBIS) logo" src="/img/logos/nbislogo-orange-txt.svg"></figure>
 
-NBIS (National Bioinformatics Infrastructure Sweden) is a distributed national research infrastructure supported by the Swedish Research Council (Vetenskapsrådet), Science for Life Laboratory, all major Swedish universities and the Knut and Alice Wallenberg Foundation, providing state-of-the-art bioinformatics to the Swedish life science researchers community. NBIS is also the Swedish contact point to the European infrastructure for biological information [ELIXIR](https://www.elixir-europe.org/).
+<figure class="figure float-right mx-3"><img height="80" alt="ELIXIR logo" src="/img/logos/elixir-se-logo.png"></figure>
+
+NBIS (National Bioinformatics Infrastructure Sweden) is a distributed national research infrastructure supported by the Swedish Research Council (Vetenskapsrådet), Science for Life Laboratory, all major Swedish universities and the Knut and Alice Wallenberg Foundation, providing state-of-the-art bioinformatics to the Swedish life science researchers community. NBIS is also the Swedish contact point to the European infrastructure for biological information [ELIXIR Europe](https://www.elixir-europe.org/).
