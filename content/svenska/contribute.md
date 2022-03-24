@@ -7,34 +7,28 @@ menu:
         weight: 40
         pre: <i class="bi bi-plus-circle-fill mr-2"></i>
 ---
+Den *Svenska dataportalen för Covid-19 & Pandemisk beredskap* har som syfte att stödja forskare som arbetar inom de forskningsområden som Portalen specifikt är inriktade på. Vi välkomnar både förslag på och bidrag till Portalens innehåll och förslag på hur Portalen kan utvecklas för att bättre stödja forskningen. Som forskare uppmanar vi dig att interagera med Portalen, exempelvis genom att dela data eller information genom Portalen. Vi tar även gärna emot förslag på nytt innehåll, nya sektioner samt förslag på hur nuvarande sektioner kan utvecklas och förnyas.
 
-<div class="alert alert-info">
-  <i class="bi bi-exclamation-triangle-fill"></i>
-  <span>En svensk översättning av denna sida kommer inom kort.</span>
-</div>
+Förslag på som du exempelvis kan inkomma med. Tipsa oss om du har förslag på nya publikationer som delar dataset eller källkod öppet och som kunde passa som en ”Data Highlight”. Vi tar även emot färdigskrivna förslag på texter. Ge förslag på nya dataset som vi kan lyfta fram i ”Tillgängliga data”-sektionen. Uppdatera information om pågående projekt, ditt eget eller andras. Dela dina data öppet i nya [dashboards på Portalen](/sv/dashboards/) osv.
 
-The *Swedish COVID-19 & Pandemic Preparedness Data Portal* was built to serve the community of researchers working on relevant topics and we welcome any contributions from the community or suggestions on how the Portal can help the community. Whenever there is anything that you would like to share with your colleagues, do not hesistate to share it through the Portal. We welcome suggestions for new information or edits in all sections as well as ideas for new sections that could be launched.
-
-For example, you can suggest a dataset that should be covered in the data highlights section or even write one, you can suggest an available dataset that would be useful to others in the community, add information about your own or your colleague's ongoing research project, share data from your project in a new [dashboard](/dashboards/), and so on.
-
-There are multiple ways to add/edit information on the Portal. Choose any method that is most convenient to you, it will reach [the Portal team](/about). We are continuously monitoring communication channels and will approve additions or make changes as soon as we can.
+Det finns flera sätt att ge förslag på eller redigera informationen som ligger på Portalen. Välj den metod som passar dig bäst för att nå oss i [Portalenteamet](/sv/about). Vi kontrollerar kontinuerligt alla kommunikationskanaler och kommer godkänna tillägg och göra föreslagna ändringar så snart möjligt. Kontakta oss via e-post.
 
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-      <h3><i class="bi bi-envelope-fill"></i> Send us an e-mail</h3>
-      <p>The easiest way to send a quick suggestion or start a conversation with the Portal team is to simply send us an email. Email us at datacentre@scilifelab.se where your ticket will be assigned to one of the members of the Portal team.</p>
-      <p><b><a href="mailto:datacentre@scilifelab.se">Contribute through e-mail <i class="bi bi-arrow-right-circle-fill"></i></a></b></p>
+      <h3><i class="bi bi-envelope-fill"></i> Skicka ett bidrag genom epost</h3>
+      <p>Det enklaste sättet att skicka oss ett förslag eller få kontakt med oss i Portalenteamet är helt enkelt att skicka oss epost. Skicka epost till datacentre@scilifelab.se så kommer ditt ärende får ett ärendenummer och tilldelas en a oss i Portalenteamet.</p>
+      <p><b><a href="mailto:datacentre@scilifelab.se">Bidra med epost <i class="bi bi-arrow-right-circle-fill"></i></a></b></p>
     </div>
     <!--<div class="col-md-6">
       <h3><i class="bi bi-hand-index-thumb-fill"></i> Send a suggestion through a form</h3>
       <p>Each section of the Portal contains a special form through which you can make a suggestion for that specific section.</p>
     </div>-->
     <div class="col-md-6">
-      <h3><i class="bi bi-github"></i> Send a GitHub pull request</h3>
-      <p>All information which is displayed on the Portal is <a href="https://github.com/ScilifelabDataCentre/covid-portal/tree/develop">stored on GitHub</a>. The information is stored as .JSON files or as Markdown files, making it human-readable and easy to edit. If you know your way around the web interface of GitHub or GitHub CLI, you can easily edit or add information yourself and send us a pull request.</p>
-      <p>The information for each section of the Portal is stored in a particular folder and needs to be formatted in a certain way. To make it easier for you to contribute, <a href="https://github.com/ScilifelabDataCentre/covid-portal/blob/develop/CONTRIBUTING/adding_editing_information.md">we have written detailed instructions</a> for each of the sections. Moreover, you can even easily <a href="https://github.com/ScilifelabDataCentre/covid-portal/blob/develop/CONTRIBUTING/running_a_local_copy.md">run a local copy of the Portal on your computer</a> and see all changes live before sending them to us. If you run into an issue, send us an email so that we can help you.</p>
-      <p><b><a href="https://github.com/ScilifelabDataCentre/covid-portal/blob/develop/CONTRIBUTING/adding_editing_information.md">Contribute through GitHub <i class="bi bi-arrow-right-circle-fill"></i></a></b></p>
+      <h3><i class="bi bi-github"></i> Skicka en GitHub pull-request</h3>
+      <p>All information som visas på Portalen <a href="https://github.com/ScilifelabDataCentre/covid-portal/tree/develop">ligger på GitHub</a>. Informationen lagras som .JSON-filer eller som Markdown-filer, vilket gör att de är enkelt läsbara och lätta att redigera. Om du är van med webbgränssnittet för GitHub eller GitHub CLI kan du enkelt redigera eller lägga till information själv och skicka oss en pull request.</p>
+      <p>Informationen för varje sektion av Portalen lagras i en viss mapp och måste formateras på ett visst sätt. För att göra det enklare för dig att bidra till Portalens har vi skrivit <a href="https://github.com/ScilifelabDataCentre/covid-portal/blob/develop/CONTRIBUTING/adding_editing_information.md">detaljerade instruktioner för varje avsnitt</a>. Dessutom kan du enkelt <a href="https://github.com/ScilifelabDataCentre/covid-portal/blob/develop/CONTRIBUTING/running_a_local_copy.md">köra en lokal kopia av portalen</a> på din egen dator och se alla ändringar live innan du skickar dem till oss. Om du stöter på ett problem, kontakta oss på epost så hjälper vi dig.</p>
+      <p><b><a href="https://github.com/ScilifelabDataCentre/covid-portal/blob/develop/CONTRIBUTING/adding_editing_information.md">Bidra med GitHub <i class="bi bi-arrow-right-circle-fill"></i></a></b></p>
     </div>
   </div>
 </div>
