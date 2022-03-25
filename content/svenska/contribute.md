@@ -17,7 +17,7 @@ Det finns flera sätt att ge förslag på eller redigera informationen som ligge
   <div class="row">
     <div class="col-md-6">
       <h3><i class="bi bi-envelope-fill"></i> Skicka ett bidrag genom epost</h3>
-      <p>Det enklaste sättet att skicka oss ett förslag eller få kontakt med oss i Portalenteamet är helt enkelt att skicka oss epost. Skicka epost till datacentre@scilifelab.se så kommer ditt ärende får ett ärendenummer och tilldelas en a oss i Portalenteamet.</p>
+      <p>Det enklaste sättet att skicka oss ett förslag eller få kontakt med oss i Portalenteamet är helt enkelt att skicka oss epost. Skicka epost till <a href="mailto:datacentre@scilifelab.se">datacentre@scilifelab.se</a> så kommer ditt ärende får ett ärendenummer och tilldelas en a oss i Portalenteamet.</p>
       <p><b><a href="mailto:datacentre@scilifelab.se">Bidra med epost <i class="bi bi-arrow-right-circle-fill"></i></a></b></p>
     </div>
     <!--<div class="col-md-6">

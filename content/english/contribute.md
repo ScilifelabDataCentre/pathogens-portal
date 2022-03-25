@@ -17,7 +17,7 @@ There are multiple ways to add/edit information on the Portal. Choose any method
   <div class="row">
     <div class="col-md-6">
       <h3><i class="bi bi-envelope-fill"></i> Send us an e-mail</h3>
-      <p>The easiest way to send a quick suggestion or start a conversation with the Portal team is to simply send us an email. Email us at datacentre@scilifelab.se where your ticket will be assigned to one of the members of the Portal team.</p>
+      <p>The easiest way to send a quick suggestion or start a conversation with the Portal team is to simply send us an email. Email us at <a href="mailto:datacentre@scilifelab.se">datacentre@scilifelab.se</a> where your ticket will be assigned to one of the members of the Portal team.</p>
       <p><b><a href="mailto:datacentre@scilifelab.se">Contribute through e-mail <i class="bi bi-arrow-right-circle-fill"></i></a></b></p>
     </div>
     <!--<div class="col-md-6">

@@ -3,11 +3,11 @@ title: Public health data
 menu:
     data_menu:
         identifier: public_health
-        name: Public health data
+        name: Public Health data
         weight: 90
         parent: available_datasets
     other_data:
-        name: Public health
+        name: Public Health
         identifier: public_health
         weight: 40
 type: data_table

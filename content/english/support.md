@@ -20,7 +20,7 @@ If you have questions or suggestions for the *Swedish COVID-19 & Pandemic Prepar
 
 <h2><i class="bi bi-people-fill"></i> Data management support</h2>
 
-All researchers affiliated with a research institute in Sweden working on research topics relevant to pandemic preparedness can receive free individual consultations and hands-on help within reasonable bounds from the *Swedish COVID-19 & Pandemic Preparedness Portal* team. Simply send an email to datacentre@scilifelab.se. Your question will be assigned to a data steward with relevant expertise who can either help you directly or point you to the correct tool or service.
+All researchers affiliated with a university or research institute in Sweden working on research topics relevant to pandemic preparedness can receive free individual consultations and hands-on help within reasonable bounds from the *Swedish COVID-19 & Pandemic Preparedness Portal* team. Simply send an email to datacentre@scilifelab.se. Your question will be assigned to a data steward with relevant expertise who can either help you directly or point you to the correct tool or service.
 
 You are welcome to send both general questions about best approaches to research data management, data management plans (DMPs), reproducibility, FAIR, and open science as well as specific questions about your research projects such as which repository to choose to deposit data, what the suitable metadata standards would be, which file formats to use, etc. In some cases the data stewards can act as brokers and submit data to repositories on your behalf.
 
@@ -29,7 +29,7 @@ You are welcome to send both general questions about best approaches to research
 <h2><i class="bi bi-people-fill"></i> Bioinformatics and systems development support</h2>
 
 ![NBIS Logo](/img/logos/nbislogo-orange-txt.svg#floatright)
-The SciLifeLab Bioinformatics platform [NBIS](https://nbis.se/) offers a wide range of skills to help research projects within life sciences in Sweden. NBIS has bioinformaticians with multiple areas of expertise in, but not limited to, a wide variety of applications such as genetic variation, expression analysis, single cell, genome assembly & annotation, phylogenomics, proteomics, metabolomics, machine learning, big data, integrative analysis, and biostatistics.
+The SciLifeLab Bioinformatics platform [NBIS](https://nbis.se/) offers a wide range of skills to help research projects within life sciences in Sweden. NBIS has bioinformaticians with multiple areas of expertise in, but not limited to, a wide variety of applications such as genetic variation, expression analysis, single cell, genome assembly and annotation, phylogenomics, proteomics, metabolomics, machine learning, big data, integrative analysis, and biostatistics.
 The systems developers team can help with anything from scaling and optimising your tools and code to setting up portals, resources and databases.
 
 There are several support services offered by NBIS:
