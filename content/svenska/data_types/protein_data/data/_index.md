@@ -14,7 +14,7 @@ menu:
           title_eng: Protein data
 type: data_table
 ---
-###### Se även: [Riktlinjer för datapublicering - proteindata](../guidelines) | [Tillgängliga tjänster - proteindata](../services)
+###### Se även: [Tillgängliga tjänster - proteindata](../services)
 
 ## Publicerad data
 

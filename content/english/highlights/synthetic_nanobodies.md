@@ -7,7 +7,7 @@ banner: /highlights/banners/synthetic_nanobodies.png
 banner_large: /highlights/banners/synthetic_nanobodies_large.png
 banner_caption: "Source: Figure 5 from Custódio et al., Nature Communications, 2020"
 toc: false
-topics: [COVID-19, Infectious diseases]
+highlights_topics: [COVID-19, Infectious diseases]
 aliases:
     - /news/synthetic_nanobodies
     - /sv/news/synthetic_nanobodies

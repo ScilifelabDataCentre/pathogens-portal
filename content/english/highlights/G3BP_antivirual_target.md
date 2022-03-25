@@ -5,7 +5,7 @@ summary: Kruse and Benz et al. describe a scalable method of investigating virus
 banner: /highlights/banners/G3BP_thumbnail.png
 banner_large: /highlights/banners/G3BP_figure1.png
 banner_caption: "Source: Figure 1 Kruse et al. 2021"
-topics: [COVID-19, Infectious diseases]
+highlights_topics: [COVID-19, Infectious diseases]
 ---
 
 The current COVID-19 pandemic has challenged societies world-wide over the last two years. Although vaccines have been developed in record time, and therapeutic drugs have been developed and repurposed, the pandemic is still challenging healthcare. More treatment options (e.g. novel antivirals) are warranted in preparation for future pandemic outbreaks.

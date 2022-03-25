@@ -6,7 +6,7 @@ banner: /highlights/banners/proteomic_blood_profiling.png
 banner_large: /highlights/banners/proteomic_blood_profiling_large.png
 banner_caption: "Figure 2 from Patel, Ashton, et al (2021) showing 269 proteins significantly differentially expressed in COVID-19 patients."
 needs_translation: no
-topics: [COVID-19, Infectious diseases]
+highlights_topics: [COVID-19, Infectious diseases]
 aliases:
     - /news/proteomic_blood_profiling
     - /svnews/proteomic_blood_profiling

@@ -5,7 +5,7 @@ summary: Researchers in the COVID-19 Host Genetics initiative performed genome-w
 banner: /highlights/banners/chromosome__hullstrom_small.png
 banner_large: /highlights/banners/chromosome__hullstrom.png
 banner_caption: Gene prioritisation using different evidence measures of gene annotation.
-topics: [COVID-19, Infectious diseases]
+highlights_topics: [COVID-19, Infectious diseases]
 aliases:
     - /news/insights_from_genetic_mapping
     - /sv/news/insights_from_genetic_mapping

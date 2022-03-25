@@ -1,11 +1,12 @@
-{{ if not .IsHome }}
-
-<div class="header">
+<div class="header" style="background-image: url('{{ if .Params.header_illustration }}{{ .Params.header_illustration }}{{ else }}/img/csm_coronavirus_mc.jpg{{ end }}');">
   <div class="container">
-    <h1>{{ if eq .Parent.Section "topics" }}{{ with .Site.GetPage "/highlights" }}{{ .Title }}{{ end }}: {{ .Title }}{{ else }}{{ .Title }}{{ end }}</h1>
+    <h1>{{ if .IsHome }}{{ (index $.Site.Params.lang_strings .Site.Language.Lang).home_title }}{{ else if eq .Parent.Section "highlights_topics" }}{{ with .Site.GetPage "/highlights" }}{{ .Title }}{{ end }}: {{ .Title }}{{ else }}{{ .Title }}{{ end }}</h1>
   </div>
 </div>
 
+
+
+{{ if not .IsHome }}
 {{ if .Parent }}
 <nav class="breadcrumbs" aria-label="breadcrumb">
   <div class="container">
@@ -29,7 +30,7 @@
        Make an exception for topics which are only used for data highlights
       */}}
 
-      {{ if eq .Parent.Title "Topics" }}
+      {{ if eq .Parent.Title "Highlights_topics" }}
         <li class="breadcrumb-item"><a href="/highlights/">Data highlights</a>
       {{ else }}
         <li class="breadcrumb-item"><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></li>

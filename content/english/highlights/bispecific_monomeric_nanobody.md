@@ -5,7 +5,7 @@ summary: In this study, Hanke and colleagues discovered a new nanobody. The new 
 banner: /highlights/banners/bispecific_monomeric_nanobody.png
 banner_large: /highlights/banners/bispecific_monomeric_nanobody_large.png
 banner_caption: Fig 2-f Modelling of simultaneous spike-Fu2-ACE2 binding shows that Fu2 blocks the binding of ACE2, from Hanke, L., Das, H., Sheward, D.J. et al (2022)
-topics: [COVID-19, Infectious diseases]
+highlights_topics: [COVID-19, Infectious diseases]
 ---
 
 The COVID-19 pandemic, which is going into its third year, has had major societal and economic consequences worldwide. Despite lockdowns and non-pharmaceutical interventions (NPIs), such as restrictions on gatherings, social distancing requirements, and face mask mandates, the pandemic is still ongoing. The vaccine roll-out is progressing, and several treatment options and drugs are now registered for use. However, the continuous emergence of new [*Variants of Concern* (VoC)](/voc/) has delayed the re-opening of society. It is unfortunately likely to continue to do so, as research has confirmed that new variants are less effectively neutralised by antibodies elicited by the first-generation vaccines (*cf* [Cele et al. 2021](https://www.nature.com/articles/s41586-021-03471-w)). The development of novel treatments and vaccines that protects against SARS-CoV-2 variants, particularly VoCs, is therefore urgently needed.

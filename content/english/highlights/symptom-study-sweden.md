@@ -5,7 +5,7 @@ summary: COVID Symptom Study Sweden collects data through a smartphone app to in
 banner: /highlights/banners/csss.png
 banner_large: /highlights/banners/csss_large.png
 banner_caption: "Visualization of the symptoms reported by app users over time. Source: [Dashboard of the COVID Symptom Study Sweden](https://csss-resultat.shinyapps.io/csss_dashboard/)"
-topics: [COVID-19, Infectious diseases]
+highlights_topics: [COVID-19, Infectious diseases]
 aliases:
     - /news/symptom-study-sweden
     - /sv/news/symptom-study-sweden

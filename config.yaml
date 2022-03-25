@@ -1,8 +1,8 @@
 baseURL: "https://www.covid19dataportal.se/"
-title: "COVID-19 Data Portal Sweden"
+title: "The Swedish COVID-19 & Pandemic Preparedness Data Portal"
 params:
-  title: "COVID-19 Data Portal Sweden"
-  description: COVID-19 Data Portal for Swedish Research
+  title: "The Swedish COVID-19 & Pandemic Preparedness Data Portal"
+  description: The Swedish COVID-19 & Pandemic Preparedness Data Portal
   images:
     - /img/site_logo/CV19DP_logo_social_card_SWE.png
 
@@ -108,6 +108,6 @@ caches:
     maxAge: 10s
 
 taxonomies:
-  topic: topics
+  highlights_topic: highlights_topics
 permalinks:
-  topics: "/highlights/:slug/"
+  highlights_topics: "/highlights/topics/:slug/"

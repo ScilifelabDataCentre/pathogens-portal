@@ -5,7 +5,7 @@ summary: Mangsbo and colleagues investigated sensitivity and specificity of a SA
 banner: /highlights/banners/sarscov2_tcell_response.png
 banner_large: /highlights/banners/sarscov2_tcell_response_large.png
 banner_caption: Fig 1. Venn diagram displaying (left) the seronegative individuals that scored T-cell positive on the T-cell test, from Mangsbo et al. (2021)
-topics: [COVID-19, Infectious diseases]
+highlights_topics: [COVID-19, Infectious diseases]
 ---
 
 The outbreak of SARS CoV-2 has increased the demand for developing large, population-based immunological surveys. These are needed to assess long-term immune responses following COVID-19 infection. Previous studies have shown that the majority (91–99%) of COVID-19 cases produce an antibody response (seroconvert). After recovery from a COVID-19 infection, relatively stable levels of neutralizing IgG antibodies are detected in blood for up to eight months. In addition, SARS-CoV-2-specific T-cell responses are detected, with a shorter duration of CD8+ T-cell responses and a longer duration of CD4+ T-cell responses.

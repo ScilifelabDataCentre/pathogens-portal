@@ -5,7 +5,7 @@ summary: New study identifies a noncanonical entry mechanism used by human adeno
 banner: /highlights/banners/adenovirus.png
 banner_large: /highlights/banners/adenovirus.png
 banner_caption: "Source: Figure 3 of Persson et al. 2021"
-topics: [COVID-19, Infectious diseases]
+highlights_topics: [COVID-19, Infectious diseases]
 aliases:
     - /news/adenovirus/
     - /sv/news/adenovirus/

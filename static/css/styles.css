@@ -33,8 +33,11 @@ img[src$='#floatleftbig'], img[src$='#floatrightbig']{
     max-height: 200px;
 }
 
-h2,h3 {
+h2 {
     margin-top: 3rem;
+}
+h3 {
+    margin-top: 2rem;
 }
 h4 {
     margin-top: 1rem;
@@ -57,6 +60,7 @@ li:empty {
     height: 55px;
     max-width: 100%;
 }
+
 .navbar .navbar-primary-links a.nav-link {
     color: rgba(46, 104, 165, 0.8);
     font-weight: 600;
@@ -65,9 +69,10 @@ li:empty {
 
 @media all and (min-width: 992px) {
     .navbar .navbar-nav a.nav-link {
-        padding: 0.8rem;
+        padding: 0.3em 0.8rem;
     }
 }
+
 .navbar .navbar-primary-links a.nav-link:hover,
 .navbar .navbar-primary-links a.nav-link:focus,
 .navbar .navbar-primary-links a.nav-link:active {
@@ -85,7 +90,6 @@ li:empty {
     color: rgba(46, 104, 165, 1);
     background-color: transparent;
 }
-
 
 .navbar .navbar-secondary-links a.nav-link {
     color: rgba(77, 77, 77, 0.8);
@@ -122,17 +126,18 @@ li:empty {
     .navbar .text-vert { display: none; }
 }
 
-.navbar .navbar-nav.navbar-languages {
+.navbar .navbar-nav.navbar-top {
     margin-left: 1rem;
 }
-.navbar .navbar-nav.navbar-languages li:not(:first-child) a {
+.navbar .navbar-nav.navbar-top li:not(:first-child) a {
     padding-left: 0;
 }
-.navbar-languages li:not(:first-child) a span {
-    border-left: 1px solid #ccc;
-    padding-left: 1rem;
+.navbar-top li:not(:last-child) a span {
+    border-right: 1px solid #ccc;
+    padding-right: 1rem;
 }
-.navbar-languages a img {
+
+.navbar-top a img {
     width: 1rem;
     opacity: 0.2;
 }
@@ -142,20 +147,22 @@ li:empty {
     margin-left: 0.5rem;
     margin-bottom: 0.1rem;
 }
-.navbar-languages a:hover img,
-.navbar-languages a:focus img,
-.navbar-languages a:active img,
+.navbar-top a:hover img,
+.navbar-top a:focus img,
+.navbar-top a:active img,
 .nav-languages a:hover img,
 .nav-languages a:focus img,
 .nav-languages a:active img {
     opacity: 1;
 }
+
 .navbar .navbar-nav a.nav-link.highlight {
     border: 1px solid rgba(46, 104, 165, 0.8);
     color: rgba(46, 104, 165, 0.8);
-    padding: 0.5rem 1rem;
+    padding: 0.3rem 1rem;
     margin: 0.5rem 0;
     border-radius: 2px;
+    margin-left: 0.2em;
 }
 .navbar .navbar-nav a.nav-link.highlight:hover,
 .navbar .navbar-nav a.nav-link.highlight:focus,
@@ -165,12 +172,67 @@ li:empty {
     color: #ffffff;
 }
 
+.main_menu_item {
+  color: rgba(46, 104, 165, 0.8);
+  font-weight: 500;
+  font-size: 1.4em;
+}
+
+.main_menu_item a {
+  color: rgba(46, 104, 165, 0.8);
+  text-decoration: none;
+}
+
+.main_menu_item  a:hover,
+.main_menu_item  a:focus,
+.main_menu_item  a:active {
+    color: rgba(46, 104, 165, 1);
+}
+
+.main_menu_item_sub a {
+  font-weight: 500;
+  color: rgba(46, 104, 165, 0.8);
+  text-align: left;
+  vertical-align: middle;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin: .2rem .1rem;
+  font-size: 1rem;
+  white-space: nowrap;
+  border-right: 1px solid #ccc;
+  padding-right: 0.5rem;
+  text-decoration: none;
+}
+
+.main_menu_item_sub a:hover,
+.main_menu_item_sub a:focus,
+.main_menu_item_sub a:active {
+    color: rgba(46, 104, 165, 1);
+}
+
+.main_menu_item_sub_dropdown a {
+  font-weight: 500;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+.topics_title {
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+@media (max-width: 1199px) {
+      .main_menu .border-right
+      {
+        border:0px solid !important
+      }
+}
+
 .header {
-    background-image: url('../img/csm_coronavirus_mc.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 3rem 0;
+    padding: 1.5rem 0;
 }
 
 .breadcrumbs {

@@ -5,7 +5,6 @@ menu:
         identifier: text_and_literature
         parent: support_services
         weight: 40
-        pre: <i class="fas fa-share-alt"></i>
 ---
 
 För centrala covid-19 nav för text och litteratur, se:

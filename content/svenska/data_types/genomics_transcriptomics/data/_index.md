@@ -14,7 +14,7 @@ menu:
           title_eng: Genomics & transcriptomics
 type: data_table
 ---
-###### Se även: [Riktlinjer för datapublicering - Genomik & transkriptomik](../guidelines) | [Tillgängliga tjänster - Genomik & transkriptomik](../services)
+###### Se även: [Tillgängliga tjänster - Genomik & transkriptomik](../services)
 
 ## Publicerad data
 

@@ -3,7 +3,7 @@ title: Integritetspolicy / Dataskyddspolicy
 toc: false
 ---
 
-SciLifeLab driver webbplatsen [https://www.covid19dataportal.se](https://www.covid19dataportal.se) (inkluderqande subdomäner som exempelvis [https://biobanks.covid19dataportal.se](https://biobanks.covid19dataportal.se/)), som tillhandahåller **tjänsten**.
+SciLifeLab driver webbplatsen [https://www.covid19dataportal.se](https://www.covid19dataportal.se) (inkluderande subdomäner som exempelvis [https://biobanks.covid19dataportal.se](https://biobanks.covid19dataportal.se/)), som tillhandahåller **tjänsten**.
 
 Denna sida informerar webbsidans besökare om vår integritetspolicy.  Om du väljer att använda vår **tjänst**, kommer dina personuppgifter behandlas i enlighet med denna policy. De personuppgifter som vi samlar in används för att driva och förbättra vår **tjänst**. Vi kommer inte dela dina personuppgifter med andra om det inte är beskrivet i denna integritetspolicy.
 
@@ -19,7 +19,7 @@ Vi vill informera dig om att varje gång du besöker vår **tjänst** samlar vi 
 
 Vår **tjänst** innehåller ett antal formulär vilka webbsidans besökare kan välja att använda för kontakt. Via kontaktformulären ges möjlighet gör webbsidans besökare att ange namn och epost adress.
 
-Följande parter kommer ha tillgång till personuppgifter som anges i dessa formulär: SciLifeLab Data Centre, Uppsala universitet.  
+Följande parter kommer ha tillgång till personuppgifter som anges i dessa formulär: SciLifeLab Data Centre, Uppsala universitet.
 
 Dina personuppgifter kommer att raderas när de inte längre är nödvändiga eller enligt universitetets policy for arkivering. Om du vill uppdatera eller radera dina personuppgifter vänligen kontakta controller SciLifeLab Data Centre vid Uppsala universitet via epost datacentre@scilifelab.se.
 
@@ -42,12 +42,12 @@ Det finns flera sätt att begränsa vilka kakor som din webbläsare accepterar. 
 
 Du kan:
 
-- helt blockera kakor i webbläsarens inställningar,  
-- ställa in webbläsarens så att du manuellt får godkänna varje kaka,  
-- ställa in webbläsaren så att den blockerar tredjepartskakor,  
-- ange ett antal betrodda webbplatser som din webbläsare accepterar kakor från,  
-- använda insticksprogram som helt eller delvis begränsar kakor baserat på anpassade villkor, och  
-- ställa in webbläsaren så att den rensar alla kakor när du stänger programmet.  
+- helt blockera kakor i webbläsarens inställningar,
+- ställa in webbläsarens så att du manuellt får godkänna varje kaka,
+- ställa in webbläsaren så att den blockerar tredjepartskakor,
+- ange ett antal betrodda webbplatser som din webbläsare accepterar kakor från,
+- använda insticksprogram som helt eller delvis begränsar kakor baserat på anpassade villkor, och
+- ställa in webbläsaren så att den rensar alla kakor när du stänger programmet.
 
 Du kan läsa [mer om kakor på Post- och telestyrelsens webbplats](https://pts.se/sv/bransch/regler/lagar/lag-om-elektronisk-kommunikation/kakor-cookies/).
 

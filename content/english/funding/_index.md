@@ -1,10 +1,10 @@
 ---
 title: Funding opportunities
 menu:
-    projects:
+    research_menu:
+        identifier: funding
         name: Funding opportunities
-        identifier: upcoming_calls
-        weight: 30
+        weight: 20
     footer_sections:
         name: Funding opportunities
         weight: 40
@@ -22,4 +22,6 @@ This section presents a list of current and upcoming funding opportunities by la
 
 ## Recurring funding opportunities
 
-*To be published soon...*
+Generally, the Swedish Research Council starts accepting applications for funding within medicine and health (such as for example the project grant, starting grant and consolidator grant) at the beginning of each year  with a deadline in spring. Information about these calls is typically available at the end of the previous year.
+
+Generally, Svenska Sällskapet för Medicinsk Forskning (SSMF) grant applications are accepted during spring. You can find information about [funding from SSMF on their website](https://www.ssmf.se/for-scientists/).

@@ -1,10 +1,10 @@
 ---
 title: Publications on COVID-19 and SARS-CoV-2
 menu:
-    projects:
-        name: Publications
+    research_menu:
+        name: COVID-19 publications database
         identifier: publications
-        weight: 10
+        weight: 30
     footer_sections:
         name: Publications
         weight: 20

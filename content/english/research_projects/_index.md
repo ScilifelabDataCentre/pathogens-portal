@@ -2,10 +2,10 @@
 title: Ongoing research projects
 toc: false
 menu:
-    projects:
+    research_menu:
         name: Ongoing research projects
         identifier: ongoing_projects
-        weight: 25
+        weight: 10
     footer_sections:
         name: Ongoing research projects
         weight: 30
