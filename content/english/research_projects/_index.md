@@ -10,6 +10,8 @@ menu:
         name: Ongoing research projects
         weight: 30
 aliases:
+        - /projects/
+        - /sv/projects/
         - /projects/ongoing/
         - /sv/projects/ongoing/
 ---
