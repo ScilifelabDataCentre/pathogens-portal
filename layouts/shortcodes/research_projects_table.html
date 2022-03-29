@@ -1,3 +1,5 @@
+{{ $projects_to_display := .Get "to_display" }}
+
 {{/* Fetch last update date from the json file with research projects */}}
 <p><i>
    Last updated: {{ $.Site.Data.research_projects.last_updated }}
@@ -29,6 +31,7 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-2 pl-0 {{ if eq $.Site.Language.LanguageName "Svenska" }}mr-5{{ else }}mr-2{{ end }}">
+      {{ if ne $projects_to_display "all_covid"}}
       <h5>Topic</h5>
       <div class="col mb-2 ml-3 form-check">
           {{ range sort $topics }}
@@ -36,6 +39,7 @@
                 value="{{ . }}">{{ . }}</div>
           {{ end }}
       </div>
+      {{ end }}
       <h5>Funder</h5>
       <div class="col mb-2 ml-3 form-check">
           {{ range sort $funders }}
@@ -64,59 +68,110 @@
             </thead>
             <tbody>
               {{ range $ind, $cont := $.Site.Data.research_projects.projects }}
-              {{ if gt (.enddate | time.Format "20060102") (now | time.Format "20060102") }}
-              <tr>
-                <td>
-                  <div class="row">
-                    <div class="col">
-                      <h6>{{ if .url }}<a href="{{ .url }}">{{ end }}{{ .project_title }}{{ if .url }}</a>{{ end }}</h6>
-                      {{ if or .pi .pi_affiliation }}<p class="text-muted"><b>Host institute:</b> {{ .pi_affiliation }}<br><b>Principal investigator:</b> {{ .pi }}</p>{{ end }}
-                      <div class="row mt-2">
-                        <div class="col">
-                          <button type="button" class="btn_details btn_details_primary" data-toggle="modal" data-target="#call_details{{ $ind }}">
-                            Details
-                          </button>
-                          <div class="modal fade" id="call_details{{ $ind }}" tabindex="-1" role="dialog" aria-labelledby="call_details{{ $ind }}Label" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h5 class="modal-title" id="call_details{{ $ind }}Label">{{ .call_title }}</h5>
-                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                  </button>
-                                </div>
-                                <div class="modal-body">
-                                  <p><b>Project:</b> {{ .project_title }}<br>
-                                  <b>Funder:</b> {{ .funder }}<br>
-                                  {{ if .pi }}<b>Principal investigator:</b> {{ .pi }}<br>{{ end }}
-                                  {{ if .pi_affiliation }}<b>Host institute:</b> {{ .pi_affiliation }}<br>{{ end }}
-                                  {{ if or .startdate .enddate }}<b>Duration:</b> {{ .startdate}} – {{ .enddate }}<br>{{ end }}
-                                  {{ if .funding_amount }}<b>Funding amount:</b> {{ .funding_amount}}<br>{{ end }}
-                                  </p>
-                                  {{ if .project_description }}<p><b>Project description:</b><br><small>{{ .project_description | markdownify }}</small></p>{{ end }}
-                                  {{ if .url }}<p><a href="{{ .url }}">More information about the project <i class="bi bi-arrow-right-circle-fill" aria-hidden="true"></i></a></p>{{ end }}
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn_details btn-secondary" data-dismiss="modal">Close</button>
+              {{ if ne $projects_to_display "all_covid"}}
+                {{ if gt (.enddate | time.Format "20060102") (now | time.Format "20060102") }}
+                <tr>
+                  <td>
+                    <div class="row">
+                      <div class="col">
+                        <h6>{{ if .url }}<a href="{{ .url }}">{{ end }}{{ .project_title }}{{ if .url }}</a>{{ end }}</h6>
+                        {{ if or .pi .pi_affiliation }}<p class="text-muted"><b>Host institute:</b> {{ .pi_affiliation }}<br><b>Principal investigator:</b> {{ .pi }}</p>{{ end }}
+                        <div class="row mt-2">
+                          <div class="col">
+                            <button type="button" class="btn_details btn_details_primary" data-toggle="modal" data-target="#call_details{{ $ind }}">
+                              Details
+                            </button>
+                            <div class="modal fade" id="call_details{{ $ind }}" tabindex="-1" role="dialog" aria-labelledby="call_details{{ $ind }}Label" aria-hidden="true">
+                              <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="call_details{{ $ind }}Label">{{ .call_title }}</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <p><b>Project:</b> {{ .project_title }}<br>
+                                    <b>Funder:</b> {{ .funder }}<br>
+                                    {{ if .pi }}<b>Principal investigator:</b> {{ .pi }}<br>{{ end }}
+                                    {{ if .pi_affiliation }}<b>Host institute:</b> {{ .pi_affiliation }}<br>{{ end }}
+                                    {{ if or .startdate .enddate }}<b>Duration:</b> {{ .startdate}} – {{ .enddate }}<br>{{ end }}
+                                    {{ if .funding_amount }}<b>Funding amount:</b> {{ .funding_amount}}<br>{{ end }}
+                                    </p>
+                                    {{ if .project_description }}<p><b>Project description:</b><br><small>{{ .project_description | markdownify }}</small></p>{{ end }}
+                                    {{ if .url }}<p><a href="{{ .url }}">More information about the project <i class="bi bi-arrow-right-circle-fill" aria-hidden="true"></i></a></p>{{ end }}
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn_details btn-secondary" data-dismiss="modal">Close</button>
+                                  </div>
                                 </div>
                               </div>
                             </div>
-                          </div>
+                        </div>
+                      </div>
                       </div>
                     </div>
-                    </div>
-                  </div>
 
-              </td>
-                <td>{{ if and (eq $.Site.Language.LanguageName "Svenska") .funder_sv }}{{ .funder_sv }}{{ else }}
-                  {{ .funder }}{{ end }}</td>
-                <td>{{ range .topic }}<span class="mx-1 my-1 topic_badge_large
-                  {{ if eq . "COVID-19"}}topic_badge_covid
-                  {{ else if eq . "Infectious diseases"}}topic_badge_infectious_d
-                  {{ else if eq . "Antibiotic resistance"}}topic_badge_antib_r
-                  {{ else }}topic_badge_general
-                  {{ end }} ">{{ . }}</span>{{ end }}</td>
-              </tr>
+                </td>
+                  <td>{{ if and (eq $.Site.Language.LanguageName "Svenska") .funder_sv }}{{ .funder_sv }}{{ else }}
+                    {{ .funder }}{{ end }}</td>
+                  <td>{{ range .topic }}<span class="mx-1 my-1 topic_badge_small
+                    {{ if eq . "COVID-19"}}topic_badge_covid
+                    {{ else if eq . "Infectious diseases"}}topic_badge_infectious_d
+                    {{ else if eq . "Antibiotic resistance"}}topic_badge_antib_r
+                    {{ else }}topic_badge_general
+                    {{ end }} ">{{ . }}</span>{{ end }}</td>
+                </tr>
+                {{ end }}
+              {{ else }}
+                {{ if in .topic "COVID-19" }}
+                <tr>
+                  <td>
+                    <div class="row">
+                      <div class="col">
+                        <h6>{{ if .url }}<a href="{{ .url }}">{{ end }}{{ .project_title }}{{ if .url }}</a>{{ end }}</h6>
+                        {{ if or .pi .pi_affiliation }}<p class="text-muted"><b>Host institute:</b> {{ .pi_affiliation }}<br><b>Principal investigator:</b> {{ .pi }}</p>{{ end }}
+                        <div class="row mt-2">
+                          <div class="col">
+                            <button type="button" class="btn_details btn_details_primary" data-toggle="modal" data-target="#call_details{{ $ind }}">
+                              Details
+                            </button>
+                            <div class="modal fade" id="call_details{{ $ind }}" tabindex="-1" role="dialog" aria-labelledby="call_details{{ $ind }}Label" aria-hidden="true">
+                              <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="call_details{{ $ind }}Label">{{ .call_title }}</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <p><b>Project:</b> {{ .project_title }}<br>
+                                    <b>Funder:</b> {{ .funder }}<br>
+                                    {{ if .pi }}<b>Principal investigator:</b> {{ .pi }}<br>{{ end }}
+                                    {{ if .pi_affiliation }}<b>Host institute:</b> {{ .pi_affiliation }}<br>{{ end }}
+                                    {{ if or .startdate .enddate }}<b>Duration:</b> {{ .startdate}} – {{ .enddate }}<br>{{ end }}
+                                    {{ if .funding_amount }}<b>Funding amount:</b> {{ .funding_amount}}<br>{{ end }}
+                                    </p>
+                                    {{ if .project_description }}<p><b>Project description:</b><br><small>{{ .project_description | markdownify }}</small></p>{{ end }}
+                                    {{ if .url }}<p><a href="{{ .url }}">More information about the project <i class="bi bi-arrow-right-circle-fill" aria-hidden="true"></i></a></p>{{ end }}
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn_details btn-secondary" data-dismiss="modal">Close</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+
+                </td>
+                  <td>{{ if and (eq $.Site.Language.LanguageName "Svenska") .funder_sv }}{{ .funder_sv }}{{ else }}
+                    {{ .funder }}{{ end }}</td>
+                  <td><span class="mx-1 my-1 topic_badge_small topic_badge_covid">COVID-19</span></td>
+                {{ end }}
               {{ end }}
               {{ end }}
             </tbody>
