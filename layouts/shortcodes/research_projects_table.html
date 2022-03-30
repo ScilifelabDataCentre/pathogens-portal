@@ -75,7 +75,10 @@
                     <div class="row">
                       <div class="col">
                         <h6>{{ if .url }}<a href="{{ .url }}">{{ end }}{{ .project_title }}{{ if .url }}</a>{{ end }}</h6>
-                        {{ if or .pi .pi_affiliation }}<p class="text-muted"><b>Host institute:</b> {{ .pi_affiliation }}<br><b>Principal investigator:</b> {{ .pi }}</p>{{ end }}
+                        {{ if or .pi .pi_affiliation }}
+                        <p class="text-muted">{{ if .pi_affiliation }}<b>Host institute:</b> {{ .pi_affiliation }}<br>{{ end }}
+                          {{ if .pi}}<b>Principal investigator:</b> {{ .pi }}{{ end }}
+                        </p>{{ end }}
                         <div class="row mt-2">
                           <div class="col">
                             <button type="button" class="btn_details btn_details_primary" data-toggle="modal" data-target="#call_details{{ $ind }}">
@@ -130,7 +133,10 @@
                     <div class="row">
                       <div class="col">
                         <h6>{{ if .url }}<a href="{{ .url }}">{{ end }}{{ .project_title }}{{ if .url }}</a>{{ end }}</h6>
-                        {{ if or .pi .pi_affiliation }}<p class="text-muted"><b>Host institute:</b> {{ .pi_affiliation }}<br><b>Principal investigator:</b> {{ .pi }}</p>{{ end }}
+                        {{ if or .pi .pi_affiliation }}
+                        <p class="text-muted">{{ if .pi_affiliation }}<b>Host institute:</b> {{ .pi_affiliation }}<br>{{ end }}
+                          {{ if .pi}}<b>Principal investigator:</b> {{ .pi }}{{ end }}
+                        {{ end }}
                         <div class="row mt-2">
                           <div class="col">
                             <button type="button" class="btn_details btn_details_primary" data-toggle="modal" data-target="#call_details{{ $ind }}">
