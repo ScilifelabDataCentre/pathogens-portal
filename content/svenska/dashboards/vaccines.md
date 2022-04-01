@@ -16,7 +16,6 @@ aliases:
   <span>En svensk översättning av denna sida kommer inom kort.</span>
 </div>
 
-
 ## General information on vaccine research
 
 Over the last two years, the COVID-19 pandemic has challenged societies and healthcare systems worldwide, and vaccines and therapeautic treatments have been rapidly developed in response. To date, the [European Medicines Agency (EMA)](https://www.ema.europa.eu/en) has approved four vaccines against COVID-19:
