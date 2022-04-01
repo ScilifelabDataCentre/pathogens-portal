@@ -117,8 +117,6 @@ Again, please note that percentage values calculated using the 'whole population
 </div></div>
 </div>
 
-
-
 ### Administration of vaccinations according to age group
 
 We constructed the below heatmap to show how the relative numbers of people vaccinated differs according to age. Unsurprisingly, the more advanced age groups tend to have higher levels of vaccination for each dose, as they are typically given access at an earlier date.
