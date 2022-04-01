@@ -94,7 +94,9 @@ The maps below show the number of people that received the diagnoses of interest
 
 The below table displays the most common types of diagnosis (diagnosis groups) that have been reported together with the *U09.9 (ICD-10-SE) - Postinfectious state associated with COVID-19, unspecified* diagnosis. In particular, the values in the table represent the amount of individuals that received the *U09.9* diagnosis alongside one of the diagnoses below. The data was recorded between 16th October 2020 and the most recent data update (see above).
 
-{{< postcovid_accompanying_diagnoses >}}
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/accompdiag_table.json" height="500px" >}}</div>
+</div>
 
 <span class="text-muted">*Note that an individual may have more than one of the accompanying diagnoses. However, if an individual has the same issue on multiple doctor visits/healthcare contacts, the diagnosis will only be counted once*</span>
 

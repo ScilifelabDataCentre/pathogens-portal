@@ -100,7 +100,9 @@ Kartorna nedan visar antal individer som fått diagnoskoderna av intresse per l�
 
 Denna tabell visar de vanligaste diagnosgrupper som har rapporterats tillsammans med diagnoskoden *U09.9 (ICD-10-SE)-Post-infektiöst tillstånd efter covid-19 (Postcovid)*. Siffrorna och procentsatserna nedan visar hur många individer som fått diagnosen U09.9 och samtidigt har diagnoser från nedanstående diagnosgrupper. Data nedan återspeglar perioden från och med den 16 oktober 2020 och fram till den senaste uppdateringen (se ovan).
 
-{{< postcovid_accompanying_diagnoses_swe >}}
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/accompdiag_table_swe.json" height="500px" >}}</div>
+</div>
 
 <span class="text-muted">*Observera att en individ kan ha mer än en diagnosgrupp som rapporteras tillsammans med U09.9 Postinfektiöst tillstånd efter covid-19 (Postcovid). Om en individ har samma besvär vid flera vårdtillfällen/läkarbesök räknas diagnosen bara en gång.*</span>
 
