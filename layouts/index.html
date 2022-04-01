@@ -22,7 +22,10 @@
 
     <!-- ENA tutorial banner -->
     <div class="container mb-4 ena_tutorial_banner">
-      <a href="/support_services/tutorial_ena/tutorial_ena_intro/"><img height="30px" src="/img/ena_tutorial/ENA_logo_2021.png"></a> <a href="/support_services/tutorial_ena/tutorial_ena_intro/">Tutorial for SARS-CoV-2 genome data submission to ENA</a>
+      <a href="/support_services/tutorial_ena/tutorial_ena_intro/"><img height="30px"
+          src="/img/ena_tutorial/ENA_logo_2021.png"></a> <a
+        href="/support_services/tutorial_ena/tutorial_ena_intro/">Tutorial for SARS-CoV-2 genome data submission to
+        ENA</a>
     </div>
     {{ end }}
 
@@ -168,7 +171,8 @@
           <div class="row align-items-end">
             <h5><a target="_blank"
                 href="https://biobanks.covid19dataportal.se/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Sök i
-                provsamlingsregistret{{ else }}Search in the database{{ end }} <i class="bi bi-arrow-right-circle-fill"></i></a></h5>
+                provsamlingsregistret{{ else }}Search in the database{{ end }} <i
+                  class="bi bi-arrow-right-circle-fill"></i></a></h5>
           </div>
         </div>
         <div class="col-md-8">
@@ -193,33 +197,35 @@
             <h5>{{ if eq $.Site.Language.LanguageName "Svenska" }}<a href="/sv/publications/">Publikationer
                 ({{ len $.Site.Data.publications.publications }}) <i
                   class="bi bi-arrow-right-circle-fill"></i></a>{{ else }}<a href="/publications/">Publications
-                ({{ len $.Site.Data.publications.publications }}) <i class="bi bi-arrow-right-circle-fill"></i></a>{{ end }}
+                ({{ len $.Site.Data.publications.publications }}) <i
+                  class="bi bi-arrow-right-circle-fill"></i></a>{{ end }}
             </h5>
           </div>
           {{ if ne $.Site.Language.LanguageName "Svenska" }}
-            {{ $research_projects := 0 }}
-            {{ range $.Site.Data.research_projects.projects }}
-                {{ if gt (.enddate | time.Format "20060102") (now | time.Format "20060102") }}
-                  {{ $research_projects = add $research_projects 1}}
-                {{ end }}
-            {{ end }}
+          {{ $research_projects := 0 }}
+          {{ range $.Site.Data.research_projects.projects }}
+          {{ if gt (.enddate | time.Format "20060102") (now | time.Format "20060102") }}
+          {{ $research_projects = add $research_projects 1}}
+          {{ end }}
+          {{ end }}
           <div class="row">
-            <h5><a href="/research_projects/">Ongoing research projects ({{ $research_projects }}) <i class="bi bi-arrow-right-circle-fill"></i></a>
+            <h5><a href="/research_projects/">Ongoing research projects ({{ $research_projects }}) <i
+                  class="bi bi-arrow-right-circle-fill"></i></a>
             </h5>
           </div>
           {{ end }}
           {{ if ne $.Site.Language.LanguageName "Svenska" }}
-            {{ $funding_opportunities := 0 }}
-            {{ range $.Site.Data.funding.calls }}
-              {{ if gt (.submission_deadline | time.Format "20060102") (now | time.Format "20060102") }}
-                {{ $funding_opportunities = add $funding_opportunities 1}}
-              {{ end }}
-            {{ end }}
-            <div class="row">
-              <h5><a href="/funding/">Open funding
-                  opportunities{{ if ne $funding_opportunities 0}} ({{ $funding_opportunities }}){{ end }} <i
-                    class="bi bi-arrow-right-circle-fill"></i></a></h5>
-            </div>
+          {{ $funding_opportunities := 0 }}
+          {{ range $.Site.Data.funding.calls }}
+          {{ if gt (.submission_deadline | time.Format "20060102") (now | time.Format "20060102") }}
+          {{ $funding_opportunities = add $funding_opportunities 1}}
+          {{ end }}
+          {{ end }}
+          <div class="row">
+            <h5><a href="/funding/">Open funding
+                opportunities{{ if ne $funding_opportunities 0}} ({{ $funding_opportunities }}){{ end }} <i
+                  class="bi bi-arrow-right-circle-fill"></i></a></h5>
+          </div>
           {{ end }}
         </div>
       </div>

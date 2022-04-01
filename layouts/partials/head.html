@@ -33,7 +33,7 @@
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
-  {{ if or (eq .Section "research_projects") (eq .Section "funding") (eq .Section "publications") (eq .Section "dashboards") (eq .Section "voc")}}
+  {{ if or (eq .Section "data_types") (eq .Section "research_projects") (eq .Section "funding") (eq .Section "publications") (eq .Section "dashboards") (eq .Section "voc")}}
   <!-- Data tables CSS -->
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
   {{ end }}

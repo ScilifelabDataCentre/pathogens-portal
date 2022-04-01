@@ -1330,47 +1330,6 @@
   },
   {
     "topic": ["COVID-19","Infectious diseases"],
-    "funder": "Hjärt-Lungfonden",
-    "project_title": "Fysiskt aktivitetsmönster och kondition samt förändring av dessa betydelse för primär- och sekundärprevention av kardiovaskulär sjukdom samt vid COVID-19",
-    "pi": "Elin Ekblom Bak",
-    "pi_affiliation": "The Swedish School of Sports and Health Sciences",
-    "startdate": "2021-01-01",
-    "enddate": "2023-12-31",
-    "url": "https://www.vr.se/swecris.html#/project/20200564_HLF",
-    "register_based": "true"
-  },
-  {
-    "topic": ["COVID-19","Infectious diseases"],
-    "funder": "Hjärt-Lungfonden",
-    "project_title": "Ventilator induced lung injury: translational and clinical studies",
-    "pi": "Gaetano Perchiazzi",
-    "pi_affiliation": "Uppsala University",
-    "startdate": "2021-01-01",
-    "enddate": "2023-12-31",
-    "url": "https://www.vr.se/swecris.html#/project/20200825_HLF"
-  },
-  {
-    "topic": ["COVID-19","Infectious diseases"],
-    "funder": "Hjärt-Lungfonden",
-    "project_title": "Coronary microvascular dysfunction - a unifying pathophysiological mechanism of non-obstructive myocardial ischemia?9",
-    "pi": "Jannike Nickander",
-    "pi_affiliation": "Karolinska Institute",
-    "startdate": "2021-01-01",
-    "enddate": "2023-12-31",
-    "url": "https://www.vr.se/swecris.html#/project/20200879_HLF"
-  },
-  {
-    "topic": ["COVID-19","Infectious diseases"],
-    "funder": "Hjärt-Lungfonden",
-    "project_title": "Activation of regenerative pathways by exercise training in patients with chronic obstructive pulmonary disease",
-    "pi": "Gunilla Westergren Thorsson",
-    "pi_affiliation": "Lund University",
-    "startdate": "2021-01-01",
-    "enddate": "2023-12-31",
-    "url": "https://www.vr.se/swecris.html#/project/20210004_HLF"
-  },
-  {
-    "topic": ["COVID-19","Infectious diseases"],
     "funder": "AFA-försäkring",
     "project_title": "Rehabiliteringsprofil hos post covid-19",
     "pi": "Yvonne Freund-Levi",
@@ -2297,6 +2256,716 @@
     "startdate": "2021-01-01",
     "enddate": "2024-12-31",
     "url": "https://www.vr.se/english/swecris.html#/project/2020-03631_VR"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Stockholm Chronic Obstructive Lung Disease Inflammation Cohort (SCOPIC)",
+    "pi": "Elin Ekblom Bak",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20200188_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Exergaming i hemmet- vårt nästa steg för förbättrad fysisk aktivitet hos hjärtsviktspatienter. En randomiserad multicenterstudie.",
+    "pi": "Tiny Jaarsma",
+    "startdate": "2021-01-01",
+    "enddate": "2023-12-31",
+    "funding": 1800000,
+    "url": "https://www.vr.se/swecris#/project/20200190_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Epidemiological studies of respiratory diseases",
+    "pi": "Kjell Torén",
+    "startdate": "2021-01-01",
+    "enddate": "2023-12-31",
+    "funding": 1200000,
+    "url": "https://www.vr.se/swecris#/project/20200230_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Biventrikulär pacemakerbehandling och annan devicebehandling vid hjärtsvikt",
+    "pi": "Cecilia Linde",
+    "startdate": "2021-01-01",
+    "enddate": "2023-12-31",
+    "funding": 3300000,
+    "url": "https://www.vr.se/swecris#/project/20200290_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Kan låg följsamhet till behandlingsriktlinjer och genomgången COVID-19-infektion prediktera försämrad prognos vid astma och KOL?  Ett projekt baserat på epidemiologiska studier och registerdata",
+    "pi": "Caroline Stridsman",
+    "startdate": "2021-01-01",
+    "enddate": "2023-12-31",
+    "funding": 1200000,
+    "url": "https://www.vr.se/swecris#/project/20200548_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Fysiskt aktivitetsmönster och kondition samt förändring av dessa  betydelse för primär- och sekundärprevention av kardiovaskulär sjukdom samt vid COVID-19",
+    "pi": "Elin Ekblom Bak",
+    "startdate": "2021-01-01",
+    "enddate": "2023-12-31",
+    "funding": 1200000,
+    "url": "https://www.vr.se/swecris#/project/20200564_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Molekylära och bildgivande tekniker för kardiovaskulär riskbedömning",
+    "pi": "Kenneth Caidahl",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20200627_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Disarming exorbitant neutrophil responses using aerosolized Dnase I/Pulmozyme in COVID-19 associated acute respiratory distress syndrome; a phase-II trial.",
+    "pi": "Adam Linder",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20200714_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Genetisk benägenhet för svår covid-19",
+    "pi": "Magnus Nordenskjöld",
+    "startdate": "2021-01-01",
+    "enddate": "2022-12-31",
+    "funding": 800000,
+    "url": "https://www.vr.se/swecris#/project/20200733_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Exploring immunologic and genetic factors in COVID-19 with relevance for respiratory disease; a new BAMSE follow-up",
+    "pi": "Erik Melén",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 500000,
+    "url": "https://www.vr.se/swecris#/project/20200803_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Mechanistic and therapeutic studies of the innate immune response in human subjects with COVID-19",
+    "pi": "Bo Nilsson",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 500000,
+    "url": "https://www.vr.se/swecris#/project/20200822_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Ventilator induced lung injury: translational and clinical studies",
+    "pi": "Gaetano Perchiazzi",
+    "startdate": "2021-01-01",
+    "enddate": "2023-12-31",
+    "funding": 1500000,
+    "url": "https://www.vr.se/swecris#/project/20200825_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Ventilator induced lung injury: translational and clinical studies",
+    "pi": "Gaetano Perchiazzi",
+    "startdate": "2021-01-01",
+    "enddate": "2022-12-31",
+    "funding": 840000,
+    "url": "https://www.vr.se/swecris#/project/20200877_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Coronary microvascular dysfunction  a unifying pathophysiological mechanism of non-obstructive myocardial ischemia?",
+    "pi": "Jannike Nickander",
+    "startdate": "2021-01-01",
+    "enddate": "2022-12-31",
+    "funding": 414000,
+    "url": "https://www.vr.se/swecris#/project/20200879_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Activation of regenerative pathways by exercise training in patients with chronic obstructive pulmonary disease",
+    "pi": "Gunilla Westergren-Thorsson",
+    "startdate": "2021-01-01",
+    "enddate": "2023-12-31",
+    "funding": 15000000,
+    "url": "https://www.vr.se/swecris#/project/20210004_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Immunoinflammation och fibros hos patienter som har pågående eller genomgången svår COVID-19 studerad med positron-emissionstomografi",
+    "pi": "Miklós Lipcsey",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20210012_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Long-term sequele after mild SARS-CoV-2 infection",
+    "pi": "Charlotte Thålin",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20210017_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Kan vi bota långvariga besvär efter COVID-19 med hyperbar oxygen (HBO): En randomiserad placebokontrollerad läkemedelsprövning.",
+    "pi": "Peter Lindholm",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20210021_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Rehabilitation of patients with long-covid-19  - development and evaluation of specific tailored interventions",
+    "pi": "Malin Nygren-Bonnier",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20210024_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Uppföljning av patienter med långtidseffekter av Covid-19 (LångCovid)",
+    "pi": "Judith Catherine Bruchfeld",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 800000,
+    "url": "https://www.vr.se/swecris#/project/20210029_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Risk, insjuknande och komplikationer av COVID-19 hos hjärt-kärl- och lungsjuka longitudinell nationell registerstudie med regelbunden datauppdatering",
+    "pi": "Fredrik Nyberg",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20210030_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Akut lungskada, lungfibros, biomarkörer och cerebral trötthet i sviterna efter svår covid19 - långtidsuppföljning och rehabilitering. SWECRITcovid-19.",
+    "pi": "Hans Friberg",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 600000,
+    "url": "https://www.vr.se/swecris#/project/20210040_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "COVID-19 och sena komplikationer i hjärta-kärl och lungor i relation till tidigare kardiovaskulära riskfaktorer och socioekonomi",
+    "pi": "Maria Åberg",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 500000,
+    "url": "https://www.vr.se/swecris#/project/20210048_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Hyaluronan vid Covid-19  betydelse för sjukdomens svårighetsgrad, prognos och framtida behandlingsformer",
+    "pi": "Anders Blomberg",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 600000,
+    "url": "https://www.vr.se/swecris#/project/20210049_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Loss of chromosome Y (LOY) in low density neutrophils may predispose to severe course of covid-19 in males; consequences of LOY for the immune system",
+    "pi": "Jan Dumanski",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 500000,
+    "url": "https://www.vr.se/swecris#/project/20210051_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Hem-monitorering och molekylär fenotypning av patienter med långtids-COVID för subgruppering samt uppföljning av interventioner",
+    "pi": "Åsa Wheelock",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 500000,
+    "url": "https://www.vr.se/swecris#/project/20210053_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Vaken buklägesbehandling för att reducera intubationsfrekvens, mortalitet och långtidseffekter vid Covid-19.",
+    "pi": "Peter Frykholm",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20210061_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "The importance of microvascular endothelial dysfunction for acute and long-term complications of COVID-19: clinical and mechanistic insights",
+    "pi": "John Pernow",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 800000,
+    "url": "https://www.vr.se/swecris#/project/20210062_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Epigenetic alterations in response to Covid-19 infection correlation with severity, age, long-term effects and mycobacterial exposure",
+    "pi": "Maria Lerm",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 500000,
+    "url": "https://www.vr.se/swecris#/project/20210067_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Kartläggning av immunologiska faktorer i blod och lunga kopplat till långtids-Covid",
+    "pi": "Marcus Buggert",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20210068_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Targeting long-term cardiopulmonary complications of Covid-19 with dietary nitrate",
+    "pi": "Eddie Weitzberg",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20210070_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Prothrombotic and vascular derived plasma biomarkers for COVID-19 patient stratification - from cohorts to clinic",
+    "pi": "Jacob Odeberg",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20210071_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "COVID-19 i Västsverige: långtidsuppföljning av hjärt- och lunghälsa med kliniska undersökningar och via register",
+    "pi": "Hannu Kankaanranta",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20210073_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Long-Haul Post-COVID-19 Symptoms Presenting as Postural Orthostatic Tachycardia Syndrome and Other Cardiovascular Dysautonomias",
+    "pi": "Artur Fedorowski",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 800000,
+    "url": "https://www.vr.se/swecris#/project/20210074_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Pathogenesis of COVID-19  what mediates progress from mild to severe disease?",
+    "pi": "Clas Ahlm",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20210078_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Myeloid-derived suppressor cells as predictors for severe COVID-19 - longitudinal studies of respiratory and systemic immune responses to SARS-CoV-2 across disease severity",
+    "pi": "Anna Smed-Sörensen",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 800000,
+    "url": "https://www.vr.se/swecris#/project/20210085_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Identifying early signs of permanent lung damage in COVID-19 patients",
+    "pi": "Gunilla Westergren-Thorsson",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20210086_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Ärftlig risk för lungemboli vid COVID-19",
+    "pi": "Michael Hultström",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20210089_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Development of diagnostics characterizing autoantibodies in long COVID cardiovascular dysautonomia",
+    "pi": "Jan Nilsson",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 800000,
+    "url": "https://www.vr.se/swecris#/project/20210093_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Therapeutically targetable pathophysiological changes in the lungs and hearts of Covid-19 victims and post-Covid patients identified by BSL3 autopsies",
+    "pi": "Laszlo Szekely",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 600000,
+    "url": "https://www.vr.se/swecris#/project/20210102_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Predicting pulmonary fibrosis and ventilation-perfusion mismatch in Covid-19 patients by CT and MR image analysis",
+    "pi": "Magnus Sköld",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 600000,
+    "url": "https://www.vr.se/swecris#/project/20210114_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Trombocytens roll för trombosbildning och koagulationrubbning vid Covid-19",
+    "pi": "Petter Höglund",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20210116_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Långtidseffekter av covid-19 på lung- och hjärtfunktion  en nationell och multicenterstudie",
+    "pi": "Andrei Malinovschi",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 800000,
+    "url": "https://www.vr.se/swecris#/project/20210120_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Exposure to airway irritants and the risk of permanent of respiratory impairment after Covid-19",
+    "pi": "Anna-Carin Olin",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20210128_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Kartläggning av immunologiska sjukdomsmekanismer vid COVID-19",
+    "pi": "Jonas Erjefält",
+    "startdate": "2021-01-01",
+    "enddate": "2021-12-31",
+    "funding": 500000,
+    "url": "https://www.vr.se/swecris#/project/20210136_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Understanding respiratory and systemic immune responses during COVID-19 - Implications for prediction of disease severity",
+    "pi": "Anna Smed-Sörensen",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20200234_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Seroprevalence of SARS-CoV-2 and predictors of COVID-19 by disease severity in two areas of Sweden",
+    "pi": "",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20200236_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Vilket T cells svar får patienter med allvarlig COVID-19?  - betydelse för korrekt omhändertagande och vaccin-utveckling",
+    "pi": "Kristian Riesbeck",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20200245_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "COVID-19 RELATED MYOCARDIAL INJURY: An in-depth, translational evaluation of underlying causes",
+    "pi": "Björn Redfors",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20200253_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Coronavirus (COVID-19) inverkan på incidens, karaktäristika och utfall vid hjärtstopp",
+    "pi": "Araz Rawshani",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20200261_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "BGP-15 treatment in mechanically ventilated covid-19 patients",
+    "pi": "Lars Larsson",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20200285_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "The impact of inflammation and thromboembolism on the myocardium in covid 19 - advanced myocardial tissue characterization using state-of-the-art cardiac imaging",
+    "pi": "Henrik Engblom",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20200287_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Uppföljning av patienter med svår Covid19 pneumoni",
+    "pi": "Judith Catherine Bruchfeld",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 500000,
+    "url": "https://www.vr.se/swecris#/project/20200291_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Faktorer som påverkar allvarligt sjukdomsförlopp och död vid COVID-19  En registerbaserad studie om astma och kroniskt obstruktiv lungsjukdom (KOL)",
+    "pi": "Caroline Stridsman",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 500000,
+    "url": "https://www.vr.se/swecris#/project/20200308_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Epigenetic alterations in immune cells isolated from subjects with a history of Covid-19    -is mild disease linked to trained immunity?",
+    "pi": "Maria Lerm",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 250000,
+    "url": "https://www.vr.se/swecris#/project/20200319_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Pathogenesis of COVID-19  what mediates progress from mild to severe disease",
+    "pi": "Clas Ahlm",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20200325_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Identifying early signs of permanent lung damage in COVID-19 patients",
+    "pi": "Gunilla Westergren-Thorsson",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 250000,
+    "url": "https://www.vr.se/swecris#/project/20200330_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Using human genetics to understand the COVID-19 pandemic",
+    "pi": "Stefano Romeo",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 300000,
+    "url": "https://www.vr.se/swecris#/project/20200331_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Hyaluronan - en potentiell orsak till ventilationssvikt vid dödsfall i Covid-19?",
+    "pi": "Anders Blomberg",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 300000,
+    "url": "https://www.vr.se/swecris#/project/20200366_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Microbial and host responses in the respiratory tract of covid-19 patients as a basis for optimal treatment",
+    "pi": "Birgitta Henriques Normark",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 300000,
+    "url": "https://www.vr.se/swecris#/project/20200371_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Genetic predisposition for severe covid-19",
+    "pi": "Magnus Nordenskjöld",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 250000,
+    "url": "https://www.vr.se/swecris#/project/20200372_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Coronavirus disease prevention with renin-angiotensin-aldosterone system inhibitors (VIRAAS)",
+    "pi": "Johan Sundström",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20200381_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "From bench to bedside: Establishment of a complex primary lung cell model to study SARS-CoV-2 disease intervention and validate a novel treatment for Covid-19 in a cell model and patients.",
+    "pi": "Anna Överby Wernstedt",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 300000,
+    "url": "https://www.vr.se/swecris#/project/20200385_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "The role of the complement, contact and coagulation systems network in COVID-19",
+    "pi": "Bo Nilsson",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 300000,
+    "url": "https://www.vr.se/swecris#/project/20200398_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Kliniskt mätbara immunologiska parametrar för att förutsäga lungskada och skydd från reinfektion av Covid-19",
+    "pi": "Mats Bemark",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 250000,
+    "url": "https://www.vr.se/swecris#/project/20200411_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Utfall hos patienter med covid-19 behandlade med extrakorporeal membranoxygenering (ECMO)",
+    "pi": "Magnus Dalén",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 200000,
+    "url": "https://www.vr.se/swecris#/project/20200412_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "HALT Covid-19-studien: Inhalation av Ciklesonid mot SARS-coronavirus-2 orsakad lunginflammation: En randomiserad oblindad behandlingsstudie.",
+    "pi": "Daniel Andersson",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 300000,
+    "url": "https://www.vr.se/swecris#/project/20200421_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Ett exosombaserat vaccin mot SARS-CoV-2",
+    "pi": "Jan Lötvall",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 250000,
+    "url": "https://www.vr.se/swecris#/project/20200434_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Ökar alfa-1 antitrypsinbrist risken för svår sjukdom eller att avlida i Covid-19?",
+    "pi": "Maria Thunander",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20200467_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Identifiering av inflammatoriska och immunologiska mekanismer som orsakar lungsvikt vid svår COVID-19",
+    "pi": "Jonas Erjefält",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20200489_HLF"
+  },
+  {
+    "topic": ["COVID-19","Infectious diseases"],
+    "funder": "Hjärt-Lungfonden",
+    "project_title": "Hjärt-lung-riskfaktorer och allvarlig Covid-19: analys av en populationsbaserad kohort med 30 000 deltagare (SCAPIS)",
+    "pi": "Peter Ueda",
+    "startdate": "2020-01-01",
+    "enddate": "2020-12-31",
+    "funding": 400000,
+    "url": "https://www.vr.se/swecris#/project/20200491_HLF"
   }
 ]
 }
