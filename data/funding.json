@@ -1,6 +1,18 @@
 {
-  "last_updated": "2022-03-22",
+  "last_updated": "2022-04-07",
   "calls": [
+    {
+      "topic": ["COVID-19"],
+      "funder": "NordForsk",
+      "call_title": "Societal Security Beyond COVID-19",
+      "submission_deadline": "2022-06-08",
+      "call_url": "https://funding.nordforsk.org/portal/#call/2625/details",
+      "call_description": "Projects in this call can address the medium to long-term effects for individuals and groups, for Nordic societies, and for the Nordic community, of the COVID-19 pandemic within the thematic framework of the call. Emphasis is placed on linking research and practice, and the involvement of various types of end users is encouraged to help strengthen the knowledge base for practice and for research-informed policy. The overarching theme of the call is to explore the medium to long-term consequences beyond the COVID-19 pandemic as they relate to societal security and the notion of a Nordic community, and how the Nordic countries can evolve together – or not together – for the future.",
+      "applicant": "Individual researcher",
+      "funding_period": "3–4 years",
+      "funding_amount": "Maximum  9 000 000 NOK",
+      "decision_date": "Late 2022"
+    },
     {
     "topic": ["General"],
     "funder": "SciLifeLab",

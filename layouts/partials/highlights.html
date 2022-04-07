@@ -1,10 +1,9 @@
 <div class="container mt-3">
   <div class="row">
-  {{ $third_element := 2 }}
-  {{ $total_items := len .RegularPages}}
-  {{ $mod := mod $total_items 3 }}
-  {{ $full_rows := first (sub $total_items $mod) .RegularPages }}
-  {{ range $index, $content := $full_rows }}
+  {{ $ncol := 3 }}
+  {{ $third_element := sub $ncol 1 }}
+  {{ $mod := mod (len .RegularPages) $ncol }}
+  {{ range $index, $content := .RegularPages }}
       <div class="col-md mx-2 mb-2 border bg-light">
           <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
           {{ range (.GetTerms "highlights_topics") }}
@@ -21,47 +20,15 @@
       </div>
       {{ if eq $index $third_element }}
       <div class="w-100"></div>
-      {{ $third_element = add $third_element 3 }}
+      {{ $third_element = add $third_element $ncol }}
       {{ end }}
   {{ end }}
 
-  {{ if eq $mod 1}}
-      {{ range last $mod .RegularPages }}
-      <div class="col-md mx-2 mb-2 border bg-light">
-          <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
-          {{ range (.GetTerms "highlights_topics") }}
-              <span class="topic_badge_small
-              {{ if eq .LinkTitle "COVID-19"}}topic_badge_covid
-              {{ else if eq .LinkTitle "Infectious diseases"}}topic_badge_infectious_d
-              {{ else if eq .LinkTitle "Antibiotic resistance"}}topic_badge_antib_r
-              {{ else }}topic_badge_general
-              {{ end }} "><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
-          {{ end }}
-          <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
-          <p class="small text-muted">{{.Date.Format "2006-01-02"}}</p>
-          <p> {{ .Summary }} <br><a href="{{ .RelPermalink }}">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).readmore_text }} <i class="bi bi-arrow-right-circle-fill"></i></a></p>
-      </div>
+  <!-- Adding empty boxes for consistent alignment -->
+  {{ if ne $mod 0 }}
+      {{ range seq (sub $ncol $mod) }}
+          <div class="col-md mx-2 mb-2"></div>
       {{ end }}
-      <div class="col-md mx-2 mb-2"></div>
-      <div class="col-md mx-2 mb-2"></div>
-  {{ else if eq $mod 2}}
-      {{ range last $mod .RegularPages }}
-      <div class="col-md mx-2 mb-2 border bg-light">
-          <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
-          {{ range (.GetTerms "highlights_topics") }}
-              <span class="topic_badge_small
-              {{ if eq .LinkTitle "COVID-19"}}topic_badge_covid
-              {{ else if eq .LinkTitle "Infectious diseases"}}topic_badge_infectious_d
-              {{ else if eq .LinkTitle "Antibiotic resistance"}}topic_badge_antib_r
-              {{ else }}topic_badge_general
-              {{ end }} "><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
-          {{ end }}
-          <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
-          <p class="small text-muted">{{.Date.Format "2006-01-02"}}</p>
-          <p> {{ .Summary }} <br><a href="{{ .RelPermalink }}">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).readmore_text }} <i class="bi bi-arrow-right-circle-fill"></i></a></p>
-      </div>
-      {{ end }}
-      <div class="col-md mx-2 mb-2"></div>
   {{ end }}
 
   </div>

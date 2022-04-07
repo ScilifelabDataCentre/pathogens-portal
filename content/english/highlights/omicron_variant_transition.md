@@ -6,6 +6,7 @@ banner: /highlights/banners/omicron_variant_transition.png
 banner_large: /highlights/banners/omicron_variant_transition_large.png
 banner_caption: Fig 2. Omicron BA.1/BA.2 lineage transition and viral load in Swedish COVID-19 cases, from Lentini et al. (2022)
 highlights_topics: [COVID-19, Infectious diseases]
+highlights_vocs: [Omicron]
 ---
 
 Since the start of the COVID-19 pandemic, multiple SARS-CoV-2 variants have emerged in different parts of the world. [The European Centre for Disease Control](https://www.ecdc.europa.eu/en) (EDCD) classified several of them as Alpha (B.1.1.7), Beta (B.1.351), Gamma (P.1), Delta ( B.617.2), and Omicron (BA.1 and B.1.1.529) as *variants of concern* (VOC). The three major waves that have swept across the world have been associated with different VOCs; with Alpha causing the wave in early 2020, Delta in mid 2021, and Omicron from late 2021 to early 2022. Omicron was first detected in South Africa and Botswana in November 2021. WHO declared it to be a VOC later that same month and, by early December 2021, it had already spread to over 50 countries. By mid-January 2022, over 50 million infections were detected worldwide daily.
