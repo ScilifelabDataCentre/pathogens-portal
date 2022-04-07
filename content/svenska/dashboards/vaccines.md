@@ -127,6 +127,8 @@ We constructed the below heatmap to show how the relative numbers of people vacc
 
 Data is available for individuals born in or before 2009 (i.e. at least 12-13 years old) for the first and second vaccine doses (available in the 'Vaccinerade ålder' tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)), and for people born in or before 2003 (i.e. at least 18-19 years old) for the third dose (available in the 'Dos 3 per åldersgrupp' tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)). For the fourth dose, data is only available for those born in or before 1956 (i.e. at least 65-66 years old) available in the 'Dos 4 per åldersgrupp' tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)). This means that data is not available for all age groups for each dose, and this is reflected in the plot. In this case, we have not performed any recalculation of the data, so the numbers are the same as those provided by FoHM (i.e. all values were calculated using the 'eligible population method').
 
+Please note, data has not been added for 65-79 year olds for the fourth dose because data is not available in equivalent categories.
+
 **Note about the heatmap:** A white colouration indicates that no data is available for that age group.
 
 <div class="plot_wrapper mb-3">
