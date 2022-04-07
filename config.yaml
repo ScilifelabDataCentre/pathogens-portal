@@ -109,5 +109,7 @@ caches:
 
 taxonomies:
   highlights_topic: highlights_topics
+  highlights_voc: highlights_vocs
 permalinks:
   highlights_topics: "/highlights/topics/:slug/"
+  highlights_vocs: "/highlights/vocs/:slug/"
