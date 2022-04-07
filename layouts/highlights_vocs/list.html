@@ -1,0 +1,11 @@
+{{ define "main" }}
+
+{{ with .Site.GetPage "/highlights" }}{{ .Content }}{{ end }}
+
+{{ if eq $.Site.Language.LanguageName "English" }}
+<h3>VOC: {{ .Title }}</h3>
+
+{{- partial "highlights.html" . -}}
+{{ end }}
+
+{{ end }}
