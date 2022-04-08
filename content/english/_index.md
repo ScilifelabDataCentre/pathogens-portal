@@ -11,4 +11,4 @@ teststats:
 plotly: true
 ---
 
-The Swedish COVID-19 Data Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing. The portal is a national node of the [European COVID-19 Data Portal](https://covid19dataportal.org). The portal is operated by the [SciLifeLab Data Centre](https://scilifelab.se/data/) and partners. Suggestions, corrections, and other comments are [most welcome](/contact/).
+The *Swedish COVID-19 & Pandemic Preparedness Data Portal* provides information about available datasets, resources, and services to support researchers working on topics relevant to pandemic preparedness in all Swedish research institutions. The portal is operated by the [SciLifeLab Data Centre](https://scilifelab.se/data/) and partners. Contributions from the community are [most welcome](/contribute/).
