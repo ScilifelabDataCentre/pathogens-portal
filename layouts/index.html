@@ -77,7 +77,10 @@
       {{ end }}
       <div class="row">
         <div class="row">
-          {{ $data_types_menu := .Site.Menus.horizontal | append .Site.Menus.other_data}}
+
+          {{/* This used to be range over all available data pages, need to bring back */}}
+
+          {{ $data_types_menu := .Site.Menus.data_menu }}
           {{ range $data_types_menu }}
           <div class="col-md-4">
             <h5><a href="{{ .Page.RelPermalink }}">

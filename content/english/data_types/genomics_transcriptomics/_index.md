@@ -1,10 +1,5 @@
 ---
 title: Genomics & transcriptomics
-menu:
-    main:
-        identifier: genomics_transcriptomics
-        parent: data_types
-        weight: 10
 ---
 
 Genomics and transcriptomics refers to the study of DNA and RNA, typically using High-throughput sequencing.

@@ -6,15 +6,6 @@ menu:
         name: Imaging data
         weight: 40
         parent: available_datasets
-    main:
-        name: Published data
-        identifier: imaging_data_data
-        parent: imaging_data
-        weight: 10
-    horizontal:
-        name: Imaging
-        identifier: imaging_data
-        weight: 30
 type: data_table
 datatypes_to_display:
 - "Category: Imaging"

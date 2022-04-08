@@ -1,11 +1,5 @@
 ---
 title: Services
-menu:
-    main:
-        name: Services for researchers
-        identifier: protein_data_services
-        parent: protein_data
-        weight: 30
 ---
 
 Protein analysis can be conducted using different types of methodologies and across different types of samples. A brief description of technologies using affinity proteomics or mass spectrometry is listed below:

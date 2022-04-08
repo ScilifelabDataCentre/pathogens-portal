@@ -1,10 +1,5 @@
 ---
 title: Data management
-menu:
-    main:
-        identifier: data_management
-        parent: support_services
-        weight: 20
 ---
 
 [SciLifeLab](https://www.scilifelab.se) and [NBIS](http://www.nbis.se/) can support you with data management planning early on in the project to make data sharing more efficient.

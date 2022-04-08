@@ -1,10 +1,5 @@
 ---
 title: Text and literature
-menu:
-    main:
-        identifier: text_and_literature
-        parent: support_services
-        weight: 40
 ---
 
 For central COVID-19 hubs of text and literature, please see:

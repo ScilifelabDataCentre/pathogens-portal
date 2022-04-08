@@ -5,9 +5,6 @@ menu:
         identifier: biobanks
         name: Sample collection database
         weight: 40
-    footer_sections:
-        name: Sample Collections
-        weight: 10
     homepage_biobanks:
         name: Sample Collection Database
         identifier: biobanks

@@ -6,10 +6,6 @@ menu:
         name: Public Health data
         weight: 90
         parent: available_datasets
-    other_data:
-        name: Public Health
-        identifier: public_health
-        weight: 40
 type: data_table
 datatypes_to_display:
 - "Category: Public Health"

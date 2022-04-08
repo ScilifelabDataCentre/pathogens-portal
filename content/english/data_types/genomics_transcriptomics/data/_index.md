@@ -6,15 +6,6 @@ menu:
         name: Genomics & transcriptomics data
         weight: 20
         parent: available_datasets
-    main:
-        name: Published data
-        identifier: genomics_transcriptomics_data
-        parent: genomics_transcriptomics
-        weight: 10
-    horizontal:
-        name: Genomics
-        identifier: genomics_transcriptomics_data
-        weight: 10
 type: data_table
 datatypes_to_display:
 - "Category: Genomics & transcriptomics"

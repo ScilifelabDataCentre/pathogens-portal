@@ -1,10 +1,5 @@
 ---
 title: National Health Metadata Repository - RUT
-menu:
-    main:
-        identifier: rut
-        parent: health_data
-        weight: 10
 ---
 
 The Swedish Research Council has set up a single national entry point,

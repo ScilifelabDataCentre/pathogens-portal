@@ -5,10 +5,6 @@ menu:
     top_actions:
         weight: 40
         pre: <i class="bi bi-server mr-2"></i>
-    main:
-        identifier: submit_data
-        parent: support_services
-        weight: 50
 aliases:
   - /data_types/genomics_transcriptomics/guidelines/
   - /data_types/compound_and_target_data/guidelines/

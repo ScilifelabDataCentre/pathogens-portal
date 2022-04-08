@@ -1,11 +1,5 @@
 ---
 title: Bioinformatik och datahantering
-menu:
-    main:
-        name: Bioinformatik
-        identifier: bioinformatics
-        parent: support_services
-        weight: 10
 ---
 
 ![NBIS Logo](/img/logos/nbislogo-orange-txt.svg#floatright)

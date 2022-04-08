@@ -6,10 +6,6 @@ menu:
         name: Other data types
         weight: 110
         parent: available_datasets
-    other_data:
-        name: Other data
-        identifier: other_data
-        weight: 90
 type: data_table
 datatypes_to_display:
 - "Category: Other"

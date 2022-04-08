@@ -6,9 +6,6 @@ menu:
         name: Ongoing research projects
         identifier: ongoing_projects
         weight: 10
-    footer_sections:
-        name: Ongoing research projects
-        weight: 30
 aliases:
         - /projects/
         - /sv/projects/

@@ -6,15 +6,6 @@ menu:
         name: Biochemistry data
         weight: 50
         parent: available_datasets
-    main:
-        name: Published data
-        identifier: compound_and_target_data_data
-        parent: compound_and_target_data
-        weight: 10
-    horizontal:
-        name: Biochemistry
-        identifier: compound_and_target_data_data
-        weight: 40
 type: data_table
 datatypes_to_display:
 - "Category: Biochemistry"
