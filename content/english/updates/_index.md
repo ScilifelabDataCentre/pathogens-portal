@@ -9,4 +9,4 @@ menu:
         name: Portal updates
         weight: 90
 ---
-In this section, you can find information about new functionality and other updates on the Swedish COVID-19 Data Portal.
+In this section, you can find information about new functionality and other updates on the Swedish COVID-19 & Pandemic Preparedness Data Portal.
