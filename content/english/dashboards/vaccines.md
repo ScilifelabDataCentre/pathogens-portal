@@ -79,7 +79,7 @@ We have presented the data for the whole of Sweden as a percentage of the Swedis
 **Note on the graph:** Click on the coloured squares in the legend of the below graph to toggle which datasets are displayed. A single click will toggle just the dataset that you clicked on. A double-click on a colour will cause the map to display ONLY the dataset clicked on.
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/FOURvaccine_timeseries_pop_barchart.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/vaccine_timeseries_pop_barchart.json" height="500px" >}}</div>
 </div>
 
 ### Administration of vaccinations in each county (län)
