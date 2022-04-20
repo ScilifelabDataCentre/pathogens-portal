@@ -69,6 +69,14 @@ In this dashboard, you can find visualisations of data related to Post COVID-19 
 
 <hr>
 
+<h4><a href="/voc/">SARS-CoV-2 Variants of Concern (VoC) <i class="bi bi-arrow-right-circle-fill"></i></a></h4>
+
+In this section of the Portal we gathered information about various Variants of Concern (VoC) in general and we also have a <a href="/voc/omicron/">special page dedicated to Omicron VoC</a> - tracking available data, ongoing research efforts, initial findings, among other things related to Omicron VoC. The page dedicated to Omicron VoC has now been archived.
+
+<a href="/voc/">See the full dashboard <i class="bi bi-arrow-right-circle-fill"></i></a>
+
+<hr>
+
 <h4>Partner dashboard: <a href="crush_covid/">CRUSH Covid <i class="bi bi-arrow-right-circle-fill"></i></a></h4>
 
 CRUSH Covid maps outbreaks in Uppsala County by visualizing the number of cases, test positivity, geographic distribution, age distribution, etc. Data on positivity per postal code is available for download and further re-use.

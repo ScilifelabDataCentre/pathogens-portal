@@ -1,10 +1,5 @@
 {{ define "main" }}
 
-{{ if .Params.needs_translation }} <div class="alert alert-info">
-  <i class="bi bi-exclamation-triangle-fill"></i>
-  Svensk översättning kommer inom kort.
-</div> {{ end }}
-
 <h2>{{ if .Params.title_full }}{{ .Params.title_full }}{{ else }}{{ .Title}}{{ end }}</h2>
 <p class="text-muted">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).published_text }}: {{ .Date.Format "2006-01-02"}}</p>
 
@@ -15,28 +10,7 @@
 
 {{ .Content }}
 
-<div class="containerborder">
-  <hr>
-  <div class="row mt-3">
-    <div class="col mx-0 text-left">
-      {{ if .NextInSection }}<a href="{{ .NextInSection.RelPermalink }}"><i class="bi bi-arrow-left-circle-fill"></i> {{ (index $.Site.Params.lang_strings .Site.Language.Lang).next_highlight }} </a>{{ end }}
-    </div>
-    <div class="col text-center">
-      <a href="{{ .Parent.Permalink }}">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).all_updates }} </a>
-    </div>  <div class="col text-right">
-      {{ if .PrevInSection }}<a href="{{ .PrevInSection.RelPermalink }}">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).previous_highlight }} <i class="bi bi-arrow-right-circle-fill"></i></a>{{ end }}
-    </div>
-  </div>
-  <div class="row">
-    <div class="col text-left">
-      {{ if .NextInSection }}{{ .NextInSection.Title }}{{ end }}
-    </div>
-    <div class="col">    </div>
-    <div class="col text-right">
-      {{ if .PrevInSection }}{{ .PrevInSection.Title }}{{ end }}
-    </div>
-  </div>
-  <hr>
-</div>
+<hr>
+<h5><a href="{{ .Parent.RelPermalink }}"><i class="bi bi-arrow-left-circle-fill"></i> Back to all Portal news</a></h5>
 
 {{ end }}

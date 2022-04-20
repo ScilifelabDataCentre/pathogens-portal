@@ -14,7 +14,11 @@ aliases:
   </li>
 </ul></div></div>
 
-On this page we have compiled current knowledge on Omicron, the latest SARS-CoV-2 variant to be designated as a Variant of Concern (VOC). This includes availble data, ongoing research efforts, initial findings, among other things related to Omicron. Please see [this page for information on other VOCs](../).
+<div class="alert alert-info">
+  <i class="bi bi-exclamation-triangle-fill"></i> February 2022: We have stopped tracking updates related to Omicron VoC. This page will stay available as an archive. <i>NB: Some sections on this page that fetch automatically information from other sections of the Portal will continue to update.</i>
+</div>
+
+On this page we have compiled current knowledge on Omicron, the latest SARS-CoV-2 variant to be designated as a Variant of Concern (VOC). This includes available data, ongoing research efforts, initial findings, among other things related to Omicron. Please see [this page for information on other VOCs](../).
 
 We make all possible efforts to track preprints, publications, and other resources related to Omicron and link them below. Researchers and organisations from around Sweden are also welcome to submit their datasets and to make relevant announcements on this page. If you feel like something is missing that should be included, or you wish to make a submission/announcement, please use the forms below or email us at datacentre@scilifelab.se. The team behind the COVID-19 Data Portal continuously monitors incoming suggestions, and new items are published as soon as possible.
 
