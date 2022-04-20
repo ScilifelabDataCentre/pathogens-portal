@@ -17,19 +17,21 @@ imjoy:
             const explorer = await api.loadPlugin({src: url});
             const elem  = document.getElementById("select_plate");
 
-            const plates = {p1: {ref: "27671955", target: "27671958", metadata: "33894767"},
-            p2: {ref: "27672693", target: "27672696", metadata: "33894767"},
-            p3: {ref: "27672879", target: "27672903", metadata: "33471329"},
-            p4: {ref: "27673344", target: "27673347", metadata: "33471326"},
-            p5: {ref: "27673614", target: "27673620", metadata: "33471323"},
-            p6: {ref: "27674610", target: "27686883", metadata: "33471320"},
-            p7: {ref: "27687051", target: "27687054", metadata: "33471317"}
+            const plates = {
+                p1: {ref: "27671955", target: "27671958", metadata: "33894767"},
+                p2: {ref: "27672693", target: "27672696", metadata: "33894767"},
+                p3: {ref: "27672879", target: "27672903", metadata: "33471329"},
+                p4: {ref: "27673344", target: "27673347", metadata: "33471326"},
+                p5: {ref: "27673614", target: "27673620", metadata: "33471323"},
+                p6: {ref: "27674610", target: "27686883", metadata: "33471320"},
+                p7: {ref: "27687051", target: "27687054", metadata: "33471317"}
             };
 
             const urlBase = "https://scilifelab.figshare.com/ndownloader/files/";
 
             elem.onchange = async function(){
               const plate = plates[elem.value];
+              document.getElementById('sars-cov-2-infection-explorer').innerHTML = `<h4>Initializing ImJoy plugin...</h4>`;
               await explorer.run({
                   config: {
                       window_id: 'sars-cov-2-infection-explorer',
