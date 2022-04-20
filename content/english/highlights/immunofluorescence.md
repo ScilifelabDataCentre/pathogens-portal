@@ -6,6 +6,15 @@ banner: /highlights/banners/immunofluorescence.png
 banner_large: /highlights/banners/immunofluorescence.png
 banner_caption: Part of Figure 2 from Kaimal, Tampere et al 2022; Representative images of proteins with reduced or increased intensity during SARS-CoV-2 infection. # change later
 highlights_topics: [COVID-19, Infectious diseases]
+imjoy:
+    config:
+        show_window_title: true
+        # menu_container: "menu-container"
+        menu_style: { float: 'right' }
+    startup: |
+        async function(){
+            await api.createWindow({src: 'https://raw.githubusercontent.com/imjoy-team/imjoy-plugins/master/repository/HPA-Classification.imjoy.html', window_id: 'sars-cov-2-infection-explorer', window_style: {height: '600px'}});
+        }
 ---
 
 Over the last two years, the COVID-19 pandemic has significantly affected people’s lives worldwide. Apart from vaccination to prevent COVID-19, there is a need to identify different treatment options for people already being infected and suffering from it. Further, general strategies for how to identify and develop effective drugs for any cause of possible future pandemics are needed.
@@ -33,6 +42,5 @@ The team has openly shared images ≈75,000 confocal images of SARS-CoV2 infecte
 
 > Cells had been infected with the virus for 1 h and fixed 24 hour post infection in 96 well plates. Using immunofluorescence (4 colours) cells were stained for the SARS-CoV2 virus (red), the endoplasmic reticulum (yellow) and nucleus (blue) – same for all images in the data set and used as reference markers. On top of this, 700 different target proteins were stained – one per well (green). Images were acquired with an Opera Phoenix microscope at 63X, using 9 FoV and 3 z-planes per protein target.
 
-#### Explore the images using tools X Y Z
-
-*[....]*
+#### Explore the images
+<div id="sars-cov-2-infection-explorer"></div>
