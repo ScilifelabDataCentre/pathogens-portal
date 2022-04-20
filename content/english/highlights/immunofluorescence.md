@@ -13,7 +13,20 @@ imjoy:
         menu_style: { float: 'right' }
     startup: |
         async function(){
-            await api.createWindow({src: 'https://raw.githubusercontent.com/imjoy-team/imjoy-plugins/master/repository/HPA-Classification.imjoy.html', window_id: 'sars-cov-2-infection-explorer', window_style: {height: '600px'}});
+            const url = `${window.location.origin}/imjoy-plugins/sars-cov-2-infection-explorer.imjoy.html`;
+            const explorer = await api.loadPlugin({src: url});
+
+            await explorer.run({
+                config: {
+                    window_id: 'sars-cov-2-infection-explorer', 
+                    window_style: {height: '600px'}
+                },
+                data: {
+                    ref: 'https://scilifelab.figshare.com/ndownloader/files/27671955',
+                    target: 'https://scilifelab.figshare.com/ndownloader/files/27671958',
+                    metadata: 'https://scilifelab.figshare.com/ndownloader/files/33894767'
+                }
+            });
         }
 ---
 
