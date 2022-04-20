@@ -42,5 +42,60 @@ The team has openly shared images ≈75,000 confocal images of SARS-CoV2 infecte
 
 > Cells had been infected with the virus for 1 h and fixed 24 hour post infection in 96 well plates. Using immunofluorescence (4 colours) cells were stained for the SARS-CoV2 virus (red), the endoplasmic reticulum (yellow) and nucleus (blue) – same for all images in the data set and used as reference markers. On top of this, 700 different target proteins were stained – one per well (green). Images were acquired with an Opera Phoenix microscope at 63X, using 9 FoV and 3 z-planes per protein target.
 
-#### Explore the images
+### Explore the images
+
+Below, you can explore the immunofluorescence images using the Vizarr plugin for ImJoy. You can select a plate to view and adjust viewing options.
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <select class="form-control" id="select_plate" onchange="change_plate()">
+        <option value="p1">Plate 1</option>
+        <option value="p2">Plate 2</option>
+        <option value="p3">Plate 3</option>
+        <option value="p4">Plate 4</option>
+        <option value="p5">Plate 5</option>
+        <option value="p6">Plate 6</option>
+        <option value="p7">Plate 7</option>
+      </select>
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div id="explorer">You selected: p1</div>
+  </div>
+</div>
+
+
+
+<!--
+plate 1 offsets: https://scilifelab.figshare.com/ndownloader/files/27671955
+plate 1 filenames: https://scilifelab.figshare.com/ndownloader/files/33894767
+plate 1: https://scilifelab.figshare.com/ndownloader/files/27671958
+plate 2 offsets: https://scilifelab.figshare.com/ndownloader/files/27672693
+plate 2 filenames: https://scilifelab.figshare.com/ndownloader/files/33471335
+plate 2: https://scilifelab.figshare.com/ndownloader/files/27672696
+plate 3 offsets: https://scilifelab.figshare.com/ndownloader/files/27672879
+plate 3 filenames: https://scilifelab.figshare.com/ndownloader/files/33471329
+plate 3: https://scilifelab.figshare.com/ndownloader/files/27672903
+plate 4 offsets: https://scilifelab.figshare.com/ndownloader/files/27673344
+plate 4 filenames: https://scilifelab.figshare.com/ndownloader/files/33471326
+plate 4: https://scilifelab.figshare.com/ndownloader/files/27673347
+plate 5 offsets: https://scilifelab.figshare.com/ndownloader/files/27673614
+plate 5 filenames: https://scilifelab.figshare.com/ndownloader/files/33471323
+plate 5: https://scilifelab.figshare.com/ndownloader/files/27673620
+plate 6 offsets: https://scilifelab.figshare.com/ndownloader/files/27674610
+plate 6 filenames: https://scilifelab.figshare.com/ndownloader/files/33471320
+plate 6: https://scilifelab.figshare.com/ndownloader/files/27686883
+plate 7 offsets: https://scilifelab.figshare.com/ndownloader/files/27687051
+plate 7 filenames: https://scilifelab.figshare.com/ndownloader/files/33471317
+plate 7: https://scilifelab.figshare.com/ndownloader/files/27687054
+-->
+
+<script>
+function change_plate() {
+  var x = document.getElementById("select_plate").value;
+  document.getElementById("explorer").innerHTML = "You selected: " + x;
+}
+</script>
+
 <div id="sars-cov-2-infection-explorer"></div>
