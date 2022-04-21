@@ -121,7 +121,6 @@ After concentration, filtering, and preparation, the samples are analyzed using 
 **How to cite:**
 Cetecioglu Z G, Williams, C, Khatami, K, Atasoy, M, Nandy, P, Jafferali, M H, Birgersson, M. SARS-CoV-2 Wastewater Data from Stockholm, Sweden. [https://doi.org/10.17044/scilifelab.14315483](https://doi.org/10.17044/scilifelab.14315483) (2021).
 
-
 ### Visualisations: Stockholm
 
 <div class="alert alert-info">Last updated: <span id="last_modified_stockholm"></span></div>
