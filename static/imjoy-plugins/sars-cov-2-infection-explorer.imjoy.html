@@ -92,22 +92,33 @@ class ImJoyPlugin {
     const metadataUrl = ctx.data.metadata //|| 'https://scilifelab.figshare.com/ndownloader/files/33894767'
     const store = await FileReferenceStore.fromUrl(refUrl, targetUrl);
     const viewer = await api.createWindow({src: 'https://oeway.github.io/vizarr/', name: 'Spatiotemporal mapping of SARS-CoV2 interacting host proteins', window_id: ctx.config.window_id, window_style: ctx.config.window_style})
-    console.log(refUrl)
     await viewer.show_loading("Loading data...")
     let metadataStr = await (await fetch(metadataUrl)).text()
     metadataStr = metadataStr.replaceAll("NaN", "null")
     const metadata = JSON.parse(metadataStr)
 
+    const antibodyProtein = metadata.files
+    const antibodyProteinFormatted = [];
+    antibodyProtein.forEach(item => {
+      if(item) {
+        const antibody = item.split("_")[0];
+        const protein = item.split("_")[1];
+        const formatted = "Antibody ID: " + antibody + ", Protein or gene: " + protein + "\n"
+        antibodyProteinFormatted.push(formatted);
+      }
+    });
+
     const img = {
       "source": store,
       "name": ctx.data.name,
       "channel_axis": 1,
-      "axis_labels": [metadata.files, "Channel", "w", "h"],
+      "axis_labels": [antibodyProteinFormatted, "w", "h"],
       "colors": ["#0000FF", "#FF0000", "#00FF00", "#00FFFF"],   // optional
       "names": ["DAPI", "SARS NP", "Protein of Interest", "ER"],        // optional, default channel_X
       "visibilities": [true, true, true, true],           // optional, default True
       "contrast_limits": [[60, 900], [70, 600], [70, 8000], [70, 2500]], // optional, but recommended
     }
+
     await viewer.add_image(img)
     await viewer.show_loading(false)
   }
