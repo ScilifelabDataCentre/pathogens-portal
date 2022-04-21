@@ -77,7 +77,9 @@ The team has openly shared images ≈75,000 confocal images of SARS-CoV2 infecte
 
 ##### Explore the images
 
-Below, you can explore the immunofluorescence images using the Vizarr plugin for ImJoy. You can select a plate to view and adjust viewing options.
+Below, you can explore the immunofluorescence images using the [Vizarr](https://github.com/hms-dbmi/vizarr) and [ImJoy](https://imjoy.io/#/). ImJoy is a plugin powered hybrid computing platform for deploying deep learning applications such as advanced image analysis tools. ImJoy runs on mobile and desktop environment cross different operating systems, plugins can run in the browser (as is the case here), localhost, remote and cloud servers. Vizarr is a minimal, purely client-side program for viewing Zarr-based images with Viv & ImJoy.
+
+Select a plate to view using the dropdown below. You can see the HPA ID of the antibody used and protein or gene name on the top left corner of the window. Scroll images using the slider just below or the three dots to the right of antibody ID to type a particular image number. Further down, you can adjust viewing options.
 
 <div class="container">
   <div class="row">
