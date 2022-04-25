@@ -1,6 +1,6 @@
 ---
 title: Large scale immunofluorescence to explore the host cell response to SARS-CoV-2 infection
-date: 2022-04-08 # change later
+date: 2022-04-25
 summary:  Expression of 602 host proteins were evaluated in populations of infected and non-infected cells using immunofluorescence. ≈75,000 images have been published as a resource for further studies.
 banner: /highlights/banners/immunofluorescence.png
 banner_large: /highlights/banners/immunofluorescence.png
