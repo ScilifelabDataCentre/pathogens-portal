@@ -39,3 +39,5 @@ no-inline-html:
     - tbody
     - td
     - hr
+    - select
+    - option

@@ -1,0 +1,128 @@
+﻿<docs>
+[TODO: write documentation for this plugin.]
+</docs>
+
+<config lang="json">
+{
+  "name": "sars-cov-2-infection-explorer",
+  "type": "web-worker",
+  "tags": [],
+  "ui": "",
+  "version": "0.1.4",
+  "cover": "",
+  "description": "Spatiotemporal mapping of SARS-CoV2 interacting host proteins",
+  "icon": "extension",
+  "inputs": null,
+  "outputs": null,
+  "api_version": "0.1.8",
+  "env": "",
+  "permissions": [],
+  "requirements": [],
+  "dependencies": []
+}
+</config>
+
+<script lang="javascript">
+
+// Using the FileReferenceStore made by Trevor Manz
+// https://observablehq.com/d/a417a770860fbb64
+class FileReferenceStore {
+  constructor(ref, target) {
+    this.ref = ref;
+    this.target = target;
+  }
+
+  _url(urlPath) {
+    if(!urlPath){
+      return this.target
+    }
+    const [protocol, path] = urlPath.split('://');
+    if (protocol === 'https' || protocol === 'http') {
+      return urlPath;
+    }
+    if (protocol === 'gc') {
+      return 'https://storage.googleapis.com/' + path;
+    }
+    throw Error("Protocol not supported, got: " + JSON.stringify(protocol));
+  }
+
+  async getItem(key) {
+    const res = this.ref[key];
+    if (!res) {
+      // Key not in store
+      throw "Error"
+    }
+
+    if (res?.length !== 3) {
+      // JSON data entry in reference
+      const meta = typeof res === 'string' ? res : JSON.stringify(res)
+      const enc = new TextEncoder().encode(meta);
+      return enc.buffer;
+    }
+
+    const [urlPath, offset, size] = res;
+    const url = this._url(urlPath);
+    const headers = {
+      Range: `bytes=${offset}-${offset + size - 1}`
+    };
+    const value = await fetch(url, { headers}).then(res => res.arrayBuffer());
+    return value;
+  }
+
+  containsItem(key) {
+    return key in this.ref;
+  }
+
+  static async fromUrl(url, targetUrl) {
+    const ref = await fetch(url).then(res => res.json());
+    return new FileReferenceStore(ref, targetUrl);
+  }
+}
+
+class ImJoyPlugin {
+  async setup() {
+    api.log('initialized')
+  }
+
+  async run(ctx) {
+    ctx.config = ctx.config || {};
+    ctx.data = ctx.data || {};
+    const refUrl = ctx.data.ref //|| 'https://scilifelab.figshare.com/ndownloader/files/27671955'
+    const targetUrl = ctx.data.target //|| 'https://scilifelab.figshare.com/ndownloader/files/27671958'
+    const metadataUrl = ctx.data.metadata //|| 'https://scilifelab.figshare.com/ndownloader/files/33894767'
+    const store = await FileReferenceStore.fromUrl(refUrl, targetUrl);
+    const viewer = await api.createWindow({src: 'https://oeway.github.io/vizarr/', name: 'Spatiotemporal mapping of SARS-CoV2 interacting host proteins', window_id: ctx.config.window_id, window_style: ctx.config.window_style})
+    await viewer.show_loading("Loading data...")
+    let metadataStr = await (await fetch(metadataUrl)).text()
+    metadataStr = metadataStr.replaceAll("NaN", "null")
+    const metadata = JSON.parse(metadataStr)
+
+    const antibodyProtein = metadata.files
+    const antibodyProteinFormatted = [];
+    antibodyProtein.forEach(item => {
+      if(item) {
+        const antibody = item.split("_")[0];
+        const protein = item.split("_")[1];
+        const formatted = "Antibody ID: " + antibody + ", Protein or gene: " + protein + "\n"
+        antibodyProteinFormatted.push(formatted);
+      }
+    });
+
+    const img = {
+      "source": store,
+      "name": ctx.data.name,
+      "channel_axis": 1,
+      "axis_labels": [antibodyProteinFormatted, "w", "h"],
+      "colors": ["#0000FF", "#FF0000", "#00FF00", "#00FFFF"],   // optional
+      "names": ["DAPI", "SARS NP", "Protein of Interest", "ER"],        // optional, default channel_X
+      "visibilities": [true, true, true, true],           // optional, default True
+      "contrast_limits": [[60, 900], [70, 600], [70, 8000], [70, 2500]], // optional, but recommended
+    }
+
+    await viewer.add_image(img)
+    await viewer.show_loading(false)
+  }
+}
+
+api.export(new ImJoyPlugin())
+</script>
