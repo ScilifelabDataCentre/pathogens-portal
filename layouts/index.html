@@ -80,35 +80,35 @@
 
           {{/* This used to be range over all available data pages, need to bring back */}}
 
-          {{ $data_types_menu := .Site.Menus.data_menu }}
-          {{ range $data_types_menu }}
-          <div class="col-md-4">
-            <h5><a href="{{ .Page.RelPermalink }}">
-                {{ .Name }}
-                {{ $section_title := string "" }}
-                {{ if eq $.Site.Language.LanguageName "Svenska" }}
-                {{ $section_title =  .Params.title_eng}}
-                {{ else }}
-                {{ $section_title = .Title}}
+          {{ range .Site.Menus.data_menu }}
+            {{ if eq .Title "Available datasets" }}
+              {{ range .Children }}
+                {{ if ne .Title "All data types" }}
+                <div class="col-md-4">
+                  <h5><a href="{{ .Page.RelPermalink }}">
+                      {{ $section_title := string "" }}
+                      {{ $section_title = .Title}}
+                      {{ $this_type := strings.TrimRight " data" (lower $section_title) }}
+                      {{ if eq $section_title "Protein data"}}
+                        {{ $this_type = "proteins"}}
+                      {{ end }}
+                      {{ if eq $section_title "Genomics & transcriptomics data"}}
+                        {{ $this_type = "genomics"}}
+                      {{ end }}
+                      {{ $this_type | title }}
+                      {{ range $type, $num := $num_entries_per_data_type }}
+                      {{ $type_in_dict := strings.TrimRight " data" ( strings.TrimPrefix "category: " (lower $type) ) }}
+                      {{ if eq $this_type $type_in_dict }}
+                      ({{ $num }})
+                      {{ end }}
+                      {{ end }}
+                      <i class="bi bi-arrow-right-circle-fill"></i></a></h5>
+                </div>
                 {{ end }}
-                {{ $this_type := strings.TrimRight " data" (lower $section_title) }}
-                {{ if eq $section_title "Protein data"}}
-                {{ $this_type = "proteins"}}
-                {{ end }}
-                {{ range $type, $num := $num_entries_per_data_type }}
-                {{ $type_in_dict := strings.TrimRight " data" ( strings.TrimPrefix "category: " (lower $type) ) }}
-                {{ if eq $this_type $type_in_dict }}
-                ({{ $num }})
-                {{ end }}
-                {{ end }}
-                <i class="bi bi-arrow-right-circle-fill"></i></a></h5>
-          </div>
+              {{ end }}
+            {{ end }}
           {{ end }}
         </div>
-      </div>
-      <div class="row mt-2">
-        <h5><a href="#testing_results">{{ $.Param "teststats.name" }}
-            <i class="bi bi-arrow-right-circle-fill"></i></a></h5>
       </div>
     </div>
 
