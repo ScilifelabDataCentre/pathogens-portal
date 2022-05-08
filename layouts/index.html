@@ -92,15 +92,15 @@
                       {{ if eq $section_title "Protein data"}}
                         {{ $this_type = "proteins"}}
                       {{ end }}
-                      {{ if eq $section_title "Genomics & transcriptomics data"}}
-                        {{ $this_type = "genomics"}}
-                      {{ end }}
-                      {{ $this_type | title }}
                       {{ range $type, $num := $num_entries_per_data_type }}
-                      {{ $type_in_dict := strings.TrimRight " data" ( strings.TrimPrefix "category: " (lower $type) ) }}
-                      {{ if eq $this_type $type_in_dict }}
-                      ({{ $num }})
-                      {{ end }}
+                        {{ $type_in_dict := strings.TrimRight " data" ( strings.TrimPrefix "category: " (lower $type) ) }}
+                        {{ if eq $this_type $type_in_dict }}
+                          {{ if eq $section_title "Genomics & transcriptomics data"}}
+                            {{ $this_type = "genomics"}}
+                          {{ end }}
+                          {{ $this_type | title }}
+                          ({{ $num }})
+                        {{ end }}
                       {{ end }}
                       <i class="bi bi-arrow-right-circle-fill"></i></a></h5>
                 </div>
