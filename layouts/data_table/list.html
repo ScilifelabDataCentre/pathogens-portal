@@ -8,23 +8,12 @@
   Data available from research groups in Sweden
   {{ end }}</h4>
 
-<div>{{ if eq $.Site.Language.LanguageName "Svenska" }}
-  <p>Vänligen notera att listan över tillgängliga dataset från svenska forskargrupper uppdateras manuellt och därför
-    inte är fullständig. Om du vill att ditt dataset skall synliggöras eller vill korrigera information om dina dataset,
-    <a href="/sv/suggestions/">vänligen kontakta oss</a>. Publikationer som delar data där minst en medförfattare är
-    affilierad till ett svenskt lärosäte inkluderas. I dagsläget inkluderas både publikationer som öppet delar data
-    eller som anges att data göra tillgängliga efter begäran från författarna. Men inom kort kommer endast publikationer
-    som delar data öppet eller genom en metadata post inkluderas i datatabasen.</p>
-  <p><i>Senast uppdaterad: {{ substr $.Site.Data.publications.timestamp 0 10 }}</i></p>
-  {{ else }}
+<div>
   <p>The list below is curated manually and as such may not be exhaustive. If you would like to see your dataset here or
     correct information about your dataset, <a href="/suggestions/">please get in touch with us</a>. Projects sharing
-    data where at least one author has an affiliation with a Swedish research institute are included. At this point,
-    projects which share data openly or which explicitly promise to share data on request are included in this section.
-    In the near future, only projects that either share data openly or have at least a metadata-only record with a clear
-    data access procedure will be included.</p>
+    data where at least one author has an affiliation with a Swedish research institute are included. Only
+    projects which openly share data or analysis code that has re-use potential are included.</p>
   <p><i>Last updated: {{ substr $.Site.Data.publications.timestamp 0 10 }}</i></p>
-  {{ end }}
 </div>
 
 {{/*
