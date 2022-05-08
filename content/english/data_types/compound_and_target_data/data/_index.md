@@ -9,8 +9,11 @@ menu:
 type: data_table
 datatypes_to_display:
 - "Category: Biochemistry"
+aliases:
+    - /data_types/compound_and_target_data/
+    - /sv/data_types/compound_and_target_data/
+    - /sv/data_types/compound_and_target_data/data/
 ---
-###### See also: [Services: biochemistry data](../services)
 
 ## Published Data
 

@@ -9,6 +9,10 @@ menu:
 type: data_table
 datatypes_to_display:
 - "Category: Health"
+aliases:
+  - /sv/data_types/health_data/data/
+  - /sv/data_types/health_data/
+  - /data_types/health_data/
 ---
 
 ## Published Data

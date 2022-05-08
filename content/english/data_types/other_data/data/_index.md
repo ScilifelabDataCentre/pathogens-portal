@@ -9,6 +9,8 @@ menu:
 type: data_table
 datatypes_to_display:
 - "Category: Other"
+aliases:
+  - /sv/data_types/other_data/data/
 ---
 
 ## Published Data

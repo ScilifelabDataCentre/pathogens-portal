@@ -9,9 +9,11 @@ menu:
 type: data_table
 datatypes_to_display:
 - "Category: Genomics & transcriptomics"
+aliases:
+  - /sv/data_types/genomics_transcriptomics/data/
+  - /sv/data_types/genomics_transcriptomics/
+  - /data_types/genomics_transcriptomics/
 ---
-
-###### See also: [Services: genomics & transcriptomics](../services)
 
 ## Published Data
 

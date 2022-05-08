@@ -9,8 +9,11 @@ menu:
 type: data_table
 datatypes_to_display:
 - "Category: Proteins"
+aliases:
+  - /sv/data_types/protein_data/data/
+  - /sv/data_types/protein_data/
+  - /data_types/protein_data/
 ---
-###### See also: [Services: protein data](../services)
 
 ## Published Data
 

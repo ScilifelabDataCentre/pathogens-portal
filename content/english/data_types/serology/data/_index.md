@@ -10,7 +10,7 @@ type: data_table
 datatypes_to_display:
 - "Category: Serology"
 aliases:
-    - /data_types/serology/serology-statistics/
+    - /sv/data_types/serology/data/
 ---
 
 ## Published Data

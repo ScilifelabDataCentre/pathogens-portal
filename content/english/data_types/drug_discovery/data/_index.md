@@ -9,4 +9,6 @@ menu:
 type: data_table
 datatypes_to_display:
 - "Category: Drug Discovery"
+aliases:
+  - /sv/data_types/drug_discovery/data/
 ---

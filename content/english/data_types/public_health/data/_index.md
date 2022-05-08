@@ -9,6 +9,8 @@ menu:
 type: data_table
 datatypes_to_display:
 - "Category: Public Health"
+aliases:
+  - /sv/data_types/public_health/data/
 ---
 
 ## Published Data
