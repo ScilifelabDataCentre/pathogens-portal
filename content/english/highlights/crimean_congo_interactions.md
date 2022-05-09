@@ -1,7 +1,7 @@
 ---
 title: Study of host-viral interactions of Crimean-Congo haemorrhagic fever identified potential new drugs
 date: 2022-05-06
-summary: New study gives insight into host-viral interactions of Crimean-Congo hemorrhagic fever, an infectious disease without available treatments. Raw RNAseq, Mass Spectrometry proteomics data and code shared.
+summary: New study gives insight into host-viral interactions of Crimean-Congo hemorrhagic fever, an infectious disease without available treatments. Raw RNAseq, mass spectrometry proteomics data and code shared.
 banner: /highlights/banners/crimean_congo_interactions.jpg
 banner_large: /highlights/banners/crimean_congo_interactions_large.jpg
 banner_caption: Fig 3c. from Neogi et al. (2022). Heatmap of significant correlation (adj. p < 0.05) between key metabolic and signaling pathways. Column and row annotation denotes corresponding pathways.
