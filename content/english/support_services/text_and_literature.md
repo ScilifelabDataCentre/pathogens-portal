@@ -1,5 +1,7 @@
 ---
 title: Text and literature
+aliases:
+    - /sv/support_services/text_and_literature
 ---
 
 For central COVID-19 hubs of text and literature, please see:

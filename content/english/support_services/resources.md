@@ -1,5 +1,7 @@
 ---
 title: Resources
+aliases:
+    - /sv/support_services/resources
 ---
 
 ## Infrastructures

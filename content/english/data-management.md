@@ -69,13 +69,3 @@ All researchers affiliated with a university or research institute in Sweden wor
 You are welcome to send both general questions about best approaches to research data management, data management plans (DMPs), reproducibility, FAIR, and open science as well as specific questions about your research projects such as which repository to choose to deposit data, what the suitable metadata standards would be, which file formats to use, etc. In some cases the data stewards can act as brokers and submit data to repositories on your behalf.
 
 <b><a href="mailto:datacentre@scilifelab.se">Send an email with your data management question <i class="bi bi-arrow-right-circle-fill"></i></a></b>
-
-## Depositing data in a public repository
-
-By depositing data in a public repository, you accept that the data will be published and may be used and redistributed according to specific terms set by yourself or the repository in question. Data deposition is considered important and you may get credit and acknowledgement for sharing data. A publication often results in getting a unique identifier for your dataset, which is often required for a journal to accept a manuscript for publication. Data sharing is often required by funders.
-
-If required, data can often be published with a set moratorium, which means that data will not go public until a date that you set.
-
-_Note that data from human individuals might need special considerations when it comes to publishing._
-
-<b><a href="/share-data/">See this page for recommendations on where to share the data <i class="bi bi-arrow-right-circle-fill"></i></a></b>
