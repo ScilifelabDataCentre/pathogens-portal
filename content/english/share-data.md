@@ -31,6 +31,8 @@ Below are our data submission guidelines for each specific data type. you can al
 
     Before submission of raw sequence data (e.g. shotgun sequencing) it is necessary to remove contaminating human reads. Host (human) sequence data requires restricted access, and NBIS is building a local federated version of the European Genome-phenome Archive (EGA) in Sweden (EGA-SE), allowing for the publication of sensitive personal data within a legal framework. Until local EGA is available, the dataset should remain in the secure analysis environment (e.g., at Bianca on [Uppmax](https://www.uppmax.uu.se/)). SciLifeLab [can help with publishing and access control](https://www.scilifelab.se/data/humandata/). In any case, we recommend to make a metadata-only record in the [SciLifeLab Data Repository](/support_services/general_data_repository/) with contact details on how to get access, and for which a DOI (i.e., a persistent identifier) can be issued. The DOI can then be used in the article to refer to the dataset. Once the Swedish EGA is operational, and the dataset is deposited there, the access information can be changed to point to the EGA ID. See [DOI: 10.17044/NBIS/G000014](https://doi.org/10.17044/NBIS/G000014) for an example.
 
+    Metadata: [MINSEQE](https://doi.org/10.25504/FAIRsharing.a55z32) (Minimal Information about a high throughput SEQuencing Experiment) is the preferred minimal metadata standard for transcriptomics data in general. For viral data, consider using the [ENA virus pathogen reporting standard checklist](https://www.ebi.ac.uk/ena/data/view/ERC000033).
+
     * [The European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena)
     * [ENA SARS-CoV-2 submission tutorial](https://covid19dataportal.se/support_services/tutorial_ena/tutorial_ena_intro/)
     * [SciLifeLab Data Repository for metadata records of sequence data with restricted access](https://scilifelab.se/data/repository)
@@ -51,6 +53,8 @@ Below are our data submission guidelines for each specific data type. you can al
     We recommend to use the [PRIDE](https://www.ebi.ac.uk/pride/) repository provided by the [ProteomeXchange](http://www.proteomexchange.org/) Consortium. The repository admits protein and peptide identification/quantification data with the accompanying mass spectra evidence and any other related data types. Submission is done using the [PX Submission Tool](https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool).
 
     Other types of proteomics data should also be made available, we recommend [SciLifeLab Data Repository](/support_services/general_data_repository/). In order to make the data useful and ready for analyses and integration, a detailed description of the data format and how the variables are organized should be provided. Each protein variable should come with a unique identifier such as UniProt ID or ENGS ID (and stating the versions used to link the data).
+
+    Metadata: For proteomics, use the minimal information model specified in [MIAPE](https://doi.org/10.25504/FAIRsharing.8vv5fc), and fill them using the controlled vocabularies specified by the Proteomics Standards Initiative: [PSI CVs](https://doi.org/10.25504/FAIRsharing.sxh2dp).
 
     * [PRIDE repository](https://www.ebi.ac.uk/pride/) and [PX Submission Tool](https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool)
     * [SciLifeLab Data Repository for other types of proteomics data](https://scilifelab.se/data/repository)
