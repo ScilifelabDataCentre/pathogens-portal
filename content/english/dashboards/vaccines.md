@@ -97,13 +97,13 @@ Again, please note that percentage values calculated using the 'whole population
 #### Administration of two vaccine doses
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/twodose_pop_map.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/twodoses_pop_map.json" height="500px" >}}</div>
 </div>
 
 #### Administration of three vaccine doses
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/threedose_pop_map.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/threedoses_pop_map.json" height="500px" >}}</div>
 </div>
 
 #### Administration of four vaccine doses
