@@ -110,10 +110,10 @@ Again, please note that percentage values calculated using the 'whole population
 
 <div class="row">
 <div class="col-md"><div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/four%20doses_pop_map.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/fourdoses_pop_map.json" height="500px" >}}</div>
 </div></div>
 <div class="col-md"><div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/four%20doses_elig_map.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/fourdoses_elig_map.json" height="500px" >}}</div>
 </div></div>
 </div>
 
