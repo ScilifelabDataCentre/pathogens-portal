@@ -10,6 +10,7 @@ menu:
         weight: 20
 aliases:
     - /suggestions/
+recaptcha: true
 ---
 
 If you have a dataset that you would like to share but you are not sure how to do it or if you have a data management question for your project on COVID-19, [the team behind the Swedish COVID-19 Data Portal](/about/) will be happy to help you find a good solution. Fill out the form below or send us an email: [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se).
