@@ -7,7 +7,7 @@ teststats:
         serologytitle: SARS-CoV-2 antibody tests at SciLifeLab
         seemoretext: See all graphs
         postcovidtitle: Post COVID-19 condition in Sweden
-        vaccinestitle: Vaccine administration in Sweden
+        vaccinestitle: COVID-19 vaccine administration in Sweden
 plotly: true
 ---
 

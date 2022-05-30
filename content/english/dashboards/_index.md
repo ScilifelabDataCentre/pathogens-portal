@@ -7,6 +7,10 @@ menu:
         identifier: dashboards
         name: Dashboards
         weight: 30
+    homepage_dashboards:
+        name: Dashboards
+        identifier: dashboards
+        post: Visualisations of datasets as well as an overview of ongoing research on a particular question. <a href="/dashboards/">See all dashboards <i class="bi bi-arrow-right-circle-fill"></i></a>
 ---
 
 <h4><a href="serology-statistics/">SARS-CoV-2 antibody tests at SciLifeLab <i class="bi bi-arrow-right-circle-fill"></i></a></h4>
