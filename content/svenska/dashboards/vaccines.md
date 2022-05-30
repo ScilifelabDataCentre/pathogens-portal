@@ -1,11 +1,11 @@
 ---
-title: Administrering av COVID-19 vaccin och vaccinforskning i Sverige
+title: Administrering av covid-19 vaccin och vaccinforskning i Sverige
 toc: true
 plotly: true
 menu:
     swe_menu:
         identifier: vaccines
-        name: Administrering av COVID-19 vaccin i Sverige
+        name: Administrering av covid-19 vaccin i Sverige
         weight: 30
         parent: dashboards
 aliases:

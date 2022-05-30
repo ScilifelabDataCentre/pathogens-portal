@@ -1,6 +1,5 @@
 ---
 title: Nationellt Pandemicenter SARS-CoV-2 (covid-19)-analysstatistik
-menu:
 aliases:
     - /sv/data_types/health_data/npc-statistics/
 ---

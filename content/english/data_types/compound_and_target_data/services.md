@@ -1,11 +1,5 @@
 ---
 title: Services
-menu:
-    main:
-        name: Services for researchers
-        identifier: compound_and_target_data_services
-        parent: compound_and_target_data
-        weight: 30
 ---
 
 ## Small molecule screening and drug repurposing research

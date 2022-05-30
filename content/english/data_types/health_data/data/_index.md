@@ -6,18 +6,13 @@ menu:
         name: Health data
         weight: 60
         parent: available_datasets
-    main:
-        name: Published data
-        identifier: health_data_data
-        parent: health_data
-        weight: 5
-    horizontal:
-        name: Health
-        identifier: health_data_data
-        weight: 50
 type: data_table
 datatypes_to_display:
 - "Category: Health"
+aliases:
+  - /sv/data_types/health_data/data/
+  - /sv/data_types/health_data/
+  - /data_types/health_data/
 ---
 
 ## Published Data

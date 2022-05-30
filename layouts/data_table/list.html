@@ -2,29 +2,14 @@
 
 {{ .Content }}
 
-<h4>{{ if eq $.Site.Language.LanguageName "Svenska" }}
-  Data tillgängliga från svenska forskargrupper
-  {{ else }}
-  Data available from research groups in Sweden
-  {{ end }}</h4>
+<h4>Data available from research groups in Sweden</h4>
 
-<div>{{ if eq $.Site.Language.LanguageName "Svenska" }}
-  <p>Vänligen notera att listan över tillgängliga dataset från svenska forskargrupper uppdateras manuellt och därför
-    inte är fullständig. Om du vill att ditt dataset skall synliggöras eller vill korrigera information om dina dataset,
-    <a href="/sv/suggestions/">vänligen kontakta oss</a>. Publikationer som delar data där minst en medförfattare är
-    affilierad till ett svenskt lärosäte inkluderas. I dagsläget inkluderas både publikationer som öppet delar data
-    eller som anges att data göra tillgängliga efter begäran från författarna. Men inom kort kommer endast publikationer
-    som delar data öppet eller genom en metadata post inkluderas i datatabasen.</p>
-  <p><i>Senast uppdaterad: {{ substr $.Site.Data.publications.timestamp 0 10 }}</i></p>
-  {{ else }}
+<div>
   <p>The list below is curated manually and as such may not be exhaustive. If you would like to see your dataset here or
     correct information about your dataset, <a href="/suggestions/">please get in touch with us</a>. Projects sharing
-    data where at least one author has an affiliation with a Swedish research institute are included. At this point,
-    projects which share data openly or which explicitly promise to share data on request are included in this section.
-    In the near future, only projects that either share data openly or have at least a metadata-only record with a clear
-    data access procedure will be included.</p>
+    data where at least one author has an affiliation with a Swedish research institute are included. Only
+    projects which openly share data or analysis code that has re-use potential are included.</p>
   <p><i>Last updated: {{ substr $.Site.Data.publications.timestamp 0 10 }}</i></p>
-  {{ end }}
 </div>
 
 {{/*
@@ -103,49 +88,46 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-2 pl-0 pr-2 {{ if eq $.Site.Language.LanguageName "Svenska" }}mr-5{{ end }}">
-      <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).dt_data_types }}</h5>
+      <h5>Data types</h5>
       <div class="col mb-2">
-        <div class="row">{{ if or (eq .Title "All data types") (eq .Title "Alla datatyper") }}<b>{{ else }}<a
-              href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/data_types/all/data/">{{ end }}{{ if eq $.Site.Language.LanguageName "Svenska" }}Alla
-              datatyper {{ else }}All data types
-              {{ end }}({{ len $all_entries }}){{ if or (eq .Title "All data types") (eq .Title "Alla datatyper") }}</b>{{ else }}</a>{{ end }}
+        <div class="row">{{ if eq .Title "All data types" }}<b>{{ else }}<a href="/data_types/all/data/">{{ end }} All data types ({{ len $all_entries }}){{ if eq .Title "All data types" }}</b>{{ else }}</a>{{ end }}
         </div>
-        {{ $data_types_menu := .Site.Menus.horizontal }}
-        {{ range $ind, $el := .Site.Menus.other_data }}
-        {{ if and (ne $el.URL "/data_types/environment/wastewater/") (ne $el.URL "/sv/data_types/environment/wastewater/") }}
-        {{ $data_types_menu = $data_types_menu | append $el }}
-        {{ end }}
-        {{ end }}
-        {{ range $data_types_menu }}
-        <div class="row">
-          {{ if eq .Title $current_page}}
-          <b>
-            {{ else }}
-            <a href="{{ .Page.RelPermalink }}">
+        {{ range .Site.Menus.data_menu }}
+          {{ if eq .Title "Available datasets" }}
+            {{ range .Children }}
+              {{ if ne .Title "All data types"}}
+              <div class="row">
+                {{ if eq .Title $current_page}}
+                <b>
+                  {{ else }}
+                  <a href="{{ .Page.RelPermalink }}">
+                    {{ end }}
+                    {{ .Title }}
+                    {{ $section_title := string "" }}
+                    {{ if eq $.Site.Language.LanguageName "Svenska" }}
+                    {{ $section_title =  .Params.title_eng}}
+                    {{ else }}
+                    {{ $section_title = .Title}}
+                    {{ end }}
+                    {{ $this_type := strings.TrimRight " data" (lower $section_title) }}
+                    {{ if eq $section_title "Protein data"}}
+                    {{ $this_type = "proteins"}}
+                    {{ end }}
+                    {{ range $type, $num := $num_entries_per_data_type }}
+                    {{ $type_in_dict := strings.TrimRight " data" ( strings.TrimPrefix "category: " (lower $type) ) }}
+                    {{ if eq $this_type $type_in_dict }}
+                    ({{ $num }})
+                    {{ end }}
+                    {{ end }}
+                    {{ if eq .Title $current_page}}
+                </b>
+                {{ else }}
+                </a>
+                {{ end }}
+              </div>
               {{ end }}
-              {{ .Title }}
-              {{ $section_title := string "" }}
-              {{ if eq $.Site.Language.LanguageName "Svenska" }}
-              {{ $section_title =  .Params.title_eng}}
-              {{ else }}
-              {{ $section_title = .Title}}
-              {{ end }}
-              {{ $this_type := strings.TrimRight " data" (lower $section_title) }}
-              {{ if eq $section_title "Protein data"}}
-              {{ $this_type = "proteins"}}
-              {{ end }}
-              {{ range $type, $num := $num_entries_per_data_type }}
-              {{ $type_in_dict := strings.TrimRight " data" ( strings.TrimPrefix "category: " (lower $type) ) }}
-              {{ if eq $this_type $type_in_dict }}
-              ({{ $num }})
-              {{ end }}
-              {{ end }}
-              {{ if eq .Title $current_page}}
-          </b>
-          {{ else }}
-          </a>
+            {{ end }}
           {{ end }}
-        </div>
         {{ end }}
       </div>
     </div>
@@ -155,9 +137,9 @@
           <table class="table table-hover table-bordered" width="100%">
             <thead class="thead-light">
               <tr>
-                <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).dt_project }}</th>
-                <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).dt_last_updated }}</th>
-                <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).dt_available_data }}</th>
+                <th scope="col">Project</th>
+                <th scope="col">Last updated</th>
+                <th scope="col">Available data</th>
               </tr>
             </thead>
             <tbody>
@@ -334,7 +316,6 @@
       "sDom": '<"top row"<"col-md"i><"col-md"f>>rt<"bottom row"<"col-md"l><"col-md"p>><"clear">',
       "order": [[1, "desc"]],
       "columnDefs": [{ "orderable": false, "targets": 2 }],
-        {{ if eq $.Site.Language.LanguageName "English" }}
         "language": {
     "lengthMenu": "Show _MENU_ entries per page",
     "zeroRecords": "Nothing found.",
@@ -349,22 +330,6 @@
       "previous": "«"
     }
   }
-        {{ else }}
-    "language": {
-    "lengthMenu": "Visa _MENU_ poster per sida",
-    "zeroRecords": "Inga resultat",
-    "info": "Visar _START_-_END_ av _TOTAL_ poster.",
-    "infoEmpty": "Inga resultat",
-    "infoFiltered": "(filtrerad av _MAX_ poster)",
-    "search": "Sök:",
-    "paginate": {
-      "first": "Första",
-      "last": "Sista",
-      "next": "»",
-      "previous": "«"
-    }
-  }
-        {{ end }}
     }
   );
 } );

@@ -6,20 +6,14 @@ menu:
         name: Protein data
         weight: 30
         parent: available_datasets
-    main:
-        name: Published data
-        identifier: protein_data_data
-        parent: protein_data
-        weight: 10
-    horizontal:
-        name: Proteins
-        identifier: protein_data_data
-        weight: 20
 type: data_table
 datatypes_to_display:
 - "Category: Proteins"
+aliases:
+  - /sv/data_types/protein_data/data/
+  - /sv/data_types/protein_data/
+  - /data_types/protein_data/
 ---
-###### See also: [Services: protein data](../services)
 
 ## Published Data
 
