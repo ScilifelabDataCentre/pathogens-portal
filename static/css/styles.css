@@ -449,14 +449,29 @@ div.dataTables_wrapper div.dataTables_info {
     color: #cc3366;
 }
 
-.omicron_banner {
-    border: 1px solid rgba(46, 104, 165, 0.8);
-    color: #cc3366;
+.announcement_banner_homepage {
+    border: 1px solid #de2c6c;
     padding: 0.5rem 1rem;
     border-radius: 2px;
     text-align: center;
     font-size: 1.2em;
     font-weight: bold;
+}
+
+.announcement_banner_homepage a {
+    color: #de2c6c;
+}
+
+.announcement_banner {
+    border: 1px solid #de2c6c;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.announcement_banner a {
+    color: #de2c6c;
 }
 
 .ena_tutorial_banner {

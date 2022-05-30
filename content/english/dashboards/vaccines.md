@@ -79,7 +79,7 @@ We have presented the data for the whole of Sweden as a percentage of the Swedis
 **Note on the graph:** Click on the coloured squares in the legend of the below graph to toggle which datasets are displayed. A single click will toggle just the dataset that you clicked on. A double-click on a colour will cause the map to display ONLY the dataset clicked on.
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/FOURvaccine_timeseries_pop_barchart.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/vaccine_timeseries_pop_barchart.json" height="500px" >}}</div>
 </div>
 
 ### Administration of vaccinations in each county (län)
@@ -97,23 +97,23 @@ Again, please note that percentage values calculated using the 'whole population
 #### Administration of two vaccine doses
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/twodose_pop_map.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/twodoses_pop_map.json" height="500px" >}}</div>
 </div>
 
 #### Administration of three vaccine doses
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/threedose_pop_map.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/threedoses_pop_map.json" height="500px" >}}</div>
 </div>
 
 #### Administration of four vaccine doses
 
 <div class="row">
 <div class="col-md"><div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/four%20doses_pop_map.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/fourdoses_pop_map.json" height="500px" >}}</div>
 </div></div>
 <div class="col-md"><div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/four%20doses_elig_map.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/fourdoses_elig_map.json" height="500px" >}}</div>
 </div></div>
 </div>
 
@@ -123,7 +123,7 @@ We constructed the below heatmap to show how the relative numbers of people vacc
 
 Data is available for individuals born in or before 2009 (i.e. at least 12-13 years old) for the first and second vaccine doses (available in the 'Vaccinerade ålder' tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)), and for people born in or before 2003 (i.e. at least 18-19 years old) for the third dose (available in the 'Dos 3 per åldersgrupp' tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)). For the fourth dose, data is only available for those born in or before 1956 (i.e. at least 65-66 years old) available in the 'Dos 4 per åldersgrupp' tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)). This means that data is not available for all age groups for each dose, and this is reflected in the plot. In this case, we have not performed any recalculation of the data, so the numbers are the same as those provided by FoHM (i.e. all values were calculated using the 'eligible population method').
 
-Please note, data has not been added for 65-79 year olds for the fourth dose because data is not available in equivalent categories.
+Please note, data has not been added for 65-69 year olds for the fourth dose because data is not available in equivalent categories.
 
 **Note about the heatmap:** A white colouration indicates that no data is available for that age group.
 

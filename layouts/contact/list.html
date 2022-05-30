@@ -2,7 +2,7 @@
 
 {{ .Content }}
 
-<form class="needs-validation" novalidate action="https://biobank-forms.dckube.scilifelab.se/forms/suggestion/">
+<form class="needs-validation" novalidate method="POST" action="https://forms.dckube.scilifelab.se/api/v1/form/lUoBU4hTkbqkNYcs/incoming">
   <h2>{{ if eq $.Site.Language.LanguageName "Svenska" }}Kontakta oss{{ else }}Contact and suggestions form{{ end }}</h2>
   <div class="mb-3 mt-3">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen fyll i detta formulär för att ge förslag till portalen eller för frågor rörande datadelning eller datahantering. Vänligen fyll i dina kontaktuppgifter om du vill att vi besvarar ditt ärende. Teamet som arbetar med den <i>Svenska Dataportalen för Covid-19 & Pandemisk Beredskap</i> kommer att skicka ett svar inom ett par dagar. {{ else }}Please fill out this form to make suggestions for the <i>Swedish COVID-19 & Pandemic Preparedness Data Portal</i> or to ask a data management or data sharing question. Please provide your contact information if you would like to receive a response. The data portal team will send you a response within the next couple of days.{{ end }}</div>
   <div class="form-group row">

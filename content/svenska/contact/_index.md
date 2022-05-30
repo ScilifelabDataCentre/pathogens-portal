@@ -12,6 +12,7 @@ menu:
     footer_about:
         name: Kontakt
         weight: 20
+recaptcha: true
 ---
 
 Om du har förslag på Portalens innehåll eller har ett dataset du vill dela i ett öppet datarepositorie men behöver support eller har frågor rörande datahantering relaterat till ett covid-19 eller pandemisk beredskap forskningsprojekt hjälper [teamet som arbetar med dataportalen](/sv/about/) dig gärna. Fyll i formuläret nedan eller maila oss på [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se).
