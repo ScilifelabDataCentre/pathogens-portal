@@ -4,7 +4,7 @@
 
 <form class="needs-validation" novalidate method="POST" action="https://forms.dckube.scilifelab.se/api/v1/form/lUoBU4hTkbqkNYcs/incoming">
   <h2>{{ if eq $.Site.Language.LanguageName "Svenska" }}Kontakta oss{{ else }}Contact and suggestions form{{ end }}</h2>
-  <div class="mb-3 mt-3">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen fyll i detta formulär för frågor rörande datadelning eller datahantering  eller för att ge förslag till portalen. Vänligen fyll i dina kontaktuppgifter om du vill att vi besvarar ditt ärende. Teamet som arbetar med covid-19 dataportalen kommer att skicka ett svar inom ett par dagar. {{ else }}Please fill out this form to ask a data management or data sharing question or make suggestions for the Swedish COVID-19 Data Portal. Please provide your contact information if you would like to receive a response. The data portal team will send you a response within the next couple of days.{{ end }}</div>
+  <div class="mb-3 mt-3">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen fyll i detta formulär för att ge förslag till portalen eller för frågor rörande datadelning eller datahantering. Vänligen fyll i dina kontaktuppgifter om du vill att vi besvarar ditt ärende. Teamet som arbetar med den <i>Svenska Dataportalen för Covid-19 & Pandemisk Beredskap</i> kommer att skicka ett svar inom ett par dagar. {{ else }}Please fill out this form to make suggestions for the <i>Swedish COVID-19 & Pandemic Preparedness Data Portal</i> or to ask a data management or data sharing question. Please provide your contact information if you would like to receive a response. The data portal team will send you a response within the next couple of days.{{ end }}</div>
   <div class="form-group row">
     <label for="Name" class="col-sm-3 col-form-label"><b>{{ if eq $.Site.Language.LanguageName "Svenska" }}Namn:{{ else }}Name:{{ end }}</b></label>
     <div class="col-sm-9">
@@ -23,36 +23,12 @@
     <div class="col-sm-3"><b>{{ if eq $.Site.Language.LanguageName "Svenska" }}Vilken typ av fråga eller kommentar rör ditt ärende?*{{ else }}What kind of a question/suggestion do you have?*{{ end }}</b></div>
     <div class="col-sm-9">
       <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="Suggestion" name="Suggestion" required>
+        <label class="form-check-label" for="Suggestion">{{ if eq $.Site.Language.LanguageName "Svenska" }}Ge förslag till Portalen{{ else }}Suggestion for the Portal{{ end }}</label>
+      </div>
+      <div class="form-check">
         <input class="form-check-input" type="checkbox" id="DM_support" name="DM_support" required>
         <label class="form-check-label" for="DM_support">{{ if eq $.Site.Language.LanguageName "Svenska" }}Efterfrågar support för datadelning eller datahantering{{ else }}Request for help with data management or data sharing questions{{ end }}</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="Dataset" name="Dataset" required>
-        <label class="form-check-label" for="Dataset">{{ if eq $.Site.Language.LanguageName "Svenska" }}Ge förslag på dataset{{ else }}Suggestion for a dataset{{ end }}</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="Data_highlight" name="Data_highlight" required>
-        <label class="form-check-label" for="Data_highlight">{{ if eq $.Site.Language.LanguageName "Svenska" }}Ge förslag på data i focus/Nyhet{{ else }}Suggestion for a data highlight{{ end }}</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="Research_project" name="Research_project" required>
-        <label class="form-check-label" for="Research_project">{{ if eq $.Site.Language.LanguageName "Svenska" }}Ge förslag på forskningsprojekt{{ else }}Suggestion for a research project{{ end }}</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="Journal_publication" name="Journal_publication" required>
-        <label class="form-check-label" for="Journal_publication">{{ if eq $.Site.Language.LanguageName "Svenska" }}Ge förslag på publicerad artikel{{ else }}Suggestion for a journal publication{{ end }}</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="Preprint" name="Preprint" required>
-        <label class="form-check-label" for="Preprint">{{ if eq $.Site.Language.LanguageName "Svenska" }}Ge förslag på preprint{{ else }}Suggestion for a preprint{{ end }}</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="Funding_opportunity" name="Funding_opportunity" required>
-        <label class="form-check-label" for="Funding_opportunity">{{ if eq $.Site.Language.LanguageName "Svenska" }}Ge förslag på anslag{{ else }}Suggestion for a funding opportunity{{ end }}</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="Event" name="Event" required>
-        <label class="form-check-label" for="Event">{{ if eq $.Site.Language.LanguageName "Svenska" }}Ge förslag på evenemang{{ else }}Suggestion for an event{{ end }}</label>
       </div>
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="Other" name="Other" required>

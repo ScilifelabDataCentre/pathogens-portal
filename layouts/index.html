@@ -1,75 +1,60 @@
 {{ define "main" }}
 
-<!-- <div class="container mt-2 py-1 border text-center font-italic text-muted">
-  {{ if eq $.Site.Language.LanguageName "Svenska" }}
-  Vi arbetar med att bredda Portalens inriktning att inkludera alla forskningsområden kopplade till pandemisk beredskap.
-  <br>Vissa av Portalens sektioner har redan uppdaterats medan andra kommer uppdateras snarast.
-  {{ else }}
-  We are currently working on extending the scope of the Portal to include pandemic preparedness in general.
-  <br>Some sections of the Portal have already transitioned whereas others will transition in the near future.
-  {{ end }}
-</div> -->
-
-<!-- Monkeypox banner -->
-<div class="container mt-2 py-1 announcement_banner_homepage">
-  <a href="/pathogens/monkeypox">Special page on emerging pathogen: Monkeypox</a>
-</div>
-
-<!-- Main content -->
-<div class="row">
+  <!-- Main content -->
+  <div class="row">
   <div class="col-lg-8 vert-line-right mt-3">
 
+    {{ if ne $.Site.Language.LanguageName "Svenska" }}
     <!-- Available data -->
-
     {{/*
-        Get all entries with available data into an array
+      Get all entries with available data into an array
       */}}
 
-    {{ $all_entries := slice }}
-    {{ $valid_db_list := slice "URL" "NA" "N/A" "GENBANK" "PDB" "BioProject" "GEO" "ISRCTN" "Dryad" "PubChem-Substance" "RefSeq" "dbGaP"}}
+      {{ $all_entries := slice }}
+      {{ $valid_db_list := slice "URL" "NA" "N/A" "GENBANK" "PDB" "BioProject" "GEO" "ISRCTN" "Dryad" "PubChem-Substance" "RefSeq" "dbGaP"}}
 
-    {{ range $index, $entry := $.Site.Data.publications.publications }}
-    {{ $has_data := false }}
-    {{ range .xrefs }}
-    {{ if in $valid_db_list .db }}
-    {{ $has_data = true}}
-    {{ end }}
-    {{ end }}
-    {{ if $has_data }}
-    {{ $all_entries = $all_entries | append $entry }}
-    {{ end }}
-    {{ end }}
+      {{ range $index, $entry := $.Site.Data.publications.publications }}
+      {{ $has_data := false }}
+      {{ range .xrefs }}
+      {{ if in $valid_db_list .db }}
+      {{ $has_data = true}}
+      {{ end }}
+      {{ end }}
+      {{ if $has_data }}
+      {{ $all_entries = $all_entries | append $entry }}
+      {{ end }}
+      {{ end }}
 
-    {{/*
+      {{/*
         Count how many entries we have for each data type
-      */}}
+        */}}
 
-    {{ $all_data_types := slice "Category: Biochemistry" "Category: Drug Discovery" "Category: Genomics & transcriptomics" "Category: Health" "Category: Imaging" "Category: Other" "Category: Proteins" "Category: Public Health" "Category: Serology" }}
-    {{ $num_entries_per_data_type := dict }}
+        {{ $all_data_types := slice "Category: Biochemistry" "Category: Drug Discovery" "Category: Genomics & transcriptomics" "Category: Health" "Category: Imaging" "Category: Other" "Category: Proteins" "Category: Public Health" "Category: Serology" }}
+        {{ $num_entries_per_data_type := dict }}
 
-    {{ range $all_data_types }}
-    {{ $current_type := . }}
-    {{ $num_entries := 0 }}
-    {{ range $all_entries }}
-    {{ range $key, $content := .labels }}
-    {{ if eq $key $current_type}}
-    {{ $num_entries = add $num_entries 1}}
-    {{ end }}
-    {{ end }}
-    {{ end }}
-    {{ $data_type_num_entries := dict $current_type $num_entries }}
-    {{ $num_entries_per_data_type = merge $num_entries_per_data_type $data_type_num_entries }}
-    {{ end }}
+        {{ range $all_data_types }}
+        {{ $current_type := . }}
+        {{ $num_entries := 0 }}
+        {{ range $all_entries }}
+        {{ range $key, $content := .labels }}
+        {{ if eq $key $current_type}}
+        {{ $num_entries = add $num_entries 1}}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+        {{ $data_type_num_entries := dict $current_type $num_entries }}
+        {{ $num_entries_per_data_type = merge $num_entries_per_data_type $data_type_num_entries }}
+        {{ end }}
 
-    {{/*
-        The following bit ensures that it is not necessary to copy the datatypes_to_display list in the Swedish version of the page
-      */}}
+        {{/*
+          The following bit ensures that it is not necessary to copy the datatypes_to_display list in the Swedish version of the page
+          */}}
 
-    {{ $datatypes_to_display := slice }}
-    {{ $path := strings.TrimPrefix "/sv" (strings.TrimRight "/" (string .Page.RelPermalink)) }}
-    {{ with .Sites.First.GetPage $path }}
-    {{ $datatypes_to_display = .Params.datatypes_to_display }}
-    {{ end }}
+          {{ $datatypes_to_display := slice }}
+          {{ $path := strings.TrimPrefix "/sv" (strings.TrimRight "/" (string .Page.RelPermalink)) }}
+          {{ with .Sites.First.GetPage $path }}
+          {{ $datatypes_to_display = .Params.datatypes_to_display }}
+          {{ end }}
 
     <div class="container mb-4">
       {{ range .Site.Menus.homepage_available_data }}
@@ -82,38 +67,43 @@
       {{ end }}
       <div class="row">
         <div class="row">
-          {{ $data_types_menu := .Site.Menus.horizontal | append .Site.Menus.other_data}}
-          {{ range $data_types_menu }}
+
+          {{/* This used to be range over all available data pages, need to bring back */}}
+
+          {{ range .Site.Menus.data_menu }}
+          {{ if eq .Title "Available datasets" }}
+          {{ range .Children }}
+          {{ if ne .Title "All data types" }}
           <div class="col-md-4">
             <h5><a href="{{ .Page.RelPermalink }}">
-                {{ .Name }}
-                {{ $section_title := string "" }}
-                {{ if eq $.Site.Language.LanguageName "Svenska" }}
-                {{ $section_title =  .Params.title_eng}}
-                {{ else }}
-                {{ $section_title = .Title}}
-                {{ end }}
-                {{ $this_type := strings.TrimRight " data" (lower $section_title) }}
-                {{ if eq $section_title "Protein data"}}
-                {{ $this_type = "proteins"}}
-                {{ end }}
-                {{ range $type, $num := $num_entries_per_data_type }}
-                {{ $type_in_dict := strings.TrimRight " data" ( strings.TrimPrefix "category: " (lower $type) ) }}
-                {{ if eq $this_type $type_in_dict }}
-                ({{ $num }})
-                {{ end }}
-                {{ end }}
-                <i class="bi bi-arrow-right-circle-fill"></i></a></h5>
+              {{ $section_title := string "" }}
+              {{ $section_title = .Title}}
+              {{ $this_type := strings.TrimRight " data" (lower $section_title) }}
+              {{ if eq $section_title "Protein data"}}
+              {{ $this_type = "proteins"}}
+              {{ end }}
+              {{ range $type, $num := $num_entries_per_data_type }}
+              {{ $type_in_dict := strings.TrimRight " data" ( strings.TrimPrefix "category: " (lower $type) ) }}
+              {{ if eq $this_type $type_in_dict }}
+              {{ if eq $section_title "Genomics & transcriptomics data"}}
+              {{ $this_type = "genomics"}}
+              {{ end }}
+              {{ $this_type | title }}
+              ({{ $num }})
+              {{ end }}
+              {{ end }}
+              <i class="bi bi-arrow-right-circle-fill"></i></a></h5>
+            </div>
+            {{ end }}
+            {{ end }}
+            {{ end }}
+            {{ end }}
           </div>
-          {{ end }}
         </div>
       </div>
-      <div class="row mt-2">
-        <h5><a href="#testing_results">{{ $.Param "teststats.name" }}
-            <i class="bi bi-arrow-right-circle-fill"></i></a></h5>
-      </div>
-    </div>
+    {{ end }}
 
+    {{ if ne $.Site.Language.LanguageName "Svenska" }}
     <!-- Data highlights -->
     <div class="container mb-4">
       {{ range .Site.Menus.homepage_highlights }}
@@ -138,7 +128,101 @@
         </div>
       </div>
     </div>
+    {{ end }}
 
+    <!-- Dashboards -->
+    <div class="container mb-4">
+      {{ range .Site.Menus.homepage_dashboards }}
+      <div class="row">
+        <h2>{{ .Name }}</h2>
+      </div>
+      <div class="row">
+        <p class="small text-muted">{{ .Post }}</p>
+      </div>
+      {{ end }}
+      <!-- Serology testing -->
+      <div class="row">
+        <div class="col-md mb-2">
+          <div class="row">
+            <h6><a
+              href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/dashboards/serology-statistics/">{{ $.Param "teststats.serologytitle" }}
+              <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
+            </div>
+            <div class="row">
+              <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
+                horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+                <div class="table-responsive" id="serology"></div>
+              </div>
+            </div>
+          </div>
+        <!-- Wastewater -->
+        <div class="row">
+          <div class="col-md mb-2">
+            <div class="row">
+              <h6><a
+                href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/">{{ $.Param "teststats.wastewater_main_title" }}
+                <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
+              </div>
+              <div class="row">
+                <h6>Stockholm</h6>
+                <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
+                  horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+                  <div class="table-responsive" id="stockholm_wastewater"></div>
+                </div>
+              <div class="row">
+                <h6>Malmö</h6>
+                <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
+                  horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+                  <div class="table-responsive" id="malmo_wastewater"></div>
+                </div>
+              <div class="row">
+                <h6>Uppsala</h6>
+                <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
+                  horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+                  <div class="table-responsive" id="uppsala_wastewater"></div>
+                </div>
+                  </div>
+                </div>
+          <!-- Post-covid condition -->
+          <div class="row">
+            <div class="col-md mb-2">
+              <div class="row">
+                <h6><a
+                  href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/health_data/post_covid/">{{ $.Param "teststats.postcovidtitle" }}
+                  <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
+                </div>
+                <div class="row">
+                  <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
+                    horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+                    <div class="table-responsive" id="postcovid_halthcare_contacts"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- Vaccines -->
+              <div class="row">
+                <div class="col-md mb-2">
+                  <div class="row">
+                    <h6><a
+                      href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/health_data/vaccines/">{{ $.Param "teststats.vaccinestitle" }}
+                      <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
+                    </div>
+                    <div class="row">
+                      <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
+                        horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+                        <div class="table-responsive">
+                          <div id="https://blobserver.dckube.scilifelab.se/blob/vaccine_heatmap_small.json" class="plotly"
+                          style="width:600px;height:300px"></div>
+                        </div>
+                        <script>
+                          Plotly.d3.json('https://blobserver.dckube.scilifelab.se/blob/vaccine_heatmap_small.json', function (err, fig) {
+                            Plotly.plot('https://blobserver.dckube.scilifelab.se/blob/vaccine_heatmap_small.json', fig.data, fig.layout, { responsive: true });
+                          });
+                        </script>
+                      </div>
+                    </div>
+                  </div>
+
+    </div>
 
     <!-- Sample Collection Database -->
     <div class="container mb-4">
@@ -160,316 +244,86 @@
           </div>
           <div class="row align-items-end">
             <h5><a target="_blank"
-                href="https://biobanks.covid19dataportal.se/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Sök i
-                provsamlingsregistret{{ else }}Search in the database{{ end }} <i
-                  class="bi bi-arrow-right-circle-fill"></i></a></h5>
-          </div>
-        </div>
-        <div class="col-md-8">
-          <img class="img-thumbnail" src="/img/biobanks/scd_scr.png" alt="Sample Collection Database">
-        </div>
-      </div>
-    </div>
-
-    <!-- Research projects -->
-    <div class="container mb-4">
-      {{ range .Site.Menus.homepage_projects }}
-      <div class="row">
-        <h2>{{ .Name }}</h2>
-      </div>
-      <div class="row">
-        <p class="small text-muted">{{ .Post }}</p>
-      </div>
-      {{ end }}
-      <div class="row">
-        <div class="col-md-6">
-          <div class="row">
-            <h5>{{ if eq $.Site.Language.LanguageName "Svenska" }}<a href="/sv/publications/">Publikationer
-                ({{ len $.Site.Data.publications.publications }}) <i
-                  class="bi bi-arrow-right-circle-fill"></i></a>{{ else }}<a href="/publications/">Publications
-                ({{ len $.Site.Data.publications.publications }}) <i
-                  class="bi bi-arrow-right-circle-fill"></i></a>{{ end }}
-            </h5>
-          </div>
-          {{ if ne $.Site.Language.LanguageName "Svenska" }}
-          {{ $research_projects := 0 }}
-          {{ range $.Site.Data.research_projects.projects }}
-          {{ if gt (.enddate | time.Format "20060102") (now | time.Format "20060102") }}
-          {{ $research_projects = add $research_projects 1}}
-          {{ end }}
-          {{ end }}
-          <div class="row">
-            <h5><a href="/research_projects/">Ongoing research projects ({{ $research_projects }}) <i
-                  class="bi bi-arrow-right-circle-fill"></i></a>
-            </h5>
-          </div>
-          {{ end }}
-          {{ if ne $.Site.Language.LanguageName "Svenska" }}
-          {{ $funding_opportunities := 0 }}
-          {{ range $.Site.Data.funding.calls }}
-          {{ if gt (.submission_deadline | time.Format "20060102") (now | time.Format "20060102") }}
-          {{ $funding_opportunities = add $funding_opportunities 1}}
-          {{ end }}
-          {{ end }}
-          <div class="row">
-            <h5><a href="/funding/">Open funding
-                opportunities{{ if ne $funding_opportunities 0}} ({{ $funding_opportunities }}){{ end }} <i
-                  class="bi bi-arrow-right-circle-fill"></i></a></h5>
-          </div>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-
-    <!-- Visualizations pages -->
-    <div class="container mb-4">
-      <div class="row"><a id="testing_results">
-          <h2>{{ $.Param "teststats.name" }}</h2>
-        </a></div>
-      <div class="row">
-        <p class="small text-muted">{{ $.Param "teststats.desc" }}</p>
-      </div>
-      <!-- Serology testing -->
-      <div class="row">
-        <div class="col-md mb-2">
-          <div class="row">
-            <h6><a
-                href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/health_data/serology-statistics/">{{ $.Param "teststats.serologytitle" }}
-                <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
-          </div>
-          <div class="row">
-            <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
-              horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
-            <div class="table-responsive" id="serology"></div>
-          </div>
-        </div>
-      </div>
-      <!-- Wastewater -->
-      <div class="row">
-        <div class="col-md mb-2">
-          <div class="row">
-            <h6><a
-                href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/">{{ $.Param "teststats.wastewater_main_title" }}
-                <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
-          </div>
-          <div class="row">
-            <h6>Stockholm</h6>
-            <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
-              horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
-            <div class="table-responsive" id="stockholm_wastewater"></div>
-          </div>
-          <div class="row">
-            <h6>Malmö</h6>
-            <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
-              horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
-            <div class="table-responsive" id="malmo_wastewater"></div>
-          </div>
-          <div class="row">
-            <h6>Uppsala</h6>
-            <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
-              horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
-            <div class="table-responsive" id="uppsala_wastewater"></div>
-          </div>
-        </div>
-      </div>
-      <!-- Post-covid condition -->
-      <div class="row">
-        <div class="col-md mb-2">
-          <div class="row">
-            <h6><a
-                href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/health_data/post_covid/">{{ $.Param "teststats.postcovidtitle" }}
-                <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
-          </div>
-          <div class="row">
-            <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
-              horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
-            <div class="table-responsive" id="postcovid_halthcare_contacts"></div>
-          </div>
-        </div>
-      </div>
-      <!-- Vaccines -->
-      <div class="row">
-        <div class="col-md mb-2">
-          <div class="row">
-            <h6><a
-                href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/health_data/vaccines/">{{ $.Param "teststats.vaccinestitle" }}
-                <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
-          </div>
-          <div class="row">
-            <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
-              horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
-            <div class="table-responsive">
-              <div id="https://blobserver.dckube.scilifelab.se/blob/vaccine_heatmap_small.json" class="plotly"
-                style="width:600px;height:300px"></div>
+              href="https://biobanks.covid19dataportal.se/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Sök i
+              provsamlingsregistret{{ else }}Search in the database{{ end }} <i
+              class="bi bi-arrow-right-circle-fill"></i></a></h5>
             </div>
-            <script>
-              Plotly.d3.json('https://blobserver.dckube.scilifelab.se/blob/vaccine_heatmap_small.json', function (err, fig) {
-                Plotly.plot('https://blobserver.dckube.scilifelab.se/blob/vaccine_heatmap_small.json', fig.data, fig.layout, { responsive: true });
-              });
-            </script>
+          </div>
+          <div class="col-md-8">
+            <img class="img-thumbnail" src="/img/biobanks/scd_scr.png" alt="Sample Collection Database">
           </div>
         </div>
       </div>
-
-    </div>
 
   </div>
 
   <!-- Right sidebar -->
   <div class="col-lg-4">
+    <hr class="d-lg-none">
 
     <!-- About the portal -->
     <div class="container">
       <div class="row">
-        <h4>{{ if eq $.Site.Language.LanguageName "Svenska" }}Om dataportalen{{ else }}About this portal{{ end }}</h4>
-      </div>
-      <div class="row">
-        {{ .Content }}
-      </div>
-    </div>
-
-    <!-- Your your data ad -->
-    <div class="container mt-2 share-new-data">
-      <div class="row text-white pt-2 px-3">
-        <h4>{{ if eq $.Site.Language.LanguageName "Svenska" }}Dela nya covid-19 data{{ else }}Share new COVID-19
-          data{{ end }}</h4>
-      </div>
-      <div class="row text-white pb-3 px-3">{{ if eq $.Site.Language.LanguageName "Svenska" }}Teamet som arbetar med
-        covid-19 dataportalen hjälper dig gärna dela dina forskningsdata i öppna databaser och svarar på frågor om
-        datadelning, datahantering eller andra datarelaterade frågor.{{ else }}The portal team is happy to assist you
-        with submitting your data to open repositories or answer any questions about data management.{{ end }}</div>
-      <div class="row text-white pb-3 px-3">
-        <h6><a style="color:white"
-            href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/contact/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Support{{ else }}Support
-            request{{ end }} <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
-      </div>
-    </div>
-
-    <!-- Portal updates -->
-    {{ if eq $.Site.Language.LanguageName "English" }}
-    <div class="container mt-3">
-      <div class="row">
-        <h4>Portal news</h4>
-      </div>
-      <!-- CRUSH Covid -->
-      <div class="row border">
-        {{ $updates := where .Site.RegularPages "Section" "updates" }}
-        <div class="col mx-3 mb-2">
-          {{ range $index, $el := first 3 $updates }}
-          <div class="row mt-3"><span><a href="{{ .RelPermalink }}">{{ .Title }}</a></span></div>
-          <div class="row small text-muted">{{ .Date.Format "2006-01-02" }}</div>
-          {{ if ne $index 2}}
-          <hr>{{ end }}
-          {{ end }}
-          <div class="row mt-3"><span><a href="/updates/">See all portal news <i
-                  class="bi bi-arrow-right-circle-fill"></i></a></span></div>
+        <div class="col p-0">
+          <h4>{{ if eq $.Site.Language.LanguageName "Svenska" }}Om dataportalen{{ else }}About this portal{{ end }}</h4>
+          {{ .Content }}
         </div>
       </div>
     </div>
-    {{ end }}
 
-    <!-- External support services -->
-    <div class="container mt-3">
+    <!-- Share your data ad -->
+    <div class="container mt-2 share-new-data">
       <div class="row">
-        <h4>{{ if eq $.Site.Language.LanguageName "Svenska" }}Externa stödtjänster{{ else }}External support
-          services{{ end }}</h4>
+        <div class="col text-white pb-3 px-3">
+          <h4>{{ if eq $.Site.Language.LanguageName "Svenska" }}Dela nya data{{ else }}Share new data{{ end }}</h4>
+          {{ if eq $.Site.Language.LanguageName "Svenska" }}Teamet som arbetar med covid-19 dataportalen hjälper dig gärna dela dina forskningsdata i öppna databaser och svarar på frågor om datahantering.{{ else }}The portal team is happy to assist you with submitting your data to open repositories or answer any questions about data management.{{ end }}
+        </div></div>
+        <div class="row">
+          <div class="col text-white pb-3 px-3">
+            <h6><a style="color:white" href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/share-data/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Riktlinjer{{ else }}Guidelines{{ end }} <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
+            <h6><a style="color:white" href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/support/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Stödtjänster{{ else }}Support request{{ end }} <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
+          </div>
+        </div>
       </div>
-      <div class="row">
-        {{ range .Site.Menus.main }}
-        {{ if eq .Identifier "support_services" }}
-        <div class="col homepage-accordions px-0">
-          {{ range .Children }}
-          <div class="card">
-            <div class="card-header">
-              <a href="{{ .Page.RelPermalink }}">{{ .Pre }}<span
-                  class="{{ if .Pre }}ml-2{{ end }} mr-2">{{ .Name }}</span>{{ .Post }}</a>
+
+      {{ if ne $.Site.Language.LanguageName "Svenska" }}
+      <!-- Portal updates -->
+      <div class="container mt-2">
+        <div class="row">
+          <h4>Portal news</h4>
+        </div>
+        <!-- CRUSH Covid -->
+        <div class="row border">
+          {{ $updates := where .Site.RegularPages "Section" "updates" }}
+          <div class="col mx-3 mb-2">
+            {{ range $index, $el := first 3 $updates }}
+            <div class="row mt-3"><span><a href="{{ .RelPermalink }}">{{ .Title }}</a></span></div>
+            <div class="row small text-muted">{{ .Date.Format "2006-01-02" }}</div>
+            {{ if ne $index 2}}
+            <hr>{{ end }}
+            {{ end }}
+            <div class="row mt-3"><span><a href="/updates/">See all Portal news <i
+              class="bi bi-arrow-right-circle-fill"></i></a></span></div>
             </div>
           </div>
-          {{ end }}
         </div>
         {{ end }}
-        {{ end }}
+
       </div>
     </div>
-
-    <!-- Partner projects -->
-    <div class="container mt-3">
-      <div class="row">
-        <h4>{{ if eq $.Site.Language.LanguageName "Svenska" }}Samarbetsprojekt{{ else }}Partner projects{{ end }}</h4>
-      </div>
-      <!-- CRUSH Covid -->
-      <div class="row border">
-        <div class="col mx-3 mb-2">
-          <div class="row mt-3"><a target="_blank"
-              href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/data_types/health_data/crush_covid/"><img
-                src="/img/logos/crush_covid_logo.png" alt="CRUSH Covid" height="25"></a></div>
-          <div class="row mt-3"><span>{{ if eq $.Site.Language.LanguageName "Svenska" }}CRUSH Covid kartlägger
-              SARS-COV-2 utbrott i Region Uppsala genom att visualisera antal prover som tagits, antal positiva prover,
-              geografisk distribution, åldersfördelning mm. Data över antal positiva fall i ett visst postnummerområde
-              <a href="/sv/data_types/health_data/crush_covid/">finns tillgängligt för datadelning och återanvändning av
-                data</a>.{{ else }}CRUSH Covid maps outbreaks in Uppsala County by visualizing the number of cases, test
-              positivity, geographic distribution, age distribution, etc. Data on positivity per postal code <a
-                href="/data_types/health_data/crush_covid/">is available for download and further
-                re-use</a>.{{ end }}</span></div>
-        </div>
-      </div>
-      <!-- COVID Symptom Study Sweden -->
-      <div class="row mt-2 border">
-        <div class="col mx-3">
-          <div class="row">
-            <h5><a
-                href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv//data_types/health_data/symptom_study_sweden/{{ else }}/data_types/health_data/symptom_study_sweden/{{ end }}">COVID
-                Symptom Study Sweden</a></h5>
-          </div>
-          <div class="row"><span>{{ if eq $.Site.Language.LanguageName "Svenska" }}CSSS samlar kontinuerligt in data om
-              Covid-19 förekomste, symptom, och vaccinationer med hjälp av en smartphone app med över 200.000 användare
-              i Sverige. Insamlade rådata <a target="_blank" href="https://www.covid19app.lu.se/forskare">kan görs
-                tillgängliga för forskningsprojekt</a>. Läs <a
-                href="/sv/data_types/health_data/symptom_study_sweden/">mer om projektet här</a>.
-              <div class="table-responsive">
-                <div id="https://blobserver.dckube.scilifelab.se/blob/symptoms_map_swedish.json" class="plotly"
-                  style="height:300px"></div>
-              </div>
-              <script>
-                Plotly.d3.json('https://blobserver.dckube.scilifelab.se/blob/symptoms_map_swedish.json', function (err, fig) {
-                  Plotly.plot('https://blobserver.dckube.scilifelab.se/blob/symptoms_map_swedish.json', fig.data, fig.layout, { responsive: true });
-                });
-              </script>
-              {{ else }}CSSS
-              continuously collects data on COVID-19 prevalence, symptoms, and vaccinations through a smartphone app
-              with over 200,000 users in Sweden. Collected raw data <a target="_blank"
-                href="https://www.covid19app.lu.se/forskare">can be requested for use in research projects</a>. Find out
-              <a href="/data_types/health_data/symptom_study_sweden/">more about the project here</a>.
-              <div class="table-responsive">
-                <div id="https://blobserver.dckube.scilifelab.se/blob/symptoms_map_english.json" class="plotly"
-                  style="height:300px"></div>
-              </div>
-              <script>
-                Plotly.d3.json('https://blobserver.dckube.scilifelab.se/blob/symptoms_map_english.json', function (err, fig) {
-                  Plotly.plot('https://blobserver.dckube.scilifelab.se/blob/symptoms_map_english.json', fig.data, fig.layout, { responsive: true });
-                });
-              </script>
-              {{ end }}</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.0.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
 
 <script
-  src="https://datagraphics.dckube.scilifelab.se/graphic/e4c6a7b8bff648a5adaabbdd3d994bf9.js?id=serology"></script>
+src="https://datagraphics.dckube.scilifelab.se/graphic/e4c6a7b8bff648a5adaabbdd3d994bf9.js?id=serology"></script>
 <script
-  src="https://datagraphics.dckube.scilifelab.se/graphic/6d16b18be0d74425b313040c502f29c8.js?id=uppsala_wastewater"></script>
+src="https://datagraphics.dckube.scilifelab.se/graphic/6d16b18be0d74425b313040c502f29c8.js?id=uppsala_wastewater"></script>
 <script
-  src="https://datagraphics.dckube.scilifelab.se/graphic/93bad55e86ad4b0f97d4d27c77862bc9.js?id=stockholm_wastewater"></script>
+src="https://datagraphics.dckube.scilifelab.se/graphic/93bad55e86ad4b0f97d4d27c77862bc9.js?id=stockholm_wastewater"></script>
 <script
-  src="https://datagraphics.dckube.scilifelab.se/graphic/530ca62cc6f7449680793a252155fee3.js?id=postcovid_halthcare_contacts"></script>
+src="https://datagraphics.dckube.scilifelab.se/graphic/530ca62cc6f7449680793a252155fee3.js?id=postcovid_halthcare_contacts"></script>
 <script
-  src="https://datagraphics.dckube.scilifelab.se/graphic/d262787e199b4c9b8fbbaf5f95edb7bc.js?id=malmo_wastewater"></script>
+src="https://datagraphics.dckube.scilifelab.se/graphic/d262787e199b4c9b8fbbaf5f95edb7bc.js?id=malmo_wastewater"></script>
 {{ end }}

@@ -14,6 +14,7 @@ menu:
 plotly: true
 aliases:
     - /data_types/environment/wastewater/
+    - /data_types/environment/
 ---
 
 ## Introduction
