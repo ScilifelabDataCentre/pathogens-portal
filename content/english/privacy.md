@@ -12,7 +12,11 @@ We will not use or share your information with anyone except as described in thi
 
 ## Log Data
 
-We want to inform you that whenever you visit our **Service**, we collect information that your browser sends to us that is called Log Data. This Log Data may include information such as your computer’s Internet Protocol ("IP") address, browser version, pages of our **Service** that you visit, the time and date of your visit, the time spent on those pages, and other statistics.
+We want to inform you that whenever you visit our **Service**, we collect information that your browser sends to us that is called Log Data. This Log Data may include: the website from which you visited us from, the parts of our **Service** you visit, the date and duration of your visit, your anonymised IP address, information from the device (device type, operating system, screen resolution, language, country you are located in, and web browser type) you used during your visit, and more. We process this usage data in Matomo Analytics (hosted on SciLifeLab servers and operated solely by SciLifeLab) for statistical purposes, to improve our **Service** and to recognize and stop any misuse.
+
+You can opt out of your Log Data being collected below:
+
+<iframe style="border: 0; height: 100px; width: 600px;" src="https://matomo.dckube.scilifelab.se/index.php?module=CoreAdminHome&action=optOut&language=en&fontSize=14px&fontFamily=Helvetica"></iframe>
 
 ## Forms
 
@@ -42,11 +46,11 @@ There are several ways of limiting the cookies that are accepted by your web bro
 
 You can:
 
-- block cookies entirely in the browser settings;  
-- set the browser so you can accept or reject each cookie manually;  
-- set the browser to block third party cookies;  
-- list a number of trusted websites from which your browser will accept cookies;  
-- use a plug-in that wholly or partly limits cookies based on adjustable conditions;  
+- block cookies entirely in the browser settings;
+- set the browser so you can accept or reject each cookie manually;
+- set the browser to block third party cookies;
+- list a number of trusted websites from which your browser will accept cookies;
+- use a plug-in that wholly or partly limits cookies based on adjustable conditions;
 - set the browser to delete all cookies when you close the program.
 
 You can read more about cookies [on the Swedish Post and Telecom Authority’s website](https://pts.se/en/english-b/regulations2/legislation/electronic-communications-act/q/).
