@@ -395,46 +395,6 @@ div.dataTables_wrapper div.dataTables_info {
 }
 
 /*
- * The following styles are adapted from:
- * https://github.com/Wruczek/Bootstrap-Cookie-Alert
- * Released under MIT license
- */
-
-.cookiealert {
-    color: white;
-    padding: 0.5rem 1rem;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    margin: 0 !important;
-    z-index: 999;
-    visibility: hidden;
-    transform: translateY(100%);
-    transition: all 500ms ease-out;
-    background: rgba(46, 104, 165, 0.9);
-}
-
-.cookiealert.show {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0%);
-    transition-delay: 1000ms;
-}
-
-.cookiealert a {
-    text-decoration: underline;
-    color: white;
-}
-
-.cookiealert .acceptcookies {
-    margin-left: 10px;
-    vertical-align: baseline;
-    border-color: rgba(77, 77, 77, 1);
-    background: rgba(77, 77, 77, 1);
-}
-
-/*
  * Styling for the banner of Data and Code reuse competition
  */
 

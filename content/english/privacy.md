@@ -28,33 +28,6 @@ The following parties will have access to processing the personal data provided 
 
 Our **Service** may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over, and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
 
-<a id="cookies"><h2>Cookies</h2></a>
-
-Our **Service** uses cookies. A cookie is a text file that a website asks to store on the visitor’s computer. Cookies contain information that is needed for various functions on the website. Cookies can be created and stored by the website owner or created and stored by third parties. “Third party cookies” are created by external services, such as tools for collecting web statistics. They can be used to map your behaviour on several different websites. Most browsers offer the option of blocking this type of cookies.
-
-Our **Service** uses cookies for two purposes. One purpose is to collect web statistics about the visitors. Data from these cookies is used in the work on developing the functions and content of the **Service**. When collecting web statistics, we use Google Analytics, and it creates third party cookies.
-
-The second purpose for which we use cookies is to know that you have accepted our use of cookies by clicking on the button "I understand" in our cookie message. This cookie is created stored by us, the website owner.
-
-##### Detailed information about the cookies that are stored by our **Service**
-
-{{< cookies_table >}}
-
-##### Limiting the cookies
-
-There are several ways of limiting the cookies that are accepted by your web browser. The settings vary from browser to browser, but in general, the options may be described as follows:
-
-You can:
-
-- block cookies entirely in the browser settings;
-- set the browser so you can accept or reject each cookie manually;
-- set the browser to block third party cookies;
-- list a number of trusted websites from which your browser will accept cookies;
-- use a plug-in that wholly or partly limits cookies based on adjustable conditions;
-- set the browser to delete all cookies when you close the program.
-
-You can read more about cookies [on the Swedish Post and Telecom Authority’s website](https://pts.se/en/english-b/regulations2/legislation/electronic-communications-act/q/).
-
 ## Changes to This Privacy Policy
 
 We may update our Privacy Policy from time to time.
