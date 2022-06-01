@@ -17,20 +17,20 @@ Here we give an overview of available resources regarding research data manageme
 
 ## Data management resources
 
-### National Bioinformatics Infrastructure Sweden (NBIS)
+### National Bioinformatics Infrastructure Sweden (NBIS) abd SciLifeLab Data Centre
 
 ![NBIS Logo](/img/logos/nbislogo-orange-txt.svg#floatright)
 
 - [A Brief Introduction to Data Management](https://www.nbis.se/infrastructure/data-management/dm-introduction.html)
 - [SciLifeLab Data Guidelines](https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/index.html) - data type specific guidelines for good data management practices
 - [SciLifeLab Data Stewardship Wizard, DSW](http://dsw.scilifelab.se/) - a customised tool for creating Data Management Plans (DMPs) with templates conforming to the requirements of the Swedish Research Council and other stakeholders
-- [Free Consultations](https://nbis.se/support/supportform/index.php?form=consultation) - data stewards from NBIS are available to discuss and provide support regarding data management questions
+- [SciLifeLab Data Management helpdesk](mailto:data-management@scilifelab.se) - data stewards from NBIS and SciLifeLab Data Centre are available to discuss and provide support regarding data management questions
 
 ### ELIXIR Research Data Management Kit (RDMkit)
 
 ![SND logo](/img/logos/rdmkit_logo.png#floatright)
 
-The ELIXIR Research Data Management Kit (RDMkit) is an online guide containing good data management practices applicable to research projects from the beginning to the end. Developed and managed by people who work every day with life science data, the RDMkit has guidelines, information, and pointers to help you with problems throughout the data’s life cycle. RDMkit supports FAIR data — Findable, Accessible, Interoperable and Reusable — by-design, from the first steps of data management planning to the final steps of depositing data in public archives.
+The [ELIXIR Research Data Management Kit (RDMkit)](https://rdmkit.elixir-europe.org/) is an online guide containing good data management practices applicable to research projects from the beginning to the end. Developed and managed by people who work every day with life science data, the RDMkit has guidelines, information, and pointers to help you with problems throughout the data’s life cycle. RDMkit supports FAIR data — Findable, Accessible, Interoperable and Reusable — by-design, from the first steps of data management planning to the final steps of depositing data in public archives.
 
 Information is organised by role (e.g., researcher, data steward), scientific domain (e.g., proteomics, human data, bioimaging data), tasks (e.g., data analysis, data management plan, licensing).
 
