@@ -58,6 +58,28 @@ This dashboard is focussed on vaccine research. We visualise information about t
 
 <hr>
 
+<h4><a href="/dashboards/recovac/">RECOVAC <i class="bi bi-arrow-right-circle-fill"></i></a></h4>
+
+This dashboard was produced in collaboration with the group behind register-based large-scale national population study to monitor COVID-19 vaccination effectiveness and safety (RECOVAC). The section contains information about what the RECOVAC project involves, how others may access the data, and initial publications, among other things. Visualisations are available on certain elements of the data collated by the project.
+
+<div class="row">
+  <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
+    horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+  <div class="table-responsive">
+    <div id="https://blobserver.dckube.scilifelab.se/blob/ICUadmiss_small.json" class="plotly"
+      style="width:600px;height:300px"></div>
+  </div>
+  <script>
+    Plotly.d3.json('https://blobserver.dckube.scilifelab.se/blob/ICUadmiss_small.json', function (err, fig) {
+      Plotly.plot('https://blobserver.dckube.scilifelab.se/blob/ICUadmiss_small.json', fig.data, fig.layout, { responsive: true });
+    });
+  </script>
+</div>
+
+<a href="/dashboards/recovac/">See the full dashboard <i class="bi bi-arrow-right-circle-fill"></i></a>
+
+<hr>
+
 <h4><a href="post_covid/">Post COVID-19 condition in Sweden <i class="bi bi-arrow-right-circle-fill"></i></a></h4>
 
 In this dashboard, you can find visualisations of data related to Post COVID-19 condition in Sweden from The Swedish Board of Health and Welfare (Socialstyrelsen), an overview of ongoing Post COVID-19 condition research projects in Sweden, and scientific publications regarding Post COVID-19 condition by researchers affiliated with Swedish universities or research institutes.

@@ -8,6 +8,8 @@ teststats:
         seemoretext: See all graphs
         postcovidtitle: Post COVID-19 condition in Sweden
         vaccinestitle: COVID-19 vaccine administration in Sweden
+        recovactitle: RECOVAC
+
 plotly: true
 ---
 

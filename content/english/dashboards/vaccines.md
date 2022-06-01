@@ -39,6 +39,7 @@ The section also displays ongoing [Swedish research projects](/data_types/health
 - For health information connected to vaccination and tests by different **Swedish Regions**, see [Regional information on 1177](https://www.1177.se/).
 - The **European Centre for Disease Prevention and Control** (ECDC) shows information about the vaccines [here](https://www.ecdc.europa.eu/en/covid-19/prevention-and-control/vaccines).
 - Information about the vaccines is available from the **Centre for disease Control** [here](https://www.cdc.gov/coronavirus/2019-ncov/vaccines/index.html).
+- Information and data visualisations related to the register-based large-scale national population study to monitor COVID-19 vaccination effectiveness and safety ([RECOVAC](https://www.gu.se/en/research/recovac)) are presented in a [separate dashboard](/dashboards/recovac/).
 
 ## Visualisations related to vaccination coverage
 
