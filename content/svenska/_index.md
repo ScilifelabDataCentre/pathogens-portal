@@ -13,6 +13,7 @@ teststats:
         seemoretext: Se mer
         postcovidtitle: Statistik om postcovid i Sverige
         vaccinestitle: Administrering av covid-19 vaccin i Sverige
+        recovactitle: RECOVAC
 plotly: true
 ---
 

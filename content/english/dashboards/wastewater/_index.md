@@ -5,7 +5,7 @@ menu:
     data_menu:
         identifier: wastewater
         name: Amount of SARS-CoV-2 in wastewater across Sweden
-        weight: 30
+        weight: 20
         parent: dashboards
     other_data:
         name: Environment
