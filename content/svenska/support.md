@@ -1,9 +1,9 @@
 ---
-title: Support
+title: Stödtjänster
 toc: false
 menu:
     top_actions:
-        name: Support
+        name: Stödtjänster
         weight: 70
         pre: <i class="bi bi-people-fill mr-2"></i>
 aliases:

@@ -1,11 +1,5 @@
 ---
 title: "Services: genomics & transcriptomics"
-menu:
-    main:
-        name: Services for researchers
-        identifier: genomics_transcriptomics_services
-        parent: genomics_transcriptomics
-        weight: 30
 ---
 
 ## SciLifeLab Genomics Platform

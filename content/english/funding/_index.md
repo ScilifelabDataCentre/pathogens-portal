@@ -5,9 +5,6 @@ menu:
         identifier: funding
         name: Funding opportunities
         weight: 20
-    footer_sections:
-        name: Funding opportunities
-        weight: 40
 aliases:
     - /projects/funding/
     - /sv/projects/funding/

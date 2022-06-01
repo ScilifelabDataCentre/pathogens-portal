@@ -4,9 +4,6 @@ menu:
     swe_menu:
         name: Provsamlingsregistret
         weight: 30
-    footer_sections:
-        name: Provsamlingsregistret
-        weight: 10
     homepage_biobanks:
         name: Provsamlingsregistret
         identifier: biobanks
