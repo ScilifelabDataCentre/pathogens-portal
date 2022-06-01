@@ -305,6 +305,29 @@
           </div>
         </div>
       </div>
+      <!-- RECOVAC -->
+      <div class="row">
+        <div class="col-md mb-2">
+          <div class="row">
+            <h6><a
+                href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/dashboards/recovac/">{{ $.Param "teststats.recovactitle" }}
+                <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
+          </div>
+          <div class="row">
+            <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
+              horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+            <div class="table-responsive">
+              <div id="https://blobserver.dckube.scilifelab.se/blob/ICUadmiss_small.json" class="plotly"
+                style="width:600px;height:300px"></div>
+            </div>
+            <script>
+              Plotly.d3.json('https://blobserver.dckube.scilifelab.se/blob/ICUadmiss_small.json', function (err, fig) {
+                Plotly.plot('https://blobserver.dckube.scilifelab.se/blob/ICUadmiss_small.json', fig.data, fig.layout, { responsive: true });
+              });
+            </script>
+          </div>
+        </div>
+      </div>
 
     </div>
 

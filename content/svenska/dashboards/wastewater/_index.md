@@ -5,7 +5,7 @@ menu:
   swe_menu:
       identifier: wastewater
       name: Mängd SARS-CoV-2 virus i avloppsvatten från svenska städer
-      weight: 30
+      weight: 20
       parent: dashboards
   other_data:
       name: Samhälle och miljö

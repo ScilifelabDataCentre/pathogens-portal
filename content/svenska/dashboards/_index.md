@@ -19,8 +19,7 @@ menu:
 The SciLifeLab Autoimmunity and Serology profiling facility has been conducting testing for SARS-CoV-2 antibodies since the start of the COVID-19 pandemic. The vast majority of samples analysed so far have been collected from health care personnel and within population based studies as well as from personnel in the pharmaceutical and biotechnology industry and also within a long range of research collaborations. This dashboard displays the total number of tests conducted, positive and negative test results over time.
 
 <div class="row">
-  <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
-    horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+  <div class="container d-md-none"><div class="alert alert-info">Scroll the plot sideways to view all data.</div></div>
   <div class="table-responsive" id="serology"></div>
 </div>
 
@@ -32,8 +31,7 @@ The SciLifeLab Autoimmunity and Serology profiling facility has been conducting 
 
 Wastewater surveillance could prove an effective system for monitoring COVID-19 prevalence and act as an early warning system for predicting upcoming outbreaks. In this dashboard, we present weekly wastewater epidemiology data from various Swedish cities which have a total population of over 2.5 million people (over 25% of the population of Swden). The data presented here originates from analyses conducted by the Swedish Environmental Epidemiology Center (SEEC). Data available from: Stockholm, Malmö, Uppsala, Umeå, Örebro, Kalmar, and other municipalities.
 
-<div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
-  horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+<div class="container d-md-none"><div class="alert alert-info">Scroll the plot sideways to view all data.</div></div>
 <div class="table-responsive" id="stockholm_wastewater"></div>
 
 <a href="wastewater/">See the full dashboard <i class="bi bi-arrow-right-circle-fill"></i></a>
@@ -45,8 +43,7 @@ Wastewater surveillance could prove an effective system for monitoring COVID-19 
 This dashboard is focussed on vaccine research. We visualise information about the amount of people (across different regions, different age groups, or in Sweden generally) that have received one, two, or three doses of vaccination. The section also displays ongoing Swedish research projects related to vaccine research. These projects are focussed broadly on vaccines and, as such, they include life science projects, registery-based projects, and public health projects. We also show a subset of publications related to vaccine research by researchers affiliated with a Swedish University or Research Institute.
 
 <div class="row">
-  <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
-    horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+  <div class="container d-md-none"><div class="alert alert-info">Scroll the plot sideways to view all data.</div></div>
   <div class="table-responsive">
     <div id="https://blobserver.dckube.scilifelab.se/blob/vaccine_heatmap_small.json" class="plotly"
       style="width:600px;height:300px"></div>
@@ -62,12 +59,32 @@ This dashboard is focussed on vaccine research. We visualise information about t
 
 <hr>
 
+<h4><a href="/dashboards/recovac/">RECOVAC <i class="bi bi-arrow-right-circle-fill"></i></a></h4>
+
+This dashboard was produced in collaboration with the group behind register-based large-scale national population study to monitor COVID-19 vaccination effectiveness and safety (RECOVAC). The section contains information about what the RECOVAC project involves, how others may access the data, and initial publications, among other things. Visualisations are available on certain elements of the data collated by the project.
+
+<div class="row">
+  <div class="container d-md-none"><div class="alert alert-info">Scroll the plot sideways to view all data.</div></div>
+  <div class="table-responsive">
+    <div id="https://blobserver.dckube.scilifelab.se/blob/ICUadmiss_small.json" class="plotly"
+      style="width:600px;height:300px"></div>
+  </div>
+  <script>
+    Plotly.d3.json('https://blobserver.dckube.scilifelab.se/blob/ICUadmiss_small.json', function (err, fig) {
+      Plotly.plot('https://blobserver.dckube.scilifelab.se/blob/ICUadmiss_small.json', fig.data, fig.layout, { responsive: true });
+    });
+  </script>
+</div>
+
+<a href="/dashboards/recovac/">See the full dashboard <i class="bi bi-arrow-right-circle-fill"></i></a>
+
+<hr>
+
 <h4><a href="post_covid/">Post COVID-19 condition in Sweden <i class="bi bi-arrow-right-circle-fill"></i></a></h4>
 
 In this dashboard, you can find visualisations of data related to Post COVID-19 condition in Sweden from The Swedish Board of Health and Welfare (Socialstyrelsen), an overview of ongoing Post COVID-19 condition research projects in Sweden, and scientific publications regarding Post COVID-19 condition by researchers affiliated with Swedish universities or research institutes.
 
-<div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
-  horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+<div class="container d-md-none"><div class="alert alert-info">Scroll the plot sideways to view all data.</div></div>
 <div class="table-responsive" id="postcovid_halthcare_contacts"></div>
 
 <a href="post_covid/">See the full dashboard <i class="bi bi-arrow-right-circle-fill"></i></a>

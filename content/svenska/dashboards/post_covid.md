@@ -6,7 +6,7 @@ menu:
     swe_menu:
         identifier: post_covid
         name: Post COVID-19 i Sverige
-        weight: 40
+        weight: 50
         parent: dashboards
 aliases:
     - /sv/data_types/health_data/post_covid/

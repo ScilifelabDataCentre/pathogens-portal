@@ -6,7 +6,7 @@ menu:
     data_menu:
         identifier: post_covid
         name: Post COVID-19 condition in Sweden
-        weight: 40
+        weight: 50
         parent: dashboards
 aliases:
     - /data_types/health_data/post_covid/
