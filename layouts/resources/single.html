@@ -3,14 +3,30 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-3 pl-0 pr-2">
-      <h5>Resources</h5>
-        {{ $current_url := .Page.RelPermalink }}
-        {{ range .Site.Menus.resources_menu }}
-          <div class="d-block">{{ if ne .Page.RelPermalink $current_url }}<a href="{{ .Page.RelPermalink }}">{{ else }}<b>{{ end }}<i class="bi bi-caret-right-fill"></i>{{ .Name }}{{ if ne .Page.RelPermalink $current_url }}</a>{{ else }}</b>{{ end }}</div>
-        {{ end }}
+      {{- partial "resources_sidebar.html" . -}}
       </div>
     <div class="col-lg">
+        <h2>{{ .Params.resource_info.name }}</h2>
+        {{ if .Params.resource_info.funded_project_title }}<h5>Funding given for project project entitled:</h5>
+        <p>{{ .Params.resource_info.funded_project_title }}</p>{{ end }}
+        <h5>PI(s)/Head responsible for the resource:</h5>
+        <p>{{ .Params.resource_info.pi }}</p>
+        <h5>Host organisation:</h5>
+        <p>{{ .Params.resource_info.host_organisation }}</p>
+        <h5>Resource descriptipn:</h5>
         {{ .Content }}
+        <h5>How this resource can be used for Pandemic Preparedness research:</h5>
+        <p>{{ .Params.resource_info.use | markdownify }}</p>
+        <h5>Who and under which conditions is able to access the resource:</h5>
+        <p>{{ .Params.resource_info.access | markdownify }}</p>
+        <h5>Available data, code, and protocols from the resource:</h5>
+        <p>{{ .Params.resource_info.data_etc | markdownify }}</p>
+        {{ if .Params.resource_info.publications_etc }}<h5>SOPs, guidelines, publications, etc. describing the resource:</h5>
+        <p>{{ .Params.resource_info.publications_etc | markdownify }}</p>{{ end }}
+        {{ if .Params.resource_info.webpage }}<h5>Webpage:</h5>
+        <p>{{ .Params.resource_info.webpage | markdownify }}</p>{{ end }}
+        <h5>Contact information:</h5>
+        <p>{{ .Params.resource_info.contact | markdownify }}</p>
     </div>
   </div>
 </div>
