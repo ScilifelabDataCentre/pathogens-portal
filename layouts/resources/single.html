@@ -11,8 +11,8 @@
         <p>{{ .Params.resource_info.funded_project_title }}</p>{{ end }}
         <h5>PI(s)/Head responsible for the resource:</h5>
         <p>{{ .Params.resource_info.pi }}</p>
-        <h5>Host organisation:</h5>
-        <p>{{ .Params.resource_info.host_organisation }}</p>
+        <h5>Host organisation(s):</h5>
+        <p>{{ .Params.resource_info.host_organisation | markdownify }}</p>
         <h5>Resource descriptipn:</h5>
         {{ .Content }}
         <h5>How this resource can be used for Pandemic Preparedness research:</h5>
