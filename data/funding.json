@@ -1,16 +1,32 @@
 {
-  "last_updated": "2022-05-03",
+  "last_updated": "2022-06-08",
   "calls": [
-    {"topic": ["Infectious diseases", "Antibiotic resistance"],
-    "funder": "Swedish Research Council",
-    "call_title": "Proof of concept within the infection area",
-    "call_url": "https://www.vr.se/english/applying-for-funding/calls/2022-01-17-proof-of-concept-within-the-infection-area.html",
-    "call_description": "The purpose of the grant is to bridge the gap between basic research and utilisation or commercialisation of research results within the infection area. The proof of concept grant offers persons who are receiving or have received a grant from the Swedish Research Council (Vetenskapsrådet), The Swedish Research Council for health, working life and welfare (Forte) or the Swedish Research Council for sustainable development (Formas) the opportunity to further develop their research results. This shall be done by verifying the useability and suitability of a new method, product or process developed from an earlier research project, and to carry out activities preparatory to innovation or commercialisation.",
-    "submission_deadline": "2022-05-24",
-    "submission_opendate": "2022-04-20",
-    "funding_period": "1-2 years",
-    "funding_amount": "500 000 SEK per year, maximum 2 000 000 SEK in total",
-    "decision_date": "No later than the beginning of December 2022"
+    {
+      "topic": [
+        "Infectious diseases",
+        "COVID-19"
+      ],
+      "funder": "ISIDORe",
+      "call_title": "SARS-COV-2 & COVID‑19",
+      "call_url": "https://isidore-project.eu/calls/sars-cov-2-covid%E2%80%9119/",
+      "call_description": "Your request for free of charge transnational access to ISIDORe services for supporting and advancing your research must be focused on one of; surveillance & epidemic risk management, understanding SARS-CoV- 2 & COVID-19, diagnostics, therapeutics, vaccines, or social sciences & epidemiology.",
+      "submission_deadline": "2025-01-01",
+      "submission_opendate": "2022-05-15",
+      "funding_amount": "Funding will be available for as long as it remains available. Call provides access to ISIDORe services, not a given monetary amount."
+    },
+    {
+      "topic": [
+        "Infectious diseases",
+        "Antibiotic resistance"
+      ],
+      "funder": "Swedish Research Council",
+      "call_title": "Proof of concept within the infection area",
+      "call_url": "https://www.vr.se/english/applying-for-funding/calls/2022-01-17-proof-of-concept-within-the-infection-area.html",
+      "call_description": "The purpose of the grant is to bridge the gap between basic research and utilisation or commercialisation of research results within the infection area. The proof of concept grant offers persons who are receiving or have received a grant from the Swedish Research Council (Vetenskapsrådet), The Swedish Research Council for health, working life and welfare (Forte) or the Swedish Research Council for sustainable development (Formas) the opportunity to further develop their research results. This shall be done by verifying the useability and suitability of a new method, product or process developed from an earlier research project, and to carry out activities preparatory to innovation or commercialisation.",
+      "submission_deadline": "2022-05-24",
+      "submission_opendate": "2022-04-20",
+      "funding_period": "1-2 years",
+      "funding_amount": "500 000 SEK per year, maximum 2 000 000 SEK in total"
     },
     {
       "topic": [
