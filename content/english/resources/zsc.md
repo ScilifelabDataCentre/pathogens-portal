@@ -4,7 +4,7 @@ menu:
     resources_menu:
         identifier: zsc
         name: "ZSC: National core facility for Pandemic Preparedness"
-        weight: 30
+        weight: 70
 resource_info:
     name: "ZSC: National core facility for Pandemic Preparedness"
     funded_project_title:

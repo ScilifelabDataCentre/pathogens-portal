@@ -4,7 +4,7 @@ menu:
     resources_menu:
         identifier: serology
         name: "Multiplex and high-throughput multi-disease serology"
-        weight: 40
+        weight: 60
 resource_info:
     name: Multiplex and high-throughput multi-disease serology
     funded_project_title:

@@ -4,7 +4,7 @@ menu:
     resources_menu:
         identifier: bsl3-facility
         name: "State-of-the-art biosafety level 3 (BSL3) facility"
-        weight: 50
+        weight: 45
 resource_info:
     name: "State-of-the-art biosafety level 3 (BSL3) facility"
     funded_project_title: "BSL3 Biomedicum-SciLifeLab Collaborative Platform"
