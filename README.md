@@ -22,7 +22,6 @@ The website is intended to provide a central place to provide information about:
 The site is built using the [Hugo](https://gohugo.io/) static web site generator.
 It uses the [Bootstrap](https://getbootstrap.com/) framework. In addition, it uses [Vega-Lite](https://vega.github.io/vega-lite/), [DataTables](https://datatables.net/), [OpenLayers](https://openlayers.org/), [plotly](https://plotly.com/), [ImJoy](https://imjoy.io/) for various features.
 
-
 ## Development and contributions
 
 ### Adding and editing information in different sections
