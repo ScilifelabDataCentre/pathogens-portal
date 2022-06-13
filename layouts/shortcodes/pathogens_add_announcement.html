@@ -1,3 +1,5 @@
+{{ $origin := .Get "origin" }}
+
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary mb-2" data-toggle="modal" data-target="#annModal">
   Add an announcement
@@ -37,7 +39,7 @@
           <div id="form_ann_recaptcha"></div>
           <div class="g-recaptcha" data-sitekey="6LesV0gaAAAAAGFjazG7Hd_hN72cpeYm2woivBT3"></div>
           <input type="url" id="originUrl_ann" name="originUrl" value="" hidden />
-          <input type='hidden' name='origin' value='omicron_voc_announcement'>
+          <input type='hidden' name='origin' value='{{ $origin }}'>
           <div class="form-group row">
             <div class="col-sm-9">
                 <button type="button" class="btn btn-secondary mt-3" data-dismiss="modal">Close</button>
