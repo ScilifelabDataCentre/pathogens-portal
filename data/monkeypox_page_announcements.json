@@ -1,5 +1,10 @@
 [
   {
+    "date_time": "2022-06-03",
+    "title": "Workflows for sequence variant analysis",
+    "text": "Two Galaxy workflows for monkeypox sequence variant analysis have been made available. One workflow (Illumina metatranscriptomic PE) deals with variant analysis from metatranscriptomic data. The other workflow (Report generation) can be used to generate the final variant analysis reports/plots. The workflows, and instructions on how to use them, [are found here](https://galaxyproject.org/projects/mpxv/). More workflows will be added here over time"
+  },
+  {
     "date_time": "2022-05-25",
     "name": "European COVID-19 Data Portal/BY-COVID",
     "contact_info": "virus-dataflow@ebi.ac.uk",
@@ -10,10 +15,5 @@
     "date_time": "2022-05-25",
     "title": "Nextstrain build",
     "text": "Nextstrain have updated their *monkeypox build* with additional available genomes from Portugal and a genome from Germany associated with the current multi-country outbreak. The latest Nextstrain build [can found here](https://nextstrain.org/monkeypox?c=country&p=grid)."
-  },
-  {
-    "date_time": "2022-06-03",
-    "title": "Workflows for sequence variant analysis",
-    "text": "Two Galaxy workflows for monkeypox sequence variant analysis have been made available. One workflow (Illumina metatranscriptomic PE) deals with variant analysis from metatranscriptomic data. The other workflow (Report generation) can be used to generate the final variant analysis reports/plots. The workflows, and instructions on how to use them, [are found here](https://galaxyproject.org/projects/mpxv/). More workflows will be added here over time"
   }
 ]
