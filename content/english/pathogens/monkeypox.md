@@ -16,9 +16,9 @@ There are two clades of monkeypox virus: the West African clade and the Congo Ba
 
 In this section, we present announcements about ongoing research efforts primarily by (but not limited to) researchers and organisations in Sweden. Feel free to submit the information either by using the form below or by sending us an e-mail to datacentre@scilifelab.se.
 
-{{< omicron_page_add_announcement >}}
+{{< pathogens_add_announcement origin="monkeypox">}}
 
-{{< monkeypox_page_announcements >}}
+{{< pathogens_list_announcements announcement_list="monkeypox_page_announcements">}}
 
 ## Datasets
 

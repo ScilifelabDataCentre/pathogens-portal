@@ -1,3 +1,5 @@
+{{ $origin := .Get "origin" }}
+
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary mb-2" data-toggle="modal" data-target="#dataModal">
   Suggest available data
@@ -36,7 +38,7 @@
           </div>
           <div id="form_av_data_recaptcha"></div>
           <input type="url" id="originUrl_av_data" name="originUrl" value="" hidden />
-          <input type='hidden' name='origin' value='omicron_voc_av_data'>
+          <input type='hidden' name='origin' value='{{ $origin }}'>
           <div class="form-group row">
             <div class="col-sm-9">
                 <button type="button" class="btn btn-secondary mt-3" data-dismiss="modal">Close</button>
