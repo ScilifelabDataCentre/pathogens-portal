@@ -9,9 +9,7 @@
   Make a list of unique funder names
 */}}
 {{ $all_funders:= slice }}
-{{ range $.Site.Data.funding.calls }}
-  {{ $all_funders = $all_funders | append .funder }}
-{{ end }}
+{{ range $.Site.Data.funding.calls }} {{ $all_funders = $all_funders | append .funder }} {{ end }}
 {{ $funders := $all_funders | uniq }}
 
 
@@ -20,9 +18,7 @@
   Make a list of unique topics
 */}}
 {{ $all_topics := slice }}
-{{ range $.Site.Data.funding.calls }}
-    {{ $all_topics = $all_topics | append .topic }}
-{{ end }}
+{{ range $.Site.Data.funding.calls }} {{ $all_topics = $all_topics | append .topic }} {{ end }}
 {{ $topics = $all_topics | uniq }}
 
 <div class="container">

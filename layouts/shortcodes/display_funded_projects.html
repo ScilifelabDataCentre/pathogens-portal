@@ -14,26 +14,7 @@
           </tr>
         </thead>
         <tbody>
-          {{ range $.Site.Data.research_projects.projects }}
-            {{ $display_project := false }}
-            {{/* Go through all items in funded projects json and select the one that has the filter variable set to "true" */}}
-            {{ range $variable, $value := . }}
-              {{ if eq $variable $filter_variable }}
-                  {{ if $value }}
-                    {{ $display_project = true }}
-                  {{ end }}
-              {{ end }}
-            {{ end }}
-            {{/* If selected, display the project info */}}
-            {{ if $display_project }}
-            <tr>
-              <td>{{ if eq $.Site.Language.LanguageName "Svenska" }} {{ if .url_sv }} <a href="{{ .url_sv}}"> {{ else if .url }} <a href="{{ .url }}"> {{ end }} {{ if .project_title_sv }} {{ .project_title_sv }} {{ else if .project_title }} {{ .project_title }} {{ end }} {{ if or .url_sv .url }} </a> {{ end }} {{ else }} {{ if .url }} <a href="{{ .url}}"> {{ else if .url_sv }} <a href="{{ .url_sv }}"> {{ end }} {{ if .project_title }} {{ .project_title }} {{ else if .project_title_sv }} {{ .project_title_sv }} {{ end }} {{ if or .url_sv .url }} </a> {{ end }} {{ end }}</td>
-              <td>{{ .pi }}</td>
-              <td>{{ if and (eq $.Site.Language.LanguageName "Svenska") .pi_affiliation_sv }}{{ .pi_affiliation_sv }}{{ else }} {{ .pi_affiliation }}{{ end }}</td>
-              <td>{{ if and (eq $.Site.Language.LanguageName "Svenska") .funder_sv }}{{ .funder_sv }}{{ else }} {{ .funder }}{{ end }}</td>
-            </tr>
-            {{ end }}
-          {{ end }}
+          {{ range $.Site.Data.research_projects.projects }} {{ $display_project := false }} {{/* Go through all items in funded projects json and select the one that has the filter variable set to "true" */}} {{ range $variable, $value := . }} {{ if eq $variable $filter_variable }} {{ if $value }} {{ $display_project = true }} {{ end }} {{ end }} {{ end }} {{/* If selected, display the project info */}} {{ if $display_project }} <tr> <td>{{ if eq $.Site.Language.LanguageName "Svenska" }} {{ if .url_sv }} <a href="{{ .url_sv}}"> {{ else if .url }} <a href="{{ .url }}"> {{ end }} {{ if .project_title_sv }} {{ .project_title_sv }} {{ else if .project_title }} {{ .project_title }} {{ end }} {{ if or .url_sv .url }} </a> {{ end }} {{ else }} {{ if .url }} <a href="{{ .url}}"> {{ else if .url_sv }} <a href="{{ .url_sv }}"> {{ end }} {{ if .project_title }} {{ .project_title }} {{ else if .project_title_sv }} {{ .project_title_sv }} {{ end }} {{ if or .url_sv .url }} </a> {{ end }} {{ end }}</td> <td>{{ .pi }}</td> <td>{{ if and (eq $.Site.Language.LanguageName "Svenska") .pi_affiliation_sv }}{{ .pi_affiliation_sv }}{{ else }} {{ .pi_affiliation }}{{ end }}</td> <td>{{ if and (eq $.Site.Language.LanguageName "Svenska") .funder_sv }}{{ .funder_sv }}{{ else }} {{ .funder }}{{ end }}</td> </tr> {{ end }} {{ end }}
         </tbody>
       </table>
     </div>
