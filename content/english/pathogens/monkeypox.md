@@ -56,7 +56,6 @@ These tools have been adapted/developed for use with the monkeypox virus. They c
 
 - Mauldin, M.R., McCollum, A.M., Nakazawa, Y.J., Mandra, A., Whitehouse, E.R., Davidson, W., Zhao, H., Gao, J., Li, Y., Doty, J., Yinka-Ogunleye, A., Akinpelu, A., Aruna, O., Naidoo, D., Lewandowski, K., Afrough, B., Graham, V., Aarons, E., Hewson, R., Vipond, R., Dunning, J., Chand, M., Brown, C., Cohen-Gihon, I., Erez, N., Shifman, O., Israeli, O., Sharon, M., Schwartz, E., Beth-Din, A., Zvi, A., Minn Mak, T., Kai Ng, Y., Cui, L. Lin, R.T.P., Olson, V.A., Brooks, T., Paran, N., Ihekweazu, C., Reynolds, M. G. (2022). Exportation of monkeypox virus from the African continent. *The Journal of infectious diseases, 225*, 1367-1376. [https://doi.org/10.1093/infdis/jiaa559](https://doi.org/10.1093/infdis/jiaa559)
 
-
 ## Other useful resources
 
 - [WHO Factsheet on monkeypox](https://www.who.int/news-room/fact-sheets/detail/monkeypox)
