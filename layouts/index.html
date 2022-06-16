@@ -3,48 +3,20 @@
 <!-- Main content -->
 <div class="row">
   <div class="col-lg-8 vert-line-right mt-3">
-
     {{ if ne $.Site.Language.LanguageName "Svenska" }}
     <!-- Available data -->
     {{/*
       Get all entries with available data into an array
       */}}
-
     {{ $all_entries := slice }}
     {{ $valid_db_list := slice "URL" "NA" "N/A" "GENBANK" "PDB" "BioProject" "GEO" "ISRCTN" "Dryad" "PubChem-Substance" "RefSeq" "dbGaP"}}
-
-    {{ range $index, $entry := $.Site.Data.publications.publications }}
-    {{ $has_data := false }}
-    {{ range .xrefs }}
-    {{ if in $valid_db_list .db }}
-    {{ $has_data = true}}
-    {{ end }}
-    {{ end }}
-    {{ if $has_data }}
-    {{ $all_entries = $all_entries | append $entry }}
-    {{ end }}
-    {{ end }}
-
+    {{ range $index, $entry := $.Site.Data.publications.publications }}{{ $has_data := false }}{{ range .xrefs }}{{ if in $valid_db_list .db }}{{ $has_data = true}}{{ end }} {{ end }} {{ if $has_data }} {{ $all_entries = $all_entries | append $entry }} {{ end }} {{ end }}
     {{/*
         Count how many entries we have for each data type
         */}}
-
     {{ $all_data_types := slice "Category: Biochemistry" "Category: Drug Discovery" "Category: Genomics & transcriptomics" "Category: Health" "Category: Imaging" "Category: Other" "Category: Proteins" "Category: Public Health" "Category: Serology" }}
     {{ $num_entries_per_data_type := dict }}
-
-    {{ range $all_data_types }}
-    {{ $current_type := . }}
-    {{ $num_entries := 0 }}
-    {{ range $all_entries }}
-    {{ range $key, $content := .labels }}
-    {{ if eq $key $current_type}}
-    {{ $num_entries = add $num_entries 1}}
-    {{ end }}
-    {{ end }}
-    {{ end }}
-    {{ $data_type_num_entries := dict $current_type $num_entries }}
-    {{ $num_entries_per_data_type = merge $num_entries_per_data_type $data_type_num_entries }}
-    {{ end }}
+    {{ range $all_data_types }} {{ $current_type := . }} {{ $num_entries := 0 }} {{ range $all_entries }} {{ range $key, $content := .labels }} {{ if eq $key $current_type}} {{ $num_entries = add $num_entries 1}} {{ end }} {{ end }} {{ end }} {{ $data_type_num_entries := dict $current_type $num_entries }} {{ $num_entries_per_data_type = merge $num_entries_per_data_type $data_type_num_entries }} {{ end }}
 
     {{/*
           The following bit ensures that it is not necessary to copy the datatypes_to_display list in the Swedish version of the page
@@ -52,10 +24,8 @@
 
     {{ $datatypes_to_display := slice }}
     {{ $path := strings.TrimPrefix "/sv" (strings.TrimRight "/" (string .Page.RelPermalink)) }}
-    {{ with .Sites.First.GetPage $path }}
-    {{ $datatypes_to_display = .Params.datatypes_to_display }}
-    {{ end }}
-
+    {{ with .Sites.First.GetPage $path }} {{ $datatypes_to_display = .Params.datatypes_to_display }} {{ end }}
+    
     <div class="container mb-4">
       {{ range .Site.Menus.homepage_available_data }}
       <div class="row">
@@ -70,34 +40,7 @@
 
           {{/* This used to be range over all available data pages, need to bring back */}}
 
-          {{ range .Site.Menus.data_menu }}
-          {{ if eq .Title "Available datasets" }}
-          {{ range .Children }}
-          {{ if ne .Title "All data types" }}
-          <div class="col-md-4">
-            <h5><a href="{{ .Page.RelPermalink }}">
-                {{ $section_title := string "" }}
-                {{ $section_title = .Title}}
-                {{ $this_type := strings.TrimRight " data" (lower $section_title) }}
-                {{ if eq $section_title "Protein data"}}
-                {{ $this_type = "proteins"}}
-                {{ end }}
-                {{ range $type, $num := $num_entries_per_data_type }}
-                {{ $type_in_dict := strings.TrimRight " data" ( strings.TrimPrefix "category: " (lower $type) ) }}
-                {{ if eq $this_type $type_in_dict }}
-                {{ if eq $section_title "Genomics & transcriptomics data"}}
-                {{ $this_type = "genomics"}}
-                {{ end }}
-                {{ $this_type | title }}
-                ({{ $num }})
-                {{ end }}
-                {{ end }}
-                <i class="bi bi-arrow-right-circle-fill"></i></a></h5>
-          </div>
-          {{ end }}
-          {{ end }}
-          {{ end }}
-          {{ end }}
+          {{ range .Site.Menus.data_menu }} {{ if eq .Title "Available datasets" }} {{ range .Children }} {{ if ne .Title "All data types" }} <div class="col-md-4"> <h5><a href="{{ .Page.RelPermalink }}"> {{ $section_title := string "" }} {{ $section_title = .Title}} {{ $this_type := strings.TrimRight " data" (lower $section_title) }} {{ if eq $section_title "Protein data"}} {{ $this_type = "proteins"}} {{ end }} {{ range $type, $num := $num_entries_per_data_type }} {{ $type_in_dict := strings.TrimRight " data" ( strings.TrimPrefix "category: " (lower $type) ) }} {{ if eq $this_type $type_in_dict }} {{ if eq $section_title "Genomics & transcriptomics data"}} {{ $this_type = "genomics"}} {{ end }} {{ $this_type | title }} ({{ $num }}) {{ end }} {{ end }} <i class="bi bi-arrow-right-circle-fill"></i></a></h5> </div> {{ end }} {{ end }} {{ end }} {{ end }}
         </div>
       </div>
     </div>

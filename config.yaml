@@ -11,7 +11,6 @@ params:
     en:
       home_title: Accelerating research through data sharing
       enquire_email_footer_dc: "Contact the Swedish COVID-19 Data Portal"
-      enquire_email_footer_bioinformatics: "For bioinformatics support, please contact"
       support_feedback: Support & Feedback
       privacy: Privacy Notice
       github_link: Website code on GitHub
@@ -21,23 +20,10 @@ params:
       all_highlights: See all data highlights
       next_highlight: Next
       previous_highlight: Previous
-      all_updates: See all updates
-      next_update: Next
-      previous_update: Previous
-      dt_project: Project
-      dt_last_updated: Last updated
-      dt_available_data: Available data
-      dt_data_types: Data types
-      dt_entries_in_total: entries in total
       projects_title: Project title
-      projects_area: Area
       projects_pi: Principal investigator
       projects_piaff: PI affiliation
-      projects_duration: Duration
       projects_funder: Funder
-      menu_moretypes: More
-      menu_biobanks: Biobanks
-      menu_projects: Research projects
       pubs_pub: Publication
       pubs_updated: Published
       pubs_field: Field/Topic
@@ -50,7 +36,6 @@ params:
     sv:
       home_title: Snabbare forskning genom datadelning
       enquire_email_footer_dc: "Kontakta den svenska Covid-19 dataportalen"
-      enquire_email_footer_bioinformatics: "För support inom bioinformatik, kontakta"
       support_feedback: Support och Feedback
       privacy: Integritetspolicy
       github_link: Webbplatskod på GitHub
@@ -60,23 +45,10 @@ params:
       all_highlights: Se alla data i fokus
       next_highlight: Nästa
       previous_highlight: Föregående
-      all_updates: Se alla uppdateringar
-      next_highlight: Nästa
-      previous_highlight: Föregående
-      dt_project: Projekt
-      dt_last_updated: Senast uppdaterad
-      dt_available_data: Tillgängliga data
-      dt_data_types: Datatyper
-      dt_entries_in_total: resultat
       projects_title: Projektitel
-      projects_area: Forskningsområde
       projects_pi: Projektledare
       projects_piaff: Koordinerande organisation
-      projects_duration: Start och slutdatum
       projects_funder: Forskningsfinansiär
-      menu_moretypes: Flera
-      menu_biobanks: Biobanker
-      menu_projects: Forskningprojekt
       pubs_pub: Artikel
       pubs_updated: Publicerad
       pubs_field: Ämne
@@ -95,7 +67,7 @@ languages:
     languageName: Svenska
     contentDir: content/svenska
     weight: 2
-    description: Covid-19 Dataportal för svensk forskning
+    description: Svenska Dataportalen för Covid-19 & Pandemisk Beredskap
 
 markup:
   goldmark:

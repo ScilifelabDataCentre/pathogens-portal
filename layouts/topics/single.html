@@ -134,11 +134,7 @@
 <!-- <h3>Resources</h3> -->
 
 {{ $topic_projects := slice }}
-{{ range $ind, $cont := $.Site.Data.research_projects.projects }}
-  {{ if and (in .topic $page_topic) (gt (.enddate | time.Format "20060102") (now | time.Format "20060102")) }}
-    {{ $topic_projects = $topic_projects | append $cont}}
-  {{ end }}
-{{ end }}
+{{ range $ind, $cont := $.Site.Data.research_projects.projects }} {{ if and (in .topic $page_topic) (gt (.enddate | time.Format "20060102") (now | time.Format "20060102")) }} {{ $topic_projects = $topic_projects | append $cont}} {{ end }} {{ end }}
 {{ if gt (len $topic_projects) 0 }}
 <h3><i class="bi bi-three-dots-vertical"></i> Ongoing research projects ({{ len $topic_projects }})</h3>
 <div class="container mt-3 ">
@@ -215,11 +211,7 @@
 {{ end }}
 
 {{ $topic_funding := slice }}
-{{ range $ind, $cont := $.Site.Data.funding.calls }}
-  {{ if  and (or (in .topic $page_topic) (in .topic "General") ) (gt (.submission_deadline | time.Format "20060102") (now | time.Format "20060102")) }}
-    {{ $topic_funding = $topic_funding | append $cont }}
-  {{ end }}
-{{ end }}
+{{ range $ind, $cont := $.Site.Data.funding.calls }} {{ if  and (or (in .topic $page_topic) (in .topic "General") ) (gt (.submission_deadline | time.Format "20060102") (now | time.Format "20060102")) }} {{ $topic_funding = $topic_funding | append $cont }} {{ end }} {{ end }}
 {{ if gt (len $topic_funding) 0 }}
 <h3><i class="bi bi-three-dots-vertical"></i> Open funding opportunities ({{ len $topic_funding }})</h3>
 <div class="container mt-3 mb-5">

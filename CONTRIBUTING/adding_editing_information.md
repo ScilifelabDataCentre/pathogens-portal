@@ -12,6 +12,7 @@ __Table of contents:__
 - [Ongoing research projects](#ongoing-research-projects)
 - [Data highlights](#data-highlights)
 - [News about the Portal](#news-about-the-portal)
+- [Resources](#resources)
 
 ## General instructions: how to propose changes/additions
 
@@ -69,7 +70,7 @@ Once approved, they will be merged and published.
 
 #### Testing with a local copy of the Portal
 
-Because the Portal is built on Hugo, it is quite easy to run a full version of the Portal on your computer and see how your changes look while doing that. See [this page for information on how to do that](../running_a_local_copy.md).
+Because the Portal is built on Hugo, it is quite easy to run a full version of the Portal on your computer and see how your changes look while doing that. See [this page for information on how to do that](https://github.com/ScilifelabDataCentre/covid-portal/blob/develop/CONTRIBUTING/running_a_local_copy.md).
 
 ## Available datasets
 
@@ -224,3 +225,7 @@ This is the third paragraph of the news item.
 ```
 
 On the top of the file, surrounded by `---`, basic information for this news item is provided. It contains the title; publication date (desired; Hugo needs to be run on that day or later for it to appear); summary text that appears on the overview page; location of the illustration to be displayed on the overview page (`banner`); localtion of the illustration on the page of the news item (`banner_large`); caption text that will appear under the illustration on the page of the news item.
+
+## Resources
+
+_Instructions coming soon._
