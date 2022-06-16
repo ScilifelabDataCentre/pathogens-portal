@@ -36,19 +36,31 @@ Users who are technically more advanced are welcome to make contributions by run
 
 This website supports [ImJoy](https://imjoy.io) plugins which can be used to visualize, annotate, run analysis directly from the website. See [an example here](https://covid19dataportal.se/highlights/immunofluorescence/). Please see the file [CONTRIBUTING/ImJoy.md](https://github.com/ScilifelabDataCentre/covid-portal/blob/develop/CONTRIBUTING/ImJoy.md) for examples of usage.
 
+### The Swedish COVID-19 Sample Collection Database
+
+The portal team works closely with [Biobank Sverige](https://biobanksverige.se) to develop and maintain the [The Swedish COVID-19 Sample Collection Database](https://biobanks.covid19dataportal.se). The database contains biobanks collections from multiple biobanks across Sweden. Research staff can use the database to search for and request access to samples that could be beneficial for their work. New collections are submitted to the portal team by Biobank Sverige as they become available. The code behind The Swedish COVID-19 Sample Collection Database is maintained by the portal team and is available on [GitHub](https://github.com/ScilifelabDataCentre/covid-sample-collection-database).
+
+### Data visualisations
+
+Unless otherwise specified, the data visualisations on the portal have been developed in-house by the portal team. A link to the code underlying each visualisation is provided on the portal page on which it is displayed. All visualisations on the portal can be found on our dedicated [GitHub repository](https://github.com/ScilifelabDataCentre/covid-portal-visualisations).
+
 ## How to get help
 
-If in doubt, you can ask for help by emailing [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se).
+If you have any questions regarding any of the code or content associated with the portal, please get in touch by emailing us at [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se).
 
 ## Credits
 
-The website was built and is maintained by [SciLifeLab Data Centre](https://www.scilifelab.se/data/) with the help of many collaborators.
+The website was built and is maintained by [SciLifeLab Data Centre](https://www.scilifelab.se/data/). We are grateful to many collaborators, both from the Data Centre and elsewhere, for their contributions.
 
 The primary contributors have been:
 
+- [@SonjaAits](https://github.com/SonjaAits)
 - [@ewels](https://github.com/ewels)
 - [@talavis](https://github.com/talavis)
 - [@pekrau](http://github.com/pekrau/)
 - [@akochari](http://github.com/akochari/)
 - [@LianeHughes](https://github.com/LianeHughes)
+- [@KatarinaOjeforsStark](https://github.com/KatarinaOjeforsStark)
 - [@senthil10](https://github.com/senthil10)
+- [@HannaKultima](https://github.com/HannaKultima)
+- [@johanrung](https://github.com/johanrung)
