@@ -50,7 +50,7 @@ If you have any questions regarding any of the code or content associated with t
 
 ## Credits
 
-The website was built and is maintained by [SciLifeLab Data Centre](https://www.scilifelab.se/data/). We are grateful to many collaborators, both from the Data Centre and elsewhere, for their contributions. 
+The website was built and is maintained by [SciLifeLab Data Centre](https://www.scilifelab.se/data/). We are grateful to many collaborators, both from the Data Centre and elsewhere, for their contributions.
 
 The primary contributors have been:
 
