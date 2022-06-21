@@ -51,7 +51,7 @@ The section also displays ongoing [Swedish research projects](/data_types/health
 
 The visualisations in this section are based on publicly available data from the [Swedish Health Agency (Folkhälsomyndigheten, FoHM)](https://folkhalsomyndigheten.se). Follow [this link](https://www.folkhalsomyndigheten.se/folkhalsorapportering-statistik/statistikdatabaser-och-visualisering/vaccinationsstatistik/statistik-for-vaccination-mot-covid-19/) to view their summary of statistics related to vaccination against COVID-19 in Sweden (only available in Swedish). The data used to produce the visualations can be downloaded [here](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data). For each visualisation, we describe which part of the dataset was used and how the calculations were done. The source data is updated weekly (on Thursdays), and this page will be updated shortly thereafter.
 
-The code used to produce the visulations can be found on [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Vaccine_page). All data is processed using a single [data preparation script](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Vaccine_page). The codes required to generate each plot are linked beneath the visualisations. 
+The code used to produce the visulations can be found on [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Vaccine_page). All data is processed using a single [data preparation script](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Vaccine_page). The codes required to generate each plot are linked beneath the visualisations.
 
 ### General summary statistics
 
