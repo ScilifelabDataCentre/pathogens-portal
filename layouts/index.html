@@ -194,7 +194,15 @@
           <div class="row">
             <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
               horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
-            <div class="table-responsive" id="postcovid_halthcare_contacts"></div>
+            <div class="table-responsive">
+              <div id="https://blobserver.dckube.scilifelab.se/blob/weeklycontacts_healthcare_small.json" class="plotly"
+                style="width:600px;height:300px"></div>
+            </div>
+            <script>
+              Plotly.d3.json('https://blobserver.dckube.scilifelab.se/blob/weeklycontacts_healthcare_small.json', function (err, fig) {
+                Plotly.plot('https://blobserver.dckube.scilifelab.se/blob/weeklycontacts_healthcare_small.json', fig.data, fig.layout, { responsive: true });
+              });
+            </script>
           </div>
         </div>
       </div>
