@@ -91,7 +91,7 @@ When hovering over the plot with the cursor, additional grey icons appear in the
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/ICUadmiss_vaccinationlevel_button.json" height="500px" >}}</div>
 </div>
 
-**Scripts used for the plots:** [Preparation for vaccine coverage data](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/Swedishpop_vaccinecov_dataprep.py), [Graph of vaccine coverage](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/Swedishpop_vaccinecov_plotwbuttons.py), [Graph and data preparation for ICU admissions data](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/Swedishpop_ICU_plotwbuttons.py).
+**Code used to produce plots:** [Preparation for vaccine coverage data](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/Swedishpop_vaccinecov_dataprep.py), [Graph of vaccine coverage](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/Swedishpop_vaccinecov_plotwbuttons.py), [Graph and data preparation for ICU admissions data](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/Swedishpop_ICU_plotwbuttons.py).
 
 ### Data related to patients with comorbidities
 
@@ -134,7 +134,7 @@ When hovering over the plot with the cursor, additional grey icons appear in the
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/comorbs_subplot_button.json" height="800px" >}}</div>
 </div>
 
-**Scripts used for the plots:** [Preparation of COVID-19 case data](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/comorbidity_cases_dataprep.py), [Preparation of vaccination coverage data](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/comorbidity_vaccinecov_dataprep.py), [Graph containing subplots](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/comorbidity_subplots_wbuttons.py).
+**Code used to produce plots:** [Preparation of COVID-19 case data](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/comorbidity_cases_dataprep.py), [Preparation of vaccination coverage data](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/comorbidity_vaccinecov_dataprep.py), [Graph containing subplots](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/comorbidity_subplots_wbuttons.py).
 
 ## Contact information
 Prof Fredrik Nyberg, Project Leader and Professor of Register Epidemiology, School of Public Health and Community Medicine, Institute of Medicine, Gothenburg University. Email: [fredrik.nyberg.2@gu.se](mailto:fredrik.nyberg.2@gu.se).

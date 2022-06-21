@@ -51,6 +51,8 @@ The section also displays ongoing [Swedish research projects](/data_types/health
 
 The visualisations in this section are based on publicly available data from the [Swedish Health Agency (Folkhälsomyndigheten, FoHM)](https://folkhalsomyndigheten.se). Follow [this link](https://www.folkhalsomyndigheten.se/folkhalsorapportering-statistik/statistikdatabaser-och-visualisering/vaccinationsstatistik/statistik-for-vaccination-mot-covid-19/) to view their summary of statistics related to vaccination against COVID-19 in Sweden (only available in Swedish). The data used to produce the visualations can be downloaded [here](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data). For each visualisation, we describe which part of the dataset was used and how the calculations were done. The source data is updated weekly (on Thursdays), and this page will be updated shortly thereafter.
 
+The code used to produce the visulations can be found on [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Vaccine_page). All data is processed using a single [data preparation script](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Vaccine_page). The codes required to generate each plot are linked beneath the visualisations.
+
 ### General summary statistics
 
 In this section, we examine the overall levels of vaccination in Sweden, as well as the recent rate of vaccination.
@@ -68,6 +70,10 @@ For calculations done using the 'eligible population method', we use data from t
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/Total_vaccinated_barchart.json" height="500px" >}}</div>
 </div>
+
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_indicator_barchart.py).
+
+**Code used to generate the 'live text' in the summary paragraph below:** ['Live text' script](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_livetext.py).
 
 To summarise, in total, <span id="eligible_one_dose"></span>% of the population that are eligible for the first dose have received at least one dose of vaccination against COVID-19, which represents <span id="population_one_dose"></span>% of the whole population. The values indicate that <span id="eligible_one_dose_lastweek"></span>% of the eligible population were vaccinated last week (a change in rate of <span id="eligible_one_dose_rate_change"></span>% compared to the previous week), or <span id="population_one_dose_lastweek"></span>% of the whole population (a change of <span id="population_one_dose_rate_change"></span>% compared to the previous week). By contrast, <span id="eligible_two_doses"></span>% of those eligible, and <span id="population_two_doses"></span>% of the whole population have received at least two doses in total. The values indicate that <span id="eligible_two_doses_lastweek"></span>% of those eligible and <span id="population_two_doses_lastweek"></span>% of the whole population received their second dose last week (a change in rate of <span id="eligible_two_doses_rate_change"></span>% and <span id="population_two_doses_rate_change"></span>% compared to the previous week, respectively). In total, <span id="eligible_three_doses"></span>% of the eligible population received the third (or 'booster') dose, representing <span id="population_three_doses"></span>% of the whole population. This means that <span id="eligible_three_doses_lastweek"></span>% of the eligible population received their third dose last week (a change in rate of <span id="eligible_three_doses_rate_change"></span>% compared to the previous week), or <span id="population_three_doses_lastweek"></span>% of the whole population (a change of <span id="population_three_doses_rate_change"></span>% compared to the previous week). To date, <span id="population_four_doses"></span>% of the whole population has received a fourth dose, and <span id="eligible_four_doses"></span>% of those eligible. The relatively greater difference between these two calculations for the fourth dose, occurs because only a very small portion of the population is eligible. In the last week, <span id="population_four_doses_lastweek"></span>% of the whole population were vaccinated with a fourth dose, a change in rate of <span id="population_four_doses_rate_change"></span>% compared to the previous week. By contast, <span id="eligible_four_doses_lastweek"></span>% of the eligible population were vaccinated with a fourth dose, a relative change in rate of <span id="eligible_four_doses_rate_change"></span>% compared to the previous week.
 
@@ -87,6 +93,8 @@ We have presented the data for the whole of Sweden as a percentage of the Swedis
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/vaccine_timeseries_pop_barchart.json" height="500px" >}}</div>
 </div>
 
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_timeseries_barchart.py).
+
 ### Administration of vaccinations in each county (län)
 
 In this section, we explore the levels of vaccination coverage for each of the doses in each county (län) of Sweden. For each dose, we have calculated the percentage of the people in the county that have received that dose (using the lastest [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data) and [Statistics Sweden (SCB)](https://www.scb.se/en/finding-statistics/statistics-by-subject-area/population/population-composition/population-statistics/pong/tables-and-graphs/monthly-statistics--the-whole-country/population-statistics-2021/)). Data about the numbers of first and second doses administered in each county is taken from the 'Vaccinerade tidsserie' tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data). Again, please note that the 'raw number' of first and second vaccine doses administered includes only those given to individuals born in or before 2009 (at least 12-13 years old). As explained in the sections above, there is no directly comparable data regarding the third dose, as only the doses given to people born in or before 2003 (at least 18-19 years old) are included. We have used the 'Totalt' values in the 'Dos 3 per åldersgrupp' tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)) for this calculation. It is exactly equivalent to the number given in the time series data for the third dose. As with the third dose, data for the fourth dose is not directly comparable to that from any other dose. Indeed, the number of 'fourth doses' administered only includes those given to people born in or before 1956 (at least 65-66 years of age). This is obviously a much smaller portion of the population compared to any of the other three doses. As a result, we find it appropriate to consider the data in two ways; one in which the 'whole population method' for calculation is used, and one in which the 'eligible population method' is used. This will allow a clearer understanding of the differences between län in terms of the coverage for this dose. The data were taken from the 'Dos 4 per åldersgrupp' tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)). The 'Totalt' value was used for the 'whole population method', and the percantage calculation was used for the 'eligible population method'.
@@ -99,17 +107,23 @@ Again, please note that percentage values calculated using the 'whole population
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/onedose_pop_map.json" height="500px" >}}</div>
 </div>
 
+**Code used to produce plot:** [Script to produce maps](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_maps_population.py).
+
 #### Administration of two vaccine doses
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/twodoses_pop_map.json" height="500px" >}}</div>
 </div>
 
+**Code used to produce plot:** [Script to produce maps](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_maps_population.py).
+
 #### Administration of three vaccine doses
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/threedoses_pop_map.json" height="500px" >}}</div>
 </div>
+
+**Code used to produce plot:** [Script to produce maps](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_maps_population.py).
 
 #### Administration of four vaccine doses
 
@@ -122,19 +136,23 @@ Again, please note that percentage values calculated using the 'whole population
 </div></div>
 </div>
 
+**Code used to produce plot:** [Script to produce maps](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_maps_population.py).
+
 ### Administration of vaccinations according to age group
 
 We constructed the below heatmap to show how the relative numbers of people vaccinated differs according to age. Unsurprisingly, the more advanced age groups tend to have higher levels of vaccination for each dose, as they are typically given access at an earlier date.
 
 Data is available for individuals born in or before 2009 (i.e. at least 12-13 years old) for the first and second vaccine doses (available in the 'Vaccinerade ålder' tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)), and for people born in or before 2003 (i.e. at least 18-19 years old) for the third dose (available in the 'Dos 3 per åldersgrupp' tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)). For the fourth dose, data is only available for those born in or before 1956 (i.e. at least 65-66 years old) available in the 'Dos 4 per åldersgrupp' tab of the [data from FoHM](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data)). This means that data is not available for all age groups for each dose, and this is reflected in the plot. In this case, we have not performed any recalculation of the data, so the numbers are the same as those provided by FoHM (i.e. all values were calculated using the 'eligible population method').
 
-Please note, data has not been added for 65-79 year olds for the fourth dose because data is not available in equivalent categories.
+Please note, data has not been added for 65-69 year olds for the fourth dose because data is not available in equivalent categories.
 
 **Note about the heatmap:** A white colouration indicates that no data is available for that age group.
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/vaccine_heatmap.json" height="750px" >}}</div>
 </div>
+
+**Code used to produce plot:** [Script to produce heatmap](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_heatmaps.py).
 
 ## Ongoing research projects
 
