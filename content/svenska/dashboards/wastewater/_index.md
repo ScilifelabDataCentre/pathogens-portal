@@ -20,6 +20,7 @@ aliases:
 I vår dashboard presenteras epidemiologiska data från mätningar av SARS-CoV-2 virus i avloppsvatten från ett antal svenska städer, motsvarande över 2,5 miljoner invånare (över 25 % av Sveriges befolkning). Data och resultat som presenteras här kommer från analyser som utförts av två laboratorier vid [Svenskt Miljöepidemiologiskt Centrum (SEEC)](https://www.scilifelab.se/pandemic-response/pandemic-laboratory-preparedness/swedish-environmental-epidemiology-center-seec/). SEEC är ett projekt för att utveckla resurser för pandemisk beredskap inom [SciLifeLabs Pandemic Preparedness Program](https://www.scilifelab.se/pandemic-response). Proverna analyseras av SEECs två noder.
 
 - **SEEC-SLU:** Prover från Uppsala, Örebro, Umeå, Kalmar, Ekerö, Enköping, Knivsta, Tierp, Vaxholm, Älvkarleby och Österåker, och Östhammar analyseras vid Sveriges Lantbruksuniversitets (SLUs) nod under ledning av docent Anna J. Székely (anna.szekely@slu.se) och docent Maja Malmberg (maja.malmberg@slu.se).
+
 - **SEEC-KTH:** Prover från Stockholm och Malmö analyseras vid KTH Kungliga Tekniska Högskolans nod som leds av docent Zeynep Cetecioglu Gurol (zeynepcg@kth.se).
 
 Notera att det finns mindre skillnader mellan detektionsmetoderna som de två grupperna använder. Detta måste tas i åtanke vid jämförelser av avloppsvattendata. För att korrigera för variation i population och avloppsvattenflöde använder båda grupperna Pepper mild mottle virus (PMMoV) enligt en modifierad metod av [Zhang et al. (2006)](https://doi.org/10.1371/journal.pbio.0040003). PMMoV är det vanligaste RNA-viruset i mänsklig avföring och används för att estimera mängd mänsklig avföring i proverna ([Symonds et al., 2019](https://doi.org/10.1371/journal.ppat.1007639)). För att kvantifiera mängd SARS-CoV-2 virus, använder SEEC-SLU noden en SARS-CoV-2 specifik [N1 assay från Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-ncov/lab/rt-pcr-panel-primer-probes.html), medan SEEC-KTH noden använder SARS-like virus specifika N3-primers ([Lu et al., 2020](https://doi.org/10.3201/eid2608.201246)) och SYBR Green. Skillnader i insamlingsmetod av avloppsvattenprov och olika befolkningsmängd i olika städer kan ge en bias vilket gör ett svårt att jämföra virusmängd mellan olika städer, även om samma metod använts.
@@ -45,11 +46,11 @@ Observera att mängden som tillhandahålls i dataseten och som visas i diagram n
 **Ladda ner data:** [N1-genkopiatal per PMMoV-genkopiatal, CSV-fil](https://datagraphics.dckube.scilifelab.se/dataset/0ac8fa02871745048491de74e5689da9.csv). Data finns tillgängligt från och med vecka 38 2020; uppdateras varje vecka.\
 **Kontakt:** anna.szekely@slu.se and maja.malmberg@slu.se
 
-**Hur man citerar metod:**\
-Isaksson, F., Lundy, L., Hedström, A., Székely, A. J., Mohamed, N. 2022. Evaluating the Use of Alternative Normalization Approaches on SARS-CoV-2 Concentrations in Wastewater: Experiences from Two Catchments in Northern Sweden. *Environments* **2022**, *9*(3), 39; [https://doi.org/10.3390/environments9030039](https://doi.org/10.3390/environments9030039).
+**Hur man citerar metod:**
+Isaksson, F., Lundy, L., Hedström, A., Székely, A. J., Mohamed, N. (2022). Evaluating the Use of Alternative Normalization Approaches on SARS-CoV-2 Concentrations in Wastewater: Experiences from Two Catchments in Northern Sweden. *Environments*, *9*, 39. [https://doi.org/10.3390/environments9030039](https://doi.org/10.3390/environments9030039).
 
 **Hur man citerar dataset:**
-Székely, A. & Mohamed, N. Dataset of SARS-CoV-2 wastewater data from Uppsala, and neighbouring towns Knivsta, Enköping, Östhammar and Älvkarleby, Sweden. [https://doi.org/10.17044/scilifelab.14256317.v1](https://doi.org/10.17044/scilifelab.14256317.v1) (2021).
+Székely, A. J., Mohamed, N., Dafalla, I., Vargas, J., Malmberg, M. (2021). Dataset of SARS-CoV-2 wastewater data from Uppsala, Umeå, Örebro, Kalmar, and various towns in Uppsala and Stockholm region, Sweden. [https://doi.org/10.17044/scilifelab.14256317](https://doi.org/10.17044/scilifelab.14256317).
 
 ### Visualiseringar
 
@@ -110,11 +111,11 @@ Se även [forskargruppens webbsida där sammanfattningar av data och preliminär
 
 ### Dataset
 
-**Ladda ner data:** [N3-genkopiatal per PMMoV-genkopiatal; Excelfil](https://blobserver.dckube.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx). Data tillgänglig (delvis) från och med vecka 16 2020; uppdateras varje vecka. \
+**Ladda ner data:** [N3-genkopiatal per PMMoV-genkopiatal; Excelfil](https://blobserver.dckube.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx). Data tillgänglig (delvis) från och med vecka 16 2020; uppdateras varje vecka.\
 **Kontakt:** zeynepcg@kth.se
 
 **Hur man citerar dataset:**
-Cetecioglu Z G, Williams, C, Khatami, K, Atasoy, M, Nandy, P, Jafferali, M H, Birgersson, M. SARS-CoV-2 Wastewater Data from Stockholm, Sweden. [https://doi.org/10.17044/scilifelab.14315483](https://doi.org/10.17044/scilifelab.14315483) (2021).
+Cetecioglu, Z. G., Williams, C., Khatami, K., Atasoy, M., Nandy, P., Jafferali, M. H., Birgersson, M. (2021). SARS-CoV-2 Wastewater Data from Stockholm, Sweden. [https://doi.org/10.17044/scilifelab.14315483](https://doi.org/10.17044/scilifelab.14315483).
 
 ### Visualiseringar: Stockholm
 
