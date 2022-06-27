@@ -1,5 +1,5 @@
 ---
-title: Genomics & transcriptomics data
+title: Genomics data
 menu:
     data_menu:
         identifier: genomics_new
