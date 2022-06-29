@@ -4,7 +4,7 @@ menu:
     homepage_available_data:
         name: Available datasets
         identifier: available_data
-        post: Data available from research groups in Sweden. <a href="/data_types/all/data/">See available data for all data types <i class="bi bi-arrow-right-circle-fill"></i></a>
+        post: Data available from research groups in Sweden. <a href="/datasets/all/">See available data for all data types <i class="bi bi-arrow-right-circle-fill"></i></a>
     data_menu:
         identifier: available_datasets
         name: Available datasets
