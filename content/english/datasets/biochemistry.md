@@ -2,10 +2,15 @@
 title: Biochemistry data
 menu:
     data_menu:
-        identifier: biochemistry_new
+        identifier: biochemistry
         name: Biochemistry data
         weight: 50
-        parent: available_datasets_new
+        parent: available_datasets
+aliases:
+    - /data_types/compound_and_target_data/
+    - /sv/data_types/compound_and_target_data/
+    - /sv/data_types/compound_and_target_data/data/
+    - /data_types/compound_and_target_data/data/
 ---
 ## Published Data
 

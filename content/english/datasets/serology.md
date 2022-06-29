@@ -2,10 +2,13 @@
 title: Serology data
 menu:
     data_menu:
-        identifier: serology_new
+        identifier: serology_data
         name: Serology data
         weight: 80
-        parent: available_datasets_new
+        parent: available_datasets
+aliases:
+    - /sv/data_types/serology/data/
+    - /data_types/serology/data/
 ---
 ## Published Data
 

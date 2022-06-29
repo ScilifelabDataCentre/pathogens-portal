@@ -2,10 +2,15 @@
 title: Genomics data
 menu:
     data_menu:
-        identifier: genomics_new
+        identifier: genomics
         name: Genomics data
         weight: 20
-        parent: available_datasets_new
+        parent: available_datasets
+aliases:
+    - /sv/data_types/genomics_transcriptomics/data/
+    - /sv/data_types/genomics_transcriptomics/
+    - /data_types/genomics_transcriptomics/
+    - /data_types/genomics_transcriptomics/data/
 ---
 ## Published Data
 

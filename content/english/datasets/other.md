@@ -2,10 +2,13 @@
 title: Other data
 menu:
     data_menu:
-        identifier: other_new
+        identifier: other
         name: Other data
         weight: 100
-        parent: available_datasets_new
+        parent: available_datasets
+aliases:
+    - /sv/data_types/other_data/data/
+    - /data_types/other_data/data/
 ---
 ## Published Data
 

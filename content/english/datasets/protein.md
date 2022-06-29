@@ -2,10 +2,15 @@
 title: Protein data
 menu:
     data_menu:
-        identifier: protein_new
+        identifier: protein
         name: Protein data
         weight: 30
-        parent: available_datasets_new
+        parent: available_datasets
+aliases:
+    - /sv/data_types/protein_data/data/
+    - /sv/data_types/protein_data/
+    - /data_types/protein_data/
+    - /data_types/protein_data/data/
 ---
 ## Published Data
 

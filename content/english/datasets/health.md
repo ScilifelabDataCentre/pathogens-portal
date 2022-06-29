@@ -2,10 +2,15 @@
 title: Health data
 menu:
     data_menu:
-        identifier: health_new
+        identifier: health
         name: Health data
         weight: 60
-        parent: available_datasets_new
+        parent: available_datasets
+aliases:
+    - /sv/data_types/health_data/data/
+    - /sv/data_types/health_data/
+    - /data_types/health_data/
+    - /data_types/health_data/data/
 ---
 ## Published Data
 

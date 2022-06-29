@@ -2,10 +2,15 @@
 title: Imaging data
 menu:
     data_menu:
-        identifier: imaging_new
+        identifier: imaging
         name: Imaging data
         weight: 40
-        parent: available_datasets_new
+        parent: available_datasets
+aliases:
+    - /sv/data_types/imaging_data/data/
+    - /sv/data_types/imaging_data/
+    - /data_types/imaging_data/
+    - /data_types/imaging_data/data/
 ---
 ## Published Data
 

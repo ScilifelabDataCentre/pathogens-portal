@@ -24,7 +24,7 @@
       <h5>Data types</h5>
       {{ $current_url := .Page.RelPermalink }}
       {{ range .Site.Menus.data_menu }}
-      {{ if eq .Name "Available datasets new" }}
+      {{ if eq .Name "Available datasets" }}
       {{ range .Children }}
 
       {{/*

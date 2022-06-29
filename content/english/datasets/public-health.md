@@ -2,10 +2,13 @@
 title: Public health data
 menu:
     data_menu:
-        identifier: public_health_new
+        identifier: public_health
         name: Public health data
         weight: 90
-        parent: available_datasets_new
+        parent: available_datasets
+aliases:
+    - /sv/data_types/public_health/data/
+    - /data_types/public_health/data/
 ---
 ## Published Data
 
