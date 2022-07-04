@@ -2,8 +2,8 @@
 {{/* $topic_to_display := .Get "topic" */}}
 
 <p><i>
-   Last updated: {{ $.Site.Data.funding.last_updated }}
-</i></p>
+    Last updated: {{ $.Site.Data.funding.last_updated }}
+  </i></p>
 
 {{/*
   Make a list of unique funder names
@@ -26,17 +26,16 @@
     <div class="col-lg-2 pl-0 {{ if eq $.Site.Language.LanguageName "Svenska" }}mr-5{{ else }}mr-2{{ end }}">
       <h5>Topic</h5>
       <div class="col mb-2 ml-3 form-check">
-          {{ range sort $topics }}
-            <div class="row"><input type="checkbox" class="form-check-input" name="topic"
-                value="{{ . }}">{{ . }}</div>
-          {{ end }}
+        {{ range sort $topics }}
+        <div class="row"><input type="checkbox" class="form-check-input" name="topic" value="{{ . }}">{{ . }}</div>
+        {{ end }}
       </div>
       <h5>Funder</h5>
       <div class="col mb-2 ml-3 form-check">
-          {{ range sort $funders }}
-            <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
-                value="{{ . }}">{{ . }}</div>
-          {{ end }}
+        {{ range sort $funders }}
+        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
+            value="{{ . }}">{{ . }}</div>
+        {{ end }}
       </div>
     </div>
     <div class="col-lg">
@@ -68,10 +67,12 @@
                   </div>{{ end }}
                   <div class="row mt-2">
                     <div class="col">
-                      <button type="button" class="btn_details btn_details_primary" data-toggle="modal" data-target="#call_details{{ $ind }}">
+                      <button type="button" class="btn_details btn_details_primary" data-toggle="modal"
+                        data-target="#call_details{{ $ind }}">
                         Details
                       </button>
-                      <div class="modal fade" id="call_details{{ $ind }}" tabindex="-1" role="dialog" aria-labelledby="call_details{{ $ind }}Label" aria-hidden="true">
+                      <div class="modal fade" id="call_details{{ $ind }}" tabindex="-1" role="dialog"
+                        aria-labelledby="call_details{{ $ind }}Label" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                           <div class="modal-content">
                             <div class="modal-header">
@@ -82,14 +83,17 @@
                             </div>
                             <div class="modal-body funding_details">
                               <p><b>Funder:</b> {{ .funder }}<br>
-                              {{ if .submission_opendate}}<b>Submission opens:</b> {{ .submission_opendate | time.Format ":date_long" }}<br>{{ end }}
-                              <b>Submission deadline:</b> {{ .submission_deadline | time.Format ":date_long" }}<br>
-                              {{ if .funding_amount }}<b>Funding amount:</b> {{ .funding_amount }}<br>{{ end }}
-                              {{ if .funding_period }}<b>Funding period:</b> {{ .funding_period}}<br>{{ end }}
-                              {{ if .applicant }}<b>Eligible applicant:</b> {{ .applicant | markdownify }}<br>{{ end }}
-                              {{ if .decision_date }}<b>Decision date:</b> {{ .decision_date }}<br>{{ end }}</p>
+                                {{ if .submission_opendate}}<b>Submission opens:</b>
+                                {{ .submission_opendate | time.Format ":date_long" }}<br>{{ end }}
+                                <b>Submission deadline:</b> {{ .submission_deadline | time.Format ":date_long" }}<br>
+                                {{ if .funding_amount }}<b>Funding amount:</b> {{ .funding_amount }}<br>{{ end }}
+                                {{ if .funding_period }}<b>Funding period:</b> {{ .funding_period}}<br>{{ end }}
+                                {{ if .applicant }}<b>Eligible applicant:</b>
+                                {{ .applicant | markdownify }}<br>{{ end }}
+                                {{ if .decision_date }}<b>Decision date:</b> {{ .decision_date }}<br>{{ end }}</p>
                               <p><b>Call description:</b><br><small>{{ .call_description | markdownify }}</small></p>
-                              <p><a href="{{ .call_url }}">See call website for more information <i class="bi bi-arrow-right-circle-fill" aria-hidden="true"></i></a></p>
+                              <p><a href="{{ .call_url }}">See call website for more information <i
+                                    class="bi bi-arrow-right-circle-fill" aria-hidden="true"></i></a></p>
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -97,14 +101,15 @@
                           </div>
                         </div>
                       </div>
+                    </div>
                   </div>
-                </div>
                 </td>
                 <td>{{ .submission_deadline | time.Format ":date_long" }}</td>
                 <td>{{ .funder }}</td>
                 <td>{{ range .topic }}<span class="mx-1 my-1 topic_badge_large
                   {{ if eq . "COVID-19"}}topic_badge_covid
                   {{ else if eq . "Infectious diseases"}}topic_badge_infectious_d
+                  {{ else if eq . "Monkeypox"}}topic_badge_mokeypox
                   {{ else if eq . "Antibiotic resistance"}}topic_badge_antib_r
                   {{ else }}topic_badge_general
                   {{ end }} ">{{ . }}</span>{{ end }}</td>
@@ -121,23 +126,23 @@
 </div>
 
 <script>
-  $(document).ready( function () {
+  $(document).ready(function () {
     var table = $('.funding-opportunities').DataTable({
       "dom": '<"top">rt<"bottom"><"clear">',
       "language": {
-           "lengthMenu": "Show _MENU_ projects per page.",
-           "zeroRecords": "Nothing found.",
-           "info": "Showing _START_ to _END_ of _TOTAL_ calls.",
-           "infoEmpty": "No calls available",
-           "infoFiltered": "(filtered from _MAX_ total calls)",
-           "search": "Search:",
-           "paginate": {
-              "first":      "First",
-              "last":       "Last",
-              "next":       "Next",
-              "previous":   "Previous"
-              }
-          }
+        "lengthMenu": "Show _MENU_ projects per page.",
+        "zeroRecords": "Nothing found.",
+        "info": "Showing _START_ to _END_ of _TOTAL_ calls.",
+        "infoEmpty": "No calls available",
+        "infoFiltered": "(filtered from _MAX_ total calls)",
+        "search": "Search:",
+        "paginate": {
+          "first": "First",
+          "last": "Last",
+          "next": "Next",
+          "previous": "Previous"
+        }
+      }
     });
 
     $('input:checkbox').on('change', function () {
@@ -157,7 +162,7 @@
       table.column(3).search(topic, true, false, false).draw(false);
     });
 
-  } );
+  });
 
 
 </script>

@@ -1,6 +1,33 @@
 {
-  "last_updated": "2022-06-08",
+  "last_updated": "2022-07-04",
   "calls": [
+    {
+      "topic": [
+        "Infectious diseases",
+        "Monkeypox"
+      ],
+      "funder": "ISIDORe",
+      "call_title": "Monkeypox Virus",
+      "call_url": "https://isidore-project.eu/calls/monkeypox-virus/",
+      "call_description": "Since early May, there has been a sudden and unexpected multi-country increase in monkeypox virus (MPXV) infections. Based on the outcomes of this consultation and the need for an immediate research response to address and control better this outbreak before it worsens, the ISIDORe consortium announces the launch of an emergency call for proposals to support scientists researching monkeypox virus. Our capacities to support MPXV research currently include, but are not necessarily limited to: whole genome sequencing, imaging, structural biology, in vitro & in vivo models for studying infection mechanisms, testing of diagnostic devices, stability testing, etc.",
+      "submission_deadline": "2022-08-05",
+      "submission_opendate": "2022-06-30",
+      "funding_amount": "Call provides access to ISIDORe services, not a given monetary amount."
+    },
+    {
+      "topic": [
+        "Infectious diseases",
+        "Antibiotic resistance"
+      ],
+      "funder": "Swedish Research Council",
+      "call_title": "Proof of concept within the infection area",
+      "call_url": "https://www.vr.se/english/applying-for-funding/calls/2022-01-17-proof-of-concept-within-the-infection-area.html",
+      "call_description": "The purpose of the grant is to bridge the gap between basic research and utilisation or commercialisation of research results within the infection area. The proof of concept grant offers persons who are receiving or have received a grant from the Swedish Research Council (Vetenskapsrådet), The Swedish Research Council for health, working life and welfare (Forte) or the Swedish Research Council for sustainable development (Formas) the opportunity to further develop their research results. This shall be done by verifying the useability and suitability of a new method, product or process developed from an earlier research project, and to carry out activities preparatory to innovation or commercialisation.",
+      "submission_deadline": "2022-05-24",
+      "submission_opendate": "2022-04-20",
+      "funding_period": "1-2 years",
+      "funding_amount": "500 000 SEK per year, maximum 2 000 000 SEK in total"
+    },
     {
       "topic": [
         "Infectious diseases",
