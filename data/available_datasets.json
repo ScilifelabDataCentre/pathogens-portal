@@ -1721,6 +1721,1005 @@
           "doi_url_or_url": "https://gitlab.switch.ch/torsten.hothorn/relative_covid-19_mortality"
         }
       ]
+    },
+    {
+      "article_preprint_doi": "10.1038/s41598-021-84356-w",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Pseudonymised, individual-level data that allow full replication of the results in this article are freely available from joakim.dillner@sll.se or from the Karolinska University Hospital data analysis department: tableau.karolinska@sll.se.",
+          "data_type": [
+            "Public health",
+            "Serology"
+          ],
+          "doi_url_or_url": "https://www.nature.com/articles/s41598-021-84356-w"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1073/pnas.2020834118",
+      "available_items": [
+        {
+          "type": "code",
+          "repo_name": "Open Science Framework",
+          "accession_number": "",
+          "description": "Analysis code",
+          "data_type": [
+            "Health",
+            "Other data"
+          ],
+          "doi_url_or_url": "https://osf.io/4zegu/"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1017/S0950268821000510",
+      "available_items": [
+        {
+          "type": "code",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Analysis code (R)",
+          "data_type": [
+            "Health",
+            "Other data"
+          ],
+          "doi_url_or_url": "https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S0950268821000510/resource/name/S0950268821000510sup001.zip"
+        },
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Data related to incubation period and patient.",
+          "data_type": [
+            "Health",
+            "Other data"
+          ],
+          "doi_url_or_url": "https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S0950268821000510/resource/name/S0950268821000510sup001.zip"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1016/j.ebiom.2021.103259",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Possible to apply for access to deidentified patient data and samples",
+          "data_type": [
+            "Serology"
+          ],
+          "doi_url_or_url": "https://covid-consortium.com/application-for-samples/"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.3390/jcm10050896",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Patient characteristics, medical treatment regiments, symptoms, laboratory findings, ophthalmic findings, systemic symtoms for each patient",
+          "data_type": [
+            "Other data"
+          ],
+          "doi_url_or_url": "https://www.mdpi.com/2077-0383/10/5/896/s1"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1101/2021.02.18.21251422",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "Gitlab",
+          "accession_number": "",
+          "description": "Data related to olfaction tests",
+          "data_type": [
+            "Public health",
+            "Other data"
+          ],
+          "doi_url_or_url": "https://gitlab.com/snitz/smelltracker_article"
+        },
+        {
+          "type": "code",
+          "repo_name": "Gitlab",
+          "accession_number": "",
+          "description": "Analysis code (Matlab)",
+          "data_type": [
+            "Public health",
+            "Other data"
+          ],
+          "doi_url_or_url": "https://gitlab.com/snitz/smelltracker_article"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.3389/fpubh.2021.579948",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "Data held on daily death counts for Sweden from 1860 to 31.08.2020; the total population of Sweden for the years 1860 to 2019 (from Statistics Sweden).",
+          "data_type": [
+            "Public health"
+          ],
+          "doi_url_or_url": "https://github.com/aledberg/outbreaks"
+        },
+        {
+          "type": "code",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "Code to do analysis and produce figures.",
+          "data_type": [
+            "Public health"
+          ],
+          "doi_url_or_url": "https://github.com/aledberg/outbreaks"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1371/journal.pone.0244924",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Knowledge, attitudes, and practices (KAP) survey results.",
+          "data_type": [
+            "Public health",
+            "Other data"
+          ],
+          "doi_url_or_url": "https://reshare.ukdataservice.ac.uk/854605/"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1016/j.imu.2021.100529",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Results of the efficacy of FDA approved antiviral drugs on SARS-CoV-2 spike glycoprotein.",
+          "data_type": [
+            "Proteins",
+            "Drug discovery"
+          ],
+          "doi_url_or_url": "http://fulir.irb.hr/6161/"
+        },
+        {
+          "type": "code",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "The Vini in silico model of cancer.",
+          "data_type": [
+            "Proteins",
+            "Drug discovery"
+          ],
+          "doi_url_or_url": "https://github.com/draskot/Vini"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1038/s41598-020-80352-8",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Raw data for amplification curves, and Ct values for clinical samples.",
+          "data_type": [
+            "Genomics",
+            "Other data"
+          ],
+          "doi_url_or_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-020-80352-8/MediaObjects/41598_2020_80352_MOESM2_ESM.xlsx"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1073/pnas.2020732118",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "Protein Data Bank",
+          "accession_number": "7AJP",
+          "description": "Crystal Structure of Human Adenovirus 56 Fiber Knob.",
+          "data_type": [
+            "Proteins",
+            "Biochemistry"
+          ],
+          "doi_url_or_url": "https://www.rcsb.org/structure/7AJP"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1101/2021.01.13.21249429",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "Figshare",
+          "accession_number": "",
+          "description": "Most data in paper, but metadata record is available as an access point for individual data requests.",
+          "data_type": [
+            "Health"
+          ],
+          "doi_url_or_url": "https://doi.org/10.17044/scilifelab.14229410"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1038/s41467-020-20653-8",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Source data behind study.",
+          "data_type": [
+            "Biochemistry",
+            "Drug discovery"
+          ],
+          "doi_url_or_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-20653-8/MediaObjects/41467_2020_20653_MOESM4_ESM.xlsx"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1186/s12912-021-00540-3",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Data cannot be publicly shared, but applications can be made for access.",
+          "data_type": [
+            "Public health"
+          ],
+          "doi_url_or_url": "https://bmcnurs.biomedcentral.com/articles/10.1186/s12912-021-00540-3#availability-of-data-and-materials"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1016/j.ijid.2021.01.023",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Patient demographics, management and outcome in 42 kidney recipients with COVID-19.",
+          "data_type": [
+            "Health"
+          ],
+          "doi_url_or_url": "https://www.ijidonline.com/cms/10.1016/j.ijid.2021.01.023/attachment/10ccf84a-9c50-4457-b428-6a46ea9babe3/mmc1.docx"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1038/s41598-021-95968-7",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Data cannot be shared publicly, but applications can be made for access.",
+          "data_type": [
+            "Health",
+            "Biochemistry"
+          ],
+          "doi_url_or_url": "https://www.nature.com/articles/s41598-021-95968-7#data-availability"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1126/science.abe6230",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Data generated/analysed are in the article or supplementary materials.",
+          "data_type": [
+            "Proteins",
+            "Biochemistry",
+            "Imaging"
+          ],
+          "doi_url_or_url": "https://www.science.org/doi/10.1126/science.abe6230"
+        },
+        {
+          "type": "data",
+          "repo_name": "Protein Data Bank",
+          "accession_number": "7KN5",
+          "description": "Crystal structure of SARS-CoV-2 receptor binding domain complexed with nanobodies VHH E and U.",
+          "data_type": [
+            "Proteins",
+            "Biochemistry",
+            "Imaging"
+          ],
+          "doi_url_or_url": "https://www.rcsb.org/structure/7KN5"
+        },
+        {
+          "type": "data",
+          "repo_name": "Protein Data Bank",
+          "accession_number": "7KN6",
+          "description": "Crystal structure of SARS-CoV-2 receptor binding domain complexed with nanobody VHH V and antibody Fab CC12.3.",
+          "data_type": [
+            "Proteins",
+            "Biochemistry",
+            "Imaging"
+          ],
+          "doi_url_or_url": "https://www.rcsb.org/structure/7KN6"
+        },
+        {
+          "type": "data",
+          "repo_name": "Protein Data Bank",
+          "accession_number": "7KN7",
+          "description": "Crystal structure of SARS-CoV-2 receptor binding domain complexed with nanobody VHH W and antibody Fab CC12.3.",
+          "data_type": [
+            "Proteins",
+            "Biochemistry",
+            "Imaging"
+          ],
+          "doi_url_or_url": "https://www.rcsb.org/structure/7KN7"
+        },
+        {
+          "type": "data",
+          "repo_name": "Protein Data Bank",
+          "accession_number": "7KSG",
+          "description": "SARS-CoV-2 spike in complex with nanobodies E.",
+          "data_type": [
+            "Proteins",
+            "Biochemistry",
+            "Imaging"
+          ],
+          "doi_url_or_url": "https://www.rcsb.org/structure/7KSG"
+        },
+        {
+          "type": "data",
+          "repo_name": "Protein Data Bank",
+          "accession_number": "7B14",
+          "description": "Nanobody E bound to Spike-RBD in a localized reconstruction.",
+          "data_type": [
+            "Proteins",
+            "Biochemistry",
+            "Imaging"
+          ],
+          "doi_url_or_url": "https://www.rcsb.org/structure/7B14"
+        },
+        {
+          "type": "data",
+          "repo_name": "Protein Data Bank",
+          "accession_number": "7B11",
+          "description": "SARS-CoV-spike with two RBDs up bound to VHH V on all RBDs.",
+          "data_type": [
+            "Proteins",
+            "Biochemistry",
+            "Imaging"
+          ],
+          "doi_url_or_url": "https://www.rcsb.org/structure/unreleased/7B11"
+        },
+        {
+          "type": "data",
+          "repo_name": "Protein Data Bank",
+          "accession_number": "7B18",
+          "description": "SARS-CoV-spike bound to two neutralising nanobodies.",
+          "data_type": [
+            "Proteins",
+            "Biochemistry",
+            "Imaging"
+          ],
+          "doi_url_or_url": "https://www.rcsb.org/structure/7B18"
+        },
+        {
+          "type": "data",
+          "repo_name": "Protein Data Bank",
+          "accession_number": "7B17",
+          "description": "SARS-CoV-spike RBD bound to two neutralising nanobodies.",
+          "data_type": [
+            "Proteins",
+            "Biochemistry",
+            "Imaging"
+          ],
+          "doi_url_or_url": "https://www.rcsb.org/structure/7B17"
+        },
+        {
+          "type": "data",
+          "repo_name": "Electron Microscopy Data Bank",
+          "accession_number": "EMD-23018",
+          "description": "SARS-CoV-2 spike in complex with nanobodies E.",
+          "data_type": [
+            "Proteins",
+            "Biochemistry",
+            "Imaging"
+          ],
+          "doi_url_or_url": "https://www.ebi.ac.uk/emdb/EMD-23018"
+        },
+        {
+          "type": "data",
+          "repo_name": "Electron Microscopy Data Bank",
+          "accession_number": "EMD-11978",
+          "description": "Nanobody E bound to Spike-RBD in a localized reconstruction.",
+          "data_type": [
+            "Proteins",
+            "Biochemistry",
+            "Imaging"
+          ],
+          "doi_url_or_url": "https://www.ebi.ac.uk/emdb/EMD-11978"
+        },
+        {
+          "type": "data",
+          "repo_name": "Electron Microscopy Data Bank",
+          "accession_number": "EMD-11981",
+          "description": "SARS-CoV-spike bound to two neutralising nanobodies.",
+          "data_type": [
+            "Proteins",
+            "Biochemistry",
+            "Imaging"
+          ],
+          "doi_url_or_url": "https://www.ebi.ac.uk/emdb/EMD-11981"
+        },
+        {
+          "type": "data",
+          "repo_name": "Electron Microscopy Data Bank",
+          "accession_number": "EMD-11980",
+          "description": "SARS-CoV-spike RBD bound to two neutralising nanobodies.",
+          "data_type": [
+            "Proteins",
+            "Biochemistry",
+            "Imaging"
+          ],
+          "doi_url_or_url": "https://www.ebi.ac.uk/emdb/EMD-11980"
+        },
+        {
+          "type": "data",
+          "repo_name": "BioProject",
+          "accession_number": "PRJNA679438",
+          "description": "Structure-guided multivalent nanobodies block SARS-CoV-2 infection and suppress mutational escape.",
+          "data_type": [
+            "Proteins",
+            "Biochemistry",
+            "Imaging"
+          ],
+          "doi_url_or_url": "https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA679438"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.3390/vaccines9010042",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Data cannot be shared publicly, but applications can be made for access.",
+          "data_type": [
+            "Public health"
+          ],
+          "doi_url_or_url": "https://www.mdpi.com/2076-393X/9/1/42/htm"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1186/s12931-020-01605-8",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Data cannot be shared publicly, but applications can be made for access.",
+          "data_type": [
+            "Biochemistry",
+            "Health"
+          ],
+          "doi_url_or_url": "https://respiratory-research.biomedcentral.com/articles/10.1186/s12931-020-01605-8"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1371/journal.pone.0244824",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Data are available in the article and supplementary materials (including Ct values & gel images).",
+          "data_type": [
+            "Genomics",
+            "Health"
+          ],
+          "doi_url_or_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0244824"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.3390/v13010037",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Data are available in the article and supplementary materials (effect of novel antiviral compounds against ZIKV in several cell models).",
+          "data_type": [
+            "Biochemistry",
+            "Other data"
+          ],
+          "doi_url_or_url": "https://www.mdpi.com/1999-4915/13/1/37/s1"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.3390/v13010037",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Data are available in the article and supplementary materials (effect of novel antiviral compounds against ZIKV in several cell models).",
+          "data_type": [
+            "Biochemistry",
+            "Other data"
+          ],
+          "doi_url_or_url": "https://www.mdpi.com/1999-4915/13/1/37/s1"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1111/joim.13304",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "Data related to discriminative bayesian seroprevalence",
+          "data_type": [
+            "Health",
+            "Serology"
+          ],
+          "doi_url_or_url": "https://github.com/MurrellGroup/DiscriminativeSeroprevalence"
+        },
+        {
+          "type": "code",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "Code related to discriminative bayesian seroprevalence (see notebook).",
+          "data_type": [
+            "Health",
+            "Serology"
+          ],
+          "doi_url_or_url": "https://github.com/MurrellGroup/DiscriminativeSeroprevalence"
+        },
+        {
+          "type": "code",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "Code used in analysis of seroprevalence data (R)",
+          "data_type": [
+            "Health",
+            "Serology"
+          ],
+          "doi_url_or_url": "https://github.com/chr1swallace/seroprevalence-paper"
+        },
+        {
+          "type": "data",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "Seroprevalence data related to R code",
+          "data_type": [
+            "Health",
+            "Serology"
+          ],
+          "doi_url_or_url": "https://github.com/chr1swallace/seroprevalence-paper"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1093/rheumatology/keaa771",
+      "available_items": [
+        {
+          "type": "code",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "Study protocol and analysis source code",
+          "data_type": [
+            "Drug discovery",
+            "Health"
+          ],
+          "doi_url_or_url": "https://github.com/ohdsi-studies/Covid19EstimationHydroxychloroquine2"
+        },
+        {
+          "type": "code",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "Analysis tools used in study",
+          "data_type": [
+            "Drug discovery",
+            "Health"
+          ],
+          "doi_url_or_url": "https://github.com/OHDSI/"
+        },
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Data and results artefacts that do not include patient-level health information",
+          "data_type": [
+            "Drug discovery",
+            "Health"
+          ],
+          "doi_url_or_url": "http://data.ohdsi.org/Covid19EstimationHydroxychloroquine2"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1016/j.ebiom.2021.103277",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "Data on collaborative genetic studies of idiopathic pulmonary fibrosis.",
+          "data_type": [
+            "Genomics"
+          ],
+          "doi_url_or_url": "https://github.com/genomicsITER/PFgenetics"
+        },
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "COVID19-hg GWAS meta-analyses data.",
+          "data_type": [
+            "Genomics"
+          ],
+          "doi_url_or_url": "https://github.com/genomicsITER/PFgenetics"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1101/2020.12.15.20248247",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Data cannot be made publicly available, but those with written permission from the Swedish Ethical Review Authority may be granted access.",
+          "data_type": [
+            "Health"
+          ],
+          "doi_url_or_url": "https://www.medrxiv.org/node/189563.external-links.html"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1101/2020.12.13.20248122",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Data cannot be made publicly available, but applications can be made for individual-level pseudonymised data.",
+          "data_type": [
+            "Health"
+          ],
+          "doi_url_or_url": "https://www.medrxiv.org/node/189563.external-links.html"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1101/2020.12.11.422139",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Croatian Neandertal genome.",
+          "data_type": [
+            "Genomics"
+          ],
+          "doi_url_or_url": "http://cdna.eva.mpg.de/neandertal/Vindija/VCF/"
+        },
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Croatian Neandertal genome (alternate source).",
+          "data_type": [
+            "Genomics"
+          ],
+          "doi_url_or_url": "https://bioinf.eva.mpg.de/jbrowse/"
+        },
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Modern human genome.",
+          "data_type": [
+            "Genomics"
+          ],
+          "doi_url_or_url": "http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/"
+        },
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "GWAS summary statistics (round 4 release: A/B2_ALL_eur_leave_23andme).",
+          "data_type": [
+            "Genomics"
+          ],
+          "doi_url_or_url": "https://www.covid19hg.org/results/"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1002/jcp.30206",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "All data are included in the paper.",
+          "data_type": [
+            "Genomics"
+          ],
+          "doi_url_or_url": "https://onlinelibrary.wiley.com/doi/10.1002/jcp.30206"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1038/s41597-020-00778-7",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "Zenodo",
+          "accession_number": "",
+          "description": "Raw dataset: perceived likelihoods and impacts, individual and authorities’ preparedness and knowledge, socio-demographic characteristics in August 2020 (N=2,033 in Italy, N=2,121 in Sweden)",
+          "data_type": [
+            "Public health"
+          ],
+          "doi_url_or_url": "https://zenodo.org/record/4034277#.YsfjOS8RpTY"
+        },
+        {
+          "type": "code",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "Code for reading, processing and graphically representing the data",
+          "data_type": [
+            "Public health"
+          ],
+          "doi_url_or_url": "https://github.com/elenamondino/nationwide_survey"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1080/2162402X.2020.1857112",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Allelic frequencies of FPR1 SNPs and characteristics of patient population from Hôpital Cochin and Hôpital Européen George Pompidou",
+          "data_type": [
+            "Genomics",
+            "Health"
+          ],
+          "doi_url_or_url": "https://www.tandfonline.com/doi/figure/10.1080/2162402X.2020.1857112?scroll=top&needAccess=true"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.3390/v12121423",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "Figshare",
+          "accession_number": "",
+          "description": "Thermal Proteome Profiling dataset from Hazara virus infected SW13 cells treated with DMSO or antiviral inhibitor 20 µM TH6744",
+          "data_type": [
+            "Genomics",
+            "Biochemistry",
+            "Proteins",
+            "Drug discovery"
+          ],
+          "doi_url_or_url": "https://scilifelab.figshare.com/articles/dataset/Thermal_Proteome_Profiling_dataset_from_Hazara_virus_infected_SW13_cells_treated_with_DMSO_or_antiviral_inhibitor_20_M_TH6744_/13089023"
+        },
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Antiviral screening; Dose-response treatment of TH6744 and TH3289; List of proteins from 2D-TPP analysis in U87 cells (FDR); List of proteins from 2D-TPP analysis in U87 cells (Fold-change); Uniprot annotation of overlapping TPP-TR and 2D-TPP hits",
+          "data_type": [
+            "Genomics",
+            "Biochemistry",
+            "Proteins",
+            "Drug discovery"
+          ],
+          "doi_url_or_url": "https://www.mdpi.com/1999-4915/12/12/1423/s1"
+        },
+        {
+          "type": "data",
+          "repo_name": "ProteomeXchange Consortium",
+          "accession_number": "PXD021494",
+          "description": "Raw mass spectrometry data",
+          "data_type": [
+            "Genomics",
+            "Biochemistry",
+            "Proteins",
+            "Drug discovery"
+          ],
+          "doi_url_or_url": "http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD021494"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1007/s10875-020-00928-x",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "General laboratory tests, immunologic investigation, computed tomographies of the chest of 17 primary immunodeficient patients infected with COVID-19",
+          "data_type": [
+            "Genomics",
+            "Public health"
+          ],
+          "doi_url_or_url": "https://static-content.springer.com/esm/art%3A10.1007%2Fs10875-020-00928-x/MediaObjects/10875_2020_928_MOESM1_ESM.docx"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1016/s2589-7500(20)30289-2",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Much of the data cannot be shared publicly, but applications can be made for access",
+          "data_type": [
+            "Health"
+          ],
+          "doi_url_or_url": "https://data.ohdsi.org/IcariusSusceptibility/"
+        },
+        {
+          "type": "code",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "start-to-finish open and executable source code",
+          "data_type": [
+            "Health"
+          ],
+          "doi_url_or_url": "https://github.com/ohdsi-studies/Covid19Icarius"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1002/psp4.12568",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Experimental data are in the supplementary material",
+          "data_type": [
+            "Biochemistry",
+            "Other data"
+          ],
+          "doi_url_or_url": "https://ascpt.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fpsp4.12568&file=psp412568-sup-0002-Suppinfo2.zip"
+        },
+        {
+          "type": "code",
+          "repo_name": "GitLab",
+          "accession_number": "",
+          "description": "Code for macrophage model (matlab)",
+          "data_type": [
+            "Biochemistry",
+            "Other data"
+          ],
+          "doi_url_or_url": "https://gitlab.liu.se/eliny61/macrophage-model"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1080/22221751.2020.1799723",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "BioProject",
+          "accession_number": "",
+          "description": "Raw RNAseq data",
+          "data_type": [
+            "Proteins",
+            "Health"
+          ],
+          "doi_url_or_url": "https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA627100"
+        },
+        {
+          "type": "data",
+          "repo_name": "Zenodo",
+          "accession_number": "",
+          "description": "Proteomics data",
+          "data_type": [
+            "Proteins",
+            "Health"
+          ],
+          "doi_url_or_url": "https://zenodo.org/record/3754719#.Ysf11C8RrOR"
+        },
+        {
+          "type": "code",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "All pre-processing and analysis code",
+          "data_type": [
+            "Proteins",
+            "Health"
+          ],
+          "doi_url_or_url": "https://github.com/neogilab/COVID19"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1111/nan.12677",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "Figshare",
+          "accession_number": "",
+          "description": "Whole slide scans of ACE2 immunohistochemistry from 4 COVID-19 patients and 3 pre-pandemic controls (named PAT1-4 and CONT1-4, respectively)",
+          "data_type": [
+            "Health"
+          ],
+          "doi_url_or_url": "https://doi.org/10.6084/m9.figshare.13089383"
+        },
+        {
+          "type": "data",
+          "repo_name": "Figshare",
+          "accession_number": "",
+          "description": "R script to analyze ACE2 expression in basal ganglian from GTEx project",
+          "data_type": [
+            "Health"
+          ],
+          "doi_url_or_url": "https://doi.org/10.6084/m9.figshare.13089383"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1016/j.dib.2020.106621",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "Harvard Dataverse",
+          "accession_number": "",
+          "description": "Raw dataset: socio-demographic characteristics, sources of information regarding COVID-19, knowledge concerning COVID-19, behavior in preventing COVID-19, etc. (n=10,067)",
+          "data_type": [
+            "Public health"
+          ],
+          "doi_url_or_url": "https://doi.org/10.7910/DVN/YKH9C1"
+        },
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Detailed description of all study variables",
+          "data_type": [
+            "Public health"
+          ],
+          "doi_url_or_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2352340920315018-mmc1.docx"
+        }
+      ]
     }
   ]
 }
+
+"Genomics",
+"Biochemistry",
+"Serology",
+"Proteins",
+"Health",
+"Public health",
+"Imaging",
+"Drug discovery",
+"Environment",
+"Other data"
