@@ -65,7 +65,7 @@ These tools have been adapted/developed for use with the monkeypox virus. They c
 ## Other useful resources
 
 - [Global map and case count](https://www.cdc.gov/poxvirus/monkeypox/response/2022/world-map.html) and [U.S. map and case count](https://www.cdc.gov/poxvirus/monkeypox/response/2022/us-map.html) for monkeypox in 2022 from the CDC
-- [Multi-country outbreak of monkeypox bi-weekly situation reports from WHO](https://www.who.int/emergencies/situation-reports) 
+- [Multi-country outbreak of monkeypox bi-weekly situation reports from WHO](https://www.who.int/emergencies/situation-reports)
 - [WHO Factsheet on monkeypox](https://www.who.int/news-room/fact-sheets/detail/monkeypox)
 - [Information about monkeypox from Swedish Public Health Agency](https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/communicable-disease-control/disease-information-about-monkeypox/); [Swedish version](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/smittsamma-sjukdomar/apkoppor/)
 - [Information from the Centre for Disease Control (CDC) in the USA](https://www.cdc.gov/poxvirus/monkeypox/index.html)
