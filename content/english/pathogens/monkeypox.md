@@ -44,7 +44,13 @@ These tools have been adapted/developed for use with the monkeypox virus. They c
 
 ## Relevant publications and preprints
 
-- Kraemer, M.U.G, Tegally, H., Pigott, D.M., Dasgupta, A., Sheldon, J., Wilkinson, E., Schultheiss, M., Han, A., Oglia, M., Marks, S., Kanner, J., O'Brien, K., Dandamudi, S., Rader, B., Sewalk, K., Bento, A.I., Scarpino, S.V., de Oliveira, T., Bogoch, I.I., Katz, R., Brownstein, J.S. (2022). Tracking the 2022 monkeypox outbreak with epidemiological data in real-time. *The Lancet Infectious Diseases*. [https://doi.org/10.1016/S1473-3099(22)00359-0](https://doi.org/10.1016/S1473-3099(22)00359-0)
+- Miura, F., van Ewijk, C.E., Backer J. A., Xiridou, M., Franz, E., Op de Coul, E., Brandwagt, D., van Cleef, B., van Rijckevorsel. G., Swaan. C., van den Hof, S., Wallinga, J. (2022). Estimated incubation period for monkeypox cases confirmed in the Netherlands, May 2022. *Eurosurveillance*, *27*, 2200448. [https://doi.org/10.2807/1560-7917.ES.2022.27.24.2200448](https://doi.org/10.2807/1560-7917.ES.2022.27.24.2200448)
+
+- Pfaff, F., Hoffmann, D., Beer, M. (2022). Monkeypox genomic surveillance will challenge lessons learned from SARS-CoV-2. *Lancet*, *400*, 10345. [https://doi.org/10.1016/s0140-6736(22)01106-0](https://doi.org/10.1016/s0140-6736(22)01106-0)
+
+- Kraemer, M.U.G., Tegally, H., Pigott, D.M., Dasgupta, A., Sheldon, J., Wilkinson, E., Schultheiss, M., Han, A., Oglia, M., Marks, S., Kanner, J., O'Brien, K., Dandamudi, S., Rader, B., Sewalk, K., Bento, A.I., Scarpino, S.V., de Oliveira, T., Bogoch, I.I., Katz, R., Brownstein, J.S. (2022). Tracking the 2022 monkeypox outbreak with epidemiological data in real-time. *The Lancet Infectious Diseases*. [https://doi.org/10.1016/S1473-3099(22)00359-0](https://doi.org/10.1016/S1473-3099(22)00359-0)
+
+- Rodríguez-Morales, A.J., Ortiz-Martínez, Y., Bonilla-Aldana, D.K. (2022). What has been researched about monkeypox? a bibliometric analysis of an old zoonotic virus causing global concern. *New Microbes and New Infections*, *47*, 100993. [https://doi.org/10.1016/j.nmni.2022.100993](https://doi.org/10.1016/j.nmni.2022.100993)
 
 - Perez Duque, M., Ribeiro, S., Martins, J. V., Casaca, P., Leite, P.P., Tavares, M., Mansinho, K., Duque, L.M., Fernandes, C., Cordeiro, R., Borrego, M.J., Pelerito, A., de Carvalho, I.L., Núncio, S., Manageiro, V., Minetti, C., Machado, J., Haussig, J.M., Croci, R., Spiteri, G., Casal, A.S., Mendes, D., Souto, T., Pocinho, S., Fernandes, T., Firme, A., Vasconcelos, P., Freitas, G. (2022). Ongoing monkeypox virus outbreak, Portugal, 29 April to 23 May 2022. *Eurosurveillance, 27* 2200424. [https://doi.org/10.2807/1560-7917.ES.2022.27.22.2200424](https://doi.org/10.2807/1560-7917.ES.2022.27.22.2200424)
 
@@ -58,6 +64,8 @@ These tools have been adapted/developed for use with the monkeypox virus. They c
 
 ## Other useful resources
 
+- [Global map and case count](https://www.cdc.gov/poxvirus/monkeypox/response/2022/world-map.html) and [U.S. map and case count](https://www.cdc.gov/poxvirus/monkeypox/response/2022/us-map.html) for monkeypox in 2022 from the CDC
+- [Multi-country outbreak of monkeypox bi-weekly situation reports from WHO](https://www.who.int/emergencies/situation-reports) 
 - [WHO Factsheet on monkeypox](https://www.who.int/news-room/fact-sheets/detail/monkeypox)
 - [Information about monkeypox from Swedish Public Health Agency](https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/communicable-disease-control/disease-information-about-monkeypox/); [Swedish version](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/smittsamma-sjukdomar/apkoppor/)
 - [Information from the Centre for Disease Control (CDC) in the USA](https://www.cdc.gov/poxvirus/monkeypox/index.html)
