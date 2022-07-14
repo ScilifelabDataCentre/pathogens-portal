@@ -1,6 +1,336 @@
 {
-  "last_updated": "2022-06-22",
+  "last_updated": "2022-07-14",
   "datasets": [
+    {
+      "article_preprint_doi": "10.1186/s12915-021-01086-1",
+      "available_items": [
+        {
+          "type": "code",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "Data analysis code.",
+          "data_type": [
+            "Drug discovery data"
+          ],
+          "doi_url_or_url": "https://github.com/pharmbio/antiviral-phenomics"
+        },
+        {
+          "type": "data",
+          "repo_name": "Figshare",
+          "accession_number": "",
+          "description": "Images, analysis pipelines and feature data.",
+          "data_type": [
+            "Drug discovery data"
+          ],
+          "doi_url_or_url": "https://doi.org/10.17044/scilifelab.14188403.v1"
+        },
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "All data generated and analysed are available in the articles and complementary information files.",
+          "data_type": [
+            "Drug discovery data"
+          ],
+          "doi_url_or_url": "https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-021-01086-1#availability-of-data-and-materials"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1371/journal.pone.0255270",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "Information on interactions between proteins & human cells, potential drug targets, genes related to potential targets.",
+          "data_type": [
+            "Drug discovery data"
+          ],
+          "doi_url_or_url": "https://github.com/MahnazHabibi/Drug-repurposing"
+        },
+        {
+          "type": "code",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "Matlab analysis code required to process data.",
+          "data_type": [
+            "Drug discovery data"
+          ],
+          "doi_url_or_url": "https://github.com/MahnazHabibi/Drug-repurposing"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.3390/md19070391",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "All data are included in the article or supplementary material (Sarcophyton cembranoid diterpenes metabolites).",
+          "data_type": [
+            "Drug discovery data",
+            "Protein data"
+          ],
+          "doi_url_or_url": "https://www.mdpi.com/1660-3397/19/7/391/htm"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1038/s41586-021-03767-x",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Summary statistics by COVID-19 HGI.",
+          "data_type": [
+            "Genomics data"
+          ],
+          "doi_url_or_url": "https://www.covid19hg.org/results/r5/"
+        },
+        {
+          "type": "data",
+          "repo_name": "GWAS",
+          "accession_number": "GCST011074",
+          "description": "GWAS catalog study.",
+          "data_type": [
+            "Genomics data"
+          ],
+          "doi_url_or_url": "https://www.ebi.ac.uk/gwas/studies/GCST011074"
+        },
+        {
+          "type": "code",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "Code for summary statistics, PCA pipeline with precomputed loadings and meta-analyses.",
+          "data_type": [
+            "Genomics data"
+          ],
+          "doi_url_or_url": "https://github.com/covid19-hg/"
+        },
+        {
+          "type": "code",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "Code for Mendelian randomization and genetic correlation pipeline.",
+          "data_type": [
+            "Genomics data"
+          ],
+          "doi_url_or_url": "https://github.com/marcoralab/MRcovid"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1172/jci152386",
+      "available_items": [
+        {
+          "type": "code",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "Code for data management and analysis (commit 183ddb7).",
+          "data_type": [
+            "Genomics data"
+          ],
+          "doi_url_or_url": "https://github.com/tomoconaka/COVID19-chr3"
+        },
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Data are held in multiple international repositories. Details about gaining access are contained in the paper.",
+          "data_type": [
+            "Genomics data"
+          ],
+          "doi_url_or_url": "https://www.jci.org/articles/view/152386"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1038/s41588-021-00996-8",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "COVID-19 summary statistics for individuals of African ancestry.",
+          "data_type": [
+            "Genomics data"
+          ],
+          "doi_url_or_url": "https://www.covid19hg.org/results/r6/"
+        },
+        {
+          "type": "data",
+          "repo_name": "Combined Annotation Dependent Depletion",
+          "accession_number": "",
+          "description": "CADD-scores v.1.6.",
+          "data_type": [
+            "Genomics data"
+          ],
+          "doi_url_or_url": "https://cadd.gs.washington.edu/score"
+        },
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Genomes from the 1000 Genomes Project.",
+          "data_type": [
+            "Genomics data"
+          ],
+          "doi_url_or_url": "https://www.internationalgenome.org/data"
+        },
+        {
+          "type": "data",
+          "repo_name": "Zenodo",
+          "accession_number": "",
+          "description": "Fine-mapping association summary statistics produced in this study.",
+          "data_type": [
+            "Genomics data"
+          ],
+          "doi_url_or_url": "https://doi.org/10.5281/zenodo.5708333"
+        },
+        {
+          "type": "code",
+          "repo_name": "Zenodo",
+          "accession_number": "",
+          "description": "Code used for the fine-mapping analysis.",
+          "data_type": [
+            "Genomics data"
+          ],
+          "doi_url_or_url": "https://doi.org/10.5281/zenodo.5708333"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1093/heapol/czab113",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "All data available in the article, or in sources therein.",
+          "data_type": [
+            "Public health data",
+            "Other data"
+          ],
+          "doi_url_or_url": "https://academic.oup.com/heapol/article/37/3/297/6373138#341608669"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.3390/jcm10194411",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Data on influenza/pneumonia deaths & hospitalisations due to sepsis, subdivided by mental health condition, physical comorbidities, and demographic features.",
+          "data_type": [
+            "Health data",
+            "Public health data"
+          ],
+          "doi_url_or_url": "https://www.mdpi.com/2077-0383/10/19/4411/s1?version=1632654678"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.3389/fpsyg.2021.736499",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Descriptive data on subjects included in the study, particularly focussed on the reasons behind limitations in ability to train.",
+          "data_type": [
+            "Health data"
+          ],
+          "doi_url_or_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2021.736499/full#supplementary-material"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1136/bmjopen-2021-052777",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Data related to literature requests available in the paper and supplementary materials.",
+          "data_type": [
+            "Health data",
+            "Public health data"
+          ],
+          "doi_url_or_url": "https://bmjopen.bmj.com/content/bmjopen/11/10/e049267/DC1/embed/inline-supplementary-material-1.pdf?download=true"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.3390/ijerph182010680",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "Open Science Framework",
+          "accession_number": "",
+          "description": "Raw data on physical activity and psychological well-being.",
+          "data_type": [
+            "Health data",
+            "Public health data"
+          ],
+          "doi_url_or_url": "https://osf.io/w4gfe/"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.3389/fpsyg.2021.708037",
+      "available_items": [
+        {
+          "type": "code",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "R-code used for data analyses.",
+          "data_type": [
+            "Public health data"
+          ],
+          "doi_url_or_url": "http://github.com/hakanwall/covid_study"
+        },
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Data cannot be made publicly available, but access can be requested for data with some personal details removed.",
+          "data_type": [
+            "Public health data"
+          ],
+          "doi_url_or_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2021.708037/full#h7"
+        }
+      ]
+    },
+    {
+      "article_preprint_doi": "10.1093/eurpub/ckab138",
+      "available_items": [
+        {
+          "type": "code",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "The code of the individual-based epidemiological model.",
+          "data_type": [
+            "Public health data"
+          ],
+          "doi_url_or_url": "https://github.com/ImperialCollegeLondon/covid19model"
+        },
+        {
+          "type": "data",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "The raw data from the Quarterly Labour Force Survey October to December 2019 used for the labour force model.",
+          "data_type": [
+            "Public health data"
+          ],
+          "doi_url_or_url": "https://www.ukdataservice.ac.uk/"
+        }
+      ]
+    },
     {
       "article_preprint_doi": "10.1021/jacs.1c08402",
       "available_items": [
@@ -1731,8 +2061,8 @@
           "accession_number": "",
           "description": "Pseudonymised, individual-level data that allow full replication of the results in this article are freely available from joakim.dillner@sll.se or from the Karolinska University Hospital data analysis department: tableau.karolinska@sll.se.",
           "data_type": [
-            "Public health",
-            "Serology"
+            "Public health data",
+            "Serology data"
           ],
           "doi_url_or_url": "https://www.nature.com/articles/s41598-021-84356-w"
         }
@@ -1747,7 +2077,7 @@
           "accession_number": "",
           "description": "Analysis code",
           "data_type": [
-            "Health",
+            "Health data",
             "Other data"
           ],
           "doi_url_or_url": "https://osf.io/4zegu/"
@@ -1763,7 +2093,7 @@
           "accession_number": "",
           "description": "Analysis code (R)",
           "data_type": [
-            "Health",
+            "Health data",
             "Other data"
           ],
           "doi_url_or_url": "https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S0950268821000510/resource/name/S0950268821000510sup001.zip"
@@ -1774,7 +2104,7 @@
           "accession_number": "",
           "description": "Data related to incubation period and patient.",
           "data_type": [
-            "Health",
+            "Health data",
             "Other data"
           ],
           "doi_url_or_url": "https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S0950268821000510/resource/name/S0950268821000510sup001.zip"
@@ -1790,7 +2120,7 @@
           "accession_number": "",
           "description": "Possible to apply for access to deidentified patient data and samples",
           "data_type": [
-            "Serology"
+            "Serology data"
           ],
           "doi_url_or_url": "https://covid-consortium.com/application-for-samples/"
         }
@@ -1820,7 +2150,7 @@
           "accession_number": "",
           "description": "Data related to olfaction tests",
           "data_type": [
-            "Public health",
+            "Public health data",
             "Other data"
           ],
           "doi_url_or_url": "https://gitlab.com/snitz/smelltracker_article"
@@ -1831,7 +2161,7 @@
           "accession_number": "",
           "description": "Analysis code (Matlab)",
           "data_type": [
-            "Public health",
+            "Public health data",
             "Other data"
           ],
           "doi_url_or_url": "https://gitlab.com/snitz/smelltracker_article"
@@ -1847,7 +2177,7 @@
           "accession_number": "",
           "description": "Data held on daily death counts for Sweden from 1860 to 31.08.2020; the total population of Sweden for the years 1860 to 2019 (from Statistics Sweden).",
           "data_type": [
-            "Public health"
+            "Public health data"
           ],
           "doi_url_or_url": "https://github.com/aledberg/outbreaks"
         },
@@ -1857,7 +2187,7 @@
           "accession_number": "",
           "description": "Code to do analysis and produce figures.",
           "data_type": [
-            "Public health"
+            "Public health data"
           ],
           "doi_url_or_url": "https://github.com/aledberg/outbreaks"
         }
@@ -1872,7 +2202,7 @@
           "accession_number": "",
           "description": "Knowledge, attitudes, and practices (KAP) survey results.",
           "data_type": [
-            "Public health",
+            "Public health data",
             "Other data"
           ],
           "doi_url_or_url": "https://reshare.ukdataservice.ac.uk/854605/"
@@ -1888,8 +2218,8 @@
           "accession_number": "",
           "description": "Results of the efficacy of FDA approved antiviral drugs on SARS-CoV-2 spike glycoprotein.",
           "data_type": [
-            "Proteins",
-            "Drug discovery"
+            "Protein data",
+            "Drug discovery data"
           ],
           "doi_url_or_url": "http://fulir.irb.hr/6161/"
         },
@@ -1899,8 +2229,8 @@
           "accession_number": "",
           "description": "The Vini in silico model of cancer.",
           "data_type": [
-            "Proteins",
-            "Drug discovery"
+            "Protein data",
+            "Drug discovery data"
           ],
           "doi_url_or_url": "https://github.com/draskot/Vini"
         }
@@ -1915,7 +2245,7 @@
           "accession_number": "",
           "description": "Raw data for amplification curves, and Ct values for clinical samples.",
           "data_type": [
-            "Genomics",
+            "Genomics data",
             "Other data"
           ],
           "doi_url_or_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-020-80352-8/MediaObjects/41598_2020_80352_MOESM2_ESM.xlsx"
@@ -1931,8 +2261,8 @@
           "accession_number": "7AJP",
           "description": "Crystal Structure of Human Adenovirus 56 Fiber Knob.",
           "data_type": [
-            "Proteins",
-            "Biochemistry"
+            "Protein data",
+            "Biochemistry data"
           ],
           "doi_url_or_url": "https://www.rcsb.org/structure/7AJP"
         }
@@ -1947,7 +2277,7 @@
           "accession_number": "",
           "description": "Most data in paper, but metadata record is available as an access point for individual data requests.",
           "data_type": [
-            "Health"
+            "Health data"
           ],
           "doi_url_or_url": "https://doi.org/10.17044/scilifelab.14229410"
         }
@@ -1962,8 +2292,8 @@
           "accession_number": "",
           "description": "Source data behind study.",
           "data_type": [
-            "Biochemistry",
-            "Drug discovery"
+            "Biochemistry data",
+            "Drug discovery data"
           ],
           "doi_url_or_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-20653-8/MediaObjects/41467_2020_20653_MOESM4_ESM.xlsx"
         }
@@ -1978,7 +2308,7 @@
           "accession_number": "",
           "description": "Data cannot be publicly shared, but applications can be made for access.",
           "data_type": [
-            "Public health"
+            "Public health data"
           ],
           "doi_url_or_url": "https://bmcnurs.biomedcentral.com/articles/10.1186/s12912-021-00540-3#availability-of-data-and-materials"
         }
@@ -1993,7 +2323,7 @@
           "accession_number": "",
           "description": "Patient demographics, management and outcome in 42 kidney recipients with COVID-19.",
           "data_type": [
-            "Health"
+            "Health data"
           ],
           "doi_url_or_url": "https://www.ijidonline.com/cms/10.1016/j.ijid.2021.01.023/attachment/10ccf84a-9c50-4457-b428-6a46ea9babe3/mmc1.docx"
         }
@@ -2008,8 +2338,8 @@
           "accession_number": "",
           "description": "Data cannot be shared publicly, but applications can be made for access.",
           "data_type": [
-            "Health",
-            "Biochemistry"
+            "Health data",
+            "Biochemistry data"
           ],
           "doi_url_or_url": "https://www.nature.com/articles/s41598-021-95968-7#data-availability"
         }
@@ -2024,9 +2354,9 @@
           "accession_number": "",
           "description": "Data generated/analysed are in the article or supplementary materials.",
           "data_type": [
-            "Proteins",
-            "Biochemistry",
-            "Imaging"
+            "Protein data",
+            "Biochemistry data",
+            "Imaging data"
           ],
           "doi_url_or_url": "https://www.science.org/doi/10.1126/science.abe6230"
         },
@@ -2036,9 +2366,9 @@
           "accession_number": "7KN5",
           "description": "Crystal structure of SARS-CoV-2 receptor binding domain complexed with nanobodies VHH E and U.",
           "data_type": [
-            "Proteins",
-            "Biochemistry",
-            "Imaging"
+            "Protein data",
+            "Biochemistry data",
+            "Imaging data"
           ],
           "doi_url_or_url": "https://www.rcsb.org/structure/7KN5"
         },
@@ -2048,9 +2378,9 @@
           "accession_number": "7KN6",
           "description": "Crystal structure of SARS-CoV-2 receptor binding domain complexed with nanobody VHH V and antibody Fab CC12.3.",
           "data_type": [
-            "Proteins",
-            "Biochemistry",
-            "Imaging"
+            "Protein data",
+            "Biochemistry data",
+            "Imaging data"
           ],
           "doi_url_or_url": "https://www.rcsb.org/structure/7KN6"
         },
@@ -2060,9 +2390,9 @@
           "accession_number": "7KN7",
           "description": "Crystal structure of SARS-CoV-2 receptor binding domain complexed with nanobody VHH W and antibody Fab CC12.3.",
           "data_type": [
-            "Proteins",
-            "Biochemistry",
-            "Imaging"
+            "Protein data",
+            "Biochemistry data",
+            "Imaging data"
           ],
           "doi_url_or_url": "https://www.rcsb.org/structure/7KN7"
         },
@@ -2072,9 +2402,9 @@
           "accession_number": "7KSG",
           "description": "SARS-CoV-2 spike in complex with nanobodies E.",
           "data_type": [
-            "Proteins",
-            "Biochemistry",
-            "Imaging"
+            "Protein data",
+            "Biochemistry data",
+            "Imaging data"
           ],
           "doi_url_or_url": "https://www.rcsb.org/structure/7KSG"
         },
@@ -2084,9 +2414,9 @@
           "accession_number": "7B14",
           "description": "Nanobody E bound to Spike-RBD in a localized reconstruction.",
           "data_type": [
-            "Proteins",
-            "Biochemistry",
-            "Imaging"
+            "Protein data",
+            "Biochemistry data",
+            "Imaging data"
           ],
           "doi_url_or_url": "https://www.rcsb.org/structure/7B14"
         },
@@ -2096,9 +2426,9 @@
           "accession_number": "7B11",
           "description": "SARS-CoV-spike with two RBDs up bound to VHH V on all RBDs.",
           "data_type": [
-            "Proteins",
-            "Biochemistry",
-            "Imaging"
+            "Protein data",
+            "Biochemistry data",
+            "Imaging data"
           ],
           "doi_url_or_url": "https://www.rcsb.org/structure/unreleased/7B11"
         },
@@ -2108,9 +2438,9 @@
           "accession_number": "7B18",
           "description": "SARS-CoV-spike bound to two neutralising nanobodies.",
           "data_type": [
-            "Proteins",
-            "Biochemistry",
-            "Imaging"
+            "Protein data",
+            "Biochemistry data",
+            "Imaging data"
           ],
           "doi_url_or_url": "https://www.rcsb.org/structure/7B18"
         },
@@ -2120,9 +2450,9 @@
           "accession_number": "7B17",
           "description": "SARS-CoV-spike RBD bound to two neutralising nanobodies.",
           "data_type": [
-            "Proteins",
-            "Biochemistry",
-            "Imaging"
+            "Protein data",
+            "Biochemistry data",
+            "Imaging data"
           ],
           "doi_url_or_url": "https://www.rcsb.org/structure/7B17"
         },
@@ -2132,9 +2462,9 @@
           "accession_number": "EMD-23018",
           "description": "SARS-CoV-2 spike in complex with nanobodies E.",
           "data_type": [
-            "Proteins",
-            "Biochemistry",
-            "Imaging"
+            "Protein data",
+            "Biochemistry data",
+            "Imaging data"
           ],
           "doi_url_or_url": "https://www.ebi.ac.uk/emdb/EMD-23018"
         },
@@ -2144,9 +2474,9 @@
           "accession_number": "EMD-11978",
           "description": "Nanobody E bound to Spike-RBD in a localized reconstruction.",
           "data_type": [
-            "Proteins",
-            "Biochemistry",
-            "Imaging"
+            "Protein data",
+            "Biochemistry data",
+            "Imaging data"
           ],
           "doi_url_or_url": "https://www.ebi.ac.uk/emdb/EMD-11978"
         },
@@ -2156,9 +2486,9 @@
           "accession_number": "EMD-11981",
           "description": "SARS-CoV-spike bound to two neutralising nanobodies.",
           "data_type": [
-            "Proteins",
-            "Biochemistry",
-            "Imaging"
+            "Protein data",
+            "Biochemistry data",
+            "Imaging data"
           ],
           "doi_url_or_url": "https://www.ebi.ac.uk/emdb/EMD-11981"
         },
@@ -2168,9 +2498,9 @@
           "accession_number": "EMD-11980",
           "description": "SARS-CoV-spike RBD bound to two neutralising nanobodies.",
           "data_type": [
-            "Proteins",
-            "Biochemistry",
-            "Imaging"
+            "Protein data",
+            "Biochemistry data",
+            "Imaging data"
           ],
           "doi_url_or_url": "https://www.ebi.ac.uk/emdb/EMD-11980"
         },
@@ -2180,9 +2510,9 @@
           "accession_number": "PRJNA679438",
           "description": "Structure-guided multivalent nanobodies block SARS-CoV-2 infection and suppress mutational escape.",
           "data_type": [
-            "Proteins",
-            "Biochemistry",
-            "Imaging"
+            "Protein data",
+            "Biochemistry data",
+            "Imaging data"
           ],
           "doi_url_or_url": "https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA679438"
         }
@@ -2197,7 +2527,7 @@
           "accession_number": "",
           "description": "Data cannot be shared publicly, but applications can be made for access.",
           "data_type": [
-            "Public health"
+            "Public health data"
           ],
           "doi_url_or_url": "https://www.mdpi.com/2076-393X/9/1/42/htm"
         }
@@ -2212,8 +2542,8 @@
           "accession_number": "",
           "description": "Data cannot be shared publicly, but applications can be made for access.",
           "data_type": [
-            "Biochemistry",
-            "Health"
+            "Biochemistry data",
+            "Health data"
           ],
           "doi_url_or_url": "https://respiratory-research.biomedcentral.com/articles/10.1186/s12931-020-01605-8"
         }
@@ -2228,8 +2558,8 @@
           "accession_number": "",
           "description": "Data are available in the article and supplementary materials (including Ct values & gel images).",
           "data_type": [
-            "Genomics",
-            "Health"
+            "Genomics data",
+            "Health data"
           ],
           "doi_url_or_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0244824"
         }
@@ -2244,7 +2574,7 @@
           "accession_number": "",
           "description": "Data are available in the article and supplementary materials (effect of novel antiviral compounds against ZIKV in several cell models).",
           "data_type": [
-            "Biochemistry",
+            "Biochemistry data",
             "Other data"
           ],
           "doi_url_or_url": "https://www.mdpi.com/1999-4915/13/1/37/s1"
@@ -2260,7 +2590,7 @@
           "accession_number": "",
           "description": "Data are available in the article and supplementary materials (effect of novel antiviral compounds against ZIKV in several cell models).",
           "data_type": [
-            "Biochemistry",
+            "Biochemistry data",
             "Other data"
           ],
           "doi_url_or_url": "https://www.mdpi.com/1999-4915/13/1/37/s1"
@@ -2276,8 +2606,8 @@
           "accession_number": "",
           "description": "Data related to discriminative bayesian seroprevalence",
           "data_type": [
-            "Health",
-            "Serology"
+            "Health data",
+            "Serology data"
           ],
           "doi_url_or_url": "https://github.com/MurrellGroup/DiscriminativeSeroprevalence"
         },
@@ -2287,8 +2617,8 @@
           "accession_number": "",
           "description": "Code related to discriminative bayesian seroprevalence (see notebook).",
           "data_type": [
-            "Health",
-            "Serology"
+            "Health data",
+            "Serology data"
           ],
           "doi_url_or_url": "https://github.com/MurrellGroup/DiscriminativeSeroprevalence"
         },
@@ -2298,8 +2628,8 @@
           "accession_number": "",
           "description": "Code used in analysis of seroprevalence data (R)",
           "data_type": [
-            "Health",
-            "Serology"
+            "Health data",
+            "Serology data"
           ],
           "doi_url_or_url": "https://github.com/chr1swallace/seroprevalence-paper"
         },
@@ -2309,8 +2639,8 @@
           "accession_number": "",
           "description": "Seroprevalence data related to R code",
           "data_type": [
-            "Health",
-            "Serology"
+            "Health data",
+            "Serology data"
           ],
           "doi_url_or_url": "https://github.com/chr1swallace/seroprevalence-paper"
         }
@@ -2325,8 +2655,8 @@
           "accession_number": "",
           "description": "Study protocol and analysis source code",
           "data_type": [
-            "Drug discovery",
-            "Health"
+            "Drug discovery data",
+            "Health data"
           ],
           "doi_url_or_url": "https://github.com/ohdsi-studies/Covid19EstimationHydroxychloroquine2"
         },
@@ -2336,8 +2666,8 @@
           "accession_number": "",
           "description": "Analysis tools used in study",
           "data_type": [
-            "Drug discovery",
-            "Health"
+            "Drug discovery data",
+            "Health data"
           ],
           "doi_url_or_url": "https://github.com/OHDSI/"
         },
@@ -2347,8 +2677,8 @@
           "accession_number": "",
           "description": "Data and results artefacts that do not include patient-level health information",
           "data_type": [
-            "Drug discovery",
-            "Health"
+            "Drug discovery data",
+            "Health data"
           ],
           "doi_url_or_url": "http://data.ohdsi.org/Covid19EstimationHydroxychloroquine2"
         }
@@ -2363,7 +2693,7 @@
           "accession_number": "",
           "description": "Data on collaborative genetic studies of idiopathic pulmonary fibrosis.",
           "data_type": [
-            "Genomics"
+            "Genomics data"
           ],
           "doi_url_or_url": "https://github.com/genomicsITER/PFgenetics"
         },
@@ -2373,7 +2703,7 @@
           "accession_number": "",
           "description": "COVID19-hg GWAS meta-analyses data.",
           "data_type": [
-            "Genomics"
+            "Genomics data"
           ],
           "doi_url_or_url": "https://github.com/genomicsITER/PFgenetics"
         }
@@ -2388,7 +2718,7 @@
           "accession_number": "",
           "description": "Data cannot be made publicly available, but those with written permission from the Swedish Ethical Review Authority may be granted access.",
           "data_type": [
-            "Health"
+            "Health data"
           ],
           "doi_url_or_url": "https://www.medrxiv.org/node/189563.external-links.html"
         }
@@ -2403,7 +2733,7 @@
           "accession_number": "",
           "description": "Data cannot be made publicly available, but applications can be made for individual-level pseudonymised data.",
           "data_type": [
-            "Health"
+            "Health data"
           ],
           "doi_url_or_url": "https://www.medrxiv.org/node/189563.external-links.html"
         }
@@ -2418,7 +2748,7 @@
           "accession_number": "",
           "description": "Croatian Neandertal genome.",
           "data_type": [
-            "Genomics"
+            "Genomics data"
           ],
           "doi_url_or_url": "http://cdna.eva.mpg.de/neandertal/Vindija/VCF/"
         },
@@ -2428,7 +2758,7 @@
           "accession_number": "",
           "description": "Croatian Neandertal genome (alternate source).",
           "data_type": [
-            "Genomics"
+            "Genomics data"
           ],
           "doi_url_or_url": "https://bioinf.eva.mpg.de/jbrowse/"
         },
@@ -2438,7 +2768,7 @@
           "accession_number": "",
           "description": "Modern human genome.",
           "data_type": [
-            "Genomics"
+            "Genomics data"
           ],
           "doi_url_or_url": "http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/"
         },
@@ -2448,7 +2778,7 @@
           "accession_number": "",
           "description": "GWAS summary statistics (round 4 release: A/B2_ALL_eur_leave_23andme).",
           "data_type": [
-            "Genomics"
+            "Genomics data"
           ],
           "doi_url_or_url": "https://www.covid19hg.org/results/"
         }
@@ -2463,7 +2793,7 @@
           "accession_number": "",
           "description": "All data are included in the paper.",
           "data_type": [
-            "Genomics"
+            "Genomics data"
           ],
           "doi_url_or_url": "https://onlinelibrary.wiley.com/doi/10.1002/jcp.30206"
         }
@@ -2478,7 +2808,7 @@
           "accession_number": "",
           "description": "Raw dataset: perceived likelihoods and impacts, individual and authorities’ preparedness and knowledge, socio-demographic characteristics in August 2020 (N=2,033 in Italy, N=2,121 in Sweden)",
           "data_type": [
-            "Public health"
+            "Public health data"
           ],
           "doi_url_or_url": "https://zenodo.org/record/4034277#.YsfjOS8RpTY"
         },
@@ -2488,7 +2818,7 @@
           "accession_number": "",
           "description": "Code for reading, processing and graphically representing the data",
           "data_type": [
-            "Public health"
+            "Public health data"
           ],
           "doi_url_or_url": "https://github.com/elenamondino/nationwide_survey"
         }
@@ -2503,8 +2833,8 @@
           "accession_number": "",
           "description": "Allelic frequencies of FPR1 SNPs and characteristics of patient population from Hôpital Cochin and Hôpital Européen George Pompidou",
           "data_type": [
-            "Genomics",
-            "Health"
+            "Genomics data",
+            "Health data"
           ],
           "doi_url_or_url": "https://www.tandfonline.com/doi/figure/10.1080/2162402X.2020.1857112?scroll=top&needAccess=true"
         }
@@ -2519,10 +2849,10 @@
           "accession_number": "",
           "description": "Thermal Proteome Profiling dataset from Hazara virus infected SW13 cells treated with DMSO or antiviral inhibitor 20 µM TH6744",
           "data_type": [
-            "Genomics",
-            "Biochemistry",
-            "Proteins",
-            "Drug discovery"
+            "Genomics data",
+            "Biochemistry data",
+            "Protein data",
+            "Drug discovery data"
           ],
           "doi_url_or_url": "https://scilifelab.figshare.com/articles/dataset/Thermal_Proteome_Profiling_dataset_from_Hazara_virus_infected_SW13_cells_treated_with_DMSO_or_antiviral_inhibitor_20_M_TH6744_/13089023"
         },
@@ -2532,10 +2862,10 @@
           "accession_number": "",
           "description": "Antiviral screening; Dose-response treatment of TH6744 and TH3289; List of proteins from 2D-TPP analysis in U87 cells (FDR); List of proteins from 2D-TPP analysis in U87 cells (Fold-change); Uniprot annotation of overlapping TPP-TR and 2D-TPP hits",
           "data_type": [
-            "Genomics",
-            "Biochemistry",
-            "Proteins",
-            "Drug discovery"
+            "Genomics data",
+            "Biochemistry data",
+            "Protein data",
+            "Drug discovery data"
           ],
           "doi_url_or_url": "https://www.mdpi.com/1999-4915/12/12/1423/s1"
         },
@@ -2545,10 +2875,10 @@
           "accession_number": "PXD021494",
           "description": "Raw mass spectrometry data",
           "data_type": [
-            "Genomics",
-            "Biochemistry",
-            "Proteins",
-            "Drug discovery"
+            "Genomics data",
+            "Biochemistry data",
+            "Protein data",
+            "Drug discovery data"
           ],
           "doi_url_or_url": "http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD021494"
         }
@@ -2563,8 +2893,8 @@
           "accession_number": "",
           "description": "General laboratory tests, immunologic investigation, computed tomographies of the chest of 17 primary immunodeficient patients infected with COVID-19",
           "data_type": [
-            "Genomics",
-            "Public health"
+            "Genomics data",
+            "Public health data"
           ],
           "doi_url_or_url": "https://static-content.springer.com/esm/art%3A10.1007%2Fs10875-020-00928-x/MediaObjects/10875_2020_928_MOESM1_ESM.docx"
         }
@@ -2579,7 +2909,7 @@
           "accession_number": "",
           "description": "Much of the data cannot be shared publicly, but applications can be made for access",
           "data_type": [
-            "Health"
+            "Health data"
           ],
           "doi_url_or_url": "https://data.ohdsi.org/IcariusSusceptibility/"
         },
@@ -2589,7 +2919,7 @@
           "accession_number": "",
           "description": "start-to-finish open and executable source code",
           "data_type": [
-            "Health"
+            "Health data"
           ],
           "doi_url_or_url": "https://github.com/ohdsi-studies/Covid19Icarius"
         }
@@ -2604,7 +2934,7 @@
           "accession_number": "",
           "description": "Experimental data are in the supplementary material",
           "data_type": [
-            "Biochemistry",
+            "Biochemistry data",
             "Other data"
           ],
           "doi_url_or_url": "https://ascpt.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fpsp4.12568&file=psp412568-sup-0002-Suppinfo2.zip"
@@ -2615,7 +2945,7 @@
           "accession_number": "",
           "description": "Code for macrophage model (matlab)",
           "data_type": [
-            "Biochemistry",
+            "Biochemistry data",
             "Other data"
           ],
           "doi_url_or_url": "https://gitlab.liu.se/eliny61/macrophage-model"
@@ -2631,8 +2961,8 @@
           "accession_number": "",
           "description": "Raw RNAseq data",
           "data_type": [
-            "Proteins",
-            "Health"
+            "Protein data",
+            "Health data"
           ],
           "doi_url_or_url": "https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA627100"
         },
@@ -2642,8 +2972,8 @@
           "accession_number": "",
           "description": "Proteomics data",
           "data_type": [
-            "Proteins",
-            "Health"
+            "Protein data",
+            "Health data"
           ],
           "doi_url_or_url": "https://zenodo.org/record/3754719#.Ysf11C8RrOR"
         },
@@ -2653,8 +2983,8 @@
           "accession_number": "",
           "description": "All pre-processing and analysis code",
           "data_type": [
-            "Proteins",
-            "Health"
+            "Protein data",
+            "Health data"
           ],
           "doi_url_or_url": "https://github.com/neogilab/COVID19"
         }
@@ -2669,7 +2999,7 @@
           "accession_number": "",
           "description": "Whole slide scans of ACE2 immunohistochemistry from 4 COVID-19 patients and 3 pre-pandemic controls (named PAT1-4 and CONT1-4, respectively)",
           "data_type": [
-            "Health"
+            "Health data"
           ],
           "doi_url_or_url": "https://doi.org/10.6084/m9.figshare.13089383"
         },
@@ -2679,7 +3009,7 @@
           "accession_number": "",
           "description": "R script to analyze ACE2 expression in basal ganglian from GTEx project",
           "data_type": [
-            "Health"
+            "Health data"
           ],
           "doi_url_or_url": "https://doi.org/10.6084/m9.figshare.13089383"
         }
@@ -2694,7 +3024,7 @@
           "accession_number": "",
           "description": "Raw dataset: socio-demographic characteristics, sources of information regarding COVID-19, knowledge concerning COVID-19, behavior in preventing COVID-19, etc. (n=10,067)",
           "data_type": [
-            "Public health"
+            "Public health data"
           ],
           "doi_url_or_url": "https://doi.org/10.7910/DVN/YKH9C1"
         },
@@ -2704,7 +3034,7 @@
           "accession_number": "",
           "description": "Detailed description of all study variables",
           "data_type": [
-            "Public health"
+            "Public health data"
           ],
           "doi_url_or_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2352340920315018-mmc1.docx"
         }
@@ -2719,7 +3049,7 @@
           "accession_number": "",
           "description": "Data cannot be publicly shared, though it is is possible to apply for access.",
           "data_type": [
-            "Public health"
+            "Public health data"
           ],
           "doi_url_or_url": "https://www.frontiersin.org/articles/10.3389/fpubh.2020.571364/full"
         }
@@ -2734,7 +3064,7 @@
           "accession_number": "",
           "description": "Data cannot be publicly shared, though it is is possible to apply for access.",
           "data_type": [
-            "Health"
+            "Health data"
           ],
           "doi_url_or_url": "https://ccforum.biomedcentral.com/articles/10.1186/s13054-020-03375-7#availability-of-data-and-materials"
         }
@@ -2749,7 +3079,7 @@
           "accession_number": "",
           "description": "Supplementary materials include a list of GISAID accession numbers for the sequences used, and a summary of public intervention actions adopted in Nordic countries.",
           "data_type": [
-            "Health"
+            "Health data"
           ],
           "doi_url_or_url": "https://www.medrxiv.org/content/10.1101/2020.11.18.20233767v2.supplementary-material"
         }
@@ -2764,8 +3094,8 @@
           "accession_number": "",
           "description": "Supplementary materials include a list of GISAID accession numbers for the sequences used, and a summary of public intervention actions adopted in Nordic countries.",
           "data_type": [
-            "Genomics",
-            "Public health"
+            "Genomics data",
+            "Public health data"
           ],
           "doi_url_or_url": "https://www.medrxiv.org/content/10.1101/2020.11.18.20233767v2.supplementary-material"
         }
@@ -2781,7 +3111,7 @@
           "description": "Code for modeling the impact of NPI implementations and lifting in all US states",
           "data_type": [
             "Other data",
-            "Health"
+            "Health data"
           ],
           "doi_url_or_url": "https://github.com/patrickbryant1/COVID19.github.io/tree/master/simulations/mobility/dev/US"
         },
@@ -2792,7 +3122,7 @@
           "description": "Data for modeling the impact of NPI implementations and lifting in all US states",
           "data_type": [
             "Other data",
-            "Health"
+            "Health data"
           ],
           "doi_url_or_url": "https://github.com/patrickbryant1/COVID19.github.io/tree/master/simulations/mobility/dev/US"
         }
@@ -2807,7 +3137,7 @@
           "accession_number": "",
           "description": "Provided in the article: Characteristics, treatments, COVID-19-related outcomes, additional laboratory and clinical data for 9 patients",
           "data_type": [
-            "Health"
+            "Health data"
           ],
           "doi_url_or_url": "https://onlinelibrary.wiley.com/doi/10.1111/ejh.13502"
         }
@@ -2822,7 +3152,7 @@
           "accession_number": "",
           "description": "Code related to modelling the spread of COVID-19 on a dynamic social network with spread reduction according to Google mobility changes",
           "data_type": [
-            "Genomics",
+            "Genomics data",
             "Other data"
           ],
           "doi_url_or_url": "https://github.com/patrickbryant1/epidemic_net"
@@ -2833,7 +3163,7 @@
           "accession_number": "",
           "description": "Raw data and results related to modelling the spread of COVID-19 on a dynamic social network with spread reduction according to Google mobility changes",
           "data_type": [
-            "Genomics",
+            "Genomics data",
             "Other data"
           ],
           "doi_url_or_url": "https://github.com/patrickbryant1/epidemic_net"
@@ -2849,7 +3179,7 @@
           "accession_number": "",
           "description": "Data & circos plots related to multiple sequence alignments",
           "data_type": [
-            "Genomics"
+            "Genomics data"
           ],
           "doi_url_or_url": "https://github.com/hlzeng/Filtered_MSA_SARS_CoV_2"
         },
@@ -2859,7 +3189,7 @@
           "accession_number": "",
           "description": "Data on GISAID accession numbers and multiple sequence alignments also available in the paper",
           "data_type": [
-            "Genomics"
+            "Genomics data"
           ],
           "doi_url_or_url": "https://www.pnas.org/doi/full/10.1073/pnas.2012331117"
         }
@@ -2874,7 +3204,7 @@
           "accession_number": "",
           "description": "Case report of 5 Swedish children aged 9-15, as well as parental reported symptoms occurring over 2 months after diagnosis.",
           "data_type": [
-            "Health"
+            "Health data"
           ],
           "doi_url_or_url": "https://onlinelibrary.wiley.com/doi/10.1111/apa.15673"
         }
@@ -2889,8 +3219,8 @@
           "accession_number": "E-MTAB-9711",
           "description": "RNA-seq of SARS-CoV-2-infected human primary hepatocyte-derived spheroids upon interferon a2 and baricitinib treatment.",
           "data_type": [
-            "Biochemistry",
-            "Health"
+            "Biochemistry data",
+            "Health data"
           ],
           "doi_url_or_url": "https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-9711/"
         },
@@ -2900,8 +3230,8 @@
           "accession_number": "",
           "description": "Patient information are contained in the paper and supplementary information.",
           "data_type": [
-            "Biochemistry",
-            "Health"
+            "Biochemistry data",
+            "Health data"
           ],
           "doi_url_or_url": "https://www.science.org/doi/10.1126/sciadv.abe4724"
         }
@@ -2917,7 +3247,7 @@
           "description": "Amount of SARS-CoV-2 in wastewater in Gothenburg per week between February and June 2020 (data available in the article).",
           "data_type": [
             "Environment",
-            "Public health"
+            "Public health data"
           ],
           "doi_url_or_url": "https://www.sciencedirect.com/science/article/pii/S0043135420311556?via%3Dihub"
         }
@@ -2932,7 +3262,7 @@
           "accession_number": "",
           "description": "Nuclear magnetic resonance (NMR) experimental data deposited in COVID19-NMR project",
           "data_type": [
-            "Biochemistry",
+            "Biochemistry data",
             "Other data"
           ],
           "doi_url_or_url": "http://covid19-nmr.de"
@@ -2943,7 +3273,7 @@
           "accession_number": "",
           "description": "Chemical shift data deposited in BMRB (multiple accession numbers, given in Table 1 in the article).",
           "data_type": [
-            "Biochemistry",
+            "Biochemistry data",
             "Other data"
           ],
           "doi_url_or_url": "http://www.bmrb.wisc.edu/"
@@ -2959,8 +3289,8 @@
           "accession_number": "",
           "description": "Microscale thermophoresis (MST) and biolayer interferometry (BLI) data.",
           "data_type": [
-            "Biochemistry",
-            "Proteins",
+            "Biochemistry data",
+            "Protein data",
             "Other data"
           ],
           "doi_url_or_url": "https://github.com/tania-custodio/Sb23"
@@ -2971,8 +3301,8 @@
           "accession_number": "SASDJF4",
           "description": "Synthetic nanobody Sybody 23 (Sy23).",
           "data_type": [
-            "Biochemistry",
-            "Proteins",
+            "Biochemistry data",
+            "Protein data",
             "Other data"
           ],
           "doi_url_or_url": "https://www.sasbdb.org/data/SASDJF4/"
@@ -2983,8 +3313,8 @@
           "accession_number": "SASDJG4",
           "description": "SARS-CoV-2 spike protein ACE2 receptor binding domain (RBD).",
           "data_type": [
-            "Biochemistry",
-            "Proteins",
+            "Biochemistry data",
+            "Protein data",
             "Other data"
           ],
           "doi_url_or_url": "https://www.sasbdb.org/data/SASDJG4/"
@@ -2995,8 +3325,8 @@
           "accession_number": "SASDJH4",
           "description": "SARS-CoV-2 spike protein ACE2 receptor binding domain (RBD) bound to the synthetic nanobody Sybody 23 (Sy23).",
           "data_type": [
-            "Biochemistry",
-            "Proteins",
+            "Biochemistry data",
+            "Protein data",
             "Other data"
           ],
           "doi_url_or_url": "https://www.sasbdb.org/data/SASDJH4/"
@@ -3007,8 +3337,8 @@
           "accession_number": "EMD-11616",
           "description": "Cryo-EM structure of the SARS-CoV-2 spike protein bound to neutralizing sybodies (Sb23).",
           "data_type": [
-            "Biochemistry",
-            "Proteins",
+            "Biochemistry data",
+            "Protein data",
             "Other data"
           ],
           "doi_url_or_url": "https://www.ebi.ac.uk/emdb/EMD-11616"
@@ -3019,8 +3349,8 @@
           "accession_number": "EMD-11617",
           "description": "Cryo-EM structure of the SARS-CoV-2 spike protein bound to neutralizing sybodies (Sb23) 2-up conformation.",
           "data_type": [
-            "Biochemistry",
-            "Proteins",
+            "Biochemistry data",
+            "Protein data",
             "Other data"
           ],
           "doi_url_or_url": "https://www.ebi.ac.uk/emdb/EMD-11617"
@@ -3031,8 +3361,8 @@
           "accession_number": "7A25",
           "description": "Cryo-EM structure of the SARS-CoV-2 spike protein bound to neutralizing sybodies (Sb23).",
           "data_type": [
-            "Biochemistry",
-            "Proteins",
+            "Biochemistry data",
+            "Protein data",
             "Other data"
           ],
           "doi_url_or_url": "https://www.rcsb.org/structure/7A25"
@@ -3043,8 +3373,8 @@
           "accession_number": "7A29",
           "description": "Cryo-EM structure of the SARS-CoV-2 spike protein bound to neutralizing sybodies (Sb23) 2-up conformation.",
           "data_type": [
-            "Biochemistry",
-            "Proteins",
+            "Biochemistry data",
+            "Protein data",
             "Other data"
           ],
           "doi_url_or_url": "https://www.rcsb.org/structure/7A29"
@@ -3055,8 +3385,8 @@
           "accession_number": "",
           "description": "Sequences of all the selected sybodies.",
           "data_type": [
-            "Biochemistry",
-            "Proteins",
+            "Biochemistry data",
+            "Protein data",
             "Other data"
           ],
           "doi_url_or_url": "https://www.nature.com/articles/s41467-020-19204-y#MOESM4"
@@ -3067,8 +3397,8 @@
           "accession_number": "",
           "description": "Source data.",
           "data_type": [
-            "Biochemistry",
-            "Proteins",
+            "Biochemistry data",
+            "Protein data",
             "Other data"
           ],
           "doi_url_or_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-19204-y/MediaObjects/41467_2020_19204_MOESM6_ESM.xlsx"
@@ -3084,8 +3414,8 @@
           "accession_number": "",
           "description": "Karolinska KI/K Covid19 Immune atlas.",
           "data_type": [
-            "Biochemistry",
-            "Health"
+            "Biochemistry data",
+            "Health data"
           ],
           "doi_url_or_url": "https://covid19cellatlas.com/#/"
         }
@@ -3100,7 +3430,7 @@
           "accession_number": "",
           "description": "Data cannot be shared publicly due to issues with sensitivity, but it is possible to request access.",
           "data_type": [
-            "Health"
+            "Health data"
           ],
           "doi_url_or_url": "https://ccforum.biomedcentral.com/articles/10.1186/s13054-020-03351-1#availability-of-data-materials"
         }
@@ -3115,7 +3445,7 @@
           "accession_number": "",
           "description": "All analysis tools used by Observational Health Data Sciences and Informatics.",
           "data_type": [
-            "Health"
+            "Health data"
           ],
           "doi_url_or_url": "https://github.com/OHDSI/"
         },
@@ -3125,7 +3455,7 @@
           "accession_number": "",
           "description": "Data and results artefacts that do not include patient-level health information.",
           "data_type": [
-            "Health"
+            "Health data"
           ],
           "doi_url_or_url": "http://evidence.ohdsi.org:3838/Covid19EstimationHydroxychloroquine/"
         }
@@ -3140,7 +3470,7 @@
           "accession_number": "",
           "description": "Data related to Austrian social media during COVID-19.",
           "data_type": [
-            "Public health"
+            "Public health data"
           ],
           "doi_url_or_url": "https://mpellert.at/covid19_monitor_austria/"
         }
@@ -3155,8 +3485,8 @@
           "accession_number": "phs002245.v1.p1",
           "description": "Genetic Determinants of Susceptibility to Severe COVID-19 Infection.",
           "data_type": [
-            "Genomics",
-            "Health"
+            "Genomics data",
+            "Health data"
           ],
           "doi_url_or_url": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002245.v1.p1"
         },
@@ -3166,8 +3496,8 @@
           "accession_number": "",
           "description": "Plasma, cells, genomic DNA, and other materials/samples are available upon request from authors or the Amsterdam UMC Covid-19 Biobank.",
           "data_type": [
-            "Genomics",
-            "Health"
+            "Genomics data",
+            "Health data"
           ],
           "doi_url_or_url": "https://www.science.org/doi/10.1126/science.abd4570"
         },
@@ -3177,8 +3507,8 @@
           "accession_number": "",
           "description": "All additional data are in the supplementary material.",
           "data_type": [
-            "Genomics",
-            "Health"
+            "Genomics data",
+            "Health data"
           ],
           "doi_url_or_url": "https://www.science.org/doi/10.1126/science.abd4570"
         }
@@ -3193,8 +3523,8 @@
           "accession_number": "",
           "description": "Plasma, cells, and genomic DNA, as well as other materials can be provided via material transfer agreements.",
           "data_type": [
-            "Genomics",
-            "Health"
+            "Genomics data",
+            "Health data"
           ],
           "doi_url_or_url": "https://www.science.org/doi/10.1126/science.abd4585"
         },
@@ -3204,8 +3534,8 @@
           "accession_number": "",
           "description": "Clinical, epidemiological characteristics of 101 patients, as well as information on neutralising capacity and assays are provided in the article and supplementary materials.",
           "data_type": [
-            "Genomics",
-            "Health"
+            "Genomics data",
+            "Health data"
           ],
           "doi_url_or_url": "https://www.science.org/doi/10.1126/science.abd4585"
         }
@@ -3220,9 +3550,9 @@
           "accession_number": "",
           "description": "Serum-IgG responses to SARS-CoV-2 after mild and severe COVID-19 infection.",
           "data_type": [
-            "Biochemistry",
-            "Serology",
-            "Health"
+            "Biochemistry data",
+            "Serology data",
+            "Health data"
           ],
           "doi_url_or_url": "https://zenodo.org/record/3994670#.YsveGC8RpTY"
         }
@@ -3237,8 +3567,8 @@
           "accession_number": "",
           "description": "Code for discriminative bayesian seroprevalence.",
           "data_type": [
-            "Biochemistry",
-            "Health"
+            "Biochemistry data",
+            "Health data"
           ],
           "doi_url_or_url": "https://github.com/MurrellGroup/DiscriminativeSeroprevalence/"
         },
@@ -3248,8 +3578,8 @@
           "accession_number": "",
           "description": "Data for discriminative bayesian seroprevalence.",
           "data_type": [
-            "Biochemistry",
-            "Health"
+            "Biochemistry data",
+            "Health data"
           ],
           "doi_url_or_url": "https://github.com/MurrellGroup/DiscriminativeSeroprevalence/"
         },
@@ -3259,8 +3589,8 @@
           "accession_number": "",
           "description": "Code used in analysis of seroprevalence data.",
           "data_type": [
-            "Biochemistry",
-            "Health"
+            "Biochemistry data",
+            "Health data"
           ],
           "doi_url_or_url": "https://github.com/chr1swallace/seroprevalence-paper"
         },
@@ -3270,8 +3600,8 @@
           "accession_number": "",
           "description": "Seroprevalence data.",
           "data_type": [
-            "Biochemistry",
-            "Health"
+            "Biochemistry data",
+            "Health data"
           ],
           "doi_url_or_url": "https://github.com/chr1swallace/seroprevalence-paper"
         }
@@ -3286,7 +3616,7 @@
           "accession_number": "",
           "description": "All raw data underlying the study.",
           "data_type": [
-            "Health"
+            "Health data"
           ],
           "doi_url_or_url": "https://snd.gu.se/sv/catalogue/study/2020-43/1/1#dataset"
         }
@@ -3301,8 +3631,8 @@
           "accession_number": "",
           "description": "Source data related to symptoms and some aggregated patient data.",
           "data_type": [
-            "Serology",
-            "Health"
+            "Serology data",
+            "Health data"
           ],
           "doi_url_or_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-18848-0/MediaObjects/41467_2020_18848_MOESM4_ESM.xlsx"
         },
@@ -3312,8 +3642,8 @@
           "accession_number": "",
           "description": "Data cannot be made publicly available, but can be made available upon request.",
           "data_type": [
-            "Serology",
-            "Health"
+            "Serology data",
+            "Health data"
           ],
           "doi_url_or_url": "https://www.nature.com/articles/s41467-020-18848-0#data-availability"
         }
@@ -3328,7 +3658,7 @@
           "accession_number": "",
           "description": "Data analysis code used in the study.",
           "data_type": [
-            "Public health"
+            "Public health data"
           ],
           "doi_url_or_url": "https://github.com/ohdsi-studies/Covid19HospitalizationCharacterization."
         },
@@ -3338,7 +3668,7 @@
           "accession_number": "",
           "description": "Aggregated results are available. Individual patient-level data cannot be made publicly available, but requests may be submitted for access.",
           "data_type": [
-            "Public health"
+            "Public health data"
           ],
           "doi_url_or_url": "http://evidence.ohdsi.org/Covid19CharacterizationHospitalization/"
         }
@@ -3353,7 +3683,7 @@
           "accession_number": "6ZPE",
           "description": "Nonstructural protein 10 (nsp10) from SARS CoV-2, 1.58Å resolution.",
           "data_type": [
-            "Proteins"
+            "Protein data"
           ],
           "doi_url_or_url": "https://www.rcsb.org/structure/6ZPE"
         },
@@ -3363,7 +3693,7 @@
           "accession_number": "6ZCT",
           "description": "Nonstructural protein 10 (nsp10) from SARS CoV-2, 2.55Å resolution.",
           "data_type": [
-            "Proteins"
+            "Protein data"
           ],
           "doi_url_or_url": "https://www.rcsb.org/structure/6ZCT"
         },
@@ -3373,7 +3703,7 @@
           "accession_number": "",
           "description": "Nsp10 unfolding temperatures determined by DSF.",
           "data_type": [
-            "Proteins"
+            "Protein data"
           ],
           "doi_url_or_url": "http://www.mdpi.com/1422-0067/21/19/7375/s1"
         }
@@ -3388,8 +3718,8 @@
           "accession_number": "",
           "description": "All data generated during the study (predicted binding affinities, donor characteristics, sample information, and some analyses) are available in the article.",
           "data_type": [
-            "Genomics",
-            "Proteins",
+            "Genomics data",
+            "Protein data",
             "Other data"
           ],
           "doi_url_or_url": "https://www.cell.com/cell/fulltext/S0092-8674(20)31008-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867420310084%3Fshowall%3Dtrue#secsectitle0060"
@@ -3405,7 +3735,7 @@
           "accession_number": "",
           "description": "Data cannot be made publicly available, but access to anonymised data can be requested.",
           "data_type": [
-            "Genomics"
+            "Genomics data"
           ],
           "doi_url_or_url": "https://n.neurology.org/content/96/2/e294/tab-figures-data"
         }
@@ -3420,7 +3750,7 @@
           "accession_number": "",
           "description": "Summary statistics of the genome-wide association study are available from the COVID-19 Host Genetics Initiative (round 3, ANA_B2_V2: hospitalized patients with COVID-19 compared with population controls).",
           "data_type": [
-            "Genomics"
+            "Genomics data"
           ],
           "doi_url_or_url": "https://www.covid19hg.org/"
         }
@@ -3435,9 +3765,9 @@
           "accession_number": "",
           "description": "Curated flow cytometry data are available for exploration via the Karolinska COVID-19 Immune Atlas.",
           "data_type": [
-            "Health",
-            "Proteins",
-            "Genomics"
+            "Health data",
+            "Protein data",
+            "Genomics data"
           ],
           "doi_url_or_url": "https://covid19cellatlas.com/#/"
         },
@@ -3447,9 +3777,9 @@
           "accession_number": "",
           "description": "All other data are available in the article itself or the supplementary materials.",
           "data_type": [
-            "Health",
-            "Proteins",
-            "Genomics"
+            "Health data",
+            "Protein data",
+            "Genomics data"
           ],
           "doi_url_or_url": "https://www.science.org/doi/10.1126/sciimmunol.abe1670"
         }
@@ -3464,8 +3794,8 @@
           "accession_number": "",
           "description": "Color light micrographs of autopsy lung tissue from the three Covid-19 cases, all included in the article.",
           "data_type": [
-            "Imaging",
-            "Genomics"
+            "Imaging data",
+            "Genomics data"
           ],
           "doi_url_or_url": "https://www.jbc.org/article/S0021-9258(17)50371-3/fulltext#seccestitle40"
         }
@@ -3480,8 +3810,8 @@
           "accession_number": "",
           "description": "Analysis code used in the study.",
           "data_type": [
-            "Public health",
-            "Genomics"
+            "Public health data",
+            "Genomics data"
           ],
           "doi_url_or_url": "https://github.com/reiniuslab/COVID19"
         },
@@ -3491,8 +3821,8 @@
           "accession_number": "",
           "description": "Source data, including all raw data (primarily Ct values) are included in the article.",
           "data_type": [
-            "Public health",
-            "Genomics"
+            "Public health data",
+            "Genomics data"
           ],
           "doi_url_or_url": "https://www.nature.com/articles/s41467-020-18611-5"
         }
@@ -3507,8 +3837,8 @@
           "accession_number": "",
           "description": "Data cannot be publicly shared, but applications can be made for access to anonymised data.",
           "data_type": [
-            "Health",
-            "Biochemistry"
+            "Health data",
+            "Biochemistry data"
           ],
           "doi_url_or_url": "https://github.com/reiniuslab/COVID19"
         }
@@ -3523,8 +3853,8 @@
           "accession_number": "",
           "description": "Data required to reproduce the results. The data was largely produced using Google mobility data.",
           "data_type": [
-            "Biochemistry",
-            "Health"
+            "Biochemistry data",
+            "Health data"
           ],
           "doi_url_or_url": "https://github.com/patrickbryant1/COVID19.github.io/tree/master/simulations/mobility"
         },
@@ -3534,8 +3864,8 @@
           "accession_number": "",
           "description": "Analysis code required for modelliing (primarily using R).",
           "data_type": [
-            "Biochemistry",
-            "Health"
+            "Biochemistry data",
+            "Health data"
           ],
           "doi_url_or_url": "https://github.com/patrickbryant1/COVID19.github.io/tree/master/simulations/mobility"
         }
@@ -3550,9 +3880,9 @@
           "accession_number": "",
           "description": "Supplementary materials include information about phylogenetic models, mutational profiles, and spatio-temporal appearance of each variant.",
           "data_type": [
-            "Biochemistry",
-            "Genomics",
-            "Health"
+            "Biochemistry data",
+            "Genomics data",
+            "Health data"
           ],
           "doi_url_or_url": "https://www.mdpi.com/1999-4915/12/9/1026/htm"
         }
@@ -3567,9 +3897,9 @@
           "accession_number": "",
           "description": "Input data related to ELISA tests.",
           "data_type": [
-            "Biochemistry",
-            "Serology",
-            "Health"
+            "Biochemistry data",
+            "Serology data",
+            "Health data"
           ],
           "doi_url_or_url": "https://github.com/chandranlab/Ig_titer_sigmoid_fit"
         },
@@ -3579,9 +3909,9 @@
           "accession_number": "",
           "description": "Code related to modelling antibody titer quantification from single dilution points.",
           "data_type": [
-            "Biochemistry",
-            "Serology",
-            "Health"
+            "Biochemistry data",
+            "Serology data",
+            "Health data"
           ],
           "doi_url_or_url": "https://github.com/chandranlab/Ig_titer_sigmoid_fit"
         }
@@ -3596,8 +3926,8 @@
           "accession_number": "",
           "description": "Proteomics data.",
           "data_type": [
-            "Health",
-            "Proteins"
+            "Health data",
+            "Protein data"
           ],
           "doi_url_or_url": "https://datadryad.org/stash/dataset/doi:10.5061/dryad.xwdbrv1bb"
         }
@@ -3612,9 +3942,9 @@
           "accession_number": "",
           "description": "Data organised by figures presented in the article.",
           "data_type": [
-            "Serology",
-            "Proteins",
-            "Health"
+            "Serology data",
+            "Protein data",
+            "Health data"
           ],
           "doi_url_or_url": "https://data.mendeley.com/datasets/ds6g796xyg/1"
         },
@@ -3624,9 +3954,9 @@
           "accession_number": "",
           "description": "Plasma protein expression (Olink - NPX values), FACS, Autoantibodies.",
           "data_type": [
-            "Serology",
-            "Proteins",
-            "Health"
+            "Serology data",
+            "Protein data",
+            "Health data"
           ],
           "doi_url_or_url": "https://doi.org/10.17044/scilifelab.13181273"
         },
@@ -3636,9 +3966,9 @@
           "accession_number": "",
           "description": "Scripts to complete analyses and produce figures.",
           "data_type": [
-            "Serology",
-            "Proteins",
-            "Health"
+            "Serology data",
+            "Protein data",
+            "Health data"
           ],
           "doi_url_or_url": "https://doi.org/10.17044/scilifelab.13181273"
         }
@@ -3653,9 +3983,9 @@
           "accession_number": "MT784731",
           "description": "Sequence of Ty1.",
           "data_type": [
-            "Biochemistry",
-            "Proteins",
-            "Genomics"
+            "Biochemistry data",
+            "Protein data",
+            "Genomics data"
           ],
           "doi_url_or_url": "https://www.ncbi.nlm.nih.gov/nuccore/MT784731"
         },
@@ -3665,9 +3995,9 @@
           "accession_number": "",
           "description": "Bio layer interferometry (BLI) data.",
           "data_type": [
-            "Biochemistry",
-            "Proteins",
-            "Genomics"
+            "Biochemistry data",
+            "Protein data",
+            "Genomics data"
           ],
           "doi_url_or_url": "https://github.com/derpaule/Ty1_octet_itc"
         },
@@ -3677,9 +4007,9 @@
           "accession_number": "",
           "description": "Isothermal titration calorimetry (ITC) data.",
           "data_type": [
-            "Biochemistry",
-            "Proteins",
-            "Genomics"
+            "Biochemistry data",
+            "Protein data",
+            "Genomics data"
           ],
           "doi_url_or_url": "https://github.com/derpaule/Ty1_octet_itc/tree/master/data_itc"
         },
@@ -3689,9 +4019,9 @@
           "accession_number": "PRJNA638614",
           "description": "Next generation sequencing (NGS) data.",
           "data_type": [
-            "Biochemistry",
-            "Proteins",
-            "Genomics"
+            "Biochemistry data",
+            "Protein data",
+            "Genomics data"
           ],
           "doi_url_or_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA638614"
         },
@@ -3701,9 +4031,9 @@
           "accession_number": "",
           "description": "Jupyter notebooks to reproduce next generation sequencing (NGS) data.",
           "data_type": [
-            "Biochemistry",
-            "Proteins",
-            "Genomics"
+            "Biochemistry data",
+            "Protein data",
+            "Genomics data"
           ],
           "doi_url_or_url": "https://github.com/MurrellGroup/Ty1"
         },
@@ -3713,9 +4043,9 @@
           "accession_number": "EMD-11526",
           "description": "Cryo-EM structure of the SARS-CoV-2 spike protein bound to neutralizing nanobodies (Ty1).",
           "data_type": [
-            "Biochemistry",
-            "Proteins",
-            "Genomics"
+            "Biochemistry data",
+            "Protein data",
+            "Genomics data"
           ],
           "doi_url_or_url": "https://www.ebi.ac.uk/emdb/EMD-11526"
         },
@@ -3725,9 +4055,9 @@
           "accession_number": "6ZXN",
           "description": "Cryo-EM structure of the SARS-CoV-2 spike protein bound to neutralizing nanobodies (Ty1).",
           "data_type": [
-            "Biochemistry",
-            "Proteins",
-            "Genomics"
+            "Biochemistry data",
+            "Protein data",
+            "Genomics data"
           ],
           "doi_url_or_url": "https://www.rcsb.org/structure/6zxn"
         }
@@ -3742,7 +4072,7 @@
           "accession_number": "",
           "description": "Number of COVID-19 deaths contributed by specific age group and population characteristics for 14 countries and 13 US states.",
           "data_type": [
-            "Public health"
+            "Public health data"
           ],
           "doi_url_or_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0013935120307854-mmc2.pdf"
         },
@@ -3752,7 +4082,7 @@
           "accession_number": "",
           "description": "Healthcare professionals’ responses about perceptions, exposure, and workload during the COVID-19 pandemic.",
           "data_type": [
-            "Public health"
+            "Public health data"
           ],
           "doi_url_or_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0238217#sec011"
         }
@@ -3767,8 +4097,8 @@
           "accession_number": "",
           "description": "Raw mass cytometry data and the Olink protein data generated during this study.",
           "data_type": [
-            "Proteins",
-            "Health"
+            "Protein data",
+            "Health data"
           ],
           "doi_url_or_url": "https://brodinlab.com/data-repository/"
         },
@@ -3778,8 +4108,8 @@
           "accession_number": "",
           "description": "Immunoglobulin G (IgG) data.",
           "data_type": [
-            "Proteins",
-            "Health"
+            "Protein data",
+            "Health data"
           ],
           "doi_url_or_url": "https://www.cell.com/cms/10.1016/j.xcrm.2020.100078/attachment/53aca693-33e7-4b26-881f-ea11c7c15ad1/mmc1"
         },
@@ -3789,8 +4119,8 @@
           "accession_number": "",
           "description": "SARS-CoV2 longitudinal systems-level analyses code.",
           "data_type": [
-            "Proteins",
-            "Health"
+            "Protein data",
+            "Health data"
           ],
           "doi_url_or_url": "https://github.com/rodriluc/SARS-CoV2_study"
         }
@@ -3805,11 +4135,11 @@
           "accession_number": "",
           "description": "Curated flow cytometry data available via the Karolinska COVID-19 Immune Atlas.",
           "data_type": [
-            "Proteins",
-            "Biochemistry",
-            "Genomics",
-            "Health",
-            "Imaging",
+            "Protein data",
+            "Biochemistry data",
+            "Genomics data",
+            "Health data",
+            "Imaging data",
             "Other data"
           ],
           "doi_url_or_url": "https://covid19cellatlas.com/#/"
@@ -3820,11 +4150,11 @@
           "accession_number": "",
           "description": "Raw data, clinical characteristics of patients, and various results files are available in supplementary data.",
           "data_type": [
-            "Proteins",
-            "Biochemistry",
-            "Genomics",
-            "Health",
-            "Imaging",
+            "Protein data",
+            "Biochemistry data",
+            "Genomics data",
+            "Health data",
+            "Imaging data",
             "Other data"
           ],
           "doi_url_or_url": "https://www.science.org/doi/10.1126/sciimmunol.abd6832"
@@ -3840,8 +4170,8 @@
           "accession_number": "",
           "description": "Supplementary information contains information on publicly available data sources used, instruments used, data on loci associated with risk factors, and genetic correlations between lifespan-related traits and COVID-19.",
           "data_type": [
-            "Genomics",
-            "Health"
+            "Genomics data",
+            "Health data"
           ],
           "doi_url_or_url": "https://www.medrxiv.org/content/10.1101/2020.08.06.20169854v2.supplementary-material"
         }
@@ -3856,8 +4186,8 @@
           "accession_number": "",
           "description": "Serological responses of 1,005 employees to SARS-CoV-2 at 22 different elderly care homes in Stockholm, Sweden, and the number of employees that reported known contacts with COVID-19.",
           "data_type": [
-            "Serology",
-            "Health"
+            "Serology data",
+            "Health data"
           ],
           "doi_url_or_url": "https://www.tandfonline.com/action/downloadTable?id=t0001&doi=10.1080%2F20008686.2020.1789036&downloadType=CSV"
         },
@@ -3867,8 +4197,8 @@
           "accession_number": "",
           "description": "Prevalence of IgM (either only IgM or combined with IgG) or only IgG among elderly care home employees with or without reported symptoms.",
           "data_type": [
-            "Serology",
-            "Health"
+            "Serology data",
+            "Health data"
           ],
           "doi_url_or_url": "https://www.tandfonline.com/doi/figure/10.1080/20008686.2020.1789036?scroll=top&needAccess=true#"
         },
@@ -3878,8 +4208,8 @@
           "accession_number": "",
           "description": "Predictors for seropositivity in both univariable and multivariable analyses.",
           "data_type": [
-            "Serology",
-            "Health"
+            "Serology data",
+            "Health data"
           ],
           "doi_url_or_url": "https://www.tandfonline.com/action/downloadTable?id=t0003&doi=10.1080%2F20008686.2020.1789036&downloadType=CSV"
         }
@@ -3894,8 +4224,8 @@
           "accession_number": "",
           "description": "Data on single nucleotide polymorphisms and characteristics of 16 laboratory-confirmed COVID-19 cases included in the article.",
           "data_type": [
-            "Health",
-            "Genomics"
+            "Health data",
+            "Genomics data"
           ],
           "doi_url_or_url": "https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30314-5/fulltext"
         }
@@ -3910,8 +4240,8 @@
           "accession_number": "",
           "description": "Biochemistry of patients ordered by days after intensive care admission (n = 9), included in the article.",
           "data_type": [
-            "Biochemistry",
-            "Health"
+            "Biochemistry data",
+            "Health data"
           ],
           "doi_url_or_url": "https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30314-5/fulltext"
         }
@@ -3926,8 +4256,8 @@
           "accession_number": "",
           "description": "Raw data with demographic and clinical characteristics of the patients, progress of treatment and control groups.",
           "data_type": [
-            "Biochemistry",
-            "Drug discovery"
+            "Biochemistry data",
+            "Drug discovery data"
           ],
           "doi_url_or_url": "https://figshare.com/articles/dataset/Source_Data_xls/13482810"
         },
@@ -3937,8 +4267,8 @@
           "accession_number": "",
           "description": "All relevant codes used in SAS software for statistical analysis.",
           "data_type": [
-            "Biochemistry",
-            "Drug discovery"
+            "Biochemistry data",
+            "Drug discovery data"
           ],
           "doi_url_or_url": "https://figshare.com/articles/dataset/Source_Data_xls/13482810"
         }
@@ -3953,7 +4283,7 @@
           "accession_number": "",
           "description": "Due to risk of de-identification, the pseudonymised RNA sequencing data will not be made publicly available, but it is possible to apply for access.",
           "data_type": [
-            "Genomics"
+            "Genomics data"
           ],
           "doi_url_or_url": "https://www.biorxiv.org/content/10.1101/2020.07.27.224063v2.full"
         },
@@ -3963,7 +4293,7 @@
           "accession_number": "E-MTAB-9357",
           "description": "Processed data: RNA-seq of coding RNA from single cells.",
           "data_type": [
-            "Genomics"
+            "Genomics data"
           ],
           "doi_url_or_url": "https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-9357/"
         },
@@ -3973,7 +4303,7 @@
           "accession_number": "",
           "description": "Data are integrated for further visualization and analysis in ISB COVID-19 data explorer.",
           "data_type": [
-            "Genomics"
+            "Genomics data"
           ],
           "doi_url_or_url": "https://atlas.fredhutch.org/isb/covid/"
         }
@@ -3988,7 +4318,7 @@
           "accession_number": "",
           "description": "Data are in the article, including exposure history and characterists of COVID-19 patients during hospitalisation and discharge, as well as information from a follow-up.",
           "data_type": [
-            "Health"
+            "Health data"
           ],
           "doi_url_or_url": "https://www.frontiersin.org/articles/10.3389/fmed.2020.00349/full#h6"
         }
@@ -4003,7 +4333,7 @@
           "accession_number": "",
           "description": "Population outflow data from Wuhan from January 1-24, 2020; COVID-19 case counts as of February 19 and other data for 296 prefectures in mainland China (additional data in the article).",
           "data_type": [
-            "Health"
+            "Health data"
           ],
           "doi_url_or_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-020-2284-y/MediaObjects/41586_2020_2284_MOESM3_ESM.xlsx"
         },
@@ -4013,7 +4343,7 @@
           "accession_number": "",
           "description": "Analysis code included alongside other data in spplementary information.",
           "data_type": [
-            "Health"
+            "Health data"
           ],
           "doi_url_or_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-020-2284-y/MediaObjects/41586_2020_2284_MOESM1_ESM.pdf"
         }
@@ -4028,8 +4358,8 @@
           "accession_number": "",
           "description": "Provided in the article: CT images for 2 patients over 12 days.",
           "data_type": [
-            "Imaging",
-            "Health"
+            "Imaging data",
+            "Health data"
           ],
           "doi_url_or_url": "https://respiratory-research.biomedcentral.com/articles/10.1186/s12931-020-01363-7#availability-of-data-and-materials"
         }
@@ -4037,14 +4367,3 @@
     }
   ]
 }
-
-"Genomics",
-"Biochemistry",
-"Serology",
-"Proteins",
-"Health",
-"Public health",
-"Imaging",
-"Drug discovery",
-"Environment",
-"Other data"
