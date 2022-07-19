@@ -12,17 +12,25 @@ aliases:
     - /data_types/health_data/post_covid/
 ---
 
+<div class="alert alert-info"><b>Note regarding updates:</b> The source data will not be updated in July. The next data update is expected 17th August 2022.</div>
+
 Since the beginning of 2020, the COVID-19 pandemic has challenged healthcare and dramatically changed daily life for people worldwide. The severity of symptoms experienced by patients during the acute infection phase of COVID-19 disease varies between individuals from mild to severe. After this phase, patients usually show no signs that the disease will have any long-term consequences for their health, regardless of the severity of symptoms experienced during the acute infection phase. However, research has shown that some patients exhibit symptoms for prolonged periods following this phase. Such symptoms include, for example, deep fatigue, joint pain, ‘brain fog’ (difficulty concentrating on certain tasks for longer periods of time), and heart palpitations ([Brodin 2021](https://doi.org/10.1038/s41591-020-01202-8); [Marx 2021](https://doi.org/10.1038/s41592-021-01145-z)). This condition has been referred to in multiple ways, including *Post COVID-19 condition*, *Post-COVID*, and *Long COVID*. On this page, we use the term *Post COVID-19 condition* for consistency. See the *[Background Information](#background)* section below for more detail about the nomenclature used and relevant research.
 
 On this page, you can find visualisations of data related to *Post COVID-19 condition* in Sweden from The Swedish Board of Health and Welfare ([Socialstyrelsen](https://www.socialstyrelsen.se)), an overview of ongoing *Post COVID-19 condition* research projects in Sweden, and scientific publications regarding *Post COVID-19 condition* by researchers affiliated with Swedish universities or research institutes.
 
 For more information on *Post COVID-19 condition* in Sweden, please see [this section](https://www.socialstyrelsen.se/coronavirus-covid-19/socialstyrelsens-roll-och-uppdrag/postcovid/) of The Swedish Board of Health and Welfare (Socialstyrelsen)’s website and their [report on *Post-COVID condition* (published April 2021)](https://www.socialstyrelsen.se/globalassets/sharepoint-dokument/artikelkatalog/ovrigt/2021-4-7351.pdf).
 
-## Data sources and availability
+## Availability of data and code
+
+### Data
 
 <div class="alert alert-info">All data last updated: {{% postcovid_date_modified %}}</div>
 
 The data underlying the visualisations on this page are from [The Swedish Board of Health and Welfare](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/) and comprise of data from both the [Patient Register](https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/patientregistret/) and the [‘Cause of Death’ Register](https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/dodsorsaksregistret/). The data are updated monthly, on the second Wednesday of the month, and are available for download [here](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/). Additional data about COVID-19 can be requested from the corresponding registers by any researchers fulfilling the requirements for access, the guidelines for access via the RUT (Register Utiliser Tool) are available [here](https://bestalladata.socialstyrelsen.se/data-for-forskning/).
+
+### Code
+
+All code used to produce the visualisations on this page is available on [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/postCOVID). The particular scripts used in each case are linked below the individual visualisations.
 
 ## Statistics on Post COVID-19 condition in Sweden
 
@@ -38,23 +46,19 @@ These plots display the number of times that patients were assigned the diagnose
 
 #### Diagnosis U09.9
 
-<div class="d-md-none alert alert-info">
-  Scroll the plot sideways to view all data.
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/U099_agesex_casedist.json" height="500px" >}}</div>
 </div>
 
-<div class="plot_wrapper">
-  <div class="table-responsive" id="diagnosed_age_sex_u09_9"></div>
-</div>
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/create_agesex_distcases.py).
 
 #### Diagnosis Z86.1A/U08.9
 
-<div class="d-md-none alert alert-info">
-  Scroll the plot sideways to view all data.
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/U089_agesex_casedist.json" height="500px" >}}</div>
 </div>
 
-<div class="plot_wrapper">
-  <div class="table-responsive" id="diagnosed_age_sex_u08_9"></div>
-</div>
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/create_agesex_distcases.py).
 
 ### Geographic distribution of diagnosed cases relative to population size
 
@@ -66,11 +70,15 @@ The maps below show the number of people that received the diagnoses of interest
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/map_postcovid_percent_of_population_U099.json" height="500px" >}}</div>
 </div>
 
+**Code used to produce plot:** [Data preparation script](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Script to produce map](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_population_U099.py).
+
 #### Diagnosis Z86.1A/U08.9
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/map_postcovid_percent_of_population_U089.json" height="500px" >}}</div>
 </div>
+
+**Code used to produce plot:** [Data preparation script](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Script to produce map](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_population_U089.py).
 
 ### Geographic distribution of diagnosed cases relative to confirmed COVID-19 cases
 
@@ -82,11 +90,15 @@ The maps below show the number of people that received the diagnoses of interest
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/map_postcovid_percent_of_covidcases_U099.json" height="500px" >}}</div>
 </div>
 
+**Code used to produce plot:** [Data preparation script](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Script to produce map](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_cases_U099.py).
+
 #### Diagnosis Z86.1A/U08.9
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/map_postcovid_percent_of_covidcases_U089.json" height="500px" >}}</div>
 </div>
+
+**Code used to produce plot:** [Data preparation script](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Script to produce map](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_cases_U089.py).
 
 ### Most common accompanying diagnoses
 
@@ -95,10 +107,12 @@ The maps below show the number of people that received the diagnoses of interest
 The below table displays the most common types of diagnosis (diagnosis groups) that have been reported together with the *U09.9 (ICD-10-SE) - Postinfectious state associated with COVID-19, unspecified* diagnosis. In particular, the values in the table represent the amount of individuals that received the *U09.9* diagnosis alongside one of the diagnoses below. The data was recorded between 16th October 2020 and the most recent data update (see above).
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/accompdiag_table.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/accompdiag_table.json" height="527px" >}}</div>
 </div>
 
 <span class="text-muted">*Note that an individual may have more than one of the accompanying diagnoses. However, if an individual has the same issue on multiple doctor visits/healthcare contacts, the diagnosis will only be counted once*</span>
+
+**Code used to produce table:** [Script to produce table (English)](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/create_accomp_diagnoses.py), [Script to produce table (Swedish)](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/create_accomp_diagnoses_swe.py).
 
 ### Contacts with healthcare
 
@@ -108,9 +122,11 @@ The below plot shows the number of times that patients given the diagnoses of in
   Scroll the plot sideways to view all data.
 </div>
 
-<div class="plot-wrapper">
-  <div class="table-responsive" id="healthcare_contacts_all"></div>
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/weeklycontacts_healthcare.json" height="500px" >}}</div>
 </div>
+
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/weeklycontacts_healthcare.py).
 
 ### Contacts with healthcare, divided by patient sex
 
@@ -122,9 +138,11 @@ The below plots show the number of times that patients given one of the diagnose
   Scroll the plot sideways to view all data.
 </div>
 
-<div class="plot_wrapper">
-  <div class="table-responsive" id="healthcare_contacts_u09_9"></div>
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/U099_healthcare_divsex.json" height="500px" >}}</div>
 </div>
+
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/weeklycontacts_healthcare_divsex.py).
 
 #### Diagnosis Z86.1A/U08.9
 
@@ -132,9 +150,11 @@ The below plots show the number of times that patients given one of the diagnose
   Scroll the plot sideways to view all data.
 </div>
 
-<div class="plot_wrapper">
-  <div class="table-responsive" id="healthcare_contacts_u08_9"></div>
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/U089_healthcare_divsex.json" height="500px" >}}</div>
 </div>
+
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/weeklycontacts_healthcare_divsex.py).
 
 ## Ongoing research projects
 
@@ -171,12 +191,3 @@ The [Swedish Board of Health and Welfare (Socialstyrelsen)](https://www.socialst
 ### Research efforts
 
 A large number of research articles, case reports, and reviews focused on *Post COVID-19 condition* have been published over the last year (e.g. [Dani et al. 2020](https://doi.org/10.7861/clinmed.2020-0896); [Nabavi 2020](https://doi.org/10.1136/bmj.m3489); [Sudre et al. 2021](https://doi.org/10.1038/s41591-021-01292-y); [Tarybagil et al. 2020](https://doi.org/10.1136/bcr-2020-241485); [Yelin et al. 2020](https://doi.org/10.1016/j.cmi.2020.12.001)). The primary aims of these studies are to identify factors that could be used to predict when *Post COVID-19 condition* is more likely to develop, the underlying causes of the condition, and potential treatments. A recently published study by [Sudre and colleagues](https://doi.org/10.1038/s41591-021-01292-y) proposed a prediction model to identify individuals at risk of *Post COVID-19 condition* using data from the [COVID Symptom Study](/data_types/health_data/symptom_study_sweden/), where participants self-reported their symptoms in an app on their mobile devices. The results indicated that individuals experiencing more than five symptoms during the first week of illness were more likely to develop *Post COVID-19 condition* (odds ratio = 3.53 (2.76–4.50)). In addition, the study showed that the development of *Post COVID-19 condition* was more likely in females, and that the risk also rose with increasing age and body mass index. The researchers behind the study propose that their model could be used to identify individuals at risk of developing *Post COVID-19 condition*. This could inform trials of preventative or treatment methods, and aid in the planning of education and rehabilitation services.
-
-<script src="https://cdn.jsdelivr.net/npm/vega@5.19.1"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.0.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.15.1"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/d8ccc0a02ad248c2ae7e5910806c3586.js?id=healthcare_contacts_u09_9"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/47b7d864db0840dab7c2ff6f8fffc011.js?id=healthcare_contacts_u08_9"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/a31cdae8f06a4ac08f8970e6dd750c13.js?id=healthcare_contacts_all"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/a483404a5b5146cfa9eaeef29d326388.js?id=diagnosed_age_sex_u09_9"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/ae0a086410ea489484d33035469c334f.js?id=diagnosed_age_sex_u08_9"></script>

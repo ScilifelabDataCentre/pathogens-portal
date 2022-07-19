@@ -1,6 +1,8 @@
 ---
 title: SARS-CoV-2 Variants of Concern (VOC)
 toc: true
+aliases:
+    - /voc/
 ---
 
 <div class="row mb-4"><div class="col col-sm-8"><ul class="nav nav-tabs nav-justified">

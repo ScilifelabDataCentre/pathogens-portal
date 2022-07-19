@@ -1,5 +1,9 @@
+{{ $announcement_list := .Get "announcement_list" }}
+
+{{ $announcement_list_data := (index .Site.Data $announcement_list) }}
+
 <div>
-{{ range $.Site.Data.monkeypox_page_announcements}}
+{{ range $announcement_list_data }}
   <div class="alert alert-info mb-2">
     <h5>{{ .title }}</h5>
     <p class="small mb-2 text-muted">{{ .date_time }}</p>

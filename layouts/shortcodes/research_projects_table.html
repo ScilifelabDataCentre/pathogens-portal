@@ -11,19 +11,7 @@
 {{ $all_funders := slice }}
 {{ $all_affiliations := slice }}
 {{ $all_topics := slice }}
-{{ range $.Site.Data.research_projects.projects }}
-  {{ if gt (.enddate | time.Format "20060102") (now | time.Format "20060102") }}
-    {{ if .funder }}
-      {{ $all_funders = $all_funders | append .funder }}
-    {{ end }}
-    {{ if .pi_affiliation}}
-      {{ $all_affiliations = $all_affiliations | append .pi_affiliation }}
-    {{ end }}
-    {{ range .topic }}
-      {{ $all_topics = $all_topics | append . }}
-    {{ end }}
-  {{ end }}
-{{ end }}
+{{ range $.Site.Data.research_projects.projects }} {{ if gt (.enddate | time.Format "20060102") (now | time.Format "20060102") }} {{ if .funder }} {{ $all_funders = $all_funders | append .funder }} {{ end }} {{ if .pi_affiliation}} {{ $all_affiliations = $all_affiliations | append .pi_affiliation }} {{ end }} {{ range .topic }} {{ $all_topics = $all_topics | append . }} {{ end }} {{ end }} {{ end }}
 {{ $funders := $all_funders | uniq }}
 {{ $affiliations := $all_affiliations | uniq }}
 {{ $topics := $all_topics | uniq }}
