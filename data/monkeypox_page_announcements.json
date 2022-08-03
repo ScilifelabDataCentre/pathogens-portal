@@ -1,5 +1,19 @@
 [
   {
+    "date_time": "2022-07-01",
+    "name": "ISIDORe",
+    "contact_info": "contact@isidore-project.eu",
+    "title": "ISIDORe Call related to monkeypox released.",
+    "text": "Information on the call can be found [on ISIDORe's site](https://isidore-project.eu/calls/monkeypox-virus/), or on our [funding page](https://www.covid19dataportal.se/funding/)."
+  },
+  {
+    "date_time": "2022-06-28",
+    "name": "ISIDORe",
+    "contact_info": "contact@isidore-project.eu",
+    "title": "ISIDORe Information Webinar",
+    "text": "ISIDORe recently launched a call related to [SARS-CoV-2 and COVID-19](https://isidore-project.eu/calls/). ISIDORe will soon launch a similar access call for the Monkeypox virus. This webinar will be part of a series providing information about access calls and application modalities, and to answer any questions. The event will take place 12th July 2022 10am - 11:30am CEST. [Registration](https://docs.google.com/forms/d/e/1FAIpQLSdvfwSXuvemzFRVU4X-_2p1m-v7xWHlXs8zuJ2kRaoZIGaErA/viewform) is required. Questions should be submitted to contact@isidore-project.eu."
+  },
+  {
     "date_time": "2022-06-03",
     "title": "Workflows for sequence variant analysis",
     "text": "Two Galaxy workflows for monkeypox sequence variant analysis have been made available. One workflow (Illumina metatranscriptomic PE) deals with variant analysis from metatranscriptomic data. The other workflow (Report generation) can be used to generate the final variant analysis reports/plots. The workflows, and instructions on how to use them, [are found here](https://galaxyproject.org/projects/mpxv/). More workflows will be added here over time"

@@ -447,9 +447,13 @@ div.dataTables_wrapper div.dataTables_info {
   background-color: #6c757d;
 }
 
-.topic_badge_covid {
-  background-color: #de2c6c;
+.topic_badge_mokeypox {
+  background-color:#2e68a5;
 }
+
+.topic_badge_covid {
+    background-color: #de2c6c;
+  }
 
 .topic_badge_antib_r {
   background-color: #6a60af;

@@ -6,7 +6,7 @@ In short, in order to add or edit information on the Portal, make a fork of this
 
 __Table of contents:__
 
-- [General instructions: how to propose changes/additions](#general-instructions-how-to-start)
+- [How to propose changes or additions](#how-to-propose-changes-or-additions)
 - [Available datasets](#available-datasets)
 - [Funding opportunities](#funding-opportunities)
 - [Ongoing research projects](#ongoing-research-projects)
@@ -14,7 +14,7 @@ __Table of contents:__
 - [News about the Portal](#news-about-the-portal)
 - [Resources](#resources)
 
-## General instructions: how to propose changes/additions
+## How to propose changes or additions
 
 All information displayed on the Portal is contained within [this GitHub repository](https://github.com/ScilifelabDataCentre/covid-portal). Some of the sections use information that is stored in the `data` folder in .JSON format while other sections use information that is stored in the `content` folder in Markdown format.
 
