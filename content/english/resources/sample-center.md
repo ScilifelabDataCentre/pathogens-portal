@@ -1,5 +1,6 @@
 ---
 title: "Pandemic sample center to build up readiness to connect SciLifeLab infrastructure and university hospitals"
+category: "plp2"
 menu:
     resources_menu:
         identifier: sample-center

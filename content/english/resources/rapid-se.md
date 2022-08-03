@@ -1,5 +1,6 @@
 ---
 title: "Rapid establishment of comprehensive laboratory pandemic preparedness – RAPID-SE"
+category: "plp1"
 menu:
     resources_menu:
         identifier: rapid-se

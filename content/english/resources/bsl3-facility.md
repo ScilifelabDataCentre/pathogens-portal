@@ -1,5 +1,6 @@
 ---
 title: "State-of-the-art biosafety level 3 (BSL3) facility"
+category: "plp1"
 menu:
     resources_menu:
         identifier: bsl3-facility

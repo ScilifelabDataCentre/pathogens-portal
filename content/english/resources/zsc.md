@@ -1,5 +1,6 @@
 ---
 title: "ZSC: National core facility for Pandemic Preparedness"
+category: "plp2"
 menu:
     resources_menu:
         identifier: zsc

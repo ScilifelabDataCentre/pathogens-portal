@@ -1,5 +1,6 @@
 ---
 title: "Swedish biosafety level 3 (BSL3) network"
+category: "plp1"
 menu:
     resources_menu:
         identifier: bsl3-network

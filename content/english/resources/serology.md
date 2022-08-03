@@ -1,5 +1,6 @@
 ---
 title: "Multiplex and high-throughput multi-disease serology"
+category: "plp2"
 menu:
     resources_menu:
         identifier: serology

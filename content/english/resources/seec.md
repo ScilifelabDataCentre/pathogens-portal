@@ -1,5 +1,6 @@
 ---
 title: "SEEC: Swedish Environmental Epidemiology Center"
+category: "plp2"
 menu:
     resources_menu:
         identifier: seec

@@ -1,5 +1,6 @@
 ---
 title: "Genomic Pandemic Preparedness Portfolio (G3P) – Nationally scalable genomics portfolio for detection and surveillance of viral outbreaks"
+category: "plp1"
 menu:
     resources_menu:
         identifier: g3p

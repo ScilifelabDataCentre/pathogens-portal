@@ -1,5 +1,6 @@
 ---
 title: "Systems-level immunomonitoring to unravel immune response to a novel pathogen"
+category: "plp1"
 menu:
     resources_menu:
         identifier: immunomonitoring
