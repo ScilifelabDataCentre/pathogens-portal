@@ -1,10 +1,6 @@
 ---
 title: "State-of-the-art biosafety level 3 (BSL3) facility"
-menu:
-    resources_menu:
-        identifier: bsl3-facility
-        name: "State-of-the-art biosafety level 3 (BSL3) facility"
-        weight: 45
+category: "plp1"
 resource_info:
     name: "State-of-the-art biosafety level 3 (BSL3) facility"
     funded_project_title: "BSL3 Biomedicum-SciLifeLab Collaborative Platform"

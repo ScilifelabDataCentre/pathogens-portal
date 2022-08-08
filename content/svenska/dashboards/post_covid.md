@@ -12,6 +12,8 @@ aliases:
     - /sv/data_types/health_data/post_covid/
 ---
 
+<div class="alert alert-info"><b>Angående uppdateringar:</b> Observera att källdata inte kommer uppdateras i juli. Nästa datauppdatering väntas den 17 augusti 2022.</div>
+
 <div class="alert alert-info">Vänligen notera att graferna endast har engelska figurtexter.</div>
 
 Sedan början av 2020 har covid-19 pandemin utmanat hälso- och sjukvården och förändrat samhällen runt om i världen. Forskning och empiri har visat att covid-19 under den akuta infektionen kan ha olika svårighetsgrad, från mild till moderat till svår. De flesta individer som insjuknar i Covid-19, oavsett sjukdomens svårighetsgrad under den akuta infektionen, återhämtar sig och uppvisar inga kvarstående symptom efter återhämtningen. Vissa patienter uppvisar dock, efter den akuta infektionen, kvarstående eller sena symptom efter covid-19. Besvär och symtom som rapporterats är exempelvis svår trötthet, sämre hälsa, ledvärk, hjärntrötthet (svårighet att koncentrera sig på vissa uppgifter under längre tid) och hjärtklappning ([Brodin 2021](https://doi.org/10.1038/s41591-020-01202-8); [Marx 2021](https://doi.org/10.1038/s41592-021-01145-z)).
@@ -22,11 +24,17 @@ På denna sida kan du hitta visualiseringar av statistik relaterade till *postco
 
 För mer information om postcovid i Sverige, se följande [avsnitt](https://www.socialstyrelsen.se/coronavirus-covid-19/socialstyrelsens-roll-och-uppdrag/postcovid/) på Socialstyrelsens webbplats och rapporten Postcovid– kvarstående eller sena symtom efter covid-19. Stöd till [beslutsfattare och personal i hälso- och sjukvården (del 2) (publicerad april 2021)](https://www.socialstyrelsen.se/globalassets/sharepoint-dokument/artikelkatalog/ovrigt/2021-4-7351.pdf).
 
-## Tillgängliga data
+## Tillgänglighet av data och källkod
+
+### Data
 
 <div class="alert alert-info">Senaste uppdatering: {{% postcovid_date_modified %}}</div>
 
-Alla data som presenteras här finns tillgängliga för nedladdning från [Socialstyrelsen](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/) och bygger på data från Patientregistret [Patientregistret](https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/patientregistret/) och [Dödsorsaksregistret](https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/dodsorsaksregistret/). Data uppdateras varje månad, den andra onsdagen i månaden och finns tillgängliga [här](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/). Forskare kan ansöka om tillgänglighet till ytterligare data via RUT (Register Utiliser Tool) om deras projekt uppfyller kraven för åtkomst. Riktlinjerna finns [här](https://bestalladata.socialstyrelsen.se/data-for-forskning/) last.
+Alla data som presenteras här finns tillgängliga för nedladdning från [Socialstyrelsen](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/) och bygger på data från Patientregistret [Patientregistret](https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/patientregistret/) och [Dödsorsaksregistret](https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/dodsorsaksregistret/). Data uppdateras varje månad, den andra onsdagen i månaden och finns tillgängliga [här](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/). Forskare kan ansöka om tillgänglighet till ytterligare data via RUT (Register Utiliser Tool) om deras projekt uppfyller kraven för åtkomst. Riktlinjerna finns [här](https://bestalladata.socialstyrelsen.se/data-for-forskning/).
+
+### Källkod
+
+All källkod som används för att göra visualiseringarna på denna sidan finns tillgängliga på [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/postCOVID). Källkod som används är länkad under respektive visualisering.
 
 ## Statistik om postcovid i Sverige
 
@@ -44,23 +52,19 @@ Detta diagram visar antalet gånger patienter som diagnostiserats med diagnoser 
 
 #### Diagnoskod U09.9
 
-<div class="d-md-none alert alert-info">
-  Scroll the plot sideways to view all data.
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/U099_agesex_casedist.json" height="500px" >}}</div>
 </div>
 
-<div class="plot_wrapper">
-  <div class="table-responsive" id="diagnosed_age_sex_u09_9"></div>
-</div>
+**Källkod som används för att skapa grafen:** [Källkod som används för att skapa visualisering](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/create_agesex_distcases.py).
 
 #### Diagnoskod Z86.1A/U08.9
 
-<div class="d-md-none alert alert-info">
-  Scroll the plot sideways to view all data.
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/U089_agesex_casedist.json" height="500px" >}}</div>
 </div>
 
-<div class="plot_wrapper">
-  <div class="table-responsive" id="diagnosed_age_sex_u08_9"></div>
-</div>
+**Källkod som används för att skapa grafen:** [Källkod som används för att skapa visualisering](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/create_agesex_distcases.py).
 
 ### Geografisk fördelning av diagnostiserade fall relativt populationens storlek
 
@@ -72,11 +76,15 @@ Geografisk fördelning av diagnostiserade fall i förhållande till befolkningss
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/map_postcovid_percent_of_population_U099_Swedish.json" height="500px" >}}</div>
 </div>
 
+**Källkod som används för att skapa visualisering:** [Källkod som används för databeredning](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Källkod som används för att skapa kartan](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_population_U099.py).
+
 #### Diagnoskod Z86.1A/U08.9
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/map_postcovid_percent_of_population_U089_Swedish.json" height="500px" >}}</div>
 </div>
+
+**Källkod som används för att skapa visualisering:** [Källkod som används för databeredning](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Källkod som används för att skapa kartan](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_population_U089.py).
 
 ### Geografisk fördelning av diagnostiserade fall relativt antal bekräftade fall
 
@@ -88,11 +96,15 @@ Kartorna nedan visar antal individer som fått diagnoskoderna av intresse per l�
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/map_postcovid_percent_of_covidcases_U099_Swedish.json" height="500px" >}}</div>
 </div>
 
+**Källkod som används för att skapa visualisering:** [Källkod som används för databeredning](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Källkod som används för att skapa kartan](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_cases_U099.py).
+
 #### Diagnoskod Z86.1A/U08.9
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/map_postcovid_percent_of_covidcases_U089_Swedish.json" height="500px" >}}</div>
 </div>
+
+**Källkod som används för att skapa visualisering:** [Källkod som används för databeredning](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Källkod som används för att skapa kartan](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_cases_U089.py).
 
 ### Vanligaste diagnosgrupper som rapporterats tillsammans med U09.9 Postinfektiöst tillstånd efter covid-19 (postcovid)
 
@@ -106,17 +118,21 @@ Denna tabell visar de vanligaste diagnosgrupper som har rapporterats tillsammans
 
 <span class="text-muted">*Observera att en individ kan ha mer än en diagnosgrupp som rapporteras tillsammans med U09.9 Postinfektiöst tillstånd efter covid-19 (Postcovid). Om en individ har samma besvär vid flera vårdtillfällen/läkarbesök räknas diagnosen bara en gång.*</span>
 
+**Källkod som används för att skapa tabellen:** [Källkod som används för att skapa tabellen (engelska)](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/create_accomp_diagnoses.py), [Källkod som används för att skapa tabellen (svenska)](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/create_accomp_diagnoses_swe.py).
+
 ### Vårdkontakter
 
 Denna graf visar antal vårdkontakter för patienter med de av de tre diagnoskoderna.  Observera att grafen börjar från vecka 22 2020, men att diagnoskoderna *U08.9* och *U09.9* börjar användas först vid senare tillfälle (se information ovan). Varje vårdkontakt efter det att patienten fått diagnosen räknas in i dessa data. Data visas per vecka. Observera att dessa uppgifter inte är fullständiga eftersom information om antalet vårdkontakter från vissa veckor inte är tillgängliga på grund av patientsekretessen. Notera att uppgifterna inte är fullständiga, eftersom data från vissa vårdgivare (t.ex. husläkare) inte rapporteras in till Patientregistret på grund av patientsekretessen. Inrapporterade data från de senaste veckorna är preliminära, eftersom uppgifterna inte uppdateras direkt. Fördröjningen att rapportera in uppgifter kan vara längre under traditionella semesterperioder, som under sommaren.
 
 <div class="d-md-none alert alert-info">
-  Scroll the plot sideways to view all data.
+  Skrolla grafen horisontellt för att se alla data
 </div>
 
-<div class="plot-wrapper">
-  <div class="table-responsive" id="healthcare_contacts_all"></div>
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/weeklycontacts_healthcare.json" height="500px" >}}</div>
 </div>
+
+**Källkod som används för att skapa grafen:** [Källkod som används för att skapa grafen](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/weeklycontacts_healthcare.py).
 
 ### Antal vårdkontakter uppdelat på kön
 
@@ -125,22 +141,26 @@ Dessa grafer visar antal vårdkontakter för patienter som diagnostiserats med e
 #### Diagnoskod U09.9
 
 <div class="d-md-none alert alert-info">
-  Scroll the plot sideways to view all data.
+  Skrolla grafen horisontellt för att se alla data
 </div>
 
-<div class="plot_wrapper">
-  <div class="table-responsive" id="healthcare_contacts_u09_9"></div>
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/U099_healthcare_divsex.json" height="500px" >}}</div>
 </div>
+
+**Källkod som används för att skapa grafen:** [Källkod som används för att skapa grafen](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/weeklycontacts_healthcare_divsex.py).
 
 #### Diagnoskod Z86.1A/U08.9
 
 <div class="d-md-none alert alert-info">
-  Scroll the plot sideways to view all data.
+  Skrolla grafen horisontellt för att se alla data
 </div>
 
-<div class="plot_wrapper">
-  <div class="table-responsive" id="healthcare_contacts_u08_9"></div>
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/U089_healthcare_divsex.json" height="500px" >}}</div>
 </div>
+
+**Källkod som används för att skapa grafen:** [Källkod som används för att skapa grafen](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/weeklycontacts_healthcare_divsex.py).
 
 ## Pågående forskningsprojekt
 

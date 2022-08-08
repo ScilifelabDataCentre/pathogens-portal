@@ -1,10 +1,6 @@
 ---
 title: "Systems-level immunomonitoring to unravel immune response to a novel pathogen"
-menu:
-    resources_menu:
-        identifier: immunomonitoring
-        name: "Systems-level immunomonitoring to unravel immune response to a novel pathogen"
-        weight: 20
+category: "plp1"
 resource_info:
     name: "Systems-level immunomonitoring to unravel immune response to a novel pathogen"
     funded_project_title: "Systems-level immunomonitoring to unravel immune response to a novel pathogen"

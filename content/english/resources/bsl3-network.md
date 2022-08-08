@@ -1,10 +1,6 @@
 ---
 title: "Swedish biosafety level 3 (BSL3) network"
-menu:
-    resources_menu:
-        identifier: bsl3-network
-        name: "Swedish biosafety level 3 (BSL3) network"
-        weight: 40
+category: "plp1"
 resource_info:
     name: "Swedish biosafety level 3 (BSL3) network"
     funded_project_title: "BSL3 Biomedicum-SciLifeLab Collaborative Platform"

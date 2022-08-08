@@ -183,9 +183,9 @@ li:empty {
   text-decoration: none;
 }
 
-.main_menu_item  a:hover,
-.main_menu_item  a:focus,
-.main_menu_item  a:active {
+.main_menu_item a:hover,
+.main_menu_item a:focus,
+.main_menu_item a:active {
     color: rgba(46, 104, 165, 1);
 }
 
@@ -270,14 +270,6 @@ footer img {
     max-height: 60px;
 }
 
-
-.homepage-accordions .card-header a i {
-    color: #555;
-    text-decoration: none;
-    text-align: center;
-    width: 1.25em;
-}
-
 .plot_wrapper {
     max-width: 100%;
     overflow-x: auto;
@@ -310,27 +302,6 @@ footer img {
 {
     background-color: #2e68a5 !important;
     border: solid 1px #2e68a5;
-}
-
-/* Styling pagination for the biobanks registry */
-
-.page-item.active .page-link {
-    background-color: #2e68a5;
-    color: white;
-    border-color: #2e68a5;
-}
-
-.page-link {
-    background-color: white;
-    color: #2e68a5;
-}
-
-.back-text {
-  color: #2e68a5 !important;
-}
-
-.back-text:hover {
-    text-decoration: underline;
 }
 
 /* There is a bug in Safari whereby it stretches an image nested in a flexbox element to its natural height. I use the class below for rows with images to fix that. */
@@ -389,25 +360,7 @@ div.dataTables_wrapper div.dataTables_info {
     background-color: #de2c6c!important;
 }
 
-/* Competition banner for the homepage */
-.competition-banner {
-    background-color: rgba(77, 77, 77, 0.8);
-}
-
-/*
- * Styling for the banner of Data and Code reuse competition
- */
-
-.data_code_reuse_block {
-     background-image: url('../img/csm_coronavirus_mc.jpg');
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-}
-
-.data_code_reuse_block .title {
-    color: #cc3366;
-}
+/* Special announcements */
 
 .announcement_banner_homepage {
     border: 1px solid #de2c6c;
@@ -447,7 +400,6 @@ div.dataTables_wrapper div.dataTables_info {
 .ena_tutorial_banner a {
     color: rgba(77, 77, 77, 0.8);
 }
-
 
 /*
 * Styling of badges to indicate topics
@@ -495,9 +447,13 @@ div.dataTables_wrapper div.dataTables_info {
   background-color: #6c757d;
 }
 
-.topic_badge_covid {
-  background-color: #de2c6c;
+.topic_badge_mokeypox {
+  background-color:#2e68a5;
 }
+
+.topic_badge_covid {
+    background-color: #de2c6c;
+  }
 
 .topic_badge_antib_r {
   background-color: #6a60af;

@@ -1,14 +1,37 @@
 {{ define "main" }}
 
-<div class="container">
-  <div class="row">
-    <div class="col-lg-3 pl-0 pr-2">
-      {{- partial "resources_sidebar.html" . -}}
-      </div>
+<section>
     <div class="col-lg">
         {{ .Content }}
     </div>
-  </div>
-</div>
+</section>
+
+{{ $resources_plp1 := where .RegularPages "Params.category" "plp1" }}
+{{ if $resources_plp1 }}
+<section>
+    <div>
+        <h4 class="pb-3">Pandemic Laboratory Preparedness PLP 1 2021</h4>
+        <div class="row g-2 g-lg-3">
+            {{ range $resources_plp1 }}
+                {{- partial "resources_display.html" . -}}
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+
+{{ $resources_plp2 := where .RegularPages "Params.category" "plp2" }}
+{{ if $resources_plp2 }}
+<section>
+    <div>
+        <h4 class="pb-3">Pandemic Laboratory Preparedness PLP 2 2022</h4>
+        <div class="row g-2 g-lg-3">
+            {{ range $resources_plp2 }}
+                {{- partial "resources_display.html" . -}}
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
 
 {{ end }}

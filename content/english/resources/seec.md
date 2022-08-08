@@ -1,10 +1,6 @@
 ---
 title: "SEEC: Swedish Environmental Epidemiology Center"
-menu:
-    resources_menu:
-        identifier: seec
-        name: "SEEC: Swedish Environmental Epidemiology Center"
-        weight: 80
+category: "plp1"
 resource_info:
     name: "SEEC: Swedish Environmental Epidemiology Center"
     funded_project_title: "Establishment of the Swedish Environmental Epidemiology Center (SEEC)"

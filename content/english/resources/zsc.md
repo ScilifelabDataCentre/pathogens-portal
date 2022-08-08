@@ -1,10 +1,6 @@
 ---
 title: "ZSC: National core facility for Pandemic Preparedness"
-menu:
-    resources_menu:
-        identifier: zsc
-        name: "ZSC: National core facility for Pandemic Preparedness"
-        weight: 70
+category: "plp1"
 resource_info:
     name: "ZSC: National core facility for Pandemic Preparedness"
     funded_project_title:

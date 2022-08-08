@@ -5,6 +5,8 @@ plotly: true
 ---
 Visualiseringarna på denna sida återspeglar hur produktionen av vetenskapliga forskningsartiklar kopplade till covid-19 och SARS-CoV-2 utvecklas över tid. Vi har valt att presentera en sammanställning av publicerade vetenskapliga artiklar och preprint där minst en författare är affilierad till ett svenskt lärosäte. Den svenska covid-19 publikationsdatabasen [nås här](/sv/publications/). Observera att sammanställningen görs manuellt och kan därför inte kan anses komplett. Den fullständiga sammanställningen av publikationer som visas på denna sida finns tillgänglig för nedladdning och användning för andra ändamål, se [DOI: 10.17044/scilifelab.14124014](https://doi.org/10.17044/scilifelab.14124014).
 
+All källkod som används för att göra visualiseringarna på denna sidan finns tillgängliga på [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations). Källkod som används är länkad under respektive visualisering.
+
 ## Antal nya publikationer
 
 Diagrammet visar antal publikationer (vilket inkluderar vetenskapliga artiklar och preprint) som publiceras varje månad samt det sammanlagda antalet publikationer per dag. Datumen återspeglar uppladdningsdatumet för preprint eller officiellt publuceringsdatumet för vetenskapliga artiklar, beroende på vilket som är det senaste. Att antalet publikationer tycks vara högt första dagen i varje månad beror på att inte alla publikationer har ett  publikationsdatum; alla publikationer utan specifikt publikationsdatum har lagts in som att de publicerats den första dagen I månaden.
@@ -12,6 +14,8 @@ Diagrammet visar antal publikationer (vilket inkluderar vetenskapliga artiklar o
 <div class="table-responsive">
 {{< publications_per_month >}}
 </div>
+
+**Källkod som används för att skapa grafen:** [Källkod som används för att skapa visualisering](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Count_publications/count_publications.py).
 
 ## De senast publicerade publikationerna (tio senaste)
 
@@ -24,6 +28,8 @@ Tabellen visar de tio senaste publikationerna (inkluderar både tidskriftsartikl
 ## Vanligast förekommande ord eller fraser i titlarna
 
 Detta ordmoln visar de vanligaste orden eller fraserna som förekommer i publikationernas titlar. Observera att vi har filtrerat bort funktionella ord (som 'the', 'a', 'this', etc.) samt 'COVID-19' och 'SARS-CoV-2' eftersom alla titlar innehöll dessa ord. Alla ordmoln uppdateras veckovis.
+
+**Källkod som används för att skapa ordmoln:** [Källkod som används för att skapa visualiseringarna](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Wordcloud).
 
 #### Alla publikationer
 
@@ -38,6 +44,8 @@ Vi visar endast anslagsgivare där vi identifierat minst 20 publikationer i publ
 ## Vanligast förkommande ord eller fraser i abstrakt
 
 Ordmolnen visar de vanligaste förekommande orden eller fraserna från abstrakten (inkl. både preprint och vetenskapliga artiklar). Observera att vi har filtrerat bort funktionella ord (som 'the', 'a', 'this', etc.) samt 'COVID-19' och 'SARS-CoV-2' eftersom alla abstrakt innehöll dessa ord. Alla ordmoln uppdateras veckovis.
+
+**Källkod som används för att skapa ordmoln:** [Källkod som används för att skapa visualiseringarna](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Wordcloud).
 
 #### Alla publikationer
 

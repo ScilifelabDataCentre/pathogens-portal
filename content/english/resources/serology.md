@@ -1,10 +1,6 @@
 ---
 title: "Multiplex and high-throughput multi-disease serology"
-menu:
-    resources_menu:
-        identifier: serology
-        name: "Multiplex and high-throughput multi-disease serology"
-        weight: 60
+category: "plp1"
 resource_info:
     name: Multiplex and high-throughput multi-disease serology
     funded_project_title:
