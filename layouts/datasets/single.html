@@ -43,18 +43,74 @@
         <table id="datasets" class="table table-hover" width="100%">
           <thead class="thead-light">
             <tr>
-              <th scope="col">Available datasets and code</th>
-              <th scope="col">Original publication</th>
+              <th scope="col">Publication</th>
+              <th scope="col">Available dataset and code</th>
             </tr>
           </thead>
           <tbody>
             {{ range $ds_to_display }}
             <tr>
-              <td><ul class="pl-3">{{ range .available_items }}
-                  <li>{{ if .doi_url_or_url }}<a href="{{ .doi_url_or_url }}">{{ end }}{{ .description }}{{ if .doi_url_or_url }}</a>{{ end }} <span class="small font-weight-bold">[{{ .type }}] {{ if .repo_name }}[{{ .repo_name }}{{ if .accession_number }}: {{ .accession_number }}{{ end }}]{{ end }}</span></li>
-                {{ end }}</ul>
+                <td>
+                    <div class="row mx-0">
+                        <div class="col">
+                            <div class="row">
+                                <a target="_blank" href="https://doi.org/{{ .doi }}">
+                                    <span style="font-weight:500;">{{ .title }}</span>
+                                </a>
+                            </div>
+                            <div class="row">
+                                {{ $author_list := first 4 .author }}
+                                {{ if gt (len .author) 4 }}
+                                    {{ $author_list = $author_list | append "et al" }}
+                                {{ end }}
+                                <span class="text-muted" style="font-size:0.82em">
+                                    {{ delimit $author_list ", " }} ({{ substr .published 0 4 }})
+                                </span>
+                            </div>
+                            {{ if .publisher }}
+                            <div class="row">
+                                <span class="text-muted" style="font-size:0.82em">
+                                    {{ .publisher }}
+                                </span>
+                            </div>
+                            {{ end }}
+                            <div class="row">
+                                <span class="text-muted" style="font-size:0.82em">
+                                    DOI: {{ .doi }}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="row mx-0">
+                        <div class="col">
+                            <ul class="pl-3 mb-0" style="list-style-type: none;">
+                                {{ range .available_items }}
+                                    <div class="row">
+                                        <li class="my-1">
+                                            <div class="row pb-1" style="font-size:0.92em; line-height: 1.3em;">
+                                                {{ if .data_url }}
+                                                    <a href="{{ .data_url }}">{{ .description }}</a>
+                                                {{ else }}
+                                                    {{ .description }}
+                                                {{ end }}
+                                            </div>
+                                            <div class="row">
+                                                {{ range (split .type ", ") }}
+                                                    <span class="badge dataset_badge_{{ . }} mr-1">{{ . }}</span>
+                                                {{ end }}
+                                                <span class="text-muted" style="font-size:0.82em">
+                                                    {{ if .repo_name }}{{ .repo_name }}{{ if .accession_number }}: {{ .accession_number }}{{ end }}{{ end }}
+                                                </span>
+                                            </div>
+                                        </li>
+                                    </div>
+                                {{ end }}
+                            </ul>
+                        </div>
+                    </div>
               </td>
-              <td class="small">{{ .article_preprint_doi }}</td>
             </tr>
             {{ end }}
             </tbody>

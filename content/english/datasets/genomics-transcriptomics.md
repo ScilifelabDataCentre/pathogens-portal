@@ -1,9 +1,9 @@
 ---
-title: Genomics data
+title: Genomics & transcriptomics data
 menu:
     data_menu:
         identifier: genomics
-        name: Genomics data
+        name: Genomics & transcriptomics data
         weight: 20
         parent: available_datasets
 aliases:
