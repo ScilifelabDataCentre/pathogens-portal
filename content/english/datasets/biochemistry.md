@@ -6,15 +6,12 @@ menu:
         name: Biochemistry data
         weight: 50
         parent: available_datasets
-type: data_table
-datatypes_to_display:
-- "Category: Biochemistry"
 aliases:
     - /data_types/compound_and_target_data/
     - /sv/data_types/compound_and_target_data/
     - /sv/data_types/compound_and_target_data/data/
+    - /data_types/compound_and_target_data/data/
 ---
-
 ## Published Data
 
 On our portal, “Biochemistry” has a broad meaning, including cell- and plasma profiling with, for example, biomarker concentrations in plasma.

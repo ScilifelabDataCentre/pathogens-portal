@@ -6,13 +6,10 @@ menu:
         name: Serology data
         weight: 80
         parent: available_datasets
-type: data_table
-datatypes_to_display:
-- "Category: Serology"
 aliases:
     - /sv/data_types/serology/data/
+    - /data_types/serology/data/
 ---
-
 ## Published Data
 
 #### Data available from Swedish public agencies and large data produces

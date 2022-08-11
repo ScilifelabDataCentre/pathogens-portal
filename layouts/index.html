@@ -10,22 +10,26 @@
         available during this period. See <a href="/contact/">here</a> for how to get in touch.</span>
     </div>
     <!-- Available data -->
-    {{/*
-      Get all entries with available data into an array
-      */}}
-    {{ $all_entries := slice }}
-    {{ $valid_db_list := slice "URL" "NA" "N/A" "GENBANK" "PDB" "BioProject" "GEO" "ISRCTN" "Dryad" "PubChem-Substance" "RefSeq" "dbGaP"}}
-    {{ range $index, $entry := $.Site.Data.publications.publications }}{{ $has_data := false }}{{ range .xrefs }}{{ if in $valid_db_list .db }}{{ $has_data = true}}{{ end }}
-    {{ end }} {{ if $has_data }} {{ $all_entries = $all_entries | append $entry }} {{ end }} {{ end }}
+    {{ $all_entries := $.Site.Data.available_datasets.datasets }}
     {{/*
         Count how many entries we have for each data type
         */}}
-    {{ $all_data_types := slice "Category: Biochemistry" "Category: Drug Discovery" "Category: Genomics & transcriptomics" "Category: Health" "Category: Imaging" "Category: Other" "Category: Proteins" "Category: Public Health" "Category: Serology" }}
+    {{ $all_data_types := slice "Biochemistry data" "Drug discovery data" "Genomics & transcriptomics data" "Health data" "Imaging data" "Other data" "Protein data" "Public health data" "Serology data" }}
     {{ $num_entries_per_data_type := dict }}
-    {{ range $all_data_types }} {{ $current_type := . }} {{ $num_entries := 0 }} {{ range $all_entries }}
-    {{ range $key, $content := .labels }} {{ if eq $key $current_type}} {{ $num_entries = add $num_entries 1}} {{ end }}
-    {{ end }} {{ end }} {{ $data_type_num_entries := dict $current_type $num_entries }}
-    {{ $num_entries_per_data_type = merge $num_entries_per_data_type $data_type_num_entries }} {{ end }}
+    {{ range $all_data_types }}
+        {{ $current_type := . }} {{ $num_entries := 0 }}
+        {{ range $all_entries }}
+            {{ $counted := false }}
+            {{ range .available_items }}
+                {{ if (and (in .data_type $current_type) (not $counted)) }}
+                    {{ $num_entries = add $num_entries 1 }}
+                    {{ $counted = true }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+        {{ $data_type_num_entries := dict $current_type $num_entries }}
+        {{ $num_entries_per_data_type = merge $num_entries_per_data_type $data_type_num_entries }}
+    {{ end }}
 
     {{/*
           The following bit ensures that it is not necessary to copy the datatypes_to_display list in the Swedish version of the page
@@ -53,9 +57,8 @@
           {{ if ne .Title "All data types" }} <div class="col-md-4">
             <h5><a href="{{ .Page.RelPermalink }}"> {{ $section_title := string "" }} {{ $section_title = .Title}}
                 {{ $this_type := strings.TrimRight " data" (lower $section_title) }}
-                {{ if eq $section_title "Protein data"}} {{ $this_type = "proteins"}} {{ end }}
                 {{ range $type, $num := $num_entries_per_data_type }}
-                {{ $type_in_dict := strings.TrimRight " data" ( strings.TrimPrefix "category: " (lower $type) ) }}
+                {{ $type_in_dict := strings.TrimRight " data" (lower $type) }}
                 {{ if eq $this_type $type_in_dict }} {{ if eq $section_title "Genomics & transcriptomics data"}}
                 {{ $this_type = "genomics"}} {{ end }} {{ $this_type | title }} ({{ $num }}) {{ end }} {{ end }} <i
                   class="bi bi-arrow-right-circle-fill"></i></a></h5>

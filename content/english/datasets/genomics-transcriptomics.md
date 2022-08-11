@@ -6,15 +6,12 @@ menu:
         name: Genomics & transcriptomics data
         weight: 20
         parent: available_datasets
-type: data_table
-datatypes_to_display:
-- "Category: Genomics & transcriptomics"
 aliases:
-  - /sv/data_types/genomics_transcriptomics/data/
-  - /sv/data_types/genomics_transcriptomics/
-  - /data_types/genomics_transcriptomics/
+    - /sv/data_types/genomics_transcriptomics/data/
+    - /sv/data_types/genomics_transcriptomics/
+    - /data_types/genomics_transcriptomics/
+    - /data_types/genomics_transcriptomics/data/
 ---
-
 ## Published Data
 
 #### Data available on the European COVID-19 Data Portal
