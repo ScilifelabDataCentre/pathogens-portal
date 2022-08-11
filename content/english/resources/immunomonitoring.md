@@ -19,7 +19,8 @@ Early research into SARS-CoV-2 immune responses and the how the immune responses
 The overall aim of this project is to establish and standardize methods for optimal sample collection, data acquisition, and data analysis pipelines for future immune response studies. Healthcare will have ready setup tools, and pipelines, and be prepared to perform systems-immunology studies on novel pathogens. A multi-disciplinary program to establish standardized methods for systems- level monitoring of human immune system will ensure competence and knowledge and allow for rapid responses to potential novel diseases.
 
 **Specific project aims:**
-1.  To establish optimal sample collection protocols for systems-level immunomonitoring
-2.  To standardize protocols for global analyses of immune cells and proteins
-3.  To develop pipelines for integrative analyses of systems-level immunomonitoring data
-4.  To launch a comprehensive service offering for systems-level immunomonitoring
+
+1. To establish optimal sample collection protocols for systems-level immunomonitoring
+2. To standardize protocols for global analyses of immune cells and proteins
+3. To develop pipelines for integrative analyses of systems-level immunomonitoring data
+4. To launch a comprehensive service offering for systems-level immunomonitoring

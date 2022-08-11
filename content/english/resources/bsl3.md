@@ -10,7 +10,7 @@ resource_info:
 
 This resource involves two separate components:
 
-**1. Swedish biosafety level 3 (BSL3) network**
+###### 1. Swedish biosafety level 3 (BSL3) network
 
 For more information on the BSL3 network (including information on access, use, and contact), please see the dedicated [BSL3 network page](/resources-subprojects/bsl3-network/).
 
@@ -19,7 +19,7 @@ For more information on the BSL3 network (including information on access, use, 
   <figcaption class="figure-caption">Current members of the Swedish BSL3 network</figcaption>
 </figure>
 
-**2. State-of-the-art biosafety level 3 (BSL3) facility**
+###### 2. State-of-the-art biosafety level 3 (BSL3) facility
 
 For more information on the BSL3 facility (including information on access, use, and contact), please see the dedicated [BSL3 facility page](/resources-subprojects/bsl3-facility/).
 

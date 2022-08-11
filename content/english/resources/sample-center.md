@@ -10,7 +10,7 @@ resource_info:
     contact: "Janne Lehtiö<br>Email: [janne.lehtio@ki.se](mailto:janne.lehtio@ki.se)<br><br>Maria Pernemalm<br>Email: [maria.pernemalmk@scilifelab.se](maria.pernemalmk@scilifelab.se)"
 ---
 
-In order to allow molecular analysis of emerging biological threats, early access to biological samples is warranted. During the early stages of SARS-COVID-19 pandemic, lack of relevant clinical samples was a limiting factor. This project aims to create units, early pandemic sample center, that allows rapid biological specimen handling to connecting SciLifeLab facilities with university hospitals. In order to try out this model, Karolinska and Uppsala University  Hospitals will be used as trials. 
+In order to allow molecular analysis of emerging biological threats, early access to biological samples is warranted. During the early stages of SARS-COVID-19 pandemic, lack of relevant clinical samples was a limiting factor. This project aims to create units, early pandemic sample center, that allows rapid biological specimen handling to connecting SciLifeLab facilities with university hospitals. In order to try out this model, Karolinska and Uppsala University Hospitals will be used as trials.
 
 The plan is to set up two sample flows:
 

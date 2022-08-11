@@ -17,6 +17,7 @@ The laboratory has established large-scale WGS of SARS-CoV-2 (to-date 2000+ samp
 This project involved two subprojects; Taxprofiler and GMS Arctic. Please see the [Taxprofiler](/resources-subprojects/taxprofiler/) and [GMS Arctic](/resources-subprojects/gms-arctic/) pages for more information (including information on access and usage).
 
 **Specific project aims:**
+
 1. An infrastructure for sample handling and sequencing, with access to BSL-2/3 labs, metadata, automation, etc.
 2. High-capacity, short-read and long-read sequencing for rapid continuous surveillance of
 emerging SARS-CoV-2 variants linked with capacity for functional tests.  
