@@ -3,16 +3,13 @@ title: Public health data
 menu:
     data_menu:
         identifier: public_health
-        name: Public Health data
+        name: Public health data
         weight: 90
         parent: available_datasets
-type: data_table
-datatypes_to_display:
-- "Category: Public Health"
 aliases:
-  - /sv/data_types/public_health/data/
+    - /sv/data_types/public_health/data/
+    - /data_types/public_health/data/
 ---
-
 ## Published Data
 
 #### General useful data sources

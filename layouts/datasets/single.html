@@ -1,0 +1,152 @@
+{{ define "main" }}
+
+{{ .Content }}
+
+<h4>Data available from research groups in Sweden</h4>
+
+<div>
+  <p>The list below is curated manually and as such may not be exhaustive. If you would like to see your dataset here or
+    correct information about your dataset, <a href="/suggestions/">please get in touch with us</a>. Projects sharing
+    data where at least one author has an affiliation with a Swedish research institute are included. Only
+    projects which openly share data or analysis code that has re-use potential are included.</p>
+  <p><i>Last updated: {{ .Site.Data.available_datasets.last_updated }}</i></p>
+</div>
+
+{{/*
+  Get all suitable data items into an array
+*/}}
+
+{{ $all_data := .Site.Data.available_datasets.datasets }} {{ $current_datatype := .Title }} {{ $ds_to_display := slice }} {{ range $index, $item := $all_data }} {{ if eq $current_datatype "All data types"}} {{ $ds_to_display = $ds_to_display | append $item }} {{ else }} {{ $add := false }} {{ range .available_items }} {{ if in .data_type $current_datatype }} {{ $add = true }} {{ end }} {{ end }} {{ if $add }} {{ $ds_to_display = $ds_to_display | append $item }} {{ end }} {{ end }} {{ end }}
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3 pl-0 pr-2">
+      <h5>Data types</h5>
+      {{ $current_url := .Page.RelPermalink }}
+      {{ range .Site.Menus.data_menu }}
+      {{ if eq .Name "Available datasets" }}
+      {{ range .Children }}
+
+      {{/*
+        Count how many datasets in current data type
+      */}}
+
+      {{ $current_type := .Name }} {{ $num_entries := 0 }} {{ range $all_data }} {{ $add := false }} {{ range .available_items }} {{ if in .data_type $current_type }} {{ $add = true }} {{ end }} {{ end }} {{ if $add }} {{ $num_entries = add $num_entries 1 }} {{ end }} {{ if eq $current_type "All data types" }} {{ $num_entries = len $all_data }} {{ end }} {{ end }}
+
+        <div class="d-block">{{ if ne .Page.RelPermalink $current_url }}<a href="{{ .Page.RelPermalink }}">{{ else }}<b>{{ end }}{{ .Name }} ({{ $num_entries }}){{ if ne .Page.RelPermalink $current_url }}</a>{{ else }}</b>{{ end }}</div>
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      </div>
+    <div class="col-lg px-0">
+      <div class="table-responsive">
+        <table id="datasets" class="table table-hover" width="100%">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Publication</th>
+              <th scope="col">Available dataset and code</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ range $ds_to_display }}
+            <tr>
+                <td>
+                    <div class="row mx-0">
+                        <div class="col">
+                            <div class="row">
+                                <a target="_blank" href="https://doi.org/{{ .doi }}">
+                                    <span style="font-weight:500;">{{ .title }}</span>
+                                </a>
+                            </div>
+                            <div class="row">
+                                {{ $author_list := first 4 .author }}
+                                {{ if gt (len .author) 4 }}
+                                    {{ $author_list = $author_list | append "et al" }}
+                                {{ end }}
+                                <span class="text-muted" style="font-size:0.82em">
+                                    {{ delimit $author_list ", " }} ({{ substr .published 0 4 }})
+                                </span>
+                            </div>
+                            {{ if .publisher }}
+                            <div class="row">
+                                <span class="text-muted" style="font-size:0.82em">
+                                    {{ .publisher }}
+                                </span>
+                            </div>
+                            {{ end }}
+                            <div class="row">
+                                <span class="text-muted" style="font-size:0.82em">
+                                    DOI: {{ .doi }}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="row mx-0">
+                        <div class="col">
+                            <ul class="pl-3 mb-0" style="list-style-type: none;">
+                                {{ range .available_items }}
+                                    <div class="row">
+                                        <li class="my-1">
+                                            <div class="row pb-1" style="font-size:0.92em; line-height: 1.3em;">
+                                                {{ if .data_url }}
+                                                    <a href="{{ .data_url }}">{{ .description }}</a>
+                                                {{ else }}
+                                                    {{ .description }}
+                                                {{ end }}
+                                            </div>
+                                            <div class="row">
+                                                {{ range (split .type ", ") }}
+                                                    <span class="badge dataset_badge_{{ . }} mr-1">{{ . }}</span>
+                                                {{ end }}
+                                                <span class="text-muted" style="font-size:0.82em">
+                                                    {{ if .repo_name }}{{ .repo_name }}{{ if .accession_number }}: {{ .accession_number }}{{ end }}{{ end }}
+                                                </span>
+                                            </div>
+                                        </li>
+                                    </div>
+                                {{ end }}
+                            </ul>
+                        </div>
+                    </div>
+              </td>
+            </tr>
+            {{ end }}
+            </tbody>
+            </table>
+            </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function () {
+    $('#datasets').DataTable({
+      "sDom": '<"top row"<"col-md"i><"col-md"f>>rt<"bottom row"<"col-md"l><"col-md"p>><"clear">',
+      "order": [[0, "asc"]],
+        "language": {
+    "lengthMenu": "Show _MENU_ entries per page",
+    "zeroRecords": "Nothing found.",
+    "info": "Showing _START_ to _END_ of _TOTAL_ entries.",
+    "infoEmpty": "No records available",
+    "infoFiltered": "(filtered from _MAX_ total records)",
+    "search": "Search:",
+    "paginate": {
+      "first": "First",
+      "last": "Last",
+      "next": "»",
+      "previous": "«"
+    }
+  }
+    }
+  );
+} );
+</script>
+
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
+<script type="text/javascript" charset="utf8"
+  src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
+
+{{ end }}

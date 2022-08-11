@@ -6,9 +6,8 @@ menu:
         name: Drug discovery data
         weight: 70
         parent: available_datasets
-type: data_table
-datatypes_to_display:
-- "Category: Drug Discovery"
 aliases:
-  - /sv/data_types/drug_discovery/data/
+    - /sv/data_types/drug_discovery/data/
+    - /data_types/drug_discovery/data/
 ---
+## Published Data

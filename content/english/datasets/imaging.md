@@ -6,15 +6,12 @@ menu:
         name: Imaging data
         weight: 40
         parent: available_datasets
-type: data_table
-datatypes_to_display:
-- "Category: Imaging"
 aliases:
-  - /sv/data_types/imaging_data/data/
-  - /sv/data_types/imaging_data/
-  - /data_types/imaging_data/
+    - /sv/data_types/imaging_data/data/
+    - /sv/data_types/imaging_data/
+    - /data_types/imaging_data/
+    - /data_types/imaging_data/data/
 ---
-
 ## Published Data
 
 #### General useful data sources

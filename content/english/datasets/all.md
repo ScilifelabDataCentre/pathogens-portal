@@ -1,6 +1,5 @@
 ---
 title: All data types
-type: data_table
 menu:
     data_menu:
         identifier: all
@@ -8,6 +7,7 @@ menu:
         weight: 10
         parent: available_datasets
 aliases:
-  - /sv/data_types/all/data/
+    - /sv/data_types/all/data/
+    - /data_types/all/data/
 ---
 ## Published Data

@@ -6,15 +6,12 @@ menu:
         name: Protein data
         weight: 30
         parent: available_datasets
-type: data_table
-datatypes_to_display:
-- "Category: Proteins"
 aliases:
-  - /sv/data_types/protein_data/data/
-  - /sv/data_types/protein_data/
-  - /data_types/protein_data/
+    - /sv/data_types/protein_data/data/
+    - /sv/data_types/protein_data/
+    - /data_types/protein_data/
+    - /data_types/protein_data/data/
 ---
-
 ## Published Data
 
 #### General useful data sources
