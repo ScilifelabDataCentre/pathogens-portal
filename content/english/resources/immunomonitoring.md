@@ -4,12 +4,22 @@ category: "plp1"
 resource_info:
     name: "Systems-level immunomonitoring to unravel immune response to a novel pathogen"
     funded_project_title: "Systems-level immunomonitoring to unravel immune response to a novel pathogen"
-    pi:
-    host_organisation: ""
-    use: ""
+    pi: Petter Brodin, Jochen Schwenk
+    host_organisation: "Karolinska Institutet"
+    use: "Once  this capability has been tested, validated and standardized it can be offered as a service capability and combined offering within the SciLifeLab, Clinical proteomics and immunology platform (see project aim 4)."
     access: ""
     data_etc: ""
     publications_etc:
     webpage: ""
-    contact: ""
+    contact: "Petter Brodin<br>Address: K6 Kvinnors och barns hälsa, K6 Klinisk pediatrik, 171 77 Stockholm<br>Visiting address: ALB, Q2:04, 17176 Stockholm<br>Phone: +46 (0)8 524 813 96<br>Email: [petter.brodin@ki.se](mailto:petter.brodin@ki.se) <br><br> Jochen Schwenk<br>Address: Tomtebodavägen 23 A, KTH Royal Institute of Technology, SE-100 44, Stockholm<br>Phone: +46 (0)8 790 98 69<br>Email: [jochen.schwenk@scilifelab.se](mailto:jochen.schwenk@scilifelab.se)"
 ---
+
+Early research into SARS-CoV-2 immune responses and the how the immune responses varied among different patients, based on age, sex and prior health status in relation to COVID-19 disease outcome, has been of outmost importance for improved COVID-19 survival rates. The TBy unpacking the complex immune system pathways involved in sensing the SARS-CoV-2 virus, as well as the interference of the virus in antiviral IFN-I responses are examples of immunological findings based on patient-data. In brief, these results are based on results from monitoring how the  immune response changes in patients during the course of  COVID-19 disease.
+
+The overall aim of this project is to establish and standardize methods for optimal sample collection, data acquisition, and data analysis pipelines for future immune response studies. Healthcare will have ready setup tools, and pipelines, and be prepared to perform systems-immunology studies on novel pathogens. A multi-disciplinary program to establish standardized methods for systems- level monitoring of human immune system will ensure competence and knowledge and allow for rapid responses to potential novel diseases.
+
+**Specific project aims:**
+1.  To establish optimal sample collection protocols for systems-level immunomonitoring
+2.  To standardize protocols for global analyses of immune cells and proteins
+3.  To develop pipelines for integrative analyses of systems-level immunomonitoring data
+4.  To launch a comprehensive service offering for systems-level immunomonitoring

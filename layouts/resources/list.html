@@ -10,24 +10,41 @@
 {{ if $resources_plp1 }}
 <section>
     <div>
-        <h4 class="pb-3">Pandemic Laboratory Preparedness PLP 1 2021</h4>
+        <h4 class="pb-3">Pandemic Laboratory Preparedness Capabilities (Stage 1 (2021): PLP1)</h4>
         <div class="row g-2 g-lg-3">
             {{ range $resources_plp1 }}
-                {{- partial "resources_display.html" . -}}
+            {{- partial "resources_display.html" . -}}
             {{ end }}
         </div>
     </div>
 </section>
 {{ end }}
 
+Information about PLP capabilities were selected from the second call (PLP2) and technology development projects (PLP
+TDPs) will be added as it becomes available.
+
 {{ $resources_plp2 := where .RegularPages "Params.category" "plp2" }}
 {{ if $resources_plp2 }}
 <section>
     <div>
-        <h4 class="pb-3">Pandemic Laboratory Preparedness PLP 2 2022</h4>
+        <h4 class="pb-3">Pandemic Laboratory Preparedness Capabilities (Stage 2 (2022): PLP2)</h4>
         <div class="row g-2 g-lg-3">
             {{ range $resources_plp2 }}
-                {{- partial "resources_display.html" . -}}
+            {{- partial "resources_display.html" . -}}
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+
+{{ $resources_plptdp := where .RegularPages "Params.category" "plptdp" }}
+{{ if $resources_plptdp }}
+<section>
+    <div>
+        <h4 class="pb-3">Pandemic Laboratory Preparedness Technology Development projects (PLP TDPs)</h4>
+        <div class="row g-2 g-lg-3">
+            {{ range $resources_plptdp }}
+            {{- partial "resources_display.html" . -}}
             {{ end }}
         </div>
     </div>

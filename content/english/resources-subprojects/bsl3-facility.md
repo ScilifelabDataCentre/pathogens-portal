@@ -18,6 +18,8 @@ BSL3 Biomedicum is fully equipped with state-of-the-art equipment and expertise 
 
 BSL3 Biomedicum is open for companies to perform their research with pathogenic viruses. As an example, Biomedrex is developing CRISPR-based antivirals at BSL3 Biomedicum.
 
+For more information on the [Pandemic Laboratory Preparedness resources](/resources/) associated with this subproject, see [BSL3 Biomedicum-SciLifeLab Collaborative Platform](/resources/bsl3/) and [Swedish biosafety level 3 (BSL3) network](/resources-subprojects/bsl3-network/).
+
 <figure class="figure">
   <img src="/resorces/bsl3-facility-htp-av.png" class="figure-img img-fluid" alt="A generic square placeholder image with rounded corners in a figure.">
   <figcaption class="figure-caption">An example of high-throughput antiviral assays available at BSL3 Biomedicum. An image-based screening assay was developed in collaboration with Dr. Charlotte Stadler (<a href="https://doi.org/10.1101/2022.03.29.482838">Kaimal et al. bioRxiv, 2022</a>) and cell viability assay in collaboration with Dr. Marianna Tampere.</figcaption>

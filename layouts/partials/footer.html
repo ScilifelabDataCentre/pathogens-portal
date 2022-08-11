@@ -9,90 +9,106 @@
   </div> -->
   <div class="row border-bottom">
     <div class="col-md">
-      <h2 class="small text-uppercase text-black-50">{{ if eq $.Site.Language.LanguageName "Svenska" }}Sektioner{{ else }}Data{{ end }}</h2>
+      <h2 class="small text-uppercase text-black-50">
+        {{ if eq $.Site.Language.LanguageName "Svenska" }}Sektioner{{ else }}Data{{ end }}</h2>
       <ul class="list-unstyled">
-      {{ if eq $.Site.Language.LanguageName "English" }}
+        {{ if eq $.Site.Language.LanguageName "English" }}
         {{ range .Site.Menus.data_menu }}
-                <li><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
+        <li><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
         {{ end }}
-      {{ end }}
-      {{ if eq $.Site.Language.LanguageName "Svenska" }}
+        {{ end }}
+        {{ if eq $.Site.Language.LanguageName "Svenska" }}
         {{ range .Site.Menus.swe_menu }}
-          {{ if and (ne .Name "Om dataportalen") (ne .Name "Kontakt") }}
-                <li><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
-          {{ end }}
+        {{ if and (ne .Name "Om dataportalen") (ne .Name "Kontakt") }}
+        <li><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
         {{ end }}
-      {{ end }}
+        {{ end }}
+        {{ end }}
       </ul>
     </div>
     {{ if eq $.Site.Language.LanguageName "English" }}
     <div class="col-md">
       <h2 class="small text-uppercase text-black-50">Other sections</h2>
       <ul class="list-unstyled">
-              <li style="color:rgba(0, 0, 0, 0.5);">Resources</li>
-              {{ range .Site.Menus.research_menu }}
-              <li><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
-              {{ end }}
+        <li><a href="/resources/">Resources</a></li>
+        {{ range .Site.Menus.research_menu }}
+        <li><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
+        {{ end }}
       </ul>
     </div>
     {{ end }}
     <div class="col-md">
-      <h2 class="small text-uppercase text-black-50">{{ if eq $.Site.Language.LanguageName "Svenska" }}Om dataportalen{{ else }}About{{ end }}</h2>
+      <h2 class="small text-uppercase text-black-50">{{ if eq $.Site.Language.LanguageName "Svenska" }}Om
+        dataportalen{{ else }}About{{ end }}</h2>
       <ul class="list-unstyled mb-1">
         {{ range .Site.Menus.footer_about }}
-          <li><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
+        <li><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
         {{ end }}
       </ul>
       <ul class="list-unstyled border-top pt-1 nav-languages">
-      {{ if .IsTranslated }}
+        {{ if .IsTranslated }}
         {{ range .AllTranslations }}
-          <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }}<img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
+        <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }}<img
+              src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
         {{ end }}
-      {{ else if .Parent.IsTranslated }}
-          <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }}<img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
-          <li><a href="/sv{{ relURL .Parent.Permalink }}" lang="sv">Svenska<img src="/img/flag-sv.svg" alt=""></a></li>
-      {{ else if .Parent.Parent.IsTranslated }}
-          <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }}<img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
-          <li><a href="/sv{{ relURL .Parent.Parent.Permalink }}" lang="sv">Svenska<img src="/img/flag-sv.svg" alt=""></a></li>
-      {{ else }}
+        {{ else if .Parent.IsTranslated }}
+        <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }}<img
+              src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
+        <li><a href="/sv{{ relURL .Parent.Permalink }}" lang="sv">Svenska<img src="/img/flag-sv.svg" alt=""></a></li>
+        {{ else if .Parent.Parent.IsTranslated }}
+        <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }}<img
+              src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
+        <li><a href="/sv{{ relURL .Parent.Parent.Permalink }}" lang="sv">Svenska<img src="/img/flag-sv.svg" alt=""></a>
+        </li>
+        {{ else }}
         {{ range $.Site.Home.AllTranslations }}
-          <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }}<img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
+        <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }}<img
+              src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
         {{ end }}
-      {{ end }}
+        {{ end }}
       </ul>
     </div>
     <div class="col-md">
-      <h2 class="small text-uppercase text-black-50">{{ if eq $.Site.Language.LanguageName "Svenska" }}Följ oss{{ else }}Connect{{ end }}</h2>
+      <h2 class="small text-uppercase text-black-50">{{ if eq $.Site.Language.LanguageName "Svenska" }}Följ
+        oss{{ else }}Connect{{ end }}</h2>
       <div class="container">
         <div class="d-flex justify-content-start">
-              <a class="p-2" style="font-size:2em;" target="_blank" href="mailto:datacentre@scilifelab.se"><i class="bi bi-envelope-fill"></i></a>
-              <a class="p-2" style="font-size:2em;" target="_blank" href="https://twitter.com/scilifelab_DC"><i class="bi bi-twitter"></i></a>
-              <a class="p-2" style="font-size:2em;" target="_blank" href="https://linkedin.com/company/scilifelab-data-centre"><i class="bi bi-linkedin"></i></a>
+          <a class="p-2" style="font-size:2em;" target="_blank" href="mailto:datacentre@scilifelab.se"><i
+              class="bi bi-envelope-fill"></i></a>
+          <a class="p-2" style="font-size:2em;" target="_blank" href="https://twitter.com/scilifelab_DC"><i
+              class="bi bi-twitter"></i></a>
+          <a class="p-2" style="font-size:2em;" target="_blank"
+            href="https://linkedin.com/company/scilifelab-data-centre"><i class="bi bi-linkedin"></i></a>
         </div>
       </div>
     </div>
     <div class="col-md text-center">
-      <a class="d-block my-4" href="https://www.scilifelab.se"><img src="/img/logos/scilifelab-logo.svg" alt="SciLifeLab"></a>
+      <a class="d-block my-4" href="https://www.scilifelab.se"><img src="/img/logos/scilifelab-logo.svg"
+          alt="SciLifeLab"></a>
       <span class="d-block my-4"><img src="/img/logos/elixir-se-logo.png" alt="Elixir Sweden"></span>
     </div>
   </div>
   <div class="row footer-lower-row">
     <div class="col-md-2 p-2 text-center">
-      <a href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/contact/">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).support_feedback }}</a>
+      <a
+        href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/contact/">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).support_feedback }}</a>
     </div>
     <div class="col-md-2 p-2 text-center">
       <a href='{{ "/privacy" | relLangURL }}'>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).privacy }}</a>
     </div>
     <div class="col-md-2 p-2 text-center">
-      <a href="https://github.com/ScilifelabDataCentre/covid-portal/tree/develop">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).github_link }}</a>
+      <a
+        href="https://github.com/ScilifelabDataCentre/covid-portal/tree/develop">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).github_link }}</a>
     </div>
   </div>
 </footer>
 
 <!-- jQuery first [moved to the head], then Popper.js, then Bootstrap JS -->
 <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <!-- Matomo -->
 <script>
   var _paq = window._paq = window._paq || [];
@@ -100,12 +116,12 @@
   _paq.push(["disableCookies"]);
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//matomo.dckube.scilifelab.se/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
+  (function () {
+    var u = "//matomo.dckube.scilifelab.se/";
+    _paq.push(['setTrackerUrl', u + 'matomo.php']);
     _paq.push(['setSiteId', '2']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
   })();
 </script>
 <!-- End Matomo Code -->

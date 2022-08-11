@@ -11,7 +11,7 @@ resource_info:
     data_etc: "[Dashboard: The amount of SARS-CoV-2 virus in wastewater across Sweden](https://www.covid19dataportal.se/dashboards/wastewater/)"
     publications_etc:
     webpage:
-    contact: "Anna J. Székely<br>Address: Box 7050, 75007 UPPSALA<br> Visiting address: Lennart Hjelms väg 9<br>Phone: +46-73-9747565 (mobile)<br>Email: [anna.szekely@slu.se](mailto:anna.szekely@slu.se)"
+    contact: "Anna J. Székely<br>Address: Box 7050, 75007 UPPSALA<br>Visiting address: Lennart Hjelms väg 9<br>Phone: +46-73-9747565 (mobile)<br>Email: [anna.szekely@slu.se](mailto:anna.szekely@slu.se)"
 ---
 
 SEEC is a national capacity-building center that bridges the current gap between epidemiology and environmental assessment. It provides for rapid and effective response to detected pathogens as well as population level epidemiology. SEEC also stands for the standardization of molecular and experimental methods for continuous assessment of known and emerging pathogens of concern in Sweden.

@@ -1,19 +1,15 @@
 ---
 title: Pandemic Preparedness Resources
-cascade:
-  header_illustration: "/img/csm_coronavirus_mc_gray.jpg"
 ---
 
 ## Overview
 
-[To be added here: short paragraph on why pandemic preparedness is important.]
+The COVID-19 pandemic began over 2 years ago. It had a tremendous, negative impact on society and healthcare systems globally. The speed of the response from all quarters was unprecedented, as was the level of cooperation within and around the scientific community. This undoubtedly lessened the impact of the pandemic. The best way to ensure that the response to the next pandemic is as swift as possible, and thus to minimise its impact, is to invest effort in pandemic preparedness. Pandemic preparedness involves ensuring that the resources needed to fight a pandemic are immediately available for use; minimising time spent on development.
 
-This section of the Portal describes resources in Sweden that have been built and are available for research into current and potential future pandemics. We primarily describe resources that are a part of the [Pandemic Laboratory Preparedness program at SciLifeLab](https://www.scilifelab.se/capabilities/pandemic-laboratory-preparedness/) (this program was commissioned by the government to run between 2021-2024) but resources outside of this program can also be added. We hope this section can help researchers working on topics relevant for pandemic preparedness find useful laboratories, tools, assays, protocols, collaborators, etc. for their research.
-
-Please select a resource on the left (or top if you are viewing this page from a mobile screen) to see the details about that resource.
+This section of the Portal is dedicted to resources related to pandemic preparedness (i.e. resources that can be used in current and future pandemics). At present, the resources listed are primarily related to the [Pandemic Laboratory Preparedness (PLP) program at SciLifeLab](https://www.scilifelab.se/capabilities/pandemic-laboratory-preparedness/) (refer to our [PLP program background page](/plp-program-background/) for additional information). However, any pandemic preparedness resources built by individuals associated with a Swedish university or research institute can be included. 
 
 <div class="alert alert-info">
-    <i class="bi bi-info-circle-fill"></i> Do you operate a resource that could be useful for research relevant for pandemic preparedness? We welcome suggestions for resources to be listed in this section, send us an email at <a href="mailto:datacentre@scilifelab.se">datacentre@scilifelab.se</a>.
+    <i class="bi bi-info-circle-fill"></i> We welcome suggestions about relevant resources that could be included in this section. Please email us at <a href="mailto:datacentre@scilifelab.se">datacentre@scilifelab.se</a> or use our <a href="https://www.covid19dataportal.se/contact/">contact form</a> to get in touch.
 </div>
 
-<i>Section last updated: 2022.06.08</i>
+<i>Section last updated: 2022.08.10</i>

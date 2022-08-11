@@ -11,7 +11,7 @@ resource_info:
     data_etc: "The SARS-CoV-2 serology data is summarized [in a dashboard at the Swedish Pandemic Preparedness and COVID-19 Data Portal](https://www.covid19dataportal.se/dashboards/serology-statistics/)."
     publications_etc: "The method for SARS-CoV-2 serology is available at [DOI: 10.1002/cti2.1312](https://doi.org/10.1002/cti2.1312). Instructions for sample preparation are provided during the project feasibility discussion with the Autoimmunity and Serology Profiling Unit."
     webpage: https://www.scilifelab.se/units/autoimmunity-profiling/
-    contact: "[autoimmunity.profiling@scilifelab.se](mailto:autoimmunity.profiling@scilifelab.se)"
+    contact: "Autoimmunity Profiling<br>[autoimmunity.profiling@scilifelab.se](mailto:autoimmunity.profiling@scilifelab.se)"
 ---
 
 High-throughput serology analysis is an important tool for evaluating the serostatus and potential immunity of the population. The information provided can both monitor the spread of a disease and aid in making informed decisions regarding efficient societal restrictions and vaccination strategies. A critical concern for performing high-throughput serology, especially during a pandemic, is continuous access to the required reagents.
