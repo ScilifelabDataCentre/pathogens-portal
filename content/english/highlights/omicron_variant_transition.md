@@ -1,6 +1,6 @@
 ---
 title: Direct RT-PCR used to monitor Omicron BA.1/BA.2 variant transition in Sweden (Update)
-date: 2022-08-12
+date: 2022-08-15
 summary: Lentini and collegues used direct RT-PCR to show the transition from Omicron BA.1 to sub-variant BA.2 in Sweden Jan-March 2022. New Preprint from Reinius lab which shares data and code.
 banner: /highlights/banners/omicron_variant_transition.png
 banner_large: /highlights/banners/omicron_variant_transition_large.png
@@ -36,7 +36,6 @@ For more information, also see the [news article on Karolinska Institutet's page
 #### Article
 
 Lentini, A., Pereira, A., Winqvist, O., Reinius, B (2022). Monitoring of the SARS-CoV-2 Omicron BA.1/BA.2 lineage transition in the Swedish population reveals increased viral RNA levels in BA.2 cases. *Med*. [https://doi.org/10.1016/j.medj.2022.07.007](https://doi.org/10.1016/j.medj.2022.07.007).
-
 
 #### Funding
 
