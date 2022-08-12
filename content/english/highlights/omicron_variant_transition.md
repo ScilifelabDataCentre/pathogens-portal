@@ -1,6 +1,6 @@
 ---
-title: Direct RT-PCR used to monitor Omicron BA.1/BA.2 variant transition in Sweden
-date: 2022-04-04
+title: Direct RT-PCR used to monitor Omicron BA.1/BA.2 variant transition in Sweden (Update)
+date: 2022-08-12
 summary: Lentini and collegues used direct RT-PCR to show the transition from Omicron BA.1 to sub-variant BA.2 in Sweden Jan-March 2022. New Preprint from Reinius lab which shares data and code.
 banner: /highlights/banners/omicron_variant_transition.png
 banner_large: /highlights/banners/omicron_variant_transition_large.png
@@ -8,6 +8,8 @@ banner_caption: Fig 2. Omicron BA.1/BA.2 lineage transition and viral load in Sw
 highlights_topics: [COVID-19, Infectious diseases]
 highlights_vocs: [Omicron]
 ---
+
+**Update:** *This data highlight has been updated upon formal publication of the article. It was originally featured on the portal in April 2022 as a preprint article.*
 
 Since the start of the COVID-19 pandemic, multiple SARS-CoV-2 variants have emerged in different parts of the world. [The European Centre for Disease Control](https://www.ecdc.europa.eu/en) (EDCD) classified several of them as Alpha (B.1.1.7), Beta (B.1.351), Gamma (P.1), Delta ( B.617.2), and Omicron (BA.1 and B.1.1.529) as *variants of concern* (VOC). The three major waves that have swept across the world have been associated with different VOCs; with Alpha causing the wave in early 2020, Delta in mid 2021, and Omicron from late 2021 to early 2022. Omicron was first detected in South Africa and Botswana in November 2021. WHO declared it to be a VOC later that same month and, by early December 2021, it had already spread to over 50 countries. By mid-January 2022, over 50 million infections were detected worldwide daily.
 
@@ -23,17 +25,18 @@ After validating the direct RT-PCR assay, the assay was used to monitor the Omic
 
 Whilst the first COVID-positive nasopharyngeal samples in January 2022 were found to be dominated by Omicron BA.1, by March almost all positive samples resulted from the more transmittable BA.2 sub-variant. Importantly, in cases resulting from Omicron BA.2, the viral RNA levels detected in the nose/throat samples were found to be two-fold higher than for Omicron BA.1. An increased viral load in the upper pharynx upon BA.2 infection could provide part of the explanation why BA.2 is more transmissible, and able to outcompete the BA.1 variant.
 
+For more information, also see the [news article on Karolinska Institutet's page](https://news.ki.se/single-clinical-test-provides-more-answers-about-covid-19).
+
 #### Data
 
 * Computational code is available [here](https://github.com/reiniuslab/OmicronWaves/).
 * Assembled SARS-CoV-2 genomes have been deposited to [GISAID](https://gisaid.org) (EPI_ISL_11414777-11415389 and EPI_ISL_11450500-11450677).
-* Raw sequencing data has been deposited to ArrayExpress *(accession pending)*.
+* Raw sequencing data has been deposited to [ArrayExpress (accession: E_MTAB-11650)](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-11650/).
 
 #### Article
 
-DOI: [10.1101/2022.03.26.22272984](https://doi.org/10.1101/2022.03.26.22272984) *(Link to pre-print)*
+Lentini, A., Pereira, A., Winqvist, O., Reinius, B (2022). Monitoring of the SARS-CoV-2 Omicron BA.1/BA.2 lineage transition in the Swedish population reveals increased viral RNA levels in BA.2 cases. *Med*. [https://doi.org/10.1016/j.medj.2022.07.007](https://doi.org/10.1016/j.medj.2022.07.007).
 
-Monitoring of the SARS-CoV-2 Omicron BA.1/BA.2 variant transition in the Swedish population reveals higher viral quantity in BA.2 cases: Antonio Lentini, Antonio Pereira, Ola Winqvist, and Björn Reinius
 
 #### Funding
 
