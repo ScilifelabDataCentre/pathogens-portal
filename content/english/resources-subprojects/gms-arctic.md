@@ -11,7 +11,7 @@ resource_info:
     data_etc: "All code related GMS-Arctic is available on [GitHub](https://github.com/genomic-medicine-sweden/gms-artic)."
     publications_etc: "Instructions about how to use the GMS-Arctic, how to set it up, and requirements are available on [GitHub](https://github.com/genomic-medicine-sweden/gms-artic/blob/master/README.md)."
     webpage: "[https://github.com/genomic-medicine-sweden/gms-artic](https://github.com/genomic-medicine-sweden/gms-artic)"
-    contact: "Sofia Stamouli<br>Email: [sofia.stamouli@scilifelab.se](mailto:sofia.stamouli@scilifelab.se)"
+    contact: "Sofia Stamouli<br>Bioinformatician<br>Email: [sofia.stamouli@scilifelab.se](mailto:sofia.stamouli@scilifelab.se)"
 ---
 
 A pipeline for taxonomic profiling of shotgun metagenomic data. It is currently in development and does not yet have any stable releases.

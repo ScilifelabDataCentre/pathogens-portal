@@ -11,7 +11,7 @@ resource_info:
     data_etc: "All code related to SC2Reporter is available on [GitHub](https://github.com/genomic-medicine-sweden/sc2reporter)."
     publications_etc: "Instructions about how to use SC2Reporter and relevant reports are available on [GitHub](https://github.com/genomic-medicine-sweden/sc2reporter)."
     webpage: "[https://github.com/genomic-medicine-sweden/sc2reporter](https://github.com/genomic-medicine-sweden/sc2reporter)"
-    contact: "Jonas Björkman<br>Email: [Jonas.bjorkman@skane.se](mailto:Jonas.bjorkman@skane.se)"
+    contact: "Jonas Björkman<br>Molecular Biologist<br>Email: [Jonas.bjorkman@skane.se](mailto:Jonas.bjorkman@skane.se)"
 ---
 
 A web-based visualization application for the ongoing Sars-CoV-2 pandemic. The tool is primarily used for epidemiological analysis where pipeline analysis results and metadata are loaded into a mongoDB database. The SNVs and indels can then be compared between all isolated in the database.

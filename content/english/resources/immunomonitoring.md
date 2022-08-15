@@ -7,11 +7,7 @@ resource_info:
     pi: Petter Brodin, Jochen Schwenk
     host_organisation: "Karolinska Institutet"
     use: "Once  this capability has been tested, validated and standardized it can be offered as a service capability and combined offering within the SciLifeLab, Clinical proteomics and immunology platform (see project aim 4)."
-    access: ""
-    data_etc: ""
-    publications_etc:
-    webpage: ""
-    contact: "Petter Brodin<br>Address: K6 Kvinnors och barns hälsa, K6 Klinisk pediatrik, 171 77 Stockholm<br>Visiting address: ALB, Q2:04, 17176 Stockholm<br>Phone: +46 (0)8 524 813 96<br>Email: [petter.brodin@ki.se](mailto:petter.brodin@ki.se) <br><br> Jochen Schwenk<br>Address: Tomtebodavägen 23 A, KTH Royal Institute of Technology, SE-100 44, Stockholm<br>Phone: +46 (0)8 790 98 69<br>Email: [jochen.schwenk@scilifelab.se](mailto:jochen.schwenk@scilifelab.se)"
+    contact: "Petter Brodin<br>Professor<br>Email: [petter.brodin@ki.se](mailto:petter.brodin@ki.se) <br><br>Jochen Schwenk<br>Professor<br>Email: [jochen.schwenk@scilifelab.se](mailto:jochen.schwenk@scilifelab.se)"
 ---
 
 Early research into SARS-CoV-2 immune responses and the how the immune responses varied among different patients, based on age, sex and prior health status in relation to COVID-19 disease outcome, has been of outmost importance for improved COVID-19 survival rates. The TBy unpacking the complex immune system pathways involved in sensing the SARS-CoV-2 virus, as well as the interference of the virus in antiviral IFN-I responses are examples of immunological findings based on patient-data. In brief, these results are based on results from monitoring how the  immune response changes in patients during the course of  COVID-19 disease.

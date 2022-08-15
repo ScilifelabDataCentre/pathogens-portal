@@ -6,7 +6,7 @@ resource_info:
     funded_project_title: "Rapid establishment of comprehensive laboratory pandemic preparedness – RAPID-SEQ"
     pi: Jan Albert
     host_organisation: "Karolinska Institutet"
-    contact: "Jan Albert<br>Address: C1 Mikrobiologi, tumör- och cellbiologi, C1 MTC Albert, 171 77, Stockholm<br>Visiting address: Karolinska Universitetssjukhuset, Klinisk Mikrobiologi L2:02, 17176 Solna<br>Email: [jan.albert@ki.se](mailto:jan.albert@ki.se)"
+    contact: "Jan Albert<br>Professor<br>Email: [jan.albert@ki.se](mailto:jan.albert@ki.se)"
 ---
 
 The emergence of *SARS-CoV-2 VOCs* has shown the need for continuous large-

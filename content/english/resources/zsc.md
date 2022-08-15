@@ -15,7 +15,7 @@ resource_info:
       <li>Krambrich J, Bringeland E, Hesson JC, Hoffman T, Lundkvist Å, Lindahl JF, Ling J. Usage of FTA® Classic Cards for Safe Storage, Shipment, and Detection of Arboviruses. Submitted (2022).</li>
     </ul>"
     webpage:
-    contact: "Åke Lundkvist<br>[ake.lundkvist@imbim.uu.se](mailto:ake.lundkvist@imbim.uu.se)"
+    contact: "Åke Lundkvist<br>Professor<br>[ake.lundkvist@imbim.uu.se](mailto:ake.lundkvist@imbim.uu.se)"
 ---
 
 ###### 1. Clinical study

@@ -5,7 +5,7 @@ resource_info:
     name: "Genomic Pandemic Preparedness Portfolio (G3P) – Nationally scalable genomics portfolio for detection and surveillance of viral outbreaks"
     pi: Valtteri Wirta
     host_organisation: "Karolinska Institutet"
-    contact: "Valtteri Wirta<br>Email: [valtteri.wirta@ki.se](mailto:valtteri.wirta@ki.se)"
+    contact: "Valtteri Wirta<br>Director, Clinical Genomics facility<br>Email: [valtteri.wirta@ki.se](mailto:valtteri.wirta@ki.se)"
 ---
 
 This resource involves three subprojects:
