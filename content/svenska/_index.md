@@ -17,9 +17,4 @@ teststats:
 plotly: true
 ---
 
-<div class="alert alert-info">
-        <i class="bi bi-exclamation-triangle-fill"></i>
-        <span>Uppdateringar sker mindre frekvent under sommaren (15 Juli-15 Augusti). Men teamet nås under hela perioden. Kontakta oss <a href="/sv/contact/"> här.</span>
-    </div>
-
 Den Svenska Dataportalen för Covid-19 & Pandemisk Beredskap tillhandahåller information, riktlinjer, verktyg och tjänster för att stödja forskare vid svenska lärosäten verksamma inom forskningsfältet pandemisk beredskap med datarelaterade frågor. Dataportalen drivs av [SciLifeLab Data Centre](https://scilifelab.se/data/) och samarbetspartners. Förslag, ändringar och kommentarer är [alltid välkomna](/sv/contribute/).

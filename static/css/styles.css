@@ -464,17 +464,17 @@ div.dataTables_wrapper div.dataTables_info {
 }
 
 .dataset_badge_data {
-    background-color: #D4EFDF;
+    background-color: #D7BDE2;
     font-weight:500;
 }
 
 .dataset_badge_code {
-    background-color: #FADBD8;
+    background-color: #F9E79F;
     font-weight:500;
 }
 
 .dataset_badge_protocol {
-    background-color: #FDEBD0;
+    background-color: #AED6F1;
     font-weight:500;
 }
 
