@@ -4,10 +4,12 @@ category: "tdp"
 resource_info:
     name: "Establishing sequencing-based viral diagnostics for future clinical use: towards pandemic and outbreak preparedness in the clinical laboratory"
     pi: Patrik Medstrand
-    pi_affiliation: Lund University
-    lab: Lund University and Region Skåne
     host_organisation: Clinical Virology, Lund University and Clinical Microbiology, Medicinsk Service, Region Skåne
     contact: "Patrik Medstrand<br>Clinical Virology, Lund University and Clinical Microbiology, Medicinsk Service, Region Skåne<br>Email: [patrik.medstrand@med.lu.se](mailto:patrik.medstrand@med.lu.se)"
+for_background_table:
+    pi: Patrik Medstrand
+    pi_affiliation: Lund University
+    lab: Lund University and Region Skåne
 ---
 
 This proposal builds on the collaboration between the Dept. of Clinical Microbiology at Region Skåne, the Dept. of Translational Medicine, Section of Clinical Virology at Lund University, and Clinical Ge- nomics Lund at SciLifeLab, to develop and disseminate new state-of-the-art viral diagnostics meth- ods for improved Swedish healthcare. This collaboration already successfully established and im- plemented whole-genome sequencing (WGS) of SARS-CoV-2 during the pandemic (since February 2021).

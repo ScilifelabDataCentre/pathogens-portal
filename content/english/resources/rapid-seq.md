@@ -5,9 +5,11 @@ resource_info:
     name: "Rapid establishment of comprehensive laboratory pandemic preparedness – RAPID-SEQ"
     funded_project_title: "Rapid establishment of comprehensive laboratory pandemic preparedness – RAPID-SEQ"
     pi: Jan Albert
-    pi_affiliation: Karolinska Institutet
     host_organisation: "Karolinska Institutet"
     contact: "Jan Albert<br>Professor<br>Email: [jan.albert@ki.se](mailto:jan.albert@ki.se)"
+for_background_table:
+    pi: Jan Albert
+    pi_affiliation: Karolinska Institutet
 ---
 
 The emergence of *SARS-CoV-2 VOCs* has shown the need for continuous large-

@@ -4,10 +4,12 @@ category: "tdp"
 resource_info:
     name: "Development of a targeted metagenomic NGS platform for diagnostics and epidemiological surveillance of viral pandemic threats"
     pi: Lisa Pettersson
-    pi_affiliation: Umeå University
-    lab: Umeå University Hospital
     host_organisation: Dept. of Clinical Microbiology, Umeå University Hospital & Dept. of Clinical Microbiology, Umeå University
     contact: "Lisa Pettersson<br>Dept. of Clinical Microbiology, Umeå University Hospital & Dept. of Clinical Microbiology, Umeå University<br>Email: [Lisa.pettersson@regionvasterbotten.se](mailto:Lisa.pettersson@regionvasterbotten.se)"
+for_background_table:
+    pi: Lisa Pettersson
+    pi_affiliation: Umeå University
+    lab: Umeå University Hospital
 ---
 
 The aim of this project is to develop and implement a targeted metagenomic next-generation sequencing-based (mNGS) platform that utilizes a hybrid-capture and amplification approach for sensitive and accurate detection of viral pathogens. The focus will be on an enrichment panel that can detect > 3,000 viral species.

@@ -4,10 +4,12 @@ category: "tdp"
 resource_info:
     name: "Rapid typing of emerging variants in a clinical setting"
     pi: Anders Bergqvist
-    pi_affiliation: Uppsala University
-    lab: Uppsala University Hospital
     host_organisation: Uppsala University Hospital/Akademiska Sjukhuset Clinical Microbiology, Dept. of Medical Sciences, Uppsala University
     contact: "Anders Bergqvist<br>Uppsala University Hospital/Akademiska Sjukhuset Clinical Microbiology, Dept of Medical Sciences, Uppsala University<br>Email: [Anders.bergqvist@medsci.uu.se](mailto:Anders.bergqvist@medsci.uu.se) or [Anders.bergqvist@akademiska.se](mailto:Anders.bergqvist@akademiska.se)"
+for_background_table:
+    pi: Anders Bergqvist
+    pi_affiliation: Uppsala University
+    lab: Uppsala University Hospital
 ---
 
 During the recent SARS-CoV-2 pandemic it has been evident that a swift response relies on the capacity to quickly establish methodologies for clinical diagnostics and epidemiologic surveillance.Whereas the first generation of commercial kits were sold as Research Use Only, had low capacity and often characterized by poor performance, robust methodologies were despite tremendous effort from the manufacturers and frequent use of Emergency Use labeling by regulatory agencies not available until the first wave was almost over.

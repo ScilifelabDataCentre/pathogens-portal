@@ -21,11 +21,11 @@
       <tr>
         <td scope="row"><a href="{{ .Page.RelPermalink }}">{{ .Title }}</a></td>
         {{ if eq $category "tdp" }}
-            <td>{{ .Params.resource_info.pi }} ({{ .Params.resource_info.pi_affiliation }})</td>
-            <td>{{ .Params.resource_info.lab }}</td>
+            <td>{{ .Params.for_background_table.pi }} ({{ .Params.for_background_table.pi_affiliation }})</td>
+            <td>{{ .Params.for_background_table.lab }}</td>
         {{ else }}
-            <td>{{ .Params.resource_info.pi }}</td>
-            <td>{{ .Params.resource_info.pi_affiliation }}</td>
+            <td>{{ .Params.for_background_table.pi }}</td>
+            <td>{{ .Params.for_background_table.pi_affiliation }}</td>
         {{ end }}
       </tr>
       {{ end }}

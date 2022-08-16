@@ -5,7 +5,6 @@ resource_info:
     name: "ZSC: National core facility for Pandemic Preparedness"
     funded_project_title:
     pi: "Åke Lundkvist, Josef Järhult"
-    pi_affiliation: Uppsala University
     host_organisation: "Department of Medical Biochemistry and Microbiology, Zoonosis Science Center, Uppsala University; Department of Medical Sciences, Zoonosis Science Center, Uppsala University"
     use: "**1.** PronMed study: patient clinical information etc.;<br>**2.** Virome study: identify RNA virus composition from important reservoirs and vectors in Sweden.;<br> **3.** Spill-over and immune responses: By our research on transmission and maintenance of zoonotic viruses in nature, we will increase the knowledge on potential threats for future endemics and pandemics. How are climate changes increase the risks, which new viruses may be introduced to Sweden?;<br> **4.** Diagnostics: By our established Luminex-based systems, we are able to study e.g. seroprevalences and vaccine responses. In addition, we can rapidly up-date the systems with new variants or completely new viruses in future endemics or pandemics."
     access: "**1.** The same as the PronMed study.<br> **2.** Everyone has access to the Genbank or BioProject, once the RNA-sequencing data and viral genome sequences data will be public.<br> **3.** Open access publications."
@@ -17,6 +16,9 @@ resource_info:
     </ul>"
     webpage:
     contact: "Åke Lundkvist<br>Professor<br>[ake.lundkvist@imbim.uu.se](mailto:ake.lundkvist@imbim.uu.se)"
+for_background_table:
+    pi: Åke Lundkvist
+    pi_affiliation: Uppsala University
 ---
 
 ###### 1. Clinical study
