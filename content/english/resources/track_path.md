@@ -11,7 +11,7 @@ resource_info:
 The project consists of three parts:
 
 1. Characterization of microbial strains (bacteria and fungi) with resistance to recently introduced antimicrobials.
-2. Characterization of virulent pathogens causing unexpectedly severe infections. 
+2. Characterization of virulent pathogens causing unexpectedly severe infections.
 3. Exploring methods for studying host-pathogen interaction. During the first months of the project a bioinformatician has been recruited to work on transcriptomics and on establishing pipelines for characterization of virulent pathogens.
 
 We have selected >40 isogenic mutants of *Escherichia coli*, *Klebsiella pneumoniae*, *Pseudomonas aeruginosa*, and *Acinetobacter baumannii* with resistance to at least one of the two novel antimicrobials cefiderocol and aztreonam-avibactam.  The strains are ready to be analyzed regarding transcriptomics, as well as for some chromosomal mechanisms of resistance that are not presently mapped in publicly available pipelines. The goal is to be able to study outer membrane porins, penicillin-binding proteins, multidrug efflux pumps, as well as iron transporters of importance for cefiderocol uptake. The work with the pipelines is already advanced.

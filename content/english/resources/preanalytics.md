@@ -12,4 +12,4 @@ Shotgun metagenomics is rapidly expanding as the technique of choice for identif
 
 The close collaboration between Clinical Microbiology and Genomic Medicine Center in Örebro is essential in the proposed study where we aim to study the pre-analytical requisites for a reliable detection of microorganisms and resistance markers in specimens from the upper airways.
 
-For future pandemics, and for studies focusing on the silent pandemic of the of antibiotic resistance, we believe that an optimized pre-analytic standard operating procedure (SOP) for metagenomics detection of microorganisms and resistance in samples from the upper respiratory tract would be beneficial. 
+For future pandemics, and for studies focusing on the silent pandemic of the of antibiotic resistance, we believe that an optimized pre-analytic standard operating procedure (SOP) for metagenomics detection of microorganisms and resistance in samples from the upper respiratory tract would be beneficial.
