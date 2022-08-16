@@ -4,6 +4,7 @@ category: "plp1"
 resource_info:
     name: "BSL3 Biomedicum-SciLifeLab Collaborative Platform"
     pi: Antonio Rothfuchs
+    pi_affiliation: Karolinska Institute
     host_organisation: Karolinska Institute
     contact: "Marjo-Riitta Puumalainen<br>Coordinator Swedish BSL3 Network<br>Email: [marjo-riitta.puumalainen@ki.se](mailto:marjo-riitta.puumalainen@ki.se)<br><br>Antonio Gigliotti Rothfuchs<br>BSL3 Director<br>Email: [antonio.rothfuchs@ki.se](mailto:antonio.rothfuchs@ki.se)"
 ---

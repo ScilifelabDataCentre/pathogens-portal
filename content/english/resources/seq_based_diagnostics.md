@@ -4,6 +4,8 @@ category: "tdp"
 resource_info:
     name: "Establishing sequencing-based viral diagnostics for future clinical use: towards pandemic and outbreak preparedness in the clinical laboratory"
     pi: Patrik Medstrand
+    pi_affiliation: Lund University
+    lab: Lund University and Region Skåne
     host_organisation: Clinical Virology, Lund University and Clinical Microbiology, Medicinsk Service, Region Skåne
     contact: "Patrik Medstrand<br>Clinical Virology, Lund University and Clinical Microbiology, Medicinsk Service, Region Skåne<br>Email: [patrik.medstrand@med.lu.se](mailto:patrik.medstrand@med.lu.se)"
 ---

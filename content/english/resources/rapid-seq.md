@@ -5,6 +5,7 @@ resource_info:
     name: "Rapid establishment of comprehensive laboratory pandemic preparedness – RAPID-SEQ"
     funded_project_title: "Rapid establishment of comprehensive laboratory pandemic preparedness – RAPID-SEQ"
     pi: Jan Albert
+    pi_affiliation: Karolinska Institutet
     host_organisation: "Karolinska Institutet"
     contact: "Jan Albert<br>Professor<br>Email: [jan.albert@ki.se](mailto:jan.albert@ki.se)"
 ---

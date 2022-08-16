@@ -4,6 +4,8 @@ category: "tdp"
 resource_info:
     name: "Metagenomic sequencing for pathogen identification and analysis"
     pi: Jenny Welander
+    pi_affiliation: Linköping University
+    lab: Linköping University Hospital
     host_organisation: Clinical Microbiology at Linköping University Hospital
     contact: "Jenny Welander<br>Clinical Microbiology at Linköping University Hospital<br>Email: [jenny.welander@regionostergotland.se](mailto:jenny.welander@regionostergotland.se)"
 ---

@@ -5,6 +5,7 @@ resource_info:
     name: Multiplex and high-throughput multi-disease serology
     funded_project_title:
     pi: Peter Nilsson
+    pi_affiliation: KTH Royal Institute of Technology
     host_organisation: KTH Royal Institute of Technology
     use: "Each pandemic and epidemic, currently as in the past, has presented as a public health emergency characterised by uncertainty in the entity of its effect. A key point of pandemic preparedness is therefore to be able to learn from the past by collecting as much virological and immunological data as possible on viruses causing diseases with pandemic potential. Comparative serological studies and serological surveillance are well needed in order to understand the extent and duration of the immune response in COVID-19 and future pandemics."
     access: "The resource is available to both academia and industry [through the Autoimmunity and Serology Profiling Unit at SciLifeLab](https://www.scilifelab.se/units/autoimmunity-profiling/). Applicants can submit a project proposal through the unit website to initiate discussion on feasibility and fees."
