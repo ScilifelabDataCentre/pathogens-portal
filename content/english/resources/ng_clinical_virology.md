@@ -4,10 +4,12 @@ category: "tdp"
 resource_info:
     name: "Next generation clinical virology"
     pi: Tobias Allander
-    pi_affiliation: Karolinska University
-    lab: Karolinska University Hospital
     host_organisation: Clinical Microbiology at Karolinska University Hospital
     contact: "Tobias Allander<br>Dept. of Clinical Microbiology, Karolinska University Hospital and Dept. of Microbiology, Tumor, and Cell Biology, Karolinska Institutet<br>Email: [tobias.allander@regionstockholm.se](mailto:tobias.allander@regionstockholm.se)"
+for_background_table:
+    pi: Tobias Allander
+    pi_affiliation: Karolinska University
+    lab: Karolinska University Hospital
 ---
 
 Next generation sequencing offers numerous possibilities for improved diagnostics and management of infectious diseases. A comprehensive goal for Clinical Microbiology at Karolinska is to apply viral metagenomics and human immune transcriptomics in healthcare, and develop the following capabilities:

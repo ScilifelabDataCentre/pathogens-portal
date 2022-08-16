@@ -4,10 +4,12 @@ category: "tdp"
 resource_info:
     name: "Gothenburg initiative for pandemic laboratory preparedness (GILP)"
     pi: Magnus Lindh
-    pi_affiliation: Gothenburg University
-    lab: Sahlgrenska University Hospital
     host_organisation: Dept. of Clinical Virology, University of Gothenburg and Clinical Microbiology, Sahlgrenska University Hospital
     contact: "Magnus Lindh<br>Dept. of Clinical Virology, University of Gothenburg and Clinical Microbiology, Sahlgrenska University Hospital<br>Email: [magnus.lindh@microbio.gu.se](mailto:magnus.lindh@microbio.gu.se)"
+for_background_table:
+    pi: Magnus Lindh
+    pi_affiliation: Gothenburg University
+    lab: Sahlgrenska University Hospital
 ---
 
 Clinical Microbiology, Sahlgrenska University Hospital (CMSU) is one of the largest microbiology laboratories in northern Europe. It provides microbiological diagnostics to a population of 1.2 million people and collaborates with the Institute of Biomedicine, University of Gothenburg, on a broad range of research projects, including several on Covid-19. During the Covid-19 pandemic CMSU was the first hospital laboratory in Sweden to offer SARS-CoV-2 RNA testing and the first to provide test results on mobile phones.

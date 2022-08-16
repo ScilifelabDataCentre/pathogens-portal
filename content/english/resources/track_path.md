@@ -4,10 +4,12 @@ category: "tdp"
 resource_info:
     name: "Preparedness for tracking resistant and virulent bacterial and fungal pathogens (TRACK-PATH)"
     pi: Christian Giske
-    pi_affiliation: Karolinska Institutet
-    lab: Karolinska Institutet
     host_organisation: Clinical microbiology, Karolinska University Laboratory and Department of Laboratory medicine, Karolinska Institutet
     contact: "Christian Giske<br>Clinical microbiology, Karolinska University Laboratory and Department of Laboratory medicine, Karolinska Institutet<br>Email: [Christian.giske@ki.se](mailto:Christian.giske@ki.se)"
+for_background_table:
+    pi: Christian Giske
+    pi_affiliation: Karolinska Institutet
+    lab: Karolinska Institutet
 ---
 
 The project consists of three parts:
