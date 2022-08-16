@@ -4,6 +4,7 @@ category: "plp2"
 resource_info:
     name: "Preparedness by early detection of infections in the elderly"
     pi: Mattias Forsell, Anders Johansson
+    pi_affiliation: Umeå University
     host_organisation: Umeå University
     contact: "Mattias Forsell<br>Associate Professor<br>Email: [mattias.forsell@umu.se](mailto:mattias.forsell@umu.se)<br><br>Anders Johansson<br>Associate Professor<br>Email: [anders.f.johansson@umu.se](mailto:anders.f.johansson@umu.se)"
 ---

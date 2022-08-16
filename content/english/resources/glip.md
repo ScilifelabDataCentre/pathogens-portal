@@ -4,6 +4,8 @@ category: "tdp"
 resource_info:
     name: "Gothenburg initiative for pandemic laboratory preparedness (GILP)"
     pi: Magnus Lindh
+    pi_affiliation: Gothenburg University
+    lab: Sahlgrenska University Hospital
     host_organisation: Dept. of Clinical Virology, University of Gothenburg and Clinical Microbiology, Sahlgrenska University Hospital
     contact: "Magnus Lindh<br>Dept. of Clinical Virology, University of Gothenburg and Clinical Microbiology, Sahlgrenska University Hospital<br>Email: [magnus.lindh@microbio.gu.se](mailto:magnus.lindh@microbio.gu.se)"
 ---

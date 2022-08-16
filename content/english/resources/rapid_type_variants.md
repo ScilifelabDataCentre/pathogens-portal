@@ -4,6 +4,8 @@ category: "tdp"
 resource_info:
     name: "Rapid typing of emerging variants in a clinical setting"
     pi: Anders Bergqvist
+    pi_affiliation: Uppsala University
+    lab: Uppsala University Hospital
     host_organisation: Uppsala University Hospital/Akademiska Sjukhuset Clinical Microbiology, Dept. of Medical Sciences, Uppsala University
     contact: "Anders Bergqvist<br>Uppsala University Hospital/Akademiska Sjukhuset Clinical Microbiology, Dept of Medical Sciences, Uppsala University<br>Email: [Anders.bergqvist@medsci.uu.se](mailto:Anders.bergqvist@medsci.uu.se) or [Anders.bergqvist@akademiska.se](mailto:Anders.bergqvist@akademiska.se)"
 ---

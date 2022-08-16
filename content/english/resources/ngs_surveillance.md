@@ -4,6 +4,8 @@ category: "tdp"
 resource_info:
     name: "Development of a targeted metagenomic NGS platform for diagnostics and epidemiological surveillance of viral pandemic threats"
     pi: Lisa Pettersson
+    pi_affiliation: Umeå University
+    lab: Umeå University Hospital
     host_organisation: Dept. of Clinical Microbiology, Umeå University Hospital & Dept. of Clinical Microbiology, Umeå University
     contact: "Lisa Pettersson<br>Dept. of Clinical Microbiology, Umeå University Hospital & Dept. of Clinical Microbiology, Umeå University<br>Email: [Lisa.pettersson@regionvasterbotten.se](mailto:Lisa.pettersson@regionvasterbotten.se)"
 ---

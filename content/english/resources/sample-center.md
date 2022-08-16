@@ -5,6 +5,7 @@ resource_info:
     name: "Pandemic sample centers - enabling SciLifeLab infrastructures to form pandemic preparedness capability"
     funded_project_title: "Pandemic sample center to build up readiness to connect SciLifeLab infrastructure and university hospitals"
     pi: Janne Lehtiö, Maria Pernemalm
+    pi_affiliation: Karolinska Institutet
     host_organisation: "Contributions from multiple institutions: Karolinska Institutet/SciLifeLab, Karolinska University Hospital, Uppsala University Hospital."
     use: "Pandemic preparedness efforts have to be sustainable in endemic times. Therefore, to allow for continuity, training and sustainable co-financing with other sources, the project organization is connected to ongoing Precision Medicine Initiatives at hospitals and SciLifeLab."
     access: We aim to for a structure facilitating clinical sample collection and access open to all researchers financed by fee/sample model, provided ethical approval is in place. This is however a major undertaking, which will need long term effort and coordination with biobank as well as precision medicine centers/functions currently initiated at university hospitals as well as at SciLifeLab.

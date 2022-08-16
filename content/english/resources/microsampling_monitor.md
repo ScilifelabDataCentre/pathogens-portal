@@ -4,6 +4,7 @@ category: "plp2"
 resource_info:
     name: "Strengthening population health surveillance and epidemics monitoring by microsampling"
     pi: Claudia Fredolini
+    pi_affiliation: Karolinska Institutet
     host_organisation: KTH Royal Institute of Technology & SciLifeLab
     contact: "Claudia Fredolini<br>Researcher<br>Email: [claudia.fredolini@scilifelab.se](mailto:claudia.fredolini@scilifelab.se)"
 ---

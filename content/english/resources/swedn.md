@@ -4,6 +4,7 @@ category: "plp2"
 resource_info:
     name: "Monitoring the Swedish population-level neutralization of current and emerging SARSCoV-2 variants (SwedN)"
     pi: Ben Murrell
+    pi_affiliation: Karolinska Institutet
     host_organisation: Karolinska Institutet
     contact: "Ben Murrell<br>Assistant Professor<br>Email: [benjamin.murrell@ki.se](mailto:benjamin.murrell@ki.se)"
 ---

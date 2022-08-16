@@ -40,21 +40,21 @@ All PLP capabilities are also linked on our [Pandemic Preparedness Resources pag
 
 ### PLP1 capabilities
 
-The following eight PLP capabilites are part of The Pandemic Laboratory Preparedness Program 1 (PLP1)
+The following PLP capabilites are part of The Pandemic Laboratory Preparedness Program 1 (PLP1).
 
-{{< PLP1_table >}}
+{{< plp_table category="plp1" >}}
 
 ### PLP2 capabilities
 
-The following PLP capabilites are part of The Pandemic Laboratory Preparedness Program 2 (PLP2). More information will be provided on these projects as it becomes available.
+The following PLP capabilites are part of The Pandemic Laboratory Preparedness Program 2 (PLP2).
 
-{{< PLP2_table >}}
+{{< plp_table category="plp2" >}}
 
 ### PLP TDPs
 
-The PLP network currently includes eight Technology Development Projects (TDPs). Links to these projects will be made available as soon as possible.
+The PLP network currently includes the following Technology Development Projects (TDPs).
 
-{{< PLP_TDP_table >}}
+{{< plp_table category="tdp" >}}
 
 ## Further reading about the PLP program
 

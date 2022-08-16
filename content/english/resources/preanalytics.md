@@ -4,6 +4,8 @@ category: "tdp"
 resource_info:
     name: "Pre-analytics for pandemic preparedness"
     pi: Martin Sundqvist
+    pi_affiliation: Örebro University
+    lab: Örebro University Hospital
     host_organisation: Dept. of Laboratory Medicine, Clinical Microbiology, Örebro University Hospital
     contact: "Martin Sundqvist<br>Dept. of Laboratory Medicine, Clinical Microbiology, Örebro University Hospital<br>Email: [martin.sundqvist@regionorebrolan.se](mailto:martin.sundqvist@regionorebrolan.se)"
 ---

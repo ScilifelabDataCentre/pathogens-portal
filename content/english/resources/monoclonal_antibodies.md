@@ -4,6 +4,7 @@ category: "plp2"
 resource_info:
     name: "Rapid discovery of neutralizing monoclonal antibodies for first line defense"
     pi: Gunilla Karlsson Hedestam
+    pi_affiliation: Karolinska Institutet
     host_organisation: Karolinska Institutet
     contact: "Gunilla Karlsson Hedestam<br>Professor<br>Email: [gunilla.karlsson.hedestam@ki.se](mailto:gunilla.karlsson.hedestam@ki.se)"
 ---
