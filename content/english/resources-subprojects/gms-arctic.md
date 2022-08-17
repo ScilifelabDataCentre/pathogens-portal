@@ -20,4 +20,4 @@ The pipeline supports metagenomic data generated both from Illumina and Nanopore
 
 The pipeline is written in Nextflow DSL-2 workflow manager and it uses Docker/Singularity containers.
 
-For more information on the [Pandemic Laboratory Preparedness resources](/resources/) associated with this subproject, see [Genomic Pandemic Preparedness Portfolio (G3P)](/resources/g3p/) and [Rapid establishment of comprehensive laboratory pandemic preparedness – RAPID-SEQ](/resources/rapid-seq/). Please also refer to other associated subprojects; [taxprofiler](/resources-subprojects/taxprofiler/) and [SC2 Reporter](/resources-subprojects/sc2reporter/).
+For more information on the [Pandemic Laboratory Preparedness resources](/resources/) associated with this subproject, see [Genomic Pandemic Preparedness Portfolio (G3P)](/resources/g3p/), [Rapid establishment of comprehensive laboratory pandemic preparedness – RAPID-SEQ](/resources/rapid-seq/), and [Next generation clinical virology](/resources/ng_clinical_virology/). Please also refer to other associated subprojects; [taxprofiler](/resources-subprojects/taxprofiler/) and [SC2 Reporter](/resources-subprojects/sc2reporter/).

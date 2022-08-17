@@ -17,7 +17,7 @@ scale surveillance to monitor for future pandemic threats. This project builds o
 
 The laboratory has established large-scale WGS of SARS-CoV-2 (to-date 2000+ samples sequenced and reported to [SMInet]( https://www.folkhalsomyndigheten.se/smittskydd-beredskap/overvakning-och-rapportering/sminet/ ). Current capacity: 500 WGS/ week). The project also aims to establish high-throughput, long-read sequencing of the SARS- CoV-2 spike gene, as well as capacity for neutralization assays of vaccine escape variants.
 
-This project involved two subprojects; Taxprofiler and GMS Arctic. Please see the [Taxprofiler](/resources-subprojects/taxprofiler/) and [GMS Arctic](/resources-subprojects/gms-arctic/) pages for more information (including information on access and usage).
+This project involves two subprojects; taxprofiler and GMS Arctic. Please see the [taxprofiler](/resources-subprojects/taxprofiler/) and [GMS Arctic](/resources-subprojects/gms-arctic/) pages for more information (including information on access and usage).
 
 **Specific project aims:**
 

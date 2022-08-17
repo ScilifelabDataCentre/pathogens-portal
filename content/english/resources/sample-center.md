@@ -8,7 +8,7 @@ resource_info:
     host_organisation: "Contributions from multiple institutions: Karolinska Institutet/SciLifeLab, Karolinska University Hospital, Uppsala University Hospital."
     use: "Pandemic preparedness efforts have to be sustainable in endemic times. Therefore, to allow for continuity, training and sustainable co-financing with other sources, the project organization is connected to ongoing Precision Medicine Initiatives at hospitals and SciLifeLab."
     access: We aim to for a structure facilitating clinical sample collection and access open to all researchers financed by fee/sample model, provided ethical approval is in place. This is however a major undertaking, which will need long term effort and coordination with biobank as well as precision medicine centers/functions currently initiated at university hospitals as well as at SciLifeLab.
-    contact: "Janne Lehtiö<br>Professor<br>Email: [janne.lehtio@ki.se](mailto:janne.lehtio@ki.se)<br><br>Maria Pernemalm<br>Principal researcher<br>Email: [maria.pernemalmk@scilifelab.se](maria.pernemalmk@scilifelab.se)"
+    contact: "Janne Lehtiö<br>Professor<br>Email: [janne.lehtio@ki.se](mailto:janne.lehtio@ki.se)<br><br>Maria Pernemalm<br>Professor<br>Email: [maria.pernemalmk@scilifelab.se](maria.pernemalmk@scilifelab.se)"
 for_background_table:
     pi: Janne Lehtiö
     pi_affiliation: Karolinska Institutet

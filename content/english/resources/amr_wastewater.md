@@ -4,7 +4,7 @@ category: "plp2"
 resource_info:
     name: "Pandemic preparedness against antimicrobial resistance through wastewater monitoring"
     pi: Sanna Koskiniemi
-    host_organisation: Karolinska Institutet
+    host_organisation: Uppsala University
     contact: "Sanna Koskiniemi<br>Associate Professor<br>Email: [sanna.koskiniemi@icm.uu.se](mailto:sanna.koskiniemi@icm.uu.se)"
 for_background_table:
     pi: Sanna Koskiniemi
