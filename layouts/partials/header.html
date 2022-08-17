@@ -1,11 +1,19 @@
 <div class="header" style="background-image: url('{{ if .Params.header_illustration }}{{ .Params.header_illustration }}{{ else }}/img/csm_coronavirus_mc.jpg{{ end }}');">
   <div class="container">
-    <h1>{{ if .IsHome }}{{ (index $.Site.Params.lang_strings .Site.Language.Lang).home_title }}{{ else if eq .Parent.Section "highlights_topics" }}{{ with .Site.GetPage "/highlights" }}{{ .Title }}{{ end }}: {{ .Title }}{{ else }}{{ .Title }}{{ end }}</h1>
+    <h1>{{ if .IsHome }}
+        {{ (index $.Site.Params.lang_strings .Site.Language.Lang).home_title }}
+      {{ else if eq .Parent.Section "highlights_topics" }}
+        {{ with .Site.GetPage "/highlights" }}
+          {{ .Title }}
+        {{ end }}:
+        {{ .Title }}
+      {{ else if eq .Parent.Section "resources" }}
+        {{ .Parent.Title }}
+      {{ else }}
+        {{ .Title }}
+      {{ end }}</h1>
   </div>
 </div>
-
-
-
 {{ if not .IsHome }}
 {{ if .Parent }}
 <nav class="breadcrumbs" aria-label="breadcrumb">

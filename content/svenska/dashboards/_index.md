@@ -82,6 +82,14 @@ In this dashboard, you can find visualisations of data related to Post COVID-19 
 
 <hr>
 
+<h4><a href="/dashboards/covid_publications/">Overview of Swedish COVID-19 publications<i class="bi bi-arrow-right-circle-fill"></i></a></h4>
+
+I denna sektion visas information om Covid-19/SARS-CoV-2 publikationer med minst en medförfattare affilierad till ett svenskt lärosäte. Här visas tidslinjer både för antal publikationer och sökord. För att söka artiklar i COVID-19 publikationsdatabasen se <a href="/publications/">här</a>.
+
+<a href="/dashboards/covid_publications/">See the full dashboard <i class="bi bi-arrow-right-circle-fill"></i></a>
+
+<hr>
+
 <h4>Partner dashboard: <a href="crush_covid/">CRUSH Covid <i class="bi bi-arrow-right-circle-fill"></i></a></h4>
 
 CRUSH Covid kartlägger SARS-COV-2 utbrott i Region Uppsala genom att visualisera antal prover som tagits, antal positiva prover, geografisk distribution, åldersfördelning mm. Data över antal positiva fall i ett visst postnummerområde finns tillgängligt för datadelning och återanvändning av data.
