@@ -98,11 +98,11 @@ In this dashboard, you can find visualisations of data related to Post COVID-19 
 
 <hr>
 
-<h4><a href="/voc/">SARS-CoV-2 Variants of Concern (VoC) <i class="bi bi-arrow-right-circle-fill"></i></a></h4>
+<h4><a href="/dashboards/covid_publications/">Overview of Swedish COVID-19 publications<i class="bi bi-arrow-right-circle-fill"></i></a></h4>
 
-In this section of the Portal we gathered information about various Variants of Concern (VoC) in general and we also have a <a href="/voc/omicron/">special page dedicated to Omicron VoC</a> - tracking available data, ongoing research efforts, initial findings, among other things related to Omicron VoC. The page dedicated to Omicron VoC has now been archived.
+In this section of the Portal, we summarise information about publications on COVID-19 and SARS-CoV-2 that involve at least contributor from a Swedish university or research institute. Here, you will see a timeline regarding the number of publications, as well as keywords/phrases from multiple subsets of publications. We also have a <a href="/publications/">dedicated page</a> where we show a database of Swedish COVID-19 and SARS-CoV-2 publications.
 
-<a href="/voc/">See the full dashboard <i class="bi bi-arrow-right-circle-fill"></i></a>
+<a href="/dashboards/covid_publications/">See the full dashboard <i class="bi bi-arrow-right-circle-fill"></i></a>
 
 <hr>
 

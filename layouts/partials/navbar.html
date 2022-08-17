@@ -3,37 +3,50 @@
     <a class="navbar-brand" href="{{ relLangURL .Site.BaseURL }}">
       <img src="/img/site_logo/CV19DP_logo_oneliner_SWE.svg" alt="COVID-19 Data Portal Sweden">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapseBottom" aria-controls="navbarCollapseBottom" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapseBottom"
+      aria-controls="navbarCollapseBottom" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="d-flex align-items-end flex-column collapse navbar-collapse">
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto navbar-top">
-            {{ range .Site.Menus.navbar_top }}
-              <li class="nav-item"><a class="nav-link {{ .Post }}" href="{{ .Page.RelPermalink }}">{{ .Pre }}{{ .Name }}</a></li>
-            {{ end }}
-            {{ if .IsTranslated }}
-              {{ range .AllTranslations }}
-                <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></span></a></li>
-              {{ end }}
-            {{ else if .Parent.IsTranslated }}
-                <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></span></a></li>
-                <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Permalink }}"><span lang="sv">sv <img src="/img/flag-sv.svg" alt=""></span></a></li>
-            {{ else if .Parent.Parent.IsTranslated }}
-                <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></span></a></li>
-                <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Parent.Permalink }}"><span lang="sv">sv <img src="/img/flag-sv.svg" alt=""></span></a></li>
-            {{ else }}
-              {{ range $.Site.Home.AllTranslations }}
-                <li class="nav-item navbar-languages"><a class="nav-link" href="{{ relURL .Permalink }}"><span lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></span></a></li>
-              {{ end }}
-            {{ end }}
-          </ul>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto navbar-top">
+          {{ range .Site.Menus.navbar_top }}
+          <li class="nav-item"><a class="nav-link {{ .Post }}" href="{{ .Page.RelPermalink }}">{{ .Pre }}{{ .Name }}</a>
+          </li>
+          {{ end }}
+          {{ if .IsTranslated }}
+          {{ range .AllTranslations }}
+          <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span
+                lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"
+                  alt=""></span></a></li>
+          {{ end }}
+          {{ else if .Parent.IsTranslated }}
+          <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span
+                lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"
+                  alt=""></span></a></li>
+          <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Permalink }}"><span lang="sv">sv <img
+                  src="/img/flag-sv.svg" alt=""></span></a></li>
+          {{ else if .Parent.Parent.IsTranslated }}
+          <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span
+                lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"
+                  alt=""></span></a></li>
+          <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Parent.Permalink }}"><span lang="sv">sv
+                <img src="/img/flag-sv.svg" alt=""></span></a></li>
+          {{ else }}
+          {{ range $.Site.Home.AllTranslations }}
+          <li class="nav-item navbar-languages"><a class="nav-link" href="{{ relURL .Permalink }}"><span
+                lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"
+                  alt=""></span></a></li>
+          {{ end }}
+          {{ end }}
+        </ul>
       </div>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav">
-        {{ range .Site.Menus.top_actions }}
-          <li class="nav-item"><a class="nav-link highlight" href="{{ .Page.RelPermalink }}">{{ .Pre }}{{ .Name }}</a></li>
-        {{ end }}
+          {{ range .Site.Menus.top_actions }}
+          <li class="nav-item"><a class="nav-link highlight" href="{{ .Page.RelPermalink }}">{{ .Pre }}{{ .Name }}</a>
+          </li>
+          {{ end }}
         </ul>
       </div>
     </div>
@@ -46,25 +59,36 @@
     <div class="collapse navbar-collapse" id="navbarCollapseBottom">
       <ul class="navbar-nav d-lg-none nav-languages">
         {{ if .IsTranslated }}
-          {{ range .AllTranslations }}
-              <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
-          {{ end }}
+        {{ range .AllTranslations }}
+        <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"
+            lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"
+              alt=""></a></li>
+        {{ end }}
         {{ else if .Parent.IsTranslated }}
-              <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
-              <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Permalink }}" lang="sv">Svenska <img src="/img/flag-sv.svg" alt=""></a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"
+            lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"
+              alt=""></a></li>
+        <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Permalink }}" lang="sv">Svenska <img
+              src="/img/flag-sv.svg" alt=""></a></li>
         {{ else if .Parent.Parent.IsTranslated }}
-              <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
-              <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Parent.Permalink }}" lang="sv">Svenska <img src="/img/flag-sv.svg" alt=""></a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"
+            lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"
+              alt=""></a></li>
+        <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Parent.Permalink }}" lang="sv">Svenska <img
+              src="/img/flag-sv.svg" alt=""></a></li>
         {{ else }}
-          {{ range $.Site.Home.AllTranslations }}
-            <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
-          {{ end }}
+        {{ range $.Site.Home.AllTranslations }}
+        <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"
+            lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"
+              alt=""></a></li>
+        {{ end }}
         {{ end }}
       </ul>
       <hr class="d-lg-none">
       <ul class="navbar-nav d-lg-none">
         {{ range .Site.Menus.top_actions }}
-          <li class="nav-item"><a class="nav-link highlight" href="{{ .Page.RelPermalink }}">{{ .Pre }}{{ .Name }}</a></li>
+        <li class="nav-item"><a class="nav-link highlight" href="{{ .Page.RelPermalink }}">{{ .Pre }}{{ .Name }}</a>
+        </li>
         {{ end }}
       </ul>
       <hr class="d-lg-none">
@@ -81,63 +105,70 @@
         <div class="col main_menu_item">
           <span><i class="bi bi-table"></i> Data</span>
         </div>
-        </div>
-        <div class="row">
-          <div class="col main_menu_item_sub">
-            {{ range .Site.Menus.data_menu }}
-              {{ if .HasChildren }}
-                <div class="d-inline">
-                <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
-                <div class="dropdown-menu main_menu_item_sub_dropdown" aria-labelledby="navbarDropdownMenuLink">
-                  {{ range .Children }}
-                  <a class="dropdown-item" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
-                  {{ end }}
-                </div>
-                </div>
-              {{ else }}
-              <div class="d-inline">
-                  <a href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
-              </div>
-              {{ end }}
-            {{ end }}
-          </div>
-        </div>
       </div>
-      <div class="col-lg-3 mt-3 mt-lg-0 border-right">
-        <div class="row">
-          <div class="col main_menu_item" style="color:rgba(0, 0, 0, 0.5)">
-            <i class="bi bi-grid-fill"></i> Resources
-          </div>
-        </div>
-        <div class="row">
-          <div class="col main_menu_item">
-            <i class="bi bi-inboxes-fill"></i> <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research & Funding</a>
-            <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
-              {{ range .Site.Menus.research_menu }}
+      <div class="row">
+        <div class="col main_menu_item_sub">
+          {{ range .Site.Menus.data_menu }}
+          {{ if .HasChildren }}
+          <div class="d-inline">
+            <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">{{ .Name }}</a>
+            <div class="dropdown-menu main_menu_item_sub_dropdown" aria-labelledby="navbarDropdownMenuLink">
+              {{ range .Children }}
               <a class="dropdown-item" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
               {{ end }}
             </div>
           </div>
+          {{ else }}
+          <div class="d-inline">
+            <a href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+          </div>
+          {{ end }}
+          {{ end }}
         </div>
-        <!-- <div class="row">
+      </div>
+    </div>
+    <div class="col-lg-3 mt-3 mt-lg-0 border-right">
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-grid-fill"></i> <a href="/resources/">Resources</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-clipboard-data"></i> <a href="/pathogens/">Emerging Pathogens</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-inboxes-fill"></i> <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research & Funding</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            {{ range .Site.Menus.research_menu }}
+            <a class="dropdown-item" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      <!-- <div class="row">
           <div class="col main_menu_item">
             <span><i class="bi bi-calendar3-week"></i> <a href="#">Events</a></span>
           </div>
         </div> -->
-      </div>
-      <div class="col-lg-4 my-3 my-lg-0">
-        <span class="topics_title">Topics:</span>
-        {{ range .Site.Menus.topics_menu }}<span class="mx-1 my-1 topic_badge_small
+    </div>
+    <div class="col-lg-4 my-3 my-lg-0">
+      <span class="topics_title">Topics:</span>
+      {{ range .Site.Menus.topics_menu }}<span class="mx-1 my-1 topic_badge_small
           {{ if eq .Name "COVID-19"}}topic_badge_covid
           {{ else if eq .Name "Infectious diseases"}}topic_badge_infectious_d
           {{ else if eq .Name "Antibiotic resistance"}}topic_badge_antib_r
           {{ else }}topic_badge_general
           {{ end }} "><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></span>{{ end }}
-          <!-- Monkeypox banner -->
-          <div class="container my-1 announcement_banner">
-            <a href="/pathogens/monkeypox">Special page on emerging pathogen: Monkeypox</a>
-          </div>
+      <!-- Monkeypox banner -->
+      <div class="container my-1 announcement_banner">
+        <a href="/pathogens/monkeypox">Special page on emerging pathogen: Monkeypox</a>
       </div>
+    </div>
   </div>
 </div>
 {{ end }}
@@ -149,22 +180,23 @@
     <div class="collapse navbar-collapse" id="navbarCollapseBottom">
       <ul class="navbar-nav mr-auto navbar-primary-links">
         {{ range .Site.Menus.swe_menu }}
-          {{ if .HasChildren }}
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                {{ .Name }}
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                {{ range .Children }}
-                <a class="dropdown-item" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
-                {{ end }}
-              </div>
-            </li>
-          {{ else }}
-          <div class="d-inline">
-              <li class="nav-item"><a class="nav-link" href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
+        {{ if .HasChildren }}
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            {{ .Name }}
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            {{ range .Children }}
+            <a class="dropdown-item" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+            {{ end }}
           </div>
-          {{ end }}
+        </li>
+        {{ else }}
+        <div class="d-inline">
+          <li class="nav-item"><a class="nav-link" href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
+        </div>
+        {{ end }}
         {{ end }}
       </ul>
     </div>

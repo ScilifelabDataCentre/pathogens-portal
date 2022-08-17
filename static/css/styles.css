@@ -175,7 +175,7 @@ li:empty {
 .main_menu_item {
   color: rgba(46, 104, 165, 0.8);
   font-weight: 500;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 .main_menu_item a {
@@ -461,6 +461,21 @@ div.dataTables_wrapper div.dataTables_info {
 
 .topic_badge_infectious_d {
   background-color: #a34fa4;
+}
+
+.dataset_badge_data {
+    background-color: #D7BDE2;
+    font-weight:500;
+}
+
+.dataset_badge_code {
+    background-color: #F9E79F;
+    font-weight:500;
+}
+
+.dataset_badge_protocol {
+    background-color: #AED6F1;
+    font-weight:500;
 }
 
 /*
