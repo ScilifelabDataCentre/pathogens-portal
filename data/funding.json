@@ -1,6 +1,22 @@
 {
-  "last_updated": "2022-07-04",
+  "last_updated": "2022-08-18",
   "calls": [
+    {
+      "topic": [
+        "Infectious diseases",
+        "COVID-19"
+      ],
+      "funder": "Swedish Research Council",
+      "call_title": "Project grant for research into pandemics and their effects on society and public health",
+      "call_url": "https://www.vr.se/english/applying-for-funding/calls/2022-02-23-project-grant-for-research-into-pandemics-and-their-effects-on-society-and-public-health.html",
+      "call_description": "The purpose of the project grant is to give researchers the freedom to formulate by themselves the research concept, method and implementation, and to solve a specific research task within a limited period. This is a project grant with focus, aimed at supporting research into pandemics and their effects on society and public health.",
+      "submission_deadline": "2022-09-20",
+      "submission_opendate": "2022-08-17",
+      "funding_amount": "Minimum 400 000 SEK per year, maximum 1 700 000 SEK per year",
+      "applicant": "Individual researcher",
+      "funding_period": "1–3 years",
+      "decision_date": "February 2023"
+    },
     {
       "topic": [
         "Infectious diseases",
