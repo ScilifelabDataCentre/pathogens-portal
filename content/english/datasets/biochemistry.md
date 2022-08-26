@@ -26,4 +26,4 @@ On our portal, “Biochemistry” has a broad meaning, including cell- and plasm
 
 #### Data available on the European COVID-19 Data Portal
 
-* [COVID-19 pathways, interactions, complexes, targets and compounds](https://www.covid19dataportal.org/biochemistry?db=biochemistry)
+* [COVID-19 pathways, interactions, complexes, targets and compounds](https://www.covid19dataportal.org/search/networks)
