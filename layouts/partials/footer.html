@@ -17,6 +17,8 @@
         <li><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
         {{ end }}
         {{ end }}
+        <li><a href="/dashboards/">Dashboards</a></li>
+        <li><a href="/biobanks/">Sample collection database</a></li>
         {{ if eq $.Site.Language.LanguageName "Svenska" }}
         {{ range .Site.Menus.swe_menu }}
         {{ if and (ne .Name "Om dataportalen") (ne .Name "Kontakt") }}

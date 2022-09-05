@@ -9,7 +9,7 @@ params:
   # There is a hugo i18n package, but it seems like overkill for so few strings
   lang_strings:
     en:
-      home_title: Accelerating research through data sharing
+      home_title: Sharing resources to maximise pandemic preparedness 
       enquire_email_footer_dc: "Contact the Swedish COVID-19 Data Portal"
       support_feedback: Support & Feedback
       privacy: Privacy Notice

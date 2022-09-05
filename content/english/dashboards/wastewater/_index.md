@@ -2,11 +2,10 @@
 title: The amount of SARS-CoV-2 virus in wastewater across Sweden
 toc: true
 menu:
-    data_menu:
+    dashboard_menu:
         identifier: wastewater
         name: Amount of SARS-CoV-2 in wastewater across Sweden
         weight: 20
-        parent: dashboards
     other_data:
         name: Environment
         identifier: environment

@@ -8,6 +8,7 @@
     {{ if eq .Name "COVID-19"}}topic_badge_covid
     {{ else if eq .Name "Infectious diseases"}}topic_badge_infectious_d
     {{ else if eq .Name "Antibiotic resistance"}}topic_badge_antib_r
+    {{ else if eq .Name "Monkeypox"}}topic_badge_monkeypox
     {{ else }}topic_badge_general
     {{ end }} "><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></span>{{ end }}</p>
 </div>

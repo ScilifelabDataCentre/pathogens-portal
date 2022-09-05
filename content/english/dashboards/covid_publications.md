@@ -3,11 +3,10 @@ title: Visualisation of COVID-19 and SARS-CoV-2 research in Sweden as reflected 
 toc: false
 plotly: true
 menu:
-    data_menu:
+    dashboard_menu:
         identifier: covid_19_publications_vis
         name: "Overview of Swedish COVID-19 Publications"
         weight: 70
-        parent: dashboards
 aliases:
     - /projects/dashboard/
 ---
