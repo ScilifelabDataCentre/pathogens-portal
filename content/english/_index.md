@@ -15,6 +15,6 @@ plotly: true
 
 The *Swedish COVID-19 & Pandemic Preparedness Data Portal* is a hub for data, tools, services, and other resources centred around COVID-19 and pandemic preparedness in Sweden. 
 
-The Portal is involved in multiple projects, platforms, and initiatives. It is the Swedish node of the [European COVID-19 Data Platform](https://www.covid19dataportal.org). It is a pillar of the [SciLifeLab Pandemic Laboratory Preparedness (PLP) Program](https://www.scilifelab.se/capabilities/pandemic-laboratory-preparedness/). It is also part of a partnership with the [Horizon BY-COVID project](https://by-covid.org).
+The Portal is involved in multiple projects, platforms, and initiatives. It is the Swedish node of the [European COVID-19 Data Platform](https://www.covid19dataportal.org). It is a pillar of the [SciLifeLab Pandemic Laboratory Preparedness (PLP) Program](https://www.scilifelab.se/capabilities/pandemic-laboratory-preparedness/), and is involved in the [Horizon BY-COVID project](https://by-covid.org).
 
-The Portal is operated by the [SciLifeLab Data Centre](https://scilifelab.se/data/) and partners. To learn more about us, including meeting the team and our new **EDITORIAL BOARD**, see our [about page](/about/). We welcome contributions from the community, and you can[contribute](/contribute/) in multiple ways.
+The Portal is operated by the [SciLifeLab Data Centre](https://scilifelab.se/data/) and partners. To learn more about us, including meeting the team behind the Portal, see our [about page](/about/). We welcome contributions from the community, and will soon establish an **editorial committee** to increase community engagement. There are multiple ways to [contribute](/contribute/), so please get in touch!
