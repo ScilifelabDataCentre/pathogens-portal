@@ -6,21 +6,19 @@ recaptcha: true
 
 ## General information
 
-Monkeypox is a zoonotic disease, i.e. one that is transmitted from animals to humans. It is caused by the monkeypox virus. The virus is a member of the *Orthopoxvirus* genus in the family *Poxviridae*. It is closely related to the *variola virus* (smallpox) that has had a major effect on human populations throughout history.
+Monkeypox is a zoonotic disease (i.e. one that is transmitted from animals to humans) caused by the monkeypox virus. The virus is a member of the *Orthopoxvirus* genus in the family *Poxviridae*. There are currently two clades of monkeypox virus: the West African clade and the Congo Basin (Central African) clade [according to WHO](https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON385). It is closely related to the virus that causes smallpox (*variola virus*), which has had a major negative impact on human populations throughout history.
 
-The monkeypox virus is endemic in certain areas of west and central Africa, but not elsewhere, and outbreaks in other regions are rare. However, in May 2022, multiple cases were detected in different European countries, including Sweden. This lead to fears that the virus could become more wide-spread ([WHO, 2022](https://www.who.int/health-topics/monkeypox#tab=tab_1); [Adler et al. 2022](https://doi.org/10.1016/s1473-3099(22)00228-6)). Since the start of the outbreak in May, over 20,000 cases have been detected in Europe, to-date (2022-09-01) 161 cases have been found in Sweden and reported to the Swedish Public Health Agency.
+The monkeypox virus is endemic to certain areas of west and central Africa, but not elsewhere. Outbreaks in other regions are rare. However, in May 2022, multiple cases were detected in different European countries, including Sweden. This led to fears that the virus could become more widespread across the world ([WHO, 2022](https://www.who.int/health-topics/monkeypox#tab=tab_1); [Adler et al., 2022](https://doi.org/10.1016/s1473-3099(22)00228-6)). Over 20,000 cases have been detected in Europe since the start of the outbreak. As of September 2022, 161 cases have been detected in Sweden and reported to the Swedish Public Health Agency.
 
-Clinically, monkeypox is typically characterised by fever, unexplained acute rash, and lymphadenopathy. Additional symptoms and complications may also occur (for more information see [here](https://www.cdc.gov/poxvirus/monkeypox/symptoms/index.html)). The incubation time is normally 5-13 days but may be up to three weeks. At this time close personal contact with an infected individual is the most common way of transmission.
+Clinically, monkeypox is typically characterised by fever, unexplained acute rash, and lymphadenopathy. Additional symptoms and complications may also occur (see [the pages from the Centers for Disease Control (CDC)](https://www.cdc.gov/poxvirus/monkeypox/symptoms/index.html) for more detailed information). The incubation time of the virus is normally 5-13 days, but can be up to three weeks. Close personal contact with an infected individual is the most common means of human-human transmission.
 
-Limited information is available regarding mortality rate, but the rates reported vary significantly (from 1 - 10%) ([Adler et al. 2022](https://doi.org/10.1016/s1473-3099(22)00228-6)). There are no currently licenced treatments for human monkeypox, although brincidofovir and tecovirimat (both drigs approved in the USA for used against smallpox) show promise in animal studies ([Adler et al. 2022](https://doi.org/10.1016/s1473-3099(22)00228-6)). While no vaccine is approved in Europe by EMA yet, EU healthcare has access to doses of Jynneosvaccine, which is approved by the FDA for both monkey pox and small pox, donated by the USA and Canada (read more about the vaccine [here](https://www.cdc.gov/poxvirus/monkeypox/vaccines/jynneos.html)) via the European Health Emergency Preparedness and Response Authority (HERA).
-
-There are currently two clades of monkeypox virus: the West African clade and the Congo Basin (Central African) clade [according to the WHO](https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON385).
+Information regarding mortality rate is limited, but there is significant variation in the rates that have been reported (from 1 - 10%) ([Adler et al., 2022](https://doi.org/10.1016/s1473-3099(22)00228-6)). There are currently no licenced treatments for human monkeypox, although brincidofovir and tecovirimat (both drugs approved in the USA for use against smallpox) show promise in animal studies ([Adler et al., 2022](https://doi.org/10.1016/s1473-3099(22)00228-6)). Whilst no vaccine has been approved in Europe by European Medicines Agency (EMA) to date, EU healthcare has access to doses of [Jynneosvaccine](https://www.cdc.gov/poxvirus/monkeypox/vaccines/jynneos.html). This vaccine is approved by the U.S. Food and Drug Administration (FDA) for both monkeypox and smallpox. The doses available to EU healthcare were donated by the USA and Canada via the European Health Emergency Preparedness and Response Authority (HERA).
 
 ## Ongoing research and data efforts
 
-In this section, we present announcements about ongoing research efforts primarily by (but not limited to) researchers and organisations in Sweden. The intention is to 'highlight' these efforts as soon as possible, so that we can maximise their usefulness to researchers.
+In this section, we present announcements about ongoing research efforts primarily by (but not limited to) researchers and institutions based in Sweden. The intention is to 'highlight' these efforts as soon as possible, so that we can maximise their usefulness to researchers.
 
-Please feel free to submit an announcement by using the form below or by sending us an e-mail to datacentre@scilifelab.se.
+Please feel free to submit an announcement using the form below or by sending an e-mail to datacentre@scilifelab.se.
 
 Lists of data, tools, publications, and other potentially useful information are provided further down on the page and likely to be more complete.
 
@@ -30,23 +28,22 @@ Lists of data, tools, publications, and other potentially useful information are
 
 ## Datasets available
 
-- Monkeypox genome at GenBank (ON568298.1): [Monkeypox virus isolate MPXV-BY-IMB25241, complete genome](https://www.ncbi.nlm.nih.gov/nuccore/ON568298)
-- [Portugal: First draft genome sequence of Monkeypox virus associated with the suspected multi-country outbreak; May 20 2022; Isidro et al.](https://virological.org/t/first-draft-genome-sequence-of-monkeypox-virus-associated-with-the-suspected-multi-country-outbreak-may-2022-confirmed-case-in-portugal/799)
-- [Germany: First German genome sequence of Monkeypox virus associated to multi-country outbreak in May 2022; May 24 2022; Antwerpen et al.](https://virological.org/t/first-german-genome-sequence-of-monkeypox-virus-associated-to-multi-country-outbreak-in-may-2022/812)
-- [Portugal: Multi-country outbreak of Monkeypox virus: genetic divergence and first signs of microevolution; May 23 2022; Isidro et al. (9 additional sequences)](https://virological.org/t/multi-country-outbreak-of-monkeypox-virus-genetic-divergence-and-first-signs-of-microevolution/806)
-- [Preliminary structural proteome of the monkeypox virus causing a multi-country outbreak in May 2022](https://figshare.com/articles/dataset/Preliminary_structural_proteome_of_the_monkeypox_virus_causing_a_multi-country_outbreak_in_May_2022/19877842/2)
-- [Global Monkeypox data 2022](https://github.com/globaldothealth/monkeypox)
+- Monkeypox genome at GenBank (ON568298.1): [Monkeypox virus isolate MPXV-BY-IMB25241, complete genome](https://www.ncbi.nlm.nih.gov/nuccore/ON568298).
+- First draft genome sequence of Monkeypox virus associated with the suspected multi-country outbreak (from Portugal) ([Isidro et al., 2022](https://virological.org/t/first-draft-genome-sequence-of-monkeypox-virus-associated-with-the-suspected-multi-country-outbreak-may-2022-confirmed-case-in-portugal/799)).
+- Multi-country outbreak of Monkeypox virus: genetic divergence and first signs of microevolution (9 additional sequences)([Isidro et al., 2022](https://virological.org/t/multi-country-outbreak-of-monkeypox-virus-genetic-divergence-and-first-signs-of-microevolution/806)).
+- First German genome sequence of Monkeypox virus associated to multi-country outbreak ([Antwerpen et al., 2022](https://virological.org/t/first-german-genome-sequence-of-monkeypox-virus-associated-to-multi-country-outbreak-in-may-2022/812)).
+- [Preliminary structural proteome of the monkeypox virus causing a multi-country outbreak in May 2022](https://figshare.com/articles/dataset/Preliminary_structural_proteome_of_the_monkeypox_virus_causing_a_multi-country_outbreak_in_May_2022/19877842/2).
+- [Global monkeypox data 2022](https://github.com/globaldothealth/monkeypox).
 
 ## Tools available
 
 These tools have been adapted/developed for use with the monkeypox virus. They could potentially be adapted for use with other viruses, and with other types of infectious disease. They are thus key in aiding future pandemic preparedness.
 
-- Code used to produce NextStrain builds is available on [GitHub](https://github.com/nextstrain/monkeypox)
-- NextStrain builds: [build using hmpxv1 dataset](https://nextstrain.org/monkeypox/hmpxv1) (focused on human-to-human transmission), [build using hmpxv1 dataset](https://nextstrain.org/monkeypox/mpxv) (includes samples from the animal reservoir and previous human outbreaks)
-- [Galaxy workflows](https://galaxyproject.org/projects/mpxv/) for analysis of monkeypox virus sequence data
-- Summary of tools that have been repurposed to enable monkeypox [viral sequence submission & guidance on how to use them](https://docs.google.com/viewer?url=https://github.com/enasequence/ena-content-dataflow/raw/master/docs/Monkeypox%20virus%20ENA%20Submission%20Guidance.pdf)
-- Model-Based Theoretical Evaluation of the Feasibility of Using Wastewater-Based Epidemiology to Monitor Monkeypox is available on [FigShare](https://figshare.com/collections/Model-Based_Theoretical_Evaluation_of_the_Feasibility_of_Using_Wastewater-Based_Epidemiology_to_Monitor_Monkeypox/6177355)
-- [San Diego Monkeypox Wastewater Surveillance](https://searchcovid.info/dashboards/wastewater-surveillance-mpx/)
+- Code used to produce NextStrain builds is available on [GitHub](https://github.com/nextstrain/monkeypox).
+- NextStrain builds: [build using hmpxv1 dataset](https://nextstrain.org/monkeypox/hmpxv1) (focused on human-to-human transmission), [build using hmpxv1 dataset](https://nextstrain.org/monkeypox/mpxv) (includes samples from the animal reservoir and previous human outbreaks).
+- [Galaxy workflows](https://galaxyproject.org/projects/mpxv/) for analysis of monkeypox virus sequence data.
+- Summary of tools that have been repurposed to enable monkeypox [viral sequence submission & guidance on how to use them](https://docs.google.com/viewer?url=https://github.com/enasequence/ena-content-dataflow/raw/master/docs/Monkeypox%20virus%20ENA%20Submission%20Guidance.pdf).
+- Model-Based Theoretical Evaluation of the Feasibility of Using Wastewater-Based Epidemiology to Monitor Monkeypox is available on [FigShare](https://figshare.com/collections/Model-Based_Theoretical_Evaluation_of_the_Feasibility_of_Using_Wastewater-Based_Epidemiology_to_Monitor_Monkeypox/6177355).
 
 ## Relevant publications and preprints
 
@@ -76,19 +73,20 @@ These tools have been adapted/developed for use with the monkeypox virus. They c
 
 ## Other useful resources
 
+- News from  Swedish Public Health Agency FoHM on monkeypox ([in Engish](https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/communicable-disease-control/disease-information-about-monkeypox/)) ([in Swedish](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/smittsamma-sjukdomar/apkoppor/))
+- [Swedish Public Health Agency information about monkeypox cases](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/apkoppor-internationellt-maj-2022-/) (only in Swedish)
+- [Information about PCR  detection of monkeypox from the Swedish Public Health Agency FoHM](https://www.folkhalsomyndigheten.se/mikrobiologi-laboratorieanalyser/laboratorieanalyser-och-tjanster/analyskatalog/pcr/orthopoxvirus/) (only in Swedish)
 - [WHO - Factsheet on monkeypox](https://www.who.int/news-room/fact-sheets/detail/monkeypox)
 - [WHO - Multi-country outbreak of monkeypox bi-weekly situation reports](https://www.who.int/emergencies/situation-reports)
 - [WHO - Q&A related to monkeypox](https://www.who.int/news-room/questions-and-answers/item/monkeypox)
-- [EMA response to the monkeypox public health emergency](https://www.ema.europa.eu/en/news/ema-response-monkeypox-public-health-emergency)
-- [Global map and case count](https://www.cdc.gov/poxvirus/monkeypox/response/2022/world-map.html) and [U.S. map and case count](https://www.cdc.gov/poxvirus/monkeypox/response/2022/us-map.html) for monkeypox in 2022 from the CDC
-- [Information about monkeypox from Swedish Public Health Agency](https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/communicable-disease-control/disease-information-about-monkeypox/); [Swedish version](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/smittsamma-sjukdomar/apkoppor/)
-- [Information from the Centre for Disease Control (CDC) in the USA](https://www.cdc.gov/poxvirus/monkeypox/index.html)
-- [ECDC Factsheet on monkeypox for health professionals](https://www.ecdc.europa.eu/en/all-topics-z/monkeypox/factsheet-health-professionals)
-- [Technical briefing documents on the investigation into cases of monkeypox in England](https://www.gov.uk/government/publications/monkeypox-outbreak-technical-briefings)
-- [P1 cultured virus from a monkeypox positive patient available from European Virus Archive](https://www.european-virus-archive.com/virus/monkeypox-virus-mpxv2022nl001-animal-human-2022-netherlands-mpxv2022nl001)
-- [ECDC & WHO Monkey pox report](https://monkeypoxreport.ecdc.europa.eu/)
+- [ECDC & WHO -  Monkeypox report](https://monkeypoxreport.ecdc.europa.eu/)
 - [ECDC - Monkeypox infection prevention and control guidance](https://www.ecdc.europa.eu/en/publications-data/monkeypox-infection-prevention-and-control-guidance-primary-and-acute-care)
+- [ECDC - Factsheet on monkeypox for health professionals](https://www.ecdc.europa.eu/en/all-topics-z/monkeypox/factsheet-health-professionals)
+- [EMA response to the monkeypox public health emergency](https://www.ema.europa.eu/en/news/ema-response-monkeypox-public-health-emergency)
+- [P1 cultured virus from a monkeypox positive patient available from European Virus Archive](https://www.european-virus-archive.com/virus/monkeypox-virus-mpxv2022nl001-animal-human-2022-netherlands-mpxv2022nl001)
+- [Technical briefing documents on the investigation into cases of monkeypox in England](https://www.gov.uk/government/publications/monkeypox-outbreak-technical-briefings)
+- [San Diego Monkeypox Wastewater Surveillance Dashboard](https://searchcovid.info/dashboards/wastewater-surveillance-mpx/)
+- [Information from the Centers for Disease Control (CDC) in the USA](https://www.cdc.gov/poxvirus/monkeypox/index.html)
 - [ONA Monkeypox Outbreak Dashboard](https://onaghi.akuko.io/post/84cd71fb-9ce0-480a-8571-0e608a287849)
-- [News from  Swedish Public Health Agency FoHM on monkey pox](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/smittsamma-sjukdomar/apkoppor/) (in Swedish)
-- [Swedish Public Health Agency information about monkey pox cases](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/apkoppor-internationellt-maj-2022-/) (in Swedish)
-- [Information about PCR  detection of monkey pox from  Swedish Public Health Agency FoHM](https://www.folkhalsomyndigheten.se/mikrobiologi-laboratorieanalyser/laboratorieanalyser-och-tjanster/analyskatalog/pcr/orthopoxvirus/) (in Swedish)
+- [Global map and case count](https://www.cdc.gov/poxvirus/monkeypox/response/2022/world-map.html) and [U.S. map and case count](https://www.cdc.gov/poxvirus/monkeypox/response/2022/us-map.html) for monkeypox in 2022 from the Centers for Disease Control (CDC)
+
