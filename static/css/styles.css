@@ -459,6 +459,10 @@ div.dataTables_wrapper div.dataTables_info {
   background-color: #6a60af;
 }
 
+.topic_badge_monkeypox {
+    background-color:rgba(77, 77, 77, 0.8);
+  }
+
 .topic_badge_infectious_d {
   background-color: #a34fa4;
 }
