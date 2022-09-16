@@ -3,11 +3,10 @@ title: Register-based COVID-19 vaccination study (RECOVAC)
 toc: true
 plotly: true
 menu:
-    data_menu:
+    dashboard_menu:
         identifier: recovac
         name: Register-based vaccination (RECOVAC) 
         weight: 40
-        parent: dashboards
 ---
 
 ## RECOVAC project overview

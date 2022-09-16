@@ -17,11 +17,12 @@ Here we give an overview of available resources regarding research data manageme
 
 ## Data management resources
 
-### National Bioinformatics Infrastructure Sweden (NBIS) abd SciLifeLab Data Centre
+### National Bioinformatics Infrastructure Sweden (NBIS) and SciLifeLab Data Centre
 
 ![NBIS Logo](/img/logos/nbislogo-orange-txt.svg#floatright)
 
 - [A Brief Introduction to Data Management](https://www.nbis.se/infrastructure/data-management/dm-introduction.html)
+- [ENA submission guidelines](/support_services/tutorial_ena/tutorial_ena_intro/) - guidance developed to aid submissions to the European Nucleotide Archive (ENA)
 - [SciLifeLab Data Guidelines](https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/index.html) - data type specific guidelines for good data management practices
 - [SciLifeLab Data Stewardship Wizard, DSW](http://dsw.scilifelab.se/) - a customised tool for creating Data Management Plans (DMPs) with templates conforming to the requirements of the Swedish Research Council and other stakeholders
 - [SciLifeLab Data Management helpdesk](mailto:data-management@scilifelab.se) - data stewards from NBIS and SciLifeLab Data Centre are available to discuss and provide support regarding data management questions

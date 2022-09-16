@@ -3,11 +3,10 @@ title: The Administration and Study of COVID-19 Vaccines in Sweden
 toc: true
 plotly: true
 menu:
-    data_menu:
+    dashboard_menu:
         identifier: vaccines
         name: Vaccine administration in Sweden
         weight: 30
-        parent: dashboards
 aliases:
     - /data_types/health_data/vaccines/
 ---

@@ -3,6 +3,34 @@
 <!-- Main content -->
 <div class="row">
   <div class="col-lg-8 vert-line-right mt-3">
+
+    {{ if ne $.Site.Language.LanguageName "Svenska" }}
+    <!-- Data highlights -->
+    <div class="container mb-4">
+      {{ range .Site.Menus.homepage_highlights }}
+      <div class="row">
+        <h2>{{ .Name }}</h2>
+      </div>
+      <div class="row">
+        <p class="small text-muted">{{ .Post }}</p>
+      </div>
+      {{ end }}
+      <div class="row">
+        {{ $highlights := where .Site.RegularPages "Section" "highlights" }}
+        <div class="row">
+          {{ range first 3 $highlights }}
+          <div class="col-md mx-2 mb-2 border bg-light">
+            <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
+            <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
+            <p class="small text-muted">{{.Date.Format "2006-01-02"}}</p>
+            <p>{{ .Summary }}</p>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
+
     {{ if ne $.Site.Language.LanguageName "Svenska" }}
     <!-- Available data -->
     {{ $all_entries := $.Site.Data.available_datasets.datasets }}
@@ -12,18 +40,18 @@
     {{ $all_data_types := slice "Biochemistry data" "Drug discovery data" "Genomics & transcriptomics data" "Health data" "Imaging data" "Other data" "Protein data" "Public health data" "Serology data" }}
     {{ $num_entries_per_data_type := dict }}
     {{ range $all_data_types }}
-        {{ $current_type := . }} {{ $num_entries := 0 }}
-        {{ range $all_entries }}
-            {{ $counted := false }}
-            {{ range .available_items }}
-                {{ if (and (in .data_type $current_type) (not $counted)) }}
-                    {{ $num_entries = add $num_entries 1 }}
-                    {{ $counted = true }}
-                {{ end }}
-            {{ end }}
-        {{ end }}
-        {{ $data_type_num_entries := dict $current_type $num_entries }}
-        {{ $num_entries_per_data_type = merge $num_entries_per_data_type $data_type_num_entries }}
+    {{ $current_type := . }} {{ $num_entries := 0 }}
+    {{ range $all_entries }}
+    {{ $counted := false }}
+    {{ range .available_items }}
+    {{ if (and (in .data_type $current_type) (not $counted)) }}
+    {{ $num_entries = add $num_entries 1 }}
+    {{ $counted = true }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    {{ $data_type_num_entries := dict $current_type $num_entries }}
+    {{ $num_entries_per_data_type = merge $num_entries_per_data_type $data_type_num_entries }}
     {{ end }}
 
     {{/*
@@ -63,10 +91,9 @@
     </div>
     {{ end }}
 
-    {{ if ne $.Site.Language.LanguageName "Svenska" }}
-    <!-- Data highlights -->
+    <!-- Sample Collection Database -->
     <div class="container mb-4">
-      {{ range .Site.Menus.homepage_highlights }}
+      {{ range .Site.Menus.homepage_biobanks }}
       <div class="row">
         <h2>{{ .Name }}</h2>
       </div>
@@ -75,20 +102,25 @@
       </div>
       {{ end }}
       <div class="row">
-        {{ $highlights := where .Site.RegularPages "Section" "highlights" }}
-        <div class="row">
-          {{ range first 3 $highlights }}
-          <div class="col-md mx-2 mb-2 border bg-light">
-            <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
-            <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
-            <p class="small text-muted">{{.Date.Format "2006-01-02"}}</p>
-            <p>{{ .Summary }}</p>
+        <div class="col-md-4">
+          <div class="row">
+            <h5>{{ if eq $.Site.Language.LanguageName "Svenska" }}Biobanker{{ else }}Biobanks{{ end }}: 18</h5>
           </div>
-          {{ end }}
+          <div class="row">
+            <h5>{{ if eq $.Site.Language.LanguageName "Svenska" }}Provsamlingar{{ else }}Collections{{ end }}: 35</h5>
+          </div>
+          <div class="row align-items-end">
+            <h5><a target="_blank"
+                href="https://biobanks.covid19dataportal.se/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Sök i
+                provsamlingsregistret{{ else }}Search in the database{{ end }} <i
+                  class="bi bi-arrow-right-circle-fill"></i></a></h5>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <img class="img-thumbnail" src="/img/biobanks/scd_scr.png" alt="Sample Collection Database">
         </div>
       </div>
     </div>
-    {{ end }}
 
     <!-- Dashboards -->
     <div class="container mb-4">
@@ -215,41 +247,34 @@
 
     </div>
 
-    <!-- Sample Collection Database -->
-    <div class="container mb-4">
-      {{ range .Site.Menus.homepage_biobanks }}
-      <div class="row">
-        <h2>{{ .Name }}</h2>
-      </div>
-      <div class="row">
-        <p class="small text-muted">{{ .Post }}</p>
-      </div>
-      {{ end }}
-      <div class="row">
-        <div class="col-md-4">
-          <div class="row">
-            <h5>{{ if eq $.Site.Language.LanguageName "Svenska" }}Biobanker{{ else }}Biobanks{{ end }}: 18</h5>
-          </div>
-          <div class="row">
-            <h5>{{ if eq $.Site.Language.LanguageName "Svenska" }}Provsamlingar{{ else }}Collections{{ end }}: 35</h5>
-          </div>
-          <div class="row align-items-end">
-            <h5><a target="_blank"
-                href="https://biobanks.covid19dataportal.se/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Sök i
-                provsamlingsregistret{{ else }}Search in the database{{ end }} <i
-                  class="bi bi-arrow-right-circle-fill"></i></a></h5>
-          </div>
-        </div>
-        <div class="col-md-8">
-          <img class="img-thumbnail" src="/img/biobanks/scd_scr.png" alt="Sample Collection Database">
-        </div>
-      </div>
-    </div>
   </div>
 
   <!-- Right sidebar -->
   <div class="col-lg-4">
     <hr class="d-lg-none">
+
+    {{ if ne $.Site.Language.LanguageName "Svenska" }}
+    <!-- Portal updates -->
+    <div class="container mt-2">
+      <div class="row">
+        <h4>What's new?</h4>
+        <p>News about new sections or features, as well as significant milestones.</p>
+      </div>
+      <div class="row border">
+        {{ $updates := where .Site.RegularPages "Section" "updates" }}
+        <div class="col mx-3 mb-2">
+          {{ range $index, $el := first 3 $updates }}
+          <div class="row mt-3"><span><a href="{{ .RelPermalink }}">{{ .Title }}</a></span></div>
+          <div class="row small text-muted">{{ .Date.Format "2006-01-02" }}</div>
+          {{ if ne $index 2}}
+          <hr>{{ end }}
+          {{ end }}
+          <div class="row mt-3"><span><a href="/updates/">See all Portal news <i
+                  class="bi bi-arrow-right-circle-fill"></i></a></span></div>
+        </div>
+      </div>
+    </div>
+    {{ end }}
 
     <!-- About the portal -->
     <div class="container">
@@ -262,6 +287,7 @@
     </div>
 
     <!-- Share your data ad -->
+    <br>
     <div class="container mt-2 share-new-data">
       <div class="row">
         <div class="col text-white pb-3 px-3">
@@ -283,30 +309,6 @@
         </div>
       </div>
     </div>
-
-    {{ if ne $.Site.Language.LanguageName "Svenska" }}
-    <!-- Portal updates -->
-    <div class="container mt-2">
-      <div class="row">
-        <h4>Portal news</h4>
-      </div>
-      <!-- CRUSH Covid -->
-      <div class="row border">
-        {{ $updates := where .Site.RegularPages "Section" "updates" }}
-        <div class="col mx-3 mb-2">
-          {{ range $index, $el := first 3 $updates }}
-          <div class="row mt-3"><span><a href="{{ .RelPermalink }}">{{ .Title }}</a></span></div>
-          <div class="row small text-muted">{{ .Date.Format "2006-01-02" }}</div>
-          {{ if ne $index 2}}
-          <hr>{{ end }}
-          {{ end }}
-          <div class="row mt-3"><span><a href="/updates/">See all Portal news <i
-                  class="bi bi-arrow-right-circle-fill"></i></a></span></div>
-        </div>
-      </div>
-    </div>
-    {{ end }}
-
   </div>
 </div>
 
