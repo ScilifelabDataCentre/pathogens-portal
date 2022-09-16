@@ -11,7 +11,7 @@ menu:
 <div class="alert alert-info">
   <i class="bi bi-exclamation-triangle-fill"></i>
   <span>This page is under development, with more resources being added shortly. In the meantime, check out the <a href="/pathogens/monkeypox">monkeypox page</a> in our 'emerging pathogens' section. That page contains more extensive information and useful links to other related resources.</span>
-</div> 
+</div>
 
 For a fuller overview, refer to the [monkeypox page](/pathogens/monkeypox) of our [emerging pathogens section](/pathogens).
 
