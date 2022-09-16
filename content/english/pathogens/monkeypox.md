@@ -89,4 +89,3 @@ These tools have been adapted/developed for use with the monkeypox virus. They c
 - [Information from the Centers for Disease Control (CDC) in the USA](https://www.cdc.gov/poxvirus/monkeypox/index.html)
 - [ONA Monkeypox Outbreak Dashboard](https://onaghi.akuko.io/post/84cd71fb-9ce0-480a-8571-0e608a287849)
 - [Global map and case count](https://www.cdc.gov/poxvirus/monkeypox/response/2022/world-map.html) and [U.S. map and case count](https://www.cdc.gov/poxvirus/monkeypox/response/2022/us-map.html) for monkeypox in 2022 from the Centers for Disease Control (CDC)
-
