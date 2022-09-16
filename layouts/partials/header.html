@@ -1,16 +1,17 @@
-<div class="header" style="background-image: url('{{ if .Params.header_illustration }}{{ .Params.header_illustration }}{{ else }}/img/csm_coronavirus_mc.jpg{{ end }}');">
+<div class="header"
+  style="background-image: url('{{ if .Params.header_illustration }}{{ .Params.header_illustration }}{{ else }}/img/csm_coronavirus_mc.jpg{{ end }}');">
   <div class="container">
     <h1>{{ if .IsHome }}
-        {{ (index $.Site.Params.lang_strings .Site.Language.Lang).home_title }}
+      {{ (index $.Site.Params.lang_strings .Site.Language.Lang).home_title }}
       {{ else if eq .Parent.Section "highlights_topics" }}
-        {{ with .Site.GetPage "/highlights" }}
-          {{ .Title }}
-        {{ end }}:
-        {{ .Title }}
+      {{ with .Site.GetPage "/highlights" }}
+      {{ .Title }}
+      {{ end }}:
+      {{ .Title }}
       {{ else if eq .Parent.Section "resources" }}
-        {{ .Parent.Title }}
+      {{ .Parent.Title }}
       {{ else }}
-        {{ .Title }}
+      {{ .Title }}
       {{ end }}</h1>
   </div>
 </div>
@@ -25,13 +26,15 @@
       */}}
 
       {{ if .Parent.Parent }}
-        {{ if .Parent.Parent.Parent }}
-          {{ if .Parent.Parent.Parent.Parent }}
-            <li class="breadcrumb-item"><a href="{{ .Parent.Parent.Parent.Parent.RelPermalink }}">{{ .Parent.Parent.Parent.Parent.Title }}</a></li>
-          {{ end }}
-          <li class="breadcrumb-item"><a href="{{ .Parent.Parent.Parent.RelPermalink }}">{{ .Parent.Parent.Parent.Title }}</a></li>
-        {{ end }}
-        <li class="breadcrumb-item"><a href="{{ .Parent.Parent.RelPermalink }}">{{ .Parent.Parent.Title }}</a></li>
+      {{ if .Parent.Parent.Parent }}
+      {{ if .Parent.Parent.Parent.Parent }}
+      <li class="breadcrumb-item"><a
+          href="{{ .Parent.Parent.Parent.Parent.RelPermalink }}">{{ .Parent.Parent.Parent.Parent.Title }}</a></li>
+      {{ end }}
+      <li class="breadcrumb-item"><a
+          href="{{ .Parent.Parent.Parent.RelPermalink }}">{{ .Parent.Parent.Parent.Title }}</a></li>
+      {{ end }}
+      <li class="breadcrumb-item"><a href="{{ .Parent.Parent.RelPermalink }}">{{ .Parent.Parent.Title }}</a></li>
       {{ end }}
 
       {{/*
@@ -39,9 +42,9 @@
       */}}
 
       {{ if eq .Parent.Title "Highlights_topics" }}
-        <li class="breadcrumb-item"><a href="/highlights/">Data highlights</a>
-      {{ else }}
-        <li class="breadcrumb-item"><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></li>
+      <li class="breadcrumb-item"><a href="/highlights/">Data highlights</a>
+        {{ else }}
+      <li class="breadcrumb-item"><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></li>
       {{ end }}
       <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
     </ol>

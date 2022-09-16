@@ -3,10 +3,6 @@ title: Dashboards
 toc: false
 plotly: true
 menu:
-    data_menu:
-        identifier: dashboards
-        name: Dashboards
-        weight: 30
     homepage_dashboards:
         name: Dashboards
         identifier: dashboards

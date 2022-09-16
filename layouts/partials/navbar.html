@@ -3,6 +3,9 @@
     <a class="navbar-brand" href="{{ relLangURL .Site.BaseURL }}">
       <img src="/img/site_logo/CV19DP_logo_oneliner_SWE.svg" alt="COVID-19 Data Portal Sweden">
     </a>
+    <a class="navbar-brand" href="https://www.scilifelab.se">
+      <img src="/img/site_logo/SciLifeLab_Logotype_Green_POS.png" alt="SciLifeLab Home">
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapseBottom"
       aria-controls="navbarCollapseBottom" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -103,14 +106,12 @@
     <div class="col-lg-5">
       <div class="row">
         <div class="col main_menu_item">
-          <span><i class="bi bi-table"></i> Data</span>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col main_menu_item_sub">
-          {{ range .Site.Menus.data_menu }}
-          {{ if .HasChildren }}
-          <div class="d-inline">
+          <i class="bi bi-table"></i> <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data: Available, Highlights, &
+            Management</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            {{ range .Site.Menus.data_menu }}
+            {{ if .HasChildren }}
             <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
               aria-expanded="false">{{ .Name }}</a>
             <div class="dropdown-menu main_menu_item_sub_dropdown" aria-labelledby="navbarDropdownMenuLink">
@@ -118,20 +119,34 @@
               <a class="dropdown-item" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
               {{ end }}
             </div>
+            {{ else }}
+            <a class="dropdown-item" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+            {{ end }}
+            {{ end }}
           </div>
-          {{ else }}
-          <div class="d-inline">
-            <a href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-window-stack"></i> <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data Dashboards</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            {{ range .Site.Menus.dashboard_menu }}
+            <a class="dropdown-item" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+            {{ end }}
           </div>
-          {{ end }}
-          {{ end }}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-journal-text"></i> <a href="/biobanks/">Sample Collection Database (Biobanks)</a>
         </div>
       </div>
     </div>
     <div class="col-lg-3 mt-3 mt-lg-0 border-right">
       <div class="row">
         <div class="col main_menu_item">
-          <i class="bi bi-grid-fill"></i> <a href="/resources/">Resources</a>
+          <i class="bi bi-grid-fill"></i> <a href="/resources/">Pandemic Preparedness</a>
         </div>
       </div>
       <div class="row">
@@ -164,10 +179,6 @@
           {{ else if eq .Name "Antibiotic resistance"}}topic_badge_antib_r
           {{ else }}topic_badge_general
           {{ end }} "><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></span>{{ end }}
-      <!-- Monkeypox banner -->
-      <div class="container my-1 announcement_banner">
-        <a href="/pathogens/monkeypox">Special page on emerging pathogen: Monkeypox</a>
-      </div>
     </div>
   </div>
 </div>

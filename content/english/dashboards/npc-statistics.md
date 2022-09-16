@@ -1,10 +1,10 @@
 ---
 title: National Pandemic Centre SARS-CoV-2 (COVID-19) test statistics
 menu:
-    main:
+     dashboard_menu:
         identifier: npc-statistics
-        parent: health_data
-        weight: 10
+        name: "Archived dashboard: National Pandemic Centre"
+        weight: 80
 toc: false
 aliases:
     - /data_types/health_data/npc-statistics/
