@@ -5,10 +5,21 @@
 <h4>Data available from research groups in Sweden</h4>
 
 <div>
-  <p>The list below is curated manually and as such may not be exhaustive. If you would like to see your dataset here or
-    correct information about your dataset, <a href="/suggestions/">please get in touch with us</a>. Only
-    publications that involve at least one author affiliated with a Swedish research institution AND openly share
-    reusable data and/or code are included below.</p>
+  <p>The list of available data on this Portal was curated manually until February 2022. After February 2022, we instead
+    began to use a script to query the <a href="https://europepmc.org">Europe PMC database</a> (making use of their API)
+    in order to locate
+    relevant publications. We only include data from publications about COVID-19/SARS-CoV-2 that BOTH involve at least
+    one
+    author
+    affiliated with a
+    Swedish research institution AND openly share
+    reusable data and/or code. <a
+      href="https://github.com/ScilifelabDataCentre/covid-portal-scripts/blob/main/pmc_pub_seeker.py">The code used for
+      the query</a> is written in Python and, as with all of our code, it is openly available in GitHub. We welcome
+    others to reuse it and to repurpose it for other pathogens.</p>
+  <p>The lists of available data may not be exhaustive as the script used to generate it does not search for every
+    possible database/repository. If you find that a dataset is missing, or that the information related to it is
+    incorrect, <a href="/suggestions/">please get in touch with us</a></p>
   <p><i>Last updated: {{ .Site.Data.available_datasets.last_updated }}</i></p>
 </div>
 
