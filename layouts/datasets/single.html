@@ -22,11 +22,24 @@
   Get all suitable data items into an array
 */}}
 
-{{ $all_data := .Site.Data.available_datasets.datasets }} {{ $current_datatype := .Title }}
-{{ $ds_to_display := slice }} {{ range $index, $item := $all_data }} {{ if eq $current_datatype "All data types"}}
-{{ $ds_to_display = $ds_to_display | append $item }} {{ else }} {{ $add := false }} {{ range .available_items }}
-{{ if in .data_type $current_datatype }} {{ $add = true }} {{ end }} {{ end }} {{ if $add }}
-{{ $ds_to_display = $ds_to_display | append $item }} {{ end }} {{ end }} {{ end }}
+{{ $all_data := sort .Site.Data.available_datasets.datasets "published" "desc" }}
+{{ $current_datatype := .Title }}
+{{ $ds_to_display := slice }}
+{{ range $index, $item := $all_data }}
+    {{ if eq $current_datatype "All data types"}}
+        {{ $ds_to_display = $ds_to_display | append $item }}
+    {{ else }}
+        {{ $add := false }}
+        {{ range .available_items }}
+            {{ if in .data_type $current_datatype }}
+                {{ $add = true }}
+            {{ end }}
+        {{ end }}
+        {{ if $add }}
+            {{ $ds_to_display = $ds_to_display | append $item }}
+        {{ end }}
+    {{ end }}
+{{ end }}
 
 <div class="container">
   <div class="row">
@@ -141,7 +154,7 @@
   $(document).ready(function () {
     $('#datasets').DataTable({
       "sDom": '<"top row"<"col-md"i><"col-md"f>>rt<"bottom row"<"col-md"l><"col-md"p>><"clear">',
-      "order": [[0, "asc"]],
+      "order": [],
       "language": {
         "lengthMenu": "Show _MENU_ entries per page",
         "zeroRecords": "Nothing found.",
