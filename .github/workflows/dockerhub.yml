@@ -72,7 +72,5 @@ jobs:
           file: ${{ matrix.dockerfile }}
           context: .
           push: true
-          # Set to wanted target, or remove if you do not use targets
-          target: production
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
