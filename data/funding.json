@@ -1,6 +1,22 @@
 {
-  "last_updated": "2022-08-18",
+  "last_updated": "2022-09-29",
   "calls": [
+    {
+      "topic": [
+        "COVID-19",
+        "General"
+      ],
+      "funder": "Swedish Research Council",
+      "call_title": "Welfare among Children and Young People in the Post-Pandemic Nordics",
+      "call_url": "https://www.nordforsk.org/calls/call-research-project-proposals-welfare-among-children-and-young-people-post-pandemic-nordics?utm_source=Ungapped&utm_medium=Newsletter&utm_campaign=20220929",
+      "call_description": "The overall objective of the call is to support and accelerate cutting edge Nordic research with high potential for renewal and impact on the welfare among children and young people in the post-pandemic Nordics. The call has an emphasis on education, wellbeing, mental health, and living conditions of children and young people.",
+      "submission_deadline": "2022-12-08",
+      "submission_opendate": "2022-09-16",
+      "funding_amount": "NOK 11 million is the maximum amount of funding that may be sought",
+      "applicant": "The research project must include partners from research performing organisations in at least three Nordic countries",
+      "funding_period": "3-4 years",
+      "decision_date": "Shortly after May 2023"
+    },
     {
       "topic": [
         "Infectious diseases",
