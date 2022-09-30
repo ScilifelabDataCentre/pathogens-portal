@@ -11,6 +11,11 @@ aliases:
     - /data_types/health_data/vaccines/
 ---
 
+<div class="alert alert-info">
+  <i class="bi bi-exclamation-triangle-fill"></i>
+  <span><b>Notice from 30th September:</b> The eligibility criteria for dose 4 changed in the data update from 2022-09-29 to include individuals that are over 18 years of age. Data has also been added on a 5th dose. The visualisations and information on this page will be updated accordingly within the next week.</span>
+</div>
+
 ## General information on COVID-19 vaccines
 
 Over the last two years, the COVID-19 pandemic has challenged societies and healthcare systems worldwide. In response, vaccines and therapeautic treatments have been rapidly developed. To date (August 2022), the [European Medicines Agency (EMA)](https://www.ema.europa.eu/en) has approved six vaccines against COVID-19:
