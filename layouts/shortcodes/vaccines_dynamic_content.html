@@ -31,6 +31,12 @@
    els[22] = "population_four_doses_rate_change"
    els[23] = "eligible_four_doses_lastweek"
    els[24] = "eligible_four_doses_rate_change"
+   els[25] = "population_five_doses"
+   els[26] = "eligible_five_doses"
+   els[27] = "population_five_doses_lastweek"
+   els[28] = "population_five_doses_rate_change"
+   els[29] = "eligible_five_doses_lastweek"
+   els[30] = "eligible_five_doses_rate_change"
 
    var request = new Array();
 
@@ -69,6 +75,12 @@
                document.getElementById(els[22]).innerText = String(content.population_four_doses_rate_change);
                document.getElementById(els[23]).innerText = String(content.eligible_four_doses_lastweek);
                document.getElementById(els[24]).innerText = String(content.eligible_four_doses_rate_change);
+               document.getElementById(els[25]).innerText = String(content.population_five_doses);
+               document.getElementById(els[26]).innerText = String(content.eligible_five_doses);
+               document.getElementById(els[27]).innerText = String(content.population_five_doses_lastweek);
+               document.getElementById(els[28]).innerText = String(content.population_five_doses_rate_change);
+               document.getElementById(els[29]).innerText = String(content.eligible_five_doses_lastweek);
+               document.getElementById(els[30]).innerText = String(content.eligible_five_doses_rate_change);
             };
          };
          request[i].send(null);
