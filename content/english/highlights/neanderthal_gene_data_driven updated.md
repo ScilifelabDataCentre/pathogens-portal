@@ -1,8 +1,8 @@
 ---
-title: Data-driven research shows that Neanderthal gene connected to severity of COVID-19 # short
-title_full: Data-driven research shows that Neanderthal gene connected to severity of COVID-19 # long
-date: 2020-10-02
-summary: Study by Hugo Zeberg and Svante Pääbo fully based on openly available data published open access in *Nature*.
+title: Data-driven research shows that Neanderthal gene connected to severity of COVID-19 (Update) # short
+title_full: Data-driven research shows that Neanderthal gene connected to severity of COVID-19 (Update) # long
+date: 2022-10-03
+summary: Study by Hugo Zeberg and Svante Pääbo fully based on openly available data published open access in *Nature*.<br><br>Now a Nobel Prize winner!!
 banner: /highlights/banners/neanderthal_gene_data_driven.jpg
 banner_large: /highlights/banners/neanderthal_gene_data_driven_full.jpg
 banner_caption: "Skull of Homo sapiens neanderthalensis. <br> Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Homo_sapiens_neanderthalensis.jpg)."
@@ -11,6 +11,12 @@ aliases:
     - /news/neanderthal_gene_data_driven
     - /sv/news/neanderthal_gene_data_driven
 ---
+
+<b>Update:</b> This Data Highlight has been updated as of 3rd October because today Svante Pääbo received the [Nobel Prize in Physiology or Medicine for his work on Neanderthals](https://www.nobelprize.org/). This Data Highlight was originally featured on the Portal in 2nd October 2020.
+
+To find out more more about COVID-19 related to Neanderthal biology, see a follow up [Data Highlight from Zeberg *et al.* (2022)](https://covid19dataportal.se/highlights/oas1_splicing_and_severe_covid/). That highlight is related to a later paper from this group entitled ['A genomic region associated with protection against severe COVID-19 is inherited from Neandertals'](https://doi.org/10.1073/pnas.2026309118). You can also learn more about the [COVID-19 host genetics initiative](https://www.covid19hg.org/).
+
+### Original highlight content
 
 A recent genetic association study by The COVID-19 Host Genetics Initiative (*Eur. J Hum Genet* 28, 715-718, 2020; DOI: [10.1038/s41431-020-0636-6](https://doi.org/10.1038/s41431-020-0636-6)) pointed to a connection between a small gene locus on Chromosome 3 and the risk of severe outcome of COVID-19 infection. Researchers Hugo Zeberg (Max Planck Institute for Evolutionary Anthropology and Karolinska Institute) and Svante Pääbo (Max Planck Institute for Evolutionary Anthropology and Okinawa Institute of Science and Technology) have now shown, by data-driven paleogenetics/immunogenetics, that this small genomic fragment of about 50 kb, situated on Chromosome 3, is inherited from the Neanderthals.
 
@@ -26,4 +32,4 @@ The researchers Zeberg and Pääbo have shared their results early via pre-prin
 
 DOI: [10.1038/s41586-020-2818-3](https://doi.org/10.1038/s41586-020-2818-3)
 
-Zeberg, H., Pääbo, S. The major genetic risk factor for severe COVID-19 is inherited from Neanderthals. *Nature* (2020)
+Zeberg, H., Pääbo, S.(2020). The major genetic risk factor for severe COVID-19 is inherited from Neanderthals. *Nature*. [10.1038/s41586-020-2818-3](https://doi.org/10.1038/s41586-020-2818-3).
