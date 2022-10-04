@@ -14,7 +14,7 @@ aliases:
 
 <b>Update:</b> This Data Highlight has been updated as of 3rd October because today Svante Pääbo received the [Nobel Prize in Physiology or Medicine for his work on Neanderthals](https://www.nobelprize.org/). This Data Highlight was originally featured on the Portal in 2nd October 2020.
 
-To find out more more about COVID-19 related to Neanderthal biology, see a follow up [Data Highlight from Zeberg *et al.* (2022)](https://covid19dataportal.se/highlights/oas1_splicing_and_severe_covid/). That highlight is related to a later paper from this group entitled ['A genomic region associated with protection against severe COVID-19 is inherited from Neandertals'](https://doi.org/10.1073/pnas.2026309118). You can also learn more about the [COVID-19 host genetics initiative](https://www.covid19hg.org/).
+To find out more more about COVID-19 related to Neanderthal biology, see a follow up [Data Highlight from Huffman *et al.* (2022)](https://covid19dataportal.se/highlights/oas1_splicing_and_severe_covid/). That highlight is related to a later paper from this group entitled ['Multi-ancestry fine mapping implicates OAS1 splicing in risk of severe COVID-19'](https://www.nature.com/articles/s41588-021-00996-8). The group also produced another paper about how genetic risk factors for severe COVID-19 are connected to the Neanderthals, see Zeberg and Pääbo (2021). You can also learn more about the COVID-19 host genetics initiative [here](https://www.covid19hg.org/).
 
 ### Original highlight content
 
