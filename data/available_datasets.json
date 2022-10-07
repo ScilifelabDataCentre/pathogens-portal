@@ -1,6 +1,124 @@
 {
-    "last_updated": "2022-09-23",
+    "last_updated": "2022-10-07",
     "datasets": [
+        {
+            "doi": "10.15252/emmm.202215821",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "",
+                    "accession_number": "",
+                    "description": "All data presented in the manuscript",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://ki.se/en/research/opencorona"
+                }
+            ],
+            "title": "A universal SARS‐CoV DNA vaccine inducing highly cross‐reactive neutralizing antibodies and T cells",
+            "issue": "",
+            "volume": "",
+            "publisher": "EMBO",
+            "published": "2022-09-02",
+            "author": [
+                "Appelberg S.",
+                "Ahlén G.",
+                "Yan J.",
+                "Nikouyan N.",
+                "Weber S."
+            ]
+        },
+        {
+            "doi": "10.12688/hrbopenres.13516.1",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "FigShare",
+                    "accession_number": "",
+                    "description": "Long COVID Survey Data",
+                    "data_type": [
+                        "Other data"
+                    ],
+                    "data_url": "https://doi.org/10.6084/m9.figshare.19364828.v1"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "FigShare",
+                    "accession_number": "",
+                    "description": "Long COVID Survey questionnaire",
+                    "data_type": [
+                        "Other data"
+                    ],
+                    "data_url": "https://figshare.com/articles/online_resource/Long_COVID_Survey/19447919"
+                }
+            ],
+            "title": "Impact of Long COVID on health and quality of life",
+            "issue": "",
+            "volume": "5",
+            "publisher": "F1000 Research Ltd",
+            "published": "2022-04-22",
+            "author": [
+                "O’ Mahony L.",
+                "Buwalda T.",
+                "Blair M.",
+                "Forde B.",
+                "Lunjani N."
+            ]
+        },
+        {
+            "doi": "10.1038/s41598-022-19155-y",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Data used in the study",
+                    "data_type": [
+                        "Other data"
+                    ],
+                    "data_url": "https://github.com/MolEpicUU/spatiotemporal_predictions_COVID19"
+                }
+            ],
+            "title": "Spatio-temporal predictions of COVID-19 test positivity in Uppsala County, Sweden: a comparative approach",
+            "issue": "1",
+            "volume": "12",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2022-09-07",
+            "author": [
+                "van Zoest V.",
+                "Varotsis G.",
+                "Menzel U.",
+                "Wigren A.",
+                "Kennedy B."
+            ]
+        },
+        {
+            "doi": "10.1098/rsos.220440",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "dryad",
+                    "accession_number": "",
+                    "description": "Dataset and code",
+                    "data_type": [
+                        "Other data"
+                    ],
+                    "data_url": "https://datadryad.org/stash/dataset/doi:10.5061/dryad.rfj6q57d0"
+                }
+            ],
+            "title": "Forecasting the publication and citation outcomes of COVID-19 preprints",
+            "issue": "9",
+            "volume": "9",
+            "publisher": "The Royal Society",
+            "published": "2022-09-28",
+            "author": [
+                "Gordon M.",
+                "Bishop M.",
+                "Chen Y.",
+                "Dreber A.",
+                "Goldfedder B."
+            ]
+        },
         {
             "doi": "10.1016/j.cels.2022.06.006",
             "available_items": [
