@@ -11,16 +11,19 @@ aliases:
 ---
 
 <div class="alert alert-info small">
-  <p><i class="bi bi-exclamation-triangle-fill"></i>The National Pandemic Center (NPC) at Karolinska Institute ceased operations of high throughput PCR diagnostics on 2020-12-21.</p>
-  <p><span class="font-weight-bold">The data presented here receives no further updates</span> and only remains for historical reference.</p>
+  <p><i class="bi bi-exclamation-triangle-fill"></i>The National Pandemic Centre (NPC) at Karolinska Institute ceased operations of high throughput PCR diagnostics on 2020-12-21.</p>
+  <p><span class="font-weight-bold">The data presented here is no longer updated</span> but is kept for historical reference.</p>
   <a href="https://nyheter.ki.se/covid-19-tester-ki-atergar-till-ordinarie-laboratorieverksamhet-men-har-fortsatt-beredskap">KI Press Release</a>
 </div>
 
+The dataset visualised in the graphs on this page is available [here](https://datagraphics.dckube.scilifelab.se/dataset/bbbaf64a25a1452287a8630503f07418).  The numbers reported here were compiled automatically and, as such, might not correspond to
+the numbers reported through other sources for different reasons.
+
 #### Total NPC test numbers
 
-The total number of SARS-CoV-2 (COVID-19) tests run at NPC since
-the start, split up into positive, negative and invalid/inconclusive
-results.
+The total number of SARS-CoV-2 (COVID-19) tests conducted at the national Pandemic Centre (NPC) since the start of the pandemic, separated according to whether the results were positive, negative, or invalid/inconclusive.
+
+Source code for the below graph is available [here](https://datagraphics.dckube.scilifelab.se/graphic/ba0b27320fe74ad0aef59a26be6c37f1).
 
 <div class="d-lg-none alert alert-info">
   Scroll the plot sideways to view all data.
@@ -32,8 +35,9 @@ results.
 
 #### NPC test numbers
 
-The number of SARS-CoV-2 (COVID-19) tests run daily or weekly, split up into
-positive, negative and invalid/inconclusive results.
+The number of SARS-CoV-2 (COVID-19) tests ran daily or weekly, divided according to whether results were positive, negative, or invalid/inconclusive.
+
+Source code is available for both the [daily](https://datagraphics.dckube.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc) and [weekly](https://datagraphics.dckube.scilifelab.se/graphic/1f2322f4301c4773878c956c578e8caf) graphs below.
 
   <div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#daily_stacked_bar_chart" aria-expanded="true" aria-controls="#daily_stacked_bar_chart">
     Daily
@@ -62,8 +66,10 @@ positive, negative and invalid/inconclusive results.
 
 #### NPC tests positive fraction
 
-The fraction of daily or weekly SARS-CoV-2 (COVID-19) tests that are positive,
-as percent of all tests (excluding invalid/inconclusive).
+The fraction of daily or weekly SARS-CoV-2 (COVID-19) tests that were positive,
+as percentage of all tests conducted (excluding invalid/inconclusive).
+
+Source code is available for both the [daily](https://datagraphics.dckube.scilifelab.se/graphic/b31c50be59c84c93986c25b052115a65) and [weekly](https://datagraphics.dckube.scilifelab.se/graphic/7f27ae237b8146a498ab4014aadc35db) graphs below.
 
   <div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#daily_positive_bar_chart" aria-expanded="true" aria-controls="#daily_positive_bar_chart">
     Daily
@@ -91,9 +97,10 @@ as percent of all tests (excluding invalid/inconclusive).
 
 #### Cumulative NPC test numbers
 
-The sum of all SARS-CoV-2 (COVID-19) virus tests run at NPC since the
-start, as a function of date, and split up into positive, negative
-and invalid/inconclusive results.
+The sum of all SARS-CoV-2 (COVID-19) virus tests conducted at NPC since the
+start of the pandemic, as a function of date, and divided according to whether results were positive, negative, or invalid/inconclusive.
+
+Source code for the below graph is available [here](https://datagraphics.dckube.scilifelab.se/graphic/9145856246004419983d39fcf56d9eb6).
 
 <div class="d-lg-none alert alert-info">
   Scroll the plot sideways to view all data.
@@ -103,39 +110,24 @@ and invalid/inconclusive results.
   <div id="cumulative-plot"></div>
 </div>
 
-NPC was a facility for
+The National Pandemic Centre (NPC) was a facility for
 [SARS-CoV-2 (COVID-19) testing](https://ki.se/mtc/ctmr-and-covid-19)
-set up within the
+established within the
 [Centre for Translational Microbiome Research (CTMR)](https://ki.se/en/research/centre-for-translational-microbiome-research-ctmr)
 at
 [Karolinska Institutet (KI)](https://ki.se/en)/[SciLifeLab](https://www.scilifelab.se/).
-At the end of March 2020 the large-scale microbiome research lab was
-quickly converted into a center to assist Sweden in analyzing
-SARS-CoV-2 tests. This was made possible through a donation by the
-[Knut and Alice Wallenberg Foundation (KAW)](https://kaw.wallenberg.org/en)
-in combination with a previously established collaboration with
-[MGI Tech](https://en.mgitech.cn/) in Shenzen, China. Initially providing
-assistance with RNA-extraction capacity to Karolinska
-Universitetslaboratoriet, NPC quickly expanded into providing a
-facility providing increased SARS-CoV-2 testing capacity to all
-regions of Sweden.
+At the end of March 2020, the large-scale microbiome research lab was
+quickly converted into a centre to assist Sweden with analysing
+SARS-CoV-2 tests. This was made possible by a donation from the
+[Knut and Alice Wallenberg Foundation (KAW)](https://kaw.wallenberg.org/en) and a previously established collaboration with
+[MGI Tech](https://en.mgitech.cn/) in Shenzen, China. The NPC initially helped to expand the RNA-extraction capacity at Karolinska
+Universitets laboratoriet. However, it quickly expanded into a facility that increased the testing capacity across all regions of Sweden.
 
-The final capacity of the National Pandemic Center at KI/SciLifeLab
-reached approximately 10,000 test per day, with results typically
-returned within 24 hours from the sample arriving to the lab. NPC
+The final capacity of the National Pandemic Centre at KI/SciLifeLab
+was approximately 10,000 tests per day. The results were typically
+returned within 24 hours of the sample arriving to the lab. NPC
 exclusively performed PCR-based analyses, not serological
 (antibody-based) analyses.
-
-These numbers are compiled automatically and might not correspond to
-the numbers reported through other sources for different reasons.
-
-The dataset visualized in the graphs is available
-[here](https://datagraphics.dckube.scilifelab.se/dataset/bbbaf64a25a1452287a8630503f07418).
-The source code for the graphs are
-[here](https://datagraphics.dckube.scilifelab.se/graphic/ba0b27320fe74ad0aef59a26be6c37f1),
-[here](https://datagraphics.dckube.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc),
-[here](https://datagraphics.dckube.scilifelab.se/graphic/b31c50be59c84c93986c25b052115a65)
-and [here](https://datagraphics.dckube.scilifelab.se/graphic/9145856246004419983d39fcf56d9eb6).
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.12.2"></script>
