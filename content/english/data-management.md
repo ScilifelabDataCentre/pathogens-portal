@@ -25,7 +25,8 @@ Here we give an overview of available resources regarding research data manageme
 - [ENA submission guidelines](/support_services/tutorial_ena/tutorial_ena_intro/) - guidance developed to aid submissions to the European Nucleotide Archive (ENA)
 - [SciLifeLab Data Guidelines](https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/index.html) - data type specific guidelines for good data management practices
 - [SciLifeLab Data Stewardship Wizard, DSW](http://dsw.scilifelab.se/) - a customised tool for creating Data Management Plans (DMPs) with templates conforming to the requirements of the Swedish Research Council and other stakeholders
-- [SciLifeLab Data Management helpdesk](mailto:data-management@scilifelab.se) - data stewards from NBIS and SciLifeLab Data Centre are available to discuss and provide support regarding data management questions
+- [SciLifeLab Data Management Helpdesk](mailto:data-management@scilifelab.se) - data stewards from NBIS and SciLifeLab Data Centre are available to discuss and provide support regarding data management questions
+- [SciLifeLab Research Data Management Guidelines](https://data-guidelines.scilifelab.se) - NBIS and SciLifeLab Data Centre have aggregated resources related to life science reseach data management in Sweden. Guidelines are available for each stage of the data lifecycle
 
 ### ELIXIR Research Data Management Kit (RDMkit)
 
@@ -33,7 +34,7 @@ Here we give an overview of available resources regarding research data manageme
 
 The [ELIXIR Research Data Management Kit (RDMkit)](https://rdmkit.elixir-europe.org/) is an online guide containing good data management practices applicable to research projects from the beginning to the end. Developed and managed by people who work every day with life science data, the RDMkit has guidelines, information, and pointers to help you with problems throughout the data’s life cycle. RDMkit supports FAIR data — Findable, Accessible, Interoperable and Reusable — by-design, from the first steps of data management planning to the final steps of depositing data in public archives.
 
-Information is organised by role (e.g., researcher, data steward), scientific domain (e.g., proteomics, human data, bioimaging data), tasks (e.g., data analysis, data management plan, licensing).
+Information is organised by role (e.g. researcher, data steward), scientific domain (e.g. proteomics, human data, bioimaging data), tasks (e.g. data analysis, data management plan, licensing).
 
 ### Swedish National Data Service (SND)
 
