@@ -1,5 +1,5 @@
 ---
-title: SARS-CoV-2 Variants of Concern (VOC)
+title: SARS-CoV-2 variants of concern (VoC)
 toc: true
 aliases:
     - /voc/
