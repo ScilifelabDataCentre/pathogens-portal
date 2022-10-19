@@ -81,6 +81,7 @@ These tools have been adapted/developed for use with the monkeypox virus. They c
 - [WHO - Q&A related to monkeypox](https://www.who.int/news-room/questions-and-answers/item/monkeypox)
 - [ECDC & WHO -  Monkeypox report](https://monkeypoxreport.ecdc.europa.eu/)
 - [ECDC - Monkeypox infection prevention and control guidance](https://www.ecdc.europa.eu/en/publications-data/monkeypox-infection-prevention-and-control-guidance-primary-and-acute-care)
+- [ECDC update on the outbreak](https://www.ecdc.europa.eu/en/publications-data/monkeypox-multi-country-outbreak-second-update) from October 2022
 - [ECDC - Factsheet on monkeypox for health professionals](https://www.ecdc.europa.eu/en/all-topics-z/monkeypox/factsheet-health-professionals)
 - [EMA response to the monkeypox public health emergency](https://www.ema.europa.eu/en/news/ema-response-monkeypox-public-health-emergency)
 - [P1 cultured virus from a monkeypox positive patient available from European Virus Archive](https://www.european-virus-archive.com/virus/monkeypox-virus-mpxv2022nl001-animal-human-2022-netherlands-mpxv2022nl001)
