@@ -316,15 +316,17 @@
 </div>
 
 <script>
-    // Add latest tag to very recent news
-    document.querySelectorAll("#news-items .row.small").forEach(
+    // Add latest tag to very recent news when content is loaded
+    document.addEventListener("DOMContentLoaded", function (event) {
+      document.querySelectorAll("#news-items .row.small").forEach(
         function (newsNode) {
-            var numDays = Math.floor((Date.now() - Date.parse(newsNode.innerText))/(1000*60*60*24));
+          var numDays = Math.floor((Date.now() - Date.parse(newsNode.innerText))/(1000*60*60*24));
             if (numDays <= 7) {
-                newsNode.insertAdjacentHTML("beforeend", "<span class='badge latest-news'>Latest</span>");
+              newsNode.insertAdjacentHTML("beforeend", "<span class='badge latest-news'>Latest</span>");
             }
         }
-    );
+      );
+    })
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
