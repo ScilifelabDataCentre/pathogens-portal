@@ -266,12 +266,11 @@
       </div>
       <div class="row border">
         {{ $updates := where .Site.RegularPages "Section" "updates" }}
-        <div class="col mx-3 mb-2">
+        <div id="news-items" class="col mx-3 mb-2">
           {{ range $index, $el := first 3 $updates }}
-          <div class="row mt-3"><span><a href="{{ .RelPermalink }}">{{ .Title }}</a></span></div>
-          <div class="row small text-muted">{{ .Date.Format "2006-01-02" }}</div>
-          {{ if ne $index 2}}
-          <hr>{{ end }}
+            <div class="row small text-muted mt-3">{{ .Date.Format "2006-01-02" }}</div>
+            <div class="row"><span><a href="{{ .RelPermalink }}">{{ .Title }}</a></span></div>
+            {{ if ne $index 2}}<hr>{{ end }}
           {{ end }}
           <div class="row mt-3"><span><a href="/updates/">See all Portal news <i
                   class="bi bi-arrow-right-circle-fill"></i></a></span></div>
@@ -315,6 +314,18 @@
     </div>
   </div>
 </div>
+
+<script>
+    // Add latest tag to very recent news
+    document.querySelectorAll("#news-items .row.small").forEach(
+        function (newsNode) {
+            var numDays = Math.floor((Date.now() - Date.parse(newsNode.innerText))/(1000*60*60*24));
+            if (numDays <= 7) {
+                newsNode.insertAdjacentHTML("beforeend", "<span class='badge latest-news'>Latest</span>");
+            }
+        }
+    );
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.0.0"></script>
