@@ -1,6 +1,21 @@
 {
-  "last_updated": "2022-09-30",
+  "last_updated": "2022-11-01",
   "calls": [
+    {
+      "topic": [
+        "Infectious diseases",
+        "General"
+      ],
+      "funder": "Hedlunds Stifelse",
+      "call_title": "Medical Research",
+      "call_url": "http://www.hedlundsstiftelse.se/ansokan/default_eng.htm",
+      "call_description": "The overall objective of the call is to support research related to brain diseases (including psychiatry), infectious disease, and chronic inflammatory diseases.",
+      "submission_deadline": "2023-01-31",
+      "submission_opendate": "2022-11-01",
+      "applicant": "A PhD researcher at a Swedish University/college conducting qualified medical research. The funds are paid out to the University/college.",
+      "funding_period": "Applications are approved one year at a time for a maximum of 3 years.",
+      "decision_date": "Following board meeting in April/May 2023."
+    },
     {
       "topic": [
         "COVID-19",
