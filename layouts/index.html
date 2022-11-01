@@ -322,7 +322,7 @@
         function (newsNode) {
           var numDays = Math.floor((Date.now() - Date.parse(newsNode.innerText))/(1000*60*60*24));
             if (numDays <= 7) {
-              newsNode.insertAdjacentHTML("beforeend", "<span class='badge latest-news'>Latest</span>");
+              newsNode.insertAdjacentHTML("beforeend", "<span class='badge latest-news'>New</span>");
             }
         }
       );
