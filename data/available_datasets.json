@@ -1,6 +1,277 @@
 {
-    "last_updated": "2022-10-07",
+    "last_updated": "2022-11-03",
     "datasets": [
+        {
+            "doi": "10.3389/fpubh.2022.996036",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "OSF",
+                    "accession_number": "",
+                    "description": "Data for collectivism and mobility",
+                    "data_type": [
+                        "Other data"
+                    ],
+                    "data_url": "https://osf.io/xt5qs/?view_only=e7da6b6f69f24bc7b3a9656d00cebb10"
+                }
+            ],
+            "title": "Collectivism reduces objective mobility trends to public areas during the COVID-19 pandemic",
+            "issue": "",
+            "volume": "10",
+            "publisher": "Frontiers Media SA",
+            "published": "2022-09-28",
+            "author": [
+                "Dang J.",
+                "Xiao S."
+            ]
+        },
+        {
+            "doi": "10.1038/s41380-022-01786-2",
+            "available_items": [
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Source code to reproduce the findings",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://github.com/SellgrenLab/organoid-Covid19"
+                }
+            ],
+            "title": "SARS-CoV-2 promotes microglial synapse elimination in human brain organoids",
+            "issue": "",
+            "volume": "",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2022-10-05",
+            "author": [
+                "Samudyata S.",
+                "Oliveira A. O.",
+                "Malwade S.",
+                "Rufino de Sousa N.",
+                "Goparaju S. K."
+            ]
+        },
+        {
+            "doi": "10.1371/journal.pone.0275380",
+            "available_items": [
+                {
+                    "type": "protocol",
+                    "repo_name": "OSF",
+                    "accession_number": "",
+                    "description": "The protocol for this study",
+                    "data_type": [
+                        "Other data"
+                    ],
+                    "data_url": "https://osf.io/jgwvk/"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Code and data",
+                    "data_type": [
+                        "Other data"
+                    ],
+                    "data_url": "https://github.com/zavalis/transparency-indicators-inf-dis-models"
+                }
+            ],
+            "title": "A meta-epidemiological assessment of transparency indicators of infectious disease models",
+            "issue": "10",
+            "volume": "17",
+            "publisher": "Public Library of Science (PLoS)",
+            "published": "2022-10-07",
+            "author": [
+                "Zavalis E. A.",
+                "Ioannidis J. P. A."
+            ]
+        },
+        {
+            "doi": "",
+            "available_items": [
+                {
+                    "type": "",
+                    "repo_name": "",
+                    "accession_number": "",
+                    "description": "",
+                    "data_type": [],
+                    "data_url": ""
+                }
+            ],
+            "title": "",
+            "issue": "",
+            "volume": "",
+            "publisher": "",
+            "published": "",
+            "author": []
+        },
+        {
+            "doi": "10.1038/s41598-022-17303-y",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "OSF",
+                    "accession_number": "",
+                    "description": "Processed and anonymized data that support the findings of this study",
+                    "data_type": [
+                        "Other data"
+                    ],
+                    "data_url": "https://osf.io/vr6p4/?view_only=070d364b489b43fca34bfcfd811ed22b"
+                }
+            ],
+            "title": "Development and cross-national investigation of a model explaining participation in WHO-recommended and placebo behaviours to prevent COVID-19 infection",
+            "issue": "1",
+            "volume": "12",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2022-10-21",
+            "author": [
+                "Kłosowska J.",
+                "Bajcar E. A.",
+                "Bieniek H.",
+                "Brączyk J.",
+                "Joshanloo M."
+            ]
+        },
+        {
+            "doi": "10.1016/j.evolhumbehav.2022.09.003",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "OSF",
+                    "accession_number": "",
+                    "description": "Associated data",
+                    "data_type": [
+                        "Other data"
+                    ],
+                    "data_url": "https://osf.io/p9z2a/"
+                }
+            ],
+            "title": "Family still matters: Human social motivation across 42 countries during a global pandemic",
+            "issue": "6",
+            "volume": "43",
+            "publisher": "Elsevier BV",
+            "published": "2022-11-02",
+            "author": [
+                "Pick C. M.",
+                "Ko A.",
+                "Wormley A. S.",
+                "Wiezel A.",
+                "Kenrick D. T."
+            ]
+        },
+        {
+            "doi": "10.1038/s41598-022-22711-1",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "MR-base",
+                    "accession_number": "ebi-a-GCST005536",
+                    "description": "Type 1 diabetes mellitus",
+                    "data_type": [
+                        "Other data"
+                    ],
+                    "data_url": "https://gwas.mrcieu.ac.uk/datasets/ebi-a-GCST005536"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "MR-base",
+                    "accession_number": "ebi-a-GCST003156",
+                    "description": "Systemic lupus erythematosus",
+                    "data_type": [
+                        "Other data"
+                    ],
+                    "data_url": "https://gwas.mrcieu.ac.uk/datasets/ebi-a-GCST003156"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "MR-base",
+                    "accession_number": "ebi-a-GCST005527",
+                    "description": "Psoriasis",
+                    "data_type": [
+                        "Other data"
+                    ],
+                    "data_url": "https://gwas.mrcieu.ac.uk/datasets/ebi-a-GCST005527"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "MR-base",
+                    "accession_number": "ieu-b-18",
+                    "description": "Multiple sclerosis",
+                    "data_type": [
+                        "Other data"
+                    ],
+                    "data_url": "https://gwas.mrcieu.ac.uk/datasets/ieu-b-18"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "MR-base",
+                    "accession_number": "ieu-a-1112",
+                    "description": "Primary sclerosing cholangitis",
+                    "data_type": [
+                        "Other data"
+                    ],
+                    "data_url": "https://gwas.mrcieu.ac.uk/datasets/ieu-a-1112"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "MR-base",
+                    "accession_number": "ebi-a-GCST005581",
+                    "description": "Primary biliary cirrhosis",
+                    "data_type": [
+                        "Other data"
+                    ],
+                    "data_url": "https://gwas.mrcieu.ac.uk/datasets/ebi-a-GCST005581"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "OSF",
+                    "accession_number": "",
+                    "description": "Datasets analyzed",
+                    "data_type": [
+                        "Other data"
+                    ],
+                    "data_url": "https://osf.io/sxjyc/"
+                }
+            ],
+            "title": "A Mendelian randomization study of genetic predisposition to autoimmune diseases and COVID-19",
+            "issue": "1",
+            "volume": "12",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2022-10-21",
+            "author": [
+                "Li S.",
+                "Yuan S.",
+                "Schooling C. M.",
+                "Larsson S. C."
+            ]
+        },
+        {
+            "doi": "10.1101/2022.10.06.22280777",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "OSF",
+                    "accession_number": "",
+                    "description": "Anonymised databases with the individual participant data and the metadata for Bayesian analyses, with analytical code",
+                    "data_type": [
+                        "Other data"
+                    ],
+                    "data_url": "https://osf.io/2xn5m/"
+                }
+            ],
+            "title": "Treating intrusive memories after trauma in healthcare workers: a Bayesian adaptive randomised trial developing an imagery-competing task intervention",
+            "issue": "",
+            "volume": "",
+            "publisher": "Cold Spring Harbor Laboratory",
+            "published": "2022-10-07",
+            "author": [
+                "Ramineni V.",
+                "Millroth P.",
+                "Iyadurai L.",
+                "Jaki T.",
+                "Kingslake J."
+            ]
+        },
         {
             "doi": "10.15252/emmm.202215821",
             "available_items": [
