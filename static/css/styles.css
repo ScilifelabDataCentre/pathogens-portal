@@ -482,6 +482,13 @@ div.dataTables_wrapper div.dataTables_info {
     font-weight:500;
 }
 
+.latest-news {
+    background-color:#C44371;
+    color:#FFF;
+    padding-top: 4px;
+    margin-left: 4px;
+}
+
 /*
 * Our own button
 */
