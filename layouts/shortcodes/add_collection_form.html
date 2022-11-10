@@ -1,4 +1,5 @@
-<form class="needs-validation" novalidate action="https://biobank-forms.dckube.scilifelab.se/forms/add_collection/" method="post">
+<form action="https://forms.dckube.scilifelab.se/api/v1/form/SCWgJNpbx71kp9Ez/incoming" 
+      class="needs-validation" novalidate method="POST" accept-charset="utf-8">
 
 <div class="accordion md-accordion" id="accordionForm" role="tablist" aria-multiselectable="true">
   <div class="card">
@@ -16,7 +17,7 @@
     <div class="form-group">
       <label for="biobank_id"><b>Biobank:*</b></label>
       <select class="form-control" id="biobank_id" name="biobank_id" required>
-        <option value="biobank_id_null"> </option>
+        <option hidden disabled selected value> </option>
         <option value="c19dp:biobank:SE_1462">Blekinge biobank (462)</option>
         <option value="c19dp:biobank:SE_1873">Dalarna biobank (forskningsprov och nyinsamlade prov) (873)</option>
         <option value="c19dp:biobank:SE_1984">Gävleborg biobank (984)</option>
@@ -43,7 +44,12 @@
         <option value="c19dp:biobank:SE_1890">Västra Götaland biobank (890)</option>
         <option value="c19dp:biobank:SE_1456">Örebro biobank (456)</option>
         <option value="c19dp:biobank:SE_1001">Östergötland biobank (1)</option>
+        <option value="biobank_other">Other (please specify)</option>
       </select>
+      <div id="biobank_other_name_text" class="form-group mt-2 mb-0 d-none">
+        <small class="form-text mb-1"><b>Specify the name of the biobank:*</b></small>
+        <input type="text" class="form-control" id="biobank_other_name" name="biobank_other_name" maxlength="100">
+      </div>
       <small class="form-text text-muted">Provide the name of the biobank to which the collection belongs. If this biobank has not yet been added to the Swedish COVID-19 Sample Collection database, you need to <a href="/biobanks/add_biobank/">fill out this form to add it</a>.</small>
     </div>
     <div class="form-group">
@@ -152,10 +158,6 @@
         <label for="COLLECTION_TYPE_CASE_CONTROL" class="form-check-label">Case-Control</label>
       </div>
       <div class="form-check">
-        <input id="COLLECTION_TYPE_OTHER" type="checkbox" name="OTHER" required>
-        <label for="COLLECTION_TYPE_OTHER" class="form-check-label">Other</label>
-      </div>
-      <div class="form-check">
         <input id="COLLECTION_TYPE_SAMPLE_COLLECTION" type="checkbox" name="COLLECTION_TYPE_SAMPLE_COLLECTION" required>
         <label for="COLLECTION_TYPE_SAMPLE_COLLECTION" class="form-check-label">Sample collection</label>
       </div>
@@ -190,6 +192,10 @@
       <div class="form-check">
         <input id="COLLECTION_TYPE_LONGITUDINAL" type="checkbox" name="COLLECTION_TYPE_LONGITUDINAL" required>
         <label for="COLLECTION_TYPE_LONGITUDINAL" class="form-check-label">Longitudinal</label>
+      </div>
+      <div class="form-check">
+        <input id="COLLECTION_TYPE_OTHER" type="checkbox" name="OTHER" required>
+        <label for="COLLECTION_TYPE_OTHER" class="form-check-label">Other</label>
         <div class="invalid-feedback"><b>Choose at least one collection type.</b></div>
       </div>
       <div><small class="form-text text-muted">Type(s) of collection as per BBMRI-ERIC classification. Required for the collection to be included in BBMRI-ERIC.</small></div>
@@ -398,7 +404,7 @@
       </div>
       <div class="form-check">
         <input id="others" type="checkbox" name="others">
-        <label for="others" class="form-check-label">Others</label>
+        <label for="others" class="form-check-label">Other</label>
       </div>
       <div><small class="form-text text-muted">List of standards to which the collection complies.</small></div>
     </div>
@@ -749,45 +755,44 @@ data-parent="#accordionForm">
 </div>
 </div>
 </div>
-<div class="card">
-  <div class="card-header" role="tab" id="submissionToken">
-    <a data-toggle="collapse" data-parent="#accordionForm" href="#collapseSubmissionToken" aria-expanded="false"
-       aria-controls="collapseSubmissionToken">
-    <h5 class="mb-0">
-      Submission password* <i class="bi bi-caret-down-fill"></i>
-    </h5>
-    </a>
-  </div>
-  <div id="collapseSubmissionToken" class="collapse" role="tabpanel" aria-labelledby="submissionToken"
-       data-parent="#accordionForm">
-    <div class="card-body">
-      <div class="form-group">
-        <label for="token"><b>Password:*</b></label>
-        <input type="text" class="form-control" name="token" required>
-        <small class="form-text text-muted">The password used to validate the submission.</small>
-      </div>
-    </div>
-  </div>
-</div>
 </div>
 
+<div class="g-recaptcha mt-3" data-sitekey="6LesV0gaAAAAAGFjazG7Hd_hN72cpeYm2woivBT3"></div>
 <input type="url" id="originUrl" name="originUrl" value="" hidden />
+<input type='hidden' name='origin' value='add_collection'>
 
 <button type="submit" class="btn btn-secondary mt-3">Submit the form</button>
 </form>
 
 <script>
+  document.getElementById('originUrl').value = location.href;
+  
   var form = document.querySelector('.needs-validation');
   form.addEventListener('submit', function(event){
-      if(form.checkValidity() === false) {
-        event.preventDefault();
-        event.stopPropagation();
-      }
-      form.classList.add('was-validated')
-  })
-
-  document.getElementById('originUrl').value = location.href;
-
+        if(form.checkValidity() === false) {
+          event.preventDefault();
+          alert("Please fill out all required fields.");
+          event.stopPropagation();
+          form.classList.add('was-validated')
+        }
+        var recaptcha = $("#g-recaptcha-response").val();
+        if (recaptcha === "") {
+            event.preventDefault();
+            alert("Please tick 'I'm not a robot' above the 'Submit the form' button.");
+        }
+    });
+  
+  $('#biobank_id').on('change', function(){
+          var bid = $('#biobank_id').val();
+          if(bid === "biobank_other"){
+              $('#biobank_other_name_text').toggleClass("d-none",false);
+              $('#biobank_other_name').prop('required',true);
+          }else{
+              $('#biobank_other_name').prop('required',false);
+              $('#biobank_other_name_text').toggleClass("d-none",true);
+          }
+      });
+  
   $(function(){
     var requiredCheckboxes = $('.types_bbmri :checkbox[required]');
     requiredCheckboxes.change(function(){
