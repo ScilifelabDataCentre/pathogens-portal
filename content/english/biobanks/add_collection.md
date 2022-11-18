@@ -5,9 +5,7 @@ recaptcha: true
 ---
 The form below can be used to add a new collection to the Swedish COVID-19 Sample Collection database which is part of the Swedish national COVID-19 data portal. All information provided in the form below will be displayed on the page of the collection in the registry. Please fill in as many fields as possible so that the researchers have a good idea about what they can expect from the collection.
 
-Note that we distinguish between *biobanks* and *collections within biobanks*. Even if a biobank has a single collection, you should fill out both the form for adding a new biobank and the form for adding a new collection. If you would like to add a new biobank, please fill out [the form for adding a new biobank](/biobanks/add_biobank/).
-
-The portal team will add new biobanks as quickly as possible after receiving that form. However, in order to prevent delays, please specify the 'new' biobank name by selecting 'other (please specify)' in the biobank name list and type the biobank name in the box that appears.'
+Note that we distinguish between *biobanks* and *collections within biobanks*. Even if a biobank has a single collection, you should fill out both the form for adding a new biobank and the form for adding a new collection. If you would like to add a new biobank, please fill out [the form for adding a new biobank](/biobanks/add_biobank/). The portal team will add new biobanks as quickly as possible after receiving that form. However, in order to prevent delays, please specify the 'new' biobank name by selecting 'other (please specify)' in the biobank name list and type the biobank name in the box that appears.
 
 {{< add_collection_form >}}
 
