@@ -162,7 +162,7 @@ Before you contact us, think carefully through the aims for the collaboration wi
 
 Below is a list of publications and preprints from this group. Please see the [SCIFI-PEARL webpage](https://www.gu.se/forskning/scifi-pearl) for a more comprehensive overview of outputs (e.g. lists of conference abstracts and recently submitted articles). The publication lists on that page are also updated more regularly (weekly) than the list below.
 
-* Xu, Y., Li, H., Kirui, B., Santosa, A., Gisslen, M., Leach, S., Wettermark, B., Vanfleteren, L. E. G. W., Nyberg, F. (2022). Effectiveness of COVID-19 Vaccines Over 13 Months Covering the Period of the Emergence of the Omicron Variant in the Swedish Population. *Available at SSRN as a preprint:* [https://ssrn.com/abstract=4224504](https://ssrn.com/abstract=4224504) 
+* Xu, Y., Li, H., Kirui, B., Santosa, A., Gisslen, M., Leach, S., Wettermark, B., Vanfleteren, L. E. G. W., Nyberg, F. (2022). Effectiveness of COVID-19 Vaccines Over 13 Months Covering the Period of the Emergence of the Omicron Variant in the Swedish Population. *Available at SSRN as a preprint:* [https://ssrn.com/abstract=4224504](https://ssrn.com/abstract=4224504)
 
 * Spetz, M., Lundberg, L., Nwaru, C., Li, H., Santosa, A., Ng, N., Leach, S., Gisslén, M., Hammar, N., Nyberg, F., Rosvall, M. (2022) An intersectional analysis of sociodemographic disparities in Covid-19 vaccination: a nationwide register-based study in Sweden. *Vaccine, 40*, 6640-6648. [https://doi.org/10.1016/j.vaccine.2022.09.065](https://doi.org/10.1016/j.vaccine.2022.09.065)
 
