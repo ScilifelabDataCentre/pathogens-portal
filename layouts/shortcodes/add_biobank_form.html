@@ -1,4 +1,6 @@
-<form class="needs-validation" novalidate action="https://biobank-forms.dckube.scilifelab.se/forms/add_biobank/">
+<form action="https://forms.dckube.scilifelab.se/api/v1/form/JR6IMI10u-gpsosh/incoming" 
+      class="needs-validation" novalidate method="POST" accept-charset="utf-8">
+      
   <div class="accordion md-accordion" id="accordionForm" role="tablist" aria-multiselectable="true">
     <div class="card">
       <div class="card-header" role="tab" id="generalinfo">
@@ -113,42 +115,30 @@
   </div>
   </div>
   </div>
-  <div class="card">
-    <div class="card-header" role="tab" id="submissionToken">
-      <a data-toggle="collapse" data-parent="#accordionForm" href="#collapseSubmissionToken" aria-expanded="true"
-         aria-controls="collapseSubmissionToken">
-      <h5 class="mb-0">
-        Submission password* <i class="bi bi-caret-down-fill"></i>
-      </h5>
-      </a>
-    </div>
-    <div id="collapseSubmissionToken" class="collapse show" role="tabpanel" aria-labelledby="submissionToken"
-         data-parent="#accordionForm">
-      <div class="card-body">
-        <div class="form-group">
-          <label for="token"><b>Password:*</b></label>
-          <input type="text" class="form-control" name="token" required>
-          <small class="form-text text-muted">The password used to validate the submission.</small>
-        </div>
-      </div>
-    </div>
-  </div>
   </div>
 
+  <div class="g-recaptcha mt-3" data-sitekey="6LesV0gaAAAAAGFjazG7Hd_hN72cpeYm2woivBT3"></div>
   <input type="url" id="originUrl" name="originUrl" value="" hidden />
+  <input type='hidden' name='origin' value='add_biobank'>
 
   <button type="submit" class="btn btn-secondary mt-3">Submit the form</button>
 </form>
 
 <script>
+  document.getElementById('originUrl').value = location.href;
+
   var form = document.querySelector('.needs-validation');
   form.addEventListener('submit', function(event){
       if(form.checkValidity() === false) {
         event.preventDefault();
+        alert("Please fill out all required fields.");
         event.stopPropagation();
+        form.classList.add('was-validated')
       }
-      form.classList.add('was-validated')
-  })
-
-  document.getElementById('originUrl').value = location.href;
+      var recaptcha = $("#g-recaptcha-response").val();
+      if (recaptcha === "") {
+          event.preventDefault();
+          alert("Please tick 'I'm not a robot' above the 'Submit the form' button.");
+      }
+  });
 </script>
