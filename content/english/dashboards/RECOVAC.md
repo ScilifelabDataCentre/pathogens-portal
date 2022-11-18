@@ -160,7 +160,15 @@ Before you contact us, think carefully through the aims for the collaboration wi
 
 ## Publications and Preprints
 
-* Sundh, J., Ekström, M., Palm, A., Ljunggren, M., Emilsson, Ö. I., Grote, L., Cajander, S., Li, H., Nyberg, F. (2022). COVID-19 and Risk of Oxygen-dependent Chronic Respiratory Failure: A National Cohort Study. *American Journal of Respiratory and Critical Care Medicine*. [https://doi.org/10.1164/rccm.202202-0323le](https://doi.org/10.1164/rccm.202202-0323le)
+Below is a list of publications and preprints from this group. Please see the [SCIFI-PEARL webpage](https://www.gu.se/forskning/scifi-pearl) for a more comprehensive overview of outputs (e.g. lists of conference abstracts and recently submitted articles). The publication lists on that page are also updated more regularly (weekly) than the list below.
+
+* Xu, Y., Li, H., Kirui, B., Santosa, A., Gisslen, M., Leach, S., Wettermark, B., Vanfleteren, L. E. G. W., Nyberg, F. (2022). Effectiveness of COVID-19 Vaccines Over 13 Months Covering the Period of the Emergence of the Omicron Variant in the Swedish Population. *Available at SSRN as a preprint:* [https://ssrn.com/abstract=4224504](https://ssrn.com/abstract=4224504) 
+
+* Spetz, M., Lundberg, L., Nwaru, C., Li, H., Santosa, A., Ng, N., Leach, S., Gisslén, M., Hammar, N., Nyberg, F., Rosvall, M. (2022) An intersectional analysis of sociodemographic disparities in Covid-19 vaccination: a nationwide register-based study in Sweden. *Vaccine, 40*, 6640-6648. [https://doi.org/10.1016/j.vaccine.2022.09.065](https://doi.org/10.1016/j.vaccine.2022.09.065)
+
+* Mousa, S. I., Nyberg, F., Hajiebrahimi, M., Bertilsson, R., Nåtman, J., Santosa, A., Wettermark, B. (2022). Initiation of antihypertensive drugs to patients with confirmed COVID-19-A population-based cohort study in Sweden. *Basic & Clinical Pharmacology & Toxicology, 131*, 196-204. [https://doi.org/10.1111/bcpt.13766](https://doi.org/10.1111/bcpt.13766)
+
+* Sundh, J., Ekström, M., Palm, A., Ljunggren, M., Emilsson, Ö. I., Grote, L., Cajander, S., Li, H., Nyberg, F. (2022). COVID-19 and Risk of Oxygen-dependent Chronic Respiratory Failure: A National Cohort Study. *American Journal of Respiratory and Critical Care Medicine, 206* 506-509. [https://doi.org/10.1164/rccm.202202-0323le](https://doi.org/10.1164/rccm.202202-0323le)
 
 * Spetz, M., Lundberg, L., Nwaru, C., Li, H., Santosa, A., Leach, S., Gisslén, M., Hammar, N., Rosvall, M., Nyberg, F. (2022). The social patterning of Covid-19 vaccine uptake in older adults: A register-based cross-sectional study in Sweden. *The Lancet Regional Health - Europe, 15,* 100331. [https://doi.org/10.1016/j.lanepe.2022.100331](https://doi.org/10.1016/j.lanepe.2022.100331)
 
@@ -171,8 +179,6 @@ Before you contact us, think carefully through the aims for the collaboration wi
 * Nyberg, F., Franzén, S., Lindh, M., Vanfleteren, L., Hammar, N., Wettermark, B., Sundström, J., Santosa, A., Björck, S., Gisslén, M. (2021). Swedish Covid-19 Investigation for Future Insights – A Population Epidemiology Approach Using Register Linkage (SCIFI-PEARL). *Clinical Epidemiology, 13,* 649-659. [https://doi.org/10.2147/CLEP.S312742](https://doi.org/10.2147/CLEP.S312742)
 
 * Nyberg, F., Lindh, M., Vanfleteren, L., Hammar, N., Wettermark, B., Sundström, J., Santosa, A., Kirui, B. K., Gisslén, M. (2021). Adverse events of special interest for COVID-19 vaccines - background incidences vary by sex, age and time period and are affected by the pandemic. *medRxiv* [https://doi.org/10.1101/2021.10.04.21263507](https://doi.org/10.1101/2021.10.04.21263507)
-
-Also see the [SCIFI-PEARL webpage](https://www.gu.se/forskning/scifi-pearl) for the latest publications (updated weekly).
 
 ## Information about SCIFI-PEARL
 
