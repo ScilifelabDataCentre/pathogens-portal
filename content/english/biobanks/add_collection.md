@@ -7,6 +7,8 @@ The form below can be used to add a new collection to the Swedish COVID-19 Sampl
 
 Note that we distinguish between *biobanks* and *collections within biobanks*. Even if a biobank has a single collection, you should fill out both the form for adding a new biobank and the form for adding a new collection. If you would like to add a new biobank, please fill out [the form for adding a new biobank](/biobanks/add_biobank/).
 
+The portal team will add new biobanks as quickly as possible after receiving that form. However, in order to prevent delays, please specify the 'new' biobank name by selecting 'other (please specify)' in the biobank name list and type the biobank name in the box that appears.'
+
 {{< add_collection_form >}}
 
 #### Personal data policy
