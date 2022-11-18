@@ -21,6 +21,14 @@
           {{ range first 3 $highlights }}
           <div class="col-md mx-2 mb-2 border bg-light">
             <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
+            {{ range (.GetTerms "highlights_topics") }}
+              <span class="topic_badge_small
+              {{ if eq .LinkTitle "COVID-19"}}topic_badge_covid
+              {{ else if eq .LinkTitle "Infectious diseases"}}topic_badge_infectious_d
+              {{ else if eq .LinkTitle "Antibiotic resistance"}}topic_badge_antib_r
+              {{ else }}topic_badge_general
+              {{ end }} "><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
+            {{ end }}
             <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
             <p class="small text-muted">{{.Date.Format "2006-01-02"}}</p>
             <p>{{ .Summary }}</p>
