@@ -4,7 +4,7 @@ menu:
     data_menu:
         identifier: protein
         name: Protein data
-        weight: 30
+        weight: 150
         parent: available_datasets
 aliases:
     - /sv/data_types/protein_data/data/

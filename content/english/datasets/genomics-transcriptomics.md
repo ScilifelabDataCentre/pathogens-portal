@@ -4,7 +4,7 @@ menu:
     data_menu:
         identifier: genomics
         name: Genomics & transcriptomics data
-        weight: 20
+        weight: 70
         parent: available_datasets
 aliases:
     - /sv/data_types/genomics_transcriptomics/data/

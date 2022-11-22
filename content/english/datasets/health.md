@@ -4,7 +4,7 @@ menu:
     data_menu:
         identifier: health
         name: Health data
-        weight: 60
+        weight: 90
         parent: available_datasets
 aliases:
     - /sv/data_types/health_data/data/
