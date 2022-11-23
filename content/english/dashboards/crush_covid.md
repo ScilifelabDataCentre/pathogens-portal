@@ -25,6 +25,12 @@ aliases:
 
 #### Interactive dashboard and reports
 
+<!-- Temporary notice and to be removed when the apps are online -->
+<div class="alert alert-info">
+  <i class="bi bi-exclamation-triangle-fill"></i>
+  <span>Kindly note, the 'CRUSH Covid app' website mentioned below is not available at the moment due to maintenance </span>
+</div>
+
 <a target="_blank" href="https://crush-covid.shinyapps.io/crush_covid/">Click here</a> to see the dashboard in a new tab/window. NB: The CRUSH Covid dashboard is only available in Swedish.
 
 {{< crush_covid >}}
