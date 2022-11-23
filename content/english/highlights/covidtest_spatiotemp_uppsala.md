@@ -10,7 +10,7 @@ highlights_topics: [COVID-19, Infectious diseases]
 
 <script>
   // Temporary notice and to be removed when the apps are online
-  document.getElementsByTagName("figure")[0].insertAdjacentHTML('beforebegin',
+  document.getElementsByTagName("figure").item(0).insertAdjacentHTML('beforebegin',
     `<div class="alert alert-info">
        <i class="bi bi-exclamation-triangle-fill"></i>
        <span>Kindly note, the 'CRUSH Covid app' website mentioned below in this data highlight is not available at the moment due to maintenance </span>
