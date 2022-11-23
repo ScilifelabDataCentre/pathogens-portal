@@ -8,6 +8,15 @@ banner_caption: "Source: Figure 7 of van Zoest et al. (2022)"
 highlights_topics: [COVID-19, Infectious diseases]
 ---
 
+<script>
+  // Temporary notice and to be removed when the apps are online
+  document.getElementsByTagName("figure").item(0).insertAdjacentHTML('beforebegin',
+    `<div class="alert alert-info">
+       <i class="bi bi-exclamation-triangle-fill"></i>
+       <span>Kindly note, the 'CRUSH Covid app' website mentioned below in this data highlight is not available at the moment due to maintenance </span>
+     </div>`);
+</script>
+
 Over the last three years, the COVID-19 pandemic has challenged healthcare and societal functions worldwide. The rapid development of vaccines and treatments did help to mitigate the effects, though. The COVID-19 pandemic is currently in a less acute phase in most parts of the world, but pandemic preparedness measures are still sorely needed.
 
 COVID-19 has often been found to cause outbreaks in geographical clusters. This is likely due to transmission in enclosed public spaces or places where social interactions occur. As part of pandemic preparedness efforts, local health authorities need emergency strategies in place to curb future outbreaks. These strategies may include measures such as COVID-19 testing, contact-tracing, and/or communication campaigns. The identification of geographical areas where COVID-19 is spreading is key to implementing these strategies effectively.
