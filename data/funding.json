@@ -1,6 +1,73 @@
 {
-  "last_updated": "2022-11-01",
+  "last_updated": "2022-11-22",
   "calls": [
+    {
+      "topic": [
+        "Infectious diseases",
+        "General"
+      ],
+      "funder": "Scandinavian Society of Antimicrobial Chemotherapy Foundation",
+      "call_title": "Scandinavian Society of Antimicrobial Chemotherapy Foundation (SSAC Foundation) grants",
+      "submission_deadline": "2023-02-01",
+      "submission_opendate": "2022-12-01",
+      "call_url": "https://www.sls.se/vetenskap/sok-anslag/ssac-foundation/",
+      "call_description": "The Foundation distributes grants for research or travel related to the treatment of infectious diseases with antibacterial, antiviral, antimycotic or antiparasitic agents. The assets of the Foundation originates from the earnings of the 18th International Congress of Chemotherapy in Stockholm in 1993.",
+      "applicant": "Applicants must be members of the Nordic Society of Clinical Microbiology and Infectious Diseases, NSCMID. The membership must have been granted no later than November 1st the year before the application.",
+      "funding_period": "The grant should have been used by the end of December the year after the grant was received. Extension of the grant disposal time can only be approved under exceptional circumstances.",
+      "decision_date": "Decisions on the grants will be communicated to the applicants via email by end of June."
+    },
+    {
+      "topic": [
+        "Infectious diseases",
+        "General"
+      ],
+      "funder": "ISIDORe",
+      "call_title": "Risk Group 4 Pathogens",
+      "call_url": "https://isidore-project.eu/calls/risk-group-4-pathogens/",
+      "call_description": "Researchers are invited to submit any proposal that can be advanced by access to at least one of ISIDORe's services, falls under topics defined in the Scope (see funding link for details), and/or is focused on at least one eligible RG4 pathogen (see funding link for details). Your proposal must focus on at least one of the following pathogens; Ebola virus, Marburg virus, Nipah virus, Hendra virus, Lassa virus, 'new world arenaviruses', CCHF virus.",
+      "submission_deadline": "2023-02-07",
+      "submission_opendate": "2022-11-01",
+      "funding_amount": "Call provides access to ISIDORe services, not a given monetary amount."
+    },
+    {
+      "topic": [
+        "Infectious diseases",
+        "General"
+      ],
+      "funder": "ISIDORe",
+      "call_title": "Respiratory Pathogens",
+      "call_url": "https://isidore-project.eu/calls/respiratory-pathogens/",
+      "call_description": "Researchers are invited to submit any proposal that can be advanced by access to at least one of ISIDORe's services, falls under topics defined in the Scope (see funding link for details), and/or is focused on at least one eligible respiratory pathogen (see funding link for details). Your proposal must focus on at least one of the following pathogens: Zoonotic betacoronaviruses, Influenza A, *Yersinia pestis*, *Mycobacterium tuberculosis/bovis*, *Coxiella burnetii*.",
+      "submission_deadline": "2025-01-01",
+      "submission_opendate": "2022-11-01",
+      "funding_amount": "Funding will be available for as long as it remains available. Call provides access to ISIDORe services, not a given monetary amount."
+    },
+    {
+      "topic": [
+        "Infectious diseases",
+        "General"
+      ],
+      "funder": "ISIDORe",
+      "call_title": "Vector-borne Pathogens and their Vectors",
+      "call_url": "https://isidore-project.eu/calls/vector-borne-pathogens-their-vectors/",
+      "call_description": "Researchers are invited to submit any proposal that can be advanced by access to at least one of ISIDORe's services, falls under topics defined in the Scope (see funding link for details), and/or is focused on at least one eligible vector-borne pathogen (see funding link for details). Your proposal must focus on at least one of the following pathogens: Rift valley fever virus, Zika virus, Chikungunya virus, West Nile virus, Dengue virus, Japanese encephalitis, Yellow fever virus, Tick-borne encephalitis virus, Plasmodium, Leishmania, *Borrelia burgdorferi*.",
+      "submission_deadline": "2025-01-01",
+      "submission_opendate": "2022-11-01",
+      "funding_amount": "Funding will be available for as long as it remains available. Call provides access to ISIDORe services, not a given monetary amount."
+    },
+    {
+      "topic": [
+        "Infectious diseases",
+        "General"
+      ],
+      "funder": "ISIDORe",
+      "call_title": "Other Pathogens with Epidemic Potential",
+      "call_url": "https://isidore-project.eu/calls/other-pathogens-with-epidemic-potential/",
+      "call_description": "Researchers are invited to submit any proposal that can be advanced by access to at least one of ISIDORe's services, falls under topics defined in the Scope (see funding link for details), and/or is focused on pathogen X or at least one of: Orthopoxviruses, Non-polio enteroviruses, or Polio enteroviruses.",
+      "submission_deadline": "2025-01-01",
+      "submission_opendate": "2022-11-01",
+      "funding_amount": "Funding will be available for as long as it remains available. Call provides access to ISIDORe services, not a given monetary amount."
+    },
     {
       "topic": [
         "Infectious diseases",

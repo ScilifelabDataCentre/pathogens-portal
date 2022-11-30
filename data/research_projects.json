@@ -1,6 +1,20 @@
 {
-  "last_updated": "2022-02-01",
+  "last_updated": "2022-11-30",
   "projects": [
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Vinnova",
+      "project_title": "Internet-based multimodal rehabilitation for sufferers with remaining post-covid-19 symptoms",
+      "pi": "Indre Ljungar",
+      "pi_affiliation": "Danderyds Sjukhus",
+      "startdate": "2020-10-02",
+      "enddate": "2023-01-01",
+      "url": "https://www.vinnova.se/en/p/internet-based-multimodal-rehabilitation-for-sufferers-with-remaining-post-covid-19-symtoms/",
+      "post_covid": "true"
+    },
     {
       "topic": [
         "COVID-19",
