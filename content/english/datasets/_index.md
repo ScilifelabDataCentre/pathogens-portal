@@ -8,7 +8,6 @@ menu:
     data_menu:
         identifier: available_datasets
         name: Available datasets
-        weight: 10
 aliases:
     - /sv/data_types/
     - /data_types/

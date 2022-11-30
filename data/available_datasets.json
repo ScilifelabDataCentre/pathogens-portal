@@ -1,5 +1,5 @@
 {
-    "last_updated": "2022-11-03",
+    "last_updated": "2022-11-18",
     "datasets": [
         {
             "doi": "10.3389/fpubh.2022.996036",
@@ -10,7 +10,7 @@
                     "accession_number": "",
                     "description": "Data for collectivism and mobility",
                     "data_type": [
-                        "Other data"
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://osf.io/xt5qs/?view_only=e7da6b6f69f24bc7b3a9656d00cebb10"
                 }
@@ -69,7 +69,7 @@
                     "type": "code",
                     "repo_name": "GitHub",
                     "accession_number": "",
-                    "description": "Code and data",
+                    "description": "Data used to evaluate publications and model types, and the code used for analysis.",
                     "data_type": [
                         "Other data"
                     ],
@@ -87,33 +87,15 @@
             ]
         },
         {
-            "doi": "",
-            "available_items": [
-                {
-                    "type": "",
-                    "repo_name": "",
-                    "accession_number": "",
-                    "description": "",
-                    "data_type": [],
-                    "data_url": ""
-                }
-            ],
-            "title": "",
-            "issue": "",
-            "volume": "",
-            "publisher": "",
-            "published": "",
-            "author": []
-        },
-        {
             "doi": "10.1038/s41598-022-17303-y",
             "available_items": [
                 {
                     "type": "data",
                     "repo_name": "OSF",
                     "accession_number": "",
-                    "description": "Processed and anonymized data that support the findings of this study",
+                    "description": "Processed and anonymised demographic and health data.",
                     "data_type": [
+                        "Social science and humanities data",
                         "Other data"
                     ],
                     "data_url": "https://osf.io/vr6p4/?view_only=070d364b489b43fca34bfcfd811ed22b"
@@ -139,8 +121,9 @@
                     "type": "data",
                     "repo_name": "OSF",
                     "accession_number": "",
-                    "description": "Associated data",
+                    "description": "Data related to social motivation",
                     "data_type": [
+                        "Social science and humanities data",
                         "Other data"
                     ],
                     "data_url": "https://osf.io/p9z2a/"
@@ -166,8 +149,9 @@
                     "type": "data",
                     "repo_name": "MR-base",
                     "accession_number": "ebi-a-GCST005536",
-                    "description": "Type 1 diabetes mellitus",
+                    "description": "Exposure dataset for type 1 diabetes mellitus",
                     "data_type": [
+                        "Genomics & transcriptomics data",
                         "Other data"
                     ],
                     "data_url": "https://gwas.mrcieu.ac.uk/datasets/ebi-a-GCST005536"
@@ -176,8 +160,9 @@
                     "type": "data",
                     "repo_name": "MR-base",
                     "accession_number": "ebi-a-GCST003156",
-                    "description": "Systemic lupus erythematosus",
+                    "description": "Exposure dataset for systemic lupus erythematosus",
                     "data_type": [
+                        "Genomics & transcriptomics data",
                         "Other data"
                     ],
                     "data_url": "https://gwas.mrcieu.ac.uk/datasets/ebi-a-GCST003156"
@@ -186,8 +171,9 @@
                     "type": "data",
                     "repo_name": "MR-base",
                     "accession_number": "ebi-a-GCST005527",
-                    "description": "Psoriasis",
+                    "description": "Exposure dataset for psoriasis",
                     "data_type": [
+                        "Genomics & transcriptomics data",
                         "Other data"
                     ],
                     "data_url": "https://gwas.mrcieu.ac.uk/datasets/ebi-a-GCST005527"
@@ -196,8 +182,9 @@
                     "type": "data",
                     "repo_name": "MR-base",
                     "accession_number": "ieu-b-18",
-                    "description": "Multiple sclerosis",
+                    "description": "Exposure dataset for multiple sclerosis",
                     "data_type": [
+                        "Genomics & transcriptomics data",
                         "Other data"
                     ],
                     "data_url": "https://gwas.mrcieu.ac.uk/datasets/ieu-b-18"
@@ -206,8 +193,9 @@
                     "type": "data",
                     "repo_name": "MR-base",
                     "accession_number": "ieu-a-1112",
-                    "description": "Primary sclerosing cholangitis",
+                    "description": "Exposure dataset for primary sclerosing cholangitis",
                     "data_type": [
+                        "Genomics & transcriptomics data",
                         "Other data"
                     ],
                     "data_url": "https://gwas.mrcieu.ac.uk/datasets/ieu-a-1112"
@@ -216,21 +204,23 @@
                     "type": "data",
                     "repo_name": "MR-base",
                     "accession_number": "ebi-a-GCST005581",
-                    "description": "Primary biliary cirrhosis",
+                    "description": "Exposure dataset for primary biliary cirrhosis",
                     "data_type": [
+                        "Genomics & transcriptomics data",
                         "Other data"
                     ],
                     "data_url": "https://gwas.mrcieu.ac.uk/datasets/ebi-a-GCST005581"
                 },
                 {
                     "type": "data",
-                    "repo_name": "OSF",
+                    "repo_name": "COVID19-hg GWAS",
                     "accession_number": "",
-                    "description": "Datasets analyzed",
+                    "description": "Outcome datasets generated in the current study.",
                     "data_type": [
+                        "Genomics & transcriptomics data",
                         "Other data"
                     ],
-                    "data_url": "https://osf.io/sxjyc/"
+                    "data_url": "https://www.covid19hg.org/results/r6/"
                 }
             ],
             "title": "A Mendelian randomization study of genetic predisposition to autoimmune diseases and COVID-19",
@@ -252,8 +242,20 @@
                     "type": "data",
                     "repo_name": "OSF",
                     "accession_number": "",
-                    "description": "Anonymised databases with the individual participant data and the metadata for Bayesian analyses, with analytical code",
+                    "description": "Anonymised databases with the individual participant data and the metadata for Bayesian analyses.",
                     "data_type": [
+                        "Social science and humanities data",
+                        "Other data"
+                    ],
+                    "data_url": "https://osf.io/2xn5m/"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "OSF",
+                    "accession_number": "",
+                    "description": "Code used for data analysis.",
+                    "data_type": [
+                        "Social science and humanities data",
                         "Other data"
                     ],
                     "data_url": "https://osf.io/2xn5m/"
@@ -279,7 +281,7 @@
                     "type": "data",
                     "repo_name": "",
                     "accession_number": "",
-                    "description": "All data presented in the manuscript",
+                    "description": "Raw time series data related to vaccine efficacy, blood testing, and histology. ",
                     "data_type": [
                         "Genomics & transcriptomics data"
                     ],
@@ -308,7 +310,7 @@
                     "accession_number": "",
                     "description": "Long COVID Survey Data",
                     "data_type": [
-                        "Other data"
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://doi.org/10.6084/m9.figshare.19364828.v1"
                 },
@@ -318,7 +320,7 @@
                     "accession_number": "",
                     "description": "Long COVID Survey questionnaire",
                     "data_type": [
-                        "Other data"
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://figshare.com/articles/online_resource/Long_COVID_Survey/19447919"
                 }
@@ -343,9 +345,19 @@
                     "type": "data",
                     "repo_name": "GitHub",
                     "accession_number": "",
-                    "description": "Data used in the study",
+                    "description": "Data on direct and indirect indicators of transmission e.g. mobility data, number of calls to the national healthcare advice line and vaccination coverage.",
                     "data_type": [
-                        "Other data"
+                        "Public health data"
+                    ],
+                    "data_url": "https://github.com/MolEpicUU/spatiotemporal_predictions_COVID19"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Code used to produce models.",
+                    "data_type": [
+                        "Public health data"
                     ],
                     "data_url": "https://github.com/MolEpicUU/spatiotemporal_predictions_COVID19"
                 }
@@ -370,7 +382,17 @@
                     "type": "data",
                     "repo_name": "dryad",
                     "accession_number": "",
-                    "description": "Dataset and code",
+                    "description": "Survey responses collected through Qualtrix",
+                    "data_type": [
+                        "Other data"
+                    ],
+                    "data_url": "https://datadryad.org/stash/dataset/doi:10.5061/dryad.rfj6q57d0"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "dryad",
+                    "accession_number": "",
+                    "description": "Code used for analysis (in R)",
                     "data_type": [
                         "Other data"
                     ],
@@ -399,6 +421,7 @@
                     "accession_number": "",
                     "description": "Metabolomics data",
                     "data_type": [
+                        "Health data",
                         "Other data"
                     ],
                     "data_url": "https://dx.doi.org/10.6084/m9.figshare.13336862"
@@ -409,6 +432,7 @@
                     "accession_number": "",
                     "description": "Analysis code",
                     "data_type": [
+                        "Health data",
                         "Other data"
                     ],
                     "data_url": "https://dx.doi.org/10.5281/zenodo.6706499"
@@ -436,6 +460,8 @@
                     "accession_number": "EPI_ISL_11414777-11415389 and EPI_ISL_11450500-11450677",
                     "description": "Assembled SARS-CoV-2 genomes",
                     "data_type": [
+                        "Biochemistry data",
+                        "Health data",
                         "Genomics & transcriptomics data"
                     ],
                     "data_url": "https://gisaid.org/"
@@ -446,6 +472,8 @@
                     "accession_number": "E-MTAB-11650",
                     "description": "Raw sequencing data",
                     "data_type": [
+                        "Biochemistry data",
+                        "Health data",
                         "Genomics & transcriptomics data"
                     ],
                     "data_url": "https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-11650/"
@@ -456,6 +484,8 @@
                     "accession_number": "",
                     "description": "Computational code",
                     "data_type": [
+                        "Biochemistry data",
+                        "Health data",
                         "Genomics & transcriptomics data"
                     ],
                     "data_url": "https://github.com/reiniuslab/OmicronWaves/"
@@ -480,7 +510,7 @@
                     "type": "data",
                     "repo_name": "GitHub",
                     "accession_number": "",
-                    "description": "All data collected as part of the literature search",
+                    "description": "All data collected as part of the literature search (list of considered diseases, and references for empirical cases.",
                     "data_type": [
                         "Other data"
                     ],
@@ -509,6 +539,7 @@
                     "accession_number": "EGAS00001005304",
                     "description": "Genotype data generated (SPGRX cohort)",
                     "data_type": [
+                        "Biochemistry data",
                         "Genomics & transcriptomics data"
                     ],
                     "data_url": "https://ega-archive.org/studies/EGAS00001005304"
@@ -519,6 +550,7 @@
                     "accession_number": "GSE179325",
                     "description": "Methylation data",
                     "data_type": [
+                        "Biochemistry data",
                         "Genomics & transcriptomics data"
                     ],
                     "data_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE179325"
@@ -625,8 +657,9 @@
                     "type": "data",
                     "repo_name": "Open Science Framework",
                     "accession_number": "",
-                    "description": "Dataset analysed in this study",
+                    "description": "Data related to herd immunity, willingness to get vaccinated, and demographic factors.",
                     "data_type": [
+                        "Social science and humanities data",
                         "Other data"
                     ],
                     "data_url": "https://osf.io/7nbzr/?view_only=1b1483f5ce494d809f08eaa529bed982"
@@ -652,6 +685,7 @@
                     "accession_number": "",
                     "description": "R code for Bayesian analysis",
                     "data_type": [
+                        "Social science and humanities data",
                         "Other data"
                     ],
                     "data_url": "https://zenodo.org/record/5115661#.YymQIOxByX0"
@@ -675,8 +709,9 @@
                     "type": "data",
                     "repo_name": "Zenodo",
                     "accession_number": "",
-                    "description": "Dataset generated and analysed in this study",
+                    "description": "A comparative dataset on public perceptions of multiple risks during the COVID-19 pandemic in Italy and Sweden.",
                     "data_type": [
+                        "Social science and humanities data",
                         "Other data"
                     ],
                     "data_url": "https://zenodo.org/record/5653322#.YymOvexByX2"
@@ -685,8 +720,9 @@
                     "type": "code",
                     "repo_name": "GitHub",
                     "accession_number": "",
-                    "description": "Code for processing and graphs",
+                    "description": "Code for processing and visualisations",
                     "data_type": [
+                        "Social science and humanities data",
                         "Other data"
                     ],
                     "data_url": "https://github.com/eleraf/epidemics-risk-perception"
@@ -708,9 +744,9 @@
             "available_items": [
                 {
                     "type": "data",
-                    "repo_name": "EBI",
-                    "accession_number": "",
-                    "description": "BioProject - PRJNA736341",
+                    "repo_name": "BioProject",
+                    "accession_number": "PRJNA736341",
+                    "description": "Beaudette genome sequencing and assembly",
                     "data_type": [
                         "Genomics & transcriptomics data"
                     ],
@@ -718,9 +754,9 @@
                 },
                 {
                     "type": "data",
-                    "repo_name": "EBI",
-                    "accession_number": "",
-                    "description": "ENA - MZ368698",
+                    "repo_name": "ENA",
+                    "accession_number": "MZ368698",
+                    "description": "Avian coronavirus strain Beaudette, complete genome.",
                     "data_type": [
                         "Genomics & transcriptomics data"
                     ],
@@ -784,14 +820,14 @@
                     "type": "data",
                     "repo_name": "Zenodo",
                     "accession_number": "",
-                    "description": "Data supporting the findings of this study",
+                    "description": "Data on the effect of an mRNA vaccine booster on immunogenicity in individuals vaccinated with two doses of inactivated vaccine.",
                     "data_type": [
                         "Genomics & transcriptomics data"
                     ],
                     "data_url": "https://zenodo.org/record/6305550#.Yyl_tuxByX1"
                 }
             ],
-            "title": "Heterologous immunization with inactivated vaccine followed by mRNA-booster elicits strong immunity against SARS-CoV-2 Omicron variant",
+            "title": "Heterologous immunisation with inactivated vaccine followed by mRNA-booster elicits strong immunity against SARS-CoV-2 Omicron variant",
             "issue": "1",
             "volume": "13",
             "publisher": "Springer Science and Business Media LLC",
@@ -821,7 +857,7 @@
                     "type": "code",
                     "repo_name": "GitHub",
                     "accession_number": "",
-                    "description": "R and Python code used fpr analysis",
+                    "description": "R and Python code used for analysis",
                     "data_type": [
                         "Genomics & transcriptomics data"
                     ],
@@ -848,7 +884,17 @@
                     "type": "data",
                     "repo_name": "GitHub",
                     "accession_number": "",
-                    "description": "Data and code used to display and synthesise the results",
+                    "description": "Data from the systematic review on asymptomatic and presymptomatic SARS-CoV-2 infection",
+                    "data_type": [
+                        "Other data"
+                    ],
+                    "data_url": "https://github.com/leonieheron/LSR_Asymp_v5"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Code used to display and synthesise the results",
                     "data_type": [
                         "Other data"
                     ],
@@ -866,60 +912,6 @@
                 "Heron L.",
                 "Imeri H.",
                 "Araujo-Chaveron L."
-            ]
-        },
-        {
-            "doi": "10.1186/s12889-022-13219-4",
-            "available_items": [
-                {
-                    "type": "data",
-                    "repo_name": "GitHub",
-                    "accession_number": "",
-                    "description": "Data generated and the code for reproducing the analyses for this study",
-                    "data_type": [
-                        "Other data"
-                    ],
-                    "data_url": "https://github.com/ciaramccarthy1/prisons-vacc-strategies"
-                }
-            ],
-            "title": "The impact of COVID-19 vaccination in prisons in England and Wales: a metapopulation model",
-            "issue": "1",
-            "volume": "22",
-            "publisher": "Springer Science and Business Media LLC",
-            "published": "2022-05-18",
-            "author": [
-                "McCarthy C. V.",
-                "O’Mara O.",
-                "van Leeuwen E.",
-                "Sherratt K.",
-                "Abbas K."
-            ]
-        },
-        {
-            "doi": "10.7554/eLife.75046",
-            "available_items": [
-                {
-                    "type": "data",
-                    "repo_name": "GitHub",
-                    "accession_number": "",
-                    "description": "BashTheBug dataset for finding the optimal consensus method (with code)",
-                    "data_type": [
-                        "Drug discovery data"
-                    ],
-                    "data_url": "https://github.com/fowler-lab/bashthebug-consensus-dataset"
-                }
-            ],
-            "title": "A crowd of BashTheBug volunteers reproducibly and accurately measure the minimum inhibitory concentrations of 13 antitubercular drugs from photographs of 96-well broth microdilution plates",
-            "issue": "",
-            "volume": "11",
-            "publisher": "eLife Sciences Publications, Ltd",
-            "published": "2022-05-19",
-            "author": [
-                "Fowler P. W.",
-                "Wright C.",
-                "Spiers H.",
-                "Zhu T.",
-                "Baeten E. M."
             ]
         },
         {
@@ -1035,6 +1027,7 @@
                     "accession_number": "",
                     "description": "Data time series of metereological factors, regional measures and mobility",
                     "data_type": [
+                        "Social science and humanities data",
                         "Other data"
                     ],
                     "data_url": "https://zenodo.org/record/6120655#.YyqzGexByX0"
@@ -1045,6 +1038,7 @@
                     "accession_number": "",
                     "description": "Scripts for the model",
                     "data_type": [
+                        "Social science and humanities data",
                         "Other data"
                     ],
                     "data_url": "https://github.com/katharinaledebur/regional_differences_covid"
@@ -1184,6 +1178,7 @@
                     "accession_number": "",
                     "description": "Code and simulated data",
                     "data_type": [
+                        "Social science and humanities data",
                         "Other data"
                     ],
                     "data_url": "https://github.com/jsheen/NPI"
@@ -1208,7 +1203,17 @@
                     "type": "code",
                     "repo_name": "BitBucket",
                     "accession_number": "",
-                    "description": "Corresponding code and dataset",
+                    "description": "Dataset used to to assess cross-talk based approaches for drug repurposing",
+                    "data_type": [
+                        "Drug discovery data"
+                    ],
+                    "data_url": "https://bitbucket.org/sonnhammergroup/drugrepurposingbench/src/master/"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "BitBucket",
+                    "accession_number": "",
+                    "description": "Code used for analysis",
                     "data_type": [
                         "Drug discovery data"
                     ],
@@ -1305,9 +1310,9 @@
                     "type": "data",
                     "repo_name": "FigShare",
                     "accession_number": "",
-                    "description": "Dataset included in study",
+                    "description": "Dataset including variables of physical activity and sedentary behavior during the COVID-19 pandemic",
                     "data_type": [
-                        "Other data"
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://doi.org/10.6084/m9.figshare.19208538"
                 }
@@ -1332,7 +1337,7 @@
                     "type": "code",
                     "repo_name": "GitHub",
                     "accession_number": "",
-                    "description": "SiteLocalization - Binding site localization",
+                    "description": "SiteLocalization software for binding site localisation on non-homogeneous cell surfaces using topological image averaging",
                     "data_type": [
                         "Imaging data"
                     ],
@@ -1342,7 +1347,7 @@
                     "type": "code",
                     "repo_name": "GitHub",
                     "accession_number": "",
-                    "description": "FluoroDist.jl - Simulated fluorescence images",
+                    "description": "FluoroDist.jl - software for simulated fluorescence images with accurate surface distances",
                     "data_type": [
                         "Imaging data"
                     ],
@@ -1352,7 +1357,7 @@
                     "type": "data",
                     "repo_name": "Dryad",
                     "accession_number": "",
-                    "description": "Data generated in this Study",
+                    "description": "Site localisation measurements data",
                     "data_type": [
                         "Imaging data"
                     ],
@@ -1375,17 +1380,6 @@
         {
             "doi": "10.1038/s41598-022-05597-x",
             "available_items": [
-                {
-                    "type": "data",
-                    "repo_name": "BioStudies",
-                    "accession_number": "",
-                    "description": "Supplemental material and supporting data",
-                    "data_type": [
-                        "Drug discovery data",
-                        "Genomics & transcriptomics data"
-                    ],
-                    "data_url": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC8803893?xr=true"
-                },
                 {
                     "type": "data",
                     "repo_name": "Gene Expression Omnibus",
@@ -1428,7 +1422,7 @@
                     "type": "data",
                     "repo_name": "dbSNP",
                     "accession_number": "RS17713054",
-                    "description": "Single Nucleotide Polymorphism",
+                    "description": "Reference single nucleotide polymorphism report",
                     "data_type": [
                         "Genomics & transcriptomics data"
                     ],
@@ -1438,7 +1432,7 @@
                     "type": "data",
                     "repo_name": "dbSNP",
                     "accession_number": "RS17764980",
-                    "description": "Single Nucleotide Polymorphism",
+                    "description": "Reference single nucleotide polymorphism report",
                     "data_type": [
                         "Genomics & transcriptomics data"
                     ],
@@ -1448,7 +1442,7 @@
                     "type": "data",
                     "repo_name": "dbSNP",
                     "accession_number": "RS17714101",
-                    "description": "Single Nucleotide Polymorphism",
+                    "description": "Reference single nucleotide polymorphism report",
                     "data_type": [
                         "Genomics & transcriptomics data"
                     ],
@@ -1458,7 +1452,7 @@
                     "type": "data",
                     "repo_name": "dbSNP",
                     "accession_number": "RS17714228",
-                    "description": "Single Nucleotide Polymorphism",
+                    "description": "Reference single nucleotide polymorphism report",
                     "data_type": [
                         "Genomics & transcriptomics data"
                     ],
@@ -1468,7 +1462,7 @@
                     "type": "data",
                     "repo_name": "dbSNP",
                     "accession_number": "RS71325092",
-                    "description": "Single Nucleotide Polymorphism",
+                    "description": "Reference single nucleotide polymorphism report",
                     "data_type": [
                         "Genomics & transcriptomics data"
                     ],
@@ -1501,21 +1495,11 @@
                     "type": "data",
                     "repo_name": "Figshare",
                     "accession_number": "",
-                    "description": "Images, analysis pipelines and feature data.",
+                    "description": "Images, analysis pipelines, and feature data.",
                     "data_type": [
                         "Drug discovery data"
                     ],
                     "data_url": "https://doi.org/10.17044/scilifelab.14188403.v1"
-                },
-                {
-                    "type": "data",
-                    "repo_name": "",
-                    "accession_number": "",
-                    "description": "All data generated and analysed are available in the articles and complementary information files.",
-                    "data_type": [
-                        "Drug discovery data"
-                    ],
-                    "data_url": "https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-021-01086-1#availability-of-data-and-materials"
                 }
             ],
             "title": "A phenomics approach for antiviral drug discovery",
@@ -1659,7 +1643,8 @@
                     "accession_number": "",
                     "description": "Code for data management and analysis (commit 183ddb7).",
                     "data_type": [
-                        "Genomics & transcriptomics data"
+                        "Genomics & transcriptomics data",
+                        "Health data"
                     ],
                     "data_url": "https://github.com/tomoconaka/COVID19-chr3"
                 },
@@ -1669,7 +1654,8 @@
                     "accession_number": "",
                     "description": "Data are held in multiple international repositories. Details about gaining access are contained in the paper.",
                     "data_type": [
-                        "Genomics & transcriptomics data"
+                        "Genomics & transcriptomics data",
+                        "Health data"
                     ],
                     "data_url": "https://www.jci.org/articles/view/152386"
                 }
@@ -1761,10 +1747,10 @@
                     "type": "data",
                     "repo_name": "",
                     "accession_number": "",
-                    "description": "All data available in the article, or in sources therein.",
+                    "description": "All data are available in the article, or in sources therein (e.g. information on healthcare and political systems).",
                     "data_type": [
                         "Public health data",
-                        "Other data"
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://academic.oup.com/heapol/article/37/3/297/6373138#341608669"
                 }
@@ -1792,7 +1778,8 @@
                     "description": "Data on influenza/pneumonia deaths & hospitalisations due to sepsis, subdivided by mental health condition, physical comorbidities, and demographic features.",
                     "data_type": [
                         "Health data",
-                        "Public health data"
+                        "Public health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://www.mdpi.com/2077-0383/10/19/4411/s1?version=1632654678"
                 }
@@ -1819,7 +1806,8 @@
                     "accession_number": "",
                     "description": "Descriptive data on subjects included in the study, particularly focussed on the reasons behind limitations in ability to train.",
                     "data_type": [
-                        "Health data"
+                        "Health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2021.736499/full#supplementary-material"
                 }
@@ -1875,7 +1863,8 @@
                     "description": "Raw data on physical activity and psychological well-being.",
                     "data_type": [
                         "Health data",
-                        "Public health data"
+                        "Public health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://osf.io/w4gfe/"
                 }
@@ -1902,7 +1891,8 @@
                     "accession_number": "",
                     "description": "R-code used for data analyses.",
                     "data_type": [
-                        "Public health data"
+                        "Public health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "http://github.com/hakanwall/covid_study"
                 },
@@ -1912,7 +1902,8 @@
                     "accession_number": "",
                     "description": "Data cannot be made publicly available, but access can be requested for data with some personal details removed.",
                     "data_type": [
-                        "Public health data"
+                        "Public health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2021.708037/full#h7"
                 }
@@ -1939,7 +1930,8 @@
                     "accession_number": "",
                     "description": "The code of the individual-based epidemiological model.",
                     "data_type": [
-                        "Public health data"
+                        "Public health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://github.com/ImperialCollegeLondon/covid19model"
                 },
@@ -1949,7 +1941,8 @@
                     "accession_number": "",
                     "description": "The raw data from the Quarterly Labour Force Survey October to December 2019 used for the labour force model.",
                     "data_type": [
-                        "Public health data"
+                        "Public health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://www.ukdataservice.ac.uk/"
                 }
@@ -2004,6 +1997,7 @@
                     "description": "Chronological data on Swedish Governmental COVID-19 policy/actions",
                     "data_type": [
                         "Public health data",
+                        "Social science and humanities data",
                         "Other data"
                     ],
                     "data_url": "https://doi.org/10.5281/zenodo.5718432"
@@ -2272,10 +2266,20 @@
             "doi": "10.1098/rsif.2021.0819",
             "available_items": [
                 {
-                    "type": "data, code",
+                    "type": "data",
                     "repo_name": "Figshare",
                     "accession_number": "",
-                    "description": "Raw data and code for the study",
+                    "description": "Data related to respiratory events",
+                    "data_type": [
+                        "Public health data"
+                    ],
+                    "data_url": "https://figshare.com/articles/dataset/An_Effective_Model_for_Evaluating_The_Direct_Infection_Risk_Associated_to_Respiratory_Events/16826374"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "Figshare",
+                    "accession_number": "",
+                    "description": "Code used to generate visualisations (Python)",
                     "data_type": [
                         "Public health data"
                     ],
@@ -2396,7 +2400,7 @@
                     "type": "data",
                     "repo_name": "Figshare",
                     "accession_number": "",
-                    "description": "Individual HCWs cohort data from KI Hospital",
+                    "description": "Individual health care workers cohort data from KI Hospital",
                     "data_type": [
                         "Public health data"
                     ],
@@ -2438,16 +2442,6 @@
                         "Protein data"
                     ],
                     "data_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE185657"
-                },
-                {
-                    "type": "data",
-                    "repo_name": "",
-                    "accession_number": "",
-                    "description": "Supplementary material",
-                    "data_type": [
-                        "Protein data"
-                    ],
-                    "data_url": "https://www.mdpi.com/1999-4915/13/12/2537/s1?version=1639746420"
                 }
             ],
             "title": "Differential Effect of SARS-CoV-2 Spike Glycoprotein 1 on Human Bronchial and Alveolar Lung Mucosa Models: Implications for Pathogenicity",
@@ -2518,50 +2512,13 @@
             ]
         },
         {
-            "doi": "10.1172/JCI152386",
-            "available_items": [
-                {
-                    "type": "data",
-                    "repo_name": "",
-                    "accession_number": "",
-                    "description": "Data cannot be openly shared, but aricle contains information for potnetially setting up data transfer agreements",
-                    "data_type": [
-                        "Health data"
-                    ],
-                    "data_url": "https://www.jci.org/articles/view/152386"
-                },
-                {
-                    "type": "code",
-                    "repo_name": "Github",
-                    "accession_number": "",
-                    "description": "Code for data management and analysis",
-                    "data_type": [
-                        "Health data"
-                    ],
-                    "data_url": "https://github.com/tomoconaka/COVID19-chr3"
-                }
-            ],
-            "title": "Age-dependent impact of the major common genetic risk factor for COVID-19 on severity and mortality",
-            "issue": "23",
-            "volume": "131",
-            "publisher": "American Society for Clinical Investigation",
-            "published": "2021-12-01",
-            "author": [
-                "Nakanishi T.",
-                "Pigazzini S.",
-                "Degenhardt F.",
-                "Cordioli M.",
-                "Butler-Laporte G."
-            ]
-        },
-        {
             "doi": "10.1038/s41467-021-23893-4",
             "available_items": [
                 {
                     "type": "data",
                     "repo_name": "",
                     "accession_number": "",
-                    "description": "Source Data",
+                    "description": "Source Data (data on antibody titer, among other things)",
                     "data_type": [
                         "Serology data"
                     ],
@@ -2598,7 +2555,7 @@
                     "type": "data",
                     "repo_name": "",
                     "accession_number": "",
-                    "description": "Source Data",
+                    "description": "Source Data (includes mortality data, among other things)",
                     "data_type": [
                         "Public health data"
                     ],
@@ -2665,7 +2622,6 @@
                     "accession_number": "",
                     "description": "Code used to generate synthetic evalutation datasets",
                     "data_type": [
-                        "Health data",
                         "Other data"
                     ],
                     "data_url": "https://github.com/KCL-BMEIS/ExeTeraEval"
@@ -2676,7 +2632,7 @@
                     "accession_number": "",
                     "description": "Source code for ExeTera",
                     "data_type": [
-                        "Public health data"
+                        "Other data"
                     ],
                     "data_url": "https://github.com/KCL-BMEIS/ExeTera"
                 }
@@ -2826,6 +2782,7 @@
                     "description": "Proteomics data",
                     "data_type": [
                         "Genomics & transcriptomics data",
+                        "Protein data",
                         "Health data"
                     ],
                     "data_url": "http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD025265"
@@ -2837,6 +2794,7 @@
                     "description": "RNA-seq datasets",
                     "data_type": [
                         "Genomics & transcriptomics data",
+                        "Protein data",
                         "Health data"
                     ],
                     "data_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE172114"
@@ -2848,6 +2806,7 @@
                     "description": "Code to perform classification and structural causal modeling",
                     "data_type": [
                         "Genomics & transcriptomics data",
+                        "Protein data",
                         "Health data"
                     ],
                     "data_url": "https://zenodo.org/record/5557611#.YnjTii8Rqu5"
@@ -3131,7 +3090,7 @@
                     "data_type": [
                         "Public health data",
                         "Health data",
-                        "Other data"
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://figshare.com/articles/dataset/ESAC_database/13580693/1"
                 }
@@ -3158,7 +3117,8 @@
                     "accession_number": "",
                     "description": "Data on vaccine acceptance and code for analysis",
                     "data_type": [
-                        "Public health data"
+                        "Public health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://osf.io/vgez2/"
                 },
@@ -3168,8 +3128,8 @@
                     "accession_number": "",
                     "description": "Image data, the image analysis pipelines, and extracted features",
                     "data_type": [
-                        "Imaging data",
-                        "Drug discovery data"
+                        "Public health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://scilifelab.figshare.com/articles/dataset/A_phenomics_approach_for_antiviral_drug_discovery_-_Images_analysis_pipelines_and_feature_data/14188403/1"
                 },
@@ -3179,8 +3139,8 @@
                     "accession_number": "",
                     "description": "Code for analysis",
                     "data_type": [
-                        "Imaging data",
-                        "Drug discovery data"
+                        "Public health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://github.com/pharmbio/antiviral-phenomics"
                 }
@@ -3208,7 +3168,7 @@
                     "description": "Data (raw and processed) and analysis code related to emotion-regulation strategy testing",
                     "data_type": [
                         "Public health data",
-                        "Other data"
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://osf.io/jeu73/"
                 }
@@ -3227,31 +3187,32 @@
             ]
         },
         {
-            "doi": "10.1038/s41562-021-01173-x",
+            "doi": "https://doi.org/10.1038/s41467-021-24832-z",
             "available_items": [
                 {
                     "type": "data, code",
                     "repo_name": "Figshare",
                     "accession_number": "",
-                    "description": "Data and analysis code related to mobility and epidemiology",
+                    "description": "Data from different provinces and analysis code",
                     "data_type": [
                         "Public health data",
+                        "Social science and humanities data",
                         "Other data"
                     ],
                     "data_url": "https://figshare.com/articles/software/NatComm/14153351/1"
                 }
             ],
-            "title": "A multi-country test of brief reappraisal interventions on emotions during the COVID-19 pandemic",
-            "issue": "8",
-            "volume": "5",
-            "publisher": "Springer Science and Business Media LLC",
-            "published": "2021-08-02",
+            "title": "Impact of tiered restrictions on human activities and the epidemiology of the second wave of COVID-19 in Italy",
+            "issue": "",
+            "volume": "12",
+            "publisher": "Nature Communications",
+            "published": "2021-07-27",
             "author": [
-                "Wang K.",
-                "Goldenberg A.",
-                "Dorison C. A.",
-                "Miller J. K.",
-                "Uusberg A."
+                "Manica M.",
+                "Guzzetta G.",
+                "Riccardo F.",
+                "Valenti A.",
+                "Poletti P."
             ]
         },
         {
@@ -3290,7 +3251,8 @@
                     "accession_number": "",
                     "description": "Data and code related to household-contact-tracing",
                     "data_type": [
-                        "Genomics & transcriptomics data"
+                        "Public health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://github.com/martyn1fyles/HouseholdContactTracing"
                 }
@@ -3317,7 +3279,8 @@
                     "accession_number": "",
                     "description": "Deidentified participant data, analysis code and replication files",
                     "data_type": [
-                        "Public health data"
+                        "Public health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://github.com/wzb-ipi/covid_vaccines_nmed"
                 },
@@ -3327,7 +3290,8 @@
                     "accession_number": "",
                     "description": "Analysis code and replication exercise",
                     "data_type": [
-                        "Public health data"
+                        "Public health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://wzb-ipi.github.io/covid_vaccines_nmed/"
                 }
@@ -3392,7 +3356,7 @@
                     "description": "Methods used and survey results on factors related to mental health issues related to COVID-19",
                     "data_type": [
                         "Public health data",
-                        "Other data"
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://osf.io/jcnf3/"
                 }
@@ -3417,7 +3381,7 @@
                     "description": "Numbers of deaths by influenza and suicide and total population for 1910-1978",
                     "data_type": [
                         "Public health data",
-                        "Other data"
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://osf.io/jcnf3/"
                 }
@@ -3445,6 +3409,7 @@
                     "description": "Proteomics dataset based on plasma samples from 1,388 subjects.",
                     "data_type": [
                         "Public health data",
+                        "Protein data",
                         "Genomics & transcriptomics data"
                     ],
                     "data_url": "https://zenodo.org/record/4280776#.YnkeOy8RpTZ"
@@ -3473,7 +3438,8 @@
                     "description": "Perceived changes in capability during the COVID-19 pandemic (includes data on socioeconomic position, place of birth and regional residence)",
                     "data_type": [
                         "Public health data",
-                        "Health data"
+                        "Health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://snd.gu.se/sv/catalogue/study/2020-206/1/1#dataset"
                 }
@@ -3552,7 +3518,8 @@
                     "accession_number": "",
                     "description": "Vaccine acceptance in Denmark, France, Germany, Hungary, Sweden, Italy, UK and USA; September 2020 to February 2021.",
                     "data_type": [
-                        "Public health data"
+                        "Public health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "10.1002/advs.202101222"
                 }
@@ -3587,7 +3554,7 @@
                     "type": "data",
                     "repo_name": "Zenodo",
                     "accession_number": "",
-                    "description": "Accession IDs included in publication Tracking the international spread of SARS-CoV-2 lineages B.1.1.7 and B.1.351/501Y-V2.",
+                    "description": "Accession IDs included in publication tracking the international spread of SARS-CoV-2 lineages B.1.1.7 and B.1.351/501Y-V2.",
                     "data_type": [
                         "Public health data",
                         "Genomics & transcriptomics data"
@@ -3598,18 +3565,7 @@
                     "type": "data",
                     "repo_name": "Zenodo",
                     "accession_number": "",
-                    "description": "Supplementary materials with group affiliations for Tracking the international spread of SARS-CoV-2 lineages B.1.1.7 and B.1.351/501Y-V2.",
-                    "data_type": [
-                        "Public health data",
-                        "Genomics & transcriptomics data"
-                    ],
-                    "data_url": "https://zenodo.org/record/4704471#.YntODS8Rqu4"
-                },
-                {
-                    "type": "data",
-                    "repo_name": "Zenodo",
-                    "accession_number": "",
-                    "description": "Supplementary materials with group affiliations for Tracking the international spread of SARS-CoV-2 lineages B.1.1.7 and B.1.351/501Y-V2.",
+                    "description": "Supplementary materials with group affiliations for tracking the international spread of SARS-CoV-2 lineages B.1.1.7 and B.1.351/501Y-V2.",
                     "data_type": [
                         "Public health data",
                         "Genomics & transcriptomics data"
@@ -3661,8 +3617,7 @@
                     "accession_number": "",
                     "description": "Summary swab results, and Ct values and RT-qPCR validation results for samples all included with the article",
                     "data_type": [
-                        "Public health data",
-                        "Environment"
+                        "Public health data"
                     ],
                     "data_url": "https://virologyj.biomedcentral.com/articles/10.1186/s12985-021-01556-6"
                 }
@@ -4021,7 +3976,7 @@
                     "accession_number": "",
                     "description": "Dataset on the COVID-19 pandemic and serious psychological consequences in Bangladesh: a population-based nationwide study.",
                     "data_type": [
-                        "Other data",
+                        "Social science and humanities data",
                         "Health data"
                     ],
                     "data_url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YKH9C1"
@@ -4088,33 +4043,6 @@
             ]
         },
         {
-            "doi": "10.1038/s41598-021-88481-4",
-            "available_items": [
-                {
-                    "type": "data",
-                    "repo_name": "",
-                    "accession_number": "",
-                    "description": "OxCOVID19 Database to download",
-                    "data_type": [
-                        "Public health data"
-                    ],
-                    "data_url": "https://covid19.eng.ox.ac.uk/"
-                }
-            ],
-            "title": "OxCOVID19 Database, a multimodal data repository for better understanding the global impact of COVID-19",
-            "issue": "1",
-            "volume": "11",
-            "publisher": "Springer Science and Business Media LLC",
-            "published": "2021-04-29",
-            "author": [
-                "Mahdi A.",
-                "Błaszczyk P.",
-                "Dłotko P.",
-                "Salvi D.",
-                "Chan T."
-            ]
-        },
-        {
             "doi": "10.1186/s12889-021-10897-4",
             "available_items": [
                 {
@@ -4123,7 +4051,7 @@
                     "accession_number": "",
                     "description": "Individual-level demographic, occupational, COVID-19 data",
                     "data_type": [
-                        "Other data",
+                        "Social science and humanities data",
                         "Health data"
                     ],
                     "data_url": "https://figshare.com/articles/dataset/QUAN_Strand_Dataset_-_Occupational_Burnout_and_Job_Satisfaction_Among_Physicians_in_Times_of_COVID-19_Crisis_A_Convergent_Parallel_Mixed-Method_Study/14058185/1"
@@ -4199,7 +4127,7 @@
                     "description": "Raw data, plots, surveys",
                     "data_type": [
                         "Health data",
-                        "Other data"
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://osf.io/xhryf/"
                 }
@@ -4373,7 +4301,8 @@
                     "description": "Data are from the SNAC-K Project, a population-based study on ageing and dementia. Need approval for access.",
                     "data_type": [
                         "Public health data",
-                        "Other data"
+                        "Other data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://www.snac-k.se"
                 }
@@ -4483,6 +4412,7 @@
                     "description": "R and Stata code related to COVID-19 mortality assessment",
                     "data_type": [
                         "Health data",
+                        "Social science and humanities data",
                         "Other data"
                     ],
                     "data_url": "https://gitlab.switch.ch/torsten.hothorn/relative_covid-19_mortality"
@@ -4539,7 +4469,8 @@
                     "description": "Analysis code",
                     "data_type": [
                         "Health data",
-                        "Other data"
+                        "Other data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://osf.io/4zegu/"
                 }
@@ -4730,7 +4661,8 @@
                     "description": "Knowledge, attitudes, and practices (KAP) survey results.",
                     "data_type": [
                         "Public health data",
-                        "Other data"
+                        "Other data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://reshare.ukdataservice.ac.uk/854605/"
                 }
@@ -4907,7 +4839,8 @@
                     "accession_number": "",
                     "description": "Data cannot be publicly shared, but applications can be made for access.",
                     "data_type": [
-                        "Public health data"
+                        "Public health data",
+                        "Other data"
                     ],
                     "data_url": "https://bmcnurs.biomedcentral.com/articles/10.1186/s12912-021-00540-3#availability-of-data-and-materials"
                 }
@@ -5173,7 +5106,8 @@
                     "accession_number": "",
                     "description": "Data cannot be shared publicly, but applications can be made for access.",
                     "data_type": [
-                        "Public health data"
+                        "Public health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://www.mdpi.com/2076-393X/9/1/42/htm"
                 }
@@ -5276,34 +5210,6 @@
             ]
         },
         {
-            "doi": "10.3390/v13010037",
-            "available_items": [
-                {
-                    "type": "data",
-                    "repo_name": "",
-                    "accession_number": "",
-                    "description": "Data are available in the article and supplementary materials (effect of novel antiviral compounds against ZIKV in several cell models).",
-                    "data_type": [
-                        "Biochemistry data",
-                        "Other data"
-                    ],
-                    "data_url": "https://www.mdpi.com/1999-4915/13/1/37/s1"
-                }
-            ],
-            "title": "Broadly Active Antiviral Compounds Disturb Zika Virus Progeny Release Rescuing Virus-Induced Toxicity in Brain Organoids",
-            "issue": "1",
-            "volume": "13",
-            "publisher": "MDPI AG",
-            "published": "2020-12-29",
-            "author": [
-                "Pettke A.",
-                "Tampere M.",
-                "Pronk R.",
-                "Wallner O.",
-                "Falk A."
-            ]
-        },
-        {
             "doi": "10.1111/joim.13304",
             "available_items": [
                 {
@@ -5374,7 +5280,8 @@
                     "description": "Study protocol and analysis source code",
                     "data_type": [
                         "Drug discovery data",
-                        "Health data"
+                        "Health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://github.com/ohdsi-studies/Covid19EstimationHydroxychloroquine2"
                 },
@@ -5385,7 +5292,8 @@
                     "description": "Analysis tools used in study",
                     "data_type": [
                         "Drug discovery data",
-                        "Health data"
+                        "Health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://github.com/OHDSI/"
                 },
@@ -5396,7 +5304,8 @@
                     "description": "Data and results artefacts that do not include patient-level health information",
                     "data_type": [
                         "Drug discovery data",
-                        "Health data"
+                        "Health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "http://data.ohdsi.org/Covid19EstimationHydroxychloroquine2"
                 }
@@ -5595,7 +5504,8 @@
                     "accession_number": "",
                     "description": "Raw dataset: perceived likelihoods and impacts, individual and authorities’ preparedness and knowledge, socio-demographic characteristics in August 2020 (N=2,033 in Italy, N=2,121 in Sweden)",
                     "data_type": [
-                        "Public health data"
+                        "Public health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://zenodo.org/record/4034277#.YsfjOS8RpTY"
                 },
@@ -5605,7 +5515,8 @@
                     "accession_number": "",
                     "description": "Code for reading, processing and graphically representing the data",
                     "data_type": [
-                        "Public health data"
+                        "Public health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://github.com/elenamondino/nationwide_survey"
                 }
@@ -5820,6 +5731,7 @@
                     "accession_number": "",
                     "description": "Raw RNAseq data",
                     "data_type": [
+                        "Genomics & transcriptomics data",
                         "Protein data",
                         "Health data"
                     ],
@@ -5831,6 +5743,7 @@
                     "accession_number": "",
                     "description": "Proteomics data",
                     "data_type": [
+                        "Genomics & transcriptomics data",
                         "Protein data",
                         "Health data"
                     ],
@@ -5842,6 +5755,7 @@
                     "accession_number": "",
                     "description": "All pre-processing and analysis code",
                     "data_type": [
+                        "Genomics & transcriptomics data",
                         "Protein data",
                         "Health data"
                     ],
@@ -5907,7 +5821,8 @@
                     "accession_number": "",
                     "description": "Raw dataset: socio-demographic characteristics, sources of information regarding COVID-19, knowledge concerning COVID-19, behavior in preventing COVID-19, etc. (n=10,067)",
                     "data_type": [
-                        "Public health data"
+                        "Public health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://doi.org/10.7910/DVN/YKH9C1"
                 },
@@ -5917,7 +5832,8 @@
                     "accession_number": "",
                     "description": "Detailed description of all study variables",
                     "data_type": [
-                        "Public health data"
+                        "Public health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2352340920315018-mmc1.docx"
                 }
@@ -5944,7 +5860,8 @@
                     "accession_number": "",
                     "description": "Data cannot be publicly shared, though it is is possible to apply for access.",
                     "data_type": [
-                        "Public health data"
+                        "Public health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://www.frontiersin.org/articles/10.3389/fpubh.2020.571364/full"
                 }
@@ -5998,35 +5915,8 @@
                     "accession_number": "",
                     "description": "Supplementary materials include a list of GISAID accession numbers for the sequences used, and a summary of public intervention actions adopted in Nordic countries.",
                     "data_type": [
-                        "Health data"
-                    ],
-                    "data_url": "https://www.medrxiv.org/content/10.1101/2020.11.18.20233767v2.supplementary-material"
-                }
-            ],
-            "title": "The impact of early public health interventions on SARS-CoV-2 transmission and evolution",
-            "issue": "",
-            "volume": "",
-            "publisher": "Cold Spring Harbor Laboratory",
-            "published": "2020-11-18",
-            "author": [
-                "Duchene S.",
-                "Featherstone L.",
-                "de Blasio B. F.",
-                "Holmes E. C.",
-                "Bohlin J."
-            ]
-        },
-        {
-            "doi": "10.1101/2020.11.18.20233767",
-            "available_items": [
-                {
-                    "type": "data",
-                    "repo_name": "",
-                    "accession_number": "",
-                    "description": "Supplementary materials include a list of GISAID accession numbers for the sequences used, and a summary of public intervention actions adopted in Nordic countries.",
-                    "data_type": [
-                        "Genomics & transcriptomics data",
-                        "Public health data"
+                        "Health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://www.medrxiv.org/content/10.1101/2020.11.18.20233767v2.supplementary-material"
                 }
@@ -6053,7 +5943,7 @@
                     "accession_number": "",
                     "description": "Code for modeling the impact of NPI implementations and lifting in all US states",
                     "data_type": [
-                        "Other data",
+                        "Social science and humanities data",
                         "Health data"
                     ],
                     "data_url": "https://github.com/patrickbryant1/COVID19.github.io/tree/master/simulations/mobility/dev/US"
@@ -6064,7 +5954,7 @@
                     "accession_number": "",
                     "description": "Data for modeling the impact of NPI implementations and lifting in all US states",
                     "data_type": [
-                        "Other data",
+                        "Social science and humanities data",
                         "Health data"
                     ],
                     "data_url": "https://github.com/patrickbryant1/COVID19.github.io/tree/master/simulations/mobility/dev/US"
@@ -6117,7 +6007,7 @@
                     "description": "Code related to modelling the spread of COVID-19 on a dynamic social network with spread reduction according to Google mobility changes",
                     "data_type": [
                         "Genomics & transcriptomics data",
-                        "Other data"
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://github.com/patrickbryant1/epidemic_net"
                 },
@@ -6128,7 +6018,7 @@
                     "description": "Raw data and results related to modelling the spread of COVID-19 on a dynamic social network with spread reduction according to Google mobility changes",
                     "data_type": [
                         "Genomics & transcriptomics data",
-                        "Other data"
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://github.com/patrickbryant1/epidemic_net"
                 }
@@ -6213,6 +6103,7 @@
                     "description": "RNA-seq of SARS-CoV-2-infected human primary hepatocyte-derived spheroids upon interferon a2 and baricitinib treatment.",
                     "data_type": [
                         "Biochemistry data",
+                        "Genomics & transcriptomics data",
                         "Health data"
                     ],
                     "data_url": "https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-9711/"
@@ -6224,6 +6115,7 @@
                     "description": "Patient information are contained in the paper and supplementary information.",
                     "data_type": [
                         "Biochemistry data",
+                        "Genomics & transcriptomics data",
                         "Health data"
                     ],
                     "data_url": "https://www.science.org/doi/10.1126/sciadv.abe4724"
@@ -6251,7 +6143,6 @@
                     "accession_number": "",
                     "description": "Amount of SARS-CoV-2 in wastewater in Gothenburg per week between February and June 2020 (data available in the article).",
                     "data_type": [
-                        "Environment",
                         "Public health data"
                     ],
                     "data_url": "https://www.sciencedirect.com/science/article/pii/S0043135420311556?via%3Dihub"
@@ -6547,6 +6438,7 @@
                     "accession_number": "",
                     "description": "Data related to Austrian social media during COVID-19.",
                     "data_type": [
+                        "Social science and humanities data",
                         "Public health data"
                     ],
                     "data_url": "https://mpellert.at/covid19_monitor_austria/"
@@ -6691,6 +6583,7 @@
                     "accession_number": "",
                     "description": "Code for discriminative bayesian seroprevalence.",
                     "data_type": [
+                        "Serology data",
                         "Biochemistry data",
                         "Health data"
                     ],
@@ -6702,6 +6595,7 @@
                     "accession_number": "",
                     "description": "Data for discriminative bayesian seroprevalence.",
                     "data_type": [
+                        "Serology data",
                         "Biochemistry data",
                         "Health data"
                     ],
@@ -6713,6 +6607,7 @@
                     "accession_number": "",
                     "description": "Code used in analysis of seroprevalence data.",
                     "data_type": [
+                        "Serology data",
                         "Biochemistry data",
                         "Health data"
                     ],
@@ -6724,6 +6619,7 @@
                     "accession_number": "",
                     "description": "Seroprevalence data.",
                     "data_type": [
+                        "Serology data",
                         "Biochemistry data",
                         "Health data"
                     ],
@@ -7406,6 +7302,7 @@
                     "accession_number": "",
                     "description": "Number of COVID-19 deaths contributed by specific age group and population characteristics for 14 countries and 13 US states.",
                     "data_type": [
+                        "Social science and humanities data",
                         "Public health data"
                     ],
                     "data_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0013935120307854-mmc2.pdf"
@@ -7416,6 +7313,7 @@
                     "accession_number": "",
                     "description": "Healthcare professionals’ responses about perceptions, exposure, and workload during the COVID-19 pandemic.",
                     "data_type": [
+                        "Social science and humanities data",
                         "Public health data"
                     ],
                     "data_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0238217#sec011"
