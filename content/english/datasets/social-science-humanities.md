@@ -4,7 +4,6 @@ menu:
     data_menu:
         identifier: social
         name: Social science and humanities data
-        weight: 210
         parent: available_datasets
 
 ---

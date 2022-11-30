@@ -4,7 +4,6 @@ menu:
     data_menu:
         identifier: serology_data
         name: Serology data
-        weight: 190
         parent: available_datasets
 aliases:
     - /sv/data_types/serology/data/

@@ -4,7 +4,6 @@ menu:
     data_menu:
         identifier: imaging
         name: Imaging data
-        weight: 110
         parent: available_datasets
 aliases:
     - /sv/data_types/imaging_data/data/

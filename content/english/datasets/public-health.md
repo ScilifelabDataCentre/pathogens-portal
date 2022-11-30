@@ -4,7 +4,6 @@ menu:
     data_menu:
         identifier: public_health
         name: Public health data
-        weight: 170
         parent: available_datasets
 aliases:
     - /sv/data_types/public_health/data/

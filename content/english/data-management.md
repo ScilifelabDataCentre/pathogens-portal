@@ -5,7 +5,6 @@ menu:
     data_menu:
         identifier: datamanagement
         name: Data management
-        weight: 50
 aliases:
     - /support_services/data_management/
     - /sv/support_services/data_management/

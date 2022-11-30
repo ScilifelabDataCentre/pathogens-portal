@@ -4,7 +4,6 @@ menu:
     data_menu:
         identifier: other
         name: Other data
-        weight: 130
         parent: available_datasets
 aliases:
     - /sv/data_types/other_data/data/
