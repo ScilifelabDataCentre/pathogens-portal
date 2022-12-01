@@ -1,5 +1,5 @@
 {
-    "last_updated": "2022-11-18",
+    "last_updated": "2022-12-01",
     "datasets": [
         {
             "doi": "10.1371/journal.pgen.1010367",
@@ -139,7 +139,7 @@
                     "type": "Data",
                     "repo_name": "Open Science Framework",
                     "accession_number": "",
-                    "description": "The data that support the findings of this study",
+                    "description": "Survey data from 321 early career dementia researchers, including relevant socialdemographic characteristics",
                     "data_type": [
                         "Social science and humanities data"
                     ],
