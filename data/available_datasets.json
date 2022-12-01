@@ -1,6 +1,164 @@
 {
-    "last_updated": "2022-11-18",
+    "last_updated": "2022-12-01",
     "datasets": [
+        {
+            "doi": "10.1371/journal.pgen.1010367",
+            "available_items": [
+                {
+                    "type": "Data",
+                    "repo_name": "GWAS Catalog",
+                    "accession_number": "GCST90132193",
+                    "description": "Single variant association studies summary statistics",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://www.ebi.ac.uk/gwas/studies/GCST90132193"
+                },
+                {
+                    "type": "Data",
+                    "repo_name": "GWAS Catalog",
+                    "accession_number": "GCST90132194",
+                    "description": "Single variant association studies summary statistics",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://www.ebi.ac.uk/gwas/studies/GCST90132194"
+                },
+                {
+                    "type": "Data",
+                    "repo_name": "GWAS Catalog",
+                    "accession_number": "GCST90132195",
+                    "description": "Single variant association studies summary statistics",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://www.ebi.ac.uk/gwas/studies/GCST90132195"
+                },
+                {
+                    "type": "Code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Analysis scripts",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://github.com/DrGBL/WES.WGS"
+                }
+            ],
+            "title": "Exome-wide association study to identify rare variants influencing COVID-19 outcomes: Results from the Host Genetics Initiative",
+            "issue": "11",
+            "volume": "18",
+            "publisher": "Public Library of Science (PLoS)",
+            "published": "2022-11-03",
+            "author": [
+                "Butler-Laporte G.",
+                "Povysil G.",
+                "Kosmicki J. A.",
+                "Cirulli E. T.",
+                "Drivas T."
+            ]
+        },
+        {
+            "doi": "10.1371/journal.ppat.1010931",
+            "available_items": [
+                {
+                    "type": "Data",
+                    "repo_name": "Gene Expression Omnibus",
+                    "accession_number": "GSE196472",
+                    "description": "Raw sequencing data",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196472"
+                },
+                {
+                    "type": "Data",
+                    "repo_name": "Gene Expression Omnibus",
+                    "accession_number": "GSE196473",
+                    "description": "Processed sequencing data",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196473"
+                }
+            ],
+            "title": "Cross-protection against African swine fever virus upon intranasal vaccination is associated with an adaptive-innate immune crosstalk",
+            "issue": "11",
+            "volume": "18",
+            "publisher": "Public Library of Science (PLoS)",
+            "published": "2022-11-09",
+            "author": [
+                "Bosch-Camós L.",
+                "Alonso U.",
+                "Esteve-Codina A.",
+                "Chang C.",
+                "Martín-Mur B."
+            ]
+        },
+        {
+            "doi": "10.1038/s41598-022-23415-2",
+            "available_items": [
+                {
+                    "type": "Data",
+                    "repo_name": "Open Science Framework",
+                    "accession_number": "",
+                    "description": "All survey data and study material used in this project",
+                    "data_type": [
+                        "Social science and humanities data"
+                    ],
+                    "data_url": "https://osf.io/c8zhn/"
+                },
+                {
+                    "type": "Code",
+                    "repo_name": "Open Science Framework",
+                    "accession_number": "Code used for analysis",
+                    "description": "",
+                    "data_type": [
+                        "Social science and humanities data"
+                    ],
+                    "data_url": "https://osf.io/c8zhn/"
+                }
+            ],
+            "title": "Acute anxiety during the COVID-19 pandemic was associated with higher levels of everyday altruism",
+            "issue": "1",
+            "volume": "12",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2022-11-03",
+            "author": [
+                "Vieira J. B.",
+                "Pierzchajlo S.",
+                "Jangard S.",
+                "Marsh A. A.",
+                "Olsson A."
+            ]
+        },
+        {
+            "doi": "10.1371/journal.pone.0277470",
+            "available_items": [
+                {
+                    "type": "Data",
+                    "repo_name": "Open Science Framework",
+                    "accession_number": "",
+                    "description": "Survey data from 321 early career dementia researchers, including relevant socialdemographic characteristics",
+                    "data_type": [
+                        "Social science and humanities data"
+                    ],
+                    "data_url": "https://osf.io/fr8j2/"
+                }
+            ],
+            "title": "Impact of the COVID-19 pandemic on early career dementia researchers: A global online survey",
+            "issue": "11",
+            "volume": "17",
+            "publisher": "Public Library of Science (PLoS)",
+            "published": "2022-11-09",
+            "author": [
+                "Bartels S. L.",
+                "Shaaban C. E.",
+                "Brum W. S.",
+                "Welikovitch L. A.",
+                "Folarin R."
+            ]
+        },
         {
             "doi": "10.3389/fpubh.2022.996036",
             "available_items": [
