@@ -8,7 +8,6 @@ menu:
     data_menu:
         identifier: highlights
         name: Data highlights
-        weight: 20
     homepage_highlights:
         name: Data highlights
         identifier: highlights

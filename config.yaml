@@ -1,5 +1,6 @@
 baseURL: "https://www.covid19dataportal.se/"
 title: "The Swedish COVID-19 & Pandemic Preparedness Data Portal"
+buildFuture: true
 params:
   title: "The Swedish COVID-19 & Pandemic Preparedness Data Portal"
   description: The Swedish COVID-19 & Pandemic Preparedness Data Portal

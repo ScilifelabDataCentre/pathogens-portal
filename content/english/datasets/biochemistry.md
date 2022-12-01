@@ -4,7 +4,6 @@ menu:
     data_menu:
         identifier: biochemistry
         name: Biochemistry data
-        weight: 50
         parent: available_datasets
 aliases:
     - /data_types/compound_and_target_data/
