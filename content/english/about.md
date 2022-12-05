@@ -96,7 +96,7 @@ The team are happy to help with using the Portal, to take suggestions regarding 
 <div class="col-md-2 pt-2">
      <div class="row-col"><img src="/img/people/ak.jpg" width="150" class="img-thumbnail"/></div>
       <div class="row-col"><b>Arnold Kochari</b></div>
-      <div class="row-col"><span class="text-muted">Project leader</span></div> 
+      <div class="row-col"><span class="text-muted">Project leader</span></div>
     </div>
     <div class="col-md-2 pt-2">
       <div class="row-col"><img src="/img/people/kos.jpeg" width="150" class="img-thumbnail"/></div>
