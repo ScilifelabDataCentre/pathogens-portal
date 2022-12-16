@@ -25,7 +25,7 @@ Om du vill bidra med innehåll eller har förslag på förbättringar av webbpla
 
 ### Organisationerna bakom portalen
 
-##### [Pandemisk laboratoriebereskap](https://www.scilifelab.se/capabilities/pandemic-laboratory-preparedness/)
+##### [SciLifeLabs forskningsprogram för pandemisk laboratorieberedskap](https://www.scilifelab.se/capabilities/pandemic-laboratory-preparedness/)
 
 <figure class="figure float-right mx-3"><img height="150" alt="PLP logo" src="/img/plp_default2.png"></figure>
 
@@ -33,7 +33,7 @@ SciLifeLab (Science for Life Laboratory) fick i uppdrag av regeringen att bygga 
 
 Forskningsprogrammet för [pandemisk laboratorieberedskap](https://www.scilifelab.se/capabilities/pandemic-laboratory-preparedness/)  startades genom ett regeringsuppdrag i december 2020. De resurser och verktyg (sk ‘capabilities’) som byggs upp inomPLP programmet skall utgöra ett komplement till de resurser för pandemisk beredskap som exempelvis myndigheter, regioner och kommuner har byggt upp. PLP programmet har ett nära samarbete med myndigheter som [Folkhälsomyndigheten](https://folkhalsomyndigheten.se).
 
-Den första ansökningsomgången inom PLP program gick ut i februari 2021. Åtta projekt fick anslag för från juli 2021 att börja bygga upp resurser för pandemisk beredskap. Idag stöder forskningsprogrammet ett nätverk av 21 projekt både för att bygga resurser och för teknikutveckling. Fler anlag kommer utlysas under 2023.
+Den första ansökningsomgången inom PLP programmet gick ut i februari 2021. Åtta projekt fick anslag för från juli 2021 att börja bygga upp resurser för pandemisk beredskap. Idag stöder forskningsprogrammet ett nätverk av 21 projekt både för att bygga resurser och för teknikutveckling. Fler anlag kommer utlysas under 2023.
 
 Läs mer om PLP programmet och de resurser som byggs upp inom nätverket på [pandemic preparedness resources](https://www.covid19dataportal.se/resources/).
 
@@ -43,7 +43,7 @@ Läs mer om PLP programmet och de resurser som byggs upp inom nätverket på [pa
 
 SciLifeLab är ett nationellt center för molekylära biovetenskaper med fokus på forskning inom hälsa och miljö. Centret kombinerar ledande teknisk expertis med avancerat kunnande inom translationell medicin och molekylära biovetenskaper. Vårt mål är också att bygga en stark forskargruppering kring SciLifeLab genom utbildning och samverkan. SciLifeLab är en nationell resurs som drivs av [Karolinska Institutet](https://www.ki.se/), [Kungliga Tekniska Högskolan](https://www.kth.se/), [Stockholms universitet](https://www.su.se/) och [Uppsala universitet](https://www.uu.se/). Vi samarbetar med flera andra svenska universitet.
 
-SciLifeLab kombinerar teknisk expertis med avancerad kunskap inom translationell medicin och molekylärbiologi. Forskare i hela Sverige kan använda både de tekniker och den kunskap som finns på SciLifeLab.
+SciLifeLab kombinerar teknisk expertis med avancerad kunskap inom translationell medicin och molekylärbiologi. Forskare från hela Sverige kan använda både de tekniker och den kunskap som finns på SciLifeLab.
 
 ##### [SciLifeLab Data Centre](https://scilifelab.se/data)
 
@@ -51,7 +51,7 @@ SciLifeLab kombinerar teknisk expertis med avancerad kunskap inom translationell
 
 Biomedicinsk forskning är inte bara teknikdriven utan blir alltmer datadriven. SciLifeLab samordnar och stöder aktiviteter under hela livscykeln för data, från projektplanering, dataproduktion, dataanalys, datadelning, till publicering och återanvändning av data, där forskare är beroende av avancerad dataanalys och e-infrastruktur.
 
-Vårt fokus är på data som härrör från användningen av SciLifeLab-infrastrukturplattformar, både för att främja forskning om att tillföra värde till data, forskning som härleder biologisk kunskap från data och infrastruktur som gör data sökbara och tillgängliga. På SciLifeLab Data Centre ser vi data som en av de mest värdefulla och långvariga produkterna i våra verksamheter och strävar efter att göra våra data [FAIR](https://www.force11.org/group/fairgroup/fairprinciples), att den hanteras enligt öppna vetenskapliga standarder och att dess långsiktiga värde för det vetenskapliga samfundet maximeras.
+Vårt fokus är på data som härrör från användningen av SciLifeLab-infrastrukturplattformar, både för att främja forskning om att tillföra värde till data, forskning som härleder biologisk kunskap från data och infrastruktur som gör data sökbara och tillgängliga. På SciLifeLab Data Centre ser vi data som en av de mest värdefulla och långvariga produkterna i våra verksamheter. Data Centre strävar efter att data skall följa [FAIR](https://www.force11.org/group/fairgroup/fairprinciples), och Open Science, hanteras enligt öppna vetenskapliga standarder och att dess långsiktiga värde för det vetenskapliga samfundet maximeras.
 
 ### Samarbetsorganisationer
 
@@ -59,7 +59,7 @@ Vårt fokus är på data som härrör från användningen av SciLifeLab-infrastr
 
 <figure class="figure float-right mx-3"><img height="50" alt="The European COVID-19 Data Platform logo" src="/img/logos/european_covid19dataportal.svg"></figure>
 
-Den svenska dataportalen för Covid-19 & pandemisk beredskap är den nationella noden för den europeiska Covid-19 dataplattformen, som drivs av European Bioinformatics Institute, som är en del av European Molecular Biology Laboratory (EMBL-EBI), tillsammans med EU- kommissionen, EU:s medlemsländer, och med forskningspartners som ELIXIR. En översikt över nationella noder finns [här](https://covid19dataportal.se/partners/).
+Den svenska dataportalen för Covid-19 & pandemisk beredskap är den nationella noden för den europeiska Covid-19 dataplattformen. Den europeiska Covid-19 dataplattformen drivs av European Bioinformatics Institute, som är en del av European Molecular Biology Laboratory (EMBL-EBI), tillsammans med EU- kommissionen, EU:s medlemsländer, och med forskningspartners som ELIXIR. En översikt över nationella noder finns [här](https://covid19dataportal.se/partners/).
 
 Den europeiska COVID-19 dataplattformen har som syfte att och stödja datadelning och analys, och att verka för snabbare COVID-19 forskning. Plattformen ger stöd för delning, tillgänglig-görande och analys av Covid-19 relaterade forskningsdata och specifika dataset. Plattformen är synkroniserad med COVID-19-relaterade data och vetenskapligt output som finns i EMBL-EBI’s dataresurser, inkl. [ENA](https://www.ebi.ac.uk/ena/browser/), [UniProt](https://www.uniprot.org/), [PDBe](https://www.ebi.ac.uk/pdbe/), [EMDB](https://www.ebi.ac.uk/emdb/), [Expression Atlas](https://www.ebi.ac.uk/gxa/home) och [Europe PMC](https://europepmc.org/). Datamängden växer hela tiden, diversiteten och volymen ökar, och inkluderar idag sekvensdata, strukturer, expressionsdata, molekylära screenings, biokemiska data och vetenskapliga publikationer: <https://www.uniprot.org/>.
 
@@ -67,7 +67,7 @@ Den europeiska COVID-19 dataplattformen har som syfte att och stödja datadelnin
 
 <figure class="figure float-right mx-3"><img height="40" alt="BY-COVID logo" src="/img/logos/by-covid-logo.svg"></figure>
 
-Den svenska Dataportalen för Covid-19 & Pandemisk Beredskap är en av ett flertal partner i BeYond COVID konsortiet [BY-COVID](https://by-covid.org/). BY-COVID finansieras av EU-kommissionen och inkluderar totalt 53 partnerprojekt från19 länder. Intresseorganisationerna spänner från biomedicinsk vetenskap till sjukvård, folkhälsa, samhällsvetenskap och humaniora. BY-COVID projektets syfte är att göra Covid-19 relaterade data mer lättillgängliga för forskarsamhället, men även för forskare och verksamma inom sjukvård och myndigheter.
+Den svenska Dataportalen för Covid-19 & Pandemisk Beredskap är en av ett flertal partner i BeYond COVID konsortiet [BY-COVID](https://by-covid.org/). BY-COVID finansieras av EU-kommissionen och inkluderar totalt 53 partnerprojekt från19 länder. Intresseorganisationerna spänner från biomedicinsk vetenskap till sjukvård, folkhälsa, samhällsvetenskap och humaniora. BY-COVID projektets syfte är att göra Covid-19 relaterade data mer lättillgängliga för forskarsamhället, men även för verksamma inom sjukvård och myndigheter.
 
 Framåt är ett annat syfte att tillhandahålla ett ramverk för att göra forskningsdata från infektionsområdet öppna och tillgängliga för alla. Projektet kommer att interagera med redan tillgängliga infrastrukturer som ELIXIR, BBMRI, ECRIN, PHIRI and CESSDA. Målet är att bygga på redan tillgängliga resurser, som COVID-19 dataplattformen och Versatile Emerging infectious disease Observatory project (VEO), för att maximera nyttan. Projektet kommer även att utveckla synergier med European Health Data Space.
 
