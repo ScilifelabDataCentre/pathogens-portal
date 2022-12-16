@@ -26,7 +26,7 @@ Dahmane and colleagues infected HeLa cells with poliovirus type 1, imaged the cy
 
 In addition, cryo-electron tomograms revealed a multi-layer selectivity in enterovirus-induced autophagy. The autophagy was shown to be able to selectively choose RNA-containing virions over empty capsids, and segregating virions from other types of autophagosome contents. These results have contributed novel insights into the structural framework for multiple stages of the poliovirus life cycle. Future studies to build on this knowledge and further elucidate enterovirus-induced autophagy are warranted and important for pandemic preparedness efforts.
 
-#### Data
+#### Data and code availability
 
 * The subtomogram average maps have been deposited in the Electron Microscopy Data Bank (EMDB) under accession codes [EMD-15390](https://www.ebi.ac.uk/emdb/EMD-15390) (empty capsid), [EMD-15391](https://www.ebi.ac.uk/emdb/EMD-15391) (RNA-loaded virion), [EMD-15392](https://www.ebi.ac.uk/emdb/EMD-15392) (tethered virion), and [EMD-13682](https://www.ebi.ac.uk/emdb/EMD-13682) (filament). [Source data](https://www.nature.com/articles/s41467-022-33483-7#Sec29) are provided with this paper.
 * The script used to pick filament subtomograms from Amira filament tracings is available at [GitHub](https://github.com/Lars-AndersCarlson/Filament).
@@ -41,4 +41,4 @@ Dahmane, S., Kerviel, A., Morado, D.R. et al. Membrane-assisted assembly and sel
 
 This study was funded by the European Union’s Horizon 2020 research and innovation program under the Marie Skłodowska-Curie, the Human Frontier Science Program (Career Development Award, and the Knut and Alice Wallenberg Foundation (through the Wallenberg Centre for Molecular Medicine Umeå)
 
-Read more about the research group at center affiliation is Wallenberg Centre for Molecular Medicine (WCMM) [here](https://www.umu.se/forskning/grupper/lars-anders-carlson/).
+Read more about the research group at Umeå university/Wallenberg Centre for Molecular Medicine (WCMM) [here](https://www.umu.se/forskning/grupper/lars-anders-carlson/).
