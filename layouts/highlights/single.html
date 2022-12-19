@@ -1,5 +1,11 @@
 {{ define "main" }}
 
+{{ if .Params.announcement }}
+  <div class="bg-light-gray border rounded py-2 px-4 my-3 fst-italic" style="background-color: #E5E5E5;">
+    {{ .Params.announcement | markdownify }}
+  </div>
+{{ end }}
+
 {{ range (.GetTerms "highlights_topics") }}
 <span class="topic_badge_large
   {{ if eq .LinkTitle "COVID-19"}}topic_badge_covid

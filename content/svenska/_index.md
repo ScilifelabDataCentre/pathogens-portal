@@ -17,4 +17,8 @@ teststats:
 plotly: true
 ---
 
-Den Svenska Dataportalen för Covid-19 & Pandemisk Beredskap tillhandahåller information, riktlinjer, verktyg och tjänster för att stödja forskare vid svenska lärosäten verksamma inom forskningsfältet pandemisk beredskap med datarelaterade frågor. Dataportalen drivs av [SciLifeLab Data Centre](https://scilifelab.se/data/) och samarbetspartners. Förslag, ändringar och kommentarer är [alltid välkomna](/sv/contribute/).
+Den svenska dataportalen för Covid-19 & pandemisk beredskap tillhandahåller information, riktlinjer, verktyg och tjänster för att stödja forskare vid svenska lärosäten verksamma inom forskningsfältet pandemisk beredskap med data-relaterade frågor.
+
+Portalen är involverad i ett flertal forskningsprojekt och initiativ. Den är den svenska noden i ett europeiskt nätverk av dataportaler som byggts upp kring [European COVID-19 Data Platform](https://covid19dataportal.org/). Portalen är idag en central del av [SciLifeLabs forskningsprogram för pandemisk laboratorieberedskap (PLP)](https://www.scilifelab.se/capabilities/pandemic-laboratory-preparedness/), och en partner inom EU-projektet [Horizon BY-COVID](https://by-covid.org/).
+
+Portalen drivs av [SciLifeLab Data Centre](https://scilifelab.se/data) och partners. För mer information om portalen, och teamet bakom Portalen se [denna sida](/sv/about/). Vi välkomnar bidrag och innehåll från forskarsamhället, en Editorial Committee kommer snart att etableras för att ökat community engagement med forskarsamhället. Som forskare kan du bidra på olika sätt till att utveckla Portalen, kontakta oss gärna!
