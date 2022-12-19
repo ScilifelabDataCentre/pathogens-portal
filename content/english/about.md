@@ -93,35 +93,35 @@ The team are happy to help with using the Portal, to take suggestions regarding 
 
 <div class="container mb-3">
   <div class="row">
-<!---     <div class="col-md-2 pt-2">
-     <div class="row-cor"><img src="/img/people/ak.jpg" width="150" class="img-thumbnail"/></div>
-      <div class="row-cor"><b>Arnold Kochari</b></div>
-      <div class="row-cor"><span class="text-muted">Project leader</span></div> 
-    </div>-->
-    <div class="col-md-2 pt-2">
-      <div class="row-cor"><img src="/img/people/kos.jpeg" width="150" class="img-thumbnail"/></div>
-      <div class="row-cor"><b>Katarina Öjefors Stark</b></div>
-      <div class="row-cor"><span class="text-muted">Data steward</span></div>
+<div class="col-md-2 pt-2">
+     <div class="row-col"><img src="/img/people/ak.jpg" width="150" class="img-thumbnail"/></div>
+      <div class="row-col"><b>Arnold Kochari</b></div>
+      <div class="row-col"><span class="text-muted">Project leader</span></div>
     </div>
     <div class="col-md-2 pt-2">
-      <div class="row-cor"><img src="/img/people/lh.png" width="150" class="img-thumbnail"/></div>
-      <div class="row-cor"><b>Liane Hughes</b></div>
-      <div class="row-cor"><span class="text-muted">Data engineer</span></div>
+      <div class="row-col"><img src="/img/people/kos.jpeg" width="150" class="img-thumbnail"/></div>
+      <div class="row-col"><b>Katarina Öjefors Stark</b></div>
+      <div class="row-col"><span class="text-muted">Data steward</span></div>
     </div>
     <div class="col-md-2 pt-2">
-      <div class="row-cor"><img src="/img/people/sp.jpeg" width="150" class="img-thumbnail"/></div>
-      <div class="row-cor"><b>Senthilkumar Panneerselvam</b></div>
-      <div class="row-cor"><span class="text-muted">Systems developer</span></div>
+      <div class="row-col"><img src="/img/people/lh.png" width="150" class="img-thumbnail"/></div>
+      <div class="row-col"><b>Liane Hughes</b></div>
+      <div class="row-col"><span class="text-muted">Data engineer</span></div>
     </div>
     <div class="col-md-2 pt-2">
-      <div class="row-cor"><img src="/img/people/hk.jpg" width="150" class="img-thumbnail"/></div>
-      <div class="row-cor"><b>Hanna Kultima</b></div>
-      <div class="row-cor"><span class="text-muted">Data management team leader at SciLifeLab</span></div>
+      <div class="row-col"><img src="/img/people/sp.jpeg" width="150" class="img-thumbnail"/></div>
+      <div class="row-col"><b>Senthilkumar Panneerselvam</b></div>
+      <div class="row-col"><span class="text-muted">Systems developer</span></div>
     </div>
     <div class="col-md-2 pt-2">
-      <div class="row-cor"><img src="/img/people/jr.jpg" width="150" class="img-thumbnail"/></div>
-      <div class="row-cor"><b>Johan Rung</b></div>
-      <div class="row-cor"><span class="text-muted">Head of the SciLifeLab Data Centre</span></div>
+      <div class="row-col"><img src="/img/people/hk.jpg" width="150" class="img-thumbnail"/></div>
+      <div class="row-col"><b>Hanna Kultima</b></div>
+      <div class="row-col"><span class="text-muted">Data management team leader at SciLifeLab</span></div>
+    </div>
+    <div class="col-md-2 pt-2">
+      <div class="row-col"><img src="/img/people/jr.jpg" width="150" class="img-thumbnail"/></div>
+      <div class="row-col"><b>Johan Rung</b></div>
+      <div class="row-col"><span class="text-muted">Head of the SciLifeLab Data Centre</span></div>
     </div>
   </div>
 </div>
