@@ -1,6 +1,4 @@
-<!-- form action="https://forms.dckube.scilifelab.se/api/v1/form/SCWgJNpbx71kp9Ez/incoming" class="needs-validation" novalidate method="POST" accept-charset="utf-8" -->
-<form action="http://localhost:5050/api/v1/form/XRuX1lk-wXtQkn8d/incoming" method="POST" class="needs-validation" novalidate accept-charset="utf-8">
-
+<form action="https://forms.dckube.scilifelab.se/api/v1/form/SCWgJNpbx71kp9Ez/incoming" class="needs-validation" novalidate method="POST" accept-charset="utf-8">
   <div class="accordion md-accordion" id="accordionForm" role="tablist" aria-multiselectable="true">
     <div class="card">
       <div class="card-header" role="tab" id="generalinfo">
@@ -144,15 +142,15 @@
           <div class="form-group types_sweden">
             <label for="types_sweden"><b>Collection type(s) according to categorization in Sweden:*</b></label>
             <div class="form-check">
-              <input id="SAMPLE_COLLECTION_TYPE_HEALTHCARE_sample_collection" type="checkbox"
-                name="SAMPLE_COLLECTION_TYPE_HEALTHCARE_sample_collection" required>
-              <label for="SAMPLE_COLLECTION_TYPE_HEALTHCARE_sample_collection" class="form-check-label">Healthcare
+              <input id="SAMPLE_COLLECTION_TYPE_HEALTHCARE" type="checkbox"
+                name="SAMPLE_COLLECTION_TYPE_HEALTHCARE" value="Healthcare sample collection" required>
+              <label for="SAMPLE_COLLECTION_TYPE_HEALTHCARE" class="form-check-label">Healthcare
                 sample collection</label>
             </div>
             <div class="form-check">
-              <input id="SAMPLE_COLLECTION_TYPE_RESEARCH_sample_collection" type="checkbox"
-                name="SAMPLE_COLLECTION_TYPE_RESEARCH_sample_collection" required>
-              <label for="SAMPLE_COLLECTION_TYPE_RESEARCH_sample_collection" class="form-check-label">Research sample
+              <input id="SAMPLE_COLLECTION_TYPE_RESEARCH" type="checkbox"
+                name="SAMPLE_COLLECTION_TYPE_RESEARCH" value="Research sample collection" required>
+              <label for="SAMPLE_COLLECTION_TYPE_RESEARCH" class="form-check-label">Research sample
                 collection</label>
               <div class="invalid-feedback"><b>Choose at least one collection type.</b></div>
             </div>
@@ -162,72 +160,82 @@
             <label for="types_bbmri"><b>Collection type(s) according to BBMRI-ERIC:*</b></label>
             <div class="form-check">
               <input id="COLLECTION_TYPE_PROSPECTIVE_COLLECTION" type="checkbox"
-                name="COLLECTION_TYPE_PROSPECTIVE_COLLECTION" required>
+               name="COLLECTION_TYPE_PROSPECTIVE_COLLECTION" value="A prospective study" required>
               <label for="COLLECTION_TYPE_PROSPECTIVE_COLLECTION" class="form-check-label">A prospective study</label>
             </div>
             <div class="form-check">
-              <input id="COLLECTION_TYPE_BIRTH_COHORT" type="checkbox" name="COLLECTION_TYPE_BIRTH_COHORT" required>
+              <input id="COLLECTION_TYPE_BIRTH_COHORT" type="checkbox"
+               name="COLLECTION_TYPE_BIRTH_COHORT" value="Birth cohort" required>
               <label for="COLLECTION_TYPE_BIRTH_COHORT" class="form-check-label">Birth cohort</label>
             </div>
             <div class="form-check">
-              <input id="COLLECTION_TYPE_CASE_CONTROL" type="checkbox" name="COLLECTION_TYPE_CASE_CONTROL" required>
+              <input id="COLLECTION_TYPE_CASE_CONTROL" type="checkbox"
+               name="COLLECTION_TYPE_CASE_CONTROL" value="Case-Control" required>
               <label for="COLLECTION_TYPE_CASE_CONTROL" class="form-check-label">Case-Control</label>
             </div>
             <div class="form-check">
-              <input id="COLLECTION_TYPE_COHORT" type="checkbox" name="COLLECTION_TYPE_COHORT" required>
+              <input id="COLLECTION_TYPE_COHORT" type="checkbox"
+               name="COLLECTION_TYPE_COHORT" value="Cohort" required>
               <label for="COLLECTION_TYPE_COHORT" class="form-check-label">Cohort</label>
             </div>
             <div class="form-check">
-              <input id="COLLECTION_TYPE_CROSS_SECTIONAL" type="checkbox" name="COLLECTION_TYPE_CROSS_SECTIONAL"
-                required>
+              <input id="COLLECTION_TYPE_CROSS_SECTIONAL" type="checkbox"
+               name="COLLECTION_TYPE_CROSS_SECTIONAL" value="Cross-sectional" required>
               <label for="COLLECTION_TYPE_CROSS_SECTIONAL" class="form-check-label">Cross-sectional</label>
             </div>
             <div class="form-check">
-              <input id="COLLECTION_TYPE_DISEASE_SPECIFIC" type="checkbox" name="COLLECTION_TYPE_DISEASE_SPECIFIC"
-                required>
+              <input id="COLLECTION_TYPE_DISEASE_SPECIFIC" type="checkbox"
+               name="COLLECTION_TYPE_DISEASE_SPECIFIC" value="Disease specific" required>
               <label for="COLLECTION_TYPE_DISEASE_SPECIFIC" class="form-check-label">Disease specific</label>
             </div>
             <div class="form-check">
-              <input id="COLLECTION_TYPE_HOSPITAL" type="checkbox" name="COLLECTION_TYPE_HOSPITAL" required>
+              <input id="COLLECTION_TYPE_HOSPITAL" type="checkbox"
+               name="COLLECTION_TYPE_HOSPITAL" value="Hospital" required>
               <label for="COLLECTION_TYPE_HOSPITAL" class="form-check-label">Hospital</label>
             </div>
             <div class="form-check">
-              <input id="COLLECTION_TYPE_IMAGE" type="checkbox" name="COLLECTION_TYPE_IMAGE" required>
+              <input id="COLLECTION_TYPE_IMAGE" type="checkbox"
+               name="COLLECTION_TYPE_IMAGE" value="Image collection" required>
               <label for="COLLECTION_TYPE_IMAGE" class="form-check-label">Image collection</label>
             </div>
             <div class="form-check">
-              <input id="COLLECTION_TYPE_LONGITUDINAL" type="checkbox" name="COLLECTION_TYPE_LONGITUDINAL" required>
+              <input id="COLLECTION_TYPE_LONGITUDINAL" type="checkbox"
+               name="COLLECTION_TYPE_LONGITUDINAL" value="Longitudinal" required>
               <label for="COLLECTION_TYPE_LONGITUDINAL" class="form-check-label">Longitudinal</label>
             </div>
             <div class="form-check">
-              <input id="COLLECTION_TYPE_NON_HUMAN" type="checkbox" name="COLLECTION_TYPE_NON_HUMAN" required>
+              <input id="COLLECTION_TYPE_NON_HUMAN" type="checkbox"
+               name="COLLECTION_TYPE_NON_HUMAN" value="Non-human" required>
               <label for="COLLECTION_TYPE_NON_HUMAN" class="form-check-label">Non-human</label>
             </div>
             <div class="form-check">
-              <input id="COLLECTION_TYPE_POPULATION_BASED" type="checkbox" name="COLLECTION_TYPE_POPULATION_BASED"
-                required>
+              <input id="COLLECTION_TYPE_POPULATION_BASED" type="checkbox"
+               name="COLLECTION_TYPE_POPULATION_BASED" value="Population-based" required>
               <label for="COLLECTION_TYPE_POPULATION_BASED" class="form-check-label">Population-based</label>
             </div>
             <div class="form-check">
-              <input id="COLLECTION_TYPE_QUALITY_CONTROL" type="checkbox" name="COLLECTION_TYPE_QUALITY_CONTROL"
-                required>
+              <input id="COLLECTION_TYPE_QUALITY_CONTROL" type="checkbox"
+               name="COLLECTION_TYPE_QUALITY_CONTROL" value="Quality control" required>
               <label for="COLLECTION_TYPE_QUALITY_CONTROL" class="form-check-label">Quality control</label>
             </div>
             <div class="form-check">
-              <input id="COLLECTION_TYPE_RD" type="checkbox" name="COLLECTION_TYPE_RD" required>
+              <input id="COLLECTION_TYPE_RD" type="checkbox"
+               name="COLLECTION_TYPE_RD" value="Rare disease" required>
               <label for="COLLECTION_TYPE_RD" class="form-check-label">Rare disease collection</label>
             </div>
             <div class="form-check">
-              <input id="COLLECTION_TYPE_SAMPLE_COLLECTION" type="checkbox" name="COLLECTION_TYPE_SAMPLE_COLLECTION"
-                required>
+              <input id="COLLECTION_TYPE_SAMPLE_COLLECTION" type="checkbox"
+               name="COLLECTION_TYPE_SAMPLE_COLLECTION" value="Sample collection" required>
               <label for="COLLECTION_TYPE_SAMPLE_COLLECTION" class="form-check-label">Sample collection</label>
             </div>
             <div class="form-check">
-              <input id="COLLECTION_TYPE_TWIN_STUDY" type="checkbox" name="COLLECTION_TYPE_TWIN_STUDY" required>
+              <input id="COLLECTION_TYPE_TWIN_STUDY" type="checkbox"
+               name="COLLECTION_TYPE_TWIN_STUDY" value="Twin-study" required>
               <label for="COLLECTION_TYPE_TWIN_STUDY" class="form-check-label">Twin-study</label>
             </div>
             <div class="form-check">
-              <input id="COLLECTION_TYPE_OTHER" type="checkbox" name="OTHER" required>
+              <input id="COLLECTION_TYPE_OTHER" type="checkbox"
+               name="OTHER" value="Other" required>
               <label for="COLLECTION_TYPE_OTHER" class="form-check-label">Other</label>
               <div class="invalid-feedback"><b>Choose at least one collection type.</b></div>
             </div>
@@ -237,73 +245,83 @@
           <div class="form-group data_categories">
             <label for="data_categories"><b>Data categories:*</b></label>
             <div class="form-check">
-              <input id="DATA_CATEGORY_ANTIBODIES" type="checkbox" name="DATA_CATEGORY_ANTIBODIES" required>
+              <input id="DATA_CATEGORY_ANTIBODIES" type="checkbox"
+               name="DATA_CATEGORY_ANTIBODIES" value="Antibodies" required>
               <label for="DATA_CATEGORY_ANTIBODIES" class="form-check-label">Antibodies titer (IgM and IgG)</label>
             </div>
             <div class="form-check">
-              <input id="DATA_CATEGORY_BIOLOGICAL_SAMPLES" type="checkbox" name="DATA_CATEGORY_BIOLOGICAL_SAMPLES"
-                required>
+              <input id="DATA_CATEGORY_BIOLOGICAL_SAMPLES" type="checkbox"
+               name="DATA_CATEGORY_BIOLOGICAL_SAMPLES" value="Biological samples" required>
               <label for="DATA_CATEGORY_BIOLOGICAL_SAMPLES" class="form-check-label">Biological samples</label>
             </div>
             <div class="form-check">
-              <input id="DATA_CATEGORY_BLOOD" type="checkbox" name="DATA_CATEGORY_BLOOD" required>
+              <input id="DATA_CATEGORY_BLOOD" type="checkbox"
+               name="DATA_CATEGORY_BLOOD" value="Blood" required>
               <label for="DATA_CATEGORY_BLOOD" class="form-check-label">Blood count and other lab results especially at
                 the moment of hospital admission</label>
             </div>
             <div class="form-check">
-              <input id="DATA_CATEGORY_CT" type="checkbox" name="DATA_CATEGORY_CT" required>
+              <input id="DATA_CATEGORY_CT" type="checkbox"
+               name="DATA_CATEGORY_CT" value="CT imaging/Xray" required>
               <label for="DATA_CATEGORY_CT" class="form-check-label">CT imaging of lungs, alternatively Xray</label>
             </div>
             <div class="form-check">
-              <input id="DATA_CATEGORY_CLINICAL_SYMPTOMS" type="checkbox" name="DATA_CATEGORY_CLINICAL_SYMPTOMS"
-                required>
+              <input id="DATA_CATEGORY_CLINICAL_SYMPTOMS" type="checkbox"
+               name="DATA_CATEGORY_CLINICAL_SYMPTOMS" value="Clinical symptoms" required>
               <label for="DATA_CATEGORY_CLINICAL_SYMPTOMS" class="form-check-label">Data on clinical symptoms</label>
             </div>
             <div class="form-check">
-              <input id="DATA_CATEGORY_DiseaseDuration" type="checkbox" name="DATA_CATEGORY_DiseaseDuration" required>
+              <input id="DATA_CATEGORY_DiseaseDuration" type="checkbox"
+               name="DATA_CATEGORY_DiseaseDuration" value="Disease duration/outcome" required>
               <label for="DATA_CATEGORY_DiseaseDuration" class="form-check-label">Data on disease duration and disease
                 outcome</label>
             </div>
             <div class="form-check">
-              <input id="DATA_CATEGORY_GENEALOGICAL_RECORDS" type="checkbox" name="DATA_CATEGORY_GENEALOGICAL_RECORDS"
-                required>
+              <input id="DATA_CATEGORY_GENEALOGICAL_RECORDS" type="checkbox"
+               name="DATA_CATEGORY_GENEALOGICAL_RECORDS" value="Genealogical records" required>
               <label for="DATA_CATEGORY_GENEALOGICAL_RECORDS" class="form-check-label">Genealogical records</label>
             </div>
             <div class="form-check">
-              <input id="DATA_CATEGORY_IMAGING_DATA" type="checkbox" name="DATA_CATEGORY_IMAGING_DATA" required>
+              <input id="DATA_CATEGORY_IMAGING_DATA" type="checkbox"
+               name="DATA_CATEGORY_IMAGING_DATA" value="Imaging data" required>
               <label for="DATA_CATEGORY_IMAGING_DATA" class="form-check-label">Imaging data</label>
             </div>
             <div class="form-check">
-              <input id="DATA_CATEGORY_MEDICAL_RECORDS" type="checkbox" name="DATA_CATEGORY_MEDICAL_RECORDS" required>
+              <input id="DATA_CATEGORY_MEDICAL_RECORDS" type="checkbox"
+               name="DATA_CATEGORY_MEDICAL_RECORDS" value="Medical records" required>
               <label for="DATA_CATEGORY_MEDICAL_RECORDS" class="form-check-label">Medical records</label>
             </div>
             <div class="form-check">
-              <input id="DATA_CATEGORY_NATIONAL_REGISTRIES" type="checkbox" name="DATA_CATEGORY_NATIONAL_REGISTRIES"
-                required>
+              <input id="DATA_CATEGORY_NATIONAL_REGISTRIES" type="checkbox"
+               name="DATA_CATEGORY_NATIONAL_REGISTRIES" value="National registries" required>
               <label for="DATA_CATEGORY_NATIONAL_REGISTRIES" class="form-check-label">National registries</label>
             </div>
             <div class="form-check">
               <input id="DATA_CATEGORY_PHYSIOLOGICAL_BIOCHEMICAL_MEASUREMENTS" type="checkbox"
-                name="DATA_CATEGORY_PHYSIOLOGICAL_BIOCHEMICAL_MEASUREMENTS" required>
+                name="DATA_CATEGORY_PHYSIOLOGICAL_BIOCHEMICAL_MEASUREMENTS"
+                value="Physiological/Biochemical measurements" required>
               <label for="DATA_CATEGORY_PHYSIOLOGICAL_BIOCHEMICAL_MEASUREMENTS"
                 class="form-check-label">Physiological/Biochemical measurements</label>
             </div>
             <div class="form-check">
-              <input id="DATA_CATEGORY_SURVEY_DATA" type="checkbox" name="DATA_CATEGORY_SURVEY_DATA" required>
+              <input id="DATA_CATEGORY_SURVEY_DATA" type="checkbox"
+               name="DATA_CATEGORY_SURVEY_DATA" value="Survey data" required>
               <label for="DATA_CATEGORY_SURVEY_DATA" class="form-check-label">Survey data</label>
             </div>
             <div class="form-check">
-              <input id="DATA_CATEGORY_TREATMENT_PROTOCOL" type="checkbox" name="DATA_CATEGORY_TREATMENT_PROTOCOL"
-                required>
+              <input id="DATA_CATEGORY_TREATMENT_PROTOCOL" type="checkbox"
+               name="DATA_CATEGORY_TREATMENT_PROTOCOL" value="Treatment protocol" required>
               <label for="DATA_CATEGORY_TREATMENT_PROTOCOL" class="form-check-label">Treatment protocol (types of drugs
                 used)</label>
             </div>
             <div class="form-check">
-              <input id="DATA_CATEGORY_OTHER" type="checkbox" name="DATA_CATEGORY_OTHER" required>
+              <input id="DATA_CATEGORY_OTHER" type="checkbox"
+               name="DATA_CATEGORY_OTHER" value="Other" required>
               <label for="DATA_CATEGORY_OTHER" class="form-check-label">Other</label>
             </div>
             <div class="form-check">
-              <input id="DATA_CATEGORY_NAV" type="checkbox" name="DATA_CATEGORY_NAV" required>
+              <input id="DATA_CATEGORY_NAV" type="checkbox"
+               name="DATA_CATEGORY_NAV" value="Not available" required>
               <label for="DATA_CATEGORY_NAV" class="form-check-label">Not available</label>
               <div class="invalid-feedback"><b>Choose at least one data category.</b></div>
             </div>
@@ -316,15 +334,15 @@
               <label for="size_of_collection"><b>Size of the collection:*</b></label>
               <select class="form-control" id="size_of_collection" name="size_of_collection" required>
                 <option hidden disabled selected value> </option>
-                <option value="size_ofcollection_lessthan10">&lt; 10</option>
-                <option value="size_ofcollection_10_100">10 - 100</option>
-                <option value="size_ofcollection_100_1000">100 - 1000</option>
-                <option value="size_ofcollection_1000_10000">1000 - 10.000</option>
-                <option value="size_ofcollection_10000_100000">10.000 - 100.000</option>
-                <option value="size_ofcollection_100000_1000000">100.000 - 1.000.000</option>
-                <option value="size_ofcollection_1000000_10000000">1.000.000 - 10.000.000</option>
-                <option value="size_ofcollection_10000000_100000000">10.000.000 - 100.000.000</option>
-                <option value="size_ofcollection_100000000_1000000000">100.000.000 - 1.000.000.000</option>
+                <option value="0:size_ofcollection_lessthan10">&lt; 10</option>
+                <option value="1:size_ofcollection_10_100">10 - 100</option>
+                <option value="2:size_ofcollection_100_1000">100 - 1000</option>
+                <option value="3:size_ofcollection_1000_10000">1000 - 10.000</option>
+                <option value="4:size_ofcollection_10000_100000">10.000 - 100.000</option>
+                <option value="5:size_ofcollection_100000_1000000">100.000 - 1.000.000</option>
+                <option value="6:size_ofcollection_1000000_10000000">1.000.000 - 10.000.000</option>
+                <option value="7:size_ofcollection_10000000_100000000">10.000.000 - 100.000.000</option>
+                <option value="8:size_ofcollection_100000000_1000000000">100.000.000 - 1.000.000.000</option>
               </select>
               <small class="form-text text-muted">Size of the collection to the given date.</small>
             </div>
@@ -469,46 +487,49 @@
       <div id="collapseDonorInformation" class="collapse" role="tabpanel" aria-labelledby="donorInformation"
         data-parent="#accordionForm">
         <div class="card-body">
-          <div class="form-group">
+          <div class="form-group diagnisis_available">
             <label for="covid19_diagnosis"><b>COVID-19 diagnosis:</b></label>
             <div class="form-check">
-              <input id="DIAGNOSIS_COVID19_virus_identified" type="checkbox" name="DIAGNOSIS_COVID19_virus_identified">
+              <input id="DIAGNOSIS_COVID19_virus_identified" type="checkbox"
+               name="DIAGNOSIS_COVID19_virus_identified" value="urn:miriam:icd:U07.1">
               <label for="DIAGNOSIS_COVID19_virus_identified" class="form-check-label">COVID-19, virus identified
                 (laboratory-confirmed); U07.1</label>
             </div>
             <div class="form-check">
               <input id="DIAGNOSIS_COVID19_virus_not_identified" type="checkbox"
-                name="DIAGNOSIS_COVID19_virus_not_identified">
+               name="DIAGNOSIS_COVID19_virus_not_identified" value="urn:miriam:icd:U07.2">
               <label for="DIAGNOSIS_COVID19_virus_not_identified" class="form-check-label">COVID-19, virus not
                 identified (suspect or probable); U07.2</label>
             </div>
           </div>
+          
           <!--- <div class="form-group">
     <label for="diagnosis_available"><b>Diagnoses available in the collection:</b></label>
     <select class="js-select-diagnoses-multiple form-control" name="diagnosis_available[]" id="diagnosis_available" style="width:100%"></select>
     <small class="form-text text-muted">Select one or multiple diagnoses (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-17</a>). Start typing in order to see options. We use <a href="https://icd.who.int/browse10/2019/en">ICD-10 codes for the diagnoses</a>. In case of COVID-19, the relevant diagnoses are: <i>U07.1 COVID-19, virus identified</i> and <i>U07.2 COVID-19, virus not identified</i></small>
-  </div> --->
+  </div> 
           <div class="form-group">
             <label for="diagnosis_available"><b>Other diagnoses available in the collection:</b></label>
             <textarea class="form-control" id="diagnosis_available" rows="3" name="diagnosis_available"></textarea>
             <small class="form-text text-muted">Provide one or multiple diagnoses (as required by <a
                 href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-17</a>).
               We use <a href="https://icd.who.int/browse10/2019/en">ICD-10 codes for the diagnoses</a>.</small>
-          </div>
+          </div> --->
+          
           <div class="form-row">
             <div class="form-group col-md-6">
               <label for="number_of_donors"><b>Number of donors:</b></label>
               <select class="form-control" id="number_of_donors" name="number_of_donors">
-                <option value="number_of_donors_null"> </option>
-                <option value="number_of_donors_lessthan10">&lt; 10</option>
-                <option value="number_of_donors_10_100">10 - 100</option>
-                <option value="number_of_donors_100_1000">100 - 1000</option>
-                <option value="number_of_donors_1000_10000">1000 - 10.000</option>
-                <option value="number_of_donors_10000_100000">10.000 - 100.000</option>
-                <option value="number_of_donors_100000_1000000">100.000 - 1.000.000</option>
-                <option value="number_of_donors_1000000_10000000">1.000.000 - 10.000.000</option>
-                <option value="number_of_donors_10000000_100000000">10.000.000 - 100.000.000</option>
-                <option value="number_of_donors_100000000_1000000000">100.000.000 - 1.000.000.000</option>
+                <option hidden disabled selected value> </option>
+                <option value="0:number_of_donors_lessthan10">&lt; 10</option>
+                <option value="1:number_of_donors_10_100">10 - 100</option>
+                <option value="2:number_of_donors_100_1000">100 - 1000</option>
+                <option value="3:number_of_donors_1000_10000">1000 - 10.000</option>
+                <option value="4:number_of_donors_10000_100000">10.000 - 100.000</option>
+                <option value="5:number_of_donors_100000_1000000">100.000 - 1.000.000</option>
+                <option value="6:number_of_donors_1000000_10000000">1.000.000 - 10.000.000</option>
+                <option value="7:number_of_donors_10000000_100000000">10.000.000 - 100.000.000</option>
+                <option value="8:number_of_donors_100000000_1000000000">100.000.000 - 1.000.000.000</option>
               </select>
               <small class="form-text text-muted">Number of donors from whom samples were obtained.</small>
             </div>
@@ -516,11 +537,11 @@
           <div class="form-group">
             <label for="donor_autopsy"><b>Samples from deceased (autopsy)?</b></label>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="donor_autopsy" id="yes" value="yes">
+              <input class="form-check-input" type="radio" name="donor_autopsy" id="yes" value="TRUE">
               <label class="form-check-label" for="yes">Yes</label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="donor_autopsy" id="no" value="no">
+              <input class="form-check-input" type="radio" name="donor_autopsy" id="no" value="FALSE">
               <label class="form-check-label" for="no">No</label>
             </div>
             <div class="form-check">
@@ -532,11 +553,11 @@
           <div class="form-group">
             <label for="donor_minors"><b>Samples from children/minors (<18 years old)?</b></label>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="donor_minors" id="yes" value="yes">
+              <input class="form-check-input" type="radio" name="donor_minors" id="yes" value="TRUE">
               <label class="form-check-label" for="yes">Yes</label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="donor_minors" id="no" value="no">
+              <input class="form-check-input" type="radio" name="donor_minors" id="no" value="FALSE">
               <label class="form-check-label" for="no">No</label>
             </div>
             <div class="form-check">
@@ -832,7 +853,7 @@
     </div>
   </div>
 
-  <!-- div class="g-recaptcha mt-3" data-sitekey="6LesV0gaAAAAAGFjazG7Hd_hN72cpeYm2woivBT3"></div -->
+  <div class="g-recaptcha mt-3" data-sitekey="6LesV0gaAAAAAGFjazG7Hd_hN72cpeYm2woivBT3"></div>
   <input type="url" id="originUrl" name="originUrl" value="" hidden />
   <input type='hidden' name='origin' value='add_collection'>
 
@@ -849,6 +870,12 @@
       alert("Please fill out all required fields.");
       event.stopPropagation();
       form.classList.add('was-validated')
+    } else {
+      addHiddenInput(form, 'selected_collection_categories', $('.types_sweden :checked').map((i, e) => e.value).toArray().join(", "))
+      addHiddenInput(form, 'selected_collection_type', $('.types_bbmri :checked').map((i, e) => e.value).toArray().join(", "))
+      addHiddenInput(form, 'selected_data_categories', $('.data_categories :checked').map((i, e) => e.value).toArray().join(", "))
+      addHiddenInput(form, 'selected_diagnisis_available', $('.diagnisis_available :checked').map((i, e) => e.value).toArray().join(", "))
+      addHiddenInput(form, 'selected_sample_materials', $('.materials :checked').map((i, e) => e.value).toArray().join(", "))
     }
     var recaptcha = $("#g-recaptcha-response").val();
     if (recaptcha === "") {
@@ -869,7 +896,7 @@
   });
 
   $(function () {
-    var requiredCheckboxes = $('.types_bbmri :checkbox[required]');
+    var requiredCheckboxes = $('.types_sweden :checkbox[required]');
     requiredCheckboxes.change(function () {
       if (requiredCheckboxes.is(':checked')) {
         requiredCheckboxes.removeAttr('required');
@@ -880,7 +907,7 @@
   });
 
   $(function () {
-    var requiredCheckboxes = $('.types_sweden :checkbox[required]');
+    var requiredCheckboxes = $('.types_bbmri :checkbox[required]');
     requiredCheckboxes.change(function () {
       if (requiredCheckboxes.is(':checked')) {
         requiredCheckboxes.removeAttr('required');
@@ -922,5 +949,14 @@
       }
     });
   });
+  
+  // Custom function
+  function addHiddenInput(theForm, iname, ivalue) {
+    $('<input>').attr({
+      type:'hidden',
+      name: iname,
+      value: ivalue
+    }).appendTo(theForm);
+  }
 
 </script>

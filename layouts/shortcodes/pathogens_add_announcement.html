@@ -16,8 +16,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <!-- form action="https://forms.dckube.scilifelab.se/api/v1/form/y7stZwUn2oZZXtXF/incoming" class="needs-validation-ann" novalidate method="POST" accept-charset="utf-8" -->
-        <form action="http://localhost:5050/api/v1/form/XJppL2peWSv8vr47/incoming" class="needs-validation-ann" novalidate method="POST" accept-charset="utf-8">
+        <form action="https://forms.dckube.scilifelab.se/api/v1/form/y7stZwUn2oZZXtXF/incoming" class="needs-validation-ann" novalidate method="POST" accept-charset="utf-8">
           <div class="form-group">
             <label for="name">Name*</label>
             <input type="text" class="form-control" id="name" name="name" required>
@@ -38,7 +37,7 @@
             <textarea class="form-control" id="text" name="text" rows="3" required></textarea>
           </div>
           <div id="form_ann_recaptcha"></div>
-          <!-- div class="g-recaptcha" data-sitekey="6LesV0gaAAAAAGFjazG7Hd_hN72cpeYm2woivBT3"></div -->
+          <div class="g-recaptcha" data-sitekey="6LesV0gaAAAAAGFjazG7Hd_hN72cpeYm2woivBT3"></div>
           <input type="url" id="originUrl_ann" name="originUrl" value="" hidden />
           <input type='hidden' name='origin' value='{{ $origin }}'>
           <div class="form-group row">
