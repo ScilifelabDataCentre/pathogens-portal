@@ -39,6 +39,6 @@ Dahmane, S., Kerviel, A., Morado, D.R., Shankar, K., Ahlman, B., Lazarou, M., Al
 
 #### Funding
 
-This study was funded by the European Union’s Horizon 2020 research and innovation program under the Marie Skłodowska-Curie, the Human Frontier Science Program (Career Development Award, and the Knut and Alice Wallenberg Foundation (through the Wallenberg Centre for Molecular Medicine Umeå).
+This study was funded by the European Union’s Horizon 2020 research and innovation program under the Marie Skłodowska-Curie, the Human Frontier Science Program Career Development Award, and the Knut and Alice Wallenberg Foundation (through the Wallenberg Centre for Molecular Medicine Umeå).
 
 Read more about the research group at Umeå university/Wallenberg Centre for Molecular Medicine (WCMM) [here](https://www.umu.se/forskning/grupper/lars-anders-carlson/).
