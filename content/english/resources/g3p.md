@@ -15,7 +15,17 @@ The current SARS-CoV-2 pandemic highlights the need of building pandemic prepare
 
 Developed assays and tools will be established across the SciLifeLab´s Clinical Genomics nodes, Genomic Medicine Centers, and clinical microbiology laboratories to reach national coverage, minimise the distance to point-of-care, and ensuring rapid turnaround times. Methods can aid in testing critically ill patients with diffuse symptoms in non-pandemic situations, and assays will contribute to the SciLifeLab Precision Medicine capability.
 
-Specific aims are to:<ol><li>Maximise the effects of ongoing efforts by <b>strengthening the national networks</b> and collaborations relevant for pandemic preparedness.</li><li> Continue developing <b>whole-genome sequencing-based pathogen surveillance</b> by driving national harmonisation and developing tools for data aggregation and visualisation.</li><li>Establish <b>validated metagenomic assays</b> for detection of known and unknown viruses and methods for detecting antimicrobial resistance development.</li><li><b>Coordinate data handling</b> i.e. collection, annotation, structuring and aggregation.</li><li> <b>Provide the developed infrastructure as a services</b> regarding wet-lab data generation, bioinformatic analysis, biobanking, and data standardisation, for the research community, healthcare and public health authorities.</li></ol>
+Specific aims are to:
+
+1. Maximise the effects of ongoing efforts by <b>strengthening the national networks</b> and collaborations relevant for pandemic preparedness.
+
+2. Continue developing <b>whole-genome sequencing-based pathogen surveillance</b> by driving national harmonisation and developing tools for data aggregation and visualisation.
+
+3. Establish <b>validated metagenomic assays</b> for detection of known and unknown viruses and methods for detecting antimicrobial resistance development.
+
+4. <b>Coordinate data handling</b> i.e. collection, annotation, structuring and aggregation.
+
+5. <b>Provide the developed infrastructure as a services</b> regarding wet-lab data generation, bioinformatic analysis, biobanking, and data standardisation, for the research community, healthcare and public health authorities.
 
 This resource involves three subprojects:
 
