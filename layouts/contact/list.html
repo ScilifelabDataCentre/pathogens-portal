@@ -6,16 +6,16 @@
   <h2>{{ if eq $.Site.Language.LanguageName "Svenska" }}Kontakta oss{{ else }}Contact and suggestions form{{ end }}</h2>
   <div class="mb-3 mt-3">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen fyll i detta formulär för att ge förslag till portalen eller för frågor rörande datadelning eller datahantering. Vänligen fyll i dina kontaktuppgifter om du vill att vi besvarar ditt ärende. Teamet som arbetar med den <i>Svenska Dataportalen för Covid-19 & Pandemisk Beredskap</i> kommer att skicka ett svar inom ett par dagar. {{ else }}Please fill out this form to make suggestions for the <i>Swedish COVID-19 & Pandemic Preparedness Data Portal</i> or to ask a data management or data sharing question. Please provide your contact information if you would like to receive a response. The data portal team will send you a response within the next couple of days.{{ end }}</div>
   <div class="form-group row">
-    <label for="name" class="col-sm-3 col-form-label"><b>{{ if eq $.Site.Language.LanguageName "Svenska" }}Namn:{{ else }}Name:{{ end }}</b></label>
+    <label for="name" class="col-sm-3 col-form-label"><b>{{ if eq $.Site.Language.LanguageName "Svenska" }}Namn:*{{ else }}Name:*{{ end }}</b></label>
     <div class="col-sm-9">
-      <input type="text" class="form-control" id="name" name="name" placeholder="{{ if eq $.Site.Language.LanguageName "Svenska" }}Namn{{ else }}Name{{ end }}">
+      <input type="text" class="form-control" id="name" name="name" placeholder="{{ if eq $.Site.Language.LanguageName "Svenska" }}Namn{{ else }}Name{{ end }}" required>
       <small class="form-text text-muted">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen ange dina kontaktuppgifter om du vill få ett svar från oss, om inte behöver du inte ange dina kontaktuppgifter.{{ else }}Please provide your name in case you would like to receive a response from us. In other cases, name is not required.{{ end }}</small>
     </div>
   </div>
   <div class="form-group row">
-    <label for="email" class="col-sm-3 col-form-label"><b>E-mail:</b></label>
+    <label for="email" class="col-sm-3 col-form-label"><b>E-mail:*</b></label>
     <div class="col-sm-9">
-      <input type="email" class="form-control" id="email" name="email" placeholder="E-mail">
+      <input type="email" class="form-control" id="email" name="email" placeholder="E-mail" required>
       <small class="form-text text-muted">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen ange dina kontaktuppgifter om du vill få ett svar från oss, om inte behöver du inte ange dina kontaktuppgifter.{{ else }}Please provide your e-mail address in case you would like to receive a response from us. In other cases, the e-mail address is not required.{{ end }}</small>
     </div>
   </div>
