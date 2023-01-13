@@ -1,11 +1,11 @@
 {
-    "last_updated": "2022-12-01",
+    "last_updated": "2023-01-13",
     "datasets": [
         {
             "doi": "10.1007/s44155-022-00027-9",
             "available_items": [
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "FigShare",
                     "accession_number": "",
                     "description": "Results of a Qualatrics questionnaire related to perceived risk of viral infection with different social distances.",
@@ -28,7 +28,7 @@
             "doi": "10.1101/2022.11.25.22282676",
             "available_items": [
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "Zenodo",
                     "accession_number": "",
                     "description": "Results of a multi-country longitudinal social contact survey exploring the influence of COVID-19 vaccination status and risk perceptions related to SARS-CoV-2 on social contact.",
@@ -55,7 +55,7 @@
             "doi": "10.1038/s41467-022-35641-3",
             "available_items": [
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "Zenodo",
                     "accession_number": "",
                     "description": "Models of SARS-CoV-2 virus spike protein bound to 1-3 of ACE2 receptors embedded in lipid nanodisks.",
@@ -65,7 +65,7 @@
                     "data_url": "https://zenodo.org/record/7401939#.Y8AFIy8w2u4"
                 },
                 {
-                    "type": "Code",
+                    "type": "code",
                     "repo_name": "GitHub",
                     "accession_number": "",
                     "description": "Code for simulation of high speed AFM imaging.",
@@ -92,7 +92,7 @@
             "doi": "10.1186/s12982-022-00119-6",
             "available_items": [
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "",
                     "accession_number": "",
                     "description": "Sensitivity analysis and mortality rate data available in the paper.",
@@ -103,7 +103,7 @@
                     "data_url": "https://europepmc.org/article/MED/36550573#id605303"
                 },
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "Zenodo",
                     "accession_number": "",
                     "description": "Mortality rate data.",
@@ -114,7 +114,7 @@
                     "data_url": "http://doi.org/10.5281/zenodo.5136641"
                 },
                 {
-                    "type": "Code",
+                    "type": "code",
                     "repo_name": "Zenodo",
                     "accession_number": "",
                     "description": "Analysis code",
@@ -140,7 +140,7 @@
             "doi": "10.1186/s13148-022-01398-1",
             "available_items": [
                 {
-                    "type": "Code",
+                    "type": "code",
                     "repo_name": "GitHub",
                     "accession_number": "",
                     "description": "Analysis and visualisation scripts",
@@ -169,7 +169,7 @@
             "doi": "10.1371/journal.pcbi.1010767",
             "available_items": [
                 {
-                    "type": "Code",
+                    "type": "code",
                     "repo_name": "GitHub",
                     "accession_number": "",
                     "description": "Analysis scripts R",
@@ -179,7 +179,7 @@
                     "data_url": "https://github.com/fannybergstrom/nowcasting_covid19"
                 },
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "GitHub",
                     "accession_number": "",
                     "description": "COVID-19 surveillance data",
@@ -205,7 +205,7 @@
             "doi": "10.1371/journal.pcbi.1010078",
             "available_items": [
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "GitHub",
                     "accession_number": "",
                     "description": "Incidence data on which the model is based.",
@@ -215,7 +215,7 @@
                     "data_url": "https://github.com/yunPKU/infer_heterogeneity_from_incidence"
                 },
                 {
-                    "type": "Code",
+                    "type": "code",
                     "repo_name": "GitHub",
                     "accession_number": "",
                     "description": "Code for instant-individual heterogeneity model to estimate real-time transmission heterogeneity from incidence data.",
@@ -240,7 +240,7 @@
             "doi": "10.1016/j.immuni.2022.12.005",
             "available_items": [
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "Figshare",
                     "accession_number": "",
                     "description": "Individualised IGHV Genotype Sequences of 14 SARS-CoV-2 Convalescent Donors",
@@ -251,7 +251,7 @@
                     "data_url": "http://doi.org/10.17044/scilifelab.19317512"
                 },
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "ProteomeXchange",
                     "accession_number": "",
                     "description": "Mass spectrometry raw files and HDX analysis",
@@ -262,7 +262,7 @@
                     "data_url": "http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD031945"
                 },
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "PDB",
                     "accession_number": "8A99",
                     "description": "SARS Cov2 Spike in 1-up conformation complex with Fab47",
@@ -273,7 +273,7 @@
                     "data_url": "https://www.rcsb.org/structure/unreleased/8A99"
                 },
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "PDB",
                     "accession_number": "8A94",
                     "description": "SARS CoV2 Spike in the 2-up state in complex with Fab47",
@@ -284,7 +284,7 @@
                     "data_url": "https://www.rcsb.org/structure/unreleased/8A94"
                 },
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "PDB",
                     "accession_number": "8A96",
                     "description": "SARS Cov2 Spike RBD in complex with Fab47",
@@ -295,7 +295,7 @@
                     "data_url": "https://www.rcsb.org/structure/unreleased/8A96"
                 },
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "Electron Microscopy Data Bank",
                     "accession_number": "EMD-15273",
                     "description": "SARS Cov2 Spike in 1-up conformation complex with Fab47",
@@ -306,7 +306,7 @@
                     "data_url": "https://www.ebi.ac.uk/emdb/search/EMD-15273"
                 },
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "Electron Microscopy Data Bank",
                     "accession_number": "EMD-15269",
                     "description": "SARS CoV2 Spike in the 2-up state in complex with Fab47",
@@ -317,7 +317,7 @@
                     "data_url": "https://www.ebi.ac.uk/emdb/search/EMD-15269"
                 },
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "Electron Microscopy Data Bank",
                     "accession_number": "EMD-15271",
                     "description": "SARS Cov2 Spike RBD in complex with Fab47",
@@ -328,7 +328,7 @@
                     "data_url": "https://www.ebi.ac.uk/emdb/search/EMD-15271"
                 },
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "Mendeley",
                     "accession_number": "",
                     "description": "Supplemental data, including Cryo-EM models",
@@ -356,7 +356,7 @@
             "doi": "10.1186/s13049-022-01056-8",
             "available_items": [
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "",
                     "accession_number": "",
                     "description": "Literature review data realted to disaster training programs for medical first responders.",
@@ -383,7 +383,7 @@
             "doi": "10.1371/journal.pgen.1010367",
             "available_items": [
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "GWAS Catalog",
                     "accession_number": "GCST90132193",
                     "description": "Single variant association studies summary statistics",
@@ -393,7 +393,7 @@
                     "data_url": "https://www.ebi.ac.uk/gwas/studies/GCST90132193"
                 },
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "GWAS Catalog",
                     "accession_number": "GCST90132194",
                     "description": "Single variant association studies summary statistics",
@@ -403,7 +403,7 @@
                     "data_url": "https://www.ebi.ac.uk/gwas/studies/GCST90132194"
                 },
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "GWAS Catalog",
                     "accession_number": "GCST90132195",
                     "description": "Single variant association studies summary statistics",
@@ -413,7 +413,7 @@
                     "data_url": "https://www.ebi.ac.uk/gwas/studies/GCST90132195"
                 },
                 {
-                    "type": "Code",
+                    "type": "code",
                     "repo_name": "GitHub",
                     "accession_number": "",
                     "description": "Analysis scripts",
@@ -440,7 +440,7 @@
             "doi": "10.1371/journal.ppat.1010931",
             "available_items": [
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "Gene Expression Omnibus",
                     "accession_number": "GSE196472",
                     "description": "Raw sequencing data",
@@ -450,7 +450,7 @@
                     "data_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196472"
                 },
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "Gene Expression Omnibus",
                     "accession_number": "GSE196473",
                     "description": "Processed sequencing data",
@@ -477,7 +477,7 @@
             "doi": "10.1038/s41598-022-23415-2",
             "available_items": [
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "Open Science Framework",
                     "accession_number": "",
                     "description": "All survey data and study material used in this project",
@@ -487,7 +487,7 @@
                     "data_url": "https://osf.io/c8zhn/"
                 },
                 {
-                    "type": "Code",
+                    "type": "code",
                     "repo_name": "Open Science Framework",
                     "accession_number": "Code used for analysis",
                     "description": "",
@@ -514,7 +514,7 @@
             "doi": "10.1371/journal.pone.0277470",
             "available_items": [
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "Open Science Framework",
                     "accession_number": "",
                     "description": "Survey data from 321 early career dementia researchers, including relevant socialdemographic characteristics",
