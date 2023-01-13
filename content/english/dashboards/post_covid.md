@@ -11,11 +11,6 @@ aliases:
     - /data_types/health_data/post_covid/
 ---
 
-<div class="alert alert-info">
-  <i class="bi bi-exclamation-triangle-fill"></i>
-  <span><b>Announcement:</b> On <b>13th January 2023</b>, there will be a symposium focused on post covid-19 condition entitled <b>"Berzelius symposium 106: Rehabilitation of post covid-19 condition – an update of knowledge"</b>. Registration closes on 2nd January 2023. For more information, please see the dedicated <a href="https://www.sls.se/bz106">symposium page</a>.</span>
-</div>
-
 Since the beginning of 2020, the COVID-19 pandemic has challenged healthcare and dramatically changed daily life for people worldwide. The severity of symptoms experienced by patients during the acute infection phase of COVID-19 disease varies between individuals from mild to severe. After this phase, patients usually show no signs that the disease will have any long-term consequences for their health, regardless of the severity of symptoms experienced during the acute infection phase. However, research has shown that some patients exhibit symptoms for prolonged periods following this phase. Such symptoms include, for example, deep fatigue, joint pain, ‘brain fog’ (difficulty concentrating on certain tasks for longer periods of time), and heart palpitations ([Brodin 2021](https://doi.org/10.1038/s41591-020-01202-8); [Marx 2021](https://doi.org/10.1038/s41592-021-01145-z)). This condition has been referred to in multiple ways, including *Post COVID-19 condition*, *Post-COVID*, and *Long COVID*. On this page, we use the term *Post COVID-19 condition* for consistency. See the *[Background Information](#background)* section below for more detail about the nomenclature used and relevant research.
 
 On this page, you can find visualisations of data related to *Post COVID-19 condition* in Sweden from The Swedish Board of Health and Welfare ([Socialstyrelsen](https://www.socialstyrelsen.se)), an overview of ongoing *Post COVID-19 condition* research projects in Sweden, and scientific publications regarding *Post COVID-19 condition* by researchers affiliated with Swedish universities or research institutes.

@@ -12,11 +12,6 @@ aliases:
     - /sv/data_types/health_data/post_covid/
 ---
 
-<div class="alert alert-info">
-  <i class="bi bi-exclamation-triangle-fill"></i>
-  <span><b>Meddelande:</b> Den <b>13 januari 2023</b> kommer det att hållas ett symposium fokuserat på postcovid med titeln <b>"Berzelius symposium 106: Rehabilitation of post covid-19 condition – en uppdatering av kunskap"</b>. Anmälan stänger den 2 januari 2023. För mer information, se den dedikerade <a href="https://www.sls.se/bz106">symposiumsidan.</span>
-</div>
-
 <div class="alert alert-info">Vänligen notera att graferna endast har engelska figurtexter.</div>
 
 Sedan början av 2020 har covid-19 pandemin utmanat hälso- och sjukvården och förändrat samhällen runt om i världen. Forskning och empiri har visat att covid-19 under den akuta infektionen kan ha olika svårighetsgrad, från mild till moderat till svår. De flesta individer som insjuknar i Covid-19, oavsett sjukdomens svårighetsgrad under den akuta infektionen, återhämtar sig och uppvisar inga kvarstående symptom efter återhämtningen. Vissa patienter uppvisar dock, efter den akuta infektionen, kvarstående eller sena symptom efter covid-19. Besvär och symtom som rapporterats är exempelvis svår trötthet, sämre hälsa, ledvärk, hjärntrötthet (svårighet att koncentrera sig på vissa uppgifter under längre tid) och hjärtklappning ([Brodin 2021](https://doi.org/10.1038/s41591-020-01202-8); [Marx 2021](https://doi.org/10.1038/s41592-021-01145-z)).

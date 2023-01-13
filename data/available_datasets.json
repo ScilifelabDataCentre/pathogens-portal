@@ -1,11 +1,389 @@
 {
-    "last_updated": "2022-12-01",
+    "last_updated": "2023-01-13",
     "datasets": [
+        {
+            "doi": "10.1007/s44155-022-00027-9",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "FigShare",
+                    "accession_number": "",
+                    "description": "Results of a Qualatrics questionnaire related to perceived risk of viral infection with different social distances.",
+                    "data_type": [
+                        "Social science and humanities data"
+                    ],
+                    "data_url": "https://su.figshare.com/articles/dataset/On_Interpersonal_Distance_Time_of_a_Conversation_and_Perceived_Virus_Exposure/20472165/1"
+                }
+            ],
+            "title": "Perceived Corona virus exposure as a function of interpersonal distance and time of a conversation",
+            "issue": "1",
+            "volume": "2",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2022-12-05",
+            "author": [
+                "Svenson O."
+            ]
+        },
+        {
+            "doi": "10.1101/2022.11.25.22282676",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "Zenodo",
+                    "accession_number": "",
+                    "description": "Results of a multi-country longitudinal social contact survey exploring the influence of COVID-19 vaccination status and risk perceptions related to SARS-CoV-2 on social contact.",
+                    "data_type": [
+                        "Social science and humanities data"
+                    ],
+                    "data_url": "http://www.socialcontactdata.org/data/"
+                }
+            ],
+            "title": "The influence of COVID-19 risk perception and vaccination status on the number of social contacts across Europe: insights from the CoMix study",
+            "issue": "",
+            "volume": "",
+            "publisher": "Cold Spring Harbor Laboratory",
+            "published": "2022-11-29",
+            "author": [
+                "Wambua J.",
+                "Loedy N.",
+                "Jarvis C. I.",
+                "Wong K. L.",
+                "Faes C."
+            ]
+        },
+        {
+            "doi": "10.1038/s41467-022-35641-3",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "Zenodo",
+                    "accession_number": "",
+                    "description": "Models of SARS-CoV-2 virus spike protein bound to 1-3 of ACE2 receptors embedded in lipid nanodisks.",
+                    "data_type": [
+                        "Protein data"
+                    ],
+                    "data_url": "https://zenodo.org/record/7401939#.Y8AFIy8w2u4"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Code for simulation of high speed AFM imaging.",
+                    "data_type": [
+                        "Protein data"
+                    ],
+                    "data_url": "https://github.com/matsikora/AFM_emulator"
+                }
+            ],
+            "title": "Force-tuned avidity of spike variant-ACE2 interactions viewed on the single-molecule level",
+            "issue": "1",
+            "volume": "13",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2022-12-24",
+            "author": [
+                "Zhu R.",
+                "Canena D.",
+                "Sikora M.",
+                "Klausberger M.",
+                "Seferovic H."
+            ]
+        },
+        {
+            "doi": "10.1186/s12982-022-00119-6",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "",
+                    "accession_number": "",
+                    "description": "Sensitivity analysis and mortality rate data available in the paper.",
+                    "data_type": [
+                        "Public health data",
+                        "Health data"
+                    ],
+                    "data_url": "https://europepmc.org/article/MED/36550573#id605303"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "Zenodo",
+                    "accession_number": "",
+                    "description": "Mortality rate data.",
+                    "data_type": [
+                        "Public health data",
+                        "Health data"
+                    ],
+                    "data_url": "http://doi.org/10.5281/zenodo.5136641"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "Zenodo",
+                    "accession_number": "",
+                    "description": "Analysis code",
+                    "data_type": [
+                        "Public health data",
+                        "Health data"
+                    ],
+                    "data_url": "http://doi.org/10.5281/zenodo.5136641"
+                }
+            ],
+            "title": "Dynamics of COVID-19 progression and the long-term influences of measures on pandemic outcomes",
+            "issue": "1",
+            "volume": "19",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2022-12-22",
+            "author": [
+                "Lan Y.",
+                "Yin L.",
+                "Wang X."
+            ]
+        },
+        {
+            "doi": "10.1186/s13148-022-01398-1",
+            "available_items": [
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Analysis and visualisation scripts",
+                    "data_type": [
+                        "Health data",
+                        "Genomics & transcriptomics data",
+                        "Other data"
+                    ],
+                    "data_url": "https://github.com/Lerm-Lab/PACS"
+                }
+            ],
+            "title": "Defining post-acute COVID-19 syndrome (PACS) by an epigenetic biosignature in peripheral blood mononuclear cells",
+            "issue": "1",
+            "volume": "14",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2022-12-14",
+            "author": [
+                "Nikesjö F.",
+                "Sayyab S.",
+                "Karlsson L.",
+                "Apostolou E.",
+                "Rosén A."
+            ]
+        },
+        {
+            "doi": "10.1371/journal.pcbi.1010767",
+            "available_items": [
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Analysis scripts R",
+                    "data_type": [
+                        "Public health data"
+                    ],
+                    "data_url": "https://github.com/fannybergstrom/nowcasting_covid19"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "COVID-19 surveillance data",
+                    "data_type": [
+                        "Public health data"
+                    ],
+                    "data_url": "https://github.com/fannybergstrom/nowcasting_covid19"
+                }
+            ],
+            "title": "Bayesian nowcasting with leading indicators applied to COVID-19 fatalities in Sweden",
+            "issue": "12",
+            "volume": "18",
+            "publisher": "Public Library of Science (PLoS)",
+            "published": "2022-12-07",
+            "author": [
+                "Bergström F.",
+                "Günther F.",
+                "Höhle M.",
+                "Britton T."
+            ]
+        },
+        {
+            "doi": "10.1371/journal.pcbi.1010078",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Incidence data on which the model is based.",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://github.com/yunPKU/infer_heterogeneity_from_incidence"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Code for instant-individual heterogeneity model to estimate real-time transmission heterogeneity from incidence data.",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://github.com/yunPKU/infer_heterogeneity_from_incidence"
+                }
+            ],
+            "title": "Monitoring real-time transmission heterogeneity from incidence data",
+            "issue": "12",
+            "volume": "18",
+            "publisher": "Public Library of Science (PLoS)",
+            "published": "2022-12-01",
+            "author": [
+                "Zhang Y.",
+                "Britton T.",
+                "Zhou X."
+            ]
+        },
+        {
+            "doi": "10.1016/j.immuni.2022.12.005",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "Figshare",
+                    "accession_number": "",
+                    "description": "Individualised IGHV Genotype Sequences of 14 SARS-CoV-2 Convalescent Donors",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Protein data"
+                    ],
+                    "data_url": "http://doi.org/10.17044/scilifelab.19317512"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "ProteomeXchange",
+                    "accession_number": "",
+                    "description": "Mass spectrometry raw files and HDX analysis",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Protein data"
+                    ],
+                    "data_url": "http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD031945"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "PDB",
+                    "accession_number": "8A99",
+                    "description": "SARS Cov2 Spike in 1-up conformation complex with Fab47",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Protein data"
+                    ],
+                    "data_url": "https://www.rcsb.org/structure/unreleased/8A99"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "PDB",
+                    "accession_number": "8A94",
+                    "description": "SARS CoV2 Spike in the 2-up state in complex with Fab47",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Protein data"
+                    ],
+                    "data_url": "https://www.rcsb.org/structure/unreleased/8A94"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "PDB",
+                    "accession_number": "8A96",
+                    "description": "SARS Cov2 Spike RBD in complex with Fab47",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Protein data"
+                    ],
+                    "data_url": "https://www.rcsb.org/structure/unreleased/8A96"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "Electron Microscopy Data Bank",
+                    "accession_number": "EMD-15273",
+                    "description": "SARS Cov2 Spike in 1-up conformation complex with Fab47",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Protein data"
+                    ],
+                    "data_url": "https://www.ebi.ac.uk/emdb/search/EMD-15273"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "Electron Microscopy Data Bank",
+                    "accession_number": "EMD-15269",
+                    "description": "SARS CoV2 Spike in the 2-up state in complex with Fab47",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Protein data"
+                    ],
+                    "data_url": "https://www.ebi.ac.uk/emdb/search/EMD-15269"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "Electron Microscopy Data Bank",
+                    "accession_number": "EMD-15271",
+                    "description": "SARS Cov2 Spike RBD in complex with Fab47",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Protein data"
+                    ],
+                    "data_url": "https://www.ebi.ac.uk/emdb/search/EMD-15271"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "Mendeley",
+                    "accession_number": "",
+                    "description": "Supplemental data, including Cryo-EM models",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Protein data"
+                    ],
+                    "data_url": "https://data.mendeley.com/datasets/mg7p5msrfs/1"
+                }
+            ],
+            "title": "Immunoglobulin germline gene polymorphisms influence the function of SARS-CoV-2 neutralizing antibodies",
+            "issue": "1",
+            "volume": "56",
+            "publisher": "Elsevier BV",
+            "published": "2023-01-10",
+            "author": [
+                "Pushparaj P.",
+                "Nicoletto A.",
+                "Sheward D. J.",
+                "Das H.",
+                "Castro Dopico X."
+            ]
+        },
+        {
+            "doi": "10.1186/s13049-022-01056-8",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "",
+                    "accession_number": "",
+                    "description": "Literature review data realted to disaster training programs for medical first responders.",
+                    "data_type": [
+                        "Social science and humanities data"
+                    ],
+                    "data_url": "https://europepmc.org/article/MED/36566227#id696386"
+                }
+            ],
+            "title": "Preparing medical first responders for crises: a systematic literature review of disaster training programs and their effectiveness",
+            "issue": "1",
+            "volume": "30",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2022-12-24",
+            "author": [
+                "Baetzner A. S.",
+                "Wespi R.",
+                "Hill Y.",
+                "Gyllencreutz L.",
+                "Sauter T. C."
+            ]
+        },
         {
             "doi": "10.1371/journal.pgen.1010367",
             "available_items": [
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "GWAS Catalog",
                     "accession_number": "GCST90132193",
                     "description": "Single variant association studies summary statistics",
@@ -15,7 +393,7 @@
                     "data_url": "https://www.ebi.ac.uk/gwas/studies/GCST90132193"
                 },
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "GWAS Catalog",
                     "accession_number": "GCST90132194",
                     "description": "Single variant association studies summary statistics",
@@ -25,7 +403,7 @@
                     "data_url": "https://www.ebi.ac.uk/gwas/studies/GCST90132194"
                 },
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "GWAS Catalog",
                     "accession_number": "GCST90132195",
                     "description": "Single variant association studies summary statistics",
@@ -35,7 +413,7 @@
                     "data_url": "https://www.ebi.ac.uk/gwas/studies/GCST90132195"
                 },
                 {
-                    "type": "Code",
+                    "type": "code",
                     "repo_name": "GitHub",
                     "accession_number": "",
                     "description": "Analysis scripts",
@@ -62,7 +440,7 @@
             "doi": "10.1371/journal.ppat.1010931",
             "available_items": [
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "Gene Expression Omnibus",
                     "accession_number": "GSE196472",
                     "description": "Raw sequencing data",
@@ -72,7 +450,7 @@
                     "data_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196472"
                 },
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "Gene Expression Omnibus",
                     "accession_number": "GSE196473",
                     "description": "Processed sequencing data",
@@ -99,7 +477,7 @@
             "doi": "10.1038/s41598-022-23415-2",
             "available_items": [
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "Open Science Framework",
                     "accession_number": "",
                     "description": "All survey data and study material used in this project",
@@ -109,7 +487,7 @@
                     "data_url": "https://osf.io/c8zhn/"
                 },
                 {
-                    "type": "Code",
+                    "type": "code",
                     "repo_name": "Open Science Framework",
                     "accession_number": "Code used for analysis",
                     "description": "",
@@ -136,7 +514,7 @@
             "doi": "10.1371/journal.pone.0277470",
             "available_items": [
                 {
-                    "type": "Data",
+                    "type": "data",
                     "repo_name": "Open Science Framework",
                     "accession_number": "",
                     "description": "Survey data from 321 early career dementia researchers, including relevant socialdemographic characteristics",
