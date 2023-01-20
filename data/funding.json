@@ -1,6 +1,38 @@
 {
-  "last_updated": "2022-11-22",
+  "last_updated": "2023-01-16",
   "calls": [
+    {
+      "topic": [
+        "Infectious diseases",
+        "Antibiotic resistance"
+      ],
+      "funder": "JPIAMR",
+      "call_title": "Project grant for international research collaboration within antimicrobial resistance (Swedish project leader’s application in Prisma).",
+      "submission_deadline": "2023-03-14",
+      "submission_opendate": "2023-01-16",
+      "call_url": "https://www.vr.se/english/applying-for-funding/calls/2023-01-16-project-grant-for-international-research-collaboration-within-antimicrobial-resistance-jpiamr.html",
+      "call_description": "The purpose of the grant is to support international collaboration in the Joint Programming Initiative on Antimicrobial Resistance (JPIAMR). This is the 16th call within JPIAMR and has the title “Development of innovative strategies, tools, technologies, and methods for diagnostics and surveillance of antimicrobial resistance”. Sweden, via the Swedish Research Council, the Swedish International Development Cooperation Agency, is one of the 19 countries taking part in the JPIAMR call.",
+      "applicant": "ndividual researcher who participates as 1 of maximum 2 Swedish project leaders in a consortium with partners from at least 3 participating countries. Only researchers at an administrating organisation approved by the Swedish Research Council may apply.",
+      "funding_period": "3 years starting Jan 2024.",
+      "decision_date": "No later than the end of November 2023.",
+      "funding_amount": "Minimum 1 200 000 SEK (approximately 110 000 EUR) in total per Swedish partner in a project. Maximum 3 500 000 SEK in total (approximately 320 000 EUR) per project for Swedish participation with maximum 2 Swedish partners. Maximum 5 000 000 SEK in total (approximately 457 000 EUR) for Swedish participation in a consortium with a Swedish coordinator."
+    },
+    {
+      "topic": [
+        "Infectious diseases",
+        "Antibiotic resistance"
+      ],
+      "funder": "JPIAMR",
+      "call_title": "Project grant for international research collaboration within antimicrobial resistance (consortium application to JPIAMR).",
+      "submission_deadline": "2023-03-07",
+      "submission_opendate": "2023-01-16",
+      "call_url": "https://www.vr.se/english/applying-for-funding/calls/2023-01-16-project-grant-for-international-research-collaboration-within-antimicrobial-resistance-jpiamr.html",
+      "call_description": "The purpose of the grant is to support international collaboration in the Joint Programming Initiative on Antimicrobial Resistance (JPIAMR). This is the 16th call within JPIAMR and has the title “Development of innovative strategies, tools, technologies, and methods for diagnostics and surveillance of antimicrobial resistance”. Sweden, via the Swedish Research Council, the Swedish International Development Cooperation Agency, is one of the 19 countries taking part in the JPIAMR call.",
+      "applicant": "ndividual researcher who participates as 1 of maximum 2 Swedish project leaders in a consortium with partners from at least 3 participating countries. Only researchers at an administrating organisation approved by the Swedish Research Council may apply.",
+      "funding_period": "3 years starting Jan 2024.",
+      "decision_date": "No later than the end of November 2023.",
+      "funding_amount": "Minimum 1 200 000 SEK (approximately 110 000 EUR) in total per Swedish partner in a project. Maximum 3 500 000 SEK in total (approximately 320 000 EUR) per project for Swedish participation with maximum 2 Swedish partners. Maximum 5 000 000 SEK in total (approximately 457 000 EUR) for Swedish participation in a consortium with a Swedish coordinator."
+    },
     {
       "topic": [
         "Infectious diseases",
