@@ -175,6 +175,7 @@
       {{ range .Site.Menus.topics_menu }}<span class="mx-1 my-1 topic_badge_small
           {{ if eq .Name "COVID-19"}}topic_badge_covid
           {{ else if eq .Name "Infectious diseases"}}topic_badge_infectious_d
+          {{ else if eq .Name "Mpox"}}topic_badge_mpox
           {{ else if eq .Name "Antibiotic resistance"}}topic_badge_antib_r
           {{ else }}topic_badge_general
           {{ end }} "><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></span>{{ end }}
