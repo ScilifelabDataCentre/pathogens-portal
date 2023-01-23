@@ -17,5 +17,7 @@ aliases:
       - /sv/news
       - /highlights_topics/
       - /highlights_vocs/
+recaptcha: true
 ---
-The *Data Highlights* section showcases recently published datasets relevant to pandemic preparedness research by researchers affiliated with a Swedish research institute. Specifically, in our case we write about COVID-19 and SARS-CoV-2, infectious diseases in general, and antibiotic resistance. The goal is to highlight openly shared data that can potentially be used by many other researchers to make further discoveries. If you have published or are about to publish data that you think should be highlighted in this section, [you are welcome to send us a suggestion](/suggestions/).
+
+The *Data Highlights* section showcases recently published datasets relevant to pandemic preparedness research by researchers affiliated with a Swedish research institute. Specifically, in our case we write about COVID-19 and SARS-CoV-2, infectious diseases in general, and antibiotic resistance. The goal is to highlight openly shared data that can potentially be used by many other researchers to make further discoveries.
