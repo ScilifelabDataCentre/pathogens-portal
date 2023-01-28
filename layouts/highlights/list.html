@@ -10,7 +10,7 @@
 
 <section>
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary mb-2" data-toggle="modal" data-target="#dhModal">
+<button type="button" class="btn btn-blue mb-3" data-bs-toggle="modal" data-bs-target="#dhModal">
   Suggest a highlight
 </button>
 
@@ -22,9 +22,7 @@
         novalidate method="POST" accept-charset="utf-8">
         <div class="modal-header">
           <h5 class="modal-title" id="dhModalLabel">Data highlight suggestion</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <div>
@@ -37,33 +35,33 @@
               and further steps shortly after we receive the suggestion.</p>
           </div>
           <div class="form-group mb-3">
-            <label for="submitter_name" class="form-label font-weight-bold">Your name:*</label>
+            <label for="submitter_name" class="form-label fw-bold">Your name:*</label>
             <input type="text" class="form-control" id="submitter_name" name="submitter_name" required>
           </div>
           <div class="form-group mb-3">
-            <label for="submitter_email" class="form-label font-weight-bold">Your contact email:*</label>
+            <label for="submitter_email" class="form-label fw-bold">Your contact email:*</label>
             <input type="email" class="form-control" id="submitter_email" name="submitter_email" required>
           </div>
           <div class="form-group mb-3">
-            <label for="title" class="form-label font-weight-bold">Title of the work:*</label>
+            <label for="title" class="form-label fw-bold">Title of the work:*</label>
             <input type="text" class="form-control" id="title" name="title" required>
           </div>
           <div class="form-group mb-3">
-            <label for="url" class="form-label font-weight-bold">URL or DOI with more information:*</label>
+            <label for="url" class="form-label fw-bold">URL or DOI with more information:*</label>
             <input type="text" class="form-control" id="url" name="url" required>
             <div class="form-text">Enter URL starting with 'https://...' or DOI.</div>
           </div>
           <div class="form-group mb-3">
-            <label for="description" class="form-label font-weight-bold">Description:</label>
+            <label for="description" class="form-label fw-bold">Description:</label>
             <textarea class="form-control" id="description" name="description" rows="5"></textarea>
             <div class="form-text">Please describe why you think this dataset, tool, or result should be showcased as
               a data highlight on the Preparedness Portal.</div>
           </div>
-          <div class="form-group form-check mb-3 font-weight-bold">
+          <div class="form-group form-check mb-3 fw-bold">
             <input type="checkbox" class="form-check-input" id="i_am_an_author" name="i_am_an_author">
             <label class="form-check-label" for="i_am_an_author">I am (one of) the author(s) of this work.</label>
           </div>
-          <div class="form-group form-check mb-3 font-weight-bold">
+          <div class="form-group form-check mb-3 fw-bold">
             <input type="checkbox" class="form-check-input" id="would_like_to_write_text"
               name="would_like_to_write_text">
             <label class="form-check-label" for="would_like_to_write_text">I would like to write the text for this
@@ -74,7 +72,7 @@
           <input type='hidden' name='origin' value='data_highlight_suggestion'>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
           <button type="submit" class="btn btn-primary">Submit</button>
         </div>
       </form>

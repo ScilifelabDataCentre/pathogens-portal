@@ -7,20 +7,20 @@
   <div class="mb-3 mt-3">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen fyll i detta formulär för att ge förslag till portalen eller för frågor rörande datadelning eller datahantering. Vänligen fyll i dina kontaktuppgifter om du vill att vi besvarar ditt ärende. Teamet som arbetar med den <i>Svenska Dataportalen för Covid-19 & Pandemisk Beredskap</i> kommer att skicka ett svar inom ett par dagar. {{ else }}Please fill out this form to make suggestions for the <i>Swedish COVID-19 & Pandemic Preparedness Data Portal</i> or to ask a data management or data sharing question. Please provide your contact information if you would like to receive a response. The data portal team will send you a response within the next couple of days.{{ end }}</div>
   <div class="form-group row">
     <label for="name" class="col-sm-3 col-form-label"><b>{{ if eq $.Site.Language.LanguageName "Svenska" }}Namn:*{{ else }}Name:*{{ end }}</b></label>
-    <div class="col-sm-9">
+    <div class="col-sm-9 py-2">
       <input type="text" class="form-control" id="name" name="name" placeholder="{{ if eq $.Site.Language.LanguageName "Svenska" }}Namn{{ else }}Name{{ end }}" required>
       <small class="form-text text-muted">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen ange dina kontaktuppgifter om du vill få ett svar från oss, om inte behöver du inte ange dina kontaktuppgifter.{{ else }}Please provide your name in case you would like to receive a response from us. In other cases, name is not required.{{ end }}</small>
     </div>
   </div>
-  <div class="form-group row">
+  <div class="form-group row my-3">
     <label for="email" class="col-sm-3 col-form-label"><b>E-mail:*</b></label>
-    <div class="col-sm-9">
+    <div class="col-sm-9 py-2">
       <input type="email" class="form-control" id="email" name="email" placeholder="E-mail" required>
       <small class="form-text text-muted">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen ange dina kontaktuppgifter om du vill få ett svar från oss, om inte behöver du inte ange dina kontaktuppgifter.{{ else }}Please provide your e-mail address in case you would like to receive a response from us. In other cases, the e-mail address is not required.{{ end }}</small>
     </div>
   </div>
   <div class="form-group row suggestion_type">
-    <div class="col-sm-3"><b>{{ if eq $.Site.Language.LanguageName "Svenska" }}Vilken typ av fråga eller kommentar rör ditt ärende?*{{ else }}What kind of a question/suggestion do you have?*{{ end }}</b></div>
+    <div class="col-sm-3"><b>{{ if eq $.Site.Language.LanguageName "Svenska" }}Vilken typ av fråga eller kommentar rör ditt ärende?*{{ else }}What kind of a question or suggestion do you have?*{{ end }}</b></div>
     <div class="col-sm-9">
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="suggestion" name="suggestion" required>
@@ -38,9 +38,9 @@
       <small class="form-text text-muted">{{ if eq $.Site.Language.LanguageName "Svenska" }}Du kan ställa en fråga eller ge ett förslag detta formulär.{{ else }}You can ask a question or suggest one or more items using this form.{{ end }}</small>
     </div>
   </div>
-  <div class="form-group row">
+  <div class="form-group row pt-3">
     <label for="description" class="col-sm-3 col-form-label"><b>{{ if eq $.Site.Language.LanguageName "Svenska" }}Frågor och förslag:*{{ else }}Question or suggestion:*{{ end }}</b></label>
-    <div class="col-sm-9">
+    <div class="col-sm-9 py-3">
       <textarea class="form-control" id="description" name="description" rows=5 required></textarea>
       <small class="form-text text-muted">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen beskriv ditt ärende, exempelvis att dela ditt eget dataset, att lägga till en doi till ett dataset, projekt, preprint, etc.{{ else }}Please describe what you need help with (e.g., sharing your own dataset) or provide link(s) and/or DOI(s) to your suggested dataset, project, publication, preprint, etc. and anything else that we should know.{{ end }}</small>
       <div class="invalid-feedback">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen beskriv din fråga eller ge en kommentar.{{ else }}Please describe what question you have or what you are suggesting.{{ end }}</div>

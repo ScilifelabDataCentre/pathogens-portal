@@ -5,7 +5,7 @@ menu:
     top_actions:
         name: Bidra till Portalen
         weight: 40
-        pre: <i class="bi bi-plus-circle-fill mr-2"></i>
+        pre: <i class="bi bi-plus-circle-fill me-2"></i>
 ---
 Den *Svenska dataportalen för Covid-19 & Pandemisk beredskap* har som syfte att stödja forskare som arbetar inom de forskningsområden som Portalen specifikt är inriktade på. Vi välkomnar både förslag på och bidrag till Portalens innehåll och förslag på hur Portalen kan utvecklas för att bättre stödja forskningen. Som forskare uppmanar vi dig att interagera med Portalen, exempelvis genom att dela data eller information genom Portalen. Vi tar även gärna emot förslag på nytt innehåll, nya sektioner samt förslag på hur nuvarande sektioner kan utvecklas och förnyas.
 

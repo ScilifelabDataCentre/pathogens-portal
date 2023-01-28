@@ -27,7 +27,7 @@ Om du vill bidra med innehåll eller har förslag på förbättringar av webbpla
 
 ##### [SciLifeLabs forskningsprogram för pandemisk laboratorieberedskap](https://www.scilifelab.se/capabilities/pandemic-laboratory-preparedness/)
 
-<figure class="figure float-right mx-3"><img height="150" alt="PLP logo" src="/img/plp_default2.png"></figure>
+<figure class="figure float-end mx-3"><img height="150" alt="PLP logo" src="/img/plp_default2.png"></figure>
 
 SciLifeLab (Science for Life Laboratory) fick i uppdrag av regeringen att bygga upp resurser och ”capabilities” som kan användas för att möta framtida pandemier. Uppdraget innebär övergripande att stödja forskning inom infektionssjukdomar (exempelvis inom diagnostik, immunitet, och utveckling av resistens mot läkemedel), samt att bygga upp kompetens och utveckla teknologier för pandemisk beredskap (exempelvis sekvensering, genetiska analys, immunologi och hantera stora datamängder.
 
@@ -39,7 +39,7 @@ Läs mer om PLP programmet och de resurser som byggs upp inom nätverket på [pa
 
 ##### [SciLifeLab](https://scilifelab.se)
 
-<figure class="figure float-right"><img width="300" src="/img/logos/scilifelab-logo.svg"></figure>
+<figure class="figure float-end"><img width="300" src="/img/logos/scilifelab-logo.svg"></figure>
 
 SciLifeLab är ett nationellt center för molekylära biovetenskaper med fokus på forskning inom hälsa och miljö. Centret kombinerar ledande teknisk expertis med avancerat kunnande inom translationell medicin och molekylära biovetenskaper. Vårt mål är också att bygga en stark forskargruppering kring SciLifeLab genom utbildning och samverkan. SciLifeLab är en nationell resurs som drivs av [Karolinska Institutet](https://www.ki.se/), [Kungliga Tekniska Högskolan](https://www.kth.se/), [Stockholms universitet](https://www.su.se/) och [Uppsala universitet](https://www.uu.se/). Vi samarbetar med flera andra svenska universitet.
 
@@ -47,7 +47,7 @@ SciLifeLab kombinerar teknisk expertis med avancerad kunskap inom translationell
 
 ##### [SciLifeLab Data Centre](https://scilifelab.se/data)
 
-<figure class="figure float-right mx-3"><img height="110" alt="SciLifeLab Data Centre logo" src="/img/logos/dc_branding_light_bg.svg"></figure>
+<figure class="figure float-end mx-3"><img height="110" alt="SciLifeLab Data Centre logo" src="/img/logos/dc_branding_light_bg.svg"></figure>
 
 Biomedicinsk forskning är inte bara teknikdriven utan blir alltmer datadriven. SciLifeLab samordnar och stöder aktiviteter under hela livscykeln för data, från projektplanering, dataproduktion, dataanalys, datadelning, till publicering och återanvändning av data, där forskare är beroende av avancerad dataanalys och e-infrastruktur.
 
@@ -57,7 +57,7 @@ Vårt fokus är på data som härrör från användningen av SciLifeLab-infrastr
 
 ##### [The European COVID-19 Data Platform](https://covid19dataportal.org/)
 
-<figure class="figure float-right mx-3"><img height="50" alt="The European COVID-19 Data Platform logo" src="/img/logos/european_covid19dataportal.svg"></figure>
+<figure class="figure float-end mx-3"><img height="50" alt="The European COVID-19 Data Platform logo" src="/img/logos/european_covid19dataportal.svg"></figure>
 
 Den svenska dataportalen för Covid-19 & pandemisk beredskap är den nationella noden för den europeiska Covid-19 dataplattformen. Den europeiska Covid-19 dataplattformen drivs av European Bioinformatics Institute, som är en del av European Molecular Biology Laboratory (EMBL-EBI), tillsammans med EU- kommissionen, EU:s medlemsländer, och med forskningspartners som ELIXIR. En översikt över nationella noder finns [här](https://covid19dataportal.se/partners/).
 
@@ -65,7 +65,7 @@ Den europeiska COVID-19 dataplattformen har som syfte att och stödja datadelnin
 
 ##### [BY-COVID konsortiet](https://by-covid.org/)
 
-<figure class="figure float-right mx-3"><img height="40" alt="BY-COVID logo" src="/img/logos/by-covid-logo.svg"></figure>
+<figure class="figure float-end mx-3"><img height="40" alt="BY-COVID logo" src="/img/logos/by-covid-logo.svg"></figure>
 
 Den svenska Dataportalen för Covid-19 & Pandemisk Beredskap är en av ett flertal partner i BeYond COVID konsortiet [BY-COVID](https://by-covid.org/). BY-COVID finansieras av EU-kommissionen och inkluderar totalt 53 partnerprojekt från19 länder. Intresseorganisationerna spänner från biomedicinsk vetenskap till sjukvård, folkhälsa, samhällsvetenskap och humaniora. BY-COVID projektets syfte är att göra Covid-19 relaterade data mer lättillgängliga för forskarsamhället, men även för verksamma inom sjukvård och myndigheter.
 
@@ -75,9 +75,9 @@ Medlemmar i Portalenteamet deltar även i utvecklingen av of the Portal team are
 
 ##### [National Bioinformatics Infrastructure (NBIS) och ELIXIR Sverige](https://nbis.se)
 
-<figure class="figure float-right mx-3"><img height="80" alt="National Bioinformatics Infrastructure (NBIS) logo" src="/img/logos/nbislogo-orange-txt.svg"></figure>
+<figure class="figure float-end mx-3"><img height="80" alt="National Bioinformatics Infrastructure (NBIS) logo" src="/img/logos/nbislogo-orange-txt.svg"></figure>
 
-<figure class="figure float-right mx-3"><img height="80" alt="ELIXIR logo" src="/img/logos/elixir-se-logo.png"></figure>
+<figure class="figure float-end mx-3"><img height="80" alt="ELIXIR logo" src="/img/logos/elixir-se-logo.png"></figure>
 
 [NBIS](https://nbis.se) är en distribuerad nationell infrastruktur för bioinformatik med stöd från SciLifeLab, Vetenskapsrådet, alla större svenska universitet, samt Knut och Alice Wallenbergs stiftelse. NBIS tillhandahåller bioinformatiksupport och infrastruktur till forskare inom livsvetenskaperna, och har ett 90-tal experter över hela landet inom olika områden såsom DNA-, RNA- och proteinanalyser, systembiologi, genomanalyser, masspektrometri-proteomik, metabolomik. NBIS har också experter inom systemutveckling och datahantering. NBIS utgör den svenska noden i den europeiska infrastrukturen [ELIXIR](https://www.elixir-europe.org/) för biologiska data.
 
@@ -96,34 +96,34 @@ Vi hjälper er gärna med support, tar emot förslag på förbättringar av nuva
 <div class="container mb-3">
   <div class="row">
     <div class="col-md-2 pt-2">
-      <div class="row-col"><img src="/img/people/ak.jpg" width="150" class="img-thumbnail"/></div>
-      <div class="row-col"><b>Arnold Kochari</b></div>
-      <div class="row-col"><span class="text-muted">Project leader</span></div>
+      <div><img src="/img/people/ak.jpg" width="150" class="img-thumbnail"/></div>
+      <div><b>Arnold Kochari</b></div>
+      <div><span class="text-muted">Project leader</span></div>
     </div>
     <div class="col-md-2 pt-2">
-      <div class="row-col"><img src="/img/people/kos.jpeg" width="150" class="img-thumbnail"/></div>
-      <div class="row-col"><b>Katarina Öjefors Stark</b></div>
-      <div class="row-col"><span class="text-muted">Data steward</span></div>
+      <div><img src="/img/people/kos.jpeg" width="150" class="img-thumbnail"/></div>
+      <div><b>Katarina Öjefors Stark</b></div>
+      <div><span class="text-muted">Data steward</span></div>
     </div>
     <div class="col-md-2 pt-2">
-      <div class="row-col"><img src="/img/people/lh.png" width="150" class="img-thumbnail"/></div>
-      <div class="row-col"><b>Liane Hughes</b></div>
-      <div class="row-col"><span class="text-muted">Data engineer</span></div>
+      <div><img src="/img/people/lh.png" width="150" class="img-thumbnail"/></div>
+      <div><b>Liane Hughes</b></div>
+      <div><span class="text-muted">Data engineer</span></div>
     </div>
     <div class="col-md-2 pt-2">
-      <div class="row-col"><img src="/img/people/sp.jpeg" width="150" class="img-thumbnail"/></div>
-      <div class="row-col"><b>Senthilkumar Panneerselvam</b></div>
-      <div class="row-col"><span class="text-muted">Systems developer</span></div>
+      <div><img src="/img/people/sp.jpeg" width="150" class="img-thumbnail"/></div>
+      <div><b>Senthilkumar Panneerselvam</b></div>
+      <div><span class="text-muted">Systems developer</span></div>
     </div>
     <div class="col-md-2 pt-2">
-      <div class="row-col"><img src="/img/people/hk.jpg" width="150" class="img-thumbnail"/></div>
-      <div class="row-col"><b>Hanna Kultima</b></div>
-      <div class="row-col"><span class="text-muted">Data management team leader at SciLifeLab</span></div>
+      <div><img src="/img/people/hk.jpg" width="150" class="img-thumbnail"/></div>
+      <div><b>Hanna Kultima</b></div>
+      <div><span class="text-muted">Data management team leader at SciLifeLab</span></div>
     </div>
     <div class="col-md-2 pt-2">
-      <div class="row-col"><img src="/img/people/jr.jpg" width="150" class="img-thumbnail"/></div>
-      <div class="row-col"><b>Johan Rung</b></div>
-      <div class="row-col"><span class="text-muted">Head of the SciLifeLab Data Centre</span></div>
+      <div><img src="/img/people/jr.jpg" width="150" class="img-thumbnail"/></div>
+      <div><b>Johan Rung</b></div>
+      <div><span class="text-muted">Head of the SciLifeLab Data Centre</span></div>
     </div>
   </div>
 </div>

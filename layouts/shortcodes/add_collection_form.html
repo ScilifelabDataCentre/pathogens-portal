@@ -2,7 +2,7 @@
   <div class="accordion md-accordion" id="accordionForm" role="tablist" aria-multiselectable="true">
     <div class="card">
       <div class="card-header" role="tab" id="generalinfo">
-        <a data-toggle="collapse" data-parent="#accordionForm" href="#collapseGeneralInformation" aria-expanded="true"
+        <a data-bs-toggle="collapse" data-bs-parent="#accordionForm" href="#collapseGeneralInformation" aria-expanded="true"
           aria-controls="collapseGeneralInformation">
           <h5 class="mb-0">
             General information* <i class="bi bi-caret-down-fill"></i>
@@ -10,9 +10,9 @@
         </a>
       </div>
       <div id="collapseGeneralInformation" class="collapse show" role="tabpanel" aria-labelledby="generalinfo"
-        data-parent="#accordionForm">
+        data-bs-parent="#accordionForm">
         <div class="card-body">
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="biobank_id"><b>Biobank:*</b></label>
             <select class="form-control" id="biobank_id" name="biobank_id" required>
               <option hidden disabled selected value> </option>
@@ -47,99 +47,99 @@
               <option value="c19dp:biobank:SE_1001">Östergötland biobank (1)</option>
               <option value="biobank_other">Other (please specify)</option>
             </select>
-            <div id="biobank_other_name_text" class="form-group mt-2 mb-0 d-none">
+            <div id="biobank_other_name_text" class="form-group mt-3 d-none">
               <small class="form-text mb-1"><b>Specify the name of the biobank:*</b></small>
               <input type="text" class="form-control" id="biobank_other_name" name="biobank_other_name" maxlength="100">
             </div>
-            <small class="form-text text-muted">Provide the name of the biobank to which the collection belongs. Not all
+            <small class="form-text">Provide the name of the biobank to which the collection belongs. Not all
               biobanks have been added to the Swedish COVID-19 Sample Collection database. In order to add a new
               biobank, please <a href="/biobanks/add_biobank/">fill out this form</a>. To avoid potential delays caused
               during the addition of new biobanks, the portal team have made it possible for users to specify a
               different biobank name. Simply select 'Other (please specify)' and then write the new biobank name in the
               box that appears below</small>
           </div>
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="collection_name"><b>Collection name:*</b></label>
             <input type="text" class="form-control" name="collection_name" required>
-            <small class="form-text text-muted">Collection name (as required by <a
+            <small class="form-text">Collection name (as required by <a
                 href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-03</a>).</small>
           </div>
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="collection_acronym"><b>Collection acronym:</b></label>
             <input type="text" class="form-control" name="collection_acronym">
-            <small class="form-text text-muted">Collection acronym (as required by <a
+            <small class="form-text">Collection acronym (as required by <a
                 href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-02</a>).</small>
           </div>
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="parent_collection"><b>Parent collection:</b></label>
             <input type="text" class="form-control" name="parent_collection">
-            <small class="form-text text-muted">If this is a subcollection of a larger collection, provide the name or
+            <small class="form-text">If this is a subcollection of a larger collection, provide the name or
               local ID of the parent collection.</small>
           </div>
-          <div class="form-row">
+          <div class="row mb-3">
             <div class="form-group col-md-6">
               <label for="collection_local_id"><b>Local collection ID:*</b></label>
               <input type="text" class="form-control" name="collection_local_id" required>
-              <small class="form-text text-muted">Collection ID within the biobank. Please put "N/A" in case the local
+              <small class="form-text">Collection ID within the biobank. Please put "N/A" in case the local
                 collection ID is not available (healthcare samples).</small>
             </div>
             <div class="form-group col-md-6">
               <label for="collection_bbmri_id"><b>BBMRI-ERIC collection ID:</b></label>
               <input type="text" class="form-control" name="collection_bbmri_id">
-              <small class="form-text text-muted">If the collection is already listed at BBMRI-ERIC, please provide its
+              <small class="form-text">If the collection is already listed at BBMRI-ERIC, please provide its
                 unique ID within BBMRI-ERIC. This ID is constructed from biobankID prefix + :collection: + local
                 collection ID string (as required by <a
                   href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-01</a>).
                 For example, <i>bbmri-eric:ID:SE_9999:0000</i>.</small>
             </div>
           </div>
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="collection_description"><b>Collection description:</b></label>
             <textarea class="form-control" id="description" rows="3" name="collection_description"></textarea>
-            <small class="form-text text-muted">Collection description (as required by <a
+            <small class="form-text">Collection description (as required by <a
                 href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-08</a>).</small>
           </div>
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="collection_url"><b>Collection homepage URL:</b></label>
             <input type="url" class="form-control" name="collection_url">
-            <small class="form-text text-muted">Collection homepage URL.</small>
+            <small class="form-text">Collection homepage URL.</small>
           </div>
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="collection_bioresource_reference"><b>Collection reference(s):</b></label>
             <textarea class="form-control" id="collection_bioresource_reference" rows="3"
               name="collection_bioresource_reference"></textarea>
-            <small class="form-text text-muted">Please provide a reference to a published article or a preprint
+            <small class="form-text">Please provide a reference to a published article or a preprint
               (including DOI) that should be cited when resources from this collection are used for research.</small>
           </div>
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="collection_ethics_id"><b>Swedish ethical approval ID:*</b></label>
             <input type="text" class="form-control" name="collection_ethics_id" required>
-            <small class="form-text text-muted">Registration number of the Swedish ethical approval. Please put "N/A" in
+            <small class="form-text">Registration number of the Swedish ethical approval. Please put "N/A" in
               case ethical approval was not required (healthcare samples).</small>
           </div>
-          <div class="form-row">
+          <div class="row mb-3">
             <div class="form-group col-md-6">
               <label for="sampling_start_date"><b>Start date of sampling:*</b></label>
               <input type="date" class="form-control" name="sampling_start_date" required>
-              <small class="form-text text-muted">When did the sampling for this collection start.</small>
+              <small class="form-text">When did the sampling for this collection start.</small>
             </div>
             <div class="form-group col-md-6">
               <label for="sampling_end_date"><b>End date of sampling:</b></label>
               <input type="date" class="form-control" name="sampling_end_date">
-              <small class="form-text text-muted">When did the sampling for this collection end. Leave blank if sampling
+              <small class="form-text">When did the sampling for this collection end. Leave blank if sampling
                 is ongoing.</small>
             </div>
           </div>
-          <div class="form-row">
+          <div class="row mb-3">
             <div class="form-group col-md-6">
               <label for="collection_preserved_until"><b>Until when will the collection be preserved?*</b></label>
               <input type="date" class="form-control" name="collection_preserved_until" required>
-              <small class="form-text text-muted">Provide a date until which the collection is guaranteed to be
+              <small class="form-text">Provide a date until which the collection is guaranteed to be
                 available. After this date, the researchers will be advised to contact the biobank to ask whether the
                 collection is still available.</small>
             </div>
           </div>
-          <div class="form-group types_sweden">
+          <div class="form-group mb-3 types_sweden">
             <label for="types_sweden"><b>Collection type(s) according to categorization in Sweden:*</b></label>
             <div class="form-check">
               <input id="SAMPLE_COLLECTION_TYPE_HEALTHCARE" type="checkbox"
@@ -154,9 +154,9 @@
                 collection</label>
               <div class="invalid-feedback"><b>Choose at least one collection type.</b></div>
             </div>
-            <div><small class="form-text text-muted">Type(s) of collection.</small></div>
+            <div><small class="form-text">Type(s) of collection.</small></div>
           </div>
-          <div class="form-group types_bbmri">
+          <div class="form-group mb-3 types_bbmri">
             <label for="types_bbmri"><b>Collection type(s) according to BBMRI-ERIC:*</b></label>
             <div class="form-check">
               <input id="COLLECTION_TYPE_PROSPECTIVE_COLLECTION" type="checkbox"
@@ -239,10 +239,10 @@
               <label for="COLLECTION_TYPE_OTHER" class="form-check-label">Other</label>
               <div class="invalid-feedback"><b>Choose at least one collection type.</b></div>
             </div>
-            <div><small class="form-text text-muted">Type(s) of collection as per BBMRI-ERIC classification. Required
+            <div><small class="form-text">Type(s) of collection as per BBMRI-ERIC classification. Required
                 for the collection to be included in BBMRI-ERIC.</small></div>
           </div>
-          <div class="form-group data_categories">
+          <div class="form-group mb-3 data_categories">
             <label for="data_categories"><b>Data categories:*</b></label>
             <div class="form-check">
               <input id="DATA_CATEGORY_ANTIBODIES" type="checkbox"
@@ -325,11 +325,11 @@
               <label for="DATA_CATEGORY_NAV" class="form-check-label">Not available</label>
               <div class="invalid-feedback"><b>Choose at least one data category.</b></div>
             </div>
-            <div><small class="form-text text-muted">Which types of data are available (as required by <a
+            <div><small class="form-text">Which types of data are available (as required by <a
                   href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-13</a>).</small>
             </div>
           </div>
-          <div class="form-row">
+          <div class="row mb-3">
             <div class="form-group col-md-6">
               <label for="size_of_collection"><b>Size of the collection:*</b></label>
               <select class="form-control" id="size_of_collection" name="size_of_collection" required>
@@ -344,15 +344,15 @@
                 <option value="7:size_ofcollection_10000000_100000000">10.000.000 - 100.000.000</option>
                 <option value="8:size_ofcollection_100000000_1000000000">100.000.000 - 1.000.000.000</option>
               </select>
-              <small class="form-text text-muted">Size of the collection to the given date.</small>
+              <small class="form-text">Size of the collection to the given date.</small>
             </div>
             <div class="form-group col-md-6">
               <label for="size_ofcollection_updated_date"><b>Date size information last updated:*</b></label>
               <input type="date" class="form-control" name="size_ofcollection_updated_date" required>
-              <small class="form-text text-muted">Date to which the indicated size of the collection was valid.</small>
+              <small class="form-text">Date to which the indicated size of the collection was valid.</small>
             </div>
           </div>
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="operational_standards"><b>Collection standards:</b></label>
             <div class="form-check">
               <input id="cen-ts-16826-1-2015" type="checkbox" name="cen-ts-16826-1-2015">
@@ -470,14 +470,14 @@
               <input id="others" type="checkbox" name="others">
               <label for="others" class="form-check-label">Other</label>
             </div>
-            <div><small class="form-text text-muted">List of standards to which the collection complies.</small></div>
+            <div><small class="form-text">List of standards to which the collection complies.</small></div>
           </div>
         </div>
       </div>
     </div>
     <div class="card">
       <div class="card-header" role="tab" id="donorInformation">
-        <a class="collapsed" data-toggle="collapse" data-parent="#accordionForm" href="#collapseDonorInformation"
+        <a class="collapsed" data-bs-toggle="collapse" data-bs-parent="#accordionForm" href="#collapseDonorInformation"
           aria-expanded="false" aria-controls="collapseDonorInformation">
           <h5 class="mb-0">
             Donor information <i class="bi bi-caret-down-fill"></i>
@@ -485,9 +485,9 @@
         </a>
       </div>
       <div id="collapseDonorInformation" class="collapse" role="tabpanel" aria-labelledby="donorInformation"
-        data-parent="#accordionForm">
+        data-bs-parent="#accordionForm">
         <div class="card-body">
-          <div class="form-group diagnisis_available">
+          <div class="form-group mb-3 diagnisis_available">
             <label for="covid19_diagnosis"><b>COVID-19 diagnosis:</b></label>
             <div class="form-check">
               <input id="DIAGNOSIS_COVID19_virus_identified" type="checkbox"
@@ -503,20 +503,20 @@
             </div>
           </div>
           
-          <!--- <div class="form-group">
+          <!--- <div class="form-group mb-3">
     <label for="diagnosis_available"><b>Diagnoses available in the collection:</b></label>
     <select class="js-select-diagnoses-multiple form-control" name="diagnosis_available[]" id="diagnosis_available" style="width:100%"></select>
-    <small class="form-text text-muted">Select one or multiple diagnoses (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-17</a>). Start typing in order to see options. We use <a href="https://icd.who.int/browse10/2019/en">ICD-10 codes for the diagnoses</a>. In case of COVID-19, the relevant diagnoses are: <i>U07.1 COVID-19, virus identified</i> and <i>U07.2 COVID-19, virus not identified</i></small>
+    <small class="form-text">Select one or multiple diagnoses (as required by <a href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-17</a>). Start typing in order to see options. We use <a href="https://icd.who.int/browse10/2019/en">ICD-10 codes for the diagnoses</a>. In case of COVID-19, the relevant diagnoses are: <i>U07.1 COVID-19, virus identified</i> and <i>U07.2 COVID-19, virus not identified</i></small>
   </div> 
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="diagnosis_available"><b>Other diagnoses available in the collection:</b></label>
             <textarea class="form-control" id="diagnosis_available" rows="3" name="diagnosis_available"></textarea>
-            <small class="form-text text-muted">Provide one or multiple diagnoses (as required by <a
+            <small class="form-text">Provide one or multiple diagnoses (as required by <a
                 href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-17</a>).
               We use <a href="https://icd.who.int/browse10/2019/en">ICD-10 codes for the diagnoses</a>.</small>
           </div> --->
           
-          <div class="form-row">
+          <div class="row mb-3">
             <div class="form-group col-md-6">
               <label for="number_of_donors"><b>Number of donors:</b></label>
               <select class="form-control" id="number_of_donors" name="number_of_donors">
@@ -531,10 +531,10 @@
                 <option value="7:number_of_donors_10000000_100000000">10.000.000 - 100.000.000</option>
                 <option value="8:number_of_donors_100000000_1000000000">100.000.000 - 1.000.000.000</option>
               </select>
-              <small class="form-text text-muted">Number of donors from whom samples were obtained.</small>
+              <small class="form-text">Number of donors from whom samples were obtained.</small>
             </div>
           </div>
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="donor_autopsy"><b>Samples from deceased (autopsy)?</b></label>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="donor_autopsy" id="yes" value="TRUE">
@@ -548,9 +548,9 @@
               <input class="form-check-input" type="radio" name="donor_autopsy" id="na" value="na">
               <label class="form-check-label" for="na">N/A</label>
             </div>
-            <small class="form-text text-muted">Indicate whether the samples were obtained during autopsies.</small>
+            <small class="form-text">Indicate whether the samples were obtained during autopsies.</small>
           </div>
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="donor_minors"><b>Samples from children/minors (<18 years old)?</b></label>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="donor_minors" id="yes" value="TRUE">
@@ -564,20 +564,20 @@
               <input class="form-check-input" type="radio" name="donor_minors" id="na" value="na">
               <label class="form-check-label" for="na">N/A</label>
             </div>
-            <small class="form-text text-muted">Indicate whether the samples were obtained from individals below 18
+            <small class="form-text">Indicate whether the samples were obtained from individals below 18
               years old.</small>
           </div>
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="donor_inclusion_criteria"><b>Inclusion criteria:</b></label>
             <textarea class="form-control" id="donor_inclusion_criteria" rows="3"
               name="donor_inclusion_criteria"></textarea>
-            <small class="form-text text-muted">Provide a list of inclusion criteria.</small>
+            <small class="form-text">Provide a list of inclusion criteria.</small>
           </div>
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="donor_exclusion_criteria"><b>Exclusion criteria:</b></label>
             <textarea class="form-control" id="donor_exclusion_criteria" rows="3"
               name="donor_exclusion_criteria"></textarea>
-            <small class="form-text text-muted">Provide a list of exclusion criteria.</small>
+            <small class="form-text">Provide a list of exclusion criteria.</small>
           </div>
 
         </div>
@@ -585,7 +585,7 @@
     </div>
     <div class="card">
       <div class="card-header" role="tab" id="SampleInformation">
-        <a class="collapsed" data-toggle="collapse" data-parent="#accordionForm" href="#collapseSampleInformation"
+        <a class="collapsed" data-bs-toggle="collapse" data-bs-parent="#accordionForm" href="#collapseSampleInformation"
           aria-expanded="false" aria-controls="collapseSampleInformation">
           <h5 class="mb-0">
             Sample information <i class="bi bi-caret-down-fill"></i>
@@ -593,9 +593,9 @@
         </a>
       </div>
       <div id="collapseSampleInformation" class="collapse" role="tabpanel" aria-labelledby="SampleInformation"
-        data-parent="#accordionForm">
+        data-bs-parent="#accordionForm">
         <div class="card-body">
-          <div class="form-group materials">
+          <div class="form-group mb-3 materials">
             <label for="materials"><b>Available materials:</b></label>
             <div class="form-check">
               <input id="AVAILABLE_MATERIALS_BUFFY_COAT" type="checkbox" name="AVAILABLE_MATERIALS_BUFFY_COAT">
@@ -690,12 +690,12 @@
               <input id="AVAILABLE_MATERIALS_OTHER" type="checkbox" name="AVAILABLE_MATERIALS_OTHER">
               <label for="AVAILABLE_MATERIALS_OTHER" class="form-check-label">Other</label>
             </div>
-            <div><small class="form-text text-muted">Collection contains material(s) of this/these type(s) (as required
+            <div><small class="form-text">Collection contains material(s) of this/these type(s) (as required
                 by <a
                   href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-14</a>).</small>
             </div>
           </div>
-          <div class="form-group storage_temperatures">
+          <div class="form-group mb-3 storage_temperatures">
             <label for="storage_temperatures"><b>Storage temperatures:</b></label>
             <div class="form-check">
               <input id="temperatureLN" type="checkbox" name="temperatureLN">
@@ -721,11 +721,11 @@
               <input id="temperatureOther" type="checkbox" name="temperatureOther">
               <label for="temperatureOther" class="form-check-label">Other</label>
             </div>
-            <div><small class="form-text text-muted">Sample storage temperature(s) - SPREC 2.0 (as required by <a
+            <div><small class="form-text">Sample storage temperature(s) - SPREC 2.0 (as required by <a
                   href="https://github.com/MIABIS/miabis/blob/master/Data-describing-Sample-Collection.md">MIABIS-2.0-15</a>).</small>
             </div>
           </div>
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="sample_access_fee"><b>Sample access in exchange for a fee:</b></label>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="sample_access_fee" id="yes" value="yes">
@@ -739,10 +739,10 @@
               <input class="form-check-input" type="radio" name="sample_access_fee" id="na" value="na">
               <label class="form-check-label" for="na">N/A</label>
             </div>
-            <small class="form-text text-muted">Denotes whether access to samples may be obtained on fee-based
+            <small class="form-text">Denotes whether access to samples may be obtained on fee-based
               basis.</small>
           </div>
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="sample_access_joint_project"><b>Samples access on the basis of a joint project:</b></label>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="sample_access_joint_project" id="yes" value="yes">
@@ -756,7 +756,7 @@
               <input class="form-check-input" type="radio" name="sample_access_joint_project" id="na" value="na">
               <label class="form-check-label" for="na">N/A</label>
             </div>
-            <small class="form-text text-muted">Denotes whether access to samples may be obtained on joint project
+            <small class="form-text">Denotes whether access to samples may be obtained on joint project
               basis.</small>
           </div>
         </div>
@@ -764,64 +764,64 @@
     </div>
     <div class="card">
       <div class="card-header" role="tab" id="Contact">
-        <a class="collapsed" data-toggle="collapse" data-parent="#accordionForm" href="#collapseContact"
+        <a class="collapsed" data-bs-toggle="collapse" data-bs-parent="#accordionForm" href="#collapseContact"
           aria-expanded="false" aria-controls="collapseContact">
           <h5 class="mb-0">
             Contact information* <i class="bi bi-caret-down-fill"></i>
           </h5>
         </a>
       </div>
-      <div id="collapseContact" class="collapse" role="tabpanel" aria-labelledby="Contact" data-parent="#accordionForm">
+      <div id="collapseContact" class="collapse" role="tabpanel" aria-labelledby="Contact" data-bs-parent="#accordionForm">
         <div class="card-body">
           <h5>Collection head</h5>
-          <div class="form-row">
-            <div class="form-group col-md-6 mt-2">
+          <div class="row my-3">
+            <div class="form-group col-md-6">
               <label for="head_firstname"><b>First name of the collection head:</b></label>
               <input type="text" class="form-control" name="head_firstname">
-              <small class="form-text text-muted">First name of a person in charge of the collection, typically
+              <small class="form-text">First name of a person in charge of the collection, typically
                 PI.</small>
             </div>
-            <div class="form-group  col-md-6 mt-2">
+            <div class="form-group  col-md-6">
               <label for="head_lastname"><b>Last name of the collection head:</b></label>
               <input type="text" class="form-control" name="head_lastname">
-              <small class="form-text text-muted">Last name of a person in charge of the collection, typically
+              <small class="form-text">Last name of a person in charge of the collection, typically
                 PI.</small>
             </div>
           </div>
-          <div class="form-row">
+          <div class="row mb-3">
             <div class="form-group col-md-6">
               <label for="head_role"><b>Official role of the collection head:</b></label>
               <input type="text" class="form-control" name="head_role">
-              <small class="form-text text-muted">Official role of the person in charge of the collection, typically
+              <small class="form-text">Official role of the person in charge of the collection, typically
                 PI.</small>
             </div>
           </div>
           <h5>Collection contact person</h5>
-          <div class="form-row">
-            <div class="form-group col-md-6 mt-2">
+          <div class="row my-3">
+            <div class="form-group col-md-6">
               <label for="contact_first_name"><b>First name of the contact person for enquiries:*</b></label>
               <input type="text" class="form-control" name="contact_first_name" required>
-              <small class="form-text text-muted">First name of the person who handles enquiries and questions regarding
+              <small class="form-text">First name of the person who handles enquiries and questions regarding
                 this collection.</small>
             </div>
-            <div class="form-group col-md-6 mt-2">
+            <div class="form-group col-md-6">
               <label for="contact_last_name"><b>Last name of the contact person for enquiries:*</b></label>
               <input type="text" class="form-control" name="contact_last_name" required>
-              <small class="form-text text-muted">First name of the person who handles enquiries and questions regarding
+              <small class="form-text">First name of the person who handles enquiries and questions regarding
                 this collection.</small>
             </div>
           </div>
-          <div class="form-row">
+          <div class="row mb-3">
             <div class="form-group col-md-6">
               <label for="contact_email"><b>E-mail of the contact person for enquiries:*</b></label>
               <input type="contact_email" class="form-control" name="contact_email" required>
-              <small class="form-text text-muted">E-mail address of the person who handles enquiries and questions
+              <small class="form-text">E-mail address of the person who handles enquiries and questions
                 regarding this collection.</small>
             </div>
             <div class="form-group col-md-6">
               <label for="contact_phone"><b>Phone number of the contact person for enquiries:</b></label>
               <input type="text" class="form-control" name="contact_phone">
-              <small class="form-text text-muted">Phone number of the person who handles enquiries and questions
+              <small class="form-text">Phone number of the person who handles enquiries and questions
                 regarding this collection. To be filled out including international prefix (+99999999999 form with no
                 spaces).</small>
             </div>
@@ -831,7 +831,7 @@
     </div>
     <div class="card">
       <div class="card-header" role="tab" id="CollectionUsage">
-        <a class="collapsed" data-toggle="collapse" data-parent="#accordionForm" href="#collapseCollectionUsage"
+        <a class="collapsed" data-bs-toggle="collapse" data-bs-parent="#accordionForm" href="#collapseCollectionUsage"
           aria-expanded="false" aria-controls="collapseCollectionUsage">
           <h5 class="mb-0">
             Publications based on the collection <i class="bi bi-caret-down-fill"></i>
@@ -839,13 +839,13 @@
         </a>
       </div>
       <div id="collapseCollectionUsage" class="collapse" role="tabpanel" aria-labelledby="CollectionUsage"
-        data-parent="#accordionForm">
+        data-bs-parent="#accordionForm">
         <div class="card-body">
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="publications_list"><b>Published articles and preprints which used the samples or data belonging
                 to the collection:</b></label>
             <textarea class="form-control" id="publications_list" rows="5" name="publications_list"></textarea>
-            <small class="form-text text-muted">Please provide a list with full references including DOIs for each
+            <small class="form-text">Please provide a list with full references including DOIs for each
               published article or preprint. This information will be displayed on the collection page.</small>
           </div>
         </div>

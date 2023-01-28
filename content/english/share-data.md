@@ -4,7 +4,7 @@ toc: true
 menu:
     top_actions:
         weight: 40
-        pre: <i class="bi bi-server mr-2"></i>
+        pre: <i class="bi bi-server me-2"></i>
 aliases:
   - /data_types/genomics_transcriptomics/guidelines/
   - /data_types/compound_and_target_data/guidelines/

@@ -59,18 +59,16 @@ Székely, A. J., Mohamed, N., Dafalla, I., Vargas, J., Malmberg, M. (2021). Data
 
 <div class="alert alert-info">Last updated: <span id="last_modified_uppsala"></span></div>
 
-<button type="button" class="btn btn-sm btn-outline-secondary mb-2" data-toggle="modal" data-target="#interactiveFeaturesModal">
+<button type="button" class="btn btn-sm btn-outline-secondary mb-2" data-bs-toggle="modal" data-bs-target="#interactiveFeaturesModal">
   How to use the interactive features of the plot
 </button>
 
 <div class="modal fade" id="interactiveFeaturesModal" tabindex="-1" aria-labelledby="interactiveFeaturesModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="interactiveFeaturesModalLabel">Information on how to use the interactive features of the plot</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <p>The line plots on this page have multiple interactive features. You can use the features to view the data in them in different ways. For example, you can choose to view data only within a certain time period, or from a given collection site. Below, we explain how to use different interactive features to meet your needs.</p>
@@ -84,7 +82,7 @@ Székely, A. J., Mohamed, N., Dafalla, I., Vargas, J., Malmberg, M. (2021). Data
         <p>If you hover your cursor over the plot, you will see some additional options as grey icons in the top right. You can use these features to zoom in/out of the plot (using the + and - icons), and scale the axes so that the data from the 'selected' sites are shown on the most appropriate axes (this can be done using the autoscale or reset axes icons, which look like a box containing arrows and a house, respectively).</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -126,7 +124,7 @@ Cetecioglu, Z. G., Williams, C., Khatami, K., Atasoy, M., Nandy, P., Jafferali, 
 
 <div class="alert alert-info">Last updated: <span id="last_modified_stockholm"></span></div>
 
-<button type="button" class="btn btn-sm btn-outline-secondary mb-2" data-toggle="modal" data-target="#interactiveFeaturesModal">
+<button type="button" class="btn btn-sm btn-outline-secondary mb-2" data-bs-toggle="modal" data-bs-target="#interactiveFeaturesModal">
   How to use the interactive features of the plot
 </button>
 
