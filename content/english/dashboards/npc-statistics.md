@@ -30,7 +30,7 @@ Source code for the below graph is available [here](https://datagraphics.dckube.
 </div>
 
 <div class="plot_wrapper">
-  <div id="total-numbers-chart"></div>
+  <div class="w-100" id="total-numbers-chart"></div>
 </div>
 
 #### NPC test numbers
@@ -48,7 +48,7 @@ Source code is available for both the [daily](https://datagraphics.dckube.scilif
     Scroll the plot sideways to view all data.
   </div>
   <div class="plot_wrapper">
-    <div id="stacked-bar-chart"></div>
+    <div class="w-100" id="stacked-bar-chart"></div>
   </div>
 </div>
 <div id="dwbuttons">
@@ -60,7 +60,7 @@ Source code is available for both the [daily](https://datagraphics.dckube.scilif
     Scroll the plot sideways to view all data.
   </div>
   <div class="plot_wrapper">
-    <div id="stacked-bar-chart-weekly"></div>
+    <div class="w-100" id="stacked-bar-chart-weekly"></div>
   </div>
 </div>
 
@@ -71,29 +71,29 @@ as percentage of all tests conducted (excluding invalid/inconclusive).
 
 Source code is available for both the [daily](https://datagraphics.dckube.scilifelab.se/graphic/b31c50be59c84c93986c25b052115a65) and [weekly](https://datagraphics.dckube.scilifelab.se/graphic/7f27ae237b8146a498ab4014aadc35db) graphs below.
 
-  <div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#daily_positive_bar_chart" aria-expanded="true" aria-controls="#daily_positive_bar_chart">
-    Daily
-  </button></div>
-  <div class="collapse show" id="daily_positive_bar_chart">
-      <div class="d-lg-none alert alert-info">
-        Scroll the plot sideways to view all data.
-      </div>
-      <div class="plot_wrapper">
-        <div id="positive-bar-chart"></div>
-      </div>
-      <p class="small"><i>*Note that as the number of reported analyses vary, some days may have a low number of samples, affecting the statistics a lot for that day, e.g. August 24th where only seven samples were reported, all positive.</i></p>
-  </div>
-  <div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#weekly_positive_bar_chart" aria-expanded="true" aria-controls="weekly_positive_bar_chart">
-    Weekly
-  </button></div>
-  <div class="collapse show" id="weekly_positive_bar_chart">
+<div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#daily_positive_bar_chart" aria-expanded="true" aria-controls="#daily_positive_bar_chart">
+  Daily
+</button></div>
+<div class="collapse show" id="daily_positive_bar_chart">
     <div class="d-lg-none alert alert-info">
       Scroll the plot sideways to view all data.
     </div>
     <div class="plot_wrapper">
-      <div id="positive-bar-chart-weekly"></div>
+      <div class="w-100" id="positive-bar-chart"></div>
     </div>
+    <p class="small"><i>*Note that as the number of reported analyses vary, some days may have a low number of samples, affecting the statistics a lot for that day, e.g. August 24th where only seven samples were reported, all positive.</i></p>
+</div>
+<div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#weekly_positive_bar_chart" aria-expanded="true" aria-controls="weekly_positive_bar_chart">
+  Weekly
+</button></div>
+<div class="collapse show" id="weekly_positive_bar_chart">
+  <div class="d-lg-none alert alert-info">
+    Scroll the plot sideways to view all data.
   </div>
+  <div class="plot_wrapper">
+    <div class="w-100" id="positive-bar-chart-weekly"></div>
+  </div>
+</div>
 
 #### Cumulative NPC test numbers
 
@@ -107,7 +107,7 @@ Source code for the below graph is available [here](https://datagraphics.dckube.
 </div>
 
 <div class="plot_wrapper">
-  <div id="cumulative-plot"></div>
+  <div class="w-100" id="cumulative-plot"></div>
 </div>
 
 The National Pandemic Centre (NPC) was a facility for

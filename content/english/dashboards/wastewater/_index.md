@@ -147,7 +147,7 @@ Please note that the plot below displays the same data, but the y axis is shown 
 </div>
 
 <div class="plot_wrapper">
-  <div class="table-responsive" id="malmo"></div>
+  <div class="table-responsive w-100" id="malmo"></div>
 </div>
 
 ### Commentary

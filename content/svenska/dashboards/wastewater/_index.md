@@ -142,7 +142,7 @@ Observera att grafen nedan visar samma data, men y-axeln visas som en logskala, 
 </div>
 
 <div class="plot_wrapper">
-  <div class="table-responsive" id="malmo"></div>
+  <div class="table-responsive w-100" id="malmo"></div>
 </div>
 
 ### Kommentar
