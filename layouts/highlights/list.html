@@ -1,7 +1,106 @@
 {{ define "main" }}
 
-{{ .Content }}
+<div class="mb-3">
+  {{ .Content }}
 
+  If you have published or are about to publish data that you think should be highlighted in this section, please click
+  the button below to suggest a data highlight and the editorial team will get in touch with you as soon as possible to
+  discuss your suggestion.
+</div>
+
+<section>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-blue mb-3" data-bs-toggle="modal" data-bs-target="#dhModal">
+  Suggest a highlight
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="dhModal" tabindex="-1" role="dialog" aria-labelledby="dhModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <form action="https://forms.dckube.scilifelab.se/api/v1/form/nQzQl4yLUr8Jatcl/incoming" class="needs-validation"
+        novalidate method="POST" accept-charset="utf-8">
+        <div class="modal-header">
+          <h5 class="modal-title" id="dhModalLabel">Data highlight suggestion</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div>
+            <p>We welcome suggestions for data highlights that focus on openly shared data, open source tools, or 
+               work based on the use of open-source data/tools. You are welcome to suggest your own work, or someone 
+               else's, as something of potential interesty. The portal team will make a decision on whether the work
+               can be showcased in the data highlights section. Highlights can be written by yourself or a member of
+               the portal team. In either case, the team will work closely with you throuhgout the process.</p>
+            <p>Please fill out the form below to suggest a data highlight. We will get back to you with our decision
+              and further steps shortly after we receive the suggestion.</p>
+          </div>
+          <div class="form-group mb-3">
+            <label for="submitter_name" class="form-label fw-bold">Your name:*</label>
+            <input type="text" class="form-control" id="submitter_name" name="submitter_name" required>
+          </div>
+          <div class="form-group mb-3">
+            <label for="submitter_email" class="form-label fw-bold">Your contact email:*</label>
+            <input type="email" class="form-control" id="submitter_email" name="submitter_email" required>
+          </div>
+          <div class="form-group mb-3">
+            <label for="title" class="form-label fw-bold">Title of the work:*</label>
+            <input type="text" class="form-control" id="title" name="title" required>
+          </div>
+          <div class="form-group mb-3">
+            <label for="url" class="form-label fw-bold">URL or DOI with more information:*</label>
+            <input type="text" class="form-control" id="url" name="url" required>
+            <div class="form-text">Enter URL starting with 'https://...' or DOI.</div>
+          </div>
+          <div class="form-group mb-3">
+            <label for="description" class="form-label fw-bold">Description:</label>
+            <textarea class="form-control" id="description" name="description" rows="5"></textarea>
+            <div class="form-text">Please describe why you think this dataset, tool, or result should be showcased as
+              a data highlight on the Preparedness Portal.</div>
+          </div>
+          <div class="form-group form-check mb-3 fw-bold">
+            <input type="checkbox" class="form-check-input" id="i_am_an_author" name="i_am_an_author">
+            <label class="form-check-label" for="i_am_an_author">I am (one of) the author(s) of this work.</label>
+          </div>
+          <div class="form-group form-check mb-3 fw-bold">
+            <input type="checkbox" class="form-check-input" id="would_like_to_write_text"
+              name="would_like_to_write_text">
+            <label class="form-check-label" for="would_like_to_write_text">I would like to write the text for this
+              data highlight myself.</label>
+          </div>
+          <div class="g-recaptcha" data-sitekey="6LesV0gaAAAAAGFjazG7Hd_hN72cpeYm2woivBT3"></div>
+          <input type="url" id="originUrl" name="originUrl" value="" hidden />
+          <input type='hidden' name='origin' value='data_highlight_suggestion'>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- DH listing partial is called -->
 {{- partial "highlights.html" . -}}
+
+<script>
+  document.getElementById('originUrl').value = location.href;
+
+  var form = document.querySelector('.needs-validation');
+  form.addEventListener('submit', function (event) {
+    if (form.checkValidity() === false) {
+      event.preventDefault();
+      alert("Please fill out all required fields.");
+      event.stopPropagation();
+      form.classList.add('was-validated')
+    }
+    var recaptcha = $("#g-recaptcha-response").val();
+    if (recaptcha === "") {
+      event.preventDefault();
+      alert("Please tick 'I'm not a robot' above the 'Submit the form' button.");
+    }
+  });
+</script>
 
 {{ end }}

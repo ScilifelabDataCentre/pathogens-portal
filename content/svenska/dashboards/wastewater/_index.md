@@ -56,18 +56,16 @@ Székely, A. J., Mohamed, N., Dafalla, I., Vargas, J., Malmberg, M. (2021). Data
 
 <div class="alert alert-info">Senast uppdaterad: <span id="last_modified_uppsala"></span></div>
 
-<button type="button" class="btn btn-sm btn-outline-secondary mb-2" data-toggle="modal" data-target="#interactiveFeaturesModal">
+<button type="button" class="btn btn-sm btn-outline-secondary mb-2" data-bs-toggle="modal" data-bs-target="#interactiveFeaturesModal">
   Hur du kan använda grafens interaktiva funktioner
 </button>
 
 <div class="modal fade" id="interactiveFeaturesModal" tabindex="-1" aria-labelledby="interactiveFeaturesModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="interactiveFeaturesModalLabel">Information om hur du kan använda grafens interaktiva funktioner</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <p>Linjediagrammen på den här sidan har flera interaktiva funktioner. Du kan använda funktionerna för att visualisera tillgängliga SARS-COV-2 avloppsvattendata  på olika sätt. Du kan till exempel välja att endast se data inom ett visst tidsintervall, eller från en given ort. Nedan förklarar vi hur du själv kan bestämma hur du gör inställningarna med de tillgängliga interaktiva funktionerna.</p>
@@ -81,7 +79,7 @@ Székely, A. J., Mohamed, N., Dafalla, I., Vargas, J., Malmberg, M. (2021). Data
         <p>Om du håller muspekaren över grafen kommer du att se några ytterligare alternativa funktioner som grå ikoner uppe till höger. Du kan använda dessa funktioner för att zooma in/ut ur  (med hjälp av + och - ikonerna), och för att ändra skalan på axlarna så att data från de "valda" platserna visas på de mest lämpliga axlarna (detta kan göras med hjälp av autoskala eller återställ axlar, som ser ut som en ruta som innehåller pilar respektive ett hus).</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Stäng</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Stäng</button>
       </div>
     </div>
   </div>
@@ -121,7 +119,7 @@ Cetecioglu, Z. G., Williams, C., Khatami, K., Atasoy, M., Nandy, P., Jafferali, 
 
 <div class="alert alert-info">Senast uppdaterad: <span id="last_modified_stockholm"></span></div>
 
-<button type="button" class="btn btn-sm btn-outline-secondary mb-2" data-toggle="modal" data-target="#interactiveFeaturesModal">
+<button type="button" class="btn btn-sm btn-outline-secondary mb-2" data-bs-toggle="modal" data-bs-target="#interactiveFeaturesModal">
   Hur du kan använda grafens interaktiva funktioner
 </button>
 
@@ -144,7 +142,7 @@ Observera att grafen nedan visar samma data, men y-axeln visas som en logskala, 
 </div>
 
 <div class="plot_wrapper">
-  <div class="table-responsive" id="malmo"></div>
+  <div class="table-responsive w-100" id="malmo"></div>
 </div>
 
 ### Kommentar

@@ -5,6 +5,10 @@ body {
 }
 a {
     color: #3E75C1;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 img {
     max-width: 100%;
@@ -34,10 +38,10 @@ img[src$='#floatleftbig'], img[src$='#floatrightbig']{
 }
 
 h2 {
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 h3 {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 h4 {
     margin-top: 1rem;
@@ -71,6 +75,16 @@ li:empty {
     .navbar .navbar-nav a.nav-link {
         padding: 0.3em 0.8rem;
     }
+}
+
+a.nav-link:hover,
+a.nav-link:focus,
+a.nav-link:active {
+    text-decoration: none;
+}
+
+.nav-tabs a.nav-link {
+    color: #3E75C1;
 }
 
 .navbar .navbar-primary-links a.nav-link:hover,
@@ -173,37 +187,33 @@ li:empty {
 }
 
 .main_menu_item {
-  color: rgba(46, 104, 165, 0.8);
-  font-weight: 500;
-  font-size: 1.2em;
+    color: rgba(46, 104, 165, 0.8);
+    font-weight: 500;
+    font-size: 1.3em;
 }
 
 .main_menu_item a {
-  color: rgba(46, 104, 165, 0.8);
-  text-decoration: none;
+    color: rgba(46, 104, 165, 0.8);
+    text-decoration: none;
+}
+
+.main_menu_item_sub a {
+    font-weight: 500;
+    color: rgba(46, 104, 165, 0.8);
+    text-align: left;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin: .2rem .1rem;
+    font-size: 1rem;
+    white-space: nowrap;
+    padding-right: 0.5rem;
+    text-decoration: none;
 }
 
 .main_menu_item a:hover,
 .main_menu_item a:focus,
-.main_menu_item a:active {
-    color: rgba(46, 104, 165, 1);
-}
-
-.main_menu_item_sub a {
-  font-weight: 500;
-  color: rgba(46, 104, 165, 0.8);
-  text-align: left;
-  vertical-align: middle;
-  background-color: transparent;
-  border: 1px solid transparent;
-  margin: .2rem .1rem;
-  font-size: 1rem;
-  white-space: nowrap;
-  border-right: 1px solid #ccc;
-  padding-right: 0.5rem;
-  text-decoration: none;
-}
-
+.main_menu_item a:active,
 .main_menu_item_sub a:hover,
 .main_menu_item_sub a:focus,
 .main_menu_item_sub a:active {
@@ -211,21 +221,26 @@ li:empty {
 }
 
 .main_menu_item_sub_dropdown a {
-  font-weight: 500;
-  font-size: 0.9em;
-  text-align: left;
+    font-weight: 500;
+    font-size: 0.9em;
+    text-align: left;
+}
+
+/* Position tweak for sub dropdown */
+.dropdown-menu .dropdown-menu {
+    top: -.55rem !important;
+    left: -.18rem !important;
 }
 
 .topics_title {
-  font-size: 1.4em;
-  font-weight: 500;
+    font-size: 1.3em;
+    font-weight: 500;
 }
 
 @media (max-width: 1199px) {
-      .main_menu .border-right
-      {
+    .main_menu .border-right {
         border:0px solid !important
-      }
+    }
 }
 
 .header {
@@ -241,8 +256,7 @@ li:empty {
 }
 .breadcrumbs .breadcrumb {
     background-color: transparent;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 12px 0px;
 }
 .breadcrumbs .breadcrumb a {
     color: #6c757d;
@@ -304,46 +318,64 @@ footer img {
     border: solid 1px #2e68a5;
 }
 
-/* There is a bug in Safari whereby it stretches an image nested in a flexbox element to its natural height. I use the class below for rows with images to fix that. */
+/*
+
+This no longer an issue, commenting out on 2023-01-28,
+this commented section can be removed after a month or two
+
+There is a bug in Safari whereby it stretches an image nested 
+in a flexbox element to its natural height. I use the class below 
+for rows with images to fix that.
 
 .row_cor {
-  display: -ms-flexbox;
-  display: flex;
-  align-items: flex-start !important;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px ;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: flex-start !important;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px ;
 }
 
+*/
+
 #dwbuttons .collapsed {
-  background-color: white !important;
-  color: #5a626a !important;
+    background-color: white !important;
+    color: #5a626a !important;
 }
 
 .preprint-icon {
-  color: white;
-  background-color: rgba(77, 77, 77, 0.8);
-  border-radius: 5px;
-  padding: 4px;
-  font-size: small;
-  font-weight: 500;
+    color: white;
+    background-color: rgba(77, 77, 77, 0.8);
+    border-radius: 5px;
+    padding: 4px;
+    font-size: small;
+    font-weight: 500;
 }
 
 .data-available-icon {
-  color: white;
-  background-color: #de2c6c;
-  border-radius: 5px;
-  padding: 4px;
-  font-size: small;
-  font-weight: 500;
+    color: white;
+    background-color: #de2c6c;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: small;
+    font-weight: 500;
 }
 
-/* Override a default for the datatables. */
+/* 
+
+This no longer an issue, commenting out on 2023-01-28,
+this commented section can be removed after a month or two
+
+Not needed with new version of datatable
+but keeping for future reference if needed
+Override a default for the datatables.
 
 div.dataTables_wrapper div.dataTables_info {
     padding-top: 0 !important;
 }
+
+*/
 
 /* Vertical line for the homepage */
 
@@ -404,51 +436,46 @@ div.dataTables_wrapper div.dataTables_info {
 /*
 * Styling of badges to indicate topics
 */
+.topic_badge_small {
+    color: #fff;
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 0.75em;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
 
 .topic_badge_large {
-  color: #fff;
-  display: inline-block;
-  padding: 0.25em 0.4em;
-  font-size: 1em;
-  font-weight: 700;
-  line-height: 1;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: baseline;
-  border-radius: 0.25rem;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #fff;
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.topic_badge_small a,
 .topic_badge_large a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.topic_badge_small {
-  color: #fff;
-  display: inline-block;
-  padding: 0.25em 0.4em;
-  font-size: 75%;
-  font-weight: 700;
-  line-height: 1;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: baseline;
-  border-radius: 0.25rem;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
-.topic_badge_small a {
-  color: #fff;
-  text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 
 .topic_badge_general {
-  background-color: #6c757d;
+    background-color: #6c757d;
 }
 
-.topic_badge_mokeypox {
-  background-color:#2e68a5;
+.topic_badge_mpox {
+    background-color: #2e68a5;
 }
 
 .topic_badge_covid {
@@ -456,37 +483,45 @@ div.dataTables_wrapper div.dataTables_info {
   }
 
 .topic_badge_antib_r {
-  background-color: #6a60af;
+    background-color: #6a60af;
 }
 
-.topic_badge_monkeypox {
-    background-color:rgba(77, 77, 77, 0.8);
-  }
-
 .topic_badge_infectious_d {
-  background-color: #a34fa4;
+    background-color: #a34fa4;
 }
 
 .dataset_badge_data {
     background-color: #D7BDE2;
+    color: #000000;
     font-weight:500;
+    padding: 2px 5px 4px;
+    vertical-align:0.14em;
+    border-radius: 3px;
 }
 
 .dataset_badge_code {
     background-color: #F9E79F;
+    color: #000000;
     font-weight:500;
+    padding: 2px 5px 4px;
+    vertical-align:0.14em;
+    border-radius: 3px;
 }
 
 .dataset_badge_protocol {
     background-color: #AED6F1;
+    color: #000000;
     font-weight:500;
+    padding: 2px 5px 4px;
+    vertical-align:0.14em;
+    border-radius: 3px;
 }
 
 .latest-news {
     background-color:#C44371;
     color:#FFF;
-    padding-top: 4px;
-    margin-left: 4px;
+    vertical-align:0.15em;
+    margin-left: 2px;
 }
 
 /*
@@ -494,23 +529,52 @@ div.dataTables_wrapper div.dataTables_info {
 */
 
 .btn_details {
-  display: inline-block;
-  font-weight: 400;
-  color: #212529;
-  text-align: center;
-  vertical-align: middle;
-  user-select: none;
-  background-color: transparent;
-  border: 1px solid transparent;
-  padding: .375rem .55rem;
-  font-size: 0.9rem;
-  line-height: 1;
-  border-radius: .25rem;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .55rem;
+    font-size: 0.9rem;
+    line-height: 1;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .btn_details_primary {
     color: #fff;
     background-color: #308acf;
     border-color: #308acf;
+}
+
+.btn-blue {
+    color: #fff;
+    background-color: #3E75C1;
+}
+
+.btn-blue:hover {
+    color: #fff;
+    background-color: #2E68A5;
+}
+
+/*
+* Our own backgrounds
+*/
+
+.bg-highlight {
+    height: 100%;
+    background-color: #f8f9fa;
+    padding: 6px 12px 0px;
+    margin: 0px 2px;
+    border-width: 0.01px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: #ccc;
+}
+
+table.no-last-row-border > tbody > tr:last-child {
+    border-color: #fff;
 }

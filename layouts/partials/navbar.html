@@ -6,7 +6,7 @@
     <a class="navbar-brand" href="https://www.scilifelab.se">
       <img src="/img/site_logo/SciLifeLab_logo.svg" alt="SciLifeLab Home">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapseBottom"
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapseBottom"
       aria-controls="navbarCollapseBottom" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -106,32 +106,38 @@
     <div class="col-lg-5">
       <div class="row">
         <div class="col main_menu_item">
-          <i class="bi bi-table"></i> <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Available data, highlights & RDM</a>
+          <i class="bi bi-table"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+             data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
+             aria-expanded="false">Available data, highlights & RDM</a>
           <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
             {{ range .Site.Menus.data_menu }}
-            {{ if .HasChildren }}
-            <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">{{ .Name }}</a>
-            <div class="dropdown-menu main_menu_item_sub_dropdown" aria-labelledby="navbarDropdownMenuLink">
-              {{ range .Children }}
-              <a class="dropdown-item" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+              {{ if .HasChildren }}
+              <div class="dropend">
+                <a class="dropdown-item dropdown-toggle m-0" href="#" id="navbarDropdownMenuLink"
+                   data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">{{ .Name }}</a>
+                <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+                  {{ range .Children }}
+                  <a class="dropdown-item m-0" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+                  {{ end }}
+                </div>
+              </div>
+              {{ else }}
+              <a class="dropdown-item m-0" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
               {{ end }}
-            </div>
-            {{ else }}
-            <a class="dropdown-item" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
-            {{ end }}
             {{ end }}
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col main_menu_item">
-          <i class="bi bi-window-stack"></i> <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data Dashboards</a>
+          <i class="bi bi-window-stack"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
+             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data Dashboards</a>
           <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
             {{ range .Site.Menus.dashboard_menu }}
-            <a class="dropdown-item" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+            <a class="dropdown-item m-0" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
             {{ end }}
           </div>
         </div>
@@ -142,7 +148,7 @@
         </div>
       </div>
     </div>
-    <div class="col-lg-3 mt-3 mt-lg-0 border-right">
+    <div class="col-lg-3 mt-3 mt-lg-0 vert-line-right">
       <div class="row">
         <div class="col main_menu_item">
           <i class="bi bi-grid-fill"></i> <a href="/resources/">Pandemic Preparedness</a>
@@ -155,11 +161,12 @@
       </div>
       <div class="row">
         <div class="col main_menu_item">
-          <i class="bi bi-inboxes-fill"></i> <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research & Funding</a>
+          <i class="bi bi-inboxes-fill"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
+            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research & Funding</a>
           <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
             {{ range .Site.Menus.research_menu }}
-            <a class="dropdown-item" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+            <a class="dropdown-item m-0" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
             {{ end }}
           </div>
         </div>
@@ -171,10 +178,11 @@
         </div> -->
     </div>
     <div class="col-lg-4 my-3 my-lg-0">
-      <span class="topics_title">Topics:</span>
-      {{ range .Site.Menus.topics_menu }}<span class="mx-1 my-1 topic_badge_small
+      <div class="topics_title">Topics:</div>
+      {{ range .Site.Menus.topics_menu }}<span class="me-2 mb-2 topic_badge_large
           {{ if eq .Name "COVID-19"}}topic_badge_covid
           {{ else if eq .Name "Infectious diseases"}}topic_badge_infectious_d
+          {{ else if eq .Name "Mpox"}}topic_badge_mpox
           {{ else if eq .Name "Antibiotic resistance"}}topic_badge_antib_r
           {{ else }}topic_badge_general
           {{ end }} "><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></span>{{ end }}
@@ -192,7 +200,7 @@
         {{ range .Site.Menus.swe_menu }}
         {{ if .HasChildren }}
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             {{ .Name }}
           </a>

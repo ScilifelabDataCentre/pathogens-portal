@@ -21,7 +21,7 @@ resultat.
 </div>
 
 <div class="plot_wrapper">
-  <div id="grand-total-chart"></div>
+  <div class="w-100" id="grand-total-chart"></div>
 </div>
 
 #### Antal tester vid NPC
@@ -39,7 +39,7 @@ resultat.
   Skrolla grafen horisontellt för att se all data.
 </div>
 <div class="plot_wrapper">
-  <div id="stacked-bar-chart"></div>
+  <div class="w-100" id="stacked-bar-chart"></div>
 </div>
 </div>
 <div id="dwbuttons">
@@ -51,7 +51,7 @@ Per vecka
   Skrolla grafen horisontellt för att se all data.
 </div>
 <div class="plot_wrapper">
-  <div id="stacked-bar-chart-weekly"></div>
+  <div class="w-100" id="stacked-bar-chart-weekly"></div>
 </div>
 </div>
 
@@ -68,7 +68,7 @@ i procent av alla tester (exkluderande icke-avgjort/felaktiga).
       Skrolla grafen horisontellt för att se all data.
     </div>
     <div class="plot_wrapper">
-      <div id="positive-bar-chart"></div>
+      <div class="w-100" id="positive-bar-chart"></div>
     </div>
     <p class="small"><i>*Observera att eftersom antalet rapporterade analyser varierar kan vissa dagar ha ett lågt antal prover, vilket påverkar statistiken mycket för den dagen, t.ex. 24 augusti där endast sju prover rapporterades, alla positiva.</i></p>
 </div>
@@ -80,7 +80,7 @@ i procent av alla tester (exkluderande icke-avgjort/felaktiga).
     Skrolla grafen horisontellt för att se all data.
   </div>
   <div class="plot_wrapper">
-    <div id="positive-bar-chart-weekly"></div>
+    <div class="w-100" id="positive-bar-chart-weekly"></div>
   </div>
 </div>
 
@@ -94,7 +94,7 @@ sedan start.
 </div>
 
 <div class="plot_wrapper">
-  <div id="cumulative-plot"></div>
+  <div class="w-100" id="cumulative-plot"></div>
 </div>
 
 Nationellt Pandemicenter (NPC) var en facilitet för

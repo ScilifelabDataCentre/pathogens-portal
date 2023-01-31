@@ -1,7 +1,7 @@
 {{ $origin := .Get "origin" }}
 
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary mb-2" data-toggle="modal" data-target="#annModal">
+<button type="button" class="btn btn-blue mb-2" data-bs-toggle="modal" data-bs-target="#annModal">
   Add an announcement
 </button>
 
@@ -11,28 +11,26 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="annModalLabel">Add an announcement</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <form action="https://forms.dckube.scilifelab.se/api/v1/form/y7stZwUn2oZZXtXF/incoming" class="needs-validation-ann" novalidate method="POST" accept-charset="utf-8">
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="name">Name*</label>
             <input type="text" class="form-control" id="name" name="name" required>
             <small class="form-text text-muted">May be displayed together with the announcement if you wish so.</small>
           </div>
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="contact">Email address and/or other contact information*</label>
             <input type="text" class="form-control" id="contact" name="contact" required>
             <small class="form-text text-muted">May be displayed together with the announcement if you wish so.</small>
           </div>
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="title">Announcement title*</label>
             <input type="text" class="form-control" id="title" name="title" required>
             <small class="form-text text-muted">One line to describe what the announcement is about.</small>
           </div>
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="text">Announcement text*</label>
             <textarea class="form-control" id="text" name="text" rows="3" required></textarea>
           </div>
@@ -42,7 +40,7 @@
           <input type='hidden' name='origin' value='{{ $origin }}'>
           <div class="form-group row">
             <div class="col-sm-9">
-                <button type="button" class="btn btn-secondary mt-3" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary mt-3" data-bs-dismiss="modal">Close</button>
                 <button type="submit" class="btn btn-primary mt-3">Submit</button>
             </div>
           </div>
