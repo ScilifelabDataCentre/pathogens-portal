@@ -8,7 +8,7 @@
                     "type": "data",
                     "repo_name": "OSF",
                     "accession_number": "",
-                    "description": "Students survey data",
+                    "description": "Students survey data on COVID-19 status",
                     "data_type": [
                         "Social science and humanities data"
                     ],
@@ -32,7 +32,7 @@
                     "type": "data",
                     "repo_name": "OSF",
                     "accession_number": "",
-                    "description": "Familydemic survey data",
+                    "description": "Familydemic survey data related to the work and family nexus",
                     "data_type": [
                         "Social science and humanities data"
                     ],
@@ -59,7 +59,7 @@
                     "type": "data",
                     "repo_name": "Zenodo",
                     "accession_number": "",
-                    "description": "Randomized controlled trial data from Sweden and United States",
+                    "description": "Randomised controlled trial data from Sweden and United States for COVID-19 first dose vaccination",
                     "data_type": [
                         "Social science and humanities data",
                         "Other data"
@@ -70,7 +70,7 @@
                     "type": "code",
                     "repo_name": "Zenodo",
                     "accession_number": "",
-                    "description": "Analyses were conducted using STATA 16, the code to replicate the analyses in the article",
+                    "description": "Analyses were conducted using STATA 16, the code to replicate the analysis is in the article",
                     "data_type": [
                         "Social science and humanities data",
                         "Other data"
@@ -137,7 +137,7 @@
                     "type": "data",
                     "repo_name": "NCBI",
                     "accession_number": "PRJNA900274",
-                    "description": "All genomic dataset from this project are available under a NCBI BioProject",
+                    "description": "All genomic datasets from this project are available as part of an NCBI BioProject",
                     "data_type": [
                         "Genomics & transcriptomics data"
                     ],
