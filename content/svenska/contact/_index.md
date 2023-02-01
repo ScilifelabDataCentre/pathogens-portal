@@ -1,10 +1,6 @@
 ---
 title: Kontakta oss
 menu:
-    swe_menu:
-        name: Kontakt
-        weight: 99
-        identifier: contact
     navbar_top:
         name: Kontakt
         weight: 20
