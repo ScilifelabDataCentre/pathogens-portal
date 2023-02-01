@@ -193,31 +193,25 @@
 
 <!-- Main menu, Swedish version -->
 {{ if eq $.Site.Language.LanguageName "Svenska" }}
-<nav class="navbar navbar-expand-lg navbar-light pt-0">
-  <div class="container">
-    <div class="collapse navbar-collapse" id="navbarCollapseBottom">
-      <ul class="navbar-nav mr-auto navbar-primary-links">
-        {{ range .Site.Menus.swe_menu }}
+<div class="container mb-1">
+  <div class="row main_menu">
+    {{ range .Site.Menus.swe_menu }}
+      <div class="col-md-auto main_menu_item">
         {{ if .HasChildren }}
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            {{ .Name }}
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <i class="bi bi-window-stack"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+           data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
+           aria-expanded="false">{{ .Name }}</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
             {{ range .Children }}
-            <a class="dropdown-item" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+              <a class="dropdown-item m-0" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
             {{ end }}
           </div>
-        </li>
         {{ else }}
-        <div class="d-inline">
-          <li class="nav-item"><a class="nav-link" href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
-        </div>
+          <i class="bi bi-journal-text"></i> <a href="/sv/biobanks/">{{ .Name }}</a>
         {{ end }}
-        {{ end }}
-      </ul>
-    </div>
+      </div>
+    {{ end }}
   </div>
-</nav>
+</div>
 {{ end }}

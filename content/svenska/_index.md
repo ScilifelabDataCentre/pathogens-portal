@@ -1,10 +1,5 @@
 ---
 title: Hem
-menu:
-    swe_menu:
-        identifier: home
-        name: Hem
-        weight: 10
 teststats:
         name: Senaste statistik om covid-19 i Sverige
         desc: Sidorna visar nya dataset och visualiseringar av SARS-CoV-2 och covid-19 tester som utfört av ett antal olika faciliteter.
