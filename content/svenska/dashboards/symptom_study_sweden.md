@@ -18,7 +18,7 @@ menu:
 
 COVID Symptom Study Sverige har två huvudsyften. Det första syftet är att undersöka temporala och geografiska trender i smittspridningen samt hur förändrade lokala och nationella strategier påverkar smittspridningen. Det andra syftet är att öka kunskapen om vilka grupper som har störst risk att drabbas av covid-19 och vilka symtomkombinationer som ses vid covid-19 och associationen mellan covid-19 och underliggande riskfaktorer, tidigt vs. sent under infektionen, samt under olika faser av pandemin inklusive efter införandet av vaccination
 
-#### Uppskattad förekomst av symtomatiska covid-19 fall (uppdateras dagligen)
+#### Uppskattad förekomst av symtomatiska covid-19 fall
 
 <div class="alert alert-info">Senast uppdaterad: {{% csss_date_modified %}}.</div>
 
