@@ -19,7 +19,7 @@ aliases:
 
 I vår dashboard presenteras epidemiologiska data från mätningar av SARS-CoV-2 virus i avloppsvatten från ett antal svenska städer, motsvarande över 2,5 miljoner invånare (över 25 % av Sveriges befolkning). Data och resultat som presenteras här kommer från analyser som utförts av två laboratorier vid [Svenskt Miljöepidemiologiskt Centrum (SEEC)](https://www.scilifelab.se/pandemic-response/pandemic-laboratory-preparedness/swedish-environmental-epidemiology-center-seec/). SEEC är ett projekt för att utveckla resurser för pandemisk beredskap inom [SciLifeLabs Pandemic Preparedness Program](https://www.scilifelab.se/pandemic-response). Proverna analyseras av SEECs två noder.
 
-- **SEEC-SLU:** Prover från Uppsala, Örebro, Umeå, Kalmar, Ekerö, Enköping, Knivsta, Tierp, Vaxholm, Älvkarleby och Österåker, och Östhammar analyseras vid Sveriges Lantbruksuniversitets (SLUs) nod under ledning av docent Anna J. Székely (anna.szekely@slu.se) och docent Maja Malmberg (maja.malmberg@slu.se).
+- **SEEC-SLU:** Prover från Uppsala, Örebro, Umeå, bland andra, analyseras vid Sveriges Lantbruksuniversitets (SLUs) nod under ledning av docent Anna J. Székely (anna.szekely@slu.se) och docent Maja Malmberg (maja.malmberg@slu.se).
 
 - **SEEC-KTH:** Prover från Stockholm och Malmö analyseras vid KTH Kungliga Tekniska Högskolans nod som leds av docent Zeynep Cetecioglu Gurol (zeynepcg@kth.se).
 
