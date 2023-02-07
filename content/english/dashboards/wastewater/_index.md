@@ -22,7 +22,7 @@ Wastewater surveillance could prove to be an effective system for monitoring COV
 
 This dashboard presents wastewater epidemiology data from various Swedish cities which have a total population of over 2.5 million people (over 25% of the population of Sweden). The data presented here originates from analyses conducted by the two wastewater laboratories of [SEEC (The Swedish Environmental Epidemiology Center)](https://www.scilifelab.se/pandemic-response/pandemic-laboratory-preparedness/swedish-environmental-epidemiology-center-seec/), a pandemic laboratory preparedness resource project within [SciLifeLab’s Pandemic Preparedness Programme](https://www.scilifelab.se/pandemic-response). Samples are analysed in two nodes of SEEC:
 
-- **SEEC-SLU:** Samples from Uppsala, Örebro, Umeå, Kalmar, Ekerö, Enköping, Knivsta, Tierp, Vaxholm, Älvkarleby, and Österåker, Östhammar are analysed at the Swedish University of Agricultural Sciences node led by associate professor Anna J. Székely (anna.szekely@slu.se) and associate professor Maja Malmberg (maja.malmberg@slu.se).
+- **SEEC-SLU:** Samples from multiple sites, including Uppsala, Örebro, and Umeå, among others, are analysed at the Swedish University of Agricultural Sciences node led by associate professor Anna J. Székely (anna.szekely@slu.se) and associate professor Maja Malmberg (maja.malmberg@slu.se).
 
 - **SEEC-KTH:** Samples from Stockholm and Malmö are analysed at the KTH Royal Institute of Technology node led by associate professor Zeynep Cetecioglu Gurol (zeynepcg@kth.se).
 
