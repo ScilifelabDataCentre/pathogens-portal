@@ -23,6 +23,5 @@ Här är en presentation av de sex medlemmarna i portalens editorial committee f
 Portalenteamet, skapa innehåll och även  omvärldsbevaka sina respektive forskningsområden.
 
 {{< editorial_committee_cards >}}
-
 <br>
 *Foton som används kommer ifrån Uppsala Universitet (LH, MN), SciLifeLab (LC), Karolinska Institutet (BM), Stockholms universitet (JA) och Chalmers (JB-P).*
