@@ -8,7 +8,7 @@ title: Programs and organisations behind the portal
       <a class="nav-link" href="../">Overview<br><br></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link active" href="#"><b>Programs & Organisations<br>behind the portal</b></a>
+      <a class="nav-link active" href="#"><b>Programs & organisations<br>behind the portal</b></a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="../editorial_committee">Editorial committee<br><br></a>
