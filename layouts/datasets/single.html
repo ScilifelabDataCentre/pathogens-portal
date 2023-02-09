@@ -43,33 +43,35 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-lg-3 pl-0 pr-2">
-      <h5>Data types</h5>
-      {{ $current_url := .Page.RelPermalink }}
-      {{ range .Site.Menus.data_menu }}
-      {{ if eq .Name "Available datasets" }}
-      {{ range .Children }}
+    <div class="col-lg-3 px-0">
+      <div class="px-3 pt-1 pb-2 bg-light">
+        <h5>Data types</h5>
+        {{ $current_url := .Page.RelPermalink }}
+        {{ range .Site.Menus.data_menu }}
+        {{ if eq .Name "Available datasets" }}
+        {{ range .Children }}
 
-      {{/*
-        Count how many datasets in current data type
-      */}}
+        {{/*
+          Count how many datasets in current data type
+        */}}
 
-      {{ $current_type := .Name }} {{ $num_entries := 0 }} {{ range $all_data }} {{ $add := false }}
-      {{ range .available_items }} {{ if in .data_type $current_type }} {{ $add = true }} {{ end }} {{ end }}
-      {{ if $add }} {{ $num_entries = add $num_entries 1 }} {{ end }} {{ if eq $current_type "All data types" }}
-      {{ $num_entries = len $all_data }} {{ end }} {{ end }}
+        {{ $current_type := .Name }} {{ $num_entries := 0 }} {{ range $all_data }} {{ $add := false }}
+        {{ range .available_items }} {{ if in .data_type $current_type }} {{ $add = true }} {{ end }} {{ end }}
+        {{ if $add }} {{ $num_entries = add $num_entries 1 }} {{ end }} {{ if eq $current_type "All data types" }}
+        {{ $num_entries = len $all_data }} {{ end }} {{ end }}
 
-      <div class="d-block">{{ if ne .Page.RelPermalink $current_url }}<a
-          href="{{ .Page.RelPermalink }}">{{ else }}<b>{{ end }}{{ .Name }}
-            ({{ $num_entries }}){{ if ne .Page.RelPermalink $current_url }}</a>{{ else }}</b>{{ end }}</div>
-      {{ end }}
-      {{ end }}
-      {{ end }}
+        <div class="d-block">{{ if ne .Page.RelPermalink $current_url }}<a
+            href="{{ .Page.RelPermalink }}">{{ else }}<b>{{ end }}{{ .Name }}
+              ({{ $num_entries }}){{ if ne .Page.RelPermalink $current_url }}</a>{{ else }}</b>{{ end }}</div>
+        {{ end }}
+        {{ end }}
+        {{ end }}
+      </div>
     </div>
-    <div class="col-lg px-0">
+    <div class="col-lg px-0 ms-3">
       <div class="table-responsive">
         <table id="datasets" class="table table-hover" width="100%">
-          <thead class="thead-light">
+          <thead class="table-light">
             <tr>
               <th scope="col">Publication</th>
               <th scope="col">Available dataset and code</th>
@@ -79,66 +81,58 @@
             {{ range $ds_to_display }}
             <tr>
               <td>
-                <div class="row mx-0">
-                  <div class="col">
-                    <div class="row">
-                      <a target="_blank" href="https://doi.org/{{ .doi }}">
-                        <span style="font-weight:500;">{{ .title }}</span>
-                      </a>
-                    </div>
-                    <div class="row">
-                      {{ $author_list := first 4 .author }}
-                      {{ if gt (len .author) 4 }}
-                      {{ $author_list = $author_list | append "et al" }}
-                      {{ end }}
-                      <span class="text-muted" style="font-size:0.82em">
-                        {{ delimit $author_list ", " }} ({{ substr .published 0 4 }})
-                      </span>
-                    </div>
-                    {{ if .publisher }}
-                    <div class="row">
-                      <span class="text-muted" style="font-size:0.82em">
-                        {{ .publisher }}
-                      </span>
-                    </div>
-                    {{ end }}
-                    <div class="row">
-                      <span class="text-muted" style="font-size:0.82em">
-                        DOI: {{ .doi }}
-                      </span>
-                    </div>
-                  </div>
+                <div>
+                  <a target="_blank" href="https://doi.org/{{ .doi }}">
+                    <span style="font-weight:500;">{{ .title }}</span>
+                  </a>
+                </div>
+                <div>
+                  {{ $author_list := first 4 .author }}
+                  {{ if gt (len .author) 4 }}
+                  {{ $author_list = $author_list | append "et al" }}
+                  {{ end }}
+                  <span class="text-muted" style="font-size:0.82em">
+                    {{ delimit $author_list ", " }} ({{ substr .published 0 4 }})
+                  </span>
+                </div>
+                {{ if .publisher }}
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    {{ .publisher }}
+                  </span>
+                </div>
+                {{ end }}
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    DOI: {{ .doi }}
+                  </span>
                 </div>
               </td>
               <td>
-                <div class="row mx-0">
-                  <div class="col">
-                    <ul class="pl-3 mb-0" style="list-style-type: none;">
-                      {{ range .available_items }}
-                      <div class="row">
-                        <li class="my-1">
-                          <div class="row pb-1" style="font-size:0.92em; line-height: 1.3em;">
-                            {{ if .data_url }}
-                            <a href="{{ .data_url }}">{{ .description }}</a>
-                            {{ else }}
-                            {{ .description }}
-                            {{ end }}
-                          </div>
-                          <div class="row">
-                            {{ range (split .type ", ") }}
-                            <span class="badge dataset_badge_{{ . }} mr-1">{{ . }}</span>
-                            {{ end }}
-                            <span class="text-muted" style="font-size:0.82em">
-                              {{ if .repo_name }}{{ .repo_name }}{{ if .accession_number }}:
-                              {{ .accession_number }}{{ end }}{{ end }}
-                            </span>
-                          </div>
-                        </li>
+                <ul class="mt-1 mb-0 ps-0" style="list-style-type: none;">
+                  {{ range .available_items }}
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        {{ if .data_url }}
+                        <a href="{{ .data_url }}">{{ .description }}</a>
+                        {{ else }}
+                        {{ .description }}
+                        {{ end }}
                       </div>
-                      {{ end }}
-                    </ul>
+                      <div>
+                        {{ range (split .type ", ") }}
+                        <span class="badge dataset_badge_{{ . }}">{{ . }}</span>
+                        {{ end }}
+                        <span class="text-muted" style="font-size:0.82em">
+                          {{ if .repo_name }}{{ .repo_name }}{{ if .accession_number }}:
+                          {{ .accession_number }}{{ end }}{{ end }}
+                        </span>
+                      </div>
+                    </li>
                   </div>
-                </div>
+                  {{ end }}
+                </ul>
               </td>
             </tr>
             {{ end }}
@@ -174,8 +168,7 @@
   });
 </script>
 
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
-<script type="text/javascript" charset="utf8"
-  src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>
 
 {{ end }}

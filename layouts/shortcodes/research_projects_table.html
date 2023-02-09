@@ -18,36 +18,42 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-lg-2 pl-0 {{ if eq $.Site.Language.LanguageName "Svenska" }}mr-5{{ else }}mr-2{{ end }}">
+    
+    <!-- Filters code -->
+    <div class="col-lg-2 ps-0 {{ if eq $.Site.Language.LanguageName "Svenska" }}mr-5{{ else }}mr-2{{ end }}">     
       {{ if ne $projects_to_display "all_covid"}}
-      <h5>Topic</h5>
-      <div class="col mb-2 ml-3 form-check">
-          {{ range sort $topics }}
-            <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic"
-                value="{{ . }}">{{ . }}</div>
-          {{ end }}
-      </div>
+        <h5>Topic</h5>
+        {{ range sort $topics }}
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="topic_{{ . }}" name="topic" value="{{ . }}">
+            <label class="form-check-label" for="topic_{{ . }}">{{ . }}</label>
+          </div>
+        {{ end }}
       {{ end }}
+      
       <h5>Funder</h5>
-      <div class="col mb-2 ml-3 form-check">
-          {{ range sort $funders }}
-            <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="funder"
-                value="{{ . }}">{{ . }}</div>
-          {{ end }}
-      </div>
+      {{ range sort $funders }}
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="funder_{{ . }}" name="funder" value="{{ . }}">
+          <label class="form-check-label" for="funder_{{ . }}">{{ . }}</label>
+        </div>
+      {{ end }}
+      
       <h5>PI affiliation</h5>
-      <div class="col mb-2 ml-3 form-check">
-          {{ range sort $affiliations }}
-            <div class="row"><input type="checkbox" class="form-check-input" name="pi_affiliation"
-                value="{{ . }}">{{ . }}</div>
-          {{ end }}
-      </div>
+      {{ range sort $affiliations }}
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="pi_{{ . }}" name="pi_affiliation" value="{{ . }}">
+          <label class="form-check-label" for="pi_{{ . }}">{{ . }}</label>
+        </div>
+      {{ end }}
     </div>
+    
+    <!-- Project table code -->
     <div class="col-lg">
       <div class="row">
         <div class="table-responsive">
-          <table class="table table-hover" width="100%">
-            <thead class="thead-light">
+          <table class="table table-hover no-last-row-border" width="100%">
+            <thead class="table-light">
               <tr>
                 <th scope="col">Project title</th>
                 <th scope="col">Funder</th>
@@ -69,7 +75,7 @@
                         </p>{{ end }}
                         <div class="row mt-2">
                           <div class="col">
-                            <button type="button" class="btn_details btn_details_primary" data-toggle="modal" data-target="#call_details{{ $ind }}">
+                            <button type="button" class="btn_details btn_details_primary" data-bs-toggle="modal" data-bs-target="#call_details{{ $ind }}">
                               Details
                             </button>
                             <div class="modal fade" id="call_details{{ $ind }}" tabindex="-1" role="dialog" aria-labelledby="call_details{{ $ind }}Label" aria-hidden="true">
@@ -77,8 +83,7 @@
                                 <div class="modal-content">
                                   <div class="modal-header">
                                     <h5 class="modal-title" id="call_details{{ $ind }}Label">{{ .call_title }}</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                      <span aria-hidden="true">&times;</span>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
                                     </button>
                                   </div>
                                   <div class="modal-body">
@@ -93,7 +98,7 @@
                                     {{ if .url }}<p><a href="{{ .url }}">More information about the project <i class="bi bi-arrow-right-circle-fill" aria-hidden="true"></i></a></p>{{ end }}
                                   </div>
                                   <div class="modal-footer">
-                                    <button type="button" class="btn_details btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn_details btn-secondary" data-bs-dismiss="modal">Close</button>
                                   </div>
                                 </div>
                               </div>
@@ -127,7 +132,7 @@
                         {{ end }}
                         <div class="row mt-2">
                           <div class="col">
-                            <button type="button" class="btn_details btn_details_primary" data-toggle="modal" data-target="#call_details{{ $ind }}">
+                            <button type="button" class="btn_details btn_details_primary" data-bs-toggle="modal" data-bs-target="#call_details{{ $ind }}">
                               Details
                             </button>
                             <div class="modal fade" id="call_details{{ $ind }}" tabindex="-1" role="dialog" aria-labelledby="call_details{{ $ind }}Label" aria-hidden="true">
@@ -135,8 +140,7 @@
                                 <div class="modal-content">
                                   <div class="modal-header">
                                     <h5 class="modal-title" id="call_details{{ $ind }}Label">{{ .call_title }}</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                      <span aria-hidden="true">&times;</span>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
                                     </button>
                                   </div>
                                   <div class="modal-body">
@@ -151,7 +155,7 @@
                                     {{ if .url }}<p><a href="{{ .url }}">More information about the project <i class="bi bi-arrow-right-circle-fill" aria-hidden="true"></i></a></p>{{ end }}
                                   </div>
                                   <div class="modal-footer">
-                                    <button type="button" class="btn_details btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn_details btn-secondary" data-bs-dismiss="modal">Close</button>
                                   </div>
                                 </div>
                               </div>
@@ -226,5 +230,5 @@
 
 
 </script>
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>

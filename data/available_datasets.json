@@ -1,6 +1,162 @@
 {
-    "last_updated": "2023-01-13",
+    "last_updated": "2023-02-01",
     "datasets": [
+        {
+            "doi": "10.1016/j.concog.2023.103464",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "OSF",
+                    "accession_number": "",
+                    "description": "Students survey data on COVID-19 status",
+                    "data_type": [
+                        "Social science and humanities data"
+                    ],
+                    "data_url": "https://osf.io/9stbm/"
+                }
+            ],
+            "title": "COVID-19 infection does not seem to affect cognition in college students",
+            "issue": "",
+            "volume": "108",
+            "publisher": "Elsevier BV",
+            "published": "2023-01-30",
+            "author": [
+                "Francis G.",
+                "Thunell E."
+            ]
+        },
+        {
+            "doi": "10.1038/s41597-022-01880-8",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "OSF",
+                    "accession_number": "",
+                    "description": "Familydemic survey data related to the work and family nexus",
+                    "data_type": [
+                        "Social science and humanities data"
+                    ],
+                    "data_url": "https://osf.io/mjfz3/"
+                }
+            ],
+            "title": "Familydemic Cross Country and Gender Dataset on work and family outcomes during COVID-19 pandemic",
+            "issue": "1",
+            "volume": "10",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2023-01-03",
+            "author": [
+                "Kurowska A.",
+                "Barardehi I. H.",
+                "Fuller S.",
+                "Petts R. J.",
+                "Kaufman G."
+            ]
+        },
+        {
+            "doi": "10.1038/s41586-022-05512-4",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "Zenodo",
+                    "accession_number": "",
+                    "description": "Randomised controlled trial data from Sweden and United States for COVID-19 first dose vaccination",
+                    "data_type": [
+                        "Social science and humanities data",
+                        "Other data"
+                    ],
+                    "data_url": "https://zenodo.org/record/7214856#.Y9obkezMKX0"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "Zenodo",
+                    "accession_number": "",
+                    "description": "Analyses were conducted using STATA 16, the code to replicate the analysis is in the article",
+                    "data_type": [
+                        "Social science and humanities data",
+                        "Other data"
+                    ],
+                    "data_url": "https://zenodo.org/record/7214856#.Y9obkezMKX0"
+                }
+            ],
+            "title": "Financial incentives for vaccination do not have negative unintended consequences",
+            "issue": "7944",
+            "volume": "613",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2023-01-11",
+            "author": [
+                "Schneider F. H.",
+                "Campos-Mercade P.",
+                "Meier S.",
+                "Pope D.",
+                "Wengström E."
+            ]
+        },
+        {
+            "doi": "10.1371/journal.pone.0280355",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "Github",
+                    "accession_number": "",
+                    "description": "Aggregated data of COVID-19 mortality and long-term air pollution concentrations",
+                    "data_type": [
+                        "Public health data",
+                        "Other data"
+                    ],
+                    "data_url": "https://github.com/LopezFeldman/Airpollution_Covid19"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "Github",
+                    "accession_number": "",
+                    "description": "Stata scripts used to compile the statitics",
+                    "data_type": [
+                        "Public health data",
+                        "Other data"
+                    ],
+                    "data_url": "https://github.com/LopezFeldman/Airpollution_Covid19"
+                }
+            ],
+            "title": "Association between long-term air pollution exposure and COVID-19 mortality in Latin America",
+            "issue": "1",
+            "volume": "18",
+            "publisher": "Public Library of Science (PLoS)",
+            "published": "2023-01-17",
+            "author": [
+                "Bonilla J. A.",
+                "Lopez-Feldman A.",
+                "Pereda P. C.",
+                "Rivera N. M.",
+                "Ruiz-Tagle J. C."
+            ]
+        },
+        {
+            "doi": "10.3389/fimmu.2022.1079995",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "NCBI",
+                    "accession_number": "PRJNA900274",
+                    "description": "All genomic datasets from this project are available as part of an NCBI BioProject",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://www.ncbi.nlm.nih.gov/biosample?LinkName=bioproject_biosample_all&from_uid=900274"
+                }
+            ],
+            "title": "Persistence of salivary antibody responses after COVID-19 vaccination is associated with oral microbiome variation in both healthy and people living with HIV",
+            "issue": "",
+            "volume": "13",
+            "publisher": "Frontiers Media SA",
+            "published": "2023-01-10",
+            "author": [
+                "Ghorbani M.",
+                "Al-Manei K.",
+                "Naud S.",
+                "Healy K.",
+                "Gabarrini G."
+            ]
+        },
         {
             "doi": "10.1007/s44155-022-00027-9",
             "available_items": [

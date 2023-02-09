@@ -233,7 +233,8 @@ zoom: 4.7
 var map = new ol.Map({
 target: 'map',
 layers: [mapLayer, uppsalaLayer, stockholmLayer, umeaaLayer, orebroLayer, kalmarLayer, ekeroLayer, enkopingLayer, knivstaLayer, tierpLayer, vaxholmLayer, alvkarlebyLayer, osterakerLayer, osthammarLayer, malmoLayer],
-view: view
+view: view,
+interactions: ol.interaction.defaults({mouseWheelZoom:false})
 });
 // register an event handler for the click event
 map.on("click", function(event) {

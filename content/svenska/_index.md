@@ -1,10 +1,5 @@
 ---
 title: Hem
-menu:
-    swe_menu:
-        identifier: home
-        name: Hem
-        weight: 10
 teststats:
         name: Senaste statistik om covid-19 i Sverige
         desc: Sidorna visar nya dataset och visualiseringar av SARS-CoV-2 och covid-19 tester som utfört av ett antal olika faciliteter.
@@ -21,4 +16,4 @@ Den svenska dataportalen för Covid-19 & pandemisk beredskap tillhandahåller in
 
 Portalen är involverad i ett flertal forskningsprojekt och initiativ. Den är den svenska noden i ett europeiskt nätverk av dataportaler som byggts upp kring [European COVID-19 Data Platform](https://covid19dataportal.org/). Portalen är idag en central del av [SciLifeLabs forskningsprogram för pandemisk laboratorieberedskap (PLP)](https://www.scilifelab.se/capabilities/pandemic-laboratory-preparedness/), och en partner inom EU-projektet [Horizon BY-COVID](https://by-covid.org/).
 
-Portalen drivs av [SciLifeLab Data Centre](https://scilifelab.se/data) och partners. För mer information om portalen, och teamet bakom Portalen se [denna sida](/sv/about/). Vi välkomnar bidrag och innehåll från forskarsamhället, en Editorial Committee kommer snart att etableras för att ökat community engagement med forskarsamhället. Som forskare kan du bidra på olika sätt till att utveckla Portalen, kontakta oss gärna!
+Portalen drivs av [SciLifeLab Data Centre](https://scilifelab.se/data) och partners. För mer information om portalen, och teamet bakom Portalen se [här](/sv/about/). Vi välkomnar förslag, kommentarer och bidrag från forskarsamhället. Ett nära samarbete med forskarsamhället är en viktig del av vårt arbete, den nybildade [editorial committee](/sv/about/editorial_committee/) är en del av denna utveckling. Som forskare kan du bidra på fler sätt till att utveckla Portalen, kontakta oss gärna!

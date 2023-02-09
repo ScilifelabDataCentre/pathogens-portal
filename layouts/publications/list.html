@@ -12,109 +12,195 @@
 {{ $entries_to_display = $entries_to_display | append $entry}}
 {{ end }}
 
-<div>{{ if eq $.Site.Language.LanguageName "Svenska" }}
-  <p><i>Senast uppdaterad: {{ substr $.Site.Data.publications.timestamp 0 10 }}</i></p>
+<div>
+  {{ if eq $.Site.Language.LanguageName "Svenska" }}
+    <p><i>Senast uppdaterad: {{ substr $.Site.Data.publications.timestamp 0 10 }}</i></p>
   {{ else }}
-  <p><i>Last updated: {{ substr $.Site.Data.publications.timestamp 0 10 }}</i></p>
+    <p><i>Last updated: {{ substr $.Site.Data.publications.timestamp 0 10 }}</i></p>
   {{ end }}
 </div>
 
 <div class="container">
   <div class="row">
-    <div class="col-lg-2 pl-0 {{ if eq $.Site.Language.LanguageName "Svenska" }}mr-5{{ else }}mr-1{{ end }}">
+    <!-- Apply filters -->
+    <div class="col-lg-2 ps-0 {{ if eq $.Site.Language.LanguageName "Svenska" }}mr-5{{ else }}mr-1{{ end }}">
       <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_field }}</h5>
-      <div class="col mb-2 ml-3 form-check">
-        {{ if eq $.Site.Language.LanguageName "Svenska" }}
-        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic"
-            value="Category: Imaging">Bild</div>
-        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic"
-            value="Category: Public Health">Folkhälsa</div>
-        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic"
-            value="Category: Genomics & transcriptomics">Genomik & transkriptomik</div>
-        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic"
-            value="Category: Health">Hälsa</div>
-        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic"
-            value="Category: Biochemistry">Kemisk biologi</div>
-        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic"
-            value="Category: Drug Discovery">Läkemedelsutveckling</div>
-        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic"
-            value="Category: Proteins">Proteiner</div>
-        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic"
-            value="Category: Serology">Serologi</div>
-        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic"
-            value="Category: Social Science & Humanities">Samhällsvetenskap och humaniora</div>
-        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic"
-            value="Category: Other">Övriga</div>
-        {{ else }}
-        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic"
-            value="Category: Biochemistry">Biochemistry</div>
-        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic"
-            value="Category: Drug Discovery">Drug discovery</div>
-        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic"
-            value="Category: Genomics & transcriptomics">Genomics & transcriptomics</div>
-        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic"
-            value="Category: Health">Health</div>
-        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic"
-            value="Category: Imaging">Imaging</div>
-        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic"
-            value="Category: Proteins">Proteins</div>
-        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic"
-            value="Category: Public Health">Public health</div>
-        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic"
-            value="Category: Serology">Serology</div>
-        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic"
-            value="Category: Social Science & Humanities">Social science & humanities</div>
-        <div class="row"><input type="checkbox" class="form-check-input" class="form-check-input" name="topic"
-            value="Category: Other">Other</div>
-        {{ end }}
+      {{ if eq $.Site.Language.LanguageName "Svenska" }}
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="t_bild" name="topic" value="Category: Imaging">
+        <label class="form-check-label" for="t_bild">Bild</label>
       </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="t_folk" name="topic" value="Category: Public Health">
+        <label class="form-check-label" for="t_folk">Folkhälsa</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="t_gene" name="topic" value="Category: Genomics & transcriptomics">
+        <label class="form-check-label" for="t_gene">Genomik & transkriptomik</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="t_halsa" name="topic" value="Category: Health">
+        <label class="form-check-label" for="t_halsa">Hälsa</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="t_kemi" name="topic" value="Category: Biochemistry">
+        <label class="form-check-label" for="t_kemi">Kemisk biologi</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="t_lake" name="topic" value="Category: Drug Discovery">
+        <label class="form-check-label" for="t_lake">Läkemedelsutveckling</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="ts_prot" name="topic" value="Category: Proteins">
+        <label class="form-check-label" for="ts_prot">Proteiner</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="ts_sero" name="topic" value="Category: Serology">
+        <label class="form-check-label" for="ts_sero">Serologi</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="t_samha" name="topic" value="Category: Social Science & Humanities">
+        <label class="form-check-label" for="t_samha">Samhällsvetenskap och humaniora</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="t_ovriga" name="topic" value="Category: Other">
+        <label class="form-check-label" for="t_ovriga">Övriga</label>
+      </div>
+      {{ else }}
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="t_biochem" name="topic" value="Category: Biochemistry">
+        <label class="form-check-label" for="t_biochem">Biochemistry</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="t_drug" name="topic" value="Category: Drug Discovery">
+        <label class="form-check-label" for="t_drug">Drug discovery</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="t_gene_tran" name="topic" value="Category: Genomics & transcriptomics">
+        <label class="form-check-label" for="t_gene_tran">Genomics & transcriptomics</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="t_health" name="topic" value="Category: Health">
+        <label class="form-check-label" for="t_health">Health</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="t_image" name="topic" value="Category: Imaging">
+        <label class="form-check-label" for="t_image">Imaging</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="t_protein" name="topic" value="Category: Proteins">
+        <label class="form-check-label" for="t_protein">Proteins</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="t_pub_health" name="topic" value="Category: Public Health">
+        <label class="form-check-label" for="t_pub_health">Public health</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="t_serology" name="topic" value="Category: Serology">
+        <label class="form-check-label" for="t_serology">Serology</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="t_social" name="topic" value="Category: Social Science & Humanities">
+        <label class="form-check-label" for="t_social">Social science & humanities</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="t_other" name="topic" value="Category: Other">
+        <label class="form-check-label" for="t_other">Other</label>
+      </div>
+      {{ end }}
+      
       <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_availability }}</h5>
-      <div class="col mb-2 ml-3 form-check">
-        <div class="row"><input type="checkbox" class="form-check-input" name="data_available"
-            value="data available">{{ if eq $.Site.Language.LanguageName "Svenska" }}Tillgängliga data{{ else }}Data
-          available{{ end }}</div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="data_avail" name="data_available" value="data available">
+        <label class="form-check-label" for="data_avail">
+          {{ if eq $.Site.Language.LanguageName "Svenska" }}Tillgängliga data{{ else }}Data
+        </label>
+        available{{ end }}
       </div>
+          
       <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_type }}</h5>
-      <div class="col mb-2 ml-3 form-check">
-        <div class="row"><input type="checkbox" class="form-check-input" name="pub_type"
-            value="Type: Journal article">{{ if eq $.Site.Language.LanguageName "Svenska" }}Tidskrift{{ else }}Journal
-          article{{ end }}</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="pub_type"
-            value="Type: Review">{{ if eq $.Site.Language.LanguageName "Svenska" }}Review{{ else }}Review{{ end }}</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="pub_type"
-            value="Type: Preprint">{{ if eq $.Site.Language.LanguageName "Svenska" }}Preprint{{ else }}Preprint{{ end }}
-        </div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="pub_type"
-            value="Type: Other">{{ if eq $.Site.Language.LanguageName "Svenska" }}Annan{{ else }}Other{{ end }}</div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="ty_journel" name="pub_type" value="Type: Journal article">
+        <label class="form-check-label" for="ty_journel">
+          {{ if eq $.Site.Language.LanguageName "Svenska" }}Tidskrift{{ else }}Journal article{{ end }}
+        </label>
       </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="ty_review" name="pub_type" value="Type: Review">
+        <label class="form-check-label" for="ty_review">
+          {{ if eq $.Site.Language.LanguageName "Svenska" }}Review{{ else }}Review{{ end }}
+        </label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="ty_prepri" name="pub_type" value="Type: Preprint">
+        <label class="form-check-label" for="ty_prepri">
+          {{ if eq $.Site.Language.LanguageName "Svenska" }}Preprint{{ else }}Preprint{{ end }}
+        </label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="ty_other" name="pub_type" value="Type: Other">
+        <label class="form-check-label" for="ty_other">
+          {{ if eq $.Site.Language.LanguageName "Svenska" }}Annan{{ else }}Other{{ end }}
+        </label>
+      </div>
+      
       <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_year }}</h5>
-      <div class="col mb-2 ml-3 form-check">
-        <div class="row"><input type="checkbox" class="form-check-input" name="year" value="2020">2020</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="year" value="2021">2021</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="year" value="2022">2022</div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="y20" name="year" value="2020">
+        <label class="form-check-label" for="y20">2020</label>
       </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="y21" name="year" value="2021">
+        <label class="form-check-label" for="y21">2021</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="y22" name="year" value="2022">
+        <label class="form-check-label" for="y22">2022</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="y23" name="year" value="2023">
+        <label class="form-check-label" for="y23">2023</label>
+      </div>
+      
       <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_funder }}</h5>
-      <div class="col mb-2 ml-3 form-check">
-        <div class="row"><input type="checkbox" class="form-check-input" name="funder" value="Funder: Forte">Forte</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="funder" value="Funder: H2020">H2020</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="funder"
-            value="Funder: Hjärt-Lungfonden">Hjärt-Lungfonden</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="funder"
-            value="Funder: KAW/SciLifeLab">KAW/SciLifeLab</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="funder"
-            value="Funder: NordForsk">NordForsk</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="funder"
-            value="Funder: VR">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vetenskapsrådet{{ else }}Swedish
-          Research Council{{ end}}</div>
-        <div class="row"><input type="checkbox" class="form-check-input" name="funder" value="Funder: Vinnova">Vinnova
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="f_forte" name="funder" value="Funder: Forte">
+          <label class="form-check-label" for="f_forte">Forte</label>
         </div>
-      </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="f_h2020" name="funder" value="Funder: H2020">
+          <label class="form-check-label" for="f_h2020">H2020</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="f_hjart" name="funder" value="Funder: Hjärt-Lungfonden">
+          <label class="form-check-label" for="f_hjart">Hjärt-Lungfonden</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="f_kaw" name="funder" value="Funder: KAW/SciLifeLab">
+          <label class="form-check-label" for="f_kaw">KAW/SciLifeLab</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="f_nord" name="funder" value="Funder: NordForsk">
+          <label class="form-check-label" for="f_nord">NordForsk</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="f_veten" name="funder" value="Funder: VR">
+          <label class="form-check-label" for="f_veten">
+            {{ if eq $.Site.Language.LanguageName "Svenska" }}Vetenskapsrådet{{ else }}Swedish Research Council{{ end}}
+          </label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="f_vin" name="funder" value="Funder: Vinnova">
+          <label class="form-check-label" for="f_vin">Vinnova</label>
+        </div>
     </div>
+    
+    <!-- Display table -->
     <div class="col-lg">
       <div class="row">
         <div class="table-responsive">
           <table class="table table-hover" width="100%">
-            <thead class="thead-light">
+            <thead class="table-light">
               <tr>
                 <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_pub }}</th>
                 <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_updated }}</th>
@@ -267,8 +353,7 @@
 
 </script>
 
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
-<script type="text/javascript" charset="utf8"
-  src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>
 
 {{ end }}
