@@ -23,4 +23,4 @@ Below are the six editorial committee members for 2023, alongside their affiliat
 
 {{< editorial_committee_cards >}}
 <br>
-*Images courtesy of: Uppsala University (LH, MN), SciLifeLab (LC), Karolinska Instititet (BM), Stockholm University (JA) and Chalmers (JB-P)*
+*Images courtesy of: Uppsala University (LH, MN), SciLifeLab (LC), Karolinska Instititet (BM), Stockholm University (JA) and Chalmers (JB-P).*
