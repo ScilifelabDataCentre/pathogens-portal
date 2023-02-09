@@ -17,7 +17,7 @@ aliases:
 
 COVID Symptom Study Sweden has two main objectives. The first objective is to investigate temporal and geographical trends in SARS-CoV-2 spread as well as how changes in the regional/national strategies affect the spread. The second objective of the project is to increase understanding of which groups are most likely to be affected by COVID-19, how the disease manifests in terms of symptoms, and the relationship between risk factors and (combinations of) symptoms. The researchers also plan to investigate whether risk factors vary in different stages of infection (early vs. late) as well as the effect of vaccination.
 
-#### Estimated prevalence of symptomatic cases (updated daily)
+#### Estimated prevalence of symptomatic cases
 
 <div class="alert alert-info">Last updated: {{% csss_date_modified %}}.</div>
 
