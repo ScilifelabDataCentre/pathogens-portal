@@ -22,7 +22,7 @@ The SciLifeLab Autoimmunity and Serology profiling facility has been conducting 
 
 <hr>
 
-<h4><a href="wastewater/">The amount of SARS-CoV-2 virus in wastewater in cities across Sweden <i class="bi bi-arrow-right-circle-fill"></i></a></h4>
+<h4><a href="/dashboards/wastewater/introduction">The amount of SARS-CoV-2 virus in wastewater in cities across Sweden <i class="bi bi-arrow-right-circle-fill"></i></a></h4>
 
 Wastewater surveillance could prove an effective system for monitoring COVID-19 prevalence and act as an early warning system for predicting upcoming outbreaks. In this dashboard, we present weekly wastewater epidemiology data from various Swedish cities which have a total population of over 2.5 million people (over 25% of the population of Swden). The data presented here originates from analyses conducted by the Swedish Environmental Epidemiology Center (SEEC). Data available from: Stockholm, Malmö, Uppsala, Umeå, Örebro, Kalmar, and other municipalities.
 
