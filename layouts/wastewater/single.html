@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<ul class="nav nav-tabs nav-justified">
+    {{ $current_page := .Page.RelPermalink }}
+    {{ range .Site.Menus.wastewater }}
+    <li class="nav-item">
+        <a class="nav-link{{ if eq $current_page .Page.RelPermalink }} active font-weight-bold{{ end }}"
+            href="{{ if eq $current_page .Page.RelPermalink }}#{{ else }}{{ .Page.RelPermalink }}{{ end }}">{{ .Name }}</a>
+    </li>
+    {{ end }}
+</ul>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-3 order-md-last toc">
+            <aside class="sticky-top toc pt-2">
+                <h5>In this section:</h5>
+                {{ .TableOfContents }}
+            </aside>
+        </div>
+        <div class="col-md-9 order-md-first content" id="content">{{ .Content }}</div>
+    </div>
+</div>
+
+{{ end }}
