@@ -39,7 +39,6 @@ Cetecioglu, Z. G., Williams, C., Khatami, K., Atasoy, M., Nandy, P., Jafferali, 
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_combined_stockholm.json" height="550px" >}}</div>
 </div>
 
-
 ### Visusalisations: Malmö
 
 <div class="alert alert-info">Last updated: <span id="last_modified_malmo"></span></div>
