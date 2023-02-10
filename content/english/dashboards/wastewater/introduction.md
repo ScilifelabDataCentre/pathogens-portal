@@ -27,7 +27,7 @@ aliases:
 
 Wastewater surveillance could prove to be an effective system for monitoring COVID-19 prevalence and act as an early-warning system for predicting upcoming outbreaks. See below for [a general introduction to wastewater epidemiology](#background-wastewater-based-epidemiology).
 
-This dashboard presents wastewater epidemiology data from various Swedish cities. The cities included here have a total population of over 2.5 million people (over 25% of the population of Sweden). The data presented in this dashboard originates from analyses conducted by the two laboratories involved in [SEEC (The Swedish Environmental Epidemiology Center)](https://www.scilifelab.se/pandemic-response/pandemic-laboratory-preparedness/swedish-environmental-epidemiology-center-seec/). SEEC was established as a pandemic laboratory preparedness resource project within [SciLifeLab’s Pandemic Preparedness Program](https://www.scilifelab.se/pandemic-response). Samples have been analysed in two nodes of SEEC:
+This dashboard presents wastewater epidemiology data from various Swedish cities. The cities included here have a total population of over 3 million people. The data presented in this dashboard originates from analyses conducted by the two laboratories involved in [SEEC (The Swedish Environmental Epidemiology Center)](https://www.scilifelab.se/pandemic-response/pandemic-laboratory-preparedness/swedish-environmental-epidemiology-center-seec/). SEEC was established as a pandemic laboratory preparedness resource project within [SciLifeLab’s Pandemic Preparedness Program](https://www.scilifelab.se/pandemic-response). Samples have been analysed in two nodes of SEEC:
 
 - **SEEC-SLU:** Samples from multiple sites, including Uppsala, Örebro, and Umeå, among others, are analysed at the Swedish University of Agricultural Sciences node led by associate professor Anna J. Székely (anna.szekely@slu.se) and associate professor Maja Malmberg (maja.malmberg@slu.se).
 
@@ -45,8 +45,8 @@ Below is a map showing sample collection sites. Approximate locations of the was
 
 ## Archived data
 
-- [Historic data for Örebro and Umeå; amount of SARS-CoV-2 in Umeå and Örebro wastewater between October 2020 and June 2021](historic_orebro_umea).
-- [Historic data for Stockholm;  Gene copy number/week (raw wastewater) with bovine + PMMoV factor between April 2020 and August 2021](historic_stockholm)
+- [Historic data for Örebro and Umeå; amount of SARS-CoV-2 in Umeå and Örebro wastewater between October 2020 and June 2021](/dashboards/wastewater/historic_orebro_umea).
+- [Historic data for Stockholm;  Gene copy number/week (raw wastewater) with bovine + PMMoV factor between April 2020 and August 2021](/dashboards/wastewater/historic_stockholm)
 
 ## Background: Wastewater-based epidemiology
 
