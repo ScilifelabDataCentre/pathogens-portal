@@ -151,8 +151,9 @@
             <div class="col">
               <b>Date and time:</b> {{ .date_start | time.Format ":date_medium" }}
                                     {{ if .time_start }} {{ .time_start }}{{ end }}
-                                    {{ if .date_end }} - {{ .date_end | time.Format ":date_medium" }}{{ end}}
-                                    {{ if .time_end }} {{ .time_end }}{{ end }}
+                                    {{ if or .date_end .time_end }} - {{ end }}
+                                    {{ if and (.date_end) (ne .date_end .date_start) }}{{ .date_end | time.Format ":date_medium" }}{{ end}}
+                                    {{ if .time_end }}{{ .time_end }}{{ end }}
             </div>
           </div>
           {{ end }}
@@ -200,8 +201,9 @@
                         <div class="col">
                           <b>Date and time:</b> {{ .date_start | time.Format ":date_medium" }}
                                                 {{ if .time_start }} {{ .time_start }}{{ end }}
-                                                {{ if .date_end }} - {{ .date_end | time.Format ":date_medium" }}{{ end}}
-                                                {{ if .time_end }} {{ .time_end }}{{ end }}
+                                                {{ if or .date_end .time_end }} - {{ end }}
+                                                {{ if and (.date_end) (ne .date_end .date_start) }}{{ .date_end | time.Format ":date_medium" }}{{ end}}
+                                                {{ if .time_end }}{{ .time_end }}{{ end }}
                         </div>
                       </div>
                       {{ end }}
