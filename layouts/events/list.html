@@ -137,13 +137,15 @@
               <span class="badge event-type mb-1">{{ .type }}</span>
               <h5><a class="" role="button" data-bs-toggle="modal" data-bs-target="#descriptionModal{{ $ind }}">{{ .title }}</a></h5>
             </div>
-            <div class="px-2 pb-1 m-2 d-flex flex-column rounded event-date">
-              {{ $banner_date := cond (isset . "date_start") .date_start .registration_deadline }}
-              <div class="px-2 fs-3 mx-auto">{{ time.Format "2" $banner_date }}</div>
-              <div class="px-2 mx-auto">{{ time.Format "January" $banner_date }}</div>
-              {{ if and (not .date_start) (.registration_deadline) }}
-                <div class="px-2 mx-auto">(deadline)</div>
-              {{ end }}
+            <div>
+              <div class="px-2 pb-1 m-2 d-flex flex-column rounded event-date">
+                {{ $banner_date := cond (isset . "date_start") .date_start .registration_deadline }}
+                <div class="px-2 fs-3 mx-auto">{{ time.Format "2" $banner_date }}</div>
+                <div class="px-2 mx-auto">{{ time.Format "January" $banner_date }}</div>
+                {{ if and (not .date_start) (.registration_deadline) }}
+                  <div class="px-2 mx-auto">(deadline)</div>
+                {{ end }}
+              </div>
             </div>
           </div>
           {{ if .date_start }}
