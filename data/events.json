@@ -1,0 +1,17 @@
+{
+    "items": [
+        {
+            "title": "Infectious Diseases Toolkit (IDTk) Contentathon",
+            "type": "Workshop",
+            "date_start": "2023-03-13",
+            "time_start": "11:30",
+            "date_end": "2023-03-15",
+            "time_end": "14:00",
+            "registration_deadline": "2023-03-10",
+            "venue": "Monasterium PoortAckere, Belgium",
+            "organisers": "ELIXIR, Beligium",
+            "event_url": "https://www.eventbrite.co.uk/e/infectious-diseases-toolkit-idtk-contentathon-tickets-493601524447",
+            "description": "The <a href='https://www.infectious-diseases-toolkit.org/'>Infectious Diseases Toolkit</a> (IDTk) aims to offer guidelines and examples on managing, analysing and visualising infectious diseases data. It has been designed to accommodate information from different domains, to showcase different solutions, and to expose national resources. It is being developed as part of the <a href='https://by-covid.eu/'>BY-COVID project</a>.<br><br>To catalyse the addition of content to the toolkit, we are organising a Contentathon involving both BY-COVID and external partners. We aim to bring together experts from various fields who have dealt with pandemics over the last few years, and who are interested in capturing all the innovative solutions and best practices that have been used to tackle infectious diseases outbreaks."
+        }
+    ]
+}

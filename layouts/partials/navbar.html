@@ -109,30 +109,25 @@
           <i class="bi bi-table"></i>
           <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
              data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
-             aria-expanded="false">Available data, highlights & RDM</a>
-          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
-            {{ range .Site.Menus.data_menu }}
-              {{ if .HasChildren }}
+             aria-expanded="false">Available data & highlights</a>
+            <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
               <div class="dropend">
                 <a class="dropdown-item dropdown-toggle m-0" href="#" id="navbarDropdownMenuLink"
                    data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
-                   aria-expanded="false">{{ .Name }}</a>
+                   aria-expanded="false">Available datasets</a>
                 <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
-                  {{ range .Children }}
+                  {{ range .Site.Menus.datasets_menu }}
                   <a class="dropdown-item m-0" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
                   {{ end }}
                 </div>
               </div>
-              {{ else }}
-              <a class="dropdown-item m-0" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
-              {{ end }}
-            {{ end }}
-          </div>
+              <a class="dropdown-item m-0" href="/highlights/">Data highlights</a>
+            </div>
         </div>
       </div>
       <div class="row">
         <div class="col main_menu_item">
-          <i class="bi bi-window-stack"></i>
+          <i class="bi bi-graph-up"></i>
           <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
              data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data Dashboards</a>
           <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
@@ -144,7 +139,12 @@
       </div>
       <div class="row">
         <div class="col main_menu_item">
-          <i class="bi bi-journal-text"></i> <a href="/biobanks/">Sample Collection Database (Biobanks)</a>
+          <i class="bi bi-journal-text"></i> <a href="/data-management/">Research data management</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-collection"></i> <a href="/biobanks/">Sample Collection Database (Biobanks)</a>
         </div>
       </div>
     </div>
@@ -171,21 +171,25 @@
           </div>
         </div>
       </div>
-      <!-- <div class="row">
-          <div class="col main_menu_item">
-            <span><i class="bi bi-calendar3-week"></i> <a href="#">Events</a></span>
-          </div>
-        </div> -->
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-calendar-event"></i> <a href="/events/">Events & Training</a>
+        </div>
+      </div>
     </div>
     <div class="col-lg-4 my-3 my-lg-0">
       <div class="topics_title">Topics:</div>
-      {{ range .Site.Menus.topics_menu }}<span class="me-2 mb-2 topic_badge_large
-          {{ if eq .Name "COVID-19"}}topic_badge_covid
-          {{ else if eq .Name "Infectious diseases"}}topic_badge_infectious_d
-          {{ else if eq .Name "Mpox"}}topic_badge_mpox
-          {{ else if eq .Name "Antibiotic resistance"}}topic_badge_antib_r
-          {{ else }}topic_badge_general
-          {{ end }} "><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></span>{{ end }}
+      {{ range $ind, $topic := .Site.Menus.topics_menu }}
+      <span class="me-2 mb-2 topic_badge_large
+        {{ if eq .Name "COVID-19"}}topic_badge_covid
+        {{ else if eq .Name "Infectious diseases"}}topic_badge_infectious_d
+        {{ else if eq .Name "Mpox"}}topic_badge_mpox
+        {{ else if eq .Name "Antibiotic resistance"}}topic_badge_antib_r
+        {{ else }}topic_badge_general
+        {{ end }} "><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+      </span>
+      {{ if eq (mod (add $ind 1) 2) 0 }}<br>{{ end }}
+      {{ end }}
     </div>
   </div>
 </div>

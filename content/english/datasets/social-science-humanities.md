@@ -1,11 +1,9 @@
 ---
 title: Social science and humanities data
 menu:
-    data_menu:
+    datasets_menu:
         identifier: social
         name: Social science and humanities data
-        parent: available_datasets
-
 ---
 ## Published Data
 
