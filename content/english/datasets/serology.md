@@ -1,10 +1,9 @@
 ---
 title: Serology data
 menu:
-    data_menu:
+    datasets_menu:
         identifier: serology_data
         name: Serology data
-        parent: available_datasets
 aliases:
     - /sv/data_types/serology/data/
     - /data_types/serology/data/

@@ -1,10 +1,9 @@
 ---
 title: Health data
 menu:
-    data_menu:
+    datasets_menu:
         identifier: health
         name: Health data
-        parent: available_datasets
 aliases:
     - /sv/data_types/health_data/data/
     - /sv/data_types/health_data/

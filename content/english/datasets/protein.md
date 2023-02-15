@@ -1,10 +1,9 @@
 ---
 title: Protein data
 menu:
-    data_menu:
+    datasets_menu:
         identifier: protein
         name: Protein data
-        parent: available_datasets
 aliases:
     - /sv/data_types/protein_data/data/
     - /sv/data_types/protein_data/

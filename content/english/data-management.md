@@ -1,10 +1,6 @@
 ---
 title: Data management
 toc: True
-menu:
-    data_menu:
-        identifier: datamanagement
-        name: Data management
 aliases:
     - /support_services/data_management/
     - /sv/support_services/data_management/
