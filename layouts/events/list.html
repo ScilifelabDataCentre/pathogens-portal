@@ -3,7 +3,7 @@
 <section>
   <div>
     {{ .Content }}</div>
-  </section>
+</section>
 
 <section>
   <div class="my-2 text-start">
@@ -22,10 +22,9 @@
           </div>
           <div class="modal-body">
             <div class="">
-              <p>We welcome suggestions for events to be displayed in this section. It can be an event that you are
-                organising or an event that you simply think would be useful to others in the life science community
-                in Sweden. We primarily aggregate events in Sweden or for a Swedish audience, but submissions about
-                important international events are also welcome.</p>
+              <p>We welcome suggestions for events related to pandemic preparedness. This could include, for example,
+                events related to COVID-19, antibiotic resistance, or resources related to pandemic preparedness. The
+                event does not need to be organised by you in order for it to be submitted as a suggestion.</p>
               <p>Please fill out at least all obligatory fields (marked with an asterisk) below. The editorial team
                 behind the portal will then evaluate the suggestion and add relevant events as soon as possible.</p>
             </div>
@@ -117,140 +116,142 @@
   </div>
 </section>
 
-  {{ $upcoming_events := slice }}
-  {{ range sort $.Site.Data.events.items ".date_start" "asc" }}
-  {{ $banner_date := cond (isset . "date_start") .date_start .registration_deadline }}
-  {{ if ge ($banner_date | time.Format "20060102") (now | time.Format "20060102") }}
-    {{ $upcoming_events = $upcoming_events | append . }}
-  {{ end }}
-  {{ end }}
-  {{ if ge (len $upcoming_events) 1 }}
-  <section>
-    <div class="row g-2 mt-3 mb-5">
-      {{ range $ind, $cont := $upcoming_events }}
+{{ $upcoming_events := slice }}
+{{ range sort $.Site.Data.events.items ".date_start" "asc" }}
+{{ $banner_date := cond (isset . "date_start") .date_start .registration_deadline }}
+{{ if ge ($banner_date | time.Format "20060102") (now | time.Format "20060102") }}
+{{ $upcoming_events = $upcoming_events | append . }}
+{{ end }}
+{{ end }}
+{{ if ge (len $upcoming_events) 1 }}
+<section>
+  <div class="row g-2 mt-3 mb-5">
+    {{ range $ind, $cont := $upcoming_events }}
 
-      {{/* Potentially different colors of the calendar icon depending on the event type */}}
-      <div class="col-md-6 col-lg-4">
-        <div class="p-3 border rounded h-100">
-          <div class="d-flex justify-content-between">
-            <div>
-              <span class="badge event-type mb-1">{{ .type }}</span>
-              <h5><a class="" role="button" data-bs-toggle="modal" data-bs-target="#descriptionModal{{ $ind }}">{{ .title }}</a></h5>
-            </div>
-            <div>
-              <div class="px-2 pb-1 m-2 d-flex flex-column rounded event-date">
-                {{ $banner_date := cond (isset . "date_start") .date_start .registration_deadline }}
-                <div class="px-2 fs-3 mx-auto">{{ time.Format "2" $banner_date }}</div>
-                <div class="px-2 mx-auto">{{ time.Format "January" $banner_date }}</div>
-                {{ if and (not .date_start) (.registration_deadline) }}
-                  <div class="px-2 mx-auto">(deadline)</div>
-                {{ end }}
-              </div>
+    {{/* Potentially different colors of the calendar icon depending on the event type */}}
+    <div class="col-md-6 col-lg-4">
+      <div class="p-3 border rounded h-100">
+        <div class="d-flex justify-content-between">
+          <div>
+            <span class="badge event-type mb-1">{{ .type }}</span>
+            <h5><a class="" role="button" data-bs-toggle="modal"
+                data-bs-target="#descriptionModal{{ $ind }}">{{ .title }}</a></h5>
+          </div>
+          <div>
+            <div class="px-2 pb-1 m-2 d-flex flex-column rounded event-date">
+              {{ $banner_date := cond (isset . "date_start") .date_start .registration_deadline }}
+              <div class="px-2 fs-3 mx-auto">{{ time.Format "2" $banner_date }}</div>
+              <div class="px-2 mx-auto">{{ time.Format "January" $banner_date }}</div>
+              {{ if and (not .date_start) (.registration_deadline) }}
+              <div class="px-2 mx-auto">(deadline)</div>
+              {{ end }}
             </div>
           </div>
-          {{ if .date_start }}
-          <div class="row mt-3">
-            <div class="col">
-              <b>Date and time:</b> {{ .date_start | time.Format ":date_medium" }}
-                                    {{ if .time_start }} {{ .time_start }}{{ end }}
-                                    {{ if or .date_end .time_end }} - {{ end }}
-                                    {{ if and (.date_end) (ne .date_end .date_start) }}{{ .date_end | time.Format ":date_medium" }}{{ end}}
-                                    {{ if .time_end }}{{ .time_end }}{{ end }}
-            </div>
+        </div>
+        {{ if .date_start }}
+        <div class="row mt-3">
+          <div class="col">
+            <b>Date and time:</b> {{ .date_start | time.Format ":date_medium" }}
+            {{ if .time_start }} {{ .time_start }}{{ end }}
+            {{ if or .date_end .time_end }} - {{ end }}
+            {{ if and (.date_end) (ne .date_end .date_start) }}{{ .date_end | time.Format ":date_medium" }}{{ end}}
+            {{ if .time_end }}{{ .time_end }}{{ end }}
           </div>
-          {{ end }}
-          {{ if .registration_deadline }}
-          <div class="row mt-1">
-            <div class="col">
-              <b>Registration deadline:</b> {{ .registration_deadline | time.Format ":date_medium" }}
-            </div>
+        </div>
+        {{ end }}
+        {{ if .registration_deadline }}
+        <div class="row mt-1">
+          <div class="col">
+            <b>Registration deadline:</b> {{ .registration_deadline | time.Format ":date_medium" }}
           </div>
-          {{ end }}
-          {{ if .organisers }}
-          <div class="row">
-            <div class="col">
-              <b>Organiser(s):</b> {{ .organisers }}
-            </div>
+        </div>
+        {{ end }}
+        {{ if .organisers }}
+        <div class="row">
+          <div class="col">
+            <b>Organiser(s):</b> {{ .organisers }}
           </div>
-          {{ end }}
-          {{ if .venue }}
-          <div class="row">
-            <div class="col">
-              <b>Venue:</b> {{ .venue }}
-            </div>
+        </div>
+        {{ end }}
+        {{ if .venue }}
+        <div class="row">
+          <div class="col">
+            <b>Venue:</b> {{ .venue }}
           </div>
-          {{ end }}
-          <div class="row mt-3">
-            <div class="col">
-              <button type="button" class="btn btn-blue btn-sm" data-bs-toggle="modal" data-bs-target="#descriptionModal{{ $ind }}">
-                See details
-              </button>
-              <div class="modal fade" id="descriptionModal{{ $ind }}" tabindex="-1" aria-labelledby="descriptionModalLabel{{ $ind }}" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="descriptionModalLabel">{{ .title }}</h5>
-                      <button type="button" class="btn-close mt-1" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <div class="row">
-                        <div class="col">
-                          <b>Event type:</b> <span class="badge event-type mb-1">{{ .type }}</span>
-                        </div>
-                      </div>
-                      {{ if .date_start }}
-                      <div class="row mt-1">
-                        <div class="col">
-                          <b>Date and time:</b> {{ .date_start | time.Format ":date_medium" }}
-                                                {{ if .time_start }} {{ .time_start }}{{ end }}
-                                                {{ if or .date_end .time_end }} - {{ end }}
-                                                {{ if and (.date_end) (ne .date_end .date_start) }}{{ .date_end | time.Format ":date_medium" }}{{ end}}
-                                                {{ if .time_end }}{{ .time_end }}{{ end }}
-                        </div>
-                      </div>
-                      {{ end }}
-                      {{ if .registration_deadline }}
-                      <div class="row mt-1">
-                        <div class="col">
-                          <b>Registration deadline:</b> {{ .registration_deadline | time.Format ":date_medium" }}
-                        </div>
-                      </div>
-                      {{ end }}
-                      {{ if .organisers }}
-                      <div class="row mt-1">
-                        <div class="col">
-                          <b>Organiser(s):</b> {{ .organisers }}
-                        </div>
-                      </div>
-                      {{ end }}
-                      {{ if .venue }}
-                      <div class="row mt-1">
-                        <div class="col">
-                          <b>Venue:</b> {{ .venue }}
-                        </div>
-                      </div>
-                      {{ end }}
-                      {{ if .description }}
-                      <div class="row mt-3">
-                        <div class="col"><b>Description:</b><br>
-                          {{ .description | markdownify }}
-                        </div>
-                      </div>
-                      {{ end }}
-                      <div class="row mt-3">
-                        <div class="col-md">
-                          <a target="_blank" href="{{ .event_url }}"><i class="bi bi-globe"></i> Event webpage</a>
-                        </div>
-                        {{ if .registration_url }}
-                        <div class="col-md">
-                          <a target="_blank" href="{{ .registration_url }}"><i class="bi bi-globe"></i> Registration</a>
-                        </div>
-                        {{ end }}
+        </div>
+        {{ end }}
+        <div class="row mt-3">
+          <div class="col">
+            <button type="button" class="btn btn-blue btn-sm" data-bs-toggle="modal"
+              data-bs-target="#descriptionModal{{ $ind }}">
+              See details
+            </button>
+            <div class="modal fade" id="descriptionModal{{ $ind }}" tabindex="-1"
+              aria-labelledby="descriptionModalLabel{{ $ind }}" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="descriptionModalLabel">{{ .title }}</h5>
+                    <button type="button" class="btn-close mt-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col">
+                        <b>Event type:</b> <span class="badge event-type mb-1">{{ .type }}</span>
                       </div>
                     </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    {{ if .date_start }}
+                    <div class="row mt-1">
+                      <div class="col">
+                        <b>Date and time:</b> {{ .date_start | time.Format ":date_medium" }}
+                        {{ if .time_start }} {{ .time_start }}{{ end }}
+                        {{ if or .date_end .time_end }} - {{ end }}
+                        {{ if and (.date_end) (ne .date_end .date_start) }}{{ .date_end | time.Format ":date_medium" }}{{ end}}
+                        {{ if .time_end }}{{ .time_end }}{{ end }}
+                      </div>
                     </div>
+                    {{ end }}
+                    {{ if .registration_deadline }}
+                    <div class="row mt-1">
+                      <div class="col">
+                        <b>Registration deadline:</b> {{ .registration_deadline | time.Format ":date_medium" }}
+                      </div>
+                    </div>
+                    {{ end }}
+                    {{ if .organisers }}
+                    <div class="row mt-1">
+                      <div class="col">
+                        <b>Organiser(s):</b> {{ .organisers }}
+                      </div>
+                    </div>
+                    {{ end }}
+                    {{ if .venue }}
+                    <div class="row mt-1">
+                      <div class="col">
+                        <b>Venue:</b> {{ .venue }}
+                      </div>
+                    </div>
+                    {{ end }}
+                    {{ if .description }}
+                    <div class="row mt-3">
+                      <div class="col"><b>Description:</b><br>
+                        {{ .description | markdownify }}
+                      </div>
+                    </div>
+                    {{ end }}
+                    <div class="row mt-3">
+                      <div class="col-md">
+                        <a target="_blank" href="{{ .event_url }}"><i class="bi bi-globe"></i> Event webpage</a>
+                      </div>
+                      {{ if .registration_url }}
+                      <div class="col-md">
+                        <a target="_blank" href="{{ .registration_url }}"><i class="bi bi-globe"></i> Registration</a>
+                      </div>
+                      {{ end }}
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                   </div>
                 </div>
               </div>
@@ -258,16 +259,17 @@
           </div>
         </div>
       </div>
-      {{ end }}
     </div>
-  </section>
-  {{ else }}
-    <div class="alert alert-secondary mt-4">
-      We are currently unaware of any upcoming events or training opportunities relevant for life science.
-      If you know of any relevant events or training opportunities that should be shown here, please recommend
-      them to us using the "Submit an event" button above.
-    </div>
-  {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ else }}
+<div class="alert alert-secondary mt-4">
+  We are currently unaware of any upcoming events or training opportunities relevant for life science.
+  If you know of any relevant events or training opportunities that should be shown here, please recommend
+  them to us using the "Submit an event" button above.
+</div>
+{{ end }}
 
 <script>
   document.getElementById('originUrl').value = location.href;
@@ -288,4 +290,4 @@
   });
 </script>
 
-  {{ end }}
+{{ end }}
