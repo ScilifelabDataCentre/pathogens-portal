@@ -4,8 +4,8 @@ toc: false
 type: wastewater
 menu:
     wastewater:
-        name: COVID quantification at SLU
-        weight: 30
+        name: Quantify SARS-CoV-2 - SEEC SLU
+        weight: 40
 plotly: true
 ---
 
@@ -13,7 +13,11 @@ plotly: true
 
 This page includes information about and data from the wastewater epidemiology project led by associate professor Anna J. Székely (SLU, Swedish University of Agricultural Sciences) and associate professor Maja Malmberg (SLU) at SLU. This page pertains in particular to the quantification of the levels of COVID-19 infections in multiple cities across Sweden. Regular wastewater monitoring by this group started in Uppsala in August 2020, but many other sites have been added since then.
 
-The data and visualisation on this page are usually updated weekly, typically on Fridays. The other information provided here is also regularly updated, so please check back frequently for all of the latest progress on this project.
+The data and visualisation on this page are usually updated weekly, typically on Fridays. Data and information about the group on this dashboard are updated frequently, so please check back regularly to stay up to date.
+
+## Wastewater collection sites
+
+INFO ON SITES FROM SLU group.
 
 ## Methods
 
@@ -83,6 +87,10 @@ Isaksson, F., Lundy, L., Hedström, A., Székely, A. J., Mohamed, N. (2022). Eva
 <div><b>Date:</b> <span id="slu_comment_date"></span><br><b>Commentary:</b> <span id="slu_comment"></span></div>
 
 {{< ww_dynamic_content >}}
+
+## Archived data
+
+- [Historic data for Örebro and Umeå; amount of SARS-CoV-2 in Umeå and Örebro wastewater between October 2020 and June 2021](/dashboards/wastewater/historic_orebro_umea).
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5.19.1"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.0.0"></script>
