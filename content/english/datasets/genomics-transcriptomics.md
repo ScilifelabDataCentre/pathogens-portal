@@ -1,10 +1,9 @@
 ---
 title: Genomics & transcriptomics data
 menu:
-    data_menu:
+    datasets_menu:
         identifier: genomics
         name: Genomics & transcriptomics data
-        parent: available_datasets
 aliases:
     - /sv/data_types/genomics_transcriptomics/data/
     - /sv/data_types/genomics_transcriptomics/

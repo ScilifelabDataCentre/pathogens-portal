@@ -189,7 +189,7 @@ a.nav-link:active {
 .main_menu_item {
     color: rgba(46, 104, 165, 0.8);
     font-weight: 500;
-    font-size: 1.3em;
+    font-size: 1.25em;
 }
 
 .main_menu_item a {
@@ -230,11 +230,6 @@ a.nav-link:active {
 .dropdown-menu .dropdown-menu {
     top: -.55rem !important;
     left: -.18rem !important;
-}
-
-.topics_title {
-    font-size: 1.3em;
-    font-weight: 500;
 }
 
 @media (max-width: 1199px) {
@@ -436,6 +431,11 @@ div.dataTables_wrapper div.dataTables_info {
 /*
 * Styling of badges to indicate topics
 */
+.topics_title {
+    font-size: 1.25em;
+    font-weight: 500;
+}
+
 .topic_badge_small {
     color: #fff;
     display: inline-block;
@@ -454,7 +454,7 @@ div.dataTables_wrapper div.dataTables_info {
     color: #fff;
     display: inline-block;
     padding: 0.25em 0.4em;
-    font-size: 1em;
+    font-size: 0.95em;
     font-weight: 700;
     line-height: 1;
     text-align: center;
@@ -587,6 +587,16 @@ div.dataTables_wrapper div.dataTables_info {
 
 table.no-last-row-border > tbody > tr:last-child {
     border-color: #fff;
+}
+
+.event-date {
+  background-color: #6c757d;
+  color: white;
+}
+
+.event-type{
+  background-color: #6c757d;
+  color: white;
 }
 
 /*

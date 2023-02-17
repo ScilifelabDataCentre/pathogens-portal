@@ -1,10 +1,9 @@
 ---
 title: Public health data
 menu:
-    data_menu:
+    datasets_menu:
         identifier: public_health
         name: Public health data
-        parent: available_datasets
 aliases:
     - /sv/data_types/public_health/data/
     - /data_types/public_health/data/

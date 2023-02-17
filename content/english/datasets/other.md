@@ -1,10 +1,9 @@
 ---
 title: Other data
 menu:
-    data_menu:
+    datasets_menu:
         identifier: other
         name: Other data
-        parent: available_datasets
 aliases:
     - /sv/data_types/other_data/data/
     - /data_types/other_data/data/
