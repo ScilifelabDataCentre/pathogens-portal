@@ -73,3 +73,5 @@ Wang, H., Churqui, M.P., Tunovic, T., Enache, L., Johansson, A., Karmander, A., 
  <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_gothenburg.json" height="550px" >}}</div>
 </div>
+
+## Commentary from the research group
