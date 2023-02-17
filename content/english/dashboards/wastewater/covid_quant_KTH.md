@@ -4,26 +4,28 @@ toc: false
 type: wastewater
 menu:
     wastewater:
-        name: Quantify SARS-CoV-2 - SEEC KTH
+        name: Quantify SARS-CoV-2 - SEEC-KTH
         weight: 30
 plotly: true
 ---
 
 ## Introduction
 
-This project is led by associate professor Zeynep Cetecioglu Gurol and colleagues at (KTH Royal Institute of Technology. The project was established as a collaboration between the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and the [SEED](https://www.kth.se/en/seed) and [Chemical Engineering](https://www.kth.se/ket/chemical-engineering-1.784196) departments at KTH. The project is now funded as part of the SciLifeLab Pandemic Laboratory Preparedness (PLP) Program. More information about the PLP program can be found in our [resources setion](/resources/).
+This project is led by associate professor Zeynep Cetecioglu Gurol and colleagues at KTH Royal Institute of Technology (KTH). This group of researchers are known as SEEC-KTH. The project was established as a collaboration between the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and the [SEED](https://www.kth.se/en/seed) and [Chemical Engineering](https://www.kth.se/ket/chemical-engineering-1.784196) departments at KTH. The project is now funded as part of the SciLifeLab Pandemic Laboratory Preparedness (PLP) Program. More information about the PLP program can be found in our [resources section](/resources/).
 
-The data and visualisation on this page are usually updated weekly, typically on Fridays. Data and information about the group on this dashboard are updated frequently, so please check back regularly to stay up to date.
+The data and visualisations on this page are usually updated weekly, typically on Fridays. Data and information about the group on this dashboard are updated frequently, so please check back regularly to stay up to date.
 
 ## Wastewater collection sites
 
-The analysis of wastewater samples from Stockholm by SEEC-KTH is done in close collaboration with Stockholm Vatten och Avfall, and the Käppala Association. SEEC-KTH began to sample wastewater in mid-April 2020, and samples were collected from the Bromma, Henriksdal, and Käppala wastewater treatment plants. These plants receive wastewater from a population of approximately 360,000, 860,000 and 500,000 people, respectively. Please consult [this map](/wastewater/map_Kappala.pdf) for the exact catchment area of the wastewater collection channels in Käppala and [this map](/wastewater/map_Bromma_Henriksdal.pdf) for the exact catchment area of the wastewater collection channels in Bromma and Henriksdal.
+The analysis of wastewater samples from Stockholm by SEEC-KTH is done in close collaboration with Stockholm Vatten och Avfall, and the Käppala Association. SEEC-KTH began to sample wastewater in mid-April 2020, and samples were collected from the Bromma, Henriksdal, and Käppala wastewater treatment plants. These plants receive wastewater from a population of approximately 360,000, 860,000, and 500,000 people, respectively. Please consult [this map](/wastewater/map_Kappala.pdf) for the exact catchment area of the wastewater collection channels in Käppala and [this map](/wastewater/map_Bromma_Henriksdal.pdf) for the exact catchment area of the wastewater collection channels in Bromma and Henriksdal.
 
-Seec-KTH began to collect and wastewater samples from the Sjölunda wastewater treatment plant in Malmö in week 39 of 2021. This wastewater plant services the majority of Malmö, as well as Burlöv municipality and parts of the municipalities of Lomma, Staffanstorp, and Svedala. Around 300,000 people live in the catchment area of this wastewater treatment plant. More information about the catchment area, including a map, can be [downloaded directly](/wastewater/sjolunda.pdf).
+SEEC-KTH began to collect and wastewater samples from the Sjölunda wastewater treatment plant in Malmö in week 39 of 2021. This wastewater plant services the majority of Malmö, as well as the Burlöv municipality and parts of the municipalities of Lomma, Staffanstorp, and Svedala. Around 300,000 people live in the catchment area of this wastewater treatment plant. More information about the catchment area, including a map, can be [downloaded directly](/wastewater/sjolunda.pdf).
 
 ## Methods
 
-After concentration, filtering, and preparation, the samples are analysed using the qPCR technique for SARS CoV-2 RNA. Primers of the nucleocapsid (N) gene were used to detect the SARS-COV-2 gene (previously used and verified by [Medema *et al.* (2020)](https://doi.org/10.1021/acs.estlett.0c00357)). In some cases, raw wastewater samples were frozen at -20 degress celsius, and concentrated wastewater or purified RNA samples were stored at -80 degrees celsius before the next analysis step was carried out. The concentration method initially used by prof. Zeynep Cetecioglu Gurol and her colleagues was based on their study ([Jafferali *et al.*, 2021](https://doi.org/10.1016/j.scitotenv.2020.142939)) which compared four different concentration methods. This method was used until week 35 of 2021. After this time, the group began to instead use [the Promega kit](https://se.promega.com/applications/virus-detection-assay-coronavirus-detection-covid-19-sars-cov-2/wastewater-based-epidemiology-covid19/) for the concentration step.
+ To correct for variations in population size and wastewater flow, the group quantifies the pepper mild mottle virus (PMMoV) using a modified version of the assay of [Zhang *et al.* (2006)](https://doi.org/10.1371/journal.pbio.0040003). PMMoV is an abundant RNA virus in human feces and serves as an estimator of human faecal content ([Symonds *et al.*, 2019](https://doi.org/10.1371/journal.ppat.1007639)). SARS-like virus specific N3-primers ([Lu *et al.*, 2020](https://doi.org/10.3201/eid2608.201246)) with SYBR Green chemistry ([Perez-Zabaleta *et al.*, 2023](https://doi.org/10.1016/j.scitotenv.2022.160023)) are used to quantify SARS-CoV-2. 
+ 
+After concentration, filtering, and preparation, the samples are analysed using the qPCR technique for SARS CoV-2 RNA. Primers of the nucleocapsid (N) gene were used to detect the SARS-COV-2 gene (previously used and verified by [Medema *et al.* (2020)](https://doi.org/10.1021/acs.estlett.0c00357)). In some cases, raw wastewater samples were frozen at -20℃, and concentrated wastewater or purified RNA samples were stored at -80℃ before the next analysis step was carried out. The concentration method initially used by SEEC-KTH was based on their study ([Jafferali *et al.*, 2021](https://doi.org/10.1016/j.scitotenv.2020.142939)) which compared four different concentration methods. This method was used until week 35 of 2021. After this time, the group began to instead use [the Promega kit](https://se.promega.com/applications/virus-detection-assay-coronavirus-detection-covid-19-sars-cov-2/wastewater-based-epidemiology-covid19/) for the concentration step.
 
 ## Dataset
 
@@ -36,6 +38,8 @@ Cetecioglu, Z. G., Williams, C., Khatami, K., Atasoy, M., Nandy, P., Jafferali, 
 ## Visualisations
 
 Please note that the visualisations below show data for the most recent 16 weeks for which data are available. This does not represent all of the data that are available. Please refer to the datasets above to see all of the data available over time.
+
+Please also note that although the same methods are used for all cities shown on this tab, differences in the wastewater collection systems and populations of different cities might bias direct comparisons between cities.
 
 ### Stockholm
 

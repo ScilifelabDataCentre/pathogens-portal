@@ -4,7 +4,7 @@ toc: false
 type: wastewater
 menu:
     wastewater:
-        name: Quantify SARS-CoV-2 - SEEC SLU
+        name: Quantify SARS-CoV-2 - SEEC-SLU
         weight: 40
 plotly: true
 ---
@@ -22,6 +22,8 @@ INFO ON SITES FROM SLU group.
 ## Methods
 
 For most cities represented on this page, raw, untreated wastewater samples that are representative of a single day are collected by flow compensated samplers at the wasterwater treatment plants. Uppsala is the exception, with all measurements since week 16 of 2021 instead representing 1 week. In Uppsala, samples are collected daily, and then combined flow-proportionally into one composite weekly sample for the purpose of testing.
+
+ To correct for variations in population size and wastewater flow, the group quantifies the pepper mild mottle virus (PMMoV) using a modified version of the assay of [Zhang *et al.* (2006)](https://doi.org/10.1371/journal.pbio.0040003). PMMoV is an abundant RNA virus in human feces and serves as an estimator of human faecal content ([Symonds *et al.*, 2019](https://doi.org/10.1371/journal.ppat.1007639)). The SARS-CoV-2 specific [N1 assay from the Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-ncov/lab/rt-pcr-panel-primer-probes.html) is used to quantify SARS-CoV-2.
 
 The samples are processed according to standard methodologies. Briefly, the viral genomic material is concentrated and extracted by the direct capture method using the Maxwell RSC Enviro TNA kit (Promega). The copy number of SARS-CoV-2 genomes is quantified by RT-qPCR using the CDC RUO nCOV N1 assay (IDT DNA). To correct for variations in population size and wastewater flow, we also quantify the pepper mild mottle virus (PMMoV), which is the most abundant RNA virus in human faeces. This means that the quantification can be used to estimate human faecal content ([Symonds *et al.*, 2019](https://doi.org/10.1371/journal.ppat.1007639)). For more detail about the evaluation of this normalisation method, please refer to the corresponding publication: [Isaksson *et al.* (2022)](https://doi.org/10.3390/environments9030039).
 
@@ -48,6 +50,8 @@ Isaksson, F., Lundy, L., Hedström, A., Székely, A. J., Mohamed, N. (2022). Eva
 <div class="alert alert-info">Last updated: <span id="last_modified_uppsala"></span></div>
 
 <b>Important note:</b> Historical data for Knivsta, Vaxholm, and Österåker are available in the dataset linked above. However, they are no longer included in the visualisation below.
+
+Please note that although the same methods are used for all cities shown on this tab, differences in the wastewater collection systems and populations of different cities might bias direct comparisons between cities.
 
 <button type="button" class="btn btn-sm btn-outline-secondary mb-2" data-bs-toggle="modal" data-bs-target="#interactiveFeaturesModal">
   How to use the interactive features of the plot
