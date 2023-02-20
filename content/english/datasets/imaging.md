@@ -1,10 +1,9 @@
 ---
 title: Imaging data
 menu:
-    data_menu:
+    datasets_menu:
         identifier: imaging
         name: Imaging data
-        parent: available_datasets
 aliases:
     - /sv/data_types/imaging_data/data/
     - /sv/data_types/imaging_data/

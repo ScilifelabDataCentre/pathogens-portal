@@ -5,9 +5,6 @@ cascade:
   banner_caption: "3D rendering of a SARS-CoV-2 virion."
   toc: false
 menu:
-    data_menu:
-        identifier: highlights
-        name: Data highlights
     homepage_highlights:
         name: Data highlights
         identifier: highlights

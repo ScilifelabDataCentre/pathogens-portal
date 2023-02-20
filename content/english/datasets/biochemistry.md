@@ -1,10 +1,9 @@
 ---
 title: Biochemistry data
 menu:
-    data_menu:
+    datasets_menu:
         identifier: biochemistry
         name: Biochemistry data
-        parent: available_datasets
 aliases:
     - /data_types/compound_and_target_data/
     - /sv/data_types/compound_and_target_data/
