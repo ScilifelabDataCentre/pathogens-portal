@@ -564,11 +564,10 @@ div.dataTables_wrapper div.dataTables_info {
 * Our own backgrounds
 */
 
-.bg-highlight {
+.bg-card {
     height: 100%;
     background-color: #f8f9fa;
     padding: 6px 12px 0px;
-    margin: 0px 2px;
     border-width: 0.01px;
     border-style: solid;
     border-radius: 3px;

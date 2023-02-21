@@ -1,13 +1,12 @@
 ---
 title: "Post COVID-19 i Sverige, statistik, forskningsprojekt, tillgängliga data"
+description: Socialstyrelsen delar öppna data om tillstånd efter covid-19 (postcovid). Här visar vi bland annat visualiseringar av data om symtom, vårdkontakter och geografisk spridning.
 toc: true
 plotly: true
 menu:
-    swe_menu:
+    dashboard_menu:
         identifier: post_covid
-        name: Post COVID-19 i Sverige
-        weight: 50
-        parent: dashboards
+        name: Postcovid i Sverige
 aliases:
     - /sv/data_types/health_data/post_covid/
 ---

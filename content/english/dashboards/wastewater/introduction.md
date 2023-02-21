@@ -1,12 +1,12 @@
 ---
 title: Wastewater-based epidemiology in Sweden
+description: Surveillance of wastewater for pathogens can be an effective means of predicting upcoming outbreaks. This dashboard contains data originating from the Swedish Environmental Epidemiology Center (SEEC).
 toc: false
 type: wastewater
 menu:
     dashboard_menu:
         identifier: wastewater
         name: Wastewater-based epidemiology in Sweden
-        weight: 20
     other_data:
         name: Environment
         identifier: environment

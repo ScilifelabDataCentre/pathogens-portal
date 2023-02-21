@@ -1,13 +1,17 @@
 ---
-title: Register-based COVID-19 vaccination study (RECOVAC)
-description: Dedicated to the work of the register-based large-scale national population study to monitor COVID-19 vaccination effectiveness and safety (RECOVAC) project. Data visualisations, and general information is shown.
+title: Registerbaserade COVID-19 vaccindata (RECOVAC)
+description: Information om arbetet kring ren storskalig registerbaserad vaccinationsstudie som kartlägger effektiviteten och säkerheten av COVID-19.
 toc: true
 plotly: true
 menu:
     dashboard_menu:
         identifier: recovac
-        name: Register-based vaccination (RECOVAC)
+        name: Registerbaserade vaccindata (RECOVAC)
 ---
+<div class="alert alert-info">
+  <i class="bi bi-exclamation-triangle-fill"></i>
+  <span>En svensk översättning av denna sida kommer inom kort.</span>
+</div>
 
 ## RECOVAC project overview
 

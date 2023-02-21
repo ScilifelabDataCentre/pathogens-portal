@@ -1,14 +1,13 @@
 ---
 title: CRUSH Covid data och dashboard, Region Uppsala
+description: CRUSH Covid kartlägger smittspridningen av Covid-19 i Uppsala län genom visualiseringar av antal fall, testpositivitet och geografisk spridning. Data (postnummer) tillgängligt för nedladdning.
 toc: false
 aliases:
     - /sv/data_types/health_data/crush_covid/
 menu:
-    swe_menu:
+    dashboard_menu:
         identifier: crush_covid
-        name: CRUSH Covid (Uppsala)
-        weight: 90
-        parent: dashboards
+        name: CRUSH Covid Uppsala (Partnerprojekt)
 ---
 
 <div class="alert alert-info"><b>Kommentar angående uppdateringar:</b> Datauppdateringarna har pausats för sommaren och kommer att återupptas under hösten.</div>

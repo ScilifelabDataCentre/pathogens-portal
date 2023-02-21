@@ -1,10 +1,10 @@
 ---
 title: National Pandemic Centre SARS-CoV-2 (COVID-19) test statistics
+description: The national Pandemic Centre (NPC) conducted testing related to SARS-CoV-2 from the start of the pandemic. They show positive, negative, and inconclusive tests. This dashboard is historic, so no longer updated.
 menu:
      dashboard_menu:
         identifier: npc-statistics
-        name: "Archived dashboard: National Pandemic Centre"
-        weight: 80
+        name: "National Pandemic Centre (Historic)"
 toc: false
 aliases:
     - /data_types/health_data/npc-statistics/

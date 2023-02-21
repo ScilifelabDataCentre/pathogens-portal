@@ -1,15 +1,20 @@
 ---
 title: Visualisation of COVID-19 and SARS-CoV-2 research in Sweden as reflected in publications
-description: A summary of the COVID-19 and SARS-CoV-2 publications produced involving at least one contributor from a Swedish university or research institute. Shows publications over time and key words/phrases within them.
+description: Översikt över publikationer relaterade till COVID-19 och SARS-CoV-2 där minst en medförfattare är verksam vid ett svenskt lärosäte. Visar publikationer över tid samt nyckelord/nyckelfraser i publikationerna.
 toc: false
 plotly: true
 menu:
     dashboard_menu:
         identifier: covid_19_publications_vis
-        name: "COVID-19 publication overview"
+        name: Översikt över COVID-19 publikationer
 aliases:
     - /projects/dashboard/
 ---
+<div class="alert alert-info">
+  <i class="bi bi-exclamation-triangle-fill"></i>
+  <span>En svensk översättning av denna sida kommer inom kort.</span>
+</div>
+
 The visualisations on this page evaluate the development of COVID-19 and SARS-CoV-2 research across Sweden by assessing publication output. Specifically, we consider multiple aspects of journal publications and preprints where at least one author has an affiliation with a Swedish research institute. The database containing the publications themselves [can be found on this page](/publications/). Note that our database is manually curated and, as such, may not be exhaustive. The full database is available for download and use for other purposes, please see [DOI: 10.17044/scilifelab.14124014](https://doi.org/10.17044/scilifelab.14124014) for details.
 
 The code used to produce the visulations on this page can be found on [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations). Specifically, code related to the number of publications can be found in the ['Count_publications' folder of the repository](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Count_publications), and code used to generated the wordclouds can be found in the ['Wordcloud' folder](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Wordcloud).

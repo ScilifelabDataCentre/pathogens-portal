@@ -1,12 +1,11 @@
 ---
 title: Mängd SARS-CoV-2 virus i avloppsvatten från svenska städer
+description: Övervakning av patogener i avloppsvatten kan vara ett effektivt sätt för att förutse framtida utbrott. Denna dashboard innehåller data som kommer från Swedish Environmental Epidemiology Center (SEEC).
 toc: true
 menu:
-  swe_menu:
+  dashboard_menu:
       identifier: wastewater
-      name: Mängd SARS-CoV-2 virus i avloppsvatten från svenska städer
-      weight: 20
-      parent: dashboards
+      name: Avloppsvattenepidemiologi
 plotly: true
 aliases:
     - /sv/data_types/environment/wastewater/

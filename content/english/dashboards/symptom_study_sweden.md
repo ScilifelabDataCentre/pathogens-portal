@@ -1,12 +1,12 @@
 ---
 title: COVID Symptom Study Sweden
+description: The COVID Symptom Study Sweden (CSSS) collects data on COVID-19 prevalence, symptoms, and vaccinations through a smart phone app with over 200.000 users in Sweden. Raw data can be requested for use in research projects.
 toc: false
 plotly: true
 menu:
     dashboard_menu:
         identifier: symptom_study
-        name: "Partner dashboard: COVID Symptom Study Sweden"
-        weight: 90
+        name: "COVID Symptom Study Sweden (Partner)"
 aliases:
     - /data_types/health_data/symptom_study_sweden/
 ---
