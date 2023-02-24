@@ -78,7 +78,7 @@
                       </button>
                       <div class="modal fade" id="call_details{{ $ind }}" tabindex="-1" role="dialog"
                         aria-labelledby="call_details{{ $ind }}Label" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
+                        <div class="modal-dialog modal-lg" role="document">
                           <div class="modal-content">
                             <div class="modal-header">
                               <h5 class="modal-title" id="call_details{{ $ind }}Label">{{ .call_title }}</h5>
@@ -95,7 +95,7 @@
                                 {{ if .applicant }}<b>Eligible applicant:</b>
                                 {{ .applicant | markdownify }}<br>{{ end }}
                                 {{ if .decision_date }}<b>Decision date:</b> {{ .decision_date }}<br>{{ end }}</p>
-                              <p><b>Call description:</b><br><small>{{ .call_description | markdownify }}</small></p>
+                              <p><b>Call description:</b><br>{{ .call_description | markdownify }}</p>
                               <p><a href="{{ .call_url }}">See call website for more information <i
                                     class="bi bi-arrow-right-circle-fill" aria-hidden="true"></i></a></p>
                             </div>

@@ -47,9 +47,7 @@
       <div class="px-3 pt-1 pb-2 bg-light">
         <h5>Data types</h5>
         {{ $current_url := .Page.RelPermalink }}
-        {{ range .Site.Menus.data_menu }}
-        {{ if eq .Name "Available datasets" }}
-        {{ range .Children }}
+        {{ range .Site.Menus.datasets_menu }}
 
         {{/*
           Count how many datasets in current data type
@@ -63,8 +61,6 @@
         <div class="d-block">{{ if ne .Page.RelPermalink $current_url }}<a
             href="{{ .Page.RelPermalink }}">{{ else }}<b>{{ end }}{{ .Name }}
               ({{ $num_entries }}){{ if ne .Page.RelPermalink $current_url }}</a>{{ else }}</b>{{ end }}</div>
-        {{ end }}
-        {{ end }}
         {{ end }}
       </div>
     </div>
