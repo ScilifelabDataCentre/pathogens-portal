@@ -84,7 +84,8 @@ a.nav-link:active {
 }
 
 .nav-tabs a.nav-link {
-    color: #3E75C1;
+    color:#de2c6c;
+    font-weight: 500
 }
 
 .navbar .navbar-primary-links a.nav-link:hover,
