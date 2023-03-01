@@ -37,7 +37,6 @@ The work on this dashboard is divided according to different topics explored. Se
 
 - [**SARS-CoV-2 quantification**](/dashboards/wastewater/covid_quantification/): Data, visualisations, and information related to the quantification of SARS-CoV-2 in wastewater in differnt areas of Sweden. All three groups share data on this topic, and cover diferent areas of Sweden. It is possible to navigate directly to the group(s) providing data on the area(s) of interest to you.
 
-
 ## Map of sample collection sites
 
 Below is a map showing the wastewater treatment plants (WWTPs) from which wastewater samples are being collected and analysed by groups sharing data on this dashboard.
