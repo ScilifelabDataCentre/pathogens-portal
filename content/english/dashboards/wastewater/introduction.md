@@ -33,13 +33,10 @@ Please note that each laboratory processes and analyses their wastewater samples
 
 ## Navigating the dashboard
 
-Work is displayed in distinct tabs across this dashboard. Please see below for guidance about what is contained in each tab:
+The work on this dashboard is divided according to different topics explored. See the list below to determine which resources are available:
 
-- [**COVID quantification - GU:**](/dashboards/wastewater/covid_quant_gu/) Quantification of the level of SARS-CoV-2 in wastewater from Gothenburg by the Norder group at GU.
+- [**SARS-CoV-2 quantification**](/dashboards/wastewater/covid_quantification/): Data, visualisations, and information related to the quantification of SARS-CoV-2 in wastewater in differnt areas of Sweden. All three groups share data on this topic, and cover diferent areas of Sweden. It is possible to navigate directly to the group(s) providing data on the area(s) of interest to you.
 
-- [**COVID quantification - SEEC-KTH:**](/dashboards/wastewater/covid_quant_kth/) Quantification of the levels of SARS-CoV-2 in wastewater from Stockholm and Malmö by the SEEC-KTH node.
-
-- [**COVID quantification - SEEC-SLU:**](/dashboards/wastewater/covid_quant_slu/) Quantification of the levels of SARS-CoV-2 in wastewater from multiple sites, including Stockholm, Malmö, Gothenburg, Uppsala, Västerås, Örebro, Umeå, and many others, by the SEEC-SLU node.
 
 ## Map of sample collection sites
 

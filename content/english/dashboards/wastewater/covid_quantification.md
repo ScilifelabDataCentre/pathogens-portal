@@ -9,7 +9,7 @@ menu:
 plotly: true
 ---
 
-## Quantifying SARS-CoV-2 across Sweden
+## Quantification of SARS-CoV-2 across Sweden
 <br>
 
 All three groups involved in this dashboard quantify the levels of SARS-CoV-2 in wastewater. **The groups each measure different regions of Sweden, and some regions are covered by multiple groups**. Below are lists of the areas covered by each group. Click on the name of the group to go to their SARS-CoV-2 quantification data.
