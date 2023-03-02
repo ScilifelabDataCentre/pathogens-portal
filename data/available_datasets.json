@@ -1,6 +1,486 @@
 {
-    "last_updated": "2023-02-01",
+    "last_updated": "2023-03-03",
     "datasets": [
+        {
+            "doi": "10.3390/ijerph20043642",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "Figshare",
+                    "accession_number": "",
+                    "description": "Questionaire data on levels of physical activity and sedentary behaviour",
+                    "data_type": [
+                        "Social science and humanities data",
+                        "Health data"
+                    ],
+                    "data_url": "https://doi.org/10.6084/m9.figshare.21802941.v1"
+                }
+            ],
+            "title": "How Have Physical Activity and Sedentary Behavior, Changed during the COVID-19 Pandemic? A Swedish Repeated Cross-Sectional Design Study",
+            "issue": "4",
+            "volume": "20",
+            "publisher": "MDPI AG",
+            "published": "2023-02-18",
+            "author": [
+                "Lindberg D.",
+                "Elvén M.",
+                "Nilsson K. W.",
+                "Von Heideken Wågert P.",
+                "Stier J."
+            ]
+        },
+        {
+            "doi": "10.3390/ijerph20043559",
+            "available_items": [
+                {
+                    "type": "code",
+                    "repo_name": "Figshare",
+                    "accession_number": "",
+                    "description": "Codes for analysis",
+                    "data_type": [
+                        "Social science and humanities data"
+                    ],
+                    "data_url": "https://figshare.com/articles/software/Nature_visits_and_covid19/22056869/1"
+                }
+            ],
+            "title": "Visiting Urban Green Space and Orientation to Nature Is Associated with Better Wellbeing during COVID-19",
+            "issue": "4",
+            "volume": "20",
+            "publisher": "MDPI AG",
+            "published": "2023-02-17",
+            "author": [
+                "Lin B. B.",
+                "Chang C.",
+                "Andersson E.",
+                "Astell-Burt T.",
+                "Gardner J."
+            ]
+        },
+        {
+            "doi": "10.12688/wellcomeopenres.17403.3",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "Zenodo",
+                    "accession_number": "",
+                    "description": "Characteristics and outcomes of COVID-19 patients with COPD",
+                    "data_type": [
+                        "Health data"
+                    ],
+                    "data_url": "https://doi.org/10.5281/zenodo.5729423"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "",
+                    "accession_number": "",
+                    "description": "Aggregate data from COVID-19 patients with COPD",
+                    "data_type": [
+                        "Health data"
+                    ],
+                    "data_url": "https://data.ohdsi.org/Covid19CharacterizationCharybdis/"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Code used for analysis",
+                    "data_type": [
+                        "Health data"
+                    ],
+                    "data_url": "https://github.com/ohdsi-studies/Covid19CharacterizationCharybdis"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "Zenodo",
+                    "accession_number": "",
+                    "description": "Archived code used for analysis",
+                    "data_type": [
+                        "Health data"
+                    ],
+                    "data_url": "https://doi.org/10.5281/zenodo.5779264"
+                }
+            ],
+            "title": "Characteristics and outcomes of COVID-19 patients with COPD from the United States, South Korea, and Europe",
+            "issue": "",
+            "volume": "7",
+            "publisher": "F1000 Research Ltd",
+            "published": "2023-02-24",
+            "author": [
+                "Moreno-Martos D.",
+                "Verhamme K.",
+                "Ostropolets A.",
+                "Kostka K.",
+                "Duarte-Sales T."
+            ]
+        },
+        {
+            "doi": "10.1038/s42255-023-00742-w",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "",
+                    "accession_number": "",
+                    "description": "Summary statistics related to body mass index (BMI)",
+                    "data_type": [
+                        "Health data",
+                        "Genomics & transcriptomics data",
+                        "Protein data"
+                    ],
+                    "data_url": "https://portals.broadinstitute.org/collaboration/giant/"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "",
+                    "accession_number": "",
+                    "description": "Summary statistics on plasma proteome from the deCODE study",
+                    "data_type": [
+                        "Health data",
+                        "Genomics & transcriptomics data",
+                        "Protein data"
+                    ],
+                    "data_url": "https://www.decode.com/summarydata/"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "",
+                    "accession_number": "",
+                    "description": "Summary statistics related to COVID-19 outcomes",
+                    "data_type": [
+                        "Health data",
+                        "Genomics & transcriptomics data",
+                        "Protein data"
+                    ],
+                    "data_url": "https://www.covid19hg.org/results/r7/"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "GTEx",
+                    "accession_number": "phs000424.v9",
+                    "description": "Long Read RNASeq data",
+                    "data_type": [
+                        "Health data",
+                        "Genomics & transcriptomics data",
+                        "Protein data"
+                    ],
+                    "data_url": "https://gtexportal.org/home/datasets/"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "OpenGWAS",
+                    "accession_number": "ukb-b-8909",
+                    "description": "Body fat percentage data",
+                    "data_type": [
+                        "Health data",
+                        "Genomics & transcriptomics data",
+                        "Protein data"
+                    ],
+                    "data_url": "https://gwas.mrcieu.ac.uk/datasets/ukb-b-8909/"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "OpenGWAS",
+                    "accession_number": "ukb-b-19393",
+                    "description": "Whole body fat mass data",
+                    "data_type": [
+                        "Health data",
+                        "Genomics & transcriptomics data",
+                        "Protein data"
+                    ],
+                    "data_url": "https://gwas.mrcieu.ac.uk/datasets/ukb-b-19393/"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "OpenGWAS",
+                    "accession_number": "ukb-b-13354",
+                    "description": "Whole body fat-free mass data",
+                    "data_type": [
+                        "Health data",
+                        "Genomics & transcriptomics data",
+                        "Protein data"
+                    ],
+                    "data_url": "https://gwas.mrcieu.ac.uk/datasets/ukb-b-13354/"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "",
+                    "accession_number": "",
+                    "description": "scRNA-seq data of COVID-19 lung autopsy samples",
+                    "data_type": [
+                        "Health data",
+                        "Genomics & transcriptomics data",
+                        "Protein data"
+                    ],
+                    "data_url": "https://singlecell.broadinstitute.org/single_cell/study/SCP1052/covid-19-lung-autopsy-samples"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Custom analysis codes",
+                    "data_type": [
+                        "Health data",
+                        "Genomics & transcriptomics data",
+                        "Protein data"
+                    ],
+                    "data_url": "https://github.com/satoshi-yoshiji/TwostepMR_obesity_COVID/"
+                }
+            ],
+            "title": "Proteome-wide Mendelian randomization implicates nephronectin as an actionable mediator of the effect of obesity on COVID-19 severity",
+            "issue": "2",
+            "volume": "5",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2023-02-20",
+            "author": [
+                "Yoshiji S.",
+                "Butler-Laporte G.",
+                "Lu T.",
+                "Willett J. D. S.",
+                "Su C."
+            ]
+        },
+        {
+            "doi": "10.3389/fphar.2023.1090717",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "",
+                    "accession_number": "",
+                    "description": "Supplementary material including information on proteomics, mutations, T-cell epitope prediction, and much more, including accession numbers for other open data sources",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Protein data"
+                    ],
+                    "data_url": "https://www.frontiersin.org/articles/10.3389/fphar.2023.1090717/full#supplementary-material"
+                }
+            ],
+            "title": "Variant-specific deleterious mutations in the SARS-CoV-2 genome reveal immune responses and potentials for prophylactic vaccine development",
+            "issue": "",
+            "volume": "14",
+            "publisher": "Frontiers Media SA",
+            "published": "2023-02-07",
+            "author": [
+                "Islam M. A.",
+                "Shahi S.",
+                "Marzan A. A.",
+                "Amin M. R.",
+                "Hasan M. N."
+            ]
+        },
+        {
+            "doi": "10.3390/ijerph20043040",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Data related to development of a statistical methodology for predicting true daily quantities and their uncertainty, estimated using historical reporting delays",
+                    "data_type": [
+                        "Other data"
+                    ],
+                    "data_url": "https://github.com/adamaltmejd/covid_reporting_delay_prediction"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "R code related to development of a statistical methodology for predicting true daily quantities and their uncertainty, estimated using historical reporting delays",
+                    "data_type": [
+                        "Other data"
+                    ],
+                    "data_url": "https://github.com/adamaltmejd/covid_reporting_delay_prediction"
+                }
+            ],
+            "title": "Nowcasting COVID-19 Statistics Reported with Delay: A Case-Study of Sweden and the UK",
+            "issue": "4",
+            "volume": "20",
+            "publisher": "MDPI AG",
+            "published": "2023-02-09",
+            "author": [
+                "Altmejd A.",
+                "Rocklöv J.",
+                "Wallin J."
+            ]
+        },
+        {
+            "doi": "10.3389/fpubh.2023.1052946",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "",
+                    "accession_number": "",
+                    "description": "Information on open data sources used e.g. for socioeconomic factors, environment, biodiveristy, health, among others.",
+                    "data_type": [
+                        "Other data",
+                        "Health data",
+                        "Public health data"
+                    ],
+                    "data_url": "https://www.frontiersin.org/articles/10.3389/fpubh.2023.1052946/full#h12"
+                }
+            ],
+            "title": "Monkeypox outbreaks in the context of the COVID-19 pandemic: Network and clustering analyses of global risks and modified SEIR prediction of epidemic trends",
+            "issue": "",
+            "volume": "11",
+            "publisher": "Frontiers Media SA",
+            "published": "2023-01-24",
+            "author": [
+                "Gao J.",
+                "Zhou C.",
+                "Liang H.",
+                "Jiao R.",
+                "Wheelock Å. M."
+            ]
+        },
+        {
+            "doi": "10.1016/j.xgen.2021.100065",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "Gene Expression Omnibus",
+                    "accession_number": "GSE185715",
+                    "description": "Genome-wide Spatial Expression Profiling in Formalin-fixed Tissues",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE185715"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "Mendeley",
+                    "accession_number": "",
+                    "description": "Processed genome-wide spatial expression profiling data",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://data.mendeley.com/datasets/xjtv62ncwr/1"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "FFPE mouse brain spatial transcriptomics data explorer app",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://github.com/ludvigla/FFPE_mouse_brain_explorer"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "Mendeley",
+                    "accession_number": "",
+                    "description": "Original analysis code",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://data.mendeley.com/datasets/xjtv62ncwr/1"
+                }
+            ],
+            "title": "Genome-wide spatial expression profiling in formalin-fixed tissues",
+            "issue": "3",
+            "volume": "1",
+            "publisher": "Elsevier BV",
+            "published": "2022-08-05",
+            "author": [
+                "Gracia Villacampa E.",
+                "Larsson L.",
+                "Mirzazadeh R.",
+                "Kvastad L.",
+                "Andersson A."
+            ]
+        },
+        {
+            "doi": "10.1371/journal.pdig.0000007",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "",
+                    "accession_number": "",
+                    "description": "Protein quantities table along with the associated metadata",
+                    "data_type": [
+                        "Protein data"
+                    ],
+                    "data_url": "https://europepmc.org/article/MED/36812516#sec011"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "",
+                    "accession_number": "",
+                    "description": "Input proteomics data for training machine learning models",
+                    "data_type": [
+                        "Protein data"
+                    ],
+                    "data_url": "https://europepmc.org/articles/PMC9931303/bin/pdig.0000007.s005.zip"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "",
+                    "accession_number": "",
+                    "description": "Scripts training machine learning models",
+                    "data_type": [
+                        "Protein data"
+                    ],
+                    "data_url": "https://europepmc.org/articles/PMC9931303/bin/pdig.0000007.s005.zip"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "ProteomeXchange Consortium",
+                    "accession_number": "PXD029009",
+                    "description": "Mass spectrometry proteomics data used for survival analysis",
+                    "data_type": [
+                        "Protein data"
+                    ],
+                    "data_url": "http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD029009"
+                }
+            ],
+            "title": "A proteomic survival predictor for COVID-19 patients in intensive care",
+            "issue": "1",
+            "volume": "1",
+            "publisher": "Public Library of Science (PLoS)",
+            "published": "2022-01-18",
+            "author": [
+                "Demichev V.",
+                "Tober-Lau P.",
+                "Nazarenko T.",
+                "Lemke O.",
+                "Kaur Aulakh S."
+            ]
+        },
+        {
+            "doi": "10.1038/s41597-022-01811-7",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "Open Science Framework",
+                    "accession_number": "",
+                    "description": "Data used in the Shiny app for The Psychological Science Accelerator's COVID-19 Rapid-Response Project",
+                    "data_type": [
+                        "Social science and humanities data"
+                    ],
+                    "data_url": "https://osf.io/gvw56/"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "Open Science Framework",
+                    "accession_number": "",
+                    "description": "Code for the Shiny app for The Psychological Science Accelerator's COVID-19 Rapid-Response Project",
+                    "data_type": [
+                        "Social science and humanities data"
+                    ],
+                    "data_url": "https://osf.io/gvw56/"
+                }
+            ],
+            "title": "The Psychological Science Accelerator’s COVID-19 rapid-response dataset",
+            "issue": "1",
+            "volume": "10",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2023-02-11",
+            "author": [
+                "Buchanan E. M.",
+                "Lewis S. C.",
+                "Paris B.",
+                "Forscher P. S.",
+                "Pavlacic J. M."
+            ]
+        },
         {
             "doi": "10.1016/j.concog.2023.103464",
             "available_items": [
