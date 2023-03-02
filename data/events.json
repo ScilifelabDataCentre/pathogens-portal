@@ -23,6 +23,18 @@
             "description": "Biobank Sverige arrangerar under 2023 en ny webbinarserie kallad ”Vad innebär den nya biobankslagen?”. Under ett antal tillfällen diskuterar vi den nya biobankslagen och besvarar frågor. Markera din kalender redan idag!<br><br>Under aktuella datum kan du ansluta via följande länk: <a href='https://uu-se.zoom.us/j/67838883467'>https://uu-se.zoom.us/j/67838883467</a>"
         },
         {
+            "title": "Three Decades of Genomics:  From PCR to Precision Medicine",
+            "type": "Symposium",
+            "date_start": "2023-04-24",
+            "date_end": "2023-04-25",
+            "registration_deadline": "2023-04-12",
+            "venue": "BMC, The Svedberg Lecture Hall (B8)",
+            "organisers": "NGI (Uppsala), SNP&SEQ Technology platform",
+            "event_url": "https://www.scilifelab.se/event/three-decades-of-genomics-from-pcr-to-precision-medicine/",
+            "registration_url": "https://www.lyyti.fi/reg/Three_Decades_of_Genomics",
+            "description": "Professor emeritus Ann-Christine Syvänen moved from Helsinki, Finland to Uppsala in 1998. In 2001 she was appointed professor in Molecular Medicine at the Department of Medical Sciences at Uppsala University. After 20 years as a research group leader and director of the SNP&SEQ Technology Platform, followed by five years as senior professor at Uppsala University, she retired in 2022. This open symposium brings together her former colleagues from Finland, as well as coworkers and former students in Uppsala to celebrate the progress in Human Genomics during the past three decades and future prospects for Genomics in Precision Medicine."
+        },
+        {
             "title": "Vad innebär den nya biobankslagen",
             "type": "Webinar",
             "date_start": "2023-03-29",
@@ -32,6 +44,29 @@
             "organisers": "Biobank Sverige",
             "event_url": "https://biobanksverige.se/biobankslagen/ny-biobankslag/webbinarium/",
             "description": "Biobank Sverige arrangerar under 2023 en ny webbinarserie kallad ”Vad innebär den nya biobankslagen?”. Under ett antal tillfällen diskuterar vi den nya biobankslagen och besvarar frågor. Markera din kalender redan idag!<br><br>Under aktuella datum kan du ansluta via följande länk: <a href='https://uu-se.zoom.us/j/67838883467'>https://uu-se.zoom.us/j/67838883467</a>"
+        },
+        {
+            "title": "ISIDORe first annual meeting",
+            "type": "Meeting",
+            "date_start": "2023-03-29",
+            "time_start": "09:00",
+            "time_end": "12:20",
+            "registration_deadline": "",
+            "venue": "Online",
+            "organisers": "ISIDORe",
+            "event_url": "https://isidore-project.eu/events/join-us-as-isidore-celebrates-its-first-year-anniversary/",
+            "registration_url": "https://docs.google.com/forms/d/e/1FAIpQLSfrEA0QtLpjSQPaSvjLGP0yVWTyrS8QhVd0rPtrX6TCuK1TvQ/viewform",
+            "description": "During its first year, the ISIDORe programme supported rapid research response and epidemic preparedness research by launching calls for proposals targeting SARS-CoV-2 variants, Monkeypox virus and a large variety of pathogens included in the priory list of pathogens for epidemic preparedness. <br><br>As part of its first annual meeting, the ISIDORe first anniversary half-day event is open to external audiences and will gather speakers from the key European infectious disease funding and policy-making bodies, relevant initiatives, as well as the ISIDORe project. The event will provide an insight to the ongoing European efforts in the field of pandemic preparedness and response, and will showcase the outcomes of the ISIDORe supported research projects."
+        },
+        {
+            "title": "Sharing, showcasing and understanding the impact of non-traditional research outputs",
+            "type": "Webinar",
+            "date_start": "2023-03-21",
+            "time_start": "11:00",
+            "venue": "Online",
+            "organisers": "Digital Science",
+            "event_url": "https://www.digital-science.com/events/non-traditional-research-outputs/?utm_source=pardot&utm_medium=email&utm_campaign=webinars_23&utm_term=figshare",
+            "description": "Research outputs are no longer just academic papers and datasets. Arts performances, conceptual designs, music scores, costumes, models and all other non-traditional research outputs can and should be shared, showcased and tracked. Join us for this webinar on non-traditional research outputs with Figshare and Altmetric."
         },
         {
             "title": "Meet a Data Steward & get Data Management support",
