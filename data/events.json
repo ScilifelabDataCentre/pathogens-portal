@@ -1,6 +1,28 @@
 {
     "items": [
         {
+            "title": "UAC Webinar: Hanne Ingmer",
+            "type": "Webinar",
+            "date_start": "2023-09-08",
+            "time_start": "12:30",
+            "time_end": "13:30",
+            "venue": "Online event via Zoom",
+            "organisers": "Uppsala Antibiotic Day",
+            "event_url": "https://www.uac.uu.se/calendar/event/?eventId=77938",
+            "description": "Webinar from the Uppsala Antibiotic Center by the keynote speaker indicated. Please see the website for more details closer to the event date. No registration needed unless indicated otherwise on the Uppsala Antibiotic Center page."
+        },
+        {
+            "title": "UAC Webinar: Helle Krogh Johansen and Søren Molin",
+            "type": "Webinar",
+            "date_start": "2023-06-02",
+            "time_start": "12:30",
+            "time_end": "13:30",
+            "venue": "Online event via Zoom",
+            "organisers": "Uppsala Antibiotic Day",
+            "event_url": "https://www.uac.uu.se/calendar/event/?eventId=77722",
+            "description": "Webinar from the Uppsala Antibiotic Center by the keynote speaker indicated. Please see the website for more details closer to the event date. No registration needed unless indicated otherwise on the Uppsala Antibiotic Center page."
+        },
+        {
             "title": "Vad innebär den nya biobankslagen",
             "type": "Webinar",
             "date_start": "2023-05-31",
@@ -10,6 +32,17 @@
             "organisers": "Biobank Sverige",
             "event_url": "https://biobanksverige.se/biobankslagen/ny-biobankslag/webbinarium/",
             "description": "Biobank Sverige arrangerar under 2023 en ny webbinarserie kallad ”Vad innebär den nya biobankslagen?”. Under ett antal tillfällen diskuterar vi den nya biobankslagen och besvarar frågor. Markera din kalender redan idag!<br><br>Under aktuella datum kan du ansluta via följande länk: <a href='https://uu-se.zoom.us/j/67838883467'>https://uu-se.zoom.us/j/67838883467</a>"
+        },
+        {
+            "title": "UAC Webinar: Steffan Bertilsson",
+            "type": "Webinar",
+            "date_start": "2023-05-05",
+            "time_start": "12:30",
+            "time_end": "13:30",
+            "venue": "Online event via Zoom",
+            "organisers": "Uppsala Antibiotic Day",
+            "event_url": "https://www.uac.uu.se/calendar/event/?eventId=77720",
+            "description": "Webinar from the Uppsala Antibiotic Center by the keynote speaker indicated. Please see the website for more details closer to the event date. No registration needed unless indicated otherwise on the Uppsala Antibiotic Center page."
         },
         {
             "title": "Vad innebär den nya biobankslagen",
@@ -92,6 +125,30 @@
             "organisers": "ELIXIR, Beligium",
             "event_url": "https://www.eventbrite.co.uk/e/infectious-diseases-toolkit-idtk-contentathon-tickets-493601524447",
             "description": "The <a href='https://www.infectious-diseases-toolkit.org/'>Infectious Diseases Toolkit</a> (IDTk) aims to offer guidelines and examples on managing, analysing and visualising infectious diseases data. It has been designed to accommodate information from different domains, to showcase different solutions, and to expose national resources. It is being developed as part of the <a href='https://by-covid.eu/'>BY-COVID project</a>.<br><br>To catalyse the addition of content to the toolkit, we are organising a Contentathon involving both BY-COVID and external partners. We aim to bring together experts from various fields who have dealt with pandemics over the last few years, and who are interested in capturing all the innovative solutions and best practices that have been used to tackle infectious diseases outbreaks."
+        },
+        {
+            "title": "Symposium and the 2023 Göran Gustafsson Lecture in Medicine",
+            "type": "Symposium",
+            "date_start": "2023-04-13",
+            "time_start": "13:00",
+            "time_end": "17:00",
+            "registration_deadline": "2023-04-11",
+            "venue": "Universitetshuset, sal IX, Uppsala",
+            "organisers": "Uppsala University, Uppsala Antibiotic Center, Göran Gustafsson Foundations",
+            "event_url": "https://www.uac.uu.se/calendar/event/?eventId=76622",
+            "registration_url": "https://doit.medfarm.uu.se/bin/kurt3/kurt/85487",
+            "description": "Welcome to a symposium on antibiotic resistance together with the 2023 Göran Gus­tafs­son lecture in medi­cine.<br><br>Every year, Uppsala University, together with the The Göran Gustafsson Foundation, invites an inter­national­ly renowned research­er in medicine to give a lecture. This year’s lecture and symposium is given in collaboration with Uppsala University’s Uppsala Antibiotic Center."
+        },
+        {
+            "title": "UAC Webinar: Pål Jarle Johnsen",
+            "type": "Webinar",
+            "date_start": "2023-04-11",
+            "time_start": "12:30",
+            "time_end": "13:30",
+            "venue": "Online event via Zoom",
+            "organisers": "Uppsala Antibiotic Day",
+            "event_url": "https://www.uac.uu.se/calendar/event/?eventId=77718",
+            "description": "Webinar from the Uppsala Antibiotic Center by the keynote speaker indicated. Please see the website for more details closer to the event date. No registration needed unless indicated otherwise on the Uppsala Antibiotic Center page."
         },
         {
             "title": "Vad innebär den nya biobankslagen",
