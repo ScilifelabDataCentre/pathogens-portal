@@ -1,6 +1,331 @@
 {
-  "last_updated": "2022-11-30",
+  "last_updated": "2023-03-06",
   "projects": [
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Forte",
+      "project_title": "Mental health of young LGBTQ+ people: Trends over time and during the COVID-19 pandemic, causes of mental ill-health, and ways to improve mental health of young LGBTQ+ people",
+      "pi": "Kyriaki Kosidou",
+      "pi_affiliation": "Karolinska Institute",
+      "startdate": "2023-01-01",
+      "enddate": "2025-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-00159_Forte"
+    },
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Forte",
+      "project_title": "The fatigue cohort - A longitudinal study on psychobiological mechanisms in post-COVID, chronic fatigue and exhaustion syndromes.",
+      "pi": "Anna Andreasson",
+      "pi_affiliation": "Stockholms universitet",
+      "startdate": "2023-01-01",
+      "enddate": "2025-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-00181_Forte"
+    },
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Forte",
+      "project_title": "The unequal pandemic: investigating the relationship between health equity and political responses to covid-19",
+      "pi": "Karl Gauffin",
+      "pi_affiliation": "Stockholms universitet",
+      "startdate": "2023-01-01",
+      "enddate": "2025-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-00262_Forte"
+    },
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Forte",
+      "project_title": "Multifaceted mental health impact of COVID-19 – a cross-country comparison between Sweden and five other European countries",
+      "pi": "Fang Fang",
+      "pi_affiliation": "Karolinska Institute",
+      "startdate": "2023-01-01",
+      "enddate": "2025-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-00579_Forte"
+    },
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Formas",
+      "project_title": "Indoor environments that reduce airborne transmission of infections",
+      "pi": "Malin Alsved",
+      "pi_affiliation": "Lunds universitet",
+      "startdate": "2023-01-01",
+      "enddate": "2026-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-00323_Formas"
+    },
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Forte",
+      "project_title": "Health systems resilience in managing the COVID-19 pandemic: lessons from regional preparedness plans in Sweden",
+      "pi": "Helena Nordenstedt",
+      "pi_affiliation": "Karolinska Institute",
+      "startdate": "2023-01-01",
+      "enddate": "2025-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-00799_Forte"
+    },
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Forte",
+      "project_title": "A comprehensive in-depth register-based analysis of the patient population diagnosed with post-acute COVID-19 condition (long COVID)",
+      "pi": "Maria Bygdell",
+      "pi_affiliation": "Göteborgs universitet",
+      "startdate": "2023-01-01",
+      "enddate": "2025-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-00444_Forte"
+    },
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Forte",
+      "project_title": "Differences in health effects of the COVID-19 pandemic between socioeconomic groups – the impact of changes in psychosocial factors and health behaviors, and risk for cardiovascular disease",
+      "pi": "Fredrik Granström",
+      "pi_affiliation": "Linköpings universitet",
+      "startdate": "2023-01-01",
+      "enddate": "2024-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-00842_Forte"
+    },
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Vetenskapsrådet",
+      "project_title": "The post-COVID associated autoantibody repertoire",
+      "pi": "Peter Nilsson",
+      "pi_affiliation": "KTH, Kungliga tekniska högskolan",
+      "startdate": "2023-01-01",
+      "enddate": "2026-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-03063_VR"
+    },
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Vetenskapsrådet",
+      "project_title": "Liproprotein structure-function and disease development: from atherosclerosis to covid-19",
+      "pi": "Marite Cardenas",
+      "pi_affiliation": "Malmö universitet",
+      "startdate": "2023-01-01",
+      "enddate": "2026-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-03322_VR"
+    },
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Forte",
+      "project_title": "Health literacy among older adults: Exploring older people´s prerequisites for understanding health information and making informed health choices.",
+      "pi": "Janne Agerholm",
+      "pi_affiliation": "Karolinska Institute",
+      "startdate": "2023-01-01",
+      "enddate": "2025-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-00588_Forte"
+    },
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Vetenskapsrådet",
+      "project_title": "COVID-19 and childhood cancer - diagnostic delay, survival, and COVID-19 susceptibility",
+      "pi": "Giorgio Tettamanti",
+      "pi_affiliation": "Karolinska Institute",
+      "startdate": "2023-01-01",
+      "enddate": "2025-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-06312_VR"
+    },
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Vetenskapsrådet",
+      "project_title": "Polarizing pandemics. Identity, emotions, and attitudes toward Covid-19 prevention",
+      "pi": "Emma Renström",
+      "pi_affiliation": "Högskolan Kristianstad",
+      "startdate": "2023-01-01",
+      "enddate": "2025-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-06316_VR"
+    },
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Vetenskapsrådet",
+      "project_title": "Air quality and COVID-19: An individual-based population study",
+      "pi": "Össur Ingi Emilsson",
+      "pi_affiliation": "Uppsala universitet",
+      "startdate": "2023-01-01",
+      "enddate": "2025-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-06377_VR"
+    },
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Forte",
+      "project_title": "Explaining COVID-19 mortality among immigrants in Sweden: A social determinants of health perspective",
+      "pi": "Sol Juárez",
+      "pi_affiliation": "Stockholms universitet",
+      "startdate": "2022-01-01",
+      "enddate": "2024-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2021-00271_Forte"
+    },
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Forte",
+      "project_title": "EMBRACE: Embracing diversity in vulnerability - a multilevel intersectional study of communities’ vulnerability and public health institutions’ capability to cope with COVID-19 and future pandemics",
+      "pi": "Nawi Ng",
+      "pi_affiliation": "Göteborgs universitet",
+      "startdate": "2022-01-01",
+      "enddate": "2024-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2021-00284_Forte"
+    },
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Forte",
+      "project_title": "High-risk occupations for COVID-19 - risk mechanisms, possibilities for protective actions and contributing effects of structural living conditions",
+      "pi": "Mia Söderberg",
+      "pi_affiliation": "Göteborgs universitet",
+      "startdate": "2022-01-01",
+      "enddate": "2024-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2021-00326_Forte"
+    },
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Forte",
+      "project_title": "Health consequences of the Covid-19 pandemic for the old age population in Sweden.",
+      "pi": "Karin Modig",
+      "pi_affiliation": "Karolinska Institute",
+      "startdate": "2022-01-01",
+      "enddate": "2024-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2021-00451_Forte"
+    },
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Vetenskapsrådet",
+      "project_title": "A network to help build vaccine confidence among health workers and the population in Sub-Saharan African",
+      "pi": "Sibylle Herzig van Wees",
+      "pi_affiliation": "Karolinska Institute",
+      "startdate": "2023-01-01",
+      "enddate": "2024-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-04008_VR"
+    },
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Vetenskapsrådet",
+      "project_title": "Post-pandemic immunity, long-term disease symptoms and general health among young adults",
+      "pi": "Erik Melén",
+      "pi_affiliation": "Karolinska Institute",
+      "startdate": "2023-01-01",
+      "enddate": "2025-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-06340_VR"
+    },
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Vetenskapsrådet",
+      "project_title": "Incomes, inequalities, and the welfare state during the covid-19 pandemic",
+      "pi": "Jan Sauermann",
+      "pi_affiliation": "IFAU, Institutet för arbetsmarknads- och utbildningspolitisk utvärdering",
+      "startdate": "2023-01-01",
+      "enddate": "2025-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-06315_VR"
+    },
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Vetenskapsrådet",
+      "project_title": "Long-term follow-up of individuals with long-lasting cognitive deficits following mild COVID-19",
+      "pi": "Erika Laukka",
+      "pi_affiliation": "Karolinska Institute",
+      "startdate": "2023-01-01",
+      "enddate": "2025-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-06332_VR"
+    },
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Vetenskapsrådet",
+      "project_title": "Pregnant under the pressure of a pandemic. Understanding why maternal and delivery healthcare varied in Sweden during the COVID-19 pandemic and assessing effects of variation on mother and child",
+      "pi": "Elin Naurin",
+      "pi_affiliation": "Göteborgs universitet",
+      "startdate": "2023-01-01",
+      "enddate": "2025-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-06355_VR"
+    },
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Vetenskapsrådet",
+      "project_title": "Mental health consequences following the loss of a family member during the Corona pandemic: A multi-methods approach",
+      "pi": "Mikael Rostila",
+      "pi_affiliation": "Stockholms universitet",
+      "startdate": "2023-01-01",
+      "enddate": "2025-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-06397_VR"
+    },
+    {
+      "topic": [
+        "COVID-19",
+        "Infectious diseases"
+      ],
+      "funder": "Vetenskapsrådet",
+      "project_title": "Generating evidence on the Impact of pandemic Social restrictions on Reproductive health among adolescent girls and young women in Uganda  - Lessons learnt for better future preparedness (GIRLS)",
+      "pi": "Anna Mia Ekström",
+      "pi_affiliation": "Karolinska Institute",
+      "startdate": "2023-01-01",
+      "enddate": "2025-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-06399_VR"
+    },
     {
       "topic": [
         "COVID-19",
@@ -1809,8 +2134,8 @@
       "pi": "Fredrik Norström",
       "pi_affiliation": "Umeå University",
       "startdate": "2021-01-01",
-      "enddate": "2023-12-31",
-      "url": "https://www.afaforsakring.se/nyhetsrum/pressmeddelanden/2020/12/tretton-nya-covid-19-projekt-far-forskningsfinansiering/"
+      "enddate": "2023-07-31",
+      "url": "https://www.umu.se/forskning/projekt/covid-19-och-hemtjansten-dyrkopta-erfarenheter-och-matnyttiga-lardomar/"
     },
     {
       "topic": [
@@ -2881,7 +3206,7 @@
         "Antibiotic resistance"
       ],
       "funder": "Vinnova",
-      "project_title": " Morphological switch of atypical mycobacteria - impact on virulence and antibiotic resistance",
+      "project_title": "Morphological switch of atypical mycobacteria - impact on virulence and antibiotic resistance",
       "pi": "Julia Lienard",
       "pi_affiliation": "Lund University",
       "startdate": "2021-01-01",

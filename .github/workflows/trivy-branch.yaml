@@ -1,0 +1,36 @@
+# Trivy: Scan of current branch
+# Trivy is a comprehensive and versatile security scanner.
+# Trivy has scanners that look for security issues, and targets where it can find those issues.
+# https://github.com/aquasecurity/trivy
+#
+# This runs on every push for every branch
+# ----------------------------------------
+
+name: Trivy - branch scan
+on: [push, pull_request]
+
+jobs:
+  scan:
+    permissions:
+      contents: read
+      security-events: write
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Run Trivy vulnerability scanner
+        uses: aquasecurity/trivy-action@0.9.2
+        with:
+          scan-type: "fs"
+          ignore-unfixed: true
+          format: 'sarif'
+          output: 'trivy-results.sarif'
+          severity: 'CRITICAL,HIGH'
+
+      - name: Upload Trivy scan results to GitHub Security tab
+        uses: github/codeql-action/upload-sarif@v2
+        with:
+          sarif_file: 'trivy-results.sarif'
+          category: trivy-branch
