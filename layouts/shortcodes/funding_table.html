@@ -131,6 +131,8 @@
 
 <script>
   $(document).ready(function () {
+    
+    // Data table configrations
     var table = $('.funding-opportunities').DataTable({
       "dom": '<"top">rt<"bottom"><"clear">',
       "language": {
@@ -149,8 +151,9 @@
       }
     });
 
+    // Filter options code
     $('input:checkbox').on('change', function () {
-
+      
       // Funder filter
       var funder = $('input:checkbox[name="funder"]:checked').map(function () {
         return this.value;
@@ -164,6 +167,24 @@
       }).get().join('|');
 
       table.column(3).search(topic, true, false, false).draw(false);
+    });
+    
+    // Suggestion form related code
+    document.getElementById('originUrl').value = location.href;
+
+    var form = document.querySelector('.needs-validation');
+    form.addEventListener('submit', function (event) {
+      if (form.checkValidity() === false) {
+        event.preventDefault();
+        alert("Please fill out all required fields.");
+        event.stopPropagation();
+        form.classList.add('was-validated')
+      }
+      var recaptcha = $("#g-recaptcha-response").val();
+      if (recaptcha === "") {
+        event.preventDefault();
+        alert("Please tick 'I'm not a robot' above the 'Submit the form' button.");
+      }
     });
 
   });

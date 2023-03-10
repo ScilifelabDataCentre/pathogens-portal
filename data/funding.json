@@ -1,6 +1,21 @@
 {
-  "last_updated": "2023-01-16",
+  "last_updated": "2023-03-10",
   "calls": [
+    {
+      "topic": [
+        "General"
+      ],
+      "funder": "Swedish Research Council",
+      "call_title": "Grant for research time in a clinical environment",
+      "submission_deadline": "2023-03-28",
+      "submission_opendate": "2023-02-22",
+      "call_url": "https://www.vr.se/english/applying-for-funding/calls/2022-11-10-grant-for-research-time-in-a-clinical-environment.html",
+      "call_description": "The purpose of the grant is to give clinically active persons the opportunity to carry out research on a part-time basis in parallel with developing their clinical competence. The aim is to reinforce and renew medical and clinical research.",
+      "applicant": "Individual researcher who completed a doctoral degree no more than 10 years ago.",
+      "funding_period": "2-6 years starting Jan 2024.",
+      "decision_date": "No later than the beginning of October 2023.",
+      "funding_amount": "A standard amount based on the activity level (1 510 000 SEK per year, 1 680 000 SEK per year, or 1 850 000 SEK per year)."
+    },
     {
       "topic": [
         "Infectious diseases",
@@ -189,19 +204,6 @@
       "submission_opendate": "2022-04-20",
       "funding_period": "1-2 years",
       "funding_amount": "500 000 SEK per year, maximum 2 000 000 SEK in total"
-    },
-    {
-      "topic": [
-        "Infectious diseases",
-        "COVID-19"
-      ],
-      "funder": "ISIDORe",
-      "call_title": "SARS-COV-2 & COVID‑19",
-      "call_url": "https://isidore-project.eu/calls/sars-cov-2-covid%E2%80%9119/",
-      "call_description": "Your request for free of charge transnational access to ISIDORe services for supporting and advancing your research must be focused on one of; surveillance & epidemic risk management, understanding SARS-CoV- 2 & COVID-19, diagnostics, therapeutics, vaccines, or social sciences & epidemiology.",
-      "submission_deadline": "2025-01-01",
-      "submission_opendate": "2022-05-15",
-      "funding_amount": "Funding will be available for as long as it remains available. Call provides access to ISIDORe services, not a given monetary amount."
     },
     {
       "topic": [
