@@ -30,7 +30,7 @@ Please also note that although the same methods are used for all cities shown on
 
 <div class="alert alert-info">Last updated: <span id="last_modified_stockholm"></span></div>
 
-<!-- <button type="button" class="btn btn-sm btn-outline-secondary mb-2" data-bs-toggle="modal" data-bs-target="#interactiveFeaturesModal">
+<button type="button" class="btn btn-sm btn-outline-secondary mb-2" data-bs-toggle="modal" data-bs-target="#interactiveFeaturesModal">
   How to use the interactive features of the plot
 </button>
 
@@ -59,12 +59,8 @@ Please also note that although the same methods are used for all cities shown on
   </div>
 </div>
 
- <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_combined_stockholm.json" height="550px" >}}</div>
-</div>  -->
-
-<div class="plot_wrapper">
-  <div class="table-responsive w-100" id="stockholm_wastewater"></div>
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/test_new_ww_sthlm.json" height="550px" >}}</div>
 </div>
 
 ### Malmö
@@ -75,8 +71,8 @@ Please also note that although the same methods are used for all cities shown on
   Scroll the plot sideways to view all data.
 </div>
 
-<div class="plot_wrapper">
-  <div class="table-responsive w-100" id="malmo"></div>
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_kthmalmö.json" height="550px" >}}</div>
 </div>
 
 ## Commentary
