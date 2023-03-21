@@ -5,7 +5,7 @@ plotly: true
 ---
 
 <div class="mt-3">
-  <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"><font size="+1.75"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a></font>
+  <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a>
 </div>
 <br>
 
@@ -84,5 +84,5 @@ At the Clinical Microbiology Laboratory, viruses were concentrated to a final vo
 
 <br>
 <div class="mt-3">
-  <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"><font size="+1.75"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a></font>
+  <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a>
 </div>

@@ -60,4 +60,3 @@ Wastewater, also referred to as “sewage” includes water from multiple source
 Wastewater monitoring should primarily be seen as a surveillance system. Taken together with data for infection testing, intensive care admissions etc., it may help in understanding the regional dynamics of disease outbreaks.
 
 {{< ww_dynamic_content >}}
-

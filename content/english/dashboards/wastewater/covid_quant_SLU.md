@@ -4,7 +4,7 @@ plotly: true
 ---
 
 <div class="mt-3">
-  <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"><font size="+1.75"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a></font>
+  <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a>
 </div>
 <br>
 
@@ -34,7 +34,6 @@ SLU-SEEC collect and analyse samples from multiple areas. The below table shows 
 </div>
   </div>
 </div> -->
-
 
 <!-- <button type="button" class="btn btn-sm btn-outline-secondary mb-2" data-bs-toggle="modal" data-bs-target="#interactiveFeaturesModal">
   How to use the interactive features of the plot
@@ -134,6 +133,5 @@ The data in the below graph and datafile represent the ratio of the copy numbers
 
 <br>
 <div class="mt-3">
-  <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"><font size="+1.75"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a></font>
+  <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a>
 </div>
-
