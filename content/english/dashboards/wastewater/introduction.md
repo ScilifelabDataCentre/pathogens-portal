@@ -37,6 +37,10 @@ The work on this dashboard is divided according to different topics explored. Se
 
 - [**SARS-CoV-2 quantification**](/dashboards/wastewater/covid_quantification/): Data, visualisations, and information related to the quantification of SARS-CoV-2 in wastewater in differnt areas of Sweden. All three groups share data on this topic, and cover diferent areas of Sweden. It is possible to navigate directly to the group(s) providing data on the area(s) of interest to you.
 
+## Availability of code
+
+All code used to produce the visualisations on the tabs on this dashboard is available on [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/wastewater). The particular scripts used in each case are linked below the individual visualisations.
+
 ## Map of sample collection sites
 
 Below is a map showing the wastewater treatment plants (WWTPs) from which wastewater samples are being collected and analysed by groups sharing data on this dashboard.
@@ -44,6 +48,8 @@ Below is a map showing the wastewater treatment plants (WWTPs) from which wastew
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_map_test.json" height="600px" >}}</div>
 </div>
+
+**Code used to produce map:** [Script to produce map](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/interactive_wastewater_map.py).
 
 ## Background: Wastewater-based epidemiology
 
@@ -55,7 +61,3 @@ Wastewater monitoring should primarily be seen as a surveillance system. Taken t
 
 {{< ww_dynamic_content >}}
 
-<script src="https://cdn.jsdelivr.net/npm/vega@5.19.1"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.0.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.15.1"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/1016b97372e9403da0b8e8e7bb14fa8d.js?id=malmo"></script>

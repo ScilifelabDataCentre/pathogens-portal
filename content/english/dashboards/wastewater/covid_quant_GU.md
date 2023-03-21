@@ -5,7 +5,7 @@ plotly: true
 ---
 
 <div class="mt-3">
-  <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a>
+  <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"><font size="+1.75"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a></font>
 </div>
 <br>
 
@@ -56,7 +56,13 @@ Influent wastewater samples were collected from Ryaverket wastewater treatment p
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_gothenburg.json" height="550px" >}}</div>
 </div>
 
+**Code used to produce plot:** [ADD PLOT SCRIPT!!](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_slu_regular.py).
+
 ## Commentary from the research group
+
+<div><b>Date:</b> <span id="gu_comment_date"></span><br><b>Commentary:</b> <span id="gu_comment"></span></div>
+
+{{< ww_dynamic_content >}}
 
 ## Dataset
 
@@ -75,3 +81,8 @@ Wang, H., Churqui, M.P., Tunovic, T., Enache, L., Johansson, A., Karmander, A., 
 Samples of wastewater were collected using a fixed-site sampler that collected 30ml per 10,000m<sup>3</sup> of the incoming wastewater. For the purposes of analysis, seven samples (each representing a 24 hour period) were pooled to create a weekly sample. The weekly sample, which consisted of 1.5-15l of wastewater (depending on the flow) was sent to the Clinical Microbiology Laboratory at Sahlgrenska University Hospital for analysis. Analyses were conducted on the Monday after the sample was collected.
 
 At the Clinical Microbiology Laboratory, viruses were concentrated to a final volume of 2.5ml, using a method that was developed in-house. This method uses the NanoCeram electropositive filter (Argonide, Florida, USA) as the primary means of concentration, and then ultracentrifugation as secondary concentration method ([Saguti *et al.*, 2021](https://pubmed.ncbi.nlm.nih.gov/33212338/)). Nucleic acids were extracted from 1ml of the concentrated sample using the QIAamp Circulating Nucleic Acid Kit (Qiagen, Hilden, Germany). Real-time quantitative PCR (RT-qPCR) was performed to detect the RNA-dependent RNA polymerase (RdRP) region of SARS-CoV-2. In all runs, a 10-fold serial diluted plasmid (Eurofins Genomics, Ebersberg, Germany) that contained the target SARS-CoV-2 region was used as a positive control. Nuclease-free water was used as a negative control. The Ct values from the qPCR were used to quantify the amount of SARS-CoV-2 genome in the sample. Details about the method of calculation are provided in [Saguti *et al.* (2021)](https://pubmed.ncbi.nlm.nih.gov/33212338/). The relative amount of viral genome in the wastewater was calculated by dividing the amount of viral genome in the sample by the amount of SARS-CoV-2 genome in the incoming wastewater during week 11 (mid-March) of 2020. Samples from all subsequent weeks contained detectable SARS-CoV-2 genome.
+
+<br>
+<div class="mt-3">
+  <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"><font size="+1.75"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a></font>
+</div>

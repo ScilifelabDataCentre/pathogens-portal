@@ -4,7 +4,7 @@ plotly: true
 ---
 
 <div class="mt-3">
-  <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a>
+  <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"><font size="+1.75"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a></font>
 </div>
 <br>
 
@@ -63,6 +63,8 @@ Please also note that although the same methods are used for all cities shown on
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/test_new_ww_sthlm.json" height="550px" >}}</div>
 </div>
 
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_stockholm_regular.py).
+
 ### Malmö
 
 <div class="alert alert-info">Last updated: <span id="last_modified_malmo"></span></div>
@@ -75,7 +77,9 @@ Please also note that although the same methods are used for all cities shown on
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_kthmalmö.json" height="550px" >}}</div>
 </div>
 
-## Commentary
+**Code used to produce plot:** [ADD PLOT SCRIPT!!](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_slu_regular.py).
+
+## Commentary from the research group
 
 <div><b>Date:</b> <span id="kth_comment_date"></span><br><b>Commentary:</b> <span id="kth_comment"></span></div>
 
@@ -99,9 +103,7 @@ After concentration, filtering, and preparation, the samples are analysed using 
 
 - [Historic data for Stockholm; Gene copy number/week (raw wastewater) with bovine + PMMoV factor between April 2020 and August 2021](/dashboards/wastewater/historic_stockholm).
 
-<script src="https://cdn.jsdelivr.net/npm/vega@5.19.1"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.0.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.15.1"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/1016b97372e9403da0b8e8e7bb14fa8d.js?id=malmo"></script>
-<script
-  src="https://datagraphics.dckube.scilifelab.se/graphic/93bad55e86ad4b0f97d4d27c77862bc9.js?id=stockholm_wastewater"></script>
+<br>
+<div class="mt-3">
+  <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"><font size="+1.75"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a></font>
+</div>
