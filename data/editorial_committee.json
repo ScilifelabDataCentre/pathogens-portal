@@ -1,40 +1,28 @@
 {
   "members": [
       {
-          "name": "Ben Murrell, PhD",
-          "thumbnail_name": "ben",
-          "affiliation": "Karolinska Institute",
-          "expertise": "Computational biology,<br>Immunology and Virology"
+          "name": "Robin Navest, PhD",
+          "thumbnail_name": "robin",
+          "affiliation": "Lygature",
+          "expertise": "Program manager"
       },
       {
-          "name": "Johan Ankarklev, PhD",
-          "thumbnail_name": "johan_ank",
-          "affiliation": "Stockholm University",
-          "expertise": "Parasitology and Genetics"
+          "name": "Julia Lischke, PhD",
+          "thumbnail_name": "julia",
+          "affiliation": "Lygature",
+          "expertise": "Program manager"
       },
       {
-          "name": "Johan Bengtsson-Palme, PhD",
-          "thumbnail_name": "johan_ben",
-          "affiliation": "Chalmers University",
-          "expertise": "Antibiotic resistance and<br>Emergent pathogens"
+          "name": "Jan-Willem Boiten, PhD",
+          "thumbnail_name": "jan-willem",
+          "affiliation": "Lygature",
+          "expertise": "Program manager"
       },
       {
-          "name": "Laura Carroll, PhD",
-          "thumbnail_name": "laura",
-          "affiliation": "Umeå University",
-          "expertise": "Computational biology"
-      },
-      {
-          "name": "Luisa W. Hugerth, PhD",
-          "thumbnail_name": "lusia",
-          "affiliation": "Uppsala University",
-          "expertise": "Human microbiome"
-      },
-      {
-          "name": "Mahmoud Naguib, PhD",
-          "thumbnail_name": "mahmoud",
-          "affiliation": "Uppsala University",
-          "expertise": "Experimental Virology"
+          "name": "Jeroen Belien, PhD",
+          "thumbnail_name": "jeroen",
+          "affiliation": "Health-RI",
+          "expertise": ""
       }
   ]
 }
