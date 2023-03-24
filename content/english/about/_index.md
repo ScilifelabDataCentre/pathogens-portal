@@ -52,19 +52,14 @@ The team are happy to help with using the Portal, to take suggestions regarding 
 <div class="container mb-3">
   <div class="row">
     <div class="col-md-2 pt-2">
-      <div><img src="/img/people/ak.jpg" width="150" class="img-thumbnail"/></div>
-      <div><b>Arnold Kochari</b></div>
+      <div><img src="/img/people/lh.png" width="150" class="img-thumbnail"/></div>
+      <div><b>Liane Hughes</b></div>
       <div><span class="text-muted">Project leader</span></div>
     </div>
     <div class="col-md-2 pt-2">
       <div><img src="/img/people/kos.jpeg" width="150" class="img-thumbnail"/></div>
       <div><b>Katarina Öjefors Stark</b></div>
       <div><span class="text-muted">Data steward</span></div>
-    </div>
-    <div class="col-md-2 pt-2">
-      <div><img src="/img/people/lh.png" width="150" class="img-thumbnail"/></div>
-      <div><b>Liane Hughes</b></div>
-      <div><span class="text-muted">Data engineer</span></div>
     </div>
     <div class="col-md-2 pt-2">
       <div><img src="/img/people/sp.jpeg" width="150" class="img-thumbnail"/></div>
@@ -74,12 +69,12 @@ The team are happy to help with using the Portal, to take suggestions regarding 
     <div class="col-md-2 pt-2">
       <div><img src="/img/people/hk.jpg" width="150" class="img-thumbnail"/></div>
       <div><b>Hanna Kultima</b></div>
-      <div><span class="text-muted">Data management team leader at SciLifeLab</span></div>
+      <div><span class="text-muted">Vice head of SciLifeLab Data Centre</span></div>
     </div>
     <div class="col-md-2 pt-2">
       <div><img src="/img/people/jr.jpg" width="150" class="img-thumbnail"/></div>
       <div><b>Johan Rung</b></div>
-      <div><span class="text-muted">Head of the SciLifeLab Data Centre</span></div>
+      <div><span class="text-muted">Head of SciLifeLab Data Centre</span></div>
     </div>
   </div>
 </div>
