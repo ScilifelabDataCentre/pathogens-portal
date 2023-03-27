@@ -11,10 +11,10 @@ title: Programs and organisations behind the portal
       <a class="nav-link active" href="#"><b>Programs & organisations<br>behind the portal</b></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/editorial_committee">Editorial committee<br><br></a>
+      <a class="nav-link" href="/content/english/about/editorial_committee">Editorial committee<br><br></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/partner_organisations/">Partner organisations<br><br></a>
+      <a class="nav-link" href="/content/english/about/partner_organisations/">Partner organisations<br><br></a>
     </li>
   </ul>
 </div>
