@@ -22,7 +22,7 @@ title: Programs and organisations behind the portal
 <div class="row">
   <div class="col-sm-12 col-md-12 col-lg-3">
     <figure class="figure mt-3">
-      <img width="250" height="130" alt="Lygature_logo" src="/covid-nl-portal/static/img/logos/Lygature.jpg">
+      <img width="250" height="130" alt="Lygature_logo" src="/static/img/logos/Lygature.jpg">
     </figure>
   </div>
   <div class="col-sm-12 col-md-12 col-lg-9">
