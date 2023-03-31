@@ -20,7 +20,7 @@ As of September 2021, the Sample Collection Database contains information about 
 
 ### Submit information about sample collections
 
-Those wishing to submit information about their sample collections to the database should contact ?? (the linked page also contains forms for adding new collections to the database). Questions, comments, or suggestions regarding the database itself can be sent to datacentre@scilifelab.se.
+Those wishing to submit information about their sample collections to the database should contact ?? (the linked page also contains forms for adding new collections to the database). Questions, comments, or suggestions regarding the database itself can be sent to ??.
 
 ### Responsible organisations
 
