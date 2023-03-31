@@ -25,6 +25,6 @@ Sewage can serve as an indicator of public health in the Netherlands. Many disea
 **Download the data:** [National SARS-CoV-2 wastewater surveillance](https://data.rivm.nl/meta/srv/eng/catalog.search;jsessionid=5C4F23F31DC8B4F5CF0DFE1849EA5BB3#/metadata/a2960b68-9d3f-4dc3-9485-600570cd52b9). Results are updated weekly.\
 **Contact:** [RIVM/I&V/Z&O](mailto:afvalwatersurveillance@rivm.nl)
 
-### Map of sample collection sites
+#### Spatial extent
 
 ![image_Netherlands](https://data.rivm.nl/meta/srv/api/records/a2960b68-9d3f-4dc3-9485-600570cd52b9/extents.png?mapsrs=epsg:3857&width=300)
