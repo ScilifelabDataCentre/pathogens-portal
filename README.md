@@ -32,22 +32,6 @@ We prepared detailed instructions on how to add or edit information in each spec
 
 Users who are technically more advanced are welcome to make contributions by running a local copy of the portal on their own computers, we prepared [instructions on how to do that here](https://github.com/ScilifelabDataCentre/covid-portal/blob/develop/CONTRIBUTING/running_a_local_copy.md).
 
-### Using ImJoy Plugins
-
-This website supports [ImJoy](https://imjoy.io) plugins which can be used to visualize, annotate, run analysis directly from the website. See [an example here](https://covid19dataportal.se/highlights/immunofluorescence/). Please see the file [CONTRIBUTING/ImJoy.md](https://github.com/ScilifelabDataCentre/covid-portal/blob/develop/CONTRIBUTING/ImJoy.md) for examples of usage.
-
-### The Swedish COVID-19 Sample Collection Database
-
-The portal team works closely with Health-RI to develop and maintain the [The Dutch COVID-19 clinical database](https://covid19initiatives.health-ri.nl/p/Dashboard). The database contains clinical data from patients with (suspected) COVID-19 acquired in multiple hospitals throughout the Netherlands. Research staff can use the database to search for and request access to samples that could be beneficial for their work. New collections are submitted to the portal team by Health-RI as they become available. The code behind the Dutch COVID-19 clinical database is maintained by the portal team.
-
-### Data visualisations
-
-Unless otherwise specified, the data visualisations on the portal have been developed in-house by the portal team. A link to the code underlying each visualisation is provided on the portal page on which it is displayed. All visualisations on the portal can be found on our dedicated [GitHub repository](https://github.com/ScilifelabDataCentre/covid-portal-visualisations).
-
-## How to get help
-
-If you have any questions regarding any of the code or content associated with the portal, please get in touch by emailing us at ...
-
 ## Credits
 
 The website was built and is maintained by [Lygature](https://www.lygature.org/). We are grateful to many collaborators, both from the Data Centre and elsewhere, for their contributions.
