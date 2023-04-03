@@ -12,14 +12,8 @@ menu:
 
 <div class="mb-4">
   <ul class="nav nav-tabs nav-justified">
-    <li class="nav-item active">
-      <a class="nav-link active" href="#"><b>Overview<br><br></b></a>
-    </li>
     <li class="nav-item">
       <a class="nav-link" href="organisations_and_programs">Programs & organisations<br>behind the portal</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="editorial_committee">Editorial committee<br><br></a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="partner_organisations">Partner organisations<br><br></a>
@@ -31,9 +25,7 @@ menu:
 
 The *Dutch COVID-19 & Pandemic Preparedness Data Portal* provides information about available datasets, resources, tools, and services related to pandemic preparedness in the Netherlands. We offer support to all those involved in pandemic preparedness research that are affiliated with a Dutch research institution or university.
 
-The Portal is operated by the [SciLifeLab Data Centre](https://scilifelab.se/data/) and [partners](partner_organisations). We welcome community contributions to the Portal and provide information on the different ways that the community can contribute, for more details see [contribute](/contribute/) page. In addition to running the Portal, the team can also either provide support on data-related questions surrounding pandemic preparedness research or help find suitable support services. For more general data support, please see our related research data management service([RDM Guidelines](https://data-guidelines.scilifelab.se/)).
-
-This website is built using [Hugo](https://gohugo.io/) in combination with [Bootstrap](https://getbootstrap.com/) for styling, [DataTables](https://datatables.net/) for tables, and [Vega/Vega-Lite](https://vega.github.io/vega-lite/) and [Plotly](https://plotly.com/) for interactive graphics. All code used for the Portal is open source (held under an [MIT licence](https://choosealicense.com/licenses/mit/)) and [is available on GitHub](https://github.com/ScilifelabDataCentre/covid-portal). We encourage the reuse of our code, either for generating another national portal, or recreating certain features.
+The Portal is operated by [Lygature](https://www.lygature.org/) and [partners](/content/english/about/organisations_and_programs.md). This website is built using [Hugo](https://gohugo.io/) in combination with [Bootstrap](https://getbootstrap.com/) for styling, [DataTables](https://datatables.net/) for tables, and [Vega/Vega-Lite](https://vega.github.io/vega-lite/) and [Plotly](https://plotly.com/) for interactive graphics. All code used for the Portal is open source (held under an [MIT licence](https://choosealicense.com/licenses/mit/)) and [is available on GitHub](https://github.com/ScilifelabDataCentre/covid-portal). We encourage the reuse of our code, either for generating another national portal, or recreating certain features.
 
 #### History of the Portal
 
@@ -50,17 +42,14 @@ The team are happy to help with using the Portal, to take suggestions regarding 
 <div class="container mb-3">
   <div class="row">
     <div class="col-md-2 pt-2">
-      <div><img src="/img/people/ak.jpg" width="150" class="img-thumbnail"/></div>
       <div><b>Robin Navest</b></div>
       <div><span class="text-muted">Program manager</span></div>
     </div>
     <div class="col-md-2 pt-2">
-      <div><img src="/img/people/kos.jpeg" width="150" class="img-thumbnail"/></div>
       <div><b>Julia Lischke</b></div>
       <div><span class="text-muted">Program manager</span></div>
     </div>
     <div class="col-md-2 pt-2">
-      <div><img src="/img/people/lh.png" width="150" class="img-thumbnail"/></div>
       <div><b>Jan-Willem Boiten</b></div>
       <div><span class="text-muted">Program manager</span></div>
     </div>
