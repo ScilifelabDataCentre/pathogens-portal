@@ -5,9 +5,6 @@ title: Partner organisations
 <div class="mb-4">
   <ul class="nav nav-tabs nav-justified">
     <li class="nav-item">
-      <a class="nav-link" href="../">Overview<br><br></a>
-    </li>
-    <li class="nav-item">
       <a class="nav-link" href="../organisations_and_programs/">Programs & organisations<br>behind the portal</a>
     </li>
     <li class="nav-item">
