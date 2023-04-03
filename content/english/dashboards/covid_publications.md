@@ -1,16 +1,16 @@
 ---
-title: Visualisation of COVID-19 and SARS-CoV-2 research in Sweden as reflected in publications
+title: Visualisation of COVID-19 and SARS-CoV-2 research in the Netherlands as reflected in publications
 toc: false
 plotly: true
 menu:
     dashboard_menu:
         identifier: covid_19_publications_vis
-        name: "Overview of Swedish COVID-19 Publications"
+        name: "Overview of Dutch COVID-19 Publications"
         weight: 70
 aliases:
     - /projects/dashboard/
 ---
-The visualisations on this page evaluate the development of COVID-19 and SARS-CoV-2 research across Sweden by assessing publication output. Specifically, we consider multiple aspects of journal publications and preprints where at least one author has an affiliation with a Swedish research institute. The database containing the publications themselves [can be found on this page](/publications/). Note that our database is manually curated and, as such, may not be exhaustive. The full database is available for download and use for other purposes, please see [DOI: 10.17044/scilifelab.14124014](https://doi.org/10.17044/scilifelab.14124014) for details.
+The visualisations on this page evaluate the development of COVID-19 and SARS-CoV-2 research across the Netherlands by assessing publication output. Specifically, we consider multiple aspects of journal publications and preprints where at least one author has an affiliation with a Dutch research institute. The database containing the publications themselves [can be found on this page](/publications/). Note that our database is manually curated and, as such, may not be exhaustive. The full database sorted by publication date is available on [Pubmed](https://pubmed.ncbi.nlm.nih.gov/?term=%28%28COVID-19%29+OR+%28SARS-CoV-2%29%29+AND+%28Netherlands%5BAffiliation%5D%29&sort=date).
 
 The code used to produce the visulations on this page can be found on [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations). Specifically, code related to the number of publications can be found in the ['Count_publications' folder of the repository](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Count_publications), and code used to generated the wordclouds can be found in the ['Wordcloud' folder](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Wordcloud).
 
