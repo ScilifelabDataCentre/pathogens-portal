@@ -1,10 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
   <div class="container">
     <a class="navbar-brand" href="{{ relLangURL .Site.BaseURL }}">
-      <img src="/img/site_logo/CV19DP_logo_oneliner_SWE.svg" alt="COVID-19 Data Portal Sweden">
-    </a>
-    <a class="navbar-brand" href="https://www.scilifelab.se">
-      <img src="/img/site_logo/SciLifeLab_logo.svg" alt="SciLifeLab Home">
+      <img src="/img/logos/european_covid19dataportal.svg" alt="Dutch COVID-19 Data Portal">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapseBottom"
       aria-controls="navbarCollapseBottom" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,14 +24,14 @@
           <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span
                 lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"
                   alt=""></span></a></li>
-          <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Permalink }}"><span lang="sv">sv <img
-                  src="/img/flag-sv.svg" alt=""></span></a></li>
+          <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Permalink }}"><span lang="nl">sv <img
+                  src="/img/flag-nl.svg" alt=""></span></a></li>
           {{ else if .Parent.Parent.IsTranslated }}
           <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span
                 lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"
                   alt=""></span></a></li>
-          <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Parent.Permalink }}"><span lang="sv">sv
-                <img src="/img/flag-sv.svg" alt=""></span></a></li>
+          <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Parent.Permalink }}"><span lang="nl">sv
+                <img src="/img/flag-nl.svg" alt=""></span></a></li>
           {{ else }}
           {{ range $.Site.Home.AllTranslations }}
           <li class="nav-item navbar-languages"><a class="nav-link" href="{{ relURL .Permalink }}"><span
@@ -71,14 +68,14 @@
         <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"
             lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"
               alt=""></a></li>
-        <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Permalink }}" lang="sv">Svenska <img
-              src="/img/flag-sv.svg" alt=""></a></li>
+        <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Permalink }}" lang="nl">Nederlands <img
+              src="/img/flag-nl.svg" alt=""></a></li>
         {{ else if .Parent.Parent.IsTranslated }}
         <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"
             lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"
               alt=""></a></li>
-        <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Parent.Permalink }}" lang="sv">Svenska <img
-              src="/img/flag-sv.svg" alt=""></a></li>
+        <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Parent.Permalink }}" lang="nl">Nederlands <img
+              src="/img/flag-nl.svg" alt=""></a></li>
         {{ else }}
         {{ range $.Site.Home.AllTranslations }}
         <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"
