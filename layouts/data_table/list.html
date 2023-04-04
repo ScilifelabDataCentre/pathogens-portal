@@ -2,12 +2,12 @@
 
 {{ .Content }}
 
-<h4>Data available from research groups in Sweden</h4>
+<h4>Data available from research groups in the Netherlands</h4>
 
 <div>
   <p>The list below is curated manually and as such may not be exhaustive. If you would like to see your dataset here or
     correct information about your dataset, <a href="/suggestions/">please get in touch with us</a>. Projects sharing
-    data where at least one author has an affiliation with a Swedish research institute are included. Only
+    data where at least one author has an affiliation with a Dutch research institute are included. Only
     projects which openly share data or analysis code that has re-use potential are included.</p>
   <p><i>Last updated: {{ substr $.Site.Data.publications.timestamp 0 10 }}</i></p>
 </div>
@@ -54,7 +54,7 @@
 {{ end }}
 
 {{/*
-  The following bit ensures that it is not necessary to copy the datatypes_to_display list in the Swedish version of the page
+  The following bit ensures that it is not necessary to copy the datatypes_to_display list in the Dutch version of the page
 */}}
 
 {{ $datatypes_to_display := slice }}
@@ -87,7 +87,7 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-lg-2 pl-0 pr-2 {{ if eq $.Site.Language.LanguageName "Svenska" }}mr-5{{ end }}">
+    <div class="col-lg-2 pl-0 pr-2 {{ if eq $.Site.Language.LanguageName "Nederlands" }}mr-5{{ end }}">
       <h5>Data types</h5>
       <div class="col mb-2">
         <div class="row">{{ if eq .Title "All data types" }}<b>{{ else }}<a href="/data_types/all/data/">{{ end }} All data types ({{ len $all_entries }}){{ if eq .Title "All data types" }}</b>{{ else }}</a>{{ end }}
@@ -104,7 +104,7 @@
                     {{ end }}
                     {{ .Title }}
                     {{ $section_title := string "" }}
-                    {{ if eq $.Site.Language.LanguageName "Svenska" }}
+                    {{ if eq $.Site.Language.LanguageName "Nederlands" }}
                     {{ $section_title =  .Params.title_eng}}
                     {{ else }}
                     {{ $section_title = .Title}}
