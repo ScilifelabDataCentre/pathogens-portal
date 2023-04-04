@@ -4,7 +4,7 @@
 <div class="row">
   <div class="col-md-8 vert-line-right mt-3">
 
-    {{ if ne $.Site.Language.LanguageName "Svenska" }}
+    {{ if ne $.Site.Language.LanguageName "Nederlands" }}
     <!-- Data highlights -->
     {{ range .Site.Menus.homepage_highlights }}
       <div class="row">
@@ -38,7 +38,7 @@
       </div>
     {{ end }}
 
-    {{ if ne $.Site.Language.LanguageName "Svenska" }}
+    {{ if ne $.Site.Language.LanguageName "Nederlands" }}
     <!-- Available data -->
     {{ $all_entries := $.Site.Data.available_datasets.datasets }}
     {{/*
@@ -119,12 +119,11 @@
         <div class="row">
         </div>
         <div class="row">
-          <h5>{{ if eq $.Site.Language.LanguageName "Svenska" }}Provsamlingar{{ else }}Collections{{ end }}: 35</h5>
+          <h5>{{ if eq $.Site.Language.LanguageName "Nederlands" }}Collecties{{ else }}Collections{{ end }}: 35</h5>
         </div>
         <div class="row align-items-end">
           <h5><a target="_blank"
-              href="https://biobanks.covid19dataportal.se/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Sök i
-              provsamlingsregistret{{ else }}Search in the database{{ end }} <i
+              href="https://biobanks.covid19dataportal.nl/">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Zoek in de database{{ else }}Search in the database{{ end }} <i
                 class="bi bi-arrow-right-circle-fill"></i></a></h5>
         </div>
       </div>
@@ -147,12 +146,11 @@
       <div class="col-md mb-2">
         <div class="row">
           <h6><a
-              href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/dashboards/serology-statistics/">{{ $.Param "teststats.serologytitle" }}
+              href="{{ if eq $.Site.Language.LanguageName "Nederlands" }}/sv{{ end}}/dashboards/serology-statistics/">{{ $.Param "teststats.serologytitle" }}
               <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
         </div>
         <div class="row pe-2">
-          <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
-            horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+          <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Om alle data data te zien, scroll zijwaards in de plot.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
           <div class="table-responsive" id="serology"></div>
         </div>
       </div>
@@ -162,7 +160,7 @@
       <div class="col-md mb-2">
         <div class="row">
           <h6><a
-              href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/environment/wastewater/">{{ $.Param "teststats.wastewater_main_title" }}
+              href="{{ if eq $.Site.Language.LanguageName "Nederlands" }}/sv{{ end}}/data_types/environment/wastewater/">{{ $.Param "teststats.wastewater_main_title" }}
               <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
           <p><b>Please note:</b> In the graphs related to wastewater below, we display only a recent snapshot of
             wastewater data. Please go to
@@ -171,21 +169,8 @@
         </div>
         <div class="row pe-2">
           <h6>Stockholm</h6>
-          <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
-            horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+          <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Om alle data te zien, scroll zijwaards in de plot.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
           <div class="table-responsive" id="stockholm_wastewater"></div>
-        </div>
-        <div class="row pe-2">
-          <h6>Malmö</h6>
-          <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
-            horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
-          <div class="table-responsive" id="malmo_wastewater"></div>
-        </div>
-        <div class="row pe-2">
-          <h6>Uppsala</h6>
-          <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
-            horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
-          <div class="table-responsive" id="uppsala_wastewater"></div>
         </div>
       </div>
     </div>
@@ -194,12 +179,11 @@
       <div class="col-md mb-2">
         <div class="row">
           <h6><a
-              href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/health_data/post_covid/">{{ $.Param "teststats.postcovidtitle" }}
+              href="{{ if eq $.Site.Language.LanguageName "Nederlands" }}/sv{{ end}}/data_types/health_data/post_covid/">{{ $.Param "teststats.postcovidtitle" }}
               <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
         </div>
         <div class="row">
-          <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
-            horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+          <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Om alle data te zien, scroll zijwaards in de plot.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
           <div class="table-responsive">
             <div id="https://blobserver.dckube.scilifelab.se/blob/weeklycontacts_healthcare_small.json" class="plotly"
               style="width:600px;height:300px"></div>
@@ -217,12 +201,11 @@
       <div class="col-md mb-2">
         <div class="row">
           <h6><a
-              href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/data_types/health_data/vaccines/">{{ $.Param "teststats.vaccinestitle" }}
+              href="{{ if eq $.Site.Language.LanguageName "Nederlands" }}/sv{{ end}}/data_types/health_data/vaccines/">{{ $.Param "teststats.vaccinestitle" }}
               <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
         </div>
         <div class="row">
-          <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
-            horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+          <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Om alle data te zien, scroll zijwaards in de plot.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
           <div class="table-responsive">
             <div id="https://blobserver.dckube.scilifelab.se/blob/vaccine_heatmap_small.json" class="plotly"
               style="width:600px;height:300px"></div>
@@ -240,12 +223,11 @@
       <div class="col-md mb-2">
         <div class="row">
           <h6><a
-              href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end}}/dashboards/recovac/">{{ $.Param "teststats.recovactitle" }}
+              href="{{ if eq $.Site.Language.LanguageName "Nederlands" }}/sv{{ end}}/dashboards/recovac/">{{ $.Param "teststats.recovactitle" }}
               <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
         </div>
         <div class="row">
-          <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skrolla grafen
-            horisontellt för att se alla data.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
+          <div class="d-md-none alert alert-info">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Om alle data te zien, scroll zijwaards in de plot.{{ else }}Scroll the plot sideways to view all data.{{ end }}</div>
           <div class="table-responsive">
             <div id="https://blobserver.dckube.scilifelab.se/blob/ICUadmiss_small.json" class="plotly"
               style="width:600px;height:300px"></div>
@@ -265,7 +247,7 @@
   <div class="col-md-4 ms-auto p-3">
     <hr class="d-lg-none">
 
-    {{ if ne $.Site.Language.LanguageName "Svenska" }}
+    {{ if ne $.Site.Language.LanguageName "Nederlands" }}
     <!-- Portal updates -->
       <div class="row">
         <h4>What's new?</h4>
@@ -290,27 +272,23 @@
 
     <!-- About the portal -->
     <div class="row mt-4 mb-3">
-      <h4>{{ if eq $.Site.Language.LanguageName "Svenska" }}Om dataportalen{{ else }}About this portal{{ end }}</h4>
+      <h4>{{ if eq $.Site.Language.LanguageName "Nederlands" }}Over het Portal{{ else }}About this portal{{ end }}</h4>
       {{ .Content }}
     </div>
 
     <!-- Share your data ad -->
     <div class="row ps-2">
       <div class="share-new-data text-white ms-1 pb-3 px-3">
-        <h4>{{ if eq $.Site.Language.LanguageName "Svenska" }}Dela nya data{{ else }}Share new data{{ end }}</h4>
-        {{ if eq $.Site.Language.LanguageName "Svenska" }}Teamet som arbetar med covid-19 dataportalen hjälper dig
-        gärna dela dina forskningsdata i öppna databaser och svarar på frågor om datahantering.{{ else }}The portal
-        team is happy to assist you with submitting your data to open repositories or answer any questions about data
-        management.{{ end }}
+        <h4>{{ if eq $.Site.Language.LanguageName "Nederlands" }}Deel nieuwe data{{ else }}Share new data{{ end }}</h4>
       </div>
     </div>
     <div class="row">
       <div class="col text-white pb-3 px-3">
         <h6><a style="color:white"
-            href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/share-data/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Riktlinjer{{ else }}Guidelines{{ end }}
+            href="{{ if eq $.Site.Language.LanguageName "Nederlands" }}/sv{{ end }}/share-data/">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Richtlijnen{{ else }}Guidelines{{ end }}
             <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
         <h6><a style="color:white"
-            href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/support/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Stödtjänster{{ else }}Support
+            href="{{ if eq $.Site.Language.LanguageName "Nederlands" }}/sv{{ end }}/support/">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Ondersteuning{{ else }}Support
             request{{ end }} <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
       </div>
     </div>
