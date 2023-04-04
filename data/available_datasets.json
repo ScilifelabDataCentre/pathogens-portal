@@ -10,9 +10,8 @@
                     "accession_number": "",
                     "description": "The Dutch national observational COVID-19 data portal to find and reuse observational data from Dutch health care providers. Health-RI launched the Dutch COVID-19 Data Support Programme to support investigators and health care professionals with tools and services in their search for ways to overcome the pandemic and its health consequences. To facilitate and stimulate an integrated health data infrastructure, Health-RI facilitates investigators by connecting communities, providing data services and tools, and presenting an overview of COVID-19 related initiatives. The portal provides researchers with a clear overview of what is available, allow searching for specific data and make access to such data easier when the necessary ethical and legal conditions have been met. Metadata describing the content of the collections and type of data as well as access policies are publicly available in the portal, while the underlying data remains at the source, whenever possible. The first health care data sets in the portal are coming from observational studies funded by ZonMw, NFU COVID-19 clinical research data, collaborating top clinical hospitals (STZ), as well as other regional hospitals. However, the portal is open to any health care provider wishing to make their COVID-19 data available for research.",
                     "data_type": [
-                        "Biobank",
-                        "Medical Imaging",
-                        "Electronic Health Record"                        
+                        "Health data",
+                        "Social science and humanities data
                     ],
                     "data_url": "https://covid19initiatives.health-ri.nl/p/Dashboard"
                 }
