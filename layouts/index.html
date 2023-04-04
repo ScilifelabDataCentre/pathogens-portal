@@ -66,7 +66,7 @@
     */}}
 
     {{ $datatypes_to_display := slice }}
-    {{ $path := strings.TrimPrefix "/sv" (strings.TrimRight "/" (string .Page.RelPermalink)) }}
+    {{ $path := strings.TrimPrefix "/nl" (strings.TrimRight "/" (string .Page.RelPermalink)) }}
     {{ with .Sites.First.GetPage $path }} {{ $datatypes_to_display = .Params.datatypes_to_display }} {{ end }}
 
     {{ range .Site.Menus.homepage_available_data }}
@@ -148,10 +148,10 @@
     <div class="row">
       <div class="col text-white pb-3 px-3">
         <h6><a style="color:white"
-            href="{{ if eq $.Site.Language.LanguageName "Nederlands" }}/sv{{ end }}/share-data/">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Richtlijnen{{ else }}Guidelines{{ end }}
+            href="{{ if eq $.Site.Language.LanguageName "Nederlands" }}/nl{{ end }}/share-data/">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Richtlijnen{{ else }}Guidelines{{ end }}
             <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
         <h6><a style="color:white"
-            href="{{ if eq $.Site.Language.LanguageName "Nederlands" }}/sv{{ end }}/support/">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Ondersteuning{{ else }}Support
+            href="{{ if eq $.Site.Language.LanguageName "Nederlands" }}/nl{{ end }}/support/">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Ondersteuning{{ else }}Support
             request{{ end }} <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
       </div>
     </div>
