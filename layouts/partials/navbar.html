@@ -24,13 +24,13 @@
           <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span
                 lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"
                   alt=""></span></a></li>
-          <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Permalink }}"><span lang="nl">sv <img
+          <li class="nav-item"><a class="nav-link" href="/nl{{ relURL .Parent.Permalink }}"><span lang="nl">nl <img
                   src="/img/flag-nl.svg" alt=""></span></a></li>
           {{ else if .Parent.Parent.IsTranslated }}
           <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span
                 lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"
                   alt=""></span></a></li>
-          <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Parent.Permalink }}"><span lang="nl">sv
+          <li class="nav-item"><a class="nav-link" href="/nl{{ relURL .Parent.Parent.Permalink }}"><span lang="nl">nl
                 <img src="/img/flag-nl.svg" alt=""></span></a></li>
           {{ else }}
           {{ range $.Site.Home.AllTranslations }}
@@ -68,13 +68,13 @@
         <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"
             lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"
               alt=""></a></li>
-        <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Permalink }}" lang="nl">Nederlands <img
+        <li class="nav-item"><a class="nav-link" href="/nl{{ relURL .Parent.Permalink }}" lang="nl">Nederlands <img
               src="/img/flag-nl.svg" alt=""></a></li>
         {{ else if .Parent.Parent.IsTranslated }}
         <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"
             lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"
               alt=""></a></li>
-        <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Parent.Permalink }}" lang="nl">Nederlands <img
+        <li class="nav-item"><a class="nav-link" href="/nl{{ relURL .Parent.Parent.Permalink }}" lang="nl">Nederlands <img
               src="/img/flag-nl.svg" alt=""></a></li>
         {{ else }}
         {{ range $.Site.Home.AllTranslations }}
@@ -193,7 +193,7 @@
 {{ end }}
 
 <!-- Main menu, Swedish version -->
-{{ if eq $.Site.Language.LanguageName "Svenska" }}
+{{ if eq $.Site.Language.LanguageName "Nederlands" }}
 <div class="container mb-1">
   <div class="row main_menu">
     {{ range .Site.Menus.swe_menu }}
@@ -209,7 +209,7 @@
             {{ end }}
           </div>
         {{ else }}
-          <i class="bi bi-journal-text"></i> <a href="/sv/biobanks/">{{ .Name }}</a>
+          <i class="bi bi-journal-text"></i> <a href="/nl/biobanks/">{{ .Name }}</a>
         {{ end }}
       </div>
     {{ end }}
