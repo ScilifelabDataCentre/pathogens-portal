@@ -60,7 +60,7 @@
         {{ else if .Parent.Parent.IsTranslated }}
         <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }}<img
               src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
-        <li><a href="/sv{{ relURL .Parent.Parent.Permalink }}" lang="sv">Svenska<img src="/img/flag-sv.svg" alt=""></a>
+        <li><a href="/sv{{ relURL .Parent.Parent.Permalink }}" lang="nl">Svenska<img src="/img/flag-nl.svg" alt=""></a>
         </li>
         {{ else }}
         {{ range $.Site.Home.AllTranslations }}
@@ -71,36 +71,33 @@
       </ul>
     </div>
     <div class="col-md">
-      <h2 class="small text-uppercase text-black-50">{{ if eq $.Site.Language.LanguageName "Svenska" }}Följ
-        oss{{ else }}Connect{{ end }}</h2>
+      <h2 class="small text-uppercase text-black-50">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Volg ons{{ else }}Connect{{ end }}</h2>
       <div class="container">
         <div class="d-flex justify-content-start">
-          <a class="p-2" style="font-size:2em;" target="_blank" href="mailto:datacentre@scilifelab.se"><i
-              class="bi bi-envelope-fill"></i></a>
-          <a class="p-2" style="font-size:2em;" target="_blank" href="https://twitter.com/scilifelab_DC"><i
+          <a class="p-2" style="font-size:2em;" target="_blank" href="https://twitter.com/lygature"><i
               class="bi bi-twitter"></i></a>
           <a class="p-2" style="font-size:2em;" target="_blank"
-            href="https://linkedin.com/company/scilifelab-data-centre"><i class="bi bi-linkedin"></i></a>
+            href="https://www.linkedin.com/company/lygature"><i class="bi bi-linkedin"></i></a>
         </div>
       </div>
     </div>
     <div class="col-md text-center">
-      <a class="d-block my-4" href="https://www.scilifelab.se"><img src="/img/logos/scilifelab-logo.svg"
-          alt="SciLifeLab"></a>
-      <span class="d-block my-4"><img src="/img/logos/elixir-se-logo.png" alt="Elixir Sweden"></span>
+      <a class="d-block my-4" href="https://www.lygature.org/"><img src="/img/logos/Lygature-logo.jpg"
+          alt="Lygature"></a>
+      <span class="d-block my-4"><img src="https://www.health-ri.nl/themes/custom/health_ri/assets/images/logo.svg" alt="Health-RI"></span>
     </div>
   </div>
   <div class="row footer-lower-row">
     <div class="col-md-2 p-2 text-center">
       <a
-        href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/contact/">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).support_feedback }}</a>
+        href="{{ if eq $.Site.Language.LanguageName "Nederlands" }}/sv{{ end }}/contact/">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).support_feedback }}</a>
     </div>
     <div class="col-md-2 p-2 text-center">
       <a href='{{ "/privacy" | relLangURL }}'>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).privacy }}</a>
     </div>
     <div class="col-md-2 p-2 text-center">
       <a
-        href="https://github.com/ScilifelabDataCentre/covid-portal/tree/develop">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).github_link }}</a>
+        href="https://github.com/rnavest/covid-nl-portal/tree/develop">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).github_link }}</a>
     </div>
   </div>
 </footer>
