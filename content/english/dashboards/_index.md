@@ -11,16 +11,10 @@ menu:
 
 <h4><a href="wastewater/">The amount of SARS-CoV-2 virus in wastewater across the Netherlands<i class="bi bi-arrow-right-circle-fill"></i></a></h4>
 
-<a href="wastewater/">See the full dashboard <i class="bi bi-arrow-right-circle-fill"></i></a>
-
 <hr>
 
 <h4><a href="vaccines/">Vaccine administration in the Netherlands <i class="bi bi-arrow-right-circle-fill"></i></a></h4>
 
-<a href="vaccines/">See the full dashboard <i class="bi bi-arrow-right-circle-fill"></i></a>
-
 <hr>
 
 <h4><a href="/dashboards/covid_publications/">Overview of Swedish COVID-19 publications<i class="bi bi-arrow-right-circle-fill"></i></a></h4>
-
-<a href="/dashboards/covid_publications/">See the full dashboard <i class="bi bi-arrow-right-circle-fill"></i></a>
