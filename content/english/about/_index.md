@@ -37,11 +37,11 @@ The Portal is operated by [Lygature](https://www.lygature.org/) and [partners](o
 
 The Dutch COVID-19 & Pandemic Preparedness Portal was launched in April 2023 as part of the [BY-COVID](https://by-covid.org/) project funced by the European Commission (more details [here](https://www.embl.org/news/science/embl-ebi-launches-covid-19-data-portal/)). The Portal is a national node of the [European COVID-19 Data Platform](https://covid19dataportal.eu/). An overview of other national nodes can be found [here](/partners/).
 
-From the start, the Portal has been operated by the SciLifeLab Data Centre and partners. However, it has received considerable input from the community. Indeed, many people contributed to building the initial site, and content throughout. An overview of some of the contributors that have been instrumental to establishing and advancing the Portal can be found on [GitHub](https://github.com/ScilifelabDataCentre/covid-portal/graphs/contributors).
+From the start, the Portal has been operated by the SciLifeLab Data Centre and partners. However, it has received considerable input from the community. Indeed, many people contributed to building the initial site, and content throughout. An overview of some of the contributors that have been instrumental to establishing and advancing the Portal can be found on [GitHub](https://github.com/rnavest/covid-nl-portal/graphs/contributors).
 
 #### Portal team
 
-Many people from SciLifeLab, NBIS, other organisations, and the community have been involved in the Portal since its conception. A complete list of contributors can be found on [GitHub](https://github.com/ScilifelabDataCentre/covid-portal/graphs/contributors). Below, we show the current team of people actively working on the Portal.
+Many people from SciLifeLab, NBIS, Lygature, other organisations, and the community have been involved in the Portal since its conception. A complete list of contributors can be found on [GitHub](https://github.com/rnavest/covid-nl-portal/graphs/contributors). Below, we show the current team of people actively working on the Portal.
 
 The team are happy to help with using the Portal, to take suggestions regarding new and existing sections, and to answer any questions that you may have. Please just get in touch using for [contact](/contact/) form.
 
