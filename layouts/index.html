@@ -111,28 +111,6 @@
     <hr class="d-lg-none">
 
     {{ if ne $.Site.Language.LanguageName "Nederlands" }}
-    <!-- Portal updates -->
-      <div class="row">
-        <h4>What's new?</h4>
-        <p>News about new sections, features, as well as significant milestones.</p>
-      </div>
-      <div class="row px-2">
-        <div class="border ms-1 p-3" id="news-items-container">
-          {{ $updates := where .Site.RegularPages "Section" "updates" }}
-          {{ range $index, $el := first 3 $updates }}
-            <div>
-              <div class="small text-muted">{{ .Date.Format "2006-01-02" }}</div>
-              <div><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
-            </div>
-          {{ if ne $index 2}} <div class="px-4 py-0"><hr></div> {{ end }}
-          {{ end }}
-          <div class="mt-3">
-            <a href="/updates/">See all Portal news <i class="bi bi-arrow-right-circle-fill"></i></a>
-          </div>
-        </div>
-      </div>
-    {{ end }}
-
     <!-- About the portal -->
     <div class="row mt-4 mb-3">
       <h4>{{ if eq $.Site.Language.LanguageName "Nederlands" }}Over het Portal{{ else }}About this portal{{ end }}</h4>
