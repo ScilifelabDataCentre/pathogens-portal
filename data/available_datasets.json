@@ -22,7 +22,6 @@
             "publisher": "Health-RI",
             "published": "",
             "author": [
-                "",
                 ""
             ]
         },
@@ -41,14 +40,13 @@
                     "data_url": "https://ega-archive.org/datasets/EGAD00001009748"
                 }
             ],
-            "title": "COVID-NL clinical data",
+            "title": "Clinical-Epidemiological (CE) dataset",
             "issue": "",
             "volume": "",
             "publisher": "European Genome-Phenome Archive (EGA)",
             "published": "",
             "author": [
-                "Prof. Dr. Eric van Gorp",
-                ""
+                "Prof. Dr. Eric van Gorp"
             ]
         }
     ]
