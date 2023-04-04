@@ -1,10 +1,1 @@
----
-title: Publications on COVID-19 and SARS-CoV-2
-menu:
-    research_menu:
-        identifier: publications
-        name: Dutch COVID-19 Publications
-        weight: 40
----
-
-This section presents a list of published scientific journal articles and preprints on COVID-19 and SARS-CoV-2 where at least one author has an affiliation with a Swedish research institute. Please see [Pubmed](https://pubmed.ncbi.nlm.nih.gov/?term=%28%28COVID-19%29+OR+%28SARS-CoV-2%29%29+AND+%28Netherlands%5BAffiliation%5D%29&sort=date) for all articles sorted on publication date.
+This section presents a list of published scientific journal articles and preprints on COVID-19 and SARS-CoV-2 where at least one author has an affiliation with a Dutch research institute. Please see [Pubmed](https://pubmed.ncbi.nlm.nih.gov/?term=%28%28COVID-19%29+OR+%28SARS-CoV-2%29%29+AND+%28Netherlands%5BAffiliation%5D%29&sort=date) for all articles sorted on publication date.
