@@ -56,11 +56,11 @@
         {{ else if .Parent.IsTranslated }}
         <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }}<img
               src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
-        <li><a href="/sv{{ relURL .Parent.Permalink }}" lang="nl">Nederlands<img src="/img/flag-nl.svg" alt=""></a></li>
+        <li><a href="/nl{{ relURL .Parent.Permalink }}" lang="nl">Nederlands<img src="/img/flag-nl.svg" alt=""></a></li>
         {{ else if .Parent.Parent.IsTranslated }}
         <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }}<img
               src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
-        <li><a href="/sv{{ relURL .Parent.Parent.Permalink }}" lang="nl">Svenska<img src="/img/flag-nl.svg" alt=""></a>
+        <li><a href="/nl{{ relURL .Parent.Parent.Permalink }}" lang="nl">Nederlands<img src="/img/flag-nl.svg" alt=""></a>
         </li>
         {{ else }}
         {{ range $.Site.Home.AllTranslations }}
