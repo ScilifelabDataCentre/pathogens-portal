@@ -10,7 +10,7 @@
   <div class="row border-bottom">
     <div class="col-md">
       <h2 class="small text-uppercase text-black-50">
-        {{ if eq $.Site.Language.LanguageName "Svenska" }}Sektioner{{ else }}Data{{ end }}</h2>
+        {{ if eq $.Site.Language.LanguageName "Nederlands" }}Secties{{ else }}Data{{ end }}</h2>
       <ul class="list-unstyled">
         {{ if eq $.Site.Language.LanguageName "English" }}
         {{ range .Site.Menus.data_menu }}
@@ -19,9 +19,9 @@
         {{ end }}
         <li><a href="/dashboards/">Dashboards</a></li>
         <li><a href="/biobanks/">Sample collection database</a></li>
-        {{ if eq $.Site.Language.LanguageName "Svenska" }}
+        {{ if eq $.Site.Language.LanguageName "Nederlands" }}
         {{ range .Site.Menus.swe_menu }}
-        {{ if and (ne .Name "Om dataportalen") (ne .Name "Kontakt") }}
+        {{ if and (ne .Name "Over het Portal") (ne .Name "Contact") }}
         <li><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
         {{ end }}
         {{ end }}
@@ -41,8 +41,7 @@
     </div>
     {{ end }}
     <div class="col-md">
-      <h2 class="small text-uppercase text-black-50">{{ if eq $.Site.Language.LanguageName "Svenska" }}Om
-        dataportalen{{ else }}About{{ end }}</h2>
+      <h2 class="small text-uppercase text-black-50">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Over het Portal{{ else }}About{{ end }}</h2>
       <ul class="list-unstyled mb-1">
         {{ range .Site.Menus.footer_about }}
         <li><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
@@ -57,7 +56,7 @@
         {{ else if .Parent.IsTranslated }}
         <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }}<img
               src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
-        <li><a href="/sv{{ relURL .Parent.Permalink }}" lang="sv">Svenska<img src="/img/flag-sv.svg" alt=""></a></li>
+        <li><a href="/sv{{ relURL .Parent.Permalink }}" lang="nl">Nederlands<img src="/img/flag-nl.svg" alt=""></a></li>
         {{ else if .Parent.Parent.IsTranslated }}
         <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }}<img
               src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
