@@ -5,7 +5,10 @@ title: Partner organisations
 <div class="mb-4">
   <ul class="nav nav-tabs nav-justified">
     <li class="nav-item">
-      <a class="nav-link" href="/content/english/about/organisations_and_programs.md">Programs & organisations<br>behind the portal</a>
+      <a class="nav-link" href="../">Overview<br><br></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../organisations_and_programs">Programs & organisations<br>behind the portal</a>
     </li>
     <li class="nav-item">
       <a class="nav-link active" href="#"><b>Partner organisations<br><br></b></a>
@@ -16,7 +19,7 @@ title: Partner organisations
 <div class="row">
   <div class="col-sm-12 col-md-12 col-lg-3">
     <figure class="figure">
-      <img height="50" alt="The European COVID-19 Data Platform logo" src="/static/img/logos/european_covid19dataportal.svg">
+      <img height="50" alt="The European COVID-19 Data Platform logo" src="/img/logos/european_covid19dataportal.svg">
     </figure>
   </div>
   <div class="col-sm-12 col-md-12 col-lg-9">
@@ -30,7 +33,7 @@ title: Partner organisations
 <div class="row mt-4">
   <div class="col-sm-12 col-md-12 col-lg-3">
     <figure class="figure mt-3">
-      <img height="40" alt="BY-COVID logo" src="/static/img/logos/by-covid-logo.svg">
+      <img height="40" alt="BY-COVID logo" src="/img/logos/by-covid-logo.svg">
     </figure>
   </div>
   <div class="col-sm-12 col-md-12 col-lg-9">
