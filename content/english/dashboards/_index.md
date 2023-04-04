@@ -17,4 +17,4 @@ menu:
 
 <hr>
 
-<h4><a href="/dashboards/covid_publications/">Overview of Swedish COVID-19 publications<i class="bi bi-arrow-right-circle-fill"></i></a></h4>
+<h4><a href="covid_publications/">Overview of Swedish COVID-19 publications<i class="bi bi-arrow-right-circle-fill"></i></a></h4>
