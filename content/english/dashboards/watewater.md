@@ -4,7 +4,7 @@ toc: true
 menu:
     dashboard_menu:
         identifier: wastewater
-        name: Amount of SARS-CoV-2 in wastewater across Sweden
+        name: Amount of SARS-CoV-2 in wastewater across the Netherlands
         weight: 20
     other_data:
         name: Environment
