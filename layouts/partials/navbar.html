@@ -98,7 +98,12 @@
           <i class="bi bi-table"></i>
           <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
              data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
-             aria-expanded="false">Available Data & Highlights</a>
+             aria-expanded="false">Available Datasets</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+             {{ range .Site.Menus.datasets_menu }}
+             <a class="dropdown-item m-0" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+             {{ end }}
+          </div>
         </div>
       </div>
       <div class="row">
