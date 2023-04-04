@@ -13,7 +13,7 @@
 {{ end }}
 
 <div>
-  {{ if eq $.Site.Language.LanguageName "Svenska" }}
+  {{ if eq $.Site.Language.LanguageName "Nederlands" }}
     <p><i>Senast uppdaterad: {{ substr $.Site.Data.publications.timestamp 0 10 }}</i></p>
   {{ else }}
     <p><i>Last updated: {{ substr $.Site.Data.publications.timestamp 0 10 }}</i></p>
@@ -23,48 +23,48 @@
 <div class="container">
   <div class="row">
     <!-- Apply filters -->
-    <div class="col-lg-2 ps-0 {{ if eq $.Site.Language.LanguageName "Svenska" }}mr-5{{ else }}mr-1{{ end }}">
+    <div class="col-lg-2 ps-0 {{ if eq $.Site.Language.LanguageName "Nederlands" }}mr-5{{ else }}mr-1{{ end }}">
       <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_field }}</h5>
-      {{ if eq $.Site.Language.LanguageName "Svenska" }}
+      {{ if eq $.Site.Language.LanguageName "Nederlands" }}
       <div class="form-check">
         <input type="checkbox" class="form-check-input" id="t_bild" name="topic" value="Category: Imaging">
-        <label class="form-check-label" for="t_bild">Bild</label>
+        <label class="form-check-label" for="t_bild">Beelden</label>
       </div>
       <div class="form-check">
         <input type="checkbox" class="form-check-input" id="t_folk" name="topic" value="Category: Public Health">
-        <label class="form-check-label" for="t_folk">Folkhälsa</label>
+        <label class="form-check-label" for="t_folk">Volksgezondheid</label>
       </div>
       <div class="form-check">
         <input type="checkbox" class="form-check-input" id="t_gene" name="topic" value="Category: Genomics & transcriptomics">
-        <label class="form-check-label" for="t_gene">Genomik & transkriptomik</label>
+        <label class="form-check-label" for="t_gene">Genomics & transcriptomics</label>
       </div>
       <div class="form-check">
         <input type="checkbox" class="form-check-input" id="t_halsa" name="topic" value="Category: Health">
-        <label class="form-check-label" for="t_halsa">Hälsa</label>
+        <label class="form-check-label" for="t_halsa">Gezondheid</label>
       </div>
       <div class="form-check">
         <input type="checkbox" class="form-check-input" id="t_kemi" name="topic" value="Category: Biochemistry">
-        <label class="form-check-label" for="t_kemi">Kemisk biologi</label>
+        <label class="form-check-label" for="t_kemi">Biochemie</label>
       </div>
       <div class="form-check">
         <input type="checkbox" class="form-check-input" id="t_lake" name="topic" value="Category: Drug Discovery">
-        <label class="form-check-label" for="t_lake">Läkemedelsutveckling</label>
+        <label class="form-check-label" for="t_lake">Ontwikkeling van medicijnen</label>
       </div>
       <div class="form-check">
         <input type="checkbox" class="form-check-input" id="ts_prot" name="topic" value="Category: Proteins">
-        <label class="form-check-label" for="ts_prot">Proteiner</label>
+        <label class="form-check-label" for="ts_prot">Protëinen</label>
       </div>
       <div class="form-check">
         <input type="checkbox" class="form-check-input" id="ts_sero" name="topic" value="Category: Serology">
-        <label class="form-check-label" for="ts_sero">Serologi</label>
+        <label class="form-check-label" for="ts_sero">Serologie</label>
       </div>
       <div class="form-check">
         <input type="checkbox" class="form-check-input" id="t_samha" name="topic" value="Category: Social Science & Humanities">
-        <label class="form-check-label" for="t_samha">Samhällsvetenskap och humaniora</label>
+        <label class="form-check-label" for="t_samha">Sociale wetenschappen</label>
       </div>
       <div class="form-check">
         <input type="checkbox" class="form-check-input" id="t_ovriga" name="topic" value="Category: Other">
-        <label class="form-check-label" for="t_ovriga">Övriga</label>
+        <label class="form-check-label" for="t_ovriga">Anders</label>
       </div>
       {{ else }}
       <div class="form-check">
@@ -113,7 +113,7 @@
       <div class="form-check">
         <input type="checkbox" class="form-check-input" id="data_avail" name="data_available" value="data available">
         <label class="form-check-label" for="data_avail">
-          {{ if eq $.Site.Language.LanguageName "Svenska" }}Tillgängliga data{{ else }}Data
+          {{ if eq $.Site.Language.LanguageName "Nederlands" }}Beschikbare data{{ else }}Data
         </label>
         available{{ end }}
       </div>
@@ -122,25 +122,25 @@
       <div class="form-check">
         <input type="checkbox" class="form-check-input" id="ty_journel" name="pub_type" value="Type: Journal article">
         <label class="form-check-label" for="ty_journel">
-          {{ if eq $.Site.Language.LanguageName "Svenska" }}Tidskrift{{ else }}Journal article{{ end }}
+          {{ if eq $.Site.Language.LanguageName "Nederlands" }}Artikelen{{ else }}Journal article{{ end }}
         </label>
       </div>
       <div class="form-check">
         <input type="checkbox" class="form-check-input" id="ty_review" name="pub_type" value="Type: Review">
         <label class="form-check-label" for="ty_review">
-          {{ if eq $.Site.Language.LanguageName "Svenska" }}Review{{ else }}Review{{ end }}
+          {{ if eq $.Site.Language.LanguageName "Nederlands" }}Reviews{{ else }}Review{{ end }}
         </label>
       </div>
       <div class="form-check">
         <input type="checkbox" class="form-check-input" id="ty_prepri" name="pub_type" value="Type: Preprint">
         <label class="form-check-label" for="ty_prepri">
-          {{ if eq $.Site.Language.LanguageName "Svenska" }}Preprint{{ else }}Preprint{{ end }}
+          {{ if eq $.Site.Language.LanguageName "Nederlands" }}Preprint{{ else }}Preprint{{ end }}
         </label>
       </div>
       <div class="form-check">
         <input type="checkbox" class="form-check-input" id="ty_other" name="pub_type" value="Type: Other">
         <label class="form-check-label" for="ty_other">
-          {{ if eq $.Site.Language.LanguageName "Svenska" }}Annan{{ else }}Other{{ end }}
+          {{ if eq $.Site.Language.LanguageName "Nederlands" }}Anders{{ else }}Other{{ end }}
         </label>
       </div>
       
