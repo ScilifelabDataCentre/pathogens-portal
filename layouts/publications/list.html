@@ -164,34 +164,8 @@
       
       <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_funder }}</h5>
         <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="f_forte" name="funder" value="Funder: Forte">
-          <label class="form-check-label" for="f_forte">Forte</label>
-        </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="f_h2020" name="funder" value="Funder: H2020">
-          <label class="form-check-label" for="f_h2020">H2020</label>
-        </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="f_hjart" name="funder" value="Funder: Hjärt-Lungfonden">
-          <label class="form-check-label" for="f_hjart">Hjärt-Lungfonden</label>
-        </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="f_kaw" name="funder" value="Funder: KAW/SciLifeLab">
-          <label class="form-check-label" for="f_kaw">KAW/SciLifeLab</label>
-        </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="f_nord" name="funder" value="Funder: NordForsk">
-          <label class="form-check-label" for="f_nord">NordForsk</label>
-        </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="f_veten" name="funder" value="Funder: VR">
-          <label class="form-check-label" for="f_veten">
-            {{ if eq $.Site.Language.LanguageName "Svenska" }}Vetenskapsrådet{{ else }}Swedish Research Council{{ end}}
-          </label>
-        </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="f_vin" name="funder" value="Funder: Vinnova">
-          <label class="form-check-label" for="f_vin">Vinnova</label>
+          <input type="checkbox" class="form-check-input" id="f_zonmw" name="funder" value="Funder: ZonMw">
+          <label class="form-check-label" for="f_zonmw">ZonMw</label>
         </div>
     </div>
     
@@ -292,15 +266,15 @@
   }
     {{ else }}
     "language": {
-    "lengthMenu": "Visa _MENU_ poster per sida",
-    "zeroRecords": "Inga resultat",
-    "info": "Visar _START_-_END_ av _TOTAL_ poster",
-    "infoEmpty": "Inga resultat",
-    "infoFiltered": "(filtrerad av _MAX_ poster).",
-    "search": "Sök:",
+    "lengthMenu": "Laat _MENU_ resultaten zien per pagina",
+    "zeroRecords": "Niks gevonden",
+    "info": "_START_-_END_ van _TOTAL_ resultaten zijn zichtbaar",
+    "infoEmpty": "Geen resultaten gevonden",
+    "infoFiltered": "(gefilterd op basis van _MAX_ resultaten).",
+    "search": "Zoek:",
     "paginate": {
-      "first": "Första",
-      "last": "Sista",
+      "first": "Eerste",
+      "last": "Laatste",
       "next": "»",
       "previous": "«"
     }
