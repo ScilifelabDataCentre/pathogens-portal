@@ -5,10 +5,10 @@ title: Programs and organisations behind the portal
 <div class="mb-4">
   <ul class="nav nav-tabs nav-justified">
     <li class="nav-item">
-      <a class="nav-link active" href="#"><b>Programs & organisations<br>behind the portal</b></a>
+      <a class="nav-link" href="../">Overview<br><br></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/content/english/about/partner_organisations.md">Partner organisations<br><br></a>
+      <a class="nav-link" href="../partner_organisations">Partner organisations<br><br></a>
     </li>
   </ul>
 </div>
