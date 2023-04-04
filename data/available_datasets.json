@@ -25,6 +25,31 @@
                 "",
                 ""
             ]
-        }     
+        },
+        {
+            "doi": "",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "Clinical-Epidemiological (CE) dataset from an Erasmus MC COVID-19 cohort",
+                    "accession_number": "",
+                    "description": "Clinical-Epidemiological (CE) data from Erasmuc MC cohort of 151 individuals who tested positive on COVID-19.",
+                    "data_type": [
+                        "Biochemistry data",
+                        "Public health data"
+                    ],
+                    "data_url": "https://ega-archive.org/datasets/EGAD00001009748"
+                }
+            ],
+            "title": "COVID-NL clinical data",
+            "issue": "",
+            "volume": "",
+            "publisher": "European Genome-Phenome Archive (EGA)",
+            "published": "",
+            "author": [
+                "Prof. Dr. Eric van Gorp",
+                ""
+            ]
+        }
     ]
 }
