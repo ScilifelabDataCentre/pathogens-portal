@@ -2,48 +2,48 @@
 
 {{ .Content }}
 
-<form class="needs-validation" novalidate method="POST" action="https://forms.dckube.scilifelab.se/api/v1/form/lUoBU4hTkbqkNYcs/incoming" accept-charset="utf-8">
-  <h2>{{ if eq $.Site.Language.LanguageName "Svenska" }}Kontakta oss{{ else }}Contact and suggestions form{{ end }}</h2>
-  <div class="mb-3 mt-3">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen fyll i detta formulär för att ge förslag till portalen eller för frågor rörande datadelning eller datahantering. Vänligen fyll i dina kontaktuppgifter om du vill att vi besvarar ditt ärende. Teamet som arbetar med den <i>Svenska Dataportalen för Covid-19 & Pandemisk Beredskap</i> kommer att skicka ett svar inom ett par dagar. {{ else }}Please fill out this form to make suggestions for the <i>Swedish COVID-19 & Pandemic Preparedness Data Portal</i> or to ask a data management or data sharing question. Please provide your contact information if you would like to receive a response. The data portal team will send you a response within the next couple of days.{{ end }}</div>
+<form class="needs-validation" novalidate method="POST" action="https://forms.dckube.scilifelab.nl/api/v1/form/lUoBU4hTkbqkNYcs/incoming" accept-charset="utf-8">
+  <h2>{{ if eq $.Site.Language.LanguageName "Nederlands" }}Neem contact op{{ else }}Contact and suggestions form{{ end }}</h2>
+  <div class="mb-3 mt-3">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Vul dit formulier in voor vragen over de <i>Nederlandse COVID-19 & Pandemic Preparedness Data Portal</i>. Laat je contact informatie achter als je graag op de hoogte gehouden wil worden.{{ else }}Please fill out this form to make suggestions for the <i>Swedish COVID-19 & Pandemic Preparedness Data Portal</i> or to ask a data management or data sharing question. Please provide your contact information if you would like to receive a response.{{ end }}</div>
   <div class="form-group row">
-    <label for="name" class="col-sm-3 col-form-label"><b>{{ if eq $.Site.Language.LanguageName "Svenska" }}Namn:*{{ else }}Name:*{{ end }}</b></label>
+    <label for="name" class="col-sm-3 col-form-label"><b>{{ if eq $.Site.Language.LanguageName "Nederlands" }}Naam:*{{ else }}Name:*{{ end }}</b></label>
     <div class="col-sm-9 py-2">
-      <input type="text" class="form-control" id="name" name="name" placeholder="{{ if eq $.Site.Language.LanguageName "Svenska" }}Namn{{ else }}Name{{ end }}" required>
-      <small class="form-text text-muted">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen ange dina kontaktuppgifter om du vill få ett svar från oss, om inte behöver du inte ange dina kontaktuppgifter.{{ else }}Please provide your name in case you would like to receive a response from us. In other cases, name is not required.{{ end }}</small>
+      <input type="text" class="form-control" id="name" name="name" placeholder="{{ if eq $.Site.Language.LanguageName "Nederlands" }}Naam{{ else }}Name{{ end }}" required>
+      <small class="form-text text-muted">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Vul je naam in als je graag op de hoogte gehouden wil worden, anders hoeft het niet.{{ else }}Please provide your name in case you would like to receive a response from us. In other cases, name is not required.{{ end }}</small>
     </div>
   </div>
   <div class="form-group row my-3">
     <label for="email" class="col-sm-3 col-form-label"><b>E-mail:*</b></label>
     <div class="col-sm-9 py-2">
       <input type="email" class="form-control" id="email" name="email" placeholder="E-mail" required>
-      <small class="form-text text-muted">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen ange dina kontaktuppgifter om du vill få ett svar från oss, om inte behöver du inte ange dina kontaktuppgifter.{{ else }}Please provide your e-mail address in case you would like to receive a response from us. In other cases, the e-mail address is not required.{{ end }}</small>
+      <small class="form-text text-muted">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Vul je e-mail adres in waarop je bereikt kan worden (niet vereist).{{ else }}Please provide your e-mail address in case you would like to receive a response from us. In other cases, the e-mail address is not required.{{ end }}</small>
     </div>
   </div>
   <div class="form-group row suggestion_type">
-    <div class="col-sm-3"><b>{{ if eq $.Site.Language.LanguageName "Svenska" }}Vilken typ av fråga eller kommentar rör ditt ärende?*{{ else }}What kind of a question or suggestion do you have?*{{ end }}</b></div>
+    <div class="col-sm-3"><b>{{ if eq $.Site.Language.LanguageName "Nederlands" }}Wat voor een vraag heb je?*{{ else }}What kind of a question or suggestion do you have?*{{ end }}</b></div>
     <div class="col-sm-9">
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="suggestion" name="suggestion" required>
-        <label class="form-check-label" for="suggestion">{{ if eq $.Site.Language.LanguageName "Svenska" }}Ge förslag till Portalen{{ else }}Suggestion for the Portal{{ end }}</label>
+        <label class="form-check-label" for="suggestion">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Suggestie voor het Portal{{ else }}Suggestion for the Portal{{ end }}</label>
       </div>
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="dm_support" name="dm_support" required>
-        <label class="form-check-label" for="dm_support">{{ if eq $.Site.Language.LanguageName "Svenska" }}Efterfrågar support för datadelning eller datahantering{{ else }}Request for help with data management or data sharing questions{{ end }}</label>
+        <label class="form-check-label" for="dm_support">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Vraag over data management of het delen van data{{ else }}Request for help with data management or data sharing questions{{ end }}</label>
       </div>
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="other" name="other" required>
-        <label class="form-check-label" for="other">{{ if eq $.Site.Language.LanguageName "Svenska" }}Övrigt{{ else }}Other{{ end }}</label>
-        <div class="invalid-feedback">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen välj minst ett alternativ.{{ else }}Please select at least one alternative.{{ end }}</div>
+        <label class="form-check-label" for="other">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Anders{{ else }}Other{{ end }}</label>
+        <div class="invalid-feedback">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Selecteer minimaal 1 alternatief.{{ else }}Please select at least one alternative.{{ end }}</div>
       </div>
-      <small class="form-text text-muted">{{ if eq $.Site.Language.LanguageName "Svenska" }}Du kan ställa en fråga eller ge ett förslag detta formulär.{{ else }}You can ask a question or suggest one or more items using this form.{{ end }}</small>
+      <small class="form-text text-muted">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Je kunt met dit formulier een vraag stellen of suggesties doen.{{ else }}You can ask a question or suggest one or more items using this form.{{ end }}</small>
     </div>
   </div>
   <div class="form-group row pt-3">
-    <label for="description" class="col-sm-3 col-form-label"><b>{{ if eq $.Site.Language.LanguageName "Svenska" }}Frågor och förslag:*{{ else }}Question or suggestion:*{{ end }}</b></label>
+    <label for="description" class="col-sm-3 col-form-label"><b>{{ if eq $.Site.Language.LanguageName "Nederlands" }}Vragen of suggesties:*{{ else }}Question or suggestion:*{{ end }}</b></label>
     <div class="col-sm-9 py-3">
       <textarea class="form-control" id="description" name="description" rows=5 required></textarea>
-      <small class="form-text text-muted">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen beskriv ditt ärende, exempelvis att dela ditt eget dataset, att lägga till en doi till ett dataset, projekt, preprint, etc.{{ else }}Please describe what you need help with (e.g., sharing your own dataset) or provide link(s) and/or DOI(s) to your suggested dataset, project, publication, preprint, etc. and anything else that we should know.{{ end }}</small>
-      <div class="invalid-feedback">{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen beskriv din fråga eller ge en kommentar.{{ else }}Please describe what question you have or what you are suggesting.{{ end }}</div>
+      <small class="form-text text-muted">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Omschrijf waar je hulp bij nodig hebt.{{ else }}Please describe what you need help with (e.g., sharing your own dataset) or provide link(s) and/or DOI(s) to your suggested dataset, project, publication, preprint, etc. and anything else that we should know.{{ end }}</small>
+      <div class="invalid-feedback">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Beschrijf je vraag of suggestie.{{ else }}Please describe what question you have or what you are suggesting.{{ end }}</div>
     </div>
   </div>
   <div class="g-recaptcha" data-sitekey="6LesV0gaAAAAAGFjazG7Hd_hN72cpeYm2woivBT3"></div>
@@ -51,21 +51,21 @@
   <input type='hidden' name='origin' value='general_contact'>
   <div class="form-group row">
     <div class="col-sm-9">
-        <button type="submit" class="btn btn-secondary mt-3">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skicka in formuläret{{ else }}Submit the form{{ end }}</button>
+        <button type="submit" class="btn btn-secondary mt-3">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Verzend het formulier{{ else }}Submit the form{{ end }}</button>
     </div>
   </div>
 </form>
 
-{{ if eq $.Site.Language.LanguageName "Svenska" }}
+{{ if eq $.Site.Language.LanguageName "Nederlands" }}
 <h3>Integritetspolicy</h3>
-<p>De personuppgifter du anger i det här formuläret, ditt namn och din e-postadress kommer att användas för att bearbeta ditt förslag om tillagd resurs till <a href="https://covid19dataportal.se/">svenska dataportalen för covid-19</a>. Dataportalen är en tjänst som drivs av SciLifeLab Data Center på uppdrag från Vetenskapsrådet. Den tjänar till att rikta <a href="https://www.regeringen.se/regeringsuppdrag/2020/05/uppdrag-om-svensk-samordning-och-deltagande-i-eu-kommissionens-covid-19-dataplattform/">regeringsuppdraget till Vetenskapsrådet</a> att delta i den europeiska plattformen för öppna data för covid-19-forskning. </p>
-<p>Insamlade personuppgifter kommer endast behandlas i forskningssyfte i enlighet med Europaparlamentets och rådets förordning (EU) 2016/679 av den 27 april 2016 om skydd för fysiska personer med avseende på behandling av personuppgifter och om det fria flödet av sådana uppgifter och om upphävande av direktiv 95/46/EG (allmän dataskyddsförordning).</p>
-<p>Följande parter kommer ha tillgång till personuppgifter som anges i dessa formulär: SciLifeLab Data Centre, Uppsala universitet. Dina personuppgifter kommer att raderas när de inte längre är nödvändiga eller enligt universitetets policy for arkivering. Om du vill uppdatera eller radera dina personuppgifter vänligen kontakta controller SciLifeLab Data Centre vid Uppsala universitet via epost datacentre@scilifelab.se.</p>
+<p>Persoonlijke data in dit formulier, je naam en e-mail adres, zullen gebruikt worden om je suggestie te verwerken voor het <a href="https://covid19dataportal.nl/">Nederlands COVID-19 Data Portal</a>. Dit Data Portal is een service die geboden wordt door ?? in opdracht van ?? en heeft als doel om mee te doen aan het Europees open data platform voor COVID-19 onderzoek.</p>
+<p>Je informatie zal worden verwerkt voor onderzoeksdoeleinde, i.e. using the lawful basis of public interest and in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016, the General Data Protection Regulation.</p>
+<p>De volgende partijen hebben toegang tot je persoonlijke data: ??. Je persoonlijke data zal verwijderd worden als deze niet meer nodig zijn, of als de bewaartermijn verstreken is. Wil je je persoonlijke data updaten of verwijderen, neem dan contact op.</p>
 {{ else }}
 <h3>Personal data policy</h3>
-<p>The personal data you provide in this form, your name and email address, will be used to process your suggestion of added resource to the <a href="https://covid19dataportal.se">Swedish COVID-19 Data Portal</a>. The Data Portal is a service run by the SciLifeLab Data Centre on assignment from the Swedish Research Council (Vetenskapsrådet). It serves to address <a href="https://www.regeringen.se/regeringsuppdrag/2020/05/uppdrag-om-svensk-samordning-och-deltagande-i-eu-kommissionens-covid-19-dataplattform/">the government assignment to the Swedish Research Council</a> to participate in the European open data platform for COVID-19 research.</p>
+<p>The personal data you provide in this form, your name and email address, will be used to process your suggestion of added resource to the <a href="https://covid19dataportal.se">Swedish COVID-19 Data Portal</a>. The Data Portal is a service run by ?? on assignment from ??. It serves to participate in the European open data platform for COVID-19 research.</p>
 <p>The information you provide will be processed for research purposes, i.e. using the lawful basis of public interest and in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016, the General Data Protection Regulation.</p>
-<p>The following parties will have access to processing your personal data: SciLifeLab Data Centre, Uppsala University. Your personal data will be deleted when no longer needed, or when stipulated by the archival rules for the university as a government authority. If you want to update or remove your personal data please contact the controller SciLifeLab Data Centre at Uppsala University using datacentre@scilifelab.se.</p>
+<p>The following parties will have access to processing your personal data: SciLifeLab Data Centre, Uppsala University. Your personal data will be deleted when no longer needed, or when stipulated for removal. If you want to update or remove your personal data please contact ??.</p>
 {{ end }}
 
 <script>
@@ -73,14 +73,14 @@
   form.addEventListener('submit', function(event){
       if(form.checkValidity() === false) {
         event.preventDefault();
-        alert("{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen fyll i alla obligatoriska fält.{{ else }}Please fill out all required fields.{{ end }}");
+        alert("{{ if eq $.Site.Language.LanguageName "Nederlands" }}Vul alle benodigde velden in.{{ else }}Please fill out all required fields.{{ end }}");
         event.stopPropagation();
         form.classList.add('was-validated')
       }
       var recaptcha = $("#g-recaptcha-response").val();
       if (recaptcha === "") {
           event.preventDefault();
-          alert("{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen markera 'I'm not a robot' ovanför 'Skicka' -knappen.{{ else }}Please tick 'I'm not a robot' above the 'Submit' button.{{ end }}");
+          alert("{{ if eq $.Site.Language.LanguageName "Nederlands" }}Vink 'I'm not a robot' boven de 'Verzenden' knop aan.{{ else }}Please tick 'I'm not a robot' above the 'Submit' button.{{ end }}");
       }
   })
 
