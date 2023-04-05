@@ -5,8 +5,6 @@ menu:
         identifier: imaging
         name: Imaging data
 aliases:
-    - /sv/data_types/imaging_data/data/
-    - /sv/data_types/imaging_data/
     - /data_types/imaging_data/
     - /data_types/imaging_data/data/
 ---
