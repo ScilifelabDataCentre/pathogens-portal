@@ -6,8 +6,6 @@ menu:
         name: Biochemistry data
 aliases:
     - /data_types/compound_and_target_data/
-    - /sv/data_types/compound_and_target_data/
-    - /sv/data_types/compound_and_target_data/data/
     - /data_types/compound_and_target_data/data/
 ---
 ## Published Data
