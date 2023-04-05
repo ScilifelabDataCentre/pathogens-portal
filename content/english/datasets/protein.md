@@ -5,8 +5,6 @@ menu:
         identifier: protein
         name: Protein data
 aliases:
-    - /sv/data_types/protein_data/data/
-    - /sv/data_types/protein_data/
     - /data_types/protein_data/
     - /data_types/protein_data/data/
 ---
