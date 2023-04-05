@@ -5,7 +5,6 @@ menu:
         identifier: other
         name: Other data
 aliases:
-    - /sv/data_types/other_data/data/
     - /data_types/other_data/data/
 ---
 ## Published Data
