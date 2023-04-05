@@ -5,8 +5,6 @@ menu:
         identifier: health
         name: Health data
 aliases:
-    - /sv/data_types/health_data/data/
-    - /sv/data_types/health_data/
     - /data_types/health_data/
     - /data_types/health_data/data/
 ---
