@@ -5,8 +5,6 @@ menu:
         identifier: genomics
         name: Genomics & transcriptomics data
 aliases:
-    - /sv/data_types/genomics_transcriptomics/data/
-    - /sv/data_types/genomics_transcriptomics/
     - /data_types/genomics_transcriptomics/
     - /data_types/genomics_transcriptomics/data/
 ---
