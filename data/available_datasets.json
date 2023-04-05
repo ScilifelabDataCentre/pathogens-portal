@@ -17,12 +17,12 @@
                 }
             ],
             "title": "COVID-NL clinical data",
-            "issue": " ",
-            "volume": " ",
+            "issue": "",
+            "volume": "",
             "publisher": "Health-RI",
             "published": " ",
             "author": [
-                " "
+                ""
             ]
         },
         {
@@ -47,6 +47,30 @@
             "published": "",
             "author": [
                 "Prof. Dr. Eric van Gorp"
+            ]
+        },
+        {
+            "doi": "",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "SARS-CoV-2 pathogen surveillance",
+                    "accession_number": "",
+                    "description": "Sequence analysis on a random samplin of test samples collected throughout the Netherlands.",
+                    "data_type": [
+                        "Biochemistry data",
+                        "Public health data"
+                    ],
+                    "data_url": "https://gisaid.org/"
+                }
+            ],
+            "title": "SARS-CoV-2 pathogen surveillance",
+            "issue": "",
+            "volume": "",
+            "publisher": "GISAID",
+            "published": "",
+            "author": [
+                "RIVM"
             ]
         }
     ]
