@@ -5,7 +5,6 @@ menu:
         identifier: public_health
         name: Public health data
 aliases:
-    - /sv/data_types/public_health/data/
     - /data_types/public_health/data/
 ---
 ## Published Data
