@@ -1,15 +1,15 @@
 {
     "items": [
         {
-            "title": "Example",
+            "title": "Workshops on delivering FAIR metadata for COVID-19 data portal",
             "type": "Workshop",
-            "date_start": "2023-03-01",
-            "time_start": "08:00",
-            "time_end": "17:00",
-            "venue": "JIM",
-            "organisers": "Lygature",
-            "event_url": "https://www.lygature.org/",
-            "description": "Example dummy workshop."
+            "date_start": "",
+            "time_start": "",
+            "time_end": "",
+            "venue": "Online",
+            "organisers": "Health-RI",
+            "event_url": "https://www.health-ri.nl/initiatives/dutch-covid-19-data-support-programme/workshops-delivering-fair-metadata-covid-19-data",
+            "description": "The Dutch research community and health care system are generating much COVID-19 related data. Health-RI and the GO FAIR foundation are developing a portal together with ZonMw that will help researchers find and reuse this data. Access to COVID-19 related data is essential in developing optimal ways of preventing the disease, treating patients and managing the impact of the pandemic for society."
         }
     ]
 }
