@@ -13,7 +13,7 @@ aliases:
 ---
 <div class="alert alert-info">
   <i class="bi bi-exclamation-triangle-fill"></i>
-  <span>En svensk översättning av denna sida kommer inom kort.</span>
+  <span>Uppgifterna på den här sidan uppdateras inte längre vid datakällan. Vi utvärderar för närvarande användningen av andra datakällor för vaccindata. Se vår <a href="/dashboards/recovac/">RECOVAC dashboard</a> för mer information om vaccin effektivitet och säkerhet (denna dashboard är endast tillgänglig på engelska).</span>
 </div>
 
 ## General information on COVID-19 vaccines
