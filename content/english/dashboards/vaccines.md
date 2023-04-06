@@ -11,6 +11,11 @@ aliases:
     - /data_types/health_data/vaccines/
 ---
 
+<div class="alert alert-info">
+  <i class="bi bi-exclamation-triangle-fill"></i>
+  <span>The data on this page is no longer updated at the data source. We are currently assessing the use of other data sources for vaccine data. Please see our <a href="/dashboards/recovac/">RECOVAC dashboard</a> for information on vaccine effectiveness and safety.</span>
+</div>
+
 ## General information on COVID-19 vaccines
 
 Over the last two years, the COVID-19 pandemic has challenged societies and healthcare systems worldwide. In response, vaccines and therapeautic treatments have been rapidly developed. To date (October 2022), the [European Medicines Agency (EMA)](https://www.ema.europa.eu/en) has approved six vaccines against COVID-19:

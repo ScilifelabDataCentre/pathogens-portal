@@ -1,6 +1,96 @@
 {
-    "last_updated": "2023-03-03",
+    "last_updated": "2023-04-05",
     "datasets": [
+        {
+            "doi": "10.1016/j.tbench.2023.100088",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "Mendeley Data",
+                    "accession_number": "",
+                    "description": "COVID19, Pneumonia, and Normal Chest X-ray Posteroanterior Dataset",
+                    "data_type": [
+                        "Health data"
+                    ],
+                    "data_url": "https://data.mendeley.com/datasets/mxc6vb7svm"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Scripts used in this project to analyse the datasets",
+                    "data_type": [
+                        "Health data"
+                    ],
+                    "data_url": "https://github.com/Asraf047/COVID19-CNN-RNN"
+                }
+            ],
+            "title": "Diagnosis of COVID-19 from X-rays using combined CNN-RNN architecture with transfer learning",
+            "issue": "4",
+            "volume": "2",
+            "publisher": "Elsevier BV",
+            "published": "2023-03-27",
+            "author": [
+                "Islam M. M.",
+                "Islam M. Z.",
+                "Asraf A.",
+                "Al-Rakhami M. S.",
+                "Ding W."
+            ]
+        },
+        {
+            "doi": "10.1371/journal.pgph.0001110",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "FigShare",
+                    "accession_number": "",
+                    "description": "Fully anonymised data from two cross-sectional surveys",
+                    "data_type": [
+                        "Public health data",
+                        "Other data"
+                    ],
+                    "data_url": "https://figshare.com/articles/dataset/Community_survey_data_from_the_DClare_Project_Faridpur_District_Bangladesh/19337831/1"
+                }
+            ],
+            "title": "Changes in non-communicable diseases, diet and exercise in a rural Bangladesh setting before and after the first wave of COVID-19",
+            "issue": "9",
+            "volume": "2",
+            "publisher": "Public Library of Science (PLoS)",
+            "published": "2022-09-30",
+            "author": [
+                "King C.",
+                "Shaha S. K.",
+                "Morrison J.",
+                "Ahmed N.",
+                "Kuddus A."
+            ]
+        },
+        {
+            "doi": "10.1371/journal.pgph.0001204",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "Zenodo",
+                    "accession_number": "",
+                    "description": "Municipal-level vaccination data compiled from several publicly available data sources",
+                    "data_type": [
+                        "Public health data"
+                    ],
+                    "data_url": "https://zenodo.org/record/6983689#YvVPOHZBw2z"
+                }
+            ],
+            "title": "Variations in vaccination uptake: COVID-19 vaccination rates in Swedish municipalities",
+            "issue": "10",
+            "volume": "2",
+            "publisher": "Public Library of Science (PLoS)",
+            "published": "2022-10-20",
+            "author": [
+                "Larsson E. C.",
+                "Wittberg E.",
+                "Lundåsen S. W."
+            ]
+        },
         {
             "doi": "10.3390/ijerph20043642",
             "available_items": [
