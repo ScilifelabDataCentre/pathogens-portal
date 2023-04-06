@@ -2,42 +2,15 @@
     "last_updated": "2023-04-05",
     "datasets": [
         {
-            "doi": "10.2807/1560-7917.ES.2023.28.11.2200673",
-            "available_items": [
-                {
-                    "type": "data",
-                    "repo_name": "ENA",
-                    "accession_number": "PRJEB58691",
-                    "description": "Legionella isolates sequencing data",
-                    "data_type": [
-                        "Genomics & transcriptomics data"
-                    ],
-                    "data_url": "https://www.ebi.ac.uk/ena/browser/view/PRJEB58691"
-                }
-            ],
-            "title": "Tap water as the source of a Legionnaires’ disease outbreak spread to several residential buildings and one hospital, Finland, 2020 to 2021",
-            "issue": "11",
-            "volume": "28",
-            "publisher": "European Centre for Disease Control and Prevention (ECDC)",
-            "published": "2023-03-16",
-            "author": [
-                "Mentula S.",
-                "Kääriäinen S.",
-                "Jaakola S.",
-                "Niittynen M.",
-                "Airaksinen P."
-            ]
-        },
-        {
             "doi": "10.1016/j.tbench.2023.100088",
             "available_items": [
                 {
                     "type": "data",
                     "repo_name": "Mendeley Data",
                     "accession_number": "",
-                    "description": "COVID19, Pneumonia and Normal Chest X-ray PA Dataset",
+                    "description": "COVID19, Pneumonia, and Normal Chest X-ray Posteroanterior Dataset",
                     "data_type": [
-                        "Public health data"
+                        "Health data"
                     ],
                     "data_url": "https://data.mendeley.com/datasets/mxc6vb7svm"
                 },
@@ -47,7 +20,7 @@
                     "accession_number": "",
                     "description": "Scripts used in this project to analyse the datasets",
                     "data_type": [
-                        "Public health data"
+                        "Health data"
                     ],
                     "data_url": "https://github.com/Asraf047/COVID19-CNN-RNN"
                 }
@@ -91,31 +64,6 @@
                 "Morrison J.",
                 "Ahmed N.",
                 "Kuddus A."
-            ]
-        },
-        {
-            "doi": "10.1371/journal.pgph.0001204 ",
-            "available_items": [
-                {
-                    "type": "data",
-                    "repo_name": "Zenodo",
-                    "accession_number": "",
-                    "description": "Municipal-level vaccination data compiled from several publicly available data sources",
-                    "data_type": [
-                        "Public health data"
-                    ],
-                    "data_url": "https://zenodo.org/record/6983689#YvVPOHZBw2z"
-                }
-            ],
-            "title": "Variations in vaccination uptake: COVID-19 vaccination rates in Swedish municipalities",
-            "issue": "10",
-            "volume": "2",
-            "publisher": "Public Library of Science (PLoS)",
-            "published": "2022-10-20",
-            "author": [
-                "Larsson E. C.",
-                "Wittberg E.",
-                "Lundåsen S. W."
             ]
         },
         {
