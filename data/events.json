@@ -100,6 +100,17 @@
             "description": "Webinar from the Uppsala Antibiotic Center by the keynote speaker indicated. Please see the website for more details closer to the event date. No registration needed unless indicated otherwise on the Uppsala Antibiotic Center page."
         },
         {
+            "title": "Drugs, pharmaceuticals and contaminants: What wastewater can reveal about your neighbours",
+            "type": "Seminar",
+            "date_start": "2023-05-03",
+            "time_start": "12:00",
+            "time_end": "12:45",
+            "venue": "Stockholm",
+            "organisers": "WaterCentre at KTH",
+            "event_url": "https://www.kth.se/form/watercentre-kth-lunch-seminar-3-may-2023",
+            "description": "Are you interested in Water Research? Join WaterCentre@KTH's lunch seminar with Lluís Corominas from Catalan Institute for Water Research (ICRA)."
+        },
+        {
             "title": "Vad innebär den nya biobankslagen",
             "type": "Webinar",
             "date_start": "2023-05-03",
