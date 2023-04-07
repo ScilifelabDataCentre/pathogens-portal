@@ -14,31 +14,6 @@
           <li class="nav-item"><a class="nav-link {{ .Post }}" href="{{ .Page.RelPermalink }}">{{ .Pre }}{{ .Name }}</a>
           </li>
           {{ end }}
-          {{ if .IsTranslated }}
-          {{ range .AllTranslations }}
-          <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span
-                lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"
-                  alt=""></span></a></li>
-          {{ end }}
-          {{ else if .Parent.IsTranslated }}
-          <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span
-                lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"
-                  alt=""></span></a></li>
-          <li class="nav-item"><a class="nav-link" href="/nl{{ relURL .Parent.Permalink }}"><span lang="nl">nl <img
-                  src="/img/flag-nl.svg" alt=""></span></a></li>
-          {{ else if .Parent.Parent.IsTranslated }}
-          <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span
-                lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"
-                  alt=""></span></a></li>
-          <li class="nav-item"><a class="nav-link" href="/nl{{ relURL .Parent.Parent.Permalink }}"><span lang="nl">nl
-                <img src="/img/flag-nl.svg" alt=""></span></a></li>
-          {{ else }}
-          {{ range $.Site.Home.AllTranslations }}
-          <li class="nav-item navbar-languages"><a class="nav-link" href="{{ relURL .Permalink }}"><span
-                lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"
-                  alt=""></span></a></li>
-          {{ end }}
-          {{ end }}
         </ul>
       </div>
     </div>
@@ -49,33 +24,6 @@
 <nav class="navbar navbar-expand-lg navbar-light pt-0">
   <div class="container">
     <div class="collapse navbar-collapse" id="navbarCollapseBottom">
-      <ul class="navbar-nav d-lg-none nav-languages">
-        {{ if .IsTranslated }}
-        {{ range .AllTranslations }}
-        <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"
-            lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"
-              alt=""></a></li>
-        {{ end }}
-        {{ else if .Parent.IsTranslated }}
-        <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"
-            lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"
-              alt=""></a></li>
-        <li class="nav-item"><a class="nav-link" href="/nl{{ relURL .Parent.Permalink }}" lang="nl">Nederlands <img
-              src="/img/flag-nl.svg" alt=""></a></li>
-        {{ else if .Parent.Parent.IsTranslated }}
-        <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"
-            lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"
-              alt=""></a></li>
-        <li class="nav-item"><a class="nav-link" href="/nl{{ relURL .Parent.Parent.Permalink }}" lang="nl">Nederlands <img
-              src="/img/flag-nl.svg" alt=""></a></li>
-        {{ else }}
-        {{ range $.Site.Home.AllTranslations }}
-        <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"
-            lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"
-              alt=""></a></li>
-        {{ end }}
-        {{ end }}
-      </ul>
       <hr class="d-lg-none">
       <ul class="navbar-nav d-lg-none">
         {{ range .Site.Menus.top_actions }}
@@ -89,7 +37,6 @@
 </nav>
 
 <!-- Main menu, English version -->
-{{ if eq $.Site.Language.LanguageName "English" }}
 <div class="container mb-1">
   <div class="row main_menu">
     <div class="col-lg-5">
@@ -128,29 +75,3 @@
     </div>
   </div>
 </div>
-{{ end }}
-
-<!-- Main menu, Swedish version -->
-{{ if eq $.Site.Language.LanguageName "Nederlands" }}
-<div class="container mb-1">
-  <div class="row main_menu">
-    {{ range .Site.Menus.swe_menu }}
-      <div class="col-md-auto main_menu_item">
-        {{ if .HasChildren }}
-          <i class="bi bi-window-stack"></i>
-          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-           data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
-           aria-expanded="false">{{ .Name }}</a>
-          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
-            {{ range .Children }}
-              <a class="dropdown-item m-0" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
-            {{ end }}
-          </div>
-        {{ else }}
-          <i class="bi bi-journal-text"></i> <a href="/nl/biobanks/">{{ .Name }}</a>
-        {{ end }}
-      </div>
-    {{ end }}
-  </div>
-</div>
-{{ end }}
