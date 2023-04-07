@@ -18,9 +18,8 @@
         {{ end }}
         {{ end }}
         <li><a href="/dashboards/">Dashboards</a></li>
-        <li><a href="/biobanks/">Sample collection database</a></li>
         {{ if eq $.Site.Language.LanguageName "Nederlands" }}
-        {{ range .Site.Menus.swe_menu }}
+        {{ range .Site.Menus.ned_menu }}
         {{ if and (ne .Name "Over het Portal") (ne .Name "Contact") }}
         <li><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
         {{ end }}
