@@ -3,8 +3,8 @@
 {{ .Content }}
 
 <form class="needs-validation" novalidate method="POST" action="https://forms.dckube.scilifelab.nl/api/v1/form/lUoBU4hTkbqkNYcs/incoming" accept-charset="utf-8">
-  <h2>{{ if eq $.Site.Language.LanguageName "Nederlands" }}Neem contact op{{ else }}Contact and suggestions form{{ end }}</h2>
-  <div class="mb-3 mt-3">{{ if eq $.Site.Language.LanguageName "Nederlands" }}Vul dit formulier in voor vragen over de <i>Nederlandse COVID-19 & Pandemic Preparedness Data Portal</i>. Laat je contact informatie achter als je graag op de hoogte gehouden wil worden.{{ else }}Please fill out this form to make suggestions for the <i>Dutch COVID-19 & Pandemic Preparedness Data Portal</i> or to ask a data management or data sharing question. Please provide your contact information if you would like to receive a response.{{ end }}</div>
+  <h2>Contact and suggestions form</h2>
+  <div class="mb-3 mt-3">Please fill out this form to make suggestions for the <i>Dutch COVID-19 & Pandemic Preparedness Data Portal</i> or to ask a data management or data sharing question. Please provide your contact information if you would like to receive a response.</div>
   <div class="form-group row">
     <label for="name" class="col-sm-3 col-form-label"><b>{{ if eq $.Site.Language.LanguageName "Nederlands" }}Naam:*{{ else }}Name:*{{ end }}</b></label>
     <div class="col-sm-9 py-2">
