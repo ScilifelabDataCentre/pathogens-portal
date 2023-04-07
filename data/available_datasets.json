@@ -61,7 +61,7 @@
                         "Biochemistry data",
                         "Public health data"
                     ],
-                    "data_url": "https://gisaid.org/"
+                    "data_url": "https://gisaid.org/hcov19-variants/"
                 }
             ],
             "title": "SARS-CoV-2 pathogen surveillance",
