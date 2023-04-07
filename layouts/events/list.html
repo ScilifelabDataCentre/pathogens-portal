@@ -119,7 +119,6 @@
 {{ $upcoming_events := slice }}
 {{ range sort $.Site.Data.events.items ".date_start" "asc" }}
 {{ $banner_date := cond (isset . "date_start") .date_start .registration_deadline }}
-{{ if ge ($banner_date | time.Format "20060102") (now | time.Format "20060102") }}
 {{ $upcoming_events = $upcoming_events | append . }}
 {{ end }}
 {{ end }}
