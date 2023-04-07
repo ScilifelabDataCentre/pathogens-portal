@@ -6,9 +6,6 @@
   <!-- Site meta -->
   <title>{{ if ne .Title "Home"}}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
   <meta name="description" content='{{ if .IsHome }}{{ .Param "description" }}{{ else }}{{ .Description }}{{ end }}'>
-  {{ if .IsTranslated }}{{ range .Translations }}
-  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ relURL .Permalink }}" title="{{ .Language.LanguageName }}">
-  {{ end }}{{ end }}
   <meta http-equiv="content-language" content="{{ .Site.Language.Lang }}">
 
   <!-- Favicons -->
