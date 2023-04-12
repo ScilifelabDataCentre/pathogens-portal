@@ -72,6 +72,31 @@
             "author": [
                 "RIVM"
             ]
+        },
+        {
+            "doi": "https://doi.org/10.1371/journal.pone.0253566",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "COVID RADAR app",
+                    "accession_number": "",
+                    "description": "Over a period of 2 years, a total of 280.000 Dutch inhabitants filled in a short questionnaire about Corona-related symptoms, behavior, vaccinationstatus and test result.",
+                    "data_type": [
+                        "Health data",
+                        "Public health data",
+                        "Social science and humanities data"
+                    ],
+                    "data_url": "https://doi.org/10.17026%2Fdans-zcd-m9dh"
+                }
+            ],
+            "title": "COVID RADAR app: Description and validation of population surveillance of symptoms and behavior in relation to COVID-19",
+            "issue": "16",
+            "volume": "6",
+            "publisher": "PLoS ONE",
+            "published": "2021",
+            "author": [
+                "van Dijk WJ", "Saadah NH", "Numans ME", "Aardoorn JJ", "Bonten TN", "Brandjes M", "Brust M", "le Cessie S", "Chavannes NH", "Middelburg RA", "Rosendaal F", "Visser LG", "Kiefte-de Jong J"
+            ]
         }
     ]
 }
