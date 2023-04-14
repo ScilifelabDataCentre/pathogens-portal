@@ -38,6 +38,7 @@
       </div>
     {{ end }}
 
+    {{ if ne $.Site.Language.LanguageName "Nederlands" }}
     <!-- Available data -->
     {{ $all_entries := $.Site.Data.available_datasets.datasets }}
     {{/*
@@ -58,6 +59,7 @@
     {{ end }}
     {{ $data_type_num_entries := dict $current_type $num_entries }}
     {{ $num_entries_per_data_type = merge $num_entries_per_data_type $data_type_num_entries }}
+    {{ end }}
 
     {{/*
       The following bit ensures that it is not necessary to copy the datatypes_to_display list in the Swedish version of the page
