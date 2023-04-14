@@ -28,7 +28,7 @@ menu:
 
 The *Dutch COVID-19 & Pandemic Preparedness Data Portal* provides information about available datasets, resources, tools, and services related to pandemic preparedness in the Netherlands. We offer support to all those involved in pandemic preparedness research that are affiliated with a Dutch research institution or university.
 
-The Portal is operated by [Lygature](https://www.lygature.org/) and [partners](organisations_and_programs). This website is built using [Hugo](https://gohugo.io/) in combination with [Bootstrap](https://getbootstrap.com/) for styling, [DataTables](https://datatables.net/) for tables, and [Vega/Vega-Lite](https://vega.github.io/vega-lite/) and [Plotly](https://plotly.com/) for interactive graphics. All code used for the Portal is open source (held under an [MIT licence](https://choosealicense.com/licenses/mit/)) and [is available on GitHub](https://github.com/ScilifelabDataCentre/covid-portal). We encourage the reuse of our code, either for generating another national portal, or recreating certain features.
+The Portal is operated by [Lygature](https://www.lygature.org/) and [partners](organisations_and_programs). This website is built using [Hugo](https://gohugo.io/) in combination with [Bootstrap](https://getbootstrap.com/) for styling, [DataTables](https://datatables.net/) for tables, and [Vega/Vega-Lite](https://vega.github.io/vega-lite/) and [Plotly](https://plotly.com/) for interactive graphics. All code used for the Portal is open source (held under an [MIT licence](https://choosealicense.com/licenses/mit/)) and [is available on GitHub](https://github.com/rnavest/covid-nl-portal). We encourage the reuse of our code, either for generating another national portal, or recreating certain features.
 
 #### History of the Portal
 
@@ -38,23 +38,4 @@ From the start, the Portal has been operated by the SciLifeLab Data Centre and p
 
 #### Portal team
 
-Many people from SciLifeLab, NBIS, Lygature, other organisations, and the community have been involved in the Portal since its conception. A complete list of contributors can be found on [GitHub](https://github.com/rnavest/covid-nl-portal/graphs/contributors). Below, we show the current team of people actively working on the Portal.
-
-The team are happy to help with using the Portal, to take suggestions regarding new and existing sections, and to answer any questions that you may have. Please just get in touch using for [contact](/contact/) form.
-
-<div class="container mb-3">
-  <div class="row">
-    <div class="col-md-2 pt-2">
-      <div><b>Robin Navest</b></div>
-      <div><span class="text-muted">Program manager</span></div>
-    </div>
-    <div class="col-md-2 pt-2">
-      <div><b>Julia Lischke</b></div>
-      <div><span class="text-muted">Program manager</span></div>
-    </div>
-    <div class="col-md-2 pt-2">
-      <div><b>Jan-Willem Boiten</b></div>
-      <div><span class="text-muted">Program manager</span></div>
-    </div>
-  </div>
-</div>
+Many people from SciLifeLab, NBIS, Lygature, other organisations, and the community have been involved in the Portal since its conception. A complete list of contributors can be found on [GitHub](https://github.com/rnavest/covid-nl-portal/graphs/contributors).
