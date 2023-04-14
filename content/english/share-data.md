@@ -73,7 +73,7 @@ Below are our data submission guidelines for each specific data type. You can al
 
 * ##### Health data
 
-    ??
+    We suggest to contact [Health-RI](https://www.health-ri.nl/), who maintain a manually curated database of COVID related datasets.
 
     ***
 
