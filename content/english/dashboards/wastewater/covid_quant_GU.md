@@ -13,7 +13,7 @@ plotly: true
 
 This project is led by Professor Helene Norder (University of Gothenburg, GU), and supported by co-workers from the University of Gothenburg and Sahlgrenska University Hospital (Hao Wang, Marianela Patzi Churqui, Timur Tunovic, Fredy Saguti, and Kristina Nyström). The wastewater sample collections were performed by Lucica Enache at Ryaverket, Gryaab AB, Gothenburg.
 
-The data and visualisation on this page are usually updated (**insert timeline**), typically on (**day?**).
+The data and visualisation on this page are usually updated weekly.
 
 ## Wastewater collection sites
 
@@ -21,7 +21,7 @@ Influent wastewater samples were collected from Ryaverket wastewater treatment p
 
 ## Visualisations
 
-<div class="alert alert-info">Last updated: <span id="SET_ME"></span></div>
+<div class="alert alert-info">Last updated: <span id="last_modified_gu"></span></div>
 
 <!-- <button type="button" class="btn btn-sm btn-outline-secondary mb-2" data-bs-toggle="modal" data-bs-target="#interactiveFeaturesModal">
   How to use the interactive features of the plot
@@ -66,10 +66,10 @@ Influent wastewater samples were collected from Ryaverket wastewater treatment p
 
 ## Dataset
 
-**Download the data:** \
+**Download the data:** [Quantification of SARS-CoV-2 and enteric viruses in wastewater](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx). Results are available for SARS-CoV-2 from week 7 of 2020 (with a small gap over winter 2022-2023), and for enteric viruses from week 2 of 2023. Updated weekly.\
 **Contact:** helene.norder@gu.se
 
-**How to cite the dataset:**
+**How to cite the dataset:**  Norder, H., Nyström, K. Patzi Churqui, M., Tunovic, T., Wang, H. (2023). Detection of SARS-CoV-2 and other human enteric viruses in wastewater from Gothenburg. [https://doi.org/10.17044/scilifelab.22510501](https://doi.org/10.17044/scilifelab.22510501).
 
 **How to cite method:**
 Saguti, F., Magnil, E., Enache, L., Churqui, M.P., Johansson, A., Lumley, D., Davidsson, F., Dotevall, L., Mattsson, A., Trybala, E., Lagging, M., Lindh, M., Gisslen, M., Brezicka, T., Nystrom, K. and Norder, H. (2021). Surveillance of wastewater revealed peaks of SARS-CoV-2 preceding those of hospitalized patients with COVID-19. [https://doi.org/10.1016/j.watres.2020.116620](https://doi.org/10.1016/j.watres.2020.116620).

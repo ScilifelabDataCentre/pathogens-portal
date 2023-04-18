@@ -10,7 +10,7 @@ plotly: true
 
 ## Introduction
 
-This project is led by associate professor Zeynep Cetecioglu Gurol and colleagues at KTH Royal Institute of Technology (KTH). This group of researchers are known as SEEC-KTH. The project was established as a collaboration between the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19), and the [SEED](https://www.kth.se/en/seed) and [Chemical Engineering](https://www.kth.se/ket/chemical-engineering-1.784196) departments at KTH. The project is now funded as part of the SciLifeLab Pandemic Laboratory Preparedness (PLP) Program. More information about the PLP program can be found in our [resources section](/resources/).
+This project is led by associate professor Zeynep Cetecioglu Gurol and supported by Mariel Perez-Zabaleta and Isaac Owusu-Agyeman at KTH Royal Institute of Technology (KTH). Bioinformatics analyses of wastewater samples are held by assistant professor Luisa Hugerth (Uppsala University). This group of researchers are known as SEEC-KTH. The project was established as a collaboration between the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19), and the [SEED](https://www.kth.se/en/seed) and [Chemical Engineering](https://www.kth.se/ket/chemical-engineering-1.784196) departments at KTH. The project is now funded as part of the SciLifeLab Pandemic Laboratory Preparedness (PLP) Program. More information about the PLP program can be found in our [resources section](/resources/). SEEC-KTH is now part of the [Department of Industrial Biotechnology](https://www.kth.se/dib/department-of-industrial-biotechnology-1.783103) at KTH.
 
 The data and visualisations on this page are usually updated weekly, typically on Fridays. Data and information about the group on this dashboard are updated frequently, so please check back regularly to stay up to date.
 
@@ -19,6 +19,8 @@ The data and visualisations on this page are usually updated weekly, typically o
 The analysis of wastewater samples from Stockholm by SEEC-KTH is done in close collaboration with Stockholm Vatten och Avfall, and the Käppala Association. SEEC-KTH began to sample wastewater in mid-April 2020, and samples were collected from the Bromma, Henriksdal, and Käppala wastewater treatment plants. These plants receive wastewater from a population of approximately 360,000, 860,000, and 500,000 people, respectively. Please consult [this map](/wastewater/map_Kappala.pdf) for the exact catchment area of the wastewater collection channels in Käppala and [this map](/wastewater/map_Bromma_Henriksdal.pdf) for the exact catchment area of the wastewater collection channels in Bromma and Henriksdal.
 
 SEEC-KTH began to collect and wastewater samples from the Sjölunda wastewater treatment plant in Malmö in week 39 of 2021. This wastewater plant services the majority of Malmö, as well as the Burlöv municipality and parts of the municipalities of Lomma, Staffanstorp, and Svedala. Around 300,000 people live in the catchment area of this wastewater treatment plant. More information about the catchment area, including a map, can be [downloaded directly](/wastewater/sjolunda.pdf).
+
+Overall, SEEC-KTH analyse wastewater from around 20% of the population of Sweden.
 
 ## Visualisations
 
@@ -77,7 +79,7 @@ Please also note that although the same methods are used for all cities shown on
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_kthmalmö.json" height="550px" >}}</div>
 </div>
 
-**Code used to produce plot:** [ADD PLOT SCRIPT!!](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_slu_regular.py).
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_slu_regular.py).
 
 ## Commentary from the research group
 
