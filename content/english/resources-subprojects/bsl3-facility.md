@@ -4,7 +4,7 @@ category: "plp1"
 resource_info:
     name: "State-of-the-art biosafety level 3 (BSL3) facility"
     funded_project_title: "BSL3 Biomedicum-SciLifeLab Collaborative Platform"
-    pi: Antonio Rothfuchs, Marjo Puumalainen
+    pi: Antonio Rothfuchs, Marianna Tampere
     host_organisation: Karolinska Institute
     use: "A lot of pandemic preparedness research requires a dedicated facility to handle pathogens in a safe environment. BSL3 Biomedicum offers both a safe environment for pathogen handling as well as expertise for research projects."
     access: "Access to the BSL-3 facility is preceded by the fulfillment of entry requirements which encompass understanding the risks associated with the handling of the pathogens used in the facility and understanding how to perform experiments with the same in an orderly and safe manner. As a service the facility provides training to new users and experimental support. Enquiries about access to the facility should be made well in advance so that risk assessments, permits, procedures and training needs can be addressed. To enquire access to the facility, please fill in the [project request form](/resorces/bsl3-facility-project-request-form.pdf) and send it to [bsl3biomedicum@ki.se](mailto:bsl3biomedicum@ki.se)."
