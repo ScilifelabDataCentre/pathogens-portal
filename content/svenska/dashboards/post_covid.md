@@ -86,6 +86,10 @@ Geografisk fördelning av diagnostiserade fall i förhållande till befolkningss
 
 **Källkod som används för att skapa visualisering:** [Källkod som används för databeredning](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Källkod som används för att skapa kartan](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_population_U089.py).
 
+<!--
+
+{{/* The data used for this is not available anymore, this section should be removed if no alternatives found */}}
+
 ### Geografisk fördelning av diagnostiserade fall relativt antal bekräftade fall
 
 Kartorna nedan visar antal individer som fått diagnoskoderna av intresse per län angivet i procent av det totalt antal bekräftade fall av covid-19 i länet (baserat på [data från Folkhälsomyndigheten](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/statistik-och-analyser/bekraftade-fall-i-sverige/)). Antal bekräftade fall bygger på kumulativa antalet positiva covid-19-test i regionen vid det datum som anges för den senaste uppdateringen av diagnoskoderna av intresse. Både totalt antal bekräftade fall av covid-19 och antal personer med diagnoskod av intresse kan ses genom att scrolla över ett visst län. Observera att de data som visualiseras på kartan bör tolkas med försiktighet. Antal bekräftade fall av covid-19-fall är sannolikt en underskattning. Individer som har covid-19 kan vara asymptomatiska och alla individer med covid-19 symtom testas inte och ingår inte i de rapporterade bekräftade fallen. Diagnoserna relaterade till postcovid introducerades vid olika tillfällen, och alla patienter kanske inte ännu fått en formell diagnos.
@@ -105,6 +109,8 @@ Kartorna nedan visar antal individer som fått diagnoskoderna av intresse per l�
 </div>
 
 **Källkod som används för att skapa visualisering:** [Källkod som används för databeredning](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Källkod som används för att skapa kartan](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_cases_U089.py).
+
+-->
 
 ### Vanligaste diagnosgrupper som rapporterats tillsammans med U09.9 Postinfektiöst tillstånd efter covid-19 (postcovid)
 
