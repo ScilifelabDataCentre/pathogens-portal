@@ -4,7 +4,7 @@ body {
     font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
 }
 a {
-    color: #3E75C1;
+    color: #4770B1;
     text-decoration: none;
 }
 a:hover {
@@ -84,7 +84,7 @@ a.nav-link:active {
 }
 
 .nav-tabs a.nav-link {
-    color: #3E75C1;
+    color: #4770B1;
 }
 
 .navbar .navbar-primary-links a.nav-link:hover,
@@ -384,7 +384,7 @@ div.dataTables_wrapper div.dataTables_info {
 
 /* Share your data block for the homepage */
 .share-new-data {
-    background-color: #de2c6c!important;
+    background-color: #37AE94!important;
 }
 
 /* Special announcements */
@@ -471,23 +471,23 @@ div.dataTables_wrapper div.dataTables_info {
 }
 
 .topic_badge_general {
-    background-color: #6c757d;
+    background-color: #6C757D;
 }
 
 .topic_badge_mpox {
-    background-color: #2e68a5;
+    background-color: #D8D8D8;
 }
 
 .topic_badge_covid {
-    background-color: #de2c6c;
+    background-color: #295986;
   }
 
 .topic_badge_antib_r {
-    background-color: #6a60af;
+    background-color: #D4DE27;
 }
 
 .topic_badge_infectious_d {
-    background-color: #a34fa4;
+    background-color: #37AE94;
 }
 
 .dataset_badge_data {
@@ -552,7 +552,7 @@ div.dataTables_wrapper div.dataTables_info {
 
 .btn-blue {
     color: #fff;
-    background-color: #3E75C1;
+    background-color: #4770B1;
 }
 
 .btn-blue:hover {
