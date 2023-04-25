@@ -7,12 +7,7 @@
 {{ end }}
 
 {{ range (.GetTerms "highlights_topics") }}
-<span class="topic_badge_large
-  {{ if eq .LinkTitle "COVID-19"}}topic_badge_covid
-  {{ else if eq .LinkTitle "Infectious diseases"}}topic_badge_infectious_d
-  {{ else if eq .LinkTitle "Antibiotic resistance"}}topic_badge_antib_r
-  {{ else }}topic_badge_general
-  {{ end }} "><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
+<span class="topic_badge_large"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
 {{ end }}
 
 <h2>{{ if .Params.title_full }}{{ .Params.title_full }}{{ else }}{{ .Title}}{{ end }}</h2>

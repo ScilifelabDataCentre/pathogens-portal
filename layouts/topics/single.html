@@ -31,13 +31,7 @@
     <div class="{{ $col_width }} mx-2 mb-2 border bg-light">
       <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
       {{ range (.GetTerms "highlights_topics") }}
-      <span class="topic_badge_small
-                  {{ if eq .LinkTitle "COVID-19"}}topic_badge_covid
-                  {{ else if eq .LinkTitle "Infectious diseases"}}topic_badge_infectious_d
-                  {{ else if eq .LinkTitle "Antibiotic resistance"}}topic_badge_antib_r
-                  {{ else if eq .LinkTitle "Mpox"}}topic_badge_mpox
-                  {{ else }}topic_badge_general
-                  {{ end }} "><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
+      <span class="topic_badge_small"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
       {{ end }}
       <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
       <p class="small text-muted">{{.Date.Format "2006-01-02"}}</p>
@@ -233,13 +227,7 @@
           </td>
           <td>{{ if and (eq $.Site.Language.LanguageName "Svenska") .funder_sv }}{{ .funder_sv }}{{ else }}
             {{ .funder }}{{ end }}</td>
-          <td>{{ range .topic }}<span class="mx-1 my-1 topic_badge_small
-          {{ if eq . "COVID-19"}}topic_badge_covid
-          {{ else if eq . "Infectious diseases"}}topic_badge_infectious_d
-          {{ else if eq . "Antibiotic resistance"}}topic_badge_antib_r
-          {{ else if eq . "Mpox"}}topic_badge_mpox
-          {{ else }}topic_badge_general
-          {{ end }} ">{{ . }}</span>{{ end }}</td>
+          <td>{{ range .topic }}<span class="mx-1 my-1 topic_badge_small">{{ . }}</span>{{ end }}</td>
         </tr>
         {{ end }}
       </tbody>
@@ -324,13 +312,7 @@
           </td>
           <td>{{ .submission_deadline | time.Format ":date_long" }}</td>
           <td>{{ .funder }}</td>
-          <td>{{ range .topic }}<span class="mx-1 my-1 topic_badge_small
-          {{ if eq . "COVID-19"}}topic_badge_covid
-          {{ else if eq . "Infectious diseases"}}topic_badge_infectious_d
-          {{ else if eq . "Antibiotic resistance"}}topic_badge_antib_r
-          {{ else if eq . "Mpox"}}topic_badge_mpox
-          {{ else }}topic_badge_general
-          {{ end }} ">{{ . }}</span>{{ end }}</td>
+          <td>{{ range .topic }}<span class="mx-1 my-1 topic_badge_small">{{ . }}</span>{{ end }}</td>
         </tr>
         {{ end }}
       </tbody>

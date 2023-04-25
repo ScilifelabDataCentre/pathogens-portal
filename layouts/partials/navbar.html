@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-white">
+<nav class="navbar navbar-expand-lg navbar-light bg-white pb-0">
   <div class="container">
     <a class="navbar-brand" href="{{ relLangURL .Site.BaseURL }}">
       <img class="mt-2" src="/img/site_logo/eml_pathogens_logo.svg" alt="Pathogens Portal Sweden">
@@ -180,14 +180,7 @@
     <div class="col-lg-4 my-3 my-lg-0">
       <div class="topics_title">Topics:</div>
       {{ range $ind, $topic := .Site.Menus.topics_menu }}
-      <span class="me-2 mb-2 topic_badge_large
-        {{ if eq .Name "COVID-19"}}topic_badge_covid
-        {{ else if eq .Name "Infectious diseases"}}topic_badge_infectious_d
-        {{ else if eq .Name "Mpox"}}topic_badge_mpox
-        {{ else if eq .Name "Antibiotic resistance"}}topic_badge_antib_r
-        {{ else }}topic_badge_general
-        {{ end }} "><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
-      </span>
+      <span class="me-2 mb-2 topic_badge_large"><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></span>
       {{ if eq (mod (add $ind 1) 2) 0 }}<br>{{ end }}
       {{ end }}
     </div>
