@@ -24,7 +24,7 @@ Overall, SEEC-KTH analyse wastewater from around 20% of the population of Sweden
 
 ## Visualisations
 
-Please note that the visualisations below show data for the most recent 16 weeks for which data are available. This does not represent all of the data that are available. Please refer to the datasets above to see all of the data available over time.
+Please note that the visualisations below show data for the most recent 16 weeks for which data are available by default. It is possible to see all of the data by clicking the 'Whole timeline' button.
 
 Please also note that although the same methods are used for all cities shown on this tab, differences in the wastewater collection systems and populations of different cities might bias direct comparisons between cities.
 

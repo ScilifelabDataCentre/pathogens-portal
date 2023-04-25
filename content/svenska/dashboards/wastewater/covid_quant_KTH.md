@@ -4,58 +4,57 @@ plotly: true
 ---
 
 <div class="mt-3">
-  <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a>
+  <a href="/sv/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Gå tillbaka till SARS-CoV-2-kvantifiering inom avloppsvattenbaserad epidemiologi-dashboarden</a>
 </div>
 <br>
 
-## Introduction
+## Introduktion
 
-This project is led by associate professor Zeynep Cetecioglu Gurol and supported by Mariel Perez-Zabaleta and Isaac Owusu-Agyeman at KTH Royal Institute of Technology (KTH). Bioinformatics analyses of wastewater samples are held by assistant professor Luisa Hugerth (Uppsala University). This group of researchers are known as SEEC-KTH. The project was established as a collaboration between the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19), and the [SEED](https://www.kth.se/en/seed) and [Chemical Engineering](https://www.kth.se/ket/chemical-engineering-1.784196) departments at KTH. The project is now funded as part of the SciLifeLab Pandemic Laboratory Preparedness (PLP) Program. More information about the PLP program can be found in our [resources section](/resources/). SEEC-KTH is now part of the [Department of Industrial Biotechnology](https://www.kth.se/dib/department-of-industrial-biotechnology-1.783103) at KTH.
+Projektet leds av professor Zeynep Cetecioglu Gurol med hjälp av Mariel Perez-Zabaleta and Isaac Owusu-Agyeman verksamna vid Kungliga Tekniska högskolan (KTH). Bioinformatikanalyser av avloppsvattendata sker i samarbete med  professor Luisa Hugerth (Uppsala Universitet). Forskarsamarbetet utgör SEEC-KTH. SEEC-KTH är nu en del av [Institutionen för Industriell bioteknologi](https://www.kth.se/dib/department-of-industrial-biotechnology-1.783103) vid KTH. Projektet finansieras nu som en del av SciLifeLab Pandemic Laboratory Preparedness (PLP) program. Mer information om PLP-programmet finns i [resources section](/resources/).
 
-The data and visualisations on this page are usually updated weekly, typically on Fridays. Data and information about the group on this dashboard are updated frequently, so please check back regularly to stay up to date.
+Data och visualiseringar på den här sidan uppdateras vanligtvis veckovis, oftast på fredagar. Data bakom dashboarden uppdateras kontinuerligt.
 
-## Wastewater collection sites
+## Insamlingsplatser för avloppsvatten
 
-The analysis of wastewater samples from Stockholm by SEEC-KTH is done in close collaboration with Stockholm Vatten och Avfall, and the Käppala Association. SEEC-KTH began to sample wastewater in mid-April 2020, and samples were collected from the Bromma, Henriksdal, and Käppala wastewater treatment plants. These plants receive wastewater from a population of approximately 360,000, 860,000, and 500,000 people, respectively. Please consult [this map](/wastewater/map_Kappala.pdf) for the exact catchment area of the wastewater collection channels in Käppala and [this map](/wastewater/map_Bromma_Henriksdal.pdf) for the exact catchment area of the wastewater collection channels in Bromma and Henriksdal.
+Analysen av avloppsvattenprov från Stockholm av SEEC-KTH görs i nära samarbete med Stockholm Vatten och Avfall och Käppalaförbundet. SEEC-KTH började ta prover på avloppsvatten i mitten av april 2020, och prover samlades då in från avloppsreningsverken i Bromma, Henriksdal och Käppala. Dessa anläggningar tar emot avloppsvatten från en befolkning på cirka 360 000, 860 000 respektive 500 000 personer. Se [den här kartan](/wastewater/map_Kappala.pdf) för det exakta avrinningsområdet för insamlingskanalerna i Käppala och [den här kartan](/wastewater/map_Bromma_Henriksdal.pdf) för det exakta avrinningsområdet för insamlingskanalerna i Bromma och Henriksdal.
 
-SEEC-KTH began to collect and wastewater samples from the Sjölunda wastewater treatment plant in Malmö in week 39 of 2021. This wastewater plant services the majority of Malmö, as well as the Burlöv municipality and parts of the municipalities of Lomma, Staffanstorp, and Svedala. Around 300,000 people live in the catchment area of this wastewater treatment plant. More information about the catchment area, including a map, can be [downloaded directly](/wastewater/sjolunda.pdf).
+SEEC-KTH började samla in prover från avloppsvatten från Sjölunda avloppsreningsverk i Malmö under vecka 39 2021. Detta avloppsreningsverk hanterar större delen av Malmö och Burlövs kommun och delar av kommunerna Lomma, Staffanstorp och Svedala. Ungefär 300 000 personer bor i uppsamlingsområdet. Mer information om området, inklusive en karta, kan [laddas ned direkt](/wastewater/sjolunda.pdf).
 
-Overall, SEEC-KTH analyse wastewater from around 20% of the population of Sweden.
+SEEC-KTH avloppsvattensanalyser täcker ungefär 20% av Sveriges befolkning.
 
-## Visualisations
+## Visualiseringar
 
-Please note that the visualisations below show data for the most recent 16 weeks for which data are available. This does not represent all of the data that are available. Please refer to the datasets above to see all of the data available over time.
+Please note that the visualisations below show data for the most recent 16 weeks for which data are available by default. It is possible to see all of the data by clicking the 'Whole timeline' button.
 
-Please also note that although the same methods are used for all cities shown on this tab, differences in the wastewater collection systems and populations of different cities might bias direct comparisons between cities.
+Notera också att även om samma metoder används för alla städer som visas på den här fliken, kan skillnader i befolkningen och hur avloppsvatten samlas in i olika städer påverka jämförelser dem emellan.
 
 ### Stockholm
 
-<div class="alert alert-info">Last updated: <span id="last_modified_stockholm"></span></div>
+<div class="alert alert-info">Senast uppdaterad: <span id="last_modified_stockholm"></span></div>
 
 <button type="button" class="btn btn-sm btn-outline-secondary mb-2" data-bs-toggle="modal" data-bs-target="#interactiveFeaturesModal">
-  How to use the interactive features of the plot
+  Hur du kan använda grafens interaktiva funktioner
 </button>
 
  <div class="modal fade" id="interactiveFeaturesModal" tabindex="-1" aria-labelledby="interactiveFeaturesModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="interactiveFeaturesModalLabel">Information on how to use the interactive features of the plot</h5>
+        <h5 class="modal-title" id="interactiveFeaturesModalLabel">Information om hur du kan använda grafens interaktiva funktioner</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <p>The line plots on this page have multiple interactive features. You can use the features to view the data in them in different ways. For example, you can choose to view data only within a certain time period, or from a given collection site. Below, we explain how to use different interactive features to meet your needs.</p>
-        <h6>View data from particular sites</h6>
-        <p>To view only data from a single site, double click on the name on that site in the legend to the right. To toggle data from a site on/off, single click on the name in the legend. If the data is 'deselected', the name will appear 'greyed out' in the legend, and it will not be displayed on the graph. Initially, all data will be 'selected'. To 'deselect' all data, use the 'Deselect all areas' button. You can use the 'Reselect all areas' button to 'select' data from every site (i.e. return to the default view).</p>
-        <h6>View only certain y- and/or x-axes ranges</h6>
-        <p>In the below plots, the y-axis represents the copy number of SARS-CoV-2 relative to PMMoV while the x-axis represents the date. If you would like to view values within a given range of the values on the axes, you can do this by clicking and dragging with your mouse. For example, to view all data within a given timeframe, you can click near the start date on the x-axis and drag to create a rectangle that encompasses the whole y-axis and the range of dates on the x-axis that you want to view. The plot will then zoom into the range that you selected.</p>
-        <h6>Accurately read data values</h6>
-        <p>It is difficult to accurately read the exact values of data from a graph. In order to view the exact data values, hover over the data point of interest. A box will appear that shows the y-axis values for all sites on that date (i.e. that x-axis value).</p>
-        <h6>Other features</h6>
-        <p>If you hover your cursor over the plot, you will see some additional options as grey icons in the top right. You can use these features to zoom in/out of the plot (using the + and - icons), and scale the axes so that the data from the 'selected' sites are shown on the most appropriate axes (this can be done using the autoscale or reset axes icons, which look like a box containing arrows and a house, respectively).</p>
+        <p>Visualiseringar på den här sidan har flera interaktiva funktioner. Du kan använda funktionerna för att visualisera tillgängliga SARS-COV-2 avloppsvattendata på olika sätt. Du kan till exempel välja att endast se data inom ett visst tidsintervall, eller från en given ort. Nedan förklarar vi hur du själv kan bestämma hur du gör inställningarna med de tillgängliga interaktiva funktionerna.</p><h6>Visa endast en ort</h6>
+        <p>För att endast visa data från en ort dubbelklicka på ortsnamnet i baneret till höger. För att avmarkera en ort klicka endast en gång på ortsnamnet. Om en ort avmarkeras kommer denna gråmarkeras och ortens data visas inte i grafen. I inställningar är alla orter markerade i startläget. För att avmarkera alla orter tryck "Deselect all areas" knappen. Du kan markera alla orter igen genom "Reselect all areas" knappen.</p>
+        <h6>Visulisera endast vissa intervall på x eller y-axel</h6>
+        <p>I diagrammen nedan representerar y-axeln kopiantalet för SARS-CoV-2 i förhållande till PMMoV medan x-axeln representerar datumet. Om du vill se värden inom ett givet värdeintervall på axlarna kan du göra detta genom att klicka och dra med musen. Till exempel, för att se all data inom en given tidsram kan du klicka nära startdatumet på x-axeln och dra för att skapa en rektangel som omfattar hela y-axeln och det datumintervall på x-axeln som du vill ha att se. Grafen kommer sedan att zooma in i intervallet som du valt.</p>
+        <h6>Att utläsa exakta mätvärden</h6>
+        <p>Det kan vara svårt att exakt läsa de exakta mätvärdena på data från en graf. För att se det exakta datavärdet, håll muspekaren över datapunkten av intresse. En ruta kommer att visas som visar y-axelvärdena för alla mätplatser för ett visst datum (dvs det x-axelvärdet).</p>
+        <h6>Andra funktioner</h6>
+        <p>Om du håller muspekaren över grafen kommer du att se några ytterligare alternativa funktioner som grå ikoner uppe till höger. Du kan använda dessa funktioner för att zooma in/ut ur (med hjälp av + och - ikonerna), och för att ändra skalan på axlarna så att data från de "valda" platserna visas på de mest lämpliga axlarna (detta kan göras med hjälp av autoskala eller återställ axlar, som ser ut som en ruta som innehåller pilar respektive ett hus).</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Stäng</button>
       </div>
     </div>
   </div>
@@ -65,47 +64,48 @@ Please also note that although the same methods are used for all cities shown on
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/test_new_ww_sthlm.json" height="550px" >}}</div>
 </div>
 
-**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_stockholm_regular.py).
+**Källskod som används för att skapa grafen:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_stockholm_regular.py).
 
 ### Malmö
 
-<div class="alert alert-info">Last updated: <span id="last_modified_malmo"></span></div>
+<div class="alert alert-info">Senast uppdaterad: <span id="last_modified_malmo"></span></div>
 
 <div class="d-md-none alert alert-info">
-  Scroll the plot sideways to view all data.
+  Skrolla grafen horisontellt för att se alla data.
 </div>
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_kthmalmö.json" height="550px" >}}</div>
 </div>
 
-**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_slu_regular.py).
+**Källskod som används för att skapa grafen:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_slu_regular.py).
 
-## Commentary from the research group
+## Kommentarer från forskargruppen
 
-<div><b>Date:</b> <span id="kth_comment_date"></span><br><b>Commentary:</b> <span id="kth_comment"></span></div>
+<div><b>Datum:</b> <span id="kth_comment_date"></span><br><b>Kommentar:</b> <span id="kth_comment"></span></div>
 
 {{< ww_dynamic_content >}}
 
 ## Dataset
 
-**Download the data:** [N3-gene copy number per PMMoV gene copy number; Excel file](https://blobserver.dckube.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx). Results are available (partially) starting from week 16 of 2020 for Stockholm and starting from week 39 of 2021 for Malmö; updated weekly.\
-**Contact:** zeynepcg@kth.se
+**Kontakt:** zeynepcg@kth.se
 
-**How to cite dataset:**
+**Ladda ner data:** [N3-genkopiatal per PMMoV-genkopiatal; Excelfil.](https://blobserver.dckube.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx). Data tillgänglig (delvis) från och med vecka 16 2020; uppdateras varje vecka.\
+
+**Hur man citerar dataset:**
 Cetecioglu, Z. G., Williams, C., Khatami, K., Atasoy, M., Nandy, P., Jafferali, M. H., Birgersson, M. (2021). SARS-CoV-2 Wastewater Data from Stockholm, Sweden. [https://doi.org/10.17044/scilifelab.14315483](https://doi.org/10.17044/scilifelab.14315483).
 
-## Methods
+## Metoder
 
- To correct for variations in population size and wastewater flow, the group quantifies the pepper mild mottle virus (PMMoV) using a modified version of the assay of [Zhang *et al.* (2006)](https://doi.org/10.1371/journal.pbio.0040003). PMMoV is an abundant RNA virus in human faeces and serves as an estimator of human faecal content ([Symonds *et al.*, 2019](https://doi.org/10.1371/journal.ppat.1007639)). SARS-like virus specific N3-primers ([Lu *et al.*, 2020](https://doi.org/10.3201/eid2608.201246)) with SYBR Green chemistry ([Perez-Zabaleta *et al.*, 2023](https://doi.org/10.1016/j.scitotenv.2022.160023)) are used to quantify SARS-CoV-2.
+För att korrigera för variation i population och avloppsvattenflöde kvantifierar gruppen förekomsten av viruset Pepper mild mottle virus (PMMoV), ett växtvirus från peppar som människor får i sig via maten, med hjälp av en modifierad version av testet i [Zhang *et al.* (2006)](https://doi.org/10.1371/journal.pbio.0040003). PMMoV är det vanligaste RNA-viruset i avföring från människa och används för att uppskatta mängden avföring från människa i avloppsvattenproverna ([Symonds *et al.*, 2019](https://doi.org/10.1371/journal.ppat.1007639)). För att kvantifiera mängd SARS-CoV-2 används SARS-specifika N3-primers ([Lu *et al.*, 2020](https://doi.org/10.3201/eid2608.201246)) och mätningen görs med metoden RT-qPCR med SYBR Green-kemi ([Perez-Zabaleta *et al.*, 2023](https://doi.org/10.1016/j.scitotenv.2022.160023)).
 
-After concentration, filtering, and preparation, the samples are analysed using the qPCR technique for SARS CoV-2 RNA. Primers of the nucleocapsid (N) gene were used to detect the SARS-COV-2 gene (previously used and verified by [Medema *et al.* (2020)](https://doi.org/10.1021/acs.estlett.0c00357)). In some cases, raw wastewater samples were frozen at -20℃, and concentrated wastewater or purified RNA samples were sometimes stored at -80℃ before the next analysis step was carried out. The concentration method initially used by SEEC-KTH was based on one of their earlier studies ([Jafferali *et al.*, 2021](https://doi.org/10.1016/j.scitotenv.2020.142939)), which compared four different concentration methods. This method was used until week 35 of 2021. After this time, the group began to instead use [the Promega kit](https://se.promega.com/applications/virus-detection-assay-coronavirus-detection-covid-19-sars-cov-2/wastewater-based-epidemiology-covid19/) for the concentration step.
+Efter koncentration, filtrering och beredning analyseras proverna med RT-qPCR -teknik för att kvantifiera förekomsten av SARS-CoV-2 RNA. För att kvantifiera SARS-CoV-2 användes primers i nukleokapsid-(N)-genen (tidigare använt och verifierat av [Medema *et al.* (2020)](https://doi.org/10.1021/acs.estlett.0c00357)). I vissa fall har det obehandlade avloppsvattnet frusits ​​vid –20 °C och koncentrerat avloppsvatten eller renat RNA har lagrats vid -80°C innan nästa analyssteg genomfördes. Koncentrationsmetoden som initialt användes av SEEC-KTH baseras på en av deras tidigare studier ([Jafferali *et al.*, 2021](https://doi.org/10.1016/j.scitotenv.2020.142939)), där fyra olika koncentrationsmetoder jämfördes. Denna metod användes fram till vecka 35, 2021. Efter denna tidpunkt började gruppen istället använda [Promegas kit](https://se.promega.com/applications/virus-detection-assay-coronavirus-detection-covid-19-sars-cov-2/wastewater-based-epidemiology-covid19/) för att koncentrera proverna.
 
-## Archived data
+## Arkiverade data
 
-- [Historic data for Stockholm; Gene copy number/week (raw wastewater) with bovine + PMMoV factor between April 2020 and August 2021](/dashboards/wastewater/historic_stockholm).
+- [Historiska data for Stockholm; genkopieantal per vecka (ofiltrerat avloppsvatten) standardiserat med bovint coronavirus och PMMoV, april 2020 till augusti 2021](/sv/dashboards/wastewater/historic_stockholm).
 
 <br>
 <div class="mt-3">
-  <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a>
+  <a href="/sv/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Gå tillbaka till SARS-CoV-2-kvantifiering inom avloppsvattenbaserad epidemiologi-dashboarden</a>
 </div>

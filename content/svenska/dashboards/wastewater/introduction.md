@@ -38,9 +38,9 @@ Arbetet på den här dashboarden är uppdelat efter de olika pathogener som pres
 
 - [**SARS-CoV-2 kvantifiering**](/sv/dashboards/wastewater/covid_quantification): Data, visualiseringar och information kopplad till kvantifiering av SARS-CoV-2 i avloppsvatten i olika delar av Sverige. Alla tre grupper delar data kring detta och täcker olika områden i Sverige. Det går att navigera direkt till den eller de grupper som tillhandahåller data om de områden som är av intresse.
 
-## Availability of code
+## Tillgänglighet av källkod
 
-All code used to produce the visualisations on the tabs on this dashboard is available on [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/wastewater). The particular scripts used in each case are linked below the individual visualisations.
+All källkod som skapats för visualiseringarna under des olika  flikarna på denna dashboard finns öppet tillgänglig på [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/wastewater). Skript som används för respektive visualisering finns tillgängligt under respektive visualisering.
 
 ## Karta över platser där prover samlas in
 
