@@ -1,41 +1,50 @@
 ---
-title: Mängd SARS-CoV-2 virus i avloppsvatten från svenska städer
-description: Övervakning av patogener i avloppsvatten kan vara ett effektivt sätt för att förutse framtida utbrott. Denna dashboard innehåller data som kommer från ett antal forskargrupper i sverige.
+title: Wastewater-based epidemiology in Sweden
+description: Surveillance of wastewater for pathogens can be an effective means of predicting upcoming outbreaks. This dashboard contains data originating from the multiple research groups across Sweden.
 banner: /dashboard_thumbs/wastewater.jpg
-toc: true
+toc: false
+type: wastewater
 menu:
-  dashboard_menu:
-      identifier: wastewater
-      name: Avloppsvattenepidemiologi
+    dashboard_menu:
+        identifier: wastewater
+        name: Wastewater-based epidemiology in Sweden
+    other_data:
+        name: Environment
+        identifier: environment
+        weight: 50
+    wastewater:
+        name: Introduktion
+        weight: 10
 plotly: true
 aliases:
-    - /sv/data_types/environment/wastewater/
-    - /sv/data_types/environment/
+    - /data_types/environment/wastewater/
+    - /data_types/environment/
+    - /dashboards/wastewater
 ---
 
-<div class="alert alert-info"><b>Please note:</b> the wastewater dashboard is undergoing expansion over the next few months. We have now separated the data related to the amount of SARS-CoV-2 in wastewater according to the research group that collected and analysed the data (see below for information about the groups involved). In the coming months, more information and data will be added about SARS-CoV-2 and on other infectious diseases. </span></div>
+<div class="alert alert-info"><b>Notera:</b> Dashboarden för avloppsvatten kommer att utökas framöver. Vi har nu grupperat mätningarna för mängden av SARS-CoV-2 i avloppsvatten enligt den forskargrupp som samlade in och analyserade respektive data (se nedan för information om de deltagande grupperna). Under kommande månader kommer mer data och information om SARS-CoV-2 och andra infektionssjukdomar att läggas till. </span></div>
 
-## Introduction
+## Introduktion
 
-Wastewater surveillance can be used to effectively monitor the levels of pathogens, including SARS-CoV-2, in the population. It can even help to predict upcoming outbreaks, thus acting as an 'early-warning system'. See below for [a general introduction to wastewater epidemiology](#background-wastewater-based-epidemiology).
+Avloppsvattenövervakning kan fungera som en effektiv metod för att kartlägga förekomsten av patogener, inklusive SARS-CoV-2, i befolkningen. Metoden kan också fungera som ett 'tidigt varningssystem' som förutsäger kommande utbrott. Se nedan för [en allmän introduktion till avloppsvattenbaserad epidemiologi](#bakgrund-avloppsvattenbaserad-epidemiologi).
 
-This dashboard presents wastewater epidemiology data from various Swedish cities. Combined, the cities included here have a total population of over 3.5 million people (or 34% of the Swedish population). The data presented in this dashboard originates from analyses conducted by three laboratories. Two of the laboratories are part of [SEEC (The Swedish Environmental Epidemiology Center)](https://www.scilifelab.se/pandemic-response/pandemic-laboratory-preparedness/swedish-environmental-epidemiology-center-seec/), which was established by researchers at four Swedish universities (Swedish University of Agricultural Sciences, KTH Royal Institute of Technology, Karolinka Institute, and Uppsala University) as a pandemic laboratory preparedness resource project within [SciLifeLab’s Pandemic Preparedness Program](https://www.scilifelab.se/pandemic-response). The two nodes of SEEC involved in wastewater analysis are **SEEC-KTH** (based at KTH Royal Institute of Technology (KTH), led by associate professor Zeynep Cetecioglu Gurol) and **SEEC-SLU** (based at the Department of Aquatic Sciences and Assessment at SLU (Swedish University of Agricultural Sciences), led by associate professor Anna J. Székely and associate professor Maja Malmberg). The third laboratory presenting their work on this dashboard is based at the **University of Gothenburg (GU)** and led by professor Heléne Norder. Please see the ['navigating the dashboard' section](#navigating-the-dashboard) below to understand where to locate work provided from the three laboratories within this dashboard.
+I den här dashboarden presenteras data från avloppsvattenbaserad epidemiologi från olika svenska städer. Sammanlagt har städerna som ingår här en befolkning på över 3,5 miljoner invånare (eller 34% av Sveriges befolkning). Data och resultat som presenteras här kommer från analyser som utförts av tre laboratorier. Två av laboratorierna ingår i [Svenskt Miljöepidemiologiskt Centrum (SEEC)](https://www.scilifelab.se/pandemic-response/pandemic-laboratory-preparedness/swedish-environmental-epidemiology-center-seec/), etablerat av forskare vid fyra svenska universitet (Sveriges lantbruksuniversitet, Kungliga Tekniska högskolan, Karolinska institutet och Uppsala universitet) som ett projekt för att utveckla resurser för pandemiberedskap inom [SciLifeLab's Pandemic Preparedness Program](https://www.scilifelab.se/pandemic-response). De två noderna i SEEC som är involverade i avloppsvattenanalyser är **SEEC-KTH** baserat vid Kungliga Tekniska högskolan (KTH), under ledning av docent Zeynep Cetecioglu Gurol och **SEEC-SLU** baserat vid Institutionen för vatten och miljö, Sveriges lantbruksuniversitet (SLU), under ledning av docent Anna J. Székely och docent Maja Malmberg. Det tredje laboratoriet som presenterar sina analyser på denna dashboard är baserat vid **Göteborgs universitet (GU)** och leds av professor Heléne Norder. Se ['Navigering på dashboarden'](#navigering-på-dashboarden) nedan för mer information kring var arbetet från de tre respektive laboratorierna återfinns på denna dashboard.
 
-Please note that each laboratory processes and analyses their wastewater samples in slightly different ways. Therefore, the absolute values measured by different laboratories are not comparable with each other, and minor differences in trends may occur. This means that you should be cautious when making comparisons. Please consult the 'methods' sections of individual tabs to understand the methodologies used in each case.
+Notera att det förekommer mindre skillnader mellan detektionsmetoderna som grupperna använder. Därför är de absoluta värden som mäts av olika laboratorier inte jämförbara med varandra, och små skillnader i trender kan förekomma. Detta innebär att du bör vara försiktig när du gör jämförelser. Titta på avsnitten "Metoder" under gruppernas flikar för att få information om metoderna som används av de olika laboratorierna.
 
-## Navigating the dashboard
+## Navigering på dashboarden
 
-The work on this dashboard is divided according to different topics explored. See the list below to determine which resources are available:
+Arbetet på den här dashboarden är uppdelat efter de olika pathogener som presenteras. Se listan nedan för en överblick av vilka resurser som är tillgängliga:
 
-- [**SARS-CoV-2 quantification**](/dashboards/wastewater/covid_quantification/): Data, visualisations, and information related to the quantification of SARS-CoV-2 in wastewater in differnt areas of Sweden. All three groups share data on this topic, and cover diferent areas of Sweden. It is possible to navigate directly to the group(s) providing data on the area(s) of interest to you.
+- [**SARS-CoV-2 kvantifiering**](/sv/dashboards/wastewater/covid_quantification): Data, visualiseringar och information kopplad till kvantifiering av SARS-CoV-2 i avloppsvatten i olika delar av Sverige. Alla tre grupper delar data kring detta och täcker olika områden i Sverige. Det går att navigera direkt till den eller de grupper som tillhandahåller data om de områden som är av intresse.
 
 ## Availability of code
 
 All code used to produce the visualisations on the tabs on this dashboard is available on [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/wastewater). The particular scripts used in each case are linked below the individual visualisations.
 
-## Map of sample collection sites
+## Karta över platser där prover samlas in
 
-Below is a map showing the wastewater treatment plants (WWTPs) from which wastewater samples are being collected and analysed by groups sharing data on this dashboard.
+Nedan finns en karta som visar de avloppsreningsverk (på engelska wastewater treatment plants, WWTP) från vilka avloppsprover samlas in och analyseras av de grupper som delar data på den här dashboarden.
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_map_test.json" height="600px" >}}</div>
@@ -43,12 +52,12 @@ Below is a map showing the wastewater treatment plants (WWTPs) from which wastew
 
 **Code used to produce map:** [Script to produce map](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/interactive_wastewater_map.py).
 
-## Background: Wastewater-based epidemiology
+## Bakgrund: Avloppsvattenbaserad epidemiologi
 
-The genomes of many pathogens, including SARS-CoV-2, can be detected in faecal samples collected from infected individuals (e.g. COVID-19 patients) using polymerase chain reaction (PCR) tests (see, for example, [Wu *et al*. (2020)](https://doi.org/10.1016/S2468-1253(20)30083-2)). Monitoring the levels of pathogens (e.g. SARS-CoV-2) in wastewater from communities can therefore provide an indication of the prevalence of that pathogen at a population-wide level, referred to as wastewater-based epidemiology ([Corpuz *et al.*, 2020](https://doi.org/10.1016/j.scitotenv.2020.140910)).
+Många genom från patogener, inklusive SARS-CoV-2, kan med hjälp av metoden polymeraskedjereaktion (PCR) detekteras i avföringsprov som har samlats in från infekterade individer (t.ex. COVID-19-patienter) [Wu *et al*. (2020)](https://doi.org/10.1016/S2468-1253(20)30083-2). Övervakning av nivåerna av patogener (t.ex. SARS CoV-2) i avloppsvatten från samhällen kan därför ge en tidig indikation på sjukdomsprevalensen på befolkningsnivå, så kallad avloppsvattenbaserad epidemiologi ([Corpuz *et al.*, 2020](https://doi.org/10.1016/j.scitotenv.2020.140910)).
 
-Wastewater, also referred to as “sewage” includes water from multiple sources in each household, including kitchen sinks, toilets, and showers. However, it could also include water from multiple other sources (for example, rainwater and water from industrial use). Samples used for wastewater epidemiology studies are collected periodically at wastewater treatment facilities; enabling assessments of viral load over time. Wastewater monitoring has been shown to be an effective early-warning system for outbreaks. For example, [Peccia *et al.* (2020)](https://doi.org/10.1038/s41587-020-0684-z) showed early on in the COVID-19 pandemic that SARS CoV-2 virus content in wastewater predicted increases in infection in the population and followed the epidemic trend, as measured by the number of COVID-19 cases and hospitalisation rates. More recently, [Wang *et al.* (2022)](https://pubmed.ncbi.nlm.nih.gov/36035197/) showed that the level of SARS-CoV-2 viral genomes in wastewater increased 1-2 weeks before there was an increase in the number of hospitalised COVID-19 patients. During the COVID-19 pandemic, surveillance of viral RNA levels in wastewater has been increasingly used to monitor and predict the spread of the disease.
+Avloppsvatten av består spillvatten, dagvatten och kylvatten. Dagvatten kommer från hushåll och fastigheter, exempelvis från kök, toaletter och duschar. Det kan också inkludera vatten från regn och från industriellt bruk. Prover tas regelbundet vid avloppsreningsanläggningar, vilket gör det möjligt att jämföra virusbelastningen över tid. Det har tidigare visats att mängden SARS-CoV-2-virus i avloppsvatten kan ge en indikation på ökad smittspridning bland befolkningen och även att mängden SARS-CoV-2 i avloppsvatten korrelerar med antal fall av COVID-19 och antal patienter som behöver sjukhusvård, se [Peccia *et al.* (2020)](https://doi.org/10.1038/s41587-020-0684-z). Nyligen visade också [Wang *et al.* (2022)](https://pubmed.ncbi.nlm.nih.gov/36035197/) att nivån av SARS-CoV-2 i avloppsvatten ökade 1-2 veckor innan det fanns en ökning av antalet COVID-19-patienter i behov av sjukhusvård. Under COVID-19-pandemin har övervakning av nivån av SARS-CoV-2 i avloppsvatten blivit en vanlig metod för att följa och förutsäga smittspridning.
 
-Wastewater monitoring should primarily be seen as a surveillance system. Taken together with data for infection testing, intensive care admissions etc., it may help in understanding the regional dynamics of disease outbreaks.
+Analyser av avloppsvatten ska i första hand ses som ett övervakningssystem. Tillsammans med annan data, t.ex. infektionstestning, intensivvårdsinläggningar etc. kan analyser av avloppsvatten hjälpa till att förstå den regionala dynamiken i sjukdomsutbrott.
 
 {{< ww_dynamic_content >}}

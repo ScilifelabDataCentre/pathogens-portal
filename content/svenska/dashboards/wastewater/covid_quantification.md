@@ -4,7 +4,7 @@ toc: false
 type: wastewater
 menu:
     wastewater:
-        name: SARS-CoV-2 quantification
+        name: SARS-CoV-2 kvantifiering
         weight: 20
 plotly: true
 ---
