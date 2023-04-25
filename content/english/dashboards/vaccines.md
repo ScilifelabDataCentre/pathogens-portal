@@ -1,6 +1,7 @@
 ---
 title: The Administration and Study of COVID-19 Vaccines in Sweden
 description: "The Swedish Health Agency (Folkhälsomyndigheten) provide data and information related to COVID-19 in Sweden. Visualisations are shown on multiple aspects of vaccination coverage, like coverage in different counties."
+banner: /dashboard_thumbs/vaccines.jpg
 toc: true
 plotly: true
 menu:

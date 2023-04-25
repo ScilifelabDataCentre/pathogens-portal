@@ -1,6 +1,7 @@
 ---
 title: SciLifeLab Autoimmunity and Serology profiling facility, statistik för SARS-CoV-2 antikroppstester
 description: SARS-CoV-2 antikoppstestning utförs av SciLifeLab Autoimmunology and Serology Profiling Facility. Denna dashboard visa totalt antal tester, positiva och negativa, som utförts över tid.
+banner: /dashboard_thumbs/auto_sero.jpg
 toc: false
 menu:
     dashboard_menu:

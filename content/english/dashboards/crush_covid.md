@@ -1,6 +1,7 @@
 ---
 title: CRUSH Covid data and dashboard, Region Uppsala
 description: CRUSH Covid maps outbreaks in Uppsala County by visualising the number of cases, test positivity, and geographic distribution, among other things. Data for each postal code is available for download and reuse.
+banner: /dashboard_thumbs/CRUSH.png
 toc: false
 menu:
     dashboard_menu:

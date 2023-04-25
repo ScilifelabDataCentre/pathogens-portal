@@ -23,8 +23,6 @@ Influent wastewater samples were collected from Ryaverket wastewater treatment p
 
 <div class="alert alert-info">Last updated: <span id="last_modified_gu"></span></div>
 
-*The blue block on the graph indicates the period where sample collection was not completed (week 45 2022 - week 2 2023).*
-
 <!-- <button type="button" class="btn btn-sm btn-outline-secondary mb-2" data-bs-toggle="modal" data-bs-target="#interactiveFeaturesModal">
   How to use the interactive features of the plot
 </button>

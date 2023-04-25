@@ -1,6 +1,7 @@
 ---
 title: SciLifeLab Autoimmunity and Serology profiling facility SARS-CoV-2 antibody test statistics
 description: SARS-CoV-2 antibody testing conducted by the SciLifeLab Auto-immunology and Serology profiling facility. This dashboard displays the total number of tests conducted, and positive and negative test results over time.
+banner: /dashboard_thumbs/auto_sero.jpg
 toc: false
 menu:
     main:

@@ -1,6 +1,7 @@
 ---
 title: "Post COVID-19 i Sverige, statistik, forskningsprojekt, tillgängliga data"
 description: Socialstyrelsen delar öppna data om tillstånd efter covid-19 (postcovid). Här visar vi bland annat visualiseringar av data om symtom, vårdkontakter och geografisk spridning.
+banner: /dashboard_thumbs/postcovid.jpg
 toc: true
 plotly: true
 menu:

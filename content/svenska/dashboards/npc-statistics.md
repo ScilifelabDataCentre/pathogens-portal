@@ -2,6 +2,12 @@
 title: Nationellt Pandemicenter SARS-CoV-2 (covid-19)-analysstatistik
 aliases:
     - /sv/data_types/health_data/npc-statistics/
+description: Nationellt Pandemiskt Center (NPC) genomförde testning för SARS-CoV-2 från pandemins början. Data som visas inkluderar antal positiva och negativa test samt antal test med oklart testresultat. Denna dashboard visar endast historiska data och uppdateras inte längre. 
+banner: /dashboard_thumbs/NPC_logo.png
+menu:
+     dashboard_menu:
+        identifier: npc-statistics
+        name: "National Pandemic Centre (Historic)"
 ---
 
 <div class="alert alert-info small">

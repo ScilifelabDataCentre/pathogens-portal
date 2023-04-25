@@ -1,25 +1,16 @@
 ---
-title: Wastewater-based epidemiology in Sweden
-description: Surveillance of wastewater for pathogens can be an effective means of predicting upcoming outbreaks. This dashboard contains data originating from the multiple research groups across Sweden.
+title: Mängd SARS-CoV-2 virus i avloppsvatten från svenska städer
+description: Övervakning av patogener i avloppsvatten kan vara ett effektivt sätt för att förutse framtida utbrott. Denna dashboard innehåller data som kommer från ett antal forskargrupper i sverige.
 banner: /dashboard_thumbs/wastewater.jpg
-toc: false
-type: wastewater
+toc: true
 menu:
-    dashboard_menu:
-        identifier: wastewater
-        name: Wastewater-based epidemiology in Sweden
-    other_data:
-        name: Environment
-        identifier: environment
-        weight: 50
-    wastewater:
-        name: Introduction
-        weight: 10
+  dashboard_menu:
+      identifier: wastewater
+      name: Avloppsvattenepidemiologi
 plotly: true
 aliases:
-    - /data_types/environment/wastewater/
-    - /data_types/environment/
-    - /dashboards/wastewater
+    - /sv/data_types/environment/wastewater/
+    - /sv/data_types/environment/
 ---
 
 <div class="alert alert-info"><b>Please note:</b> the wastewater dashboard is undergoing expansion over the next few months. We have now separated the data related to the amount of SARS-CoV-2 in wastewater according to the research group that collected and analysed the data (see below for information about the groups involved). In the coming months, more information and data will be added about SARS-CoV-2 and on other infectious diseases. </span></div>

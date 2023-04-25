@@ -1,6 +1,7 @@
 ---
 title: Registerbaserade COVID-19 vaccindata (RECOVAC)
 description: Information om arbetet kring ren storskalig registerbaserad vaccinationsstudie som kartlägger effektiviteten och säkerheten av COVID-19.
+banner: /dashboard_thumbs/RECOVAC.png
 toc: true
 plotly: true
 menu:

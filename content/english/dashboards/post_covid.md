@@ -1,6 +1,7 @@
 ---
 title: "Post COVID-19 condition in Sweden: statistics, research projects, and available data"
 description: "The Swedish Board of Health and Welfare (Socialstyrelsen) shares data on Post COVID-19 condition. Here, we show visualisations of data on symptoms, healthcare contacts, and geographic distribution, among other things."
+banner: /dashboard_thumbs/postcovid.jpg
 toc: true
 plotly: true
 menu:

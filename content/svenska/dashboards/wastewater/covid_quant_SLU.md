@@ -107,7 +107,7 @@ Please note that although the same methods are used for all cities shown on this
 
 ## Reports from the research group
 
-The group provide reports to summarise their latest findings. The latest report is available [here](https://blobserver.dckube.scilifelab.se/blob/Latest_weekly_report_SEEC-SLU) (only available in Swedish). 
+The group provide reports to summarise their latest findings. The latest report is available [here](https://blobserver.dckube.scilifelab.se/blob/Latest_weekly_report_SEEC-SLU). 
 
 ## Dataset
 

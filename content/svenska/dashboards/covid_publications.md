@@ -1,6 +1,7 @@
 ---
 title: Visualisation of COVID-19 and SARS-CoV-2 research in Sweden as reflected in publications
 description: Översikt över publikationer relaterade till COVID-19 och SARS-CoV-2 där minst en medförfattare är verksam vid ett svenskt lärosäte. Visar publikationer över tid samt nyckelord/nyckelfraser i publikationerna.
+banner: /dashboard_thumbs/publications.jpg
 toc: false
 plotly: true
 menu:
