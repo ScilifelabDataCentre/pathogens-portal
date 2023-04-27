@@ -14,9 +14,9 @@ Data som presenteras på denna sida genereras i Sveriges lantbruksuniversitets (
 
 Data och visualiseringar på den här sidan uppdateras vanligtvis veckovis, oftast på fredagar. Notera att de poäng som tillhandahålls i datasetet och som visas i grafen nedan är preliminära, så korrigeringar och ändringar kan förekomma. Data och information om metod som används uppdateras kontinuerligt.
 
-## Platser där prover samlas in
+## Insamlingsplatser för avloppsvatten
 
-SLU-SEEC collect and analyse samples from multiple areas. The below table shows details about each of these sites. The table lists the towns/cities monitored, wastewater treatment plants (WWTP) that samples were collected from, the number of people in the catchment area (Number of people), and the dates that monitoring by SLU-SEEC started and ended monitoring (Start and End date, respectively). A value of 'null' for the end date indicates that collection is ongoing. An asterisk next to the number of people indicates that the figure is preliminary.  
+SLU-SEEC samlar in och analyserar prover från ett flertal orter/städer. Nedan visas en tabell med detaljerad information om alla insamlingsplatser. Tabellen listar orter/städer som monitoreras, avloppsreningsverk (WWTP) där proverna samlas in, antal personer i upptagningsområdet (antal invånare), mellan vilka datum  SLU-SEEC mätningarna skett  (startdatum och slutdatum).  Ett värde ’null’ istället för slutdatum innebär att insamlingen fortfarande pågår. En asterisk bredvid antal invånare innebär att antal invånare är preliminärt.
 
   <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_slusites.json" height="775px" >}}</div>
@@ -56,7 +56,7 @@ SLU-SEEC collect and analyse samples from multiple areas. The below table shows 
   </div>
 </div> -->
 
-## Visualisations
+## Visualiseringar
 
 <div class="alert alert-info">Senast uppdaterad: <span id="last_modified_uppsala"></span></div>
 
@@ -104,9 +104,9 @@ Notera också att även om samma metoder används för alla städer som visas p�
 
 {{< ww_dynamic_content >}}
 
-## Reports from the research group
+## Rapporter från forskargruppen
 
-The group provide reports to summarise their latest findings. The latest report is available [here](https://blobserver.dckube.scilifelab.se/blob/Latest_weekly_report_SEEC-SLU) (only available in Swedish).
+Forskargruppen delar även en rapport som sammanfattar den senaste informationen från deras avloppsvattenmätningar. Den senaste rapporten finns tillgänglig som pdf [här](https://blobserver.dckube.scilifelab.se/blob/Latest_weekly_report_SEEC-SLU) (endast tillgänglig på svenska).
 
 ## Dataset
 

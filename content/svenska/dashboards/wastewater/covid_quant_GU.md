@@ -15,7 +15,7 @@ Detta projekt leds av professor Helene Norder (Göteborgs universitet, GU), i sa
 
 Data och visualiseringar på denna sida uppdateras veckovis.
 
-## Wastewater collection sites
+## Insamlingsplatser för avloppsvatten
 
 Ingående avloppsvattenprover insamlas från Ryaverkets avloppsreningsverk (eng. waste water plant WWTP) i Göteborg. Insamling av avloppsvattenprov startade 10 februari  2020 (vecka 7). Ryaverkets avloppsreningsverk samlar in avloppsvatten från mer än 790,000 invånare samt även från närliggande industrier. Avloppsvatten samlas även in från invånare och industrier inom närliggande områden som exempelvis Ale, Härryda, Kungälv, Lerum, Mölndal och Partille, samt från smältvatten från äldre delar av Göteborg. Mängd avloppsvatten från hushåll ligger på samma nivå över året, men den totala mängden avloppsvatten kan variera över året beroende på väderlek (högre luftfuktighet ger större mängd avloppsvatten). För mer information om uppsamling av avloppsvatten, veckor, volym avloppsvatten och flöde se [Wang *et al.* (2022)](https://pubmed.ncbi.nlm.nih.gov/36035197/).
 

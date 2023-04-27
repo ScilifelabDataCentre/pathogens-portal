@@ -24,7 +24,7 @@ SEEC-KTH avloppsvattensanalyser täcker ungefär 20% av Sveriges befolkning.
 
 ## Visualiseringar
 
-Please note that the visualisations below show data for the most recent 16 weeks for which data are available by default. It is possible to see all of the data by clicking the 'Whole timeline' button.
+Vänligen observera att visualiseringarna nedan endast visar data från de senaste 16 veckorna som default. För att se alla tillgängliga data vänligen klicka på knappen ‘Whole timeline’ för att se hela tidslinjen från 2020.
 
 Notera också att även om samma metoder används för alla städer som visas på den här fliken, kan skillnader i befolkningen och hur avloppsvatten samlas in i olika städer påverka jämförelser dem emellan.
 
@@ -90,7 +90,7 @@ Notera också att även om samma metoder används för alla städer som visas p�
 
 **Kontakt:** zeynepcg@kth.se
 
-**Ladda ner data:** [N3-genkopiatal per PMMoV-genkopiatal; Excelfil.](https://blobserver.dckube.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx). Data tillgänglig (delvis) från och med vecka 16 2020; uppdateras varje vecka.\
+**Ladda ner data:** [N3-genkopiatal per PMMoV-genkopiatal; Excelfil.](https://blobserver.dckube.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx). Data tillgänglig (delvis) från och med vecka 16 2020; uppdateras varje vecka.
 
 **Hur man citerar dataset:**
 Cetecioglu, Z. G., Williams, C., Khatami, K., Atasoy, M., Nandy, P., Jafferali, M. H., Birgersson, M. (2021). SARS-CoV-2 Wastewater Data from Stockholm, Sweden. [https://doi.org/10.17044/scilifelab.14315483](https://doi.org/10.17044/scilifelab.14315483).

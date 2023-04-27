@@ -14,7 +14,8 @@
     <div class="row">
         <div class="col-md-3 order-md-last toc">
             <aside class="sticky-top toc pt-2">
-                <h5>In this section:</h5>
+                <h5>{{ if eq $.Site.Language.LanguageName "Svenska" }}I denna sektion:{{ else }}In this
+                    section:{{ end }}</h5>
                 {{ .TableOfContents }}
             </aside>
         </div>

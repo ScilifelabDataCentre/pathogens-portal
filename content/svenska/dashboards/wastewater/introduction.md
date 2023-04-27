@@ -1,13 +1,13 @@
 ---
-title: Wastewater-based epidemiology in Sweden
-description: Surveillance of wastewater for pathogens can be an effective means of predicting upcoming outbreaks. This dashboard contains data originating from the multiple research groups across Sweden.
+title: Avloppsvattensepidemiologiska analyser i Sverige
+description: Monitorering av olika patogener i avloppsvatten kan vara ett effektivt sätt att förutse framtida virusutbrott. Denna dashboard innehåller data som ursprungligen samlats in av ett flertal olika forskargrupper runt om i Sverige.
 banner: /dashboard_thumbs/wastewater.jpg
 toc: false
 type: wastewater
 menu:
     dashboard_menu:
         identifier: wastewater
-        name: Wastewater-based epidemiology in Sweden
+        name: Avloppsvattensepidemiologiska analyser i Sverige
     other_data:
         name: Environment
         identifier: environment
@@ -34,13 +34,13 @@ Notera att det förekommer mindre skillnader mellan detektionsmetoderna som grup
 
 ## Navigering på dashboarden
 
-Arbetet på den här dashboarden är uppdelat efter de olika pathogener som presenteras. Se listan nedan för en överblick av vilka resurser som är tillgängliga:
+Forskningen som visas på den här dashboarden är uppdelat efter de olika pathogener som presenteras. Se listan nedan för en överblick av vilka resurser som finns tillgängliga:
 
-- [**SARS-CoV-2 kvantifiering**](/sv/dashboards/wastewater/covid_quantification): Data, visualiseringar och information kopplad till kvantifiering av SARS-CoV-2 i avloppsvatten i olika delar av Sverige. Alla tre grupper delar data kring detta och täcker olika områden i Sverige. Det går att navigera direkt till den eller de grupper som tillhandahåller data om de områden som är av intresse.
+- [**SARS-CoV-2 kvantifiering**](/sv/dashboards/wastewater/covid_quantification): Data, visualiseringar och information kopplad till kvantifiering av SARS-CoV-2 i avloppsvatten från olika delar av Sverige. Alla tre forskargrupperna delar data relaterat till SARS-CoV-2 I avloppsvatten, deras mätningar täcker olika områden i Sverige. Det går att navigera direkt till den grupp(er) som tillhandahåller data för ett geografiskt områden som är av intresse.
 
 ## Tillgänglighet av källkod
 
-All källkod som skapats för visualiseringarna under des olika  flikarna på denna dashboard finns öppet tillgänglig på [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/wastewater). Skript som används för respektive visualisering finns tillgängligt under respektive visualisering.
+All källkod som skapats för visualiseringarna under de olika  flikarna på denna dashboard finns öppet tillgänglig på [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/wastewater). Skript som används för respektive visualisering finns tillgängligt under respektive visualisering.
 
 ## Karta över platser där prover samlas in
 
@@ -50,7 +50,7 @@ Nedan finns en karta som visar de avloppsreningsverk (på engelska wastewater tr
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_map_test.json" height="600px" >}}</div>
 </div>
 
-**Code used to produce map:** [Script to produce map](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/interactive_wastewater_map.py).
+**Källkod som använts för att skapa kartan:** [Script to produce map](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/interactive_wastewater_map.py).
 
 ## Bakgrund: Avloppsvattenbaserad epidemiologi
 
