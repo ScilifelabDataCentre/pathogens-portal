@@ -1,5 +1,5 @@
 ---
-title: Avloppsvattensepidemiologiska analyser i Sverige
+title: Kvantifiering av mängd SARS-COV-2 i avloppsvatten runt om i Sverige
 toc: false
 type: wastewater
 menu:
