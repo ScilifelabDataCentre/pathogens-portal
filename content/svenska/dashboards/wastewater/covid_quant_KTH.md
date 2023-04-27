@@ -64,7 +64,7 @@ Notera också att även om samma metoder används för alla städer som visas p�
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/test_new_ww_sthlm.json" height="550px" >}}</div>
 </div>
 
-**Källskod som används för att skapa grafen:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_stockholm_regular.py).
+**Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_stockholm_regular.py).
 
 ### Malmö
 
@@ -78,7 +78,7 @@ Notera också att även om samma metoder används för alla städer som visas p�
   <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_kthmalmö.json" height="550px" >}}</div>
 </div>
 
-**Källskod som används för att skapa grafen:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_slu_regular.py).
+**Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_slu_regular.py).
 
 ## Kommentarer från forskargruppen
 
