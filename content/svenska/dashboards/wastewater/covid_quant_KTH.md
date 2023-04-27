@@ -1,5 +1,5 @@
 ---
-title: Amount of SARS-CoV-2 in wastewater (SEEC-KTH)
+title: Mängd SARS-COV-2 i avloppsvatten (SEEC-KTH)
 plotly: true
 ---
 

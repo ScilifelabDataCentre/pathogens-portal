@@ -1,5 +1,5 @@
 ---
-title: Wastewater-based epidemiology in Sweden
+title: Avloppsvattensepidemiologiska analyser i Sverige
 toc: false
 type: wastewater
 menu:
@@ -9,7 +9,7 @@ menu:
 plotly: true
 ---
 
-## Quantification of SARS-CoV-2 across Sweden
+## SARS-CoV-2 kvantifiering i Sverige
 <br>
 
 Alla tre forskargrupperna som delar data på denna dashboard gör egna mätningar av mängd SARS-CoV-2 i avloppsvatten. **Forskargrupperna mäter mängd SARS-CoV-2 i  avloppsvatten i olika svenska regioner, i vissa regioner sker mätningar av flera forskargrupper**. Se nedan för en lista över områden och städer som varje forskargrupp mäter. Klicka på forskargruppens namn för att komma direkt till respektive grupps webbsida med information om deras respektive mätningar av SARS-CoV-2 i avloppsvatten.

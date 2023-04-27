@@ -1,5 +1,5 @@
 ---
-title: Amount of SARS-CoV-2 in wastewater (GU)
+title: Mängd SARS-COV-2 i avloppsvatten (GU)
 toc: false
 plotly: true
 ---
