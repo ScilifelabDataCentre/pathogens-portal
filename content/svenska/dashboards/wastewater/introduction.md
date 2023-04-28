@@ -17,9 +17,9 @@ menu:
         weight: 10
 plotly: true
 aliases:
-    - /data_types/environment/wastewater/
-    - /data_types/environment/
-    - /dashboards/wastewater
+    - /sv/data_types/environment/wastewater/
+    - /sv/data_types/environment/
+    - /sv/dashboards/wastewater
 ---
 
 <div class="alert alert-info"><b>Notera:</b> Dashboarden för avloppsvatten kommer att utökas framöver. Vi har nu grupperat mätningarna för mängden av SARS-CoV-2 i avloppsvatten enligt den forskargrupp som samlade in och analyserade respektive data (se nedan för information om de deltagande grupperna). Under kommande månader kommer mer data och information om SARS-CoV-2 och andra infektionssjukdomar att läggas till. </span></div>
