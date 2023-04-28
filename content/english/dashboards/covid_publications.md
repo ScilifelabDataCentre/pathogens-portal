@@ -1,12 +1,13 @@
 ---
 title: Visualisation of COVID-19 and SARS-CoV-2 research in Sweden as reflected in publications
+description: A summary of the COVID-19 and SARS-CoV-2 publications produced involving at least one contributor from a Swedish university or research institute. Shows publications over time and key words/phrases within them.
+banner: /dashboard_thumbs/publications.jpg
 toc: false
 plotly: true
 menu:
     dashboard_menu:
         identifier: covid_19_publications_vis
-        name: "Overview of Swedish COVID-19 Publications"
-        weight: 70
+        name: "COVID-19 publication overview"
 aliases:
     - /projects/dashboard/
 ---

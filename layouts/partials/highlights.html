@@ -1,14 +1,26 @@
-<div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3">
-{{ range $index, $content := where (where $.Site.Pages "Section" "highlights" ) "Kind" "page" }}
+{{ $displayedInHome := .IsHome }}
+{{ $highlights := where (where $.Site.Pages "Section" "highlights" ) "Kind" "page" }}
+{{ if $displayedInHome }}
+  {{ $highlights = first 3 $highlights }}
+{{ end }}
+<div class="row row-cols-2 row-cols-lg-3 g-2 {{ if not $displayedInHome }}g-lg-3{{ end }}">
+{{ range $highlights }}
   <div class="col">
-    <div class="bg-highlight">
+    <div class="bg-card">
       <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
       {{ range (.GetTerms "highlights_topics") }}
           <span class="topic_badge_small"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
       {{ end }}
       <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
       <p class="small text-muted">{{.Date.Format "2006-01-02"}}</p>
-      <p> {{ .Summary }} <br><a href="{{ .RelPermalink }}">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).readmore_text }} <i class="bi bi-arrow-right-circle-fill"></i></a></p>
+      <p>{{ .Summary }}
+        {{ if not $displayedInHome }}
+        <br><a href="{{ .RelPermalink }}">
+          {{ (index $.Site.Params.lang_strings .Site.Language.Lang).readmore_text }}
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </a>
+        {{ end }}
+      </p>
     </div>
   </div>
 {{ end }}

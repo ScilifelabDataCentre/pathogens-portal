@@ -5,7 +5,7 @@ aliases:
     - /data_types/environment/wastewater/historic_stockholm/
 ---
 
-This page displays data on the amount of SARS-CoV-2 in Stockholm between April 2020 and August 2021 calculated as Gene copy number/week (raw wastewater) with bovine + PMMoV factor. From September 2021 onwards, the method was changed. Please [see this page for the most recent data](../).
+This page displays data on the amount of SARS-CoV-2 in Stockholm between April 2020 and August 2021 calculated as Gene copy number/week (raw wastewater) with bovine + PMMoV factor. From September 2021 onwards, the method was changed. Please [see this page for the most recent data](./).
 
 This project, led by associate professor Zeynep Cetecioglu Gurol and colleagues (KTH Royal Institute of Technology; zeynepcg@kth.se), is a collaboration between the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) and the [SEED](https://www.kth.se/en/seed) and [Chemical Engineering](https://www.kth.se/ket/chemical-engineering-1.784196) departments at KTH, in close collaboration with Stockholm Vatten och Avfall and the Käppala Association. The sampling of wastewater, started in mid-April 2020, from Bromma, Henriksdal, and Käppala wastewater treatment plants (WWTP). These treatment plants receive wastewater from a population of approximately 360,000; 860,000 and 500,000, respectively. Please consult [this map for the exact catchment area of the wastewater collection channels in Käppala](/wastewater/map_Kappala.pdf) and [this map for the exact catchment area of the wastewater collection channels in Bromma and Henriksdal](/wastewater/map_Bromma_Henriksdal.pdf).
 

@@ -116,11 +116,11 @@ The information that you need to provide will differ dependent on e.g. the type 
 
 *The above image is adapted from one produced by Sam Holt for the ENA Facility Day 2020.*
 
-<div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#mandatorycollapse" aria-expanded="False" aria-controls="mandatorycollapse">
-    Click here for how to deal with mandatory fields for which you have no data
-</button>
-</div>
-<div class="collapse" id="mandatorycollapse">
+<a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+    Genomics data
+  </a>
+</p>
+<div class="collapse" id="collapseExample1">
   <div class="card card-body">
         <span>Some metadata fields are mandatory. However, in some cases, data for these fields is unavailable for some reason. This will not prevent submission, but any such missing data must be reported appropriately in ENA. In order to do this, users should fill the respective fields using the appropriate INSDC-approved term, which are used to indicate not only that data is missing, but also why. For more information about reporting missing metadata values and the INSDC-approved terms that can be used, see <a href="https://ena-docs.readthedocs.io/en/latest/submit/samples/missing-values.html?highlight=insdc%20missing#reporting-missing-values">here</a>. </span>
   </div>

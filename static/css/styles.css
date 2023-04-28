@@ -473,26 +473,6 @@ div.dataTables_wrapper div.dataTables_info {
     text-decoration: none;
 }
 
-.topic_badge_general {
-    background-color: #6C757D;
-}
-
-.topic_badge_mpox {
-    background-color: #D8D8D8;
-}
-
-.topic_badge_covid {
-    background-color: #295986;
-  }
-
-.topic_badge_antib_r {
-    background-color: #D4DE27;
-}
-
-.topic_badge_infectious_d {
-    background-color: #37AE94;
-}
-
 .dataset_badge_data {
     background-color: #D7BDE2;
     color: #000000;
@@ -567,11 +547,10 @@ div.dataTables_wrapper div.dataTables_info {
 * Our own backgrounds
 */
 
-.bg-highlight {
+.bg-card {
     height: 100%;
     background-color: #f8f9fa;
     padding: 6px 12px 0px;
-    margin: 0px 2px;
     border-width: 0.01px;
     border-style: solid;
     border-radius: 3px;

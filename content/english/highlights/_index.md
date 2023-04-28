@@ -8,7 +8,7 @@ menu:
     homepage_highlights:
         name: Data highlights
         identifier: highlights
-        post: Highlights of recent openly shared data and data re-use. <a href="/highlights/">See all highlights <i class="bi bi-arrow-right-circle-fill"></i></a>
+        post: Recent research that openly shares data and promote data reuse. <a href="/highlights/">See all highlights <i class="bi bi-arrow-right-circle-fill"></i></a>
 aliases:
       - /news
       - /sv/news
