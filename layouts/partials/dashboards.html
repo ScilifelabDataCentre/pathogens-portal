@@ -1,0 +1,16 @@
+{{ $displayed_in_homepage := .IsHome }}
+{{ $homepage_dashboards := slice "post_covid" "vaccines" "wastewater" }}
+<div class="row row-cols-2 row-cols-lg-3 g-2 {{ if not $displayed_in_homepage }}g-lg-3{{ end }}">
+  {{ range .Site.Menus.dashboard_menu }}
+    {{ if or (not $displayed_in_homepage) (in $homepage_dashboards .Identifier) }}
+      <div class="col">
+        <div class="bg-card">
+          <img style="margin-top:0.5rem"
+               src="{{ with .Page.Params.banner }}{{ . }}{{ else }}{{ "/img/plp_default.png" }}{{ end }}">
+          <h6><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></h6>
+          <p>{{ .Page.Description }}</p>
+        </div>
+      </div>
+    {{ end }}
+  {{ end }}
+</div>
