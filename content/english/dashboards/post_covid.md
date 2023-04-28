@@ -82,6 +82,10 @@ The maps below show the number of people that received the diagnoses of interest
 
 **Code used to produce plot:** [Data preparation script](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Script to produce map](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_population_U089.py).
 
+<!--
+
+{{/* The data used for this is not available anymore, this section should be removed if no alternatives found */}}
+
 ### Geographic distribution of diagnosed cases relative to confirmed COVID-19 cases
 
 The maps below show the number of people that received the diagnoses of interest in each county as a percentage of the total number of confirmed COVID-19 cases in that county (based on [data from the Public Health Agency (Folkhälsomyndigheten)](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/statistik-och-analyser/bekraftade-fall-i-sverige/)). Specifically, the cumulative number of COVID-19 cases in the county at the date given for the last update of the number of diagnoses of interest. Both the total number of confirmed COVID-19 cases and the number of people who received the diagnoses of interest can be seen by hovering the mouse above a particular county. Please note that the data visualised on this map should be interpreted with considerable caution for a few reasons. One reason for this is that the number of COVID-19 cases is likely underestimated; some cases of COVID-19 are asymptomatic, and not all symptomatic cases will have been confirmed and reported. The diagnoses related to *Post COVID-19 condition* were also introduced later than COVID-19, so not all cases of *Post COVID-19 condition* are likely to have received a formal diagnosis. Further, since *Post COVID-19 condition* may not be diagnosed for months following acute COVID-19 infection, some cases of *Post COVID-19 condition* may develop from the COVID-19 cases already reported.
@@ -101,6 +105,8 @@ The maps below show the number of people that received the diagnoses of interest
 </div>
 
 **Code used to produce plot:** [Data preparation script](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Script to produce map](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_cases_U089.py).
+
+-->
 
 ### Most common accompanying diagnoses
 
