@@ -1,13 +1,13 @@
 ---
 title: Administrering av covid-19 vaccin och vaccinforskning i Sverige
+description: Folkhälsomyndigheten tillhandahåller data och information om covid-19 i Sverige. Visualiseringar visas på flera aspekter av vaccinationstäckningen, som täckning i olika län.
+banner: /dashboard_thumbs/vaccines.jpg
 toc: true
 plotly: true
 menu:
-    swe_menu:
+    dashboard_menu:
         identifier: vaccines
-        name: Administrering av covid-19 vaccin i Sverige
-        weight: 30
-        parent: dashboards
+        name: Administrering av covid-19 vaccin
 aliases:
     - /sv/data_types/health_data/vaccines/
 ---

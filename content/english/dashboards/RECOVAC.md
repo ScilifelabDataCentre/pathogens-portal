@@ -1,12 +1,13 @@
 ---
 title: Register-based COVID-19 vaccination study (RECOVAC)
+description: Dedicated to the work of the register-based large-scale national population study to monitor COVID-19 vaccination effectiveness and safety (RECOVAC) project.
+banner: /dashboard_thumbs/RECOVAC.png
 toc: true
 plotly: true
 menu:
     dashboard_menu:
         identifier: recovac
-        name: Register-based vaccination (RECOVAC) 
-        weight: 40
+        name: Register-based vaccination (RECOVAC)
 ---
 
 ## RECOVAC project overview
