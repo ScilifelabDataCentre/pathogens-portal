@@ -14,7 +14,7 @@ We will not use or share your information with anyone except as described in thi
 
 Our **Service** contains a number of forms through which the website visitors may choose to get in touch with us or send us suggestions. The website visitors may choose to provide their personal information such as, for example, their name and e-mail address, through these forms.
 
-The following parties will have access to processing the personal data provided through the forms: Health-RI. Your personal data will be deleted when no longer needed, or when stipulated by the archival rules for the university as a government authority. If you want to update or remove your personal data please contact the controller Health-RI using ??.
+The following parties will have access to processing the personal data provided through the forms: Health-RI. Your personal data will be deleted when no longer needed, or when stipulated by the government. If you want to update or remove your personal data please contact Health-RI.
 
 ## Links to Other Sites
 
