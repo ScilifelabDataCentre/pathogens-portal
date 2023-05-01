@@ -6,7 +6,7 @@
             "available_items": [
                 {
                     "type": "data",
-                    "repo_name": "COVID-NL clinical data",
+                    "repo_name": "COVID-NL clinical data dashboard",
                     "accession_number": "",
                     "description": "Observational COVID-19 data from Dutch health care providers.",
                     "data_type": [
@@ -16,13 +16,13 @@
                     "data_url": "https://covid19initiatives.health-ri.nl/p/Dashboard"
                 }
             ],
-            "title": "COVID-NL clinical data",
+            "title": "COVID-NL clinical data dashboard",
             "issue": "",
             "volume": "",
             "publisher": "Health-RI",
             "published": " ",
             "author": [
-                ""
+                "NFU"
             ]
         },
         {
