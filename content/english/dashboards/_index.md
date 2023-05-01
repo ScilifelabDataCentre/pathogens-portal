@@ -21,4 +21,8 @@ menu:
 
 <hr>
 
+<h4><a href="pathogen_surveillance/">Pathogen surveillance <i class="bi bi-arrow-right-circle-fill"></i></a></h4>
+
+<hr>
+
 <h4><a href="covid_publications/">Overview of Dutch COVID-19 publications<i class="bi bi-arrow-right-circle-fill"></i></a></h4>
