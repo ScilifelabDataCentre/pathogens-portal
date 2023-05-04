@@ -69,7 +69,7 @@ Influent wastewater samples were collected from Ryaverket wastewater treatment p
 ## Dataset
 
 **Download the data:** [Quantification of SARS-CoV-2 and enteric viruses in wastewater](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx). Results are available for SARS-CoV-2 from week 7 of 2020 (with a small gap over winter 2022-2023), and for enteric viruses from week 2 of 2023. Updated weekly.\
-**Contact:** helene.norder@gu.se
+**Contact:** <helene.norder@gu.se>
 
 **How to cite the dataset:**  Norder, H., Nyström, K. Patzi Churqui, M., Tunovic, T., Wang, H. (2023). Detection of SARS-CoV-2 and other human enteric viruses in wastewater from Gothenburg. [https://doi.org/10.17044/scilifelab.22510501](https://doi.org/10.17044/scilifelab.22510501).
 

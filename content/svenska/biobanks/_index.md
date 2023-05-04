@@ -22,7 +22,7 @@ I september 2021 innehåller det svenska Covid-19 Provsamlingsregistret **35
 
 ### Registrera en provsamling i Covid-19 Provsamlingsregistret
 
-För att registrera en provsamling i Covid-19 Provsamlingsregistret [kontaktas Biobank Sverige](https://biobanksverige.se/provsamlingar-publicerade-i-covid-19-data-portal-sweden-underlattar-forskning-om-covid-19/) (på denna sida finner du länkar för att registrera olika typer av provsamlingar). För frågor, kommentarer, eller förslag om provsamlingsregistret kontakta datacentre@scilifelab.se.
+För att registrera en provsamling i Covid-19 Provsamlingsregistret [kontaktas Biobank Sverige](https://biobanksverige.se/provsamlingar-publicerade-i-covid-19-data-portal-sweden-underlattar-forskning-om-covid-19/) (på denna sida finner du länkar för att registrera olika typer av provsamlingar). För frågor, kommentarer, eller förslag om provsamlingsregistret kontakta <datacentre@scilifelab.se>.
 
 ### Ansvariga organisationer
 

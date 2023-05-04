@@ -66,7 +66,7 @@ Ingående avloppsvattenprover insamlas från Ryaverkets avloppsreningsverk (eng.
 
 ## Dataset
 
-**Kontakt:** helene.norder@gu.se
+**Kontakt:** <helene.norder@gu.se>
 
 **Nedladdning av data:** [Quantification of SARS-CoV-2 and enteric viruses in wastewater](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx). Resultat finns tillgängliga för mängd SARS-CoV-2 från vecka 7 2020 (ett mindre uppehåll  under vintern 2022-2023) , och för enterovirus från vecka 2 2023. Data uppdateras veckovis.\
 
