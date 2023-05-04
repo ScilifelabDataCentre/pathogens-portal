@@ -68,11 +68,11 @@
         {{ end }}
       </ul>
     </div>
-    <div class="col-md">
+    <div class="col-md icons-and-scilifelab-logo">
       <h2 class="small text-uppercase text-black-50">{{ if eq $.Site.Language.LanguageName "Svenska" }}Följ
         oss{{ else }}Connect{{ end }}</h2>
       <div class="container">
-        <div class="d-flex justify-content-start">
+        <div class="d-flex justify-content-center justify-content-md-start">
           <a class="p-2" style="font-size:2em;" target="_blank" href="mailto:datacentre@scilifelab.se"><i
               class="bi bi-envelope-fill"></i></a>
           <a class="p-2" style="font-size:2em;" target="_blank" href="https://twitter.com/scilifelab_DC"><i
@@ -81,13 +81,27 @@
             href="https://linkedin.com/company/scilifelab-data-centre"><i class="bi bi-linkedin"></i></a>
         </div>
       </div>
+      <div class="container">
+        <a class="d-block" target="_blank" href="https://www.scilifelab.se" style="margin-top: 15%;">
+          <img src="/img/logos/scilifelab-logo.svg" alt="SciLifeLab" style="max-width: 100%; max-width: 100%">
+        </a>
+      </div>
     </div>
-    <div class="col-md text-center">
-      <a class="d-block my-4" href="https://www.scilifelab.se"><img src="/img/logos/scilifelab-logo.svg"
-          alt="SciLifeLab"></a>
-      <span class="d-block my-4"><img src="/img/logos/elixir-se-logo.png" alt="Elixir Sweden"></span>
+    
+    <div class="col-md ssf-and-kaw-logo text-center">
+      <div class="container">
+        <a class="d-block" target="_blank" href="{{ if eq .Language.Lang "en" }}https://strategiska.se/en/{{ else
+          }}https://strategiska.se/{{ end }}">
+          <img src="/img/logos/ssf_logo_{{ .Language.Lang }}.svg" alt="SSF">
+        </a>
+        <a class="d-block" target="_blank" href="{{ if eq .Language.Lang "en" }}https://kaw.wallenberg.org/en{{ else
+          }}https://kaw.wallenberg.org{{ end }}">
+          <img src="/img/logos/knut-and-alice-wallenberg.jpg" alt="Knut and Alice Wallenberg Foundation">
+        </a>
+      </div>
     </div>
-  </div>
+
+
   <div class="row footer-lower-row">
     <div class="col-md-2 p-2 text-center">
       <a
