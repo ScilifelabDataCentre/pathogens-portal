@@ -1,7 +1,7 @@
 ---
 title: Variability in IGH antibody genes influences the response to SARS-CoV-2
 date: 2023-05-05
-summary: Pushparaj and colleagues use genotyping and haplotype analysis to show high genetic diversity in IGH genes among humans, which may influence our response to infections. Data, and IgDiscover tool shared.
+summary: Pushparaj and colleagues use genotyping and haplotype analysis to show high genetic diversity in IGH genes among humans, which may influence our response to infections. Data, and IgDiscover software shared.
 banner: /highlights/banners/igh_antibody_genes_small.jpg
 banner_large: /highlights/banners/igh_antibody_genes.jpg
 banner_caption: Graphical abstract (Image courtesy Pushparaj et al. 2023)
