@@ -35,7 +35,7 @@ Portalen drivs av [SciLifeLab Data Centre](https://scilifelab.se/data/) och sama
 
 Den här webbplatsen är byggd med hjälp av [Hugo](https://gohugo.io/) och använder [Bootstrap](https://getbootstrap.com/) ramverket, [DataTables](https://datatables.net/) används för att skapa tabeller, [Vega/Vega-Lite](https://vega.github.io/vega-lite/) och [Plotly](https://plotly.com/) för interaktiv grafik. Koden är öppen källkod ([MIT-licens](https://choosealicense.com/licenses/mit/)) och [finns tillgänglig på GitHub](https://github.com/ScilifelabDataCentre/covid-portal). Vi välkomnar att Portalens källkod återanvänds och att forskare bidrar till webbsidans källkod.
 
-Om du vill bidra med innehåll eller har förslag på förbättringar av webbplatsen, vänligen kontakt oss på datacentre@scilifelab.se
+Om du vill bidra med innehåll eller har förslag på förbättringar av webbplatsen, vänligen kontakt oss på <datacentre@scilifelab.se>
 
 #### Portalens historia
 
@@ -47,7 +47,7 @@ Från 2022 har Portalen utvidgats till att även inkluderar forskningsämnen med
 
 Från starten har Portalen drivits av SciLifeLab Data Centre och samarbetspartners, med stöd och input av forskarsamhället. Många personer har varit involverade i uppbyggnad, drift och utvecklingsarbete av webbsidans källkod och Portalens innehåll. En ofullständig lista över dessa personer som bidragit finns tillgänglig på GitHub. Det nuvarande dedikerade teamet som aktivt arbetar med Portalen visas nedan.
 
-Vi hjälper er gärna med support, tar emot förslag på förbättringar av nuvarande sektioner eller förslag på nya sektioner samt svarar på frågor relaterade till datahantering, datadelning och Portalens innehåll. Maila oss på datacentre@scilifelab.se.
+Vi hjälper er gärna med support, tar emot förslag på förbättringar av nuvarande sektioner eller förslag på nya sektioner samt svarar på frågor relaterade till datahantering, datadelning och Portalens innehåll. Maila oss på <datacentre@scilifelab.se>.
 
 <div class="container mb-3">
   <div class="row">

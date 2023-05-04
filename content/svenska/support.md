@@ -14,13 +14,13 @@ En översikt över relevanta supporttjänster (avgiftsfria eller avgiftsbelagda)
 
 <h2><i class="bi bi-people-fill"></i> Supporttjänster om Portalen</h2>
 
-Om du har frågor eller förslag för den *Svenska Dataportalen för Covid-19 & Pandemisk Beredskap*, kontakta teamet som arbetar med Portalen antingen genom att fylla i [kontaktformuläret](/sv/contact) eller via epost till datacentre@scilifelab.se.
+Om du har frågor eller förslag för den *Svenska Dataportalen för Covid-19 & Pandemisk Beredskap*, kontakta teamet som arbetar med Portalen antingen genom att fylla i [kontaktformuläret](/sv/contact) eller via epost till <datacentre@scilifelab.se>.
 
 <b><a href="/contact/">Kontakta Portalenteamet <i class="bi bi-arrow-right-circle-fill"></i></a></b>
 
 <h2><i class="bi bi-people-fill"></i> Datahanteringsstöd</h2>
 
-Alla forskare som är affilierade till ett svenskt lärosäte och arbetar inom forskningsfältet pandemisk beredskap har möjlighet till avgiftsfria individuella konsultationer och hands-on stöd (i mån av tid) från Portalenteamet. Skicka en förfrågan till datacentre@scilifelab.se. Din fråga kommer tas omhand av en datasamordnare med relevant expertis inom det område du behöver support inom alternativt så hänvisas du ett tillgängligt verktyg eller tjänst.
+Alla forskare som är affilierade till ett svenskt lärosäte och arbetar inom forskningsfältet pandemisk beredskap har möjlighet till avgiftsfria individuella konsultationer och hands-on stöd (i mån av tid) från Portalenteamet. Skicka en förfrågan till <datacentre@scilifelab.se>. Din fråga kommer tas omhand av en datasamordnare med relevant expertis inom det område du behöver support inom alternativt så hänvisas du ett tillgängligt verktyg eller tjänst.
 
 Vi välkomnar både generella frågor om ”best practise” datahantering, datahanteringplaner (DMPs), reproducerbara data, FAIR och öppen vetenskap samt specifika frågor relaterade till datadelning, metadata standarder, filformat etc. I vissa fall kan en datasamordnare hjälpa till att ladda upp data till ett datarepositorie för den enskilde forskaren.
 

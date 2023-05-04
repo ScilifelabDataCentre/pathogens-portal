@@ -25,7 +25,7 @@ Vår **tjänst** innehåller ett antal formulär vilka webbsidans besökare kan 
 
 Följande parter kommer ha tillgång till personuppgifter som anges i dessa formulär: SciLifeLab Data Centre, Uppsala universitet.
 
-Dina personuppgifter kommer att raderas när de inte längre är nödvändiga eller enligt universitetets policy for arkivering. Om du vill uppdatera eller radera dina personuppgifter vänligen kontakta controller SciLifeLab Data Centre vid Uppsala universitet via epost datacentre@scilifelab.se.
+Dina personuppgifter kommer att raderas när de inte längre är nödvändiga eller enligt universitetets policy for arkivering. Om du vill uppdatera eller radera dina personuppgifter vänligen kontakta controller SciLifeLab Data Centre vid Uppsala universitet via epost <datacentre@scilifelab.se>.
 
 ## Länkar till andra webbplatser
 

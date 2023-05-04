@@ -22,7 +22,7 @@ You can opt out of your Log Data being collected below:
 
 Our **Service** contains a number of forms through which the website visitors may choose to get in touch with us or send us suggestions. The website visitors may choose to provide their personal information such as, for example, their name and e-mail address, through these forms.
 
-The following parties will have access to processing the personal data provided through the forms: SciLifeLab Data Centre, Uppsala University. Your personal data will be deleted when no longer needed, or when stipulated by the archival rules for the university as a government authority. If you want to update or remove your personal data please contact the controller SciLifeLab Data Centre at Uppsala University using datacentre@scilifelab.se.
+The following parties will have access to processing the personal data provided through the forms: SciLifeLab Data Centre, Uppsala University. Your personal data will be deleted when no longer needed, or when stipulated by the archival rules for the university as a government authority. If you want to update or remove your personal data please contact the controller SciLifeLab Data Centre at Uppsala University using <datacentre@scilifelab.se>.
 
 ## Links to Other Sites
 

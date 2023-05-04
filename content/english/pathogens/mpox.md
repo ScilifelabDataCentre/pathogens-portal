@@ -20,7 +20,7 @@ Information regarding mortality rate is limited, but there is significant variat
 
 In this section, we present announcements about ongoing research efforts primarily by (but not limited to) researchers and institutions based in Sweden. The intention is to 'highlight' these efforts as soon as possible, so that we can maximise their usefulness to researchers.
 
-Please feel free to submit an announcement using the form below or by sending an e-mail to datacentre@scilifelab.se.
+Please feel free to submit an announcement using the form below or by sending an e-mail to <datacentre@scilifelab.se>.
 
 Lists of data, tools, publications, and other potentially useful information are provided further down on the page and likely to be more complete.
 
