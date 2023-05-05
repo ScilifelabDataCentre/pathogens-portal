@@ -23,11 +23,11 @@ aliases:
 
 On this page we have compiled current knowledge on Omicron, the latest SARS-CoV-2 variant to be designated as a Variant of Concern (VOC). This includes available data, ongoing research efforts, initial findings, among other things related to Omicron. Please see [this page for information on other VOCs](../).
 
-We make all possible efforts to track preprints, publications, and other resources related to Omicron and link them below. Researchers and organisations from around Sweden are also welcome to submit their datasets and to make relevant announcements on this page. If you feel like something is missing that should be included, or you wish to make a submission/announcement, please use the forms below or email us at datacentre@scilifelab.se. The team behind the COVID-19 Data Portal continuously monitors incoming suggestions, and new items are published as soon as possible.
+We make all possible efforts to track preprints, publications, and other resources related to Omicron and link them below. Researchers and organisations from around Sweden are also welcome to submit their datasets and to make relevant announcements on this page. If you feel like something is missing that should be included, or you wish to make a submission/announcement, please use the forms below or email us at <datacentre@scilifelab.se>. The team behind the COVID-19 Data Portal continuously monitors incoming suggestions, and new items are published as soon as possible.
 
 ## Available data
 
-This section presents a list of the available data related to Omicron (or related work that could benefit research into this variant) shared by researchers affiliated to a Swedish research institute. We welcome the submission of suggestions for additional datasets, either using the form below or by e-mail: datacentre@scilifelab.se. All submissions will be moderated by the Portal team before they appear on the page.
+This section presents a list of the available data related to Omicron (or related work that could benefit research into this variant) shared by researchers affiliated to a Swedish research institute. We welcome the submission of suggestions for additional datasets, either using the form below or by e-mail: <datacentre@scilifelab.se>. All submissions will be moderated by the Portal team before they appear on the page.
 
 {{< pathogens_suggest_available_data origin="omicron" >}}
 
@@ -59,7 +59,7 @@ Recent data highlights related to *Omicron* variant. All *Omicron* related data 
 
 ## Ongoing research efforts
 
-In this section, we present announcements about ongoing research efforts from researchers and organisations in Sweden. Please feel free to share what you are currently working on and/or your results, to seek collaborators to aid with aspects of your work (e.g. data, equipment, reagents, etc.). Any announcement useful for advacing research on Omicron is welcome. Feel free to submit the information either by using the form below or by sending us an e-mail to datacentre@scilifelab.se.
+In this section, we present announcements about ongoing research efforts from researchers and organisations in Sweden. Please feel free to share what you are currently working on and/or your results, to seek collaborators to aid with aspects of your work (e.g. data, equipment, reagents, etc.). Any announcement useful for advacing research on Omicron is welcome. Feel free to submit the information either by using the form below or by sending us an e-mail to <datacentre@scilifelab.se>.
 
 {{< pathogens_add_announcement origin="omicron" >}}
 
@@ -114,6 +114,6 @@ Here we list a number of useful resources related to the new *SARS-CoV-2 Omicron
 
 ## Get in touch with us
 
-Do you have suggestions or other feedback? Get in touch with us by e-mailing datacentre@scilifelab.se.
+Do you have suggestions or other feedback? Get in touch with us by e-mailing <datacentre@scilifelab.se>.
 
 {{< omicron_page_form_scripts >}}

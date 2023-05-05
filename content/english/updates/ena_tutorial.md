@@ -20,4 +20,4 @@ Today, the Swedish COVID-19 Data Portal is launching [a tutorial on submitting S
 
 [**Go to the tutorial for SARS-CoV-2 genome data submission to ENA**](/support_services/tutorial_ena/tutorial_ena_intro/)
 
-Please note that the Portal team is also happy to function as a **broker** for researchers who have a large number of sequences and who would like to submit these to ENA. We offer this service to Swedish life science researchers. To find out more, send an email to datacentre@scilifelab.se and tell us how we can help you.
+Please note that the Portal team is also happy to function as a **broker** for researchers who have a large number of sequences and who would like to submit these to ENA. We offer this service to Swedish life science researchers. To find out more, send an email to <datacentre@scilifelab.se> and tell us how we can help you.
