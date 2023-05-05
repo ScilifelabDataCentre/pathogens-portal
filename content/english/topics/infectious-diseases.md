@@ -1,10 +1,13 @@
 ---
 title: Infectious diseases
+description: Infectious diseases can spread directly or indirectly in multiple different ways. For example, they may spread through droplets in the air, by exchanging bodily fluids, and by consuming contaminated food. Infectious diseases can spread between humans as well as between animals and humans.
+banner: /dashboard_thumbs/topic_infectious.jpg
 toc: false
 topic: Infectious diseases
 menu:
     topics_menu:
         name: Infectious diseases
+        identifier: infectious_diseases
         weight: 20
 ---
 

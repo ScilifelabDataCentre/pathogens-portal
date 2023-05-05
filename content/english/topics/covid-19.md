@@ -1,12 +1,14 @@
 ---
 title: COVID-19
+description: The research community worldwide has, in an unprecedented way, focused their research efforts towards investigating the novel SARS-CoV-2 virus and variants, as well as variants of concern have emerged more, and the impact of COVID-19 on human body. These contributions from the research community have been a crucial part of the rapid vaccine development.
+banner: /dashboard_thumbs/topic_covid.jpg
 toc: false
 topic: COVID-19
 menu:
     topics_menu:
         name: COVID-19
+        identifier: covid_19
         weight: 10
-header_illustration: /img/csm_coronavirus_mc.jpg
 ---
 
 <!-- The overview of items belonging to this topic will appear before the text below -->

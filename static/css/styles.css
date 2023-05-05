@@ -3,16 +3,20 @@
 body {
     font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
 }
+
 a {
     color: #3E75C1;
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 img {
     max-width: 100%;
 }
+
 blockquote {
     border-left: 5px solid rgba(46, 104, 165, 0.3);
     padding-left: 1rem;
@@ -626,4 +630,8 @@ hr.faded:before {
     position: absolute;
     top: 50%;
     z-index: 1;
+}
+
+.topics-image {
+    margin-top:0.5rem;
 }
