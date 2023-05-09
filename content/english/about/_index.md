@@ -16,7 +16,7 @@ menu:
       <a class="nav-link active" href="#"><b>Overview<br><br></b></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="organisations_and_programs">Programs & organisations<br>behind the portal</a>
+      <a class="nav-link" href="organisations_and_programs">Organisations<br>behind the portal</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="partner_organisations">Partner organisations<br><br></a>
