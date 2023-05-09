@@ -4,6 +4,16 @@
 <div class="row">
   <div class="col-md-8 vert-line-right mt-3">
 
+    <!-- Dashboards -->
+    {{ range .Site.Menus.homepage_dashboards }}
+    <div class="row">
+      <h2>{{ .Name }}</h2>
+    </div>
+    <div class="row">
+      <p class="small text-muted">{{ .Post }}</p>
+    </div>
+    {{ end }}
+    {{ partial "dashboards.html" . }}
     {{ if ne $.Site.Language.LanguageName "Nederlands" }}
     <!-- Available data -->
     {{ $all_entries := $.Site.Data.available_datasets.datasets }}
