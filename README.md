@@ -10,7 +10,7 @@ The main European site can be seen at [https://www.covid19dataportal.org/](https
 
 ## Introduction
 
-This website is developed and maintained by the [Lygature](https://www.lygature.org/) with many contributions from collaborators. Contributions from anyone are welcome and will be published after a review by the Portal team.
+This website is developed and maintained by the [Health-RI](https://www.health-ri.nl/) with many contributions from collaborators. Contributions from anyone are welcome and will be published after a review by the Portal team.
 
 The website is intended to provide a central place to provide information about:
 
@@ -34,8 +34,8 @@ Users who are technically more advanced are welcome to make contributions by run
 
 ## Credits
 
-The website was built and is maintained by [Lygature](https://www.lygature.org/). We are grateful to many collaborators, both from the Data Centre and elsewhere, for their contributions.
+The website was built by [Lygature](https://www.lygature.org/) and is maintained by [Health-RI](https://www.health-ri.nl/). We are grateful to many collaborators for their contributions.
 
-The primary contributors have been:
+The primary contributor for the Dutch COVID-19 Data Portal has been:
 
 - [@rnavest](https://github.com/rnavest)
