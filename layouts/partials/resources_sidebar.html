@@ -1,5 +1,0 @@
-<h5>Resources</h5>
-{{ $current_url := .Page.RelPermalink }}
-{{ range .Site.Menus.resources_menu }}
-  <div class="d-block">{{ if ne .Page.RelPermalink $current_url }}<a href="{{ .Page.RelPermalink }}">{{ else }}<b>{{ end }}<i class="bi bi-caret-right-fill"></i>{{ .Name }}{{ if ne .Page.RelPermalink $current_url }}</a>{{ else }}</b>{{ end }}</div>
-{{ end }}
