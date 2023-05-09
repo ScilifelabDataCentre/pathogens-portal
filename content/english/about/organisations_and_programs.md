@@ -24,7 +24,7 @@ title: Programs and organisations behind the portal
   </div>
   <div class="col-sm-12 col-md-12 col-lg-9">
     <h6>Lygature</h6>
-    <p><a href = "https://www.lygature.org/"> Lygature </a> provides partnership management to bring all COVID-19 resources within the Netherlands and Europe together.</p>
+    <p><a href = "https://www.lygature.org/"> Lygature </a> provides partnership management to bring COVID-19 resources within the Netherlands and Europe together.</p>
   </div>
 </div>
 <hr class="faded" />
