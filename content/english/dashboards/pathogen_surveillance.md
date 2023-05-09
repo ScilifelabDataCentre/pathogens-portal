@@ -10,4 +10,4 @@ menu:
 aliases:
     - /projects/dashboard/
 ---
-The variants of the coronavirus SARS-COV=2 are visualised on [this page](https://www.rivm.nl/en/coronavirus-covid-19/virus/variants). Furthermore, the most prevalent variant within the Netherlands is reported.
+The variants of the coronavirus SARS-COV-2 are visualised on [this page](https://www.rivm.nl/en/coronavirus-covid-19/virus/variants). Furthermore, the most prevalent variant within the Netherlands is reported.
