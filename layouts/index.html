@@ -5,40 +5,6 @@
   <div class="col-md-8 vert-line-right mt-3">
 
     {{ if ne $.Site.Language.LanguageName "Nederlands" }}
-    <!-- Data highlights -->
-    {{ range .Site.Menus.homepage_highlights }}
-      <div class="row">
-        <h2>{{ .Name }}</h2>
-      </div>
-      <div class="row">
-        <p class="small text-muted">{{ .Post }}</p>
-      </div>
-    {{ end }}
-    {{ $highlights := where .Site.RegularPages "Section" "highlights" }}
-      <div class="row row-cols-2 row-cols-lg-3 g-2">
-        {{ range first 3 $highlights }}
-        <div class="col">
-          <div class="bg-highlight">
-          <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
-          {{ range (.GetTerms "highlights_topics") }}
-          <span class="topic_badge_small
-            {{ if eq .LinkTitle "COVID-19"}}topic_badge_covid
-            {{ else if eq .LinkTitle "Infectious diseases"}}topic_badge_infectious_d
-            {{ else if eq .LinkTitle "Antibiotic resistance"}}topic_badge_antib_r
-            {{ else }}topic_badge_general
-            {{ end }} "><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-          </span>
-          {{ end }}
-          <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
-          <p class="small text-muted mb-1">{{.Date.Format "2006-01-02"}}</p>
-          <p>{{ .Summary }}</p>
-          </div>
-        </div>
-        {{ end }}
-      </div>
-    {{ end }}
-
-    {{ if ne $.Site.Language.LanguageName "Nederlands" }}
     <!-- Available data -->
     {{ $all_entries := $.Site.Data.available_datasets.datasets }}
     {{/*
