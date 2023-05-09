@@ -1,9 +1,9 @@
-baseURL: "https://www.covid19dataportal.se/"
-title: "The Swedish COVID-19 & Pandemic Preparedness Data Portal"
+baseURL: "https://www.covid19dataportal.nl/"
+title: "The Dutch COVID-19 & Pandemic Preparedness Data Portal"
 buildFuture: true
 params:
-  title: "The Swedish COVID-19 & Pandemic Preparedness Data Portal"
-  description: The Swedish COVID-19 & Pandemic Preparedness Data Portal
+  title: "The Dutch COVID-19 & Pandemic Preparedness Data Portal"
+  description: The Dutch COVID-19 & Pandemic Preparedness Data Portal
   images:
     - /img/site_logo/CV19DP_logo_social_card_SWE.png
 
@@ -34,41 +34,12 @@ params:
       pubs_funder: Funder
       twitter_link: Twitter
       linkedin_link: LinkedIn
-    sv:
-      home_title: Snabbare forskning genom datadelning
-      enquire_email_footer_dc: "Kontakta den svenska Covid-19 dataportalen"
-      support_feedback: Support och Feedback
-      privacy: Integritetspolicy
-      github_link: Webbplatskod på GitHub
-      skip_to_content: Hoppa till innehållet
-      readmore_text: Läs mer
-      published_text: Publicerad
-      all_highlights: Se alla data i fokus
-      next_highlight: Nästa
-      previous_highlight: Föregående
-      projects_title: Projektitel
-      projects_pi: Projektledare
-      projects_piaff: Koordinerande organisation
-      projects_funder: Forskningsfinansiär
-      pubs_pub: Artikel
-      pubs_updated: Publicerad
-      pubs_field: Ämne
-      pubs_availability: Tillgängliga forskningsdata
-      pubs_type: Publikationstyp
-      pubs_year: År
-      pubs_funder: Forskningsfinansiär
 
 languages:
   en:
     languageName: English
     contentDir: content/english
     weight: 1
-
-  sv:
-    languageName: Svenska
-    contentDir: content/svenska
-    weight: 2
-    description: Svenska Dataportalen för Covid-19 & Pandemisk Beredskap
 
 markup:
   goldmark:
