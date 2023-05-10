@@ -36,6 +36,16 @@ Users who are technically more advanced are welcome to make contributions by run
 
 The website was built by [Lygature](https://www.lygature.org/) and is maintained by [Health-RI](https://www.health-ri.nl/). We are grateful to many collaborators for their contributions.
 
-The primary contributor for the Dutch COVID-19 Data Portal has been:
+The primary contributors have been:
 
+- [@SonjaAits](https://github.com/SonjaAits)
+- [@ewels](https://github.com/ewels)
+- [@talavis](https://github.com/talavis)
+- [@pekrau](http://github.com/pekrau/)
+- [@akochari](http://github.com/akochari/)
+- [@LianeHughes](https://github.com/LianeHughes)
+- [@KatarinaOjeforsStark](https://github.com/KatarinaOjeforsStark)
+- [@senthil10](https://github.com/senthil10)
+- [@HannaKultima](https://github.com/HannaKultima)
+- [@johanrung](https://github.com/johanrung)
 - [@rnavest](https://github.com/rnavest)
