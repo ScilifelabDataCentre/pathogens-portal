@@ -10,7 +10,7 @@ The main European site can be seen at [https://www.covid19dataportal.org/](https
 
 ## Introduction
 
-This website is developed and maintained by the [Health-RI](https://www.health-ri.nl/) with many contributions from collaborators. Contributions from anyone are welcome and will be published after a review by the Portal team.
+This website is developed by [Lygature](https://www.lygature.org/) and maintained by [Health-RI](https://www.health-ri.nl/) with many contributions from collaborators. Contributions from anyone are welcome.
 
 The website is intended to provide a central place to provide information about:
 
