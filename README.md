@@ -1,4 +1,4 @@
-# ![The Dutch COVID-19 Data Portal](static/img/logos/european_covid19dataportal.svg)
+# ![The Dutch COVID-19 Data Portal](static/img/logos/national_portals/dutch_portal.svg)
 
 ## The Dutch COVID-19 Data Portal
 
