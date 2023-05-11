@@ -14,7 +14,7 @@ The [Swedish COVID-19 Sample Collection Database](https://biobanks.covid19datapo
 
 Both the so-called *healthcare sample collections* and *research sample collections* are listed in the database. Healthcare sample collections are intended for diagnostics, treatment, and healthcare use but can be made available if a corresponding ethical approval from the Swedish Ethical Review Authority has been obtained. In case of the research sample collections, the responsible researcher has the right of disposal to the sample collection, and requests should be made directly to collection head (the new research study needs to either fall under the original ethics research approval or a new one will need to be obtained).
 
-As of September 2021, the Sample Collection Database contains information about **35 sample collections** from **18 different biobanks**. The database is gradually expanded as information about new sample collections and biobanks is submitted.
+As of May 2023, the Sample Collection Database contains information about **36 sample collections** from **18 different biobanks, as well as one national collection**. The database is gradually expanded as information about new sample collections and biobanks is submitted.
 
 <span style="font-size:1.3em;"><b><a href="https://biobanks.covid19dataportal.se/">Search in the COVID-19 Sample Collection Database <i class="bi bi-arrow-right-circle-fill"></i> </a></b></span>
 
@@ -47,10 +47,10 @@ Each sample collection has a page with information that has been submitted by th
 
 <!-- <div class="row mb-4"><div class="col-lg-7"><img class="img-thumbnail" src="/img/biobanks/example_collection.png" alt="Example of a page with information about a sample collection"></div></div> -->
 
-##### Biobank pages
+##### Biobank and national collection pages
 
-Each biobank has a dedicated page with general information about the organisation as well as a list of sample collections stored at this particular biobank.
+Each biobank or national collection has a dedicated page with general information about the organisation as well as a list of sample collections stored at this particular biobank.
 
 <!-- <div class="row mb-4"><div class="col-lg-7"><img class="img-thumbnail" src="/img/biobanks/example_biobank.png" alt="Example of a page with information about a biobank"></div></div> -->
 
-<i>Information on this page was last updated: 2021.09.15</i>
+<i>Information on this page was last updated: 2023.05.10</i>
