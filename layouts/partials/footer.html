@@ -68,9 +68,11 @@
         {{ end }}
       </ul>
     </div>
-    <div class="col-md icons-and-scilifelab-logo">
+    <div class="col-md">
+      <div class="d-flex justify-content-center justify-content-md-start">
       <h2 class="small text-uppercase text-black-50">{{ if eq $.Site.Language.LanguageName "Svenska" }}Följ
         oss{{ else }}Connect{{ end }}</h2>
+      </div>
       <div class="container">
         <div class="d-flex justify-content-center justify-content-md-start">
           <a class="p-2" style="font-size:2em;" target="_blank" href="mailto:datacentre@scilifelab.se"><i
@@ -81,22 +83,9 @@
             href="https://linkedin.com/company/scilifelab-data-centre"><i class="bi bi-linkedin"></i></a>
         </div>
       </div>
-      <div class="container">
-        <a class="d-block" target="_blank" href="https://www.scilifelab.se" style="margin-top: 15%;">
-          <img src="/img/logos/scilifelab-logo.svg" alt="SciLifeLab" style="max-width: 100%; max-width: 100%">
-        </a>
-      </div>
-    </div>
-    
-    <div class="col-md ssf-and-kaw-logo text-center">
-      <div class="container">
-        <a class="d-block" target="_blank" href="{{ if eq .Language.Lang "en" }}https://strategiska.se/en/{{ else
-          }}https://strategiska.se/{{ end }}">
-          <img src="/img/logos/ssf_logo_{{ .Language.Lang }}.svg" alt="SSF">
-        </a>
-        <a class="d-block" target="_blank" href="{{ if eq .Language.Lang "en" }}https://kaw.wallenberg.org/en{{ else
-          }}https://kaw.wallenberg.org{{ end }}">
-          <img src="/img/logos/knut-and-alice-wallenberg.jpg" alt="Knut and Alice Wallenberg Foundation">
+      <div class="d-flex">
+        <a class="d-block px-5 px-md-0">
+          <img src="/img/logos/complete_footer.png" alt="SciLifeLab, Knut and Alice Wallenberg Foundation and SSF Logos">
         </a>
       </div>
     </div>

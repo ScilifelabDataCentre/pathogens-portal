@@ -277,7 +277,7 @@ footer h2.small {
     margin-top: 1rem;
 }
 footer img {
-    max-height: 70%;
+    max-height: 100%;
 }
 
 .plot_wrapper {
@@ -630,32 +630,9 @@ hr.faded:before {
 
 /*
 * Footer images alignment
-* Separated in two media queries for responsiveness
 */
 
 @media (max-width: 767px) {
-    .col-md.icons-and-scilifelab-logo h2 {
-        text-align: center;
-    }
-
-    .col-md.icons-and-scilifelab-logo div {
-        margin: 0 auto;
-        max-width: 70%;
-    }
-
-    .col-md.ssf-and-kaw-logo {
-        padding-bottom: 2.4rem;
-    }
-
-    .col-md.ssf-and-kaw-logo .container {
-        padding: 0rem;
-    }
-
-    .col-md.ssf-and-kaw-logo * {
-        max-width: 75%;
-        margin: 0 auto;
-    }
-
     .row.footer-lower-row {
         padding-right: 0;
         margin: 0 auto;
@@ -663,9 +640,3 @@ hr.faded:before {
     }
 }
 
-@media (min-width: 1400px) {
-    .ssf-and-kaw-logo img {
-        height: 140px;
-        width: auto;
-    }    
-}
