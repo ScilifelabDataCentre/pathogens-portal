@@ -1,7 +1,8 @@
 ---
 title: COVID-19
 description: The research community worldwide has, in an unprecedented way, focused their research efforts towards investigating the novel SARS-CoV-2 virus and variants, as well as variants of concern have emerged more, and the impact of COVID-19 on human body. These contributions from the research community have been a crucial part of the rapid vaccine development.
-banner: /dashboard_thumbs/topic_covid.jpg
+banner: /topic_thumbs/topic_covid.jpg
+credits:
 toc: false
 topic: COVID-19
 menu:

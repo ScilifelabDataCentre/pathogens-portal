@@ -1,7 +1,8 @@
 ---
 title: Antibiotic resistance
 description: Antibiotic resistance is a growing problem worldwide. Multiple factors are important in fighting antibiotic resistance in both humans and animals. For example, it is critical that the use of antibiotics and the development of resistance to them is monitored to determine how they are used and how resistance can be prevented. This, together with further research into how resistance develops, is essential in the production of effective policies to minimise antibiotic resistance in future. 
-banner: /dashboard_thumbs/topic_antibiotic.jpg
+banner: /topic_thumbs/topic_antibiotic.jpg
+credits:
 toc: false
 topic: Antibiotic resistance
 menu:

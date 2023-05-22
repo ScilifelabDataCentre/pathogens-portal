@@ -1,7 +1,8 @@
 ---
 title: Mpox
 description: Mpox a.k.a. Monkeypox is caused by the mpox virus, and is a zoonotic disease (i.e. it is transmitted from animals to humans). The mpox virus is a member of the Orthopoxvirus genus in the family Poxviridae. It is closely related to the variola virus, which causes smallpox and has had a marked impact on human populations throughout history.
-banner: /dashboard_thumbs/topic_mpox.jpg
+banner: /topic_thumbs/topic_mpox.png
+credits: Image by Nigeria Centre for Disease Control
 toc: false
 topic: Mpox
 menu:
