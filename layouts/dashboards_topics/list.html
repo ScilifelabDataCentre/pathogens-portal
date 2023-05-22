@@ -1,0 +1,11 @@
+{{ define "main" }}
+
+{{ with .Site.GetPage "/dashboards" }}{{ .Content }}{{ end }}
+
+{{ if eq $.Site.Language.LanguageName "English" }}
+<h3>Topic: {{ .Title }}</h3>
+
+{{- partial "dashboards.html" . -}}
+{{ end }}
+
+{{ end }}

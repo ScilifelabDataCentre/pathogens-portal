@@ -1,10 +1,14 @@
-{{ $displayedInHome := .IsHome }}
 {{ $highlights := where (where $.Site.Pages "Section" "highlights" ) "Kind" "page" }}
+{{ $currentPage := path.Split (path.Clean .RelPermalink) }}
+{{ $displayedInHome := .IsHome }}
 {{ if $displayedInHome }}
   {{ $highlights = first 3 $highlights }}
 {{ end }}
+
 <div class="row row-cols-2 row-cols-lg-3 g-2 {{ if not $displayedInHome }}g-lg-3{{ end }}">
 {{ range $highlights }}
+  <!-- If its a topics highlight page, display only relavant DH-->
+  {{ if or (ne $currentPage.Dir "/highlights/topics/") (in (apply .Params.highlights_topics "urlize" ".") $currentPage.File) }}
   <div class="col">
     <div class="bg-card">
       <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
@@ -28,5 +32,6 @@
       </p>
     </div>
   </div>
+  {{ end }}
 {{ end }}
 </div>

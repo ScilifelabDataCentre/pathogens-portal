@@ -10,6 +10,7 @@ menu:
         name: "Vaccine administration: COVID-19"
 aliases:
     - /data_types/health_data/vaccines/
+dashboards_topics: [COVID-19, Infectious Diseases]
 ---
 
 <div class="alert alert-info">
