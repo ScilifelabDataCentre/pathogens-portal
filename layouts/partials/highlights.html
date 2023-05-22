@@ -5,7 +5,7 @@
   {{ $highlights = first 3 $highlights }}
 {{ end }}
 
-<div class="row row-cols-2 row-cols-lg-3 g-2 {{ if not $displayedInHome }}g-lg-3{{ end }}">
+<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 {{ if not $displayedInHome }}g-lg-3{{ end }}">
 {{ range $highlights }}
   <!-- If its a topics highlight page, display only relavant DH-->
   {{ if or (ne $currentPage.Dir "/highlights/topics/") (in (apply .Params.highlights_topics "urlize" ".") $currentPage.File) }}

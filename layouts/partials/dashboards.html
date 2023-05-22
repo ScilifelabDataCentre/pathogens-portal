@@ -2,7 +2,7 @@
 {{ $currentPage := path.Split (path.Clean .RelPermalink) }}
 {{ $homepage_dashboards := slice "post_covid" "vaccines" "wastewater" }}
 
-<div class="row row-cols-2 row-cols-lg-3 g-2 {{ if not $displayed_in_homepage }}g-lg-3{{ end }}">
+<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 {{ if not $displayed_in_homepage }}g-lg-3{{ end }}">
   {{ range .Site.Menus.dashboard_menu }}
     {{ if or 
        (eq $currentPage.File "dashboards")
