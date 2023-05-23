@@ -10,7 +10,7 @@ menu:
         name: Post COVID-19 condition in Sweden
 aliases:
     - /data_types/health_data/post_covid/
-dashboards_topics: [COVID-19, Infectious Diseases]
+dashboards_topics: [COVID-19, Infectious diseases]
 ---
 
 Since the beginning of 2020, the COVID-19 pandemic has challenged healthcare and dramatically changed daily life for people worldwide. The severity of symptoms experienced by patients during the acute infection phase of COVID-19 disease varies between individuals from mild to severe. After this phase, there are usually no indications that the disease will have any long-term effects on their health, regardless of the severity of symptoms experienced during the acute infection phase. However, some patients continue to exhibit symptoms for prolonged periods after the acute phase. The symptoms experienced by such patients are broad, but can include, for example, deep fatigue, joint pain, ‘brain fog’ (difficulty concentrating on certain tasks for longer periods of time), and heart palpitations ([Brodin, 2021](https://doi.org/10.1038/s41591-020-01202-8), [Marx, 2021](https://doi.org/10.1038/s41592-021-01145-z)). These symptoms can have a significant impact on the patients' quality of life.
