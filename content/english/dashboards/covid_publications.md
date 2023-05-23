@@ -10,6 +10,7 @@ menu:
         name: "COVID-19 publication overview"
 aliases:
     - /projects/dashboard/
+dashboards_topics: [COVID-19, Infectious diseases]
 ---
 The visualisations on this page evaluate the development of COVID-19 and SARS-CoV-2 research across Sweden by assessing publication output. Specifically, we consider multiple aspects of journal publications and preprints where at least one author has an affiliation with a Swedish research institute. The database containing the publications themselves [can be found on this page](/publications/). Note that our database is manually curated and, as such, may not be exhaustive. The full database is available for download and use for other purposes, please see [DOI: 10.17044/scilifelab.14124014](https://doi.org/10.17044/scilifelab.14124014) for details.
 

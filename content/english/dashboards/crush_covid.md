@@ -9,6 +9,7 @@ menu:
         name: "CRUSH Covid Uppsala (Partner)"
 aliases:
     - /data_types/health_data/crush_covid/
+dashboards_topics: [COVID-19, Infectious diseases]
 ---
 
 <div class="containter"><div class="row mr-2 mt-2"><div class="col-lg-9"><p><b>CRUSH Covid</b> is a collaboration between the Region Uppsala and researchers from five different departments at Uppsala University. The purpose of the project is to map outbreaks of COVID-19 in Uppsala County and attempt to mitigate their impact by keeping the public informed. Information on the CRUSH Covid dashboard was originally updated weekly, but the update schedule changed in autumn 2022. The dashboard will now be <b>updated every 1-2 months.</b></p>
