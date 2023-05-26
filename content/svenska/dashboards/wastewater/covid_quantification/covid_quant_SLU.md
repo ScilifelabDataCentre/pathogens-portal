@@ -1,6 +1,8 @@
 ---
 title: Mängd SARS-COV-2 i avloppsvatten (SEEC-SLU)
 plotly: true
+aliases:
+    - /sv/dashboards/wastewater/covid_quant_slu/
 ---
 
 <div class="mt-3">
@@ -132,7 +134,7 @@ Data som presenteras i grafen är ett ratio av kopieantal som uppmätts med N1- 
 
 ## Arkiverade data
 
-- [Historiska data för Örebro och Umeå, mängd SARS-CoV-2 i avloppsvatten från Umeå respektive Örebro mellan oktober 2020 och juni 2021.](/sv/dashboards/wastewater/historic_orebro_umea).
+- [Historiska data för Örebro och Umeå, mängd SARS-CoV-2 i avloppsvatten från Umeå respektive Örebro mellan oktober 2020 och juni 2021.](/sv/dashboards/wastewater/covid_quantification/historic_orebro_umea).
 
 <br>
 <div class="mt-3">
