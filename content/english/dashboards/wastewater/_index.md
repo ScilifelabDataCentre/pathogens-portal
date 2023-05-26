@@ -2,7 +2,7 @@
 title: Wastewater-based epidemiology in Sweden
 description: Surveillance of wastewater for pathogens can be an effective means of predicting upcoming outbreaks. This dashboard contains data originating from the multiple research groups across Sweden.
 banner: /dashboard_thumbs/wastewater.jpg
-toc: false
+inline_toc: true
 type: wastewater
 menu:
     dashboard_menu:
@@ -19,7 +19,7 @@ plotly: true
 aliases:
     - /data_types/environment/wastewater/
     - /data_types/environment/
-    - /dashboards/wastewater
+    - /dashboards/wastewater/introduction/
 dashboards_topics: [COVID-19, Infectious diseases]
 ---
 

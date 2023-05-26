@@ -1,8 +1,8 @@
 ---
 title: "Historic data for Stockholm"
-toc: false
 aliases:
     - /data_types/environment/wastewater/historic_stockholm/
+    - /dashboards/wastewater/historic_stockholm/
 ---
 
 This page displays data on the amount of SARS-CoV-2 in Stockholm between April 2020 and August 2021 calculated as Gene copy number/week (raw wastewater) with bovine + PMMoV factor. From September 2021 onwards, the method was changed. Please [see this page for the most recent data](./).

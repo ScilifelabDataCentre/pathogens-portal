@@ -2,7 +2,7 @@
 title: Avloppsvattensepidemiologiska analyser i Sverige
 description: Monitorering av olika patogener i avloppsvatten kan vara ett effektivt sätt att förutse framtida virusutbrott. Denna dashboard innehåller data som ursprungligen samlats in av ett flertal olika forskargrupper runt om i Sverige.
 banner: /dashboard_thumbs/wastewater.jpg
-toc: false
+inline_toc: true
 type: wastewater
 menu:
     dashboard_menu:
@@ -19,7 +19,7 @@ plotly: true
 aliases:
     - /sv/data_types/environment/wastewater/
     - /sv/data_types/environment/
-    - /sv/dashboards/wastewater
+    - /sv/dashboards/wastewater/introduction/
 ---
 
 <div class="alert alert-info"><b>Notera:</b> Dashboarden för avloppsvatten kommer att utökas framöver. Vi har nu grupperat mätningarna för mängden av SARS-CoV-2 i avloppsvatten enligt den forskargrupp som samlade in och analyserade respektive data (se nedan för information om de deltagande grupperna). Under kommande månader kommer mer data och information om SARS-CoV-2 och andra infektionssjukdomar att läggas till. </span></div>

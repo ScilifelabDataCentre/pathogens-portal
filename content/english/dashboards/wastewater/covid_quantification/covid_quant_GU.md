@@ -1,7 +1,8 @@
 ---
 title: Amount of SARS-CoV-2 in wastewater (GU)
-toc: false
 plotly: true
+aliases:
+    - /dashboards/wastewater/covid_quant_gu/
 ---
 
 <div class="mt-3">
