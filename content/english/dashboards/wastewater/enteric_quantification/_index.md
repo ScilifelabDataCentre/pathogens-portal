@@ -57,7 +57,6 @@ Saguti, F., Magnil, E., Enache, L., Churqui, M.P., Johansson, A., Lumley, D., Da
 
 Wang, H., Churqui, M.P., Tunovic, T., Enache, L., Johansson, A., Karmander, A., Nilsson, S., Lagging, M., Andersson, M., Dotevall, L., Brezicka, T., Nystrom, K. and Norder, H. (2022). The amount of SARS-CoV-2 RNA in wastewater relates to the development of the pandemic and its burden on the health system. <https://doi.org/10.1016/j.isci.2022.105000>.
 
-
 ## Methods
 
 Samples of wastewater are collected using a fixed-site sampler that collected 30ml per 10,000m3 of the incoming wastewater. For the purposes of analysis, seven samples (each representing a 24 hour period) were pooled to create a weekly sample. Part of this weekly sample, consisting of 1.5-15 L of wastewater (depending on the flow) was sent to the Clinical Microbiology Laboratory at Sahlgrenska University Hospital for analysis.
