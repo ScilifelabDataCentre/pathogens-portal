@@ -1,6 +1,6 @@
 ---
 title: Infectious diseases
-description: Infectious diseases can spread directly or indirectly in multiple different ways. For example, they may spread through droplets in the air, by exchanging bodily fluids, and by consuming contaminated food. Infectious diseases can spread between humans as well as between animals and humans.
+description: Infectious diseases pose a global health threat. COVID-19 highlighted coronavirus impact, but diseases like Dengue, Ebola, HIV, Measles persist. Research is crucial for understanding pathogenicity, resistance, and developing treatments.
 banner: /topic_thumbs/topic_infectious.jpg
 credits:
 toc: false

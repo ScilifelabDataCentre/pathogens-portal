@@ -1,6 +1,6 @@
 ---
 title: COVID-19
-description: The research community worldwide has, in an unprecedented way, focused their research efforts towards investigating the novel SARS-CoV-2 virus and variants, as well as variants of concern have emerged more, and the impact of COVID-19 on human body. These contributions from the research community have been a crucial part of the rapid vaccine development.
+description:  COVID-19, caused by SARS-CoV-2, is a global pandemic challenging societies worldwide. Vaccines are crucial, but research is ongoing to address early detection, variant identification, treatment development, and future preparedness.
 banner: /topic_thumbs/topic_covid.jpg
 credits:
 toc: false
