@@ -1,6 +1,8 @@
 ---
 title: Amount of SARS-CoV-2 in wastewater (SEEC-SLU)
 plotly: true
+aliases:
+    - /dashboards/wastewater/covid_quant_slu/
 ---
 
 <div class="mt-3">
@@ -133,7 +135,7 @@ The data in the below graph and datafile represent the ratio of the copy numbers
 
 ## Archived data
 
-- [Historic data for Örebro and Umeå; amount of SARS-CoV-2 in Umeå and Örebro wastewater between October 2020 and June 2021](/dashboards/wastewater/historic_orebro_umea).
+- [Historic data for Örebro and Umeå; amount of SARS-CoV-2 in Umeå and Örebro wastewater between October 2020 and June 2021](/dashboards/wastewater/covid_quantification/historic_orebro_umea).
 
 <br>
 <div class="mt-3">

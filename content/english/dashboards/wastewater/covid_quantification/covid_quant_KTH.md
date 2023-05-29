@@ -1,6 +1,8 @@
 ---
 title: Amount of SARS-CoV-2 in wastewater (SEEC-KTH)
 plotly: true
+aliases:
+    - /dashboards/wastewater/covid_quant_kth/
 ---
 
 <div class="mt-3">
@@ -103,7 +105,7 @@ After concentration, filtering, and preparation, the samples are analysed using 
 
 ## Archived data
 
-- [Historic data for Stockholm; Gene copy number/week (raw wastewater) with bovine + PMMoV factor between April 2020 and August 2021](/dashboards/wastewater/historic_stockholm).
+- [Historic data for Stockholm; Gene copy number/week (raw wastewater) with bovine + PMMoV factor between April 2020 and August 2021](/dashboards/wastewater/covid_quantification/historic_stockholm).
 
 <br>
 <div class="mt-3">

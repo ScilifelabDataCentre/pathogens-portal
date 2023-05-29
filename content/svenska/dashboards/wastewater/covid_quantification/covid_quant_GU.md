@@ -1,7 +1,8 @@
 ---
 title: Mängd SARS-COV-2 i avloppsvatten (GU)
-toc: false
 plotly: true
+aliases:
+    - /sv/dashboards/wastewater/covid_quant_gu/
 ---
 
 <div class="mt-3">

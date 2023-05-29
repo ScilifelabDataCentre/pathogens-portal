@@ -281,7 +281,7 @@ footer h2.small {
     margin-top: 1rem;
 }
 footer img {
-    max-height: 60px;
+    max-height: 100%;
 }
 
 .plot_wrapper {
@@ -632,6 +632,22 @@ hr.faded:before {
     z-index: 1;
 }
 
+/*
+* Specifically for the images on the topics overview page
+*/
+
 .topics-image {
     margin-top:0.5rem;
+}
+
+/*
+* Footer images alignment
+*/
+
+@media (max-width: 767px) {
+    .row.footer-lower-row {
+        padding-right: 0;
+        margin: 0 auto;
+        padding-left: 0;
+    }
 }
