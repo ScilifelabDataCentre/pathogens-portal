@@ -13,6 +13,7 @@ menu:
         name: Antibody tests for SARS-CoV-2 at SciLifeLab
 aliases:
     - /data_types/health_data/serology-statistics/
+dashboards_topics: [COVID-19, Infectious diseases]
 ---
 <div class="alert alert-info">Graphs on this page are based on data as per {{% serology_date_modified %}}.</div>
 

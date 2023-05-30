@@ -1,6 +1,8 @@
 ---
 title: Mängd SARS-COV-2 i avloppsvatten (SEEC-KTH)
 plotly: true
+aliases:
+    - /sv/dashboards/wastewater/covid_quant_kth/
 ---
 
 <div class="mt-3">
@@ -103,7 +105,7 @@ Efter koncentration, filtrering och beredning analyseras proverna med RT-qPCR -t
 
 ## Arkiverade data
 
-- [Historiska data for Stockholm; genkopieantal per vecka (ofiltrerat avloppsvatten) standardiserat med bovint coronavirus och PMMoV, april 2020 till augusti 2021](/sv/dashboards/wastewater/historic_stockholm).
+- [Historiska data for Stockholm; genkopieantal per vecka (ofiltrerat avloppsvatten) standardiserat med bovint coronavirus och PMMoV, april 2020 till augusti 2021](/sv/dashboards/wastewater/covid_quantification/historic_stockholm).
 
 <br>
 <div class="mt-3">
