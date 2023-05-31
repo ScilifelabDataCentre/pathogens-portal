@@ -47,7 +47,7 @@ All källkod som skapats för visualiseringarna under de olika  flikarna på den
 Nedan finns en karta som visar de avloppsreningsverk (på engelska wastewater treatment plants, WWTP) från vilka avloppsprover samlas in och analyseras av de grupper som delar data på den här dashboarden.
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_map_test.json" height="600px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_map_test.json" height="600px" >}}</div>
 </div>
 
 **Källkod som använts för att skapa kartan:** [Script to produce map](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/interactive_wastewater_map.py).

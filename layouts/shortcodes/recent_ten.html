@@ -18,7 +18,7 @@
 <!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
 
 <script type="text/javascript">
-  Plotly.d3.json("https://blobserver.dckube.scilifelab.se/blob/covid-portal-recent10.json", function (error, dyndata) {
+  Plotly.d3.json("https://blobserver.dc.scilifelab.se/blob/covid-portal-recent10.json", function (error, dyndata) {
     let tbody = document.getElementById("topTenPubTable").getElementsByTagName('tbody')[0];
     dyndata["publications"].forEach(function (item) {
       let row = tbody.insertRow();

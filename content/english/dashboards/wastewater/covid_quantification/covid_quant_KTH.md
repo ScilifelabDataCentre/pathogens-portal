@@ -64,7 +64,7 @@ Please also note that although the same methods are used for all cities shown on
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_combined_stockholm.json" height="550px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_stockholm.json" height="550px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_stockholm_regular.py).
@@ -78,7 +78,7 @@ Please also note that although the same methods are used for all cities shown on
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_kthmalmo.json" height="550px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_kthmalmo.json" height="550px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/quant_malmo_kthplot.py).
@@ -91,7 +91,7 @@ Please also note that although the same methods are used for all cities shown on
 
 ## Dataset
 
-**Download the data:** [N3-gene copy number per PMMoV gene copy number; Excel file](https://blobserver.dckube.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx). Results are available (partially) starting from week 16 of 2020 for Stockholm and starting from week 39 of 2021 for Malmö; updated weekly.\
+**Download the data:** [N3-gene copy number per PMMoV gene copy number; Excel file](https://blobserver.dc.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx). Results are available (partially) starting from week 16 of 2020 for Stockholm and starting from week 39 of 2021 for Malmö; updated weekly.\
 **Contact:** <zeynepcg@kth.se>
 
 **How to cite dataset:**
