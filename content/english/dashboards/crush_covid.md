@@ -16,9 +16,9 @@ dashboards_topics: [COVID-19, Infectious diseases]
 <div class="row mr-2 mt-2">
 <div class="col-lg-9">
 <p>CRUSH Covid Uppsala is a research project in which <b>Region Uppsala</b> collaborates with researchers from five different research departments at <b>Uppsala University</b>. The purpose of the project is to map outbreaks of COVID-19 in Uppsala County and to try to mitigate the impact of outbreaks by informing the public.</p>
-      
+
 <p>CRUSH Covid is led by <b>Mats Martinell</b> (senior lecturer at the Department of Public Health and Caring Sciences, General Medicine and Preventive Medicine, Uppsala University) and <b>Tove Fall</b> (professor of Molecular Epidemiology at the Department of Medical Sciences, Molecular Epidemiology, Uppsala University). Sewage analysis is supported by SciLifeLab and Uppsala Vatten. Modelling work is supported by Vinnova.</p>
-      
+
 <p>For questions and feedback, please contact <b>Georgios Varotsis</b> (<a href="mailto:georgios.varotsis@medsci.uu.se">georgios.varotsis@medsci.uu.se</a>).</p>
 
 <p>CRUSH Covid has received ethical approval from the Swedish Ethical Review Authority (ref. no. 2020-04210, 2020-06315 and 2020-06501).</p>
