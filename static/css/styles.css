@@ -3,16 +3,20 @@
 body {
     font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
 }
+
 a {
     color: #3E75C1;
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 img {
     max-width: 100%;
 }
+
 blockquote {
     border-left: 5px solid rgba(46, 104, 165, 0.3);
     padding-left: 1rem;
@@ -432,9 +436,15 @@ div.dataTables_wrapper div.dataTables_info {
 /*
 * Styling of badges to indicate topics
 */
-.topics_title {
+a.topics_title {
     font-size: 1.25em;
     font-weight: 500;
+    text-decoration: none !important;
+    color: var(--bs-body-colorlack) !important;
+}
+
+a.topics_title:active, a.topics_title:focus, a.topics_title:hover {
+    color: rgba(77, 77, 77, 1) !important;
 }
 
 .topic_badge_small {
@@ -629,6 +639,14 @@ hr.faded:before {
 }
 
 /*
+* Specifically for the images on the topics overview page
+*/
+
+.topics-image {
+    margin-top:0.5rem;
+}
+
+/*
 * Footer images alignment
 */
 
@@ -639,4 +657,3 @@ hr.faded:before {
         padding-left: 0;
     }
 }
-

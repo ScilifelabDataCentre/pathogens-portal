@@ -1,12 +1,15 @@
 ---
 title: COVID-19
+description:  COVID-19, caused by SARS-CoV-2, is a global pandemic challenging societies worldwide. Vaccines are crucial, but research is ongoing to address early detection, variant identification, treatment development, and future preparedness.
+banner: /topic_thumbs/topic_covid.jpg
+credits:
 toc: false
 topic: COVID-19
 menu:
     topics_menu:
         name: COVID-19
+        identifier: covid_19
         weight: 10
-header_illustration: /img/csm_coronavirus_mc.jpg
 ---
 
 <!-- The overview of items belonging to this topic will appear before the text below -->

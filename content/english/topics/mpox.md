@@ -1,10 +1,14 @@
 ---
 title: Mpox
+description: Mpox, or Monkeypox, is a zoonotic disease caused by the mpox virus. It belongs to the Orthopoxvirus genus and is closely related to smallpox. While the virus is endemic to West and Central Africa, recent outbreaks in Europe, including Sweden, have raised concerns.
+banner: /topic_thumbs/topic_mpox.jpg
+credits: Image by UK Research and Innovation
 toc: false
 topic: Mpox
 menu:
     topics_menu:
         name: Mpox
+        identifier: mpox
         weight: 40
 aliases:
     - /topics/monkeypox/
