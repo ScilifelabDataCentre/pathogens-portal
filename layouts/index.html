@@ -15,10 +15,12 @@
     </div>
     {{ end }}
     {{ partial "dashboards.html" . }}
+    
+    <!-- English page specific content -->
     {{ if ne $.Site.Language.LanguageName "Svenska" }}
     <!-- Data highlights -->
     {{ range .Site.Menus.homepage_highlights }}
-    <div class="row">
+    <div class="row mt-4">
       <h2>{{ .Name }}</h2>
     </div>
     <div class="row">
@@ -109,7 +111,7 @@
         <div class="row">
         </div>
         <div class="row">
-          <h5>{{ if eq $.Site.Language.LanguageName "Svenska" }}Provsamlingar{{ else }}Collections{{ end }}: 35</h5>
+          <h5>{{ if eq $.Site.Language.LanguageName "Svenska" }}Provsamlingar{{ else }}Collections{{ end }}: 36</h5>
         </div>
         <div class="row align-items-end">
           <h5><a target="_blank"
@@ -119,7 +121,8 @@
         </div>
       </div>
       <div class="col-md-8">
-        <img class="img-thumbnail" src="/img/biobanks/scd_scr.png" alt="Sample Collection Database">
+        <img class="img-thumbnail" src="/img/biobanks/national_collction_shot.png"
+          alt="Sample Collection Database screenshot">
       </div>
     </div>
 

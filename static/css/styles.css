@@ -3,16 +3,20 @@
 body {
     font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
 }
+
 a {
     color: #4770B1;
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 img {
     max-width: 100%;
 }
+
 blockquote {
     border-left: 5px solid rgba(46, 104, 165, 0.3);
     padding-left: 1rem;
@@ -276,7 +280,7 @@ footer h2.small {
     margin-top: 1rem;
 }
 footer img {
-    max-height: 60px;
+    max-height: 100%;
 }
 
 .plot_wrapper {
@@ -432,9 +436,15 @@ div.dataTables_wrapper div.dataTables_info {
 * Styling of badges to indicate topics
 */
 
-.topics_title {
+a.topics_title {
     font-size: 1.25em;
     font-weight: 500;
+    text-decoration: none !important;
+    color: var(--bs-body-colorlack) !important;
+}
+
+a.topics_title:active, a.topics_title:focus, a.topics_title:hover {
+    color: rgba(77, 77, 77, 1) !important;
 }
 
 .topic_badge_small {
@@ -608,4 +618,24 @@ hr.faded:before {
     position: absolute;
     top: 50%;
     z-index: 1;
+}
+
+/*
+* Specifically for the images on the topics overview page
+*/
+
+.topics-image {
+    margin-top:0.5rem;
+}
+
+/*
+* Footer images alignment
+*/
+
+@media (max-width: 767px) {
+    .row.footer-lower-row {
+        padding-right: 0;
+        margin: 0 auto;
+        padding-left: 0;
+    }
 }

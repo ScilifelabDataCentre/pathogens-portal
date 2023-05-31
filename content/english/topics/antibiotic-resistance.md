@@ -1,10 +1,14 @@
 ---
 title: Antibiotic resistance
+description: Antibiotic resistance is a global health threat. It occurs when microorganisms develop resistance to antibiotics, impacting healthcare, and food security. Monitoring, research, and policies are crucial to combat resistance and develop effective treatments.
+banner: /topic_thumbs/topic_antibiotic.jpg
+credits:
 toc: false
 topic: Antibiotic resistance
 menu:
     topics_menu:
         name: Antibiotic resistance
+        identifier: antibiotic_resistance
         weight: 30
 ---
 

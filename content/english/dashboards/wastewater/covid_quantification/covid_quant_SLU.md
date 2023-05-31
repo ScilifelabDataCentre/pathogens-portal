@@ -1,6 +1,8 @@
 ---
 title: Amount of SARS-CoV-2 in wastewater (SEEC-SLU)
 plotly: true
+aliases:
+    - /dashboards/wastewater/covid_quant_slu/
 ---
 
 <div class="mt-3">
@@ -111,7 +113,7 @@ The group provide reports to summarise their latest findings. The latest report 
 
 ## Dataset
 
-**Contact:** anna.szekely@slu.se and maja.malmberg@slu.se
+**Contact:** <anna.szekely@slu.se> and <maja.malmberg@slu.se>
 
 **Download the data:** [N1-gene copy number per PMMoV gene copy number, CSV file.](https://datagraphics.dckube.scilifelab.se/dataset/0ac8fa02871745048491de74e5689da9.csv). Data are available from week 38 of 2020; updated weekly.
 
@@ -133,7 +135,7 @@ The data in the below graph and datafile represent the ratio of the copy numbers
 
 ## Archived data
 
-- [Historic data for Örebro and Umeå; amount of SARS-CoV-2 in Umeå and Örebro wastewater between October 2020 and June 2021](/dashboards/wastewater/historic_orebro_umea).
+- [Historic data for Örebro and Umeå; amount of SARS-CoV-2 in Umeå and Örebro wastewater between October 2020 and June 2021](/dashboards/wastewater/covid_quantification/historic_orebro_umea).
 
 <br>
 <div class="mt-3">

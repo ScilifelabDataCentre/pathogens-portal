@@ -12,6 +12,7 @@
 
 <div class="container mt-4">
     <div class="row">
+      {{ if .Page.Params.inline_toc }}
         <div class="col-md-3 order-md-last toc">
             <aside class="sticky-top toc pt-2">
                 <h5>{{ if eq $.Site.Language.LanguageName "Svenska" }}I denna sektion:{{ else }}In this
@@ -20,6 +21,9 @@
             </aside>
         </div>
         <div class="col-md-9 order-md-first content" id="content">{{ .Content }}</div>
+      {{ else }}
+        {{ .Content }}
+      {{ end }}
     </div>
 </div>
 

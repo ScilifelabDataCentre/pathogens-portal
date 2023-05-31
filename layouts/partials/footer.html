@@ -69,10 +69,12 @@
       </ul>
     </div>
     <div class="col-md">
+      <div class="d-flex justify-content-center justify-content-md-start">
       <h2 class="small text-uppercase text-black-50">{{ if eq $.Site.Language.LanguageName "Svenska" }}Följ
         oss{{ else }}Connect{{ end }}</h2>
+      </div>
       <div class="container">
-        <div class="d-flex justify-content-start">
+        <div class="d-flex justify-content-center justify-content-md-start">
           <a class="p-2" style="font-size:2em;" target="_blank" href="mailto:datacentre@scilifelab.se"><i
               class="bi bi-envelope-fill"></i></a>
           <a class="p-2" style="font-size:2em;" target="_blank" href="https://twitter.com/scilifelab_DC"><i
@@ -81,13 +83,14 @@
             href="https://linkedin.com/company/scilifelab-data-centre"><i class="bi bi-linkedin"></i></a>
         </div>
       </div>
+      <div class="d-flex">
+        <a class="d-block px-5 px-md-0">
+          <img src="/img/logos/complete_footer.png" alt="SciLifeLab, Knut and Alice Wallenberg Foundation and SSF Logos">
+        </a>
+      </div>
     </div>
-    <div class="col-md text-center">
-      <a class="d-block my-4" href="https://www.scilifelab.se"><img src="/img/logos/scilifelab-logo.svg"
-          alt="SciLifeLab"></a>
-      <span class="d-block my-4"><img src="/img/logos/elixir-se-logo.png" alt="Elixir Sweden"></span>
-    </div>
-  </div>
+
+
   <div class="row footer-lower-row">
     <div class="col-md-2 p-2 text-center">
       <a

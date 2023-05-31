@@ -1,6 +1,8 @@
 ---
 title: Amount of SARS-CoV-2 in wastewater (SEEC-KTH)
 plotly: true
+aliases:
+    - /dashboards/wastewater/covid_quant_kth/
 ---
 
 <div class="mt-3">
@@ -90,7 +92,7 @@ Please also note that although the same methods are used for all cities shown on
 ## Dataset
 
 **Download the data:** [N3-gene copy number per PMMoV gene copy number; Excel file](https://blobserver.dckube.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx). Results are available (partially) starting from week 16 of 2020 for Stockholm and starting from week 39 of 2021 for Malmö; updated weekly.\
-**Contact:** zeynepcg@kth.se
+**Contact:** <zeynepcg@kth.se>
 
 **How to cite dataset:**
 Cetecioglu, Z. G., Williams, C., Khatami, K., Atasoy, M., Nandy, P., Jafferali, M. H., Birgersson, M. (2021). SARS-CoV-2 Wastewater Data from Stockholm, Sweden. [https://doi.org/10.17044/scilifelab.14315483](https://doi.org/10.17044/scilifelab.14315483).
@@ -103,7 +105,7 @@ After concentration, filtering, and preparation, the samples are analysed using 
 
 ## Archived data
 
-- [Historic data for Stockholm; Gene copy number/week (raw wastewater) with bovine + PMMoV factor between April 2020 and August 2021](/dashboards/wastewater/historic_stockholm).
+- [Historic data for Stockholm; Gene copy number/week (raw wastewater) with bovine + PMMoV factor between April 2020 and August 2021](/dashboards/wastewater/covid_quantification/historic_stockholm).
 
 <br>
 <div class="mt-3">

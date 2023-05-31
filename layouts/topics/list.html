@@ -2,11 +2,6 @@
 
 {{ .Content }}
 
-<div class="container">
-  <p><span class="topics_title">Topics:</span></p>
-  <p>{{ range .Site.Menus.topics_menu }}<span class="mx-1 my-1 topic_badge_large">
-    <a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></span>{{ end }}
-  </p>
-</div>
+{{- partial "topics.html" . -}}
 
 {{ end }}

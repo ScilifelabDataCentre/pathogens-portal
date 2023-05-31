@@ -1,6 +1,117 @@
 {
-    "last_updated": "2023-04-05",
+    "last_updated": "2023-05-04",
     "datasets": [
+        {
+            "doi": "10.1038/s41598-023-33168-1",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "GenBank",
+                    "accession_number": "",
+                    "description": "Nucleotide sequence are available as assembled FASTA consensus sequences at GenBank. Accession-ID: OP585690-OP585783",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://www.ncbi.nlm.nih.gov/nuccore/?term=OP585690:OP585783[pacc]"
+                }
+            ],
+            "title": "Comparison of SARS-CoV-2 whole genome sequencing using tiled amplicon enrichment and bait hybridization",
+            "issue": "1",
+            "volume": "13",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2023-04-20",
+            "author": [
+                "Koskela von Sydow A.",
+                "Lindqvist C. M.",
+                "Asghar N.",
+                "Johansson M.",
+                "Sundqvist M."
+            ]
+        },
+        {
+            "doi": "10.3389/fviro.2023.1128253",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "GenBank",
+                    "accession_number": "ON086926",
+                    "description": "The HC sequences of CAB-F52 anti-SARS-CoV-2 immunoglobulin heavy chain variable region mRNA",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://www.ncbi.nlm.nih.gov/nuccore/ON086926"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "GenBank",
+                    "accession_number": "ON086941",
+                    "description": "The LC sequences of CAB-F52 anti-SARS-CoV-2 immunoglobulin heavy chain variable region mRNA",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://www.ncbi.nlm.nih.gov/nuccore/ON086941.1/"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "ProteomeXchange",
+                    "accession_number": "PXD031945",
+                    "description": "The hydrogen–deuterium exchange mass spectrometry data",
+                    "data_type": [
+                        "Protein data"
+                    ],
+                    "data_url": "https://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD031945"
+                }
+            ],
+            "title": "Frequent use of IGHV3-30-3 in SARS-CoV-2 neutralizing antibody responses",
+            "issue": "",
+            "volume": "3",
+            "publisher": "Frontiers Media SA",
+            "published": "2023-03-01",
+            "author": [
+                "Pushparaj P.",
+                "Nicoletto A.",
+                "Castro Dopico X.",
+                "Sheward D. J.",
+                "Kim S."
+            ]
+        },
+        {
+            "doi": "10.1038/s41380-023-02062-7",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "OSF",
+                    "accession_number": "",
+                    "description": "Anonymised databases with the individual participant data and the metadata for Bayesian analyses, along with a data dictionary",
+                    "data_type": [
+                        "Other data"
+                    ],
+                    "data_url": "https://osf.io/m5cvj/"
+                },
+                {
+                    "type": "protocol",
+                    "repo_name": "OSF",
+                    "accession_number": "",
+                    "description": "The Study Protocol and Bayesian Statistical Analysis Plan",
+                    "data_type": [
+                        "Other data"
+                    ],
+                    "data_url": "https://osf.io/2xn5m/"
+                }
+            ],
+            "title": "Treating intrusive memories after trauma in healthcare workers: a Bayesian adaptive randomised trial developing an imagery-competing task intervention",
+            "issue": "",
+            "volume": "",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2023-04-26",
+            "author": [
+                "Ramineni V.",
+                "Millroth P.",
+                "Iyadurai L.",
+                "Jaki T.",
+                "Kingslake J."
+            ]
+        },
         {
             "doi": "10.1016/j.tbench.2023.100088",
             "available_items": [
