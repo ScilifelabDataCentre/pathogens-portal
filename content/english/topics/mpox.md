@@ -19,8 +19,6 @@ aliases:
   <span>This page is under development, with more resources being added shortly. In the meantime, check out the <a href="/pathogens/mpox/">mpox page</a> in our 'emerging pathogens' section. That page contains more extensive information and useful links to other related resources.</span>
 </div>
 
-For a fuller overview, refer to the [mpox page](/pathogens/mpox/) of our [emerging pathogens section](/pathogens/).
-
 ## Background
 
 Mpox a.k.a. Monkeypox is caused by the mpox virus, and is a zoonotic disease (i.e. it is transmitted from animals to humans). The mpox virus is a member of the *Orthopoxvirus* genus in the family *Poxviridae*. It is closely related to the variola virus, which causes smallpox and has had a marked impact on human populations throughout history. [According to WHO](https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON385) there are currently two clades of mpox virus; the West African clade and the Congo Basin (Central African) clade. An outbreak began in Europe during May 2022. As of Septmber 2022, more than 20,000 cases have been detected in Europe, with 161 cases detected in Sweden and reported to the [Swedish Public Health Agency](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/apkoppor-internationellt-maj-2022-/).

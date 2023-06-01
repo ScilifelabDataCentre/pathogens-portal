@@ -1,6 +1,9 @@
 {{ define "main" }}
 
-{{ .Content }}
+<div class="mb-3">
+    {{ .Content }}
+    To easily find dashboards relevant to a specific topic, simply click on the colored tag and the page will filter and display only the dashboards related to that topic.
+  </div>
 
 {{- partial "dashboards.html" . -}}
 

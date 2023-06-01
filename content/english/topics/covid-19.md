@@ -12,8 +12,6 @@ menu:
         weight: 10
 ---
 
-<!-- The overview of items belonging to this topic will appear before the text below -->
-
 ## Background
 
 Coronavirus disease (**COVID-19**) is an infectious disease caused by the novel SARS-CoV-2 virus. Since its start in early 2020, the COVID-19 pandemic has challenged societies worldwide. While most people infected experience mild to moderate respiratory illness and recover without treatment, the disease can be severe or fatal. Advanced age and underlying medical conditions, such as cardiovascular disease, diabetes, cancer, or chronic respiratory disease, have all been associated with increased risk of severe outcome. However, anyone independent of age or comorbidities is at risk for COVID-19 severe disease outcome. As of March 2022, more than 200 million confirmed cases and over 4 million deaths have been [reported](https://ourworldindata.org/).
