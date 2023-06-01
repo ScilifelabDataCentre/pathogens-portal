@@ -60,7 +60,7 @@ The Swedish National Data Service has put together guidelines on research data m
 
 ## Hands-on data management support
 
-All researchers affiliated with a university or research institute in Sweden working on research topics relevant to pandemic preparedness can receive free individual consultations and hands-on help within reasonable bounds from the *Swedish COVID-19 & Pandemic Preparedness Portal* team. Simply send an email to [data-management@scilifelab.se](mailto:data-management@scilifelab.se) or [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se). Your question will be assigned to a data steward with relevant expertise who can either help you directly or point you to the correct tool or service.
+All researchers affiliated with a university or research institute in Sweden working on research topics relevant to pandemic preparedness can receive free individual consultations and hands-on help within reasonable bounds from the *Swedish Pathogens Portal* team. Simply send an email to [data-management@scilifelab.se](mailto:data-management@scilifelab.se) or [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se). Your question will be assigned to a data steward with relevant expertise who can either help you directly or point you to the correct tool or service.
 
 You are welcome to send both general questions about best approaches to research data management, data management plans (DMPs), reproducibility, FAIR, and open science as well as specific questions about your research projects such as which repository to choose to deposit data, what the suitable metadata standards would be, which file formats to use, etc. In some cases the data stewards can act as brokers and submit data to repositories on your behalf.
 

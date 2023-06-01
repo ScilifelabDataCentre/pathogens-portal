@@ -29,7 +29,7 @@ toc: false
 
 #### Introduktion
 
-Den svenska dataportalen för Covid-19 & pandemisk beredskap tillhandahåller information, riktlinjer, verktyg och tjänster för att stödja forskare vid svenska lärosäten verksamma inom forskningsfältet pandemisk beredskap med datarelaterade frågor.
+Den Svenska Pathogens Portalen tillhandahåller information, riktlinjer, verktyg och tjänster för att stödja forskare vid svenska lärosäten verksamma inom forskningsfältet pandemisk beredskap med datarelaterade frågor.
 
 Portalen drivs av [SciLifeLab Data Centre](https://scilifelab.se/data/) och samarbetspartners och har som syfte att stödja forskare vid svenska lärosäten verksamma inom forskningsfältet pandemisk beredskap. Vi välkomnar forskarsamhället att bidra med innehåll och förslag på förändringar och nytt innehåll. Som forskare kan du interagera med Portalen på ett flertal sätt, genom att fylla i formuläret, kontakta oss via epost eller via sociala media. Portalenteamet kan även ge stöd i datarelaterade frågor och hjälpa forskare att hitta lämpliga [supporttjänster](/sv/support/).
 
