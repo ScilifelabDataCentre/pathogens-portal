@@ -8,6 +8,11 @@
       {{ .Title }}
       {{ end }}:
       {{ .Title }}
+      {{ else if eq .Parent.Section "dashboards_topics" }}
+      {{ with .Site.GetPage "/dashboards" }}
+      {{ .Title }}
+      {{ end }}:
+      {{ .Title }}
       {{ else if eq .Parent.Section "resources" }}
       {{ .Parent.Title }}
       {{ else }}
@@ -38,15 +43,19 @@
       {{ end }}
 
       {{/*
-       Make an exception for topics which are only used for data highlights
+      Make an exception for topics which are only used for data highlights and dashboards
       */}}
 
       {{ if eq .Parent.Title "Highlights_topics" }}
       <li class="breadcrumb-item"><a href="/highlights/">Data highlights</a>
-        {{ else }}
+      {{ else if eq .Parent.Title "Dashboards_topics" }}
+      <li class="breadcrumb-item"><a href="/dashboards/">Dashboards</a>
+      {{ else }}
       <li class="breadcrumb-item"><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></li>
       {{ end }}
+
       <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+
     </ol>
   </div>
 </nav>
