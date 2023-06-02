@@ -5,9 +5,9 @@ banner: /dashboard_thumbs/RECOVAC.png
 toc: true
 plotly: true
 menu:
-    dashboard_menu:
-        identifier: recovac
-        name: Register-based vaccination (RECOVAC)
+  dashboard_menu:
+    identifier: recovac
+    name: Register-based vaccination (RECOVAC)
 dashboards_topics: [COVID-19, Infectious diseases]
 ---
 
@@ -27,9 +27,9 @@ EPN Nr 2020-01800, 2020-05829, 2021-00267, 2021-00829, 2021-02106, 2021-04098, 2
 
 <div class="alert alert-info">All data last updated: {{% RECOVAC_date_modified %}}</div>
 
-*All code used to produce the visualisations on this page is available on [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/RECOVAC). The particular scripts used in each case are linked below the plots.*
+_All code used to produce the visualisations on this page is available on [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/RECOVAC). The particular scripts used in each case are linked below the plots._
 
-The visualisations on this page broadly relate to two types of data; (a) data regarding the Swedish population at large, and (b) data on individuals in the Swedish population with certain comorbidities (at the start of the pandemic, assessed as of 1 Jan 2020 based on information from 2015-2019). More detail about the data used to produce the visualisations is available in the two subsections below. Instructions on how to manipulate the interactive plots are provided above the plots in each subsection.
+The visualisations on this page broadly relate to two types of data; (a) data regarding the Swedish population at large, and (b) data on individuals in the Swedish population with certain comorbidities (at the start of the pandemic, assessed as of 1st Jan 2020, based on information from 2015-2019). More detail about the data used to produce the visualisations is available in the two subsections below. Instructions on how to manipulate the interactive plots are provided above the plots in each subsection.
 
 In each case, the data are subdivided according to the number of doses received by individuals.
 
@@ -37,7 +37,7 @@ In each case, the data are subdivided according to the number of doses received 
 
 #### Information on vaccination coverage
 
-The top graph in this section shows data on vaccine coverage (i.e. the proportion of the population that has received a given number of doses). The data are from the National Vaccination Register at the Public Health Agency of Sweden (PHAS) and population register data from Statistics Sweden (SCB). The data spans the period 21st December 2020 until 30th September 2022.
+The top graph in this section shows data on vaccine coverage (i.e. the proportion of the population that has received a given number of doses). The data are from the National Vaccination Register at the Public Health Agency of Sweden (PHAS) and population register data from Statistics Sweden (SCB).
 
 COVID-19 vaccinations first became available in Sweden in late December 2020. They were first offered to those most at risk of developing serious symptoms (i.e. the elderly and those with certain comorbidities). For more details on the vaccine rollout in Sweden, please see our [page on vaccines](https://www.covid19dataportal.se/dashboards/vaccines/).
 
@@ -45,14 +45,18 @@ There is a clear trend in the coverage for each dose. Specifically, the levels o
 
 #### Information on admission to intensive care units (ICU)
 
-The lower graph in this section shows the number of people admitted to intensive care (ICU), and how many vaccine doses they had received upon admission. These data are from the registers already mentioned, as well as the Swedish Intensive Care Register (SIR), a healthcare quality register. The current data covers the period 2nd March 2020 - 30th September 2022.
+The lower graph in this section shows the number of people admitted to intensive care (ICU), and how many vaccine doses they had received upon admission. These data are from the registers already mentioned, as well as the Swedish Intensive Care Register (SIR), a healthcare quality register.
 
 There are three major peaks in admissions to intensive care (ICU). The timing of these peaks corresponds to peaks in COVID-19 cases, specifically in spring 2020, winter 2021, and spring 2021, when the rates of infection were high.
 
 In order to infer the impact of vaccination on ICU admissions, it is best to directly compare the data over the same time period. After aligning the timeframes in the below graphs, it is clear that the number of patients admitted with one or two vaccine doses increases with the coverage of these doses. This is unsurprising, given that the vaccine does not completely protect against serious illness, especially after only a single dose. There is considerable evidence of the protective effect of vaccination, though. Firstly, a majority of admissions in most weeks were related to individuals that had not received any vaccine doses, despite the fact that this represents an increasingly smaller portion of the population over time. Secondly, the number of admissions decreases as vaccine coverage increases, particularly when considering the coverage of multiple doses. The absolute numbers are, of course, also affected by the changes in intensity of the pandemic. This means that they tend to be lower in the summer months and other periods when the spread of the infection was low, and higher over the winter-spring period. There is, however, some evidence of a de-coupling between case number and ICU admissions for the first time in winter 2021. Cases were generally high over this period (see e.g. data from the [Swedish public health agency](https://experience.arcgis.com/experience/09f821667ce64bf7be6f9f87457ed9aa)). This is evidence that vaccines are protective against the onset of serious illness, because it means a smaller proportion of cases led to ICU admission. This de-coupling is also evident through 2022.
 
+##### Visualisations
+
+The graphs below have multiple interactive features. In brief, it is possible to view different parts of the data using the buttons above the graphs. For exmaple, it is possible to look only at data from only those over 60 years of age by clicking '>60'. The 'Align timeline' button will change the timeline of the graphs so that only period for which data is available for both types of data shown is visible. The 'Show all data' button can be used to see all of the available data for both datasets (the timelines of the two are not the same).
+
 <div id="dwbuttons"><button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#vis_instr_one" aria-expanded="False" aria-controls="mandatorycollapse">
-    Click here for instructions on using interactive plot features
+    Click here for more detailed instructions on using the features of the graphs
 </button>
 </div>
 <div class="collapse" id="vis_instr_one">
@@ -71,7 +75,7 @@ The data are categorised according to the number of doses received, and each cat
 
 ##### Changing the timeframe displayed
 
-The two graphs are shown on different time scales. This is because vaccinations were not made available until early 2021, whilst data on ICU admissions resulting from COVID-19 infection are available from March 2020. The default view will show all of the data available for both datasets. However, it is useful for align the timeframes, especially when making inferences about the effects of vaccination on ICU admission. Use the 'Align timeframe' button in the 'Timeframe' buttons list to align the timeframes. Click the 'View whole time series' button to view all of the available data.
+The two graphs are shown on different time scales. This is in part because vaccinations were not made available until early 2021, whilst data on ICU admissions resulting from COVID-19 infection are available from March 2020. Further, the latest date for which data is available can differ between the two datasets. The default view will show all of the data available for both datasets. However, it is useful for align the timeframes, especially when making inferences about the effects of vaccination on ICU admission. Use the 'Align timeframe' button in the 'Timeframe' buttons list to align the timeframes. Click the 'Show all data' button to view all of the available data.
 
 ##### Accurately read data values
 
@@ -81,15 +85,16 @@ It is possible to view the underlying data values by hovering the cursor over th
 
 When hovering over the plot with the cursor, additional grey icons appear in the top right. The +, -, and magnifying glass icons can be used to zoom in/out of the plot. Alternatively, it is possible to zoom into a given part of the graph by clicking and dragging with the cursor to select that portion. The autoscale and reset axes icons (which look like a box containing arrows and a house, respectively) can be used to scale the axes appropriately for the data selected. The plot can be downloaded in .png format by clicking on the camera icon.
 </span>
+
   </div>
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/vaccination_RECO_timeseries_buttons.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/vaccination_RECO_timeseries_buttons.json" height="500px" >}}</div>
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/ICUadmiss_vaccinationlevel_button.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/ICUadmiss_vaccinationlevel_button.json" height="500px" >}}</div>
 </div>
 
 **Code used to produce plots:** [Preparation for vaccine coverage data](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/Swedishpop_vaccinecov_dataprep.py), [Graph of vaccine coverage](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/Swedishpop_vaccinecov_plotwbuttons.py), [Graph and data preparation for ICU admissions data](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/Swedishpop_ICU_plotwbuttons.py).
@@ -98,12 +103,16 @@ When hovering over the plot with the cursor, additional grey icons appear in the
 
 This section considers data on individuals with one of four comorbidities; cardiovascular disease, diabetes, respiratory disease, and cancer. The data were obtained from the registers mentioned in the section above, as well as the National Patient Register (NPR) and SmiNet. The NPR contains specialised outpatient and hospitalised inpatient care, and is held by the National Board of Health and Welfare (Socialstyrelsen). SmiNet is the national register for mandatory registration of notifiable infectious diseases, and is held at the PHAS. Coded diagnoses in 2015-2019 from the NPR are used to classify individuals by comorbidity conditions. Note that individuals may be included in one or more of these comorbidity groups. COVID-19 cases diagnosed among people with comorbidities are determined using a positive SARS-CoV-2 test from SmiNet and/or a diagnosis of COVID-19 in NPR (the overwhelming majority have a positive test).
 
-The buttons in the below plots can be used to display data on a given comorbidity. The data in both graphs will change according to the comorbidity selected. Data related to vaccine coverage (upper graph) includes the period 21st December 2020 - 30th September 2022. Data on the incidence of COVID-19 (lower graph) instead spans the period February 2020 - 30th September 2022. All data available on a given comorbidity will be displayed by default, but the timelines can be aligned.
+The buttons in the below plots can be used to display data on a given comorbidity (see the blow subsection for details). All data available on a given comorbidity will be displayed by default, this may mean that different timelines are shown in the two graphs. However, the timelines can be aligned so that more direct comparisons can be made between the data in the two graphs.
 
-There is clear evidence of the benefits of vaccination for patients with each comorbidity considered. When switching between comorbidities, it is evident that they follow the same overall pattern in terms of the number of COVID-19 cases detected, but there are variations in magnitude. Similar to the above data considering the population over 18, it is clear that the proportion of vaccinated individuals diagnosed with COVID-19 increases with vaccine coverage. This is expected because the vaccine is not completely effective at preventing infection, although it does have a higher effectiveness against the development of serious disease, as shown in many studies (see also the [above data on ICU admission rates](#swedish-population-in-general) and results from [Xu *et al.* (2022)](https://doi.org/10.3390/vaccines10122074); a recent study based on RECOVAC data). Thus, as the proportion of the population that is vaccinated increases, more vaccinated individuals are likely to develop COVID-19. Some evidence of a protective effect can already be inferred from a superficial consideration of the number of cases detected in autumn 2020 compared to autumn 2021. The initial reduction in cases that occurs as vaccination coverage increases could, in part, be attributed to a general reduction in cases over the 2021 summer months. There was a peak in cases during winter 2021, and it is clear that many of the cases occurred in vaccinated individuals, but this is not evidence that vaccines do not have a protective effect. Rather, it reflects that a large part of the population was vaccinated by this time. The peak in winter 2021 can be attributed to the emergence of the new Omicron virus variant that was first detected in November 2021. This variant spreads more easily than earlier variants, even in vaccinated individuals. The number of COVID-19 cases presented in the graph below, and the number of ICU admissions in the graph in the section above, do not consider equivalent populations. However, considering both datasets together does provide some insights into the protective effect of vaccines. Specifically, each peak in COVID-19 cases in patients with each of the comorbidities prior to summer 2021 is clearly reflected in the number of ICU admissions in the adult population of Sweden. By contrast, this Omicron peak in cases is not reflected in a peak in ICU admissions. This is evidence that vaccines were protective against the onset of the more severe symptoms. A protective effect has also been confirmed in many studies. Ideally, studies considering a protective effect should directly compare COVID-19 cases and vaccine coverage in a manner that accounts for age-group and time point.
+There is clear evidence of the benefits of vaccination for patients with each comorbidity considered. When switching between comorbidities, it is evident that they follow the same overall pattern in terms of the number of COVID-19 cases detected, but there are variations in magnitude. Similar to the above data considering the population over 18, it is clear that the proportion of vaccinated individuals diagnosed with COVID-19 increases with vaccine coverage. This is expected because the vaccine is not completely effective at preventing infection (although it does have a higher effectiveness against the development of serious disease, as shown in many studies, see also the [above data on ICU admission rates](#swedish-population-in-general)). Thus, as the proportion of the population that is vaccinated increases, more vaccinated individuals are likely to develop COVID-19. Some evidence of a protective effect can already be inferred from a superficial consideration of the number of cases detected in autumn 2020 compared to autumn 2021. The initial reduction in cases that occurs as vaccination coverage increases could, in part, be attributed to a general reduction in cases over the 2021 summer months. There was a peak in cases during winter 2021, and it is clear that many of the cases occurred in vaccinated individuals, but this is not evidence that vaccines do not have a protective effect. Rather, it reflects that a large part of the population was vaccinated by this time. The peak in winter 2021 can be attributed to the emergence of the new Omicron virus variant that was first detected in November 2021. This variant spreads more easily than earlier variants, even in vaccinated individuals. The number of COVID-19 cases presented in the graph below, and the number of ICU admissions in the graph in the section above, do not consider equivalent populations. However, considering both datasets together does provide some insights into the protective effect of vaccines. Specifically, each peak in COVID-19 cases in patients with each of the comorbidities prior to summer 2021 is clearly reflected in the number of ICU admissions in the adult population of Sweden. By contrast, this Omicron peak in cases is not reflected in a peak in ICU admissions. This is evidence that vaccines were protective against the onset of the more severe symptoms. A protective effect has also been confirmed in many studies. Ideally, studies considering a protective effect should directly compare COVID-19 cases and vaccine coverage in a manner that accounts for age-group and time point.
+
+##### Visualisations
+
+The graphs below have multiple interactive features. It is possible to see all of the data available for a given comorbidity for clicking on the corresponding button. The 'Align timeline' button will change the timeframe shown so that only the time period that is common between the two graphs is shown. The 'Show all data' button can be used to see all of the available data for both datasets (the timelines of the two are not the same).
 
 <div id="dwbuttons"><button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#vis_instr_two" aria-expanded="False" aria-controls="mandatorycollapse">
-    Click here for instructions on using interactive plot features
+    Click here for more detailed instructions on using the features of the graphs
 </button>
 </div>
 <div class="collapse" id="vis_instr_two">
@@ -118,35 +127,39 @@ Click on the button corresponding to the cormorbidity of interest to display dat
 
 ##### Changing the timeframe displayed
 
-The two graphs are shown on different time scales. This is because vaccinations were not made available until early 2021, whilst data on COVID-19 infection are available from March 2020. The default view will show all of the data available for both datasets. However, it is useful for align the timeframes, especially when making inferences about the effects of vaccination on COVID-19 cases. Use the 'Align timeframe' button in the 'Timeframe' buttons list to align the timeframes. Click the 'View whole time series' button to view all of the available data.
+The two graphs are shown on different time scales. This is partly because vaccinations were not made available until early 2021, whilst data on COVID-19 infection are available from March 2020. Further, the latest data available can differ between data types.
+
+The default view will show all of the data available for both datasets. However, it is useful for align the timeframes, especially when making inferences about the effects of vaccination on COVID-19 cases. Use the 'Align timeframe' button in the 'Timeframe' buttons list to align the timeframes. Click the 'Show all data' button to view all of the available data.
 
 ##### Accurately read data values
 
-It is possible to view the underlying data values by hovering the cursor over the graph. All values for a given date are shown together.  
+It is possible to view the underlying data values by hovering the cursor over the graph. All values for a given date are shown together.
 
 ##### Other features
 
 When hovering over the plot with the cursor, additional grey icons appear in the top right. The +, -, and magnifying glass icons can be used to zoom in/out of the plot. Alternatively, it is possible to zoom into a given part of the graph by clicking and dragging with the cursor to select that portion. The autoscale and reset axes icons (which look like a box containing arrows and a house, respectively) can be used to scale the axes appropriately for the data selected. The plot can be downloaded in .png format by clicking on the camera icon.
 </span>
+
   </div>
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/comorbs_subplot_button.json" height="800px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/comorbs_subplot_button.json" height="800px" >}}</div>
 </div>
 
 **Code used to produce plots:** [Preparation of COVID-19 case data](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/comorbidity_cases_dataprep.py), [Preparation of vaccination coverage data](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/comorbidity_vaccinecov_dataprep.py), [Graph containing subplots](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/comorbidity_subplots_wbuttons.py).
 
 ## Determinants of vaccination
-The rapid development of COVID-19 vaccination and high vaccination coverage have been crucial in mitigating the societal effects of the COVID-19 pandemic. Two recently published articles by Spetz and colleagues ([Spetz *et al.* (2022a)](https://www.sciencedirect.com/science/article/pii/S2666776222000242?via%3Dihub) and [Spetz *et al.* (2022b)](https://www.sciencedirect.com/science/article/pii/S0264410X22011860)) at Gothenburg University used registry-based data to examine sociodemographic determinants of vaccination coverage. In brief, although the overall vaccination coverage in Sweden was over 82%, vaccination was lower among certain demographic groups. Specifically, vaccination coverage was lower among younger individuals, those on low incomes, those born outside of Sweden, and males. Individuals born in a low- or middle-income country were found to be six times less likely to be vaccinated than individuals born in Sweden.  When considering the whole working age population (18-64 years), vaccination coverage varied extensively between different subgroups, as defined by the factors studied, from 32% to as high as 96%. Similar results were seen in the older population (65 years of age and older). These results indicate that taking social factors into consideration is important in future health and vaccination efforts. Read more about these findings in [Spetz *et al.* (2022a)](https://www.sciencedirect.com/science/article/pii/S2666776222000242?via%3Dihub) and [Spetz *et al.* (2022b)](https://www.sciencedirect.com/science/article/pii/S0264410X22011860).
+
+The rapid development of COVID-19 vaccination and high vaccination coverage have been crucial in mitigating the societal effects of the COVID-19 pandemic. Two recently published articles by Spetz and colleagues ([Spetz _et al._ (2022a)](https://www.sciencedirect.com/science/article/pii/S2666776222000242?via%3Dihub) and [Spetz _et al._ (2022b)](https://www.sciencedirect.com/science/article/pii/S0264410X22011860)) at Gothenburg University used registry-based data to examine sociodemographic determinants of vaccination coverage. In brief, although the overall vaccination coverage in Sweden was over 82%, vaccination was lower among certain demographic groups. Specifically, vaccination coverage was lower among younger individuals, those on low incomes, those born outside of Sweden, and males. Individuals born in a low- or middle-income countries were found to be six times less likely to be vaccinated than individuals born in Sweden.  When considering the whole working age population (18-64 years), vaccination coverage varied extensively between different subgroups, as defined by the factors studied, from 32% to 96%. Similar results were seen in the older population (65 years of age and older). These results indicate that taking social factors into consideration is important in future health and vaccination efforts. Read more about these findings in [Spetz _et al._ (2022a)](https://www.sciencedirect.com/science/article/pii/S2666776222000242?via%3Dihub) and [Spetz _et al._ (2022b)](https://www.sciencedirect.com/science/article/pii/S0264410X22011860).
 
 ## Vaccine effectiveness
-Using long-term data about the Swedish general population from RECOVAC, [Xu *et al.* (2022)](https://doi.org/10.3390/vaccines10122074) provided a more detailed insight into time-varying vaccine effectiveness (VE) against COVID-19 infection, hospitalisation, ICU admission, and death up to 13 months after vaccination. Two vaccine doses offered good, long-lasting protection against infection before the Omicron variant emerged (VE above 85% for all time intervals), but more limited protection against infection with the Omicron variant. For severe COVID-19 outcomes, however, high VE was observed during the entire follow-up period with better protection among individuals above age 65. For more details, see [Xu *et al.* (2022)](https://doi.org/10.3390/vaccines10122074).
+
+Using long-term data about the Swedish general population from RECOVAC, [Xu _et al._ (2022)](https://doi.org/10.3390/vaccines10122074) provided a more detailed insight into time-varying vaccine effectiveness (VE) against COVID-19 infection, hospitalisation, ICU admission, and death up to 13 months after vaccination. Two vaccine doses offered good, long-lasting protection against infection before the Omicron variant emerged (VE above 85% for all time intervals), but more limited protection against infection with the Omicron variant. For severe COVID-19 outcomes, however, high VE was observed during the entire follow-up period with better protection among individuals above age 65. For more details, see [Xu _et al._ (2022)](https://doi.org/10.3390/vaccines10122074).
 
 ## Contact information
-Prof Fredrik Nyberg, Project Leader and Professor of Register Epidemiology, School of Public Health and Community Medicine, Institute of Medicine, Gothenburg University. Email: [fredrik.nyberg.2@gu.se](mailto:fredrik.nyberg.2@gu.se).
 
-Patricia Ernst, Project Coordinator SCIFI-PEARL and RECOVAC. Email: [patricia.ernst@gu.se](mailto:patricia.ernst@gu.se)
+Prof Fredrik Nyberg, Project Leader and Professor of Register Epidemiology, School of Public Health and Community Medicine, Institute of Medicine, Gothenburg University. Email: [fredrik.nyberg.2@gu.se](mailto:fredrik.nyberg.2@gu.se).
 
 You are also welcome to use the general email addresses for the projects:
 [recovac@gu.se](recovac@gu.se) or [scifipearl@medicin.gu.se](mailto:scifipearl@medicin.gu.se)
@@ -164,29 +177,29 @@ The data in this study are pseudonymized individual-level data from Swedish heal
 We will consider proposals for collaboration in a positive vein, based on an assessment of their interest and importance, fit with the project and realistic possibility of implementing (especially given internal resource within the project). We actively seek and encourage cross-functional collaboration and invite new ideas and expertise. Collaborations will be structured as sub projects under **SCIFI-PEARL/RECOVAC** and the existing PI and leadership, in accordance with existing ethics approvals. Arrangements for data access, cost sharing and collaboration support from core project staff and resource will be discussed on a case by case basis. Data will not be shared outside of our protected data environments.
 Before you contact us, think carefully through the aims for the collaboration with **SCIFI-PEARL / RECOVAC** that you wish to initiate. Please attach a project idea / subproject synopsis or preliminary project plan. You can use your own format, or the template available here if you wish. We cannot finance research projects, but are open to collaborate in funding applications.
 
-*For more information, please contact those involved with the project using the contact details [above](/dashboards/recovac/#contact-information).*
+_For more information, please contact those involved with the project using the contact details [above](/dashboards/recovac/#contact-information)._
 
 ## Publications and Preprints
 
 Below is a list of publications and preprints from this group. Please see the [SCIFI-PEARL webpage](https://www.gu.se/forskning/scifi-pearl) for a more comprehensive overview of outputs (e.g. lists of conference abstracts and recently submitted articles). The publication lists on that page are also updated more regularly (weekly) than the list below.
 
-* Xu, Y., Li, H., Kirui, B., Santosa, A., Gisslen, M., Leach, S., Wettermark, B., Vanfleteren, L. E. G. W., Nyberg, F. (2022). Effectiveness of COVID-19 Vaccines Over 13 Months Covering the Period of the Emergence of the Omicron Variant in the Swedish Population. *Available at SSRN as a preprint:* [https://doi.org/10.3390/vaccines10122074](https://doi.org/10.3390/vaccines10122074)
+- Xu, Y., Li, H., Kirui, B., Santosa, A., Gisslen, M., Leach, S., Wettermark, B., Vanfleteren, L. E. G. W., Nyberg, F. (2022). Effectiveness of COVID-19 Vaccines Over 13 Months Covering the Period of the Emergence of the Omicron Variant in the Swedish Population. _Available at SSRN as a preprint:_ [https://doi.org/10.3390/vaccines10122074](https://doi.org/10.3390/vaccines10122074)
 
-* Spetz, M., Lundberg, L., Nwaru, C., Li, H., Santosa, A., Ng, N., Leach, S., Gisslén, M., Hammar, N., Nyberg, F., Rosvall, M. (2022) An intersectional analysis of sociodemographic disparities in Covid-19 vaccination: a nationwide register-based study in Sweden. *Vaccine, 40*, 6640-6648. [https://doi.org/10.1016/j.vaccine.2022.09.065](https://doi.org/10.1016/j.vaccine.2022.09.065)
+- Spetz, M., Lundberg, L., Nwaru, C., Li, H., Santosa, A., Ng, N., Leach, S., Gisslén, M., Hammar, N., Nyberg, F., Rosvall, M. (2022) An intersectional analysis of sociodemographic disparities in Covid-19 vaccination: a nationwide register-based study in Sweden. _Vaccine, 40_, 6640-6648. [https://doi.org/10.1016/j.vaccine.2022.09.065](https://doi.org/10.1016/j.vaccine.2022.09.065)
 
-* Mousa, S. I., Nyberg, F., Hajiebrahimi, M., Bertilsson, R., Nåtman, J., Santosa, A., Wettermark, B. (2022). Initiation of antihypertensive drugs to patients with confirmed COVID-19-A population-based cohort study in Sweden. *Basic & Clinical Pharmacology & Toxicology, 131*, 196-204. [https://doi.org/10.1111/bcpt.13766](https://doi.org/10.1111/bcpt.13766)
+- Mousa, S. I., Nyberg, F., Hajiebrahimi, M., Bertilsson, R., Nåtman, J., Santosa, A., Wettermark, B. (2022). Initiation of antihypertensive drugs to patients with confirmed COVID-19-A population-based cohort study in Sweden. _Basic & Clinical Pharmacology & Toxicology, 131_, 196-204. [https://doi.org/10.1111/bcpt.13766](https://doi.org/10.1111/bcpt.13766)
 
-* Sundh, J., Ekström, M., Palm, A., Ljunggren, M., Emilsson, Ö. I., Grote, L., Cajander, S., Li, H., Nyberg, F. (2022). COVID-19 and Risk of Oxygen-dependent Chronic Respiratory Failure: A National Cohort Study. *American Journal of Respiratory and Critical Care Medicine, 206* 506-509. [https://doi.org/10.1164/rccm.202202-0323le](https://doi.org/10.1164/rccm.202202-0323le)
+- Sundh, J., Ekström, M., Palm, A., Ljunggren, M., Emilsson, Ö. I., Grote, L., Cajander, S., Li, H., Nyberg, F. (2022). COVID-19 and Risk of Oxygen-dependent Chronic Respiratory Failure: A National Cohort Study. _American Journal of Respiratory and Critical Care Medicine, 206_ 506-509. [https://doi.org/10.1164/rccm.202202-0323le](https://doi.org/10.1164/rccm.202202-0323le)
 
-* Spetz, M., Lundberg, L., Nwaru, C., Li, H., Santosa, A., Leach, S., Gisslén, M., Hammar, N., Rosvall, M., Nyberg, F. (2022). The social patterning of Covid-19 vaccine uptake in older adults: A register-based cross-sectional study in Sweden. *The Lancet Regional Health - Europe, 15,* 100331. [https://doi.org/10.1016/j.lanepe.2022.100331](https://doi.org/10.1016/j.lanepe.2022.100331)
+- Spetz, M., Lundberg, L., Nwaru, C., Li, H., Santosa, A., Leach, S., Gisslén, M., Hammar, N., Rosvall, M., Nyberg, F. (2022). The social patterning of Covid-19 vaccine uptake in older adults: A register-based cross-sectional study in Sweden. _The Lancet Regional Health - Europe, 15,_ 100331. [https://doi.org/10.1016/j.lanepe.2022.100331](https://doi.org/10.1016/j.lanepe.2022.100331)
 
-* Santosa, A., Franzén, S., Nåtman, J., Wettermark, B., Parmryd, I., Nyberg, F. (2022). Protective effects of statins on COVID-19 risk, severity and fatal outcome – a nationwide Swedish cohort study. *Research Square* [https://doi.org/10.21203/rs.3.rs-1432508/v1](https://doi.org/10.21203/rs.3.rs-1432508/v1)
+- Santosa, A., Franzén, S., Nåtman, J., Wettermark, B., Parmryd, I., Nyberg, F. (2022). Protective effects of statins on COVID-19 risk, severity and fatal outcome – a nationwide Swedish cohort study. _Research Square_ [https://doi.org/10.21203/rs.3.rs-1432508/v1](https://doi.org/10.21203/rs.3.rs-1432508/v1)
 
-* Nwaru, C.A., Santosa, A., Franzén, S., Nyberg, F. (2022). Occupation and COVID-19 diagnosis, hospitalisation and ICU admission among foreign-born and Swedish-born employees: a register-based study. *Journal of Epidemiology and Community Health, 7,* jech-2021-218278. [https://doi.org/10.1136/jech-2021-218278](https://doi.org/10.1136/jech-2021-218278)
+- Nwaru, C.A., Santosa, A., Franzén, S., Nyberg, F. (2022). Occupation and COVID-19 diagnosis, hospitalisation and ICU admission among foreign-born and Swedish-born employees: a register-based study. _Journal of Epidemiology and Community Health, 7,_ jech-2021-218278. [https://doi.org/10.1136/jech-2021-218278](https://doi.org/10.1136/jech-2021-218278)
 
-* Nyberg, F., Franzén, S., Lindh, M., Vanfleteren, L., Hammar, N., Wettermark, B., Sundström, J., Santosa, A., Björck, S., Gisslén, M. (2021). Swedish Covid-19 Investigation for Future Insights – A Population Epidemiology Approach Using Register Linkage (SCIFI-PEARL). *Clinical Epidemiology, 13,* 649-659. [https://doi.org/10.2147/CLEP.S312742](https://doi.org/10.2147/CLEP.S312742)
+- Nyberg, F., Franzén, S., Lindh, M., Vanfleteren, L., Hammar, N., Wettermark, B., Sundström, J., Santosa, A., Björck, S., Gisslén, M. (2021). Swedish Covid-19 Investigation for Future Insights – A Population Epidemiology Approach Using Register Linkage (SCIFI-PEARL). _Clinical Epidemiology, 13,_ 649-659. [https://doi.org/10.2147/CLEP.S312742](https://doi.org/10.2147/CLEP.S312742)
 
-* Nyberg, F., Lindh, M., Vanfleteren, L., Hammar, N., Wettermark, B., Sundström, J., Santosa, A., Kirui, B. K., Gisslén, M. (2021). Adverse events of special interest for COVID-19 vaccines - background incidences vary by sex, age and time period and are affected by the pandemic. *medRxiv* [https://doi.org/10.1101/2021.10.04.21263507](https://doi.org/10.1101/2021.10.04.21263507)
+- Nyberg, F., Lindh, M., Vanfleteren, L., Hammar, N., Wettermark, B., Sundström, J., Santosa, A., Kirui, B. K., Gisslén, M. (2021). Adverse events of special interest for COVID-19 vaccines - background incidences vary by sex, age and time period and are affected by the pandemic. _medRxiv_ [https://doi.org/10.1101/2021.10.04.21263507](https://doi.org/10.1101/2021.10.04.21263507)
 
 ## Information about SCIFI-PEARL
 
