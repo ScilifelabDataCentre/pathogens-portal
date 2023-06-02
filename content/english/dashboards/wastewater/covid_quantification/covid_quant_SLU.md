@@ -21,7 +21,7 @@ The data and visualisation on this page are usually updated weekly, typically on
 SLU-SEEC collect and analyse samples from multiple areas. The below table shows details about each of these sites. The table lists the towns/cities monitored, wastewater treatment plants (WWTP) that samples were collected from, the number of people in the catchment area (Number of people), and the dates that monitoring by SLU-SEEC started and ended monitoring (Start and End date, respectively). A value of 'null' for the end date indicates that collection is ongoing. An asterisk next to the number of people indicates that the figure is preliminary.  
 
   <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_slusites.json" height="775px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slusites.json" height="775px" >}}</div>
 </div>
 
 <!-- <p>
@@ -32,7 +32,7 @@ SLU-SEEC collect and analyse samples from multiple areas. The below table shows 
 <div class="collapse" id="collapseExample1">
   <div class="card card-body">
   <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_slusites.json" height="775px" width="800px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slusites.json" height="775px" width="800px" >}}</div>
 </div>
   </div>
 </div> -->
@@ -49,7 +49,7 @@ SLU-SEEC collect and analyse samples from multiple areas. The below table shows 
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_slusites.json" height="600px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slusites.json" height="600px" >}}</div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -96,7 +96,7 @@ Please note that although the same methods are used for all cities shown on this
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="550px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="550px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_slu_regular.py).
@@ -109,7 +109,7 @@ Please note that although the same methods are used for all cities shown on this
 
 ## Reports from the research group
 
-The group provide reports to summarise their latest findings. The latest report is available [here](https://blobserver.dckube.scilifelab.se/blob/Latest_weekly_report_SEEC-SLU) (only available in Swedish).
+The group provide reports to summarise their latest findings. The latest report is available [here](https://blobserver.dc.scilifelab.se/blob/Latest_weekly_report_SEEC-SLU) (only available in Swedish).
 
 ## Dataset
 

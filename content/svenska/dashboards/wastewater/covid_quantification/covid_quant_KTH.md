@@ -63,7 +63,7 @@ Notera också att även om samma metoder används för alla städer som visas p�
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_combined_stockholm.json" height="550px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_stockholm.json" height="550px" >}}</div>
 </div>
 
 **Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_stockholm_regular.py).
@@ -77,7 +77,7 @@ Notera också att även om samma metoder används för alla städer som visas p�
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_kthmalmo.json" height="550px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_kthmalmo.json" height="550px" >}}</div>
 </div>
 
 **Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/quant_malmo_kthplot.py).
@@ -92,7 +92,7 @@ Notera också att även om samma metoder används för alla städer som visas p�
 
 **Kontakt:** <zeynepcg@kth.se>
 
-**Ladda ner data:** [N3-genkopiatal per PMMoV-genkopiatal; Excelfil.](https://blobserver.dckube.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx). Data tillgänglig (delvis) från och med vecka 16 2020; uppdateras varje vecka.
+**Ladda ner data:** [N3-genkopiatal per PMMoV-genkopiatal; Excelfil.](https://blobserver.dc.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx). Data tillgänglig (delvis) från och med vecka 16 2020; uppdateras varje vecka.
 
 **Hur man citerar dataset:**
 Cetecioglu, Z. G., Williams, C., Khatami, K., Atasoy, M., Nandy, P., Jafferali, M. H., Birgersson, M. (2021). SARS-CoV-2 Wastewater Data from Stockholm, Sweden. [https://doi.org/10.17044/scilifelab.14315483](https://doi.org/10.17044/scilifelab.14315483).

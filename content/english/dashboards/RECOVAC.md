@@ -85,11 +85,11 @@ When hovering over the plot with the cursor, additional grey icons appear in the
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/vaccination_RECO_timeseries_buttons.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/vaccination_RECO_timeseries_buttons.json" height="500px" >}}</div>
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/ICUadmiss_vaccinationlevel_button.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/ICUadmiss_vaccinationlevel_button.json" height="500px" >}}</div>
 </div>
 
 **Code used to produce plots:** [Preparation for vaccine coverage data](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/Swedishpop_vaccinecov_dataprep.py), [Graph of vaccine coverage](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/Swedishpop_vaccinecov_plotwbuttons.py), [Graph and data preparation for ICU admissions data](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/Swedishpop_ICU_plotwbuttons.py).
@@ -132,7 +132,7 @@ When hovering over the plot with the cursor, additional grey icons appear in the
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/comorbs_subplot_button.json" height="800px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/comorbs_subplot_button.json" height="800px" >}}</div>
 </div>
 
 **Code used to produce plots:** [Preparation of COVID-19 case data](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/comorbidity_cases_dataprep.py), [Preparation of vaccination coverage data](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/comorbidity_vaccinecov_dataprep.py), [Graph containing subplots](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/comorbidity_subplots_wbuttons.py).
