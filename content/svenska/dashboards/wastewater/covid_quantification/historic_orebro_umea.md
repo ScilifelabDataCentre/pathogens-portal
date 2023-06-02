@@ -1,8 +1,8 @@
 ---
 title: "Historiska data för Örebro och Umeå"
-toc: false
 aliases:
     - /sv/data_types/environment/wastewater/historic_orebro_umea/
+    - /sv/dashboards/wastewater/historic_orebro_umea/
 ---
 
 Denna sida visar data för mängd SARS-CoV-2 i avloppsvatten från Umeå och Örebro mellan oktober 2020 och juni 2021. Från juni 2021 ändrades metoden. Se [den här sidan](../) för de senaste uppgifterna.
@@ -13,7 +13,7 @@ Efter beredning har proverna extraherats och ultrafiltrats samt analyserats för
 
 ### Mängd SARS-CoV-2 i avloppsvatten från Umeå mellan oktober 2020 och juni 2021
 
-**Ladda ner data:** [Förändring i mängd SARS CoV-2 RNA (%) jämfört med Nov 6 2020 och flöde varje dag samt veckonummer, Excel fil.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Umeaa.xlsx). Data startar vecka 44 of 2020; uppdateras en gång per månad.
+**Ladda ner data:** [Förändring i mängd SARS CoV-2 RNA (%) jämfört med Nov 6 2020 och flöde varje dag samt veckonummer, Excel fil.](https://blobserver.dc.scilifelab.se/blob/wastewater_data_Umeaa.xlsx). Data startar vecka 44 of 2020; uppdateras en gång per månad.
 
 **Referera till detta dataset:**
 Malmberg, M., Myrmel, M. & Khatri, M. Dataset of SARS-CoV-2 in wastewater in Umeå, Sweden. [https://doi.org/10.17044/scilifelab.14376881.v1](https://doi.org/10.17044/scilifelab.14376881.v1) (2021).
@@ -32,7 +32,7 @@ Malmberg, M., Myrmel, M. & Khatri, M. Dataset of SARS-CoV-2 in wastewater in Ume
 
 ### Mängd SARS-CoV-2 i avloppsvatten från Örebro mellan oktober 2020 och juni 2021
 
-**Ladda ner data:** [Förändring i mängd SARS CoV-2 RNA (%) jämfört med Nov 6 2020 och flöde varje dag samt veckonummer, Excel fil](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Orebro.xlsx). Data startar vecka 44 of 2020; uppdateras en gång per månad.
+**Ladda ner data:** [Förändring i mängd SARS CoV-2 RNA (%) jämfört med Nov 6 2020 och flöde varje dag samt veckonummer, Excel fil](https://blobserver.dc.scilifelab.se/blob/wastewater_data_Orebro.xlsx). Data startar vecka 44 of 2020; uppdateras en gång per månad.
 
 **Referera till detta dataset:**
 Malmberg, M., Myrmel, M. & Khatri, M. Dataset of SARS CoV-2 in wastewater in Örebro, Sweden. [https://doi.org/10.17044/scilifelab.14377097.v1](https://doi.org/10.17044/scilifelab.14377097.v1) (2021).

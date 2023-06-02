@@ -10,6 +10,7 @@ menu:
         name: Post COVID-19 condition in Sweden
 aliases:
     - /data_types/health_data/post_covid/
+dashboards_topics: [COVID-19, Infectious diseases]
 ---
 
 Since the beginning of 2020, the COVID-19 pandemic has challenged healthcare and dramatically changed daily life for people worldwide. The severity of symptoms experienced by patients during the acute infection phase of COVID-19 disease varies between individuals from mild to severe. After this phase, there are usually no indications that the disease will have any long-term effects on their health, regardless of the severity of symptoms experienced during the acute infection phase. However, some patients continue to exhibit symptoms for prolonged periods after the acute phase. The symptoms experienced by such patients are broad, but can include, for example, deep fatigue, joint pain, ‘brain fog’ (difficulty concentrating on certain tasks for longer periods of time), and heart palpitations ([Brodin, 2021](https://doi.org/10.1038/s41591-020-01202-8), [Marx, 2021](https://doi.org/10.1038/s41592-021-01145-z)). These symptoms can have a significant impact on the patients' quality of life.
@@ -49,7 +50,7 @@ These plots display the number of times that patients were assigned the diagnose
 #### Diagnosis U09.9
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/U099_agesex_casedist.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/U099_agesex_casedist.json" height="500px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/create_agesex_distcases.py).
@@ -57,7 +58,7 @@ These plots display the number of times that patients were assigned the diagnose
 #### Diagnosis Z86.1A/U08.9
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/U089_agesex_casedist.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/U089_agesex_casedist.json" height="500px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/create_agesex_distcases.py).
@@ -69,7 +70,7 @@ The maps below show the number of people that received the diagnoses of interest
 #### Diagnosis U09.9
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/map_postcovid_percent_of_population_U099.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/map_postcovid_percent_of_population_U099.json" height="500px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Data preparation script](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Script to produce map](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_population_U099.py).
@@ -77,7 +78,7 @@ The maps below show the number of people that received the diagnoses of interest
 #### Diagnosis Z86.1A/U08.9
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/map_postcovid_percent_of_population_U089.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/map_postcovid_percent_of_population_U089.json" height="500px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Data preparation script](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Script to produce map](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_population_U089.py).
@@ -93,7 +94,7 @@ The maps below show the number of people that received the diagnoses of interest
 #### Diagnosis U09.9
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/map_postcovid_percent_of_covidcases_U099.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/map_postcovid_percent_of_covidcases_U099.json" height="500px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Data preparation script](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Script to produce map](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_cases_U099.py).
@@ -101,7 +102,7 @@ The maps below show the number of people that received the diagnoses of interest
 #### Diagnosis Z86.1A/U08.9
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/map_postcovid_percent_of_covidcases_U089.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/map_postcovid_percent_of_covidcases_U089.json" height="500px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Data preparation script](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Script to produce map](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_cases_U089.py).
@@ -115,7 +116,7 @@ The maps below show the number of people that received the diagnoses of interest
 The below table displays the most common types of diagnosis (diagnosis groups) that have been reported together with the *U09.9 (ICD-10-SE) - Postinfectious state associated with COVID-19, unspecified* diagnosis. In particular, the values in the table represent the amount of individuals that received the *U09.9* diagnosis alongside one of the diagnoses below. The data was recorded between 16th October 2020 and the most recent data update (see above).
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/accompdiag_table.json" height="527px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/accompdiag_table.json" height="527px" >}}</div>
 </div>
 
 <span class="text-muted">*Note that an individual may have more than one of the accompanying diagnoses. However, if an individual has the same issue on multiple doctor visits/healthcare contacts, the diagnosis will only be counted once*</span>
@@ -131,7 +132,7 @@ The below plot shows the number of times that patients given the diagnoses of in
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/weeklycontacts_healthcare.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/weeklycontacts_healthcare.json" height="500px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/weeklycontacts_healthcare.py).
@@ -147,7 +148,7 @@ The below plots show the number of times that patients given one of the diagnose
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/U099_healthcare_divsex.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/U099_healthcare_divsex.json" height="500px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/weeklycontacts_healthcare_divsex.py).
@@ -159,7 +160,7 @@ The below plots show the number of times that patients given one of the diagnose
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/U089_healthcare_divsex.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/U089_healthcare_divsex.json" height="500px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/weeklycontacts_healthcare_divsex.py).

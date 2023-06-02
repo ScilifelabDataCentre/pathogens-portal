@@ -1,7 +1,8 @@
 ---
 title: Mängd SARS-COV-2 i avloppsvatten (GU)
-toc: false
 plotly: true
+aliases:
+    - /sv/dashboards/wastewater/covid_quant_gu/
 ---
 
 <div class="mt-3">
@@ -53,7 +54,7 @@ Ingående avloppsvattenprover insamlas från Ryaverkets avloppsreningsverk (eng.
 </div> -->
 
  <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_gothenburg.json" height="550px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_gothenburg.json" height="550px" >}}</div>
 </div>
 
 **Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/gothenburg_covid.py).
@@ -68,7 +69,7 @@ Ingående avloppsvattenprover insamlas från Ryaverkets avloppsreningsverk (eng.
 
 **Kontakt:** <helene.norder@gu.se>
 
-**Nedladdning av data:** [Quantification of SARS-CoV-2 and enteric viruses in wastewater](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx). Resultat finns tillgängliga för mängd SARS-CoV-2 från vecka 7 2020 (ett mindre uppehåll  under vintern 2022-2023) , och för enterovirus från vecka 2 2023. Data uppdateras veckovis.\
+**Nedladdning av data:** [Quantification of SARS-CoV-2 and enteric viruses in wastewater](https://blobserver.dc.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx). Resultat finns tillgängliga för mängd SARS-CoV-2 från vecka 7 2020 (ett mindre uppehåll  under vintern 2022-2023) , och för enterovirus från vecka 2 2023. Data uppdateras veckovis.\
 
 **För att citera datasetet:**  Norder, H., Nyström, K. Patzi Churqui, M., Tunovic, T., Wang, H. (2023). Detection of SARS-CoV-2 and other human enteric viruses in wastewater from Gothenburg. [https://doi.org/10.17044/scilifelab.22510501](https://doi.org/10.17044/scilifelab.22510501).
 

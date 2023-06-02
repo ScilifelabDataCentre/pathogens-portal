@@ -1,7 +1,7 @@
 ---
-# Build and publish docker image(s)
-# Publishing to Dockerhub requires a username and token
-# as the secrets DOCKERHUB_USERNAME and DOCKERHUB_TOKEN
+# Build and publish image(s) to GitHub (ghcr.io)
+# Publishing to GitHub requires a username (who triggered the action)
+# and password (as the secrets GITHUB_TOKEN)
 # remember to change repo-name and set dockerfile(s)/image name(s) in the matrix
 
 name: Publish Docker Image
@@ -32,22 +32,13 @@ jobs:
       matrix:
         include:
           - dockerfile: Dockerfiles/Dockerfile
-            images: |
-              docker.io/scilifelabdatacentre/covid-portal
-              ghcr.io/scilifelabdatacentre/covid-portal
+            images: ghcr.io/scilifelabdatacentre/covid-portal
     permissions:
       contents: read
       packages: write
     steps:
       - name: Check out the repo
         uses: actions/checkout@v3
-      # only needed when publishing to Dockerhub
-      - name: Log in to Docker Hub
-        uses: docker/login-action@v2
-        with:
-          # available in scilifelabdatacentre, ask admin for help
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
       # only needed when publishing to Github (ghcr.io)
       - name: Log in to Github Container Repository
         uses: docker/login-action@v2

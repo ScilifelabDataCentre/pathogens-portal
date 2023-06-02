@@ -1,8 +1,8 @@
 ---
 title: "Historic data for Stockholm"
-toc: false
 aliases:
     - /data_types/environment/wastewater/historic_stockholm/
+    - /dashboards/wastewater/historic_stockholm/
 ---
 
 This page displays data on the amount of SARS-CoV-2 in Stockholm between April 2020 and August 2021 calculated as Gene copy number/week (raw wastewater) with bovine + PMMoV factor. From September 2021 onwards, the method was changed. Please [see this page for the most recent data](./).
@@ -13,7 +13,7 @@ After concentration, filtering, and preparation, the samples are analyzed using 
 
 See also [the page of the research group where summaries of data and preliminary conclusions are presented](https://www.kth.se/water/research/covid-1.979048).
 
-**Download the data:** [Gene copy number/week (raw wastewater) with bovine + PMMoV factor; Excel file.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Stockholm.xlsx) Numbers for Stockholm overall and divided by Inlet Henriksdal, Sickla, Hässelby, Järva, Riksby, and Käppala are available. Results are available (partially) starting from week 16 of 2020 and until week 34 of 2021.
+**Download the data:** [Gene copy number/week (raw wastewater) with bovine + PMMoV factor; Excel file.](https://blobserver.dc.scilifelab.se/blob/wastewater_data_Stockholm.xlsx) Numbers for Stockholm overall and divided by Inlet Henriksdal, Sickla, Hässelby, Järva, Riksby, and Käppala are available. Results are available (partially) starting from week 16 of 2020 and until week 34 of 2021.
 
 **How to cite:**
 Cetecioglu Z G, Williams, C, Khatami, K, Atasoy, M, Nandy, P, Jafferali, M H, Birgersson, M. SARS-CoV-2 Wastewater Data from Stockholm, Sweden. [https://doi.org/10.17044/scilifelab.14315483](https://doi.org/10.17044/scilifelab.14315483) (2021).

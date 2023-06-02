@@ -10,6 +10,7 @@ menu:
         name: "Vaccine administration: COVID-19"
 aliases:
     - /data_types/health_data/vaccines/
+dashboards_topics: [COVID-19, Infectious diseases]
 ---
 
 <div class="alert alert-info">
@@ -69,7 +70,7 @@ Vaccination data is spread between multiple tabs of the [FoHM data file](https:/
 **Note on the graph:** Click on the coloured squares in the legend of the below graph to toggle which datasets are displayed. A single click will toggle just that dataset on/off. It is possible to display only one of the datasets by double-clicking on the desired dataset.
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/Total_vaccinated_barchart.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/Total_vaccinated_barchart.json" height="500px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_indicator_barchart.py).
@@ -89,7 +90,7 @@ The below graph shows vaccine coverage across the whole of Sweden. We use the 'w
 **Note on the graph:** Click on the coloured squares in the legend of the below graph to toggle which datasets are displayed. A single click will toggle just that dataset on/off. It is possible to display only one of the datasets by double-clicking on the desired dataset.
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/vaccine_timeseries_pop_barchart.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/vaccine_timeseries_pop_barchart.json" height="500px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_timeseries_barchart.py).
@@ -105,7 +106,7 @@ Again, please note that percentage values calculated using the 'whole population
 #### Received at least one vaccine dose
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/onedose_pop_map.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/onedose_pop_map.json" height="500px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce maps](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_maps_population.py).
@@ -113,7 +114,7 @@ Again, please note that percentage values calculated using the 'whole population
 #### Received at least two vaccine doses
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/twodoses_pop_map.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/twodoses_pop_map.json" height="500px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce maps](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_maps_population.py).
@@ -121,7 +122,7 @@ Again, please note that percentage values calculated using the 'whole population
 #### Received at least three vaccine doses
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/threedoses_pop_map.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/threedoses_pop_map.json" height="500px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce maps](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_maps_population.py).
@@ -129,7 +130,7 @@ Again, please note that percentage values calculated using the 'whole population
 #### Received at least four vaccine doses
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/fourdoses_pop_map.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/fourdoses_pop_map.json" height="500px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce maps](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_maps_population.py).
@@ -140,10 +141,10 @@ Please note the differences between the two below maps. Coverage appears to be v
 
 <div class="row">
 <div class="col-md"><div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/fivedoses_pop_map.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/fivedoses_pop_map.json" height="500px" >}}</div>
 </div></div>
 <div class="col-md"><div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/fivedoses_elig_map.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/fivedoses_elig_map.json" height="500px" >}}</div>
 </div></div>
 </div>
 
@@ -162,7 +163,7 @@ Data is available on the number of individuals aged 65-69 that have received the
 **Note about the heatmap:** A white colouration indicates that no data is available for that age group.
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/vaccine_heatmap.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/vaccine_heatmap.json" height="500px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce heatmap](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_heatmaps.py).

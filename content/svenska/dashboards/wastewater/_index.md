@@ -2,7 +2,7 @@
 title: Avloppsvattensepidemiologiska analyser i Sverige
 description: Monitorering av olika patogener i avloppsvatten kan vara ett effektivt sätt att förutse framtida virusutbrott. Denna dashboard innehåller data som ursprungligen samlats in av ett flertal olika forskargrupper runt om i Sverige.
 banner: /dashboard_thumbs/wastewater.jpg
-toc: false
+inline_toc: true
 type: wastewater
 menu:
     dashboard_menu:
@@ -19,7 +19,7 @@ plotly: true
 aliases:
     - /sv/data_types/environment/wastewater/
     - /sv/data_types/environment/
-    - /sv/dashboards/wastewater
+    - /sv/dashboards/wastewater/introduction/
 ---
 
 <div class="alert alert-info"><b>Notera:</b> Dashboarden för avloppsvatten kommer att utökas framöver. Vi har nu grupperat mätningarna för mängden av SARS-CoV-2 i avloppsvatten enligt den forskargrupp som samlade in och analyserade respektive data (se nedan för information om de deltagande grupperna). Under kommande månader kommer mer data och information om SARS-CoV-2 och andra infektionssjukdomar att läggas till. </span></div>
@@ -47,7 +47,7 @@ All källkod som skapats för visualiseringarna under de olika  flikarna på den
 Nedan finns en karta som visar de avloppsreningsverk (på engelska wastewater treatment plants, WWTP) från vilka avloppsprover samlas in och analyseras av de grupper som delar data på den här dashboarden.
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_map_test.json" height="600px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_map_test.json" height="600px" >}}</div>
 </div>
 
 **Källkod som använts för att skapa kartan:** [Script to produce map](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/interactive_wastewater_map.py).

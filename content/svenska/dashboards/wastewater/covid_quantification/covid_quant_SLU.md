@@ -1,6 +1,8 @@
 ---
 title: Mängd SARS-COV-2 i avloppsvatten (SEEC-SLU)
 plotly: true
+aliases:
+    - /sv/dashboards/wastewater/covid_quant_slu/
 ---
 
 <div class="mt-3">
@@ -19,7 +21,7 @@ Data och visualiseringar på den här sidan uppdateras vanligtvis veckovis, ofta
 SLU-SEEC samlar in och analyserar prover från ett flertal orter/städer. Nedan visas en tabell med detaljerad information om alla insamlingsplatser. Tabellen listar orter/städer som monitoreras, avloppsreningsverk (WWTP) där proverna samlas in, antal personer i upptagningsområdet (antal invånare), mellan vilka datum  SLU-SEEC mätningarna skett  (startdatum och slutdatum).  Ett värde ’null’ istället för slutdatum innebär att insamlingen fortfarande pågår. En asterisk bredvid antal invånare innebär att antal invånare är preliminärt.
 
   <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_slusites.json" height="775px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slusites.json" height="775px" >}}</div>
 </div>
 
 <!-- <p>
@@ -30,7 +32,7 @@ SLU-SEEC samlar in och analyserar prover från ett flertal orter/städer. Nedan 
 <div class="collapse" id="collapseExample1">
   <div class="card card-body">
   <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_slusites.json" height="775px" width="800px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slusites.json" height="775px" width="800px" >}}</div>
 </div>
   </div>
 </div> -->
@@ -47,7 +49,7 @@ SLU-SEEC samlar in och analyserar prover från ett flertal orter/städer. Nedan 
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_slusites.json" height="600px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slusites.json" height="600px" >}}</div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -93,7 +95,7 @@ Notera också att även om samma metoder används för alla städer som visas p�
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="550px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="550px" >}}</div>
 </div>
 
 **Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_slu_regular.py).
@@ -106,7 +108,7 @@ Notera också att även om samma metoder används för alla städer som visas p�
 
 ## Rapporter från forskargruppen
 
-Forskargruppen delar även en rapport som sammanfattar den senaste informationen från deras avloppsvattenmätningar. Den senaste rapporten finns tillgänglig som pdf [här](https://blobserver.dckube.scilifelab.se/blob/Latest_weekly_report_SEEC-SLU) (endast tillgänglig på svenska).
+Forskargruppen delar även en rapport som sammanfattar den senaste informationen från deras avloppsvattenmätningar. Den senaste rapporten finns tillgänglig som pdf [här](https://blobserver.dc.scilifelab.se/blob/Latest_weekly_report_SEEC-SLU) (endast tillgänglig på svenska).
 
 ## Dataset
 
@@ -132,7 +134,7 @@ Data som presenteras i grafen är ett ratio av kopieantal som uppmätts med N1- 
 
 ## Arkiverade data
 
-- [Historiska data för Örebro och Umeå, mängd SARS-CoV-2 i avloppsvatten från Umeå respektive Örebro mellan oktober 2020 och juni 2021.](/sv/dashboards/wastewater/historic_orebro_umea).
+- [Historiska data för Örebro och Umeå, mängd SARS-CoV-2 i avloppsvatten från Umeå respektive Örebro mellan oktober 2020 och juni 2021.](/sv/dashboards/wastewater/covid_quantification/historic_orebro_umea).
 
 <br>
 <div class="mt-3">

@@ -10,6 +10,7 @@ menu:
         name: "COVID Symptom Study Sweden (Partner)"
 aliases:
     - /data_types/health_data/symptom_study_sweden/
+dashboards_topics: [COVID-19, Infectious diseases]
 ---
 
 **COVID Symptom Study Sweden** is a national research initiative for large-scale data collection and analysis of symptoms, exposure, and risk factors associated with the COVID-19 infection. The project is run by Lund University and Uppsala University in collaboration with King’s College London and Zoe Global Ltd. COVID Symptom Study Sweden is led by prof. Paul Franks and prof. Maria Gomez (Lund University) as well as prof. Tove Fall (Uppsala University).
@@ -25,7 +26,7 @@ COVID Symptom Study Sweden has two main objectives. The first objective is to in
 Below are estimates of the prevalence of symptomatic COVID-19 cases in various counties in Sweden. The estimates are made based on the app users' data using the prediction model developed by the team of researchers behind the COVID Symptoms Study Sweden; see [this page](https://www.covid19app.lu.se/artikel/uppdatering-av-prediktionsmodell-0) for more information about the prediction model (only available in Swedish). More detailed prevalence estimates and other results can be explored [on the official dashboard of the project results](https://csss-resultat.shinyapps.io/csss_dashboard/).
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/symptoms_map_english.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/symptoms_map_english.json" height="500px" >}}</div>
 </div>
 
 #### Access to the collected data for use in other research projects
