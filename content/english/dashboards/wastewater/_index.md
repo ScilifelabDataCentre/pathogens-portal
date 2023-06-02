@@ -48,7 +48,7 @@ All code used to produce the visualisations on the tabs on this dashboard is ava
 Below is a map showing the wastewater treatment plants (WWTPs) from which wastewater samples are being collected and analysed by groups sharing data on this dashboard.
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_map_test.json" height="600px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_map_test.json" height="600px" >}}</div>
 </div>
 
 **Code used to produce map:** [Script to produce map](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/interactive_wastewater_map.py).
