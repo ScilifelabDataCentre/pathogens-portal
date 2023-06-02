@@ -4,11 +4,11 @@ description: CRUSH Covid maps outbreaks in Uppsala County by visualising the num
 banner: /dashboard_thumbs/CRUSH.png
 toc: false
 menu:
-    dashboard_menu:
-        identifier: crush_covid
-        name: "CRUSH Covid Uppsala (Partner)"
+  dashboard_menu:
+    identifier: crush_covid
+    name: "CRUSH Covid Uppsala (Partner)"
 aliases:
-    - /data_types/health_data/crush_covid/
+  - /data_types/health_data/crush_covid/
 dashboards_topics: [COVID-19, Infectious diseases]
 ---
 
@@ -37,7 +37,7 @@ dashboards_topics: [COVID-19, Infectious diseases]
 
 <div class="alert alert-info">Last updated: 2022-09-15</div>
 
-* [Number of tests and % positivity by postal code in Uppsala County, .csv file](https://blobserver.dc.scilifelab.se/blob/CRUSH_Covid_data.csv) <b>(updated every 1-2 months from September 2022)</b>. For each postal code which is found within the Uppsala län, the dataset contains weekly data on cases per capita, tests per capita and % positivity. The estimates are calculated based on the adult population of each postal code (individuals 15 years of age and older). For reference, both the total population and the adult population are included.
+- [Number of tests and % positivity by postal code in Uppsala County, .csv file](https://blobserver.dc.scilifelab.se/blob/CRUSH_Covid_data.csv). For each postal code which is found within the Uppsala län, the dataset contains weekly data on cases per capita, tests per capita and % positivity. The estimates are calculated based on the adult population of each postal code (individuals 15 years of age and older). For reference, both the total population and the adult population are included.
 
 #### Interactive dashboard and reports
 

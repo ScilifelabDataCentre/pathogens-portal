@@ -4,11 +4,11 @@ description: CRUSH Covid kartlägger smittspridningen av Covid-19 i Uppsala län
 banner: /dashboard_thumbs/CRUSH.png
 toc: false
 aliases:
-    - /sv/data_types/health_data/crush_covid/
+  - /sv/data_types/health_data/crush_covid/
 menu:
-    dashboard_menu:
-        identifier: crush_covid
-        name: CRUSH Covid Uppsala (Partnerprojekt)
+  dashboard_menu:
+    identifier: crush_covid
+    name: CRUSH Covid Uppsala (Partnerprojekt)
 ---
 
 <div class="containter">
@@ -34,7 +34,7 @@ menu:
 
 <div class="alert alert-info">Senast uppdaterad: 2022-09-15</div>
 
-* [Antal test per capita och % positiva fall i varje postnummer i Uppsala län, .csv fil](https://blobserver.dc.scilifelab.se/blob/CRUSH_Covid_data.csv) <b>(Uppdateras varje eller varannan månad sedan september 2022)</b>. För varje postnummer i Uppsala län, innehåller vår dataset datauppgifter om Covid-19 fall per capita, test per capita och % positiva fall. Våra uppskattningar beräknas utifrån den vuxna befolkningen i varje postnummer (personer 15 år och äldre). Som referens har både den totala befolkningen och den vuxna befolkningen inkluderats.
+- [Antal test per capita och % positiva fall i varje postnummer i Uppsala län, .csv fil](https://blobserver.dc.scilifelab.se/blob/CRUSH_Covid_data.csv). För varje postnummer i Uppsala län, innehåller vår dataset datauppgifter om Covid-19 fall per capita, test per capita och % positiva fall. Våra uppskattningar beräknas utifrån den vuxna befolkningen i varje postnummer (personer 15 år och äldre). Som referens har både den totala befolkningen och den vuxna befolkningen inkluderats.
 
 #### Dashboard med interaktiv grafik och veckorapport
 
