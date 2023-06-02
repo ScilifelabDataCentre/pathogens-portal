@@ -2,19 +2,8 @@
 
 {{ $page_topic := .Page.Params.topic }}
 
-{{ if eq $page_topic "Antibiotic resistance" }}
-<div class="alert alert-info">
-    <i class="bi bi-exclamation-circle-fill"></i>
-    <span><i>Antibiotic resistance</i> is a new topic on the Portal, and we are currently working on adding more
-    information.</span>
-</div>
-{{ end }}
-
-<div class="container">
-  <p>Below is an overview of various sections of <i>The Swedish COVID-19 & Pandemic Preparedness Portal</i> where
-    information about research data and resources relevant to {{ $page_topic }} can be found. For a short background on
-    this topic below, <a href="#background">see the description below</a>.</p>
-</div>
+<!-- Content from the markdown file -->
+{{ .Content }}
 
 <!-- Data Highlights -->
 
@@ -56,40 +45,46 @@
 
 <!-- Dashboards -->
 
-{{ if or (eq $page_topic "COVID-19") (eq $page_topic "Infectious diseases") }}
-<h3><i class="bi bi-three-dots-vertical"></i> Dashboards (6)</h3>
+{{ range $key, $taxonomy := .Site.Taxonomies.dashboards_topics }}
+{{ if eq $key (urlize $page_topic) }}
+<h3><i class="bi bi-three-dots-vertical"></i> Dashboards ({{ len $taxonomy.Pages }})</h3>
 <div class="container mt-3 mb-5">
   <div class="row">
-    <div class="col mx-2 my-2 px-3 py-3 border fw-bold">
-      <a style="color: rgba(75, 75, 75, 0.8);" href="/dashboards/serology-statistics/">SciLifeLab Autoimmunity and
-        Serology profiling facility SARS-CoV-2 antibody test statistics</a>
+    {{ $col_width :="col-md"}}
+    {{ if lt (len $taxonomy.Pages) 3 }}
+    {{ $col_width = "col-md-4" }}
+    {{ end }}
+    {{ range first 3 $taxonomy.Pages }}
+    <div class="{{ $col_width }} mx-2 mb-2 border bg-light">
+      <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
+      {{ range (.GetTerms "dashboards_topics") }}
+      <span class="topic_badge_small
+                  {{ if eq .LinkTitle "COVID-19"}}topic_badge_covid
+                  {{ else if eq .LinkTitle "Infectious diseases"}}topic_badge_infectious_d
+                  {{ else if eq .LinkTitle "Antibiotic resistance"}}topic_badge_antib_r
+                  {{ else if eq .LinkTitle "Mpox"}}topic_badge_mpox
+                  {{ else }}topic_badge_general
+                  {{ end }} "><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
+      {{ end }}
+      <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
+      <p> {{ .Description }} <br><a
+          href="{{ .RelPermalink }}">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).readmore_text }} <i
+            class="bi bi-arrow-right-circle-fill"></i></a></p>
     </div>
-    <div class="col mx-2 my-2 px-3 py-3 border fw-bold">
-      <a style="color: rgba(75, 75, 75, 0.8);" href="/dashboards/wastewater/">The amount of SARS-CoV-2 virus in
-        wastewater across Sweden</a>
-    </div>
+    {{ end }}
   </div>
-  <div class="row">
-    <div class="col mx-2 my-2 px-3 py-3 border fw-bold">
-      <a style="color: rgba(75, 75, 75, 0.8);" href="/dashboards/vaccines/">The administration and study of COVID-19
-        vaccines in Sweden</a>
-    </div>
-    <div class="col mx-2 my-2 px-3 py-3 border fw-bold">
-      <a style="color: rgba(75, 75, 75, 0.8);" href="/dashboards/post_covid/">Post COVID-19 condition in Sweden:
-        statistics, research projects, and available data</a>
-    </div>
-  </div>
-  <div class="mt-2 fw-bold"><a href="/dashboards/">See all dashboards on {{ $page_topic }} (6) <i
-        class="bi bi-arrow-right-circle-fill"></i></a></div>
-  <hr>
+  <div class="mt-2 fw-bold align-content-end"><a href="/dashboards/topics/{{ $key }}">See all dashboards
+    on {{ $page_topic }} ({{ len $taxonomy.Pages }}) <i class="bi bi-arrow-right-circle-fill"></i></a></div>
+<hr>
 </div>
+{{ end }}
 {{ end }}
 
 <!-- Sample collection -->
 
 {{ if or (eq $page_topic "COVID-19") (eq $page_topic "Infectious diseases") }}
 {{/* Doing this manually right now. Need to create expose an API from biobanks.covid19dataportal.se in the future to fetch this automatically. */}}
-<h3><i class="bi bi-three-dots-vertical"></i> Sample collections (35)</h3>
+<h3><i class="bi bi-three-dots-vertical"></i> Sample collections (36)</h3>
 <div class="container mt-3 mb-5">
   <div class="table-responsive">
     <table class="table table-hover no-last-row-border" width="100%">
@@ -155,7 +150,7 @@
       </tbody>
     </table>
     <div class="mt-2 fw-bold"><a href="https://biobanks.covid19dataportal.se/">See all sample collections on
-        {{ $page_topic }} (35) <i class="bi bi-arrow-right-circle-fill"></i></a></div>
+        {{ $page_topic }} (36) <i class="bi bi-arrow-right-circle-fill"></i></a></div>
   </div>
   <hr>
 </div>
@@ -177,7 +172,6 @@
         <tr>
           <th scope="col">Project title</th>
           <th scope="col">Funder</th>
-          <th scope="col">Topics</th>
         </tr>
       </thead>
       <tbody>
@@ -233,14 +227,6 @@
           </td>
           <td>{{ if and (eq $.Site.Language.LanguageName "Svenska") .funder_sv }}{{ .funder_sv }}{{ else }}
             {{ .funder }}{{ end }}</td>
-          <td>{{ range .topic }}<span class="mx-1 my-1 topic_badge_small
-          {{ if eq . "COVID-19"}}topic_badge_covid
-          {{ else if eq . "Infectious diseases"}}topic_badge_infectious_d
-          {{ else if eq . "Antibiotic resistance"}}topic_badge_antib_r
-          {{ else if eq . "Mpox"}}topic_badge_mpox
-          {{ else }}topic_badge_general
-          {{ end }} ">{{ . }}</span>{{ end }}</td>
-        </tr>
         {{ end }}
       </tbody>
     </table>
@@ -267,7 +253,6 @@
           <th scope="col">Call title</th>
           <th scope="col">Deadline</th>
           <th scope="col">Funder</th>
-          <th scope="col">Topics</th>
         </tr>
       </thead>
       <tbody>
@@ -324,13 +309,6 @@
           </td>
           <td>{{ .submission_deadline | time.Format ":date_long" }}</td>
           <td>{{ .funder }}</td>
-          <td>{{ range .topic }}<span class="mx-1 my-1 topic_badge_small
-          {{ if eq . "COVID-19"}}topic_badge_covid
-          {{ else if eq . "Infectious diseases"}}topic_badge_infectious_d
-          {{ else if eq . "Antibiotic resistance"}}topic_badge_antib_r
-          {{ else if eq . "Mpox"}}topic_badge_mpox
-          {{ else }}topic_badge_general
-          {{ end }} ">{{ . }}</span>{{ end }}</td>
         </tr>
         {{ end }}
       </tbody>
@@ -340,8 +318,5 @@
   </div>
 </div>
 {{ end }}
-
-<!-- Content from the markdown file -->
-{{ .Content }}
 
 {{ end }}
