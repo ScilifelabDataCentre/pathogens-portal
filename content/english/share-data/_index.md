@@ -6,13 +6,10 @@ recaptcha: true
 
 ## Share data in a public repository
 
-Publish your COVID-19 & Pandemic Preparedness research data to make it available for the rest of the research community. The data should be deposited in a public repository together with descriptive metadata. For many biological datatypes, there are international databases that can be considered de facto standards.
+Publish your COVID-19 & Pandemic Preparedness research data to make it available for the rest of the research community. The data should be deposited in a public repository together with descriptive metadata. [Health-RI](https://www.health-ri.nl/) provides such a public database of COVID related datasets. Feel free to get in touch for help on submitting your data.
 
-The [European Bioinformatics Institute (EBI)](https://www.ebi.ac.uk/) hosts many different international data repositories which should be used if appropriate.
-
-## Overview of recommended repositories per data type
-
-Below are our data submission guidelines for each specific data type. You can also find similar recommendations per data type on [The European COVID-19 Data Portal data submission information](https://www.covid19dataportal.org/submit-data).
+## Overview of recommended international repositories per data type
+The [European Bioinformatics Institute (EBI)](https://www.ebi.ac.uk/) hosts many different international data repositories which could additionally be used if appropriate. Below are our data submission guidelines for each specific data type. You can also find similar recommendations per data type on [The European COVID-19 Data Portal data submission information](https://www.covid19dataportal.org/submit-data).
 
 * ##### Genomics & transcriptomics data
 
