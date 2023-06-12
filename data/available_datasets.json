@@ -1,6 +1,195 @@
 {
-    "last_updated": "2023-05-04",
+    "last_updated": "2023-06-12",
     "datasets": [
+        {
+            "doi": "10.3389/fimmu.2023.1166924",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "Protein Data Bank",
+                    "accession_number": "7KRR",
+                    "description": "Protein structures in PDBe",
+                    "data_type": [
+                        "Protein data"
+                    ],
+                    "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7KRR"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "GenBank",
+                    "accession_number": "NC_045512.2",
+                    "description": "RefSeq - NCBI Reference Sequence Database",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2"
+                }
+            ],
+            "title": "A novel precision-serology assay for SARS-CoV-2 infection based on linear B-cell epitopes of Spike protein",
+            "issue": "",
+            "volume": "14",
+            "publisher": "Frontiers Media SA",
+            "published": "2023-05-12",
+            "author": [
+                "Lundin S. B.",
+                "Kann H.",
+                "Fulurija A.",
+                "Andersson B.",
+                "Nakka S. S."
+            ]
+        },
+        {
+            "doi": "10.3389/fpsyg.2023.1124627",
+            "available_items": [
+                {
+                    "type": "code",
+                    "repo_name": "OSF",
+                    "accession_number": "d99ed5ce0ed641ca80965e54c11afc81",
+                    "description": "Data and script for re-analysis",
+                    "data_type": [
+                        "Health data",
+                        "Public health data"
+                    ],
+                    "data_url": "https://osf.io/f7ucb/?view_only=d99ed5ce0ed641ca80965e54c11afc81"
+                }
+            ],
+            "title": "Regional differences in personalities account for substantial heterogeneity of loneliness change from before to during the COVID-19",
+            "issue": "",
+            "volume": "14",
+            "publisher": "Frontiers Media SA",
+            "published": "2023-05-05",
+            "author": [
+                "Xiao S.",
+                "Dang J."
+            ]
+        },
+        {
+            "doi": "10.1007/s41669-023-00418-x",
+            "available_items": [
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "POETIC-COVID CEA PROJECT - R code that supports the findings of the study",
+                    "data_type": [
+                        "Other data",
+                        "Public health data"
+                    ],
+                    "data_url": "https://github.com/EECCnetwork/POETIC_CEA"
+                }
+            ],
+            "title": "Cost Effectiveness of Strategies for Caring for Critically Ill Patients with COVID-19 in Tanzania",
+            "issue": "",
+            "volume": "",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2023-05-13",
+            "author": [
+                "Shah H. A.",
+                "Baker T.",
+                "Schell C. O.",
+                "Kuwawenaruwa A.",
+                "Awadh K."
+            ]
+        },
+        {
+            "doi": "10.1038/s41467-023-38020-8",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "",
+                    "accession_number": "",
+                    "description": "Data cannot be shared publicly, but applications can be made for access.",
+                    "data_type": [
+                        "Serology data",
+                        "Health data"
+                    ],
+                    "data_url": "mailto:\"geldmacher@lrz.uni-muenchen.de\""
+                }
+            ],
+            "title": "Nucleocapsid-specific T cell responses associate with control of SARS-CoV-2 in the upper airways before seroconversion",
+            "issue": "1",
+            "volume": "14",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2023-05-24",
+            "author": [
+                "Eser T. M.",
+                "Baranov O.",
+                "Huth M.",
+                "Ahmed M. I. M.",
+                "Deák F."
+            ]
+        },
+        {
+            "doi": "10.1016%2Fj.lanepe.2023.100646",
+            "available_items": [
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Data processing code is available on GitHub",
+                    "data_type": [
+                        "Serology data",
+                        "Health data"
+                    ],
+                    "data_url": "https://github.com/johanssonresearch/Correlate-of-vaccine-protection-against-fatal-COVID-19"
+                }
+            ],
+            "title": "Vaccine-induced correlate of protection against fatal COVID-19 in older and frail adults during waves of neutralization-resistant variants of concern: an observational study",
+            "issue": "",
+            "volume": "",
+            "publisher": "Elsevier BV",
+            "published": "2023-05-15",
+            "author": [
+                "Vikström L.",
+                "Fjällström P.",
+                "Gwon Y.",
+                "Sheward D. J.",
+                "Wigren-Byström J."
+            ]
+        },
+        {
+            "doi": "10.1128/jvi.01992-22",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "zenodo",
+                    "accession_number": "7826331",
+                    "description": "Movies and data to accompany the study",
+                    "data_type": [
+                        "Imaging data",
+                        "Biochemistry data",
+                        "Genomics & transcriptomics data",
+                        "Health data"
+                    ],
+                    "data_url": "https://zenodo.org/record/7826331"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Image and time series analysis code written in MATLAB is available on GitHub",
+                    "data_type": [
+                        "Imaging data",
+                        "Biochemistry data",
+                        "Genomics & transcriptomics data",
+                        "Health data"
+                    ],
+                    "data_url": "https://github.com/kassonlab/micrograph-spot-analysis"
+                }
+            ],
+            "title": "Single-Virus Fusion Measurements Reveal Multiple Mechanistically Equivalent Pathways for SARS-CoV-2 Entry",
+            "issue": "5",
+            "volume": "97",
+            "publisher": "American Society for Microbiology",
+            "published": "2023-05-31",
+            "author": [
+                "Sengar A.",
+                "Cervantes M.",
+                "Bondalapati S. T.",
+                "Hess T.",
+                "Kasson P. M."
+            ]
+        },
         {
             "doi": "10.1038/s41598-023-33168-1",
             "available_items": [
