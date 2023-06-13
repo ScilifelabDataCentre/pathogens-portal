@@ -130,25 +130,25 @@ nödvändigtvis överens med data som publicerats via andra kanaler
 av olika anledningar.
 
 Datasetet som visualiseras i graferna finns tillgängligt
-[här](https://datagraphics.dckube.scilifelab.se/dataset/bbbaf64a25a1452287a8630503f07418).
+[här](https://datagraphics.dc.scilifelab.se/dataset/bbbaf64a25a1452287a8630503f07418).
 Källkoden för graferna finns
-[här](https://datagraphics.dckube.scilifelab.se/graphic/ba0b27320fe74ad0aef59a26be6c37f1),
-[här](https://datagraphics.dckube.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc),
-[här](https://datagraphics.dckube.scilifelab.se/graphic/b31c50be59c84c93986c25b052115a65)
-och [här](https://datagraphics.dckube.scilifelab.se/graphic/9145856246004419983d39fcf56d9eb6).
+[här](https://datagraphics.dc.scilifelab.se/graphic/ba0b27320fe74ad0aef59a26be6c37f1),
+[här](https://datagraphics.dc.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc),
+[här](https://datagraphics.dc.scilifelab.se/graphic/b31c50be59c84c93986c25b052115a65)
+och [här](https://datagraphics.dc.scilifelab.se/graphic/9145856246004419983d39fcf56d9eb6).
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.12.2"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
 
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/ba0b27320fe74ad0aef59a26be6c37f1.js?id=grand-total-chart"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/ba0b27320fe74ad0aef59a26be6c37f1.js?id=grand-total-chart"></script>
 
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc.js?id=stacked-bar-chart"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc.js?id=stacked-bar-chart"></script>
 
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/1f2322f4301c4773878c956c578e8caf.js?id=stacked-bar-chart-weekly"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/1f2322f4301c4773878c956c578e8caf.js?id=stacked-bar-chart-weekly"></script>
 
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/b31c50be59c84c93986c25b052115a65.js?id=positive-bar-chart"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/b31c50be59c84c93986c25b052115a65.js?id=positive-bar-chart"></script>
 
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/9145856246004419983d39fcf56d9eb6.js?id=cumulative-plot"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/9145856246004419983d39fcf56d9eb6.js?id=cumulative-plot"></script>
 
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/7f27ae237b8146a498ab4014aadc35db.js?id=positive-bar-chart-weekly"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/7f27ae237b8146a498ab4014aadc35db.js?id=positive-bar-chart-weekly"></script>

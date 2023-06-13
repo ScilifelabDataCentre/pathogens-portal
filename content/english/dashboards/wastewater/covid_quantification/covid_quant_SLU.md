@@ -115,7 +115,7 @@ The group provide reports to summarise their latest findings. The latest report 
 
 **Contact:** <anna.szekely@slu.se> and <maja.malmberg@slu.se>
 
-**Download the data:** [N1-gene copy number per PMMoV gene copy number, CSV file.](https://datagraphics.dckube.scilifelab.se/dataset/0ac8fa02871745048491de74e5689da9.csv). Data are available from week 38 of 2020; updated weekly.
+**Download the data:** [N1-gene copy number per PMMoV gene copy number, CSV file.](https://datagraphics.dc.scilifelab.se/dataset/0ac8fa02871745048491de74e5689da9.csv). Data are available from week 38 of 2020; updated weekly.
 
 **How to cite the dataset:**
 

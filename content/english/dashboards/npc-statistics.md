@@ -18,14 +18,14 @@ dashboards_topics: [COVID-19, Infectious diseases]
   <a href="https://nyheter.ki.se/covid-19-tester-ki-atergar-till-ordinarie-laboratorieverksamhet-men-har-fortsatt-beredskap">KI Press Release</a>
 </div>
 
-The dataset visualised in the graphs on this page is available [here](https://datagraphics.dckube.scilifelab.se/dataset/bbbaf64a25a1452287a8630503f07418).  The numbers reported here were compiled automatically and, as such, might not correspond to
+The dataset visualised in the graphs on this page is available [here](https://datagraphics.dc.scilifelab.se/dataset/bbbaf64a25a1452287a8630503f07418).  The numbers reported here were compiled automatically and, as such, might not correspond to
 the numbers reported through other sources for different reasons.
 
 #### Total NPC test numbers
 
 The total number of SARS-CoV-2 (COVID-19) tests conducted at the national Pandemic Centre (NPC) since the start of the pandemic, separated according to whether the results were positive, negative, or invalid/inconclusive.
 
-Source code for the below graph is available [here](https://datagraphics.dckube.scilifelab.se/graphic/ba0b27320fe74ad0aef59a26be6c37f1).
+Source code for the below graph is available [here](https://datagraphics.dc.scilifelab.se/graphic/ba0b27320fe74ad0aef59a26be6c37f1).
 
 <div class="d-lg-none alert alert-info">
   Scroll the plot sideways to view all data.
@@ -39,7 +39,7 @@ Source code for the below graph is available [here](https://datagraphics.dckube.
 
 The number of SARS-CoV-2 (COVID-19) tests ran daily or weekly, divided according to whether results were positive, negative, or invalid/inconclusive.
 
-Source code is available for both the [daily](https://datagraphics.dckube.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc) and [weekly](https://datagraphics.dckube.scilifelab.se/graphic/1f2322f4301c4773878c956c578e8caf) graphs below.
+Source code is available for both the [daily](https://datagraphics.dc.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc) and [weekly](https://datagraphics.dc.scilifelab.se/graphic/1f2322f4301c4773878c956c578e8caf) graphs below.
 
   <div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#daily_stacked_bar_chart" aria-expanded="true" aria-controls="#daily_stacked_bar_chart">
     Daily
@@ -71,7 +71,7 @@ Source code is available for both the [daily](https://datagraphics.dckube.scilif
 The fraction of daily or weekly SARS-CoV-2 (COVID-19) tests that were positive,
 as percentage of all tests conducted (excluding invalid/inconclusive).
 
-Source code is available for both the [daily](https://datagraphics.dckube.scilifelab.se/graphic/b31c50be59c84c93986c25b052115a65) and [weekly](https://datagraphics.dckube.scilifelab.se/graphic/7f27ae237b8146a498ab4014aadc35db) graphs below.
+Source code is available for both the [daily](https://datagraphics.dc.scilifelab.se/graphic/b31c50be59c84c93986c25b052115a65) and [weekly](https://datagraphics.dc.scilifelab.se/graphic/7f27ae237b8146a498ab4014aadc35db) graphs below.
 
 <div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#daily_positive_bar_chart" aria-expanded="true" aria-controls="#daily_positive_bar_chart">
   Daily
@@ -102,7 +102,7 @@ Source code is available for both the [daily](https://datagraphics.dckube.scilif
 The sum of all SARS-CoV-2 (COVID-19) virus tests conducted at NPC since the
 start of the pandemic, as a function of date, and divided according to whether results were positive, negative, or invalid/inconclusive.
 
-Source code for the below graph is available [here](https://datagraphics.dckube.scilifelab.se/graphic/9145856246004419983d39fcf56d9eb6).
+Source code for the below graph is available [here](https://datagraphics.dc.scilifelab.se/graphic/9145856246004419983d39fcf56d9eb6).
 
 <div class="d-lg-none alert alert-info">
   Scroll the plot sideways to view all data.
@@ -135,14 +135,14 @@ exclusively performed PCR-based analyses, not serological
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.12.2"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
 
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/ba0b27320fe74ad0aef59a26be6c37f1.js?id=total-numbers-chart"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/ba0b27320fe74ad0aef59a26be6c37f1.js?id=total-numbers-chart"></script>
 
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc.js?id=stacked-bar-chart"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc.js?id=stacked-bar-chart"></script>
 
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/1f2322f4301c4773878c956c578e8caf.js?id=stacked-bar-chart-weekly"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/1f2322f4301c4773878c956c578e8caf.js?id=stacked-bar-chart-weekly"></script>
 
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/b31c50be59c84c93986c25b052115a65.js?id=positive-bar-chart"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/b31c50be59c84c93986c25b052115a65.js?id=positive-bar-chart"></script>
 
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/9145856246004419983d39fcf56d9eb6.js?id=cumulative-plot"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/9145856246004419983d39fcf56d9eb6.js?id=cumulative-plot"></script>
 
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/7f27ae237b8146a498ab4014aadc35db.js?id=positive-bar-chart-weekly"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/7f27ae237b8146a498ab4014aadc35db.js?id=positive-bar-chart-weekly"></script>
