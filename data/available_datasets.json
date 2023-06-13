@@ -2,53 +2,29 @@
     "last_updated": "2023-06-12",
     "datasets": [
         {
-            "doi": "10.3389/fimmu.2023.1166924",
-            "available_items": [
-                {
-                    "type": "data",
-                    "repo_name": "Protein Data Bank",
-                    "accession_number": "7KRR",
-                    "description": "Protein structures in PDBe",
-                    "data_type": [
-                        "Protein data"
-                    ],
-                    "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7KRR"
-                },
-                {
-                    "type": "data",
-                    "repo_name": "GenBank",
-                    "accession_number": "NC_045512.2",
-                    "description": "RefSeq - NCBI Reference Sequence Database",
-                    "data_type": [
-                        "Genomics & transcriptomics data"
-                    ],
-                    "data_url": "https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2"
-                }
-            ],
-            "title": "A novel precision-serology assay for SARS-CoV-2 infection based on linear B-cell epitopes of Spike protein",
-            "issue": "",
-            "volume": "14",
-            "publisher": "Frontiers Media SA",
-            "published": "2023-05-12",
-            "author": [
-                "Lundin S. B.",
-                "Kann H.",
-                "Fulurija A.",
-                "Andersson B.",
-                "Nakka S. S."
-            ]
-        },
-        {
             "doi": "10.3389/fpsyg.2023.1124627",
             "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "OSF",
+                    "accession_number": "d99ed5ce0ed641ca80965e54c11afc81",
+                    "description": "Data used in analysis assessing personality traits",
+                    "data_type": [
+                        "Health data",
+                        "Public health data",
+                        "Social science and humanities data"
+                    ],
+                    "data_url": "https://osf.io/f7ucb/?view_only=d99ed5ce0ed641ca80965e54c11afc81"
+                },
                 {
                     "type": "code",
                     "repo_name": "OSF",
                     "accession_number": "d99ed5ce0ed641ca80965e54c11afc81",
-                    "description": "Data and script for re-analysis",
+                    "description": "Script for data re-analysis of traits",
                     "data_type": [
                         "Health data",
-                        "Public health data"
+                        "Public health data",
+                        "Social science and humanities data"
                     ],
                     "data_url": "https://osf.io/f7ucb/?view_only=d99ed5ce0ed641ca80965e54c11afc81"
                 }
@@ -120,7 +96,7 @@
             ]
         },
         {
-            "doi": "10.1016%2Fj.lanepe.2023.100646",
+            "doi": "10.1016/j.lanepe.2023.100646",
             "available_items": [
                 {
                     "type": "code",
