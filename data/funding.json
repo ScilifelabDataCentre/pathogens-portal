@@ -1,5 +1,5 @@
 {
-  "last_updated": "2023-03-10",
+  "last_updated": "2023-06-15",
   "calls": [
     {
       "topic": [
@@ -15,6 +15,20 @@
       "funding_period": "2-6 years starting Jan 2024.",
       "decision_date": "No later than the beginning of October 2023.",
       "funding_amount": "A standard amount based on the activity level (1 510 000 SEK per year, 1 680 000 SEK per year, or 1 850 000 SEK per year)."
+    },
+    {
+      "topic": [
+        "Infectious diseases",
+        "COVID-19"
+      ],
+      "funder": "BY-COVID",
+      "call_title": "Support for the implementation of SARS-CoV-2 data hubs at national and regional levels",
+      "submission_deadline": "2023-09-01",
+      "submission_opendate": "2023-06-13",
+      "call_url": "https://by-covid.org/news/support-implementation-sars-cov2/",
+      "call_description": "The BY-COVID project has an open call for proposals to support the implementation of additional SARS-CoV-2 data hubs to increase the flow of viral sequence data into the European Nucleotide Archive (ENA), in line with open science principles.",
+      "applicant": "Legal entities, consortia, individual institutions, Scientists, public health professionals, (bio)informatics experts, funders, educational establishments.",
+      "funding_amount": "€60.000 maximum per awarded grant."
     },
     {
       "topic": [
