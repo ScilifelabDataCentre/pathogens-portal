@@ -2,7 +2,7 @@
 title: Mängd SARS-COV-2 i avloppsvatten (SEEC-SLU)
 plotly: true
 aliases:
-    - /sv/dashboards/wastewater/covid_quant_slu/
+  - /sv/dashboards/wastewater/covid_quant_slu/
 ---
 
 <div class="mt-3">
@@ -18,7 +18,7 @@ Data och visualiseringar på den här sidan uppdateras vanligtvis veckovis, ofta
 
 ## Insamlingsplatser för avloppsvatten
 
-SLU-SEEC samlar in och analyserar prover från ett flertal orter/städer. Nedan visas en tabell med detaljerad information om alla insamlingsplatser. Tabellen listar orter/städer som monitoreras, avloppsreningsverk (WWTP) där proverna samlas in, antal personer i upptagningsområdet (antal invånare), mellan vilka datum  SLU-SEEC mätningarna skett  (startdatum och slutdatum).  Ett värde ’null’ istället för slutdatum innebär att insamlingen fortfarande pågår. En asterisk bredvid antal invånare innebär att antal invånare är preliminärt.
+SLU-SEEC samlar in och analyserar prover från ett flertal orter/städer. Nedan visas en tabell med detaljerad information om alla insamlingsplatser. Tabellen listar orter/städer som monitoreras, avloppsreningsverk (WWTP) där proverna samlas in, antal personer i upptagningsområdet (antal invånare), mellan vilka datum SLU-SEEC mätningarna skett (startdatum och slutdatum). Ett värde ’null’ istället för slutdatum innebär att insamlingen fortfarande pågår. En asterisk bredvid antal invånare innebär att antal invånare är preliminärt.
 
   <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slusites.json" height="775px" >}}</div>
@@ -62,7 +62,7 @@ SLU-SEEC samlar in och analyserar prover från ett flertal orter/städer. Nedan 
 
 <div class="alert alert-info">Senast uppdaterad: <span id="last_modified_uppsala"></span></div>
 
-<b>Notera:</b> Historisk data för Knivsta, Vaxholm och Österåker finns tillgänglig i det länkade datasetet ovan och ingår inte längre i visualiseringen nedan.
+<b>Notera:</b> Historisk data för Ekerö, Enköping, Knivsta, Tierp, Vaxholm, Älvkarleby, och Österåker finns tillgänglig i det länkade datasetet ovan och ingår inte längre i visualiseringen nedan.
 
 Notera också att även om samma metoder används för alla städer som visas på den här fliken, kan skillnader i befolkningen och hur avloppsvatten samlas in i olika städer påverka jämförelser dem emellan.
 
@@ -108,13 +108,13 @@ Notera också att även om samma metoder används för alla städer som visas p�
 
 ## Rapporter från forskargruppen
 
-Forskargruppen delar även en rapport som sammanfattar den senaste informationen från deras avloppsvattenmätningar. Den senaste rapporten finns tillgänglig som pdf [här](https://blobserver.dc.scilifelab.se/blob/Latest_weekly_report_SEEC-SLU) (endast tillgänglig på svenska).
+Forskargruppen delar även en rapport som sammanfattar den senaste informationen från deras avloppsvattenmätningar. Den senaste rapporten finns tillgänglig som pdf [här](https://blobserver.dc.scilifelab.se/blob/Latest_weekly_report_SEEC-SLU.pdf) (endast tillgänglig på svenska).
 
 ## Dataset
 
 **Kontakt:** <anna.szekely@slu.se> and <maja.malmberg@slu.se>
 
-**Ladda ner data:** [N1-gene copy number per PMMoV gene copy number, CSV file.](https://datagraphics.dckube.scilifelab.se/dataset/0ac8fa02871745048491de74e5689da9.csv). Data are available from week 38 of 2020; updated weekly.
+**Ladda ner data:** [N1-gene copy number per PMMoV gene copy number, CSV file.](https://datagraphics.dc.scilifelab.se/dataset/0ac8fa02871745048491de74e5689da9.csv). Data are available from week 38 of 2020; updated weekly.
 
 **Hur man citerar dataset:**
 
@@ -122,13 +122,13 @@ Székely, A. J., Vargas, J., Mohamed, N., Dafalla, I., Malmberg, M. (2021). Data
 
 **Hur man citerar metod:**
 
-Isaksson, F., Lundy, L., Hedström, A., Székely, A. J., Mohamed, N. (2022). Evaluating the Use of Alternative Normalization Approaches on SARS-CoV-2 Concentrations in Wastewater: Experiences from Two Catchments in Northern Sweden. *Environments*, *9*, 39. [https://doi.org/10.3390/environments9030039](https://doi.org/10.3390/environments9030039).
+Isaksson, F., Lundy, L., Hedström, A., Székely, A. J., Mohamed, N. (2022). Evaluating the Use of Alternative Normalization Approaches on SARS-CoV-2 Concentrations in Wastewater: Experiences from Two Catchments in Northern Sweden. _Environments_, _9_, 39. [https://doi.org/10.3390/environments9030039](https://doi.org/10.3390/environments9030039).
 
 ## Metoder
 
 För de flesta städer på den här sidan samlas obehandlade avloppsvattenprover, representativa för en enskild dag, in av flödeskompenserade provtagare vid avloppsreningsverken (WWTP). Uppsala är undantaget, där alla mätningar sedan vecka 16 2021 istället representerar en vecka. Där samlas prover in dagligen och kombineras sedan flödesproportionellt till ett sammansatt veckoprov för följande analyser.
 
-Proverna bearbetas enligt standardmetoder. För prover som samlats in fram till och med vecka 18 2021 koncentrerades virala partiklar med hjälp av elektronegativ filtrering ([Ahmed *et al.*, 2020](https://www.sciencedirect.com/science/article/pii/S004896972033480X)). Från vecka 19 2021 har det virala genomiska materialet istället koncentrerats och extraherats med hjälp av en metod som använder Maxwell RSC Enviro TNA-kitet (Promega). Absolut kvantifiering av antalet kopior av SARS-CoV-2-genomet utförs med ett [SARS-CoV-2 specifikt N1-test från Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-ncov/lab/rt-pcr-panel-primer-probes.html). För att korrigera för variation i population och avloppsvattenflöde kvantifierar gruppen förekomsten av viruset Pepper mild mottle virus (PMMoV), ett växtvirus från peppar som människor får i sig via maten, med hjälp av en modifierad version av testet i [Zhang *et al.* (2006)](https://doi.org/10.1371/journal.pbio.0040003). PMMoV är det vanligaste RNA-viruset i avföring från människa och används för att uppskatta mängden avföring från människa i avloppsvattenprover ([Symonds *et al.*, 2019](https://doi.org/10.1371/journal.ppat.1007639)).  För mer information om hur normaliseringsmetoden utvärderats se [Isaksson *et al.* (2022)](https://www.mdpi.com/2076-3298/9/3/39).
+Proverna bearbetas enligt standardmetoder. För prover som samlats in fram till och med vecka 18 2021 koncentrerades virala partiklar med hjälp av elektronegativ filtrering ([Ahmed _et al._, 2020](https://www.sciencedirect.com/science/article/pii/S004896972033480X)). Från vecka 19 2021 har det virala genomiska materialet istället koncentrerats och extraherats med hjälp av en metod som använder Maxwell RSC Enviro TNA-kitet (Promega). Absolut kvantifiering av antalet kopior av SARS-CoV-2-genomet utförs med ett [SARS-CoV-2 specifikt N1-test från Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-ncov/lab/rt-pcr-panel-primer-probes.html). För att korrigera för variation i population och avloppsvattenflöde kvantifierar gruppen förekomsten av viruset Pepper mild mottle virus (PMMoV), ett växtvirus från peppar som människor får i sig via maten, med hjälp av en modifierad version av testet i [Zhang _et al._ (2006)](https://doi.org/10.1371/journal.pbio.0040003). PMMoV är det vanligaste RNA-viruset i avföring från människa och används för att uppskatta mängden avföring från människa i avloppsvattenprover ([Symonds _et al._, 2019](https://doi.org/10.1371/journal.ppat.1007639)). För mer information om hur normaliseringsmetoden utvärderats se [Isaksson _et al._ (2022)](https://www.mdpi.com/2076-3298/9/3/39).
 
 Data som presenteras i grafen är ett ratio av kopieantal som uppmätts med N1- och PMMoV-analyserna, multiplicerat med 10^4. N1-kopieantal är en proxy för mängd SARS-CoV-2 i avloppsvatten och PMMoV är en proxy för mängd avföring från människa, vilket i sin tur är relaterat till befolkningen som bidrar till avloppsvattnet. Detta ratio kan i sin tur anses vara en proxy för andelen infekterade individer i populationen i avloppsvattnets upptagningsområde.
 

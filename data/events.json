@@ -55,6 +55,30 @@
             "description": "The conference is dedicated to accelerating the discovery, creation and equitable application of practical solutions to epidemic and pandemic threats worldwide.Over the last three years, the tireless work of the global scientific and research community in addressing COVID-19 has protected health systems, restored livelihoods and saved millions of lives.<br><br>These scientific advances and breakthroughs were built on many years of existing groundwork in pandemic science research. But they were also due to the innovation, partnerships, investment and new approaches rapidly deployed during the pandemic. How can we ensure these exceptional ways of working become business as usual in pandemic sciences?<br><br>The Conference’s 2023 theme, Making the Exceptional Routine, will explore how the level of innovation and multidisciplinary and multisectoral partnership we saw during COVID-19 can happen day-in, day-out to protect us from another devastating pandemic."
         },
         {
+            "title": "Call for new drug discovery pilot projects at SciLifeLab DDD with special emphasis on biologics and antibiotics",
+            "type": "Webinar",
+            "date_start": "2023-06-28",
+            "time_start": "11:00",
+            "time_end": "12:00",
+            "venue": "Online event",
+            "organisers": "Drug Discovery and Development Platform",
+            "event_url": "https://www.scilifelab.se/event/call-for-new-drug-discovery-pilot-projects-at-scilifelab-ddd-with-special-emphasis-on-biologics-and-antibiotics/",
+            "registration_url": "https://www.lyyti.in/Call_for_new_drug_discovery_pilot_projects_at_SciLifeLab_DDD_with_special_emphasis_onbiologics_and_antibiotics_6874",
+            "description": "Introductory talk for the call for new drug discovery pilot projects at SciLifeLab DDD with special emphasis on biologics and antibiotics."
+        },
+        {
+            "title": "ISIDORe joint webinar",
+            "type": "Webinar",
+            "date_start": "2023-06-27",
+            "time_start": "14:00",
+            "time_end": "15:00",
+            "venue": "Online event",
+            "organisers": "Infravet",
+            "event_url": "https://docs.google.com/forms/d/e/1FAIpQLSfSblsP9lZIpsxM23Eg5qYhrVmjV8fOQzpRdKW-kny8TIt9NA/viewform",
+            "registration_url": "https://docs.google.com/forms/d/e/1FAIpQLSfSblsP9lZIpsxM23Eg5qYhrVmjV8fOQzpRdKW-kny8TIt9NA/viewform",
+            "description": "Learn about the ISIDORe Epidemic Preparedness and Response Programme. Join the joint webinar between Infravec (Research infrastructures for control of vector-borne diseases), ERINHA (European Research Infrastructure on Highly Pathogenic Agents), VetBioNet (Veterinary Biocontained Research Facility Network)."
+        },
+        {
             "title": "Nordic Conference of Antiviral Treatment Strategies and Drug Resistance",
             "type": "Conference",
             "date_start": "2023-06-15",

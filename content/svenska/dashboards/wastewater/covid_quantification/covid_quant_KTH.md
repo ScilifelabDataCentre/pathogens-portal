@@ -2,8 +2,10 @@
 title: Mängd SARS-COV-2 i avloppsvatten (SEEC-KTH)
 plotly: true
 aliases:
-    - /sv/dashboards/wastewater/covid_quant_kth/
+  - /sv/dashboards/wastewater/covid_quant_kth/
 ---
+
+<div class="alert alert-info">Från juni 2023 kommer SARS-COV-2 data från SEEK-KTH inte längre uppdateras. SARS-COV-2 data efter juni 2023 <a href="/sv/dashboards/wastewater/covid_quantification/covid_quant_slu/">finns tillgängligt från andra forskargrupper.</a></div>
 
 <div class="mt-3">
   <a href="/sv/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Gå tillbaka till SARS-CoV-2-kvantifiering inom avloppsvattenbaserad epidemiologi-dashboarden</a>
@@ -12,7 +14,7 @@ aliases:
 
 ## Introduktion
 
-Projektet leds av professor Zeynep Cetecioglu Gurol med hjälp av Mariel Perez-Zabaleta and Isaac Owusu-Agyeman verksamna vid Kungliga Tekniska högskolan (KTH). Bioinformatikanalyser av avloppsvattendata sker i samarbete med  professor Luisa Hugerth (Uppsala Universitet). Forskarsamarbetet utgör SEEC-KTH. SEEC-KTH är nu en del av [Institutionen för Industriell bioteknologi](https://www.kth.se/dib/department-of-industrial-biotechnology-1.783103) vid KTH. Projektet finansieras nu som en del av SciLifeLab Pandemic Laboratory Preparedness (PLP) program. Mer information om PLP-programmet finns i [resources section](/resources/).
+Projektet leds av professor Zeynep Cetecioglu Gurol med hjälp av Mariel Perez-Zabaleta and Isaac Owusu-Agyeman verksamna vid Kungliga Tekniska högskolan (KTH). Bioinformatikanalyser av avloppsvattendata sker i samarbete med professor Luisa Hugerth (Uppsala Universitet). Forskarsamarbetet utgör SEEC-KTH. SEEC-KTH är nu en del av [Institutionen för Industriell bioteknologi](https://www.kth.se/dib/department-of-industrial-biotechnology-1.783103) vid KTH. Projektet finansieras nu som en del av SciLifeLab Pandemic Laboratory Preparedness (PLP) program. Mer information om PLP-programmet finns i [resources section](/resources/).
 
 Data och visualiseringar på den här sidan uppdateras vanligtvis veckovis, oftast på fredagar. Data bakom dashboarden uppdateras kontinuerligt.
 
@@ -99,9 +101,9 @@ Cetecioglu, Z. G., Williams, C., Khatami, K., Atasoy, M., Nandy, P., Jafferali, 
 
 ## Metoder
 
-För att korrigera för variation i population och avloppsvattenflöde kvantifierar gruppen förekomsten av viruset Pepper mild mottle virus (PMMoV), ett växtvirus från peppar som människor får i sig via maten, med hjälp av en modifierad version av testet i [Zhang *et al.* (2006)](https://doi.org/10.1371/journal.pbio.0040003). PMMoV är det vanligaste RNA-viruset i avföring från människa och används för att uppskatta mängden avföring från människa i avloppsvattenproverna ([Symonds *et al.*, 2019](https://doi.org/10.1371/journal.ppat.1007639)). För att kvantifiera mängd SARS-CoV-2 används SARS-specifika N3-primers ([Lu *et al.*, 2020](https://doi.org/10.3201/eid2608.201246)) och mätningen görs med metoden RT-qPCR med SYBR Green-kemi ([Perez-Zabaleta *et al.*, 2023](https://doi.org/10.1016/j.scitotenv.2022.160023)).
+För att korrigera för variation i population och avloppsvattenflöde kvantifierar gruppen förekomsten av viruset Pepper mild mottle virus (PMMoV), ett växtvirus från peppar som människor får i sig via maten, med hjälp av en modifierad version av testet i [Zhang _et al._ (2006)](https://doi.org/10.1371/journal.pbio.0040003). PMMoV är det vanligaste RNA-viruset i avföring från människa och används för att uppskatta mängden avföring från människa i avloppsvattenproverna ([Symonds _et al._, 2019](https://doi.org/10.1371/journal.ppat.1007639)). För att kvantifiera mängd SARS-CoV-2 används SARS-specifika N3-primers ([Lu _et al._, 2020](https://doi.org/10.3201/eid2608.201246)) och mätningen görs med metoden RT-qPCR med SYBR Green-kemi ([Perez-Zabaleta _et al._, 2023](https://doi.org/10.1016/j.scitotenv.2022.160023)).
 
-Efter koncentration, filtrering och beredning analyseras proverna med RT-qPCR -teknik för att kvantifiera förekomsten av SARS-CoV-2 RNA. För att kvantifiera SARS-CoV-2 användes primers i nukleokapsid-(N)-genen (tidigare använt och verifierat av [Medema *et al.* (2020)](https://doi.org/10.1021/acs.estlett.0c00357)). I vissa fall har det obehandlade avloppsvattnet frusits ​​vid –20 °C och koncentrerat avloppsvatten eller renat RNA har lagrats vid -80°C innan nästa analyssteg genomfördes. Koncentrationsmetoden som initialt användes av SEEC-KTH baseras på en av deras tidigare studier ([Jafferali *et al.*, 2021](https://doi.org/10.1016/j.scitotenv.2020.142939)), där fyra olika koncentrationsmetoder jämfördes. Denna metod användes fram till vecka 35, 2021. Efter denna tidpunkt började gruppen istället använda [Promegas kit](https://se.promega.com/applications/virus-detection-assay-coronavirus-detection-covid-19-sars-cov-2/wastewater-based-epidemiology-covid19/) för att koncentrera proverna.
+Efter koncentration, filtrering och beredning analyseras proverna med RT-qPCR -teknik för att kvantifiera förekomsten av SARS-CoV-2 RNA. För att kvantifiera SARS-CoV-2 användes primers i nukleokapsid-(N)-genen (tidigare använt och verifierat av [Medema _et al._ (2020)](https://doi.org/10.1021/acs.estlett.0c00357)). I vissa fall har det obehandlade avloppsvattnet frusits ​​vid –20 °C och koncentrerat avloppsvatten eller renat RNA har lagrats vid -80°C innan nästa analyssteg genomfördes. Koncentrationsmetoden som initialt användes av SEEC-KTH baseras på en av deras tidigare studier ([Jafferali _et al._, 2021](https://doi.org/10.1016/j.scitotenv.2020.142939)), där fyra olika koncentrationsmetoder jämfördes. Denna metod användes fram till vecka 35, 2021. Efter denna tidpunkt började gruppen istället använda [Promegas kit](https://se.promega.com/applications/virus-detection-assay-coronavirus-detection-covid-19-sars-cov-2/wastewater-based-epidemiology-covid19/) för att koncentrera proverna.
 
 ## Arkiverade data
 
