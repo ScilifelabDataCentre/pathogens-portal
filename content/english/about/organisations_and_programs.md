@@ -39,7 +39,7 @@ title: Programs and organisations behind the portal
   <div class="col-sm-12 col-md-12 col-lg-9">
     <h6>Health-RI</h6>
     <p><a href = "https://www.health-ri.nl//"> Health-RI </a> facilitates reusing health data with an integrated health data infrastructure for research and innoviation.</p>
-    <p>For BY-COVID, Health-RI launched the <a href = "https://www.health-ri.nl/initiatives/dutch-covid-19-data-support-programme"> Dutch COVID-19 Data Support Programme </a> to support investigators and health care professionals with tools and services in their search for ways to overcome the pandemic and its health consequences. Examples of these tools are the <a href = "https://covid19initiatives.health-ri.nl/p/ProjectOverview"> Dutch National COVID-19 metadata portal </a> and <a href = "https://covid19initiatives.health-ri.nl/p/Dashboard"> Dutch National COVID-19 clinical data portal </a>.</p>
+    <p>For BY-COVID, Health-RI launched the <a href = "https://www.health-ri.nl/initiatives/dutch-covid-19-data-support-programme"> Dutch COVID-19 Data Support Programme </a> to support investigators and health care professionals with tools and services in their search for ways to overcome the pandemic and its health consequences. Examples of such tools ans services are the <a href = "https://covid19initiatives.health-ri.nl/p/ProjectOverview"> Dutch National COVID-19 metadata portal</a>, where information about covid-related projects within the Netherlands can be found, and <a href = "https://covid19initiatives.health-ri.nl/p/Dashboard"> Dutch National COVID-19 clinical data portal</a>, where clinical data of patients with (suspected) covid collected by the Dutch University Medical Centers can be searched and accessed.</p>
   </div>
 </div>
 <hr class="faded" />
