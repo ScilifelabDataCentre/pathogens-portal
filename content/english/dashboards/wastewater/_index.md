@@ -20,7 +20,7 @@ aliases:
     - /data_types/environment/wastewater/
     - /data_types/environment/
     - /dashboards/wastewater/introduction/
-dashboards_topics: [COVID-19, Infectious diseases]
+dashboards_topics: [COVID-19, Infectious diseases, Enteric virus]
 ---
 
 <div class="alert alert-info"><b>Please note:</b> the wastewater dashboard is undergoing expansion over the next few months. We have now separated the data related to the amount of SARS-CoV-2 in wastewater according to the research group that collected and analysed the data (see below for information about the groups involved). In the coming months, more information and data will be added about SARS-CoV-2 and on other infectious diseases. </span></div>

@@ -501,6 +501,10 @@ a.topics_title:active, a.topics_title:focus, a.topics_title:hover {
     background-color: #a34fa4;
 }
 
+.topic_badge_enteric_v {
+    background-color: #a7c947;
+}
+
 .dataset_badge_data {
     background-color: #D7BDE2;
     color: #000000;
