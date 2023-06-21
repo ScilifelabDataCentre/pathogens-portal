@@ -34,8 +34,4 @@ The Portal is operated by [Health-RI](https://www.health-ri.nl/) and [partners](
 
 The Dutch COVID-19 & Pandemic Preparedness Portal was launched in July 2023 as part of the [BY-COVID](https://by-covid.org/) project funced by the European Commission (more details [here](https://www.embl.org/news/science/embl-ebi-launches-covid-19-data-portal/)). The Portal is a national node of the [European COVID-19 Data Platform](https://covid19dataportal.eu/). An overview of other national nodes can be found [here](/partners/).
 
-From the start, the Portal has been operated by Health-RI and partners. However, it has received considerable input from the community. Indeed, many people contributed to building the initial site, and content throughout. An overview of some of the contributors that have been instrumental to establishing and advancing the Portal can be found on [GitHub](https://github.com/rnavest/covid-nl-portal/graphs/contributors).
-
-#### Portal team
-
-Many people from SciLifeLab, NBIS, Lygature, other organisations, and the community have been involved in the Portal since its conception. A complete list of contributors can be found on [GitHub](https://github.com/rnavest/covid-nl-portal/graphs/contributors).
+From the start, the Portal has been operated by Health-RI and partners. However, it has received considerable input from the community. Indeed, many people contributed to building the initial site, and content throughout. Many people from SciLifeLab, NBIS, Lygature, other organisations, and the community have been involved in the Portal since its conception. A [complete list of contributors](https://github.com/rnavest/covid-nl-portal/graphs/contributors) can be found on GitHub..
