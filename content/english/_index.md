@@ -11,8 +11,6 @@ teststats:
 plotly: true
 ---
 
-The *Dutch COVID-19 & Pandemic Preparedness Data Portal* is a hub for data, tools, services, and other resources centred around COVID-19 and pandemic preparedness in the Netherlands.
-
-The Portal is involved in multiple projects, platforms, and initiatives. It is the Dutch node of the [European COVID-19 Data Platform](https://www.covid19dataportal.org), and is involved in the [Horizon BY-COVID project](https://by-covid.org).
+The *Dutch COVID-19 & Pandemic Preparedness Data Portal* is a hub for data, tools, services, and other resources centred around COVID-19 and pandemic preparedness in the Netherlands. It is the Dutch node of the [European COVID-19 Data Platform](https://www.covid19dataportal.org), and is involved in the [Horizon BY-COVID project](https://by-covid.org).
 
 The Portal is operated by [Health-RI](https://www.health-ri.nl/) and partners. To learn more about us, including meeting the team behind the Portal, see our [about page](/about/). We welcome contributions from the community, and there are multiple ways to [contribute](/contribute/).
