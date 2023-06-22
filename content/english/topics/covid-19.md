@@ -1,6 +1,6 @@
 ---
 title: COVID-19
-description:  COVID-19, caused by SARS-CoV-2, is a global pandemic challenging societies worldwide. Vaccines are crucial, but research is ongoing to address early detection, variant identification, treatment development, and future preparedness.
+description: COVID-19, caused by SARS-CoV-2, is a global pandemic challenging societies worldwide. Vaccines are crucial, but research is ongoing to address early detection, variant identification, treatment development, and future preparedness.
 banner: /topic_thumbs/topic_covid.jpg
 credits:
 toc: false
