@@ -18,7 +18,7 @@ Enteric viruses are viruses that are primarily transmitted via the faecal-oral r
 
 In the below paragraphs, we provide more detail regarding some examples of enteric viruses.
 
- **Noroviruses** belong to the Caliciviruses family. The norovirus GG2 is more commonly known as the "winter vomiting disease virus". Cases are typically seasonal, with peaks in winter. It is often spread between people in environments where individuals come into close contact, such as hospitals, nurseries, schools, and cruise ships. To read more about GG2, see resources by [folkhälsomyndigheten](https://www.folkhalsomyndigheten.se/folkhalsorapportering-statistik/statistik-a-o/sjukdomsstatistik/calicivirus-veckorapporter/sasong-20222023-for-calicivirusrapporter-vinterkraksjuka/), for example.
+**Noroviruses** belong to the Caliciviruses family. The norovirus GG2 is more commonly known as the "winter vomiting disease virus". Cases are typically seasonal, with peaks in winter. It is often spread between people in environments where individuals come into close contact, such as hospitals, nurseries, schools, and cruise ships. To read more about GG2, see resources by [folkhälsomyndigheten](https://www.folkhalsomyndigheten.se/folkhalsorapportering-statistik/statistik-a-o/sjukdomsstatistik/calicivirus-veckorapporter/sasong-20222023-for-calicivirusrapporter-vinterkraksjuka/), for example.
 
 **Hepatitis A (HAV)** and **hepatitis E (HEV)** are other examples of enteric viruses. The other four human hepatitis viruses are not transmitted via the faecal–oral route. Outbreaks of hepatitits A, caused by transmission in contaminated food or water, occur regularly. Read more about the 2022 outbreak in [our emerging pathogens section](https://www.covid19dataportal.se/pathogens/hepatitis_unknown_origin/).
 
@@ -28,3 +28,4 @@ The **Enteroviruses** comprise of a group of around one hundred viruses of the P
 
 **Astroviruses**, part of the Astroviridae family comprise of eight serotypes (HAst1-8) causing gastrointenstinal symptoms. Most enteric viruses do  not give immunity, but astroviruses are an exception, with healthy individuals generally acquiring immunity after infection, making reinfection rare.
 The [National Respiratory and Enteric Virus Surveillance System (NREVSS)](https://www.cdc.gov/surveillance/nrevss/index.html) is an American surveillance program that monitors many enteric viruses. They monitor respiratory syncytial virus (RSV), human parainfluenza viruses (HPIV), human metapneumovirus (HMPV), respiratory adenoviruses, human coronavirus (excluding SARS-CoV-2), rotavirus, and norovirus. 
+
