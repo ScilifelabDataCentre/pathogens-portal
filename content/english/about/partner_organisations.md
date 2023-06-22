@@ -62,3 +62,18 @@ title: Partner organisations
     <p><a href="https://nbis.se">NBIS (National Bioinformatics Infrastructure Sweden)</a> is a distributed national research infrastructure supported by the Swedish Research Council (Vetenskapsrådet), Science for Life Laboratory, all major Swedish universities, and the Knut and Alice Wallenberg Foundation. It provides state-of-the-art bioinformatics to the life science research community in Sweden. NBIS is also the Swedish contact point to the European infrastructure for biological information, <a href="https://www.elixir-europe.org/">ELIXIR Europe</a>.</p>
   </div>
 </div>
+<hr class="faded" />
+
+<div class="row mt-4">
+  <div class="col-sm-12 col-md-12 col-lg-3 mt-3">
+    <figure class="figure">
+      <img height="65" alt="Global Alliance for Genomics & Health logo" src="/img/logos/ga4gh_logo.png">
+    </figure>
+  </div>
+  <div class="col-sm-12 col-md-12 col-lg-9">
+      <h6>GA4GH</h6>
+    <p>The Swedish COVID-19 & Pandemic Preparedness Data Portal is one of the partners in the <a href="https://by-covid.org/">BY-COVID consortium</a>. BY-COVID is a Horizon project <a href="https://by-covid.org/news-events/by-covid-launch/">funded by the European Comission</a> and brings together <a href="https://by-covid.org/about">53 partners from 19 countries</a>. Stakeholders include individuals and organisation from multiple areas, including the biomedical field, hospitals, public health, social sciences and humanities.</p>
+    <p>The BeYond-COVID (BY-COVID) project aims to make COVID-19 data accessible to anyone that can use it, including medical staff in hospitals, researchers in labs, and government officials. The project will provide a framework for making data from other infectious diseases open and accessible to everyone. The project will integrate established national and European infrastructures with ELIXIR, BBMRI, ECRIN, PHIRI and CESSDA. It will build on existing efforts, such as the COVID-19 Data Platform and the Versatile Emerging infectious disease Observatory project (VEO), in order to maximise efficiency. It will also develop synergies with the European Health Data Space.</p>
+    <p>Members of the Portal team are involved in the development of the <a href="https://www.infectious-diseases-toolkit.org">Infectious Disease Toolkit</a>, a major deliverable of the BY-COVID project.</p>
+  </div>
+</div>
