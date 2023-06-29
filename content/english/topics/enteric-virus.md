@@ -1,7 +1,7 @@
 ---
 title: Enteric virus
 description: Enteric viruses spread primarily through faecal-oral route, causing enteric disease (e.g. nausea, diarrhea, vomiting, abdominal pain). They include calicivirus, adenoviruses, astroviruses, rotaviruses, hepatitis viruses, and enteroviruses.
-banner: /topic_thumbs/topic_covid.jpg
+banner: /topic_thumbs/topic_enteric.png
 credits:
 toc: false
 topic: Enteric virus
