@@ -1,4 +1,4 @@
-{{ $topics := slice "covid_19" "antibiotic_resistance" "infectious_diseases" "mpox" "enteric_virus" }}
+{{ $topics := slice "covid_19" "antibiotic_resistance" "infectious_diseases" "mpox" "enteric_viruses" }}
 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 g-lg-3">
   {{ range .Site.Menus.topics_menu }}
     {{ if (in $topics .Identifier) }}

@@ -17,7 +17,7 @@
           {{ if eq .LinkTitle "COVID-19"}}topic_badge_covid
           {{ else if eq .LinkTitle "Infectious diseases"}}topic_badge_infectious_d
           {{ else if eq .LinkTitle "Antibiotic resistance"}}topic_badge_antib_r
-          {{ else if eq .LinkTitle "Enteric virus"}}topic_badge_enteric_v
+          {{ else if eq .LinkTitle "Enteric viruses"}}topic_badge_enteric_v
           {{ else }}topic_badge_general
           {{ end }} "><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
       {{ end }}
