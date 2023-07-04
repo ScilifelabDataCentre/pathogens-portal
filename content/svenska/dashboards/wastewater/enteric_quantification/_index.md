@@ -14,7 +14,7 @@ Enteriska virus tillhör en större grupp virus som inkluderar calicivirus (noro
 
 Avloppsvatten innehåller många olika typer av virus som infekterar människor eftersom infekterade individer utsöndrar viruspartiklar i avföring och urin. Nordergruppen vid Göteborgs universitet har genom sin forsknings påvisat att relativa nivåer av vissa enteriska virus i avloppsvatten kan förutsäga kommande virusutbrott ([Hellmér _et al._, 2014](https://pubmed.ncbi.nlm.nih.gov/25172863/)). Tidigare studier av forskargruppen har även visat att nivåerna av norovirus i avloppsvatten ökar 1-2 veckor innan större utbrott på äldreboenden och sjukhusavdelningar.
 
-År 2023 påbörjade Nordergruppen vid Göteborgs universitet (GU) veckovis övervakning av ett antal enteriska virus i avloppsvatten. Gruppen kvantifiera relativa nivåer av enterovirus (inklusive poliovirus), Pepper Mild Mottle virus (PMMoV), adenovirus, GG2 (ett norovirus), astrovirus och sapovirus. För mer information om [metoderna som används vid övervakning](#metoder),[kort sammanfattande information om virusen](#basic-virus-information), och [information om insamlad data](#dataset).
+År 2023 påbörjade Nordergruppen vid Göteborgs universitet (GU) veckovis övervakning av ett antal enteriska virus i avloppsvatten. Gruppen kvantifiera relativa nivåer av enterovirus (inklusive poliovirus), Pepper Mild Mottle virus (PMMoV), adenovirus, GG2 (ett norovirus), astrovirus och sapovirus. För mer information om [metoderna som används vid övervakning](#metoder), [kort sammanfattande information om virusen](#grundläggande-virusinformation), och [information om insamlad data](#dataset).
 
 Den enteriska virusövervakningen av Norder-gruppen sker parallellet med gruppens pågående övervakning av SARS-CoV-2 nivåer i avloppsvatten. SARS-CoV-2 data delas [på denna sida](/dashboards/wastewater/covid_quantification/covid_quant_gu/).
 
@@ -28,7 +28,7 @@ Avloppsvattenprover för virusanalys samlas in vid Ryaverkets avloppsreningsverk
 
 <div class="alert alert-info">Last updated: <span id="last_modified_enteric"></span></div>
 
-Vänligen se [avsnittet med sammanfattande information om virusen](#basic-virus-information) för mer information om vart och ett av de virus som data samlas in för.
+Vänligen se [avsnittet med sammanfattande information om virusen](##grundläggande-virusinformation) för mer information om vart och ett av de virus som data samlas in för.
 
  <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/enteric_graph_gu.json" height="550px" >}}</div>
