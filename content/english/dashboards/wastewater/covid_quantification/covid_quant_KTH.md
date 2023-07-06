@@ -109,6 +109,10 @@ After concentration, filtering, and preparation, the samples are analysed using 
 
 - [Historic data for Stockholm; Gene copy number/week (raw wastewater) with bovine + PMMoV factor between April 2020 and August 2021](/dashboards/wastewater/covid_quantification/historic_stockholm).
 
+## Related data
+
+- SARS-CoV-2 variant analysis from wastewater (data available in the European Nucleotide Archive (ENA) under project number [PRJEB60156](https://www.ebi.ac.uk/ena/browser/view/PRJEB60156)): The group at KTH analysed samples from Stockholm and Malmö (2021-2022).
+
 <br>
 <div class="mt-3">
   <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a>

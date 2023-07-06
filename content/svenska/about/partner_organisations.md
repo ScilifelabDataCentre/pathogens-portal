@@ -62,3 +62,18 @@ title: Samarbetsorganisationer
     <p><a href="https://nbis.se">NBIS</a> är en distribuerad nationell infrastruktur för bioinformatik med stöd från SciLifeLab, Vetenskapsrådet, alla större svenska universitet, samt Knut och Alice Wallenbergs stiftelse. NBIS tillhandahåller bioinformatiksupport och infrastruktur till forskare inom livsvetenskaperna, och har ett 90-tal experter över hela landet inom olika områden såsom DNA-, RNA- och proteinanalyser, systembiologi, genomanalyser, masspektrometri-proteomik, metabolomik. NBIS har också experter inom systemutveckling och datahantering. NBIS utgör den svenska noden i den europeiska infrastrukturen <a href="https://www.elixir-europe.org/">ELIXIR</a> för biologiska data.</a>
   </div>
 </div>
+<hr class="faded" />
+
+<div class="row mt-4">
+  <div class="col-sm-12 col-md-12 col-lg-3 mt-3">
+    <figure class="figure">
+      <img height="65" alt="Global Alliance for Genomics & Health logo" src="/img/logos/ga4gh_logo.png">
+    </figure>
+  </div>
+  <div class="col-sm-12 col-md-12 col-lg-9">
+      <h6>GA4GH</h6>
+    <p>Den svenska dataportalen för COVID-19 & Pandemisk beredskap är en av ett flertal partners till <a href="https://www.ga4gh.org/">Global Alliance for Genomics and Health (GA4GH)</a> och en del av deras <a href="https://www.ga4gh.org/what-we-do/communities-of-interest/">sektion för infektionssjukdomar</a>.</p>
+    <p>GA4GH är en internationell, ideell organisation fokuserad på att främja ansvarsfull och effektiv delning av genomikdata och olika hälsorelaterade data. GA4GH syftar till att upprätta harmoniserade ramverk och standarder för att främja datainteroperabilitet och samarbete inom genomikforskning och hälsovård. Samtidigt fokuserar alliansen på att skydda människor som delar sin datas rättigheter. GA4GH samlar experter från olika sektorer som akademi, industri och myndigheter, för att anta de etiska, juridiska och tekniska utmaningarna i samband med genomisk datadelning.</p>
+    <p>Sektionen för infektionssjukdomar utgör en viktig del av GA4GH projektet och spelar en avgörande roll för att överbrygga mellan forskningsfälten patogen- och värdgenomik. Samarbetet samlar internationella grupper med intresse för att standardisera användning av genomikdata och bidra till förbättrad diagnos och behandling av infektionssjukdomar. Inom forskningssamarbetet arbetar medlemmarna för att identifiera hur man kan dela data, arbetsflöden och processer.  Detta gör det möjlig för samarbetet att arbeta med komplexa och tidigare obesvarade frågor.Genom dessa gemensamma aktiviteter kan sektionen för infektionssjukdomar bidra till framsteg inom genomforskning, vilket i slutändan kan leda till förbättrad diagnostik och behandlingsmetoder för infektionssjukdomar</p>
+  </div>
+</div>
