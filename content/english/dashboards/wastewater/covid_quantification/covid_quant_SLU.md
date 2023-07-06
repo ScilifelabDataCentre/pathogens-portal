@@ -21,7 +21,7 @@ The data and visualisation on this page are usually updated weekly, typically on
 SLU-SEEC collect and analyse samples from multiple areas. The below table shows details about each of these sites. The table lists the towns/cities monitored, wastewater treatment plants (WWTP) that samples were collected from, the number of people in the catchment area (Number of people), and the dates that monitoring by SLU-SEEC started and ended monitoring (Start and End date, respectively). A value of 'null' for the end date indicates that collection is ongoing. An asterisk next to the number of people indicates that the figure is preliminary.
 
   <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slusites.json" height="775px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slusites.json" height="850px" >}}</div>
 </div>
 
 <!-- <p>
@@ -96,7 +96,7 @@ Please note that although the same methods are used for all cities shown on this
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="550px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="600px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_slu_regular.py).
@@ -136,6 +136,10 @@ The data in the below graph and datafile represent the ratio of the copy numbers
 ## Archived data
 
 - [Historic data for Örebro and Umeå; amount of SARS-CoV-2 in Umeå and Örebro wastewater between October 2020 and June 2021](/dashboards/wastewater/covid_quantification/historic_orebro_umea).
+
+## Related data
+
+- SARS-CoV-2 variant analysis from wastewater (data available in the European Nucleotide Archive (ENA) under project number [PRJEB60156](https://www.ebi.ac.uk/ena/browser/view/PRJEB60156)): The group at SLU analysed samples from Uppsala, Örebro, Umeå, and Kalmar (2021-2022).
 
 <br>
 <div class="mt-3">

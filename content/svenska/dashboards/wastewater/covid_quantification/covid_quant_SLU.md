@@ -21,7 +21,7 @@ Data och visualiseringar på den här sidan uppdateras vanligtvis veckovis, ofta
 SLU-SEEC samlar in och analyserar prover från ett flertal orter/städer. Nedan visas en tabell med detaljerad information om alla insamlingsplatser. Tabellen listar orter/städer som monitoreras, avloppsreningsverk (WWTP) där proverna samlas in, antal personer i upptagningsområdet (antal invånare), mellan vilka datum SLU-SEEC mätningarna skett (startdatum och slutdatum). Ett värde ’null’ istället för slutdatum innebär att insamlingen fortfarande pågår. En asterisk bredvid antal invånare innebär att antal invånare är preliminärt.
 
   <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slusites.json" height="775px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slusites.json" height="850px" >}}</div>
 </div>
 
 <!-- <p>
@@ -95,7 +95,7 @@ Notera också att även om samma metoder används för alla städer som visas p�
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="550px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="600px" >}}</div>
 </div>
 
 **Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_slu_regular.py).
@@ -135,6 +135,10 @@ Data som presenteras i grafen är ett ratio av kopieantal som uppmätts med N1- 
 ## Arkiverade data
 
 - [Historiska data för Örebro och Umeå, mängd SARS-CoV-2 i avloppsvatten från Umeå respektive Örebro mellan oktober 2020 och juni 2021.](/sv/dashboards/wastewater/covid_quantification/historic_orebro_umea).
+
+## Relaterade datasets
+
+- Genomiska SARS-CoV-2 analyser från avloppsvatten data (tillgängligt på European Nucleotide Archive (ENA) under projektnummer [PRJEB60156](https://www.ebi.ac.uk/ena/browser/view/PRJEB60156)): forskargruppen från SLU har analyserat avloppsvattenprover från Uppsala, Örebro, Umeå och Kalmar (2021-2022).
 
 <br>
 <div class="mt-3">
