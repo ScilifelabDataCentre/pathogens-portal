@@ -109,6 +109,10 @@ Efter koncentration, filtrering och beredning analyseras proverna med RT-qPCR -t
 
 - [Historiska data for Stockholm; genkopieantal per vecka (ofiltrerat avloppsvatten) standardiserat med bovint coronavirus och PMMoV, april 2020 till augusti 2021](/sv/dashboards/wastewater/covid_quantification/historic_stockholm).
 
+## Relaterade datasets
+
+- Genomiska SARS-CoV-2 analyser från avloppsvatten data (tillgängligt på European Nucleotide Archive (ENA) under projektnummer [PRJEB60156](https://www.ebi.ac.uk/ena/browser/view/PRJEB60156)): forskargruppen från KTH har analyserat avloppsvattenprover från Stockholm och Malmö (2021-2022).
+
 <br>
 <div class="mt-3">
   <a href="/sv/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Gå tillbaka till SARS-CoV-2-kvantifiering inom avloppsvattenbaserad epidemiologi-dashboarden</a>

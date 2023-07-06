@@ -21,7 +21,7 @@ Data och visualiseringar på den här sidan uppdateras vanligtvis veckovis, ofta
 SLU-SEEC samlar in och analyserar prover från ett flertal orter/städer. Nedan visas en tabell med detaljerad information om alla insamlingsplatser. Tabellen listar orter/städer som monitoreras, avloppsreningsverk (WWTP) där proverna samlas in, antal personer i upptagningsområdet (antal invånare), mellan vilka datum SLU-SEEC mätningarna skett (startdatum och slutdatum). Ett värde ’null’ istället för slutdatum innebär att insamlingen fortfarande pågår. En asterisk bredvid antal invånare innebär att antal invånare är preliminärt.
 
   <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slusites.json" height="775px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slusites.json" height="850px" >}}</div>
 </div>
 
 <!-- <p>
@@ -95,7 +95,7 @@ Notera också att även om samma metoder används för alla städer som visas p�
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="550px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="600px" >}}</div>
 </div>
 
 **Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_slu_regular.py).
@@ -128,13 +128,17 @@ Isaksson, F., Lundy, L., Hedström, A., Székely, A. J., Mohamed, N. (2022). Eva
 
 För de flesta städer på den här sidan samlas obehandlade avloppsvattenprover, representativa för en enskild dag, in av flödeskompenserade provtagare vid avloppsreningsverken (WWTP). Uppsala är undantaget, där alla mätningar sedan vecka 16 2021 istället representerar en vecka. Där samlas prover in dagligen och kombineras sedan flödesproportionellt till ett sammansatt veckoprov för följande analyser.
 
-Proverna bearbetas enligt standardmetoder. För prover som samlats in fram till och med vecka 18 2021 koncentrerades virala partiklar med hjälp av elektronegativ filtrering ([Ahmed _et al._, 2020](https://www.sciencedirect.com/science/article/pii/S004896972033480X)). Från vecka 19 2021 har det virala genomiska materialet istället koncentrerats och extraherats med hjälp av en metod som använder Maxwell RSC Enviro TNA-kitet (Promega). Absolut kvantifiering av antalet kopior av SARS-CoV-2-genomet utförs med ett [SARS-CoV-2 specifikt N1-test från Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-ncov/lab/rt-pcr-panel-primer-probes.html). För att korrigera för variation i population och avloppsvattenflöde kvantifierar gruppen förekomsten av viruset Pepper mild mottle virus (PMMoV), ett växtvirus från peppar som människor får i sig via maten, med hjälp av en modifierad version av testet i [Zhang _et al._ (2006)](https://doi.org/10.1371/journal.pbio.0040003). PMMoV är det vanligaste RNA-viruset i avföring från människa och används för att uppskatta mängden avföring från människa i avloppsvattenprover ([Symonds _et al._, 2019](https://doi.org/10.1371/journal.ppat.1007639)). För mer information om hur normaliseringsmetoden utvärderats se [Isaksson _et al._ (2022)](https://www.mdpi.com/2076-3298/9/3/39).
+Proverna bearbetas enligt standardmetoder. För prover som samlats in fram till och med vecka 18 2021 koncentrerades virala partiklar med hjälp av elektronegativ filtrering ([Ahmed _et al._, 2020](https://www.sciencedirect.com/science/article/pii/S004896972033480X)). Från vecka 19 2021 har det virala genomiska materialet istället koncentrerats och extraherats med hjälp av en metod som använder Maxwell RSC Enviro TNA-kitet (Promega). Absolut kvantifiering av antalet kopior av SARS-CoV-2-genomet utförs med ett [SARS-CoV-2 specifikt N1-test från Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-ncov/lab/rt-pcr-panel-primer-probes.html). För att korrigera för variation i population och avloppsvattenflöde kvantifierar gruppen förekomsten av viruset Pepper mild mottle virus (PMMoV), ett växtvirus från peppar som människor får i sig via maten, med hjälp av en modifierad version av testet i [Zhang _et al._ (2006)](https://doi.org/10.1371/journal.pbio.0040003). PMMoV är det vanligaste RNA-viruset i avföring från människa och används för att uppskatta mängden avföring från människa i avloppsvattenprover ([Symonds _et al._, 2019](https://doi.org/10.1371/journal.ppat.1007639)). För mer information om hur normaliseringsmetoden utvärderats se [Isaksson *et al.* (2022)](https://www.mdpi.com/2076-3298/9/3/39).
 
 Data som presenteras i grafen är ett ratio av kopieantal som uppmätts med N1- och PMMoV-analyserna, multiplicerat med 10^4. N1-kopieantal är en proxy för mängd SARS-CoV-2 i avloppsvatten och PMMoV är en proxy för mängd avföring från människa, vilket i sin tur är relaterat till befolkningen som bidrar till avloppsvattnet. Detta ratio kan i sin tur anses vara en proxy för andelen infekterade individer i populationen i avloppsvattnets upptagningsområde.
 
 ## Arkiverade data
 
 - [Historiska data för Örebro och Umeå, mängd SARS-CoV-2 i avloppsvatten från Umeå respektive Örebro mellan oktober 2020 och juni 2021.](/sv/dashboards/wastewater/covid_quantification/historic_orebro_umea).
+
+## Relaterade datasets
+
+- Genomiska SARS-CoV-2 analyser från avloppsvatten data (tillgängligt på European Nucleotide Archive (ENA) under projektnummer [PRJEB60156](https://www.ebi.ac.uk/ena/browser/view/PRJEB60156)): forskargruppen från SLU har analyserat avloppsvattenprover från Uppsala, Örebro, Umeå och Kalmar (2021-2022).
 
 <br>
 <div class="mt-3">

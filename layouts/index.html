@@ -4,6 +4,7 @@
 <div class="row">
   <div class="col-md-8 vert-line-right mt-3">
 
+    <div class="alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Teamet bakom den svenska dataportalen för COVID-19 och pandemisk beredskap önskar er alla en glad sommar. Mer begränsad support kommer att finnas tillgänglig under juli, men vi svarar på alla epost så snart som möjligt.{{ else }}The team behind the Swedish COVID-19 and Pandemic Preparedness Portal wishes everyone a great summer. More limited support will be available during July, but the team will reply to any contact ASAP.{{ end }}</span></div>
 
     <!-- Dashboards -->
     {{ range .Site.Menus.homepage_dashboards }}

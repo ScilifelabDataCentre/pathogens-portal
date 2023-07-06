@@ -1,6 +1,17 @@
 {
     "items": [
         {
+            "title": "DDLS Epidemiology and Biology of infection symposium",
+            "type": "Symposium",
+            "date_start": "2023-10-25",
+            "time_start": "09:00",
+            "time_end": "17:00",
+            "venue": "Axel Wenner-Gren salen",
+            "organisers": "DDLS",
+            "event_url": "https://www.scilifelab.se/event/epidemiology-and-biology-of-infection-research-area-symposium/",
+            "description": "Save-the-date! Back to back with the National Infection Biology (NIB) Meeting, on October 25, the DDLS research area will arrange a symposium on October 25, Wenner-Gren center, Stockholm."
+        },
+        {
             "title": "UAC Webinar: Hanne Ingmer",
             "type": "Webinar",
             "date_start": "2023-09-08",
@@ -21,6 +32,17 @@
             "event_url": "https://hivnordic.se",
             "registration_url": "https://hivnordic.se/registration/",
             "description": "A Nordic conference considering HIV, Hepatitis, Covid-19, and other emerging infectious diseases."
+        },
+        {
+            "title": "PhD Poster Conference on AMR & One Health",
+            "type": "Conference",
+            "date_start": "2023-08-29",
+            "time_start": "13:00",
+            "time_end": "18:00",
+            "venue": "Ulls Hus, Campus Ultuna",
+            "organisers": "UAC, SLU & SVA ",
+            "event_url": "https://www.uac.uu.se/calendar/event/?eventId=81696",
+            "description": "Are you working on your PhD in topics related to AMR and antibiotics? Have you considered how your reseach fits within the concept of One Health? We welcome all PhD students at Uppsala University, the Swedish University of Agricultural Sciences and the National Veterinary Institute to attend this mini-conference focused on AMR and One Health."
         },
         {
             "title": "Smögen Summer Symposium on Virology",
@@ -46,13 +68,25 @@
         {
             "title": "International Pandemic Sciences Conference",
             "type": "Conference",
-            "date_start": "2023-07-11",
-            "date_end": "2023-07-10",
+            "date_start": "2023-07-10",
+            "date_end": "2023-07-11",
             "venue": "Pandemic Sciences Institute, University of Oxford",
             "organisers": "University of Oxford",
             "event_url": "https://www.psi.ox.ac.uk/events",
             "registration_url": "https://fitwise.eventsair.com/pandemic2023/",
             "description": "The conference is dedicated to accelerating the discovery, creation and equitable application of practical solutions to epidemic and pandemic threats worldwide.Over the last three years, the tireless work of the global scientific and research community in addressing COVID-19 has protected health systems, restored livelihoods and saved millions of lives.<br><br>These scientific advances and breakthroughs were built on many years of existing groundwork in pandemic science research. But they were also due to the innovation, partnerships, investment and new approaches rapidly deployed during the pandemic. How can we ensure these exceptional ways of working become business as usual in pandemic sciences?<br><br>The Conference’s 2023 theme, Making the Exceptional Routine, will explore how the level of innovation and multidisciplinary and multisectoral partnership we saw during COVID-19 can happen day-in, day-out to protect us from another devastating pandemic."
+        },
+        {
+            "title": "Pandemic preparedness and response within ISIDORe ",
+            "type": "Webinar",
+            "date_start": "2023-07-10",
+            "time_start": "15:00",
+            "time_end": "16:00",
+            "venue": "Online event via Zoom",
+            "organisers": "European Virus Archive",
+            "event_url": "https://isidore-project.eu/events/pandemic-preparedness-and-response-within-isidore/",
+            "registration_url": "https://docs.google.com/forms/d/e/1FAIpQLScXUkk7zByLWMDrp2M8F64FAH0NkodpqdanY3KPB4JPTlJuig/viewform",
+            "description": "Organised by the European Virus Archive (EVA) in the context of the ISIDORe project, this webinar is an opportunity to have an overview of the services and facilities provided by the network. The webinar will also present how EVA reference material helped rapid response to SARS-CoV-2 emergence with users experiences. "
         },
         {
             "title": "Protect the antibiotic - Can Sweden's experiences be helpful in other countries? A reality check",
