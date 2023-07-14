@@ -116,165 +116,257 @@
   </div>
 </section>
 
-{{ $upcoming_events := slice }}
-{{ range sort $.Site.Data.events.items ".date_start" "asc" }}
-{{ $banner_date := cond (isset . "date_start") .date_start .registration_deadline }}
-{{ if ge ($banner_date | time.Format "20060102") (now | time.Format "20060102") }}
-{{ $upcoming_events = $upcoming_events | append . }}
-{{ end }}
-{{ end }}
-{{ if ge (len $upcoming_events) 1 }}
-<section>
-  <div class="row g-2 mt-3 mb-5">
-    {{ range $ind, $cont := $upcoming_events }}
+<section id="events-section">
+  <!-- The events content will filled by JS function below -->
+</section>
 
-    {{/* Potentially different colors of the calendar icon depending on the event type */}}
-    <div class="col-md-6 col-lg-4">
-      <div class="p-3 border rounded h-100">
-        <div class="d-flex justify-content-between">
-          <div>
-            <span class="badge event-type mb-1">{{ .type }}</span>
-            <h5><a class="" role="button" data-bs-toggle="modal"
-                data-bs-target="#descriptionModal{{ $ind }}">{{ .title }}</a></h5>
-          </div>
-          <div>
-            <div class="px-2 pb-1 m-2 d-flex flex-column rounded event-date">
-              {{ $banner_date := cond (isset . "date_start") .date_start .registration_deadline }}
-              <div class="px-2 fs-3 mx-auto">{{ time.Format "2" $banner_date }}</div>
-              <div class="px-2 mx-auto">{{ time.Format "January" $banner_date }}</div>
-              {{ if and (not .date_start) (.registration_deadline) }}
-              <div class="px-2 mx-auto">(deadline)</div>
-              {{ end }}
-            </div>
-          </div>
-        </div>
-        {{ if .date_start }}
-        <div class="row mt-3">
-          <div class="col">
-            <b>Date and time:</b> {{ .date_start | time.Format ":date_medium" }}
-            {{ if .time_start }} {{ .time_start }}{{ end }}
-            {{ if or .date_end .time_end }} - {{ end }}
-            {{ if and (.date_end) (ne .date_end .date_start) }}{{ .date_end | time.Format ":date_medium" }}{{ end}}
-            {{ if .time_end }}{{ .time_end }}{{ end }}
-          </div>
-        </div>
-        {{ end }}
-        {{ if .registration_deadline }}
-        <div class="row mt-1">
-          <div class="col">
-            <b>Registration deadline:</b> {{ .registration_deadline | time.Format ":date_medium" }}
-          </div>
-        </div>
-        {{ end }}
-        {{ if .organisers }}
-        <div class="row">
-          <div class="col">
-            <b>Organiser(s):</b> {{ .organisers }}
-          </div>
-        </div>
-        {{ end }}
-        {{ if .venue }}
-        <div class="row">
-          <div class="col">
-            <b>Venue:</b> {{ .venue }}
-          </div>
-        </div>
-        {{ end }}
-        <div class="row mt-3">
-          <div class="col">
-            <button type="button" class="btn btn-blue btn-sm" data-bs-toggle="modal"
-              data-bs-target="#descriptionModal{{ $ind }}">
-              See details
-            </button>
-            <div class="modal fade" id="descriptionModal{{ $ind }}" tabindex="-1"
-              aria-labelledby="descriptionModalLabel{{ $ind }}" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="descriptionModalLabel">{{ .title }}</h5>
-                    <button type="button" class="btn-close mt-1" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <div class="row">
-                      <div class="col">
-                        <b>Event type:</b> <span class="badge event-type mb-1">{{ .type }}</span>
+<script>
+  // Functions need to be run when the DOM is ready
+  document.addEventListener("DOMContentLoaded", function (event) {
+    // Takes a URL and calls the callback function pass the data fetched
+    function getDataFromUrl(url, load_callback, loadend_callback) {
+      var req = new XMLHttpRequest();
+      req.overrideMimeType("application/json");
+      req.open("GET", url, true);
+      // The function call for fetching data and display
+      req.onload = function () {
+        load_callback(JSON.parse(req.responseText).items);
+      };
+      
+      req.send(null);
+    }; // function "getDataFromUrl" ends here
+    
+    function addEvents(dataArray) {
+      var eventList = [], local = [], level = [], category = []
+      // Not insterested if the deadline have already passed
+      dataArray.forEach((event) => {
+        event.banner_date = event.date_start || event.registration_deadline;
+        if (typeof event.banner_date !== 'undefined'){
+          if (new Date(event.banner_date) >= new Date().setHours(0,0,0,0)){
+            eventList.push(event);
+            if (typeof event.location !== 'undefined'){
+              event.location.forEach((lc) => {if(!local.includes(lc)){local.push(lc)}});
+            };
+            if (typeof event.category !== 'undefined'){
+              event.category.forEach((ct) => {if(!category.includes(ct)){category.push(ct)}});
+            };
+            if (typeof event.level !== 'undefined'){
+              if(!level.includes(event.level)){level.push(event.level);}
+            };
+          };
+        };
+      }); // dataArray for each ends here
+      
+      // Sort the arrays
+      eventList = eventList.sort((a,b) => (a.banner_date > b.banner_date) ? 1 : (a.banner_date < b.banner_date) ? -1 : 0);
+      local = local.sort();
+      level = level.sort();
+      category = category.sort();
+      
+      // If no event to show, display appropriate message
+      if (eventList.length === 0) {
+        var eventsHTML = `<div class="alert alert-secondary mt-4">
+                          We are currently unaware of any upcoming events or training opportunities relevant for data-driven 
+                          life science. If you know of any relevant events or training opportunities that should be shown 
+                          here, please suggest them to us using the "Submit an event" button above.
+                        </div>`
+      } else {
+        var eventsHTML = `<div class="row mt-3 mb-3">`;
+        if (local.length > 0){
+          eventsHTML += `<h5>Location</h5>`;
+          local.forEach((lc) => {
+            eventsHTML += `<div class="form-check">   
+                            <input class="form-check-input" type="checkbox" id="${lc}" name="location" value="${lc.replaceAll(" ", "-").toLowerCase()}">
+                            <label class="form-check-label" for="${lc}">${(lc == "Online") ? "Online/Hybrid" : lc}</label>
+                           </div>`;
+          });
+        };
+        if (category.length > 0){
+          eventsHTML += `<h5 class="mt-3">Category</h5>`;
+          category.forEach((ct) => {
+            eventsHTML += `<div class="form-check">   
+                            <input class="form-check-input" type="checkbox" id="${ct}" name="category" value="${ct.replaceAll(" ", "-").toLowerCase()}">
+                            <label class="form-check-label" for="${ct}">${ct}</label>
+                           </div>`;
+          });
+        };
+        if (level.length > 0){
+          eventsHTML += `<h5 class="mt-3">Level</h5>`;
+          level.forEach((lv) => {
+            eventsHTML += `<div class="form-check">   
+                            <input class="form-check-input" type="checkbox" id="${lv}" name="level" value="${lv.replaceAll(" ", "-").toLowerCase()}">
+                            <label class="form-check-label" for="${lv}">${lv}</label>
+                           </div>`;
+          });
+        };
+        eventsHTML += `</div>
+                       <div class="col-lg">
+                         <div class="row g-2" id="events-container">`;
+        eventList.forEach((event, ind) => {
+          var this_event_local, this_event_category, this_event_level;
+          var event_date = new Date(event.banner_date);
+          if (typeof event.location !== 'undefined'){
+            this_event_local = event.location.map(lc => lc.replaceAll(" ", "-").toLowerCase()).join(" ");
+          };
+          if (typeof event.category !== 'undefined'){
+            this_event_category = event.category.map(ct => ct.replaceAll(" ", "-").toLowerCase()).join(" ");
+          };
+          if (typeof event.level !== 'undefined'){
+            this_event_level = event.level.replaceAll(" ", "-").toLowerCase();
+          };
+          eventsHTML += `<div class="col-md-6 col-lg-4 event" data-event-location="${this_event_local}"
+                          data-event-category="${this_event_category}" data-event-level="${this_event_level}">
+                          <div class="p-3 border rounded h-100">
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <span class="badge event-type mb-1">${event.type}</span>
+                                <h5><a class="" role="button" data-bs-toggle="modal"
+                                    data-bs-target="#descriptionModal${ind}">${event.title}</a></h5>
+                              </div>
+                              <div>
+                                <div class="px-2 pb-1 m-2 d-flex flex-column rounded event-date">
+                                <div class="px-2 fs-3 mx-auto">${event_date.getDate()}</div>
+                                <div class="pb-1 px-2 mx-auto">${event_date.toLocaleString('default', {'month': 'long'})}</div>
+                                </div>
+                              </div>
+                            </div>`;
+          var event_date_time = [], date_format_options = {'month': 'short', day:'numeric', year: 'numeric'};
+          event.date_start && event_date_time.push(new Date(event.date_start).toLocaleString('en-US', date_format_options));
+          event.time_start && event_date_time.push(event.time_start);
+          (event.date_end || event.time_end) && event_date_time.push("-")
+          event.date_end && event_date_time.push(new Date(event.date_end).toLocaleString('en-US', date_format_options));
+          event.time_end && event_date_time.push(event.time_end);
+          if (event_date_time.length > 0){
+            eventsHTML += `<div class="row mt-3">
+                             <div class="col">
+                               <b>Date and time:</b> ${event_date_time.join(" ")}
+                             </div>
+                           </div>`;
+          }
+          if (event.registration_deadline){
+            eventsHTML += `<div class="row mt-1">
+                             <div class="col">
+                               <b>Registration deadline:</b> ${new Date(event.registration_deadline).toLocaleString('en-US', date_format_options)}
+                             </div>
+                           </div>`;
+          }
+          if (event.organisers){
+            eventsHTML += `<div class="row">
+                             <div class="col">
+                               <b>Organiser(s):</b> ${event.organisers}
+                             </div>
+                           </div>`;
+          }
+          if (event.venue){
+            eventsHTML += `<div class="row">
+                             <div class="col">
+                               <b>Venue:</b> ${event.venue}
+                             </div>
+                           </div>`;
+          }
+          eventsHTML += `<div class="row mt-3">
+                          <div class="col">
+                            <button type="button" class="btn btn-blue btn-sm" data-bs-toggle="modal"
+                              data-bs-target="#descriptionModal${ind}">
+                              See details
+                            </button>
+                            <div class="modal fade" id="descriptionModal${ind}" tabindex="-1"
+                              aria-labelledby="descriptionModalLabel${ind}" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="descriptionModalLabel">${event.title}</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <div class="row">
+                                      <div class="col">
+                                        <b>Event type:</b> <span class="badge event-type mb-1">${event.type}</span>
+                                      </div>
+                                    </div>`;
+          if (event_date_time.length > 0){
+            eventsHTML += `<div class="row mt-1">
+                             <div class="col">
+                               <b>Date and time:</b> ${event_date_time.join(" ")}
+                             </div>
+                           </div>`;
+          }
+          if (event.registration_deadline){
+            eventsHTML += `<div class="row mt-1">
+                             <div class="col">
+                               <b>Registration deadline:</b> ${new Date(event.registration_deadline).toLocaleString('en-US', date_format_options)}
+                             </div>
+                           </div>`;
+          }
+          if (event.organisers){
+            eventsHTML += `<div class="row mt-1">
+                             <div class="col">
+                               <b>Organiser(s):</b> ${event.organisers}
+                             </div>
+                           </div>`;
+          }
+          if (event.venue){
+            eventsHTML += `<div class="row mt-1">
+                             <div class="col">
+                               <b>Venue:</b> ${event.venue}
+                             </div>
+                           </div>`;
+          }
+          if (event.description){
+            eventsHTML += `<div class="row mt-3">
+                             <div class="col">
+                               <b>Description:</b><br> ${event.description}
+                             </div>
+                           </div>`;
+          }
+          eventsHTML += `<div class="row mt-3">
+                          <p>For more information, see the event webpage at the link below.</p>
+                          <div class="col-md">
+                            <a target="_blank" href="${event.event_url}"><i class="bi bi-globe"></i> Event webpage</a>
+                          </div>`;
+          if (event.registration_url){
+            eventsHTML += `<div class="col-md">
+                            <a target="_blank" href="${event.registration_url}"><i class="bi bi-globe"></i>
+                              Registration</a>
+                          </div>`;
+          }
+          eventsHTML += `</div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                       </div>
                     </div>
-                    {{ if .date_start }}
-                    <div class="row mt-1">
-                      <div class="col">
-                        <b>Date and time:</b> {{ .date_start | time.Format ":date_medium" }}
-                        {{ if .time_start }} {{ .time_start }}{{ end }}
-                        {{ if or .date_end .time_end }} - {{ end }}
-                        {{ if and (.date_end) (ne .date_end .date_start) }}{{ .date_end | time.Format ":date_medium" }}{{ end}}
-                        {{ if .time_end }}{{ .time_end }}{{ end }}
-                      </div>
-                    </div>
-                    {{ end }}
-                    {{ if .registration_deadline }}
-                    <div class="row mt-1">
-                      <div class="col">
-                        <b>Registration deadline:</b> {{ .registration_deadline | time.Format ":date_medium" }}
-                      </div>
-                    </div>
-                    {{ end }}
-                    {{ if .organisers }}
-                    <div class="row mt-1">
-                      <div class="col">
-                        <b>Organiser(s):</b> {{ .organisers }}
-                      </div>
-                    </div>
-                    {{ end }}
-                    {{ if .venue }}
-                    <div class="row mt-1">
-                      <div class="col">
-                        <b>Venue:</b> {{ .venue }}
-                      </div>
-                    </div>
-                    {{ end }}
-                    {{ if .description }}
-                    <div class="row mt-3">
-                      <div class="col"><b>Description:</b><br>
-                        {{ .description | markdownify }}
-                      </div>
-                    </div>
-                    {{ end }}
-                    <div class="row mt-3">
-                      <p>For more information, visit the link below.</p>
-                      <div class="col-md">
-                        <a target="_blank" href="{{ .event_url }}"><i class="bi bi-globe"></i> Event webpage</a>
-                      </div>
-                      {{ if .registration_url }}
-                      <div class="col-md">
-                        <a target="_blank" href="{{ .registration_url }}"><i class="bi bi-globe"></i> Registration</a>
-                      </div>
-                      {{ end }}
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-    {{ end }}
-  </div>
-</section>
-{{ else }}
-<div class="alert alert-secondary mt-4">
-  We are currently unaware of any upcoming events or training opportunities relevant for life science.
-  If you know of any relevant events or training opportunities that should be shown here, please recommend
-  them to us using the "Submit an event" button above.
-</div>
-{{ end }}
+        </div>`;
+        }); // for each events iteration to create html ends here
+        eventsHTML += `<div id="no-filtered-events" style="display:none;">
+                      <p class="text-center">No events found for selected criteria.</p>
+                    </div>
+                    </div>
+                  </div>
+                </div>`;
+        
+      }; // Creating of events display html ends here
+      
+      var eventsSection = document.getElementById('events-section');
+      eventsSection.innerHTML = eventsHTML;
+    }; // function "addEvents" ends here
+    
+    // Call the function to fetch, parse and display events
+    getDataFromUrl(
+      decodeURIComponent("https%3A%2F%2Fblobserver.dc.scilifelab.se%2Fblob%2Fcovid_portal_events.json"),
+      addEvents
+    );
 
-<script>
+  // Events suggestion form related function
+  // set origin url in the form
   document.getElementById('originUrl').value = location.href;
 
+  // Validate the form by checking mandatory fields and recaptcha
   var form = document.querySelector('.needs-validation');
   form.addEventListener('submit', function (event) {
     if (form.checkValidity() === false) {
@@ -288,7 +380,9 @@
       event.preventDefault();
       alert("Please tick 'I'm not a robot' above the 'Submit the form' button.");
     }
-  });
+  }); // Forms validation block ends here
+
+}); // Document "DOMContentLoaded" trigger ends here
 </script>
 
 {{ end }}
