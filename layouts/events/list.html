@@ -164,8 +164,7 @@
                               <div class="row g-2" id="events-container">`;
         eventList.forEach((event, ind) => {
           var event_date = new Date(event.banner_date);
-          eventsHTML += `<div class="col-md-6 col-lg-4 event" data-event-location="${event.location}"
-                          data-event-category="${event.category}" data-event-level="${event.level}">
+          eventsHTML += `<div class="col-md-6 col-lg-4">
                           <div class="p-3 border rounded h-100">
                             <div class="d-flex justify-content-between">
                               <div>
