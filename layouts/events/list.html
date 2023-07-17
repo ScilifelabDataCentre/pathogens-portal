@@ -124,7 +124,7 @@
   // Functions need to be run when the DOM is ready
   document.addEventListener("DOMContentLoaded", function (event) {
     // Takes a URL and calls the callback function pass the data fetched
-    function getDataFromUrl(url, load_callback, loadend_callback) {
+    function getDataFromUrl(url, load_callback) {
       var req = new XMLHttpRequest();
       req.overrideMimeType("application/json");
       req.open("GET", url, true);
