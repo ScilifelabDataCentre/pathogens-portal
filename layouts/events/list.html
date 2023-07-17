@@ -132,37 +132,25 @@
       req.onload = function () {
         load_callback(JSON.parse(req.responseText).items);
       };
-      
+
       req.send(null);
     }; // function "getDataFromUrl" ends here
-    
+
     function addEvents(dataArray) {
-      var eventList = [], local = [], level = [], category = []
+      var eventList = []
       // Not insterested if the deadline have already passed
       dataArray.forEach((event) => {
         event.banner_date = event.date_start || event.registration_deadline;
-        if (typeof event.banner_date !== 'undefined'){
-          if (new Date(event.banner_date) >= new Date().setHours(0,0,0,0)){
+        if (typeof event.banner_date !== 'undefined') {
+          if (new Date(event.banner_date) >= new Date().setHours(0, 0, 0, 0)) {
             eventList.push(event);
-            if (typeof event.location !== 'undefined'){
-              event.location.forEach((lc) => {if(!local.includes(lc)){local.push(lc)}});
-            };
-            if (typeof event.category !== 'undefined'){
-              event.category.forEach((ct) => {if(!category.includes(ct)){category.push(ct)}});
-            };
-            if (typeof event.level !== 'undefined'){
-              if(!level.includes(event.level)){level.push(event.level);}
-            };
           };
         };
       }); // dataArray for each ends here
-      
+
       // Sort the arrays
-      eventList = eventList.sort((a,b) => (a.banner_date > b.banner_date) ? 1 : (a.banner_date < b.banner_date) ? -1 : 0);
-      local = local.sort();
-      level = level.sort();
-      category = category.sort();
-      
+      eventList = eventList.sort((a, b) => (a.banner_date > b.banner_date) ? 1 : (a.banner_date < b.banner_date) ? -1 : 0);
+
       // If no event to show, display appropriate message
       if (eventList.length === 0) {
         var eventsHTML = `<div class="alert alert-secondary mt-4">
@@ -171,51 +159,13 @@
                           here, please suggest them to us using the "Submit an event" button above.
                         </div>`
       } else {
-        var eventsHTML = `<div class="row mt-3 mb-3">`;
-        if (local.length > 0){
-          eventsHTML += `<h5>Location</h5>`;
-          local.forEach((lc) => {
-            eventsHTML += `<div class="form-check">   
-                            <input class="form-check-input" type="checkbox" id="${lc}" name="location" value="${lc.replaceAll(" ", "-").toLowerCase()}">
-                            <label class="form-check-label" for="${lc}">${(lc == "Online") ? "Online/Hybrid" : lc}</label>
-                           </div>`;
-          });
-        };
-        if (category.length > 0){
-          eventsHTML += `<h5 class="mt-3">Category</h5>`;
-          category.forEach((ct) => {
-            eventsHTML += `<div class="form-check">   
-                            <input class="form-check-input" type="checkbox" id="${ct}" name="category" value="${ct.replaceAll(" ", "-").toLowerCase()}">
-                            <label class="form-check-label" for="${ct}">${ct}</label>
-                           </div>`;
-          });
-        };
-        if (level.length > 0){
-          eventsHTML += `<h5 class="mt-3">Level</h5>`;
-          level.forEach((lv) => {
-            eventsHTML += `<div class="form-check">   
-                            <input class="form-check-input" type="checkbox" id="${lv}" name="level" value="${lv.replaceAll(" ", "-").toLowerCase()}">
-                            <label class="form-check-label" for="${lv}">${lv}</label>
-                           </div>`;
-          });
-        };
-        eventsHTML += `</div>
-                       <div class="col-lg">
-                         <div class="row g-2" id="events-container">`;
+        var eventsHTML = `<div class="row mt-3 mb-3"></div>
+                            <div class="col-lg">
+                              <div class="row g-2" id="events-container">`;
         eventList.forEach((event, ind) => {
-          var this_event_local, this_event_category, this_event_level;
           var event_date = new Date(event.banner_date);
-          if (typeof event.location !== 'undefined'){
-            this_event_local = event.location.map(lc => lc.replaceAll(" ", "-").toLowerCase()).join(" ");
-          };
-          if (typeof event.category !== 'undefined'){
-            this_event_category = event.category.map(ct => ct.replaceAll(" ", "-").toLowerCase()).join(" ");
-          };
-          if (typeof event.level !== 'undefined'){
-            this_event_level = event.level.replaceAll(" ", "-").toLowerCase();
-          };
-          eventsHTML += `<div class="col-md-6 col-lg-4 event" data-event-location="${this_event_local}"
-                          data-event-category="${this_event_category}" data-event-level="${this_event_level}">
+          eventsHTML += `<div class="col-md-6 col-lg-4 event" data-event-location="${event.location}"
+                          data-event-category="${event.category}" data-event-level="${event.level}">
                           <div class="p-3 border rounded h-100">
                             <div class="d-flex justify-content-between">
                               <div>
@@ -226,38 +176,38 @@
                               <div>
                                 <div class="px-2 pb-1 m-2 d-flex flex-column rounded event-date">
                                 <div class="px-2 fs-3 mx-auto">${event_date.getDate()}</div>
-                                <div class="pb-1 px-2 mx-auto">${event_date.toLocaleString('default', {'month': 'long'})}</div>
+                                <div class="pb-1 px-2 mx-auto">${event_date.toLocaleString('default', { 'month': 'long' })}</div>
                                 </div>
                               </div>
                             </div>`;
-          var event_date_time = [], date_format_options = {'month': 'short', day:'numeric', year: 'numeric'};
+          var event_date_time = [], date_format_options = { 'month': 'short', day: 'numeric', year: 'numeric' };
           event.date_start && event_date_time.push(new Date(event.date_start).toLocaleString('en-US', date_format_options));
           event.time_start && event_date_time.push(event.time_start);
           (event.date_end || event.time_end) && event_date_time.push("-")
           event.date_end && event_date_time.push(new Date(event.date_end).toLocaleString('en-US', date_format_options));
           event.time_end && event_date_time.push(event.time_end);
-          if (event_date_time.length > 0){
+          if (event_date_time.length > 0) {
             eventsHTML += `<div class="row mt-3">
                              <div class="col">
                                <b>Date and time:</b> ${event_date_time.join(" ")}
                              </div>
                            </div>`;
           }
-          if (event.registration_deadline){
+          if (event.registration_deadline) {
             eventsHTML += `<div class="row mt-1">
                              <div class="col">
                                <b>Registration deadline:</b> ${new Date(event.registration_deadline).toLocaleString('en-US', date_format_options)}
                              </div>
                            </div>`;
           }
-          if (event.organisers){
+          if (event.organisers) {
             eventsHTML += `<div class="row">
                              <div class="col">
                                <b>Organiser(s):</b> ${event.organisers}
                              </div>
                            </div>`;
           }
-          if (event.venue){
+          if (event.venue) {
             eventsHTML += `<div class="row">
                              <div class="col">
                                <b>Venue:</b> ${event.venue}
@@ -284,35 +234,35 @@
                                         <b>Event type:</b> <span class="badge event-type mb-1">${event.type}</span>
                                       </div>
                                     </div>`;
-          if (event_date_time.length > 0){
+          if (event_date_time.length > 0) {
             eventsHTML += `<div class="row mt-1">
                              <div class="col">
                                <b>Date and time:</b> ${event_date_time.join(" ")}
                              </div>
                            </div>`;
           }
-          if (event.registration_deadline){
+          if (event.registration_deadline) {
             eventsHTML += `<div class="row mt-1">
                              <div class="col">
                                <b>Registration deadline:</b> ${new Date(event.registration_deadline).toLocaleString('en-US', date_format_options)}
                              </div>
                            </div>`;
           }
-          if (event.organisers){
+          if (event.organisers) {
             eventsHTML += `<div class="row mt-1">
                              <div class="col">
                                <b>Organiser(s):</b> ${event.organisers}
                              </div>
                            </div>`;
           }
-          if (event.venue){
+          if (event.venue) {
             eventsHTML += `<div class="row mt-1">
                              <div class="col">
                                <b>Venue:</b> ${event.venue}
                              </div>
                            </div>`;
           }
-          if (event.description){
+          if (event.description) {
             eventsHTML += `<div class="row mt-3">
                              <div class="col">
                                <b>Description:</b><br> ${event.description}
@@ -324,7 +274,7 @@
                           <div class="col-md">
                             <a target="_blank" href="${event.event_url}"><i class="bi bi-globe"></i> Event webpage</a>
                           </div>`;
-          if (event.registration_url){
+          if (event.registration_url) {
             eventsHTML += `<div class="col-md">
                             <a target="_blank" href="${event.registration_url}"><i class="bi bi-globe"></i>
                               Registration</a>
@@ -343,46 +293,40 @@
           </div>
         </div>`;
         }); // for each events iteration to create html ends here
-        eventsHTML += `<div id="no-filtered-events" style="display:none;">
-                      <p class="text-center">No events found for selected criteria.</p>
-                    </div>
-                    </div>
-                  </div>
-                </div>`;
-        
+
       }; // Creating of events display html ends here
-      
+
       var eventsSection = document.getElementById('events-section');
       eventsSection.innerHTML = eventsHTML;
     }; // function "addEvents" ends here
-    
+
     // Call the function to fetch, parse and display events
     getDataFromUrl(
       decodeURIComponent("https%3A%2F%2Fblobserver.dc.scilifelab.se%2Fblob%2Fcovid_portal_events.json"),
       addEvents
     );
 
-  // Events suggestion form related function
-  // set origin url in the form
-  document.getElementById('originUrl').value = location.href;
+    // Events suggestion form related function
+    // set origin url in the form
+    document.getElementById('originUrl').value = location.href;
 
-  // Validate the form by checking mandatory fields and recaptcha
-  var form = document.querySelector('.needs-validation');
-  form.addEventListener('submit', function (event) {
-    if (form.checkValidity() === false) {
-      event.preventDefault();
-      alert("Please fill out all required fields.");
-      event.stopPropagation();
-      form.classList.add('was-validated')
-    }
-    var recaptcha = $("#g-recaptcha-response").val();
-    if (recaptcha === "") {
-      event.preventDefault();
-      alert("Please tick 'I'm not a robot' above the 'Submit the form' button.");
-    }
-  }); // Forms validation block ends here
+    // Validate the form by checking mandatory fields and recaptcha
+    var form = document.querySelector('.needs-validation');
+    form.addEventListener('submit', function (event) {
+      if (form.checkValidity() === false) {
+        event.preventDefault();
+        alert("Please fill out all required fields.");
+        event.stopPropagation();
+        form.classList.add('was-validated')
+      }
+      var recaptcha = $("#g-recaptcha-response").val();
+      if (recaptcha === "") {
+        event.preventDefault();
+        alert("Please tick 'I'm not a robot' above the 'Submit the form' button.");
+      }
+    }); // Forms validation block ends here
 
-}); // Document "DOMContentLoaded" trigger ends here
+  }); // Document "DOMContentLoaded" trigger ends here
 </script>
 
 {{ end }}
