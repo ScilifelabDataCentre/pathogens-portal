@@ -2,6 +2,109 @@
     "last_updated": "2023-06-12",
     "datasets": [
         {
+            "doi": "10.1016/j.lanepe.2023.100646",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Data processing code in R is available on Github",
+                    "data_type": [
+                        "An observational study",
+                        "Health data",
+                        "Serology data",
+                        "Public health data",
+                        "Biochemistry data"
+                    ],
+                    "data_url": "https://github.com/johanssonresearch/Correlate-of-vaccine-protection-against-fatal-COVID-19"
+                }
+            ],
+            "title": "Vaccine-induced correlate of protection against fatal COVID-19 in older and frail adults during waves of neutralization-resistant variants of concern: an observational study",
+            "issue": "",
+            "volume": "30",
+            "publisher": "Elsevier BV",
+            "published": "2023-07-03",
+            "author": [
+                "Vikström L.",
+                "Fjällström P.",
+                "Gwon Y.",
+                "Sheward D. J.",
+                "Wigren-Byström J."
+            ]
+        },
+        {
+            "doi": "10.1101/2023.06.14.23290814",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "Figshare",
+                    "accession_number": "",
+                    "description": "Data cannot be shared publicly, but applications can be made for access.",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Biochemistry data",
+                        "Serology data",
+                        "Health data"
+                    ],
+                    "data_url": "https://doi.org/10.17044/scilifelab.14229410.v1"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "BQC-19",
+                    "accession_number": "",
+                    "description": "Data from the BQC-19 repository is available after appropriate permissions and data access agreements",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Biochemistry data",
+                        "Serology data",
+                        "Health data"
+                    ],
+                    "data_url": "https://en.quebeccovidbiobank.ca/"
+                }
+            ],
+            "title": "Sustained IFN signaling is associated with delayed development of SARS-CoV-2-specific immunity",
+            "issue": "",
+            "volume": "",
+            "publisher": "Cold Spring Harbor Laboratory",
+            "published": "2023-06-20",
+            "author": [
+                "Brunet-Ratnasingham E.",
+                "Morin S.",
+                "Randolph H. E.",
+                "Labrecque M.",
+                "Bélair J."
+            ]
+        },
+        {
+            "doi": "10.1371/journal.pgph.0001223",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "DRYAD",
+                    "accession_number": "",
+                    "description": "Data cannot be shared publicly, but applications can be made for access.",
+                    "data_type": [
+                        "Health data",
+                        "Public health data",
+                        "Social science and humanities data"
+                    ],
+                    "data_url": "https://datadryad.org/stash/share/6OGisFQKD4MQ87HCBkHzhx6iflTT7dDHCfHk5dryYmk"
+                }
+            ],
+            "title": "Health care workers’ self-perceived infection risk and COVID-19 vaccine uptake: A mixed methods study",
+            "issue": "6",
+            "volume": "3",
+            "publisher": "Public Library of Science (PLoS)",
+            "published": "2023-06-07",
+            "author": [
+                "Nyamuryekung’e K. K.",
+                "Amour M.",
+                "Mboya I.",
+                "Ndumwa H.",
+                "Kengia J."
+            ]
+        },
+        {
             "doi": "10.3389/fpsyg.2023.1124627",
             "available_items": [
                 {
