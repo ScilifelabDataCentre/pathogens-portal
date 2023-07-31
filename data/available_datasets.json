@@ -1,6 +1,49 @@
 {
-    "last_updated": "2023-06-12",
+    "last_updated": "2023-07-31",
     "datasets": [
+        {
+            "doi": "10.1101/2023.07.05.23292245",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Data processing code in R is available on Github",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Biochemistry data",
+                        "Serology data",
+                        "Health data"
+                    ],
+                    "data_url": "https://github.com/covid19-forecast-hub-europe/aggregation-info-loss/tree/main/data"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Data processing code in R is available on Github",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Biochemistry data",
+                        "Serology data",
+                        "Health data"
+                    ],
+                    "data_url": "https://github.com/covid19-forecast-hub-europe/aggregation-info-loss/tree/main/code"
+                }
+            ],
+            "title": "Characterising information loss due to aggregating epidemic model outputs",
+            "issue": "",
+            "volume": "",
+            "publisher": "Cold Spring Harbor Laboratory",
+            "published": "2023-07-07",
+            "author": [
+                "Sherratt K.",
+                "Srivastava A.",
+                "Ainslie K.",
+                "Singh D. E.",
+                "Cublier A."
+            ]
+        },
         {
             "doi": "10.1016/j.lanepe.2023.100646",
             "available_items": [
