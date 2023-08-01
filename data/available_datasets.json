@@ -116,35 +116,6 @@
             ]
         },
         {
-            "doi": "10.1371/journal.pgph.0001223",
-            "available_items": [
-                {
-                    "type": "data",
-                    "repo_name": "DRYAD",
-                    "accession_number": "",
-                    "description": "Data cannot be shared publicly, but applications can be made for access.",
-                    "data_type": [
-                        "Health data",
-                        "Public health data",
-                        "Social science and humanities data"
-                    ],
-                    "data_url": "https://datadryad.org/stash/share/6OGisFQKD4MQ87HCBkHzhx6iflTT7dDHCfHk5dryYmk"
-                }
-            ],
-            "title": "Health care workers’ self-perceived infection risk and COVID-19 vaccine uptake: A mixed methods study",
-            "issue": "6",
-            "volume": "3",
-            "publisher": "Public Library of Science (PLoS)",
-            "published": "2023-06-07",
-            "author": [
-                "Nyamuryekung’e K. K.",
-                "Amour M.",
-                "Mboya I.",
-                "Ndumwa H.",
-                "Kengia J."
-            ]
-        },
-        {
             "doi": "10.3389/fpsyg.2023.1124627",
             "available_items": [
                 {
