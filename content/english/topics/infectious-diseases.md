@@ -1,10 +1,14 @@
 ---
 title: Infectious diseases
+description: Infectious diseases pose a global health threat. COVID-19 highlighted coronavirus impact, but diseases like Dengue, Ebola, HIV, Measles persist. Research is crucial for understanding pathogenicity, resistance, and developing treatments.
+banner: /topic_thumbs/topic_infectious.jpg
+credits:
 toc: false
 topic: Infectious diseases
 menu:
     topics_menu:
         name: Infectious diseases
+        identifier: infectious_diseases
         weight: 20
 ---
 

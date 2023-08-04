@@ -5,6 +5,8 @@ aliases:
   - /dashboards/wastewater/covid_quant_kth/
 ---
 
+<div class="alert alert-info">As of June 2023, the SARS-CoV-2 data will no longer be updated by SEEC-KTH. Data from after June 2023 is <a href="/dashboards/wastewater/covid_quantification/covid_quant_slu/">available from other research groups.</a></div>
+
 <div class="mt-3">
   <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a>
 </div>
@@ -64,7 +66,7 @@ Please also note that although the same methods are used for all cities shown on
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_combined_stockholm.json" height="550px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_stockholm.json" height="550px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_stockholm_regular.py).
@@ -78,7 +80,7 @@ Please also note that although the same methods are used for all cities shown on
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_kthmalmo.json" height="550px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_kthmalmo.json" height="550px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/quant_malmo_kthplot.py).
@@ -91,7 +93,7 @@ Please also note that although the same methods are used for all cities shown on
 
 ## Dataset
 
-**Download the data:** [N3-gene copy number per PMMoV gene copy number; Excel file](https://blobserver.dckube.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx). Results are available (partially) starting from week 16 of 2020 for Stockholm and starting from week 39 of 2021 for Malmö; updated weekly.\
+**Download the data:** [N3-gene copy number per PMMoV gene copy number; Excel file](https://blobserver.dc.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx). Results are available (partially) starting from week 16 of 2020 for Stockholm and starting from week 39 of 2021 for Malmö; updated weekly.\
 **Contact:** <zeynepcg@kth.se>
 
 **How to cite dataset:**
@@ -106,6 +108,10 @@ After concentration, filtering, and preparation, the samples are analysed using 
 ## Archived data
 
 - [Historic data for Stockholm; Gene copy number/week (raw wastewater) with bovine + PMMoV factor between April 2020 and August 2021](/dashboards/wastewater/covid_quantification/historic_stockholm).
+
+## Related data
+
+- SARS-CoV-2 variant analysis from wastewater (data available in the European Nucleotide Archive (ENA) under project number [PRJEB60156](https://www.ebi.ac.uk/ena/browser/view/PRJEB60156)): The group at KTH analysed samples from Stockholm and Malmö (2021-2022).
 
 <br>
 <div class="mt-3">

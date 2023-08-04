@@ -4,6 +4,7 @@
 <div class="row">
   <div class="col-md-8 vert-line-right mt-3">
 
+    <div class="alert alert-info">{{ if eq $.Site.Language.LanguageName "Svenska" }}Teamet bakom den svenska dataportalen för COVID-19 och pandemisk beredskap önskar er alla en glad sommar. Mer begränsad support kommer att finnas tillgänglig under juli, men vi svarar på alla epost så snart som möjligt.{{ else }}The team behind the Swedish COVID-19 and Pandemic Preparedness Portal wishes everyone a great summer. More limited support will be available during July, but the team will reply to any contact ASAP.{{ end }}</span></div>
 
     <!-- Dashboards -->
     {{ range .Site.Menus.homepage_dashboards }}
@@ -203,11 +204,11 @@
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
 
 <script
-  src="https://datagraphics.dckube.scilifelab.se/graphic/e4c6a7b8bff648a5adaabbdd3d994bf9.js?id=serology"></script>
+  src="https://datagraphics.dc.scilifelab.se/graphic/e4c6a7b8bff648a5adaabbdd3d994bf9.js?id=serology"></script>
 <script
-  src="https://datagraphics.dckube.scilifelab.se/graphic/93bad55e86ad4b0f97d4d27c77862bc9.js?id=stockholm_wastewater"></script>
+  src="https://datagraphics.dc.scilifelab.se/graphic/93bad55e86ad4b0f97d4d27c77862bc9.js?id=stockholm_wastewater"></script>
 <script
-  src="https://datagraphics.dckube.scilifelab.se/graphic/d262787e199b4c9b8fbbaf5f95edb7bc.js?id=malmo_wastewater"></script>
+  src="https://datagraphics.dc.scilifelab.se/graphic/d262787e199b4c9b8fbbaf5f95edb7bc.js?id=malmo_wastewater"></script>
 <script
-  src="https://datagraphics.dckube.scilifelab.se/graphic/6d16b18be0d74425b313040c502f29c8.js?id=uppsala_wastewater"></script>
+  src="https://datagraphics.dc.scilifelab.se/graphic/6d16b18be0d74425b313040c502f29c8.js?id=uppsala_wastewater"></script>
 {{ end }}

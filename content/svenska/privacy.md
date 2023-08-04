@@ -17,7 +17,7 @@ Vi vill informera dig om att varje gång du besöker vår **tjänst** samlar vi 
 
 You can opt out of your Log Data being collected below:
 
-<iframe style="border: 0; height: 100px; width: 600px;" src="https://matomo.dckube.scilifelab.se/index.php?module=CoreAdminHome&action=optOut&language=en&fontSize=14px&fontFamily=Helvetica"></iframe>
+<iframe style="border: 0; height: 100px; width: 600px;" src="https://matomo.dc.scilifelab.se/index.php?module=CoreAdminHome&action=optOut&language=en&fontSize=14px&fontFamily=Helvetica"></iframe>
 
 ## Formulär
 

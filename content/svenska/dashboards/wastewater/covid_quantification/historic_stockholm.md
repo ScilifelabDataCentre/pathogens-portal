@@ -11,7 +11,7 @@ Data som visas här samlades in inom ett forskningsprojekt lett av prof. Zeynep 
 
 Efter koncentrering, filtrering och beredning analyserades proverna med RT-qPCR-teknik för SARS CoV-2 RNA. Primers mot nukleokapsidgenen (N) användes för att detektera SARS-COV-2-genen (tidigare använt och verifierat av [Medema et al (2020)](https://doi.org/10.1016/j.scitotenv.2020.142939). I vissa fall har det råa avloppsvattnet frusits ​​vid –20 °C och koncentrerat avloppsvatten eller renat RNA har lagrats vid -80°C innan nästa analyssteg genomfördes. Koncentrationsmetoden som använddes av prof. Zeynep Cetecioglu Gurol och hennes kollegor baseras på forskargruppens publicerade artikel ([Jafferali et al, 2021](https://doi.org/10.1016/j.scitotenv.2020.142939)) som jämför fyra olika metoder för att koncentrera avloppsvatten.  Studiens slutsats var att den dubbla ultrafiltreringsmetoden som anpassats av KTH gruppen  har betydligt högre effektivitet jämfört med enstaka filtrerings- och adsorptionsmetoder. För detaljerad information om metoden, se publikationen.
 
-**Ladda ner data:** [Mängd SARS CoV-2 RNA per vecka i råavloppsvatten, med bovin faktor och PPMoV faktor, Excel-fil](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Stockholm.xlsx). Uppgifterna delas av Inlet Henriksdal, Sickla, Hässelby, Järva, Riksby och Käppala. Data tillgänglig (delvis) från och med vecka 16 2020; uppdateras varje vecka.
+**Ladda ner data:** [Mängd SARS CoV-2 RNA per vecka i råavloppsvatten, med bovin faktor och PPMoV faktor, Excel-fil](https://blobserver.dc.scilifelab.se/blob/wastewater_data_Stockholm.xlsx). Uppgifterna delas av Inlet Henriksdal, Sickla, Hässelby, Järva, Riksby och Käppala. Data tillgänglig (delvis) från och med vecka 16 2020; uppdateras varje vecka.
 
 **Referera till detta dataset:**
 Cetecioglu Z G, Williams, C, Khatami, K, Atasoy, M, Nandy, P, Jafferali, M H, Birgersson, M. SARS-CoV-2 Wastewater Data from Stockholm, Sweden. [https://doi.org/10.17044/scilifelab.14315483](https://doi.org/10.17044/scilifelab.14315483) (2021).
@@ -37,4 +37,4 @@ Cetecioglu Z G, Williams, C, Khatami, K, Atasoy, M, Nandy, P, Jafferali, M H, Bi
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
 
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/956f9390690043b8ae5f62b90d22f84f.js?id=stockholm_combined"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/956f9390690043b8ae5f62b90d22f84f.js?id=stockholm_combined"></script>

@@ -1,5 +1,5 @@
 ---
-title: Hem
+title: Svenska dataportalen för Covid-19 & pandemisk beredskap
 teststats:
         name: Senaste statistik om covid-19 i Sverige
         desc: Sidorna visar nya dataset och visualiseringar av SARS-CoV-2 och covid-19 tester som utfört av ett antal olika faciliteter.

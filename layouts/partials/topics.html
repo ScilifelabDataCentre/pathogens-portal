@@ -1,0 +1,17 @@
+{{ $topics := slice "covid_19" "antibiotic_resistance" "infectious_diseases" "mpox" "enteric_viruses" }}
+<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 g-lg-3">
+  {{ range .Site.Menus.topics_menu }}
+    {{ if (in $topics .Identifier) }}
+      <div class="col">
+        <div class="bg-card">
+          <figure class="figure">
+            <img class="topics-image figure-img" src="{{ with .Page.Params.banner }}{{ . }}{{ else }}{{ "/img/plp_default.png" }}{{ end }}">
+            <figcaption class="figure-caption font-italic">{{ .Page.Params.credits }}</figcaption>
+          </figure>
+          <h6><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></h6>
+          <p>{{ .Page.Description }}</p>
+        </div>
+      </div>
+    {{ end }}
+  {{ end }}
+</div>
