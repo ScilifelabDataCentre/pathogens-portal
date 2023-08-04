@@ -39,6 +39,8 @@ The work on this dashboard is divided according to different topics explored. Se
 
 - [**SARS-CoV-2 quantification**](/dashboards/wastewater/covid_quantification/): Data, visualisations, and information related to the quantification of SARS-CoV-2 in wastewater in differnt areas of Sweden. All three groups share data on this topic, and cover diferent areas of Sweden. It is possible to navigate directly to the group(s) providing data on the area(s) of interest to you.
 
+- [**Enteric virus quantification**](/dashboards/wastewater/enteric_quantification/): Data, visualisations, and information related to the quantification of enteric viruses in wastewater Gothenburg. This data is collected, analysed, and shared by the Norder group at Gothenburg university (GU).
+
 ## Availability of code
 
 All code used to produce the visualisations on the tabs on this dashboard is available on [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/wastewater). The particular scripts used in each case are linked below the individual visualisations.

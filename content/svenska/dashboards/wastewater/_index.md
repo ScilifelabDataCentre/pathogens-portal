@@ -5,21 +5,21 @@ banner: /dashboard_thumbs/wastewater.jpg
 inline_toc: true
 type: wastewater
 menu:
-    dashboard_menu:
-        identifier: wastewater
-        name: Avloppsvattensepidemiologiska analyser i Sverige
-    other_data:
-        name: Environment
-        identifier: environment
-        weight: 50
-    wastewater:
-        name: Introduktion
-        weight: 10
+  dashboard_menu:
+    identifier: wastewater
+    name: Avloppsvattensepidemiologiska analyser i Sverige
+  other_data:
+    name: Environment
+    identifier: environment
+    weight: 50
+  wastewater:
+    name: Introduktion
+    weight: 10
 plotly: true
 aliases:
-    - /sv/data_types/environment/wastewater/
-    - /sv/data_types/environment/
-    - /sv/dashboards/wastewater/introduction/
+  - /sv/data_types/environment/wastewater/
+  - /sv/data_types/environment/
+  - /sv/dashboards/wastewater/introduction/
 ---
 
 <div class="alert alert-info"><b>Notera:</b> Dashboarden för avloppsvatten kommer att utökas framöver. Vi har nu grupperat mätningarna för mängden av SARS-CoV-2 i avloppsvatten enligt den forskargrupp som samlade in och analyserade respektive data (se nedan för information om de deltagande grupperna). Under kommande månader kommer mer data och information om SARS-CoV-2 och andra infektionssjukdomar att läggas till. </span></div>
@@ -38,9 +38,11 @@ Forskningen som visas på den här dashboarden är uppdelat efter de olika patho
 
 - [**SARS-CoV-2 kvantifiering**](/sv/dashboards/wastewater/covid_quantification): Data, visualiseringar och information kopplad till kvantifiering av SARS-CoV-2 i avloppsvatten från olika delar av Sverige. Alla tre forskargrupperna delar data relaterat till SARS-CoV-2 I avloppsvatten, deras mätningar täcker olika områden i Sverige. Det går att navigera direkt till den grupp(er) som tillhandahåller data för ett geografiskt områden som är av intresse.
 
+- [**Enteriska virus kvantifiering**](/sv/dashboards/wastewater/enteric_quantification/): Data, visualiseringar och information kopplad till kvantifiering av enteriska virus i avloppsvatten från Göteborg. Dessa data har samlats in, analyserats och delats av Nordergruppen vid Göteborgs universitet (GU).
+
 ## Tillgänglighet av källkod
 
-All källkod som skapats för visualiseringarna under de olika  flikarna på denna dashboard finns öppet tillgänglig på [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/wastewater). Skript som används för respektive visualisering finns tillgängligt under respektive visualisering.
+All källkod som skapats för visualiseringarna under de olika flikarna på denna dashboard finns öppet tillgänglig på [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/wastewater). Skript som används för respektive visualisering finns tillgängligt under respektive visualisering.
 
 ## Karta över platser där prover samlas in
 
@@ -54,9 +56,9 @@ Nedan finns en karta som visar de avloppsreningsverk (på engelska wastewater tr
 
 ## Bakgrund: Avloppsvattenbaserad epidemiologi
 
-Många genom från patogener, inklusive SARS-CoV-2, kan med hjälp av metoden polymeraskedjereaktion (PCR) detekteras i avföringsprov som har samlats in från infekterade individer (t.ex. COVID-19-patienter) [Wu *et al*. (2020)](https://doi.org/10.1016/S2468-1253(20)30083-2). Övervakning av nivåerna av patogener (t.ex. SARS CoV-2) i avloppsvatten från samhällen kan därför ge en tidig indikation på sjukdomsprevalensen på befolkningsnivå, så kallad avloppsvattenbaserad epidemiologi ([Corpuz *et al.*, 2020](https://doi.org/10.1016/j.scitotenv.2020.140910)).
+Många genom från patogener, inklusive SARS-CoV-2, kan med hjälp av metoden polymeraskedjereaktion (PCR) detekteras i avföringsprov som har samlats in från infekterade individer (t.ex. COVID-19-patienter) [Wu _et al_. (2020)](<https://doi.org/10.1016/S2468-1253(20)30083-2>). Övervakning av nivåerna av patogener (t.ex. SARS CoV-2) i avloppsvatten från samhällen kan därför ge en tidig indikation på sjukdomsprevalensen på befolkningsnivå, så kallad avloppsvattenbaserad epidemiologi ([Corpuz _et al._, 2020](https://doi.org/10.1016/j.scitotenv.2020.140910)).
 
-Avloppsvatten av består spillvatten, dagvatten och kylvatten. Dagvatten kommer från hushåll och fastigheter, exempelvis från kök, toaletter och duschar. Det kan också inkludera vatten från regn och från industriellt bruk. Prover tas regelbundet vid avloppsreningsanläggningar, vilket gör det möjligt att jämföra virusbelastningen över tid. Det har tidigare visats att mängden SARS-CoV-2-virus i avloppsvatten kan ge en indikation på ökad smittspridning bland befolkningen och även att mängden SARS-CoV-2 i avloppsvatten korrelerar med antal fall av COVID-19 och antal patienter som behöver sjukhusvård, se [Peccia *et al.* (2020)](https://doi.org/10.1038/s41587-020-0684-z). Nyligen visade också [Wang *et al.* (2022)](https://pubmed.ncbi.nlm.nih.gov/36035197/) att nivån av SARS-CoV-2 i avloppsvatten ökade 1-2 veckor innan det fanns en ökning av antalet COVID-19-patienter i behov av sjukhusvård. Under COVID-19-pandemin har övervakning av nivån av SARS-CoV-2 i avloppsvatten blivit en vanlig metod för att följa och förutsäga smittspridning.
+Avloppsvatten av består spillvatten, dagvatten och kylvatten. Dagvatten kommer från hushåll och fastigheter, exempelvis från kök, toaletter och duschar. Det kan också inkludera vatten från regn och från industriellt bruk. Prover tas regelbundet vid avloppsreningsanläggningar, vilket gör det möjligt att jämföra virusbelastningen över tid. Det har tidigare visats att mängden SARS-CoV-2-virus i avloppsvatten kan ge en indikation på ökad smittspridning bland befolkningen och även att mängden SARS-CoV-2 i avloppsvatten korrelerar med antal fall av COVID-19 och antal patienter som behöver sjukhusvård, se [Peccia _et al._ (2020)](https://doi.org/10.1038/s41587-020-0684-z). Nyligen visade också [Wang _et al._ (2022)](https://pubmed.ncbi.nlm.nih.gov/36035197/) att nivån av SARS-CoV-2 i avloppsvatten ökade 1-2 veckor innan det fanns en ökning av antalet COVID-19-patienter i behov av sjukhusvård. Under COVID-19-pandemin har övervakning av nivån av SARS-CoV-2 i avloppsvatten blivit en vanlig metod för att följa och förutsäga smittspridning.
 
 Analyser av avloppsvatten ska i första hand ses som ett övervakningssystem. Tillsammans med annan data, t.ex. infektionstestning, intensivvårdsinläggningar etc. kan analyser av avloppsvatten hjälpa till att förstå den regionala dynamiken i sjukdomsutbrott.
 
