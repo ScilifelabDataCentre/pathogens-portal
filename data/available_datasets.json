@@ -1,6 +1,120 @@
 {
-    "last_updated": "2023-06-12",
+    "last_updated": "2023-07-31",
     "datasets": [
+        {
+            "doi": "10.1101/2023.07.05.23292245",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Data used in modelling, including location and population size.",
+                    "data_type": [
+                        "Biochemistry data",
+                        "Serology data",
+                        "Health data"
+                    ],
+                    "data_url": "https://github.com/covid19-forecast-hub-europe/aggregation-info-loss/tree/main/data"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Data processing code in R is available on Github",
+                    "data_type": [
+                        "Biochemistry data",
+                        "Serology data",
+                        "Health data"
+                    ],
+                    "data_url": "https://github.com/covid19-forecast-hub-europe/aggregation-info-loss/tree/main/code"
+                }
+            ],
+            "title": "Characterising information loss due to aggregating epidemic model outputs",
+            "issue": "",
+            "volume": "",
+            "publisher": "Cold Spring Harbor Laboratory",
+            "published": "2023-07-07",
+            "author": [
+                "Sherratt K.",
+                "Srivastava A.",
+                "Ainslie K.",
+                "Singh D. E.",
+                "Cublier A."
+            ]
+        },
+        {
+            "doi": "10.1016/j.lanepe.2023.100646",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Data processing code in R is available on Github",
+                    "data_type": [
+                        "Health data",
+                        "Serology data",
+                        "Public health data",
+                        "Biochemistry data"
+                    ],
+                    "data_url": "https://github.com/johanssonresearch/Correlate-of-vaccine-protection-against-fatal-COVID-19"
+                }
+            ],
+            "title": "Vaccine-induced correlate of protection against fatal COVID-19 in older and frail adults during waves of neutralization-resistant variants of concern: an observational study",
+            "issue": "",
+            "volume": "30",
+            "publisher": "Elsevier BV",
+            "published": "2023-07-03",
+            "author": [
+                "Vikström L.",
+                "Fjällström P.",
+                "Gwon Y.",
+                "Sheward D. J.",
+                "Wigren-Byström J."
+            ]
+        },
+        {
+            "doi": "10.1101/2023.06.14.23290814",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "Figshare",
+                    "accession_number": "",
+                    "description": "Clinical data and biobanks samples from 250 critically ill COVID-19 patients. Appropriate permits are required for access.",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Biochemistry data",
+                        "Serology data",
+                        "Health data"
+                    ],
+                    "data_url": "https://doi.org/10.17044/scilifelab.14229410.v1"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "BQC-19",
+                    "accession_number": "",
+                    "description": "Data from the BQC-19 repository is available after appropriate permissions and data access agreements",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Biochemistry data",
+                        "Serology data",
+                        "Health data"
+                    ],
+                    "data_url": "https://en.quebeccovidbiobank.ca/"
+                }
+            ],
+            "title": "Sustained IFN signaling is associated with delayed development of SARS-CoV-2-specific immunity",
+            "issue": "",
+            "volume": "",
+            "publisher": "Cold Spring Harbor Laboratory",
+            "published": "2023-06-20",
+            "author": [
+                "Brunet-Ratnasingham E.",
+                "Morin S.",
+                "Randolph H. E.",
+                "Labrecque M.",
+                "Bélair J."
+            ]
+        },
         {
             "doi": "10.3389/fpsyg.2023.1124627",
             "available_items": [
