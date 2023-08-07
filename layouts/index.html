@@ -154,11 +154,29 @@
     </div>
     {{ end }}
 
-    <!-- About the portal -->
-    <div class="row mt-4 mb-3">
-      <h4>{{ if eq $.Site.Language.LanguageName "Svenska" }}Om dataportalen{{ else }}About this portal{{ end }}</h4>
-      {{ .Content }}
+    {{ if ne $.Site.Language.LanguageName "Svenska" }}
+    <!-- Funding opportunities -->
+    <div class="row mt-4">
+      <h4>Funding opportunities</h4>
     </div>
+    <div class="row px-2">
+      <div class="border ms-1 p-3" id="news-items-container">
+        {{ $nextCalls := sort $.Site.Data.funding.calls "submission_deadline" "asc" }}
+        {{ range $ind, $cont := first 3 (where $nextCalls "submission_deadline" "ge" (now | time.Format "2006-01-02")) }}
+        <div>
+          <div class="small text-muted">{{ $cont.submission_deadline | time.Format "2006-01-02" }}</div>
+          <div><a href="{{ .call_url }}">{{ $cont.call_title }}</a></div>
+        </div>
+        {{ if ne $ind 2}} <div class="px-4 py-0">
+          <hr>
+        </div> {{ end }}
+        {{ end }}
+        <div class="mt-3">
+          <a href="/funding/">See all funding opportunities <i class="bi bi-arrow-right-circle-fill"></i></a>
+        </div>
+      </div>
+    </div>
+    {{ end }}
 
     <!-- Share your data ad -->
     <div class="row ps-2">
