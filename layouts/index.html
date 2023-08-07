@@ -164,8 +164,8 @@
         {{ $nextCalls := sort $.Site.Data.funding.calls "submission_deadline" "asc" }}
         {{ range $ind, $cont := first 3 (where $nextCalls "submission_deadline" "ge" (now | time.Format "2006-01-02")) }}
         <div>
-          <div class="small text-muted">{{ $cont.submission_deadline | time.Format "2006-01-02" }}</div>
           <div><a href="{{ .call_url }}">{{ $cont.call_title }}</a></div>
+          <div class="small text-muted">Submission deadline: {{ $cont.submission_deadline | time.Format "2006-01-02" }}</div>
         </div>
         {{ if ne $ind 2}} <div class="px-4 py-0">
           <hr>
@@ -176,6 +176,13 @@
         </div>
       </div>
     </div>
+    {{ end }}
+
+    {{ if ne $.Site.Language.LanguageName "Svenska" }}
+    <!-- Events -->
+    <section id="events-section">
+      <!-- The events content will filled by JS function below -->
+    </section>
     {{ end }}
 
     <!-- Share your data ad -->
@@ -200,6 +207,76 @@
     </div>
   </div>
 </div>
+
+<script>
+  // Functions need to be run when the DOM is ready
+  document.addEventListener("DOMContentLoaded", function (event) {
+    // Takes a URL and calls the callback function pass the data fetched
+    function getDataFromUrl(url, load_callback) {
+      var req = new XMLHttpRequest();
+      req.overrideMimeType("application/json");
+      req.open("GET", url, true);
+      // The function call for fetching data and display
+      req.onload = function () {
+        load_callback(JSON.parse(req.responseText).items);
+      };
+
+      req.send(null);
+    } // function "getDataFromUrl" ends here
+
+    function addEvents(dataArray) {
+      var eventList = [];
+      // Not interested if the deadline has already passed
+      dataArray.forEach((event) => {
+        event.banner_date = event.date_start || event.registration_deadline;
+        if (typeof event.banner_date !== 'undefined') {
+          if (new Date(event.banner_date) >= new Date().setHours(0, 0, 0, 0)) {
+            eventList.push(event);
+          }
+        }
+      }); // dataArray for each ends here
+
+      // Sort the arrays
+      eventList = eventList.sort((a, b) => (a.banner_date > b.banner_date) ? 1 : (a.banner_date < b.banner_date) ? -1 : 0);
+
+      var eventsHTML = `<div class="row mt-4">
+                           <h4>Events</h4>
+                          </div>
+                          <div class="row px-2">
+                           <div class="border ms-1 p-3" id="news-items-container">`;
+      var count = 0;
+      eventList.forEach((event, ind) => {
+        if (count < 3) {
+          var event_date = new Date(event.banner_date);
+          eventsHTML += `   <div>
+                             <div class="small text-muted">${event_date.getDate()}</div>
+                             <div><a class="" role="button" data-bs-toggle="modal"
+                              data-bs-target="#descriptionModal${ind}">${event.title}</a></div>
+                            </div>
+                            <div class="px-4 py-0">
+                             <hr>
+                               </div>`;
+          count++;
+        }
+      }); // for each events iteration to create html ends here
+
+      eventsHTML += ` <div class="mt-3">
+                        <a href="/events/">See all events <i class="bi bi-arrow-right-circle-fill"></i></a>
+                        </div>
+                        </div>
+                        </div>`;
+      var eventsSection = document.getElementById('events-section');
+      eventsSection.innerHTML = eventsHTML;
+    } // function "addEvents" ends here
+
+    // Call the function to fetch, parse and display events
+    getDataFromUrl(
+      decodeURIComponent("https%3A%2F%2Fblobserver.dc.scilifelab.se%2Fblob%2Fcovid_portal_events.json"),
+      addEvents
+    );
+
+  }); // Document "DOMContentLoaded" trigger ends here
+</script>
 
 <script>
   // Add latest tag to very recent news when content is loaded
