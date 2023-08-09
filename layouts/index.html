@@ -160,7 +160,7 @@
       <h4>Funding opportunities</h4>
     </div>
     <div class="row px-2">
-      <div class="border ms-1 p-3" id="news-items-container">
+      <div class="border ms-1 p-3">
         {{ $nextCalls := sort $.Site.Data.funding.calls "submission_deadline" "asc" }}
         {{ range $ind, $cont := first 3 (where $nextCalls "submission_deadline" "ge" (now | time.Format "2006-01-02")) }}
         <div>
@@ -243,19 +243,31 @@
                            <h4>Events</h4>
                           </div>
                           <div class="row px-2">
-                           <div class="border ms-1 p-3" id="news-items-container">`;
+                           <div class="border ms-1 p-3 mb-4" id="news-items-container">`;
       var count = 0;
       eventList.forEach((event, ind) => {
         if (count < 3) {
           var event_date = new Date(event.banner_date);
           eventsHTML += `   <div>
-                             <div class="small text-muted">${event_date.getDate()}</div>
                              <div><a class="" role="button" data-bs-toggle="modal"
-                              data-bs-target="#descriptionModal${ind}">${event.title}</a></div>
-                            </div>
-                            <div class="px-4 py-0">
-                             <hr>
+                              data-bs-target="#descriptionModal${ind}">${event.title}</a></div>`;
+                              if (event.date_end !== undefined) {
+                                const endDate = new Date(event.date_end).toLocaleDateString(undefined, { month: '2-digit', day: '2-digit' }).replace(/\//g, '-'); // Replace slashes with dashes;
+                                eventsHTML += `<div class="small text-muted">Date: From ${event.date_start} until ${endDate}</div>
+                              </div>
+                              <div class="px-4 py-0">`;
+                              }  else {
+                                eventsHTML += `<div class="small text-muted">Date: ${event.date_start}</div>
+                              </div>
+                              <div class="px-4 py-0">`;
+                                
+                              }
+                              if (count !== 2) {
+          eventsHTML += `      <hr>
                                </div>`;
+                              } else 
+                              eventsHTML += `
+                                  </div>`;
           count++;
         }
       }); // for each events iteration to create html ends here
