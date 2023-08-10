@@ -155,12 +155,19 @@
     {{ end }}
 
     {{ if ne $.Site.Language.LanguageName "Svenska" }}
+    <!-- Events -->
+    <section id="events-section">
+      <!-- The events content will filled by JS function below -->
+    </section>
+    {{ end }}
+
+    {{ if ne $.Site.Language.LanguageName "Svenska" }}
     <!-- Funding opportunities -->
     <div class="row mt-4">
       <h4>Funding opportunities</h4>
     </div>
     <div class="row px-2">
-      <div class="border ms-1 p-3">
+      <div class="border ms-1 p-3 mb-4">
         {{ $nextCalls := sort $.Site.Data.funding.calls "submission_deadline" "asc" }}
         {{ range $ind, $cont := first 3 (where $nextCalls "submission_deadline" "ge" (now | time.Format "2006-01-02")) }}
         <div>
@@ -176,13 +183,6 @@
         </div>
       </div>
     </div>
-    {{ end }}
-
-    {{ if ne $.Site.Language.LanguageName "Svenska" }}
-    <!-- Events -->
-    <section id="events-section">
-      <!-- The events content will filled by JS function below -->
-    </section>
     {{ end }}
 
     <!-- Share your data ad -->
@@ -243,7 +243,7 @@
                            <h4>Events</h4>
                           </div>
                           <div class="row px-2">
-                           <div class="border ms-1 p-3 mb-4" id="news-items-container">`;
+                            <div class="border ms-1 p-3">`;
       var count = 0;
       eventList.forEach((event, ind) => {
         if (count < 3) {
