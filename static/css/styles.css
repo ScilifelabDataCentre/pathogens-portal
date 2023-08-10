@@ -611,7 +611,6 @@ table.no-last-row-border > tbody > tr:last-child {
 .event-homepage {
     background-color: #6c757d;
     color: white;
-    max-width: 25%;
   }
 
 .event-type{
