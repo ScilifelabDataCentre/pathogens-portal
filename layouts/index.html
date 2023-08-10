@@ -173,7 +173,7 @@
         {{ range $ind, $cont := first 3 (where $nextCalls "submission_deadline" "ge" (now | time.Format "2006-01-02")) }}
         <div>
           <div class="d-flex justify-content-between align-items-center">
-            <div><a class="" role="button" href="{{ .call_url }}">{{ $cont.call_title }}</a></div>
+            <div><a class="" role="button" href="{{ .call_url }}" target="_blank">{{ $cont.call_title }}</a></div>
             <div>
               <div class="px-2 pb-1 m-2 d-flex flex-column rounded event-homepage mw-100">
                 <div class="px-2 fs-3 mx-auto">{{ $cont.submission_deadline | time.Format "02" }}</div>
@@ -259,7 +259,7 @@
           var event_date = new Date(event.banner_date);
           eventsHTML += `   <div>
                               <div class="d-flex justify-content-between align-items-center">
-                                <div><a class="" role="button" href="/events/">${event.title}</a>
+                                <div><a class="" role="button" href="/events/" target="_blank">${event.title}</a>
                                 </div>
                                 <div>
                                   <div class="px-2 pb-1 m-2 d-flex flex-column rounded event-homepage mw-100">
