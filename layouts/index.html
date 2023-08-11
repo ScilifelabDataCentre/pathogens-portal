@@ -154,6 +154,12 @@
     </div>
     {{ end }}
 
+    <!-- About the portal -->
+    {{ if eq $.Site.Language.LanguageName "Svenska" }}
+    <div class="row mt-4 mb-3">
+      <h4>Om dataportalen</h4>
+      {{ .Content }}{{ end }}
+
     {{ if ne $.Site.Language.LanguageName "Svenska" }}
     <!-- Events -->
     <section id="events-section">
@@ -165,7 +171,7 @@
     <!-- Funding opportunities -->
     <div class="row mt-4">
       <h4>Funding opportunities</h4>
-      <p class="small text-muted">and their submission deadlines</p>
+      <p class="small text-muted">The titles and submission deadlines of upcoming funding opportunities.</p>
     </div>
     <div class="row px-2">
       <div class="border ms-1 p-3 mb-4">
@@ -251,7 +257,7 @@
 
       var eventsHTML = `<div class="row mt-4">
                            <h4>Events</h4>
-                           <p class="small text-muted">and their start date</p>
+                           <p class="small text-muted">The titles and start dates of upcoming events.</p>
                         </div>
                           <div class="row px-2">
                             <div class="border ms-1 p-3">`;
