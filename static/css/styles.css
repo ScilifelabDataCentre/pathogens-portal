@@ -608,6 +608,11 @@ table.no-last-row-border > tbody > tr:last-child {
   color: white;
 }
 
+.event-homepage {
+    background-color: #6c757d;
+    color: white;
+  }
+
 .event-type{
   background-color: #6c757d;
   color: white;
