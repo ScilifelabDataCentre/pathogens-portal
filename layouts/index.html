@@ -176,7 +176,7 @@
             <div><a class="" role="button" href="{{ .call_url }}" target="_blank">{{ $cont.call_title }}</a></div>
             <div>
               <div class="px-2 pb-1 m-2 d-flex flex-column rounded event-homepage mw-100">
-                <div class="px-2 fs-3 mx-auto">{{ $cont.submission_deadline | time.Format "02" }}</div>
+                <div class="px-2 fs-5 mx-auto">{{ $cont.submission_deadline | time.Format "02" }}</div>
                 <div class="pb-1 px-2 mx-auto">{{ $cont.submission_deadline | time.Format "Jan" }}</div>
               </div>
             </div>
@@ -263,7 +263,7 @@
                                 </div>
                                 <div>
                                   <div class="px-2 pb-1 m-2 d-flex flex-column rounded event-homepage mw-100">
-                                    <div class="px-2 fs-3 mx-auto">${event_date.getDate().toString().padStart(2, '0')}</div>
+                                    <div class="px-2 fs-5 mx-auto">${event_date.getDate().toString().padStart(2, '0')}</div>
                                     <div class="pb-1 px-2 mx-auto">${event_date.toLocaleString('default', { 'month': 'short' })}</div>
                                   </div>
                                 </div>
