@@ -5,7 +5,11 @@
   <div class="col-md-8 vert-line-right mt-3">
 
     {{ if ne $.Site.Language.LanguageName "Nederlands" }}
-    The <a href = "https://www.health-ri.nl/initiatives/dutch-covid-19-data-support-programme"> Dutch COVID-19 Data Support Programme</a> supports investigators and health care professionals with tools and services in their search for ways to overcome the pandemic and its health consequences. A specific component of this support program is the <a href = "https://covid19initiatives.health-ri.nl/p/ProjectOverview"> Dutch National COVID-19 metadata portal</a>, where information about covid-related projects within the Netherlands can be found. Guidance and answers on Ethical, Legal, and Societal Impact (ELSI) implications, of e.g. research on personalised medicine and next generation sequencing, can be requested via the <a href = "https://elsi.health-ri.nl/"> servicedesk</a> (in Dutch).
+    The <a href = "https://www.health-ri.nl/initiatives/dutch-covid-19-data-support-programme"> Dutch COVID-19 Data Support Programme</a> supports investigators and health care professionals with tools and services in their search for ways to overcome the pandemic and its health consequences. Specific component of this support program are
+<ul>
+  <li>The <a href = "https://covid19initiatives.health-ri.nl/p/ProjectOverview"> Dutch National COVID-19 metadata portal</a>, where information about covid-related projects within the Netherlands can be found.</li>
+  <li>The <a href = "https://elsi.health-ri.nl/">ELSI servicedesk</a> (in Dutch), which provides guidance and answers on Ethical, Legal, and Societal Impact (ELSI) implications of e.g. research on personalised medicine and next generation sequencing.</li>
+  <li>The <a href = "https://www.infectious-diseases-toolkit.org/national-resources/netherlands">Dutch national resources</a> page on the infectious disease toolkit website discusses infectious disease research in the Netherlands and provides information on relevant health authorities and initiatives. In addition, the page offers a collection of key considerations for researchers such as regulations for data handling and disease control.</li>
     <!-- Available data -->
     {{ $all_entries := $.Site.Data.available_datasets.datasets }}
     {{/*
