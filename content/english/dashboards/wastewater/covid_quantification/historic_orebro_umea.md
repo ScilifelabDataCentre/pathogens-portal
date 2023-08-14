@@ -15,7 +15,7 @@ In the plots plots below, the amount of SARS-CoV-2 for each week is measured/dep
 
 ### Amount of SARS-CoV-2 in Umeå wastewater between between October 2020 and June 2021
 
-**Download the data:** [Gene copy number change (%) relative to 6th Nov 2020 and flow level at each measurement day and weekly numbers, Excel file.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Umeaa.xlsx). Data will be available from week 44 of 2020 until week 22 of 2021.
+**Download the data:** [Gene copy number change (%) relative to 6th Nov 2020 and flow level at each measurement day and weekly numbers, Excel file.](https://blobserver.dc.scilifelab.se/blob/wastewater_data_Umeaa.xlsx). Data will be available from week 44 of 2020 until week 22 of 2021.
 
 **How to cite:**
 Malmberg, M., Myrmel, M. & Khatri, M. Dataset of SARS-CoV-2 in wastewater in Umeå, Sweden. [https://doi.org/10.17044/scilifelab.14376881.v1](https://doi.org/10.17044/scilifelab.14376881.v1) (2021).
@@ -34,7 +34,7 @@ Malmberg, M., Myrmel, M. & Khatri, M. Dataset of SARS-CoV-2 in wastewater in Ume
 
 ### Amount of SARS-CoV-2 in Örebro wastewater between October 2020 and June 2021
 
-**Download the data:** [Gene copy number change (%) relative to 6th Nov 2020 and flow level at each measurement day and weekly numbers, Excel file.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Orebro.xlsx). Data will be available from week 42 of 2020 until week 22 of 2021.
+**Download the data:** [Gene copy number change (%) relative to 6th Nov 2020 and flow level at each measurement day and weekly numbers, Excel file.](https://blobserver.dc.scilifelab.se/blob/wastewater_data_Orebro.xlsx). Data will be available from week 42 of 2020 until week 22 of 2021.
 
 **How to cite:**
 Malmberg, M., Myrmel, M. & Khatri, M. Dataset of SARS CoV-2 in wastewater in Örebro, Sweden. [https://doi.org/10.17044/scilifelab.14377097.v1](https://doi.org/10.17044/scilifelab.14377097.v1) (2021).
@@ -55,5 +55,5 @@ Malmberg, M., Myrmel, M. & Khatri, M. Dataset of SARS CoV-2 in wastewater in Ör
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
 
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/030ac237d44248dda87e2c9277a49cc7.js?id=umea_combined"></script>
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/fe03ef2220814eeeb3e99eb26a7c46e2.js?id=orebro_combined"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/030ac237d44248dda87e2c9277a49cc7.js?id=umea_combined"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/fe03ef2220814eeeb3e99eb26a7c46e2.js?id=orebro_combined"></script>

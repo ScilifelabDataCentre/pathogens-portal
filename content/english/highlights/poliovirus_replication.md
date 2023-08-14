@@ -6,7 +6,7 @@ banner: /highlights/banners/segmentation_highReso.jpeg
 banner_large: /highlights/banners/segmentation_highReso_large.jpeg
 banner_caption: A cryo-electron tomogram gives a 3D view of a poliovirus-infected cell six hours after infection. Newly produced virus capsids that have not yet been loaded with the viral genome are shown in white, whereas new particles that are loaded with the viral genome, and thus infectious, are shown in red. Double-membrane structures, that related to the cellular pathway of autophagy, are shown in purple. For scale, the capsids have a diameter of 30 nanometers.
 toc: false
-highlights_topics: [Infectious diseases]
+highlights_topics: [Infectious diseases, Enteric viruses]
 aliases:
     - /news/poliovirus_replication
     - /sv/news/poliovirus_replication

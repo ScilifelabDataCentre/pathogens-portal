@@ -12,6 +12,12 @@ menu:
         weight: 30
 ---
 
+<div class="alert alert-info">
+    <i class="bi bi-exclamation-circle-fill"></i>
+    <span><i>Antibiotic resistance</i> is a new topic on the Portal, and we are currently working on adding more
+    information.</span>
+</div>
+
 ## Background
 
 COVID-19 has been the focus of people across the world during the last two years of the current pandemic. **Antibiotic resistance**, by contrast, has been termed a 'silent pandemic' because whilst, like COVID-19, it is widespread and poses a real and present danger to public health, it is receiving relatively little attention.

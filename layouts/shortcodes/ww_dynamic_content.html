@@ -1,51 +1,63 @@
 <script>
    var metadata_url = new Array();
-   metadata_url[0] = "https://blobserver.dckube.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx/info.json";
-   metadata_url[1] = "https://datagraphics.dckube.scilifelab.se/api/dataset/0ac8fa02871745048491de74e5689da9";
-   metadata_url[2] = "https://blobserver.dckube.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx/info.json";
-   metadata_url[3] = "https://blobserver.dckube.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx/info.json";
-   metadata_url[4] = "https://blobserver.dckube.scilifelab.se/blob/wastewater_comment_slu.json";
-   metadata_url[5] = "https://blobserver.dckube.scilifelab.se/blob/wastewater_comment_kth.json";
-   metadata_url[6] = "https://blobserver.dckube.scilifelab.se/blob/wastewater_comment_gu.json";
+   metadata_url[0] = "https://blobserver.dc.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx/info.json";
+
+   metadata_url[1] = "https://blobserver.dc.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx/info.json";
+   metadata_url[2] = "https://datagraphics.dc.scilifelab.se/api/dataset/0ac8fa02871745048491de74e5689da9";
+   metadata_url[3] = "https://blobserver.dc.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx/info.json";
+   metadata_url[4] = "https://blobserver.dc.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx/info.json";
+   metadata_url[5] = "https://blobserver.dc.scilifelab.se/blob/wastewater_comment_slu.json";
+   metadata_url[6] = "https://blobserver.dc.scilifelab.se/blob/wastewater_comment_kth.json";
+   metadata_url[7] = "https://blobserver.dc.scilifelab.se/blob/wastewater_comment_gu.json";
+   metadata_url[8] = "https://blobserver.dc.scilifelab.se/blob/enteric_ww_comment_gu.json";
+
 
 
    var els = new Array();
    els[0] = "last_modified_gu"
-   els[1] = "last_modified_uppsala"
-   els[2] = "last_modified_stockholm"
-   els[3] = "last_modified_malmo"
-   els[4] = "slu_comment_date"
-   els[5] = "slu_comment"
-   els[6] = "kth_comment_date"
-   els[7] = "kth_comment"
-   els[8] = "gu_comment_date"
-   els[9] = "gu_comment"
+   els[1] = "last_modified_enteric"
+   els[2] = "last_modified_uppsala"
+   els[3] = "last_modified_stockholm"
+   els[4] = "last_modified_malmo"
+   els[5] = "slu_comment_date"
+   els[6] = "slu_comment"
+   els[7] = "kth_comment_date"
+   els[8] = "kth_comment"
+   els[9] = "gu_comment_date"
+   els[10] = "gu_comment"
+   els[11] = "gu_enteric_comment_date"
+   els[12] = "gu_enteric_comment"
 
    var request = new Array();
 
-   for (var i = 0; i < 7; i++) {
+   for (var i = 0; i < 11; i++) {
       (function (i) {
          request[i] = new XMLHttpRequest();
          request[i].open("GET", metadata_url[i], true);
          request[i].onreadystatechange = function (oEvent) {
-            if (i < 4 & this.readyState == 4 && this.status == 200) {
+            if (i < 5 & this.readyState == 4 && this.status == 200) {
                var dataset_info = JSON.parse(this.responseText);
                document.getElementById(els[i]).innerText = String(dataset_info.modified).substring(0, 10);
             };
-            if (i == 4 & this.readyState == 4 && this.status == 200) {
-               var content = JSON.parse(this.responseText);
-               document.getElementById(els[4]).innerText = String(content.date);
-               document.getElementById(els[5]).innerText = String(content.comment);
-            };
             if (i == 5 & this.readyState == 4 && this.status == 200) {
                var content = JSON.parse(this.responseText);
-               document.getElementById(els[6]).innerText = String(content.date);
-               document.getElementById(els[7]).innerText = String(content.comment);
+               document.getElementById(els[5]).innerText = String(content.date);
+               document.getElementById(els[6]).innerText = String(content.comment);
             };
             if (i == 6 & this.readyState == 4 && this.status == 200) {
                var content = JSON.parse(this.responseText);
-               document.getElementById(els[8]).innerText = String(content.date);
-               document.getElementById(els[9]).innerText = String(content.comment);
+               document.getElementById(els[7]).innerText = String(content.date);
+               document.getElementById(els[8]).innerText = String(content.comment);
+            };
+            if (i == 7 & this.readyState == 4 && this.status == 200) {
+               var content = JSON.parse(this.responseText);
+               document.getElementById(els[9]).innerText = String(content.date);
+               document.getElementById(els[10]).innerText = String(content.comment);
+            };
+            if (i == 8 & this.readyState == 4 && this.status == 200) {
+               var content = JSON.parse(this.responseText);
+               document.getElementById(els[11]).innerText = String(content.date);
+               document.getElementById(els[12]).innerText = String(content.comment);
             };
          };
          request[i].send(null);

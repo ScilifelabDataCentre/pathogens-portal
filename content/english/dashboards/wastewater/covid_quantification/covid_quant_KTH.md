@@ -2,8 +2,10 @@
 title: Amount of SARS-CoV-2 in wastewater (SEEC-KTH)
 plotly: true
 aliases:
-    - /dashboards/wastewater/covid_quant_kth/
+  - /dashboards/wastewater/covid_quant_kth/
 ---
+
+<div class="alert alert-info">As of June 2023, the SARS-CoV-2 data will no longer be updated by SEEC-KTH. Data from after June 2023 is <a href="/dashboards/wastewater/covid_quantification/covid_quant_slu/">available from other research groups.</a></div>
 
 <div class="mt-3">
   <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a>
@@ -64,7 +66,7 @@ Please also note that although the same methods are used for all cities shown on
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_combined_stockholm.json" height="550px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_stockholm.json" height="550px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_stockholm_regular.py).
@@ -78,7 +80,7 @@ Please also note that although the same methods are used for all cities shown on
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/wastewater_kthmalmo.json" height="550px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_kthmalmo.json" height="550px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/quant_malmo_kthplot.py).
@@ -91,7 +93,7 @@ Please also note that although the same methods are used for all cities shown on
 
 ## Dataset
 
-**Download the data:** [N3-gene copy number per PMMoV gene copy number; Excel file](https://blobserver.dckube.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx). Results are available (partially) starting from week 16 of 2020 for Stockholm and starting from week 39 of 2021 for Malmö; updated weekly.\
+**Download the data:** [N3-gene copy number per PMMoV gene copy number; Excel file](https://blobserver.dc.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx). Results are available (partially) starting from week 16 of 2020 for Stockholm and starting from week 39 of 2021 for Malmö; updated weekly.\
 **Contact:** <zeynepcg@kth.se>
 
 **How to cite dataset:**
@@ -99,13 +101,17 @@ Cetecioglu, Z. G., Williams, C., Khatami, K., Atasoy, M., Nandy, P., Jafferali, 
 
 ## Methods
 
- To correct for variations in population size and wastewater flow, the group quantifies the pepper mild mottle virus (PMMoV) using a modified version of the assay of [Zhang *et al.* (2006)](https://doi.org/10.1371/journal.pbio.0040003). PMMoV is an abundant RNA virus in human faeces and serves as an estimator of human faecal content ([Symonds *et al.*, 2019](https://doi.org/10.1371/journal.ppat.1007639)). SARS-like virus specific N3-primers ([Lu *et al.*, 2020](https://doi.org/10.3201/eid2608.201246)) with SYBR Green chemistry ([Perez-Zabaleta *et al.*, 2023](https://doi.org/10.1016/j.scitotenv.2022.160023)) are used to quantify SARS-CoV-2.
+To correct for variations in population size and wastewater flow, the group quantifies the pepper mild mottle virus (PMMoV) using a modified version of the assay of [Zhang _et al._ (2006)](https://doi.org/10.1371/journal.pbio.0040003). PMMoV is an abundant RNA virus in human faeces and serves as an estimator of human faecal content ([Symonds _et al._, 2019](https://doi.org/10.1371/journal.ppat.1007639)). SARS-like virus specific N3-primers ([Lu _et al._, 2020](https://doi.org/10.3201/eid2608.201246)) with SYBR Green chemistry ([Perez-Zabaleta _et al._, 2023](https://doi.org/10.1016/j.scitotenv.2022.160023)) are used to quantify SARS-CoV-2.
 
-After concentration, filtering, and preparation, the samples are analysed using the qPCR technique for SARS CoV-2 RNA. Primers of the nucleocapsid (N) gene were used to detect the SARS-COV-2 gene (previously used and verified by [Medema *et al.* (2020)](https://doi.org/10.1021/acs.estlett.0c00357)). In some cases, raw wastewater samples were frozen at -20℃, and concentrated wastewater or purified RNA samples were sometimes stored at -80℃ before the next analysis step was carried out. The concentration method initially used by SEEC-KTH was based on one of their earlier studies ([Jafferali *et al.*, 2021](https://doi.org/10.1016/j.scitotenv.2020.142939)), which compared four different concentration methods. This method was used until week 35 of 2021. After this time, the group began to instead use [the Promega kit](https://se.promega.com/applications/virus-detection-assay-coronavirus-detection-covid-19-sars-cov-2/wastewater-based-epidemiology-covid19/) for the concentration step.
+After concentration, filtering, and preparation, the samples are analysed using the qPCR technique for SARS CoV-2 RNA. Primers of the nucleocapsid (N) gene were used to detect the SARS-COV-2 gene (previously used and verified by [Medema _et al._ (2020)](https://doi.org/10.1021/acs.estlett.0c00357)). In some cases, raw wastewater samples were frozen at -20℃, and concentrated wastewater or purified RNA samples were sometimes stored at -80℃ before the next analysis step was carried out. The concentration method initially used by SEEC-KTH was based on one of their earlier studies ([Jafferali _et al._, 2021](https://doi.org/10.1016/j.scitotenv.2020.142939)), which compared four different concentration methods. This method was used until week 35 of 2021. After this time, the group began to instead use [the Promega kit](https://se.promega.com/applications/virus-detection-assay-coronavirus-detection-covid-19-sars-cov-2/wastewater-based-epidemiology-covid19/) for the concentration step.
 
 ## Archived data
 
 - [Historic data for Stockholm; Gene copy number/week (raw wastewater) with bovine + PMMoV factor between April 2020 and August 2021](/dashboards/wastewater/covid_quantification/historic_stockholm).
+
+## Related data
+
+- SARS-CoV-2 variant analysis from wastewater (data available in the European Nucleotide Archive (ENA) under project number [PRJEB60156](https://www.ebi.ac.uk/ena/browser/view/PRJEB60156)): The group at KTH analysed samples from Stockholm and Malmö (2021-2022).
 
 <br>
 <div class="mt-3">

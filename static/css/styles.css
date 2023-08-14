@@ -89,6 +89,7 @@ a.nav-link:active {
 
 .nav-tabs a.nav-link {
     color: #4770B1;
+    font-weight: 500;
 }
 
 .navbar .navbar-primary-links a.nav-link:hover,
@@ -585,6 +586,11 @@ table.no-last-row-border > tbody > tr:last-child {
   background-color: #6c757d;
   color: white;
 }
+
+.event-homepage {
+    background-color: #6c757d;
+    color: white;
+  }
 
 .event-type{
   background-color: #6c757d;

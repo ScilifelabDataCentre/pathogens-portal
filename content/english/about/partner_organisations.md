@@ -62,3 +62,19 @@ title: Partner organisations
     <p><a href="https://nbis.se">NBIS (National Bioinformatics Infrastructure Sweden)</a> is a distributed national research infrastructure supported by the Swedish Research Council (Vetenskapsrådet), Science for Life Laboratory, all major Swedish universities, and the Knut and Alice Wallenberg Foundation. It provides state-of-the-art bioinformatics to the life science research community in Sweden. NBIS is also the Swedish contact point to the European infrastructure for biological information, <a href="https://www.elixir-europe.org/">ELIXIR Europe</a>.</p>
   </div>
 </div>
+<hr class="faded" />
+
+<div class="row mt-4">
+  <div class="col-sm-12 col-md-12 col-lg-3 mt-3">
+    <figure class="figure">
+      <img height="65" alt="Global Alliance for Genomics & Health logo" src="/img/logos/ga4gh_logo.png">
+    </figure>
+  </div>
+  <div class="col-sm-12 col-md-12 col-lg-9">
+      <h6>GA4GH</h6>
+    <p>The Swedish COVID-19 & Pandemic Preparedness Data Portal is one of the many partners of the <a href="https://www.ga4gh.org/">Global Alliance for Genomics and Health (GA4GH)</a> and part of their <a href="https://www.ga4gh.org/what-we-do/communities-of-interest/">Infectious Disease Community</a>.</p>
+    <p>GA4GH is an international, non-profit organisation focused on advancing the responsible and effective sharing of genomic and health-related data. GA4GH aims to establish harmonised frameworks and standards in order to promote data interoperability and collaboration in genomics research and healthcare. At the same time, the alliance focuses on fully protecting the human rights of people who share their data. GA4GH brings together experts from various sectors, including academia, industry, and government, to address the ethical, legal, and technical challenges associated with genomic data sharing.</p>
+    <p>The Infectious Disease Community, a vital component of the GA4GH, plays a crucial role in bridging the realms of pathogen and host genomics. This community brings together international groups dedicated to standardising the use of genomic data for improved diagnosis and treatment of infectious diseases. International groups within the community collaborate to identify opportunities for sharing datasets, workflows, and processes, enabling them to address complex and previously insurmountable questions. Through these collective activities, the Infectious Disease Community facilitates the advancement of genomic research, ultimately leading to improved diagnostic and treatment approaches for infectious diseases.
+    </p>
+  </div>
+</div>

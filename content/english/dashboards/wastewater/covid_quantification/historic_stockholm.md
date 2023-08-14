@@ -13,7 +13,7 @@ After concentration, filtering, and preparation, the samples are analyzed using 
 
 See also [the page of the research group where summaries of data and preliminary conclusions are presented](https://www.kth.se/water/research/covid-1.979048).
 
-**Download the data:** [Gene copy number/week (raw wastewater) with bovine + PMMoV factor; Excel file.](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_Stockholm.xlsx) Numbers for Stockholm overall and divided by Inlet Henriksdal, Sickla, Hässelby, Järva, Riksby, and Käppala are available. Results are available (partially) starting from week 16 of 2020 and until week 34 of 2021.
+**Download the data:** [Gene copy number/week (raw wastewater) with bovine + PMMoV factor; Excel file.](https://blobserver.dc.scilifelab.se/blob/wastewater_data_Stockholm.xlsx) Numbers for Stockholm overall and divided by Inlet Henriksdal, Sickla, Hässelby, Järva, Riksby, and Käppala are available. Results are available (partially) starting from week 16 of 2020 and until week 34 of 2021.
 
 **How to cite:**
 Cetecioglu Z G, Williams, C, Khatami, K, Atasoy, M, Nandy, P, Jafferali, M H, Birgersson, M. SARS-CoV-2 Wastewater Data from Stockholm, Sweden. [https://doi.org/10.17044/scilifelab.14315483](https://doi.org/10.17044/scilifelab.14315483) (2021).
@@ -34,4 +34,4 @@ Cetecioglu Z G, Williams, C, Khatami, K, Atasoy, M, Nandy, P, Jafferali, M H, Bi
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
 
-<script src="https://datagraphics.dckube.scilifelab.se/graphic/956f9390690043b8ae5f62b90d22f84f.js?id=stockholm_combined"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/956f9390690043b8ae5f62b90d22f84f.js?id=stockholm_combined"></script>

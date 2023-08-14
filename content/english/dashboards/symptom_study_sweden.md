@@ -26,7 +26,7 @@ COVID Symptom Study Sweden has two main objectives. The first objective is to in
 Below are estimates of the prevalence of symptomatic COVID-19 cases in various counties in Sweden. The estimates are made based on the app users' data using the prediction model developed by the team of researchers behind the COVID Symptoms Study Sweden; see [this page](https://www.covid19app.lu.se/artikel/uppdatering-av-prediktionsmodell-0) for more information about the prediction model (only available in Swedish). More detailed prevalence estimates and other results can be explored [on the official dashboard of the project results](https://csss-resultat.shinyapps.io/csss_dashboard/).
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dckube.scilifelab.se/blob/symptoms_map_english.json" height="500px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/symptoms_map_english.json" height="500px" >}}</div>
 </div>
 
 #### Access to the collected data for use in other research projects
