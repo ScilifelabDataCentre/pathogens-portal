@@ -1,5 +1,5 @@
 ---
-title: About the data portal
+title: About the Swedish Pathogens Portal
 menu:
     navbar_top:
         name: About
@@ -29,7 +29,7 @@ menu:
 
 #### Introduction
 
-The *Swedish COVID-19 & Pandemic Preparedness Data Portal* provides information about available datasets, resources, tools, and services related to pandemic preparedness in Sweden. We offer support to all those involved in pandemic preparedness research that are affiliated with a Swedish research institution or university.
+The *Swedish Pathogens Portal* provides information about available datasets, resources, tools, and services related to pandemic preparedness in Sweden. We offer support to all those involved in pandemic preparedness research that are affiliated with a Swedish research institution or university.
 
 The Portal is operated by the [SciLifeLab Data Centre](https://scilifelab.se/data/) and [partners](partner_organisations). We welcome community contributions to the Portal and provide information on the different ways that the community can contribute, for more details see [contribute](/contribute/) page. In addition to running the Portal, the team can also either provide support on data-related questions surrounding pandemic preparedness research or help find suitable support services. For more general data support, please see our related research data management service([RDM Guidelines](https://data-guidelines.scilifelab.se/)).
 
@@ -37,7 +37,7 @@ This website is built using [Hugo](https://gohugo.io/) in combination with [Boot
 
 #### History of the Portal
 
-The Swedish COVID-19 & Pandemic Preparedness Portal was launched in June 2020 on assignment and with funding from the Swedish Research Council a.k.a. Vetenskapsrådet (more details [here](https://www.vr.se/english/just-now/news/news-archive/2020-06-03-new-national-portal-makes-research-data-on-covid-19-accessible.html)). The Portal was actually the first national node of the [European COVID-19 Data Platform](https://covid19dataportal.eu/), which was initiated and funded by the European Commission (more details [here](https://www.embl.org/news/science/embl-ebi-launches-covid-19-data-portal/)) and you can find an overview of other national nodes [here](/partners/). The Portal focused on SARS-CoV-2 and COVID-19 research data exclusively until the end of 2021. We released a [news item](/updates/first_year/) summarising our activities in 2021.
+The Swedish Pathogens Portal was originally launched as the 'Swedish COVID-19 Data Portal' in June 2020 on assignment and with funding from the Swedish Research Council a.k.a. Vetenskapsrådet (more details [here](https://www.vr.se/english/just-now/news/news-archive/2020-06-03-new-national-portal-makes-research-data-on-covid-19-accessible.html)). The Portal was actually the first national node of the [European COVID-19 Data Platform](https://covid19dataportal.eu/), which was initiated and funded by the European Commission (more details [here](https://www.embl.org/news/science/embl-ebi-launches-covid-19-data-portal/)) and you can find an overview of other national nodes [here](/partners/). The Portal focused on SARS-CoV-2 and COVID-19 research data exclusively until the end of 2021. We released a [news item](/updates/first_year/) summarising our activities in 2021.
 
 From 2022, the Portal expanded to cover other research relevant to pandemic preparedness and became a part of the [SciLifeLab Pandemic Laboratory Preparedness programme](https://www.scilifelab.se/pandemic-response/pandemic-laboratory-preparedness/). The SciLifeLab Pandemic Laboratory Preparedness Programme is funded by the earmarked governmental funding to SciLifeLab ([Research proposition Prop. 202/21:60](https://www.regeringen.se/rattsliga-dokument/proposition/2020/12/forskning-frihet-framtid--kunskap-och-innovation-for-sverige/)).
 

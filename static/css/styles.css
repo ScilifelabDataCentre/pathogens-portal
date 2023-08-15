@@ -5,7 +5,7 @@ body {
 }
 
 a {
-    color: #3E75C1;
+    color: #4770B1;
     text-decoration: none;
 }
 
@@ -65,7 +65,7 @@ li:empty {
     max-width: 60%;
 }
 .navbar .navbar-brand img {
-    height: 55px;
+    height: 65px;
     max-width: 100%;
 }
 
@@ -88,8 +88,8 @@ a.nav-link:active {
 }
 
 .nav-tabs a.nav-link {
-    color:#de2c6c;
-    font-weight: 500
+    color: #4770B1;
+    font-weight: 500;
 }
 
 .navbar .navbar-primary-links a.nav-link:hover,
@@ -186,9 +186,9 @@ a.nav-link:active {
 .navbar .navbar-nav a.nav-link.highlight:hover,
 .navbar .navbar-nav a.nav-link.highlight:focus,
 .navbar .navbar-nav a.nav-link.highlight:active {
-    background-color: #de2c6c;
-    border-color: #de2c6c;
-    color: #ffffff;
+    background-color: #D4DE27;
+    border-color: #D4DE27;
+    color: #1A1C1A;
 }
 
 .main_menu_item {
@@ -389,7 +389,7 @@ div.dataTables_wrapper div.dataTables_info {
 
 /* Share your data block for the homepage */
 .share-new-data {
-    background-color: #de2c6c!important;
+    background-color: #37AE94!important;
 }
 
 /* Special announcements */
@@ -436,6 +436,7 @@ div.dataTables_wrapper div.dataTables_info {
 /*
 * Styling of badges to indicate topics
 */
+
 a.topics_title {
     font-size: 1.25em;
     font-weight: 500;
@@ -448,7 +449,8 @@ a.topics_title:active, a.topics_title:focus, a.topics_title:hover {
 }
 
 .topic_badge_small {
-    color: #fff;
+    color: #FFF;
+    background-color: #295986;
     display: inline-block;
     padding: 0.25em 0.4em;
     font-size: 0.75em;
@@ -462,7 +464,8 @@ a.topics_title:active, a.topics_title:focus, a.topics_title:hover {
 }
 
 .topic_badge_large {
-    color: #fff;
+    color: #FFF;
+    background-color: #295986;
     display: inline-block;
     padding: 0.25em 0.4em;
     font-size: 0.95em;
@@ -477,32 +480,8 @@ a.topics_title:active, a.topics_title:focus, a.topics_title:hover {
 
 .topic_badge_small a,
 .topic_badge_large a {
-    color: #fff;
+    color: #FFF;
     text-decoration: none;
-}
-
-.topic_badge_general {
-    background-color: #295986;
-}
-
-.topic_badge_mpox {
-    background-color: #295986;
-}
-
-.topic_badge_covid {
-    background-color: #295986;
-  }
-
-.topic_badge_antib_r {
-    background-color: #295986;
-}
-
-.topic_badge_infectious_d {
-    background-color: #295986;
-}
-
-.topic_badge_enteric_v {
-    background-color: #295986;
 }
 
 .dataset_badge_data {
@@ -567,7 +546,7 @@ a.topics_title:active, a.topics_title:focus, a.topics_title:hover {
 
 .btn-blue {
     color: #fff;
-    background-color: #3E75C1;
+    background-color: #4770B1;
 }
 
 .btn-blue:hover {

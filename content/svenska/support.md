@@ -14,7 +14,7 @@ En översikt över relevanta supporttjänster (avgiftsfria eller avgiftsbelagda)
 
 <h2><i class="bi bi-people-fill"></i> Supporttjänster om Portalen</h2>
 
-Om du har frågor eller förslag för den *Svenska Dataportalen för Covid-19 & Pandemisk Beredskap*, kontakta teamet som arbetar med Portalen antingen genom att fylla i [kontaktformuläret](/sv/contact) eller via epost till <datacentre@scilifelab.se>.
+Om du har frågor eller förslag för den *Patogens Portal Sverige*, kontakta teamet som arbetar med Portalen antingen genom att fylla i [kontaktformuläret](/sv/contact) eller via epost till <datacentre@scilifelab.se>.
 
 <b><a href="/contact/">Kontakta Portalenteamet <i class="bi bi-arrow-right-circle-fill"></i></a></b>
 

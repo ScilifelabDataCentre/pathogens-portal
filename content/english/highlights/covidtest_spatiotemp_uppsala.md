@@ -41,7 +41,7 @@ In accordance with the principles of open science, the data used in this study i
 
 The [CRUSH Covid app](https://crush-covid.shinyapps.io/crush_covid/) can be accessed directly for exploration.
 
-The CRUSH Covid project is one of the partner projects featured on the Swedish COVID-19 & Pandemic Preparedness Data Portal. To read more about this project, please visit the dedicated [partner project dashboard](https://covid19dataportal.se/dashboards/crush_covid/).
+The CRUSH Covid project is one of the partner projects featured on the Swedish Pathogens Portal. To read more about this project, please visit the dedicated [partner project dashboard](https://covid19dataportal.se/dashboards/crush_covid/).
 
 #### Funding
 

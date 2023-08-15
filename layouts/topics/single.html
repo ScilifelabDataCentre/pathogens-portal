@@ -20,14 +20,7 @@
     <div class="{{ $col_width }} mx-2 mb-2 border bg-light">
       <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
       {{ range (.GetTerms "highlights_topics") }}
-      <span class="topic_badge_small
-                  {{ if eq .LinkTitle "COVID-19"}}topic_badge_covid
-                  {{ else if eq .LinkTitle "Infectious diseases"}}topic_badge_infectious_d
-                  {{ else if eq .LinkTitle "Antibiotic resistance"}}topic_badge_antib_r
-                  {{ else if eq .LinkTitle "Mpox"}}topic_badge_mpox
-                  {{ else if eq .LinkTitle "Enteric viruses"}}topic_badge_enteric_v
-                  {{ else }}topic_badge_general
-                  {{ end }} "><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
+      <span class="topic_badge_small"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
       {{ end }}
       <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
       <p class="small text-muted">{{.Date.Format "2006-01-02"}}</p>
@@ -59,14 +52,7 @@
     <div class="{{ $col_width }} mx-2 mb-2 border bg-light">
       <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
       {{ range (.GetTerms "dashboards_topics") }}
-      <span class="topic_badge_small
-                  {{ if eq .LinkTitle "COVID-19"}}topic_badge_covid
-                  {{ else if eq .LinkTitle "Infectious diseases"}}topic_badge_infectious_d
-                  {{ else if eq .LinkTitle "Antibiotic resistance"}}topic_badge_antib_r
-                  {{ else if eq .LinkTitle "Mpox"}}topic_badge_mpox
-                  {{ else if eq .LinkTitle "Enteric viruses"}}topic_badge_enteric_v
-                  {{ else }}topic_badge_general
-                  {{ end }} "><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
+      <span class="topic_badge_small"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
       {{ end }}
       <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
       <p> {{ .Description }} <br><a
@@ -229,6 +215,7 @@
           </td>
           <td>{{ if and (eq $.Site.Language.LanguageName "Svenska") .funder_sv }}{{ .funder_sv }}{{ else }}
             {{ .funder }}{{ end }}</td>
+        </tr>
         {{ end }}
       </tbody>
     </table>

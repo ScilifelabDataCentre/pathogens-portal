@@ -14,10 +14,12 @@
     </div>
     {{ end }}
     {{ partial "dashboards.html" . }}
+    
+    <!-- English page specific content -->
     {{ if ne $.Site.Language.LanguageName "Svenska" }}
     <!-- Data highlights -->
     {{ range .Site.Menus.homepage_highlights }}
-    <div class="row">
+    <div class="row mt-4">
       <h2>{{ .Name }}</h2>
     </div>
     <div class="row">

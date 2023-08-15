@@ -14,13 +14,13 @@ Below is an overview of relevant support services (free or against a fee) provid
 
 <h2><i class="bi bi-people-fill"></i> Support on using the Portal</h2>
 
-If you have questions or suggestions for the *Swedish COVID-19 & Pandemic Preparedness Data Portal*, you can get in touch with the Portal team either by filling out [our contact form](/contact/) or by sending an email to <datacentre@scilifelab.se>.
+If you have questions or suggestions for the *Swedish Pathogens Portal*, you can get in touch with the Portal team either by filling out [our contact form](/contact/) or by sending an email to <datacentre@scilifelab.se>.
 
 <b><a href="/contact/">Get in touch with the Portal team <i class="bi bi-arrow-right-circle-fill"></i></a></b>
 
 <h2><i class="bi bi-people-fill"></i> Data management support</h2>
 
-All researchers affiliated with a university or research institute in Sweden working on research topics relevant to pandemic preparedness can receive free individual consultations and hands-on help within reasonable bounds from the *Swedish COVID-19 & Pandemic Preparedness Portal* team. Simply send an email to <datacentre@scilifelab.se>. Your question will be assigned to a data steward with relevant expertise who can either help you directly or point you to the correct tool or service.
+All researchers affiliated with a university or research institute in Sweden working on research topics relevant to pandemic preparedness can receive free individual consultations and hands-on help within reasonable bounds from the *Swedish Pathogens Portal* team. Simply send an email to <datacentre@scilifelab.se>. Your question will be assigned to a data steward with relevant expertise who can either help you directly or point you to the correct tool or service.
 
 You are welcome to send both general questions about best approaches to research data management, data management plans (DMPs), reproducibility, FAIR, and open science as well as specific questions about your research projects such as which repository to choose to deposit data, what the suitable metadata standards would be, which file formats to use, etc. In some cases the data stewards can act as brokers and submit data to repositories on your behalf.
 

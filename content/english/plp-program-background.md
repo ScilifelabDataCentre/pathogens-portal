@@ -28,7 +28,7 @@ The Pandemic Laboratory Prepardness program is built on **four pillars**:
 * *National infrastructure*
 * *Biobanks and diagnostics*
 * *National research program*
-* *The COVID-19 & Pandemic Preparedness Data Portal*
+* *The Swedish Pathogens Portal*
 
 As you may note, this Portal (formerly the Swedish COVID-19 Data Portal) forms one of four pillars of PLP program. Our scope is expanding to include resources related to pandemic preparedness and infectious diseases that could be the cause of future pandemics. However, as the current pandemic is still ongoing, COVID-19 will remain a major focus for the foreseeable future.
 

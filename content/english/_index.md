@@ -1,5 +1,5 @@
 ---
-title: Swedish COVID-19 & Pandemic Preparedness Data Portal
+title: The Swedish Pathogens Portal
 teststats:
         name: Recent statistics on COVID-19 in Sweden
         desc: Pages with recent data and visualizations on SARS-CoV-2 and COVID-19 tests carried out at various research facilities.
