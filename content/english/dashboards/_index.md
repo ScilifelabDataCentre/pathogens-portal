@@ -14,3 +14,6 @@ aliases:
 ---
 
 The *Dashboards* section describes research done on a given subject relevant to pandemic preparedness research by researchers affiliated with a Swedish research institute. Specifically, in our case we write about COVID-19 and SARS-CoV-2, infectious diseases in general, antibiotic resistance, enteric viruses and Mpox. The goal is to highlight and visualise openly shared data that can potentially be used by many other researchers to make further discoveries.
+
+To easily find dashboards relevant to a specific topic, simply click on the colored tag and the page will filter and display only the dashboards related to that topic.
+  

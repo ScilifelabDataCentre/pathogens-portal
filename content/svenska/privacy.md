@@ -3,7 +3,7 @@ title: Integritetspolicy / Dataskyddspolicy
 toc: false
 ---
 
-SciLifeLab driver webbplatsen [https://www.covid19dataportal.se](https://www.covid19dataportal.se) (inkluderande subdomäner som exempelvis [https://biobanks.covid19dataportal.se](https://biobanks.covid19dataportal.se/)), som tillhandahåller **tjänsten**.
+SciLifeLab driver webbplatsen [pathogens.se](https://www.pathogens.se/sv/) och covid19dataportal webbplatser (inkluderande subdomäner som exempelvis [biobanks.covid19dataportal.se](https://biobanks.covid19dataportal.se/)), som tillhandahåller **tjänsten**.
 
 Denna sida informerar webbsidans besökare om vår integritetspolicy.  Om du väljer att använda vår **tjänst**, kommer dina personuppgifter behandlas i enlighet med denna policy. De personuppgifter som vi samlar in används för att driva och förbättra vår **tjänst**. Vi kommer inte dela dina personuppgifter med andra om det inte är beskrivet i denna integritetspolicy.
 

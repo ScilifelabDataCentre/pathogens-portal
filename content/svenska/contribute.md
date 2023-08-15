@@ -7,7 +7,7 @@ menu:
         weight: 40
         pre: <i class="bi bi-plus-circle-fill me-2"></i>
 ---
-Den *Svenska Pathogens Portalen* har som syfte att stödja forskare som arbetar inom de forskningsområden som Portalen specifikt är inriktade på. Vi välkomnar både förslag på och bidrag till Portalens innehåll och förslag på hur Portalen kan utvecklas för att bättre stödja forskningen. Som forskare uppmanar vi dig att interagera med Portalen, exempelvis genom att dela data eller information genom Portalen. Vi tar även gärna emot förslag på nytt innehåll, nya sektioner samt förslag på hur nuvarande sektioner kan utvecklas och förnyas.
+Den *Patogens Portal Sverige* har som syfte att stödja forskare som arbetar inom de forskningsområden som Portalen specifikt är inriktade på. Vi välkomnar både förslag på och bidrag till Portalens innehåll och förslag på hur Portalen kan utvecklas för att bättre stödja forskningen. Som forskare uppmanar vi dig att interagera med Portalen, exempelvis genom att dela data eller information genom Portalen. Vi tar även gärna emot förslag på nytt innehåll, nya sektioner samt förslag på hur nuvarande sektioner kan utvecklas och förnyas.
 
 Förslag på som du exempelvis kan inkomma med. Tipsa oss om du har förslag på nya publikationer som delar dataset eller källkod öppet och som kunde passa som en ”Data Highlight”. Vi tar även emot färdigskrivna förslag på texter. Ge förslag på nya dataset som vi kan lyfta fram i ”Tillgängliga data”-sektionen. Uppdatera information om pågående projekt, ditt eget eller andras. Dela dina data öppet i nya [dashboards på Portalen](/sv/dashboards/) osv.
 

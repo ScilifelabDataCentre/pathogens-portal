@@ -29,7 +29,7 @@ toc: false
 
 #### Introduktion
 
-Den Svenska Pathogens Portalen tillhandahåller information, riktlinjer, verktyg och tjänster för att stödja forskare vid svenska lärosäten verksamma inom forskningsfältet pandemisk beredskap med datarelaterade frågor.
+Den Patogens Portal Sverige tillhandahåller information, riktlinjer, verktyg och tjänster för att stödja forskare vid svenska lärosäten verksamma inom forskningsfältet pandemisk beredskap med datarelaterade frågor.
 
 Portalen drivs av [SciLifeLab Data Centre](https://scilifelab.se/data/) och samarbetspartners och har som syfte att stödja forskare vid svenska lärosäten verksamma inom forskningsfältet pandemisk beredskap. Vi välkomnar forskarsamhället att bidra med innehåll och förslag på förändringar och nytt innehåll. Som forskare kan du interagera med Portalen på ett flertal sätt, genom att fylla i formuläret, kontakta oss via epost eller via sociala media. Portalenteamet kan även ge stöd i datarelaterade frågor och hjälpa forskare att hitta lämpliga [supporttjänster](/sv/support/).
 
@@ -39,7 +39,7 @@ Om du vill bidra med innehåll eller har förslag på förbättringar av webbpla
 
 #### Portalens historia
 
-Portalen lanserades i juni 2020 på [uppdrag av](https://www.vr.se/english/just-now/news/news-archive/2020-06-03-new-national-portal-makes-research-data-on-covid-19-accessible.html) och med finansiering från [Vetenskapsrådet](https://www.vr.se). Den svenska Covid-19 dataportalen blev den första nationella noden i ett nätverk av Covid-19 dataportaler kopplade till den [europeiska Covid-19 dataplattformen](https://covid19dataportal.org). Den europeiska Covid-19 dataplattformen i sin tur har initierats och finansieras av Europeiska kommissionen (för mer information och en översikt över andra Covid-19 dataportalen som ingår i nätverket se [här](https://covid19dataportal.se/partners/). För en sammanfattning av vad som skett under Portalens första år se denna datanyhet [här](https://covid19dataportal.se/updates/first_year/). Portalen fokuserade uteslutande på SARS-CoV-2 och Covid-19 forskningsdata fram till slutet av 2021.
+Patogens Portal Sverige lanserades ursprungligen som den svenska dataportalen för COVID-19 i juni 2020 på [uppdrag av](https://www.vr.se/english/just-now/news/news-archive/2020-06-03-new-national-portal-makes-research-data-on-covid-19-accessible.html) och med finansiering från [Vetenskapsrådet](https://www.vr.se). Den svenska Covid-19 dataportalen blev den första nationella noden i ett nätverk av Covid-19 dataportaler kopplade till den [europeiska Covid-19 dataplattformen](https://covid19dataportal.org). Den europeiska Covid-19 dataplattformen i sin tur har initierats och finansieras av Europeiska kommissionen (för mer information och en översikt över andra Covid-19 dataportalen som ingår i nätverket se [här](https://covid19dataportal.se/partners/). För en sammanfattning av vad som skett under Portalens första år se denna datanyhet [här](https://covid19dataportal.se/updates/first_year/). Portalen fokuserade uteslutande på SARS-CoV-2 och Covid-19 forskningsdata fram till slutet av 2021.
 
 Från 2022 har Portalen utvidgats till att även inkluderar forskningsämnen med relevans för pandemisk beredskap och är en del av SciLifeLabs forskningsprogram för pandemisk laboratorieberedskap. SciLifeLabs forskningsprogram för pandemisk laboratorieberedskap finansieras av ett regeringsuppdrag till SciLifeLab [(Prop. 202/21:60)](https://www.regeringen.se/rattsliga-dokument/proposition/2020/12/forskning-frihet-framtid--kunskap-och-innovation-for-sverige/).
 
