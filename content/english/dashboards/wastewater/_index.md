@@ -7,7 +7,7 @@ type: wastewater
 menu:
   dashboard_menu:
     identifier: wastewater
-    name: Wastewater-based epidemiology in Sweden
+    name: Wastewater-based epidemiology
   other_data:
     name: Environment
     identifier: environment
