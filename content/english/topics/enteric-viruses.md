@@ -9,7 +9,8 @@ menu:
     topics_menu:
         name: Enteric viruses
         identifier: enteric_viruses
-        weight: 50
+aliases:
+    - /topics/enteric-virus/
 ---
 
 ## Background

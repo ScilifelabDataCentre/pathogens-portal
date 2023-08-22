@@ -9,7 +9,6 @@ menu:
     topics_menu:
         name: Antibiotic resistance
         identifier: antibiotic_resistance
-        weight: 30
 ---
 
 <div class="alert alert-info">

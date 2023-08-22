@@ -1,32 +1,49 @@
-{{ $displayed_in_homepage := .IsHome }}
+{{ $dashboards := .Site.Menus.dashboard_menu }}
 {{ $currentPage := path.Split (path.Clean .RelPermalink) }}
 {{ $homepage_dashboards := slice "post_covid" "vaccines" "wastewater" }}
+{{ $displayed_in_homepage := .IsHome }}
+{{ $dashboards_to_show := slice }}
+
+{{/* Compile list of highlight to show depending upon the page */}}
+{{ if eq $currentPage.File "dashboards" }}
+  {{ $dashboards_to_show = $dashboards_to_show | append $dashboards }}
+{{ else if $displayed_in_homepage }}
+  {{ $dashboards_to_show = $dashboards_to_show | append (where $dashboards "Identifier" "in" $homepage_dashboards) }}
+{{ else if strings.HasSuffix $currentPage.Dir "/topics/" }}
+  {{ range $dashboards }}
+    {{if in (apply .Page.Params.dashboards_topics "urlize" ".") $currentPage.File }}
+      {{ $dashboards_to_show = $dashboards_to_show | append . }}
+    {{ end }}
+  {{ end }}
+  {{ if strings.HasPrefix $currentPage.Dir "/topics/" }}
+    {{ $dashboards_to_show = first 3 $dashboards_to_show }}
+  {{ end }}
+{{ end }}
 
 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 {{ if not $displayed_in_homepage }}g-lg-3{{ end }}">
-  {{ range .Site.Menus.dashboard_menu }}
-    {{ if or 
-       (eq $currentPage.File "dashboards")
-       (and ($displayed_in_homepage) (in $homepage_dashboards .Identifier))
-       (and (eq $currentPage.Dir "/dashboards/topics/") (in (apply .Page.Params.dashboards_topics "urlize" ".") $currentPage.File))
-    }}
-      <div class="col">
-        <div class="bg-card">
-          <img style="margin-top:0.5rem"
-               src="{{ with .Page.Params.banner }}{{ . }}{{ else }}{{ "/img/plp_default.png" }}{{ end }}">
-          {{ range (.Page.GetTerms "dashboards_topics") }}
-              <span class="topic_badge_small
-              {{ if eq .LinkTitle "COVID-19"}}topic_badge_covid
-              {{ else if eq .LinkTitle "Infectious diseases"}}topic_badge_infectious_d
-              {{ else if eq .LinkTitle "Antibiotic resistance"}}topic_badge_antib_r
-              {{ else if eq .LinkTitle "Enteric viruses"}}topic_badge_enteric_v
-              {{ else if eq .LinkTitle "Mpox"}}topic_badge_mpox
-              {{ else }}topic_badge_general
-              {{ end }} "><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
+  {{ range $dashboards_to_show }}
+      <div class="col p-2">
+        <div class="bg-dashboard">
+          <!-- div {{ if .Page.Params.banner_border }}class="px-1 pt-1" {{ end }} -->
+          <div>
+          <a href="{{ .Page.RelPermalink }}">
+            <img class="img-fluid" src="{{ with .Page.Params.banner }}{{ . }}{{ else }}{{ "/img/plp_default.png" }}{{ end }}">
+          </a>
+          </div>
+          <div class="p-2 bg-dashboard-title">
+            <h6><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></h6>
+          </div>
+          <div class="p-2">
+            {{ .Page.Description }}
+          </div>
+          {{ if not $displayed_in_homepage }}
+            <div class="px-2 pb-3">
+            {{ range (.Page.GetTerms "dashboards_topics") }}
+                <span class="topic_badge_small"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
+            {{ end }}
+            </div>
           {{ end }}
-          <h6><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></h6>
-          <p>{{ .Page.Description }}</p>
         </div>
       </div>
-    {{ end }}
   {{ end }}
 </div>

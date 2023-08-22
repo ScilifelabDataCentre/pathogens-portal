@@ -168,12 +168,12 @@
                           <div class="p-3 border rounded h-100">
                             <div class="d-flex justify-content-between">
                               <div>
-                                <span class="badge event-type mb-1">${event.type}</span>
+                                <span class="badge card-badge mb-1">${event.type}</span>
                                 <h5><a class="" role="button" data-bs-toggle="modal"
                                     data-bs-target="#descriptionModal${ind}">${event.title}</a></h5>
                               </div>
                               <div>
-                                <div class="px-2 pb-1 m-2 d-flex flex-column rounded event-date">
+                                <div class="px-2 pb-1 m-2 d-flex flex-column rounded card-badge">
                                 <div class="px-2 fs-3 mx-auto">${event_date.getDate()}</div>
                                 <div class="pb-1 px-2 mx-auto">${event_date.toLocaleString('default', { 'month': 'long' })}</div>
                                 </div>
@@ -230,7 +230,7 @@
                                   <div class="modal-body">
                                     <div class="row">
                                       <div class="col">
-                                        <b>Event type:</b> <span class="badge event-type mb-1">${event.type}</span>
+                                        <b>Event type:</b> <span class="badge card-badge mb-1">${event.type}</span>
                                       </div>
                                     </div>`;
           if (event_date_time.length > 0) {
