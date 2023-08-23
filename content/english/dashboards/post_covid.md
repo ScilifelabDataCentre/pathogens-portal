@@ -7,7 +7,7 @@ plotly: true
 menu:
     dashboard_menu:
         identifier: post_covid
-        name: Post COVID-19 condition in Sweden
+        name: Post COVID-19 condition
 aliases:
     - /data_types/health_data/post_covid/
 dashboards_topics: [COVID-19, Infectious diseases]

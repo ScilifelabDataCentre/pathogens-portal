@@ -9,7 +9,6 @@ menu:
     topics_menu:
         name: Infectious diseases
         identifier: infectious_diseases
-        weight: 20
 ---
 
 ## Background

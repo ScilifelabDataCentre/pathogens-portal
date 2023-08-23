@@ -7,7 +7,7 @@ plotly: true
 menu:
     dashboard_menu:
         identifier: post_covid
-        name: Postcovid i Sverige
+        name: Postcovid
 aliases:
     - /sv/data_types/health_data/post_covid/
 ---

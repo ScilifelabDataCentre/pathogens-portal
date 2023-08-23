@@ -7,7 +7,7 @@ type: wastewater
 menu:
   dashboard_menu:
     identifier: wastewater
-    name: Avloppsvattensepidemiologiska analyser i Sverige
+    name: Avloppsvattensepidemiologiska analyser
   other_data:
     name: Environment
     identifier: environment

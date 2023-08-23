@@ -11,9 +11,19 @@
 
 <section>
   <!-- Button trigger modal -->
-  <button type="button" class="btn btn-blue mb-3" data-bs-toggle="modal" data-bs-target="#dhModal">
-    Suggest a highlight
-  </button>
+  <div class="row">
+    <div class="col">
+      <button type="button" class="btn btn-blue mb-3" data-bs-toggle="modal" data-bs-target="#dhModal">
+        Suggest a highlight
+      </button>
+    </div>
+    <div class="col-3 text-end">
+      <div class="input-group">
+        <span class="input-group-text"><i class="bi bi-search"></i></span>
+        <input type="text" class="form-control" placeholder="Search Keywords" aria-label="Search" data-search-area="highlights_container">
+      </div>
+    </div>
+  </div>
 
   <!-- Modal -->
   <div class="modal fade" id="dhModal" tabindex="-1" role="dialog" aria-labelledby="dhModalLabel" aria-hidden="true">
@@ -83,9 +93,15 @@
 </section>
 
 <!-- DH listing partial is called -->
-{{- partial "highlights.html" . -}}
+<div id="highlights_container">
+  {{- partial "highlights.html" . -}}
+  <div id="no-filtered-dh" class="pt-2" style="display:none;">
+    <p class="text-center">No data highlight have the given keyword, please try to use another.</p>
+  </div>
+</div>
 
 <script>
+  // Function to check form submission
   document.getElementById('originUrl').value = location.href;
 
   var form = document.querySelector('.needs-validation');
@@ -100,6 +116,31 @@
     if (recaptcha === "") {
       event.preventDefault();
       alert("Please tick 'I'm not a robot' above the 'Submit the form' button.");
+    }
+  });
+  
+  // Function to filter the service based on search text
+  $("input[type=text]").on("input", function(){
+    
+    // Get the text entered and service category 
+    var searchText = $(this).val().toLowerCase();
+    var searchArea = this.getAttribute('data-search-area');
+    
+    // Hide all services before filtering
+    $(`div#highlights_container div.data-highlight`).hide();
+    $(`div#no-filtered-dh`).hide();
+    
+    // If text empty show all services
+    if (searchText == ''){
+      $(`div#highlights_container div.data-highlight`).show();
+    } else {
+      $(`div#highlights_container div[data-search-tags*='${searchText}']`).show();
+      
+      // Display a message if no services available for given keyword
+      var visible_services = $(`div#highlights_container div.data-highlight`).filter(":visible");
+      if (!visible_services.length) {
+        $(`div#no-filtered-dh`).show();
+      }
     }
   });
 </script>
