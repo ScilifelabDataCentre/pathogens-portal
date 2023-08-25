@@ -1,7 +1,5 @@
-{{ $topics := slice "covid_19" "antibiotic_resistance" "infectious_diseases" "mpox" "enteric_viruses" }}
 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 g-lg-3">
   {{ range .Site.Menus.topics_menu }}
-    {{ if (in $topics .Identifier) }}
       <div class="col">
         <div class="bg-card">
           <figure class="figure">
@@ -12,6 +10,5 @@
           <p>{{ .Page.Description }}</p>
         </div>
       </div>
-    {{ end }}
   {{ end }}
 </div>
