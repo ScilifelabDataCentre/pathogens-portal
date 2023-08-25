@@ -50,7 +50,7 @@ SLU-SEEC collects and analyses samples for influenza A and B viruses from multip
 
 ## Reports from the research group
 
-The group provide reports to summarise their latest findings. The latest report is available [here]() (only available in Swedish).
+The group provide reports to summarise their latest findings. The latest report is available [here](https://blobserver.dc.scilifelab.se/blob/Latest_weekly_report_SEEC-SLU.pdf) (only available in Swedish).
 
 ## Dataset
 
@@ -71,12 +71,3 @@ The viral genomic material from the freshly collected samples is extracted by th
 Absolute quantification of the copy numbers of the genome of influenza A and B viruses is performed by One-Step RT-qPCR using the Flu SC2 Multiplex Assay from the Centers for Disease Control and Prevention (CDC). To correct for variations in population size and wastewater flow, pepper mild mottle virus (PMMoV) is quantified using a modified version of the assay of [Zhang et al. (2006)](https://doi.org/10.1371/journal.pbio.0040003). PMMoV is an abundant RNA virus in human faeces and serves as an estimator of human faecal content ([Symonds et al., 2019](https://doi.org/10.1371/journal.ppat.1007639)).
 
 The data in the graphs and datafile represent the ratio of the copy numbers measured by the Flu SC2 Multiplex Assay and PMMoV-assays, multiplied by 1000. As the Flu SC2 Multiplex Assay provides proxies for both influenza A and B viruses content in the wastewater and PMMoV is a proxy of the faecal content (which is related to the contributing population), their ratio can be considered as a proxy for the prevalence of influenza A and influenza B infections in the population of the wastewater catchment area.
-
-
-
-
-
-
-
-
-
