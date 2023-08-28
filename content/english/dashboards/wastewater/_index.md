@@ -20,10 +20,8 @@ aliases:
   - /data_types/environment/wastewater/
   - /data_types/environment/
   - /dashboards/wastewater/introduction/
-dashboards_topics: [COVID-19, Infectious diseases, Enteric viruses]
+dashboards_topics: [COVID-19, Infectious diseases, Enteric viruses, Influenza]
 ---
-
-<div class="alert alert-info"><b>Please note:</b> the wastewater dashboard is undergoing expansion over the next few months. We have now separated the data related to the amount of SARS-CoV-2 in wastewater according to the research group that collected and analysed the data (see below for information about the groups involved). In the coming months, more information and data will be added about SARS-CoV-2 and on other infectious diseases. </span></div>
 
 ## Introduction
 
@@ -47,7 +45,7 @@ The work on this dashboard is divided according to different topics explored. Se
 
 All code used to produce the visualisations on the tabs on this dashboard is available on [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/wastewater). The particular scripts used in each case are linked below the individual visualisations.
 
-## Map of sample collection sites
+## Sample collection sites
 
 Below is a map showing the wastewater treatment plants (WWTPs) from which wastewater samples are being collected and analysed by groups sharing data on this dashboard.
 
@@ -56,6 +54,12 @@ Below is a map showing the wastewater treatment plants (WWTPs) from which wastew
 </div>
 
 **Code used to produce map:** [Script to produce map](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/interactive_wastewater_map.py).
+
+The table below lists; the towns/cities monitored by groups sharing data on this dashboard, wastewater treatment plants (WWTP) that samples were collected from, the number of people in the catchment area (Number of people), whether monitoring is actively ongoing (Active?), the viruses monitored at the site (Viruses monitored), and the group(s) that have monitored/are monitored the site. An asterisk (\*) next to the number of people indicates that the value is a BO-7 value (an estimate of the people connected), rather than the number of people physically connected to each WWTP. The information in the below table is [available for download as an excel file](https://blobserver.dc.scilifelab.se/blob/overall_ww_collection_sites.xlsx).
+
+  <div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_overallsites.json" height="875px" >}}</div>
+</div>
 
 ## Background: Wastewater-based epidemiology
 
