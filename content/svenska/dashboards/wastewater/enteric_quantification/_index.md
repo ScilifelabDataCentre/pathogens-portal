@@ -4,7 +4,7 @@ plotly: true
 type: wastewater
 menu:
   wastewater:
-    name: Enteriska virus kvantifiering
+    name: Enteriska virus kvantifiering (GU)
     weight: 30
 ---
 
