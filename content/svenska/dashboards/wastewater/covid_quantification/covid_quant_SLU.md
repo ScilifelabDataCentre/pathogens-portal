@@ -86,7 +86,6 @@ Forskargruppen tillhandahåller även en rapport som sammanfattar informationen 
 
 **Ladda ner data:** [Genkopieantal av luftvägsvirus normaliserat mot PMMoV-genkopieantal, CSV fil.](https://datagraphics.dc.scilifelab.se/dataset/0ac8fa02871745048491de74e5689da9.csv). Data finns tillgängligt från vecka 38 2020 och uppdateras veckovis.
 
-
 **Citera datasetet:**
 
 Székely, A. J., Malmberg, M., Vargas, J., Mohamed, N., Dafalla, I., Petrini, F., Davies, L. (2021). Dataset of SARS-CoV-2, influenza A and influenza B virus content in wastewater samples from wastewater treatment plants in Sweden. <https://doi.org/10.17044/scilifelab.14256317>.
