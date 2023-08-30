@@ -18,7 +18,7 @@ The data and visualisation on this page are usually updated weekly, typically on
 
 ## Wastewater collection sites
 
-SLU-SEEC collects and analyses samples for influenza A and B viruses from multiple areas. The below table shows details about each of these sites. The table lists the towns/cities monitored, wastewater treatment plants (WWTP) that samples were collected from, the number of people in the catchment area (Number of people), and the dates that monitoring by SLU-SEEC started and ended monitoring (Start and End date, respectively). A value of ’null’ for the end date indicates that collection is ongoing. An asterisk (\*) next to the number of people indicates that the value is a BO-7 value (an estimate of the people connected), rather than the number of people physically connected to each WWTP. Two asterisks (\*\*) next to the Town/City indicates that data is only available for influenza A, not influenza B. The information in the below table is [available for download as an excel file](https://blobserver.dc.scilifelab.se/blob/SLU_INF_collection_sites.xlsx).
+SLU-SEEC collects and analyses samples for influenza A and B viruses from multiple areas. The below table shows details about each of these sites. The table lists the towns/cities monitored, wastewater treatment plants (WWTP) that samples were collected from, the number of people in the catchment area (Number of people), and the dates that monitoring by SLU-SEEC started and ended monitoring (Start and End date, respectively). Please note that 'Start date' refers to the first date of monitoring for influenza A, but that the start date for influenza B is always later. A value of ’null’ for the end date indicates that collection is ongoing. An asterisk (\*) next to the number of people indicates that the value is a BOD-7 value (an estimate of the people connected), rather than the number of people physically connected to each WWTP. Two asterisks (\*\*) next to the Town/City indicates that data is only available for influenza A, not influenza B. The information in the below table is [available for download as an excel file](https://blobserver.dc.scilifelab.se/blob/SLU_INF_collection_sites.xlsx).
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_sluINFsites.json" height="750px" >}}</div>
@@ -64,13 +64,13 @@ The group provide reports to summarise their latest findings. The latest report 
 
 **How to cite the dataset:**
 
-Székely, A. J., Malmberg, M., Vargas, J., Mohamed, N., Dafalla, I., Petrini, F., Davies, L. (2021). Dataset of SARS-CoV-2, influenza A and influenza B virus content in wastewater samples from wastewater treatment plants in Sweden. <https://doi.org/10.17044/scilifelab.14256317>.
+Székely, A. J., Malmberg, M., Vargas, J., Mohamed, N., Dafalla, I., Petrini, F., Davies, L. (2023). Dataset of SARS-CoV-2, influenza A and influenza B virus content in wastewater samples from wastewater treatment plants in Sweden. <https://doi.org/10.17044/scilifelab.14256317>.
 
 ## Methods
 
 For most cities represented on this page, raw, untreated wastewater samples that are representative of a single day are collected by flow compensated samplers at the wastewater treatment plants (WWTP). Uppsala is the exception, where samples are collected daily, and then combined flow-proportionally into one composite weekly sample for the purpose of analyses.
 
-The viral genomic material from the freshly collected samples is extracted by the direct capture method, using the Maxwell RSC Enviro TNA kit (Promega). For detailed description of the method, please consult the following protocol:
+The viral genomic material from the freshly collected samples is extracted by the direct capture method, using the Maxwell RSC Enviro TNA kit (Promega).
 
 Absolute quantification of the copy numbers of the genome of influenza A and B viruses is performed by One-Step RT-qPCR using the Flu SC2 Multiplex Assay from the Centers for Disease Control and Prevention (CDC). To correct for variations in population size and wastewater flow, pepper mild mottle virus (PMMoV) is quantified using a modified version of the assay of [Zhang et al. (2006)](https://doi.org/10.1371/journal.pbio.0040003). PMMoV is an abundant RNA virus in human faeces and serves as an estimator of human faecal content ([Symonds et al., 2019](https://doi.org/10.1371/journal.ppat.1007639)).
 

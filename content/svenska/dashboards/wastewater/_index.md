@@ -22,8 +22,6 @@ aliases:
   - /sv/dashboards/wastewater/introduction/
 ---
 
-<div class="alert alert-info"><b>Notera:</b> Dashboarden för avloppsvatten kommer att utökas framöver. Vi har nu grupperat mätningarna för mängden av SARS-CoV-2 i avloppsvatten enligt den forskargrupp som samlade in och analyserade respektive data (se nedan för information om de deltagande grupperna). Under kommande månader kommer mer data och information om SARS-CoV-2 och andra infektionssjukdomar att läggas till. </span></div>
-
 ## Introduktion
 
 Avloppsvattenövervakning kan fungera som en effektiv metod för att kartlägga förekomsten av patogener, inklusive SARS-CoV-2, i befolkningen. Metoden kan också fungera som ett 'tidigt varningssystem' som förutsäger kommande utbrott. Se nedan för [en allmän introduktion till avloppsvattenbaserad epidemiologi](#bakgrund-avloppsvattenbaserad-epidemiologi).
@@ -46,7 +44,7 @@ Data som visas på den här dashboarden är uppdelad efter de olika patogener so
 
 All källkod som skapats för visualiseringarna under de olika flikarna på denna dashboard finns öppet tillgänglig på [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/wastewater). Skripten finns tillgängliga under respektive visualisering.
 
-## Karta över platser där prover samlas in
+## Insamlingsplatser för avloppsvatten
 
 Nedan finns en karta som visar de avloppsreningsverk (på engelska wastewater treatment plants, WWTP) från vilka avloppsprover samlas in och analyseras av de grupper som delar data på den här dashboarden.
 
@@ -55,6 +53,12 @@ Nedan finns en karta som visar de avloppsreningsverk (på engelska wastewater tr
 </div>
 
 **Källkod som använts för att skapa kartan:** [Källkod](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/interactive_wastewater_map.py).
+
+Tabellen nedan listar; städerna/orterna som monitoreras av de forskargrupper som delar data, vilka avloppsreningsverk (WWTP) som avloppsprover samlats in ifrån, antal personer i upptagningsområdet (Number of people), om övervakningen är pågående eller inte (Active?), vilket virus som övervakas på platsen (Viruses monitored) och forskargrupp(er) som har övervakat/övervakar platsen. En asterisk (\*) bredvid antal personer indikerar att värdet är ett BO-7-värde (en uppskattning av de personer som är anslutna till ett avloppsreningsverk), snarare än antalet personer som är fysiskt anslutna. Informationen i tabellen nedan är [tillgänglig för nedladdning som en excel-fil](https://blobserver.dc.scilifelab.se/blob/overall_ww_collection_sites.xlsx).
+
+  <div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_overallsites.json" height="875px" >}}</div>
+</div>
 
 ## Bakgrund: Avloppsvattenbaserad epidemiologi
 

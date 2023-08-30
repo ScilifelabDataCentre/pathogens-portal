@@ -1,0 +1,21 @@
+---
+title: Becoming the first national node of the Pathogens Portal
+date: 2023-08-30
+summary: We are very proud to announce that we are transitioning the Portal into the first national node of the Pathogens Portal. This marks the next step in our efforts related to pandemic preparedness.
+banner: /updates/banners/eml_pathogens_logo.png
+banner_caption: Pathogens Portal logo
+---
+
+Today, we are transforming the Portal into the ‘Swedish Pathogens Portal’.
+
+Those that have followed the Portal over the last few years will be aware that it started as the Swedish node of the [COVID-19 Data Platform](https://www.covid19dataportal.org), and was originally named ‘the Swedish COVID-19 Data Portal’. The COVID-19 Data Platform was established to facilitate rapid data collection and data sharing across European and global research communities during the COVID-19 pandemic. The Platform was established and operated by The European Commission and EMBL’s European Bioinformatics Institute (EMBL-EBI), together with partners such as ELIXIR and EU Member States. As the Swedish node of the Platform, The Swedish COVID-19 Data Portal worked to support Swedish researchers in sharing their data in an open and FAIR manner, and to promote research done in Sweden.
+
+In 2022, the Portal became part of [SciLifeLab’s Pandemic Laboratory Preparedness (PLP) Program](https://www.scilifelab.se/capabilities/pandemic-laboratory-preparedness/), and the scope was expanded to include pathogens other than SARS-CoV-2 and pandemic preparedness in general. This reflected a global shift away from focusing solely on fighting COVID-19, and towards ensuring preparedness for the next pandemic, in order to minimise it’s effect on society. We continued to work closely with EMBL-EBI throughout this time, and became known as the ‘Swedish COVID-19 and Pandemic Preparedness Portal’.
+
+In July, EMBL-EBI launched an updated version of the [Pathogens Portal](https://www.pathogensportal.org). The Pathogens Portal is described by EMBL-EBI as 'an online platform that enables researchers, clinicians, and policymakers to access the most comprehensive collection of biomolecular data about pathogens'. This central Portal already contains data from over 200,000 pathogen species and/or strains, and will likely become an essential tool for any infectious disease or pathogen surveillance research. Read the [news articles about the release](https://www.embl.org/news/science/pathogens-portal-launch/) to find out more about the Pathogens Portal.
+
+We are proud to become the first national node of the Pathogens Portal, and to continue to work with EMBL-EBI to facilitate data sharing and ensure future pandemic preparedness. The overall function of the Swedish Pathogens Portal will remain broadly unchanged compared to earlier iterations of this Portal. Specifically, it will continue to provide support to researchers in Sweden for making their pandemic preparedness and infectious disease data as FAIR as open as possible (in the form of guidelines and direct support from the data management teams associated with the Portal), continue to publish data-centric articles (data highlights) and data dashboards to promote FAIR and open data from researchers based in Sweden, and continue to participate in national and international collaborations.
+
+In this ‘next phase’ of the Portal, we hope to be able to work with even more research groups from more diverse disciplines within the research community. We will also link even more closely with [EMBL-EBI's Pathogens Portal](https://www.pathogensportal.org) and future national nodes. This will enable us to bring you more features that will aid research, and to further raise the profile of Swedish research related to pandemic preparedness.
+
+We will continue to work with our [editorial committee](/about/editorial_committee/) to maximise the impact of the Portal, and to add more content. As always, should you like to get in touch about sharing research data, accessing support, or suggesting new features, please [contact us directly](/contact/) and we’ll get back to you ASAP. In order to see the data on different pathogens or topics related to pandemic presparedness, please refer to our [Topics section](/topics/).
