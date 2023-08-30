@@ -84,7 +84,7 @@ Forskargruppen tillhandahåller även en rapport som sammanfattar informationen 
 
 **Kontakt:** <anna.szekely@slu.se> och <javier.vargas@slu.se>
 
-**Ladda ner data:** [Genkopieantal av luftvägsvirus normaliserat mot PMMoV-genkopieantal, CSV fil.](https://datagraphics.dc.scilifelab.se/dataset/0ac8fa02871745048491de74e5689da9.csv). Data finns tillgängligt från vecka 38 2020 och uppdateras veckovis.
+**Ladda ner data:** [Genkopieantal av luftvägsvirus normaliserat mot PMMoV-genkopieantal, CSV fil.](https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data.csv). Data finns tillgängligt från vecka 38 2020 och uppdateras veckovis.
 
 **Citera datasetet:**
 
