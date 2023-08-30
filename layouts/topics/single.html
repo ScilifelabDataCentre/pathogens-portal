@@ -1,85 +1,36 @@
 {{ define "main" }}
 
 {{ $page_topic := .Page.Params.topic }}
+{{ $topic_key := $page_topic | urlize }}
 
 <!-- Content from the markdown file -->
 {{ .Content }}
 
 <!-- Data Highlights -->
-
-{{ range $key, $taxonomy := .Site.Taxonomies.highlights_topics }}
-{{ if eq $key (urlize $page_topic) }}
-<h3><i class="bi bi-three-dots-vertical"></i> Data highlights ({{ len $taxonomy.Pages }})</h3>
+{{ $n_dh := len (.Site.Taxonomies.highlights_topics.Get $topic_key) }}
+{{ if $n_dh }}
+<h3><i class="bi bi-three-dots-vertical"></i> Data highlights ({{ $n_dh }})</h3>
 <div class="container mt-3 mb-5">
-  <div class="row">
-    {{ $col_width :="col-md"}}
-    {{ if lt (len $taxonomy.Pages) 3 }}
-    {{ $col_width = "col-md-4" }}
-    {{ end }}
-    {{ range first 3 $taxonomy.Pages }}
-    <div class="{{ $col_width }} mx-2 mb-2 border bg-light">
-      <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
-      {{ range (.GetTerms "highlights_topics") }}
-      <span class="topic_badge_small
-                  {{ if eq .LinkTitle "COVID-19"}}topic_badge_covid
-                  {{ else if eq .LinkTitle "Infectious diseases"}}topic_badge_infectious_d
-                  {{ else if eq .LinkTitle "Antibiotic resistance"}}topic_badge_antib_r
-                  {{ else if eq .LinkTitle "Mpox"}}topic_badge_mpox
-                  {{ else if eq .LinkTitle "Enteric viruses"}}topic_badge_enteric_v
-                  {{ else }}topic_badge_general
-                  {{ end }} "><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
-      {{ end }}
-      <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
-      <p class="small text-muted">{{.Date.Format "2006-01-02"}}</p>
-      <p> {{ .Summary }} <br><a
-          href="{{ .RelPermalink }}">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).readmore_text }} <i
-            class="bi bi-arrow-right-circle-fill"></i></a></p>
-    </div>
-    {{ end }}
+  {{- partial "highlights.html" . -}}
+  <div class="mt-2 fw-bold align-content-end">
+    <a href="/highlights/topics/{{ $topic_key }}">See all data highlights on {{ $page_topic }} ({{ $n_dh }}) 
+      <i class="bi bi-arrow-right-circle-fill"></i>
+    </a>
   </div>
-  <div class="mt-2 fw-bold align-content-end"><a href="/highlights/topics/{{ $key }}">See all data highlights
-      on {{ $page_topic }} ({{ len $taxonomy.Pages }}) <i class="bi bi-arrow-right-circle-fill"></i></a></div>
   <hr>
 </div>
 {{ end }}
-{{ end }}
 
 <!-- Dashboards -->
-
-{{ range $key, $taxonomy := .Site.Taxonomies.dashboards_topics }}
-{{ if eq $key (urlize $page_topic) }}
-<h3><i class="bi bi-three-dots-vertical"></i> Dashboards ({{ len $taxonomy.Pages }})</h3>
+{{ $n_db := len (.Site.Taxonomies.dashboards_topics.Get $topic_key) }}
+{{ if $n_db }}
+<h3><i class="bi bi-three-dots-vertical"></i> Dashboards ({{ $n_db }})</h3>
 <div class="container mt-3 mb-5">
-  <div class="row">
-    {{ $col_width :="col-md"}}
-    {{ if lt (len $taxonomy.Pages) 3 }}
-    {{ $col_width = "col-md-4" }}
-    {{ end }}
-    {{ range first 3 $taxonomy.Pages }}
-    <div class="{{ $col_width }} mx-2 mb-2 border bg-light">
-      <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
-      {{ range (.GetTerms "dashboards_topics") }}
-      <span class="topic_badge_small
-                  {{ if eq .LinkTitle "COVID-19"}}topic_badge_covid
-                  {{ else if eq .LinkTitle "Infectious diseases"}}topic_badge_infectious_d
-                  {{ else if eq .LinkTitle "Antibiotic resistance"}}topic_badge_antib_r
-                  {{ else if eq .LinkTitle "Mpox"}}topic_badge_mpox
-                  {{ else if eq .LinkTitle "Enteric viruses"}}topic_badge_enteric_v
-                  {{ else }}topic_badge_general
-                  {{ end }} "><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
-      {{ end }}
-      <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
-      <p> {{ .Description }} <br><a
-          href="{{ .RelPermalink }}">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).readmore_text }} <i
-            class="bi bi-arrow-right-circle-fill"></i></a></p>
-    </div>
-    {{ end }}
-  </div>
-  <div class="mt-2 fw-bold align-content-end"><a href="/dashboards/topics/{{ $key }}">See all dashboards
-    on {{ $page_topic }} ({{ len $taxonomy.Pages }}) <i class="bi bi-arrow-right-circle-fill"></i></a></div>
+  {{- partial "dashboards.html" . -}}
+  <div class="mt-2 fw-bold align-content-end"><a href="/dashboards/topics/{{ $topic_key }}">See all dashboards
+    on {{ $page_topic }} ({{ $n_db }}) <i class="bi bi-arrow-right-circle-fill"></i></a></div>
 <hr>
 </div>
-{{ end }}
 {{ end }}
 
 <!-- Sample collection -->
@@ -229,6 +180,7 @@
           </td>
           <td>{{ if and (eq $.Site.Language.LanguageName "Svenska") .funder_sv }}{{ .funder_sv }}{{ else }}
             {{ .funder }}{{ end }}</td>
+        </tr>
         {{ end }}
       </tbody>
     </table>

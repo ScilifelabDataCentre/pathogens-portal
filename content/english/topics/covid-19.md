@@ -9,7 +9,6 @@ menu:
     topics_menu:
         name: COVID-19
         identifier: covid_19
-        weight: 10
 ---
 
 ## Background

@@ -1,17 +1,17 @@
 baseURL: "https://www.covid19dataportal.se/"
-title: "The Swedish COVID-19 & Pandemic Preparedness Data Portal"
+title: "The Swedish Pathogens Portal"
 buildFuture: true
 params:
-  title: "The Swedish COVID-19 & Pandemic Preparedness Data Portal"
-  description: The Swedish COVID-19 & Pandemic Preparedness Data Portal
+  title: "The Swedish Pathogens Portal"
+  description: The Swedish Pathogens Portal
   images:
-    - /img/site_logo/CV19DP_logo_social_card_SWE.png
+    - /img/site_logo/eml_pathogens_logo.png
 
   # There is a hugo i18n package, but it seems like overkill for so few strings
   lang_strings:
     en:
-      home_title: Sharing resources to maximise pandemic preparedness 
-      enquire_email_footer_dc: "Contact the Swedish COVID-19 Data Portal"
+      home_title: Welcome to the new Swedish Pathogens Portal
+      enquire_email_footer_dc: "Contact the Swedish Pathogens Portal"
       support_feedback: Support & Feedback
       privacy: Privacy Notice
       github_link: Website code on GitHub
@@ -35,8 +35,8 @@ params:
       twitter_link: Twitter
       linkedin_link: LinkedIn
     sv:
-      home_title: Snabbare forskning genom datadelning
-      enquire_email_footer_dc: "Kontakta den svenska Covid-19 dataportalen"
+      home_title: Välkomna till den nya Svenska Patogens Portalen
+      enquire_email_footer_dc: "Kontakta den Svenska Patogens Portalen"
       support_feedback: Support och Feedback
       privacy: Integritetspolicy
       github_link: Webbplatskod på GitHub
@@ -68,7 +68,7 @@ languages:
     languageName: Svenska
     contentDir: content/svenska
     weight: 2
-    description: Svenska Dataportalen för Covid-19 & Pandemisk Beredskap
+    description: Svenska Pathogens Portalen
 
 markup:
   goldmark:

@@ -2,6 +2,7 @@
 title: COVID Symptom Study Sverige
 description: The COVID Symptom Study Sverige (CSSS) har samlat data relaterat till prevalens, symptom och vaccinationer genom en app med  över 200.000 användare i Sverige (2020-2022). Forskare kan få tillgång till rådata.
 banner: /dashboard_thumbs/symptoms_study.png
+banner_border: true
 toc: false
 plotly: true
 aliases:

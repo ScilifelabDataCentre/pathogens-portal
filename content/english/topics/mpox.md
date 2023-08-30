@@ -9,7 +9,6 @@ menu:
     topics_menu:
         name: Mpox
         identifier: mpox
-        weight: 40
 aliases:
     - /topics/monkeypox/
 ---

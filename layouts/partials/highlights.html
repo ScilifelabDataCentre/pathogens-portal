@@ -1,38 +1,59 @@
 {{ $highlights := where (where $.Site.Pages "Section" "highlights" ) "Kind" "page" }}
 {{ $currentPage := path.Split (path.Clean .RelPermalink) }}
 {{ $displayedInHome := .IsHome }}
+{{ $highlights_to_show := slice }}
+
+{{/* Compile list of highlight to show depending upon the page */}}
 {{ if $displayedInHome }}
-  {{ $highlights = first 3 $highlights }}
+  {{ $highlights_to_show = $highlights_to_show | append (first 3 $highlights) }}
+{{ else if strings.HasSuffix $currentPage.Dir "/topics/" }}
+  {{ range $highlights }}
+    {{if in (apply .Params.highlights_topics "urlize" ".") $currentPage.File }}
+      {{ $highlights_to_show = $highlights_to_show | append . }}
+    {{ end }}
+  {{ end }}
+  {{ if strings.HasPrefix $currentPage.Dir "/topics/" }}
+    {{ $highlights_to_show = first 3 $highlights_to_show }}
+  {{ end }}
+{{ else }}
+  {{ $highlights_to_show = $highlights_to_show | append $highlights }}
 {{ end }}
 
 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 {{ if not $displayedInHome }}g-lg-3{{ end }}">
-{{ range $highlights }}
-  <!-- If its a topics highlight page, display only relavant DH-->
-  {{ if or (ne $currentPage.Dir "/highlights/topics/") (in (apply .Params.highlights_topics "urlize" ".") $currentPage.File) }}
-  <div class="col">
-    <div class="bg-card">
-      <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
+{{ range $highlights_to_show }}
+  <!-- If not displayed in home page compile search tags list to use for searching -->
+  <div class="col data-highlight" 
+    {{ if eq $currentPage.File "highlights" }}
+      {{ $search_tags := slice .Title }}
       {{ range (.GetTerms "highlights_topics") }}
-          <span class="topic_badge_small
-          {{ if eq .LinkTitle "COVID-19"}}topic_badge_covid
-          {{ else if eq .LinkTitle "Infectious diseases"}}topic_badge_infectious_d
-          {{ else if eq .LinkTitle "Antibiotic resistance"}}topic_badge_antib_r
-          {{ else if eq .LinkTitle "Enteric viruses"}}topic_badge_enteric_v
-          {{ else }}topic_badge_general
-          {{ end }} "><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
+        {{ $search_tags = $search_tags | append .LinkTitle }}
       {{ end }}
-      <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
-      <p class="small text-muted">{{.Date.Format "2006-01-02"}}</p>
-      <p>{{ .Summary }}
-        {{ if not $displayedInHome }}
-        <br><a href="{{ .RelPermalink }}">
-          {{ (index $.Site.Params.lang_strings .Site.Language.Lang).readmore_text }}
-          <i class="bi bi-arrow-right-circle-fill"></i>
+      {{ with .Params.search_tags }}
+        {{ $search_tags = $search_tags | append . }}
+      {{ end }}
+      data-search-tags="{{ delimit $search_tags ":" | lower }}"
+    {{ end }}>
+    <div class="bg-highlight">
+      <div>
+        <a href="{{ .Page.RelPermalink }}">
+          <img class="img-fluid rounded-top" src="{{ .Params.banner }}" alt="{{ .Title }}">
         </a>
-        {{ end }}
-      </p>
+      </div>
+      <div class="mt-2">
+              <small>{{ .Date | time.Format ":date_long" }}</small>
+      </div>
+      <div>
+        <h6 class="my-1"><a href="{{ .Page.RelPermalink }}">{{ .Title }}</a></h6>
+      </div>
+      {{ if not $displayedInHome }}
+        <div>
+          {{ .Summary }}<br>
+          {{ range (.GetTerms "highlights_topics") }}
+            <span class="topic_badge_small"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
+          {{ end }}
+        </div>
+      {{ end }}
     </div>
   </div>
-  {{ end }}
 {{ end }}
 </div>

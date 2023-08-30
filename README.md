@@ -1,12 +1,12 @@
-# ![The Swedish COVID-19 & Pandemic Preparedness Data Portal](static/img/site_logo/CV19DP_logo_oneliner_SWE.png)
+# ![The Swedish Pathogens Portal](static/img/site_logo/eml_pathogens_logo.png)
 
-## The Swedish COVID-19 & Pandemic Preparedness Data Portal
+## The Swedish Pathogens Portal
 
-This is the source code for the Swedish COVID-19 & Pandemic Preparedness Data Portal:
-[https://www.covid19dataportal.se/](https://www.covid19dataportal.se/)
+This is the source code for the Swedish Pathogens Portal:
+[https://www.pathogens.se](https://www.pathogens.se/)
 
-The website is the Swedish node for the European Covid-19 Data Portal project.
-The main European site can be seen at [https://www.covid19dataportal.org/](https://www.covid19dataportal.org/)
+The website is the Swedish node for the European Pathogens Portal project.
+The main European site can be seen at [https://www.pathogensportal.org](https://www.pathogensportal.org/)
 
 ## Introduction
 

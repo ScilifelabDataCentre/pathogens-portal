@@ -1,10 +1,10 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-white">
+<nav class="navbar navbar-expand-lg navbar-light bg-white pb-0">
   <div class="container">
     <a class="navbar-brand" href="{{ relLangURL .Site.BaseURL }}">
-      <img src="/img/site_logo/CV19DP_logo_oneliner_SWE.svg" alt="COVID-19 Data Portal Sweden">
+      <img class="mt-2" src="/img/site_logo/eml_pathogens_logo.svg" alt="Pathogens Portal Sweden">
     </a>
     <a class="navbar-brand" href="https://www.scilifelab.se">
-      <img src="/img/site_logo/SciLifeLab_logo.svg" alt="SciLifeLab Home">
+      <img class="p-1" src="/img/site_logo/SciLifeLab_logo.svg" alt="SciLifeLab Home">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapseBottom"
       aria-controls="navbarCollapseBottom" aria-expanded="false" aria-label="Toggle navigation">
@@ -103,7 +103,7 @@
 {{ if eq $.Site.Language.LanguageName "English" }}
 <div class="container mb-1">
   <div class="row main_menu">
-    <div class="col-lg-5">
+    <div class="col-lg">
       <div class="row">
         <div class="col main_menu_item">
           <i class="bi bi-table"></i>
@@ -139,28 +139,6 @@
       </div>
       <div class="row">
         <div class="col main_menu_item">
-          <i class="bi bi-journal-text"></i> <a href="/data-management/">Research Data Management</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col main_menu_item">
-          <i class="bi bi-collection"></i> <a href="/biobanks/">Sample Collection Database (Biobanks)</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-3 mt-3 mt-lg-0 vert-line-right">
-      <div class="row">
-        <div class="col main_menu_item">
-          <i class="bi bi-grid-fill"></i> <a href="/resources/">Pandemic Preparedness</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col main_menu_item">
-          <i class="bi bi-clipboard-data"></i> <a href="/pathogens/">Emerging Pathogens</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col main_menu_item">
           <i class="bi bi-inboxes-fill"></i>
           <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research & Funding</a>
@@ -171,26 +149,47 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="col-lg mt-3 mt-lg-0">
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-grid-fill"></i> <a href="/resources/">Pandemic Preparedness</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-journal-text"></i> <a href="/data-management/">Research Data Management</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-collection"></i> <a href="/biobanks/">Sample Collection Database</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg my-3 my-lg-0">
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-card-list"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
+            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Topics</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            {{ range .Site.Menus.topics_menu }}
+            <a class="dropdown-item m-0" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-clipboard-data"></i> <a href="/pathogens/">Emerging Pathogens</a>
+        </div>
+      </div>
       <div class="row">
         <div class="col main_menu_item">
           <i class="bi bi-calendar-event"></i> <a href="/events/">Events & Training</a>
         </div>
       </div>
-    </div>
-    <div class="col-lg-4 my-3 my-lg-0">
-      <div><a class="topics_title" href="/topics/">Topics</a></div>
-      {{ range $ind, $topic := .Site.Menus.topics_menu }}
-      <span class="me-2 mb-2 topic_badge_large
-        {{ if eq .Name "COVID-19"}}topic_badge_covid
-        {{ else if eq .Name "Infectious diseases"}}topic_badge_infectious_d
-        {{ else if eq .Name "Mpox"}}topic_badge_mpox
-        {{ else if eq .Name "Antibiotic resistance"}}topic_badge_antib_r
-        {{ else if eq .Name "Enteric viruses"}}topic_badge_enteric_v
-        {{ else }}topic_badge_general
-        {{ end }} "><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
-      </span>
-      {{ if eq (mod (add $ind 1) 2) 0 }}<br>{{ end }}
-      {{ end }}
     </div>
   </div>
 </div>

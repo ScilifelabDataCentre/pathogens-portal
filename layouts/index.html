@@ -7,21 +7,34 @@
     <!-- Dashboards -->
     {{ range .Site.Menus.homepage_dashboards }}
     <div class="row">
-      <h2>{{ .Name }}</h2>
-    </div>
-    <div class="row">
-      <p class="small text-muted">{{ .Post }}</p>
+      <div class="col">
+        <h2>{{ .Name }}</h2>
+      </div>
+      <div class="col mt-2 pt-1 text-end see-all-link-text">
+        <a href="{{ .Page.RelPermalink }}">
+          {{ if eq $.Site.Language.LanguageName "Svenska" }}
+            Se alla dashboards
+          {{ else }}
+            See all dashboards
+          {{ end }}
+          <i class="bi bi-arrow-right-square-fill"></i>
+        </a>
+      </div>
     </div>
     {{ end }}
     {{ partial "dashboards.html" . }}
+    
+    <!-- English page specific content -->
     {{ if ne $.Site.Language.LanguageName "Svenska" }}
     <!-- Data highlights -->
     {{ range .Site.Menus.homepage_highlights }}
-    <div class="row">
-      <h2>{{ .Name }}</h2>
-    </div>
-    <div class="row">
-      <p class="small text-muted">{{ .Post }}</p>
+    <div class="row mt-4 mb-2">
+      <div class="col">
+        <h2>{{ .Name }}</h2>
+      </div>
+      <div class="col mt-2 pt-1 text-end see-all-link-text">
+        <a href="{{ .Page.RelPermalink }}">See all highlights <i class="bi bi-arrow-right-square-fill"></i></a>
+      </div>
     </div>
     {{ end }}
     {{ partial "highlights.html" . }}
@@ -59,35 +72,39 @@
     {{ with .Sites.First.GetPage $path }} {{ $datatypes_to_display = .Params.datatypes_to_display }} {{ end }}
 
     {{ range .Site.Menus.homepage_available_data }}
-    <div class="row mt-4">
-      <h2>{{ .Name }}</h2>
-    </div>
-    <div class="row">
-      <p class="small text-muted">{{ .Post }}</p>
+    <div class="row mt-4 mb-2 pt-2">
+      <div class="col">
+        <h2>{{ .Name }}</h2>
+      </div>
+      <div class="col mt-2 pt-1 text-end see-all-link-text">
+        <a href="{{ .Page.RelPermalink }}all">See all datasets <i class="bi bi-arrow-right-square-fill"></i></a>
+      </div>
     </div>
     {{ end }}
-    <div class="row">
+    <div class="row bg-dataset-container">
       {{ range .Site.Menus.datasets_menu }}
       {{ if ne .Title "All data types" }}
-      <div class="col-md-4">
-        <h5><a href="{{ .Page.RelPermalink }}">
-            {{ $section_title := string "" }}
-            {{ $section_title = .Title}}
-            {{ $this_type := strings.TrimRight " data" (lower $section_title) }}
-            {{ range $type, $num := $num_entries_per_data_type }}
-            {{ $type_in_dict := strings.TrimRight " data" (lower $type) }}
-            {{ if eq $this_type $type_in_dict }}
-            {{ if eq $section_title "Genomics & transcriptomics data"}}
-            {{ $this_type = "genomics"}}
-            {{ end }}
-            {{ if eq $section_title "Social science and humanities data"}}
-            {{ $this_type = "social science"}}
-            {{ end }}
-            {{ $this_type | title }} ({{ $num }})
-            {{ end }}
-            {{ end }}
-            <i class="bi bi-arrow-right-circle-fill"></i>
-          </a></h5>
+      <div class="col-md-4 py-2">
+        <a href="{{ .Page.RelPermalink }}">
+          <span class="bg-dataset">
+          {{ $section_title := string "" }}
+          {{ $section_title = .Title}}
+          {{ $this_type := strings.TrimRight " data" (lower $section_title) }}
+          {{ range $type, $num := $num_entries_per_data_type }}
+          {{ $type_in_dict := strings.TrimRight " data" (lower $type) }}
+          {{ if eq $this_type $type_in_dict }}
+          {{ if eq $section_title "Genomics & transcriptomics data"}}
+          {{ $this_type = "genomics"}}
+          {{ end }}
+          {{ if eq $section_title "Social science and humanities data"}}
+          {{ $this_type = "social science"}}
+          {{ end }}
+          {{ $this_type | title }} ({{ $num }})
+          {{ end }}
+          {{ end }}
+          <i class="bi bi-caret-right-fill"></i>
+          </span>
+        </a>
       </div>
       {{ end }}
       {{ end }}
@@ -96,29 +113,42 @@
 
     <!-- Sample Collection Database -->
     {{ range .Site.Menus.homepage_biobanks }}
-    <div class="row mt-4">
-      <h2>{{ .Name }}</h2>
-    </div>
-    <div class="row">
-      <p class="small text-muted">{{ .Post }}</p>
+    <div class="row mt-4 mb-2 pt-2">
+      <div class="col-9">
+        <h2>{{ .Name }}</h2>
+      </div>
+      <div class="col mt-2 pt-1 text-end see-all-link-text">
+        <a target="_blank" href="https://biobanks.covid19dataportal.se/">
+          {{ if eq $.Site.Language.LanguageName "Svenska" }}
+            Sök databas
+          {{ else }}
+            Search database
+          {{ end }}<i class="bi bi-arrow-right-square-fill"></i></a>
+      </div>
     </div>
     {{ end }}
-    <div class="row">
+    <div class="row bg-biobank">
       <div class="col-md-4">
         <div class="row">
-        </div>
-        <div class="row">
-          <h5>{{ if eq $.Site.Language.LanguageName "Svenska" }}Provsamlingar{{ else }}Collections{{ end }}: 36</h5>
-        </div>
-        <div class="row align-items-end">
-          <h5><a target="_blank"
-              href="https://biobanks.covid19dataportal.se/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Sök i
-              provsamlingsregistret{{ else }}Search in the database{{ end }} <i
-                class="bi bi-arrow-right-circle-fill"></i></a></h5>
+          <h5>Biobanks</h5>
+            {{ if eq $.Site.Language.LanguageName "Svenska" }}
+              <div class="my-2">
+                Det svenska Covid-19 provsamlingsregistret är ett verktyg för forskare som vill använda redan insamlade
+                biobanksprover och data relaterade till covid-19 från svenska provsamlingar i sin forskning.
+              </div>
+              <a class="mt-1" href="/sv/biobanks/">Läs mer <i class="bi bi-arrow-right-square-fill"></i></a>
+            {{ else }}
+              <div class="pt-1 mb-2">
+                The Swedish COVID-19 Sample Collection Database is a tool for researchers wishing to make use of samples
+                and data stored in various biobanks across Sweden in their research. The database allows to find sample
+                collections matching their needs using various filters.
+              </div>
+              <a class="mb-1" href="/biobanks/">Read more <i class="bi bi-arrow-right-square-fill"></i></a>
+            {{ end }}
         </div>
       </div>
       <div class="col-md-8">
-        <img class="img-thumbnail" src="/img/biobanks/national_collction_shot.png"
+        <img class="img-fluid" src="/img/biobanks/homepage_shot.png"
           alt="Sample Collection Database screenshot">
       </div>
     </div>
@@ -132,56 +162,182 @@
     {{ if ne $.Site.Language.LanguageName "Svenska" }}
     <!-- Portal updates -->
     <div class="row">
-      <h4>What's new?</h4>
-      <p>News about new sections, features, as well as significant milestones.</p>
+      <h4 class="mb-1">What's new?</h4>
+      <p class="mb-2 small">News about new sections, features, as well as significant milestones.</p>
     </div>
     <div class="row px-2">
-      <div class="border ms-1 p-3" id="news-items-container">
+      <div class="border p-3" id="news-items-container">
         {{ $updates := where .Site.RegularPages "Section" "updates" }}
         {{ range $index, $el := first 3 $updates }}
         <div>
           <div class="small text-muted">{{ .Date.Format "2006-01-02" }}</div>
           <div><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
         </div>
-        {{ if ne $index 2}} <div class="px-4 py-0">
-          <hr>
+        {{ if ne $index 2}} <div class="px-4 py-1">
+          <hr class="my-2">
         </div> {{ end }}
         {{ end }}
-        <div class="mt-3">
-          <a href="/updates/">See all Portal news <i class="bi bi-arrow-right-circle-fill"></i></a>
+        <div class="mt-3 bg-see-all-link">
+          <a href="/updates/">See all Portal news <i class="bi bi-arrow-right-square-fill"></i></a>
         </div>
       </div>
     </div>
     {{ end }}
 
-    <!-- About the portal -->
-    <div class="row mt-4 mb-3">
-      <h4>{{ if eq $.Site.Language.LanguageName "Svenska" }}Om dataportalen{{ else }}About this portal{{ end }}</h4>
-      {{ .Content }}
+    {{ if ne $.Site.Language.LanguageName "Svenska" }}
+    <!-- Events -->
+    <section id="events-section">
+      <!-- The events content will filled by JS function below -->
+    </section>
+    {{ end }}
+
+    {{ if ne $.Site.Language.LanguageName "Svenska" }}
+    <!-- Funding opportunities -->
+    <div class="row mt-4">
+      <h4 class="mb-1">Funding opportunities</h4>
+      <p class="mb-2 small">The titles and submission deadlines of upcoming funding opportunities.</p>
     </div>
+    <div class="row px-2">
+      <div class="border p-3">
+        {{ $nextCalls := sort $.Site.Data.funding.calls "submission_deadline" "asc" }}
+        {{ range $ind, $cont := first 3 (where $nextCalls "submission_deadline" "ge" (now | time.Format "2006-01-02")) }}
+        <div>
+          <div class="d-flex justify-content-between align-items-center">
+            <div><a class="" role="button" href="{{ .call_url }}" target="_blank">{{ $cont.call_title }}</a></div>
+            <div>
+              <div class="px-2 py-1 d-flex flex-column rounded card-badge mw-100">
+                <div class="px-2 fs-6 mx-auto">{{ $cont.submission_deadline | time.Format "02" }}</div>
+                <div class="pb-1 px-2 fs-6 mx-auto">{{ $cont.submission_deadline | time.Format "Jan" }}</div>
+              </div>
+            </div>
+          </div>
+          {{ if ne $ind 2}} 
+            <div class="px-4 py-1">
+              <hr class="my-2">
+            </div> 
+          {{ end }}
+        </div>
+        {{ end }}
+        <div class="mt-3 bg-see-all-link">
+          <a href="/funding/">See all funding opportunities <i class="bi bi-arrow-right-square-fill"></i></a>
+        </div>
+      </div>
+    </div>
+  {{ end }}
+
+    <!-- About the portal -->
+    {{ if eq $.Site.Language.LanguageName "Svenska" }}
+      <div class="row mt-4">
+        <h4>Om dataportalen</h4>
+      </div>
+      {{ .Content }}
+    {{ end }}
 
     <!-- Share your data ad -->
-    <div class="row ps-2">
-      <div class="share-new-data text-white ms-1 pb-3 px-3">
-        <h4>{{ if eq $.Site.Language.LanguageName "Svenska" }}Dela nya data{{ else }}Share new data{{ end }}</h4>
+    <div class="row mt-4 ps-1 pt-2">
+      <div class="share-new-data text-white ms-1 pb-1 px-3">
+        <h4 class="mt-2 mb-1">{{ if eq $.Site.Language.LanguageName "Svenska" }}Dela nya data{{ else }}Share new data{{ end }}</h4>
         {{ if eq $.Site.Language.LanguageName "Svenska" }}Teamet som arbetar med dataportalen hjälper dig
         gärna dela dina forskningsdata i öppna databaser och svarar på frågor om datahantering.{{ else }}The portal
         team is happy to assist you with submitting your data to open repositories or answer any questions about data
         management.{{ end }}
+        <div class="row">
+          <div class="col-auto">
+            <h6><a class="btn-white-teal"
+                href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/share-data/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Riktlinjer{{ else }}Guidelines{{ end }}
+                <i class="bi bi-arrow-right"></i></a></h6>
+          </div>
+          <div class="col-auto">
+            <h6><a class="btn-white-teal"
+                href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/support/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Stödtjänster{{ else }}Support
+                request{{ end }} <i class="bi bi-arrow-right"></i></a></h6>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col text-white pb-3 px-3">
-        <h6><a style="color:white"
-            href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/share-data/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Riktlinjer{{ else }}Guidelines{{ end }}
-            <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
-        <h6><a style="color:white"
-            href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/support/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Stödtjänster{{ else }}Support
-            request{{ end }} <i class="bi bi-arrow-right-circle-fill"></i></a></h6>
-      </div>
-    </div>
+    
   </div>
 </div>
+
+<script>
+  // Functions need to be run when the DOM is ready
+  document.addEventListener("DOMContentLoaded", function (event) {
+    // Takes a URL and calls the callback function pass the data fetched
+    function getDataFromUrl(url, load_callback) {
+      var req = new XMLHttpRequest();
+      req.overrideMimeType("application/json");
+      req.open("GET", url, true);
+      // The function call for fetching data and display
+      req.onload = function () {
+        load_callback(JSON.parse(req.responseText).items);
+      };
+
+      req.send(null);
+    } // function "getDataFromUrl" ends here
+
+    function addEvents(dataArray) {
+      var eventList = [];
+      // Not interested if the deadline has already passed
+      dataArray.forEach((event) => {
+        event.banner_date = event.date_start || event.registration_deadline;
+        if (typeof event.banner_date !== 'undefined') {
+          if (new Date(event.banner_date) >= new Date().setHours(0, 0, 0, 0)) {
+            eventList.push(event);
+          }
+        }
+      }); // dataArray for each ends here
+
+      // Sort the arrays
+      eventList = eventList.sort((a, b) => (a.banner_date > b.banner_date) ? 1 : (a.banner_date < b.banner_date) ? -1 : 0);
+
+      var eventsHTML = `<div class="row mt-4">
+                           <h4 class="mb-1">Events</h4>
+                           <p class="mb-2 small">The titles and start dates of upcoming events.</p>
+                        </div>
+                          <div class="row px-2">
+                            <div class="border p-3">`;
+      var count = 0;
+      eventList.forEach((event, ind) => {
+        if (count < 3) {
+          var event_date = new Date(event.banner_date);
+          eventsHTML += `   <div>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div><a class="" role="button" href="/events/" target="_blank">${event.title}</a>
+                                </div>
+                                <div>
+                                  <div class="px-2 py-1 d-flex flex-column rounded card-badge mw-100">
+                                    <div class="px-2 fs-6 mx-auto">${event_date.getDate().toString().padStart(2, '0')}</div>
+                                    <div class="pb-1 px-2 fs-6 mx-auto">${event_date.toLocaleString('en-US', { 'month': 'short' })}</div>
+                                  </div>
+                                </div>
+                              </div>`;
+                              if (count !== 2) {
+                                eventsHTML += `<div class="px-4 py-2">
+                                                 <hr class="my-2">
+                                               </div></div>`;
+                              } else {
+                                eventsHTML += `</div>`;
+                              }
+          count++;
+        }
+      }); // for each events iteration to create html ends here
+
+      eventsHTML += `       <div class="mt-3 bg-see-all-link">
+                            <a href="/events/">See all events <i class="bi bi-arrow-right-square-fill"></i></a>
+                            </div>
+                          </div>`;
+      var eventsSection = document.getElementById('events-section');
+      eventsSection.innerHTML = eventsHTML;
+    } // function "addEvents" ends here
+
+    // Call the function to fetch, parse and display events
+    getDataFromUrl(
+      decodeURIComponent("https%3A%2F%2Fblobserver.dc.scilifelab.se%2Fblob%2Fcovid_portal_events.json"),
+      addEvents
+    );
+
+  }); // Document "DOMContentLoaded" trigger ends here
+</script>
 
 <script>
   // Add latest tag to very recent news when content is loaded
