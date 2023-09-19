@@ -22,7 +22,7 @@ aliases:
 
 ## Share data in a public repository
 
-Publish your COVID-19 & Pandemic Preparedness research data to make it available for the rest of the research community. The data should be deposited in a public repository together with descriptive metadata. For many biological datatypes, there are international databases that can be considered de facto standards.
+Publish your infectious disease and pandemic preparedness data to make it available for the rest of the research community. The data should be deposited in a public repository together with descriptive metadata. For many biological datatypes, there are international databases that can be considered de facto standards.
 
 The [European Bioinformatics Institute (EBI)](https://www.ebi.ac.uk/) hosts many different international data repositories which should be used if appropriate. For data types where no suitable international repository is available, your data can be deposited to the [SciLifeLab Data Repository](https://scilifelab.se/data/repository) which is run by the SciLifeLab Data Centre (submissions accepted from all life science researchers in Sweden).
 
