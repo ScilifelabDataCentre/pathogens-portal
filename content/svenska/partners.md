@@ -21,6 +21,6 @@ Förutom [Sverige](https://www.pathogens.se), lanserade andra lander nationella 
 
 Norge och Turkiet ([se Turkiets arkiverade portal](https://www.loc.gov/item/lcwaN0030712/)) hade också nationella covid-19-dataportaler under hela covid-19-pandemin.
 
-I juli 2023 lanserade European Molecular Biology Laboratorys European Bioinformatics Institute ([EMBL-EBI](https://www.ebi.ac.uk/)) en ny version av [Pathogens Portal](https://www. pathogensportal.org/). Detta återspeglar den globala utvecklingen mot allmän pandemiberedskap, och bort från bara COVID-19 specifikt. Patogenportalen innehåller data och information om flera patogener och pandemiberedskap i allmänhet.
+I juli 2023 lanserade European Molecular Biology Laboratorys European Bioinformatics Institute ([EMBL-EBI](https://www.ebi.ac.uk/)) en ny version av [Pathogens Portal](https://www.pathogensportal.org/). Detta återspeglar den globala utvecklingen mot allmän pandemiberedskap, och bort från bara COVID-19 specifikt. Patogenportalen innehåller data och information om flera patogener och pandemiberedskap i allmänhet.
 
 I augusti 2023 omvandlade vi den svenska COVID-19 Dataportalen till den första nationella noden av Patogenportalen ([läs våra nyheter](https://www.pathogens.se/updates/pathogens_portal/)). Den är numera känd som Patogens Portal Sverige. Med tiden kommer andra nationella noder av att komma online och kommer att listas nedan.
