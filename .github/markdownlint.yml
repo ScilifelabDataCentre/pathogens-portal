@@ -42,3 +42,5 @@ no-inline-html:
     - select
     - option
     - em
+markdownlint-disable:
+    - MD051
