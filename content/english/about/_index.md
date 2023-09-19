@@ -1,13 +1,13 @@
 ---
 title: About the Swedish Pathogens Portal
 menu:
-    navbar_top:
-        name: About
-        weight: 10
-        identifier: about
-    footer_about:
-        name: About the portal
-        weight: 10
+  navbar_top:
+    name: About
+    weight: 10
+    identifier: about
+  footer_about:
+    name: About the portal
+    weight: 10
 ---
 
 <div class="mb-4">
@@ -29,7 +29,7 @@ menu:
 
 #### Introduction
 
-The *Swedish Pathogens Portal* provides information about available datasets, resources, tools, and services related to pandemic preparedness in Sweden. We offer support to all those involved in pandemic preparedness research that are affiliated with a Swedish research institution or university.
+The _Swedish Pathogens Portal_ provides information about available datasets, resources, tools, and services related to pandemic preparedness in Sweden. We offer support to all those involved in pandemic preparedness research that are affiliated with a Swedish research institution or university.
 
 The Portal is operated by the [SciLifeLab Data Centre](https://scilifelab.se/data/) and [partners](partner_organisations). We welcome community contributions to the Portal and provide information on the different ways that the community can contribute, for more details see [contribute](/contribute/) page. In addition to running the Portal, the team can also either provide support on data-related questions surrounding pandemic preparedness research or help find suitable support services. For more general data support, please see our related research data management service([RDM Guidelines](https://data-guidelines.scilifelab.se/)).
 
@@ -57,7 +57,7 @@ The team are happy to help with using the Portal, to take suggestions regarding 
       <div><span class="text-muted">Project leader</span></div>
     </div>
     <div class="col-md-2 pt-2">
-      <div><img src="/img/people/kos.jpeg" width="150" class="img-thumbnail"/></div>
+      <div><img src="/img/people/kos2.jpg" width="150" class="img-thumbnail"/></div>
       <div><b>Katarina Öjefors Stark</b></div>
       <div><span class="text-muted">Data steward</span></div>
     </div>
