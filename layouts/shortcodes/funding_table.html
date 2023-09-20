@@ -1,102 +1,151 @@
-{{/* If I wanted to display only particular topics, pick up the variable passed from the markdown file */}}
-{{/* $topic_to_display := .Get "topic" */}}
+<section id="fundings-section">
+  <!-- The funding content will be filled by JS function below -->
+</section>
 
-<p><i>
-    Last updated: {{ $.Site.Data.funding.last_updated }}
-  </i></p>
-
-{{/*
-  Make a list of unique funder names
-*/}}
-{{ $all_funders:= slice }}
-{{ range $.Site.Data.funding.calls }} {{ $all_funders = $all_funders | append .funder }} {{ end }}
-{{ $funders := $all_funders | uniq }}
-
-
-{{ $topics := slice }}
-{{/*
-  Make a list of unique topics
-*/}}
-{{ $all_topics := slice }}
-{{ range $.Site.Data.funding.calls }} {{ $all_topics = $all_topics | append .topic }} {{ end }}
-{{ $topics = $all_topics | uniq }}
-
-<div class="container">
-  <div class="row">
-    <!-- Add Filter options -->
-    <div class="col-lg-2 ps-0 {{ if eq $.Site.Language.LanguageName "Svenska" }}mr-5{{ else }}mr-2{{ end }}">
-      <h5>Topic</h5>
-      {{ range sort $topics }}
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="topic_{{ . }}" name="topic" value="{{ . }}">
-        <label class="form-check-label" for="topic_{{ . }}">{{ . }}</label>
-      </div>
-      {{ end }}
-      
-      <h5>Funder</h5>
-      {{ range sort $funders }}
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="funder_{{ . }}" name="funder" value="{{ . }}">
-        <label class="form-check-label" for="funder_{{ . }}">{{ . }}</label>
-      </div>
-      {{ end }}
-    </div>
+<script>
+  // Functions need to be run when the DOM is ready
+  document.addEventListener("DOMContentLoaded", function (event) {
     
-    <!-- Display table -->
-    <div class="col-lg">
-      <div class="row">
-        <div class="table-responsive">
-          <table class="table table-hover no-last-row-border funding-opportunities" width="100%">
-            <thead class="table-light">
-              <tr>
-                <th scope="col">Call title</th>
-                <th scope="col">Deadline</th>
-                <th scope="col">Funder</th>
-                <th scope="col">Topics</th>
-              </tr>
-            </thead>
-            <tbody>
-              {{ range $ind, $cont := $.Site.Data.funding.calls }}
-              {{ if gt (.submission_deadline | time.Format "20060102") (now | time.Format "20060102") }}
-              <tr>
-                <td>
-                  <div class="row">
-                    <div class="col">
-                      <h6><a href="{{ .call_url }}">{{ .call_title }}</a></h6>
-                    </div>
-                  </div>
-                  {{ if .call_description }}<div class="row">
+    // Takes a URL and calls the callback function pass the data fetched
+    function getDataFromUrl(url, load_callback, loadend_callback) {
+      var req = new XMLHttpRequest();
+      req.overrideMimeType("application/json");
+      req.open("GET", url, true);
+      // The function call for fetching data and display
+      req.onload = function () {
+        load_callback(JSON.parse(req.responseText));
+      };
+      // The function call for adding filtering
+      req.onloadend = function () {
+        loadend_callback();
+      };
+      req.send(null);
+    }; // function "getDataFromUrl" ends here
+    
+    function addFundings (data){
+      var dataArray = data.calls;
+      var fundList = [], funders = [], topics = []
+      var date_format_options = {'month': 'long', day:'numeric', year: 'numeric'};
+      // Not insterested if the deadline have already passed
+      dataArray.forEach((fund) => {
+        if (typeof fund.submission_deadline !== 'undefined'){
+          if (new Date(fund.submission_deadline) >= new Date().setHours(0,0,0,0)){
+            fundList.push(fund);
+            if (typeof fund.topic !== 'undefined'){
+              fund.topic.forEach((tp) => {if(!topics.includes(tp)){topics.push(tp)}});
+            };
+            if (typeof fund.funder !== 'undefined'){
+              if(!funders.includes(fund.funder)){funders.push(fund.funder);}
+            };
+          };
+        };
+      }); // dataArray for each ends here
+      
+      // Sort the arrays
+      fundList = fundList.sort((a,b) => (a.submission_deadline > b.submission_deadline) ? 1 : (a.submission_deadline < b.submission_deadline) ? -1 : 0);
+      funders = funders.sort();
+      topics = topics.sort();
+      
+      // If no event to show, display appropriate message
+      if (fundList.length === 0) {
+        var fundsHTML = `<div class="alert alert-secondary mt-4">
+                          We are currently unaware of any upcoming funding opportunities relevant for data-driven 
+                          life science. If you know of any funding opportunities that should be shown here, please
+                          suggest them to us using the "Tell us about a funding call" button above.
+                        </div>`
+      } else {
+          var fundsHTML = `<p><i>Last updated: ${data.last_updated}</i></p>
+                          <div class="row mt-3 mb-5">
+                          <div class="col-lg-2" id="events-filters">`;
+          if (topics.length > 0){
+            fundsHTML += `<h5>Topic</h5>`;
+            topics.forEach((tp) => {
+              fundsHTML += `<div class="form-check">   
+                              <input class="form-check-input" type="checkbox" id="${tp}" name="topic" value="${tp}">
+                              <label class="form-check-label" for="${tp}">${tp}</label>
+                             </div>`;
+            });
+          };
+          if (funders.length > 0){
+            fundsHTML += `<h5 class="mt-3">Funder</h5>`;
+            funders.forEach((fn) => {
+              fundsHTML += `<div class="form-check">   
+                              <input class="form-check-input" type="checkbox" id="${fn}" name="funder" value="${fn}">
+                              <label class="form-check-label" for="${fn}">${fn}</label>
+                             </div>`;
+            });
+          };
+          fundsHTML += `</div>
+                         <div class="col-lg">
+                          <div class="row">
+                            <div class="table-responsive">
+                              <table class="table table-hover no-last-row-border funding-opportunities" width="100%">
+                                <thead class="table-light">
+                                  <tr>
+                                    <th scope="col">Call title</th>
+                                    <th scope="col">Deadline</th>
+                                    <th scope="col">Funder</th>
+                                    <th scope="col">Topics</th>
+                                  </tr>
+                                </thead>
+                                <tbody>`;
+          fundList.forEach((fund, ind) => {
+            fundsHTML += `<tr>
+                            <td>
+                              <div class="row">
+                                <div class="col">
+                                  <h6><a href="${fund.call_url}">${fund.call_title}</a></h6>
+                                </div>
+                              </div>`;
+            if (fund.call_description){
+              if (fund.call_description.length > 190) {
+                var short_description = fund.call_description.substring(0, 187) + "...";
+              } else {
+                var short_description = fund.call_description;
+              }
+              fundsHTML += `<div class="row">
                     <div class="col text-muted">
-                      {{ truncate 190 .call_description | markdownify }}
+                      ${short_description}
                     </div>
-                  </div>{{ end }}
-                  <div class="row mt-2">
-                    <div class="col">
-                      <button type="button" class="btn_details btn_details_primary" data-bs-toggle="modal"
-                        data-bs-target="#call_details{{ $ind }}">
-                        Details
-                      </button>
-                      <div class="modal fade" id="call_details{{ $ind }}" tabindex="-1" role="dialog"
-                        aria-labelledby="call_details{{ $ind }}Label" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="call_details{{ $ind }}Label">{{ .call_title }}</h5>
-                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                  </div>`;
+            };
+            fundsHTML += `<div class="row mt-2">
+                            <div class="col">
+                              <button type="button" class="btn_details btn_details_primary" data-bs-toggle="modal"
+                                data-bs-target="#call_details${ind}">
+                                Details
                               </button>
-                            </div>
-                            <div class="modal-body funding_details">
-                              <p><b>Funder:</b> {{ .funder }}<br>
-                                {{ if .submission_opendate}}<b>Submission opens:</b>
-                                {{ .submission_opendate | time.Format ":date_long" }}<br>{{ end }}
-                                <b>Submission deadline:</b> {{ .submission_deadline | time.Format ":date_long" }}<br>
-                                {{ if .funding_amount }}<b>Funding amount:</b> {{ .funding_amount }}<br>{{ end }}
-                                {{ if .funding_period }}<b>Funding period:</b> {{ .funding_period}}<br>{{ end }}
-                                {{ if .applicant }}<b>Eligible applicant:</b>
-                                {{ .applicant | markdownify }}<br>{{ end }}
-                                {{ if .decision_date }}<b>Decision date:</b> {{ .decision_date }}<br>{{ end }}</p>
-                              <p><b>Call description:</b><br>{{ .call_description | markdownify }}</p>
-                              <p><a href="{{ .call_url }}">See call website for more information <i
+                              <div class="modal fade" id="call_details${ind}" tabindex="-1" role="dialog"
+                                aria-labelledby="call_details${ind}Label" aria-hidden="true">
+                                <div class="modal-dialog modal-lg" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="call_details${ind}Label">${fund.call_title}</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                      </button>
+                                    </div>
+                                    <div class="modal-body funding_details">
+                                      <p><b>Funder:</b> ${fund.funder}<br>`;
+            if (fund.submission_opendate){
+              var openDate = new Date(fund.submission_opendate);
+              fundsHTML += `<b>Submission opens:</b> ${openDate.toLocaleString('en-US', date_format_options)}<br>`;
+            };
+            var endDate = new Date(fund.submission_deadline);
+            fundsHTML += `<b>Submission deadline:</b> ${endDate.toLocaleString('en-US', date_format_options)}<br>`;
+            if (fund.funding_amount){
+              fundsHTML += `<b>Funding amount:</b> ${fund.funding_amount}<br>`;
+            };
+            if (fund.funding_period){
+              fundsHTML += `<b>Funding period:</b> ${fund.funding_period}<br>`;
+            };
+            if (fund.applicant){
+              fundsHTML += `<b>Eligible applicant:</b> ${fund.applicant}<br>`;
+            };
+            if (fund.decision_date){
+              fundsHTML += `<b>Decision date:</b> ${fund.decision_date}<br>`;
+            };
+            fundsHTML += `<p><b>Call description:</b><br>${fund.call_description}</p>
+                              <p><a href="${fund.call_url}" target="_blank">See call website for more information <i
                                     class="bi bi-arrow-right-circle-fill" aria-hidden="true"></i></a></p>
                             </div>
                             <div class="modal-footer">
@@ -108,69 +157,74 @@
                     </div>
                   </div>
                 </td>
-                <td>{{ .submission_deadline | time.Format ":date_long" }}</td>
-                <td>{{ .funder }}</td>
-                <td>{{ range .topic }}<span class="mx-1 my-1 topic_badge_large
-                  {{ if eq . "COVID-19"}}topic_badge_covid
-                  {{ else if eq . "Infectious diseases"}}topic_badge_infectious_d
-                  {{ else if eq . "Mpox"}}topic_badge_mpox
-                  {{ else if eq . "Antibiotic resistance"}}topic_badge_antib_r
-                  {{ else if eq . "Enteric viruses"}}topic_badge_enteric_v
-                  {{ else }}topic_badge_general
-                  {{ end }} ">{{ . }}</span>{{ end }}</td>
-              </tr>
-              {{ end }}
-              {{ end }}
-            </tbody>
-          </table>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<script>
-  $(document).ready(function () {
-    
-    // Data table configrations
-    var table = $('.funding-opportunities').DataTable({
-      "dom": '<"top">rt<"bottom"><"clear">',
-      "language": {
-        "lengthMenu": "Show _MENU_ projects per page.",
-        "zeroRecords": "Nothing found.",
-        "info": "Showing _START_ to _END_ of _TOTAL_ calls.",
-        "infoEmpty": "No calls available",
-        "infoFiltered": "(filtered from _MAX_ total calls)",
-        "search": "Search:",
-        "paginate": {
-          "first": "First",
-          "last": "Last",
-          "next": "Next",
-          "previous": "Previous"
-        }
-      }
-    });
-
-    // Filter options code
-    $('input:checkbox').on('change', function () {
+                <td>${endDate.toLocaleString('en-US', date_format_options)}</td>
+                <td>${fund.funder}</td>
+                <td>`;
+            fund.topic.forEach((tp) => {
+              fundsHTML += `<span class="mx-1 my-1 topic_badge_large">${tp}</span>`;
+            });
+            fundsHTML += `</td></tr>`;
+          });
+        fundsHTML += `</tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>`;
+      }; // creating of funds display html ends here
       
-      // Funder filter
-      var funder = $('input:checkbox[name="funder"]:checked').map(function () {
-        return this.value;
-      }).get().join('|');
-
-      table.column(2).search(funder, true, false, false).draw(false);
-
-      // Topic filter
-      var topic = $('input:checkbox[name="topic"]:checked').map(function () {
-        return this.value;
-      }).get().join('|');
-
-      table.column(3).search(topic, true, false, false).draw(false);
-    });
+      var fundSection = document.getElementById('fundings-section');
+      fundSection.innerHTML = fundsHTML;
+    }; // function addFundungs ends here
     
-    // Suggestion form related code
+    function enableFiltering(){
+      // Data table configrations
+      var table = $('.funding-opportunities').DataTable({
+        "dom": '<"top">rt<"bottom"><"clear">',
+        "language": {
+          "lengthMenu": "Show _MENU_ projects per page.",
+          "zeroRecords": "Nothing found.",
+          "info": "Showing _START_ to _END_ of _TOTAL_ calls.",
+          "infoEmpty": "No calls available",
+          "infoFiltered": "(filtered from _MAX_ total calls)",
+          "search": "Search:",
+          "paginate": {
+            "first": "First",
+            "last": "Last",
+            "next": "Next",
+            "previous": "Previous"
+          }
+        }
+      });
+
+      // Filter options code
+      $('input:checkbox').on('change', function () {
+      
+        // Funder filter
+        var funder = $('input:checkbox[name="funder"]:checked').map(function () {
+          return this.value;
+        }).get().join('|');
+
+        table.column(2).search(funder, true, false, false).draw(false);
+
+        // Topic filter
+        var topic = $('input:checkbox[name="topic"]:checked').map(function () {
+          return this.value;
+        }).get().join('|');
+
+        table.column(3).search(topic, true, false, false).draw(false);
+      }); // Filter options code ends here
+    
+    }; // function "enableFiltering" ends here
+    
+    // Call the function to fetch, parse and display events
+    getDataFromUrl(
+      decodeURIComponent("https%3A%2F%2Fblobserver.dc.scilifelab.se%2Fblob%2Fpathogens_portal_funding.json"),
+      addFundings,
+      enableFiltering
+    );
+    
+    // Suggestion form related code starts here
     document.getElementById('originUrl').value = location.href;
 
     var form = document.querySelector('.needs-validation');
@@ -186,11 +240,9 @@
         event.preventDefault();
         alert("Please tick 'I'm not a robot' above the 'Submit the form' button.");
       }
-    });
+    }); // Suggestion form related code ends here
 
-  });
-
-
+  }); // Document "DOMContentLoaded" trigger ends here
 </script>
 
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>

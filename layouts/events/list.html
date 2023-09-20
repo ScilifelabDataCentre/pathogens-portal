@@ -142,7 +142,9 @@
       dataArray.forEach((event) => {
         event.banner_date = event.date_start || event.registration_deadline;
         if (typeof event.banner_date !== 'undefined') {
-          if (new Date(event.banner_date) >= new Date().setHours(0, 0, 0, 0)) {
+          var dateString = event.banner_date + (event.time_start ? ' ' + event.time_start : '');
+          var [h, m] = event.time_start ? event.time_start.split(":") : [0, 0];
+          if (new Date(dateString) >= new Date().setHours(h, m)){
             eventList.push(event);
           };
         };
