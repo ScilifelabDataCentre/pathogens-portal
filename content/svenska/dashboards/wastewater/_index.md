@@ -22,6 +22,8 @@ aliases:
   - /sv/dashboards/wastewater/introduction/
 ---
 
+<!-- markdownlint-disable MD051 -->
+
 ## Introduktion
 
 Avloppsvattenövervakning kan fungera som en effektiv metod för att kartlägga förekomsten av patogener, inklusive SARS-CoV-2, i befolkningen. Metoden kan också fungera som ett 'tidigt varningssystem' som förutsäger kommande utbrott. Se nedan för [en allmän introduktion till avloppsvattenbaserad epidemiologi](#bakgrund-avloppsvattenbaserad-epidemiologi).

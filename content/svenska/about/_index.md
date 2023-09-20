@@ -1,12 +1,12 @@
 ---
 title: Om dataportalen
 menu:
-    navbar_top:
-        name: Om dataportalen
-        weight: 10
-    footer_about:
-        name: Om dataportalen
-        weight: 10
+  navbar_top:
+    name: Om dataportalen
+    weight: 10
+  footer_about:
+    name: Om dataportalen
+    weight: 10
 toc: false
 ---
 
@@ -57,7 +57,7 @@ Vi hjälper er gärna med support, tar emot förslag på förbättringar av nuva
       <div><span class="text-muted">Project leader</span></div>
     </div>
     <div class="col-md-2 pt-2">
-      <div><img src="/img/people/kos.jpeg" width="150" class="img-thumbnail"/></div>
+      <div><img src="/img/people/kos2.jpg" width="150" class="img-thumbnail"/></div>
       <div><b>Katarina Öjefors Stark</b></div>
       <div><span class="text-muted">Data steward</span></div>
     </div>

@@ -8,6 +8,8 @@ menu:
     weight: 30
 ---
 
+<!-- markdownlint-disable MD051 -->
+
 ## Introduktion
 
 Enteriska virus tillhör en större grupp virus som inkluderar calicivirus (norovirus och sapovirus), adenoviruses, och astroviruses. Dessa virus sprids via fekal-orala smittvägar och orsakar gastroenterit (som känneteckas av symptom som illamående, diarré och kräkningar).
