@@ -7,6 +7,7 @@ banner: /highlights/banners/neanderthal_gene_data_driven.jpg
 banner_large: /highlights/banners/neanderthal_gene_data_driven_full.jpg
 banner_caption: "Skull of Homo sapiens neanderthalensis. <br> Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Homo_sapiens_neanderthalensis.jpg)."
 highlights_topics: [COVID-19, Infectious diseases]
+tags: [COVID-19, Neanderthal, Severe COVID, Genetic risk factor, Oas1, Mapping]
 aliases:
     - /news/neanderthal_gene_data_driven
     - /sv/news/neanderthal_gene_data_driven

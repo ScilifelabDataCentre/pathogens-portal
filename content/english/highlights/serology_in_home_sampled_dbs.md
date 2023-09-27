@@ -6,6 +6,7 @@ banner: /highlights/banners/Roxhed_figure1_thumbnail.png
 banner_large: /highlights/banners/Roxhed_figure1_full.png
 banner_caption: Figure 1 - Translational approach for multiplexed serology in home-sampled dried blood spots from Roxhed et al. (2021).
 highlights_topics: [COVID-19, Infectious diseases]
+tags: [COVID-19, IgG, IgM, Blood spots, Home-sampling, Serology, Questionnaire data]
 aliases:
     - /news/serology_in_home_sampled_dbs
     - /sv/news/serology_in_home_sampled_dbs

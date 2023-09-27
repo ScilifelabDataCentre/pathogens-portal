@@ -6,6 +6,7 @@ banner: /highlights/banners/antivirals.png
 banner_large: /highlights/banners/antivirals_large.png
 banner_caption: "Source: Courtesy of  Marjo-Riitta Puumalainen"
 highlights_topics: [COVID-19, Infectious diseases]
+tags: [COVID-19, Host-targeted, Small molecule inhibitors, Antiviral screening , Cellular pathways, Broad spectrum antivirals]
 aliases:
     - /news/antivirals
     - /sv/news/antivirals

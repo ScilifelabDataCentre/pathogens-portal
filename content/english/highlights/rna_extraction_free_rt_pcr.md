@@ -6,6 +6,7 @@ summary: Study by Björn Reinius and co-workers published open access in *Nature
 banner: /highlights/banners/rna_extraction_free_rt_pcr.png
 banner_caption: "Source: Figure 1 from Smyrlaki et al., Nature Communications, 2020"
 highlights_topics: [COVID-19, Infectious diseases]
+tags: [COVID-19, RT-PCR, Testing, Method, RNA extraction-free RT-PCR]
 aliases:
     - /news/rna_extraction_free_rt_pcr
     - /svnews/rna_extraction_free_rt_pcr
