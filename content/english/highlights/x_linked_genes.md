@@ -6,6 +6,7 @@ banner: /highlights/banners/Asano_thumbnail.jpg
 banner_large: /highlights/banners/Asano_full_size.jpg
 banner_caption: Figure 3 - Type I IFN responses to TLR7 agonist in TLR7-deficient pDCs and leukocytes from Asano et al. (2021).
 highlights_topics: [COVID-19, Infectious diseases]
+tags: [COVID-19, Susceptibility, Severe COVID-19, Risk factor, TLR7, X-linked recessive TLR7 deficiency]
 aliases:
     - /news/x_linked_genes
     - /sv/news/x_linked_genes

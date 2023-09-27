@@ -7,6 +7,7 @@ banner: /highlights/banners/bryant_elofsson.png
 banner_large: /highlights/banners/bryant_elofsson_large.png
 banner_caption: "Source: Part of Figure 1 of the corresponding article."
 highlights_topics: [COVID-19, Infectious diseases]
+tags: [COVID-19, SARS-CoV-2 mobility data, Bayesian modelling]
 aliases:
     - /news/estimating_impact_mobility_patterns
     - /sv/news/estimating_impact_mobility_patterns

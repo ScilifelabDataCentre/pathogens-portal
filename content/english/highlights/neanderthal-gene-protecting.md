@@ -6,6 +6,7 @@ banner: /highlights/banners/neanderthal-gene-protecting.png
 banner_large: /highlights/banners/neanderthal-gene-protecting-large.png
 banner_caption: "Source: Figure 2 of Zhao et al. 2021"
 highlights_topics: [COVID-19, Infectious diseases]
+tags: [COVID-19, Neandethal, Severe Covid, Genetic epidemiology, OAS1]
 aliases:
     - /news/neanderthal-gene-protecting
     - /sv/news/neanderthal-gene-protecting

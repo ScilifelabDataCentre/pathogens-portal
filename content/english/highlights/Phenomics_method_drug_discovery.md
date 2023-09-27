@@ -6,6 +6,7 @@ banner: /highlights/banners/Rietdijk_abstract_small.png
 banner_large: /highlights/banners/Rietdijk_abstract_big.png
 banner_caption: "Source: Graphical abstract from Rietdijk et al. 2021"
 highlights_topics: [COVID-19, Infectious diseases]
+tags: [Phenomics, Pertubations, Antiviralm, Drug discovery]
 aliases:
     - /news/phenomics_method_drug_discovery
     - /sv/news/phenomics_method_drug_discovery

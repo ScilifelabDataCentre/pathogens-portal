@@ -28,7 +28,7 @@
       {{ range (.GetTerms "highlights_topics") }}
         {{ $search_tags = $search_tags | append .LinkTitle }}
       {{ end }}
-      {{ with .Params.search_tags }}
+      {{ with .Params.tags }}
         {{ $search_tags = $search_tags | append . }}
       {{ end }}
       data-search-tags="{{ delimit $search_tags ":" | lower }}"

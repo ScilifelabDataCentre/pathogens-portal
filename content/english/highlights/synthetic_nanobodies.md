@@ -8,6 +8,7 @@ banner_large: /highlights/banners/synthetic_nanobodies_large.png
 banner_caption: "Source: Figure 5 from Custódio et al., Nature Communications, 2020"
 toc: false
 highlights_topics: [COVID-19, Infectious diseases]
+tags: [COVID-19 SARS-CoV-2, Nanobody, Receptor-binding domain, RBD, Cryo-EM, Antiviral therapy]
 aliases:
     - /news/synthetic_nanobodies
     - /sv/news/synthetic_nanobodies

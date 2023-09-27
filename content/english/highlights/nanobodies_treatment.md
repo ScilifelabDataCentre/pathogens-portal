@@ -5,6 +5,7 @@ summary: A recently published study characterizes the mechanisms by which nanobo
 banner: /highlights/banners/nanobodies_treatment.png
 banner_caption: "Source: [PDB 7KN7](https://www.rcsb.org/structure/7KN7), Crystal structure of SARS-CoV-2 RBD complexed with nanobody VHH W and antibody Fab CC12.3"
 highlights_topics: [COVID-19, Infectious diseases]
+tags: [COVID-19, Nanobodies, Alpaca, Cyro-EM, Therapeutics]
 aliases:
     - /news/nanobodies_treatment
     - /sv/news/nanobodies_treatment

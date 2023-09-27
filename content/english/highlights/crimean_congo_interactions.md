@@ -6,6 +6,7 @@ banner: /highlights/banners/crimean_congo_interactions.jpg
 banner_large: /highlights/banners/crimean_congo_interactions_large.jpg
 banner_caption: Fig 3c. from Neogi et al. (2022). Heatmap of significant correlation (adj. p < 0.05) between key metabolic and signaling pathways. Column and row annotation denotes corresponding pathways.
 highlights_topics: [Infectious diseases]
+tags: [Crimean-Congo haemorrhagic fever, CCHFV, Pathogenesis, Host-viral interaction, Drug]
 ---
 
 The COVID-19 pandemic is now moving into a more endemic phase in Sweden, as well as many other parts of the world. Regardless, SARS-CoV-2 still poses a serious global health threat, particularly when considering the potential effects of novel variants. Continuous pandemic preparedness efforts are therefore warranted. Global preparedness is also beneficial to safeguard against the threat of pandemics caused by other emerging pathogens.
