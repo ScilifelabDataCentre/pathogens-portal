@@ -89,6 +89,10 @@ When hovering over the plot with the cursor, additional grey icons appear in the
   </div>
 </div>
 
+<div class="d-md-none alert alert-info">
+  Rotating your phone may improve graph layout
+</div>
+
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/swedishpop_subplot_button.json" height="800px" >}}</div>
 </div>
@@ -137,6 +141,10 @@ When hovering over the plot with the cursor, additional grey icons appear in the
 </span>
 
   </div>
+</div>
+
+<div class="d-md-none alert alert-info">
+  Rotating your phone may improve graph layout
 </div>
 
 <div class="plot_wrapper mb-3">

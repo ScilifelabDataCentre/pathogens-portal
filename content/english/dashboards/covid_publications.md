@@ -5,13 +5,14 @@ banner: /dashboard_thumbs/publications.jpg
 toc: false
 plotly: true
 menu:
-    dashboard_menu:
-        identifier: covid_19_publications_vis
-        name: "COVID-19 publication overview"
+  dashboard_menu:
+    identifier: covid_19_publications_vis
+    name: "COVID-19 publication overview"
 aliases:
-    - /projects/dashboard/
+  - /projects/dashboard/
 dashboards_topics: [COVID-19, Infectious diseases]
 ---
+
 The visualisations on this page evaluate the development of COVID-19 and SARS-CoV-2 research across Sweden by assessing publication output. Specifically, we consider multiple aspects of journal publications and preprints where at least one author has an affiliation with a Swedish research institute. The database containing the publications themselves [can be found on this page](/publications/). Note that our database is manually curated and, as such, may not be exhaustive. The full database is available for download and use for other purposes, please see [DOI: 10.17044/scilifelab.14124014](https://doi.org/10.17044/scilifelab.14124014) for details.
 
 The code used to produce the visulations on this page can be found on [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations). Specifically, code related to the number of publications can be found in the ['Count_publications' folder of the repository](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Count_publications), and code used to generated the wordclouds can be found in the ['Wordcloud' folder](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Wordcloud).
@@ -19,6 +20,10 @@ The code used to produce the visulations on this page can be found on [GitHub](h
 ## Number of new publications
 
 This graph displays the number of publications (including both journal publications and preprints) published each month, as well as the cumulative daily total of publications contained in the database. The dates reflect either the preprint upload date or the official journal publication date, whichever is the most recent. Where a given day of publication is not specified in the publication/upload date, we assign the date as the first of the month. This causes the appearance of a relatively sharp increase at the start of each month. This chart is updated daily, though the publications database is not.
+
+<div class="d-md-none alert alert-info">
+  Rotating your phone may improve graph layout
+</div>
 
 <div class="table-responsive">
 {{< publications_per_month >}}
