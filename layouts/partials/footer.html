@@ -1,17 +1,37 @@
 <footer class="container border-top mt-5 mb-5">
-  <!-- <div class="row border-bottom small text-muted">
-     <div class="col-md">
-      <p class="mb-0">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).enquire_email_footer_dc }}: <a href="mailto:datacentre@scilifelab.se">datacentre@scilifelab.se</a></p>
-    </div>
-     <div class="col-md">
-      <p class="mb-0">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).enquire_email_footer_bioinformatics }}: <a href="https://nbis.se/support/">https://nbis.se/support/</a></p>
-    </div>
-  </div> -->
   <div class="row border-bottom">
-    <div class="col-md">
+    
+    <!-- About section -->
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">{{ if eq $.Site.Language.LanguageName "Svenska" }}Om
+        dataportalen{{ else }}About{{ end }}</h2>
+      <ul class="list-unstyled mb-1">
+        {{ range .Site.Menus.footer_about }}
+        <li><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
+        {{ end }}
+        <li><a href="https://github.com/ScilifelabDataCentre/covid-portal/tree/develop">{{ if eq $.Site.Language.LanguageName "Svenska" }}Webbplatskod{{ else }}Website code{{ end }} (Github)</a></li>
+      </ul>
+    </div>
+    
+    <!-- Other section for English page -->
+    {{ if eq $.Site.Language.LanguageName "English" }}
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">Other sections</h2>
+      <ul class="list-unstyled">
+        <li><a href="/resources/">Resources</a></li>
+        <li><a href="/pathogens/">Emerging Pathogens</a></li>
+        {{ range .Site.Menus.research_menu }}
+        <li><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+    
+    <!-- Data and follow section -->
+    <div class="col-md px-5 px-md-2">
       <h2 class="small text-uppercase text-black-50">
         {{ if eq $.Site.Language.LanguageName "Svenska" }}Sektioner{{ else }}Data{{ end }}</h2>
-      <ul class="list-unstyled">
+      <ul class="list-unstyled mb-0">
         {{ if eq $.Site.Language.LanguageName "English" }}
         {{ range .Site.Menus.data_menu }}
         <li><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
@@ -24,85 +44,27 @@
         <li><a href="/sv/biobanks/">Provsamlingsregistret</a></li>
         {{ end }}
       </ul>
-    </div>
-    {{ if eq $.Site.Language.LanguageName "English" }}
-    <div class="col-md">
-      <h2 class="small text-uppercase text-black-50">Other sections</h2>
-      <ul class="list-unstyled">
-        <li><a href="/resources/">Resources</a></li>
-        <li><a href="/pathogens/">Emerging Pathogens</a></li>
-        {{ range .Site.Menus.research_menu }}
-        <li><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
-        {{ end }}
-      </ul>
-    </div>
-    {{ end }}
-    <div class="col-md">
-      <h2 class="small text-uppercase text-black-50">{{ if eq $.Site.Language.LanguageName "Svenska" }}Om
-        dataportalen{{ else }}About{{ end }}</h2>
-      <ul class="list-unstyled mb-1">
-        {{ range .Site.Menus.footer_about }}
-        <li><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
-        {{ end }}
-      </ul>
-      <ul class="list-unstyled border-top pt-1 nav-languages">
-        {{ if .IsTranslated }}
-        {{ range .AllTranslations }}
-        <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }}<img
-              src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
-        {{ end }}
-        {{ else if .Parent.IsTranslated }}
-        <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }}<img
-              src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
-        <li><a href="/sv{{ relURL .Parent.Permalink }}" lang="sv">Svenska<img src="/img/flag-sv.svg" alt=""></a></li>
-        {{ else if .Parent.Parent.IsTranslated }}
-        <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }}<img
-              src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
-        <li><a href="/sv{{ relURL .Parent.Parent.Permalink }}" lang="sv">Svenska<img src="/img/flag-sv.svg" alt=""></a>
-        </li>
-        {{ else }}
-        {{ range $.Site.Home.AllTranslations }}
-        <li><a href="{{ relURL .Permalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }}<img
-              src="/img/flag-{{ .Language.Lang }}.svg" alt=""></a></li>
-        {{ end }}
-        {{ end }}
-      </ul>
-    </div>
-    <div class="col-md">
-      <div class="d-flex justify-content-center justify-content-md-start">
       <h2 class="small text-uppercase text-black-50">{{ if eq $.Site.Language.LanguageName "Svenska" }}Följ
         oss{{ else }}Connect{{ end }}</h2>
+      <div>
+        <a style="font-size:1.75em;" target="_blank"
+          href="https://linkedin.com/company/scilifelab-data-centre"><i class="bi bi-linkedin"></i></a>
+        <a class="ps-2" style="font-size:1.75em;" target="_blank" href="https://twitter.com/scilifelab_DC"><i
+            class="bi bi-twitter-x"></i></a>
+        <a class="ps-2" style="font-size:1.90em;" target="_blank" href="mailto:datacentre@scilifelab.se"><i
+            class="bi bi-envelope-fill"></i></a>
       </div>
-      <div class="container">
-        <div class="d-flex justify-content-center justify-content-md-start">
-          <a class="p-2" style="font-size:2em;" target="_blank" href="mailto:datacentre@scilifelab.se"><i
-              class="bi bi-envelope-fill"></i></a>
-          <a class="p-2" style="font-size:2em;" target="_blank" href="https://twitter.com/scilifelab_DC"><i
-              class="bi bi-twitter"></i></a>
-          <a class="p-2" style="font-size:2em;" target="_blank"
-            href="https://linkedin.com/company/scilifelab-data-centre"><i class="bi bi-linkedin"></i></a>
-        </div>
-      </div>
-      <div class="d-flex">
-        <a class="d-block px-5 px-md-0">
-          <img src="/img/logos/complete_footer.png" alt="SciLifeLab, Knut and Alice Wallenberg Foundation and SSF Logos">
+    </div>
+    
+    <!-- Host and partner logo -->
+    <div class="col-md px-5 px-md-2">
+      <div>
+        <a class="d-block">
+          <img style="max-height: 200px" src="/img/logos/complete_footer.png" alt="SciLifeLab, Knut and Alice Wallenberg Foundation and SSF Logos">
         </a>
       </div>
     </div>
 
-
-  <div class="row footer-lower-row">
-    <div class="col-md-2 p-2 text-center">
-      <a
-        href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/contact/">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).support_feedback }}</a>
-    </div>
-    <div class="col-md-2 p-2 text-center">
-      <a href='{{ "/privacy" | relLangURL }}'>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).privacy }}</a>
-    </div>
-    <div class="col-md-2 p-2 text-center">
-      <a
-        href="https://github.com/ScilifelabDataCentre/covid-portal/tree/develop">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).github_link }}</a>
-    </div>
   </div>
 </footer>
 

@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<!-- Nav tab style for larger devices -->
+<div class="d-none d-md-block mb-4">
+  <ul class="nav nav-tabs nav-justified nav-tabs-about">
+    {{ $current_page := .Page.RelPermalink }}
+    {{ range .Site.Menus.navbar_about }}
+    <li class="nav-item">
+        <a class="nav-link{{ if eq $current_page .Page.RelPermalink }} active font-weight-bold{{ end }}"
+            href="{{ if eq $current_page .Page.RelPermalink }}#{{ else }}{{ .Page.RelPermalink }}{{ end }}">{{ .Name | markdownify }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+
+<!-- Nav tab style for smaller devices -->
+<div class="d-md-none mb-4">
+  <ul class="nav nav-list nav-justified flex-column nav-tabs-about">
+    {{ $current_page := .Page.RelPermalink }}
+    {{ range .Site.Menus.navbar_about }}
+    {{ $name := strings.TrimRight "<br>" .Name }}
+    <li class="nav-item">
+        <a class="nav-link{{ if eq $current_page .Page.RelPermalink }} active font-weight-bold{{ end }}"
+            href="{{ if eq $current_page .Page.RelPermalink }}#{{ else }}{{ .Page.RelPermalink }}{{ end }}">{{ $name | markdownify }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+
+{{ .Content }}
+
+{{ end }}

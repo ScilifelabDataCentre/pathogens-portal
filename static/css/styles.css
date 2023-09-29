@@ -26,29 +26,6 @@ blockquote {
   margin-left: 1rem;
   color: #666;
 }
-img[src$="#floatleft"],
-img[src$="#floatright"],
-img[src$="#floatleftbig"],
-img[src$="#floatrightbig"] {
-  max-width: 250px;
-  max-height: 100px;
-  margin: 0 1rem 1rem;
-}
-img[src$="#floatleft"],
-img[src$="#floatleftbig"] {
-  float: left;
-  margin-left: 0;
-}
-img[src$="#floatright"],
-img[src$="#floatrightbig"] {
-  float: right;
-  margin-right: 0;
-}
-img[src$="#floatleftbig"],
-img[src$="#floatrightbig"] {
-  max-width: 350px;
-  max-height: 200px;
-}
 
 h2 {
   margin-top: 2rem;
@@ -71,9 +48,37 @@ li:empty {
   display: none;
 }
 
-.navbar .navbar-brand {
-  max-width: 60%;
+figure.float-md-end {
+    max-width: 50%;
 }
+
+/* For smaller device use full width */
+@media (max-width: 767px) {
+  figure.float-md-end {
+    max-width: 100%;
+  }
+}
+
+.navbar .navbar-brand {
+  max-width: 75%;
+}
+
+/*
+* Adapt header logo size for smaller mobile devices
+*/
+
+@media (max-width: 311px) {
+    .navbar .navbar-brand {
+      max-width: 70%;
+    }
+}
+
+@media (max-width: 263px) {
+    .navbar .navbar-brand {
+      max-width: 65%;
+    }
+}
+
 .navbar .navbar-brand img {
   height: 65px;
   max-width: 100%;
@@ -91,10 +96,26 @@ a.nav-link:active {
   text-decoration: none;
 }
 
-.nav-tabs a.nav-link {
+.nav-tabs a.nav-link,
+.nav-list a.nav-link {
   /* color: #295986; */
   color: #4770b1;
   font-weight: 500;
+}
+
+.nav-list li {
+  margin: 0.2rem 0;
+  border: 1px solid #d2e5e7;
+  border-radius: 2px;
+}
+
+.nav-list a.active {
+    color: #3f3f3f;
+    background-color: #d2e5e7;
+}
+
+.nav-tabs-about a.active {
+    font-weight: 600;
 }
 
 @media (max-width: 991px) {
@@ -106,24 +127,36 @@ a.nav-link:active {
 .navbar .navbar-nav.navbar-top {
   margin-left: 1rem;
 }
+
 .navbar .navbar-nav.navbar-top li:not(:first-child) a {
   padding-left: 0;
 }
+
 .navbar-top li:not(:last-child) a span {
   border-right: 1px solid #ccc;
   padding-right: 1rem;
 }
 
 .navbar-top a img {
-  width: 1rem;
-  opacity: 0.2;
+  width: 1.1rem;
+  opacity: 0.3;
 }
 .nav-languages a img {
-  width: 1.2rem;
+  width: 1.1rem;
   opacity: 0.5;
-  margin-left: 0.5rem;
+  margin-left: 0.1rem;
   margin-bottom: 0.1rem;
 }
+
+.nav-languages li:not(:last-child) a span {
+  border-right: 1px solid #ccc;
+  padding-right: 1rem;
+}
+
+.nav-languages li:not(:first-child) a {
+  padding-left: 1rem;
+}
+
 .navbar-top a:hover img,
 .navbar-top a:focus img,
 .navbar-top a:active img,
@@ -134,14 +167,13 @@ a.nav-link:active {
 }
 
 .navbar .navbar-nav a.nav-link.highlight {
-  /* border: 1px solid rgba(41, 89, 134, 0.8);
-    color: rgba(41, 89, 134, 0.8); */
   border: 1px solid rgba(71, 112, 177, 0.9);
   color: rgba(71, 112, 177, 0.9);
   padding: 0.3rem 1rem;
   margin: 0.5rem 0;
   border-radius: 2px;
   margin-left: 0.2em;
+  text-align: center;
 }
 .navbar .navbar-nav a.nav-link.highlight:hover,
 .navbar .navbar-nav a.nav-link.highlight:focus,
@@ -152,21 +184,18 @@ a.nav-link:active {
 }
 
 .main_menu_item {
-  /* color: rgba(41, 89, 134, 0.8); */
   color: rgba(71, 112, 177, 0.9);
   font-weight: 500;
   font-size: 1.25em;
 }
 
 .main_menu_item a {
-  /* color: rgba(41, 89, 134, 0.8); */
   color: rgba(71, 112, 177, 0.9);
   text-decoration: none;
 }
 
 .main_menu_item_sub a {
   font-weight: 500;
-  /* color: rgba(41, 89, 134, 0.8); */
   color: rgba(71, 112, 177, 0.9);
   text-align: left;
   vertical-align: middle;
@@ -177,6 +206,16 @@ a.nav-link:active {
   white-space: nowrap;
   padding-right: 0.5rem;
   text-decoration: none;
+}
+
+/* For smaller device use reduced font size */
+@media (max-width: 767px) {
+    .main_menu_item {
+        font-size: 1.1em;
+    }
+    .main_menu_item_sub a {
+        font-size: 0.83em;
+    }
 }
 
 .main_menu_item a:hover,
@@ -326,21 +365,6 @@ for rows with images to fix that.
   font-size: small;
   font-weight: 500;
 }
-
-/* 
-
-This no longer an issue, commenting out on 2023-01-28,
-this commented section can be removed after a month or two
-
-Not needed with new version of datatable
-but keeping for future reference if needed
-Override a default for the datatables.
-
-div.dataTables_wrapper div.dataTables_info {
-    padding-top: 0 !important;
-}
-
-*/
 
 /* Vertical line for the homepage */
 
@@ -708,22 +732,26 @@ hr.faded:before {
   z-index: 1;
 }
 
-/*
-* Specifically for the images on the topics overview page
-*/
+/* Specifically for the images on the topics overview page */
 
 .topics-image {
   margin-top: 0.5rem;
 }
 
-/*
-* Footer images alignment
-*/
+/* iframe size for privacy opt out on different devices */
 
-@media (max-width: 767px) {
-  .row.footer-lower-row {
-    padding-right: 0;
-    margin: 0 auto;
-    padding-left: 0;
-  }
+iframe#matoOpOut {
+    padding: 5px 10px;
+    background-color: #f8f9fa;
+    width: 100%;
+    height: 120px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: #ccc;
 }
+
+@media (max-width: 1199px){iframe#matoOpOut {height: 135px;}}
+@media (max-width: 767px){iframe#matoOpOut {height: 165px;}}
+@media (max-width: 475px){iframe#matoOpOut {height: 200px;}}
+@media (max-width: 371px){iframe#matoOpOut {height: 250px;}}
