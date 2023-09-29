@@ -54,7 +54,7 @@ Ingående avloppsvattenprover insamlas från Ryaverkets avloppsreningsverk (eng.
 </div> -->
 
 <div class="d-md-none alert alert-info">
-  Skrolla grafen horisontellt för att se alla data.
+  Att rotera mobiltelefonen kan förbättra grafens layout
 </div>
 
  <div class="plot_wrapper mb-3">

@@ -130,6 +130,10 @@ Denna tabell visar de vanligaste diagnosgrupper som har rapporterats tillsammans
 
 Denna graf visar antal vårdkontakter för patienter med de av de tre diagnoskoderna. Observera att grafen börjar från vecka 22 2020, men att diagnoskoderna _U08.9_ och _U09.9_ börjar användas först vid senare tillfälle (se information ovan). Varje vårdkontakt efter det att patienten fått diagnosen räknas in i dessa data. Data visas per vecka. Observera att dessa uppgifter inte är fullständiga eftersom information om antalet vårdkontakter från vissa veckor inte är tillgängliga på grund av patientsekretessen. Notera att uppgifterna inte är fullständiga, eftersom data från vissa vårdgivare (t.ex. husläkare) inte rapporteras in till Patientregistret på grund av patientsekretessen. Inrapporterade data från de senaste veckorna är preliminära, eftersom uppgifterna inte uppdateras direkt. Fördröjningen att rapportera in uppgifter kan vara längre under traditionella semesterperioder, som under sommaren.
 
+<div class="d-md-none alert alert-info">
+  Att rotera mobiltelefonen kan förbättra grafens layout
+</div>
+
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/weeklycontacts_healthcare.json" height="500px" >}}</div>
 </div>
@@ -142,6 +146,10 @@ Dessa grafer visar antal vårdkontakter för patienter som diagnostiserats med e
 
 #### Diagnoskod U09.9
 
+<div class="d-md-none alert alert-info">
+  Att rotera mobiltelefonen kan förbättra grafens layout
+</div>
+
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/U099_healthcare_divsex.json" height="500px" >}}</div>
 </div>
@@ -149,6 +157,10 @@ Dessa grafer visar antal vårdkontakter för patienter som diagnostiserats med e
 **Källkod som används för att skapa grafen:** [Källkod som används för att skapa grafen](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/weeklycontacts_healthcare_divsex.py).
 
 #### Diagnoskod Z86.1A/U08.9
+
+<div class="d-md-none alert alert-info">
+  Att rotera mobiltelefonen kan förbättra grafens layout
+</div>
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/U089_healthcare_divsex.json" height="500px" >}}</div>

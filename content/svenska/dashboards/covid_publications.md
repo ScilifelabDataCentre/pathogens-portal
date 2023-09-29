@@ -5,12 +5,13 @@ banner: /dashboard_thumbs/publications.jpg
 toc: false
 plotly: true
 menu:
-    dashboard_menu:
-        identifier: covid_19_publications_vis
-        name: Översikt över COVID-19 publikationer
+  dashboard_menu:
+    identifier: covid_19_publications_vis
+    name: Översikt över COVID-19 publikationer
 aliases:
-    - /projects/dashboard/
+  - /projects/dashboard/
 ---
+
 <div class="alert alert-info">
   <i class="bi bi-exclamation-triangle-fill"></i>
   <span>En svensk översättning av denna sida kommer inom kort.</span>
@@ -22,7 +23,11 @@ The code used to produce the visulations on this page can be found on [GitHub](h
 
 ## Number of new publications
 
-This graph displays the number of publications (including both journal publications and preprints) published each month, as well as the cumulative daily total of publications contained in the database. The dates reflect either the preprint upload date or the official journal publication date, whichever is the most recent. Where a given day of publication is not specified in the publication/upload date, we assign the date as the first of the month. This causes the appearance of a relatively sharp increase at the start of each month. This chart is updated daily, though the publications database is not.
+This graph displays the number of publications (including both journal publications and preprints) published each month, as well as the cumulative daily total of publications contained in the database. The dates reflect either the preprint upload date or the official journal publication date, whichever is the most recent. Where a given day of publication is not specified in the publication/upload date, we assign the date as the first of the month. This causes the appearance of a relatively sharp increase at the start of each month. This chart is updated weekly, though the publications database is not.
+
+<div class="d-md-none alert alert-info">
+  Att rotera mobiltelefonen kan förbättra grafens layout
+</div>
 
 <div class="table-responsive">
 {{< publications_per_month >}}
