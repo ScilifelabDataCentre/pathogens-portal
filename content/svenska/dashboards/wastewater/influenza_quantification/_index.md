@@ -32,6 +32,10 @@ SLU-SEEC samlar in och analyserar prover för kvantifiering av nivåerna av infl
 
 ### Influensa A
 
+<div class="d-md-none alert alert-info">
+  Att rotera mobiltelefonen kan förbättra grafens layout
+</div>
+
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infA.json" height="600px" >}}</div>
 </div>
@@ -39,6 +43,10 @@ SLU-SEEC samlar in och analyserar prover för kvantifiering av nivåerna av infl
 **Källkod som används för att skapa grafen:** [Källkod](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_slu_influenza_a.py).
 
 ### Influensa B
+
+<div class="d-md-none alert alert-info">
+  Att rotera mobiltelefonen kan förbättra grafens layout
+</div>
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infB.json" height="600px" >}}</div>
