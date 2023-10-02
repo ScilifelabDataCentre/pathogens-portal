@@ -6,8 +6,8 @@ menu:
         weight: 20
         identifier: contact
     footer_about:
-        name: Kontakt
-        weight: 20
+        name: Support och Feedback
+        weight: 30
 recaptcha: true
 ---
 

@@ -1,15 +1,23 @@
+<!-- Top navigation bar with logo and menu beside the logo -->
 <nav class="navbar navbar-expand-lg navbar-light bg-white pb-0">
   <div class="container">
-    <a class="navbar-brand" href="{{ relLangURL .Site.BaseURL }}">
-      <img class="mt-2" src="/img/site_logo/eml_pathogens_logo.svg" alt="Pathogens Portal Sweden">
-    </a>
-    <a class="navbar-brand" href="https://www.scilifelab.se">
-      <img class="p-1" src="/img/site_logo/SciLifeLab_logo.svg" alt="SciLifeLab Home">
-    </a>
+    <!-- Logo -->
+    <div class="d-flex navbar-brand">
+      <a href="{{ relLangURL .Site.BaseURL }}">
+        <img class="mt-1 me-lg-3" src="/img/site_logo/eml_pathogens_logo.svg" alt="Pathogens Portal Sweden">
+      </a>
+      <a href="https://www.scilifelab.se">
+        <img class="px-2 py-lg-1" src="/img/site_logo/SciLifeLab_logo.svg" alt="SciLifeLab Home">
+      </a>
+    </div>
+    
+    <!-- Hamburger button, shows up only on smaller screen-->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapseBottom"
       aria-controls="navbarCollapseBottom" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    
+    <!-- Navigation links beside logo, visible only on biger screen -->
     <div class="d-flex align-items-end flex-column collapse navbar-collapse">
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto navbar-top">
@@ -55,53 +63,166 @@
     </div>
   </div>
 </nav>
+<!-- ENDS HERE - Top navigation bar with logo and menu beside the logo -->
 
-<!-- Expandable top navigation menu -->
+<!-- Expandable top navigation menu, controlled by above defined hamburger button, only visible on small screens -->
 <nav class="navbar navbar-expand-lg navbar-light pt-0">
   <div class="container">
     <div class="collapse navbar-collapse" id="navbarCollapseBottom">
-      <ul class="navbar-nav d-lg-none nav-languages">
+      
+      <!-- About, language and other button navigation stuff -->
+      <ul class="d-lg-none navbar-nav nav-languages list-group-horizontal justify-content-end">
+        {{ range .Site.Menus.navbar_top }}
+        <li class="nav-item"><a class="nav-link {{ .Post }}" href="{{ .Page.RelPermalink }}">{{ .Pre }}{{ .Name }}</a>
+        </li>
+        {{ end }}
         {{ if .IsTranslated }}
         {{ range .AllTranslations }}
-        <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"
-            lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"
-              alt=""></a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span
+              lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"
+                alt=""></span></a></li>
         {{ end }}
         {{ else if .Parent.IsTranslated }}
-        <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"
-            lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"
-              alt=""></a></li>
-        <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Permalink }}" lang="sv">Svenska <img
-              src="/img/flag-sv.svg" alt=""></a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span
+              lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"
+                alt=""></span></a></li>
+        <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Permalink }}"><span lang="sv">sv <img
+                src="/img/flag-sv.svg" alt=""></span></a></li>
         {{ else if .Parent.Parent.IsTranslated }}
-        <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"
-            lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"
-              alt=""></a></li>
-        <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Parent.Permalink }}" lang="sv">Svenska <img
-              src="/img/flag-sv.svg" alt=""></a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span
+              lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"
+                alt=""></span></a></li>
+        <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Parent.Permalink }}"><span lang="sv">sv
+              <img src="/img/flag-sv.svg" alt=""></span></a></li>
         {{ else }}
         {{ range $.Site.Home.AllTranslations }}
-        <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"
-            lang="{{ .Language.Lang }}">{{ .Language.LanguageName }} <img src="/img/flag-{{ .Language.Lang }}.svg"
-              alt=""></a></li>
+        <li class="nav-item navbar-languages"><a class="nav-link" href="{{ relURL .Permalink }}"><span
+              lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"
+                alt=""></span></a></li>
         {{ end }}
         {{ end }}
       </ul>
-      <hr class="d-lg-none">
-      <ul class="navbar-nav d-lg-none">
+      <ul class="d-lg-none navbar-nav">
         {{ range .Site.Menus.top_actions }}
-        <li class="nav-item"><a class="nav-link highlight" href="{{ .Page.RelPermalink }}">{{ .Pre }}{{ .Name }}</a>
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="{{ .Page.RelPermalink }}">{{ .Pre }}{{ .Name }}</a>
         </li>
         {{ end }}
       </ul>
       <hr class="d-lg-none">
+      
+      <!-- Main navigation menu for all pages, English site. Visible only in smaller devices -->
+      {{ if eq $.Site.Language.LanguageName "English" }}
+      <div class="d-lg-none">
+        <!-- Available Data & Highlights -->
+        <div class="main_menu_item pb-1">
+          <a href="#dataAndHighlight" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="dataAndHighlight">
+             <i class="bi bi-table"></i> Available Data & Highlights <i class="bi bi-caret-down-fill small"></i>
+           </a>
+            <div class="collapse main_menu_item_sub ps-4" id="dataAndHighlight">
+              <a href="#availableData" data-bs-toggle="collapse"  role="button"
+                 aria-expanded="false" aria-controls="availableData">
+                 Available Datasets <i class="bi bi-caret-down-fill small"></i>
+              </a>
+              <div class="collapse main_menu_item_sub ps-4" id="availableData">
+                {{ range .Site.Menus.datasets_menu }}
+                <a class="d-block m-0" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+                {{ end }}
+              </div>
+              <a class="d-block" href="/highlights/">Data Highlights</a>
+            </div>
+        </div>
+        <!-- Data Dashboards -->
+        <div class="main_menu_item pb-1">
+          <a href="#dataDashboards" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="dataDashboards">
+             <i class="bi bi-graph-up"></i> Data Dashboards <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="dataDashboards">
+            {{ range .Site.Menus.dashboard_menu }}
+            <a class="d-block" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+            {{ end }}
+          </div>
+        </div>
+        <!-- Research & Funding -->
+        <div class="main_menu_item pb-1">
+          <a href="#researchAndFunding" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="researchAndFunding">
+            <i class="bi bi-inboxes-fill"></i> Research & Funding <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="researchAndFunding">
+            {{ range .Site.Menus.research_menu }}
+            <a class="d-block" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+            {{ end }}
+          </div>
+        </div>
+        <!-- Pandemic preparedness -->
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-grid-fill"></i> <a href="/resources/">Pandemic Preparedness</a>
+        </div>
+        <!-- Research data management -->
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-journal-text"></i> <a href="/data-management/">Research Data Management</a>
+        </div>
+        <!-- Sample database collection -->
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-collection"></i> <a href="/biobanks/">Sample Collection Database</a>
+        </div>
+        <!-- Topics -->
+        <div class="main_menu_item pb-1">
+          <a href="#topics" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="topics">
+            <i class="bi bi-card-list"></i> Topics <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="topics">
+            {{ range .Site.Menus.topics_menu }}
+            <a class="d-block" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+            {{ end }}
+          </div>
+        </div>
+        <!-- Emerging pathogens -->
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-clipboard-data"></i> <a href="/pathogens/">Emerging Pathogens</a>
+        </div>
+        <!-- Training and event -->
+        <div class="main_menu_item">
+          <i class="bi bi-calendar-event"></i> <a href="/events/">Events & Training</a>
+        </div>
+      </div>
+      <hr class="d-lg-none">
+      {{ end }}
+      
+      <!-- Main navigation menu for all pages, English site. Visible only in smaller devices -->
+      {{ if eq $.Site.Language.LanguageName "Svenska" }}
+      <div class="d-lg-none">
+        <!-- Data dashboards -->
+        <div class="main_menu_item pb-1">
+          <a href="#dataDashboards" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="dataDashboards">
+            <i class="bi bi-window-stack"></i> Data Dashboards <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="dataDashboards">
+            {{ range .Site.Menus.dashboard_menu }}
+              <a class="d-block" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+            {{ end }}
+          </div>
+        </div>
+        <!-- Sample collection database -->
+        <div class="main_menu_item">
+          <i class="bi bi-journal-text"></i> <a href="/sv/biobanks/">Provsamlingsregistret</a>
+        </div>
+      </div>
+      <hr class="d-lg-none">
+      {{ end }}
+      
     </div>
   </div>
 </nav>
+<!-- ENDS HERE - Expandable top navigation menu, controlled by above defined hamburger button -->
 
-<!-- Main menu, English version -->
+<!-- Main navigation menu, English version. Visibile only on bigger screens -->
 {{ if eq $.Site.Language.LanguageName "English" }}
-<div class="container mb-1">
+<div class="container mb-1 d-none d-lg-block">
   <div class="row main_menu">
     <div class="col-lg">
       <div class="row">
@@ -194,10 +315,11 @@
   </div>
 </div>
 {{ end }}
+<!--  ENDS HERE - Main navigation menu, English version for bigger screens -->
 
-<!-- Main menu, Swedish version -->
+<!-- Main menu, Swedish version. Visibile only on bigger screens -->
 {{ if eq $.Site.Language.LanguageName "Svenska" }}
-<div class="container mb-1">
+<div class="container mb-1 d-none d-lg-block">
   <div class="row main_menu">
       <div class="col-md-auto main_menu_item">
         <i class="bi bi-window-stack"></i>
@@ -216,3 +338,4 @@
   </div>
 </div>
 {{ end }}
+<!--  ENDS HERE - Main navigation menu, Swedish version for bigger screens -->

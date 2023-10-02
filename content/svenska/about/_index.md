@@ -7,25 +7,11 @@ menu:
   footer_about:
     name: Om dataportalen
     weight: 10
-toc: false
+  navbar_about:
+    name:  "Översikt<br><br>"
+    weight: 10
+layout: about_navbar
 ---
-
-<div class="mb-4">
-  <ul class="nav nav-tabs nav-justified">
-    <li class="nav-item">
-      <a class="nav-link active" href="#"><b>Översikt<br><br></b></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="organisations_and_programs">Forskningsprogram<br>bakom portalen</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="editorial_committee">Editorial committee<br><br></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="partner_organisations">Samarbetsorganisationer<br><br></a>
-    </li>
-  </ul>
-</div>
 
 #### Introduktion
 

@@ -184,7 +184,7 @@ More recently, Nextstrain has begun to produce builds using data from the [Europ
 
 #### Exploring a Nextstrain build for Sweden
 
-<figure class="figure float-right mx-3 w-50">
+<figure class="figure float-md-end mx-3">
   <img src="/voc/nextstrain_build.png" alt="Screenshot from the Nextstrain build for Sweden" class="img-thumbnail">
   <figcaption class="figure-caption mt-1"><i>Screenshot from the Nextstrain build for Sweden</i></figcaption>
 </figure>

@@ -8,24 +8,11 @@ menu:
   footer_about:
     name: About the portal
     weight: 10
+  navbar_about:
+    name:  "Overview<br><br>"
+    weight: 10
+layout: about_navbar
 ---
-
-<div class="mb-4">
-  <ul class="nav nav-tabs nav-justified">
-    <li class="nav-item active">
-      <a class="nav-link active" href="#"><b>Overview<br><br></b></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="organisations_and_programs">Programs & organisations<br>behind the portal</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="editorial_committee">Editorial committee<br><br></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="partner_organisations">Partner organisations<br><br></a>
-    </li>
-  </ul>
-</div>
 
 #### Introduction
 
@@ -50,28 +37,28 @@ Many people from SciLifeLab, NBIS, other organisations, and the community have b
 The team are happy to help with using the Portal, to take suggestions regarding new and existing sections, and to answer any questions that you may have. Please just get in touch using for [contact](/contact/) form.
 
 <div class="container mb-3">
-  <div class="row">
-    <div class="col-md-2 pt-2">
+  <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6">
+    <div class="col pt-2">
       <div><img src="/img/people/lh.png" width="150" class="img-thumbnail"/></div>
       <div><b>Liane Hughes</b></div>
       <div><span class="text-muted">Project leader</span></div>
     </div>
-    <div class="col-md-2 pt-2">
+    <div class="col pt-2">
       <div><img src="/img/people/kos2.jpg" width="150" class="img-thumbnail"/></div>
       <div><b>Katarina Öjefors Stark</b></div>
       <div><span class="text-muted">Data steward</span></div>
     </div>
-    <div class="col-md-2 pt-2">
+    <div class="col pt-2">
       <div><img src="/img/people/sp.jpeg" width="150" class="img-thumbnail"/></div>
       <div><b>Senthilkumar Panneerselvam</b></div>
       <div><span class="text-muted">Systems developer</span></div>
     </div>
-    <div class="col-md-2 pt-2">
+    <div class="col pt-2">
       <div><img src="/img/people/hk.jpg" width="150" class="img-thumbnail"/></div>
       <div><b>Hanna Kultima</b></div>
       <div><span class="text-muted">Vice head of SciLifeLab Data Centre</span></div>
     </div>
-    <div class="col-md-2 pt-2">
+    <div class="col pt-2">
       <div><img src="/img/people/jr.jpg" width="150" class="img-thumbnail"/></div>
       <div><b>Johan Rung</b></div>
       <div><span class="text-muted">Head of SciLifeLab Data Centre</span></div>

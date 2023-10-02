@@ -1,6 +1,10 @@
 ---
 title: Integritetspolicy / Dataskyddspolicy
 toc: false
+menu:
+  footer_about:
+    name: Integritetspolicy
+    weight: 40
 ---
 
 SciLifeLab driver webbplatsen [pathogens.se](https://www.pathogens.se/sv/) och covid19dataportal webbplatser (inkluderande subdomäner som exempelvis [biobanks.covid19dataportal.se](https://biobanks.covid19dataportal.se/)), som tillhandahåller **tjänsten**.
@@ -17,7 +21,7 @@ Vi vill informera dig om att varje gång du besöker vår **tjänst** samlar vi 
 
 You can opt out of your Log Data being collected below:
 
-<iframe style="border: 0; height: 100px; width: 600px;" src="https://matomo.dc.scilifelab.se/index.php?module=CoreAdminHome&action=optOut&language=en&fontSize=14px&fontFamily=Helvetica"></iframe>
+<iframe id="matoOpOut" src="https://matomo.dc.scilifelab.se/index.php?module=CoreAdminHome&action=optOut&language=en&fontSize=16px&fontFamily=Helvetica"></iframe>
 
 ## Formulär
 
