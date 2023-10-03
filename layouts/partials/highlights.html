@@ -1,11 +1,14 @@
 {{ $highlights := where (where $.Site.Pages "Section" "highlights" ) "Kind" "page" }}
 {{ $currentPage := path.Split (path.Clean .RelPermalink) }}
 {{ $displayedInHome := .IsHome }}
+{{ $isSingleHighlightPage := and (eq $currentPage.Dir "/highlights/") ($currentPage.File) }}
 {{ $highlights_to_show := slice }}
 
 {{/* Compile list of highlight to show depending upon the page */}}
 {{ if $displayedInHome }}
   {{ $highlights_to_show = $highlights_to_show | append (first 3 $highlights) }}
+{{ else if $isSingleHighlightPage }}
+  {{ $highlights_to_show = $highlights_to_show | append (first 4 (.Scratch.Get "highlights_list")) }}
 {{ else if strings.HasSuffix $currentPage.Dir "/topics/" }}
   {{ range $highlights }}
     {{if in (apply .Params.highlights_topics "urlize" ".") $currentPage.File }}
@@ -19,7 +22,8 @@
   {{ $highlights_to_show = $highlights_to_show | append $highlights }}
 {{ end }}
 
-<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 {{ if not $displayedInHome }}g-lg-3{{ end }}">
+<div class="row row-cols-1 row-cols-sm-2 {{ if $isSingleHighlightPage }}row-cols-lg-4{{ else }}row-cols-lg-3{{ end }}
+            g-2 {{ if not $displayedInHome }}g-lg-3{{ end }}">
 {{ range $highlights_to_show }}
   <!-- If not displayed in home page compile search tags list to use for searching -->
   <div class="col data-highlight" 
@@ -28,7 +32,7 @@
       {{ range (.GetTerms "highlights_topics") }}
         {{ $search_tags = $search_tags | append .LinkTitle }}
       {{ end }}
-      {{ with .Params.search_tags }}
+      {{ with .Params.tags }}
         {{ $search_tags = $search_tags | append . }}
       {{ end }}
       data-search-tags="{{ delimit $search_tags ":" | lower }}"
@@ -45,7 +49,7 @@
       <div>
         <h6 class="my-1"><a href="{{ .Page.RelPermalink }}">{{ .Title }}</a></h6>
       </div>
-      {{ if not $displayedInHome }}
+      {{ if not (or $displayedInHome $isSingleHighlightPage) }}
         <div>
           {{ .Summary }}<br>
           {{ range (.GetTerms "highlights_topics") }}

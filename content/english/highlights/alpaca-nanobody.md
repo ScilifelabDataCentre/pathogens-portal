@@ -6,6 +6,7 @@ summary: Leo Hanke and colleagues identified a SARS-CoV-2 RBD-specific single do
 banner: /highlights/banners/tyson.jpg
 banner_caption: "Tyson the alpaca. Photo courtesy of Leo Hanke."
 highlights_topics: [COVID-19, Infectious diseases]
+tags: [COVID-19 SARS-CoV-2, Nanobody, Ty1, Neutralization, Antiviral therapy]
 aliases:
     - /news/alpaca-nanobody
     - /sv/news/alpaca-nanobody

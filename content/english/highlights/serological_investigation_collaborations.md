@@ -4,6 +4,7 @@ title_full: First study using data collected as part of the large-scale serology
 date: 2020-10-15
 summary: This study used only a fraction of the large volume of serology data continuously collected by the ScilifeLab Autoimmunity and Serology profiling facility.
 highlights_topics: [COVID-19, Infectious diseases]
+tags: [COVID-19, SARS-CoV-2, Serology, SciLifeLab]
 aliases:
     - /news/serological_investigation_collaborations
     - /sv/news/serological_investigation_collaborations

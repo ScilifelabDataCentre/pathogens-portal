@@ -6,6 +6,7 @@ banner: /highlights/banners/immunofluorescence.png
 banner_large: /highlights/banners/immunofluorescence.png
 banner_caption: Part of Figure 2 from Kaimal, Tampere et al 2022; Representative images of proteins with reduced or increased intensity during SARS-CoV-2 infection. # change later
 highlights_topics: [COVID-19, Infectious diseases]
+tags: [SARS-CoV-2, Vero-E6 cells, Subcellular localisation, Immunofluorescence, Antibodies, Human Protein Atlas, HPA project]
 imjoy:
     config:
         show_window_title: true

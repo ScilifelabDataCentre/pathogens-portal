@@ -6,8 +6,8 @@ menu:
         weight: 20
         identifier: contact
     footer_about:
-        name: Contact form
-        weight: 20
+        name: Support & Feedback
+        weight: 30
 aliases:
     - /suggestions/
 recaptcha: true

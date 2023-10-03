@@ -64,6 +64,10 @@ Notera också att även om samma metoder används för alla städer som visas p�
   </div>
 </div>
 
+<div class="d-md-none alert alert-info">
+  Att rotera mobiltelefonen kan förbättra grafens layout
+</div>
+
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="600px" >}}</div>
 </div>

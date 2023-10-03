@@ -4,7 +4,7 @@ toc: false
 menu:
   footer_about:
     name: Andra nationella dataportaler
-    weight: 30
+    weight: 20
 ---
 
 Patogens Portal Sverige lanserades ursprungligen som den 'svenska Covid-19 dataportalen. Portalen var den första nationella noden av den [Europeiska COVID-19 dataportalen](https://covid19dataportal.org/); en europeisk plattform som möjliggör för forskare att dela, får åtkomst till och analysera Covid-19-relaterade data. [Europeiska COVID-19 dataportalen](https://covid19dataportal.org/) finansieras av den Europeiska kommissionen och drivs av European Biobinformatics Institute (EBI) som är en del av Europeiska molekylärbiologiska laboratoriet (EMBL).

@@ -65,6 +65,10 @@ Please note that although the same methods are used for all cities shown on this
   </div>
 </div>
 
+<div class="d-md-none alert alert-info">
+  Rotating your phone may improve graph layout
+</div>
+
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="600px" >}}</div>
 </div>

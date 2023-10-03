@@ -6,6 +6,7 @@ banner: /highlights/banners/fragments_nsp10.png
 banner_large: /highlights/banners/fragments_nsp10_large.png
 banner_caption: "Figure 3A from Kozielski et al 2022"
 highlights_topics: [COVID-19, Infectious diseases]
+tags: [COVID-19, SARS-CoV-2 replication, NSP10, Drug therapy, Nano differential scanning fluorometry, X-ray crystallography, Drug therapy]
 ---
 
 The COVID-19 vaccine program is the cornerstone of global pandemic management. Whilst vaccines were rolled out in record-time and have proven very effective, many important research questions remain. For example, there is still some uncertainty regarding the duration of vaccine protection, the optimal intervals for the administration of booster doses, the potential for vaccine escape by novel [*Variants of Concern* (VoCs)](/voc/), among others. These questions, together with the fact that not everyone is able to be vaccinated, mean that the development of new drugs for treating SARS-CoV-2 infections is warranted. These drugs would act as a “second line defense” in the event of vaccine escape, and for individuals that do not respond well to vaccines, and are key for treating those that did not receive the vaccine for any reason.

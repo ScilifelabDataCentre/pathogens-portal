@@ -6,6 +6,7 @@ banner: /highlights/banners/chromosome__hullstrom_small.png
 banner_large: /highlights/banners/chromosome__hullstrom.png
 banner_caption: Gene prioritisation using different evidence measures of gene annotation.
 highlights_topics: [COVID-19, Infectious diseases]
+tags: [COVID-19, Pathogenesis, Drug development, Mendelian Randomisation analyses, Risk factors]
 aliases:
     - /news/insights_from_genetic_mapping
     - /sv/news/insights_from_genetic_mapping

@@ -6,6 +6,7 @@ banner: /highlights/banners/bevacizumab_small.png
 banner_large: /highlights/banners/bevacizumab_large.png
 banner_caption: "Source: Figure 4 of Pang et al. (2021)."
 highlights_topics: [COVID-19, Infectious diseases]
+tags: [COVID-19, Drug repurposing, Bevacizumab, Severe COVID]
 aliases:
     - /news/bevacizumab_treatment
     - /sv/news/bevacizumab_treatment

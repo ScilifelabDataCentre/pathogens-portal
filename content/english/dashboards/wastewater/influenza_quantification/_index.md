@@ -32,6 +32,10 @@ SLU-SEEC collects and analyses samples for influenza A and B viruses from multip
 
 ### Influenza A
 
+<div class="d-md-none alert alert-info">
+  Rotating your phone may improve graph layout
+</div>
+
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infA.json" height="600px" >}}</div>
 </div>
@@ -39,6 +43,10 @@ SLU-SEEC collects and analyses samples for influenza A and B viruses from multip
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_slu_influenza_a.py).
 
 ### Influenza B
+
+<div class="d-md-none alert alert-info">
+  Rotating your phone may improve graph layout
+</div>
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infB.json" height="600px" >}}</div>

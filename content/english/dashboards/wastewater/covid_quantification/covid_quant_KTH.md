@@ -65,6 +65,10 @@ Please also note that although the same methods are used for all cities shown on
   </div>
 </div>
 
+<div class="d-md-none alert alert-info">
+  Rotating your phone may improve graph layout
+</div>
+
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_stockholm.json" height="550px" >}}</div>
 </div>
@@ -76,7 +80,7 @@ Please also note that although the same methods are used for all cities shown on
 <div class="alert alert-info">Last updated: <span id="last_modified_malmo"></span></div>
 
 <div class="d-md-none alert alert-info">
-  Scroll the plot sideways to view all data.
+  Rotating your phone may improve graph layout
 </div>
 
 <div class="plot_wrapper mb-3">

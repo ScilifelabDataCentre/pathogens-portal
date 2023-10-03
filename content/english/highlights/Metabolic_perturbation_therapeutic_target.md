@@ -6,6 +6,7 @@ banner: /highlights/banners/Krishnan_abstract_thumbnail.png
 banner_large: /highlights/banners/Krishnan_graphical_abstract.png
 banner_caption: Graphical abstract from Krishnan et al. (2021).
 highlights_topics: [COVID-19, Infectious diseases]
+tags: [SARS-CoV-2, Therapeutic target, Multiomics data, Metabolic pathways, Viral reproduction]
 aliases:
     - /news/metabolic_perturbation_therapeutic_target
     - /sv/news/metabolic_perturbation_therapeutic_target

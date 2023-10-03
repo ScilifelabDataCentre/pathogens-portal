@@ -8,6 +8,7 @@ banner_large: /highlights/banners/immunopathogenesis_large.jpg
 banner_caption: "Source: Figure 1 from Parrot et al., Science Immunology, 2020"
 toc: false
 highlights_topics: [COVID-19, Infectious diseases]
+tags: [COVID-19, MAIT, Cell activation, Immune response, Immunopathogenesis]
 aliases:
     - /news/immunopathogenesis
     - /sv/news/immunopathogenesis

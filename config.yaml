@@ -84,7 +84,16 @@ taxonomies:
   highlights_topic: highlights_topics
   highlights_voc: highlights_vocs
   dashboards_topic: dashboards_topics
+
 permalinks:
   highlights_topics: "/highlights/topics/:slug/"
   highlights_vocs: "/highlights/vocs/:slug/"
   dashboards_topics: "/dashboards/topics/:slug/"
+
+related:
+  includeNewer: false
+  indices:
+  - name: tags
+    weight: 100
+    threshold: 80
+    toLower: false

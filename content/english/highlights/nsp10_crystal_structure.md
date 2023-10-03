@@ -8,6 +8,7 @@ banner_large: /highlights/banners/nsp10_large.jpeg
 banner_caption: "Source: PDB 6ZPE, DOI: 10.2210/pdb6ZPE/pdb"
 toc: false
 highlights_topics: [COVID-19, Infectious diseases]
+tags: [NSP10, NSP-10, Cryo-EM, SARS-CoV-2, Drug target, MAX IV laboratory]
 aliases:
     - /news/nsp10_crystal-structure
     - /sv/news/nsp10_crystal-structure

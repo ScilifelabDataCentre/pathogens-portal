@@ -6,6 +6,7 @@ banner: /highlights/banners/mis.png
 banner_large: /highlights/banners/mis_large.png
 banner_caption: "Source: Figure 1 of Consiglio et al. 2020, Cell."
 highlights_topics: [COVID-19, Infectious diseases]
+tags: [COVID-19, Hyperinflammatory syndrome, Children, MIS-C]
 aliases:
     - /news/multisystem_inflammatory_syndrome
     - /sv/news/multisystem_inflammatory_syndrome

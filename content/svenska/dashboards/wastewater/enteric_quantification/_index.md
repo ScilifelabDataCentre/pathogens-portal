@@ -32,6 +32,10 @@ Avloppsvattenprover för virusanalys samlas in vid Ryaverkets avloppsreningsverk
 
 Vänligen se [avsnittet med sammanfattande information om virusen](#grundläggande-virusinformation) för mer information om vart och ett av de virus som data samlas in för.
 
+<div class="d-md-none alert alert-info">
+  Att rotera mobiltelefonen kan förbättra grafens layout
+</div>
+
  <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/enteric_graph_gu.json" height="550px" >}}</div>
 </div>

@@ -34,6 +34,10 @@ The wastewater samples for virus analysis are collected at Ryaverket's wastewate
 
 Please see [the section with summary information about the viruses](#basic-virus-information) for more information on each of the viruses for which data is being collected.
 
+<div class="d-md-none alert alert-info">
+  Rotating your phone may improve graph layout
+</div>
+
  <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/enteric_graph_gu.json" height="550px" >}}</div>
 </div>

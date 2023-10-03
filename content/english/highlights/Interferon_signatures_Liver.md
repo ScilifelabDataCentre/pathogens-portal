@@ -6,6 +6,7 @@ banner: /highlights/banners/Interferon_liver_small.png
 banner_large: /highlights/banners/Interferon_liver.png
 banner_caption: "Source: Figure 2B from Chen and Saccon et al. 2021"
 highlights_topics: [COVID-19, Infectious diseases]
+tags: [COVID-19, SARS-CoV-2, Interferon, Type-1 interferon signalling]
 aliases:
     - /news/interferon_signatures_liver
     - /sv/news/interferon_signatures_liver

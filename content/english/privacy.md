@@ -1,6 +1,10 @@
 ---
 title: Privacy Policy
 toc: false
+menu:
+  footer_about:
+    name: Privacy notice
+    weight: 40
 ---
 
 SciLifeLab operates the [pathogens.se](https://pathogens.se/) and covid19dataportal websites (including its subdomains such as [biobanks.covid19dataportal.se](https://biobanks.covid19dataportal.se/)), which provides the **SERVICE**.
@@ -16,7 +20,7 @@ We want to inform you that whenever you visit our **Service**, we collect inform
 
 You can opt out of your Log Data being collected below:
 
-<iframe style="border: 0; height: 100px; width: 600px;" src="https://matomo.dc.scilifelab.se/index.php?module=CoreAdminHome&action=optOut&language=en&fontSize=14px&fontFamily=Helvetica"></iframe>
+<iframe id="matoOpOut" src="https://matomo.dc.scilifelab.se/index.php?module=CoreAdminHome&action=optOut&language=en&fontSize=16px&fontFamily=Helvetica"></iframe>
 
 ## Forms
 
