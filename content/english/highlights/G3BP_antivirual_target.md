@@ -7,6 +7,7 @@ banner_large: /highlights/banners/G3BP_figure1.png
 banner_caption: "Source: Figure 1 Kruse et al. 2021"
 highlights_topics: [COVID-19, Infectious diseases]
 tags: [SARS-CoV-2, Phage display library,  Discovery, Proteomics data, Antiviral intervention]
+images: [/highlights/banners/G3BP_thumbnail.png]
 ---
 
 The current COVID-19 pandemic has challenged societies world-wide over the last two years. Although vaccines have been developed in record time, and therapeutic drugs have been developed and repurposed, the pandemic is still challenging healthcare. More treatment options (e.g. novel antivirals) are warranted in preparation for future pandemic outbreaks.

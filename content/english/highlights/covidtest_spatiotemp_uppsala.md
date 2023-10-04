@@ -7,6 +7,7 @@ banner_large: /highlights/banners/COV_spatiopredict_fig7.png
 banner_caption: "Source: Figure 7 of van Zoest et al. (2022)"
 highlights_topics: [COVID-19, Infectious diseases]
 tags: [COVID-19, Spatio-temportal prediction, Pandemic preparedness]
+images: [/highlights/banners/COV_spatiopredict_fig7.png]
 ---
 
 <script>

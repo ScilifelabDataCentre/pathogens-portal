@@ -49,6 +49,7 @@ imjoy:
 
             elem.onchange()
         }
+images: [/highlights/banners/immunofluorescence.png]
 ---
 
 Over the last two years, the COVID-19 pandemic has significantly affected people’s lives worldwide. Apart from vaccination to prevent COVID-19, there is a need to identify different treatment options for people already being infected and suffering from it. Further, general strategies for how to identify and develop effective drugs for any cause of possible future pandemics are needed.

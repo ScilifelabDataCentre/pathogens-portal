@@ -10,6 +10,7 @@ tags: [Phenomics, Pertubations, Antiviralm, Drug discovery]
 aliases:
     - /news/phenomics_method_drug_discovery
     - /sv/news/phenomics_method_drug_discovery
+images: [/highlights/banners/Rietdijk_abstract_small.png]
 ---
 
 The current pandemic has increased the demand for rapid development of COVID-19  treatments, therefore increasing the need to develop methods to screen for novel drugs and drugs that could be repurposed. SARS-CoV-2 belongs to the RNA family of viruses, a group of viruses known for their fast mutation rates and resilience to antiviral drugs. Therefore, investigations into how the viruses affect host cells are needed in order to discover novel drug targets.

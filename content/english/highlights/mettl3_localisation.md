@@ -8,6 +8,7 @@ banner_caption: Graphical abstract (Image courtesy Vaid and Mendez et al. (2023)
 highlights_topics: [COVID-19, Infectious Diseases]
 tags: [Infectious diseases, COVID-19, gene expression, Antivirual strategy, METTL3, Antiviral, Pandemic Preparedness]
 announcement: "This data highlight was also [published on the SciLifeLab Data Platform](https://data.scilifelab.se/highlights/mettl3_localisation/), as the work described in this highlight constitutes data-driven life science. The Platform is a hub for data-driven life science in Sweden, containing multiple relevant resources, tools, and services. It includes information on multiple subjects, including infectious diseases, please check out the [Data Platform](https://data.scilifelab.se/) for more."
+images: [/highlights/banners/mettl3_localisation_small.png]
 ---
 
 During recent years, the rapid development of COVID-19 treatments and vaccines have proven crucial in controlling the spread of the SARS-COV-2 virus and mitigating the effects of the COVID-19 pandemic. The COVID-19 pandemic is now considered to be at an end, with the virus becoming endemic. However, it is still important that we continue to deepen our understanding of SARS-CoV-2 pathogenesis (e.g. the basic mechanisms of how the virus infects hosts, host-virus interactions, and host response). This is not only because SARS-CoV-2 continues to circulate in populations, but also to protect against future pandemics by this or similar viruses.

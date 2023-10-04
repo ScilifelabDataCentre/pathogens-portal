@@ -16,6 +16,10 @@ a:hover {
   text-decoration: underline;
 }
 
+a.share-button {
+    color: #295986;
+}
+
 img {
   max-width: 100%;
 }

@@ -10,6 +10,7 @@ tags: [COVID-19, Susceptibility, Severe COVID-19, Risk factor, TLR7, X-linked re
 aliases:
     - /news/x_linked_genes
     - /sv/news/x_linked_genes
+images: [/highlights/banners/Asano_thumbnail.jpg]
 ---
 
 The COVID-19 pandemic has challenged healthcare world-wide for almost two years. Research has shown that there is significant inter-individual clinical variability in SARS-CoV-2, with the virus causing asymptomatic disease in some cases, whilst the disease is fatal in others. Identifying the risk factors for the development of more severe, or even fatal, COVID-19 cases has become increasingly important

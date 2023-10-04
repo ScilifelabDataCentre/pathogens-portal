@@ -10,6 +10,7 @@ tags: [COVID-19, Drug repurposing, Bevacizumab, Severe COVID]
 aliases:
     - /news/bevacizumab_treatment
     - /sv/news/bevacizumab_treatment
+images: [/highlights/banners/bevacizumab_small.png]
 ---
 The COVID-19 pandemic has caused a serious health emergency and a global challenge for demand of novel drug development. Drug repurposing has emerged as one way to meet the demand for new COVID-19 treatments.
 
