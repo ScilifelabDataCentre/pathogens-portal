@@ -1,4 +1,4 @@
-# ![The Swedish Pathogens Portal](static/img/site_logo/eml_pathogens_logo.png)
+# ![The Swedish Pathogens Portal](static/img/site_logo/swe_pathogens_logo.png)
 
 ## The Swedish Pathogens Portal
 

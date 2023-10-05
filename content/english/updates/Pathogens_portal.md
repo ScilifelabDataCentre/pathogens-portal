@@ -2,7 +2,7 @@
 title: Becoming the first national node of the Pathogens Portal
 date: 2023-08-30
 summary: We are very proud to announce that we are transitioning the Portal into the first national node of the Pathogens Portal. This marks the next step in our efforts related to pandemic preparedness.
-banner: /updates/banners/eml_pathogens_logo.png
+banner: /updates/banners/swe_pathogens_logo.png
 banner_caption: Pathogens Portal logo
 ---
 
