@@ -3,11 +3,11 @@
 <div id="{{$json}}" class="plotly" style="height:{{$height}}"></div>
 <script>
 Plotly.d3.json({{$json}}, function(err, fig) {
-    var config = {responsive: true};
-    // For smaller devices turn off interactive plots
-    if (document.documentElement.clientWidth < 768){
-      config.staticPlot = true;
-    }
+    // var config = {responsive: true};
+    // // For smaller devices turn off interactive plots
+    // if (document.documentElement.clientWidth < 768){
+    //   config.staticPlot = true;
+    // }
     Plotly.plot('{{$json}}', fig.data, fig.layout, config);
 });
 </script>
