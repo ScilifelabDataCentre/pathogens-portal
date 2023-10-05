@@ -8,6 +8,7 @@ banner_caption: Image courtesy Johan Elf lab
 highlights_topics: [Infectious Diseases]
 tags: [Infectious diseasese, Replication, Escherichia coli]
 announcement: "This data highlight was also [published on the SciLifeLab Data Platform](https://data.scilifelab.se/highlights/bacterial_replication/), as the work described in this highlight constitutes data-driven life science. The Platform is a hub for data-driven life science in Sweden, containing multiple relevant resources, tools, and services. It includes information on multiple subjects, including infectious diseases, please check out the [Data Platform](https://data.scilifelab.se/) for more."
+images: [/highlights/banners/ELF_banner.png]
 ---
 
 It is commonly known that all cells must coordinate DNA replication with cell growth; each chromosome should, on average, replicate once per generation. Bacteria, e.g. _Escherichia coli_, have optimised their division speed in order to survive in a very competitive environment. Fast division makes replication coordination extra challenging, especially in cases when the bacterial generation times are shorter than the time it takes to replicate the chromosome. This means that bacteria must have two complete copies of their chromosome ready before cell division, but still keep the ratio between the number of chromosome copies and cell divisions constant.

@@ -5,7 +5,7 @@ params:
   title: "The Swedish Pathogens Portal"
   description: The Swedish Pathogens Portal
   images:
-    - /img/site_logo/eml_pathogens_logo.png
+    - /img/site_logo/swe_pathogens_logo.png
 
   # There is a hugo i18n package, but it seems like overkill for so few strings
   lang_strings:

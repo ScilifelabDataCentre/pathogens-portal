@@ -11,6 +11,7 @@ tags: [COVID-19, Neanderthal, Severe COVID, Genetic risk factor, Oas1, Mapping]
 aliases:
     - /news/neanderthal_gene_data_driven
     - /sv/news/neanderthal_gene_data_driven
+images: [/highlights/banners/neanderthal_gene_data_driven.jpg]
 ---
 
 <b>Update:</b> This Data Highlight has been updated as of 3rd October because today Svante Pääbo received the [Nobel Prize in Physiology or Medicine for his work on Neanderthals](https://www.nobelprize.org/). This Data Highlight was originally featured on the Portal in 2nd October 2020.

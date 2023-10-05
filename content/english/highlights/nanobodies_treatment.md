@@ -9,6 +9,7 @@ tags: [COVID-19, Nanobodies, Alpaca, Cyro-EM, Therapeutics]
 aliases:
     - /news/nanobodies_treatment
     - /sv/news/nanobodies_treatment
+images: [/highlights/banners/nanobodies_treatment.png]
 ---
 
 The COVID-19 pandemic has strained the healthcare systems and posed challenges to economic and social activity in many countries. Currently, a number of vaccines have been rolled out in record time. However, vaccines may not be suitable for all patients. Therefore, additional therapeutics or treatments of high-risk patients or patients already infected with the SARS CoV-2 virus are warranted.
