@@ -12,6 +12,7 @@ tags: [COVID-19, MAIT, Cell activation, Immune response, Immunopathogenesis]
 aliases:
     - /news/immunopathogenesis
     - /sv/news/immunopathogenesis
+images: [/highlights/banners/immunopathogenesis.png]
 ---
 Since the start of the COVID-19 pandemic almost a year ago the COVID-19 research efforts have been unprecedented. However, COVID-19 immunopathogenesis is still relatively poorly understood.
 

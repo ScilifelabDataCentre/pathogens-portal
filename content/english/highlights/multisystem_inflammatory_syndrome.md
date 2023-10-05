@@ -10,6 +10,7 @@ tags: [COVID-19, Hyperinflammatory syndrome, Children, MIS-C]
 aliases:
     - /news/multisystem_inflammatory_syndrome
     - /sv/news/multisystem_inflammatory_syndrome
+images: [/highlights/banners/mis.png]
 ---
 
 The first reports about COVID-19 suggested that children infected with SARS-CoV-2 often presented with milder symptoms than adults. However, subsequently several studies from Europe and the USA have reported that in rare cases children can develop a severe hyperinflammatory syndrome (MIS-C). These children present with high fever, and other symptoms previously associated with Kawasaki disease. Kawasaki disease involves production of self-reactive antibodies during the acute immune response to a viral infection. Previous studies of Kawasaki disease showed an imbalance of interleukin (IL)-17-producing T cells and regulatory T cells during the acute phase of the disease.

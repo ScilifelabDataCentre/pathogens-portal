@@ -8,6 +8,7 @@ banner_caption: Fig 2. Omicron BA.1/BA.2 lineage transition and viral load in Sw
 highlights_topics: [COVID-19, Infectious diseases]
 highlights_vocs: [Omicron]
 tags: [COVID-19, Omicron BA.1, Omicron BA.2, Variants of concern, RT-PCR]
+images: [/highlights/banners/omicron_variant_transition.png]
 ---
 
 **Update:** *This data highlight has been updated upon formal publication of the article. It was originally featured on the portal in April 2022 as a preprint article.*

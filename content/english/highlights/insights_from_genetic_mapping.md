@@ -10,6 +10,7 @@ tags: [COVID-19, Pathogenesis, Drug development, Mendelian Randomisation analyse
 aliases:
     - /news/insights_from_genetic_mapping
     - /sv/news/insights_from_genetic_mapping
+images: [/highlights/banners/chromosome__hullstrom_small.png]
 ---
 
 Over the last two years, the COVID-19 pandemic (caused by the SARS-CoV-2 virus) has burdened healthcare systems and economies worldwide. Treatments and vaccines against COVID-19 have been developed in record time over this period. The effects of SARS-CoV-2 infection on patients have been found to vary from asymptomatic infections to life-threatening conditions, including viral pneumonia and acute respiratory distress syndrome. Multiple studies have identified risk factors (e.g. age, sex, and body mass index) that can influence disease severity, but these risk factors alone do not explain disease variability between individuals. Investigations into how genetic factors may contribute to COVID-19 susceptibility and disease severity may therefore be crucial in providing important insights into COVID-19 pathogenesis and identifying potential mechanistic targets for drug development or drug repurposing.

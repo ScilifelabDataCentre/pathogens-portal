@@ -7,6 +7,7 @@ banner_large: /highlights/banners/Huffman_multi_ancestry_COVID_large.png
 banner_caption: Illustration provided by Hugo Zeberg
 highlights_topics: [COVID-19, Infectious diseases]
 tags: [COVID-19, Severe Covid, Risk factors, OAS1, Splicing, Multi-ancestry fine mapping]
+images: [/highlights/banners/Huffman_multi_ancestry_COVID.png]
 ---
 
 Several large-scale international efforts, for example [the COVID-19 Host Genetics Initiative](https://doi.org/10.1038/s41586-021-03767-x), are today working to understand the importance of genetic factors in COVID-19 susceptibility and severity. A number of genomic regions have been associated with severe COVID-19, but more research is needed to identify the causal agents within those regions, and further our knowledge of COVID-19 pathophysiology.

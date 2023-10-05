@@ -10,6 +10,7 @@ tags: [COVID-19 SARS-CoV-2, Nanobody, Ty1, Neutralization, Antiviral therapy]
 aliases:
     - /news/alpaca-nanobody
     - /sv/news/alpaca-nanobody
+images: [/highlights/banners/tyson.jpg]
 ---
 
 The COVID-19 research efforts are focused on finding potential targets for future treatments. Research has shown that the affinity of SARS-CoV-2 receptor-binding domain (RBD) for ACE2 is considerably higher than that of SARS-CoV-1 which may contribute to pathogenesis. The receptor-engaging part of the spike protein is an attractive target for coronavirus neutralization. A number of conventional neutralizing monoclonal antibodies that bind to RBD have been isolated from convalescent patients. Camelid-derived single domain antibody fragments, also called nanobodies, offer key advantages for specific therapies. Nanobodies are small, easy to clone and express, stable, and cost effective. Previous research has shown that nanobodies can be potent inhibitors of viral infections in vivo, for example respiratory infections.

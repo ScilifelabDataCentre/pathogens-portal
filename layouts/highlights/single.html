@@ -6,10 +6,6 @@
   </div>
 {{ end }}
 
-{{ range (.GetTerms "highlights_topics") }}
-<span class="topic_badge_large"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
-{{ end }}
-
 <h2>{{ if .Params.title_full }}{{ .Params.title_full }}{{ else }}{{ .Title}}{{ end }}</h2>
 <p class="text-muted">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).published_text }}: {{ .Date.Format "2006-01-02"}}</p>
 
@@ -19,6 +15,22 @@
 </figure>
 
 {{ .Content }}
+
+<!-- Topics list and social media sharing -->
+<div class="row">
+  <div class="col-md">
+    <span><b>Topics: </b></span>
+    {{ range (.GetTerms "highlights_topics") }}
+    <span class="topic_badge_small"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
+    {{ end }}
+  </div>
+  <div class="col-md text-md-end mt-2 mt-md-0">
+    <span><b>Share this: </b></span>
+    <a target="_blank" class="share-button" href="https://twitter.com/intent/tweet?text=Data%20highlight%20on%20the%20Pathogens%20Portal:%20{{ .Title }}, {{ .Permalink }}"><i class="bi bi-twitter-x me-1"></i></a>
+    <a target="_blank" class="share-button" href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink }}"><i class="bi bi-linkedin me-1"></i></a>
+    <a target="_blank" class="share-button" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"><i class="bi bi-facebook me-1"></i></a>
+  </div>
+</div>
 
 <div class="containerborder">
 {{ $related := site.RegularPages.Related . }}

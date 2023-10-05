@@ -10,6 +10,7 @@ tags: [COVID-19, SARS-CoV-2, Interferon, Type-1 interferon signalling]
 aliases:
     - /news/interferon_signatures_liver
     - /sv/news/interferon_signatures_liver
+images: [/highlights/banners/Interferon_liver_small.png]
 ---
 
 The research community has responded rapidly to the current COVID-19 pandemic, which has caused a global health crisis. The SARS CoV-2 virus has been shown to have similar clinical features to previously well-known coronaviruses such as SARS-CoV, and MERS-CoV. In addition, research has indicated that more severe forms of coronavirus diseases are associated with dysregulation of the human type-I interferon (IFN-I) response, but further studies into this topic are warranted. Previous studies (e.g. [McNab (2005)](https://doi.org/10.1038/nri3787)) have found that Type I IFNs have diverse effects on innate and adaptive immune cells during different infections (caused by viruses, bacteria, parasites or fungi). Type I IFNs have been found to be important for host defence against viruses, but more recent studies indicate that it can also cause pathogenesis in acute viral infections, e.g. influenza.

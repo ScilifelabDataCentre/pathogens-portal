@@ -10,6 +10,7 @@ tags: [SARS-CoV-2, Therapeutic target, Multiomics data, Metabolic pathways, Vira
 aliases:
     - /news/metabolic_perturbation_therapeutic_target
     - /sv/news/metabolic_perturbation_therapeutic_target
+images: [/highlights/banners/Krishnan_abstract_thumbnail.png]
 ---
 
 The COVID-19 pandemic has caused public health challenges. The research community has, in record time, increased knowledge and understanding about the severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) virus. Recent studies have, for example, found that certain risk factors (e.g. obesity) affect the severity of the resultant COVID-19 disease. Recent observational studies indicated an association between disease severity, and altered energy and lipid metabolism. Metabolic profiling could therefore be one way to identify likely disease severity. One important aspect for future pandemic preparedness is the development of new antivirals. Today´s direct-acting antivirals work by weakening the replication of viruses, future antivirals could instead be based on host-based metabolic strategies to inhibit viruses.

@@ -11,6 +11,7 @@ tags: [COVID-19, SARS-CoV-2 mobility data, Bayesian modelling]
 aliases:
     - /news/estimating_impact_mobility_patterns
     - /sv/news/estimating_impact_mobility_patterns
+images: [/highlights/banners/bryant_elofsson.png]
 ---
 During the Covid-19 pandemic governments across Europe have issued non-pharmaceutical interventions (NPIs), for example social distancing and school closing, to slow down the pandemic. European countries have recommended different NPIs and the effect on mobility patterns vary between countries.
 

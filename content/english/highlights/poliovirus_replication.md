@@ -13,6 +13,7 @@ aliases:
     - /sv/news/poliovirus_replication
 images: ["/highlights/banners/segmentation_highReso.jpeg"]
 announcement: "This data highlight was also [published on the SciLifeLab Data Platform](https://data.scilifelab.se/highlights/poliovirus_replication/), as the work described in this highlight constitutes data-driven life science. The Platform is a hub for data-driven life science in Sweden, containing multiple relevant resources, tools, and services. It includes information on multiple subjects, including infectious diseases, please check out the [Data Platform](https://data.scilifelab.se/) for more."
+images: [/highlights/banners/segmentation_highReso.jpeg]
 ---
 
 Over the latest three years, the COVID-19 pandemic has had significant effects on global society, economy, and health. Vaccines have mitigated the effects of the pandemic, though COVID-19 disease outbreaks are still common. Global pandemic preparedness efforts are now underway to build capacity to tackle old and new pathogens as well as viruses with the potential to cause a significant threat to public health.
