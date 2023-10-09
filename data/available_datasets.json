@@ -1,5 +1,5 @@
 {
-    "last_updated": "2023-09-15",
+    "last_updated": "2023-10-09",
     "datasets": [
         {
             "doi": "10.1101/2023.07.05.23292245",
@@ -9389,6 +9389,419 @@
                 "Wen H.",
                 "Liu H.",
                 "Hu W."
+            ]
+        },
+        {
+            "doi": "10.1371/journal.pone.0291146",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "",
+                    "accession_number": "",
+                    "description": "Data related to PCR probes, assessments of infectivity and RNA integrity, and ex-vivo challenges are included in the study.",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Health data"
+                    ],
+                    "data_url": "https://europepmc.org/article/MED/37769001#sec015"
+                }
+            ],
+            "title": "Evaluation of a human mucosal tissue explant model for SARS-CoV-2 replication",
+            "issue": "9",
+            "volume": "18",
+            "publisher": "Public Library of Science (PLoS)",
+            "published": "2023-09-28",
+            "author": [
+                "Gordhan B. G.",
+                "Herrera C.",
+                "Pillay A.",
+                "Seiphetlo T.",
+                "Ealand C. S."
+            ]
+        },
+        {
+            "doi": "10.1038/s41467-023-41146-4",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "PRIDE",
+                    "accession_number": "PXD038394",
+                    "description": "AKI DIA samples for generalized peakgroup scoring model application",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Health data",
+                        "Protein data",
+                        "Other data"
+                    ],
+                    "data_url": "https://www.ebi.ac.uk/pride/archive/projects/PXD038394"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "PRIDE",
+                    "accession_number": "PXD025752",
+                    "description": "A time-resolved proteomic and prognostic map of COVID-19",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Health data",
+                        "Protein data",
+                        "Other data"
+                    ],
+                    "data_url": "https://www.ebi.ac.uk/pride/archive/projects/PXD025752"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "Figshare",
+                    "accession_number": "",
+                    "description": "Olink Dataset",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Health data",
+                        "Protein data",
+                        "Other data"
+                    ],
+                    "data_url": "https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_6025748/6025748"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "PRIDE",
+                    "accession_number": "PXD044264",
+                    "description": "56 samples from acute kidney injury patients (DIA-MS septic AKI dataset).",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Health data",
+                        "Protein data",
+                        "Other data"
+                    ],
+                    "data_url": "https://www.ebi.ac.uk/pride/archive/projects/PXD044264"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Biologically Informed Neural Network (BINN) code",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Health data",
+                        "Protein data",
+                        "Other data"
+                    ],
+                    "data_url": "https://github.com/InfectionMedicineProteomics/BINN"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "Zenodo",
+                    "accession_number": "",
+                    "description": "InfectionMedicineProteomics/BINN: First release",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Health data",
+                        "Protein data",
+                        "Other data"
+                    ],
+                    "data_url": "https://zenodo.org/record/8207421"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "DE-score algorithm has been implemented into the data processing package DPKS",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Health data",
+                        "Protein data",
+                        "Other data"
+                    ],
+                    "data_url": "https://github.com/InfectionMedicineProteomics/DPKS"
+                }
+            ],
+            "title": "Interpreting biologically informed neural networks for enhanced proteomic biomarker discovery and pathway analysis",
+            "issue": "1",
+            "volume": "14",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2023-09-02",
+            "author": [
+                "Hartman E.",
+                "Scott A. M.",
+                "Karlsson C.",
+                "Mohanty T.",
+                "Vaara S. T."
+            ]
+        },
+        {
+            "doi": "10.1038/s41467-023-41541-x",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "",
+                    "accession_number": "",
+                    "description": "Data cannot be shared publicly, but those with appropriate ethical permissions can apply for access via helsedata.no/en.",
+                    "data_type": [
+                        "Health data"
+                    ],
+                    "data_url": ""
+                },
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Code used for analysis (in R)",
+                    "data_type": [
+                        "Health data"
+                    ],
+                    "data_url": "https://github.com/remebjornatle/post_covid"
+                }
+            ],
+            "title": "Predictors of the post-COVID condition following mild SARS-CoV-2 infection",
+            "issue": "1",
+            "volume": "14",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2023-09-20",
+            "author": [
+                "Reme B.",
+                "Gjesvik J.",
+                "Magnusson K."
+            ]
+        },
+        {
+            "doi": "10.1038/s41467-023-41159-z",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "",
+                    "accession_number": "",
+                    "description": "Results of the meta-analysis are available in a Shiny app.",
+                    "data_type": [
+                        "Protein data"
+                    ],
+                    "data_url": "https://figshare.com/articles/online_resource/CoViD-19_Meta-Analysis_of_Plasma_Proteins_CoViMAPP_app/22293148"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "ProteomeXchange",
+                    "accession_number": "PXD037486",
+                    "description": "In-depth serum proteomics of hospitalized COVID-19 patients and PCR-negative healthy controls with HiRIEF LC-MS/MS",
+                    "data_type": [
+                        "Protein data"
+                    ],
+                    "data_url": "https://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD037486"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "ProteomeXchange",
+                    "accession_number": "PXD037451",
+                    "description": "Mass-spectrometry proteomics of Calu-3 cell lines infected with SARS-CoV-2, in comparison to non-infected and UV mock-treated cell lines",
+                    "data_type": [
+                        "Protein data"
+                    ],
+                    "data_url": "https://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD037451"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "ProteomeXchange",
+                    "accession_number": "PXD040982",
+                    "description": "Mass-spectrometry phosphoproteomics of Calu-3 cell lines infected with SARS-CoV-2, in comparison to non-infected and UV mock-treated cell lines",
+                    "data_type": [
+                        "Protein data"
+                    ],
+                    "data_url": "https://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD040982"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Custom code for the Nextflow proteomics workflow",
+                    "data_type": [
+                        "Protein data"
+                    ],
+                    "data_url": "https://europepmc.org/article/MED/37739942#id339581"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "R code used for analyses",
+                    "data_type": [
+                        "Protein data"
+                    ],
+                    "data_url": "https://europepmc.org/article/MED/37739942#id339581"
+                }
+            ],
+            "title": "Comprehensive proteomics and meta-analysis of COVID-19 host response",
+            "issue": "1",
+            "volume": "14",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2023-09-22",
+            "author": [
+                "Babačić H.",
+                "Christ W.",
+                "Araújo J. E.",
+                "Mermelekas G.",
+                "Sharma N."
+            ]
+        },
+        {
+            "doi": "10.1038/s41598-023-42127-9",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Unsupervised learning methods to Identify essential genes associated with SARS-CoV-2",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Drug discovery data"
+                    ],
+                    "data_url": "https://github.com/MahnazHabibi/Gene_analysis"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Unsupervised learning methods to Identify essential genes associated with SARS-CoV-2",
+                    "data_type": [
+                        "Genomics & transcriptomics data",
+                        "Drug discovery data"
+                    ],
+                    "data_url": "https://github.com/MahnazHabibi/Gene_analysis"
+                }
+            ],
+            "title": "Identification of essential genes associated with SARS-CoV-2 infection as potential drug target candidates with machine learning algorithms",
+            "issue": "1",
+            "volume": "13",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2023-09-13",
+            "author": [
+                "Taheri G.",
+                "Habibi M."
+            ]
+        },
+        {
+            "doi": "10.1038/s41598-023-43412-3",
+            "available_items": [
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Workflow developed during the COVID-19 pandemic with the purpose of COVID-19 vaccination Phase III trial data analysis and support through data quality control and automated reporting",
+                    "data_type": [
+                        "Health data"
+                    ],
+                    "data_url": "https://github.com/rcvanwijk/ReproducibilityPMX"
+                }
+            ],
+            "title": "Reproducibility in pharmacometrics applied in a phase III trial of BCG-vaccination for COVID-19",
+            "issue": "1",
+            "volume": "13",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2023-09-28",
+            "author": [
+                "van Wijk R. C.",
+                "Mockeliunas L.",
+                "van den Hoogen G.",
+                "Upton C. M.",
+                "Diacon A. H."
+            ]
+        },
+        {
+            "doi": "10.1371/journal.pone.0290974",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "",
+                    "accession_number": "",
+                    "description": "All vaccination data are available on Ireland's COVID-19 Data Hub",
+                    "data_type": [
+                        "Public health data"
+                    ],
+                    "data_url": "https://covid19ireland-geohive.hub.arcgis.com/"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "GitHub",
+                    "accession_number": "",
+                    "description": "Code to simulate the evolution of the COVID-19 pandemic with and without optimal vaccination.",
+                    "data_type": [
+                        "Public health data"
+                    ],
+                    "data_url": "https://github.com/elenizavrakli/Optimal-Age-Specific-Vaccination-Control"
+                }
+            ],
+            "title": "Optimal age-specific vaccination control for COVID-19: An Irish case study",
+            "issue": "9",
+            "volume": "18",
+            "publisher": "Public Library of Science (PLoS)",
+            "published": "2023-09-05",
+            "author": [
+                "Zavrakli E.",
+                "Parnell A.",
+                "Malone D.",
+                "Duffy K.",
+                "Dey S."
+            ]
+        },
+        {
+            "doi": "10.1038/s41467-023-41312-8",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "",
+                    "accession_number": "",
+                    "description": "Library designs including the proteins, peptides and statistics",
+                    "data_type": [
+                        "Protein data",
+                        "Biochemistry data"
+                    ],
+                    "data_url": "http://slim.icr.ac.uk/phage_libraries/human/"
+                }
+            ],
+            "title": "Identification of motif-based interactions between SARS-CoV-2 protein domains and human peptide ligands pinpoint antiviral targets",
+            "issue": "1",
+            "volume": "14",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2023-09-13",
+            "author": [
+                "Mihalič F.",
+                "Benz C.",
+                "Kassa E.",
+                "Lindqvist R.",
+                "Simonetti L."
+            ]
+        },
+        {
+            "doi": "10.1038/s41398-023-02578-0",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "Open Science Framework",
+                    "accession_number": "",
+                    "description": "Anonymised data, dictionary, analytical code, study protocol and frequentist statistical analysis plan",
+                    "data_type": [
+                        "Social science and humanities data"
+                    ],
+                    "data_url": "https://osf.io/j9v2z/"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "Open Science Framework",
+                    "accession_number": "",
+                    "description": "Anonymised data, dictionary, analytical code, study protocol and frequentist statistical analysis plan",
+                    "data_type": [
+                        "Social science and humanities data"
+                    ],
+                    "data_url": "https://osf.io/j9v2z/"
+                }
+            ],
+            "title": "Reducing intrusive memories after trauma via an imagery-competing task intervention in COVID-19 intensive care staff: a randomised controlled trial",
+            "issue": "1",
+            "volume": "13",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2023-09-01",
+            "author": [
+                "Iyadurai L.",
+                "Highfield J.",
+                "Kanstrup M.",
+                "Markham A.",
+                "Ramineni V."
             ]
         }
     ]
