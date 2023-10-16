@@ -1,0 +1,24 @@
+CheckDoctype: false
+CheckLinks: false
+CheckMeta: false
+CheckGeneric: false
+CheckInternal: false
+CheckInternalHash: false
+CheckMailto: false
+CheckTel: false
+CheckMetaRefresh: false
+IgnoreInternalEmptyHash: true
+IgnoreEmptyHref: true
+IgnoreAltMissing: true
+IgnoreAltEmpty: true
+IgnoreDirectoryMissingTrailingSlash: true
+IgnoreURLs:
+  - "https://twitter.com/scilifelab_DC"
+  - "https://linkedin.com/company/scilifelab-data-centre"
+  - "^https://twitter.com/intent/tweet.*$"
+  - "^https://www.linkedin.com/sharing/share-offsite.*$"
+  - "^https://www.facebook.com/sharer/sharer.php.*$"
+  - "^https://doi.org/.*$"
+IgnoreDirs:
+  - "publications"
+  - "datasets"
