@@ -1,0 +1,39 @@
+# Run htmltest to check for broken external links
+# Scheduled for every first wednesday of the month
+
+name: Check broken links (htmltest)
+on:
+  workflow_dispatch:
+    branches:
+      - develop
+  schedule:
+    - cron: '25 8 1-7 * 3'
+
+jobs:
+  htmltest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v3
+        
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "latest"
+          
+      - name: Run Hugo
+        run: hugo -d dist
+      
+      - name: Test HTML
+        continue-on-error: true
+        uses: wjdp/htmltest-action@master
+        with:
+          path: dist
+          config: .github/htmltest-config.yml
+      
+      - name: Archive htmltest results
+        uses: actions/upload-artifact@v3
+        with:
+          name: htmltest-report
+          path: tmp/.htmltest/htmltest.log
+          retention-days: 7
