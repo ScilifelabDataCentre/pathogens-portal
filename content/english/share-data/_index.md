@@ -1,7 +1,6 @@
 ---
 title: Share data
 description: Suggestions for sharing data in a public repository.
-recaptcha: true
 ---
 
 ## Share data in a public repository

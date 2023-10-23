@@ -1,7 +1,6 @@
 ---
 title: Dashboards
 toc: false
-plotly: true
 menu:
     homepage_dashboards:
         name: Dashboards

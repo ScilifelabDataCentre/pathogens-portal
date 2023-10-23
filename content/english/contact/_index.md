@@ -1,12 +1,12 @@
 ---
-title: Contact and suggestions form
+title: Contact and suggestions
 menu:
     navbar_top:
         name: Contact
         weight: 20
         identifier: contact
     footer_about:
-        name: Contact form
+        name: Contact
         weight: 20
 aliases:
     - /suggestions/

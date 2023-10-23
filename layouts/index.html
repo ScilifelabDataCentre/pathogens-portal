@@ -4,77 +4,11 @@
 <div class="row">
   <div class="col-md-8 vert-line-right mt-3">
 
-    {{ if ne $.Site.Language.LanguageName "Nederlands" }}
     The <a href = "https://www.health-ri.nl/initiatives/dutch-covid-19-data-support-programme"> Dutch COVID-19 Data Support Programme</a> supports investigators and health care professionals with tools and services in their search for ways to overcome the pandemic and its health consequences. Specific component of this support program are
 <ul>
   <li>The <a href = "https://covid19initiatives.health-ri.nl/p/ProjectOverview"> Dutch National COVID-19 metadata portal</a>, where information about covid-related projects within the Netherlands can be found.</li>
   <li>The <a href = "https://elsi.health-ri.nl/">ELSI servicedesk</a> (in Dutch), which provides guidance and answers on Ethical, Legal, and Societal Impact (ELSI) implications of e.g. research on personalised medicine and next generation sequencing.</li>
   <li>The <a href = "https://www.infectious-diseases-toolkit.org/national-resources/netherlands">Dutch national resources</a> page on the infectious disease toolkit website discusses infectious disease research in the Netherlands and provides information on relevant health authorities and initiatives. In addition, the page offers a collection of key considerations for researchers such as regulations for data handling and disease control.</li>
-    <!-- Available data -->
-    {{ $all_entries := $.Site.Data.available_datasets.datasets }}
-    {{/*
-        Count how many entries we have for each data type
-        */}}
-    {{ $all_data_types := slice "Biochemistry data" "Drug discovery data" "Genomics & transcriptomics data" "Health data" "Imaging data" "Other data" "Protein data" "Public health data" "Serology data" "Social science and humanities data" }}
-    {{ $num_entries_per_data_type := dict }}
-    {{ range $all_data_types }}
-    {{ $current_type := . }} {{ $num_entries := 0 }}
-    {{ range $all_entries }}
-    {{ $counted := false }}
-    {{ range .available_items }}
-    {{ if (and (in .data_type $current_type) (not $counted)) }}
-    {{ $num_entries = add $num_entries 1 }}
-    {{ $counted = true }}
-    {{ end }}
-    {{ end }}
-    {{ end }}
-    {{ $data_type_num_entries := dict $current_type $num_entries }}
-    {{ $num_entries_per_data_type = merge $num_entries_per_data_type $data_type_num_entries }}
-    {{ end }}
-
-    {{/*
-      The following bit ensures that it is not necessary to copy the datatypes_to_display list in the Swedish version of the page
-    */}}
-
-    {{ $datatypes_to_display := slice }}
-    {{ $path := strings.TrimPrefix "/nl" (strings.TrimRight "/" (string .Page.RelPermalink)) }}
-    {{ with .Sites.First.GetPage $path }} {{ $datatypes_to_display = .Params.datatypes_to_display }} {{ end }}
-
-    {{ range .Site.Menus.homepage_available_data }}
-      <div class="row mt-4">
-        <h2>{{ .Name }}</h2>
-      </div>
-      <div class="row">
-        <p class="small text-muted">{{ .Post }}</p>
-      </div>
-    {{ end }}
-    <div class="row">
-      {{ range .Site.Menus.datasets_menu }}
-        {{ if ne .Title "All data types" }}
-          <div class="col-md-4">
-            <h5><a href="{{ .Page.RelPermalink }}">
-              {{ $section_title := string "" }}
-              {{ $section_title = .Title}}
-              {{ $this_type := strings.TrimRight " data" (lower $section_title) }}
-              {{ range $type, $num := $num_entries_per_data_type }}
-                {{ $type_in_dict := strings.TrimRight " data" (lower $type) }}
-                {{ if eq $this_type $type_in_dict }}
-                  {{ if eq $section_title "Genomics & transcriptomics data"}}
-                    {{ $this_type = "genomics"}}
-                  {{ end }}
-                  {{ if eq $section_title "Social science and humanities data"}}
-                    {{ $this_type = "social science"}}
-                  {{ end }}
-                {{ $this_type | title }} ({{ $num }})
-                {{ end }}
-              {{ end }}
-              <i class="bi bi-arrow-right-circle-fill"></i>
-            </a></h5>
-          </div>
-        {{ end }}
-      {{ end }}
-    </div>
-    {{ end }}
   </div>
 
   <!-- Right sidebar -->
@@ -107,30 +41,4 @@
   </div>
 </div>
 
-<script>
-  // Add latest tag to very recent news when content is loaded
-  document.addEventListener("DOMContentLoaded", function (event) {
-    document.querySelectorAll("#news-items-container .small").forEach(
-      function (newsNode) {
-        var numDays = Math.floor((Date.now() - Date.parse(newsNode.innerText)) / (1000 * 60 * 60 * 24));
-        if (numDays <= 7) {
-          newsNode.insertAdjacentHTML("beforeend", "<span class='badge latest-news'>New</span>");
-        }
-      }
-    );
-  })
-</script>
-
-<script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.0.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
-
-<script
-  src="https://datagraphics.dckube.scilifelab.se/graphic/e4c6a7b8bff648a5adaabbdd3d994bf9.js?id=serology"></script>
-<script
-  src="https://datagraphics.dckube.scilifelab.se/graphic/93bad55e86ad4b0f97d4d27c77862bc9.js?id=stockholm_wastewater"></script>
-<script
-  src="https://datagraphics.dckube.scilifelab.se/graphic/d262787e199b4c9b8fbbaf5f95edb7bc.js?id=malmo_wastewater"></script>
-<script
-  src="https://datagraphics.dckube.scilifelab.se/graphic/6d16b18be0d74425b313040c502f29c8.js?id=uppsala_wastewater"></script>
 {{ end }}

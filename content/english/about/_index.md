@@ -1,5 +1,5 @@
 ---
-title: About the data portal
+title: About the Dutch COVID-19 Data Portal
 menu:
     navbar_top:
         name: About
@@ -7,7 +7,7 @@ menu:
         identifier: about
     footer_about:
         name: About the portal
-        weight: 10
+        weight: 20
 ---
 
 <div class="mb-4">

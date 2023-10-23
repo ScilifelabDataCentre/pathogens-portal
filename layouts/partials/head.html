@@ -41,11 +41,6 @@
   <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
   {{ end }}
 
-  {{ if .Params.recaptcha }}
-  <!-- reCAPTCHA for contact page and other pages where there is just one reCAPTCHA -->
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-  {{ end }}
-
   {{ if $.Param "plotly" }}
   <!-- plotly -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.58.4/plotly.min.js"></script>
@@ -54,90 +49,6 @@
   {{ if or (eq .Page.RelPermalink "/dashboards/wastewater/") (eq .Page.RelPermalink "/dashboards/wastewater/")}}
   <!-- Openlayers -->
   <link rel="stylesheet" href="https://openlayers.org/en/v5.3.0/css/ol.css" type="text/css">
-  {{ end }}
-
-  <!-- imjoy -->
-  {{ with .Params.imjoy }}
-  <!-- <script src="http://localhost:8080/imjoy-loader.js"></script> -->
-  <script src="https://cdn.jsdelivr.net/npm/imjoy-core@0.13.65/dist/imjoy-loader.min.js"></script>
-  <script>
-    // Convert a string to a JS function
-    function parseFunction(str) {
-      const is_async = str.trim().startsWith('async'),
-        fn_body_idx = str.indexOf('{'),
-        fn_body = str.substring(fn_body_idx + 1, str.lastIndexOf('}')),
-        fn_declare = str.substring(0, fn_body_idx),
-        fn_params = fn_declare.substring(fn_declare.indexOf('(') + 1, fn_declare.lastIndexOf(')')),
-        args = fn_params.split(',');
-      args.push(fn_body);
-
-      if (is_async) {
-        const AsyncFunction = Object.getPrototypeOf(async function () {}).constructor;
-
-        function Fn() {
-          return AsyncFunction.apply(this, args);
-        }
-        Fn.prototype = AsyncFunction.prototype;
-      } else {
-        function Fn() {
-          return Function.apply(this, args);
-        }
-        Fn.prototype = Function.prototype;
-      }
-      return new Fn();
-    }
-    const imjoyTemplates = JSON.parse("{{ . | jsonify }}");
-    // Define a config object for the ImJoyBasicApp
-    // More details here: https://github.com/imjoy-team/imjoy-core/blob/master/docs/integration.md#api-options
-    const config = {
-      version: '0.13.65',
-      // base_url: "http://localhost:8080/",
-      // debug: true,
-      process_url_query: true,
-      show_window_title: false,
-      show_progress_bar: false,
-      show_empty_window: false,
-      // menu_container: "menu-container",
-      // menu_style: { position: "absolute", right: 0, top: "2px" },
-      // window_manager_container: "window-container",
-      // window_style: {
-      //   width: '100%',
-      //   height: '100vh'
-      // },
-    }
-    loadImJoyBasicApp(Object.assign(config, imjoyTemplates.config || {})).then(async app => {
-      window.api = app.imjoy.api;
-      window.imjoy = {}
-      // Parsing functions defined in the page and making them available through the `window.imjoy` object
-      Object.keys(imjoyTemplates).map(function (key, index) {
-        if (key !== 'config') window.imjoy[key] = parseFunction(imjoyTemplates[key]);
-      });
-      // run the startup function
-      if(window.imjoy.startup){
-        window.imjoy.startup()
-      }
-    });
-  </script>
-  {{ end }}
-
-
-  {{ if .Params.recaptcha_two }}
-  <!-- reCAPTCHA for Omicron VoC page (because multiple on a single page) -->
-  <script type="text/javascript">
-  var verifyCallback = function(response) {
-    alert(response);
-  };
-  var widgetId1;
-  var widgetId2;
-  var onloadCallback = function() {
-    av_data_recaptcha = grecaptcha.render('form_av_data_recaptcha', {
-      'sitekey' : '6LesV0gaAAAAAGFjazG7Hd_hN72cpeYm2woivBT3'
-    });
-    ann_recaptcha = grecaptcha.render('form_ann_recaptcha', {
-      'sitekey' : '6LesV0gaAAAAAGFjazG7Hd_hN72cpeYm2woivBT3'
-    });
-  };
- </script>
   {{ end }}
 
 </head>
