@@ -33,6 +33,18 @@
 </div>
 {{ end }}
 
+<!-- Editorials -->
+{{ $n_ed := len (.Site.Taxonomies.editorials_topics.Get $topic_key) }}
+{{ if $n_ed }}
+<h3><i class="bi bi-three-dots-vertical"></i> Editorials ({{ $n_ed }})</h3>
+<div class="container mt-3 mb-5">
+  {{- partial "editorials.html" . -}}
+  <div class="mt-2 fw-bold align-content-end"><a href="/editorials/topics/{{ $topic_key }}">See all editorials
+    on {{ $page_topic }} ({{ $n_ed }}) <i class="bi bi-arrow-right-circle-fill"></i></a></div>
+<hr>
+</div>
+{{ end }}
+
 <!-- Sample collection -->
 
 {{ if or (eq $page_topic "COVID-19") (eq $page_topic "Infectious diseases") }}

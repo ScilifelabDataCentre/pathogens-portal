@@ -160,6 +160,17 @@
     <hr class="d-lg-none">
 
     {{ if ne $.Site.Language.LanguageName "Svenska" }}
+    <!-- Topics box -->
+    <div class="bg-home-topics mb-4">
+      <h4 class="mt-0 mb-1">Topics</h4>
+      <p class="mb-2 small">Grouped content for easy exploring</p>
+      {{ range .Site.Menus.topics_menu }}
+        <a href="{{ .Page.RelPermalink }}"><span class="bg-home-topics-btn">{{ .Name }}</span></a>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{ if ne $.Site.Language.LanguageName "Svenska" }}
     <!-- Portal updates -->
     <div class="row">
       <h4 class="mb-1">What's new?</h4>
@@ -188,13 +199,6 @@
     <!-- Events -->
     <section id="events-section">
       <!-- The events content will filled by JS function below -->
-    </section>
-    {{ end }}
-
-    {{ if ne $.Site.Language.LanguageName "Svenska" }}
-    <!-- Funding opportunities -->
-    <section id="funding-section">
-      <!-- The funding content will filled by JS function below -->
     </section>
     {{ end }}
 
@@ -303,62 +307,8 @@
       decodeURIComponent("https%3A%2F%2Fblobserver.dc.scilifelab.se%2Fblob%2Fpathogens_portal_events.json"),
       addEvents
     );
-    
-    function addFunding(data){
-      var dataArray = data.calls, fundList = [], fundHTML = "";
-      dataArray.forEach((fund) => {
-        if (typeof fund.submission_deadline !== 'undefined'){
-          if (new Date(fund.submission_deadline) >= new Date().setHours(0,0,0,0)){
-            fundList.push(fund);
-          };
-        };
-      });
-      fundList = fundList.sort((a,b) => (a.submission_deadline > b.submission_deadline) ? 1 : (a.submission_deadline < b.submission_deadline) ? -1 : 0);
-      var fundToShow = fundList.slice(0, 3);
-      if (fundToShow.length > 0){
-        fundHTML += `<div class="row mt-4">
-                        <h4 class="mb-1">Funding opportunities</h4>
-                        <p class="mb-2 small">The titles and submission deadlines of upcoming funding opportunities.</p>
-                      </div>
-                      <div class="row px-2">
-                        <div class="border p-3">`;
-        fundToShow.forEach((fund, ind) => {
-          var endDate = new Date(fund.submission_deadline);
-          fundHTML += `<div>
-                        <div class="d-flex justify-content-between align-items-center">
-                          <div><a class="" role="button" href="${fund.call_url}" target="_blank">${fund.call_title}</a></div>
-                          <div>
-                            <div class="px-2 py-1 d-flex flex-column rounded card-badge mw-100">
-                              <div class="px-2 fs-6 mx-auto">${endDate.getDate()}</div>
-                              <div class="pb-1 px-2 fs-6 mx-auto">${endDate.toLocaleString('en-US', {'month': 'short'})}</div>
-                            </div>
-                          </div>
-                        </div>
-                        ${ind < (fundToShow.length - 1) ? '<div class="px-4 py-1"><hr class="my-2"></div>' : ''}
-                      </div>`;
-        });
-        fundHTML += `<div class="mt-3 bg-see-all-link">
-                        <a href="/funding/">See all funding opportunities <i class="bi bi-arrow-right-square-fill"></i></a>
-                        </div>
-                      </div>
-                    </div>`;
-        var fundSection = document.getElementById('funding-section');
-        fundSection.innerHTML = fundHTML;
-      };
-    };
-    
-    // Call the function to fetch, parse and display events
-    getDataFromUrl(
-      decodeURIComponent("https%3A%2F%2Fblobserver.dc.scilifelab.se%2Fblob%2Fpathogens_portal_funding.json"),
-      addFunding
-    );
 
-  }); // Document "DOMContentLoaded" trigger ends here
-</script>
-
-<script>
-  // Add latest tag to very recent news when content is loaded
-  document.addEventListener("DOMContentLoaded", function (event) {
+    // Add latest tag to very recent news when content is loaded
     document.querySelectorAll("#news-items-container .small").forEach(
       function (newsNode) {
         var numDays = Math.floor((Date.now() - Date.parse(newsNode.innerText)) / (1000 * 60 * 60 * 24));
@@ -367,7 +317,7 @@
         }
       }
     );
-  })
+  }); // Document "DOMContentLoaded" trigger ends here
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
