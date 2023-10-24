@@ -15,11 +15,11 @@ How to be better prepared for the next pandemic? Sustained genetic monitoring fo
 
 #### References
 
-1.	Guarner J. 2020. Three Emerging Coronaviruses in Two Decades. Am J Clin Pathol 153:420-421.
-2.	de Wit E, van Doremalen N, Falzarano D, Munster VJ. 2016. SARS and MERS: recent insights into emerging coronaviruses. Nat Rev Microbiol 14:523-34.
-3.	Hilgenfeld R, Peiris M. 2013. From SARS to MERS: 10 years of research on highly pathogenic human coronaviruses. Antiviral Res 100:286-95.
-4.	Olsen B, Munster VJ, Wallensten A, Waldenstrom J, Osterhaus AD, Fouchier RA. 2006. Global patterns of influenza a virus in wild birds. Science 312:384-8.
-5.	Kuiken T, Holmes EC, McCauley J, Rimmelzwaan GF, Williams CS, Grenfell BT. 2006. Host species barriers to influenza virus infections. Science 312:394-7.
-6.	Sonnberg S, Webby RJ, Webster RG. 2013. Natural history of highly pathogenic avian influenza H5N1. Virus research 178:63-77.
-7.	Authority EFS, Prevention ECfD, Control, Influenza EURLfA, Adlhoch C, Fusaro A, Gonzales JL, Kuiken T, Marangon S, Mirinaviciute G, Niqueux É, Stahl K, Staubach C, Terregino C, Broglia A, Baldinelli F. 2023. Avian influenza overview December 2022 – March 2023. EFSA Journal 21:e07917.
-8.	Adlhoch C, Fusaro A, Gonzales JL, Kuiken T, Marangon S, Mirinaviciute G, Niqueux É, Stahl K, Staubach C, Terregino C, Broglia A, Baldinelli F. 2023. Avian influenza overview December 2022 - March 2023. Efsa j 21:e07917.
+1. Guarner J. 2020. Three Emerging Coronaviruses in Two Decades. Am J Clin Pathol 153:420-421.
+2. de Wit E, van Doremalen N, Falzarano D, Munster VJ. 2016. SARS and MERS: recent insights into emerging coronaviruses. Nat Rev Microbiol 14:523-34.
+3. Hilgenfeld R, Peiris M. 2013. From SARS to MERS: 10 years of research on highly pathogenic human coronaviruses. Antiviral Res 100:286-95.
+4. Olsen B, Munster VJ, Wallensten A, Waldenstrom J, Osterhaus AD, Fouchier RA. 2006. Global patterns of influenza a virus in wild birds. Science 312:384-8.
+5. Kuiken T, Holmes EC, McCauley J, Rimmelzwaan GF, Williams CS, Grenfell BT. 2006. Host species barriers to influenza virus infections. Science 312:394-7.
+6. Sonnberg S, Webby RJ, Webster RG. 2013. Natural history of highly pathogenic avian influenza H5N1. Virus research 178:63-77.
+7. Authority EFS, Prevention ECfD, Control, Influenza EURLfA, Adlhoch C, Fusaro A, Gonzales JL, Kuiken T, Marangon S, Mirinaviciute G, Niqueux É, Stahl K, Staubach C, Terregino C, Broglia A, Baldinelli F. 2023. Avian influenza overview December 2022 – March 2023. EFSA Journal 21:e07917.
+8. Adlhoch C, Fusaro A, Gonzales JL, Kuiken T, Marangon S, Mirinaviciute G, Niqueux É, Stahl K, Staubach C, Terregino C, Broglia A, Baldinelli F. 2023. Avian influenza overview December 2022 - March 2023. Efsa j 21:e07917.
