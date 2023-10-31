@@ -74,17 +74,7 @@ The Swedish National Data Service has put together guidelines on research data m
 
 ### Other useful resources
 
-- [Research Data Management 1 Day Workshop](https://zenodo.org/record/4562630#.YnjAIPNBzlw) (Sara El-Gebali, DOI: 10.5281/zenodo.4562630) - Materials for 1 full-day workshop on Research Data Management basics covering the following topics:
-  - Part 1: Overview of the RDM unit services and support
-  - Part 2: What is Data?
-  - Part 3: FAIR data
-  - Part 4: Open Data
-  - Part 5: Reuse and Reproducibility
-  - Part 6:Where do we start?
-  - Part 7: Documentation
-  - Electronic lab notebooks
-  - Metadata
-  - README files
+- [Research Data Management 1 Day Workshop](https://zenodo.org/record/4562630#.YnjAIPNBzlw) (Sara El-Gebali, DOI: 10.5281/zenodo.4562630) - Materials for 1 full-day workshop on Research Data Management basics covering topics including FAIR and Open data, and electronic lab books.
 - [SciLifeLab tutorial videos on Data Management](https://www.youtube.com/playlist?list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS) - on what is Data Management, Data Management Plan, introduction to Data Stewardship Wizard.
 
 ## Hands-on data management support
