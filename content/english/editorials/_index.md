@@ -1,7 +1,5 @@
 ---
 title: Editorials
-cascade:
-  banner: /img/site_logo/SciLifeLab_logo.svg
 ---
 
 The Editorials are short opinion-style pieces centred around topics related to pandemic preparedness. They can be written by members of the [Portal team](/about/), the [editorial committee](/about/editorial_committee/), or researchers affiliated with a Swedish research organisation. The goal of the editorials is to show the ‘current thinking’ in a given area.

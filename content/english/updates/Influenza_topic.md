@@ -1,0 +1,11 @@
+---
+title: Influenza added as a topic
+date: 2023-10-31
+summary: The content of the portal is broadly organised into 'topics' related to pathogens and pandemic preparedness. Influenza is our latest topic.
+banner: /updates/banners/topic_influenza.jpg
+banner_caption: Avian influenza virus image (Photo credit- CDC).
+---
+
+It is possible to filter the content of this portal according to [topics](/topics/) related to infectious disease and pandemic preparedness. For each [topic](/topics/), we provide some basic background information and then show any content related to that topic (including, e.g. highlights and dashboards). We have been adding new topics over time, and expanding the content within them. [Influenza](/topics/influenza/) is the latest topic to be added.
+
+The influenza topic currently includes a dashboard and an editorial. The dashboard is the [wastewater epidemiology dashboard](/dashboards/wastewater/), which has recently been expanded to include data about two influenza viruses. This dashboard includes data and information related to the levels of viral genomes in wastewater (often termed sewage) from multiple research groups across Sweden. The levels of viruses in wastewater have been shown to be predictive of future outbreaks. For example, [Wang et al. (2022)](https://pubmed.ncbi.nlm.nih.gov/36035197/) showed that the level of SARS-CoV-2 viral genomes in wastewater increased 1-2 weeks before there was an increase in the number of hospitalised COVID-19 patients. This means that it can be used to inform the decisions of officials when preparing for an outbreak. At present, the dashboard includes data on [SARS-CoV-2](/dashboards/wastewater/covid_quantification/), [enteric viruses](/dashboards/wastewater/enteric_quantification/), and [influenza](/dashboards/wastewater/influenza_quantification/), and covers areas inhabited by 34% of the Swedish population. The [editorial](/editorials/) on influenza was written by [Mahmoud Naguib](https://www.katalog.uu.se/profile/?id=N17-1318), a researcher working on influenza at Uppsala University. This [new editorial](/editorials/influenza) discusses the potential for influenza viruses to be the next pandemic threat and how we might prepare to tackle that threat.
