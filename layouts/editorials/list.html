@@ -1,0 +1,55 @@
+{{ define "main" }}
+
+<div class="mb-3">
+  {{ .Content }}
+</div>
+
+
+<!-- Button trigger modal -->
+<div class="row mb-3">
+  <div class="col-md mb-2">
+    <a class="btn btn-blue" role="button" href="/contact" style="text-decoration:none">Get in touch</a>
+  </div>
+  <div class="col-md-3 text-end">
+    <div class="input-group">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="form-control" placeholder="Search Keywords" aria-label="Search">
+    </div>
+  </div>
+</div>
+
+<!-- DH listing partial is called -->
+<div id="editorials_container">
+  {{- partial "editorials.html" . -}}
+  <div id="no-filtered-ed" class="pt-2" style="display:none;">
+    <p class="text-center">No editorials have the given keyword, please try to use another.</p>
+  </div>
+</div>
+
+<script>
+  // Function to filter the service based on search text
+  $("input[type=text]").on("input", function(){
+    
+    // Get the text entered and service category 
+    var searchText = $(this).val().toLowerCase();
+    
+    // Hide all services before filtering
+    $(`div#editorials_container div.editorial`).hide();
+    $(`div#no-filtered-dh`).hide();
+    
+    // If text empty show all services
+    if (searchText == ''){
+      $(`div#editorials_container div.editorial`).show();
+    } else {
+      $(`div#editorials_container div[data-search-tags*='${searchText}']`).show();
+      
+      // Display a message if no services available for given keyword
+      var visible_services = $(`div#editorials_container div.editorial`).filter(":visible");
+      if (!visible_services.length) {
+        $(`div#no-filtered-ed`).show();
+      }
+    }
+  });
+</script>
+
+{{ end }}

@@ -48,9 +48,14 @@
       */}}
 
       {{ if eq .Parent.Title "Highlights_topics" }}
-      <li class="breadcrumb-item"><a href="/highlights/">Data highlights</a>
+      <li class="breadcrumb-item"><a href="/highlights/">Data highlights</a></li>
       {{ else if eq .Parent.Title "Dashboards_topics" }}
-      <li class="breadcrumb-item"><a href="/dashboards/">Dashboards</a>
+      <li class="breadcrumb-item"><a href="/dashboards/">Dashboards</a></li>
+      {{ else if eq .Parent.Title "Editorials_topics" }}
+      <li class="breadcrumb-item"><a href="/editorials/">Editorials</a></li>
+      {{ else if eq .Parent.Title "Editorials_authors" }}
+      <li class="breadcrumb-item"><a href="/editorials/">Editorials</a></li>
+      <li class="breadcrumb-item"><span style="color:#6c757d;">Authors</span></li>
       {{ else }}
       <li class="breadcrumb-item"><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></li>
       {{ end }}

@@ -1,0 +1,69 @@
+{{ $editorials := where (where $.Site.Pages "Section" "editorials" ) "Kind" "page" }}
+{{ $currentPage := path.Split (path.Clean .RelPermalink) }}
+{{ $displayedInHome := .IsHome }}
+{{ $isSingleEditorialPage := and (eq $currentPage.Dir "/editorials/") ($currentPage.File) }}
+{{ $editorials_to_show := slice }}
+
+{{/* Compile list of editorial to show depending upon the page */}}
+{{ if $displayedInHome }}
+  {{ $editorials_to_show = $editorials_to_show | append (first 3 $editorials) }}
+{{ else if $isSingleEditorialPage }}
+  {{ $editorials_to_show = $editorials_to_show | append (first 4 (.Scratch.Get "editorials_list")) }}
+{{ else if strings.HasSuffix $currentPage.Dir "/topics/" }}
+  {{ range $editorials }}
+    {{if in (apply .Params.editorials_topics "urlize" ".") $currentPage.File }}
+      {{ $editorials_to_show = $editorials_to_show | append . }}
+    {{ end }}
+  {{ end }}
+  {{ if strings.HasPrefix $currentPage.Dir "/topics/" }}
+    {{ $editorials_to_show = first 3 $editorials_to_show }}
+  {{ end }}
+{{ else if strings.HasSuffix $currentPage.Dir "/authors/" }}
+  {{ range $editorials }}
+    {{if in (apply .Params.editorials_authors "urlize" ".") $currentPage.File }}
+      {{ $editorials_to_show = $editorials_to_show | append . }}
+    {{ end }}
+  {{ end }}
+{{ else }}
+  {{ $editorials_to_show = $editorials_to_show | append $editorials }}
+{{ end }}
+
+<div class="row row-cols-1 row-cols-sm-2 {{ if $isSingleEditorialPage }}row-cols-lg-4{{ else }}row-cols-lg-3{{ end }}
+            g-2 {{ if not $displayedInHome }}g-lg-3{{ end }}">
+{{ range $editorials_to_show }}
+  <!-- If not displayed in home page compile search tags list to use for searching -->
+  <div class="col editorial" 
+    {{ if eq $currentPage.File "editorials" }}
+      {{ $search_tags := slice .Title }}
+      {{ range (.GetTerms "editorials_topics") }}
+        {{ $search_tags = $search_tags | append .LinkTitle }}
+      {{ end }}
+      {{ with .Params.tags }}
+        {{ $search_tags = $search_tags | append . }}
+      {{ end }}
+      data-search-tags="{{ delimit $search_tags ":" | lower }}"
+    {{ end }}>
+    <div class="bg-highlight">
+      <div>
+        <a href="{{ .Page.RelPermalink }}">
+          <img class="img-fluid rounded-top" src="{{ .Params.banner }}" alt="{{ .Title }}">
+        </a>
+      </div>
+      <div class="mt-2">
+              <small>{{ .Date | time.Format ":date_long" }}</small>
+      </div>
+      <div>
+        <h6 class="my-1"><a href="{{ .Page.RelPermalink }}">{{ .Title }}</a></h6>
+      </div>
+      {{ if not (or $displayedInHome $isSingleEditorialPage) }}
+        <div>
+          {{ .Summary }}<br>
+          {{ range (.GetTerms "editorials_topics") }}
+            <span class="topic_badge_small"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}
+</div>

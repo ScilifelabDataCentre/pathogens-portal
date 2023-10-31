@@ -13,21 +13,25 @@ aliases:
 dashboards_topics: [COVID-19, Infectious diseases]
 ---
 
-The visualisations on this page evaluate the development of COVID-19 and SARS-CoV-2 research across Sweden by assessing publication output. Specifically, we consider multiple aspects of journal publications and preprints where at least one author has an affiliation with a Swedish research institute. The database containing the publications themselves [can be found on this page](/publications/). Note that our database is manually curated and, as such, may not be exhaustive. The full database is available for download and use for other purposes, please see [DOI: 10.17044/scilifelab.14124014](https://doi.org/10.17044/scilifelab.14124014) for details.
+The visualisations on this page evaluate the development of COVID-19 and SARS-CoV-2 research across Sweden by assessing publication output. Specifically, we consider multiple aspects of journal publications and preprints where at least one author has an affiliation with a Swedish research institute. The database containing the publications themselves [can be found on this page](/publications/), and is available for download, please see [DOI: 10.17044/scilifelab.14124014](https://doi.org/10.17044/scilifelab.14124014) for details. The database is manually curated, so may not be exhaustive. From May 2023, we began to use the Europe PMC REST API to idenfy publications. The scripts that we use to do this are [openly available on GitHub](https://github.com/ScilifelabDataCentre/covid-portal-scripts/tree/main/All_publications) and can be reused for work with other pathogens. The database is updated monthly at the start of the month.
 
 The code used to produce the visulations on this page can be found on [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations). Specifically, code related to the number of publications can be found in the ['Count_publications' folder of the repository](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Count_publications), and code used to generated the wordclouds can be found in the ['Wordcloud' folder](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Wordcloud).
 
 ## Number of new publications
 
-This graph displays the number of publications (including both journal publications and preprints) published each month, as well as the cumulative daily total of publications contained in the database. The dates reflect either the preprint upload date or the official journal publication date, whichever is the most recent. Where a given day of publication is not specified in the publication/upload date, we assign the date as the first of the month. This causes the appearance of a relatively sharp increase at the start of each month. This chart is updated weekly, though the publications database is not.
+This graph displays the number of publications (including both journal publications and preprints) published each month, as well as the cumulative daily total of publications contained in the database. The dates reflect either the dates that the articles were uploaded to preprint servers (in the case of preprints) or the official journal publication date, whichever is the most recent. Where a given day of publication is not specified, we assign the date as the first of the month. This causes the appearance of a relatively sharp increase at the start of each month.
 
 <div class="d-md-none alert alert-info">
   Rotating your phone may improve graph layout
 </div>
 
-<div class="table-responsive">
-{{< publications_per_month >}}
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/COVID_publication_count.json" height="600px" >}}</div>
 </div>
+
+<!-- <div class="table-responsive">
+{{< publications_per_month >}}
+</div> -->
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Count_publications/count_publications.py).
 

@@ -151,14 +151,15 @@
             <i class="bi bi-inboxes-fill"></i> Research & Funding <i class="bi bi-caret-down-fill small"></i>
           </a>
           <div class="collapse main_menu_item_sub ps-4" id="researchAndFunding">
+            <a class="d-block" href="/resources/">Pandemic Preparedness</a>
             {{ range .Site.Menus.research_menu }}
             <a class="d-block" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
             {{ end }}
           </div>
         </div>
-        <!-- Pandemic preparedness -->
+        <!-- Emerging pathogens -->
         <div class="main_menu_item pb-1">
-          <i class="bi bi-grid-fill"></i> <a href="/resources/">Pandemic Preparedness</a>
+          <i class="bi bi-clipboard-data"></i> <a href="/pathogens/">Emerging Pathogens</a>
         </div>
         <!-- Research data management -->
         <div class="main_menu_item pb-1">
@@ -180,9 +181,9 @@
             {{ end }}
           </div>
         </div>
-        <!-- Emerging pathogens -->
+        <!-- Editorials -->
         <div class="main_menu_item pb-1">
-          <i class="bi bi-clipboard-data"></i> <a href="/pathogens/">Emerging Pathogens</a>
+          <i class="bi bi-pencil-square"></i> <a href="/editorials/">Editorials</a>
         </div>
         <!-- Training and event -->
         <div class="main_menu_item">
@@ -264,6 +265,7 @@
           <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research & Funding</a>
           <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item m-0" href="/resources/">Pandemic Preparedness</a>
             {{ range .Site.Menus.research_menu }}
             <a class="dropdown-item m-0" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
             {{ end }}
@@ -274,7 +276,7 @@
     <div class="col-lg mt-3 mt-lg-0">
       <div class="row">
         <div class="col main_menu_item">
-          <i class="bi bi-grid-fill"></i> <a href="/resources/">Pandemic Preparedness</a>
+          <i class="bi bi-clipboard-data"></i> <a href="/pathogens/">Emerging Pathogens</a>
         </div>
       </div>
       <div class="row">
@@ -303,7 +305,7 @@
       </div>
       <div class="row">
         <div class="col main_menu_item">
-          <i class="bi bi-clipboard-data"></i> <a href="/pathogens/">Emerging Pathogens</a>
+          <i class="bi bi-pencil-square"></i> <a href="/editorials/">Editorials</a>
         </div>
       </div>
       <div class="row">
