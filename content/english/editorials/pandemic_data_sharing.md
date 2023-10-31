@@ -26,6 +26,6 @@ The [Nobel Prize in Medicine](https://www.nobelprize.org/prizes/medicine/2023/pr
 
 It was, in part, the unprecedented levels of sharing and collaboration that enabled this research to be turned into the production of SARS-CoV-2 so quickly during the pandemic. This means that it forms a crucial part of pandemic preparedness efforts, alongside things such as the development of novel vaccines. It is crucial that we continue to raise the importance of sharing techniques, tools, and data in order to ensure that we are able to mount an even quicker response to the next pandemic. Many efforts are now focused on this, including the [Pandemic Laboratory Preparedness Program](https://www.scilifelab.se/capabilities/pandemic-laboratory-preparedness/), of which the Swedish Pathogens Portal is a central part.
 
-#### References
+#### Cite this editorial
 
-Karikó, K., Buckstein, M., Ni, H., Weissman, D. (2005). Suppression of RNA Recognition by Toll-like Receptors: The Impact of Nucleoside Modification and the Evolutionary Origin of RNA. _Immunity_, 23:165-175.
+Öjefors Stark, K. (2023). Editorial- The pandemic has paved the way for data sharing. SciLifeLab. Online resource. DOI: [10.17044/scilifelab.24459832](https://doi.org/10.17044/scilifelab.24459832).

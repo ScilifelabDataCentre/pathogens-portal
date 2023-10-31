@@ -2,25 +2,25 @@
 title: Get support
 toc: false
 menu:
-    top_actions:
-        name: Get support
-        weight: 70
-        pre: <i class="bi bi-people-fill me-2"></i>
+  top_actions:
+    name: Get support
+    weight: 70
+    pre: <i class="bi bi-people-fill me-2"></i>
 aliases:
-    - /support_services/bioinformatics/
+  - /support_services/bioinformatics/
 ---
 
 Below is an overview of relevant support services (free or against a fee) provided by the research infrastructures in Sweden that is available for research projects related to pandemic preparedness.
 
 <h2><i class="bi bi-people-fill"></i> Support on using the Portal</h2>
 
-If you have questions or suggestions for the *Swedish Pathogens Portal*, you can get in touch with the Portal team either by filling out [our contact form](/contact/) or by sending an email to <datacentre@scilifelab.se>.
+If you have questions or suggestions for the _Swedish Pathogens Portal_, you can get in touch with the Portal team either by filling out [our contact form](/contact/) or by sending an email to <datacentre@scilifelab.se>.
 
 <b><a href="/contact/">Get in touch with the Portal team <i class="bi bi-arrow-right-circle-fill"></i></a></b>
 
 <h2><i class="bi bi-people-fill"></i> Data management support</h2>
 
-All researchers affiliated with a university or research institute in Sweden working on research topics relevant to pandemic preparedness can receive free individual consultations and hands-on help within reasonable bounds from the *Swedish Pathogens Portal* team. Simply send an email to <datacentre@scilifelab.se>. Your question will be assigned to a data steward with relevant expertise who can either help you directly or point you to the correct tool or service.
+All researchers affiliated with a university or research institute in Sweden working on research topics relevant to pandemic preparedness can receive free individual consultations and hands-on help within reasonable bounds from the _Swedish Pathogens Portal_ team. Simply send an email to <datacentre@scilifelab.se>. Your question will be assigned to a data steward with relevant expertise who can either help you directly or point you to the correct tool or service.
 
 You are welcome to send both general questions about best approaches to research data management, data management plans (DMPs), reproducibility, FAIR, and open science as well as specific questions about your research projects such as which repository to choose to deposit data, what the suitable metadata standards would be, which file formats to use, etc. In some cases the data stewards can act as brokers and submit data to repositories on your behalf.
 
@@ -28,8 +28,13 @@ You are welcome to send both general questions about best approaches to research
 
 <h2><i class="bi bi-people-fill"></i> Bioinformatics and systems development support</h2>
 
-![NBIS Logo](/img/logos/nbislogo-orange-txt.svg#floatright)
-The SciLifeLab Bioinformatics platform [NBIS](https://nbis.se/) offers a wide range of skills to help research projects within life sciences in Sweden. NBIS has bioinformaticians with multiple areas of expertise in, but not limited to, a wide variety of applications such as genetic variation, expression analysis, single cell, genome assembly and annotation, phylogenomics, proteomics, metabolomics, machine learning, big data, integrative analysis, and biostatistics.
+<div class="col-12 col-md-4 col-lg-3 d-none d-md-block">
+<figure class="figure">
+    <img width="200" src="/img/logos/nbislogo-orange-txt.svg#floatright">
+</figure>
+</div>
+
+The [National Bioinformatics Infrastructure Sweden (NBIS)](https://nbis.se/) offers a wide range of skills to help research projects within life sciences in Sweden. NBIS has bioinformaticians with multiple areas of expertise in, but not limited to, a wide variety of applications such as genetic variation, expression analysis, single cell, genome assembly and annotation, phylogenomics, proteomics, metabolomics, machine learning, big data, integrative analysis, and biostatistics.
 The systems developers team can help with anything from scaling and optimising your tools and code to setting up portals, resources and databases.
 
 There are several support services offered by NBIS:
@@ -46,7 +51,11 @@ You can read more about [each of these support services on NBIS website](https:/
 
 <h2><i class="bi bi-people-fill"></i> Support with data management and storage in general</h2>
 
-![SND logo](/img/logos/SND_logo_eng.png#floatright)
+<div class="col-12 col-md-4 col-lg-3 d-none d-md-block">
+<figure class="figure">
+    <img width="250" src="/img/logos/SND_logo_eng.png#floatright">
+</figure>
+</div>
 If you are not working within the life sciences, you will need to turn to the research institute or university where you are working for with your data-related questions. Many of the research institutes in Sweden have a local data support service as part of the [Swedish National Data Service network](https://snd.gu.se/en/about-us/snd-network).
 
 The [Swedish National Data Service](https://snd.gu.se/en) has a primary function to support the accessibility, preservation, and re-use of research data and related materials. As a national infrastructure, SND coordinates a network of more than 30 universities and public research institutes in Sweden. SND is certified data repository and provides services for researchers to share and access research data from all research areas.

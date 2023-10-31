@@ -2,19 +2,19 @@
 title: Stödtjänster
 toc: false
 menu:
-    top_actions:
-        name: Stödtjänster
-        weight: 70
-        pre: <i class="bi bi-people-fill me-2"></i>
+  top_actions:
+    name: Stödtjänster
+    weight: 70
+    pre: <i class="bi bi-people-fill me-2"></i>
 aliases:
-    - /sv/support_services/bioinformatics/
+  - /sv/support_services/bioinformatics/
 ---
 
 En översikt över relevanta supporttjänster (avgiftsfria eller avgiftsbelagda) som ges av forskningsinfrastrukturer runt om i Sverige och är tillgängliga för forskningsprojekt inom pandemisk beredskap följer nedan.
 
 <h2><i class="bi bi-people-fill"></i> Supporttjänster om Portalen</h2>
 
-Om du har frågor eller förslag för den *Patogens Portal Sverige*, kontakta teamet som arbetar med Portalen antingen genom att fylla i [kontaktformuläret](/sv/contact) eller via epost till <datacentre@scilifelab.se>.
+Om du har frågor eller förslag för den _Patogens Portal Sverige_, kontakta teamet som arbetar med Portalen antingen genom att fylla i [kontaktformuläret](/sv/contact) eller via epost till <datacentre@scilifelab.se>.
 
 <b><a href="/contact/">Kontakta Portalenteamet <i class="bi bi-arrow-right-circle-fill"></i></a></b>
 
@@ -28,9 +28,13 @@ Vi välkomnar både generella frågor om ”best practise” datahantering, data
 
 <h2><i class="bi bi-people-fill"></i> Bioinformatik och support för systemutveckling</h2>
 
-![NBIS Logo](/img/logos/nbislogo-orange-txt.svg#floatright)
+<div class="col-12 col-md-4 col-lg-3 d-none d-md-block">
+<figure class="figure">
+    <img width="200" src="/img/logos/nbislogo-orange-txt.svg#floatright">
+</figure>
+</div>
 
-The SciLifeLab Bioinformatics platform [NBIS](https://nbis.se/) är en distribuerad forskningsinfrastruktur som tillhandahåller en rad tjänster inom bioinformatikstöd för forskningsprojekt inom livsvetenskaperna i Sverige. NBIS har bioinformatiker med kompetens inom ett antal områden, exempelvis genetik, expressionsanalys, proteomik, metabolomik, genetik, maskininlärning, stora datamängder och biostatistik.  Deras team av systemutvecklare kan ge stöd för att optimera verktyg och kod, sätta upp plattformar, resurser och databaser.
+The SciLifeLab Bioinformatics platform [NBIS](https://nbis.se/) är en distribuerad forskningsinfrastruktur som tillhandahåller en rad tjänster inom bioinformatikstöd för forskningsprojekt inom livsvetenskaperna i Sverige. NBIS har bioinformatiker med kompetens inom ett antal områden, exempelvis genetik, expressionsanalys, proteomik, metabolomik, genetik, maskininlärning, stora datamängder och biostatistik. Deras team av systemutvecklare kan ge stöd för att optimera verktyg och kod, sätta upp plattformar, resurser och databaser.
 
 NBIS erbjuder ett antal tjänster exempelvis:
 
@@ -46,7 +50,12 @@ Läs mer om detta [på NBIS hemsida](https://nbis.se/support/).
 
 <h2><i class="bi bi-people-fill"></i> Generell support för datahantering och lagring</h2>
 
-![SND logo](/img/logos/SND_logo_eng.png#floatright)
+<div class="col-12 col-md-4 col-lg-3 d-none d-md-block">
+<figure class="figure">
+    <img width="250" src="/img/logos/SND_logo_eng.png#floatright">
+</figure>
+</div>
+
 Om du inte arbetar inom livsvetenskaperna, vänligen kontakta lärosätet där du arbetar för att få stöd med forskningsdatarelaterade frågor. Många svenska lärosäten erbjuder lokalt forskningsdatastöd som en del av [Svensk Nationell Datatjänst (SND)-nätverket](https://snd.gu.se/sv/om-oss/snd-n%C3%A4tverket).
 
 [Svensk Nationell Datatjänst](https://snd.gu.se/sv) har som sin huvuduppgift att skapa möjlighet för forskare att tillgängliggöra, dela och återanvända forskningsdata och relaterade material. Som ett nationellt konsortium koordinerar SND mer än 30 lärosäten och publika institutioner in Sverige. SND har också en nationell forskningskatalog och erbjuder verktyg för datahantering och datadelning till forskare inom alla ämnesområden.
