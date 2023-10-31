@@ -1,0 +1,9 @@
+{{ define "main" }}
+
+{{ with .Site.GetPage "/editorials" }}{{ .Content }}{{ end }}
+
+<h3>Topic: {{ .Title }}</h3>
+
+{{- partial "editorials.html" . -}}
+
+{{ end }}

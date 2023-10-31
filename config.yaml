@@ -1,4 +1,4 @@
-baseURL: "https://www.covid19dataportal.se/"
+baseURL: "https://www.pathogens.se/"
 title: "The Swedish Pathogens Portal"
 buildFuture: true
 params:
@@ -84,11 +84,15 @@ taxonomies:
   highlights_topic: highlights_topics
   highlights_voc: highlights_vocs
   dashboards_topic: dashboards_topics
+  editorials_topic: editorials_topics
+  editorials_author: editorials_authors
 
 permalinks:
   highlights_topics: "/highlights/topics/:slug/"
   highlights_vocs: "/highlights/vocs/:slug/"
   dashboards_topics: "/dashboards/topics/:slug/"
+  editorials_topics: "/editorials/topics/:slug/"
+  editorials_authors: "/editorials/authors/:slug/"
 
 related:
   includeNewer: false
