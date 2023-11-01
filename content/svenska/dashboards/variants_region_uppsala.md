@@ -25,13 +25,13 @@ Data på denna dashboard ska uppdateras veckovis.
 
 <div class="alert alert-info">Senaste uppdaterad: <span id="last_modified_uuclinmicro"></span></div>
 
-Sekvenserna presenteras enligt deras [World Health Organisation (WHO) etikett](https://www.who.int/activities/tracking-SARS-CoV-2-variants) (en grekisk bokstav) och/eller deras Pango-linje. Pango-linjen bestäms med hjälp av [Pangolin](https://cov-lineages.org/resources/pangolin.html), [Nextclade](https://clades.nextstrain.org/) och ett internt annotationsbaserat arbetsflöde för mutationsanalys.
+Sekvenserna presenteras enligt [World Health Organisation (WHO) system](https://www.who.int/activities/tracking-SARS-CoV-2-variants) (en grekisk bokstav) och/eller deras Pangolinje. Pangolinjen bestäms med hjälp av [Pangolin](https://cov-lineages.org/resources/pangolin.html), [Nextclade](https://clades.nextstrain.org/) och ett internt annotationsbaserat arbetsflöde för mutationsanalys.
 
-### Nya sekvenser med Pango-linje
+### Nya sekvenser med Pangolinje
 
-Diagrammet nedan visar procentandelen sekvenser som tillhörde en viss härstamning varje vecka. Datumet tilldelas som måndagen i den veckan. Diagrammet visar data från början av 2023 i första hand, men innehåller flera dynamiska funktioner som kan användas för att fokusera på vissa delmängder av data.
+Diagrammet nedan visar procentsatsen sekvenser som tillhörde en viss virusstam varje vecka. Datumet anges om måndagen i den veckan. Diagrammet visar data från början av 2023 i första hand, men innehåller flera dynamiska funktioner som kan användas för att fokusera på vissa delmängder av data.
 
-Använd knappen **'Last 16 weeks'** för att endast se data från de senaste 16 veckorna, och knappen **'Data since jan 2023'** för att återigen visa alla data från början av 2023. Använd knappen **'Deselect all lineages'** för att rensa bort data från alla linjer från grafen. Det är sedan möjligt att visa endast vissa linjer genom att klicka på dem i teckenförklaringen. Du kan använda knappen **’Select all lineages’** för att visa data från alla linjer. Grafen har också många andra interaktiva funktioner. Det är t.ex. möjligt att klicka och dra för att fokusera på en viss del av grafen. När du för muspekaren över diagrammet visas alternativ uppe till höger för att t.ex. zooma, ladda ner som en .png-fil eller återställa axlarna till den ursprungliga vyn.
+Använd knappen **'Last 16 weeks'** för att endast se data från de senaste 16 veckorna, och knappen **'Data since jan 2023'** för att återigen visa alla data från början av 2023. Använd knappen **'Deselect all lineages'** för att rensa bort data från alla linjer från grafen. Det är även möjligt att visa endast vissa linjer genom att klicka på dem i teckenförklaringen. Du kan använda knappen **’Select all lineages’** för att visa data från alla linjer. Grafen har också många andra interaktiva funktioner. Det är t.ex. möjligt att klicka och dra för att fokusera på en viss del av grafen. När du för muspekaren över diagrammet visas alternativ uppe till höger för att t.ex. zooma, ladda ner som en .png-fil eller återställa axlarna till den ursprungliga vyn.
 
 <div class="d-md-none alert alert-info">
   Att rotera mobiltelefonen kan förbättra grafens layout
@@ -43,9 +43,9 @@ Använd knappen **'Last 16 weeks'** för att endast se data från de senaste 16 
 
 **Källkod som används för att skapa grafen:** [Källkod som används för att skapa grafen](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/ClinMicro/lineage_four_recent.py).
 
-### Alla sekvenser med WHO-märkning/Pango-linje)
+### Alla sekvenser med WHO-märkning/Pangolinje)
 
-Diagrammet nedan visar hur många procent av sekvenserna från varje vecka som tillhörde en viss linje. Datumet anges som måndagen i den vecka då proverna samlades in. Diagrammet visar alla data som samlats in sedan 2021.
+Diagrammet nedan visar hur många procent av sekvenserna som varje vecka som tillhörde en viss viruslinje. Datumet anges som måndagen i veckan proverna samlades in. Diagrammet visar alla data som samlats in sedan 2021.
 
 Använd knappen **'Deselect all lineages'** för att rensa bort data från alla linjer från diagrammet. Det är sedan möjligt att visa endast vissa linjer genom att klicka på dem i teckenförklaringen. Du kan använda knappen **’Select all lineages’** för att visa data från alla linjer. Grafen har också många andra interaktiva funktioner. Det är t.ex. möjligt att klicka och dra för att fokusera på en viss del av grafen. När du för muspekaren över diagrammet visas alternativ uppe till höger för att t.ex. zooma, ladda ner som en .png-fil eller återställa axlarna till den ursprungliga vyn.
 
