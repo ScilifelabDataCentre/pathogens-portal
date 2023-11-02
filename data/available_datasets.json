@@ -1,6 +1,250 @@
 {
-    "last_updated": "2023-10-09",
+    "last_updated": "2023-11-02",
     "datasets": [
+        {
+            "doi": "10.1186/s13059-023-03080-y",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "European Genome-Phenome Archive (EGA)",
+                    "accession_number": "EGAS00001006186",
+                    "description": "Raw sequence data are available under contrlled ccess due to the sensitive nature of the data.",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://ega-archive.org/studies/EGAS00001006186"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "European Genome-Phenome Archive (EGA)",
+                    "accession_number": "EGAC00001002635",
+                    "description": "Raw sequence data are available under contrlled ccess due to the sensitive nature of the data.",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://ega-archive.org/dacs/EGAC00001002635"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "Mendeley Dataset",
+                    "accession_number": "",
+                    "description": "Processed gene count matrices, related metadata, corresponding ST tissue microscopy images, and RNAScope images used in the Validation analysis.",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://data.mendeley.com/datasets/xb2w7xvs2b/1"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "Mendeley Dataset",
+                    "accession_number": "",
+                    "description": "ISS images for SARS-CoV-2 S and E genes.",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://data.mendeley.com/datasets/gwjk2cxsf4/1"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "FigShare",
+                    "accession_number": "",
+                    "description": "RNAscope images for the SARS-CoV-2 S gene for sample 1C.",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://figshare.com/articles/figure/RNAscope_images_for_SARS-CoV-2_S_gene_from_Sample_1/19333442"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "FigShare",
+                    "accession_number": "",
+                    "description": "RNAscope images for the SARS-CoV-2 S gene for sample 2C.",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://figshare.com/articles/figure/RNAscope_image_for_SARS-CoV-2_S_gene_from_Sample_2/19351781"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "FigShare",
+                    "accession_number": "",
+                    "description": "RNAscope images for the SARS-CoV-2 S gene for sample 3C.",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://figshare.com/articles/figure/RNAscope_image_for_SARS-CoV-2_S_gene_from_Sample_3/19351784"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "FigShare",
+                    "accession_number": "",
+                    "description": "RNAscope images for the SARS-CoV-2 S gene for sample 4nC.",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://figshare.com/articles/figure/RNAscope_image_for_SARS-CoV-2_S_gene_from_Sample_4/19351787"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "FigShare",
+                    "accession_number": "",
+                    "description": "RNAscope images for the SARS-CoV-2 S gene for sample 5nC.",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://figshare.com/articles/figure/RNAscope_image_for_SARS-CoV-2_S_gene_from_Sample_5/19351796"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "FigShare",
+                    "accession_number": "",
+                    "description": "Deconvolution results as an R object",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://figshare.com/articles/dataset/Analysed_R_object_with_deconvolution_results/22436074"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "Zenodo",
+                    "accession_number": "",
+                    "description": "All RNAScope images for the SARS-CoV-2 S gene probe, positive control probe, and negative control probe.",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://zenodo.org/records/8039011"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "Github",
+                    "accession_number": "",
+                    "description": "Scripts to generate the count matrices and all related R scripts used in the clustering, differential expression, colocalization analysis, and the program for the computational validation.",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://github.com/giacomellolab/DualST_Study"
+                },
+                {
+                    "type": "code",
+                    "repo_name": "Zenodo",
+                    "accession_number": "",
+                    "description": "Scripts to generate the count matrices and all related R scripts used in the clustering, differential expression, colocalization analysis, and the program for the computational validation.",
+                    "data_type": [
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://zenodo.org/records/8314652"
+                }
+            ],
+            "title": "Dual spatially resolved transcriptomics for human host–pathogen colocalization studies in FFPE tissue sections",
+            "issue": "1",
+            "volume": "24",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2023-10-19",
+            "author": [
+                "Sounart H.",
+                "Lázár E.",
+                "Masarapu Y.",
+                "Wu J.",
+                "Várkonyi T."
+            ]
+        },
+        {
+            "doi": "10.1038/s41467-023-42200-x",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "Electron Microscopy Data Bank",
+                    "accession_number": "EMD-15475",
+                    "description": "Structure of the Ancestral Scaffold Antigen-5 of Coronavirus Spike protein (map).",
+                    "data_type": [
+                        "Biochemistry data",
+                        "Protein data"
+                    ],
+                    "data_url": "https://www.ebi.ac.uk/emdb/EMD-15475"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "Electron Microscopy Data Bank",
+                    "accession_number": "EMD-15482",
+                    "description": "Structure of the Ancestral Scaffold Antigen-6 of Coronavirus Spike protein (map).",
+                    "data_type": [
+                        "Biochemistry data",
+                        "Protein data"
+                    ],
+                    "data_url": "https://www.ebi.ac.uk/emdb/EMD-15482"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "Protein Data Bank",
+                    "accession_number": "8AJA",
+                    "description": "Structure of the Ancestral Scaffold Antigen-5 of Coronavirus Spike protein (atomic coordinates).",
+                    "data_type": [
+                        "Biochemistry data",
+                        "Protein data"
+                    ],
+                    "data_url": "https://www.rcsb.org/structure/8AJA"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "Protein Data Bank",
+                    "accession_number": "8AJL",
+                    "description": "Structure of the Ancestral Scaffold Antigen-6 of Coronavirus Spike protein (atomic coordinates).",
+                    "data_type": [
+                        "Biochemistry data",
+                        "Protein data"
+                    ],
+                    "data_url": "https://www.rcsb.org/structure/8AJL"
+                }
+            ],
+            "title": "Design, structure and plasma binding of ancestral β-CoV scaffold antigens",
+            "issue": "1",
+            "volume": "14",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2023-10-16",
+            "author": [
+                "Hueting D.",
+                "Schriever K.",
+                "Sun R.",
+                "Vlachiotis S.",
+                "Zuo F."
+            ]
+        },
+        {
+            "doi": "10.1093/biomethods/bpad021",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "Protein Model Database",
+                    "accession_number": "PM0084589",
+                    "description": "The designed vaccine structure for Vacdeltm.",
+                    "data_type": [
+                        "Protein data"
+                    ],
+                    "data_url": "http://srv00.recas.ba.infn.it/PMDB/zip_model.php?target=9367"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "Protein Model Database",
+                    "accession_number": "PM0084590",
+                    "description": "The designed vaccine structure for VacFL.",
+                    "data_type": [
+                        "Protein data"
+                    ],
+                    "data_url": "http://srv00.recas.ba.infn.it/PMDB/zip_model.php?target=9368"
+                }
+            ],
+            "title": "De novo design of anti-variant COVID-19 vaccine",
+            "issue": "1",
+            "volume": "8",
+            "publisher": "Oxford University Press (OUP)",
+            "published": "2023-09-23",
+            "author": [
+                "Goswami A.",
+                "Kumar M.",
+                "Ullah S.",
+                "Gore M. M."
+            ]
+        },
         {
             "doi": "10.1101/2023.07.05.23292245",
             "available_items": [
