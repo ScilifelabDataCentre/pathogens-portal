@@ -1,6 +1,6 @@
 ---
 title: New dashboard showing SARS-CoV-2 sequences in Uppsala
-date: 2023-11-02
+date: 2023-11-06
 summary: Today we are launching a new dashboard showing information on the SARS-CoV-2 sequences detected during surveillance efforts by the section for Clinical Microbiology and Hospital Hygiene at Uppsala University Hospital.
 banner: /updates/banners/nanopore_seq_cropped.jpg
 banner_caption: Sequencing instrument at Uppsala University Hosipital showing ongoing runs.
