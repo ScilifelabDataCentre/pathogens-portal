@@ -1,0 +1,84 @@
+{{/*
+  This is Schema partial, which generates relavant schema for individual pages.
+  The relavance is curated in the if block, typically it sets the schema type.  
+*/}}
+
+{{/* Default values */}}
+{{ $type := "WebPage" }}
+{{ $name := .Site.Title }}
+{{ $description := .Site.Params.description }}
+{{ $image := index .Site.Params.Images 0 | absURL }}
+{{ $keywords := slice "Swedish portal" "Pathogens" "Influenza" "Mpox" "COVID-19" "coronavirus" "SARS-CoV-2" "Covid19 data portal" "Antibiotic resistance" "Enteric viruses" "Infectious diseases" "Pandemic" }}
+
+{{ $currentPage := path.Split (path.Clean .RelPermalink) }}
+
+{{/* Determine page type */}}
+{{ $isHomePage := .IsHome }}
+{{ $isSingleEditorialPage := and (eq $currentPage.Dir "/editorials/") ($currentPage.File) }}
+{{ $isSingleHighlightPage := and (eq $currentPage.Dir "/highlights/") ($currentPage.File) }}
+{{ $isHighlitsPage := and (strings.HasPrefix .RelPermalink "/highlights") (not $isSingleHighlightPage) }}
+{{ $isDatasetsPage := strings.HasPrefix .RelPermalink "/datasets" }}
+{{ $isDashboardsPage := strings.HasPrefix .RelPermalink "/dashboards" }}
+
+{{/* Overwrite page specific values */}}
+{{ if $isHomePage }}
+  {{ $type = "WebSite" }}
+{{ else if $isSingleEditorialPage }}
+  {{ $type = "Article" }}
+{{ else if $isSingleHighlightPage }}
+  {{ $type = "Dataset" }}
+{{ else if $isHighlitsPage }}
+  {{ $type = "DataCatalog" }}
+{{ else if $isDatasetsPage }}
+  {{ $type = "DataCatalog" }}
+  {{ $keywords = slice "Biochemistry data" "Drug discovery data" "Genomics & transcriptomics data" "Health data" "Imaging data" "Other data" "Protein data" "Public health data" "Serology data" "Social science and humanities data" }}
+{{ else if $isDashboardsPage }}
+  {{ $keywords = slice "Swedish portal" "datagraph" "visualisation" "postcovid" "wastewater" "vaccine stat" }}
+{{ end }}
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "{{ $type }}",
+    "@id": "{{ .Permalink }}",
+    "url": "{{ .Permalink }}",
+    "name": "{{ if .Title }}{{ .Title }}{{ else }}{{ $name }}{{ end }}",
+    "image": "{{ if .Params.banner }}{{ .Params.banner | absURL }}{{ else }}{{ $image }}{{ end }}",
+    "description": {{ if .Params.summary }}{{ .Params.summary }}{{ else }}{{ $description }}{{ end }},
+    "keywords": {{ if .Params.tags }}{{ .Params.tags }}{{ else }}{{ $keywords }}{{ end }},
+    "about": {
+      "@type": "WebPage",
+      "name": "About the Swedish Pathogens Portal",
+      "url": "{{ "/about" | absURL }}"
+    }
+    {{- if $isSingleEditorialPage -}}
+    {{- with .Params.editorials_authors -}},
+    {{- $authorsList := . }}
+    "author": [
+      {{ range $ind, $author := $authorsList -}}
+      {
+        "@type": "Person",
+        "name": {{ $author }}
+      }{{- if ne (add $ind 1) ($authorsList | len) -}},{{- end -}}
+      {{ end }}
+    ]
+    {{- end -}}
+    {{- end -}}
+    {{- if not (eq $type "Dataset") -}},
+    "creator": {
+        "@type": "Organization",
+        "@id": "https://www.scilifelab.se/",
+        "name": "SciLifeLab",
+        "address": "SciLifeLab, Tomtebodavägen 23, 171 65 Solna",
+        "email": "info@scilifelab.se",
+        "url": "https://www.scilifelab.se/",
+        "description": "Science for Life Laboratory (SciLifeLab), is an institution for the advancement of molecular biosciences in Sweden. We are funded as a national research infrastructure by the Swedish government."
+    }
+    {{- else if $isSingleHighlightPage -}},
+    "includedInDataCatalog": {
+      "@id": "{{ .Parent.Permalink }}",
+      "@type": "DataCatalog"
+    }
+    {{- end }}
+  }
+</script>

@@ -3,7 +3,7 @@ title: "The Swedish Pathogens Portal"
 buildFuture: true
 params:
   title: "The Swedish Pathogens Portal"
-  description: The Swedish Pathogens Portal
+  description: "The Swedish Pathogens Portal provides information about available datasets, resources, tools, and services related to pandemic preparedness in Sweden. We offer support to all those involved in pandemic preparedness research that are affiliated with a Swedish research institution or university."
   images:
     - /img/swe_pathogens_social_media.png
 

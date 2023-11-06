@@ -142,4 +142,8 @@
  </script>
   {{ end }}
 
+{{ if eq hugo.Environment "production" }}
+<!-- Schema.org data -->
+{{ partial "schema.html" . }}
+{{ end }}
 </head>
