@@ -45,7 +45,7 @@ Vänligen se [avsnittet med sammanfattande information om virusen](#grundläggan
 
 ## Kommentarer från forsksargruppen
 
-<div><b>Date:</b> 2023-11-08<span id="gu_enteric_comment_date"></span><br><b>Commentary:</b> 
+<div><b>Date:</b> 2023-11-08<span id="gu_enteric_comment_date"></span><br><b>Commentary:</b>
 Three weeks after the schools started in Gothenburg, the levels of enterovirus increased in the wastewater. Enterovirus often peaks in late summer and early autumn, and outbreaks of rhinovirus and enterovirus especially infect young people.
 
 None of the other investigated viruses have caused major outbreaks until now.
