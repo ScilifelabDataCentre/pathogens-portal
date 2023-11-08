@@ -68,7 +68,9 @@ The amount of pepper mild mottle virus (PMMoV) has varied more than 10-fold duri
 
 ###### **Nedladdning av data:**
 
-[Kvantifiering av mängd SARS-CoV-2 och enteriska virus i avloppsvatten](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx). Results för SARS-CoV-2 mätningar är tillgängliga från vecka 7 2020 (med ett avbrott vintern 2022-2023), och för enteriska virus från vecka 2 2023. Uppdatering sker varje vecka.
+[Kvantifiering av mängd SARS-CoV-2 och enteriska virus i avloppsvatten](/ww_data_temp/wastewater_data_gu_allviruses.xlsx). Results för SARS-CoV-2 mätningar är tillgängliga från vecka 7 2020 (med ett avbrott vintern 2022-2023), och för enteriska virus från vecka 2 2023. Uppdatering sker varje vecka.
+
+<!-- https://blobserver.dckube.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx -->
 
 **Kontakt:** <helene.norder@gu.se>
 
