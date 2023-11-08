@@ -28,7 +28,7 @@ Data och visualiseringar på denna sida kommer att uppdateras ungefär en gång 
 
 Avloppsvattenprover för virusanalys samlas in vid Ryaverkets avloppsreningsverk i Göteborg (se metodavsnittet nedan för detaljer). Ryaverkets reningsverk tar emot avloppsvatten från samtliga hushåll i Göteborg, vilket omfattar 790 000 invånare, samt industrin i området. Avloppsvatten tas även emot från industri och boende i kringliggande kommuner, bland annat Ale, Härryda, Kungälv, Lerum, Mölndal och Partille, samt från storm- och snösmältvatten från äldre delar av Göteborg.
 
-<div class="alert alert-info">Last updated: <span id="last_modified_enteric"></span></div>
+<div class="alert alert-info">Last updated: 2023-11-08 <span id="last_modified_enteric"></span></div>
 
 Vänligen se [avsnittet med sammanfattande information om virusen](#grundläggande-virusinformation) för mer information om vart och ett av de virus som data samlas in för.
 
@@ -37,14 +37,29 @@ Vänligen se [avsnittet med sammanfattande information om virusen](#grundläggan
 </div>
 
  <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/enteric_graph_gu.json" height="550px" >}}</div>
+  <!-- <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/enteric_graph_gu.json" height="550px" >}}</div> -->
+    <div class="table-responsive">{{< plotly json="/img/enteric_graph_gu.json" height="550px" >}}</div>
 </div>
 
 **Källkod som avvänts för att generera visualiseringar:** [Källskod](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/enteric_viruses_gu.py).
 
 ## Kommentarer från forsksargruppen
 
-<div><b>Date:</b> <span id="gu_enteric_comment_date"></span><br><b>Commentary:</b> <span id="gu_enteric_comment"></span></div>
+<div><b>Date:</b> 2023-11-08<span id="gu_enteric_comment_date"></span><br><b>Commentary:</b> 
+Three weeks after the schools started in Gothenburg, the levels of enterovirus increased in the wastewater. Enterovirus often peaks in late summer and early autumn, and outbreaks of rhinovirus and enterovirus especially infect young people.
+
+None of the other investigated viruses have caused major outbreaks until now.
+
+In February we had a minor increase in norovirus GG2 (winter vomiting disease virus) a little earlier than usual and it decreased by week 11. Some minor increases also occurred in late May, but no major outbreak was observed.
+
+For astrovirus there was a small outbreak in weeks 9 and 10 (end of February and start of March). A slightly increase is now observed as expected.
+
+Sapovirus peaked slightly in week 14 (early April).
+
+Adenovirus peaked slightly in week 10, no additional increase has been observed. From week 22 we have improved the technology's sensitivity for adenovirus detection, which means that the baseline for adenovirus detection is elevated. During summer (from June to the beginning of August), Adenovirus showed an increase during weeks 26 to 32.
+
+The amount of pepper mild mottle virus (PMMoV) has varied more than 10-fold during the year. This virus is often used as an indicator of fecal contamination of water. In commercial assays for SARS-CoV-2 detection, quantification of PMMoV is used as an indicator of the number of people contributing to the wastewater, assuming we consume the same amount of peppers and chilies every week. It increased in early June and around midsummer, indicating an increase in our pepper consumption during those weeks rather than an increase in the number of people contributing to the wastewater during those weeks.
+<span id="gu_enteric_comment"></span></div>
 
 {{< ww_dynamic_content >}}
 <br>

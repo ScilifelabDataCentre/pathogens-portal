@@ -21,7 +21,7 @@ This dashboard includes two visualisations of the data from the section for Clin
 
 ## SARS-CoV-2 Sequence Visualisations
 
-<div class="alert alert-info">Last updated: <span id="last_modified_uuclinmicro"></span></div>
+<div class="alert alert-info">Last updated: 2023-11-06 <span id="last_modified_uuclinmicro"></span></div>
 
 The sequences are presented according to their [World Health Organisation (WHO) label](https://www.who.int/activities/tracking-SARS-CoV-2-variants) (a greek letter) and/or their Pango lineage. The Pango lineage is determined using [Pangolin](https://cov-lineages.org/resources/pangolin.html), [Nextclade](https://clades.nextstrain.org/), and an in-house annotation-based mutation analysis workflow.
 
@@ -36,7 +36,8 @@ Use the **‘Last 16 weeks’ button** to see data only from the last 16 weeks, 
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/lineage_four_recent.json" height="600px" >}}</div>
+  <div class="table-responsive">{{< plotly json="/img/lineage_four_recent.json" height="600px" >}}</div>
+  <!-- <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/lineage_four_recent.json" height="600px" >}}</div> -->
 </div>
 
 **Code used to produce plots:** [Graph and data preparation script](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/ClinMicro/lineage_four_recent.py).
@@ -52,7 +53,8 @@ Use the **’Deselect all lineages’ button** to clear data from all lineages f
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/lineage_one_wholetime.json" height="600px" >}}</div>
+  <!-- <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/lineage_one_wholetime.json" height="600px" >}}</div> -->
+    <div class="table-responsive">{{< plotly json="/img/lineage_one_wholetime.json" height="600px" >}}</div>
 </div>
 
 **Code used to produce plots:** [Graph and data preparation script](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/ClinMicro/lineage_one_plot.py).

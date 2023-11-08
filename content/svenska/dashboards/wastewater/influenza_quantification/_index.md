@@ -16,17 +16,17 @@ Data som presenteras på denna sida genereras i Sveriges lantbruksuniversitets (
 
 Data och visualiseringar på den här sidan uppdateras vanligtvis veckovis, oftast på fredagar. Notera att de poäng som tillhandahålls i datasetet och som visas i grafen nedan är preliminära, så korrigeringar och ändringar kan förekomma. Data och information om gruppen på den här dashboarden uppdateras kontinuerligt.
 
-## Insamlingsplatser för avloppsvatten
+<!-- ## Insamlingsplatser för avloppsvatten
 
 SLU-SEEC samlar in och analyserar prover för kvantifiering av nivåerna av influensa A- och influensa B-virus från ett flertal orter. Nedan visas en tabell med detaljerad information om alla insamlingsplatser. Tabellen listar orter som övervakas, avloppsreningsverk (WWTP) där proverna samlas in, antal personer i upptagningsområdet (Number of people), mellan vilka datum SLU-SEEC mätningarna skett (Start date och End date). Notera att 'Start date' avser det datum då övervakning av influensa A startade, men att startdatumet för influensa B alltid är senare. Ett värde ’null’ istället för slutdatum innebär att insamlingen fortfarande pågår. En asterisk (\*) bredvid antal invånare innebär att värdet är uppskattat baserat på hur många invånare som reningsverket betjänar (BOD-7). Två asterisker (\*\*) bredvid staden/staden indikerar att data endast är tillgänglig för influensa A, och inte influensa B. Informationen i tabellen nedan är [tillgänglig för nedladdning som en excel-fil](https://blobserver.dc.scilifelab.se/blob/SLU_INF_collection_sites.xlsx).
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_sluINFsites.json" height="750px" >}}</div>
-</div>
+</div> -->
 
 ## Visualiseringar
 
-<div class="alert alert-info">Last updated: <span id="last_modified_slu_flu"></span></div>
+<div class="alert alert-info">Last updated: 2023-11-08<span id="last_modified_slu_flu"></span></div>
 
 **Notera** att även om samma metoder används för alla städer som visas på den här fliken, kan skillnader i befolkningen och hur avloppsvatten samlas in i olika städer påverka jämförelser dem emellan.
 
@@ -37,7 +37,8 @@ SLU-SEEC samlar in och analyserar prover för kvantifiering av nivåerna av infl
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infA.json" height="600px" >}}</div>
+  <!-- <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infA.json" height="600px" >}}</div> -->
+  <div class="table-responsive">{{< plotly json="/img/wastewater_slu_infA.json" height="600px" >}}</div>
 </div>
 
 **Källkod som används för att skapa grafen:** [Källkod](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_slu_influenza_a.py).
@@ -49,7 +50,8 @@ SLU-SEEC samlar in och analyserar prover för kvantifiering av nivåerna av infl
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infB.json" height="600px" >}}</div>
+  <!-- <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infB.json" height="600px" >}}</div> -->
+    <div class="table-responsive">{{< plotly json="/img/wastewater_slu_infB.json" height="600px" >}}</div>
 </div>
 
 **Källkod som används för att skapa grafen:** [Källkod](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_slu_influenza_b.py).
