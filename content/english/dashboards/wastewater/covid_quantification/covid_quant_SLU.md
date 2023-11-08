@@ -20,17 +20,17 @@ The data presented on this page is generated in the SLU (Swedish University of A
 
 The data and visualisation on this page are usually updated weekly, typically on Fridays. Please note that the scores provided in the dataset and depicted in plot below are preliminary, so corrections and changes may occur. Data and information about the group on this dashboard are updated frequently, so please check back regularly to stay up to date.
 
-## Wastewater collection sites
+<!-- ## Wastewater collection sites
 
 SLU-SEEC collects and analyses samples for SARS-CoV-2 from multiple areas. The below table shows details about each of these sites. The table lists the towns/cities monitored, wastewater treatment plants (WWTP) that samples were collected from, the number of people in the catchment area (Number of people), and the dates that monitoring by SLU-SEEC started and ended monitoring (Start and End date, respectively). A value of 'null' for the end date indicates that collection is ongoing. An asterisk (\*) next to the number of people indicates that the value is a BOD-7 value (an estimate of the people connected), rather than the number of people physically connected to each WWTP. The information in the below table is [available for download as an excel file](https://blobserver.dc.scilifelab.se/blob/SLU_COVID_collection_sites.xlsx).
 
   <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_sluCOVIDsites.json" height="825px" >}}</div>
-</div>
+</div> -->
 
 ## Visualisations
 
-<div class="alert alert-info">Last updated: <span id="last_modified_uppsala"></span></div>
+<div class="alert alert-info">Last updated: 2023-11-08 <span id="last_modified_uppsala"></span></div>
 
 <b>Important note:</b> Historical data for Ekerö, Enköping, Knivsta, Tierp, Vaxholm, Älvkarleby, and Österåker are available in the dataset (linked below). However, they are no longer included in the visualisation.
 
@@ -70,7 +70,8 @@ Please note that although the same methods are used for all cities shown on this
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="600px" >}}</div>
+  <div class="table-responsive">{{< plotly json="/img/wastewater_combined_slu_regular.json" height="800px" >}}</div>
+  <!-- <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="600px" >}}</div> -->
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_slu_regular.py).
@@ -89,7 +90,9 @@ The group provide reports to summarise their latest findings. The latest report 
 
 **Contact:** <anna.szekely@slu.se> and <javier.vargas@slu.se>
 
-**Download the data:** [Respiratory virus gene copy numbers normalised per PMMoV gene copy number.CSV file.](https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data.csv). Data are available from week 38 of 2020; updated weekly.
+**Download the data:** [Respiratory virus gene copy numbers normalised per PMMoV gene copy number.CSV file.](/ww_data_temp/SLU_wastewater_data.csv). Data are available from week 38 of 2020; updated weekly.
+
+<!-- https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data.csv -->
 
 **How to cite the dataset:**
 
@@ -105,7 +108,7 @@ For most cities represented on this page, raw, untreated wastewater samples that
 
 The freshly collected samples are processed according to standard methodologies. For samples collected up to and including week 18 of 2021, viral particles were concentrated using the electronegative filtration method ([Ahmed _et al._, 2020](https://www.sciencedirect.com/science/article/pii/S004896972033480X)). Since week 19 of 2021, the viral genomic material has instead been concentrated and extracted by the direct capture method, using the Maxwell RSC Enviro TNA kit (Promega).
 
-Absolute quantification of the copy numbers of the SARS-CoV-2 genome is performed using One-Step RT-qPCR. Until week 31 of 2023 the quantification of the viral genomes was performed using the [SARS-CoV-2 specific N1 assay from the Centers for Disease Control and Prevention (CDC)](https://www.fda.gov/media/134922/download). From week 32 of 2023 quantification is performed using the Flu SC2 Multiplex Assay (CDC). To correct for variations in population size and wastewater flow, the pepper mild mottle virus (PMMoV) is quantified using a modified version of the assay of [Zhang _et al._ (2006)](https://doi.org/10.1371/journal.pbio.0040003). PMMoV is an abundant RNA virus in human faeces and serves as an estimator of human faecal content ([Symonds _et al._, 2019](https://doi.org/10.1371/journal.ppat.1007639)). For more details about the sample processing method, and the evaluation of the use of the PMMoV normalisation method for Swedish wastewater, please refer to the corresponding publication: [Isaksson _et al._ (2022)](https://www.mdpi.com/2076-3298/9/3/39).
+Absolute quantification of the copy numbers of the SARS-CoV-2 genome is performed using One-Step RT-qPCR. Until week 31 of 2023 the quantification of the viral genomes was performed using the [SARS-CoV-2 specific N1 assay from the Centers for Disease Control and Prevention (CDC)](https://www.fda.gov/media/134922/download). From week 32 of 2023 quantification is performed using the Flu SC2 Multiplex Assay (CDC). To correct for variations in population size and wastewater flow, the pepper mild mottle virus (PMMoV) is quantified using a modified version of the assay of [Zhang _et al._ (2006)](https://doi.org/10.1371/journal.pbio.0040003). PMMoV is an abundant RNA virus in human faeces and serves as an estimator of human faecal content ([Symonds _et al._, 2019](https://doi.org/10.1371/journal.ppat.1007639)). For more details about the sample processing method, and the evaluation of the use of the PMMoV normalisation method for Swedish wastewater, please refer to the corresponding publication: [Isaksson _et al._ (2022)](https://www.mdpi.com/2076-3298/9/3/39).
 
 The data in the graph and datafile represent the ratio of the copy numbers measured by the Flu SC2 Multiplex Assay and PMMoV-assays, multiplied by 1000. As the Flu SC2 Multiplex Assay provides a proxy for SARS-CoV-2 virus content in the wastewater and PMMoV is a proxy of the faecal content (which is related to the contributing population), the ratio of the two can be considered to be a proxy for the prevalence of COVID-19 infections in the population of the wastewater catchment area. To align the data generated by the current method with the data generated by methods and quantification assays used earlier, older data has been transformed using conversion factors. The conversion factors are estimated based on common alignment periods when old and new methods are used in parallel.
 

@@ -58,14 +58,15 @@ Ingående avloppsvattenprover insamlas från Ryaverkets avloppsreningsverk (eng.
 </div>
 
  <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_gothenburg.json" height="550px" >}}</div>
+  <div class="table-responsive">{{< plotly json="/img/wastewater_gothenburg.json" height="550px" >}}</div>
+  <!-- <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_gothenburg.json" height="550px" >}}</div> -->
 </div>
 
 **Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/gothenburg_covid.py).
 
 ## Kommentarer från forskargruppen
 
-<div><b>Datum:</b> <span id="gu_comment_date"></span><br><b>Kommentar:</b> <span id="gu_comment"></span></div>
+<div><b>Datum: 2023-11-08</b> <span id="gu_comment_date"></span><br><b>Kommentar: There are still low amounts of SARS-CoV-2 in Gothenburg's wastewater. However, there was a small increase in weeks 41, 42, and 43 but there are still low levels.</b> <span
 
 {{< ww_dynamic_content >}}
 

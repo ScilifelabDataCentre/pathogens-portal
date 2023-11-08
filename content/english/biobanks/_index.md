@@ -1,22 +1,22 @@
 ---
 title: Swedish COVID-19 Sample Collection Database
 menu:
-    homepage_biobanks:
-        name: Sample Collection Database
-        identifier: biobanks
-        post: Registry of Swedish biobanks and sample collections for COVID-19 research. <a href="/biobanks/">About the database <i class="bi bi-arrow-right-circle-fill"></i></a>
+  homepage_biobanks:
+    name: Sample Collection Database
+    identifier: biobanks
+    post: Registry of Swedish biobanks and sample collections for COVID-19 research. <a href="/biobanks/">About the database <i class="bi bi-arrow-right-circle-fill"></i></a>
 toc: false
 ---
 
 ### About the Swedish COVID-19 Sample Collection Database
 
-The [Swedish COVID-19 Sample Collection Database](https://biobanks.covid19dataportal.se/) is a tool for researchers wishing to make use of samples and data stored in various biobanks across Sweden in their research. The database allows to find sample collections matching their needs using various filters. The filter searches include: sample collection name, keywords, diagnosis, available sample types (e.g., nasal swabs, DNA, saliva, whole blood, RNA, etc.), sample collection type (healthcare sample collections or research sample collections) and data types (e.g., data about biological material and medical records). For each collection, a short description, donor information, sample information as well as contact information for sample requests are provided.
+The [Swedish COVID-19 Sample Collection Database](https://biobanks.pathogens.se/) is a tool for researchers wishing to make use of samples and data stored in various biobanks across Sweden in their research. The database allows to find sample collections matching their needs using various filters. The filter searches include: sample collection name, keywords, diagnosis, available sample types (e.g., nasal swabs, DNA, saliva, whole blood, RNA, etc.), sample collection type (healthcare sample collections or research sample collections) and data types (e.g., data about biological material and medical records). For each collection, a short description, donor information, sample information as well as contact information for sample requests are provided.
 
-Both the so-called *healthcare sample collections* and *research sample collections* are listed in the database. Healthcare sample collections are intended for diagnostics, treatment, and healthcare use but can be made available if a corresponding ethical approval from the Swedish Ethical Review Authority has been obtained. In case of the research sample collections, the responsible researcher has the right of disposal to the sample collection, and requests should be made directly to collection head (the new research study needs to either fall under the original ethics research approval or a new one will need to be obtained).
+Both the so-called _healthcare sample collections_ and _research sample collections_ are listed in the database. Healthcare sample collections are intended for diagnostics, treatment, and healthcare use but can be made available if a corresponding ethical approval from the Swedish Ethical Review Authority has been obtained. In case of the research sample collections, the responsible researcher has the right of disposal to the sample collection, and requests should be made directly to collection head (the new research study needs to either fall under the original ethics research approval or a new one will need to be obtained).
 
 As of May 2023, the Sample Collection Database contains information about **36 sample collections** from **18 different biobanks, as well as one national collection**. The database is gradually expanded as information about new sample collections and biobanks is submitted.
 
-<span style="font-size:1.3em;"><b><a href="https://biobanks.covid19dataportal.se/">Search in the COVID-19 Sample Collection Database <i class="bi bi-arrow-right-circle-fill"></i> </a></b></span>
+<span style="font-size:1.3em;"><b><a href="https://biobanks.pathogens.se/">Search in the COVID-19 Sample Collection Database <i class="bi bi-arrow-right-circle-fill"></i> </a></b></span>
 
 ### Submit information about sample collections
 
@@ -28,8 +28,8 @@ The Swedish COVID-19 Sample Collection Database is operated in collaboration wit
 
 <div class="row">
   <div class="col">
-    <img class="mr-4" src="https://covid19dataportal.se/img/logos/scilifelab-logo.svg" alt="SciLifeLab" height="40">
-    <img class="mr-4" src="https://covid19dataportal.se/img/logos/biobanksverige_logo.jpg" alt="Biobank Sverige" height="40">
+    <img class="mr-4" src="https://pathogens.se/img/logos/scilifelab-logo.svg" alt="SciLifeLab" height="40">
+    <img class="mr-4" src="https://pathogens.se/img/logos/biobanksverige_logo.jpg" alt="Biobank Sverige" height="40">
   </div>
 </div>
 
