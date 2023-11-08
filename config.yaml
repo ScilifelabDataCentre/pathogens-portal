@@ -68,7 +68,7 @@ languages:
     languageName: Svenska
     contentDir: content/svenska
     weight: 2
-    description: Svenska Pathogens Portalen
+    description: "Den Patogens Portal Sverige tillhandahåller information, riktlinjer, verktyg och tjänster för att stödja forskare vid svenska lärosäten verksamma inom forskningsfältet pandemisk beredskap med datarelaterade frågor."
 
 markup:
   goldmark:

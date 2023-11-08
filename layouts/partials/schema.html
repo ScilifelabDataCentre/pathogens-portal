@@ -6,7 +6,7 @@
 {{/* Default values */}}
 {{ $type := "WebPage" }}
 {{ $name := .Site.Title }}
-{{ $description := .Site.Params.description }}
+{{ $description := (or .Params.description .Params.summary .Site.Params.description) }}
 {{ $image := index .Site.Params.Images 0 | absURL }}
 {{ $keywords := slice "Swedish portal" "Pathogens" "Influenza" "Mpox" "COVID-19" "coronavirus" "SARS-CoV-2" "Covid19 data portal" "Antibiotic resistance" "Enteric viruses" "Infectious diseases" "Pandemic" "Pandemic preparedness" "Pathogens portal" "Pandemic Laboratory Preparedness" }}
 
@@ -18,7 +18,8 @@
 {{ $isSingleHighlightPage := and (eq $currentPage.Dir "/highlights/") ($currentPage.File) }}
 {{ $isHighlitsPage := and (strings.HasPrefix .RelPermalink "/highlights") (not $isSingleHighlightPage) }}
 {{ $isDatasetsPage := strings.HasPrefix .RelPermalink "/datasets" }}
-{{ $isDashboardsPage := strings.HasPrefix .RelPermalink "/dashboards" }}
+{{ $isDashboardsPage := strings.HasSuffix .RelPermalink "/dashboards/" }}
+{{ $isSingleDashboardPage := and (in (slice "/dashboards/" "/sv/dashboards/") $currentPage.Dir) ($currentPage.File) }}
 
 {{/* Overwrite page specific values */}}
 {{ if $isHomePage }}
@@ -32,7 +33,8 @@
 {{ else if $isDatasetsPage }}
   {{ $type = "DataCatalog" }}
   {{ $keywords = slice "Biochemistry data" "Drug discovery data" "Genomics & transcriptomics data" "Health data" "Imaging data" "Other data" "Protein data" "Public health data" "Serology data" "Social science and humanities data" }}
-{{ else if $isDashboardsPage }}
+{{ else if (or $isDashboardsPage $isSingleDashboardPage) }}
+  {{ $type = cond (not (eq $isSingleDashboardPage false)) "Dataset" "DataCatalog" }}
   {{ $keywords = slice "Swedish portal" "datagraph" "visualisation" "postcovid" "wastewater" "vaccine stat" "wastewater epidemiology" "publications" "dashboard" "registry data" "vaccination" "serology" "clinical microbiology" "sequence" "whole genome sequencing" "SARS-CoV-2" "COVID-19" "influenza" "enteric virus" }}
 {{ end }}
 
@@ -44,12 +46,17 @@
     "url": "{{ .Permalink }}",
     "name": "{{ if .Title }}{{ .Title }}{{ else }}{{ $name }}{{ end }}",
     "image": "{{ if .Params.banner }}{{ .Params.banner | absURL }}{{ else }}{{ $image }}{{ end }}",
-    "description": {{ if .Params.summary }}{{ .Params.summary }}{{ else }}{{ $description }}{{ end }},
+    "description": {{ $description }},
     "keywords": {{ if .Params.tags }}{{ .Params.tags }}{{ else }}{{ $keywords }}{{ end }},
     "about": {
       "@type": "WebPage",
+      {{ if eq .Language.Lang "en" -}}
       "name": "About the Swedish Pathogens Portal",
       "url": "{{ "/about" | absURL }}"
+      {{- else -}}
+      "name": "Om Svenska Pathogens Portalen",
+      "url": "{{ "/sv/about" | absURL }}"
+      {{- end }}
     }
     {{- if $isSingleEditorialPage -}}
     {{- with .Params.editorials_authors -}},
@@ -74,7 +81,7 @@
         "url": "https://www.scilifelab.se/",
         "description": "Science for Life Laboratory (SciLifeLab), is an institution for the advancement of molecular biosciences in Sweden. We are funded as a national research infrastructure by the Swedish government."
     }
-    {{- else if $isSingleHighlightPage -}},
+    {{- else if eq $type "Dataset" -}},
     "includedInDataCatalog": {
       "@id": "{{ .Parent.Permalink }}",
       "@type": "DataCatalog"
