@@ -29,7 +29,8 @@ EPN Nr 2020-01800, 2020-05829, 2021-00267, 2021-00829, 2021-02106, 2021-04098, 2
 
 ## Data visualisations
 
-<div class="alert alert-info">All data last updated: {{% RECOVAC_date_modified %}}</div>
+<!-- <div class="alert alert-info">All data last updated: {{% RECOVAC_date_modified %}}</div> -->
+<div class="alert alert-info">All data last updated: 08-11-2023</div>
 
 _All code used to produce the visualisations on this page is available on [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/RECOVAC). The particular scripts used in each case are linked below the plots._
 
@@ -94,11 +95,14 @@ When hovering over the plot with the cursor, additional grey icons appear in the
 </div>
 
 <div class="d-md-none alert alert-info">
-  Att rotera mobiltelefonen kan förbättra grafens layout
+  Rotating your phone may improve graph layout
 </div>
 
-<div class="plot_wrapper mb-3">
+<!-- <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/swedishpop_subplot_button.json" height="800px" >}}</div>
+</div> -->
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="/img/swedishpop_subplot_button.json" height="800px" >}}</div>
 </div>
 
 **Code used to produce plots:** [Preparation for vaccine coverage data](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/Swedishpop_vaccinecov_dataprep.py), [Graph of vaccine coverage](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/Swedishpop_vaccinecov_plotwbuttons.py), [Graph and data preparation for ICU admissions data](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/Swedishpop_ICU_plotwbuttons.py).
@@ -148,11 +152,12 @@ When hovering over the plot with the cursor, additional grey icons appear in the
 </div>
 
 <div class="d-md-none alert alert-info">
-  Att rotera mobiltelefonen kan förbättra grafens layout
+  Rotating your phone may improve graph layout
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/comorbs_subplot_button.json" height="800px" >}}</div>
+  <div class="table-responsive">{{< plotly json="/img/comorbs_subplot_button.json" height="800px" >}}</div>
+    <!-- <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/comorbs_subplot_button.json" height="800px" >}}</div> -->
 </div>
 
 **Code used to produce plots:** [Preparation of COVID-19 case data](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/comorbidity_cases_dataprep.py), [Preparation of vaccination coverage data](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/comorbidity_vaccinecov_dataprep.py), [Graph containing subplots](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/comorbidity_subplots_wbuttons.py).
