@@ -39,7 +39,7 @@ Please see [the section with summary information about the viruses](#basic-virus
 </div>
 
  <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="/img/enteric_graph_gu.json" height="550px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://raw.githubusercontent.com/ScilifelabDataCentre/covid-portal/develop/static/img/enteric_graph_gu.json" height="550px" >}}</div>
     <!-- <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/enteric_graph_gu.json" height="550px" >}}</div> -->
 </div>
 
@@ -72,7 +72,7 @@ The amount of pepper mild mottle virus (PMMoV) has varied more than 10-fold duri
 
 ###### **Download the data:**
 
-[Quantification of SARS-CoV-2 and enteric viruses in wastewater](/ww_data_temp/wastewater_data_gu_allviruses.xlsx). Results are available for SARS-CoV-2 from week 7 of 2020 (with a small gap over winter 2022-2023), and for enteric viruses from week 2 of 2023. Updated weekly.
+[Quantification of SARS-CoV-2 and enteric viruses in wastewater](https://github.com/ScilifelabDataCentre/covid-portal/raw/develop/static/ww_data_temp/wastewater_data_gu_allviruses.xlsx). Results are available for SARS-CoV-2 from week 7 of 2020 (with a small gap over winter 2022-2023), and for enteric viruses from week 2 of 2023. Updated weekly.
 
 <!-- https://blobserver.dckube.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx -->
 
