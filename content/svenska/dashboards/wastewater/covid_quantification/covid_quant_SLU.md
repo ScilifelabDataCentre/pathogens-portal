@@ -69,7 +69,7 @@ Notera också att även om samma metoder används för alla städer som visas p�
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="/img/wastewater_combined_slu_regular.json" height="800px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://raw.githubusercontent.com/ScilifelabDataCentre/covid-portal/develop/static/img/wastewater_combined_slu_regular.json" height="800px" >}}</div>
   <!-- <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="600px" >}}</div> -->
 </div>
 
@@ -89,7 +89,7 @@ Forskargruppen tillhandahåller även en rapport som sammanfattar informationen 
 
 **Kontakt:** <anna.szekely@slu.se> och <javier.vargas@slu.se>
 
-**Ladda ner data:** [Genkopieantal av luftvägsvirus normaliserat mot PMMoV-genkopieantal, CSV fil.](/ww_data_temp/SLU_wastewater_data.csv). Data finns tillgängligt från vecka 38 2020 och uppdateras veckovis.
+**Ladda ner data:** [Genkopieantal av luftvägsvirus normaliserat mot PMMoV-genkopieantal, CSV fil.](https://raw.githubusercontent.com/ScilifelabDataCentre/covid-portal/develop/static/ww_data_temp/SLU_wastewater_data.csv). Data finns tillgängligt från vecka 38 2020 och uppdateras veckovis.
 
 **Citera datasetet:**
 

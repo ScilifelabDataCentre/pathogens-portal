@@ -58,7 +58,7 @@ Ingående avloppsvattenprover insamlas från Ryaverkets avloppsreningsverk (eng.
 </div>
 
  <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="/img/wastewater_gothenburg.json" height="550px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://raw.githubusercontent.com/ScilifelabDataCentre/covid-portal/develop/static/img/wastewater_gothenburg.json" height="550px" >}}</div>
   <!-- <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_gothenburg.json" height="550px" >}}</div> -->
 </div>
 
@@ -66,15 +66,16 @@ Ingående avloppsvattenprover insamlas från Ryaverkets avloppsreningsverk (eng.
 
 ## Kommentarer från forskargruppen
 
-<div><b>Datum: 2023-11-08</b> <span id="gu_comment_date"></span><br><b>Kommentar: There are still low amounts of SARS-CoV-2 in Gothenburg's wastewater. However, there was a small increase in weeks 41, 42, and 43 but there are still low levels.</b> <span
-
+<div><b>Date: 2023-11-08</b> <br><b>Commentary:</b> There are still low amounts of SARS-CoV-2 in Gothenburg's wastewater. However, there was a small increase in weeks 41, 42, and 43 but there are still low levels. </div>
+<!-- <span id="gu_comment_date"></span>
+<span id="gu_comment"></span> -->
 {{< ww_dynamic_content >}}
 
 ## Dataset
 
 **Kontakt:** <helene.norder@gu.se>
 
-**Nedladdning av data:** [Quantification of SARS-CoV-2 and enteric viruses in wastewater](https://blobserver.dc.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx). Resultat finns tillgängliga för mängd SARS-CoV-2 från vecka 7 2020 (ett mindre uppehåll under vintern 2022-2023) , och för enterovirus från vecka 2 2023. Data uppdateras veckovis.\
+**Nedladdning av data:** [Quantification of SARS-CoV-2 and enteric viruses in wastewater](https://github.com/ScilifelabDataCentre/covid-portal/raw/develop/static/ww_data_temp/wastewater_data_gu_allviruses.xlsx). Resultat finns tillgängliga för mängd SARS-CoV-2 från vecka 7 2020 (ett mindre uppehåll under vintern 2022-2023) , och för enterovirus från vecka 2 2023. Data uppdateras veckovis.\
 
 **För att citera datasetet:** Norder, H., Nyström, K. Patzi Churqui, M., Tunovic, T., Wang, H. (2023). Detection of SARS-CoV-2 and other human enteric viruses in wastewater from Gothenburg. [https://doi.org/10.17044/scilifelab.22510501](https://doi.org/10.17044/scilifelab.22510501).
 
