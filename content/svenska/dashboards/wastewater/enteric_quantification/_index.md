@@ -38,7 +38,7 @@ Vänligen se [avsnittet med sammanfattande information om virusen](#grundläggan
 
  <div class="plot_wrapper mb-3">
   <!-- <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/enteric_graph_gu.json" height="550px" >}}</div> -->
-    <div class="table-responsive">{{< plotly json="/img/enteric_graph_gu.json" height="550px" >}}</div>
+    <div class="table-responsive">{{< plotly json="https://raw.githubusercontent.com/ScilifelabDataCentre/covid-portal/develop/static/img/enteric_graph_gu.json" height="550px" >}}</div>
 </div>
 
 **Källkod som avvänts för att generera visualiseringar:** [Källskod](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/enteric_viruses_gu.py).
@@ -68,7 +68,7 @@ The amount of pepper mild mottle virus (PMMoV) has varied more than 10-fold duri
 
 ###### **Nedladdning av data:**
 
-[Kvantifiering av mängd SARS-CoV-2 och enteriska virus i avloppsvatten](/ww_data_temp/wastewater_data_gu_allviruses.xlsx). Results för SARS-CoV-2 mätningar är tillgängliga från vecka 7 2020 (med ett avbrott vintern 2022-2023), och för enteriska virus från vecka 2 2023. Uppdatering sker varje vecka.
+[Kvantifiering av mängd SARS-CoV-2 och enteriska virus i avloppsvatten](https://github.com/ScilifelabDataCentre/covid-portal/raw/develop/static/ww_data_temp/wastewater_data_gu_allviruses.xlsx). Results för SARS-CoV-2 mätningar är tillgängliga från vecka 7 2020 (med ett avbrott vintern 2022-2023), och för enteriska virus från vecka 2 2023. Uppdatering sker varje vecka.
 
 <!-- https://blobserver.dckube.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx -->
 

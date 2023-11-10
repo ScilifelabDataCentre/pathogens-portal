@@ -38,7 +38,7 @@ SLU-SEEC samlar in och analyserar prover för kvantifiering av nivåerna av infl
 
 <div class="plot_wrapper mb-3">
   <!-- <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infA.json" height="600px" >}}</div> -->
-  <div class="table-responsive">{{< plotly json="/img/wastewater_slu_infA.json" height="600px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://raw.githubusercontent.com/ScilifelabDataCentre/covid-portal/develop/static/img/wastewater_slu_infA.json" height="600px" >}}</div>
 </div>
 
 **Källkod som används för att skapa grafen:** [Källkod](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_slu_influenza_a.py).
@@ -51,7 +51,7 @@ SLU-SEEC samlar in och analyserar prover för kvantifiering av nivåerna av infl
 
 <div class="plot_wrapper mb-3">
   <!-- <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infB.json" height="600px" >}}</div> -->
-    <div class="table-responsive">{{< plotly json="/img/wastewater_slu_infB.json" height="600px" >}}</div>
+    <div class="table-responsive">{{< plotly json="https://raw.githubusercontent.com/ScilifelabDataCentre/covid-portal/develop/static/img/wastewater_slu_infB.json" height="600px" >}}</div>
 </div>
 
 **Källkod som används för att skapa grafen:** [Källkod](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_slu_influenza_b.py).
@@ -70,7 +70,7 @@ Forskargruppen tillhandahåller en rapport som sammanfattar information från de
 
 **Kontakt:** <anna.szekely@slu.se> and <javier.vargas@slu.se>
 
-**Ladda ner data:** [Genkopieantal för luftvägsvirus normaliserat mot PMMoV-genkopieantal.CSV fil](https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data.csv). Data finns tillgänglig för influensa A-virus från vecka 42 2022 och för influensa B-virus från vecka 12 2023, uppdateras veckovis.
+**Ladda ner data:** [Genkopieantal för luftvägsvirus normaliserat mot PMMoV-genkopieantal.CSV fil](https://raw.githubusercontent.com/ScilifelabDataCentre/covid-portal/develop/static/ww_data_temp/SLU_wastewater_data.csv). Data finns tillgänglig för influensa A-virus från vecka 42 2022 och för influensa B-virus från vecka 12 2023, uppdateras veckovis.
 
 **Citera data:**
 
