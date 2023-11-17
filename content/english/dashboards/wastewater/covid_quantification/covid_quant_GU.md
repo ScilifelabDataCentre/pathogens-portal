@@ -22,7 +22,7 @@ Influent wastewater samples were collected from Ryaverket wastewater treatment p
 
 ## Visualisations
 
-<div class="alert alert-info">Last updated: 2023-11-08<span id="last_modified_gu"></span></div>
+<div class="alert alert-info">Last updated: <span id="last_modified_gu"></span></div>
 
 _The blue block on the graph indicates the period where sample collection was not completed (week 45 2022 - week 2 2023)._
 
@@ -60,24 +60,21 @@ _The blue block on the graph indicates the period where sample collection was no
 </div>
 
  <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://raw.githubusercontent.com/ScilifelabDataCentre/covid-portal/develop/static/img/wastewater_gothenburg.json" height="550px" >}}</div>
-  <!-- <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_gothenburg.json" height="550px" >}}</div> -->
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_gothenburg.json" height="550px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/gothenburg_covid.py).
 
 ## Commentary from the research group
 
-<div><b>Date: 2023-11-08</b> <br><b>Commentary:</b> There are still low amounts of SARS-CoV-2 in Gothenburg's wastewater. However, there was a small increase in weeks 41, 42, and 43 but there are still low levels. </div>
-<!-- <span id="gu_comment_date"></span>
-<span id="gu_comment"></span> -->
+<div><span id="gu_comment_date"></span>
+<span id="gu_comment"></span></div>
+
 {{< ww_dynamic_content >}}
 
 ## Dataset
 
-**Download the data:** [Quantification of SARS-CoV-2 and enteric viruses in wastewater](https://github.com/ScilifelabDataCentre/covid-portal/raw/develop/static/ww_data_temp/wastewater_data_gu_allviruses.xlsx). Results are available for SARS-CoV-2 from week 7 of 2020 (with a small gap over winter 2022-2023), and for enteric viruses from week 2 of 2023. Updated weekly.\
-
-<!-- https://blobserver.dc.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx -->
+**Download the data:** [Quantification of SARS-CoV-2 and enteric viruses in wastewater](https://blobserver.dc.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx). Results are available for SARS-CoV-2 from week 7 of 2020 (with a small gap over winter 2022-2023), and for enteric viruses from week 2 of 2023. Updated weekly.\
 
 **Contact:** <helene.norder@gu.se>
 
