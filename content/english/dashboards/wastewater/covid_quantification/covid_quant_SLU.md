@@ -20,17 +20,17 @@ The data presented on this page is generated in the SLU (Swedish University of A
 
 The data and visualisation on this page are usually updated weekly, typically on Fridays. Please note that the scores provided in the dataset and depicted in plot below are preliminary, so corrections and changes may occur. Data and information about the group on this dashboard are updated frequently, so please check back regularly to stay up to date.
 
-<!-- ## Wastewater collection sites
+## Wastewater collection sites
 
 SLU-SEEC collects and analyses samples for SARS-CoV-2 from multiple areas. The below table shows details about each of these sites. The table lists the towns/cities monitored, wastewater treatment plants (WWTP) that samples were collected from, the number of people in the catchment area (Number of people), and the dates that monitoring by SLU-SEEC started and ended monitoring (Start and End date, respectively). A value of 'null' for the end date indicates that collection is ongoing. An asterisk (\*) next to the number of people indicates that the value is a BOD-7 value (an estimate of the people connected), rather than the number of people physically connected to each WWTP. The information in the below table is [available for download as an excel file](https://blobserver.dc.scilifelab.se/blob/SLU_COVID_collection_sites.xlsx).
 
   <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_sluCOVIDsites.json" height="825px" >}}</div>
-</div> -->
+</div>
 
 ## Visualisations
 
-<div class="alert alert-info">Last updated: 2023-11-08 <span id="last_modified_uppsala"></span></div>
+<div class="alert alert-info">Last updated: <span id="last_modified_uppsala"></span></div>
 
 <b>Important note:</b> Historical data for Ekerö, Enköping, Knivsta, Tierp, Vaxholm, Älvkarleby, and Österåker are available in the dataset (linked below). However, they are no longer included in the visualisation.
 
@@ -70,8 +70,7 @@ Please note that although the same methods are used for all cities shown on this
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://raw.githubusercontent.com/ScilifelabDataCentre/covid-portal/develop/static/img/wastewater_combined_slu_regular.json" height="800px" >}}</div>
-  <!-- <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="600px" >}}</div> -->
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="800px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_slu_regular.py).
@@ -90,9 +89,7 @@ The group provide reports to summarise their latest findings. The latest report 
 
 **Contact:** <anna.szekely@slu.se> and <javier.vargas@slu.se>
 
-**Download the data:** [Respiratory virus gene copy numbers normalised per PMMoV gene copy number.CSV file.](https://raw.githubusercontent.com/ScilifelabDataCentre/covid-portal/develop/static/ww_data_temp/SLU_wastewater_data.csv). Data are available from week 38 of 2020; updated weekly.
-
-<!-- https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data.csv -->
+**Download the data:** [Respiratory virus gene copy numbers normalised per PMMoV gene copy number.CSV file.](https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data.csv). Data are available from week 38 of 2020; updated weekly.
 
 **How to cite the dataset:**
 

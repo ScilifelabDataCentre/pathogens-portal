@@ -20,17 +20,17 @@ Data som presenteras på denna sida genereras i Sveriges lantbruksuniversitets (
 
 Data och visualiseringar på den här sidan uppdateras vanligtvis veckovis, oftast på fredagar. Notera att de poäng som tillhandahålls i datasetet och som visas i grafen nedan är preliminära, så korrigeringar och ändringar kan förekomma. Data och information om metod som används uppdateras kontinuerligt.
 
-<!-- ## Insamlingsplatser för avloppsvatten
+## Insamlingsplatser för avloppsvatten
 
 SLU-SEEC samlar in och analyserar prover från ett flertal orter. Nedan visas en tabell med detaljerad information om alla insamlingsplatser. Tabellen listar orter som övervakas, avloppsreningsverk (WWTP) där proverna samlas in, antal personer i upptagningsområdet (antal invånare), mellan vilka datum SLU-SEEC mätningarna skett (startdatum och slutdatum). Ett värde ’null’ istället för slutdatum innebär att insamlingen fortfarande pågår. En asterisk bredvid antal invånare innebär att värdet är uppskattat baserat på hur många invånare som reningsverket betjänar (BOD-7). Informationen i tabellen nedan är [tillgänglig för nedladdning som en excel-fil](https://blobserver.dc.scilifelab.se/blob/SLU_COVID_collection_sites.xlsx).
 
   <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_sluCOVIDsites.json" height="850px" >}}</div>
-</div> -->
+</div>
 
 ## Visualiseringar
 
-<div class="alert alert-info">Senast uppdaterad: 2023-11-08<span id="last_modified_uppsala"></span></div>
+<div class="alert alert-info">Senast uppdaterad: <span id="last_modified_uppsala"></span></div>
 
 <b>Notera:</b> Historisk data för Ekerö, Enköping, Knivsta, Tierp, Vaxholm, Älvkarleby, och Österåker finns tillgänglig i det länkade datasetet ovan och ingår inte längre i visualiseringen nedan.
 
@@ -69,8 +69,7 @@ Notera också att även om samma metoder används för alla städer som visas p�
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://raw.githubusercontent.com/ScilifelabDataCentre/covid-portal/develop/static/img/wastewater_combined_slu_regular.json" height="800px" >}}</div>
-  <!-- <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="600px" >}}</div> -->
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="800px" >}}</div>
 </div>
 
 **Källkod som används för att skapa grafen:** [Källkod](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_slu_regular.py).

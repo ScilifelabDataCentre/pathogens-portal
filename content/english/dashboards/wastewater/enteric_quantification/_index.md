@@ -30,7 +30,7 @@ The wastewater samples for virus analysis are collected at Ryaverket's wastewate
 
 ## Visualisations
 
-<div class="alert alert-info">Last updated: 2023-11-08 <span id="last_modified_enteric"></span></div>
+<div class="alert alert-info">Last updated: <span id="last_modified_enteric"></span></div>
 
 Please see [the section with summary information about the viruses](#basic-virus-information) for more information on each of the viruses for which data is being collected.
 
@@ -39,31 +39,14 @@ Please see [the section with summary information about the viruses](#basic-virus
 </div>
 
  <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://raw.githubusercontent.com/ScilifelabDataCentre/covid-portal/develop/static/img/enteric_graph_gu.json" height="550px" >}}</div>
-    <!-- <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/enteric_graph_gu.json" height="550px" >}}</div> -->
+    <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/enteric_graph_gu.json" height="550px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/enteric_viruses_gu.py).
 
 ## Commentary from the research group
 
-<div><b>Date:</b> 2023-11-08<span id="gu_enteric_comment_date"></span><br><b>Commentary:</b>
-
-Three weeks after the schools started in Gothenburg, the levels of enterovirus increased in the wastewater. Enterovirus often peaks in late summer and early autumn, and outbreaks of rhinovirus and enterovirus especially infect young people.
-
-None of the other investigated viruses have caused major outbreaks until now.
-
-In February we had a minor increase in norovirus GG2 (winter vomiting disease virus) a little earlier than usual and it decreased by week 11. Some minor increases also occurred in late May, but no major outbreak was observed.
-
-For astrovirus there was a small outbreak in weeks 9 and 10 (end of February and start of March). A slightly increase is now observed as expected.
-
-Sapovirus peaked slightly in week 14 (early April).
-
-Adenovirus peaked slightly in week 10, no additional increase has been observed. From week 22 we have improved the technology's sensitivity for adenovirus detection, which means that the baseline for adenovirus detection is elevated. During summer (from June to the beginning of August), Adenovirus showed an increase during weeks 26 to 32.
-
-The amount of pepper mild mottle virus (PMMoV) has varied more than 10-fold during the year. This virus is often used as an indicator of fecal contamination of water. In commercial assays for SARS-CoV-2 detection, quantification of PMMoV is used as an indicator of the number of people contributing to the wastewater, assuming we consume the same amount of peppers and chilies every week. It increased in early June and around midsummer, indicating an increase in our pepper consumption during those weeks rather than an increase in the number of people contributing to the wastewater during those weeks.
-
-<span id="gu_enteric_comment"></span></div>
+<div><b>Date:</b><span id="gu_enteric_comment_date"></span><br><b>Commentary:</b><span id="gu_enteric_comment"></span></div>
 
 {{< ww_dynamic_content >}}
 <br>
@@ -72,9 +55,7 @@ The amount of pepper mild mottle virus (PMMoV) has varied more than 10-fold duri
 
 ###### **Download the data:**
 
-[Quantification of SARS-CoV-2 and enteric viruses in wastewater](https://github.com/ScilifelabDataCentre/covid-portal/raw/develop/static/ww_data_temp/wastewater_data_gu_allviruses.xlsx). Results are available for SARS-CoV-2 from week 7 of 2020 (with a small gap over winter 2022-2023), and for enteric viruses from week 2 of 2023. Updated weekly.
-
-<!-- https://blobserver.dckube.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx -->
+[Quantification of SARS-CoV-2 and enteric viruses in wastewater](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx). Results are available for SARS-CoV-2 from week 7 of 2020 (with a small gap over winter 2022-2023), and for enteric viruses from week 2 of 2023. Updated weekly.
 
 **Contact:** <helene.norder@gu.se>
 

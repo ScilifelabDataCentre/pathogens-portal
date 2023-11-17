@@ -4,11 +4,6 @@
 <div class="row">
   <div class="col-md-8 vert-line-right mt-3">
 
-    <div class="alert alert-info">
-      <i class="bi bi-exclamation-triangle-fill"></i>
-      <span>{{ if eq $.Site.Language.LanguageName "Svenska" }}Tack för ditt tålamod medan vi hanterar vissa tekniska problem. Om du vill kontakta oss, vänligen skicka ett mejl till pathogens@scilifelab.se eller datacentre@scilifelab.se.{{ else }}We thank you for your patience whilst we deal with some technical issues. Should you wish to contact us during this time, please send an email to pathogens@scilifelab.se or datacentre@scilifelab.se.{{ end }}</span>
-    </div>
-
     <!-- Dashboards -->
     {{ range .Site.Menus.homepage_dashboards }}
     <div class="row">

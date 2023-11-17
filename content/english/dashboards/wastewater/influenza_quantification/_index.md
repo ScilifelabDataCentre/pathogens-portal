@@ -16,13 +16,13 @@ The data presented on this page is generated in the SLU (Swedish University of A
 
 The data and visualisation on this page are usually updated weekly, typically on Fridays. Please note that the scores provided in the dataset and depicted in plot below are preliminary, so corrections and changes may occur. Data and information about the group on this dashboard are updated frequently, so please check back regularly to stay up to date.
 
-<!-- ## Wastewater collection sites
+## Wastewater collection sites
 
 SLU-SEEC collects and analyses samples for influenza A and B viruses from multiple areas. The below table shows details about each of these sites. The table lists the towns/cities monitored, wastewater treatment plants (WWTP) that samples were collected from, the number of people in the catchment area (Number of people), and the dates that monitoring by SLU-SEEC started and ended monitoring (Start and End date, respectively). Please note that 'Start date' refers to the first date of monitoring for influenza A, but that the start date for influenza B is always later. A value of ’null’ for the end date indicates that collection is ongoing. An asterisk (\*) next to the number of people indicates that the value is a BOD-7 value (an estimate of the people connected), rather than the number of people physically connected to each WWTP. Two asterisks (\*\*) next to the Town/City indicates that data is only available for influenza A, not influenza B. The information in the below table is [available for download as an excel file](https://blobserver.dc.scilifelab.se/blob/SLU_INF_collection_sites.xlsx).
 
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_sluINFsites.json" height="750px" >}}</div>
-</div> -->
+</div>
 
 ## Visualisations
 
@@ -37,8 +37,7 @@ SLU-SEEC collects and analyses samples for influenza A and B viruses from multip
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://raw.githubusercontent.com/ScilifelabDataCentre/covid-portal/develop/static/img/wastewater_slu_infA.json" height="600px" >}}</div>
-  <!-- <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infA.json" height="600px" >}}</div> -->
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infA.json" height="600px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_slu_influenza_a.py).
@@ -50,8 +49,7 @@ SLU-SEEC collects and analyses samples for influenza A and B viruses from multip
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://raw.githubusercontent.com/ScilifelabDataCentre/covid-portal/develop/static/img/wastewater_slu_infB.json" height="600px" >}}</div>
-  <!-- <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infB.json" height="600px" >}}</div> -->
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infB.json" height="600px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/combined_slu_influenza_b.py).
