@@ -23,7 +23,7 @@ Data på denna dashboard ska uppdateras veckovis.
 
 ## SARS-CoV-2 sekvenser Visualiseringar
 
-<div class="alert alert-info">Senaste uppdaterad: 2023-11-06 <span id="last_modified_uuclinmicro"></span></div>
+<div class="alert alert-info">Senaste uppdaterad: <span id="last_modified_uuclinmicro"></span></div>
 
 Sekvenserna presenteras enligt [World Health Organisation (WHO) system](https://www.who.int/activities/tracking-SARS-CoV-2-variants) (en grekisk bokstav) och/eller deras Pangolinje. Pangolinjen bestäms med hjälp av [Pangolin](https://cov-lineages.org/resources/pangolin.html), [Nextclade](https://clades.nextstrain.org/) och ett internt annotationsbaserat arbetsflöde för mutationsanalys.
 
@@ -38,8 +38,7 @@ Använd knappen **'Last 16 weeks'** för att endast se data från de senaste 16 
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="/img/lineage_four_recent.json" height="600px" >}}</div>
-  <!-- <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/lineage_four_recent.json" height="600px" >}}</div> -->
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/lineage_four_recent.json" height="600px" >}}</div>
 </div>
 
 **Källkod som används för att skapa grafen:** [Källkod som används för att skapa grafen](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/ClinMicro/lineage_four_recent.py).
@@ -55,8 +54,7 @@ Använd knappen **'Deselect all lineages'** för att rensa bort data från alla 
 </div>
 
 <div class="plot_wrapper mb-3">
-  <!-- <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/lineage_one_wholetime.json" height="600px" >}}</div> -->
-    <div class="table-responsive">{{< plotly json="/img/lineage_one_wholetime.json" height="600px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/lineage_one_wholetime.json" height="600px" >}}</div>
 </div>
 
 **Källkod som används för att skapa grafen:** [Källkod som används för att skapa grafen](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/ClinMicro/lineage_one_plot.py).
