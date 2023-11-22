@@ -142,7 +142,7 @@
  </script>
   {{ end }}
 
-{{ if eq hugo.Environment "production" }}
+{{ if strings.HasPrefix hugo.Environment "production" }}
 <!-- Schema.org data -->
 {{ partial "schema.html" . }}
 {{ end }}
