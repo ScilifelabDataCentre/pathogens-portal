@@ -15,6 +15,8 @@ Ett nätverk av nationella dataportaler växte sedan fram då ett antal andra l�
 - [COVID-19 Data Portal Grekland](https://www.covid19dataportal.gr)
 - [COVID-19 Data Portal Italien](https://www.covid19dataportal.it)
 - [COVID-19 Data Portal Japan](https://covid19dataportal.jp)
+- [COVID-19 Data Portal Luxemburg](https://covid19dataportal.lu)
+- [COVID-19 Data Portal Nederländerna](https://www.covid19dataportal.nl)
 - [COVID-19 Data Portal Polen](https://covid19dataportal.pl)
 - [COVID-19 Data Portal Slovenien](https://covid19dataportal.si)
 - [COVID-19 Data Portal Spain](https://www.covid19dataportal.es)
