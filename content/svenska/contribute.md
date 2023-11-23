@@ -2,12 +2,13 @@
 title: Bidra till Portalen
 toc: false
 menu:
-    top_actions:
-        name: Bidra till Portalen
-        weight: 40
-        pre: <i class="bi bi-plus-circle-fill me-2"></i>
+  top_actions:
+    name: Bidra till Portalen
+    weight: 40
+    pre: <i class="bi bi-plus-circle-fill me-2"></i>
 ---
-Den *Patogens Portal Sverige* har som syfte att stödja forskare som arbetar inom de forskningsområden som Portalen specifikt är inriktade på. Vi välkomnar både förslag på och bidrag till Portalens innehåll och förslag på hur Portalen kan utvecklas för att bättre stödja forskningen. Som forskare uppmanar vi dig att interagera med Portalen, exempelvis genom att dela data eller information genom Portalen. Vi tar även gärna emot förslag på nytt innehåll, nya sektioner samt förslag på hur nuvarande sektioner kan utvecklas och förnyas.
+
+Den _Patogens Portal Sverige_ har som syfte att stödja forskare som arbetar inom de forskningsområden som Portalen specifikt är inriktade på. Vi välkomnar både förslag på och bidrag till Portalens innehåll och förslag på hur Portalen kan utvecklas för att bättre stödja forskningen. Som forskare uppmanar vi dig att interagera med Portalen, exempelvis genom att dela data eller information genom Portalen. Vi tar även gärna emot förslag på nytt innehåll, nya sektioner samt förslag på hur nuvarande sektioner kan utvecklas och förnyas.
 
 Förslag på som du exempelvis kan inkomma med. Tipsa oss om du har förslag på nya publikationer som delar dataset eller källkod öppet och som kunde passa som en ”Data Highlight”. Vi tar även emot färdigskrivna förslag på texter. Ge förslag på nya dataset som vi kan lyfta fram i ”Tillgängliga data”-sektionen. Uppdatera information om pågående projekt, ditt eget eller andras. Dela dina data öppet i nya [dashboards på Portalen](/sv/dashboards/) osv.
 
@@ -17,8 +18,8 @@ Det finns flera sätt att ge förslag på eller redigera informationen som ligge
   <div class="row">
     <div class="col-md-6">
       <h3><i class="bi bi-envelope-fill"></i> Skicka ett bidrag genom epost</h3>
-      <p>Det enklaste sättet att skicka oss ett förslag eller få kontakt med oss i Portalenteamet är helt enkelt att skicka oss epost. Skicka epost till <a href="mailto:datacentre@scilifelab.se">datacentre@scilifelab.se</a> så kommer ditt ärende får ett ärendenummer och tilldelas en a oss i Portalenteamet.</p>
-      <p><b><a href="mailto:datacentre@scilifelab.se">Bidra med epost <i class="bi bi-arrow-right-circle-fill"></i></a></b></p>
+      <p>Det enklaste sättet att skicka oss ett förslag eller få kontakt med oss i Portalenteamet är helt enkelt att skicka oss epost. Skicka epost till <a href="mailto:pathogens@scilifelab.se">pathogens@scilifelab.se</a> så kommer ditt ärende får ett ärendenummer och tilldelas en a oss i Portalenteamet.</p>
+      <p><b><a href="mailto:pathogens@scilifelab.se">Bidra med epost <i class="bi bi-arrow-right-circle-fill"></i></a></b></p>
     </div>
     <!--<div class="col-md-6">
       <h3><i class="bi bi-hand-index-thumb-fill"></i> Send a suggestion through a form</h3>

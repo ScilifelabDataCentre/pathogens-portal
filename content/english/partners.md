@@ -15,6 +15,8 @@ Besides [Sweden](https://www.pathogens.se), a number of other countries also lau
 - [COVID-19 Data Portal Greece](https://www.covid19dataportal.gr)
 - [COVID-19 Data Portal Italy](https://www.covid19dataportal.it)
 - [COVID-19 Data Portal Japan](https://covid19dataportal.jp)
+- [COVID-19 Data Portal Luxembourg](https://covid19dataportal.lu)
+- [COVID-19 Data Portal Netherlands](https://www.covid19dataportal.nl)
 - [COVID-19 Data Portal Poland](https://covid19dataportal.pl)
 - [COVID-19 Data Portal Slovenia](https://covid19dataportal.si)
 - [COVID-19 Data Portal Spain](https://www.covid19dataportal.es)

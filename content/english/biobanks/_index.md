@@ -20,7 +20,7 @@ As of May 2023, the Sample Collection Database contains information about **36 s
 
 ### Submit information about sample collections
 
-Those wishing to submit information about their sample collections to the database should [contact Biobank Sverige](https://biobanksverige.se/provsamlingar-publicerade-i-covid-19-data-portal-sweden-underlattar-forskning-om-covid-19/) (the linked page also contains forms for adding new collections to the database). Questions, comments, or suggestions regarding the database itself can be sent to <datacentre@scilifelab.se>.
+Those wishing to submit information about their sample collections to the database should [contact Biobank Sverige](https://biobanksverige.se/provsamlingar-publicerade-i-covid-19-data-portal-sweden-underlattar-forskning-om-covid-19/) (the linked page also contains forms for adding new collections to the database). Questions, comments, or suggestions regarding the database itself can be sent to <pathogens@scilifelab.se>.
 
 ### Responsible organisations
 

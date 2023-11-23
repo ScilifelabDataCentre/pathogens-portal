@@ -14,7 +14,7 @@ Below is an overview of relevant support services (free or against a fee) provid
 
 <h2><i class="bi bi-people-fill"></i> Support on using the Portal</h2>
 
-If you have questions or suggestions for the _Swedish Pathogens Portal_, you can get in touch with the Portal team either by filling out [our contact form](/contact/) or by sending an email to <datacentre@scilifelab.se>.
+If you have questions or suggestions for the _Swedish Pathogens Portal_, you can get in touch with the Portal team either by filling out [our contact form](/contact/) or by sending an email to <pathogens@scilifelab.se>.
 
 <b><a href="/contact/">Get in touch with the Portal team <i class="bi bi-arrow-right-circle-fill"></i></a></b>
 
