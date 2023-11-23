@@ -65,4 +65,6 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          build-args: HUGO_ENV_ARG=${{ github.ref_name == 'main' && 'production' || github.event_name == 'release' && 'production' || 'development' }}
+          build-args: HUGO_ENV_ARG=${{ github.event_name == 'release' && format('{0}-{1}', 'production', github.ref_name)
+                  || github.ref_name == 'main' && format('{0}-{1}', 'production', github.sha)
+                  || format('{0}-{1}', 'development', github.sha) }}

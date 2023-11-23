@@ -1,4 +1,4 @@
-<footer class="container border-top mt-5 mb-5">
+<footer class="container border-top mt-5 mb-2">
   <div class="row border-bottom">
     
     <!-- About section -->
@@ -9,7 +9,6 @@
         {{ range .Site.Menus.footer_about }}
         <li><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
         {{ end }}
-        <li><a href="https://github.com/ScilifelabDataCentre/covid-portal/tree/develop">{{ if eq $.Site.Language.LanguageName "Svenska" }}Webbplatskod{{ else }}Website code{{ end }} (Github)</a></li>
       </ul>
     </div>
     
@@ -18,7 +17,7 @@
     <div class="col-md px-5 px-md-2">
       <h2 class="small text-uppercase text-black-50">Other sections</h2>
       <ul class="list-unstyled">
-        <li><a href="/resources/">Resources</a></li>
+        <li><a href="/resources/">Pandemic Preparedness</a></li>
         <li><a href="/pathogens/">Emerging Pathogens</a></li>
         {{ range .Site.Menus.research_menu }}
         <li><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
@@ -44,6 +43,7 @@
         <li><a href="/sv/biobanks/">Provsamlingsregistret</a></li>
         {{ end }}
       </ul>
+      {{ if eq $.Site.Language.LanguageName "Svenska" }}</div><div class="col-md px-5 px-md-2">{{ end }}
       <h2 class="small text-uppercase text-black-50">{{ if eq $.Site.Language.LanguageName "Svenska" }}Följ
         oss{{ else }}Connect{{ end }}</h2>
       <div>
@@ -65,6 +65,18 @@
       </div>
     </div>
 
+  </div>
+  
+  <!-- The hugo env value is passed via github action, during image building -->
+  {{ $env_info := split hugo.Environment "-" }}
+  {{ $git_sha := index $env_info 1 }}
+  {{ $code_version := cond (strings.HasPrefix $git_sha "v") $git_sha (substr $git_sha 0 7) }}
+  <div class="d-flex justify-content-center small mt-2">
+    <a target="_blank"
+       href="https://github.com/ScilifelabDataCentre/covid-portal{{ with $code_version }}/tree/{{ $code_version }}{{ end }}">
+      {{ if eq $.Site.Language.LanguageName "Svenska" }}Källkod finns tillgänglig på GitHub{{ else }}Website code is available on Github{{ end }} 
+    </a>
+      {{ with $code_version }}<span class="ps-1 text-black-50">({{ $code_version }})</span>{{ end }}
   </div>
 </footer>
 
