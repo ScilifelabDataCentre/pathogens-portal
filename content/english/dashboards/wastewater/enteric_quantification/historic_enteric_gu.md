@@ -1,14 +1,11 @@
 ---
-title: Amount of enteric virus in wastewater (GU)
+title: Historic enteric virus data from Gothenburg
 plotly: true
-type: wastewater
-menu:
-  wastewater:
-    name: Enteric virus quantification (GU)
-    weight: 30
 aliases:
-  - /dashboards/wastewater/enteric_quant_gu/
+  - /dashboards/wastewater/historic_enteric_GU/
 ---
+
+This page shows historic wastewater epidemiology data for enteric viruses. The data was collected in Gothenburg, Sweden by the group led by Professor Helene Norder (University of Gothenburg, GU). The work was supported by co-workers from the University of Gothenburg and Sahlgrenska University Hospital (Hao Wang, Marianela Patzi Churqui, Timur Tunovic, Fredy Saguti, and Kristina Nyström), and Lucica Enache at Ryaverket, Gryaab AB, Gothenburg. The data shown on this page was collected between week 2 and week 43 of 2023 (i.e. between 9th January and 23rd October 2023). The group started to use a new method from week 20 of 2023 (15th May). Data produced using this new method continues to be updated approximately weekly, and is available on the ['Amount of enteric virus in wastewater (GU)' page](../).
 
 ## Introduction
 
@@ -16,13 +13,9 @@ Enteric viruses are a large group of viruses including, for example, calicivirus
 
 Wastewater contains many different types of viruses that infect humans because viruses are shed in the faeces and urine of infected individuals. The Norder group at the University of Gothenburg showed that the relative levels of some enteric viruses in wastewater could be used to predict upcoming outbreaks ([Hellmér _et al._, 2014](https://pubmed.ncbi.nlm.nih.gov/25172863/)). Indeed, previous studies by the Norder group have shown that the levels of noroviruses in wastewater increase 1-2 weeks before larger outbreaks in nursing homes and hospital wards.
 
-In 2017, and since 2020, the Norder group at the University of Gothenburg (GU) conducted weekly monitoring of the levels of some enteric viruses in wastewater. They quantify the levels of enteroviruses (including poliovirus), adenoviruses, GG2 (a norovirus causing winter vomiting disease), astroviruses, sapoviruses and also pepper molt mild virus (PMMoV). This page focuses on data produced using an updated method for quantification that was used from week 20 (15th May) of 2023. This method was used in parallel with a previous method until week 43 of 2023. Data produced using that previous method between week 2 and week 43 of 2023 (i.e. 9th January and 23rd October 2023) are available on the page related to [historic enteric virus data from Gothenburg](/dashboards/wastewater/enteric_quantification/historic_enteric_gu/).
+In 2017, and since 2020, the Norder group at the University of Gothenburg (GU) conducted weekly monitoring of the levels of some enteric viruses in wastewater. They quantify the levels of enteroviruses (including poliovirus), adenoviruses, GG2 (a norovirus causing winter vomiting disease), astroviruses, sapoviruses and also pepper molt mild virus (PMMoV). This page details the [historic methods used in monitoring](#methods), as well as [a brief summary information about the viruses](#basic-virus-information), and [information about citing the historic data](#dataset). Data collected using the updated method is available on the page ['Amount of enteric virus in wastewater (GU)'](../).
 
-This page details the [latest method used in monitoring](#methods), as well as [a brief summary information about the viruses](#basic-virus-information), and [information about the data collected](#dataset).
-
-The enteric virus monitoring by the Norder group was done alongside their ongoing monitoring of SARS-CoV-2 in wastewater, the data for which are [also shared on this portal](/dashboards/wastewater/covid_quantification/covid_quant_gu/).
-
-The data and visualisations on this page will be updated **approximately weekly**.
+The enteric virus monitoring by the Norder group was done alongside their ongoing monitoring of SARS-CoV-2 in wastewater, the data for which is [also shared on this portal](/dashboards/wastewater/covid_quantification/covid_quant_gu/).
 
 ## Wastewater collection sites
 
@@ -30,59 +23,52 @@ Influent wastewater samples were collected from Ryaverket wastewater treatment p
 
 ## Visualisations
 
-<div class="alert alert-info">Last updated: <span id="last_modified_enteric"></span></div>
+<div class="alert alert-info">Last updated: 2023-11-17</div>
 
-Please see [the section with summary information about the viruses](#basic-virus-information) for more information on each of the viruses for which data is being collected.
+Please see [the section with summary information about the viruses](#basic-virus-information) for more information on each of the viruses for which data was collected.
 
 <div class="d-md-none alert alert-info">
   Rotating your phone may improve graph layout
 </div>
 
  <div class="plot_wrapper mb-3">
-    <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/enteric_graph_gu_new.json" height="550px" >}}</div>
+    <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/historic_enteric_graph_gu.json" height="550px" >}}</div>
 </div>
 
-**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/historic_enteric_viruses_gu.py).
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/enteric_viruses_gu.py).
 
 ## Commentary from the research group
 
-<!-- <div><b>Date:</b><span id="gu_enteric_comment_date"></span><br><b>Commentary:</b><span id="gu_enteric_comment"></span></div> -->
-<div><b>Date:</b> 2023-11-23<br><b>Commentary:</b> From week 20 we have implemented a new concentration method for virus detection. The new technology is ultrafiltration and has been used in parallel with our standard method until now. The new technique has higher sensitivity for the detection and recovery of viruses and has a shorter processing time. The new figure displays the total number of viral genome copies per day instead of the relative amount of viral genomes previously used for SARS-CoV-2. As a result, the baseline for the detection is elevated.
+<div><b>Date:</b> 2023-11-07<br><b>Commentary:</b> Three weeks after the schools started in Gothenburg, the levels of enterovirus increased in the wastewater. Enterovirus often peaks in late summer and early autumn, and outbreaks of rhinovirus and enterovirus especially infect young people.
 
-Three weeks after the schools started in Gothenburg, the levels of enterovirus increased in the wastewater and is now decreasing again. Enterovirus often peaks in late summer and early autumn. This virus may cause outbreaks usually among children and adolescents. Rhinoviruses cause common cold and often peaks during early autumn and colder seasons. There were many rhinovirus infections in Gothenburg during late August/early September which may explain some of the increase during weeks 40-43.
-
-No major outbreak caused by the other investigated viruses has been identified until now.
+None of the other investigated viruses have caused major outbreaks until now.
 
 In February we had a minor increase in norovirus GG2 (winter vomiting disease virus) a little earlier than usual and it decreased by week 11. Some minor increases also occurred in late May, but no major outbreak was observed.
 
-For astrovirus, there was a small outbreak in weeks 9 and 10 (end of February and start of March). A slight increase is now observed as expected.
+For astrovirus there was a small outbreak in weeks 9 and 10 (end of February and start of March). A slightly increase is now observed as expected.
 
 Sapovirus peaked slightly in week 14 (early April).
 
 Adenovirus peaked slightly in week 10, no additional increase has been observed. From week 22 we have improved the technology's sensitivity for adenovirus detection, which means that the baseline for adenovirus detection is elevated. During summer (from June to the beginning of August), Adenovirus showed an increase during weeks 26 to 32.
 
-The amount of pepper mild mottle virus (PMMoV) has varied more than 10-fold during the year. This virus is often used as an indicator of fecal contamination of water. In commercial assays for SARS-CoV-2 detection, quantification of PMMoV is used as an indicator of the number of people contributing to the wastewater, assuming we consume the same amount of peppers and chilies every week. It increased in early June and around midsummer, indicating an increase in our pepper consumption during those weeks rather than an increase in the number of people contributing to the wastewater during those weeks.</div>
+The amount of pepper mild mottle virus (PMMoV) has varied more than 10-fold during the year. This virus is often used as an indicator of fecal contamination of water. In commercial assays for SARS-CoV-2 detection, quantification of PMMoV is used as an indicator of the number of people contributing to the wastewater, assuming we consume the same amount of peppers and chilies every week. It increased in early June and around midsummer, indicating an increase in our pepper consumption during those weeks rather than an increase in the number of people contributing to the wastewater during those weeks.
+
+</div>
 
 {{< ww_dynamic_content >}}
 <br>
 
 ## Dataset
 
-###### **Download the data:**
-
-[Quantification of SARS-CoV-2 and enteric viruses in wastewater](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx). Results are available for SARS-CoV-2 and enteric viruses from week 20 of 2023. Updated weekly.
+**Download the data:** [Quantification of SARS-CoV-2 and enteric viruses in wastewater](https://blobserver.dc.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx). Results are available for SARS-CoV-2 from week 7 of 2020 (with a small gap over winter 2022-2023), and for enteric viruses from week 2 of 2023. The last data entry is week 43 of 2023 for both types of data.
 
 **Contact:** <helene.norder@gu.se>
 
 ###### **How to cite the dataset:**
 
-**Need to confirm all citations are approproate- need updated figshare entry**
-
 Norder, H., Nyström, K. Patzi Churqui, M., Tunovic, T., Wang, H. (2023). Detection of SARS-CoV-2 and other human enteric viruses in wastewater from Gothenburg. [https://doi.org/10.17044/scilifelab.22510501](https://doi.org/10.17044/scilifelab.22510501).
 
 ###### **How to cite method:**
-
-**Need to confirm that this is an appropriate citation**
 
 Hellmér, M., Paxéus, N., Magnius, L., Enache, L., Arnholm, B., Johansson, A., Bergström, T., and Norder, H. (2014). Detection of pathogenic viruses in sewage provided early warnings of hepatitis A virus and norovirus outbreaks. [https://doi.org/10.1128/AEM.01981-14](https://doi.org/10.1128/AEM.01981-14).
 
@@ -92,15 +78,9 @@ Wang, H., Churqui, M.P., Tunovic, T., Enache, L., Johansson, A., Karmander, A., 
 
 ## Methods
 
-Samples of wastewater are collected using a fixed-site sampler that collects 30ml per 10,000m<sup>3</sup> of the incoming wastewater. For the purposes of analysis, seven samples (each representing a 24 hour period) were pooled to create a weekly sample. Part of this weekly sample was sent to the Clinical Microbiology Laboratory at Sahlgrenska University Hospital for analysis. The amount of sample sent varies between 1.5-15l of wastewater, depending on the flow. Whilst the amount of wastewater from households and industry is generally reasonably constant over time, the overall levels of wastewater are affected by weather conditions. For example, the levels are higher when the levels of rainfall are high. In order to account for this during analysis, the samples to be analysed for viruses are flow-weighted. This means that the amount of wastewater collected and analysed relates to the flow of incoming wastewater. More information on this can be found in [Hellmér _et al._ (2014)](https://pubmed.ncbi.nlm.nih.gov/25172863/) and [Wang _et al._ (2022)](https://pubmed.ncbi.nlm.nih.gov/36035197/).
+Samples of wastewater were collected using a fixed-site sampler that collects 30ml per 10,000m<sup>3</sup> of the incoming wastewater. For the purposes of analysis, seven samples (each representing a 24 hour period) were pooled to create a weekly sample. Part of this weekly sample was sent to the Clinical Microbiology Laboratory at Sahlgrenska University Hospital for analysis. The amount of sample sent varies between 1.5-15l of wastewater depending on the flow, which is determined in large part by the weather. Whilst the amount of wastewater from households and industry is generally reasonably constant over time, the overall levels of wastewater are affected by weather conditions. For example, the levels are higher when the levels of rainfall are high. In order to account for this during analysis, the samples to be analysed for viruses were flow-weighted. This means that the amount of wastewater collected and analysed related to the flow of incoming wastewater. More information on this can be found in [Hellmér _et al._ (2014)](https://pubmed.ncbi.nlm.nih.gov/25172863/) and [Wang _et al._ (2022)](https://pubmed.ncbi.nlm.nih.gov/36035197/).
 
-At the Clinical Microbiology Laboratory, two methods developed in-house were used to concentrate viruses. The current method used involves ultrafiltration as the main concentration method. Our previous method used an electropositive filter (Argonide, Florida, USA) as the primary means of concentration ([Saguti _et al._, 2021](https://doi.org/10.1016/j.watres.2020.116620)).
-
-Nucleic acids are extracted from 1ml of the concentrated sample using the QIAamp Circulating Nucleic Acid Kit (Qiagen, Hilden, Germany). Real-time quantitative PCR (RT-qPCR) is performed to detect and quantify the viral genomes. Details about the method of calculation are provided in [Hellmér et al. (2014)](https://doi.org/10.1128/AEM.01981-14), [Saguti _et al._ (2021)](https://doi.org/10.1016/j.watres.2020.116620), [Wang _et al._ (2022)](https://doi.org/10.1016/j.isci.2022.105000), and [Wang _et al._ (2023)](https://doi.org/10.1016/j.scitotenv.2023.165012). With both techniques, the amounts of the different virus genomes are given as daily average amounts, as they are based on one week of wastewater sampling.
-
-## Archived data
-
-[Historic enteric virus data from Gothenburg collected between week 2 and week 43 of 2023](/dashboards/wastewater/enteric_quantification/historic_enteric_gu/).
+At the Clinical Microbiology Laboratory, viruses were concentrated to a final volume of 2.5ml using a method that was developed in-house. This method used the NanoCeram electropositive filter (Argonide, Florida, USA) as the primary means of concentration, and then ultracentrifugation as secondary concentration method ([Saguti et al., 2021](https://doi.org/10.1016/j.watres.2020.116620)). Nucleic acids were extracted from 1ml of the concentrated sample using the QIAamp Circulating Nucleic Acid Kit (Qiagen, Hilden, Germany). Real-time quantitative PCR (RT-qPCR) was performed to detect and quantify the viral genomes. Details about the method of calculation are provided in [Hellmér et al. (2014)](https://doi.org/10.1128/AEM.01981-14), [Saguti et al. (2021)](https://doi.org/10.1016/j.watres.2020.116620), and [Wang et al. (2022)](https://doi.org/10.1016/j.isci.2022.105000).
 
 ### Basic virus information
 
