@@ -74,11 +74,11 @@ The amount of pepper mild mottle virus (PMMoV) has varied more than 10-fold duri
 
 **Contact:** <helene.norder@gu.se>
 
-###### **How to cite the dataset:\*\***Need to confirm all citations are approproate- need updated figshare entry\*\*
+###### **How to cite the dataset:**
 
 Norder, H., Nyström, K. Patzi Churqui, M., Tunovic, T., Wang, H. (2023). Detection of SARS-CoV-2 and other human enteric viruses in wastewater from Gothenburg. [https://doi.org/10.17044/scilifelab.22510501](https://doi.org/10.17044/scilifelab.22510501).
 
-###### **How to cite method:** **Need to confirm that this is an appropriate citation**
+###### **How to cite method:**
 
 Hellmér, M., Paxéus, N., Magnius, L., Enache, L., Arnholm, B., Johansson, A., Bergström, T., and Norder, H. (2014). Detection of pathogenic viruses in sewage provided early warnings of hepatitis A virus and norovirus outbreaks. [https://doi.org/10.1128/AEM.01981-14](https://doi.org/10.1128/AEM.01981-14).
 
