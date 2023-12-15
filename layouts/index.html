@@ -3,6 +3,15 @@
 <!-- Main content -->
 <div class="row">
   <div class="col-md-8 vert-line-right mt-3">
+    <div style="color: white;" class="bg-success border rounded py-2 px-4 mb-3 fst-italic">
+      {{ if eq $.Site.Language.LanguageName "Svenska" }}
+      <i class="bi bi-snow2"></i> <i class="bi bi-snow2"></i>
+      SciLifeLab Data Centre önskar er alla God Jul och Gott Nytt År! <i class="bi bi-snow2"></i> <i class="bi bi-snow2"></i><br> Teamet kommer att vara lediga från 20 december till 2 januari och kommer att svara på eventuella frågor/förfrågningar så snart som möjligt.
+      {{ else }}
+      <i class="bi bi-snow2"></i> <i class="bi bi-snow2"></i>
+      SciLifeLab Data Centre wish everyone a Merry Christmas and a Happy New Year! <i class="bi bi-snow2"></i> <i class="bi bi-snow2"></i><br> The team will be away from 20th December until 2nd January, and will respond to any questions/requests as soon as possible.
+      {{ end }}
+      </div>
 
     <!-- Dashboards -->
     {{ range .Site.Menus.homepage_dashboards }}
