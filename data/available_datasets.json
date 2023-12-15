@@ -1,6 +1,204 @@
 {
-    "last_updated": "2023-11-02",
+    "last_updated": "2023-12-15",
     "datasets": [
+        {
+            "doi": "10.1136/bmjopen-2022-064240",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "Zenodo",
+                    "accession_number": "",
+                    "description": "A collection of serology data created by WHO Unity Studies Global SARS-CoV2 Seroepidemiological Investigations. Includes both data published in studies and other data not used in publications.",
+                    "data_type": [
+                        "Serology data"
+                    ],
+                    "data_url": "https://zenodo.org/communities/unity-sero-2021?q=&l=list&p=1&s=20&sort=newest"
+                }
+            ],
+            "title": "Systematic review of seroprevalence of SARS-CoV-2 antibodies and appraisal of evidence, prior to the widespread introduction of vaccine programmes in the WHO European Region, January–December 2020",
+            "issue": "11",
+            "volume": "13",
+            "publisher": "BMJ",
+            "published": "2023-11-06",
+            "author": [
+                "Vaughan A.",
+                "Duffell E.",
+                "Freidl G. S.",
+                "Lemos D. S.",
+                "Nardone A."
+            ]
+        },
+        {
+            "doi": "10.1186/s13613-023-01201-1",
+            "available_items": [
+                {
+                    "type": "code",
+                    "repo_name": "Zenodo",
+                    "accession_number": "",
+                    "description": "Data curation pipeline for patient data extracted for medical records up to 60th day of ICU stay (written in R, Version v3.0.1 used).",
+                    "data_type": [
+                        "Other data",
+                        "Public health data"
+                    ],
+                    "data_url": "https://zenodo.org/records/6063905"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "Zenodo",
+                    "accession_number": "",
+                    "description": "Data dictionaries associated with data curation pipeline used.",
+                    "data_type": [
+                        "Other data",
+                        "Public health data"
+                    ],
+                    "data_url": "https://zenodo.org/records/6063905"
+                }
+            ],
+            "title": "Early mobilisation in critically ill COVID-19 patients: a subanalysis of the ESICM-initiated UNITE-COVID observational study",
+            "issue": "1",
+            "volume": "13",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2023-11-14",
+            "author": [
+                "Kloss P.",
+                "Lindholz M.",
+                "Milnik A.",
+                "Azoulay E.",
+                "Cecconi M."
+            ]
+        },
+        {
+            "doi": "10.1016/j.xcrm.2023.101267",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "Sequence Read Archive",
+                    "accession_number": "PRJNA1014462",
+                    "description": "Raw sequence reads related to SARS-CoV-2 antibodies from children exhibiting broad neutralisation.",
+                    "data_type": [
+                        "Biochemistry data",
+                        "Health data",
+                        "Serology data"
+                    ],
+                    "data_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1014462/"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "Electron Microscopy Databank",
+                    "accession_number": "EMD-41075",
+                    "description": "SARS-CoV-2 spike in complex with Fab 71281-33.",
+                    "data_type": [
+                        "Biochemistry data",
+                        "Health data",
+                        "Serology data"
+                    ],
+                    "data_url": "https://www.ebi.ac.uk/emdb/EMD-41075"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "Electron Microscopy Databank",
+                    "accession_number": "EMD-41076",
+                    "description": "SARS-CoV-2 spike in complex with Fab 71281-33 (2).",
+                    "data_type": [
+                        "Biochemistry data",
+                        "Health data",
+                        "Serology data"
+                    ],
+                    "data_url": "https://www.ebi.ac.uk/emdb/EMD-41075"
+                }
+            ],
+            "title": "SARS-CoV-2 antibodies from children exhibit broad neutralization and belong to adult public clonotypes",
+            "issue": "11",
+            "volume": "4",
+            "publisher": "Elsevier BV",
+            "published": "2023-12-02",
+            "author": [
+                "Wall S. C.",
+                "Suryadevara N.",
+                "Kim C.",
+                "Shiakolas A. R.",
+                "Holt C. M."
+            ]
+        },
+        {
+            "doi": "10.2807/1560-7917.es.2023.28.46.2300595",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "GISAID",
+                    "accession_number": "",
+                    "description": "Whole genome sequence data from individuals for all Swedish BA.2.86 cases is available on GISAID. The accession numbers are avilable in the supplementary materials (linked here).",
+                    "data_type": [
+                        "Other data",
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://europepmc.org/article/MED/37971659#id673194"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "GISAID",
+                    "accession_number": "",
+                    "description": "The findings of the BA.2.86 marker specificity assessment are based on metadata associated with 13,513 sequences available on GISAID from 1 July to 19 October 2023.",
+                    "data_type": [
+                        "Other data",
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://www.epicov.org/epi3/epi_set/EPI_SET_231113ve?main=true"
+                },
+                {
+                    "type": "data",
+                    "repo_name": "ENA",
+                    "accession_number": "PRJEB67638",
+                    "description": "Wastewater raw reads from Uppsala, Örebro, Umeå, and Kalmar.",
+                    "data_type": [
+                        "Other data",
+                        "Genomics & transcriptomics data"
+                    ],
+                    "data_url": "https://www.ebi.ac.uk/ena/browser/view/PRJEB67638"
+                }
+            ],
+            "title": "Early detection of the emerging SARS-CoV-2 BA.2.86 lineage through integrated genomic surveillance of wastewater and COVID-19 cases in Sweden, weeks 31 to 38 2023",
+            "issue": "46",
+            "volume": "28",
+            "publisher": "European Centre for Disease Control and Prevention (ECDC)",
+            "published": "2023-11-16",
+            "author": [
+                "Espinosa-Gongora C.",
+                "Berg C.",
+                "Rehn M.",
+                "Varg J. E.",
+                "Dillner L."
+            ]
+        },
+        {
+            "doi": "10.1038/s41586-023-06717-x",
+            "available_items": [
+                {
+                    "type": "data",
+                    "repo_name": "NCBI database",
+                    "accession_number": "PRJNA989123",
+                    "description": "Raw RNA sequence reads produced when patient whole blood samples were analysed by RNA sequencing in order to monitor global changes in transcript abundance levels post-interferon treatment.",
+                    "data_type": [
+                        "Biochemistry data",
+                        "Genomics & transcriptomics data",
+                        "Health data"
+                    ],
+                    "data_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA989123"
+                }
+            ],
+            "title": "Autoantibodies against type I IFNs in humans with alternative NF-κB pathway deficiency",
+            "issue": "7988",
+            "volume": "623",
+            "publisher": "Springer Science and Business Media LLC",
+            "published": "2023-11-08",
+            "author": [
+                "Le Voyer T.",
+                "Parent A. V.",
+                "Liu X.",
+                "Cederholm A.",
+                "Gervais A."
+            ]
+        },
         {
             "doi": "10.1186/s13059-023-03080-y",
             "available_items": [
