@@ -5,7 +5,8 @@ aliases:
   - /sv/dashboards/wastewater/historic_enteric_GU/
 ---
 
-Denna webbsida visar historiska enteriska virusdata relaterade till SARS-CoV-2 i Göteborg, Sverige. Data har insamlats av Helene Norders forskargrupp vid Göteborgs universitet, i samarbete med andra medarbetare från Göteborgs universitet och Sahlgrenska universitetssjukhuset (Hao Wang, Marianela Patzi Churqui, Timur Tunovic, Fredy Saguti, and Kristina Nyström), och Lucica Enache at Ryaverket, Gryaab AB, Gothenburg. Data som visas på denna sida samlades in mellan vecka 2 och vecka 42 2023 (dvs mellan 9 januari och 23 oktober 2023) vid Ryaverket. Forskargruppen började under vecka 20 2023 att använda en ny metod för att studera SARS-CoV-2. Alla forskningsdata som använder den nya metoden finns tillgängliga här ['Mängd enteriska virus i avloppsvatten (GU)' sida](../) och data uppdateras ungefär en gång per vecka.
+Denna webbsida visar historiska avloppsvattendata för enteriska virus. Data samlades in i Göteborg, Sverige av prof. Heléne Norders forskargrupp vid Göteborgs universitet, (GU). Forskningen har utfört av personal verksam vid Göteborgs universitet och på Sahlgrenska Universitetssjukhuset (Hao Wang, Marianela Patzi Churqui, Timur Tunovic, Fredy Saguti och Kristina Nyström) och Lucica Enache från Ryaverket, Gryaab AB, Göteburg. Data som visas på denna webbsida samlades in mellan vecka 2 och vecka 43 2023 (dvs. mellan 9 januari och 23 oktober 2023). Forskargruppen började använda en ny metod från och med vecka 20 2023 (15 maj).
+Data som bygger på den nya metoden uppdateras kontinuerligt ungefär **en gång per vecka** och visas på webbsidan ['Mängd enteriska virus i avloppsvatten (GU)'](../).
 
 ## Introduction
 
