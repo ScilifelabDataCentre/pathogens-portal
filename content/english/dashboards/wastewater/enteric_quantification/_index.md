@@ -76,7 +76,7 @@ The amount of pepper mild mottle virus (PMMoV) has varied more than 10-fold duri
 
 ###### **How to cite the dataset:**
 
-Norder, H., Nyström, K. Patzi Churqui, M., Tunovic, T., Wang, H. (2023). Detection of SARS-CoV-2 and other human enteric viruses in wastewater from Gothenburg. [https://doi.org/10.17044/scilifelab.22510501](https://doi.org/10.17044/scilifelab.22510501).
+Norder, H., Nyström, K. Patzi Churqui, M., Tunovic, T., Wang, H., Saguti, F. (2023). Detection of SARS-CoV-2 and other human enteric viruses in wastewater from Gothenburg. [https://doi.org/10.17044/scilifelab.24787353.v1](https://doi.org/10.17044/scilifelab.24787353.v1).
 
 ###### **How to cite method:**
 

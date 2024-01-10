@@ -12,23 +12,25 @@ menu:
 
 ## Introduktion
 
-Enteriska virus tillhör en större grupp virus som inkluderar calicivirus (norovirus och sapovirus), adenoviruses, och astroviruses. Dessa virus sprids via fekal-orala smittvägar och orsakar gastroenterit (som känneteckas av symptom som illamående, diarré och kräkningar).
+Enteriska virus tillhör en större grupp virus som inkluderar calicivirus (norovirus och sapovirus), adenoviruses, och astroviruses. Dessa virus sprids via fekal-orala smittvägar och orsakar gastroenterit (som kännetecknas av symptom som illamående, diarré och kräkningar).
 
-Avloppsvatten innehåller många olika typer av virus som infekterar allt levande även människor eftersom infekterade individer utsöndrar viruspartiklar i avföring och urin. Nordergruppen vid Göteborgs universitet har genom sin forsknings påvisat att nivåer av vissa enteriska virus i avloppsvatten kan förutsäga kommande virusutbrott, som att nivåerna av norovirus i avloppsvatten ökar 1-2 veckor innan större utbrott sker på äldreboenden och sjukhusavdelningar ([Hellmér _et al._, 2014](https://pubmed.ncbi.nlm.nih.gov/25172863/)). De visade även att olika hepatit A virusstammar som inte hade identifierats av smittskyddet cirkulerade, vilket visade att det finns personer med hepatit A som inte söker sjukvård. Dessa studier verifierades under 2017 då gruppen även kunde påvisa höga mängder av ett nytt hepatit E virus och av andra virus som orsakar magsjuka hos människa, men som inte undersöks för på mikrobiologiska laboratorierna.
+Avloppsvatten innehåller många olika typer av virus som infekterar allt levande även människor eftersom infekterade individer utsöndrar viruspartiklar i avföring och urin. Nordergruppen vid Göteborgs universitet har genom sin forsknings påvisat att nivåer av vissa enteriska virus i avloppsvatten kan förutsäga kommande virusutbrott, som att nivåerna av norovirus i avloppsvatten ökar 1-2 veckor innan större utbrott sker på äldreboenden och sjukhusavdelningar ([Hellmér _et al._, 2014](https://pubmed.ncbi.nlm.nih.gov/25172863/)).
 
-Från starten av COVID-19 pandemin och alltjämt utför Nordergruppen vid Göteborgs universitet (GU) veckovis samtidig övervakning av SARS-CoV-2 och ett antal enteriska virus i avloppsvattnet. Gruppen kvantifierar nivåerna av virus arvsmassa av enterovirus (inklusive poliovirus), adenovirus, GG2 (ett norovirus), astrovirus, sapovirus och som kontroll ett växtvirus, Pepper Mild Mottle virus (PMMoV). Om andra virus misstänkts orsaka utbrott kommer även dessa att övervakas. Se nedan för mer om [metoderna som används vid övervakning](#metoder), [kort sammanfattande information om virusen](#grundläggande-virusinformation), och [information om insamlad data](#dataset).
+Under 2017, och sedan 2020 och alltjämt utför Nordergruppen vid Göteborgs universitet (GU) veckovis samtidig övervakning av ett antal enteriska virus i avloppsvattnet. Gruppen kvantifierar nivåerna av virusarvsmassa av enterovirus (inklusive poliovirus), adenovirus, GG2 (ett norovirus som orsakar vinterkräksjuka), astrovirus, sapovirus och som kontroll ett växtvirus, Pepper Mild Mottle virus (PMMoV). Denna sida fokuserar på de data som producerats med hjälp av en metod för kvantifiering från vecka 20 (15t maj) 2023. Den nya metoden har använts parallellt med den tidigare använda metoden tom vecka 43. Data från den tidigare använda metoden från vecka 2 tom vecka 43 2023 (dvs. 9 januari till 23 oktober 2023) finns tillgängliga på den webbsida som visar [historiska nivåer av enteriska virusdata från Göteborg](/sv/dashboards/wastewater/enteric_quantification/historic_enteric_gu/).
 
-Den enteriska virusövervakningen av Norder-gruppen sker parallellet med gruppens pågående övervakning av SARS-CoV-2 nivåer i avloppsvatten. SARS-CoV-2 data delas [på denna sida](/dashboards/wastewater/covid_quantification/covid_quant_gu/).
+Se nedan för mer om [metoderna som används vid övervakning](#metoder), [kort sammanfattande information om virusen](#grundläggande-virusinformation), och [information om insamlad data](#dataset).
 
-Projektet leds av professor Heléne Norder (Göteborgs universitet, GU), och stöds av medarbetare från Göteborgs universitet och Sahlgrenska Universitetssjukhuset (Marianela Patzi Churqui, Timur Tunovic, Hao Wang, Fredy Saguti, och Kristina Nyström). Provtagningarna av avloppsvatten utförs av Lucica Enache på Ryaverket, Gryaab AB, Göteborg.
+Studierna av enteriska virus i avloppsvatten har inom Nordergruppen skett parallellt med arbetet att studera SARS-CoV-2 i avloppsvatten, dessa data delas också [på portalen](/sv/dashboards/wastewater/covid_quantification/covid_quant_gu/).
 
-Data och visualiseringar på denna sida kommer att uppdateras ungefär en gång i veckan.
+Data och visualisering på denna webbsida uppdateras oftast **en gång per vecka**.
 
 ## Insamlingsplatser för avloppsvattenprov
 
 Avloppsvattenprover för virusanalys samlas in vid Ryaverkets avloppsreningsverk i Göteborg (se metodavsnittet nedan för detaljer). Ryaverkets reningsverk tar emot avloppsvatten från samtliga hushåll i Göteborg, vilket omfattar 790 000 invånare, samt industrin i området. Avloppsvatten tas även emot från industri och boende i kringliggande kommuner, bland annat Ale, Härryda, Kungälv, Lerum, Mölndal och Partille, samt från storm- och snösmältvatten från äldre delar av Göteborg.
 
-<div class="alert alert-info">Last updated: <span id="last_modified_enteric"></span></div>
+## Visualiseringar
+
+<div class="alert alert-info">Senast uppdaterad: <span id="last_modified_enteric"></span></div>
 
 Vänligen se [avsnittet med sammanfattande information om virusen](#grundläggande-virusinformation) för mer information om vart och ett av de virus som data samlas in för.
 
@@ -37,15 +39,31 @@ Vänligen se [avsnittet med sammanfattande information om virusen](#grundläggan
 </div>
 
  <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/enteric_graph_gu.json" height="550px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/enteric_graph_gu_new.json" height="550px" >}}</div>
 </div>
 
 **Källkod som avvänts för att generera visualiseringar:** [Källskod](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/enteric_viruses_gu.py).
 
 ## Kommentarer från forsksargruppen
 
-<div><b>Date:</b><span id="gu_enteric_comment_date"></span><br><b>Commentary:</b>
-<span id="gu_enteric_comment"></span></div>
+<!-- <div><b>Date:</b><span id="gu_enteric_comment_date"></span><br><b>Commentary:</b>
+<span id="gu_enteric_comment"></span></div> -->
+
+<div><b>Date:</b> 2023-11-23<br><b>Commentary:</b> From week 20 we have implemented a new concentration method for virus detection. The new technology is ultrafiltration and has been used in parallel with our standard method until now. The new technique has higher sensitivity for the detection and recovery of viruses and has a shorter processing time. The new figure displays the total number of viral genome copies per day instead of the relative amount of viral genomes previously used for SARS-CoV-2. As a result, the baseline for the detection is elevated.
+
+Three weeks after the schools started in Gothenburg, the levels of enterovirus increased in the wastewater and is now decreasing again. Enterovirus often peaks in late summer and early autumn. This virus may cause outbreaks usually among children and adolescents. Rhinoviruses cause common cold and often peaks during early autumn and colder seasons. There were many rhinovirus infections in Gothenburg during late August/early September which may explain some of the increase during weeks 40-43.
+
+No major outbreak caused by the other investigated viruses has been identified until now.
+
+In February we had a minor increase in norovirus GG2 (winter vomiting disease virus) a little earlier than usual and it decreased by week 11. Some minor increases also occurred in late May, but no major outbreak was observed.
+
+For astrovirus, there was a small outbreak in weeks 9 and 10 (end of February and start of March). A slight increase is now observed as expected.
+
+Sapovirus peaked slightly in week 14 (early April).
+
+Adenovirus peaked slightly in week 10, no additional increase has been observed. From week 22 we have improved the technology's sensitivity for adenovirus detection, which means that the baseline for adenovirus detection is elevated. During summer (from June to the beginning of August), Adenovirus showed an increase during weeks 26 to 32.
+
+The amount of pepper mild mottle virus (PMMoV) has varied more than 10-fold during the year. This virus is often used as an indicator of fecal contamination of water. In commercial assays for SARS-CoV-2 detection, quantification of PMMoV is used as an indicator of the number of people contributing to the wastewater, assuming we consume the same amount of peppers and chilies every week. It increased in early June and around midsummer, indicating an increase in our pepper consumption during those weeks rather than an increase in the number of people contributing to the wastewater during those weeks.</div>
 
 {{< ww_dynamic_content >}}
 <br>
@@ -54,13 +72,13 @@ Vänligen se [avsnittet med sammanfattande information om virusen](#grundläggan
 
 ###### **Nedladdning av data:**
 
-[Kvantifiering av mängd SARS-CoV-2 och enteriska virus i avloppsvatten](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx). Results för SARS-CoV-2 mätningar är tillgängliga från vecka 7 2020 (med ett avbrott vintern 2022-2023), och för enteriska virus från vecka 2 2023. Uppdatering sker varje vecka.
+[Kvantifiering av mängd SARS-CoV-2 och enteriska virus i avloppsvatten](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx). Results för SARS-CoV-2 mätningar är tillgängliga från vecka 20 2023. Uppdatering sker varje vecka.
 
 **Kontakt:** <helene.norder@gu.se>
 
 ###### **För att citera datasetet:**
 
-Norder, H., Nyström, K. Patzi Churqui, M., Tunovic, T., Wang, H. (2023). Detection of SARS-CoV-2 and other human enteric viruses in wastewater from Gothenburg. [https://doi.org/10.17044/scilifelab.22510501](https://doi.org/10.17044/scilifelab.22510501).
+Norder, H., Nyström, K. Patzi Churqui, M., Tunovic, T., Wang, H., Saguti, F. (2023). Detection of SARS-CoV-2 and other human enteric viruses in wastewater from Gothenburg. [https://doi.org/10.17044/scilifelab.24787353.v1](https://doi.org/10.17044/scilifelab.24787353.v1).
 
 ###### **För att citera metoden som används:**
 
@@ -72,13 +90,19 @@ Wang, H., Churqui, M.P., Tunovic, T., Enache, L., Johansson, A., Karmander, A., 
 
 ## Metoder
 
-Insamling av avloppsvatten sker genom en fast insamlare som samlar in 30ml avloppsvatten per 10,000m<sup>3</sup> av inkommande avloppsvatten. För analys veckovis poolas sju prover, varje avloppsvattenprov representerar insamling under ett dygn). En del av detta prov skickas till Klinisk Mikrobiologi på Sahlgrenska Universitetssjukhuset för analys. Mängd prov som skickas varje vecka varierar mellan 1.5-15l beroende på vattenflödet, vilket till stor del beror på väderleken. Mängd avloppsvatten från hushåll och industri är relativt konstant över tid, men mängd avloppsvatten beror även på väderleksförhållandena, exempelvis ökar mängd avloppsvatten vid regnväder. För att ta hänsyn till detta under analysen är proverna som ska analyseras för virus flödesviktade. Det betyder att mängd avloppsvatten som samlas in och analyseras relaterar till flödet av inkommande avloppsvatten. Mer information om detta finns i [Hellmér _et al._ (2014)](https://pubmed.ncbi.nlm.nih.gov/25172863/) och [Wang _et al._ (2022)](https://pubmed.ncbi.nlm.nih.gov/36035197/).
+Insamling av avloppsvatten sker genom en fast insamlare som samlar in 30ml avloppsvatten per 10,000m<sup>3</sup> av inkommande avloppsvatten. För analys veckovis poolas sju prover, varje avloppsvattenprov representerar insamling under ett dygn. En del av detta prov skickas till Klinisk Mikrobiologi på Sahlgrenska Universitetssjukhuset för analys. Mängd prov som skickas varje vecka varierar mellan 1.5-15l beroende på vattenflödet, vilket till stor del beror på väderleken. Mängd avloppsvatten från hushåll och industri är relativt konstant över tid, men mängd avloppsvatten beror även på väderleksförhållandena, exempelvis ökar mängd avloppsvatten vid regnväder. För att ta hänsyn till detta under analysen är proverna som ska analyseras för virus flödesviktade. Det betyder att mängd avloppsvatten som samlas in och analyseras relaterar till flödet av inkommande avloppsvatten. Mer information om detta finns i [Hellmér _et al._ (2014)](https://pubmed.ncbi.nlm.nih.gov/25172863/) och [Wang _et al._ (2022)](https://pubmed.ncbi.nlm.nih.gov/36035197/).
 
-På Klinisk Mikrobiologi på Sahlgrenska Universitetssjukhuset koncentreras proverna till en volym av 2.5ml med hjälp av en metod som utvecklas inom forskargruppen. Denna metod använder NanoCeram electropositive filter (Argonide, Florida, USA) för att koncentrera proverna, följt av ultracentrifugering som sekundär metod ([Saguti et al., 2021](https://doi.org/10.1016/j.watres.2020.116620)). Nukleinsyror extraheras från ett koncentrerat prov på 1 ml med hjälp av QIAamp Circulating Nucleic Acid Kit (Qiagen, Hilden, Germany). Realtids- PCR (RT-qPCR) användes för att detekter och kvantifiera mängd virusgenom. Mer information om metoden som används för att beräkna virusmängd finns i [Hellmér et al. (2014)](https://doi.org/10.1128/AEM.01981-14), [Saguti et al. (2021)](https://doi.org/10.1016/j.watres.2020.116620), and [Wang et al. (2022)](https://doi.org/10.1016/j.isci.2022.105000).
+På Klinisk Mikrobiologi på Sahlgrenska Universitetssjukhuset används två metoder utvecklade inom gruppen för att koncentrera virusmängderna. Den metod som nu används använder sig av ultrafiltrering som primär metod. Den tidigare metoden använde ett elektropositivt filter (Argonide, Florida, USA) för att koncentrera proverna ([Saguti et al., 2021](https://doi.org/10.1016/j.watres.2020.116620)).
+
+Nukleinsyror extraheras från ett koncentrerat prov på 1 ml med hjälp av QIAamp Circulating Nucleic Acid Kit (Qiagen, Hilden, Germany). Realtids- PCR (RT-qPCR) användes för att detektera och kvantifiera mängd virusgenom. Mer information om metoden som används för att beräkna virusmängd finns i [Hellmér et al. (2014)](https://doi.org/10.1128/AEM.01981-14), [Saguti _et al._ (2021)](https://doi.org/10.1016/j.watres.2020.116620), [Wang _et al._ (2022)](https://doi.org/10.1016/j.isci.2022.105000), och [Wang _et al._ (2023)](https://doi.org/10.1016/j.scitotenv.2023.165012). Båda metoderna anges virusmängd per dag som ett genomsnitt, eftersom virusmängden baseras på en veckas insamling av avloppsvatten.
+
+## Arkiverade data
+
+[Historisk enteriska virus data från Gothenburg mellan veckorna 2 och 43 2023](/sv/dashboards/wastewater/enteric_quantification/historic_enteric_gu/).
 
 ### Grundläggande virusinformation
 
-**Enterovirus** är det största släktet med flest olika virus som infekterar människor. Det omfattar 15 arter, med flertal typer inom varje art. Totalt är de drygt 300 olika virus typer som infekterar människa. I arterna enterovirus A-D (EV-A-EV-D) återfinns av 112 typer (inklusive poliovirus i EV-C)) och arterna rhinovirus A-C (RV-A-RV-C) återfinns 169 typer. Immunitet mot en typ ger inte immunitet mot en annan (dvs. det finns ingen korsimmunitet). Infektioner med enterovirus är ofta asymtomatiska, EV-infektioner är vanliga hos barn och unga vuxna. De kan ge influensaliknande symtom, konjunktivit (ögoninflammation), myokardit (hjärtmuskelinflammation), meningit (hjärnhinneinflammation), encefalit (hjärninflammation) och förlamning. Dessa virus kan orsaka större utbrott. Ungefär vart 5:e till 7:e år inträffar utbrott av hjärnhinneinflammation bland unga i Europa orsakade av en EV-typ som tillhör EV-A-C. RV-infektioner är mycket vanliga i alla åldrar, särskilt på vintern. De är oftast milda, men kan även ge influensaliknande symtom, sjukdomar i nedre luftvägarna och/eller förvärra kroniska sjukdomar t.ex. astma.
+**Enterovirus** är det största släktet med flest olika virus som infekterar människor. Det omfattar 15 arter, med flertal typer inom varje art. Totalt är de drygt 300 olika virustyper som infekterar människa. I arterna enterovirus A-D (EV-A-EV-D) återfinns av 112 typer (inklusive poliovirus i EV-C) och arterna rhinovirus A-C (RV-A-RV-C) återfinns 169 typer. Immunitet mot en typ ger inte immunitet mot en annan (dvs. det finns ingen korsimmunitet). Infektioner med enterovirus är ofta asymtomatiska, EV-infektioner är vanliga hos barn och unga vuxna. De kan ge influensaliknande symtom, konjunktivit (ögoninflammation), myokardit (hjärtmuskelinflammation), meningit (hjärnhinneinflammation), encefalit (hjärninflammation) och förlamning. Dessa virus kan orsaka större utbrott. Ungefär vart 5:e till 7:e år inträffar utbrott av hjärnhinneinflammation bland unga i Europa orsakade av en EV-typ som tillhör EV-A-C. RV-infektioner är mycket vanliga i alla åldrar, särskilt på vintern. De är oftast milda, men kan även ge influensaliknande symtom, sjukdomar i nedre luftvägarna och/eller förvärra kroniska sjukdomar t.ex. astma.
 
 **Adenovirus** tillhör _adenoviridae-familjen_. Det finns 88 typer av humana adenovirus, klassificerade i 7 arter (HAdV-A till -G). Olika typer infekterar olika organ eller organsystem (dvs de har olika vävnadstropismer). Hos människa orsakar adenovirus ofta luftvägssjukdomar. Symtomen kan vara influensaliknande, halsont, akut bronkit och lunginflammation (HAdV-B och C), konjunktivit (ögoninflammation orsakad av HAdV-B och D) och gastroenterit (HAdV-F och G).Allvarliga komplikationer efter en adenovirus infektion är sällsynt. Barn under 9 år löper störst risk för symptomatisk infektion, men även vuxna drabbas främst av ögoninflammationer och magsjuka orsakat av adenovirus. Dessa virus orsakar inte epidemier men kan spridas mellan vuxna i trånga miljöer som på sjukhus och militäranläggningar eller i simbassänger.
 
