@@ -53,7 +53,7 @@ There has been a slight increase in the amount of SARS-CoV-2 in Gothenburg's was
 
 **Contact:** <helene.norder@gu.se>
 
-**How to cite the dataset:** Norder, H., Nyström, K. Patzi Churqui, M., Tunovic, T., Wang, H. (2023). Detection of SARS-CoV-2 and other human enteric viruses in wastewater from Gothenburg. [https://doi.org/10.17044/scilifelab.22510501](https://doi.org/10.17044/scilifelab.22510501).
+**How to cite the dataset:** Norder, H., Nyström, K. Patzi Churqui, M., Tunovic, T., Wang, H., Saguti, F. (2023). Detection of SARS-CoV-2 and other human enteric viruses in wastewater from Gothenburg. [https://doi.org/10.17044/scilifelab.24787353.v1](https://doi.org/10.17044/scilifelab.24787353.v1).
 
 **How to cite method:**
 
