@@ -29,8 +29,8 @@ $ hugo serve
   Cleaned          |  0 |  0
 
 Built in 123 ms
-Watching for changes in /Users/philewels/GitHub/covid-portal/{archetypes,content,layouts,static}
-Watching for config changes in /Users/philewels/GitHub/covid-portal/config.yaml
+Watching for changes in /Users/philewels/GitHub/pathogens-portal/{archetypes,content,layouts,static}
+Watching for config changes in /Users/philewels/GitHub/pathogens-portal/config.yaml
 Environment: "development"
 Serving pages from memory
 Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender

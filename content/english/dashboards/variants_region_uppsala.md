@@ -39,7 +39,7 @@ Use the **‘Last 16 weeks’ button** to see data only from the last 16 weeks, 
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/lineage_four_recent.json" height="600px" >}}</div>
 </div>
 
-**Code used to produce plots:** [Graph and data preparation script](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/ClinMicro/lineage_four_recent.py).
+**Code used to produce plots:** [Graph and data preparation script](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/ClinMicro/lineage_four_recent.py).
 
 ### All sequences with WHO label/Pango lineage)
 
@@ -55,7 +55,7 @@ Use the **’Deselect all lineages’ button** to clear data from all lineages f
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/lineage_one_wholetime.json" height="600px" >}}</div>
 </div>
 
-**Code used to produce plots:** [Graph and data preparation script](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/ClinMicro/lineage_one_plot.py).
+**Code used to produce plots:** [Graph and data preparation script](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/ClinMicro/lineage_one_plot.py).
 
 ## Commentary from the research group
 

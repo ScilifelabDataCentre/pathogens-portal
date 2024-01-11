@@ -51,7 +51,7 @@ For more information on vaccination in Sweden, please also see the [RECOVAC dash
 
 The [Swedish Health Agency (Folkhälsomyndigheten, FoHM)](https://folkhalsomyndigheten.se) provide information, summary statistics, and data related to COVID-19 vaccination in Sweden [(only available in Swedish)](https://www.folkhalsomyndigheten.se/folkhalsorapportering-statistik/statistikdatabaser-och-visualisering/vaccinationsstatistik/statistik-for-vaccination-mot-covid-19/). The visualisations below are based on the publicly available COVID-19 vaccination data from FoHM, which can be [downloaded directly](https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data). For each visualisation, we describe which data in the dataset were used, how calculations were completed, and provide a link to the script(s) used to produce it.
 
-The source data is updated weekly (on Thursdays), and the visualisations on this page will be updated shortly thereafter (usually on Fridays). All of our code related to this page is available on [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Vaccine_page). All of the vaccine data is processed using a single [data preparation script](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_dataprep_Swedentots.py). The code required to generate each visualisation/number set is linked close to the corresponding plot/text.
+The source data is updated weekly (on Thursdays), and the visualisations on this page will be updated shortly thereafter (usually on Fridays). All of our code related to this page is available on [GitHub](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/tree/main/Vaccine_page). All of the vaccine data is processed using a single [data preparation script](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/Vaccine_page/vaccine_dataprep_Swedentots.py). The code required to generate each visualisation/number set is linked close to the corresponding plot/text.
 
 ### General summary statistics
 
@@ -73,9 +73,9 @@ Vaccination data is spread between multiple tabs of the [FoHM data file](https:/
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/Total_vaccinated_barchart.json" height="500px" >}}</div>
 </div>
 
-**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_indicator_barchart.py).
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/Vaccine_page/vaccine_indicator_barchart.py).
 
-**Code used to generate the 'live text' in the summary paragraph below:** ['Live text' script](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_livetext.py).
+**Code used to generate the 'live text' in the summary paragraph below:** ['Live text' script](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/Vaccine_page/vaccine_livetext.py).
 
 To summarise, in total, <span id="eligible_one_dose"></span>% of the population that are eligible for the first dose have received at least one dose of vaccination against COVID-19, which represents <span id="population_one_dose"></span>% of the whole population. The values indicate that <span id="eligible_one_dose_lastweek"></span>% of the eligible population were vaccinated last week (a change in rate of <span id="eligible_one_dose_rate_change"></span>% compared to the previous week), or <span id="population_one_dose_lastweek"></span>% of the whole population (a change of <span id="population_one_dose_rate_change"></span>% compared to the previous week). By contrast, <span id="eligible_two_doses"></span>% of those eligible, and <span id="population_two_doses"></span>% of the whole population have received at least two doses in total. The values indicate that <span id="eligible_two_doses_lastweek"></span>% of those eligible and <span id="population_two_doses_lastweek"></span>% of the whole population received their second dose last week (a change in rate of <span id="eligible_two_doses_rate_change"></span>% and <span id="population_two_doses_rate_change"></span>% compared to the previous week, respectively). In total, <span id="eligible_three_doses"></span>% of the eligible population received the third dose, representing <span id="population_three_doses"></span>% of the whole population. This means that <span id="eligible_three_doses_lastweek"></span>% of the eligible population received their third dose last week (a change in rate of <span id="eligible_three_doses_rate_change"></span>% compared to the previous week), or <span id="population_three_doses_lastweek"></span>% of the whole population (a change of <span id="population_three_doses_rate_change"></span>% compared to the previous week). To date, <span id="population_four_doses"></span>% of the whole population has received a fourth dose, and <span id="eligible_four_doses"></span>% of those eligible. In the last week, <span id="population_four_doses_lastweek"></span>% of the whole population were vaccinated with a fourth dose, a change in rate of <span id="population_four_doses_rate_change"></span>% compared to the previous week. By contast, <span id="eligible_four_doses_lastweek"></span>% of the eligible population were vaccinated with a fourth dose, a relative change in rate of <span id="eligible_four_doses_rate_change"></span>% compared to the previous week. A fifth dose was added in September 2022, <span id="population_five_doses"></span>% of the Swedish population have received that dose to date, which amounts to <span id="eligible_five_doses"></span>% of those eligible. A total of <span id="population_five_doses_lastweek"></span>% of the whole population were vaccinated with a fifth dose in the last week, a change of <span id="population_five_doses_rate_change"></span>% compared to the week before. When considering only the eligible population, <span id="eligible_five_doses_lastweek"></span>% were given a fifth dose last week, which constitutes a relative change in rate of <span id="eligible_five_doses_rate_change"></span>% compared to the previous week.
 
@@ -93,7 +93,7 @@ The below graph shows vaccine coverage across the whole of Sweden. We use the 'w
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/vaccine_timeseries_pop_barchart.json" height="500px" >}}</div>
 </div>
 
-**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_timeseries_barchart.py).
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/Vaccine_page/vaccine_timeseries_barchart.py).
 
 ### Administration of vaccinations in each Swedish county (län)
 
@@ -109,7 +109,7 @@ Again, please note that percentage values calculated using the 'whole population
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/onedose_pop_map.json" height="500px" >}}</div>
 </div>
 
-**Code used to produce plot:** [Script to produce maps](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_maps_population.py).
+**Code used to produce plot:** [Script to produce maps](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/Vaccine_page/vaccine_maps_population.py).
 
 #### Received at least two vaccine doses
 
@@ -117,7 +117,7 @@ Again, please note that percentage values calculated using the 'whole population
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/twodoses_pop_map.json" height="500px" >}}</div>
 </div>
 
-**Code used to produce plot:** [Script to produce maps](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_maps_population.py).
+**Code used to produce plot:** [Script to produce maps](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/Vaccine_page/vaccine_maps_population.py).
 
 #### Received at least three vaccine doses
 
@@ -125,7 +125,7 @@ Again, please note that percentage values calculated using the 'whole population
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/threedoses_pop_map.json" height="500px" >}}</div>
 </div>
 
-**Code used to produce plot:** [Script to produce maps](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_maps_population.py).
+**Code used to produce plot:** [Script to produce maps](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/Vaccine_page/vaccine_maps_population.py).
 
 #### Received at least four vaccine doses
 
@@ -133,7 +133,7 @@ Again, please note that percentage values calculated using the 'whole population
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/fourdoses_pop_map.json" height="500px" >}}</div>
 </div>
 
-**Code used to produce plot:** [Script to produce maps](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_maps_population.py).
+**Code used to produce plot:** [Script to produce maps](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/Vaccine_page/vaccine_maps_population.py).
 
 #### Received at least five vaccine doses
 
@@ -148,7 +148,7 @@ Please note the differences between the two below maps. Coverage appears to be v
 </div></div>
 </div>
 
-**Code used to produce plot:** [Script to produce maps](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_maps_population.py).
+**Code used to produce plot:** [Script to produce maps](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/Vaccine_page/vaccine_maps_population.py).
 
 ### Administration of vaccinations according to age group
 
@@ -166,7 +166,7 @@ Data is available on the number of individuals aged 65-69 that have received the
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/vaccine_heatmap.json" height="500px" >}}</div>
 </div>
 
-**Code used to produce plot:** [Script to produce heatmap](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Vaccine_page/vaccine_heatmaps.py).
+**Code used to produce plot:** [Script to produce heatmap](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/Vaccine_page/vaccine_heatmaps.py).
 
 ## Ongoing research projects
 

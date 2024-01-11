@@ -17,9 +17,9 @@ aliases:
   <span>En svensk översättning av denna sida kommer inom kort.</span>
 </div>
 
-The visualisations on this page evaluate the development of COVID-19 and SARS-CoV-2 research across Sweden by assessing publication output. Specifically, we consider multiple aspects of journal publications and preprints where at least one author has an affiliation with a Swedish research institute. The database containing the publications themselves [can be found on this page](/publications/), and is available for download, please see [DOI: 10.17044/scilifelab.14124014](https://doi.org/10.17044/scilifelab.14124014) for details. The database is manually curated, so may not be exhaustive. From May 2023, we began to use the Europe PMC REST API to idenfy publications. The scripts that we use to do this are [openly available on GitHub](https://github.com/ScilifelabDataCentre/covid-portal-scripts/tree/main/All_publications) and can be reused for work with other pathogens. The database is updated monthly at the start of the month.
+The visualisations on this page evaluate the development of COVID-19 and SARS-CoV-2 research across Sweden by assessing publication output. Specifically, we consider multiple aspects of journal publications and preprints where at least one author has an affiliation with a Swedish research institute. The database containing the publications themselves [can be found on this page](/publications/), and is available for download, please see [DOI: 10.17044/scilifelab.14124014](https://doi.org/10.17044/scilifelab.14124014) for details. The database is manually curated, so may not be exhaustive. From May 2023, we began to use the Europe PMC REST API to idenfy publications. The scripts that we use to do this are [openly available on GitHub](https://github.com/ScilifelabDataCentre/pathogens-portal-scripts/tree/main/All_publications) and can be reused for work with other pathogens. The database is updated monthly at the start of the month.
 
-The code used to produce the visulations on this page can be found on [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations). Specifically, code related to the number of publications can be found in the ['Count_publications' folder of the repository](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Count_publications), and code used to generated the wordclouds can be found in the ['Wordcloud' folder](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Wordcloud).
+The code used to produce the visulations on this page can be found on [GitHub](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations). Specifically, code related to the number of publications can be found in the ['Count_publications' folder of the repository](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/tree/main/Count_publications), and code used to generated the wordclouds can be found in the ['Wordcloud' folder](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/tree/main/Wordcloud).
 
 ## Number of new publications
 
@@ -37,7 +37,7 @@ This graph displays the number of publications (including both journal publicati
 {{< publications_per_month >}}
 </div> -->
 
-**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Count_publications/count_publications.py).
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/Count_publications/count_publications.py).
 
 ## Ten most recent publications
 
@@ -51,7 +51,7 @@ This table displays the ten most recent publications in our database (including 
 
 These wordclouds display the words and two word phrases that appear most frequently in the titles of preprints or journal publications within the database. Note that we have filtered out commonly used words that are uninformative (e.g. 'the', 'a', 'this') as well as the words 'COVID-19' and 'SARS-CoV-2', since these appeared in almost all titles. The wordclouds are updated weekly.
 
-**Code used to produce plot:** [Script to produce wordclouds](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Wordcloud/livewordcloud.py). Note that the script relies on multiple external files that can be found in the [same folder in the GitHub repository](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Wordcloud).
+**Code used to produce plot:** [Script to produce wordclouds](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/Wordcloud/livewordcloud.py). Note that the script relies on multiple external files that can be found in the [same folder in the GitHub repository](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/tree/main/Wordcloud).
 
 #### All publications
 
@@ -67,7 +67,7 @@ Wordclouds are displayed for each funder that we identified as having been assoc
 
 These wordclouds display the words and two word phrases that appear most frequently in the abstracts of preprints or journal publications within the database. Note that we have filtered out commonly used words that are uninformative (e.g. 'the', 'a', 'this') as well as the words 'COVID-19' and 'SARS-CoV-2', since these appeared in almost all abstracts. The wordclouds are updated weekly.
 
-**Code used to produce plot:** [Script to produce wordclouds](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Wordcloud/livewordcloud.py). Note that the script relies on multiple external files that can be found in the [same folder in the GitHub repository](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Wordcloud).
+**Code used to produce plot:** [Script to produce wordclouds](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/Wordcloud/livewordcloud.py). Note that the script relies on multiple external files that can be found in the [same folder in the GitHub repository](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/tree/main/Wordcloud).
 
 #### All publications
 

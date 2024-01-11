@@ -26,15 +26,15 @@ It uses the [Bootstrap](https://getbootstrap.com/) framework. In addition, it us
 
 ### Adding and editing information in different sections
 
-We prepared detailed instructions on how to add or edit information in each specific section of the portal, see [the page on adding and editing information in the CONTRIBUTING folder](https://github.com/ScilifelabDataCentre/covid-portal/blob/develop/CONTRIBUTING/adding_editing_information.md).
+We prepared detailed instructions on how to add or edit information in each specific section of the portal, see [the page on adding and editing information in the CONTRIBUTING folder](https://github.com/ScilifelabDataCentre/pathogens-portal/blob/develop/CONTRIBUTING/adding_editing_information.md).
 
 ### Testing changes with a local copy of the portal
 
-Users who are technically more advanced are welcome to make contributions by running a local copy of the portal on their own computers, we prepared [instructions on how to do that here](https://github.com/ScilifelabDataCentre/covid-portal/blob/develop/CONTRIBUTING/running_a_local_copy.md).
+Users who are technically more advanced are welcome to make contributions by running a local copy of the portal on their own computers, we prepared [instructions on how to do that here](https://github.com/ScilifelabDataCentre/pathogens-portal/blob/develop/CONTRIBUTING/running_a_local_copy.md).
 
 ### Using ImJoy Plugins
 
-This website supports [ImJoy](https://imjoy.io) plugins which can be used to visualize, annotate, run analysis directly from the website. See [an example here](https://covid19dataportal.se/highlights/immunofluorescence/). Please see the file [CONTRIBUTING/ImJoy.md](https://github.com/ScilifelabDataCentre/covid-portal/blob/develop/CONTRIBUTING/ImJoy.md) for examples of usage.
+This website supports [ImJoy](https://imjoy.io) plugins which can be used to visualize, annotate, run analysis directly from the website. See [an example here](https://covid19dataportal.se/highlights/immunofluorescence/). Please see the file [CONTRIBUTING/ImJoy.md](https://github.com/ScilifelabDataCentre/pathogens-portal/blob/develop/CONTRIBUTING/ImJoy.md) for examples of usage.
 
 ### The Swedish COVID-19 Sample Collection Database
 
@@ -42,7 +42,7 @@ The portal team works closely with [Biobank Sverige](https://biobanksverige.se) 
 
 ### Data visualisations
 
-Unless otherwise specified, the data visualisations on the portal have been developed in-house by the portal team. A link to the code underlying each visualisation is provided on the portal page on which it is displayed. All visualisations on the portal can be found on our dedicated [GitHub repository](https://github.com/ScilifelabDataCentre/covid-portal-visualisations).
+Unless otherwise specified, the data visualisations on the portal have been developed in-house by the portal team. A link to the code underlying each visualisation is provided on the portal page on which it is displayed. All visualisations on the portal can be found on our dedicated [GitHub repository](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations).
 
 ## How to get help
 
