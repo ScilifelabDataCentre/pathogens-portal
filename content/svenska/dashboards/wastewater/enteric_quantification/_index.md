@@ -44,7 +44,7 @@ Vänligen se [avsnittet med sammanfattande information om virusen](#grundläggan
 
 **Källkod som avvänts för att generera visualiseringar:** [Källskod](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/enteric_viruses_gu.py).
 
-## Kommentarer från forsksargruppen
+## Kommentarer från forskargruppen
 
 <!-- <div><b>Date:</b><span id="gu_enteric_comment_date"></span><br><b>Commentary:</b>
 <span id="gu_enteric_comment"></span></div> -->

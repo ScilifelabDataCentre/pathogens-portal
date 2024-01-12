@@ -12,7 +12,7 @@ aliases:
 
 ## Introduktion
 
-Denna webbsida visar virusdata relaterade till SARS-CoV-2 i Göteborg, Sverige. Data har insamlats av Helene Norders forskargrupp vid Göteborgs universitet, i samarbete med andra medarbetare från Göteborgs universitet och Sahlgrenska universitetssjukhuset (Hao Wang, Marianela Patzi Churqui, Timur Tunovic, Fredy Saguti och Kristina Nyström) och Lucica Enache, Ryaverket, Gryaab AB, Göteborg.
+Denna webbsida visar virusdata relaterade till SARS-CoV-2 i Göteborg, Sverige. Data har insamlats av Professor Helene Norders forskargrupp vid Göteborgs universitet, i samarbete med andra medarbetare från Göteborgs universitet och Sahlgrenska universitetssjukhuset (Hao Wang, Marianela Patzi Churqui, Timur Tunovic, Fredy Saguti och Kristina Nyström) och Lucica Enache, Ryaverket, Gryaab AB, Göteborg.
 
 Gruppen började samla in prover den 10 februari (vecka 7) 2020. De uppdaterade metoderna relaterade till att analysera SARS-CoV-2 proverna under 2023 och började använda denna uppdaterade metod den 15 maj (vecka 20) 2023. Den här sidan berör endast data som samlats in med deras uppdaterade metod. Data och visualisering på denna webbsida uppdateras oftast **en gång per vecka**.
 
