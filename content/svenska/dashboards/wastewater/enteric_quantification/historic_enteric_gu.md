@@ -37,7 +37,7 @@ Vänligen se [avsnittet med sammanfattande information om virusen](#grundläggan
 
 **Källkod som avvänts för att generera visualiseringar:** [Källskod](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/enteric_viruses_gu_historic.py).
 
-## Kommentarer från forsksargruppen
+## Kommentarer från forskargruppen
 
 <div><b>Date:</b> 2023-11-07<br><b>Commentary:</b> Three weeks after the schools started in Gothenburg, the levels of enterovirus increased in the wastewater. Enterovirus often peaks in late summer and early autumn, and outbreaks of rhinovirus and enterovirus especially infect young people.
 

@@ -5,7 +5,7 @@ aliases:
   - /sv/dashboards/wastewater/covid_quant_gu/historic_covid_gu/
 ---
 
-Denna webbsida visar historiska epidemiologiska data relaterade till SARS-CoV-2 i Göteborg, Sverige. Data har insamlats av Helene Norders forskargrupp vid Göteborgs universitet, i samarbete med andra medarbetare från Göteborgs universitet och Sahlgrenska universitetssjukhuset (Hao Wang, Marianela Patzi Churqui, Timur Tunovic, Fredy Saguti, and Kristina Nyström). Data som visas på denna sida samlades in mellan vecka 7 2020 och vecka 42 2023 (dvs mellan 10 februari 2020 och 23 oktober 2023). Forskargruppen började under vecka 20 2023 att använda en ny metod för att studera SARS-CoV-2. Data som produceras med denna nya metod fortsätter att uppdateras ungefär en gång i veckan och är tillgängliga på webbsidan ['Mängd SARS-COV-2 i avloppsvatten (GU)'](/sv/dashboards/wastewater/covid_quantification/covid_quant_gu/).
+Denna webbsida visar historiska epidemiologiska data relaterade till SARS-CoV-2 i Göteborg, Sverige. Data har insamlats av Professor Helene Norders forskargrupp vid Göteborgs universitet, i samarbete med andra medarbetare från Göteborgs universitet och Sahlgrenska universitetssjukhuset (Hao Wang, Marianela Patzi Churqui, Timur Tunovic, Fredy Saguti, and Kristina Nyström). Data som visas på denna sida samlades in mellan vecka 7 2020 och vecka 42 2023 (dvs mellan 10 februari 2020 och 23 oktober 2023). Forskargruppen började under vecka 20 2023 att använda en ny metod för att studera SARS-CoV-2. Data som produceras med denna nya metod fortsätter att uppdateras ungefär en gång i veckan och är tillgängliga på webbsidan ['Mängd SARS-COV-2 i avloppsvatten (GU)'](/sv/dashboards/wastewater/covid_quantification/covid_quant_gu/).
 
 ## Insamlingsplatser för avloppsvatten
 
