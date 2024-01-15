@@ -33,7 +33,7 @@ The data underlying the visualisations on this page are from [The Swedish Board 
 
 ### Code
 
-All code used to produce the visualisations on this page is available on [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/postCOVID). The particular scripts used in each case are linked below the individual visualisations.
+All code used to produce the visualisations on this page is available on [GitHub](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/tree/main/postCOVID). The particular scripts used in each case are linked below the individual visualisations.
 
 ## Statistics on Post COVID-19 condition in Sweden
 
@@ -53,7 +53,7 @@ These plots display the number of times that patients were assigned the diagnose
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/U099_agesex_casedist.json" height="500px" >}}</div>
 </div>
 
-**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/create_agesex_distcases.py).
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/create_agesex_distcases.py).
 
 #### Diagnosis Z86.1A/U08.9
 
@@ -61,7 +61,7 @@ These plots display the number of times that patients were assigned the diagnose
     <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/U089_agesex_casedist.json" height="500px" >}}</div>
 </div>
 
-**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/create_agesex_distcases.py).
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/create_agesex_distcases.py).
 
 ### Geographic distribution of diagnosed cases relative to population size
 
@@ -73,7 +73,7 @@ The maps below show the number of people that received the diagnoses of interest
     <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/map_postcovid_percent_of_population_U099.json" height="500px" >}}</div>
 </div>
 
-**Code used to produce plot:** [Data preparation script](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Script to produce map](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_population_U099.py).
+**Code used to produce plot:** [Data preparation script](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Script to produce map](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_population_U099.py).
 
 #### Diagnosis Z86.1A/U08.9
 
@@ -81,7 +81,7 @@ The maps below show the number of people that received the diagnoses of interest
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/map_postcovid_percent_of_population_U089.json" height="500px" >}}</div>
 </div>
 
-**Code used to produce plot:** [Data preparation script](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Script to produce map](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_population_U089.py).
+**Code used to produce plot:** [Data preparation script](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Script to produce map](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_population_U089.py).
 
 <!--
 
@@ -97,7 +97,7 @@ The maps below show the number of people that received the diagnoses of interest
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/map_postcovid_percent_of_covidcases_U099.json" height="500px" >}}</div>
 </div>
 
-**Code used to produce plot:** [Data preparation script](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Script to produce map](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_cases_U099.py).
+**Code used to produce plot:** [Data preparation script](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Script to produce map](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_cases_U099.py).
 
 #### Diagnosis Z86.1A/U08.9
 
@@ -105,7 +105,7 @@ The maps below show the number of people that received the diagnoses of interest
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/map_postcovid_percent_of_covidcases_U089.json" height="500px" >}}</div>
 </div>
 
-**Code used to produce plot:** [Data preparation script](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Script to produce map](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_cases_U089.py).
+**Code used to produce plot:** [Data preparation script](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Script to produce map](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_cases_U089.py).
 
 -->
 
@@ -121,7 +121,7 @@ The below table displays the most common types of diagnosis (diagnosis groups) t
 
 <span class="text-muted">_Note that an individual may have more than one of the accompanying diagnoses. However, if an individual has the same issue on multiple doctor visits/healthcare contacts, the diagnosis will only be counted once_</span>
 
-**Code used to produce table:** [Script to produce table (English)](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/create_accomp_diagnoses.py), [Script to produce table (Swedish)](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/create_accomp_diagnoses_swe.py).
+**Code used to produce table:** [Script to produce table (English)](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/create_accomp_diagnoses.py), [Script to produce table (Swedish)](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/create_accomp_diagnoses_swe.py).
 
 ### Contacts with healthcare
 
@@ -131,11 +131,11 @@ The below plot shows the number of times that patients given the diagnoses of in
   Rotating your phone may improve graph layout
 </div>
 
-<div class="d-md-none plot_wrapper">
-    <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/weeklycontacts_healthcare.json" height="300px" >}}</div>
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/weeklycontacts_healthcare.json" height="500px" >}}</div>
 </div>
 
-**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/weeklycontacts_healthcare.py).
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/weeklycontacts_healthcare.py).
 
 ### Contacts with healthcare, divided by patient sex
 
@@ -151,7 +151,7 @@ The below plots show the number of times that patients given one of the diagnose
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/U099_healthcare_divsex.json" height="500px" >}}</div>
 </div>
 
-**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/weeklycontacts_healthcare_divsex.py).
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/weeklycontacts_healthcare_divsex.py).
 
 #### Diagnosis Z86.1A/U08.9
 
@@ -163,7 +163,7 @@ The below plots show the number of times that patients given one of the diagnose
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/U089_healthcare_divsex.json" height="500px" >}}</div>
 </div>
 
-**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/weeklycontacts_healthcare_divsex.py).
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/weeklycontacts_healthcare_divsex.py).
 
 ## Ongoing research projects
 

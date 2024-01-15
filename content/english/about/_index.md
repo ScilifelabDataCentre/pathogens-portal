@@ -20,7 +20,7 @@ The _Swedish Pathogens Portal_ provides information about available datasets, re
 
 The Portal is operated by the [SciLifeLab Data Centre](https://scilifelab.se/data/) and [partners](partner_organisations). We welcome community contributions to the Portal and provide information on the different ways that the community can contribute, for more details see [contribute](/contribute/) page. In addition to running the Portal, the team can also either provide support on data-related questions surrounding pandemic preparedness research or help find suitable support services. For more general data support, please see our related research data management service([RDM Guidelines](https://data-guidelines.scilifelab.se/)).
 
-This website is built using [Hugo](https://gohugo.io/) in combination with [Bootstrap](https://getbootstrap.com/) for styling, [DataTables](https://datatables.net/) for tables, and [Vega/Vega-Lite](https://vega.github.io/vega-lite/) and [Plotly](https://plotly.com/) for interactive graphics. All code used for the Portal is open source (held under an [MIT licence](https://choosealicense.com/licenses/mit/)) and [is available on GitHub](https://github.com/ScilifelabDataCentre/covid-portal). We encourage the reuse of our code, either for generating another national portal, or recreating certain features.
+This website is built using [Hugo](https://gohugo.io/) in combination with [Bootstrap](https://getbootstrap.com/) for styling, [DataTables](https://datatables.net/) for tables, and [Vega/Vega-Lite](https://vega.github.io/vega-lite/) and [Plotly](https://plotly.com/) for interactive graphics. All code used for the Portal is open source (held under an [MIT licence](https://choosealicense.com/licenses/mit/)) and [is available on GitHub](https://github.com/ScilifelabDataCentre/pathogens-portal). We encourage the reuse of our code, either for generating another national portal, or recreating certain features.
 
 #### History of the Portal
 
@@ -28,11 +28,11 @@ The Swedish Pathogens Portal was originally launched as the 'Swedish COVID-19 Da
 
 From 2022, the Portal expanded to cover other research relevant to pandemic preparedness and became a part of the [SciLifeLab Pandemic Laboratory Preparedness programme](https://www.scilifelab.se/pandemic-response/pandemic-laboratory-preparedness/). The SciLifeLab Pandemic Laboratory Preparedness Programme is funded by the earmarked governmental funding to SciLifeLab ([Research proposition Prop. 202/21:60](https://www.regeringen.se/rattsliga-dokument/proposition/2020/12/forskning-frihet-framtid--kunskap-och-innovation-for-sverige/)).
 
-From the start, the Portal has been operated by the SciLifeLab Data Centre and partners. However, it has received considerable input from the community. Indeed, many people contributed to building the initial site, and to content throughout. An overview of some of the contributors that have been instrumental to establishing and advancing the Portal can be found on [GitHub](https://github.com/ScilifelabDataCentre/covid-portal/graphs/contributors).
+From the start, the Portal has been operated by the SciLifeLab Data Centre and partners. However, it has received considerable input from the community. Indeed, many people contributed to building the initial site, and to content throughout. An overview of some of the contributors that have been instrumental to establishing and advancing the Portal can be found on [GitHub](https://github.com/ScilifelabDataCentre/pathogens-portal/graphs/contributors).
 
 #### Portal team
 
-Many people from SciLifeLab, NBIS, other organisations, and the community have been involved in the Portal since its conception in early 2020. A complete list of contributors can be found on [GitHub](https://github.com/ScilifelabDataCentre/covid-portal/graphs/contributors). Below, we show the current team of people actively working on the Portal.
+Many people from SciLifeLab, NBIS, other organisations, and the community have been involved in the Portal since its conception in early 2020. A complete list of contributors can be found on [GitHub](https://github.com/ScilifelabDataCentre/pathogens-portal/graphs/contributors). Below, we show the current team of people actively working on the Portal.
 
 The team are happy to help with using the Portal, to take suggestions regarding new and existing sections, and to answer any questions that you may have. Please just get in touch using for [contact](/contact/) form.
 

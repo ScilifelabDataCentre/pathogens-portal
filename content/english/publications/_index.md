@@ -7,7 +7,7 @@ menu:
     weight: 40
 ---
 
-This section presents a list of published scientific journal articles and preprints on COVID-19 and SARS-CoV-2 where at least one author has an affiliation with a Swedish research institute. Note that this database is primarily a manually curated database and thus it may not be exhaustive. Note that from May 2023, we began to use the Europe PMC REST API to idenfy publications. The scripts that we use to do this are [openly available on GitHub](https://github.com/ScilifelabDataCentre/covid-portal-scripts/tree/main/All_publications) and can be reused with other pathogens.
+This section presents a list of published scientific journal articles and preprints on COVID-19 and SARS-CoV-2 where at least one author has an affiliation with a Swedish research institute. Note that this database is primarily a manually curated database and thus it may not be exhaustive. Note that from May 2023, we began to use the Europe PMC REST API to idenfy publications. The scripts that we use to do this are [openly available on GitHub](https://github.com/ScilifelabDataCentre/pathogens-portal-scripts/tree/main/All_publications) and can be reused with other pathogens.
 
 If you would like your publication to be added here or information about your publication to be corrected, [please get in touch with us](/suggestions/). We also have a [page with visualisations of the publications in this database](/dashboards/covid_publications/).
 

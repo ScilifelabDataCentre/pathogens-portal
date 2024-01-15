@@ -36,7 +36,7 @@ Ingående avloppsvattenprover insamlas från Ryaverkets avloppsreningsverk (eng.
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_gothenburg_new.json" height="550px" >}}</div>
 </div>
 
-**Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/gothenburg_covid.py).
+**Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/gothenburg_covid.py).
 
 ## Kommentarer från forskargruppen
 
@@ -52,7 +52,7 @@ There has been a slight increase in the amount of SARS-CoV-2 in Gothenburg's was
 
 ## Dataset
 
-**Nedladdning av data:** [Quantification of SARS-CoV-2 and enteric viruses in wastewater](https://github.com/ScilifelabDataCentre/covid-portal/raw/develop/static/ww_data_temp/wastewater_data_gu_allviruses.xlsx). Resultat finns tillgängliga för SARS-CoV-2 och för enteriska virus från vecka 20 2023. Data uppdateras veckovis.
+**Nedladdning av data:** [Quantification of SARS-CoV-2 and enteric viruses in wastewater](https://github.com/ScilifelabDataCentre/pathogens-portal/raw/develop/static/ww_data_temp/wastewater_data_gu_allviruses.xlsx). Resultat finns tillgängliga för SARS-CoV-2 och för enteriska virus från vecka 20 2023. Data uppdateras veckovis.
 
 **Kontakt:** <helene.norder@gu.se>
 
