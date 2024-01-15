@@ -16,7 +16,7 @@ __Table of contents:__
 
 ## How to propose changes or additions
 
-All information displayed on the Portal is contained within [this GitHub repository](https://github.com/ScilifelabDataCentre/covid-portal). Some of the sections use information that is stored in the `data` folder in .JSON format while other sections use information that is stored in the `content` folder in Markdown format.
+All information displayed on the Portal is contained within [this GitHub repository](https://github.com/ScilifelabDataCentre/pathogens-portal). Some of the sections use information that is stored in the `data` folder in .JSON format while other sections use information that is stored in the `content` folder in Markdown format.
 
 ### Using the web interface
 
@@ -24,7 +24,7 @@ All information displayed on the Portal is contained within [this GitHub reposit
 - Click on the top right corner of the document ("Edit this file"). This should create a fork of the original repository in your own GitHub account. You should see a page where you can directly edit the content.
 - Make changes as described below; do not forget to change the last update date on top of the document if needed.
 - Scroll to the bottom of the page. Describe what you have changed and press 'Propose changes'
-- You should now find yourself on a page where you can create a pull request. Check that the pull request will be sent to the base repository `SciLifeLabDataCentre/covid-portal` and base `develop`. You can also review the changes you made. Click on "Create pull request" if everything looks good.
+- You should now find yourself on a page where you can create a pull request. Check that the pull request will be sent to the base repository `SciLifeLabDataCentre/pathogens-portal` and base `develop`. You can also review the changes you made. Click on "Create pull request" if everything looks good.
 - Once created, a member of the Portal team will review your changes.
 Once approved, they will be merged and published.
 
@@ -33,14 +33,14 @@ Once approved, they will be merged and published.
 If you prefer, you can edit the website files on your computer in your favourite text editor. Fork this repository to your account. Then, clone the forked repository to your machine:
 
 ```bash
-git clone git@github.com:[YOUR-USERNAME]/covid-portal.git
-cd covid-portal
+git clone git@github.com:[YOUR-USERNAME]/pathogens-portal.git
+cd pathogens-portal
 ```
 
 To make it easier to pull in changes made by others, you can add the main repository as a remote:
 
 ```bash
-git remote add upstream https://github.com/ScilifelabDataCentre/covid-portal.git
+git remote add upstream https://github.com/ScilifelabDataCentre/pathogens-portal.git
 ```
 
 Then you can fetch changes at any time from this remote:
@@ -59,7 +59,7 @@ git push
 
 Once you're finished with your edits and they are committed and pushed to your forked repository, it's time to open a pull request. In short:
 
-- Visit the main repository: [https://github.com/ScilifelabDataCentre/covid-portal](https://github.com/ScilifelabDataCentre/covid-portal)
+- Visit the main repository: [https://github.com/ScilifelabDataCentre/pathogens-portal](https://github.com/ScilifelabDataCentre/pathogens-portal)
 - Click the button that reads _"New Pull Request"_
 - Click the text link near the top that says _"compare across forks"_
 - In the right-hand _"head repository"_ drop down, select your username / fork.
@@ -70,7 +70,7 @@ Once approved, they will be merged and published.
 
 #### Testing with a local copy of the Portal
 
-Because the Portal is built on Hugo, it is quite easy to run a full version of the Portal on your computer and see how your changes look while doing that. See [this page for information on how to do that](https://github.com/ScilifelabDataCentre/covid-portal/blob/develop/CONTRIBUTING/running_a_local_copy.md).
+Because the Portal is built on Hugo, it is quite easy to run a full version of the Portal on your computer and see how your changes look while doing that. See [this page for information on how to do that](https://github.com/ScilifelabDataCentre/pathogens-portal/blob/develop/CONTRIBUTING/running_a_local_copy.md).
 
 ## Available datasets
 

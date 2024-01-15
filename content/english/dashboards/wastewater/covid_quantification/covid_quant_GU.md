@@ -63,7 +63,7 @@ _The blue block on the graph indicates the period where sample collection was no
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_gothenburg.json" height="550px" >}}</div>
 </div>
 
-**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/gothenburg_covid.py).
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/gothenburg_covid.py).
 
 ## Commentary from the research group
 

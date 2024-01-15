@@ -34,7 +34,7 @@ Alla data som presenteras här finns tillgängliga för nedladdning från [Socia
 
 ### Källkod
 
-All källkod som används för att göra visualiseringarna på denna sidan finns tillgängliga på [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/postCOVID). Källkod som används är länkad under respektive visualisering.
+All källkod som används för att göra visualiseringarna på denna sidan finns tillgängliga på [GitHub](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/tree/main/postCOVID). Källkod som används är länkad under respektive visualisering.
 
 ## Statistik om postcovid i Sverige
 
@@ -56,7 +56,7 @@ Detta diagram visar antalet gånger patienter som diagnostiserats med diagnoser 
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/U099_agesex_casedist.json" height="500px" >}}</div>
 </div>
 
-**Källkod som används för att skapa grafen:** [Källkod som används för att skapa visualisering](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/create_agesex_distcases.py).
+**Källkod som används för att skapa grafen:** [Källkod som används för att skapa visualisering](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/create_agesex_distcases.py).
 
 #### Diagnoskod Z86.1A/U08.9
 
@@ -64,7 +64,7 @@ Detta diagram visar antalet gånger patienter som diagnostiserats med diagnoser 
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/U089_agesex_casedist.json" height="500px" >}}</div>
 </div>
 
-**Källkod som används för att skapa grafen:** [Källkod som används för att skapa visualisering](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/create_agesex_distcases.py).
+**Källkod som används för att skapa grafen:** [Källkod som används för att skapa visualisering](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/create_agesex_distcases.py).
 
 ### Geografisk fördelning av diagnostiserade fall relativt populationens storlek
 
@@ -76,7 +76,7 @@ Geografisk fördelning av diagnostiserade fall i förhållande till befolkningss
     <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/map_postcovid_percent_of_population_U099_Swedish.json" height="500px" >}}</div>
 </div>
 
-**Källkod som används för att skapa visualisering:** [Källkod som används för databeredning](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Källkod som används för att skapa kartan](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_population_U099.py).
+**Källkod som används för att skapa visualisering:** [Källkod som används för databeredning](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Källkod som används för att skapa kartan](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_population_U099.py).
 
 #### Diagnoskod Z86.1A/U08.9
 
@@ -84,7 +84,7 @@ Geografisk fördelning av diagnostiserade fall i förhållande till befolkningss
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/map_postcovid_percent_of_population_U089_Swedish.json" height="500px" >}}</div>
 </div>
 
-**Källkod som används för att skapa visualisering:** [Källkod som används för databeredning](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Källkod som används för att skapa kartan](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_population_U089.py).
+**Källkod som används för att skapa visualisering:** [Källkod som används för databeredning](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Källkod som används för att skapa kartan](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_population_U089.py).
 
 <!--
 
@@ -100,7 +100,7 @@ Kartorna nedan visar antal individer som fått diagnoskoderna av intresse per l�
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/map_postcovid_percent_of_covidcases_U099_Swedish.json" height="500px" >}}</div>
 </div>
 
-**Källkod som används för att skapa visualisering:** [Källkod som används för databeredning](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Källkod som används för att skapa kartan](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_cases_U099.py).
+**Källkod som används för att skapa visualisering:** [Källkod som används för databeredning](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Källkod som används för att skapa kartan](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_cases_U099.py).
 
 #### Diagnoskod Z86.1A/U08.9
 
@@ -108,7 +108,7 @@ Kartorna nedan visar antal individer som fått diagnoskoderna av intresse per l�
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/map_postcovid_percent_of_covidcases_U089_Swedish.json" height="500px" >}}</div>
 </div>
 
-**Källkod som används för att skapa visualisering:** [Källkod som används för databeredning](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Källkod som används för att skapa kartan](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_cases_U089.py).
+**Källkod som används för att skapa visualisering:** [Källkod som används för databeredning](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/postcovid_dataprep.py), [Källkod som används för att skapa kartan](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/postcovid_mapfig_cases_U089.py).
 
 -->
 
@@ -124,7 +124,7 @@ Denna tabell visar de vanligaste diagnosgrupper som har rapporterats tillsammans
 
 <span class="text-muted">_Observera att en individ kan ha mer än en diagnosgrupp som rapporteras tillsammans med U09.9 Postinfektiöst tillstånd efter covid-19 (Postcovid). Om en individ har samma besvär vid flera vårdtillfällen/läkarbesök räknas diagnosen bara en gång._</span>
 
-**Källkod som används för att skapa tabellen:** [Källkod som används för att skapa tabellen (engelska)](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/create_accomp_diagnoses.py), [Källkod som används för att skapa tabellen (svenska)](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/create_accomp_diagnoses_swe.py).
+**Källkod som används för att skapa tabellen:** [Källkod som används för att skapa tabellen (engelska)](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/create_accomp_diagnoses.py), [Källkod som används för att skapa tabellen (svenska)](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/create_accomp_diagnoses_swe.py).
 
 ### Vårdkontakter
 
@@ -138,7 +138,7 @@ Denna graf visar antal vårdkontakter för patienter med de av de tre diagnoskod
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/weeklycontacts_healthcare.json" height="500px" >}}</div>
 </div>
 
-**Källkod som används för att skapa grafen:** [Källkod som används för att skapa grafen](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/weeklycontacts_healthcare.py).
+**Källkod som används för att skapa grafen:** [Källkod som används för att skapa grafen](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/weeklycontacts_healthcare.py).
 
 ### Antal vårdkontakter uppdelat på kön
 
@@ -154,7 +154,7 @@ Dessa grafer visar antal vårdkontakter för patienter som diagnostiserats med e
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/U099_healthcare_divsex.json" height="500px" >}}</div>
 </div>
 
-**Källkod som används för att skapa grafen:** [Källkod som används för att skapa grafen](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/weeklycontacts_healthcare_divsex.py).
+**Källkod som används för att skapa grafen:** [Källkod som används för att skapa grafen](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/weeklycontacts_healthcare_divsex.py).
 
 #### Diagnoskod Z86.1A/U08.9
 
@@ -166,7 +166,7 @@ Dessa grafer visar antal vårdkontakter för patienter som diagnostiserats med e
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/U089_healthcare_divsex.json" height="500px" >}}</div>
 </div>
 
-**Källkod som används för att skapa grafen:** [Källkod som används för att skapa grafen](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/postCOVID/weeklycontacts_healthcare_divsex.py).
+**Källkod som används för att skapa grafen:** [Källkod som används för att skapa grafen](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/postCOVID/weeklycontacts_healthcare_divsex.py).
 
 ## Pågående forskningsprojekt
 

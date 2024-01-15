@@ -31,7 +31,7 @@ EPN Nr 2020-01800, 2020-05829, 2021-00267, 2021-00829, 2021-02106, 2021-04098, 2
 
 <div class="alert alert-info">All data last updated: {{% RECOVAC_date_modified %}}</div>
 
-_All code used to produce the visualisations on this page is available on [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/RECOVAC). The particular scripts used in each case are linked below the plots._
+_All code used to produce the visualisations on this page is available on [GitHub](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/tree/main/RECOVAC). The particular scripts used in each case are linked below the plots._
 
 The visualisations on this page broadly relate to two types of data; (a) data regarding the Swedish population at large, and (b) data on individuals in the Swedish population with certain comorbidities (at the start of the pandemic, assessed as of 1st Jan 2020, based on information from 2015-2019). More detail about the data used to produce the visualisations is available in the two subsections below. Instructions on how to manipulate the interactive plots are provided above the plots in each subsection.
 
@@ -101,7 +101,7 @@ When hovering over the plot with the cursor, additional grey icons appear in the
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/swedishpop_subplot_button.json" height="800px" >}}</div>
 </div>
 
-**Code used to produce plots:** [Preparation for vaccine coverage data](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/Swedishpop_vaccinecov_dataprep.py), [Graph of vaccine coverage](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/Swedishpop_vaccinecov_plotwbuttons.py), [Graph and data preparation for ICU admissions data](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/Swedishpop_ICU_plotwbuttons.py).
+**Code used to produce plots:** [Preparation for vaccine coverage data](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/RECOVAC/Swedishpop_vaccinecov_dataprep.py), [Graph of vaccine coverage](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/RECOVAC/Swedishpop_vaccinecov_plotwbuttons.py), [Graph and data preparation for ICU admissions data](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/RECOVAC/Swedishpop_ICU_plotwbuttons.py).
 
 ### Data related to patients with comorbidities
 
@@ -155,7 +155,7 @@ When hovering over the plot with the cursor, additional grey icons appear in the
     <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/comorbs_subplot_button.json" height="800px" >}}</div>
 </div>
 
-**Code used to produce plots:** [Preparation of COVID-19 case data](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/comorbidity_cases_dataprep.py), [Preparation of vaccination coverage data](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/comorbidity_vaccinecov_dataprep.py), [Graph containing subplots](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/RECOVAC/comorbidity_subplots_wbuttons.py).
+**Code used to produce plots:** [Preparation of COVID-19 case data](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/RECOVAC/comorbidity_cases_dataprep.py), [Preparation of vaccination coverage data](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/RECOVAC/comorbidity_vaccinecov_dataprep.py), [Graph containing subplots](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/RECOVAC/comorbidity_subplots_wbuttons.py).
 
 ## Determinants of vaccination
 
