@@ -41,7 +41,7 @@ Använd knappen **'Last 16 weeks'** för att endast se data från de senaste 16 
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/lineage_four_recent.json" height="600px" >}}</div>
 </div>
 
-**Källkod som används för att skapa grafen:** [Källkod som används för att skapa grafen](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/ClinMicro/lineage_four_recent.py).
+**Källkod som används för att skapa grafen:** [Källkod som används för att skapa grafen](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/ClinMicro/lineage_four_recent.py).
 
 ### Alla sekvenser med WHO-märkning/Pangolinje)
 
@@ -57,7 +57,7 @@ Använd knappen **'Deselect all lineages'** för att rensa bort data från alla 
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/lineage_one_wholetime.json" height="600px" >}}</div>
 </div>
 
-**Källkod som används för att skapa grafen:** [Källkod som används för att skapa grafen](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/ClinMicro/lineage_one_plot.py).
+**Källkod som används för att skapa grafen:** [Källkod som används för att skapa grafen](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/ClinMicro/lineage_one_plot.py).
 
 ## Kommentarer från forskargruppen
 

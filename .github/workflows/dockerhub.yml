@@ -20,7 +20,7 @@ jobs:
   push_to_registry:
     # only generate images when in the named repo
     # (to avoid running the action in forks)
-    if: github.repository == 'ScilifelabDataCentre/covid-portal'
+    if: github.repository == 'ScilifelabDataCentre/pathogens-portal'
     name: Publish Docker Image
     runs-on: ubuntu-latest
     # Cancel earlier job if there is a new one for the same branch/release
@@ -32,7 +32,7 @@ jobs:
       matrix:
         include:
           - dockerfile: Dockerfiles/Dockerfile
-            images: ghcr.io/scilifelabdatacentre/covid-portal
+            images: ghcr.io/scilifelabdatacentre/pathogens-portal
     permissions:
       contents: read
       packages: write

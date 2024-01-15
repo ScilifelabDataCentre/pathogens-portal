@@ -44,7 +44,7 @@ Data som visas på den här dashboarden är uppdelad efter de olika patogener so
 
 ## Tillgänglighet av källkod
 
-All källkod som skapats för visualiseringarna under de olika flikarna på denna dashboard finns öppet tillgänglig på [GitHub](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/wastewater). Skripten finns tillgängliga under respektive visualisering.
+All källkod som skapats för visualiseringarna under de olika flikarna på denna dashboard finns öppet tillgänglig på [GitHub](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/tree/main/wastewater). Skripten finns tillgängliga under respektive visualisering.
 
 ## Insamlingsplatser för avloppsvatten
 
@@ -54,7 +54,7 @@ Nedan finns en karta som visar de avloppsreningsverk (på engelska wastewater tr
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_map_test.json" height="600px" >}}</div>
 </div>
 
-**Källkod som använts för att skapa kartan:** [Källkod](https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/interactive_wastewater_map.py).
+**Källkod som använts för att skapa kartan:** [Källkod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/interactive_wastewater_map.py).
 
 Tabellen nedan listar; städerna/orterna som monitoreras av de forskargrupper som delar data, vilka avloppsreningsverk (WWTP) som avloppsprover samlats in ifrån, antal personer i upptagningsområdet (Number of people), om övervakningen är pågående eller inte (Active?), vilket virus som övervakas på platsen (Viruses monitored) och forskargrupp(er) som har övervakat/övervakar platsen. En asterisk (\*) bredvid antal personer indikerar att värdet är ett BO-7-värde (en uppskattning av de personer som är anslutna till ett avloppsreningsverk), snarare än antalet personer som är fysiskt anslutna. Informationen i tabellen nedan är [tillgänglig för nedladdning som en excel-fil](https://blobserver.dc.scilifelab.se/blob/overall_ww_collection_sites.xlsx).
 
