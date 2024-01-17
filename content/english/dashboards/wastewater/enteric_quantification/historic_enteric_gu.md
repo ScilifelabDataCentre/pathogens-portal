@@ -35,7 +35,7 @@ Please see [the section with summary information about the viruses](#basic-virus
     <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/historic_enteric_graph_gu.json" height="550px" >}}</div>
 </div>
 
-**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/enteric_viruses_gu.py).
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/enteric_viruses_gu_historic.py).
 
 ## Commentary from the research group
 
@@ -55,12 +55,11 @@ The amount of pepper mild mottle virus (PMMoV) has varied more than 10-fold duri
 
 </div>
 
-{{< ww_dynamic_content >}}
 <br>
 
 ## Dataset
 
-**Download the data:** [Quantification of SARS-CoV-2 and enteric viruses in wastewater](https://blobserver.dc.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx). Results are available for SARS-CoV-2 from week 7 of 2020 (with a small gap over winter 2022-2023), and for enteric viruses from week 2 of 2023. The last data entry is week 43 of 2023 for both types of data.
+**Download the data:** [Quantification of SARS-CoV-2 and enteric viruses in wastewater](https://blobserver.dc.scilifelab.se/blob/wastewater_data_gu_allviruses_historic.xlsx). Results are available for SARS-CoV-2 from week 7 of 2020 (with a small gap over winter 2022-2023), and for enteric viruses from week 2 of 2023. The last data entry is week 43 of 2023 for both types of data.
 
 **Contact:** <helene.norder@gu.se>
 

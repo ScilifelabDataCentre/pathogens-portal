@@ -33,20 +33,14 @@ Ingående avloppsvattenprover insamlas från Ryaverkets avloppsreningsverk (eng.
 </div>
 
  <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_gothenburg_new.json" height="550px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_gothenburg.json" height="550px" >}}</div>
 </div>
 
 **Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/gothenburg_covid.py).
 
 ## Kommentarer från forskargruppen
 
-<!-- <div><b>Date: <span id="gu_comment_date"></span></b> <br><b>Commentary:</b> <span id="gu_comment"></span></div> -->
-
-<div><b>Date:</b>2023-11-24</span><br><b>Commentary:</b>From week 20 we have implemented a new concentration method for virus detection. The new technology is based on ultrafiltration and has been compared with the standard method. The new method is more sensitive and has a shorter processing time than the standard technique. Based on this the data will be presented as total number of viral genome copies per day instead of the relative amount compared to week 11-2020. As a result, the baseline for the detection is elevated.
-
-There has been a slight increase in the amount of SARS-CoV-2 in Gothenburg's wastewater from weeks 41 to 44, but the levels still remain low.
-
-</div>
+<div><b>Date: <span id="gu_comment_date"></span></b> <br><b>Commentary:</b> <span id="gu_comment"></span></div>
 
 {{< ww_dynamic_content >}}
 

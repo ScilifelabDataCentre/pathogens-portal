@@ -39,29 +39,14 @@ Please see [the section with summary information about the viruses](#basic-virus
 </div>
 
  <div class="plot_wrapper mb-3">
-    <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/enteric_graph_gu_new.json" height="550px" >}}</div>
+    <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/enteric_graph_gu.json" height="550px" >}}</div>
 </div>
 
-**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/historic_enteric_viruses_gu.py).
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/enteric_viruses_gu.py).
 
 ## Commentary from the research group
 
-<!-- <div><b>Date:</b><span id="gu_enteric_comment_date"></span><br><b>Commentary:</b><span id="gu_enteric_comment"></span></div> -->
-<div><b>Date:</b> 2023-11-23<br><b>Commentary:</b> From week 20 we have implemented a new concentration method for virus detection. The new technology is ultrafiltration and has been used in parallel with our standard method until now. The new technique has higher sensitivity for the detection and recovery of viruses and has a shorter processing time. The new figure displays the total number of viral genome copies per day instead of the relative amount of viral genomes previously used for SARS-CoV-2. As a result, the baseline for the detection is elevated.
-
-Three weeks after the schools started in Gothenburg, the levels of enterovirus increased in the wastewater and is now decreasing again. Enterovirus often peaks in late summer and early autumn. This virus may cause outbreaks usually among children and adolescents. Rhinoviruses cause common cold and often peaks during early autumn and colder seasons. There were many rhinovirus infections in Gothenburg during late August/early September which may explain some of the increase during weeks 40-43.
-
-No major outbreak caused by the other investigated viruses has been identified until now.
-
-In February we had a minor increase in norovirus GG2 (winter vomiting disease virus) a little earlier than usual and it decreased by week 11. Some minor increases also occurred in late May, but no major outbreak was observed.
-
-For astrovirus, there was a small outbreak in weeks 9 and 10 (end of February and start of March). A slight increase is now observed as expected.
-
-Sapovirus peaked slightly in week 14 (early April).
-
-Adenovirus peaked slightly in week 10, no additional increase has been observed. From week 22 we have improved the technology's sensitivity for adenovirus detection, which means that the baseline for adenovirus detection is elevated. During summer (from June to the beginning of August), Adenovirus showed an increase during weeks 26 to 32.
-
-The amount of pepper mild mottle virus (PMMoV) has varied more than 10-fold during the year. This virus is often used as an indicator of fecal contamination of water. In commercial assays for SARS-CoV-2 detection, quantification of PMMoV is used as an indicator of the number of people contributing to the wastewater, assuming we consume the same amount of peppers and chilies every week. It increased in early June and around midsummer, indicating an increase in our pepper consumption during those weeks rather than an increase in the number of people contributing to the wastewater during those weeks.</div>
+<div><b>Date:</b><span id="gu_enteric_comment_date"></span><br><b>Commentary:</b><span id="gu_enteric_comment"></span></div>
 
 {{< ww_dynamic_content >}}
 <br>
