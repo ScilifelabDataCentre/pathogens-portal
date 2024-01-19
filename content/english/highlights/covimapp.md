@@ -1,5 +1,5 @@
 ---
-title: CoViMAPP – analysing changes in soluble blood proteome alterations due to COVID-19
+title: CoViMAPP – analysing changes in the soluble blood proteome due to COVID-19
 date: 2024-01-19
 summary: Babačić and colleagues expanded the coverage of the soluble blood proteome using mass spectrometry. In order to support further research in this area, their results have been added to an open-access app.
 banner: /highlights/banners/covimapp_logo.png
