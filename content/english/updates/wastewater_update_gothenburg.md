@@ -6,7 +6,7 @@ banner: /dashboard_thumbs/wastewater.jpg
 banner_caption: Photo of a Swedish wastewater treatment plant, by Kari Kohvakka (Stockholm Vatten).
 ---
 
-We have been working with the Norder group at Uppsala university to update the [wastewater dashboard](/dashboards/wastewater/).
+We have been working with the Norder group at Gothenburg University to update the [wastewater dashboard](/dashboards/wastewater/).
 
 The group have been working to test a new method for the quantification of SARS-CoV-2 and enteric viruses in wastewater. The group have been examining the levels of viruses in Gothenburg's wastewater for many years, including before the pandemic. In 2023, they began to collaborate directly with the portal in order to be able to share their data in near-real time.
 
