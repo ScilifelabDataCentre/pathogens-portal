@@ -39,6 +39,8 @@ In order to provide estimates of the alterations that occurred due to COVID-19, 
 
 In summary, this study is a comprehensive analysis of the soluble blood proteome alterations that occur in COVID-19. The results validate multiple previous findings and pinpoint new alterations. Furthermore, this study provides the current MS-based state-of-the-art concluding estimates for soluble blood proteome alterations in COVID-19. The researchers aim for CoViMAPP to be used as a dynamic tool for future meta-analyses. Additional curated studies can and will be included to update the summary estimates.
 
+**CoViMAPP is now listed as a service in the [Services section](https://data.scilifelab.se/services/) of the SciLifeLab Data Platform, where we list tools, databases, and other services that could be beneficial in data-driven life science.**
+
 #### Data and code availability
 
 - All results described in the manuscript are presented in main or supplementary figures or datasets. All results from the meta-analysis are available as an R Shiny app, [CoViMAPP](https://covimapp.serve.scilifelab.se), which is available on [SciLifeLab Serve](https://serve.scilifelab.se/apps/). To understand more about CoViMAPP, please see the associated entry in the [SciLifeLab Data Repository](https://doi.org/10.17044/scilifelab.22293148).
