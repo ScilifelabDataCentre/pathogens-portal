@@ -38,7 +38,7 @@ Använd knappen **'Last 16 weeks'** för att endast se data från de senaste 16 
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/lineage_four_recent.json" height="600px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/lineage_four_recent.json" height="850px" >}}</div>
 </div>
 
 **Källkod som används för att skapa grafen:** [Källkod som används för att skapa grafen](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/ClinMicro/lineage_four_recent.py).
