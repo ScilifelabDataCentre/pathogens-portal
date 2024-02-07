@@ -36,7 +36,7 @@ Use the **‘Last 16 weeks’ button** to see data only from the last 16 weeks, 
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/lineage_four_recent.json" height="600px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/lineage_four_recent.json" height="850px" >}}</div>
 </div>
 
 **Code used to produce plots:** [Graph and data preparation script](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/ClinMicro/lineage_four_recent.py).

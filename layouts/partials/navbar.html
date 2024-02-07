@@ -22,8 +22,7 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto navbar-top">
           {{ range .Site.Menus.navbar_top }}
-          <li class="nav-item"><a class="nav-link {{ .Post }}" href="{{ .Page.RelPermalink }}">{{ .Pre }}{{ .Name }}</a>
-          </li>
+          <li class="nav-item"><a class="nav-link" href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
           {{ end }}
           {{ if .IsTranslated }}
           {{ range .AllTranslations }}
