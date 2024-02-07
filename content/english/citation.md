@@ -1,50 +1,52 @@
 ---
-title: Citation Information
+title: How to cite the Portal
 menu:
   top_actions:
-      name: Cite us
-      weight: 80
-      pre: <i class="bi bi-patch-exclamation-fill me-2"></i>
+    name: Cite us
+    weight: 80
+    pre: <i class="bi bi-patch-exclamation-fill me-2"></i>
   footer_about:
     name: Cite us
     weight: 30
+toc: true
 ---
 
-### How to cite and credit the Portal
+In line with the principles of _FAIR_ and _Open Science_, we encourage the reuse of material made available on the Swedish Pathogens Portal. On this page, you will find information about how to cite the portal in the event that you reuse the content. Please note that the information on the portal is updated continuously, therefore it is important to refer to specific versions (or to provide access dates) within citations.
 
-***If you are working in research***
-In the interest of adhering to *Open Science* and *FAIR principles* , the Portal encourages the research community to reuse material available on the Swedish Pathogens Portal. If you use material from the Portal here is how to cite the material. Please note that the Portal content e.g. data, graph, or other material. is updating over time. Citation is important as if allows for metric and altmetic data to be collected.
+## Research community
 
-**Research Resource Identifier of Swedish Pathogens Portal**
+In this section, you'll find instructions on how to cite the portal website, or underlying code, in reearch publications.
 
-The Resource Identification Portal was created in support of the <a target="_blank" href="https://www.rrids.org/">Resource Identification Initiative</a>. It aims to promote research resource identification, discovery, and reuse. Research Resource Identifiers (**RRIDs**) are persistent and unique identifiers for referencing a research resource, the RRID for the Swedish Pathogens Portal is **SCR_024866**. The first three letters *SCR* means this is a tool. We recommend that researchers wishing to cite the Swedish Pathogens Portal to use the above mentioned RRID. This will facilitate reuse and allow others to easily find the *Summary Report* for the Swedish Pathogens Portal and information about proper citation of the Portal as a tool.
+### Citing website content
 
-*Adding the RRID for the Swedish Pathogens Portal it will allow for metric and altmetic data to be collected.*
+##### Research Resource Identifier of Swedish Pathogens Portal
 
-**APA format in the reference list and in-text citation**
+The Resource Identification Portal was created in support of the <a target="_blank" href="https://www.rrids.org/">Resource Identification Initiative</a>. It aims to promote the identification, discovery, and reuse of research resources. Research Resource Identifiers (**RRIDs**) are persistent and unique identifiers for referencing a research resource.
 
-SciLifeLab Data Centre (2024). Swedish Pathogens Portal. Retrieved 2024-15-01 from <https://pathogens.se>, RRID:SCR_024866
+The RRID for the Swedish Pathogens Portal is **SCR_024866**.
 
-APA in-text citation: The data was made available on the Swedish Pathogens Portal (RRID:SCR_024866) (2024)  
+By citing the portal using the RRID, you will facilitate further reuse of the portal, enable us to track reuse of the portal, and allow others to easily find the _Summary Report_ for usage the Swedish Pathogens Portal.
 
-For certain parts of the Portal, e.g. the Data Highlights you may find an author mentioned. To cite these: Öjefors Stark. (2022, Dec 19). Cryo-electron tomography allows new knowledge about poliovirus replication and assembly sites in situ. Swedish Pathogens Portal. Retrieved 2024-15-01 from Swedish Pathogens Portal (RRID:SCR_024866).
+##### APA format
 
-#### How to access the code used for the Swedish Pathogens Portal
+**In-text citation**: The data was made available on the Swedish Pathogens Portal (RRID:SCR\*024866)(_insert year_)
 
-From the start, the Portal has been operated by the <a target="_blank" href="https://scilifelab.se/data">SciLifeLab Data Centre</a> and partners. However, it has received considerable input from the community. Indeed, many people have contributed in building the initial site, and to content throughout. An overview of some of the contributors that have been instrumental to establishing and advancing the Portal can be found on GitHub.All code data, visualtions, graphs, and content is free to reuse under MIT license. The source code for Swedish Pathogens Portal can be found at <a target="_blank" href="https://github.com/ScilifelabDataCentre/pathogens-portal">Github</a>.
+**Reference list** SciLifeLab Data Centre (2024). Swedish Pathogens Portal, version (_insert version_) from <https://pathogens.se>, RRID:SCR_024866.
 
-##### How to cite the code used for the Pathogens Portal
+You will find the version of the Portal at the bottom of the footer on any page, or on our <a target="_blank" href="https://github.com/ScilifelabDataCentre/pathogens-portal">Github repository</a>.
 
-**APA format**
+If you are aiming to cite particular pages of the portal in particular (e.g. the Data Highlights), you may find that an author is mentioned and a date is given. In this case, you should include the appropriate date and author instead, but must still include the RRID.
 
-SciLifeLab Data Centre, 2024, pathogens-portal. Retrieved  January 15, 2024 from https://github.com/ScilifelabDataCentre/pathogens-portal
+### Citing underlying code
 
-#### References
+From the start, the portal has been operated by the <a target="_blank" href="https://scilifelab.se/data">SciLifeLab Data Centre</a> and partners. Many individuals from the wider community have also contributed to the code over time. All of the source code used on the website is available on GitHub. The code used to produce the website is available in our <a target="_blank" href="https://github.com/ScilifelabDataCentre/pathogens-portal">pathogens-portal repository</a>, and all code used for visualisations are in our <a target="_blank" href="https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations">visualisations repository</a>. All of the code that we have produced is available for reuse under an MIT licence.
 
-These are international references related to the COVID-19 Data Platform.
-Harrison PW, Lopez R, Rahman N et al. The COVID-19 Data Portal: accelerating SARS-CoV-2 and COVID-19 research through rapid open access data sharing. Nucleic Acids Res. 2021 Jul 2;49(W1):W619-W623.
-DOI: [10.1093/nar/gkab417](https.//doi.org/10.1093/nar/gkab417).
+##### APA format
 
-**If you are working as a journalist**
+SciLifeLab Data Centre (year) pathogens-portal. Retrieved: (date) from <https://github.com/ScilifelabDataCentre/pathogens-portal>
 
-You are welcome to, free of charge, use images, content or material from the **Swedish Pathogens Portal** for articles, blogs, social media etc. Please refer to the Portal as **Swedish Pathogens Portal** and link to our webpage https://pathogens.se when you use content from the Portal.
+SciLifeLab Data Centre (year) pathogens-portal-visualisations. Retrieved: (date) from <https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations>
+
+## Journalists
+
+Journalists are welcome to reuse images, content, or other material from the **Swedish Pathogens Portal** for articles, blogs, social media etc., provided that the portal is acknowledged. Please refer to the portal as the **Swedish Pathogens Portal** and link to our webpage <https://pathogens.se> when you use content from the Portal. You may also include our RRID: **SCR_024866** (see above for information on RRIDs).
