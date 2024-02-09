@@ -3,7 +3,6 @@ title: "The pandemic has paved the way for data sharing"
 date: 2023-10-31
 summary: Details the importance of sharing data, tools, and techniques in the COVID-19 pandemic and for future pandemic preparedness. Highlights how this applies to this year’s Nobel Prize in Medicine.
 banner: /editorials/topic_covid.jpg
-#banner_large: updates/banners/topic_covid.jpg
 banner_caption: Ultrastructural morphology exhibited by coronaviruses (Credit - CDC).
 tags: [
     Pandemic,
@@ -16,6 +15,7 @@ tags: [
   ]
 editorials_topics: [COVID-19]
 editorials_authors: [Katarina Öjefors Stark]
+images: [/editorials/topic_covid.jpg]
 ---
 
 The COVID-19 pandemic has had a major impact on society. It has caused changes in many sectors, including research, where it has changed the way that we collaborate and share resources, including data. From the onset of the pandemic, the research community began to share resources and collaborate at unprecedented levels, because it was widely recognised that this would be the key to maximising the rate of COVID-19 research. Collaboration and data sharing have been crucial for increasing our knowledge about e.g. SARS-CoV-2 pathology and vaccines. In addition, the rapid development of vaccines has been key in mitigating the effects on society. The pandemic has undoubtedly paved the way for increased sharing of data, code, software, and other outputs outside of a health emergency.
