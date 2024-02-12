@@ -28,13 +28,11 @@ For more information on the FAIR principles, please see the [go-fair website](ht
 
 There are two main international databases in which COVID-19 sequences have been made openly available en masse; the Global Initiative on Sharing Avian Influenza Data ([GISAID](https://www.gisaid.org)), and the European Nucleotide Archive ([ENA](https://www.ebi.ac.uk/ena/browser/home)).
 
-So, which should you use? We actually recommend that you submit sequences to both databases where possible (see [information in the Introduction tab](/support_services/tutorial_ena/tutorial_ena_intro) for details), as they each offer relative advantages for research compared to the other. In some cases though, this may not be possible. For example, GISAID only accepts assemblies reflecting a consensus sequence, whereas ENA accepts both 'raw sequences' and assemblies. Thus, in the case of 'raw' sequence data, please submit to ENA.
-
-Work is ongoing to streamline the process for submitting sequences to both databases. Ultimately, we hope to make it as easy to submit to both databases as it is to submit to just one.
+So, which should you use? We actually recommend that you submit sequences to both databases where possible, as they each offer relative advantages for research compared to the other. GISAID contains more SARS-CoV-2 data from all around the world, compared to ENA. However, while GISAID only accepts the consensus sequences of assembled genomes, ENA accepts both consensus sequences and 'raw' sequence data. Further, although the data in GISAID is considered open, access is restricted to individuals with verified accounts, whilst there are no restrictions on who can access the data in ENA. This means that using data from ENA simplifies sharing the data (e.g. between members of your group) and access to the data is less likely to become compromised during a project.
 
 ### Who owns/runs ENA?
 
-ENA is maintained by [EMBL-EBI](https://www.ebi.ac.uk/about), and is a core data resource of ELIXIR (the European life-sciences Infrastructure for biological Information). See [here](https://elixir-europe.org/platforms/data/core-data-resources) for more information about what this means.
+ENA is maintained by [EMBL-EBI](https://www.ebi.ac.uk/about), and is a core data resource of ELIXIR (the European life-sciences Infrastructure for biological Information). See [here](https://elixir-europe.org/platforms/data/core-data-resources) for more information about what this means. ENA is part of the [INSDC](https://www.insdc.org/) (International Nucleotide Sequence Database Collaboration), and also indexes data from [NCBI](https://www.ncbi.nlm.nih.gov/) (National Centre for the Biotechnology Information) and [DDBJ](https://www.ddbj.nig.ac.jp/) (DNA Data Bank of Japan).
 
 ### Is submitting to ENA secure?
 
