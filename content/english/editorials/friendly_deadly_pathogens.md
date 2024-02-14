@@ -24,4 +24,4 @@ Whilst the disease-causing pathogens, often classified as part of bacteria, fung
 
 #### Cite this editorial
 
-Hugerth, L.W. (2024). Editorial - “Feed a gut, and starve a fever” or friendly vs disease-causing pathogens
+Hugerth, L. W. (2024). Editorial: “Feed a gut, and starve a fever” or friendly vs disease-causing pathogens. SciLifeLab. Online resource. DOI: [10.17044/scilifelab.25217921](https://doi.org/10.17044/scilifelab.25217921).
