@@ -4,7 +4,16 @@ date: 2023-10-31
 summary: A perspective on the potential for influenza viruses to be the next pandemic threat and how to be better prepared for the next pandemic.
 banner: /editorials/topic_influenza.jpg
 banner_caption: A colourised transmission electron microscopic (TEM) image of Avian Influenza A H5N1 viruses (gold) (Credit- CDC).
-tags: [Influenza, Pandemic, pandemic preparedness, avian influenza, zoonoses]
+tags:
+  [
+    Influenza,
+    Pandemic,
+    pandemic preparedness,
+    avian influenza,
+    zoonoses,
+    Pathogens,
+    Infectious disease,
+  ]
 editorials_topics: [Influenza]
 editorials_authors: [Mahmoud M. Naguib]
 images: [/editorials/topic_influenza.jpg]

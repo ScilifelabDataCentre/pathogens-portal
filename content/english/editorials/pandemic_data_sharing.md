@@ -4,14 +4,16 @@ date: 2023-10-31
 summary: Details the importance of sharing data, tools, and techniques in the COVID-19 pandemic and for future pandemic preparedness. Highlights how this applies to this year’s Nobel Prize in Medicine.
 banner: /editorials/topic_covid.jpg
 banner_caption: Ultrastructural morphology exhibited by coronaviruses (Credit - CDC).
-tags: [
+tags:
+  [
     Pandemic,
     Data sharing,
     Nobel prize,
-    # Coronaviruses,
-    # SARS-CoV-2,
-    # Covid,
+    Coronaviruses,
+    SARS-CoV-2,
+    Covid,
     pandemic preparedness,
+    Infectious disease,
   ]
 editorials_topics: [COVID-19]
 editorials_authors: [Katarina Öjefors Stark]

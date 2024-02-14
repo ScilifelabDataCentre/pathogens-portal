@@ -7,7 +7,7 @@ banner_large: /highlights/banners/segmentation_highReso_large.jpeg
 banner_caption: A cryo-electron tomogram gives a 3D view of a poliovirus-infected cell six hours after infection. Newly produced virus capsids that have not yet been loaded with the viral genome are shown in white, whereas new particles that are loaded with the viral genome, and thus infectious, are shown in red. Double-membrane structures, that related to the cellular pathway of autophagy, are shown in purple. For scale, the capsids have a diameter of 30 nanometers.
 toc: false
 highlights_topics: [Infectious diseases, Enteric viruses]
-tags: [Infectious disease, Polio, Pandemic preparedness, Autophagy, Cryo]
+tags: [Polio, Pandemic preparedness, Autophagy, Cryo]
 aliases:
     - /news/poliovirus_replication
     - /sv/news/poliovirus_replication
@@ -24,20 +24,20 @@ Polio is caused by poliovirus, which is an enterovirus in the Picornaviridae fam
 
 In a recent article published in Nature Communications, researchers from Umeå University collaborated with colleagues from Stockholm University (SciLifeLab), US, and Australia, used cryo-electron tomography to study how enteroviruses are assembled and packaged into autophagosomes (First author: Selma Dahmane, Umeå University; Corresponding author: Lars-Anders Carlson, Umeå University).
 
-Dahmane and colleagues infected HeLa cells with poliovirus type 1, imaged the cytoplasm with cryo-electron tomography, and followed the process post-infection in order to investigated enterovirus assembly *in situ*. The tomograms revealed that poliovirus assembles directly on replication membranes. Further, the researchers found that to complete the virus assembly the host lipid kinase VPS34 is necessary. In addition, the researchers showed that the balance between ULK1-induced canonical autophagy and virus-induced proviral autophagy determines the virion production level. Inhibiting the initiation of canonical autophagy, though pharmacological inhibition of ULK1, increased the virion production and release. The poliovirus appears to be able to optimize its environment e.g. by turning off the master switch for canonical autophagy (ULK-1).
+Dahmane and colleagues infected HeLa cells with poliovirus type 1, imaged the cytoplasm with cryo-electron tomography, and followed the process post-infection in order to investigated enterovirus assembly _in situ_. The tomograms revealed that poliovirus assembles directly on replication membranes. Further, the researchers found that to complete the virus assembly the host lipid kinase VPS34 is necessary. In addition, the researchers showed that the balance between ULK1-induced canonical autophagy and virus-induced proviral autophagy determines the virion production level. Inhibiting the initiation of canonical autophagy, though pharmacological inhibition of ULK1, increased the virion production and release. The poliovirus appears to be able to optimize its environment e.g. by turning off the master switch for canonical autophagy (ULK-1).
 
 In addition, cryo-electron tomograms revealed a multi-layer selectivity in enterovirus-induced autophagy. The autophagy was shown to be able to selectively choose RNA-containing virions over empty capsids, and segregating virions from other types of autophagosome contents. These results have contributed novel insights into the structural framework for multiple stages of the poliovirus life cycle. Future studies to build on this knowledge and further elucidate enterovirus-induced autophagy are warranted and important for pandemic preparedness efforts.
 
 #### Data and code availability
 
-* The subtomogram average maps have been deposited in the Electron Microscopy Data Bank (EMDB) under accession codes [EMD-15390](https://www.ebi.ac.uk/emdb/EMD-15390) (empty capsid), [EMD-15391](https://www.ebi.ac.uk/emdb/EMD-15391) (RNA-loaded virion), [EMD-15392](https://www.ebi.ac.uk/emdb/EMD-15392) (tethered virion), and [EMD-13682](https://www.ebi.ac.uk/emdb/EMD-13682) (filament). [Source data](https://www.nature.com/articles/s41467-022-33483-7#Sec29) are provided with this paper.
-* The script used to pick filament subtomograms from Amira filament tracings is available at [GitHub](https://github.com/Lars-AndersCarlson/Filament).
+- The subtomogram average maps have been deposited in the Electron Microscopy Data Bank (EMDB) under accession codes [EMD-15390](https://www.ebi.ac.uk/emdb/EMD-15390) (empty capsid), [EMD-15391](https://www.ebi.ac.uk/emdb/EMD-15391) (RNA-loaded virion), [EMD-15392](https://www.ebi.ac.uk/emdb/EMD-15392) (tethered virion), and [EMD-13682](https://www.ebi.ac.uk/emdb/EMD-13682) (filament). [Source data](https://www.nature.com/articles/s41467-022-33483-7#Sec29) are provided with this paper.
+- The script used to pick filament subtomograms from Amira filament tracings is available at [GitHub](https://github.com/Lars-AndersCarlson/Filament).
 
 #### Article
 
 DOI: [10.1038/s41467-022-33483-7](https://doi.org/10.1038/s41467-022-33483-7)
 
-Dahmane, S., Kerviel, A., Morado, D.R., Shankar, K., Ahlman, B., Lazarou, M., Altan-Bonnet, N., Carlson, L.A. (2022). Membrane-assisted assembly and selective secretory autophagy of enteroviruses. *Nature Commununications*,  *13*, 5986.
+Dahmane, S., Kerviel, A., Morado, D.R., Shankar, K., Ahlman, B., Lazarou, M., Altan-Bonnet, N., Carlson, L.A. (2022). Membrane-assisted assembly and selective secretory autophagy of enteroviruses. _Nature Commununications_, _13_, 5986.
 
 #### Funding
 
