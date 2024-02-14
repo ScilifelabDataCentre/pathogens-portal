@@ -29,16 +29,22 @@ Sekvenserna presenteras enligt [World Health Organisation (WHO) system](https://
 
 ### Nya sekvenser med Pangolinje
 
-Diagrammet nedan visar procentsatsen sekvenser som tillhörde en viss virusstam varje vecka. Datumet anges om måndagen i den veckan. Diagrammet visar data från början av 2023 i första hand, men innehåller flera dynamiska funktioner som kan användas för att fokusera på vissa delmängder av data.
+In denna sektion finner du två diagram som båda visar andel identifierade sekvenser (i procent) som tillhörde en viss genetisk grupp enligt pangolin i en viss vecka. Diagrammen visar på olika nivåer av granularitet i sekvensklassificeringen. Det första diagrammet visar den mest detaljerade nivån och dessa data finns tillgängliga från oktober 2023 och framåt. Det andra har en något lägre granularitetsnivå och visar data från januari 2023 och framåt. Datumet som anges är alltid måndagen i den aktuella veckan. Diagrammen innehåller flera dynamiska funktioner vilket gör det möjligt att fokusera på vissa delmängder av data i diagrammet.
 
-Använd knappen **'Last 16 weeks'** för att endast se data från de senaste 16 veckorna, och knappen **'Data since jan 2023'** för att återigen visa alla data från början av 2023. Använd knappen **'Deselect all lineages'** för att rensa bort data från alla linjer från grafen. Det är även möjligt att visa endast vissa linjer genom att klicka på dem i teckenförklaringen. Du kan använda knappen **’Select all lineages’** för att visa data från alla linjer. Grafen har också många andra interaktiva funktioner. Det är t.ex. möjligt att klicka och dra för att fokusera på en viss del av grafen. När du för muspekaren över diagrammet visas alternativ uppe till höger för att t.ex. zooma, ladda ner som en .png-fil eller återställa axlarna till den ursprungliga vyn.
+Använd knapparna längst upp till vänster i respektive diagram för att endast se data från de senaste 16 veckorna (knappen **'Last 16 weeks'**), eller att visa alla data från januari/oktober 2023 (knappen **'Data since jan 2023'** eller **'Data since oct 2023'**). Använd knapparna **'Deselect all lineages'** för att rensa bort data från alla sekvenser. Det är även möjligt att endast visa specifika sekvensgenom att klicka på dessa i teckenförklaringen. Du kan använda knapparna **’Select all lineages’** för att visa data från alla virusstammar. Diagrammen har även andra interaktiva funktioner, exempelvis är det möjligt att fokusera på en viss del av diagrammet. När du för muspekaren över diagrammet visas flera alternativ i högra hörnet: zooma, ladda ner som en .png-fil eller återställa axlarna till den ursprungliga vyn.
 
 <div class="d-md-none alert alert-info">
   Att rotera mobiltelefonen kan förbättra grafens layout
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/lineage_four_recent.json" height="850px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/lineage_five_recent.json" height="800px" >}}</div>
+</div>
+
+**Källkod som används för att skapa grafen:** [Källkod som används för att skapa grafen](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/ClinMicro/lineage_five_recent.py).
+
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/lineage_four_recent.json" height="600px" >}}</div>
 </div>
 
 **Källkod som används för att skapa grafen:** [Källkod som används för att skapa grafen](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/ClinMicro/lineage_four_recent.py).
