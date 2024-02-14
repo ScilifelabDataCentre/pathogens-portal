@@ -1,6 +1,6 @@
 ---
 title: "“Feed a gut, and starve a fever” or friendly vs disease-causing pathogens"
-date: 2024-02-14
+date: 2024-02-15
 summary: A perspective on what makes a pathogen through the lens of the microbes in our bodies and how we, as hosts, interact with them.
 banner: /editorials/friendly_pathogens.jpg
 banner_caption: 'Image generated with Adobe Firefly using the prompt "Friendly microorganisms that help us to digest food".'
