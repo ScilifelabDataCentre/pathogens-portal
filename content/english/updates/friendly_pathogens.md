@@ -1,6 +1,6 @@
 ---
 title: New editorial about friendly or disease-causing pathogens
-date: 2024-02-14
+date: 2024-02-15
 summary: This new Editorial by Luisa W Hugerth, who is part of Portal Editorial Committee, discusses what makes a pathogen, which a focus on the microbes in our bodies.
 banner: /editorials/friendly_pathogens.jpg
 banner_caption: 'Image generated with Adobe Firefly using the prompt "Friendly microorganisms that help us to digest food".'
