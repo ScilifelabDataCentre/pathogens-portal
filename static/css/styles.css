@@ -634,7 +634,7 @@ a.btn-white-teal:hover {
 .bg-dataset:hover {
   border-style: solid;
   border-color: #4770b1;
-  border-size: 0.5px;
+  border-width: 0.5px;
 }
 
 .bg-dataset-container a {
