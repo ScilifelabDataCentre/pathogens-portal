@@ -27,16 +27,24 @@ The sequences are presented according to their [World Health Organisation (WHO) 
 
 ### Recent sequences with Pango lineage
 
-The below plot shows the percentage of sequences that belonged to a given lineage each week. The date is allocated as the Monday of that week. This plot shows data from the start of 2023 in the first instance, but includes multiple dynamic features that can be used to focus on certain subsets of the data.
+In this subsection, there are two plots each showing the percentage of sequences that belonged to a given lineage in each week. Each plot represents a different level of granularity in the classification of lineages. The first shows the most granular level, and data is available from October 2023. The second has a slightly lower level of granularity and shows data from January 2023.
 
-Use the **‘Last 16 weeks’ button** to see data only from the last 16 weeks, and the **‘Data since Jan 2023’ button** to again show all of the data from the start of 2023. Use the **’Deselect all linages’ button** to clear data from all lineages from the graph. It is possible to then view only certain lineages by clicking on them in the legend. You can use the **’Select all lineages’ button** to show data from all lineages. The graph also has many other interactive features. For example, it is possible to click and drag to focus on a certain part of the graph. When you hover over the graph, options will appear in the top right to e.g. zoom, download as a .png file, or reset the axes to the original view.
+In both graphs, the date is allocated as the Monday of that week. The plots include multiple dynamic features that can be used to focus on certain subsets of the data.
+
+Use the buttons on the top left of each plot to focus either on data from the **Last 16 weeks** or the whole time period (either **Since October or January 2023**). Use the **’Deselect all linages’ button** on the right hand sides to clear data from all lineages from the graphs. It is possible to then view only certain lineages by clicking on them in the legend. You can then use the **’Select all lineages’ button** to return to the view showing data from all lineages. The graphs also have many other interactive features. For example, it is possible to click and drag to focus on a certain part of the data. When you hover over the graph, further options will appear in the top right to e.g. zoom, download as a .png file, or reset the axes to the original view.
 
 <div class="d-md-none alert alert-info">
   Rotating your phone may improve graph layout
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/lineage_four_recent.json" height="850px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/lineage_five_recent.json" height="800px" >}}</div>
+</div>
+
+**Code used to produce plots:** [Graph and data preparation script](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/ClinMicro/lineage_five_recent.py).
+
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/lineage_four_recent.json" height="600px" >}}</div>
 </div>
 
 **Code used to produce plots:** [Graph and data preparation script](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/ClinMicro/lineage_four_recent.py).
