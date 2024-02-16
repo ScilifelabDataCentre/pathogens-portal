@@ -57,7 +57,7 @@ For more information on this file format, see [Wikipedia on FASTA format](https:
 
 ### FASTQ
 
-A FASTQ file is a text-based file format that contains sequence data (including a sequence name) in a similar way to FASTA files (described above). The main difference between the two is that FASTQ files include information about data quality, whilst FASTA files do not.
+A FASTQ file is a text-based file format that contains sequence data (including a sequence name) in a similar way as FASTA files (described above). The main difference between the two is that FASTQ files include information about data quality, whilst FASTA files do not.
 
 FASTQ is one of the most widely used formats in sequence analysis and is often the format outputted by sequencing machines. Most analysis tools prefer FASTQ files to FASTA files because they contain more information.
 
