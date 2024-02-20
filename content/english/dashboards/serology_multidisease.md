@@ -61,10 +61,10 @@ The multi-disease serological assay is under constant development and will gradu
 
 The commercially available antigens provided by Peter Brodin (KI) and Jochen Schwenk (KTH) represent a significant portion of the Swedish vaccination program.
 
-## Variants Table
+## Variants of Protein
 
 <div class="table-responsive">
-  <table id="covid-variants" class="table table-bordered" width="100%">
+  <table id="variants" class="table table-hover" width="100%">
     <thead class="table-light">
       <tr>
         <th scope="col">Virus Type</th>
@@ -297,9 +297,168 @@ The commercially available antigens provided by Peter Brodin (KI) and Jochen Sch
   </table>
 </div>
 
+## Commercially available antigens
+
+<div class="table-responsive">
+  <table id="antigens" class="table table-hover" width="100%">
+    <thead class="table-light">
+      <tr>
+        <th scope="col">Group</th>
+        <th scope="col">Subtype/Linage/Strain</th>
+      </tr>
+    </thead>
+      <tr>
+        <td>Pertussis</td>
+        <td>Bordetella pertussis Filamentous Hemagglutinin (FHA)</td>
+      </tr>
+      <tr>
+        <td>Pertussis</td>
+        <td>Bordetella pertussis Filamentous Hemagglutinin (FHA) - Bulk antigen</td>
+      </tr>
+      <tr>
+        <td>Pertussis</td>
+        <td>B. Pertussis toxin (mutant)</td>
+      </tr>
+      <tr>
+        <td>Pertussis</td>
+        <td>B. Pertussis Pertactin Protein [His]</td>
+      </tr>
+      <tr>
+        <td>Pertussis</td>
+        <td>Bordetella pertussis Filamentous Hemagglutinin (FHA) - Nativeantigen</td>
+      </tr>
+      <tr>
+        <td>Pertussis</td>
+        <td>B. Pertussis whole-cell (strain tahoma I)</td>
+      </tr>
+      <tr>
+        <td>Measles</td>
+        <td>Measles Virus Nucleoprotein (HEK293)</td>
+      </tr>
+      <tr>
+        <td>Measles</td>
+        <td>Native Measles virus</td>
+      </tr>
+      <tr>
+        <td>Rotavirus</td>
+        <td>Rotavirus VP7 Protein</td>
+      </tr>
+      <tr>
+        <td>Rotavirus</td>
+        <td>RotaVirus (Strain SA-11)</td>
+      </tr>
+      <tr>
+        <td>Rubella</td>
+        <td>Rubella virus nucleoprotein, C-terminal His-tag</td>
+      </tr>
+      <tr>
+        <td>Rubella</td>
+        <td>Rubella Virus Grade 4, natural antigen.</td>
+      </tr>
+      <tr>
+        <td>Rubella</td>
+        <td>Rubella E1</td>
+      </tr>
+      <tr>
+        <td>Rubella</td>
+        <td>Rubella virus E1, C-terminal SHFC-tag</td>
+      </tr>
+      <tr>
+        <td>Rubella</td>
+        <td>Rubella Spike Ectodomain (E1-E2)</td>
+      </tr>
+      <tr>
+        <td>Diphtheria</td>
+        <td>Diphtheria mutated toxin</td>
+      </tr>
+      <tr>
+        <td>Diphtheria</td>
+        <td>Diphtheria Toxoid</td>
+      </tr>
+      <tr>
+        <td>Mumps</td>
+        <td>Mumps Virus Nucleoprotein Recombinant</td>
+      </tr>
+      <tr>
+        <td>Mumps</td>
+        <td>Mumps virus nucleoprotein</td>
+      </tr>
+      <tr>
+        <td>Mumps</td>
+        <td>Mumps virus nucleoprotein, inactivated pathogen.</td>
+      </tr>
+      <tr>
+        <td>Mumps</td>
+        <td>Native Mumps virus</td>
+      </tr>
+      <tr>
+        <td>Humant Papillomvirus</td>
+        <td>HPV type 16 L1 Protein (full length)</td>
+      </tr>
+      <tr>
+        <td>Humant Papillomvirus</td>
+        <td>HPV type 18 L1 Protein (full length)</td>
+      </tr>
+      <tr>
+        <td>Humant Papillomvirus</td>
+        <td>Recombinant HPV type 6 L1 protein (VLP)</td>
+      </tr>
+      <tr>
+        <td>Humant Papillomvirus</td>
+        <td>Recombinant Human Papilloma Virus type 33 L1 protein (VLP)</td>
+      </tr>
+      <tr>
+        <td>Pneumococcus</td>
+        <td>S. Pneumoniae Cell Wall Polysaccharide Antigen</td>
+      </tr>
+      <tr>
+        <td>Tetanus</td>
+        <td>Clostridium tetani Tetanus Toxoid</td>
+      </tr>
+      <tr>
+        <td>Tetanus</td>
+        <td>Tetanus Toxoid, Recombinant Heavy Chain Fragment C</td>
+      </tr>
+      <tr>
+        <td>Hepatit-B</td>
+        <td>HBV Surface Antigen (subtype adw)</td>
+      </tr>
+      <tr>
+        <td>Poliovirus </td>
+        <td>Recombinant Poliovirus type 1 Capsid protein (strain Sabin)</td>
+      </tr>
+      <tr>
+        <td>Poliovirus </td>
+        <td>Recombinant Poliovirus type 2 VP3-VP1 capsid Protein [His]</td>
+      </tr>
+      <tr>
+        <td>Poliovirus </td>
+        <td>Recombinant Poliovirus type 3 VP3-VP1 capsid protein</td>
+      </tr>
+      <tr>
+        <td>Cytomegalovirus (CMV)</td>
+        <td>Cytomegalovirus glycoprotein B (gB)</td>
+      </tr>
+      <tr>
+        <td>Epstein–Barr virus (EBV)</td>
+        <td>Epstein Barr Virus gp125</td>
+      </tr>
+      <tr>
+        <td>Epstein–Barr virus (EBV)</td>
+        <td>Epstein–Barr nuclear antigen 1</td>
+      </tr>
+      <tr>
+        <td>Respiratory syncytial</td>
+        <td>Respiratory Syncytial Virus A Glycoprotein G</td>
+      </tr>
+    <tbody>
+    </tbody>
+  </table>
+</div>
+
 <script>
   $(document).ready(function () {
-    $('#covid-variants').DataTable({
+    var tableConfig = {
       "sDom": '<"top row"<"col-md"i><"col-md"f>>rt<"bottom row"<"col-md"l><"col-md"p>><"clear">',
       "order": [],
       "language": {
@@ -316,8 +475,9 @@ The commercially available antigens provided by Peter Brodin (KI) and Jochen Sch
           "previous": "«"
         }
       }
-    }
-    );
+    };
+    $('#variants').DataTable(tableConfig);
+    $('#antigens').DataTable(tableConfig);
   });
 </script>
 
