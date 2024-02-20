@@ -61,4 +61,267 @@ The multi-disease serological assay is under constant development and will gradu
 
 The commercially available antigens provided by Peter Brodin (KI) and Jochen Schwenk (KTH) represent a significant portion of the Swedish vaccination program.
 
-**CONTACT**
+## Variants Table
+
+<div class="table-responsive">
+  <table id="covid-variants" class="table table-bordered" width="100%">
+    <thead class="table-light">
+      <tr>
+        <th scope="col">Virus Type</th>
+        <th scope="col">Variant</th>
+        <th scope="col">Comment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>SARS-CoV-2</td>
+        <td>Spike</td>
+        <td>Wildtype virus, 20 different variants</td>
+      </tr>
+      <tr>
+        <td>SARS-CoV-2</td>
+        <td>Spike RBD</td>
+        <td>Wildtype virus, 10 different variants</td>
+      </tr>
+      <tr>
+        <td>SARS-CoV-2</td>
+        <td>Spike S1</td>
+        <td>Wildtype virus, 19 different variants</td>
+      </tr>
+      <tr>
+        <td>SARS-CoV-2</td>
+        <td>Spike S2</td>
+        <td>Wildtype virus, 4 different variants</td>
+      </tr>
+      <tr>
+        <td>SARS-CoV-2</td>
+        <td>Nucleocapsid</td>
+        <td>Wildtype virus, 17 different variants</td>
+      </tr>
+      <tr>
+        <td>SARS-CoV-2</td>
+        <td>Envelop</td>
+        <td>Wildtype virus, 2 different variants</td>
+      </tr>
+      <tr>
+        <td>SARS-CoV-2</td>
+        <td>Membrane</td>
+        <td>Wildtype virus, 1 different variants</td>
+      </tr>
+      <tr>
+        <td>SARS-CoV-2</td>
+        <td>RNA Ploymerase</td>
+        <td>Wildtype virus, 1 different variants</td>
+      </tr>
+      <tr>
+        <td>SARS-CoV-2</td>
+        <td>Non-structural proteins (NSP)</td>
+        <td>Wildtype virus, 24 different variants</td>
+      </tr>
+      <tr>
+        <td>SARS-CoV-2</td>
+        <td>ORF proteins</td>
+        <td>Wildtype virus, 19 different variants</td>
+      </tr>
+      <tr>
+        <td>SARS-CoV-2</td>
+        <td>Alpha (B.1.1.7)</td>
+        <td>Mutation only in the RBD-region</td>
+      </tr>
+      <tr>
+        <td>SARS-CoV-2</td>
+        <td>Beta (B.1.351)</td>
+        <td>Mutation only in the RBD-region</td>
+      </tr>
+      <tr>
+        <td>SARS-CoV-2</td>
+        <td>Gamma (P.1)</td>
+        <td>Mutation only in the RBD-region</td>
+      </tr>
+      <tr>
+        <td>SARS-CoV-2</td>
+        <td>Delta (B.1.617.2)</td>
+        <td>Mutation only in the RBD-region</td>
+      </tr>
+      <tr>
+        <td>SARS-CoV-2</td>
+        <td>Delta plus (B.1.617.2.1)</td>
+        <td>Mutation only in the RBD-region</td>
+      </tr>
+      <tr>
+        <td>SARS-CoV-2</td>
+        <td>Eta (B.1.525)</td>
+        <td>Mutation only in the RBD-region</td>
+      </tr>
+      <tr>
+        <td>SARS-CoV-2</td>
+        <td>Kappa (B.1.617.1)</td>
+        <td>Mutation only in the RBD-region</td>
+      </tr>
+      <tr>
+        <td>SARS-CoV-2</td>
+        <td>Omicron BA.1</td>
+        <td>Complete set of mutations</td>
+      </tr>
+      <tr>
+        <td>SARS-CoV-2</td>
+        <td>Omicron BA.2</td>
+        <td>Complete set of mutations</td>
+      </tr>
+      <tr>
+        <td>SARS-CoV-2</td>
+        <td>Omicron BA.5</td>
+        <td>Complete set of mutations</td>
+      </tr>
+      <tr>
+        <td>Other human corona viruses</td>
+        <td>SARS-CoV</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Other human corona viruses</td>
+        <td>MERS-CoV</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Other human corona viruses</td>
+        <td>HCoV-229E</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Other human corona viruses</td>
+        <td>HCoV-HKU1</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Other human corona viruses</td>
+        <td>HCoV-NL63</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Other human corona viruses</td>
+        <td>HCoV-OC43</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Influenza virus</td>
+        <td>A/H1N1 HA/Wisconsin/588/2019</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Influenza virus</td>
+        <td>A/H1N1 NA/Wisconsin/588/2019</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Influenza virus</td>
+        <td>A/H3N2 HA/Cambodia/e0826360/2020</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Influenza virus</td>
+        <td>A/H3N2 NA/Cambodia/e0826360/2020</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Influenza virus</td>
+        <td>B/Victoria HA/Washington/02/2019</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Influenza virus</td>
+        <td>B/Victoria NA/Washington/02/2019</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Respiratory Syncytial Virus (RSV)</td>
+        <td>A/A2 Glycoprotein tetramer</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Respiratory Syncytial Virus (RSV)</td>
+        <td>B/18537 Fusion protein</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Respiratory Syncytial Virus (RSV)</td>
+        <td>B/18537 Glycoprotein tetramer</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Adenovirus</td>
+        <td>HAdV-B7</td>
+        <td>Fiber protein (aka spike protein)</td>
+      </tr>
+      <tr>
+        <td>Parainfluenza</td>
+        <td>HPIV-1 strain C39</td>
+        <td>F</td>
+      </tr>
+      <tr>
+        <td>Parainfluenza</td>
+        <td>HPIV-1 strain Washington/1957</td>
+        <td>HN</td>
+      </tr>
+      <tr>
+        <td>Metapneumovirus</td>
+        <td>HMPV-A strain CAN97-83</td>
+        <td>F</td>
+      </tr>
+      <tr>
+        <td>Metapneumovirus</td>
+        <td>HMPV-A strain CAN97-83</td>
+        <td>G</td>
+      </tr>
+      <tr>
+        <td>Mpox</td>
+        <td>A29L</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Mpox</td>
+        <td>A30L</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Mpox</td>
+        <td>E8L</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Mpox</td>
+        <td>H3L</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<script>
+  $(document).ready(function () {
+    $('#covid-variants').DataTable({
+      "sDom": '<"top row"<"col-md"i><"col-md"f>>rt<"bottom row"<"col-md"l><"col-md"p>><"clear">',
+      "order": [],
+      "language": {
+        "lengthMenu": "Show _MENU_ entries per page",
+        "zeroRecords": "Nothing found.",
+        "info": "Showing _START_ to _END_ of _TOTAL_ entries.",
+        "infoEmpty": "No records available",
+        "infoFiltered": "(filtered from _MAX_ total records)",
+        "search": "Search:",
+        "paginate": {
+          "first": "First",
+          "last": "Last",
+          "next": "»",
+          "previous": "«"
+        }
+      }
+    }
+    );
+  });
+</script>
+
+<script type="text/javascript" charset="utf8"
+  src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" charset="utf8"
+  src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>
