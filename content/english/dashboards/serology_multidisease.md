@@ -1,7 +1,7 @@
 ---
 title: Multiplex and high-throughput multi-disease serology
 description: A summary of the progress in formating a multi-disease serology assay, a key component of pandemic preparedness. Information about commercially available antigens is provided.
-banner: /dashboard_thumbs/auto_sero.jpg
+banner: /dashboard_thumbs/multi-disease-serology.jpg
 toc: false
 menu:
   dashboard_menu:
@@ -46,22 +46,6 @@ The proteins designed and produced created by the project to date are listed in 
 Proteins designed, expressed, purified, and characterised at KTH. They have been expressed either in HEK or CHO cells or in _E.scherichia coli_, and either as fragments or full-length proteins.
 
 **CONTACT??**
-
-## Ongoing work and collaborations
-
-The work of the project is now expanding into the area of the large families of flavivirus (e.g. the TBE (tick-borne encephalitis), Zikas, dengue, West Nile, and yellow fever viruses) and herpesvirus (e.g. Epstein–Barr virus, chickenpox (varicella), herpes simplex), and also adding bacterial respiratory infectious diseases such as tuberculosis.
-
-The project has is also collaborating with another SciLifeLab PLP project [“Systems-level immunomonitoring to unravel immune response to a novel pathogen”](/resources/immunomonitoring/), headed by Petter Brodin (Karolinska Institutet, KI) and Jochen Schwenk (KTH), to include a long range of commercially available antigens representing a large part of the Swedish vaccination program, see list below. These are listed in the table below.
-
-During the pandemic, the scarcity of reagents posed a major hindrance for testing. To ensure constant access to high-quality antigens in future, the project will produce all antigens in-house. This is done in close collaboration within the Department of Protein Science at KTH. Åsa Sivertsson at the Division of Systems Biology designs the protein and fragments to express. Sophia Hober and Hanna Tegel at the Division of Protein Technology at the KTH node of Protein Production Sweden (PPS), a national research infrastructure funded by the Swedish Research Council, express, purify and quality assure.
-
-The multi-disease serological assay is under constant development and will gradually be incorporated into the SciLifeLab infrastructure unit Autoimmunity and Serology Profiling, headed by Ronald Sjöberg. The goal is to provide a flexible and quickly adaptable assay for studies on seroprevalence available to both the Public Health Agency of Sweden and researchers.
-
-### Commercially available antigens
-
-The commercially available antigens provided by Peter Brodin (KI) and Jochen Schwenk (KTH) represent a significant portion of the Swedish vaccination program.
-
-## Variants of Protein
 
 <div class="table-responsive">
   <table id="variants" class="table table-hover" width="100%">
@@ -297,7 +281,19 @@ The commercially available antigens provided by Peter Brodin (KI) and Jochen Sch
   </table>
 </div>
 
-## Commercially available antigens
+## Ongoing work and collaborations
+
+The work of the project is now expanding into the area of the large families of flavivirus (e.g. the TBE (tick-borne encephalitis), Zikas, dengue, West Nile, and yellow fever viruses) and herpesvirus (e.g. Epstein–Barr virus, chickenpox (varicella), herpes simplex), and also adding bacterial respiratory infectious diseases such as tuberculosis.
+
+The project has is also collaborating with another SciLifeLab PLP project [“Systems-level immunomonitoring to unravel immune response to a novel pathogen”](/resources/immunomonitoring/), headed by Petter Brodin (Karolinska Institutet, KI) and Jochen Schwenk (KTH), to include a long range of commercially available antigens representing a large part of the Swedish vaccination program, see list below. These are listed in the table below.
+
+During the pandemic, the scarcity of reagents posed a major hindrance for testing. To ensure constant access to high-quality antigens in future, the project will produce all antigens in-house. This is done in close collaboration within the Department of Protein Science at KTH. Åsa Sivertsson at the Division of Systems Biology designs the protein and fragments to express. Sophia Hober and Hanna Tegel at the Division of Protein Technology at the KTH node of Protein Production Sweden (PPS), a national research infrastructure funded by the Swedish Research Council, express, purify and quality assure.
+
+The multi-disease serological assay is under constant development and will gradually be incorporated into the SciLifeLab infrastructure unit Autoimmunity and Serology Profiling, headed by Ronald Sjöberg. The goal is to provide a flexible and quickly adaptable assay for studies on seroprevalence available to both the Public Health Agency of Sweden and researchers.
+
+### Commercially available antigens
+
+The commercially available antigens provided by Peter Brodin (KI) and Jochen Schwenk (KTH) represent a significant portion of the Swedish vaccination program.
 
 <div class="table-responsive">
   <table id="antigens" class="table table-hover" width="100%">
