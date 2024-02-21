@@ -18,7 +18,7 @@ dashboards_topics: [COVID-19, Infectious diseases]
 
 <div class="alert alert-info">
   <i class="bi bi-exclamation-triangle-fill"></i>
-  <span>The data on this page are largely historic, though they may be updated occasionally. The Autoimmunity and Serology Profiling unit has now expanded their pandemic preparedness efforts to include tests for multiple other viruses. Information about that work can be found on the <a href="/dashboards/XXXXX/"> Multiplex and high-throughput multi-disease serology dashboard</a>.</span>
+  <span>The data on this page are largely historic, though they may be updated occasionally. The Autoimmunity and Serology Profiling unit has now expanded their pandemic preparedness efforts to include tests for multiple other viruses. Information about that work can be found on the <a href="/dashboards/serology_multidisease/"> Multiplex and high-throughput multi-disease serology dashboard</a>.</span>
 </div>
 
 Serology tests involve testing bodily fluids for the presence of antibodies or other substances. Since the beginning of the pandemic, the SciLifeLab Autoimmunity and Serology Profiling unit has conducted serology tests for antibodies targetting SARS-CoV-2 proteins. The unit has continuously provided the latest data to the Swedish Pathogens Portal. In each of the below sections, we show the numbers of samples that were **positive**, **negative** or **research and development (R&D)**.
