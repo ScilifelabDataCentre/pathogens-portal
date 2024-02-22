@@ -10,13 +10,13 @@ menu:
 
 ## When to use this route
 
-Route 1 is recommended for users with little to no experience using the command line, and for small scale (usually 1-10, but could be more) or infrequent submissions. It makes use of a combination of a web submission interface (Webin submission portal) and a command-line tool (Webin-CLI).
+Route 1 is recommended for users with little to no experience using the command line, and for small scale (usually 1-10 samples, but could be more) or infrequent submissions. It makes use of a combination of a web submission interface (Webin submission portal) and a command-line tool (Webin-CLI).
 
 ## Data required for route 1
 
-All of the data required to complete this submission can be downloaded together in a single zip file by clicking [here](/ENA_tutorial_data/example_data.zip). In this part of the tutorial, we will make use of the information in the '01-route' and 'data' subfolders.
+All of the data required to complete this submission can be downloaded together in a [single zip file](/ENA_tutorial_data/example_data.zip). In this part of the tutorial, we will make use of the information in the '01-route' and 'data' subfolders.
 
-**Note:** If you use your own data, you can fill in the metadata template, for instructions on how to do this, please see [this section in the preparation for submissions tab](/support_services/tutorial_ena/tutorial_ena_subprep/#preparing-the-metadata).
+**Note:** If you use your own data, you can fill in the metadata template, for instructions on how to do this, please see the [Preparation for Submissions](/support_services/tutorial_ena/tutorial_ena_subprep/#preparing-the-metadata) tab.
 
 ## Doing a test submission vs a 'real' submission
 
@@ -30,13 +30,13 @@ The Webin command line submission interface (Webin-CLI) is used to validate, upl
 
 * Download [Zulu Open JDK for the Java Runtime Environment (JRE)](https://www.azul.com/downloads/?package=jdk).
 
-* Download the Webin-CLI Java jar file from [this GitHub repository](https://github.com/enasequence/webin-cli/releases). Put it in an easily accessible folder, e.g. Downloads. For convenience, create a path variable named DOWNLOADS in a terminal window using the below code:
+* Download the Webin-CLI Java jar file from [ENA GitHub repository](https://github.com/enasequence/webin-cli/releases). Put it in an easily accessible folder, e.g. Downloads. For convenience, create a path variable named DOWNLOADS in a terminal window using the below code:
 
 > export DOWNLOADS="/path/to/Downloads/"
 
 ## The Webin submission portal
 
-The Webin submission portal will be required to complete a Route 1 submission. You will need an account to access the portal. You can register for an account [here](https://www.ebi.ac.uk/ena/submit/webin/accountInfo). After logging in, you will see the landing page (shown below) that includes multiple options for completing your submission. In this section, you can get more information on what each of the options do. The options that you will need to complete a submission using Route 1 are explained in the subsequent sections of this page.
+The Webin submission portal will be required to complete a Route 1 submission. You will need an account to access the portal, for instructions on how to do this, please see the [Preparation for Submissions](/support_services/tutorial_ena/tutorial_ena_subprep.md#obtaining-an-ena-webin-account) tab. After logging in, you will see the landing page (shown below) that includes multiple options for completing your submission. In this section, you can get more information on what each of the options do. The options that you will need to complete a submission using Route 1 are explained in the subsequent sections of this page.
 
 <br>
 
@@ -45,15 +45,16 @@ The Webin submission portal will be required to complete a Route 1 submission. Y
 </div>
 
 <br>
-
-<div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="False" aria-controls="collapseExample">
-    Click here for more details on the different sections of the portal indicated in the above image
-  </button>
-  </div>
-<div class="collapse" id="collapseExample">
+<div id="dwbuttons" class="text-center">
+  <a class="btn btn-secondary" data-bs-toggle="collapse" 
+  href="#collapseExample0" role="button" aria-expanded="False" aria-controls="collapseExample0">
+    Click here for details of the different sections indicated by numbers 1-5 in the above image
+  </a>
+</div>
+<div class="collapse" id="collapseExample0">
   <div class="card card-body">
-        <span>
-
+    <span>
+    
 * **Header Bar (Label 1 in the above figure)**: Use the **Support** option to request assistance from the ENA helpdesk. Click **Manage Account** to e.g. change your contact information or centre name.
 
 * **Studies (Projects) (Label 2 in the above figure)**: All related options are coloured yellow. The **Register Study** option leads to an interface where you can register new studies. The **Submit XMLs** interface enables studies to be submitted in XML format. The **Studies Report** option allows you to review and edit previously submitted studies, and to change their release date.
@@ -64,9 +65,8 @@ The Webin submission portal will be required to complete a Route 1 submission. Y
 
 * **Data Analyses (Label 5 in the above figure)**: All related options are coloured blue. The **Create annotated sequence spreadsheet** option allows you to select, download, and customise a template that can be used to make a submission via Webin-CLI. The **Submit XMLs** interface enables analyses to be submitted in XML format. The **Analyses Report** option enables you to review and edit previously submitted analyses. The **Analysis File Report** option enables you to review the status of files associated with previously submitted analyses. The **Analysis Processing Report** option enables you to review the processing status of files associated with previously submitted analyses.
 
-You can gain more information about how to use the options to complete the functions outlined above by clicking on them in the landing page.
-
-</span>
+You can gain more information about how to use the options to complete the functions outlined above by clicking on them in the landing page at ENA submission portal.
+    </span>
   </div>
 </div>
 
@@ -90,7 +90,7 @@ First, log in to the [Webin submission portal test service](https://wwwdev.ebi.a
 
 <br>
 
-Second, enter the details of the project, such as title and description. Asterisks (*) denote mandatory fields. The 'Release date' is the date that the record should become publicly available. This can be updated later, so if you are unsure on a precise date, you can provide an estimated date. If you do this though, please remember to update it accordingly.
+Second, enter the details of the project, such as title and description. Asterisks (*) denote mandatory fields. The 'Release date' is the date that the record should become publicly available, provide an estimated date. The release date can be set to maximum of two years in the future, and is easy to update in order to either extend or shorten. When the release date is approaching (i.e. two weeks left), you will get an email from ENA with a heads up notification.
 
 <br>
 
@@ -106,23 +106,23 @@ Please see [this video by ENA](https://youtu.be/3nArbshyzIk) for further guidanc
 
 ### Prepare information for samples
 
-Before registering the samples, you must prepare the spreadsheets for submission. For instructions on how to do this, please see [this section on preparing for submissions](/support_services/tutorial_ena/tutorial_ena_subprep).
+Before registering the samples, you must prepare the spreadsheets for submission. For instructions on how to do this, please see the [Preparation for Submissions](/support_services/tutorial_ena/tutorial_ena_subprep#preparing-the-metadata) tab.
 
-The information that you need to provide will differ dependent on e.g. the type of sampling done. Some fields are mandatory, whilst others are recommended or optional (summarised in the below image). The ENA provides a virus pathogen metadata checklist ([ERC000033](https://www.ebi.ac.uk/ena/browser/view/ERC000033)) that should be used as guidance for the submission of samples for SARS-CoV2.
+The information that you need to provide will differ depending on e.g. the type of sampling done. Some fields are mandatory, whilst others are recommended or optional (summarised in the below image). The ENA provides a virus pathogen metadata checklist ([ERC000033](https://www.ebi.ac.uk/ena/browser/view/ERC000033)) that should be used for submission of SARS-CoV2 samples.
 
 <div class="text-center">
   <img src="/img/ena_tutorial/Register_sample_metadata_opt.png" height="400" class="rounded">
-</div>
+  <br>
+  <i>The above image is adapted from one produced by Sam Holt for the ENA Facility Day 2020.</i>
 
-*The above image is adapted from one produced by Sam Holt for the ENA Facility Day 2020.*
 
-<a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
-    Genomics data
+<a class="btn btn-secondary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+    Click here for information about missing values in mandatory fields
   </a>
-</p>
+</div>
 <div class="collapse" id="collapseExample1">
   <div class="card card-body">
-        <span>Some metadata fields are mandatory. However, in some cases, data for these fields is unavailable for some reason. This will not prevent submission, but any such missing data must be reported appropriately in ENA. In order to do this, users should fill the respective fields using the appropriate INSDC-approved term, which are used to indicate not only that data is missing, but also why. For more information about reporting missing metadata values and the INSDC-approved terms that can be used, see <a href="https://ena-docs.readthedocs.io/en/latest/submit/samples/missing-values.html?highlight=insdc%20missing#reporting-missing-values">here</a>. </span>
+        <span>Some metadata fields are mandatory. However, in some cases, data for these fields is unavailable for some reason. This will not prevent submission, but any such missing data must be reported appropriately in ENA. In order to do this, users should fill the respective fields using the appropriate INSDC-approved term, which are used to indicate not only that data is missing, but also why. For more information about reporting missing metadata values and the INSDC-approved terms that can be used, see <a href="https://ena-docs.readthedocs.io/en/latest/submit/samples/missing-values.html#reporting-missing-values">ENA on Reporting Missing Values</a>. </span>
   </div>
 </div>
 
@@ -140,7 +140,7 @@ Both of the above options lead to the same place, which gives two options: (1) D
 
 <br>
 
-Select the latter and upload the filled sample template that you made when [preparing your submission](/support_services/tutorial_ena/tutorial_ena_subprep). Click on **Submit Completed Spreadsheet**, verify that the submission was successful in the pop-up Submission window, and then click **Close**.
+Select the latter and upload the filled sample template that you made when [preparing your submission](/support_services/tutorial_ena/tutorial_ena_subprep#preparing-the-metadata). Click on **Submit Completed Spreadsheet**, verify that the submission was successful in the pop-up Submission window, and then click **Close**.
 
 **Note:** Example data for three samples is provided in the 'data/samples/' folder of the example data provided with this tutorial in both .xlsx and .tsv formats. 'sample_spreadsheet.xlsx' is annotated such that different features are colour coded, and important features are highlighted. 'sample_spreadsheet.tsv' contains the same data in a tab-separated format, which is the format accepted for submission. Each row of these datasets represents a sample, while each column represents a metadata field.
 
@@ -158,7 +158,7 @@ Select the latter and upload the filled sample template that you made when [prep
 
 In this section, we will use the materials in the *runs* subfolder of the route-01 folder of the example data that you downloaded earlier.
 
-To view the contents of this folder, you can open it using a file explorer or using a command line interface. To do the latter, open a command prompt window (Terminal) on your computer and navigate to the *runs* subfolder. You can do this by typing `cd` in the terminal followed by the filepath (depicted as '$WORKSHOP/01-route/runs/' in the example below). Then, on a new line (that you can create by pressing 'enter' on your keyboard), type `ls`. The content of the subfolder will then be printed.
+To view the contents of this folder, you can open it using a file explorer or using a command line interface. To do the latter, open a command prompt window (Terminal) on your computer and navigate to the *runs* subfolder. You can do this by typing `cd` in the terminal followed by the filepath (depicted as '$WORKSHOP/01-route/runs/' in the example below). Then, on a new line (that you can create by pressing 'enter' on your keyboard), type `ls`. The content of the subfolder will then be listed.
 
 >cd $WORKSHOP/01-route/runs/<br>ls
 
@@ -199,10 +199,10 @@ The field values for STUDY and SAMPLE are taken from the study and samples metad
 
 Open a command prompt window and navigate to the *runs* subfolder of the 01-route folder of the example data files, using the `cd` command (e.g. `cd $WORKSHOP/01-route/runs/`). Remember to use `\` instead on Windows.
 
-The Webin-CLI requires that you provide information about who you are and what you want to do before use. You can do this by using one of the available **’options’**. In the command prompt window, type in the appropriate command from the list below to see the available options. Please note that the filepath should give the location of Webin-CLI. Below, it is assumed that a path variable ('DOWNLOADS') has been created that contains the full path to the folder where the program was downloaded. See [this section in the preparation for submissions tab](/support_services/tutorial_ena/tutorial_ena_subprep/#obtaining-example-data) to see how to do this.
+The Webin-CLI requires that you provide information about who you are and what you want to do before use. You can do this by using one of the available **’options’**. In the command prompt window, type in the appropriate command from the list below to see the available options. Please note that the filepath should give the location of Webin-CLI. Below, it is assumed that a path variable ('DOWNLOADS') has been created that contains the full path to the folder where the program was downloaded. See the [Preparation for Submissions](/support_services/tutorial_ena/tutorial_ena_subprep/#obtaining-example-data) tab on how to do this.
 
-* **On Windows** - java -jar $DOWNLOADS\webin-cli-4.2.3.jar –help
-* **On Mac** - java -jar $DOWNLOADS/webin-cli-4.2.3.jar -help
+* **On Windows** - java -jar $DOWNLOADS\webin-cli-7.0.1.jar -help
+* **On Mac** - java -jar $DOWNLOADS/webin-cli-7.0.1.jar -help
 
 You'll see that multiple options are available. You will use the following:
 
@@ -216,13 +216,20 @@ You'll see that multiple options are available. You will use the following:
 * `-submit`: validates and submits the files defined in the manifest file.
 * `-test`: use Webin test service instead of the production service.
 
-*The above definitions were taken from [ENA documentation](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/webin-cli.html#command-line-options), where you can also find more information about the command line options available for Webin-CLI.* <!-- Yvonne/Parul, please check this ref-->
+*The above definitions were taken from [ENA documentation](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/webin-cli.html#command-line-options), where you can also find more information about the command line options available for Webin-CLI.* 
 
-You will first use the `-validate` and `-test` options to perform a validation of the test server. Use the `$WORKSHOP\data\raw` folder as the input directory, and `$WORKSHOP\01-route\runs` as output directory. Use the commands below to do this. Remember to modify the commands according to your filepath, and to replace `Webin-XXX` and `myPassword` with your own account credentials:
+You will first use the `-validate` and `-test` options to perform a validation against the test server. Use the `$WORKSHOP\data\raw` folder as the input directory, and `$WORKSHOP\01-route\runs` as output directory. Use the commands below to do this. Remember to modify the commands according to your filepath, and to replace `Webin-XXX` and `myPassword` with your own account credentials:
 
-* **Windows** - `java -jar $DOWNLOADS\webin-cli-4.2.3.jar -context reads -userName Webin-XXXXX -password myPassword -manifest $WORKSHOP\01-route\runs\paired_fastq_manifest_sample1.txt -outputDir $WORKSHOP\01-route\runs -inputDir $WORKSHOP\data\raw -validate -test`
+* **Windows**
 
-* **Mac** - `java -jar $DOWNLOADS/webin-cli-4.2.3.jar -context reads -userName Webin-XXXXX -password myPassword -manifest $WORKSHOP/01-route/runs/paired_fastq_manifest_sample1.txt -outputDir $WORKSHOP/01-route/runs -inputDir $WORKSHOP/data/raw -validate -test`
+  ```
+  java -jar $DOWNLOADS\webin-cli-7.0.1.jar -context reads -userName Webin-XXXXX -password myPassword -manifest $WORKSHOP\01-route\runs\paired_fastq_manifest_sample1.txt -outputDir $WORKSHOP\01-route\runs -inputDir $WORKSHOP\data\raw -validate -test
+  ```
+
+* **Mac**
+  ```
+  java -jar $DOWNLOADS/webin-cli-7.0.1.jar -context reads -userName Webin-XXXXX -password myPassword -manifest $WORKSHOP/01-route/runs/paired_fastq_manifest_sample1.txt -outputDir $WORKSHOP/01-route/runs -inputDir $WORKSHOP/data/raw -validate -test
+  ```
 
 Once your command is entered correctly into your command prompt window, press 'Enter' on your keyboard. If the validation was successful, the last line of the resultant output will read:
 
@@ -238,9 +245,14 @@ If the submission is successful the last output row will read:
 
 The assigned accession number will also be displayed. As with failed validation, a failed submission results in the provision of directions to a report file that explains the errors.
 
-When doing a real submission to ENA, you use the same commands as those given above (modified as indicated) but with the `-test` option removed from the commands. In the event that you have multiple manifest files, you can generate a file script that would enable more automation. See for example:
+When doing a real submission to ENA, you use the same commands as those given above (modified as indicated) but with the `-test` option removed from the commands. 
+
+<!-- The next part is a bit too risky to keep, I think. We don't want people to script if they barely can use the terminal...
+
+In the event that you have multiple manifest files, you can generate a file script that would enable more automation. See for example:
 
 `ls -t ./path/to/manifests/*.manifest | xargs -L 1 -I {} java -jar ./path/to/webin.jar "-manifest={}" -other -params -here`
+-->
 
 ### Submit sequence assemblies
 
@@ -248,7 +260,7 @@ When doing a real submission to ENA, you use the same commands as those given ab
 
 In this section, we will use the materials in the *sequences* subfolder of the route-01 folder in the example data that you downloaded earlier.
 
-To view the contents of this folder, open it using the file explorer or a command line interface. To do the latter, open a command prompt window (Terminal) on your computer and navigate to the *sequences* subfolder. Do this by typing `cd` followed by the filepath (depicted as $WORKSHOP/01-route/sequences/ below). Press enter and then type `ls` and press enter again. The content of the subfolder will then be printed in the window.
+To view the contents of this folder, open it using the file explorer or a command line interface. To do the latter, open a command prompt window (Terminal) on your computer and navigate to the *sequences* subfolder. Do this by typing `cd` followed by the filepath (depicted as $WORKSHOP/01-route/sequences/ below). Press enter, then type `ls` and press enter again. The content of the subfolder will then be listed in the window.
 
 >cd $WORKSHOP/01-route/sequences/<br>ls
 
@@ -256,7 +268,7 @@ Windows users should replace `/` in the above with `\`.
 
 In the folder, you'll see that there are three manifest files (named 'hCov-19_isolate_\*_manifest.txt', where \* is a number between 1 and 3); one for each of the 3 example sample data files. The manifest files contain information about the corresponding sequence, including the name of the FASTA file containing that sequence.
 
-There are 6 files in the subfolder in the example data `$WORKSHOP/data/sequences/`; one FASTA sequence file and one chromosome list file for each of the three samples. The chromosome list file defines the list of 'chromosomes', in the case of SARS-CoV-2, we simply list the sequences as 'chromosome 1'. Please remember that the sequences must be given a unique name within the submission that is provided in the FASTA files. It is also essential that the sequence names are consistent between files, for example, the chromosome list file must refer to the chromosome sequences using the unique sequence names.
+There are 6 files in the subfolder in the example data `$WORKSHOP/data/sequences/`; one FASTA sequence file and one chromosome list file for each of the three samples. The chromosome list file defines the list of 'chromosomes', in the case of SARS-CoV-2, we simply list the sequences as 'chromosome 1'. Please remember that the sequences must be given a unique name within the submission that is provided in the FASTA files. It is essential that the sequence names in the FASTA files are used also in the corresponding chromosome list files.
 
 #### Prepare manifest files
 
@@ -264,7 +276,6 @@ Manifest files, which provide information about data files, need to be prepared 
 
 * **STUDY** - Study accession or unique name (alias).
 * **SAMPLE** - Sample accession or unique name (alias).
-* **RUN_REF** - Comma separated list of Run accession number(s) corresponding to the raw read data it was built from (if available).
 * **ASSEMBLYNAME** - Unique assembly name.
 * **ASSEMBLY_TYPE** - For SARS-CoV2 assembly_type is ‘COVID-19 outbreak’.
 * **COVERAGE** - The estimated depth of sequencing coverage.
@@ -273,10 +284,11 @@ Manifest files, which provide information about data files, need to be prepared 
 * **MINGAPLENGTH** - Minimum length of consecutive Ns to be considered a gap (optional).
 * **MOLECULETYPE** - For SARS-CoV2 molecule type will be either genomic RNA or viral cRNA, depending on your library preparation strategy.
 * **DESCRIPTION** - Free text description (optional).
+* **RUN_REF** - Comma separated list of Run accession number(s) corresponding to the raw read data it was built from (if available).
 * **FASTA** - Single FASTA file (compressed format).
 * **CHROMOSOME_LIST** - Chromosome list file (compressed format).
 
-*The above information was adapted from [documentation from ENA](https://buildmedia.readthedocs.org/media/pdf/ena-docs/latest/ena-docs.pdf)* <!-- Parul/Yvonne please check refs. LH was just trying to guess...-->
+*The above information was adapted from [documentation from ENA](https://ena-docs.readthedocs.io/en/latest/submit/assembly/genome.html#manifest-files)*
 
 The manifest file can be created in a text editor (e.g. Notepad) of your choice. You can use one of the manifest files in the example data folder (that you downloaded earlier for this tutorial) as a reference when making your own manifest file for SARS-CoV-2 sequence data. Please note though, that the field values might differ for your own project.
 
@@ -288,7 +300,7 @@ The field values for STUDY, SAMPLE, and RUN_REF (if raw reads have been submitte
 
 * Go back to the Dashboard menu (top left of the Webin Submissions Portal) and click on **Samples Report**. Find the accession number (starting with ERS) for the sample that the sequence file belongs to. Copy this and paste it into the manifest file as the SAMPLE field value.
 
-* **Only needed if you have previously submitted the related raw reads** - go to the Dashboard menu (top left of the Webin Submissions Portal) and click on **Runs Report**. Locate the accession number(s) (starting with ERR) for the raw read(s) that the assembly sequence file is based on. Copy the number(s), and paste it/them into the manifest file as the RUN_REF field value.
+* **Only needed if you have previously submitted the related raw reads** - go to the Dashboard menu (top left of the Webin Submissions Portal) and click on **Runs Report**. Locate the accession number(s) (starting with ERR) for the raw read(s) that the assembly sequence file is based on. Copy the number(s), and paste it/them into the manifest file as the RUN_REF field value (separate with comma).
 
 #### Submit using Webin-CLI
 
@@ -296,10 +308,10 @@ In a command prompt window, type the command `cd` followed by the filepath to th
 
 You then need to 'tell' Webin-CLI who you are and what you want to do. This can be done using 'options'. You can use the below commands to view the available options:
 
-* **On Windows** - java -jar $DOWNLOADS\webin-cli-4.2.3.jar –help
-* **On Mac** - java -jar $DOWNLOADS/webin-cli-4.2.3.jar -help
+* **On Windows** - java -jar $DOWNLOADS\webin-cli-7.0.1.jar –help
+* **On Mac** - java -jar $DOWNLOADS/webin-cli-7.0.1.jar -help
 
-In the above commands, you need to provide the location of Webin-CLI. Here we assume that 'DOWNLOADS' has been created as a path variable, which contains the full path to the folder where the program was downloaded. See [this section in the preparation for submissions tab](/support_services/tutorial_ena/tutorial_ena_subprep/#obtaining-example-data) for information on how to do this.
+In the above commands, you need to provide the location of Webin-CLI. Here we assume that 'DOWNLOADS' has been created as a path variable, which contains the full path to the folder where the program was downloaded. See the [Preparation for Submissions](/support_services/tutorial_ena/tutorial_ena_subprep/#obtaining-example-data) tab for information on how to do this.
 
 You will make use of following options:
 
@@ -313,13 +325,19 @@ You will make use of following options:
 * `-submit`: validates and submits the files defined in the manifest file.
 * `-test`: use Webin test service instead of the production service.
 
-*Adapted from [documents by ENA](https://nbisweden.github.io/module-repository) that also provide more detail regarding the command line options of Webin-CLI* <!-- Yvonne/Parul, please check this ref-->
+*Adapted from [ENA documentation](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/webin-cli.html#command-line-options) that also provides more details regarding the command line options of Webin-CLI.* 
 
 You will use the `-validate` and `-test` options to complete a validation to the test server. When doing this, use `$WORKSHOP\data\sequences` folder as the input directory, and `$WORKSHOP\01-route\sequences` as the output directory. Input the appropriate command from below into your command prompt window. Remember to replace both `Webin-XXX` and `myPassword`, with your own account credentials:
 
-* **Windows** - `java -jar $DOWNLOADS\webin-cli-4.2.3.jar -context genome -userName Webin-XXXXX -password myPassword -manifest $WORKSHOP\01-route\sequences\hCoV-19_isolate_1_manifest.txt -outputDir $WORKSHOP\01-route\sequences -inputDir $WORKSHOP\data\sequences -validate -test`
+* **Windows**
+  ```
+  java -jar $DOWNLOADS\webin-cli-7.0.1.jar -context genome -userName Webin-XXXXX -password myPassword -manifest $WORKSHOP\01-route\sequences\hCoV-19_isolate_1_manifest.txt -outputDir $WORKSHOP\01-route\sequences -inputDir $WORKSHOP\data\sequences -validate -test
+  ```
 
-* **Mac** - `java -jar $DOWNLOADS/webin-cli-4.2.3.jar -context genome -userName Webin-XXXXX -password myPassword -manifest $WORKSHOP/01-route/sequences/hCoV-19_isolate_1_manifest.txt -outputDir $WORKSHOP/01-route/sequences -inputDir $WORKSHOP/data/raw -validate -test`
+* **Mac**
+  ```
+  java -jar $DOWNLOADS/webin-cli-7.0.1.jar -context genome -userName Webin-XXXXX -password myPassword -manifest $WORKSHOP/01-route/sequences/hCoV-19_isolate_1_manifest.txt -outputDir $WORKSHOP/01-route/sequences -inputDir $WORKSHOP/data/raw -validate -test
+  ```
 
 Press **Enter**. If the validation was successful, the last row of the output will read:
 
@@ -333,12 +351,12 @@ When you move on to doing a real submission, use the same commands as those give
 
 #### What happens after submission
 
-Once the submitted sequence assemblies have been processed, they will be distributed as **EMBL flat files**, see [this example from ENA](https://ena-docs.readthedocs.io/en/latest/submit/fileprep/flat-file-example.html) to understand the format. These files largely comprise of:
+Once the submitted sequence assemblies have been processed, they will be distributed as **EMBL flat files**, see [this example from ENA](https://ena-docs.readthedocs.io/en/latest/submit/fileprep/flat-file-example.html) to understand the format. These files largely consist of:
 
 1. Metadata, such as author names and addresses (contained in lines beginning with `R`, e.g. `RA`, `RL`, `RG`)
 2. Sample information, located inside a `source` block
 3. The sequence itself
 
-Upon generation of the EMBL file, sequences also acquire a sequence accession number. This accession number will comprise of 2 upper case letters followed by 6 numbers, e.g. [LR991698](https://www.ebi.ac.uk/ena/browser/api/embl/LR991698.2?lineLimit=1000).
+Upon generation of the EMBL file, sequences also acquire a sequence accession number. This accession number will consist of 2 upper case letters followed by 6 numbers, e.g. [LR991698](https://www.ebi.ac.uk/ena/browser/api/embl/LR991698.2?lineLimit=1000).
 
 For each assembly submission, Webin will report a unique accession number (starting with ERZ). For most assemblies, this number is only used for internal processing and will not be visible in the browser. However, for SARS-CoV-2 assemblies, the ERZ records will also be available in the browser to provide a point of access for the submitted file(s).
