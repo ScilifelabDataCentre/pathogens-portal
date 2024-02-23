@@ -31,9 +31,11 @@ By citing the portal using the RRID, you will facilitate further reuse of the po
 
 For official guidance see the [SciCrunch page on RRID citations](https://scicrunch.org/resources/about/guidelines).
 
-**In-text citation**: Swedish Pathogens Portal, SciLifeLab Data Centre, _version number_, RRID: SCR_024866
+**In-text citation**: Swedish Pathogens Portal, SciLifeLab Data Centre, _version number_, RRID: SCR_024866. (Access date: date of access).
 
-You will find the version number of the Portal at the bottom of the footer on any page, or on our <a target="_blank" href="https://github.com/ScilifelabDataCentre/pathogens-portal">Github repository</a> under 'releases'.
+**Reference list**: Swedish Pathogens Portal (_access date_), SciLifeLab Data Centre, version (version number) from https://pathogens.se, RRID:SCR_024866.
+
+You will find the version number of the portal at the bottom of the footer on any page, or on our <a target="_blank" href="https://github.com/ScilifelabDataCentre/pathogens-portal">Github repository</a> under 'releases'.
 
 If you are aiming to cite particular pages of the portal in particular (e.g. the Data Highlights), you may find that an author is mentioned and a date is given. In this case, you should include the appropriate date and author instead, but must still include the RRID. There are also some pages were information for how to cite the data itself is provided (e.g. where a DOI is given on a dashboard page). In those cases, you should use that citation.
 
