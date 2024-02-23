@@ -10,7 +10,7 @@ params:
   # There is a hugo i18n package, but it seems like overkill for so few strings
   lang_strings:
     en:
-      home_title: Welcome to the new Swedish Pathogens Portal
+      home_title: "Swedish Pathogens Portal: supporting pandemic preparedness"
       enquire_email_footer_dc: "Contact the Swedish Pathogens Portal"
       support_feedback: Support & Feedback
       privacy: Privacy Notice
