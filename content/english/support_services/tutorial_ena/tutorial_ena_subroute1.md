@@ -41,14 +41,14 @@ The Webin submission portal will be required to complete a Route 1 submission. Y
 <br>
 
 <div class="text-center">
-  <img src="/img/ena_tutorial/ENA_landing_page.png" height="400" class="rounded">
+  <img src="/img/ena_tutorial/ENA_landing_page.png" height="400" class="rounded" alt="ENA landing page">
 </div>
 
 <br>
 <div id="dwbuttons" class="text-center">
   <a class="btn btn-secondary" data-bs-toggle="collapse" 
   href="#collapseExample0" role="button" aria-expanded="False" aria-controls="collapseExample0">
-    Click here for details of the different sections indicated by numbers 1-5 in the above image
+    Click here for details of the landing page sections indicated by numbers 1-5
   </a>
 </div>
 <div class="collapse" id="collapseExample0">
@@ -79,13 +79,13 @@ First, log in to the [Webin submission portal test service](https://wwwdev.ebi.a
 <br>
 
 <div class="text-center">
-  <img src="/img/ena_tutorial/Step1_register_study.png" height="400" class="rounded">
+  <img src="/img/ena_tutorial/Step1_register_study.png" height="400" class="rounded" alt="ENA Dashboard">
 </div>
 
 <br>
 
 <div class="text-center">
-  <img src="/img/ena_tutorial/Step1_register_study_picb.png" height="400" class="rounded">
+  <img src="/img/ena_tutorial/Step1_register_study_picb.png" height="400" class="rounded" alt="ENA Studies section">
 </div>
 
 <br>
@@ -95,7 +95,7 @@ Second, enter the details of the project, such as title and description. Asteris
 <br>
 
 <div class="text-center">
-  <img src="/img/ena_tutorial/Step2_register_study.png" height="400" class="rounded">
+  <img src="/img/ena_tutorial/Step2_register_study.png" height="400" class="rounded" alt="ENA register study">
 </div>
 
 <br>
@@ -111,13 +111,13 @@ Before registering the samples, you must prepare the spreadsheets for submission
 The information that you need to provide will differ depending on e.g. the type of sampling done. Some fields are mandatory, whilst others are recommended or optional (summarised in the below image). The ENA provides a virus pathogen metadata checklist ([ERC000033](https://www.ebi.ac.uk/ena/browser/view/ERC000033)) that should be used for submission of SARS-CoV2 samples.
 
 <div class="text-center">
-  <img src="/img/ena_tutorial/Register_sample_metadata_opt.png" height="400" class="rounded">
+  <img src="/img/ena_tutorial/Register_sample_metadata_opt.png" height="400" class="rounded" alt="Checklist example fields">
   <br>
   <i>The above image is adapted from one produced by Sam Holt for the ENA Facility Day 2020.</i>
 
 
 <a class="btn btn-secondary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
-    Click here for information about missing values in mandatory fields
+    Click here for information about missing values in mandatory metadata fields
   </a>
 </div>
 <div class="collapse" id="collapseExample1">
@@ -135,7 +135,7 @@ Both of the above options lead to the same place, which gives two options: (1) D
 <br>
 
 <div class="text-center">
-  <img src="/img/ena_tutorial/Register_sample_options.png" height="250" class="rounded">
+  <img src="/img/ena_tutorial/Register_sample_options.png" height="250" class="rounded" alt="ENA Register samples">
 </div>
 
 <br>
@@ -147,7 +147,7 @@ Select the latter and upload the filled sample template that you made when [prep
 <br>
 
 <div class="text-center">
-  <img src="/img/ena_tutorial/Register_sample_success.png" height="500" class="rounded">
+  <img src="/img/ena_tutorial/Register_sample_success.png" height="500" class="rounded" alt="Register sample success">
 </div>
 
 <br>

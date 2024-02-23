@@ -35,7 +35,7 @@ Below is more information on what each type of metadata object comprises:
 The different metadata objects relate to different stages of the sequencing process. A summary of which metadata objects relate to which stages is shown in the below figure.
 
 <div class="text-center">
-  <img src="/img/ena_tutorial/metadata_sequencing.png" height="500" class="rounded">
+  <img src="/img/ena_tutorial/metadata_sequencing.png" height="500" class="rounded" alt="ENA metadata objects">
 </div>
 
 For more information on how metadata objects are used and how they are related to one another, see this [video](https://youtu.be/M9srsSieEB4) produced by ENA.

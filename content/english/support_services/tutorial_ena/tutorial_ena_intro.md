@@ -13,7 +13,7 @@ type: ena_tutorial
 
 
 <div class="text-center">
-  <img src="/img/ena_tutorial/ENA_logo_2021.png" width="350" class="rounded">
+  <img src="/img/ena_tutorial/ENA_logo_2021.png" width="350" class="rounded" alt="ENA logo">
 </div>
 
 ## About this tutorial

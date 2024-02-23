@@ -174,7 +174,7 @@ This service also provides both validation and submission services, as with the 
 
 * Validation: [https://wwwdev.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19/validate](https://wwwdev.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19/validate).
 
-* Submission: [https://wwwdev.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19](https://wwwdev.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19/validate).
+* Submission: [https://wwwdev.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19](https://wwwdev.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19/).
 
 Let's validate the contents of `hCoV-19_isolate_1.json`. Remember to replace `-u user:password` with your webin credentials, and to substitute in your own accessions (study, sample and runRef) into the JSON object:
 
