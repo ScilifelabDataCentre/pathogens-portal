@@ -10,9 +10,9 @@ menu:
 
 ## When to use this route
 
-Route 2 is recommended for those with advanced knowledge of using command line, and for those doing bulk submissions. It is the most suitable route for high-throughput, frequent submissions and automated systems. For this route, the metadata is typically provided to ENA in XML documents. This is true in all cases except for sequence assemblies, where the metadata is instead provided in JSON format. In either case, the metadata are submitted using cURL.
+Route 2 is recommended for those with advanced knowledge of using command line, and for those doing bulk submissions. It is the most suitable route for high-throughput, frequent submissions and automated systems. For this route, the metadata is typically provided to ENA in XML documents. This is true in all cases except for sequence assemblies, where the metadata is instead provided in JSON format. In either case, the metadata is submitted using cURL.
 
-## Necessary preparation
+## Necessary preparations
 
 Before commencing with the submission, the following things are required:
 
@@ -20,13 +20,13 @@ Before commencing with the submission, the following things are required:
 
 2. **cURL** - A command line facility with cURL installed.
 
-**Note:** This submission route works well in a Mac or Linux environment. For Windows users, we recommend downloading a Ubuntu app or a virtual Linux machine for smooth submissions.
+**Note:** This submission route works well in a Mac or Linux environment. For Windows users, we recommend downloading an Ubuntu app or a virtual Linux machine for smooth submissions.
 
 ### Data required for route 2
 
-All of the data required to complete this submission can be downloaded together in a single zip file by clicking [here](/ENA_tutorial_data/example_data.zip). In this part of the tutorial, we will make use of the information in the '02-route' and 'data' subfolders.
+All of the data required to complete this submission can be downloaded as a [single zip file](/ENA_tutorial_data/example_data.zip). In this part of the tutorial, we will make use of the information in the '02-route' and 'data' subfolders.
 
-**Note:** If you use your own data, you can fill in the metadata template, for instructions on how to do this please see [this section in the preparation for submissions tab](/support_services/tutorial_ena/tutorial_ena_subprep/#preparing-the-metadata).
+**Note:** If you use your own data, you can fill in the metadata template, for instructions on how to do this please see the [Preparation for Submissions](/support_services/tutorial_ena/tutorial_ena_subprep/#preparing-the-metadata) tab.
 
 ### Create checksums (MD5)
 
@@ -48,7 +48,7 @@ Sequence files and the MD5 checksum files must be uploaded before starting the s
 
 {{< tutorial_ena_subroute2_upload >}}
 
-For other options to upload, more detailed instructions, or troubleshooting, please see [this section of ENA's tutorial](https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html).
+For other options to upload, more detailed instructions, or troubleshooting, please see [ENA documentation on Uploading Files](https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html).
 
 **Note**: Always keep a local copy of the uploaded files until the files have been successfully submitted and archived. The ENA dropbox is a temporary transit area and is not backed up.
 
@@ -56,29 +56,33 @@ For other options to upload, more detailed instructions, or troubleshooting, ple
 
 ### Register a study
 
-In this section, we will use the materials in the *02-route/study/* subfolder of the example data that you downloaded earlier. Use the following commands in the command line to navigate to the folder and view its contents:
+In this section, we will use the materials in the `02-route/study/` subfolder of the example data that you downloaded earlier. Use the following commands in the command line to navigate to the folder and view its contents:
 
 > cd $WORKSHOP/02-route/study/<br>ls
 
-In the *study* subfolder, you will find two example XML files (the file type required for this kind of submission). For this type of submission, we will need 2 XML files:
+Two XML files (the file type required for this kind of submission) are required for this type of submission:
 
 * **project.xml** - This XML file contains the metadata for the study, including e.g. title of the study.
 
-* **submission.xml** - This file declares one or more Webin submission service actions. The action can be `<ADD/>`, which is used to submit new objects. The user can decide the study release date, which is the date that the study will become public, along with all data associated with it. By default, the release date will be set as two months after the date of submission, but the submitter can select any date within 2 years of the present date. This can be done using the `<HOLD/>` action, and may look e.g. `<HOLD HoldUntilDate="TODO: release date"/>`. You can modify release date by replacing `<ADD/>` with `<MODIFY/>`. The submission.xml file in the $WORKSHOP folder that you set up, defines the `<ADD/>` action that will allow you to create a new study.
+* **submission.xml** - This file declares one or more Webin submission service actions. In this example, the action is `<ADD/>`, which is used to submit new objects, followed by `<HOLD HoldUntilDate="TODO: YYYY-MM-DD"/>` action, which is used to set a release date. The release date is the date that the study will become public, along with all data associated with it. If no release date is set, the default is two months after the date of submission, but the submitter can select any date within 2 years of the present date. You can later modify the release date by replacing action `<ADD/>` with `<MODIFY/>`.
 
-Edit *project.xml* to create a project alias that is unique to you. Once complete, you are ready to send the project.xml and submission.xml files (using the `<ADD/>` action) to the test service using the following cURL command:
+Edit *submission.xml* and set an appropriate release date, then edit *project.xml* to create a project alias that is unique to you. Once complete, you are ready to send the project.xml and submission.xml files (using the `<ADD/>` action) to the test service using the following cURL command:
 
-`curl -u username:password -F "SUBMISSION=@submission.xml" -F "PROJECT=@project.xml" "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"*`
+```
+curl -u username:password -F "SUBMISSION=@submission.xml" -F "PROJECT=@project.xml" "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"
+```
 
 **Note**: Replace `username` with your Webin username (starting with Webin-), and `password` with your Webin password.
 
 After you run the above command in your command prompt, you will receive a ‘receipt.xml’ file. This file will contain information about the contents and success of your submission, as well as your study accession.
 
-The attribute 'success' in the receipt file will have a value of either true or false. If the value is false, it indicates that submission was unsuccessful. In this case, please check the rest of the receipt file for error messages. When you have resolved the errors indicated, you can try the submission again. If the value is true, then it indicates that the submission was successful. The receipt will contain the accession number of the study metdata object that you submitted. The accession number generated will be the one you will include in a publication. Please take note of your study accession number at this stage, we will use this later to submit other objects to this study.
+The attribute 'success' in the receipt file will have a value of either true or false. If the value is false, it indicates that submission was unsuccessful. In this case, please check the rest of the receipt file for error messages. When you have resolved the errors indicated, you can try the submission again. If the value is true, then it indicates that the submission was successful. 
+
+The receipt will contain the accession number of the study you submitted, and this is the number you will include in a publication. Please take note of your study accession number at this stage, we will use this later to submit other objects to this study.
 
 ### Prepare information for samples
 
-In this section, we will use the materials in the *02-route/samples/* subfolder of the example data that you downloaded earlier. This subfolder contains multiple XML files. Use the following commands in the command line prompt to navigate to the folder and view its contents:
+In this section, we will use the materials in the `02-route/samples/` subfolder of the example data that you downloaded earlier. This subfolder contains multiple XML files. Use the following commands in the command line prompt to navigate to the folder and view its contents:
 
 >cd $WORKSHOP/02-route/samples/<br>ls
 
@@ -105,7 +109,9 @@ Sample aliases are defined within the `<SAMPLE>` tag, e.g. `<SAMPLE alias='this_
 
 As with study registration (above), we need to use cURL to send the samples.xml and submission.xml files (using the `<ADD/>` action) to the test service:
 
-`curl -u username:password -F "SUBMISSION=@submission.xml" -F "SAMPLE=@samples.xml" "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"`
+```
+curl -u username:password -F "SUBMISSION=@submission.xml" -F "SAMPLE=@samples.xml" "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"
+```
 
 You should again receive a 'receipt XML' with information regarding submission success and accession numbers. Note that, in this instance, you will also receive a `<SAMPLE>` tag for each submitted sample (when using the sample data for this tutorial, you should see 3). Please take note of each sample alias and accession, as you will need these later when submitting sequence files.
 
@@ -117,7 +123,9 @@ Sometimes, previously uploaded metadata needs to be updated. You can do this by 
 
 * This time, we will use the `submission_modify.xml` in the submission. This file instructs the service to update an existing sample. The update uses the alias to detect existing samples, so it is important not to change the alias.
 
-`curl -u username:password -F "SUBMISSION=@submission_modify.xml" -F "SAMPLE=@samples.xml" "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"`
+```
+curl -u username:password -F "SUBMISSION=@submission_modify.xml" -F "SAMPLE=@samples.xml" "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"
+```
 
 Check the receipt file to see whether your update was successful. Note that the receipt file will also report which samples have not been updated.
 
@@ -125,11 +133,11 @@ Check the receipt file to see whether your update was successful. Note that the 
 
 As in all previous steps, this type of submission is performed using XML files. In the case of raw reads, we must submit two types of object: experiments and runs. Experiments hold information about library preparation and sequencing protocols, and also provide a link to the appropriate study and samples. Runs simply link experiments and data files.
 
-Submissions are defined using different metadata objects. To know more about metadata objects, please [read this section](/support_services/tutorial_ena/tutorial_ena_terminology/) of this tutorial.
+Submissions are defined using different metadata objects. To know more about metadata objects, please read [the terminology section](/support_services/tutorial_ena/tutorial_ena_terminology/) of this tutorial.
 
 Please go to the example data that you downloaded earlier, and locate example XMLs for both experiments and runs in the `02-route/runs` directory. Make the following edits:
 
-* In **experiments.xml**, replace all occurrences of PRJEB#### with your study accession number, and all occurrences of SAME###### with the equivalent sample accessions.
+* In **experiments.xml**, replace all occurrences of PRJEB#### with your study accession number, and all occurrences of ERS###### with the equivalent sample accessions.
 
 * In **runs.xml**, replace the checksum field in each `<FILE>` tag with those that you computed earlier. These will be used to check for file corruption during upload.
 
@@ -142,17 +150,19 @@ Note that runs reference experiments by their aliases. For example:
 
 We will send these XML files to the test service using cURL with the following command:
 
-`curl -u username:password -F "SUBMISSION=@submission.xml" -F "EXPERIMENT=@experiments.xml" -F "RUN=@runs.xml" "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"`
+```
+curl -u username:password -F "SUBMISSION=@submission.xml" -F "EXPERIMENT=@experiments.xml" -F "RUN=@runs.xml" "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"
+```
 
-For additional information, please see [this section of the documentation from ENA](https://ena-docs.readthedocs.io/en/latest/submit/reads/programmatic.html).
+For additional information, please see ENA documentation on [Submit Raw Reads Programmatically](https://ena-docs.readthedocs.io/en/latest/submit/reads/programmatic.html).
 
 ### Validate and submit sequence assemblies
 
 A new JSON-based REST service was introduced by ENA during 2021 specifically for the submission of SARS-CoV-2 sequences. Sequences for submissions made using this service are not held in FASTA files. Rather, they are included directly in the JSON itself, thus greatly simplifying the process of submission. This is only made possible due to the small size and relatively low complexity of the genome. For more information on this system, including useful code snippets, please see [ENA documentation on this topic](https://ena-covid19-docs.readthedocs.io/en/latest/help_and_guides/webin-cli-rest.html).
 
-In this section, we will use the materials in the 02-route/sequences/ subfolder of the example data that you downloaded earlier. Use the following commands in the command line prompt to navigate to the folder and view its contents:
+In this section, we will use the materials in the `02-route/sequences/` subfolder of the example data that you downloaded earlier. Use the following commands in the command line prompt to navigate to the folder and view its contents:
 
-```bash
+```
 cd $WORKSHOP/02-route/sequences/
 ls
 cat hCoV-19_isolate_1.json
@@ -166,10 +176,10 @@ This service also provides both validation and submission services, as with the 
 
 * Submission: [https://wwwdev.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19](https://wwwdev.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19/validate).
 
-Let's validate the contents of `hCoV-19_isolate_1.json`. Remember to replace `-u user:pass` with your webin credentials, and to substitute in your own accessions into the JSON object:
+Let's validate the contents of `hCoV-19_isolate_1.json`. Remember to replace `-u user:password` with your webin credentials, and to substitute in your own accessions (study, sample and runRef) into the JSON object:
 
-```bash
-curl -X 'POST' -u user:pass
+```
+curl -X 'POST' -u user:password
 'https://wwwdev.ebi.ac.uk/ena/submit/webin-cli/api/v1/genome/covid-19/validate'
 -H 'accept: application/json'
 -H 'Content-Type: application/json'

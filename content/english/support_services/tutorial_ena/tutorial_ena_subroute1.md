@@ -156,7 +156,7 @@ Select the latter and upload the filled sample template that you made when [prep
 
 #### Explore the example data
 
-In this section, we will use the materials in the *runs* subfolder of the route-01 folder of the example data that you downloaded earlier.
+In this section, we will use the materials in the *runs* subfolder of the `route-01` folder of the example data that you downloaded earlier.
 
 To view the contents of this folder, you can open it using a file explorer or using a command line interface. To do the latter, open a command prompt window (Terminal) on your computer and navigate to the *runs* subfolder. You can do this by typing `cd` in the terminal followed by the filepath (depicted as '$WORKSHOP/01-route/runs/' in the example below). Then, on a new line (that you can create by pressing 'enter' on your keyboard), type `ls`. The content of the subfolder will then be listed.
 
@@ -197,7 +197,7 @@ The field values for STUDY and SAMPLE are taken from the study and samples metad
 
 #### Submit using Webin-CLI
 
-Open a command prompt window and navigate to the *runs* subfolder of the 01-route folder of the example data files, using the `cd` command (e.g. `cd $WORKSHOP/01-route/runs/`). Remember to use `\` instead on Windows.
+Open a command prompt window and navigate to the *runs* subfolder of the `01-route` folder of the example data files, using the `cd` command (e.g. `cd $WORKSHOP/01-route/runs/`). Remember to use `\` instead on Windows.
 
 The Webin-CLI requires that you provide information about who you are and what you want to do before use. You can do this by using one of the available **’options’**. In the command prompt window, type in the appropriate command from the list below to see the available options. Please note that the filepath should give the location of Webin-CLI. Below, it is assumed that a path variable ('DOWNLOADS') has been created that contains the full path to the folder where the program was downloaded. See the [Preparation for Submissions](/support_services/tutorial_ena/tutorial_ena_subprep/#obtaining-example-data) tab on how to do this.
 

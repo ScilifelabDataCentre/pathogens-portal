@@ -42,7 +42,7 @@ Once you have filled in all of the required fields, you can log in to the submis
 
 ## Obtaining example data
 
-You are welcome to follow this tutorial using your own data. However, you can instead use example data, which you can download [here](/ENA_tutorial_data/example_data.zip). Using the example can be helpful for familiarising yourself with how to structure your data for submission and the steps required to complete a submission.
+You are welcome to follow this tutorial using your own data. However, you can instead use example data, which you can download as a [single zip file](/ENA_tutorial_data/example_data.zip). Using the example can be helpful for familiarising yourself with how to structure your data for submission and the steps required to complete a submission.
 
 The example data was originally produced by [ENA](https://www.ebi.ac.uk/ena/browser/home), but we have restructured it for use with the two submission routes described in this tutorial. With the example data, you can submit 3 different samples to an example project, together with raw read data and sequences associated with each sample.
 
