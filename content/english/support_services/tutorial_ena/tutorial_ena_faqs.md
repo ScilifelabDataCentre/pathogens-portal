@@ -1,11 +1,11 @@
 ---
 title: Tutorial for SARS-CoV-2 genome data submission to ENA
-toc : false # in case of the ena tutorial pages the table of contents is inserted inside the template, ena_tutorial
+toc: false # in case of the ena tutorial pages the table of contents is inserted inside the template, ena_tutorial
 type: ena_tutorial
 menu:
-    ena_tutorial:
-        name: FAQs
-        weight: 80
+  ena_tutorial:
+    name: FAQs
+    weight: 80
 ---
 
 ## <b>Frequently Asked Questions (FAQs)</b>
@@ -44,4 +44,4 @@ Absolutely, please refer to the [Get Help tab](/support_services/tutorial_ena/tu
 
 ### Can I make the sequence data submitted to ENA visible on the Swedish Pathogens Portal?
 
-Yes, the Swedish Pathogens Portal is happy to display information about sequences deposited by researchers affiliated to a Swedish research institution. If you would be interested in this, please get in touch with the team by e-mailing [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se) after you have submitted your sequences.
+Yes, the Swedish Pathogens Portal is happy to display information about sequences deposited by researchers affiliated to a Swedish research institution. If you would be interested in this, please get in touch with the team by e-mailing [pathogens@scilifelab.se](mailto:pathogens@scilifelab.se) after you have submitted your sequences.
