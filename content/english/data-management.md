@@ -1,82 +1,78 @@
 ---
-title: Data management
+title: Research data management
 toc: True
 aliases:
   - /support_services/data_management/
   - /sv/support_services/data_management/
 ---
 
-## Research Data Management
+_Research data management (RDM)_ refers to how outputs from research projects (e.g. data and code) are handled, organised, and stored. Following best practices in RDM will allow you to better manage your outputs, and will help others to reuse them. In general, it is recommended that research outputs are as open and FAIR (i.e. **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable) as possible. Read the [national guidelines for the promotion of open science in Sweden](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2024-01-15-national-guidelines-for-promoting-open-science-in-sweden.html) and [Wilkinson _et al._ (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175/pdf/sdata201618.pdf) to learn more about open science and the FAIR principles, respectively.
 
-*Research Data management (RDM)* is about how research outputs (e.g. data, code, software etc.) are handled, organized and structured before, during, and after the research project. Good Data Management Practices such as proper planning, management, and documentation of research data will make project management easier and more efficient while projects are being performed and ensure that the research output can be validated and reused by others. Adhering to FAIR principles and Open Science principles are important parts of good RDM practices.
+On this page, you will find information about where to access direct, one-on-one support or general guidance for RDM relevant to infectious disease/pandemic preparedness data generated in Sweden.
 
-<div class="text-center">
-  <img height=400 src="/img/rdm_lifecycle.png">
-  <p class="small text-muted">The research data life cycle is used to visualise the life of research data.</p>
-</div>
+## Get direct support
 
-- Learn more about <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175/pdf/sdata201618.pdf">FAIR principles</a> 
-- Learn more about Open Science <a target="_blank" href="https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2024-01-15-national-guidelines-for-promoting-open-science-in-sweden.html">National Guidelines for promotion Open Science in Sweden</a>
+### Swedish Pathogens Portal
 
-A *Data Management Plan (DMPs)* is a document addressing requirements and practices for the project’s data. The DMP is a living document that will be developed during the research project. In the planning stage, the DMP can outline strategies and be used to estimate resources needed, in the project phase it will be completed with details about data handling, and at the end of the project  links to published datasets and data outputs will be added.  Most national and international funding agencies recognizing the importance of RDM and some now request DMP as part of the grant application process (either to be added at the time of application, or before the granted project receive the grant).
-
-Here we give an overview of available services and support regarding RDM relevant to Swedish researchers working on infectious diseases incl COVID-19), pathogens data, and pandemic preparedness related research.
-
-## Support
-
-### Pathogens Portal Hands-on Data Management support
-
-All researchers affiliated with a university or research institute in Sweden working on research topics relevant to the topics of the Pathogens Portal can receive free individual consultations and hands-on help within reasonable bounds from the Swedish Pathogens Portal team. Simply send an email to <a href="mailto:data-management@scilifelab.se">data-management@scilifelab.se</a> or <a href="mailto:pathogens@scilifelab.se">pathogens@scilifelab.se</a>. Your question are often replied in collaboration with the **SciLifeLab Data Management Helpdesk**.
+Whilst the portal contains many general guidelines for RDM e.g. how to [share data](/share-data/), we also offer direct support for individual projects. To access this, please send an email to <a href="mailto:pathogens@scilifelab.se">pathogens@scilifelab.se</a> or send a messsage via the [contact form](/contact/). You can typically expect a response within one working day.
 
 ### SciLifeLab Data Management Helpdesk
 
-Data stewards from NBIS and SciLifeLab Data Centre are available to discuss and provide support regarding data management questions. Email <a href="mailto:data-management@scilifelab.se">data-management@scilifelab.se</a> for contact and support.
+The SciLifeLab Data Management Helpdesk is operated by experts in RDM from the SciLifeLab Data Centre and National Bioinformatics Infrastructure Sweden (NBIS). The purpose of the helpdesk is to provide direct, customised RDM support for those working in life science research in Sweden. To get in touch, send an email to <a href="mailto:data-management@scilifelab.se">data-management@scilifelab.se</a>. Alternatively, you can go to the [SciLifeLab Research Data Management Guidelines](https://data-guidelines.scilifelab.se) and submit questions via the contact form.
 
-## Services
+## Resources for infectious disease data
 
 ### ENA submission guidelines
 
-*National Bioinformatics Infrastructure Sweden (NBIS)* and SciLifeLab Data Centre <a target="_blank" href="https://www.pathogens.se/support_services/tutorial_ena/tutorial_ena_intro/">ENA submission guidelines</a> - guidance developed to aid submissions to the European Nucleotide Archive (ENA)
-
-### SciLifeLab Data Stewardship Wizard (DSW)
-
-<a target="_blank" href="https://dsw.scilifelab.se/">DSW</a> is a customised tool for creating Data Management Plans (DMPs) with templates conforming to the requirements of the Swedish Research Council and other stakeholders.
-
-### SciLifeLab Research Data Management Guidelines
-
-<a target="_blank" href="https://data-guidelines.scilifelab.se/">SciLifeLab Research Data Management Guidelines</a> is a knowledge hub for the management of life science research data in Sweden. NBIS and SciLifeLab Data Centre have collected a number of  resources related to life science reseach data management in Sweden. The Guidelines are available for each stage of the Research Data Lifecycle.
-
-### SciLifeLab FAIR Storage
-
-<a target="_blank" href="https://data.scilifelab.se/services/fairstorage/">FAIR Storage</a> offers storage resources to support data-driven life science. The service is intended to support data sharing in accordance with the FAIR principles and available for any project that advances knowledge and discovery within the field of Swedish data-driven life science. The allocation of resources and application process are both managed by <a target="_blank" href="https://www.scilifelab.se/data/">SciLifeLab Data Centre</a>. All steering documents related to SciLifeLab FAIR Storage will also be published on this page.
+The European Nucleotide Archive (ENA) is a repository for DNA and RNA sequences, including those related to pathogens. Using information from ENA, and their experience with submitting data to ENA, SciLifeLab Data Centre and NBIS have developed a <a target="_blank" href="https://www.pathogens.se/support_services/tutorial_ena/tutorial_ena_intro/">tutorial for ENA submissions</a>. NBIS can also help to broker submissions, should you need further support.
 
 ### Infectious Disease Toolkit (IDTk)
 
-The <a target="_blank" href="https://www.infectious-diseases-toolkit.org/">Infectious Diseases Toolkit (IDTk)</a> is a community effort to expose best practices and showcase solutions to data challenges affecting the response to infectious diseases outbreaks. It was created as part of the BY-COVID project. This resource contains information specific for the management of infectious disease data. Information is available specifically about the <a target="_blank" href="https://www.infectious-diseases-toolkit.org/national-resources/sweden">resources related to infectious disease for Sweden</a>.
-
-### ELIXIR Research Data Management Kit (RDMkit)</a>
-
-The <a target="_blank" href="https://rdmkit.elixir-europe.org/">ELIXIR Research Data Management Kit (RDMkit)</a> is an online guide containing good data management practices applicable to research projects from the beginning to the end. Developed and managed by people who work every day with life science data, the RDMkit has guidelines, information, and pointers to help you with problems throughout the data’s life cycle. RDMkit supports FAIR data — Findable, Accessible, Interoperable and Reusable — by-design, from the first steps of data management planning to the final steps of depositing data in public archives.
+The <a target="_blank" href="https://www.infectious-diseases-toolkit.org/">Infectious Diseases Toolkit (IDTk)</a> is a community effort to detail best practices in RDM related to infectious disease data, and to showcase solutions developed to deal with the challenges faced during disease outbreaks. This resource was created as part of the Horizon 2020 BY-COVID project, in which the Swedish Pathogens Portal is a partner. The IDTk includes broadly applicable guidance for RDM for multiple different types of data. It also has information on <a target="_blank" href="https://www.infectious-diseases-toolkit.org/national-resources/sweden">resources specific for infectious disease data in Sweden</a>.
 
 ### Gobal Alliance for Genomics and Health
 
-The <a target="_blank" href="https://www.ga4gh.org/">Global Alliance for Genomics and Health (GA4GH)</a>, formed in 2013 unites an international community dedicated to advancing human health through genomic data. The GA4GH builds technical standards and policy frameworks and tools that will expand responsible, voluntary, and secure use of genomic and other related health data. The work on framework for responsible sharing of genomic and health data.
+The <a target="_blank" href="https://www.ga4gh.org/">Global Alliance for Genomics and Health (GA4GH)</a> is an international community dedicated to advancing human health through genomic data. This community develops technical standards, policy frameworks, and tools related to the responsible and secure use of genomic- and health-related data. The Swedish Pathogens Portal is part of the [infectious disease community of GA4GH](https://www.ga4gh.org/what-we-do/communities-of-interest/).
 
-### Swedish National Data Service (SND)</a>
+## General RDM resources
 
-The <a target="_blank" href="https://snd.se/">Swedish National Data Service</a> has put together guidelines on research data management in general, applicable to all fields of science. They offer guidelines, tools, events, and training.
+### SciLifeLab Research Data Management Guidelines
 
-- <a target="_blank" href="https://snd.gu.se/en/manage-data/plan">Plan</a> - Data Management Plan, Funding Application, Ethical Review, Agreements with Other Parties, Research Material with Personal Data, Protect the Data
-- <a target="_blank" href="https://snd.gu.se/en/manage-data/organise">Organize</a> - Folder Structure, File Format
-- <a target="_blank" href="https://snd.gu.se/en/manage-data/document">Document</a>
-- <a target="_blank" href="https://snd.gu.se/en/manage-data/work-with-data">Work with Data</a> - Data Loss, Data Errors, Well-Organised Data, Access, Shared Work Files, Software
-- <a target="_blank" href="https://snd.gu.se/en/manage-data/prepare-and-share">Prepare and Share</a> - Reuse, Documentation for Reuse, The FAIR Data Principles, PID (persistent identifiers), Licenses, Embargos, and Restrictions, Publication and Open Access
-- <a target="_blank" href="https://snd.gu.se/en/manage-data/guides">Guides</a> - Checklist for Data Management Plan, Choosing a File Format
+<a target="_blank" href="https://data-guidelines.scilifelab.se/">The SciLifeLab Research Data Management Guidelines</a> is a knowledge hub for the management of life science research data in Sweden. NBIS and SciLifeLab Data Centre have collaborated to bring together information related to best practices for life science RDM in Sweden. Information is available for all stages of the research data lifecycle, from creating a Data Management Plan (DMP) prior to conducting the research to preserving the data after the study concludes.
+
+### SciLifeLab Data Stewardship Wizard (DSW)
+
+Data Management Plans (DMPs) are living documents that are first developed before you even begin your study. They help you to determine how to manage your data throughout your project and beyond. The <a target="_blank" href="https://dsw.scilifelab.se/">SciLifeLab Data Stewardship Wizard (DSW)</a> is a tool designed to help you to write a DMP that is compliant with the requirements of the Swedish Research Council and others.
+
+### SciLifeLab FAIR Storage
+
+<a target="_blank" href="https://data.scilifelab.se/services/fairstorage/">SciLifeLab FAIR Storage</a> offers storage resources to support data-driven life science. The service is intended to support data sharing in accordance with the FAIR principles and is available for any project that advances knowledge and discovery within the field of Swedish data-driven life science. The allocation of resources and application process are both managed by <a target="_blank" href="https://www.scilifelab.se/data/">SciLifeLab Data Centre</a>.
+
+### Research Data Management Kit (RDMkit)
+
+The <a target="_blank" href="https://rdmkit.elixir-europe.org/">Research Data Management Kit (RDMkit)</a> is similar to IDTk (see above), except that it contains information on RDM related to life science data in general, rather than just infectious disease data. It contains information relevant for all stages of the research data lifecycle, from planning to preservation.
+
+### Swedish National Data Service (SND)
+
+The <a target="_blank" href="https://snd.se/">Swedish National Data Service (SND)</a> has put together guidance for RDM that is applicable to all scientific fields. They also offer relevant tools, events, and training.
+
+See the following pages for information relevant for:
+
+- <a target="_blank" href="https://snd.gu.se/en/manage-data/plan">Planning studies</a> e.g. DMPs, funding applications, ethical reviews, agreements with other parties, and handling personal data.
+- <a target="_blank" href="https://snd.gu.se/en/manage-data/organise">Organising data</a> e.g. folder structures and file formats.
+- <a target="_blank" href="https://snd.gu.se/en/manage-data/document">Documenting data.</a>
+- <a target="_blank" href="https://snd.gu.se/en/manage-data/work-with-data">Working with data</a> e.g. dealing with errors, loss, and accessing data.
+- <a target="_blank" href="https://snd.gu.se/en/manage-data/prepare-and-share">Preparing and sharing data</a> e.g. reusing data, the FAIR principles, PID (persistent identifiers), licences, embargos, publication, and open access.
+- <a target="_blank" href="https://snd.gu.se/en/manage-data/guides">Guides for RDM</a>.
 
 ### Other useful resources
 
-- SciLifeLab tutorial videos on Data Management can be found on Data Management <a target="_blank" href="https://www.youtube.com/playlist?list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS">YouTube channel</a>
+- Tutorial videos for multiple RDM topics are available on the <a target="_blank" href="https://www.youtube.com/playlist?list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS">SciLifeLab Data Management YouTube channel</a>.
 
-- Research Data Management 1 Day Workshop (Sara El-Gebali, DOI: <a target="_blank" href="https://zenodo.org/record/4562630#.YnjAIPNBzlw">10.5281/zenodo.4562630</a>) - Materials for 1 full-day workshop on Research Data Management basics covering topics including FAIR and Open data, and electronic lab books.
+- Materials from a day-long workshop on the basics of RDM (Sara El-Gebali, DOI: <a target="_blank" href="https://zenodo.org/record/4562630#.YnjAIPNBzlw">10.5281/zenodo.4562630</a>). It covers topics including FAIR and open data, as well as electronic lab books.
 
-- Previous presentations from Meet a Data Steward events can be found in <a target="_blank" href="https://figshare.scilifelab.se/collections/Presentations_from_Meet_a_Data_Steward_/6336836">FigShare</a>.
+- SciLifeLab Data Centre and NBIS host events to provide support with RDM. Previous presentations from these sessions are available on the <a target="_blank" href="https://figshare.scilifelab.se/collections/Presentations_from_Meet_a_Data_Steward_/6336836">SciLifeLab Data Repository</a>.
+
+- RDM-related events are listed on the [events page](https://data.scilifelab.se/events/) of the SciLifeLab Data Platform.
+
+- Services, tools, and other resources related to RDM are listed on the [services page](https://data.scilifelab.se/services/) of the SciLifeLab Data Platform.
