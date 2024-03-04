@@ -12,7 +12,7 @@ menu:
 
 ### About the use of this tutorial/Brokering to ENA
 
-If you have any questions/comments regarding the tutorial itself, need general advice with submission, or would like the Swedish COVID Data Portal team to broker a submission, please contact us [using this form](https://www.covid19dataportal.se/contact/) or send an email to us at [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se).
+If you have any questions/comments regarding the tutorial itself, need general advice with submission, or would like the Swedish Pathogens Portal team to broker a submission, please contact us [using this form](https://www.pathogens.se/contact/) or send an email to us at [pathogens@scilifelab.se](mailto:pathogens@scilifelab.se).
 
 ### Whilst making a submission
 
