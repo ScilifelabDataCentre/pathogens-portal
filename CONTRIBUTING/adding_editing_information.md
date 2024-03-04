@@ -234,7 +234,7 @@ images: [/editorials/image_name.jpg]
 
 This is the text of the editorial. This is the first paragraph.
 
-This is the second paragraph of the textt. Markdown formatting should be used in the text. For example, you can make a piece of text italic by placing an asterisk at the beginning and end, *like this*. You can make a piece of text bold by placing two asterisks at the beginning and end, **like this**. You can also add a link with square brackets following round round brackets, [like this](https://example.com/data/).
+This is the second paragraph of the text. Markdown formatting should be used in the text. For example, you can make a piece of text italic by placing an asterisk at the beginning and end, *like this*. You can make a piece of text bold by placing two asterisks at the beginning and end, **like this**. You can also add a link with square brackets following round round brackets, [like this](https://example.com/data/).
 
 #### Cite this editorial
 
