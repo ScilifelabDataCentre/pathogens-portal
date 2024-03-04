@@ -23,23 +23,24 @@ Contributions are welcomed for all sections of the portal. This page describes h
 
 All of the information displayed on the portal is contained within [this GitHub repository](https://github.com/ScilifelabDataCentre/pathogens-portal). When you enter that repository, you will see multiple folders. The majority of the content can be found within the `content` folder (where there is one folder for each language used on the portal). Some sections also use information that is ncluded within the `data` or `static` folders. Please see the sections further down on this page for information on how to locate different types of pages. It is also possible to use the URL to gain some idea of where a page is located within the folders. For example, all dashboard pages are within the `dashboards` folder, and their URLs are in the structure http://pathogens.se/dashboards/page_name/.
 
-Please note that we require that all commits are verified, so you must sign your commits. For information on how to set this up, see the [GitHub documentation](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits).
+Please note that we require all commits to be verified, so you must sign your commits. For information on how to set this up, see the [GitHub documentation](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits).
 
 ### Using the web interface
 
-This route is typically used for making relatively small additions/updates to the content. For example, adding an entry to a database or modifying/adding some text to an existing page.
+This route is typically used for making relatively small additions/updates to the content. For example, adding an entry to a dataset/table/database or modifying/adding some text to an existing page.
 
 - Navigate to the folder that contains your file (typically the `content` folder), and then to the file within that folder that represents the page/section that you want to modify.
-- Click on the pencil on the top right hand corner of the page (when you hover, it will show "fork this repository and edit this file"/"edit this file"). This will create a fork of the portal code in your own GitHub account. You should then be able to directly edit the content of the page.
-- Make all of the changes that you would like to make. Remember that if the page appears in both Swedish and English, it is necessary to update both versions of the page.
-- Click on "Commit changes". Write a description of what you have done in the "Propose changes" pop-up screen. Press the "Propose changes" button when you are done.
+- Click on the pencil on the top right hand corner of the page (when you hover over the pencil, it will show "fork this repository and edit this file"/"edit this file"). This will create a fork of the portal code in your own GitHub account. You should then be able to edit the content of the page.
+- Make all of the neccessary changes. Remember that if the page appears in both Swedish and English, it is necessary to update both versions of the page.
+- Click on "Commit changes".
+- Write a description of what you have done in the "Propose changes" pop-up screen, and then press the "Propose changes" button when you are done.
 - You should now be taken to a page that allows you to create a pull request. Ensure that the request is being made to the `develop` branch of the base repository `SciLifeLabDataCentre/pathogens-portal`.
 - You can see the files that you have changed at the bottom of the page, and can double-check that everything looks as intended. If it does, click "Create pull request".
-- A member of the portal team will review the pull request as quickly as possible regarding the pull request. Once approved, the changes will show on the portal.
+- A member of the portal team will review the pull request as quickly as possible. Once approved, the changes will show on the portal.
 
 ### Using a local copy
 
-It can sometimes be preferable to make changes to files directly on your computer in your favourite text editor and then push those to GitHub. This can be particularly true, for example, when adding files or making larger changes. To do this, you can fork this repository to your account and then clone the forked repository to your machine:
+It can sometimes be preferable to make changes to files directly on your computer in your favourite text editor and then push those changes to GitHub. This can be particularly true, for example, when adding files or making larger changes. To do this, you can fork this repository to your account and then clone the forked repository to your machine:
 
 ```bash
 git clone git@github.com:[YOUR-USERNAME]/pathogens-portal.git
@@ -75,17 +76,17 @@ Once you're finished with your edits and they are committed and pushed to your f
 - At the top of the page, you should see a pale grey box under the 'Comparing changes' text. The right-hand "head repository" drop down should show your username/fork and the branch that you worked on. Under 'base repository' you should see "ScilifelabDataCentre/pathogens-portal" and the 'base' should read 'develop'.
 - If you're happy with the list of commits and file changes shown towards the bottom of the page, click "Create pull request".
 - Write a title and description for your pull request, and then click 'Create pull request'.
-- A member of the portal team will review the pull request as quickly as possible regarding the pull request. Once approved, the changes will show on the portal.
+- A member of the portal team will review the pull request as quickly as possible. Once approved, the changes will show on the portal.
 
 ## How to add a new page
 
-The easiest way to add a new page to the portal is to [make a local copy](#using-the-web-interface). You can then navigate to the folder to which you would like to add a page (see below to gain an idea of where this might be, or check the URL of pages in the same section, as that will indicate the file structure). Create a new markdown (.md) file. We recommend copying the metadata from an existing page from the same section to initiate your page. The metadata is the piece at the top of the file that is between two lines of 3 dashes (i.e. '---'). You will have to change the metadata to reflect information about your new page, but this will ensure that your page is correctly initiated.
+The easiest way to add a new page to the portal is to [make a local copy](#using-the-web-interface). You can then navigate to the folder to which you would like to add a page (see below to gain an idea of where this might be, or check the URL of pages in the same section, as that will indicate the file structure). Create a new markdown (.md) file. We recommend copying the metadata from an existing page from the same folder to initiate your page. The metadata is the piece at the top of the file that is between two lines of 3 dashes (i.e. '---'). You will have to change the metadata to reflect information about your new page, but this will ensure that your page is correctly initiated.
 
 ## Adding available data
 
-We have a table of available data/code from Sweden that can be found [in the available data section of the portal ](http://pathogens.se/datasets/all/). Multiple different types of data can be added to this database. Please note that this database is also updated approximtely monthly by the portal team.
+We have a dataset of available data/code from Sweden that can be found [in the available data section of the portal](http://pathogens.se/datasets/all/). Multiple different types of data can be added to this dataset. Please note that this dataset is also updated approximately monthly by the portal team.
 
-In order to add entries in the database, you should edit the `available_datasets.json` within the `data` folder. You need to update the date at the top of the file to the date that you are making the update. Then you can add your entry/entries. Please note that entries must include one author affiliated with a Swedish university, should pertain to COVID-19, and the data/code should be openly available or have clear instructions for how access can be made (in the event that the data could not be shared openly). Each entry should be in the format:
+In order to add entries in the dataset, you should edit the `available_datasets.json` within the `data` folder. You need to update the date at the top of the file to the date that you are making the update. Then you can add your entry/entries. Please note that entries must include one author affiliated with a Swedish university, should pertain to COVID-19, and the data/code should be openly available, or have clear instructions for how access can be made (in the event that the data could not be shared openly). Each entry should be in the format:
 
 ```bash
     {
@@ -125,7 +126,7 @@ In order to add entries in the database, you should edit the `available_datasets
 
 ### Data visualisations
 
-The portal team are happy to create code for custom, dyanmic visualisations for your data. We work with those involved in data collection to create these, so that they show the data in the most appropriate way. The visualisation codes that we have written to date can be found in [our visualisations GitHub repository](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations). Our visualisation are typically writtten in Plotly in Python. To get a visualisation produced for your data, please email us at [pathogens@scilifelab.se](mailto:pathogens@scilifelab.se).
+The portal team are happy to create code for custom, dyanmic visualisations for your data. We work with those involved in data collection to create these visualisations, so that they show the data in the most appropriate way. The visualisation codes that we have written to date can be found in [our visualisations GitHub repository](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations). Our visualisations are typically writtten in Plotly in Python. To get a visualisation produced for your data, please email us at [pathogens@scilifelab.se](mailto:pathogens@scilifelab.se).
 
 ### Dashboard files
 
@@ -160,11 +161,11 @@ Links to dashboard pages are typically shown in cards e.g. in <https://pathogens
 
 ### Illustrations
 
-Each highlight can have two illustrations. One is used as a thumbnail image on the pages showing multiple highlights e.g. <https://pathogens.se/highlights/>. The other can be shown on the page. Only the first is required, and should be 250 px high and 500 px wide. The portal team can help with resizing/editing images. The illustrations should be placed in the `/static/highlights/banners` folder.
+Each highlight can have two illustrations. One is used as a thumbnail image on the pages showing multiple highlights e.g. <https://pathogens.se/highlights/>. The other can be shown on the page. Only the first is required, and should be 250 px high and 500 px wide. The portal team can help with resizing/editing images. The illustrations should be placed in the `/static/highlights/banners` folder. The images can be in .png or .jpg format.
 
 ### Data highlight files
 
-The data highlights are generated from Markdown formatted files contained in the `/content/english/highlights/` folder. The file name used here will also be the URL of the data highlight (e.g., `test-highlight.md` will become `https://pathogens.se/highlights/test-highlight/`). The images can be in .png or .jpg format.
+The data highlights are generated from Markdown formatted files contained in the `/content/english/highlights/` folder. The file name used here will also be the URL of the data highlight (e.g., `test-highlight.md` will become `https://pathogens.se/highlights/test-highlight/`).
 
 ### Content of the data highlight files
 
@@ -212,15 +213,15 @@ Information about any infrastruture used to complete the study.
 
 ## Editorials
 
-**Editorials** are short, opinion articles that describe the current state of an area of research. They are contributed by those working in that area. They are similar in format to data highlights.
+**Editorials** are short, opinion-style articles that describe the current state of an area of research. They are contributed by those working in that area. They are similar in format to data highlights.
 
 ### Illustrations
 
-Each editorial has an illustation that should be 250 px high and 500 px wide. The portal team can help with resizing/editing images. The illustrations should be placed in the `/static/editorials` folder.
+Each editorial has an illustation that should be 250 px high and 500 px wide. The portal team can help with resizing/editing images. The illustrations should be placed in the `/static/editorials` folder. The images can be in .png or .jpg format.
 
 ### Editorial files
 
-The editorials are generated from Markdown formatted files contained in the `/content/english/editorials/` folder. The file name used here will also be the URL of the editorial (e.g., `test-editorial.md` will become `https://pathogens.se/editorials/test-editorial/`). The images can be in .png or .jpg format.
+The editorials are generated from Markdown formatted files contained in the `/content/english/editorials/` folder. The file name used here will also be the URL of the editorial (e.g., `test-editorial.md` will become `https://pathogens.se/editorials/test-editorial/`).
 
 ### Content of the editorial files
 
@@ -266,7 +267,7 @@ News items about the portal are published under `/updates/`. The news items are 
 
 ### Illustrations
 
-Each news item can have two illustrations. One is used as a thumbnail image on the [portal news page](http://pathogens.se/updates/). The other can be shown on the page. Only the first is required, and should be 250 px high and 500 px wide. The portal team can help with resizing/editing images. The illustrations should be placed in the `/static//updates/banners/` folder.
+Each news item can have two illustrations. One is used as a thumbnail image on the [portal news page](http://pathogens.se/updates/). The other can be shown on the page. Only the first is required, and should be 250 px high and 500 px wide. The portal team can help with resizing/editing images. The illustrations should be placed in the `/static//updates/banners/` folder. The images can be in .png or .jpg format.
 
 ### News files
 
@@ -296,7 +297,7 @@ This is the third paragraph of the news item.
 
 ## Ongoing research projects
 
-We maintain a database of currently ongoing research projects on COVID-19. These are displayed under `/research_projects/`. The data is stored in JSON format in `data/research_projects.json`. Below is the format used for each entry. All required fields have to be filled out and in some cases there is a specific format. Note that for the field _topic_ you should choose one or more topics corresponding of the call.
+We maintain a dataset of currently ongoing research projects on COVID-19. These are displayed under `/research_projects/`. The data is stored in JSON format in `data/research_projects.json`. Below is the format used for each entry. All required fields have to be filled out and in some cases there is a specific format. Note that for the field _topic_ you should choose one or more topics corresponding of the call.
 
 ```JSON
 {
