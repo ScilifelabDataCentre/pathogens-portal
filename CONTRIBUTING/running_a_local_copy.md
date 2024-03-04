@@ -1,18 +1,28 @@
-# Running a local copy of the Portal
+# Running a local copy of the portal
 
-Because the Portal is built using [Hugo](https://gohugo.io/), a static site generator, it is quite easy to run a full version of the Portal on your computer and see how your changes look while doing that.
+The portal is built using [Hugo](https://gohugo.io/), a static site generator. This makes it relatively easy to run a full version of the portal on your computer (i.e. locally). This means that you can see how the changes that you're making would look on the site.
+
+#### Clone a copy of the portal code
+
+All of the code behind the portal is stored in [this GitHub repository](https://github.com/ScilifelabDataCentre/pathogens-portal). There are multiple ways to clone a GitHub repository so that you have your own copy on your computer. Please view the information in [the GitHub documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) in order to do this.
 
 #### Using Hugo
 
-To view your changes as they will appear in the final website, you need to install Hugo. You can find instructions on the Hugo website: [https://gohugo.io/](https://gohugo.io/)
+In order to run a local copy, you first need to install Hugo on your computer. Instructions for how to do this are available on the Hugo website: [https://gohugo.io/](https://gohugo.io/).
 
-If you're using Mac OSX, it's recommended to use [Homebrew](https://brew.sh/) - if homebrew is already set up, installing Hugo is just a case of:
+On Mac OSX, it is recommended to use [Homebrew](https://brew.sh/) to install Hugo. Once Hugo is set up, you can run the following command in a terminal window to install Hugo:
 
 ```bash
 brew install hugo
 ```
 
-Once Hugo is installed, navigate to the folder where you cloned this repository and simply run the following command in the repository root directory:
+Once Hugo has finished installing, you can use it to view the site locally right away. To do this, first navigate to the folder that holds your copy of the portal code (i.e. the cloned copy of the GitHub repository). You can do this with the cd command in the terminal window e.g.
+
+```bash
+cd FILE_PATH/TO/CLONED/REPOSITORY
+```
+
+Once you've navigated to the folder that holds your code, you can type 'hugo serve' in your terminal window. You will then see something like this:
 
 ```console
 $ hugo serve
@@ -39,8 +49,8 @@ Press Ctrl+C to stop
 ```
 
 Use the URL printed at the bottom of this message (here, it's `http://localhost:1313/`) to view the site.
-Every time you save a file, the page will automatically refresh in the browser.
+Every time you save a file, the page will automatically refresh in the browser, so you can see the effect of the changes in real time.
 
 #### Using Docker
 
-If you would prefer not to use Hugo, you can use the provided Dockerfile to build and run a container.
+If you would prefer not to use Hugo, you can use the provided Dockerfile to build and run a container instead.
