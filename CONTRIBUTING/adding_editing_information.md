@@ -5,12 +5,19 @@ Contributions are welcomed for all sections of the portal. This page describes h
 **Table of contents:**
 
 - [Making contributions via GitHub](#making-contributions-via-github)
-- [Available datasets](#available-datasets)
+- [How to add a new page](#how-to-add-a-new-page)
+- [Adding available data](#adding-available-data)
+- [Dashboard pages](#dashboard-pages)
+- [Data highlights](#data-highlights)
+- [Editorials](#editorials)
+- [Emerging pathogens](#emerging-pathogens)
+- [Events](#events)
+- [News about the portal](#news-about-the-portal)
 - [Funding opportunities](#funding-opportunities)
 - [Ongoing research projects](#ongoing-research-projects)
-- [Data highlights](#data-highlights)
-- [News about the Portal](#news-about-the-portal)
-- [Resources](#resources)
+- [Publications included in a table](#publications-included-in-a-table)
+- [Pandemic preparedness resources](#pandemic-preparedness-resources)
+- [Topics](#topics)
 
 ## Making contributions via GitHub
 
@@ -253,9 +260,9 @@ The **events** page shows events related to topics around pandemic preparedness,
 
 We collect funding opportunities relevant for topics related to pandemic preparedness, e.g. COVID-19, infectious diseases, and antibiotic resistance research. Users should go to the [funding page](https://pathogens.se/funding/) on the portal itself and fill in the form to add a funding opportunity. The portal team will typically add the suggestion within one working day.
 
-## News about the Portal
+## News about the portal
 
-News items about the Portal are published under `/updates/`. The news items are written about new sections launched, major updates to the portal, or other important information for the communitty.
+News items about the portal are published under `/updates/`. The news items are written about new sections launched, major updates to the portal, or other important information for the communitty.
 
 ### Illustrations
 
