@@ -1,16 +1,15 @@
 # Running a local copy of the portal
 
-The portal is built using [Hugo](https://gohugo.io/), a static site generator. This makes it relatively easy to run a full version of the portal on your computer (i.e. locally). This means that you can see how the changes that you're making would look on the site.
-
+The portal is built using [Hugo](https://gohugo.io/), a static site generator. This makes it relatively easy to run a full version of the portal on your computer (i.e. locally). This means that you can change the code and see exactly how those changes would look on the site before you deploy the changes to the site.
 #### Clone a copy of the portal code
 
-All of the code behind the portal is stored in [this GitHub repository](https://github.com/ScilifelabDataCentre/pathogens-portal). There are multiple ways to clone a GitHub repository so that you have your own copy on your computer. Please view the information in [the GitHub documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) in order to do this.
+All of the code behind the portal is stored in [this GitHub repository](https://github.com/ScilifelabDataCentre/pathogens-portal). There are multiple ways to clone a GitHub repository so that you have your own copy on your computer. Please see [the GitHub documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) for information on how to do this.
 
 #### Using Hugo
 
-In order to run a local copy, you first need to install Hugo on your computer. Instructions for how to do this are available on the Hugo website: [https://gohugo.io/](https://gohugo.io/).
+In order to run a local copy, you first need to install Hugo on your computer. Detailed instructions for how to do this are available on the Hugo website: [https://gohugo.io/](https://gohugo.io/).
 
-On Mac OSX, it is recommended to use [Homebrew](https://brew.sh/) to install Hugo. Once Hugo is set up, you can run the following command in a terminal window to install Hugo:
+On Mac OSX, it is recommended to use [Homebrew](https://brew.sh/) to install Hugo. Once Homebrew is set up, you can run the following command in a terminal window to install Hugo:
 
 ```bash
 brew install hugo
