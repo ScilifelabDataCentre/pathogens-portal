@@ -83,9 +83,9 @@ The easiest way to add a new page to the portal is to [make a local copy](#using
 
 ## Adding available data
 
-We have a database of available data/code from Sweden that can be found [in the available data section of the portal ](http://pathogens.se/datasets/all/). Multiple different types of data can be added to this database. Please note that this database is also updated approximtely monthly by the portal team.
+We have a table of available data/code from Sweden that can be found [in the available data section of the portal ](http://pathogens.se/datasets/all/). Multiple different types of data can be added to this database. Please note that this database is also updated approximtely monthly by the portal team.
 
-In order to add entries in the database, you should edit the `available_datasets.json` within the `data`folder. You need to update the date at the top of the file to the date that you are making the update. Then you can add your entry/entries. Please note that entries must include one author affiliated with a Swedish university, should pertain to COVID-19, and the data/code should be openly available or have clear instructions for how access can be made (in the event thatthe data could not be shared openly). Each entry should be in the format:
+In order to add entries in the database, you should edit the `available_datasets.json` within the `data` folder. You need to update the date at the top of the file to the date that you are making the update. Then you can add your entry/entries. Please note that entries must include one author affiliated with a Swedish university, should pertain to COVID-19, and the data/code should be openly available or have clear instructions for how access can be made (in the event that the data could not be shared openly). Each entry should be in the format:
 
 ```bash
     {
@@ -241,7 +241,7 @@ images: [/editorials/image_name.jpg]
 
 This is the text of the editorial. This is the first paragraph.
 
-This is the second paragraph of the textt. Markdown formatting should be used in the text. For example, you can make a piece of text italic by placing an asterisk at the beginning and end, *like this*. You can make a piece of text bold by placing two asterisks at the beginning and end, **like this**. You can also add a link with square brackets following round round brackets, [like this](https://example.com/data/).
+This is the second paragraph of the text. Markdown formatting should be used in the text. For example, you can make a piece of text italic by placing an asterisk at the beginning and end, *like this*. You can make a piece of text bold by placing two asterisks at the beginning and end, **like this**. You can also add a link with square brackets following round round brackets, [like this](https://example.com/data/).
 
 #### Cite this editorial
 
