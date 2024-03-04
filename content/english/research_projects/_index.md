@@ -5,7 +5,6 @@ menu:
     research_menu:
         name: Ongoing research projects
         identifier: ongoing_projects
-        weight: 10
 aliases:
         - /projects/
         - /sv/projects/

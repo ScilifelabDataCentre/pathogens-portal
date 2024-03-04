@@ -5,7 +5,6 @@ menu:
     research_menu:
         name: Register-based research
         identifier: register-based
-        weight: 15
 aliases:
   - /data_types/health_data/register_based_research/
   - /sv/data_types/health_data/register_based_research/
