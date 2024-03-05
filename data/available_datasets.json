@@ -1,6 +1,160 @@
 {
-  "last_updated": "2024-02-14",
+  "last_updated": "2024-03-04",
   "datasets": [
+    {
+      "doi": "10.1016/j.heliyon.2024.e25090",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "GitHub",
+              "accession_number": "",
+              "description": "Aggregated data on the COVID-19 pandemic from around the world. This repository is operated by the Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE) (data available until March 2023).",
+              "data_type": [
+                  "Public health data"
+              ],
+              "data_url": "https://github.com/CSSEGISandData/COVID-19"
+          }
+      ],
+      "title": "COVID-19 pandemic waves: Identification and interpretation of global data",
+      "issue": "3",
+      "volume": "10",
+      "publisher": "Elsevier BV",
+      "published": "2024-03-02",
+      "author": [
+          "Bali Swain R.",
+          "Lin X.",
+          "Wallentin F. Y."
+      ]
+  },
+  {
+      "doi": "10.1038/s41598-024-52988-3",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "GitHub",
+              "accession_number": "",
+              "description": "Anonymised register data, specifically microdata on individuals or enterprises. Available after approvals from SCB.",
+              "data_type": [
+                  "Public health data",
+                  "Social science and humanities data"
+              ],
+              "data_url": "https://www.scb.se/en/services/ordering-data-and-statistics/ordering-microdata/"
+          },
+          {
+              "type": "data",
+              "repo_name": "GitHub",
+              "accession_number": "",
+              "description": "Anonymised register data from Sweden. Available after ethical approvals from Socialstyrelsen.",
+              "data_type": [
+                  "Public health data",
+                  "Social science and humanities data"
+              ],
+              "data_url": "https://bestalladata.socialstyrelsen.se/data-for-forskning/sekretessprovning/"
+          }
+      ],
+      "title": "Evidence of COVID-19 fatalities in Swedish neighborhoods from a full population study",
+      "issue": "1",
+      "volume": "14",
+      "publisher": "Springer Science and Business Media LLC",
+      "published": "2024-02-06",
+      "author": [
+          "Wixe S.",
+          "Lobo J.",
+          "Mellander C.",
+          "Bettencourt L. M. A."
+      ]
+  },
+  {
+      "doi": "10.3390/ijms25031608",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Gene Expression Omnibus",
+              "accession_number": "GSE233557",
+              "description": "Transcriptomic analysis of the placenta in both maternal and fetal compartments was performed to investigate the impact of maternal SARS-CoV-2 infection.",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE233557"
+          }
+      ],
+      "title": "Global Transcriptomic Analysis of Placentas from Women with Gestational SARS-CoV-2 Infection during the Third Trimester of Pregnancy",
+      "issue": "3",
+      "volume": "25",
+      "publisher": "MDPI AG",
+      "published": "2024-01-28",
+      "author": [
+          "Tang Y.",
+          "Boggavarapu N. R.",
+          "Aronsson A.",
+          "Gemzell-Danielsson K.",
+          "Lalitkumar P. G."
+      ]
+  },
+  {
+      "doi": "10.1038/s41467-024-44999-5",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Open Science Framework",
+              "accession_number": "stkfr",
+              "description": "Data exploring the tightness-looseness of communities, alongside demographic and COVID-19 data. Data primarily at country level.",
+              "data_type": [
+                  "Social science and humanities data"
+              ],
+              "data_url": "https://osf.io/stkfr/"
+          },
+          {
+              "type": "code",
+              "repo_name": "Open Science Framework",
+              "accession_number": "stkfr",
+              "description": "Analysis code exploring the tightness-looseness of communities during COVID-19 (R script).",
+              "data_type": [
+                  "Social science and humanities data"
+              ],
+              "data_url": "https://osf.io/stkfr/"
+          }
+      ],
+      "title": "Changes in social norms during the early stages of the COVID-19 pandemic across 43 countries",
+      "issue": "1",
+      "volume": "15",
+      "publisher": "Springer Science and Business Media LLC",
+      "published": "2024-02-16",
+      "author": [
+          "Andrighetto G.",
+          "Szekely A.",
+          "Guido A.",
+          "Gelfand M.",
+          "Abernathy J."
+      ]
+  },
+  {
+      "doi": "10.1038/s41598-024-53427-z",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Open Science Framework",
+              "accession_number": "xb8a7",
+              "description": "Data exploring how social norms were affected during two waves of the COVID-19 pandemic. Data available for the same population in 2 waves.",
+              "data_type": [
+                  "Social science and humanities data"
+              ],
+              "data_url": "https://osf.io/xb8a7"
+          }
+      ],
+      "title": "Assessing the effects of pandemic risk on cooperation and social norms using a before-after Covid-19 comparison in two long-term experiments",
+      "issue": "1",
+      "volume": "14",
+      "publisher": "Springer Science and Business Media LLC",
+      "published": "2024-02-09",
+      "author": [
+          "Vriens E.",
+          "Szekely A.",
+          "Lipari F.",
+          "Antonioni A.",
+          "Sánchez A."
+      ]
+  },    
     {
       "doi": "10.1038/s41522-023-00461-w",
       "available_items": [
