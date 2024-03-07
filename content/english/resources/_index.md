@@ -13,5 +13,3 @@ The resources pages themselves are not static. They will be updated as soon as p
 <div class="alert alert-info">
     <i class="bi bi-info-circle-fill"></i> We welcome suggestions about relevant resources that could be included in this section. Those involved in the resources listed below are also invited to inform us of any updates. Please email us at <a href="mailto:pathogens@scilifelab.se">pathogens@scilifelab.se</a> or use our <a href="https://pathogens.se/contact/">contact form</a> to get in touch.
 </div>
-
-<i>Section last updated: 2022.08.17</i>

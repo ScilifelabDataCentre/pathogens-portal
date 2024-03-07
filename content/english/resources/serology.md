@@ -1,7 +1,7 @@
 ---
 title: "Multiplex and high-throughput multi-disease serology"
 category: "plp1"
-banner: "/resorces/multi-disease-serology.jpg"
+banner: "/resources_thumbs/multi-disease-serology.jpg"
 resource_info:
   name: Multiplex and high-throughput multi-disease serology
   funded_project_title:

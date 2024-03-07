@@ -1,6 +1,7 @@
 ---
 title: "ZSC: National core facility for Pandemic Preparedness"
 category: "plp1"
+banner: "/resources_thumbs/zsc-pandemic-prep.jpg"
 resource_info:
     name: "ZSC: National core facility for Pandemic Preparedness"
     funded_project_title:

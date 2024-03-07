@@ -1,15 +1,16 @@
 ---
 title: "Metagenomic sequencing for pathogen identification and analysis"
 category: "tdp"
+banner: "/resources_thumbs/metagenomic-seq.jpg"
 resource_info:
-    name: "Metagenomic sequencing for pathogen identification and analysis"
-    pi: Jenny Welander
-    host_organisation: Clinical Microbiology at Linköping University Hospital
-    contact: "Jenny Welander<br>Clinical Microbiology at Linköping University Hospital<br>Email: [jenny.welander@regionostergotland.se](mailto:jenny.welander@regionostergotland.se)"
+  name: "Metagenomic sequencing for pathogen identification and analysis"
+  pi: Jenny Welander
+  host_organisation: Clinical Microbiology at Linköping University Hospital
+  contact: "Jenny Welander<br>Clinical Microbiology at Linköping University Hospital<br>Email: [jenny.welander@regionostergotland.se](mailto:jenny.welander@regionostergotland.se)"
 for_background_table:
-    pi: Jenny Welander
-    pi_affiliation: Linköping University
-    lab: Linköping University Hospital
+  pi: Jenny Welander
+  pi_affiliation: Linköping University
+  lab: Linköping University Hospital
 ---
 
 Clinical Microbiology at Linköping University Hospital plans to develop a capability to quickly identify and characterize unknown pathogens through metagenomic sequencing. This will enable detection and sequence analysis of pathogens directly from clinical samples of unknown etiology, without the need of pathogen-specific reagents.

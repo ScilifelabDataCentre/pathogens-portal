@@ -1,14 +1,12 @@
 <div class="col-md-4 mb-4">
-    <div class="border rounded h-100">
-        <a href="{{ .Page.RelPermalink }}">
-            <div>
-                <!--i class="bi bi-card-image" style="font-size: 4rem; color: #85929E; padding-left: 40%;"></i-->
-                <img class="img-fluid rounded-top"
-                    src="{{ with .Params.banner }}{{ . }}{{ else }}{{ "/img/plp_default2.png" }}{{ end }}">
-            </div>
-            <div class="px-2 mb-2">
-                <h6 style="line-height: 1.35em;">{{ .Title }}</h6>
-            </div>
-        </a>
+    <div class="bg-plp">
+        <div>
+          <a href="{{ .Page.RelPermalink }}">
+            <img class="img-fluid rounded-top" src="{{ .Params.banner }}" alt="{{ .Title }}">
+          </a>
+        </div>
+        <div>
+          <h6 class="my-1"><a href="{{ .Page.RelPermalink }}">{{ .Title }}</a></h6>
+        </div>
     </div>
 </div>
