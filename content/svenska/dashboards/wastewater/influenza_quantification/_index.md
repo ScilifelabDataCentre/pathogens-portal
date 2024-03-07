@@ -68,7 +68,7 @@ Forskargruppen tillhandahåller en rapport som sammanfattar information från de
 
 **Kontakt:** <anna.szekely@slu.se> and <javier.vargas@slu.se>
 
-**Ladda ner data:** [Genkopieantal för luftvägsvirus normaliserat mot PMMoV-genkopieantal.CSV fil](https://raw.githubusercontent.com/ScilifelabDataCentre/pathogens-portal/develop/static/ww_data_temp/SLU_wastewater_data.csv). Data finns tillgänglig för influensa A-virus från vecka 42 2022 och för influensa B-virus från vecka 12 2023, uppdateras veckovis.
+**Ladda ner data:** [Genkopieantal för luftvägsvirus normaliserat mot PMMoV-genkopieantal.CSV fil](https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data.csv). Data finns tillgänglig för influensa A-virus från vecka 42 2022 och för influensa B-virus från vecka 12 2023, uppdateras veckovis.
 
 **Citera data:**
 
