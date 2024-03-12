@@ -1,7 +1,7 @@
 ---
 title: "Rapid typing of emerging variants in a clinical setting"
 category: "tdp"
-banner: "/resources_thumbs/nanopore_seq_cropped.jpg"
+banner: "/resources_thumbs/rapid_typing.jpg"
 resource_info:
   name: "Rapid typing of emerging variants in a clinical setting"
   pi: Anders Bergqvist
