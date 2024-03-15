@@ -1,7 +1,7 @@
 ---
 title: "Development of a targeted metagenomic NGS platform for diagnostics and epidemiological surveillance of viral pandemic threats"
 category: "tdp"
-banner: "/resources_thumbs/next-gen-clin-microbio.jpg"
+banner: "/resources_thumbs/ngs-diagnositics.jpg"
 resource_info:
   name: "Development of a targeted metagenomic NGS platform for diagnostics and epidemiological surveillance of viral pandemic threats"
   pi: Lisa Pettersson
@@ -33,4 +33,8 @@ The proposed system includes implementation of validated methods for:
 We have hired a laboratory technician that is under training to perform the laboratory work needed.
 We are developing a web application that can translate and present the NGS data as clinically relevant information. The application must be sufficiently user-friendly from a clinical point of view to allow the platform to be used in clinical routine. The platform will, however, also be used for projects from the academic research community.
 
-This fall we plan to analyse clinical samples with common viruses (for example Influenza A and calicivirus) and samples spiked with inactivated viral species constituting possible pandemic threats to investigate the performance of the panel.
+We plan to analyse clinical samples with common viruses (for example Influenza A and calicivirus) and samples spiked with inactivated viral species constituting possible pandemic threats to investigate the performance of the panel.
+
+##### Continuation funding:
+
+This capability received funding from the REPLPCM call to continue their work. Please see our <a href="/plp-program-background/#progress-to-date-previous-calls">PLP background information page</a> for more information about the REPLPCM call. With this funding, the capability will focus on the implementation of the metagenomic NGS platform and develop a workflow for clinical use, both for diagnostics and surveillance. Effort will also be put into reaching out to clinicians to inform of the new possibilities that the NGS platform has to offer as a novel diagnostic tool for viral diseases – including unknown viruses.

@@ -30,3 +30,7 @@ We will use and develop these resources further to establish a pandemic prepared
 5. Expand a high-throughput T cell assay pipeline for additional viruses.
 
 6. Further develop our BSL3 competence for viral culture, neutralisation and antiviral assays.
+
+##### Continuation funding:
+
+This capability received funding from the REPLPCM call to continue their work. Please see our <a href="/plp-program-background/#progress-to-date-previous-calls">PLP background information page</a> for more information about the REPLPCM call. With the funding, the capability is developing metagenomics methods for clinical samples, as this will become increasing important in diagnostics. The transfer to the Illumina platform will reduce the cost and improve performance by refining bioinformatics. The capability will also continue to develop existing methods used with processing wastewater, viral culture, and genomic signature analyses. Further, studies of ADAR-induced mutations and minor quasispecies will be expanded, by also using long-read platforms (PacBio) and investigating mutations induced by APOBEC. T cell assays will also be further developed and applied.

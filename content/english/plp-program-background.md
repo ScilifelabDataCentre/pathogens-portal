@@ -3,23 +3,27 @@ title: Pandemic Laboratory Preparedness (PLP) program
 toc: true
 ---
 
-The Science for Life Laboratory (SciLifeLab) research community has been actively engaged in national and international COVID-19 research efforts sice early 2020. The ability to access established SciLifeLab infrastructure and expertise within that research community undoubtedly expedited studies on COVID-19/SARS-CoV-2 at the molecular, cellular, patient, population, and environmental levels.
+The Science for Life Laboratory (SciLifeLab) research community has been actively engaged in national and international COVID-19 research efforts sice early 2020. Access to the wide-ranging expertise within that community, and to previously established SciLifeLab infrastructure, expedited COVID-19 research at the molecular, cellular, patient, population, and environmental levels.
 
-As part of their efforts to tackle the pandemic, SciLifeLab was quick to establish programs to support research efforts. The first was the [The SciLifeLab/KAW National COVID-19 Research Program](https://www.scilifelab.se/pandemic-response/covid-19-research-program/), which was established in April 2020 and co-funded by the [Knut and Alice Wallenberg Foundation (KAW)](https://kaw.wallenberg.org/stiftelsens-satsningar-pa-atgarder-mot-coronaviruset). More recently, SciLifeLab was commissioned to establish a program focussed on pandemic preparedness. Here, we provide background and relevant links related to the resultant research program; the Pandemic Laboratory Preparedness (PLP) program.
+SciLifeLab was quick to respond to the pandemic, and established multiple efforts to accelerate and support research throughout. The first program established to support research efforts was the [The SciLifeLab/KAW National COVID-19 Research Program](https://www.scilifelab.se/capabilities/pandemic-laboratory-preparedness/pandemic-response/national-program/), which was established in April 2020 and co-funded by the [Knut and Alice Wallenberg Foundation (KAW)](https://kaw.wallenberg.org/en). When the focus of the global research community started to shift towards pandemic preparedness, SciLifeLab was commissioned to establish a program to support pandemic preparedness in general. This resulted in SciLifeLab's Pandemic Laboratory Preparedness (PLP) program. This page details information about the PLP program itself, including progress to date and the capabilities (i.e. services, tools, and resources) funded.
 
-## Progress to date
+## Progress to date (previous calls)
 
-In December 2020, the Swedish government [comissioned SciLifeLab to build capacity for future pandemics](https://www.regeringen.se/rattsliga-dokument/proposition/2020/12/forskning-frihet-framtid--kunskap-och-innovation-for-sverige/). The assignment broadly involved supporting **research related to infectious diseases** (e.g. in diagnostics, analysis of infection, immunity, and the development of resistance to therapies in pathogens), and **building competence** and **developing technologies** related to pandemic research (e.g. in sequencing, genetic analysis, immunology, and big data). The services, tools, and resources (termed 'capabilities') established through the PLP program are intended to assist and complement those established elsewhere in society (e.g. authorities, municipalities, and regions) to tackle future pandemics. As such, the PLP program works in close consultation with governmental agencies, e.g. [Swedish Public Health Agency (FoHM)](www.folkhalsomyndigheten.se).
+In December 2020, the Swedish government [comissioned SciLifeLab to build capacity for future pandemics](https://www.regeringen.se/rattsliga-dokument/proposition/2020/12/forskning-frihet-framtid--kunskap-och-innovation-for-sverige/). The assignment broadly involved supporting **research related to infectious diseases** (e.g. in diagnostics, analysis of infection, immunity, and the development of resistance to therapies in pathogens), and **developing competence and technologies** related to pandemic research (e.g. in sequencing, genetic analysis, immunology, and big data). The capabilities established through the PLP program are intended to assist and complement those established elsewhere in society (e.g. government authorities, municipalities, and regions) to tackle future pandemics. As such, the PLP program works in close consultation with government agencies, e.g. [Swedish Public Health Agency (FoHM)](https://www.folkhalsomyndigheten.se).
 
-In February 2021, the PLP program sent out a national open call for letters of intent to develop capabilities (i.e. tools/resources/services) that could be used to detect and monitor COVID-19, and/or to help combat future pandemics.
+In February 2021, the PLP program sent out a national open call for letters of intent to develop capabilities that could be used to detect and monitor COVID-19, and/or to help combat future pandemics.
 
-As of July 2021, the first eight capabilities were selected for support as part of the first stage of the program (PLP1) ([further information on the selection process is available on the main SciLifeLab.se website](https://www.scilifelab.se/pandemic-response/pandemic-laboratory-preparedness/)). The capabilities in PLP1 were focussed on: biosafety Level 3 (BSL3) capacity, biobanking and clinical sample handling, environmental detection of pathogens, immunomonitoring, serology, and sequencing. Refer to the [PLP1 section](/plp-program-background/#plp1-capabilities) below to find out more about these capabilities.
+In July 2021, the first eight capabilities were selected for support as part of the first stage of the program (named PLP1) ([further information on the selection process is available on SciLifeLab's website](https://www.scilifelab.se/pandemic-response/pandemic-laboratory-preparedness/)). The capabilities in PLP1 were focused on: biosafety Level 3 (BSL3) capacity, biobanking and clinical sample handling, environmental detection of pathogens, immunomonitoring, serology, and sequencing. Refer to the [PLP1 section](/plp-program-background/#plp1-capabilities) below to find out more about these capabilities. A [funding call was established to extend funding for these projects (REPLP-1)](https://anubis.scilifelab.se/call/REPLP1) was established in September 2022, allowing funding to be extended until 2025. See the PLP1 capability pages below to see which received REPLP-1 funding.
 
-A **laboratory preparedness expression of interest (EoI) call** was launched as the second call of the PLP program in spring 2022. The aim was to create a nationally significant infrastructure capability. Any proposals were expected to integrate real-world testing and proof-of-concepts. The resultant projects were expected to be able begin within a year. More background information on this second call (PLP2) is available on the [SciLifeLab website](https://www.scilifelab.se/capabilities/pandemic-laboratory-preparedness/pandemic-response/calls/call-for-new-pandemic-laboratory-preparedness-capabilities-plp-2/). Please see the [below section on PLP2](/plp-program-background/#plp2-capabilities) to find out more about the capabilities selected from this call.
+In December 2021, the PLP program established a funding call for Technology Development Projects (TDPs). The intention with this call was to build closer connections between clinical microbiology laboratories in Sweden. All TDPs aimed to develop capabilities at major clinical microbiology laboratories in Sweden. For more information about the TDP call, please refer to the [SciLifeLab website](https://www.scilifelab.se/news/call-for-new-pandemic-laboratory-preparedness-capabilities-plp-cm-tdp/). See the [below TDP section](/plp-program-background/#plp-tdps) for more information about the TDPs resulting from this call. A [call to extend funding for the TDP projects (REPLPCM)](https://anubis.scilifelab.se/call/REPLPCM) was established in February 2023, allowing funding to be extended until 2025. Please see the TDP capability pages below to determine which received REPLPCM funding.
 
-The PLP program also supports a number of Technology Development Projects (TDPs). The call for TDPs (which was in December 2021) was established in order to build closer associations between clinical microbiology laboratories in Sweden. The projects aimed to develop services and capabilities at major clinical microbiology laboratories in Sweden. For more information about this call please refer to the [SciLifeLab website](https://www.scilifelab.se/news/call-for-new-pandemic-laboratory-preparedness-capabilities-plp-cm-tdp/). Please see the [below TDP section](/plp-program-background/#plp-tdps) for more information about the TDPs resulting from this call.
+A call for new capabilities (PLP2) was launched in spring 2022. The aim was to create nationally significant infrastructure capabilities. Any proposals were expected to integrate real-world testing and proof of concept work. The resultant capabilities were expected to be able begin within a year. More background information on the PLP2 call is available on the [SciLifeLab website](https://www.scilifelab.se/capabilities/pandemic-laboratory-preparedness/pandemic-response/calls/call-for-new-pandemic-laboratory-preparedness-capabilities-plp-2/). Please see the [below section on PLP2](/plp-program-background/#plp2-capabilities) to find out more about the capabilities resulting from this call.
 
-In December 2021, a novel SARS-CoV-2 variant of concern (Omicron) emerged. At the time, the PLP program and wider SciLifeLab community rapidly put further resources into research on the novel variant.
+In September 2023, the PLP-Test funding call was established to support up to 9 projects to test and improve existing PLP capabilities. The funding was available to those within PLP units and/or agencies related to pandemic preparedness, e.g. FoHM. More information about this call is available on the [SciLifeLab website](https://www.scilifelab.se/news/grants-for-testing-of-plp-capabilities-plp-test/). Please see the [below section on PLP-Test](/plp-program-background/#plp-test) to find out more about the capabilities resulting from this call.
+
+In February 2024, a further call for Clinical Technology Development Projects was established in collaboration with the Precision Medicine Capability at SciLifeLab. The call focuses on the creation of clinical technology development projects addressing clinical needs. For more information about this call, see the [Scilifelab website](https://www.scilifelab.se/capabilities/precision-medicine/call-for-clinical-technology-development-projects/). The call is open until 10th April 2024, and more information on the resulting projects will be added in due course.
+
+To view any current funding available from PLP, view our [funding page](/funding/).
 
 ## Pillars of the PLP program
 
@@ -30,31 +34,35 @@ The PLP program is built on **four pillars**:
 - _National research program_
 - _The Swedish Pathogens Portal_
 
-This portal (formerly the Swedish COVID-19 Data Portal) forms one of four pillars of PLP program. The scope of the portal includes pandemic preparedness topics, including antibiotic resistance and infectious disease.
-
 ## The PLP network
 
-The PLP program aims to build a national network of laboratory capabilities (the PLP network). Capabilities are funded in different calls (see above for basic information on previous calls). In this section, we list the capabilities funded in each call and provide links to further information on each capability.
+The PLP program has built a national network of laboratory capabilities (the PLP network). These capabilities were funded in different calls (see above for basic information on [previous calls](/plp-program-background/#progress-to-date-previous-calls)), and are listed according to funding call below. Some capabilities received continuation funding in the REPLP-1 and REPLPCM calls. Whilst these calls are not listed below, receipt of continuation funding is indicated on the respective capability pages. All PLP capabilities are also shown on our [Pandemic Preparedness Capabilities page](/resources/).
 
-All PLP capabilities are also linked on our [Pandemic Preparedness Resources page](/resources/).
+As indicated above, The Swedish Pathogens Portal (formerly the Swedish COVID-19 Data Portal) is a [pillar of the PLP program](/plp-program-background/#pillars-of-the-plp-program). Whilst it is not listed below, it received funding from the PLP program during the PLP1 and REPLP1 calls. It works actively to support all capabilities.
 
 ### PLP1 capabilities
 
-The following PLP capabilites are part of The Pandemic Laboratory Preparedness Program 1 (PLP1).
+The following capabilites were established in the PLP1 call, some received continuation funding from REPLP-1.
 
 {{< plp_table category="plp1" >}}
 
+### PLP TDPs
+
+The following capabilities were established during the Technology Development Project (TDP) call. Some projects also received continuation funding from REPLPCM.
+
+{{< plp_table category="tdp" >}}
+
 ### PLP2 capabilities
 
-The following PLP capabilites are part of The Pandemic Laboratory Preparedness Program 2 (PLP2).
+The following capabilites were funded as part of the PLP2 call.
 
 {{< plp_table category="plp2" >}}
 
-### PLP TDPs
+### PLP-Test
 
-The PLP network currently includes the following Technology Development Projects (TDPs).
+The following capabilities resulted from the PLP-Test call.
 
-{{< plp_table category="tdp" >}}
+{{< plp_table category="test" >}}
 
 ## Further reading about the PLP program
 
@@ -64,8 +72,8 @@ The PLP network currently includes the following Technology Development Projects
 
 ## Personnel and contact
 
-**Scientific lead for the SciLifeLab Pandemic Laboratory Preparedness**: Professor Staffan Svärd.
+**Scientific lead for the PLP program**: Professor Staffan Svärd.
 
-**Coordinator for the Pandemic Laboratory Preparedness capability**: Alice Sollazzo.
+**Coordinator for the PLP program**: Alice Sollazzo.
 
-If you have any questions, please email <a href="mailto:alice.sollazzo@scilifelab.uu.se">Alice Sollazzo</a>.
+If you have any questions about the PLP program, please email <a href="mailto:alice.sollazzo@scilifelab.uu.se">Alice Sollazzo</a>.

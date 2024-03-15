@@ -7,7 +7,7 @@ resource_info:
   funded_project_title: "Systems-level immunomonitoring to unravel immune response to a novel pathogen"
   pi: Petter Brodin, Jochen Schwenk
   host_organisation: "Karolinska Institutet"
-  use: "Once  this capability has been tested, validated and standardized it can be offered as a service capability and combined offering within the SciLifeLab, Clinical proteomics and immunology platform (see project aim 4)."
+  use: "Once  this capability has been tested, validated and standardised it can be offered as a service capability and combined offering within the SciLifeLab, Clinical proteomics and immunology platform (see project aim 4)."
   contact: "Petter Brodin<br>Professor<br>Email: [petter.brodin@ki.se](mailto:petter.brodin@ki.se) <br><br>Jochen Schwenk<br>Professor<br>Email: [jochen.schwenk@scilifelab.se](mailto:jochen.schwenk@scilifelab.se)"
 for_background_table:
   pi: Petter Brodin
