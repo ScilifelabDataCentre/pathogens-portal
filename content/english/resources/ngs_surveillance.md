@@ -13,7 +13,7 @@ for_background_table:
   lab: Umeå University Hospital
 ---
 
-The aim of this project is to develop and implement a targeted metagenomic next-generation sequencing-based (mNGS) platform that utilizes a hybrid-capture and amplification approach for sensitive and accurate detection of viral pathogens. The focus will be on an enrichment panel that can detect > 3,000 viral species.
+The aim of this project is to develop and implement a targeted metagenomic next-generation sequencing-based (mNGS) platform that utilises a hybrid-capture and amplification approach for sensitive and accurate detection of viral pathogens. The focus will be on an enrichment panel that can detect > 3,000 viral species.
 
 <b>Project outline</b>
 

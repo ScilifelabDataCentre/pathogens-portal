@@ -21,13 +21,13 @@ Next generation sequencing offers numerous possibilities for improved diagnostic
 
 - Diagnostic metagenomic sequencing.
 - Metagenomic virus surveillance of respiratory samples.
-- Characterization of unclassifiable metagenomic sequences.
+- Characterisation of unclassifiable metagenomic sequences.
 - Host immune transcriptome based microbial diagnostics.
 - Immunotherapy guidance.
 
-Activities so far have focused on establishing diagnostic metagenomic sequencing with a focus on viral infections. Wet lab protocols have been developed for Illumina and Nanopore sequencing and a first bioinformatics pipeline is in place. Further development is ongoing within the Genomic Medicine Sweden (GMS) collaboration. We have analyzed 25 samples (respiratory tract samples, serum, cerebrospinal fluid) with known viral findings and compared metagenomics by both Illumina (25M reads) and Nanopore sequencing with real-time PCR results. Results indicate that the sensitivity of metagenomic sequencing by Illumina is better than our target value corresponding to Ct 30. Nanopore sequencing as expected has somewhat lower sensitivity but has proven useful because of its short turn-around time. We are appointed a reference center by ECDC for metagenomic sequencing of non-A-E hepatitis cases.
+Activities so far have focused on establishing diagnostic metagenomic sequencing with a focus on viral infections. Wet lab protocols have been developed for Illumina and Nanopore sequencing and a first bioinformatics pipeline is in place. Further development is ongoing within the Genomic Medicine Sweden (GMS) collaboration. We have analysed 25 samples (respiratory tract samples, serum, cerebrospinal fluid) with known viral findings and compared metagenomics by both Illumina (25M reads) and Nanopore sequencing with real-time PCR results. Results indicate that the sensitivity of metagenomic sequencing by Illumina is better than our target value corresponding to Ct 30. Nanopore sequencing as expected has somewhat lower sensitivity but has proven useful because of its short turn-around time. We are appointed a reference center by ECDC for metagenomic sequencing of non-A-E hepatitis cases.
 
-We have also made progress in the characterization of unclassified genomes, where we are currently focusing on two previously unknown picornavirus species. Future activities will be to complete the validation of diagnostic metagenomic sequencing, release the assay to health care and set up a clinical study protocol for the received samples, so that the data can be used for research. We will also initiate immune transcriptome studies.
+We have also made progress in the characterisation of unclassified genomes, where we are currently focusing on two previously unknown picornavirus species. Future activities will be to complete the validation of diagnostic metagenomic sequencing, release the assay to health care and set up a clinical study protocol for the received samples, so that the data can be used for research. We will also initiate immune transcriptome studies.
 
 ##### Continuation funding:
 

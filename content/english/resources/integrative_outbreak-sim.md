@@ -1,13 +1,15 @@
 ---
 title: "Integrative Outbreak Simulation: A One Health Approach for Enhanced Pandemic Preparedness"
 category: "test"
+banner: "/resources_thumbs/nanopore_seq_cropped.jpg"
 resource_info:
   name: "Integrative Outbreak Simulation: A One Health Approach for Enhanced Pandemic Preparedness"
-  pi: Rene Kaden
+  pi: René Kaden
   host_organisation: Uppsala University Hospital/Akademiska Sjukhuset Clinical Microbiology, Dept. of Medical Sciences, Uppsala University
-  contact: "Rene Kaden<br>Uppsala University Hospital/Akademiska Sjukhuset Clinical Microbiology, Dept of Medical Sciences, Uppsala University<br>Email: [rene.kaden@medsci.uu.se](mailto:rene.kaden@medsci.uu.se) or [rene.kaden@akademiska.se](mailto:rene.kaden@akademiska.se)"
+  contact: "René Kaden<br>Uppsala University Hospital/Akademiska Sjukhuset Clinical Microbiology, Dept of Medical Sciences, Uppsala University<br>Email: [rene.kaden@medsci.uu.se](mailto:rene.kaden@medsci.uu.se) or [rene.kaden@akademiska.se](mailto:rene.kaden@akademiska.se)"
+  data_etc: "[Dashboard: SARS-CoV-2 variants detected in Region Uppsala](https://www.pathogens.se/dashboards/variants_region_uppsala/)"
 for_background_table:
-  pi: Rene Kaden
+  pi: René Kaden
   pi_affiliation: Uppsala University
   lab: Uppsala University Hospital
 ---
