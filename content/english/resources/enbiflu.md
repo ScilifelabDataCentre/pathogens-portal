@@ -20,7 +20,7 @@ This project comprises four distinct working packages (WPs), each addressing spe
 
 - WP1 aims to establish standardized methods for detecting avian IAVs in environmental samples including improvement of concentration and viral nucleic acid extraction methods and validation of qPCR and hpPCR-based assays for IAV detection.
 - WP2 aims to assess the possibility to the detect avian IAVs in wild bird populations through sampling of lake water during the spring migration period.
-- WP3 aims to measure transmission of respiratory viruses in high-density poultry farms, which are a critical concern. WP3 will assess the risk of windborne virus spread between poultry units using model respiratory viruses used as aerosolized vaccines.
+- WP3 aims to measure transmission of respiratory viruses in high-density poultry farms, which are a critical concern. WP3 will assess the risk of windborne virus spread between poultry units using model respiratory viruses used as aerosolised vaccines.
 - WP4 aims to evaluate the speed and efficiency of the SEEC PLP unit in detecting a potential human outbreak of avian IAV, or a novel IAV. This WP involves a real-time outbreak simulation, where wastewater monitoring protocols are put to the test in rapidly detecting, identifying and evaluating the novel IAV.
 
 As quick and efficient detection and identification are pivotal in responding to potential outbreaks and pandemics, the results of the collaborative work involved in EnvBiFlu will definitely enhance our preparedness and response to the realistic possibility of an avian influenza related threat.

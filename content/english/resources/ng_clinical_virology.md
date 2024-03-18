@@ -9,7 +9,7 @@ resource_info:
   contact: "Tobias Allander<br>Dept. of Clinical Microbiology, Karolinska University Hospital and Dept. of Microbiology, Tumor, and Cell Biology, Karolinska Institutet<br>Email: [tobias.allander@regionstockholm.se](mailto:tobias.allander@regionstockholm.se)"
 for_background_table:
   pi: Tobias Allander
-  pi_affiliation: Karolinska University
+  pi_affiliation: Karolinska Institutet
   lab: Karolinska University Hospital
 ---
 

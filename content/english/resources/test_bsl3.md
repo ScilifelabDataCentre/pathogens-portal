@@ -4,11 +4,11 @@ category: "test"
 resource_info:
   name: "Testing BSL3 Biomedicum capabilities and more"
   pi: Antonio Rothfuchs
-  host_organisation: Karolinska Institute
+  host_organisation: Karolinska Institutet
   contact: "Marianna Tampere<br>Coordinator Swedish BSL3 Network<br>Email: [marianna.tampere@ki.se](mailto:marianna.tampere@ki.se)<br><br>Antonio Gigliotti Rothfuchs<br>BSL3 Director<br>Email: [antonio.rothfuchs@ki.se](mailto:antonio.rothfuchs@ki.se)"
 for_background_table:
   pi: Antonio Rothfuchs
-  pi_affiliation: Karolinska Institute
+  pi_affiliation: Karolinska Institutet
 ---
 
 The Biosafety Level 3 (BSL3) research infrastructure at Biomedicum has been seamlessly integrated into the PLP capability of SciLifeLab (see [details on the previous project grant](/bsl3/)). The facility offers specialised platforms in BSL3 for high-throughput (HTP) drug screening and pathogen aerobiology. The facility also leads the Swedish BSL3 Network (SB3N), a first-of-kind network for academic BSL3 laboratories in Sweden to interact with each other. The project has 3 aims divided into 3 work packages (WPs), and uses the pandemic pathogen Monkeypox virus (MPXV) as a demonstrator.

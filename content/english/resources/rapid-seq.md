@@ -16,7 +16,7 @@ for_background_table:
 The emergence of _SARS-CoV-2 VOCs_ has shown the need for continuous large-
 scale surveillance to monitor for future pandemic threats. This project builds on established collaboration between _SciLifeLab_ and the _Karolinska University Laboratory_, and provide samples, data and expertise from Sweden’s largest microbiology laboratory. In addition, the structure is part of Genomic Medicine Sweden (GMS) which is ensuring the coordination with other national efforts.
 
-The laboratory has established large-scale WGS of SARS-CoV-2 (to-date 2000+ samples sequenced and reported to [SMInet](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/overvakning-och-rapportering/sminet/). Current capacity: 500 WGS/ week). The project also aims to establish high-throughput, long-read sequencing of the SARS- CoV-2 spike gene, as well as capacity for neutralization assays of vaccine escape variants.
+The laboratory has established large-scale WGS of SARS-CoV-2 (to-date 2000+ samples sequenced and reported to [SMInet](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/overvakning-och-rapportering/sminet/). Current capacity: 500 WGS/ week). The project also aims to establish high-throughput, long-read sequencing of the SARS- CoV-2 spike gene, as well as capacity for neutralisation assays of vaccine escape variants.
 
 This project involves two subprojects; taxprofiler and GMS Arctic. Please see the [taxprofiler](/resources-subprojects/taxprofiler/) and [GMS Arctic](/resources-subprojects/gms-arctic/) pages for more information (including information on access and usage).
 

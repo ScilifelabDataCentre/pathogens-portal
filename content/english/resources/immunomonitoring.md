@@ -16,11 +16,11 @@ for_background_table:
 
 Early research into SARS-CoV-2 immune responses and the how the immune responses varied among different patients, based on age, sex and prior health status in relation to COVID-19 disease outcome, has been of outmost importance for improved COVID-19 survival rates. The TBy unpacking the complex immune system pathways involved in sensing the SARS-CoV-2 virus, as well as the interference of the virus in antiviral IFN-I responses are examples of immunological findings based on patient-data. In brief, these results are based on results from monitoring how the immune response changes in patients during the course of COVID-19 disease.
 
-The overall aim of this project is to establish and standardize methods for optimal sample collection, data acquisition, and data analysis pipelines for future immune response studies. Healthcare will have ready setup tools, and pipelines, and be prepared to perform systems-immunology studies on novel pathogens. A multi-disciplinary program to establish standardized methods for systems- level monitoring of human immune system will ensure competence and knowledge and allow for rapid responses to potential novel diseases.
+The overall aim of this project is to establish and standardise methods for optimal sample collection, data acquisition, and data analysis pipelines for future immune response studies. Healthcare will have ready setup tools, and pipelines, and be prepared to perform systems-immunology studies on novel pathogens. A multi-disciplinary program to establish standardised methods for systems- level monitoring of human immune system will ensure competence and knowledge and allow for rapid responses to potential novel diseases.
 
 **Specific project aims:**
 
 1. To establish optimal sample collection protocols for systems-level immunomonitoring
-2. To standardize protocols for global analyses of immune cells and proteins
+2. To standardise protocols for global analyses of immune cells and proteins
 3. To develop pipelines for integrative analyses of systems-level immunomonitoring data
 4. To launch a comprehensive service offering for systems-level immunomonitoring

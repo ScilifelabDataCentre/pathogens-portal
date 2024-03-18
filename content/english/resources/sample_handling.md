@@ -17,6 +17,6 @@ This proposal aims to build capacity and preparedness for comprehensive laborato
 
 1. Implementing NGS-based methods for partial and whole genome sequencing (WGS) of enteroviruses and rhinoviruses.
 2. Performing enterovirus genotyping on respiratory specimens.
-3. Analyzing (i) genotypes from patients sampled at an intensive care unit vs other unit, (ii) circulating genotypes over time, and (iii) genotypes across age groups.
+3. Analysing (i) genotypes from patients sampled at an intensive care unit vs other unit, (ii) circulating genotypes over time, and (iii) genotypes across age groups.
 
 Our laboratory is excellently suited to take on the above tasks as being the largest clinical microbiology laboratory in Sweden with continuous access to large numbers of patient samples and results from routine diagnostics. In addition, we are the national reference laboratory for non-polio enteroviruses and a partner in the European non-polio enterovirus network (ENPEN). Within ENPEN we have contributed to several studies on EV-D68. In this proposal we will extend this work to other species and types of enteroviruses and rhinoviruses. We will build on the capacity in our current PLP project (RAPID-SEQ) by adapting the workflow for SARS-CoV-2 to another pathogen."

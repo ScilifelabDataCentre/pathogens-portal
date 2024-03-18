@@ -38,6 +38,6 @@ For more information on Taxprofiler (including information on access, use, and c
 
 For more information on GMS Arctic (including information on access, use, and contact), please see the dedicated [GMS Arctic page](/resources-subprojects/gms-arctic/).
 
-###### 3. SARS-CoV-2 Reporter for visualization of SARS-CoV-2 genome sequence data (SC2reporter)
+###### 3. SARS-CoV-2 Reporter for visualisation of SARS-CoV-2 genome sequence data (SC2reporter)
 
 For more information on SC2reporter (including information on access, use, and contact), please see the dedicated [SC2reporter page](/resources-subprojects/sc2reporter/).

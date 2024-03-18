@@ -5,11 +5,11 @@ banner: "/resources_thumbs/bsl3_lab.jpg"
 resource_info:
   name: "BSL3 Biomedicum-SciLifeLab Collaborative Platform"
   pi: Antonio Rothfuchs
-  host_organisation: Karolinska Institute
+  host_organisation: Karolinska Institutet
   contact: "Marianna Tampere<br>Coordinator Swedish BSL3 Network<br>Email: [marianna.tampere@ki.se](mailto:marianna.tampere@ki.se)<br><br>Antonio Gigliotti Rothfuchs<br>BSL3 Director<br>Email: [antonio.rothfuchs@ki.se](mailto:antonio.rothfuchs@ki.se)"
 for_background_table:
   pi: Antonio Rothfuchs
-  pi_affiliation: Karolinska Institute
+  pi_affiliation: Karolinska Institutet
 ---
 
 This resource involves two separate components:

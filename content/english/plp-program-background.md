@@ -72,7 +72,9 @@ The following capabilities resulted from the PLP-Test call.
 
 ## Personnel and contact
 
-**Scientific lead for the PLP program**: Professor Staffan Svärd.
+**Scientific lead for the PLP program**: Staffan Svärd.
+
+**Scientific co-lead for the PLP program**: Ulf Ribacke.
 
 **Coordinator for the PLP program**: Alice Sollazzo.
 
