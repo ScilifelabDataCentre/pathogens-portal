@@ -7,7 +7,7 @@
 </section>
 
 {{ $pages := .RegularPages }}
-{{ $project_types := slice "plp1" "plp2" "tdp" "test" "replp"}}
+{{ $project_types := slice "plp1" "tdp" "plp2" "test"}}
 {{ range $project_type := $project_types }}
 {{ $resources_available := where $pages "Params.category" $project_type }}
 {{ with $resources_available }}
