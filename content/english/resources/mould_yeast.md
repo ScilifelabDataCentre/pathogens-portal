@@ -5,8 +5,8 @@ banner:
 resource_info:
   name: "Identification of molds and yeasts using Nanopore sequencing and MALDI-TOF."
   pi: Johan Lindh
-  host_organisation: Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet
-  contact: "Johan Lindh<br>Department of Medical Sciences, Clinical Microbiology, Uppsala University<br>Email: [johan.lindh@icm.uu.se](mailto:johan.lindh@icm.uu.se)"
+  host_organisation: Uppsala University
+  contact: "Johan Lindh<br>Department of Medical Sciences, Clinical Microbiology, Uppsala University<br>Email: [johan.lindh@akademiska.se](mailto:johan.lindh@akademiska.se)"
 for_background_table:
   pi: Johan Lindh
   pi_affiliation: Uppsala University

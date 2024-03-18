@@ -13,10 +13,6 @@ for_background_table:
   lab: Karolinska University Hospital
 ---
 
-<div class="alert alert-info">
-    <i class="bi bi-info-circle-fill"></i> This project received continuation funding from the REPLPCM call, see our <a href="/plp-program-background/#progress-to-date-previous-calls">PLP background information page</a> for more information.
-</div>
-
 Next generation sequencing offers numerous possibilities for improved diagnostics and management of infectious diseases. A comprehensive goal for Clinical Microbiology at Karolinska is to apply viral metagenomics and human immune transcriptomics in healthcare, and develop the following capabilities:
 
 - Diagnostic metagenomic sequencing.
