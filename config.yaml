@@ -35,8 +35,8 @@ params:
       twitter_link: Twitter
       linkedin_link: LinkedIn
     sv:
-      home_title: "Patogens Portal Sverige: stöd för pandemiberedskap"
-      enquire_email_footer_dc: "Kontakta den Svenska Patogens Portalen"
+      home_title: "Pathogens Portal Sverige: stöd för pandemiberedskap"
+      enquire_email_footer_dc: "Kontakta Pathogens Portal Sverige"
       support_feedback: Support och Feedback
       privacy: Integritetspolicy
       github_link: Webbplatskod på GitHub
@@ -68,7 +68,7 @@ languages:
     languageName: Svenska
     contentDir: content/svenska
     weight: 2
-    description: "Den Patogens Portal Sverige tillhandahåller information, riktlinjer, verktyg och tjänster för att stödja forskare vid svenska lärosäten verksamma inom forskningsfältet pandemisk beredskap med datarelaterade frågor."
+    description: "Pathogens Portal Sverige tillhandahåller information, riktlinjer, verktyg och tjänster för att stödja forskare vid svenska lärosäten verksamma inom forskningsfältet pandemisk beredskap med datarelaterade frågor."
 
 markup:
   goldmark:

@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Site meta -->
-  <title>{{ if and (ne .Title "Swedish COVID-19 & Pandemic Preparedness Data Portal") (ne .Title "Svenska dataportalen för Covid-19 & pandemisk beredskap")}}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+  <title>{{ if and (ne .Title "Swedish Pathogens Portal") (ne .Title "Pathogens Portal Sverige")}}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
   <meta name="description" content='{{ if .IsHome }}{{ .Param "description" }}{{ else }}{{ .Description }}{{ end }}'>
   {{ if .IsTranslated }}{{ range .Translations }}
   <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ relURL .Permalink }}" title="{{ .Language.LanguageName }}">
