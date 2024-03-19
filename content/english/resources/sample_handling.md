@@ -1,6 +1,7 @@
 ---
 title: "Enhancing Pandemic Laboratory Preparedness through Rapid Biopsy Sample Handling"
 category: "test"
+banner: "/resources_thumbs/biopsy_microtome.jpg"
 resource_info:
   name: "Enhancing Pandemic Laboratory Preparedness through Rapid Biopsy Sample Handling"
   pi: Annika Karlsson

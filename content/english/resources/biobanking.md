@@ -1,6 +1,7 @@
 ---
 title: "Testing and evaluating diagnostic preparedness and biobanking: A cross-platform collaboration for validating new diagnostic assays and reviewing PLP capacities"
 category: "test"
+banner: "/resources_thumbs/biobanks.jpg"
 resource_info:
   name: "Testing and evaluating diagnostic preparedness and biobanking: A cross-platform collaboration for validating new diagnostic assays and reviewing PLP capacities"
   pi: Jessica Alm

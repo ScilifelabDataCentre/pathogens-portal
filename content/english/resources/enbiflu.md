@@ -1,6 +1,7 @@
 ---
 title: "EnBiFlu, testing the efficiency of multifaceted environmental assessment of avian influenza threats and outbreaks"
 category: "test"
+banner: "/resources_thumbs/wastewater.jpg"
 resource_info:
   name: "EnBiFlu, testing the efficiency of multifaceted environmental assessment of avian influenza threats and outbreaks"
   pi: Anna J. Székely

@@ -1,6 +1,7 @@
 ---
 title: "Rapid establishment of comprehensive laboratory pandemic preparedness for enteroviruses - RAPID-SEQ-Entero"
 category: "test"
+banner: "/resources_thumbs/rapid-seq-entero.jpg"
 resource_info:
   name: "Rapid establishment of comprehensive laboratory pandemic preparedness for enteroviruses - RAPID-SEQ-Entero"
   funded_project_title: "Rapid establishment of comprehensive laboratory pandemic preparedness for enteroviruses - RAPID-SEQ-Entero"

@@ -1,6 +1,7 @@
 ---
 title: "Next-generation serology of emergent flavivirus infections"
 category: "test"
+banner: "/resources_thumbs/ng_serology_flavivirus.jpg"
 resource_info:
   name: "Next-generation serology of emergent flavivirus infections"
   pi: Anders Bergqvist

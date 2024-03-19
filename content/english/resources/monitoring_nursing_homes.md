@@ -1,6 +1,7 @@
 ---
 title: "Utilising large scale bio monitoring of nursing home residents for rapid detection of emerging respiratory infections and immunity"
 category: "test"
+banner: "/resources_thumbs/nursing_home.jpg"
 resource_info:
   name: "Utilising large scale bio monitoring of nursing home residents for rapid detection of emerging respiratory infections and immunity"
   pi: Mattias Forsell

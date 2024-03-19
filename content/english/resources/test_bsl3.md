@@ -1,6 +1,7 @@
 ---
 title: "Testing BSL3 Biomedicum capabilities and more"
 category: "test"
+banner: "/resources_thumbs/bsl3_test.jpg"
 resource_info:
   name: "Testing BSL3 Biomedicum capabilities and more"
   pi: Antonio Rothfuchs

@@ -1,6 +1,7 @@
 ---
 title: "Infections in travelers"
 category: "test"
+banner: "/resources_thumbs/travel.jpg"
 resource_info:
   name: "Infections in travelers"
   pi: Tobias Allander

@@ -1,7 +1,7 @@
 ---
 title: "Identification of molds and yeasts using Nanopore sequencing and MALDI-TOF."
 category: "test"
-banner:
+banner: "/resources_thumbs/mould_yeast.jpg"
 resource_info:
   name: "Identification of molds and yeasts using Nanopore sequencing and MALDI-TOF."
   pi: Johan Lindh
