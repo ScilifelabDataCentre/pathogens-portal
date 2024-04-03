@@ -34,9 +34,9 @@ This resource involves three subprojects:
 
 For more information on Taxprofiler (including information on access, use, and contact), please see the dedicated [Taxprofiler](/resources-subprojects/taxprofiler/).
 
-###### 2. SARS-CoV-2 bioinformatics pipeline – GMS Arctic
+###### 2. SARS-CoV-2 bioinformatics pipeline – GMS Artic
 
-For more information on GMS Arctic (including information on access, use, and contact), please see the dedicated [GMS Arctic page](/resources-subprojects/gms-arctic/).
+For more information on GMS Artic (including information on access, use, and contact), please see the dedicated [GMS Artic page](/resources-subprojects/gms-artic/).
 
 ###### 3. SARS-CoV-2 Reporter for visualisation of SARS-CoV-2 genome sequence data (SC2reporter)
 
