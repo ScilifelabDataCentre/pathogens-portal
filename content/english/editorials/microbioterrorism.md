@@ -1,13 +1,16 @@
 ---
 title: "(Micro)bioterrorism: leveraging genomic data to improve anthrax surveillance"
 date: 2024-04-03
-summary: TODO Katarina
+summary: A perspective on Bacillus Anthracis, a pathogen known as a biological threat,  and how WGS data and surveillance can help researchers respond to cases, and threats.
 banner: /editorials/topic_infectious_disease.jpg
 banner_caption: 'Splenic tissue from a monkey with inhalation anthrax, showing a red blood cell (red) and rod-shaped bacilli (yellow). (Credit: Arthur Friedlander)'
 tags:
   [
-    Infectious disease,
-    TODO Katarina,
+    pathogens,
+    Bacillus Anthracis,
+    WGD data,
+    preparedness,
+    health threat
   ]
 editorials_topics: [Infectious diseases]
 editorials_authors: [Laura Carroll]
