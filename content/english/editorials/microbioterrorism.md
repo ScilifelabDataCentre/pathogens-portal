@@ -62,4 +62,4 @@ Overall, whether the culprit is *B. anthracis*, "*B. cereus*" biovar Anthracis, 
 
 #### Cite this editorial
 
-Carroll, L. (2024). Editorial- (Micro)bioterrorism: leveraging genomic data to improve anthrax surveillance. Online resource. DOI [TODO](https://doi.org/).
+Carroll, L. (2024). Editorial- (Micro)bioterrorism: leveraging genomic data to improve anthrax surveillance. Online resource. DOI: [10.17044/scilifelab.25547476](https://doi.org/10.17044/scilifelab.25547476).
