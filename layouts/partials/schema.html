@@ -8,7 +8,6 @@
 {{ $name := .Site.Title }}
 {{ $description := (or .Params.description .Params.summary .Site.Params.description) }}
 {{ $image := index .Site.Params.Images 0 | absURL }}
-{{ $keywords := slice "Swedish portal" "Pathogens" "Influenza" "Mpox" "COVID-19" "coronavirus" "SARS-CoV-2" "Covid19 data portal" "Antibiotic resistance" "Enteric viruses" "Infectious diseases" "Pandemic" "Pandemic preparedness" "Pathogens portal" "Pandemic Laboratory Preparedness" }}
 
 {{ $currentPage := path.Split (path.Clean .RelPermalink) }}
 
@@ -32,32 +31,186 @@
   {{ $type = "DataCatalog" }}
 {{ else if $isDatasetsPage }}
   {{ $type = "DataCatalog" }}
-  {{ $keywords = slice "Biochemistry data" "Drug discovery data" "Genomics & transcriptomics data" "Health data" "Imaging data" "Other data" "Protein data" "Public health data" "Serology data" "Social science and humanities data" }}
 {{ else if (or $isDashboardsPage $isSingleDashboardPage) }}
   {{ $type = cond (not (eq $isSingleDashboardPage false)) "Dataset" "DataCatalog" }}
-  {{ $keywords = slice "Swedish portal" "datagraph" "visualisation" "postcovid" "wastewater" "vaccine stat" "wastewater epidemiology" "publications" "dashboard" "registry data" "vaccination" "serology" "clinical microbiology" "sequence" "whole genome sequencing" "SARS-CoV-2" "COVID-19" "influenza" "enteric virus" }}
 {{ end }}
 
 <script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "{{ $type }}",
-    "@id": "{{ .Permalink }}",
     "url": "{{ .Permalink }}",
     "name": "{{ if .Title }}{{ .Title }}{{ else }}{{ $name }}{{ end }}",
     "image": "{{ if .Params.banner }}{{ .Params.banner | absURL }}{{ else }}{{ $image }}{{ end }}",
     "description": {{ $description }},
-    "keywords": {{ if .Params.tags }}{{ .Params.tags }}{{ else }}{{ $keywords }}{{ end }},
-    "about": {
-      "@type": "WebPage",
-      {{ if eq .Language.Lang "en" -}}
-      "name": "About the Swedish Pathogens Portal",
-      "url": "{{ "/about" | absURL }}"
-      {{- else -}}
-      "name": "Om Svenska Pathogens Portalen",
-      "url": "{{ "/sv/about" | absURL }}"
-      {{- end }}
-    }
+    "keywords": [
+    {{- if $isDatasetsPage -}}
+      "Biochemistry data",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q764876"
+      },
+      "Drug discovery data",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q1418791"
+      },
+      "Genomics & transcriptomics data",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q222046"
+      },
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q28946449"
+      },
+      "Health data",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q18745135"
+      },
+      "Imaging data",
+      "Protein data",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q7251429"
+      },
+      "Public health data",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q189603"
+      },
+      "Serology data",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q502159"
+      },
+      "Social science and humanities data",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q33122512"
+      }
+    {{- else if (or $isDashboardsPage $isSingleDashboardPage) -}}
+      "Swedish portal",
+      "datagraph",
+      "visualisation",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q451553"
+      },
+      "postcovid",
+      "wastewater",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q336191"
+      },
+      "wastewater epidemiology",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q96246050"
+      },
+      "publications",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q13442814"
+      },
+      "dashboard",
+      "registry data",
+      "vaccination",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q192995"
+      },
+      "serology",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q502159"
+      },
+      "clinical microbiology",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q9498048"
+      },
+      "sequence",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q1764062"
+      },
+      "whole genome sequencing",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q2068526"
+      },
+      "SARS-CoV-2",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q82069695"
+      },
+      "COVID-19",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q84263196"
+      },
+      "influenza",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q2840"
+      },
+      "enteric virus"
+    {{- else }}
+      "Swedish portal",
+      "Enteric viruses",
+      "Covid19 data portal",
+      "Pathogens portal",
+      "Pathogens",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q170065"
+      },
+      "Influenza",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q2840"
+      },
+      "Mpox",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q382370"
+      },
+      "COVID-19",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q84263196"
+      },
+      "coronavirus",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q57751738"
+      },
+      "SARS-CoV-2",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q82069695"
+      },
+      "Antibiotic resistance",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q380775"
+      },
+      "Infectious diseases",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q18123741"
+      },
+      "Pandemic",
+      {
+        "@type": "URL",
+        "@value": "https://www.wikidata.org/wiki/Q12184"
+      },
+      "Pandemic preparedness",
+      "Pandemic Laboratory Preparedness"
+    {{- end }}
+    ]
     {{- if $isSingleEditorialPage -}}
     {{- with .Params.editorials_authors -}},
     {{- $authorsList := . }}
@@ -71,7 +224,7 @@
     ]
     {{- end -}}
     {{- end -}}
-    {{- if not (eq $type "Dataset") -}},
+    {{- if not (eq $type "Dataset") }},
     "creator": {
         "@type": "Organization",
         "@id": "https://www.scilifelab.se/",
