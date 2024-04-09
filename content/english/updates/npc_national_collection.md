@@ -2,7 +2,7 @@
 title: National COVID-19 biobank sample collection made available for research on the Portal
 date: 2023-05-10
 summary: A unique new sample collection has been added to the COVID-19 Sample Collection Database. The collection comprises of over 1.5 million samples collected by Swedish healthcare regions and processed by the National Pandemic Centre throughout the COVID-19 pandemic.
-banner: /img/biobanks/national_collction_shot.png
+banner: /updates/banners/national_collction_shot.png
 banner_caption: Image taken from the front page of the COVID-19 Sample Collection Database, showing the new National Sample Collection stored at the National Pandemic Centre (from 2023-05-10).
 ---
 
