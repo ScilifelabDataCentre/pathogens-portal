@@ -14,7 +14,7 @@
       {{ .Content }}
       {{ if .Params.resource_info.use }}<h5>How this resource can be used for Pandemic Preparedness research:</h5>
       <p>{{ .Params.resource_info.use | markdownify }}</p>{{ end }}
-      {{ if .Params.resource_info.access }}<h5>Who and under which conditions is able to access the resource:</h5>
+      {{ if .Params.resource_info.access }}<h5>Who is able to access the resource (and under what conditions):</h5>
       <p>{{ .Params.resource_info.access | markdownify }}</p>{{ end }}
       {{ if .Params.resource_info.data_etc }}<h5>Available data, code, and protocols from the resource:</h5>
       <p>{{ .Params.resource_info.data_etc | markdownify }}</p>{{ end }}
