@@ -4,7 +4,6 @@ menu:
     research_menu:
         identifier: funding
         name: Funding opportunities
-        weight: 20
 aliases:
     - /projects/funding/
     - /sv/projects/funding/

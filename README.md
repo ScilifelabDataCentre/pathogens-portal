@@ -26,6 +26,8 @@ It uses the [Bootstrap](https://getbootstrap.com/) framework. In addition, it us
 
 <a href="https://zenodo.org/doi/10.5281/zenodo.10629602"><img src="https://zenodo.org/badge/256458920.svg" alt="DOI"></a>
 
+Click on 'Cite this repository' near the top right of this repository to see how to formally cite this repository.
+
 ## Development and contributions
 
 ### Adding and editing information in different sections
@@ -55,16 +57,3 @@ If you have any questions regarding any of the code or content associated with t
 ## Credits
 
 The website was built and is maintained by [SciLifeLab Data Centre](https://www.scilifelab.se/data/). We are grateful to many collaborators, both from the Data Centre and elsewhere, for their contributions.
-
-The primary contributors have been:
-
-- [@SonjaAits](https://github.com/SonjaAits)
-- [@ewels](https://github.com/ewels)
-- [@talavis](https://github.com/talavis)
-- [@pekrau](http://github.com/pekrau/)
-- [@akochari](http://github.com/akochari/)
-- [@LianeHughes](https://github.com/LianeHughes)
-- [@KatarinaOjeforsStark](https://github.com/KatarinaOjeforsStark)
-- [@senthil10](https://github.com/senthil10)
-- [@HannaKultima](https://github.com/HannaKultima)
-- [@johanrung](https://github.com/johanrung)

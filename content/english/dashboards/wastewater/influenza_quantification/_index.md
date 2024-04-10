@@ -68,7 +68,7 @@ The group provide reports to summarise their latest findings. The latest report 
 
 **Contact:** <anna.szekely@slu.se> and <javier.vargas@slu.se>
 
-**Download the data:** [Respiratory virus gene copy numbers normalised per PMMoV gene copy number.CSV file](https://raw.githubusercontent.com/ScilifelabDataCentre/pathogens-portal/develop/static/ww_data_temp/SLU_wastewater_data.csv). Data are available for Influenza A from week 42 of 2022 and for Influenza B from week 12 of 2023; updated weekly.
+**Download the data:** [Respiratory virus gene copy numbers normalised per PMMoV gene copy number.CSV file](https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data.csv). Data are available for Influenza A from week 42 of 2022 and for Influenza B from week 12 of 2023; updated weekly.
 
 **How to cite the dataset:**
 

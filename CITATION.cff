@@ -1,0 +1,39 @@
+cff-version: 1.2.1
+message: "If you use or reuse this software, please cite it using the following metadata."
+authors:
+- family-names: "Hughes"
+  given-names: "Liane"
+  orcid: 0000-0002-4784-5436
+- family-names: "Stark"
+  given-names: "Katarina Öjefors"
+  orcid: 0000-0001-7970-7778
+- family-names: "Kochari"
+  given-names: "Arnold"
+  orcid: 0000-0003-1373-5121
+- family-names: "Panneerselvam"
+  given-names: "Senthilkumar"
+- family-names: "Ewels"
+  given-names: "Phil"
+  orcid: 0000-0003-4101-2502
+- family-names: "Östberg"
+  given-names: "Linus"
+- family-names: "Kraulis"
+  given-names: "Per"
+  orcid: 0000-0003-0560-974X
+- family-names: "Lorenz"
+  given-names: "Jan"
+- family-names: "Asklof"
+  given-names: "Anna"
+- family-names: "Kallberg"
+  given-names: "Yvonne"
+  orcid: 0000-0002-3977-9600
+- family-names: "Islam"
+  given-names: "Kazi Jahurul"
+- family-names: "Tewatia"
+  given-names: "Parul"
+  orcid: 0000-0002-3096-1318
+- family-names: "Rung"
+  given-names: "Johan"
+  orcid: 0000-0001-5875-8429
+title: "Swedish Pathogens Portal"
+url: "https://github.com/ScilifelabDataCentre/pathogens-portal"

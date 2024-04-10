@@ -171,8 +171,8 @@
     {{ if ne $.Site.Language.LanguageName "Svenska" }}
     <!-- Topics box -->
     <div class="bg-home-topics mb-4">
-      <h4 class="mt-0 mb-1">Topics</h4>
-      <p class="mb-2 small">Click on one of the <b><a href="/topics/">pandemic preparedness topics</a></b> below to see only the content that is related to that topic.</p>
+      <h4 class="mt-0 mb-1">Pandemic preparedness topics</h4>
+      <p class="mb-2 small">Click on one of the <b><a href="/topics/">topics</a></b> below to see only the content that is related to that topic.</p>
       {{ range .Site.Menus.topics_menu }}
         <a href="{{ .Page.RelPermalink }}"><span class="bg-home-topics-btn">{{ .Name }}</span></a>
       {{ end }}
@@ -214,7 +214,7 @@
     <!-- About the portal -->
     {{ if eq $.Site.Language.LanguageName "Svenska" }}
       <div class="row mt-4">
-        <h4>Om dataportalen</h4>
+        <h4>Om portalen</h4>
       </div>
       {{ .Content }}
     {{ end }}
@@ -223,7 +223,7 @@
     <div class="row mt-4 pt-2 px-2">
       <div class="share-new-data text-white py-2 px-3">
         <h4 class="my-1">{{ if eq $.Site.Language.LanguageName "Svenska" }}Dela nya data{{ else }}Share new data{{ end }}</h4>
-        {{ if eq $.Site.Language.LanguageName "Svenska" }}Teamet som arbetar med dataportalen hjälper dig
+        {{ if eq $.Site.Language.LanguageName "Svenska" }}Teamet som arbetar med portalen hjälper dig
         gärna dela dina forskningsdata i öppna databaser och svarar på frågor om datahantering.{{ else }}The portal
         team is happy to assist you with submitting your data to open repositories or answer any questions about data
         management.{{ end }}

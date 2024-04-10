@@ -2,7 +2,7 @@
 title: ISIDORe offers services for infectious disease research
 date: 2023-11-06
 summary: The ISIDORe project aims to accelerate research and enhance pandemic preparedness efforts across Europe by assembling and providing access to crucial research resources. This includes their state-of-the-art facilities, services, advanced equipment, and expertise.
-banner: /img/logos/ISIDORe.png
+banner: /updates/banners/ISIDORe.png
 banner_caption: ISIDORe logo.
 ---
 

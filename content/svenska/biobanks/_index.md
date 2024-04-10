@@ -41,18 +41,12 @@ Det svenska Covid-19 Provsamlingsregistret drivs av SciLifeLab Data Centre som e
 
 Relevanta provsamlingar kan identifieras genom att att använda ett eller flera filter på websidan vänstra kolumn.  Sökresultaten visas därefter på websidan högra sida.
 
-<!-- <div class="row mb-4"><div class="col-lg-7"><img class="img-thumbnail" src="/img/biobanks/example_search.png" alt="Example of a page with search results" ></div></div> -->
-
 ##### Provsamlingssidor
 
 Varje provsamling har en egen webbsida, vars innehåll har registrerats av provsamlingsansvarig eller biobanksamordnare med ansvar för provsamlingen. Generell information och bakgrund  samt beskrivning av patienter/provgivare samt tillgängliga provtyper (t.ex. vävnadsprov, RNA, saliv) ges till vänster på varje sida.  På den högra sidan anges kontaktuppgifter. För forskningsprovsamlingar anges både ansvarig forskare och provsamlingsansvarig (ofta är detta samma individ). För tillgång till vårdprovsamlingar för din forskning, kontakta biobankssamordnaren i aktuellt landsting/region.
 
-<!-- <div class="row mb-4"><div class="col-lg-7"><img class="img-thumbnail" src="/img/biobanks/example_collection.png" alt="Example of a page with information about a sample collection"></div></div> -->
-
 ##### Biobanksidor
 
 Varje Biobank och nationell samling har en egen sida med generell information om organisation och vilka provsamlingar den aktuella biobanken har registrerat i Covid-19 Provsamlingsregistret.
-
-<!-- <div class="row mb-4"><div class="col-lg-7"><img class="img-thumbnail" src="/img/biobanks/example_biobank.png" alt="Example of a page with information about a biobank"></div></div> -->
 
 <i>Informationen på denna sida var senast uppdaterad: 2023.05.10</i>

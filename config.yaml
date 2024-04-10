@@ -10,7 +10,7 @@ params:
   # There is a hugo i18n package, but it seems like overkill for so few strings
   lang_strings:
     en:
-      home_title: Welcome to the new Swedish Pathogens Portal
+      home_title: "Swedish Pathogens Portal: supporting pandemic preparedness"
       enquire_email_footer_dc: "Contact the Swedish Pathogens Portal"
       support_feedback: Support & Feedback
       privacy: Privacy Notice
@@ -35,8 +35,8 @@ params:
       twitter_link: Twitter
       linkedin_link: LinkedIn
     sv:
-      home_title: Välkomna till den nya Svenska Patogens Portalen
-      enquire_email_footer_dc: "Kontakta den Svenska Patogens Portalen"
+      home_title: "Pathogens Portal Sverige: stöd för pandemiberedskap"
+      enquire_email_footer_dc: "Kontakta Pathogens Portal Sverige"
       support_feedback: Support och Feedback
       privacy: Integritetspolicy
       github_link: Webbplatskod på GitHub
@@ -68,7 +68,6 @@ languages:
     languageName: Svenska
     contentDir: content/svenska
     weight: 2
-    description: "Den Patogens Portal Sverige tillhandahåller information, riktlinjer, verktyg och tjänster för att stödja forskare vid svenska lärosäten verksamma inom forskningsfältet pandemisk beredskap med datarelaterade frågor."
 
 markup:
   goldmark:
@@ -97,7 +96,7 @@ permalinks:
 related:
   includeNewer: false
   indices:
-  - name: tags
-    weight: 100
-    threshold: 80
-    toLower: false
+    - name: tags
+      weight: 100
+      threshold: 80
+      toLower: false

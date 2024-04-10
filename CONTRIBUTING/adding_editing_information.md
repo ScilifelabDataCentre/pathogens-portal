@@ -1,36 +1,46 @@
-# Instructions on adding and editing information displayed on the Portal
+# Instructions on adding and editing information displayed on the portal
 
-We welcome contributions from the community in all sections of our Portal. Here, we describe contributing through GitHub - either through the GitHub web interface or through a local copy on your computer. You should have basic knowledge of the GitHub web interface or CLI in order to be able to use this way of contributing. There are multiple other ways to contribute so that you can use the way that is most convenient for you. Please [see this page for information on other ways you can send contributions](https://covid19dataportal.se/contribute/).
+Contributions are welcomed for all sections of the portal. This page describes how to make contributions to multiple different types of pages via GitHub. Contributions can be made either in the GitHub web interface (usually used for small additions to existing pages), or by editing a local copy of the portal on your computer and pushing that to GitHub (typically used for larger contributions and new pages). If you would prefer to contribute using a different route, for example, by sending text documents, please email us at [pathogens@scilifelab.se](mailto:pathogens@scilifelab.se).
 
-In short, in order to add or edit information on the Portal, make a fork of this repository and make changes in the corresponding section as described below. After making changes to the section which you would like to edit/add to as described below, you should send a pull request to the `develop` branch. We will review and approve it asap.
+**Table of contents:**
 
-__Table of contents:__
-
-- [How to propose changes or additions](#how-to-propose-changes-or-additions)
-- [Available datasets](#available-datasets)
+- [Making contributions via GitHub](#making-contributions-via-github)
+- [How to add a new page](#how-to-add-a-new-page)
+- [Adding available data](#adding-available-data)
+- [Dashboard pages](#dashboard-pages)
+- [Data highlights](#data-highlights)
+- [Editorials](#editorials)
+- [Emerging pathogens](#emerging-pathogens)
+- [Events](#events)
+- [News about the portal](#news-about-the-portal)
 - [Funding opportunities](#funding-opportunities)
 - [Ongoing research projects](#ongoing-research-projects)
-- [Data highlights](#data-highlights)
-- [News about the Portal](#news-about-the-portal)
-- [Resources](#resources)
+- [Publications included in a table](#publications-included-in-a-table)
+- [Pandemic preparedness resources](#pandemic-preparedness-resources)
+- [Topics](#topics)
 
-## How to propose changes or additions
+## Making contributions via GitHub
 
-All information displayed on the Portal is contained within [this GitHub repository](https://github.com/ScilifelabDataCentre/pathogens-portal). Some of the sections use information that is stored in the `data` folder in .JSON format while other sections use information that is stored in the `content` folder in Markdown format.
+All of the information displayed on the portal is contained within [this GitHub repository](https://github.com/ScilifelabDataCentre/pathogens-portal). When you enter that repository, you will see multiple folders. The majority of the content can be found within the `content` folder (where there is one folder for each language used on the portal). Some sections also use information that is ncluded within the `data` or `static` folders. Please see the sections further down on this page for information on how to locate different types of pages. It is also possible to use the URL to gain some idea of where a page is located within the folders. For example, all dashboard pages are within the `dashboards` folder, and their URLs are in the structure http://pathogens.se/dashboards/page_name/.
+
+Please note that we require all commits to be verified, so you must sign your commits. For information on how to set this up, see the [GitHub documentation](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits).
 
 ### Using the web interface
 
-- Navigate to the folder and file that is indicated below in the corresponding section.
-- Click on the top right corner of the document ("Edit this file"). This should create a fork of the original repository in your own GitHub account. You should see a page where you can directly edit the content.
-- Make changes as described below; do not forget to change the last update date on top of the document if needed.
-- Scroll to the bottom of the page. Describe what you have changed and press 'Propose changes'
-- You should now find yourself on a page where you can create a pull request. Check that the pull request will be sent to the base repository `SciLifeLabDataCentre/pathogens-portal` and base `develop`. You can also review the changes you made. Click on "Create pull request" if everything looks good.
-- Once created, a member of the Portal team will review your changes.
-Once approved, they will be merged and published.
+This route is typically used for making relatively small additions/updates to the content. For example, adding an entry to a dataset/table/database or modifying/adding some text to an existing page.
+
+- Navigate to the folder that contains your file (typically the `content` folder), and then to the file within that folder that represents the page/section that you want to modify.
+- Click on the pencil on the top right hand corner of the page (when you hover over the pencil, it will show "fork this repository and edit this file"/"edit this file"). This will create a fork of the portal code in your own GitHub account. You should then be able to edit the content of the page.
+- Make all of the neccessary changes. Remember that if the page appears in both Swedish and English, it is necessary to update both versions of the page.
+- Click on "Commit changes".
+- Write a description of what you have done in the "Propose changes" pop-up screen, and then press the "Propose changes" button when you are done.
+- You should now be taken to a page that allows you to create a pull request. Ensure that the request is being made to the `develop` branch of the base repository `SciLifeLabDataCentre/pathogens-portal`.
+- You can see the files that you have changed at the bottom of the page, and can double-check that everything looks as intended. If it does, click "Create pull request".
+- A member of the portal team will review the pull request as quickly as possible. Once approved, the changes will show on the portal.
 
 ### Using a local copy
 
-If you prefer, you can edit the website files on your computer in your favourite text editor. Fork this repository to your account. Then, clone the forked repository to your machine:
+It can sometimes be preferable to make changes to files directly on your computer in your favourite text editor and then push those changes to GitHub. This can be particularly true, for example, when adding files or making larger changes. To do this, you can fork this repository to your account and then clone the forked repository to your machine:
 
 ```bash
 git clone git@github.com:[YOUR-USERNAME]/pathogens-portal.git
@@ -49,6 +59,8 @@ Then you can fetch changes at any time from this remote:
 git pull upstream develop
 ```
 
+You can now edit/add files with the text editor on your computer. You can test your changes locally, so you can see how it will look on the site. This is good for ensuring that your changes appear as intended. See [this page](https://github.com/ScilifelabDataCentre/pathogens-portal/blob/develop/CONTRIBUTING/running_a_local_copy.md) for information on how to see the effect of changes that you're making locally.
+
 When you have finished editing, commit and push to your fork:
 
 ```bash
@@ -59,56 +71,237 @@ git push
 
 Once you're finished with your edits and they are committed and pushed to your forked repository, it's time to open a pull request. In short:
 
-- Visit the main repository: [https://github.com/ScilifelabDataCentre/pathogens-portal](https://github.com/ScilifelabDataCentre/pathogens-portal)
-- Click the button that reads _"New Pull Request"_
-- Click the text link near the top that says _"compare across forks"_
-- In the right-hand _"head repository"_ drop down, select your username / fork.
-- If you're happy with the list of commits shown, and the diff in the _"Files Changed"_ tab, fill in a title and description and click _"Create pull request"_
+- Go to your repository on GitHub and click "New Pull Request".
+- Alternatively, go to the main repository on GitHub ([https://github.com/ScilifelabDataCentre/pathogens-portal](https://github.com/ScilifelabDataCentre/pathogens-portal)) and click "New Pull Request", then click the text link near the top that says "compare across forks".
+- At the top of the page, you should see a pale grey box under the 'Comparing changes' text. The right-hand "head repository" drop down should show your username/fork and the branch that you worked on. Under 'base repository' you should see "ScilifelabDataCentre/pathogens-portal" and the 'base' should read 'develop'.
+- If you're happy with the list of commits and file changes shown towards the bottom of the page, click "Create pull request".
+- Write a title and description for your pull request, and then click 'Create pull request'.
+- A member of the portal team will review the pull request as quickly as possible. Once approved, the changes will show on the portal.
 
-Once created, a member of the Portal team will review your changes.
-Once approved, they will be merged and published.
+## How to add a new page
 
-#### Testing with a local copy of the Portal
+The easiest way to add a new page to the portal is to [make a local copy](#using-the-web-interface). You can then navigate to the folder to which you would like to add a page (see below to gain an idea of where this might be, or check the URL of pages in the same section, as that will indicate the file structure). Create a new markdown (.md) file. We recommend copying the metadata from an existing page from the same folder to initiate your page. The metadata is the piece at the top of the file that is between two lines of 3 dashes (i.e. '---'). You will have to change the metadata to reflect information about your new page, but this will ensure that your page is correctly initiated.
 
-Because the Portal is built on Hugo, it is quite easy to run a full version of the Portal on your computer and see how your changes look while doing that. See [this page for information on how to do that](https://github.com/ScilifelabDataCentre/pathogens-portal/blob/develop/CONTRIBUTING/running_a_local_copy.md).
+## Adding available data
 
-## Available datasets
+We have a dataset of available data/code from Sweden that can be found [in the available data section of the portal](http://pathogens.se/datasets/all/). Multiple different types of data can be added to this dataset. Please note that this dataset is also updated approximately monthly by the portal team.
 
-_Instructions coming soon._
+In order to add entries in the dataset, you should edit the `available_datasets.json` within the `data` folder. You need to update the date at the top of the file to the date that you are making the update. Then you can add your entry/entries. Please note that entries must include one author affiliated with a Swedish university, should pertain to COVID-19, and the data/code should be openly available, or have clear instructions for how access can be made (in the event that the data could not be shared openly). Each entry should be in the format:
+
+```bash
+    {
+      "doi": "DOI of the paper",
+      "available_items": [
+        {
+          "type": "data",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Information that is sufficient for anyone hoping to assess whether they can reuse the data.",
+          "data_type": ["Biochemistry data", "Protein data", "Serology data", "Public health data", "Health data", "Genomics & transcriptomics data", "Drug discovery data", "Imaging data", "Social science and humanities data", "Other data" (delete as appropriate)],
+          "data_url": "URL to data"
+        },
+        {
+          "type": "code",
+          "repo_name": "",
+          "accession_number": "",
+          "description": "Information that is sufficient for anyone hoping to assess whether they can reuse the data.",
+          "data_type": [see above - different data/code instances within one entry should be the same],
+          "data_url": ""
+        }
+      ],
+      "title": "title of paper",
+      "issue": "",
+      "volume": "",
+      "publisher": "",
+      "published": "yyyy-mm-dd",
+      "author": [
+        "List O. A.", "Author T."
+      ]
+    },
+```
+
+## Dashboard pages
+
+**Data dashboards** are pages that include data from either research groups or public data sources. They include custom, dynamic visualisations of the data alongside relevant information about the background of the study, the methods used to collect data, and the research groups involved, among other things.
+
+### Data visualisations
+
+The portal team are happy to create code for custom, dyanmic visualisations for your data. We work with those involved in data collection to create these visualisations, so that they show the data in the most appropriate way. The visualisation codes that we have written to date can be found in [our visualisations GitHub repository](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations). Our visualisations are typically writtten in Plotly in Python. To get a visualisation produced for your data, please email us at [pathogens@scilifelab.se](mailto:pathogens@scilifelab.se).
+
+### Dashboard files
+
+There are multiple dashboard pages. They are located within the `dashboards` folders of the `english` and `svenska` folders of the `content` folder. Some dashboards (e.g. the wastewater dashboard) contain multiple pages. In such cases, the pages are included within the same subfolder.
+
+The file for each page is in markdown format. The top of the file is considered metadata, and it sets up your page. It looks as follows:
+
+```Markdown
+---
+title: Title of your page
+description: A short (around 100 chracters) description of your dashboard
+banner: /dashboard_thumbs/picture.jpg (see information on 'illustrations' below)
+toc: false (false means that no table of contents will be show, on the page)
+plotly: true (trues means that plotly will be used on the page, this is needed for the visualisations)
+menu:
+  dashboard_menu:
+    identifier: set_name_id
+    name: "name as it should appear in the dashboard menu in the header"
+dashboards_topics: [COVID-19, Infectious diseases] (add the names of the topics that are appropriate - see below for topics)
+---
+```
+
+Under the metadata, you can write information about the research and the data. The portal team can help with adding code related to plots within the page.
+
+### Illustrations
+
+Links to dashboard pages are typically shown in cards e.g. in <https://pathogens.se/dashboards/>. These cards show a small image that is representative of that dashboard. The size of the image should be 250 px high and 500 px wide. The portal team can help with resizing/editing images. Images should be placed in the `/static/dashboard_thumbs` folder.
+
+## Data highlights
+
+**Data highlights** are short, data-centric articles focusing on recent research that openly shares data, code, or other research outputs
+
+### Illustrations
+
+Each highlight can have two illustrations. One is used as a thumbnail image on the pages showing multiple highlights e.g. <https://pathogens.se/highlights/>. The other can be shown on the page. Only the first is required, and should be 250 px high and 500 px wide. The portal team can help with resizing/editing images. The illustrations should be placed in the `/static/highlights/banners` folder. The images can be in .png or .jpg format.
+
+### Data highlight files
+
+The data highlights are generated from Markdown formatted files contained in the `/content/english/highlights/` folder. The file name used here will also be the URL of the data highlight (e.g., `test-highlight.md` will become `https://pathogens.se/highlights/test-highlight/`).
+
+### Content of the data highlight files
+
+Below is an example of a data highlight file content. You can copy this text into your markdown file and edit it to write your own data highlight, or you can copy an existing highlight and edit the copy. As with the dashboard files, and most other pages in the site, the file comprises of page metadata and then the content shown on the page itself.
+
+```Markdown
+---
+title: Title of page
+date: yyyy-mm-dd
+summary: A summary of around 100 characters in length
+banner: /highlights/banners/picture.png (thumbnail image, see above for details)
+banner_large: /highlights/banners/picture.png (larger images shown on the page)
+banner_caption: "caption for the image shown on the page"
+highlights_topics: [COVID-19, Infectious diseases] (include the names of any topics that apply - see topics section for details)
+tags: [keyword 1, keyword 2,...]
+images: [/highlights/banners/picture.png]
+---
+
+This is the text of the highlight. This is the first paragraph. Introduce why this is an important topic.
+
+This is the second paragraph of the text of the highlight. Markdown formatting should be used in the text. For example, you can make a piece of text italic by placing an asterisk at the beginning and end, *like this*. You can make a piece of text bold by placing two asterisks at the beginning and end, **like this**. You can also add a link with square brackets following round round brackets, [like this](https://example.com/data/).
+
+We typically describe exactly what data has been shared, how it can be re-used, and give links to where it can be downloaded.
+
+#### Data and code availability
+
+* [Shared dataset 1](https://example.com/data1/): description of shared dataset 1
+* [Shared dataset 2](https://example.com/data2/): description of shared dataset 2
+* [Shared dataset 3](https://example.com/data3/): description of shared dataset 3
+
+#### Article
+
+DOI: [_put_DOI_here](https://doi.org/_put_DOI_here)
+
+Authors. A..... (20XX) Title of the journal publication. In: Journal Title (Vol. XX, Issue XX, XXXX).
+
+#### Funding
+
+We typically put funder information near the end, here.
+
+#### Infrastructure
+
+Information about any infrastruture used to complete the study.
+```
+
+## Editorials
+
+**Editorials** are short, opinion-style articles that describe the current state of an area of research. They are contributed by those working in that area. They are similar in format to data highlights.
+
+### Illustrations
+
+Each editorial has an illustation that should be 250 px high and 500 px wide. The portal team can help with resizing/editing images. The illustrations should be placed in the `/static/editorials` folder. The images can be in .png or .jpg format.
+
+### Editorial files
+
+The editorials are generated from Markdown formatted files contained in the `/content/english/editorials/` folder. The file name used here will also be the URL of the editorial (e.g., `test-editorial.md` will become `https://pathogens.se/editorials/test-editorial/`).
+
+### Content of the editorial files
+
+Below is an example of a editorial file content. You can copy this text into your markdown file and edit it to write your own editorial, or you can copy an existing editorial and edit the copy. As with the dashboard files, and most other pages in the site, the file comprises of page metadata and then the content shown on the page itself.
+
+```Markdown
+---
+title: "title of editorial"
+date: yyyy-mm-dd
+summary: a short summary of the editorial (less than 100 characters)
+banner: /editorials/image_names.jpg
+banner_caption: 'caption of image'
+tags: [keyword 1, keyword 2...]
+editorials_topics: [Infectious diseases] (any topics that apply, see below for information on topics)
+editorials_authors: [Your Name]
+images: [/editorials/image_name.jpg]
+---
+
+This is the text of the editorial. This is the first paragraph.
+
+This is the second paragraph of the text. Markdown formatting should be used in the text. For example, you can make a piece of text italic by placing an asterisk at the beginning and end, *like this*. You can make a piece of text bold by placing two asterisks at the beginning and end, **like this**. You can also add a link with square brackets following round round brackets, [like this](https://example.com/data/).
+
+#### Cite this editorial
+
+The portal team can help to upload the editorial on the [SciLifeLab Data Repository](https://figshare.scilifelab.se). Please email us at [pathogens@scilifelab.se](mailto:pathogens@scilifelab.se) to discuss this.
+```
+
+## Emerging pathogens
+
+The **emerging pathogens** pages are intended to show the latest information in the event of a new outbreak. The pages are found in the [emerging pathogens section](https://pathogens.se/pathogens/), located in the `/content/english/pathogens/`. It is the first type of page that we put up about an emerging disease, and do so as soon as possible. We include any information and all resources that are currently available. The structure of the pages vary, but only requires a title in the metadata section (see e.g. editorials and highlights above for more information.) and some text in markdown format below this.
+
+## Events
+
+The **events** page shows events related to topics around pandemic preparedness, e.g. antibiotic resistance. Users should go to the [events page](https://pathogens.se/events/) on the portal itself and fill in the form to suggest an event. The portal team will typically add the suggestion within one working day.
 
 ## Funding opportunities
 
-We collect funding opportunities relevant for COVID-19, infectious diseases, and antibiotic resistance research. These are displayed under `/funding/`. The data is stored in JSON format in `data/funding.json`. Below is the format used for each entry. All required fields have to be filled out and in some cases there is a specific format. Note that for the field _topic_ you should choose one or more topics corresponding of the call.
+We collect funding opportunities relevant for topics related to pandemic preparedness, e.g. COVID-19, infectious diseases, and antibiotic resistance research. Users should go to the [funding page](https://pathogens.se/funding/) on the portal itself and fill in the form to add a funding opportunity. The portal team will typically add the suggestion within one working day.
 
-```JSON
-{
-  "topic": ["COVID-19", "General", "Antibiotic resistance", "Infectious diseases"],
-  "funder": "funder name, required field",
-  "call_title": "call title, required field",
-  "call_url": "call URL, including https://, required field",
-  "call_description": "call description, optional field, markdown formatting allowed",
-  "applicant": "information about who can apply, optional field, markdown formatting allowed",
-  "decision_date": "information about when the decision will be made, optional field",
-  "funding_period": "information about the duration of funding, optional field",
-  "funding_amount": "information about the amount one call apply for, optional field",
-  "submission_opendate": "date in format '2006-01-02', optional field",
-  "submission_deadline": "date in format '2006-01-02', required field"
-}
-```
+## News about the portal
 
-At the beginning of the file `data/funding.json` there is a field for the last updated date of this file. The date here needs to be updated whenever new calls are added or changes are made.
+News items about the portal are published under `/updates/`. The news items are written about new sections launched, major updates to the portal, or other important information for the communitty.
 
-```JSON
-  "last_updated": "2006-01-02",
+### Illustrations
+
+Each news item can have two illustrations. One is used as a thumbnail image on the [portal news page](http://pathogens.se/updates/). The other can be shown on the page. Only the first is required, and should be 250 px high and 500 px wide. The portal team can help with resizing/editing images. The illustrations should be placed in the `/static//updates/banners/` folder. The images can be in .png or .jpg format.
+
+### News files
+
+The news items can be added in the folder `/content/english/updates/`. Each news item is a file with extension **.md**. The file name used here will also be the URL of the news item (e.g., `test-news.md` will become `https://pathogens.se/updates/test-news/`).
+
+### Content of the news files
+
+Below is an example of a news file content. You can copy this text into your markdown file and edit it to write your own news item. It comprises some basic page metadata (used to allow the page to be correctly laid out, and between two lines of '---') and then some text in markdown format. The file should be a markdown file (i.e. with the extension '.md').
+
+```Markdown
+---
+title: title of news item
+date: yyyy-mm-dd
+summary: Today we are launching a new section on the Portal devoted to...
+banner: /updates/banners/example.png
+banner_large: /updates/banners/example_large.png
+banner_caption: "Illustration of X. The image was taken from Y."
+---
+
+This is the text of the news item. This is the first paragraph.
+
+This is the second paragraph of the text of the news item. Markdown formatting should be used in the text. For example, you can make a piece of text italic by placing an asterisk at the beginning and end, _like this_. You can make a piece of text bold by placing two asterisks at the beginning and end, __like this__. You can also add a link with square brackets following round round brackets, [like this](https://example.com/data/).
+
+This is the third paragraph of the news item.
+
 ```
 
 ## Ongoing research projects
 
-We maintain a database of currently ongoing research projects on COVID-19, infectious diseases, and antibiotic resistance in Sweden. These are displayed under `/research_projects/`. The data is stored in JSON format in `data/research_projects.json`. Below is the format used for each entry. All required fields have to be filled out and in some cases there is a specific format. Note that for the field _topic_ you should choose one or more topics corresponding of the call.
+We maintain a dataset of currently ongoing research projects on COVID-19. These are displayed under `/research_projects/`. The data is stored in JSON format in `data/research_projects.json`. Below is the format used for each entry. All required fields have to be filled out and in some cases there is a specific format. Note that for the field _topic_ you should choose one or more topics corresponding of the call.
 
 ```JSON
 {
-  "topic": ["COVID-19","Infectious diseases","Antibiotic resistance"],
+  "topic": ["COVID-19"],
   "funder": "funder name, required field",
   "project_title": "title of the research project, required field",
   "project_description": "description of the project, optional field, markdown formatting allowed",
@@ -127,105 +320,56 @@ At the beginning of the file `data/research_projects.json` there is a field for 
   "last_updated": "2006-01-02",
 ```
 
-## Data highlights
+## Publications included in a table
 
-__Data highlights__ is a section of the portal which contains news items promoting recent openly shared data that can potentially be used by many other researchers to make further discoveries or notable data re-use examples.
+There are multiple places on the portal where relevant publications are shown in tables. In all cases, these publications are taken from a central publications database that is updated monthly by the portal team. The publications are all about COVID-19, and involve at least one author affiliated with a Swedish research organisation. To see this database in full, go to the [Swedish COVID-19 Publications page](http://pathogens.se/publications/). Users cannot add publications, but can email the pathogens portal team at [pathogens@scilifelab.se](mailto:pathogens@scilifelab.se) to add relevant publications.
 
-### Illustrations
+## Pandemic preparedness resources
 
-Typically, for each data highlight we prepare two illustrations. One illustration is smaller and appears on overview page with all data highlights. The other illustration appears on the page of the highlight itself.
-
-The smaller illustration needs to have the width that is twice the length (i.e., length `300 px` and width `600 px`). This way, it will easily fit the look of the page layouts.
-
-Both illustrations should be placed in the `/static/highlights/banners` folder. The URL of the images placed here will then be `https://covid19dataportal.se/highlights/banners/file_name.png`.
-
-### Data highlight files
-
-The data highlights are generated from Markdown formatted files contained in the `/content/english/highlights/` folder. The file name used here will also be the URL of the data highlight (e.g., `test-highlight.md` will become `https://covid19dataportal.se/highlights/test-highlight/`).
-
-### Content of the data highlight files
-
-Below is an example of a data highlight file content. You can copy this text into your markdown file and edit it to write your own data highlight.
+**Pandemic preparedness resources pages** comprise information about resources that have been developed in Sweden related to pandemic preparedness. Currently, this comprises primarily of information about projects that are part of SciLifeLab's Pandemic Laboratory Preparedness (PLP) program. The pages are found in the `/content/english/resources/` folder. The pages are in markdown format, and have a '.md' file extension. As with other pages on the portal, they comprise of some initial page metadata that is used to set up the page (and lies between two lines of '---'), and then text in markdown format. The format of these pages is shown below. You can copy this to create a new page, or copy and edit an existing page.
 
 ```Markdown
 ---
-title: Important new dataset shared
-date: 2021-01-01
-summary: A new dataset containing a large amount of valuable data has been openly shared.
-banner: /highlights/banners/example.png
-banner_large: /highlights/banners/example_large.png
-banner_caption: "Illustration of X. The image was taken from Y."
-topics: [COVID-19, Infectious diseases, Antibiotic resistance]
+title: "title"
+category: "plp2" used to place in one of the plp categories
+resource_info:
+    name: "project name"
+    pi: list of PI names,
+    host_organisation: XXX University
+    contact: "name<br>title<br>Email: [example@example.se](mailto:example@example.se)<br><br>A"name<br>title<br>Email: [example@example.se](mailto:example@example.se)"
+for_background_table:
+    pi: PI name
+    pi_affiliation: XXXX University
 ---
 
-This is the text of the highlight. This is the first paragraph. Introduce why this is an important topic.
+This is the text of the page. This is the first paragraph.
 
-This is the second paragraph of the text of the highlight. Markdown formatting should be used in the text. For example, you can make a piece of text italic by placing an asterisk at the beginning and end, *like this*. You can make a piece of text bold by placing two asterisks at the beginning and end, **like this**. You can also add a link with square brackets following round round brackets, [like this](https://example.com/data/).
-
-We typically describe exactly what data has been shared, how it can be re-used, and give links to where it can be downloaded.
-
-#### Data
-
-* [Shared dataset 1](https://example.com/data1/): description of shared dataset 1
-* [Shared dataset 2](https://example.com/data2/): description of shared dataset 2
-* [Shared dataset 3](https://example.com/data3/): description of shared dataset 3
-
-#### Article
-
-DOI: [_put_DOI_here](https://doi.org/_put_DOI_here)
-
-Andersson, M., Johansson, S., Karlsson, A. Title of the journal publication *Journal Title*, **X** (X) (20XX).
-
-#### Funding
-
-We typically put funder information near the end, here.
-
+This is the second paragraph of the text. Markdown formatting should be used in the text. For example, you can make a piece of text italic by placing an asterisk at the beginning and end, *like this*. You can make a piece of text bold by placing two asterisks at the beginning and end, **like this**. You can also add a link with square brackets following round round brackets, [like this](https://example.com/data/).
 ```
 
-On the top of the file, surrounded by `---`, basic information for this data highlight is provided. It contains the title; publication date (desired; Hugo needs to be run on that day or later for it to appear); summary text that appears in the homepage and in the main page of the Data highlights section; location of the illustration to be displayed on the homepage (`banner`); location of the illustration to be displayed on the page of the highlight (`banner_large`); caption text that will appear under the illustration on the page of the highlight.
+## Topics
 
-The title, date, summary, illustrations will appear where they are supposed to be.
+Multiple pandemic preparedness topics are covered on the portal. It is possible for users to filter the content of the portal according to a given topic. Topics include, for example, COVID-19, Antibiotic resistance, Influenza, and Mpox. The current topics can be viewed in the [topics section](http://pathogens.se/topics/). In order to suggest a new topic, please contact the the pathogens portal team at [pathogens@scilifelab.se](mailto:pathogens@scilifelab.se). This will allow us to be able to put in place the background code that is needed to make it possible to filter by this topic.
 
-## News about the Portal
+### Content of topics files
 
-News items about the Portal are published under `/updates/`. The news items are written about new sections launched, major updates of the Portal, or major achievements.
-
-### Illustrations
-
-Typically, for each news item we prepare two illustrations. One illustration is smaller and appears on overview page with all news items. The other illustration appears on the page of the news item itself.
-
-The smaller illustration needs to have the width that is twice the length (i.e., length `300 px` and width `600 px`). This way, it will easily fit the look of the page layouts.
-
-Both illustrations should be placed in the `/static/updates/banners` folder. The URL of the images placed here will then be `https://covid19dataportal.se/updates/banners/file_name.png`.
-
-### News files
-
-The news items can be added in the folder `/content/updates/`. Each news item is a file with extension __.md__. The file name used here will also be the URL of the news item (e.g., `test-news.md` will become `https://covid19dataportal.se/updates/test-news/`).
-
-### Content of the news files
-
-Below is an example of a news file content. You can copy this text into your markdown file and edit it to write your own news item.
+The format of the topics pages are similar to other pages on the portal. The pages are in markdown format, and have a '.md' file extension. As with other pages on the portal, they comprise of some initial page metadata that is used to set up the page (and lies between two lines of '---'), and then text in markdown format. The format of these pages is shown below. You can copy this to create a new page, or copy and edit an existing page. They are located in the `/content/english/topics/` folder. The exact format, which you can use to generate a new topics page is shown below.
 
 ```Markdown
 ---
-title: New section on the Portal launched
-date: 2006-01-02
-summary: Today we are launching a new section on the Portal devoted to...
-banner: /updates/banners/example.png
-banner_large: /updates/banners/example_large.png
-banner_caption: "Illustration of X. The image was taken from Y."
+title: title
+description: Short description of approximately 100 characters
+banner: /topic_thumbs/topic_antibiotic.jpg (picture to be associated with the topic as a thumbnail)
+credits:
+toc: false (false means that no table of contents will be included)
+topic: name of topic
+menu:
+    topics_menu:
+        name: name of topic
+        identifier: name_of_topic
 ---
 
-This is the text of the news item. This is the first paragraph.
+This is the text of the page. This is the first paragraph.
 
-This is the second paragraph of the text of the news item. Markdown formatting should be used in the text. For example, you can make a piece of text italic by placing an asterisk at the beginning and end, _like this_. You can make a piece of text bold by placing two asterisks at the beginning and end, __like this__. You can also add a link with square brackets following round round brackets, [like this](https://example.com/data/).
-
-This is the third paragraph of the news item.
-
+This is the second paragraph of the text. Markdown formatting should be used in the text. For example, you can make a piece of text italic by placing an asterisk at the beginning and end, *like this*. You can make a piece of text bold by placing two asterisks at the beginning and end, **like this**. You can also add a link with square brackets following round round brackets, [like this](https://example.com/data/).
 ```
-
-On the top of the file, surrounded by `---`, basic information for this news item is provided. It contains the title; publication date (desired; Hugo needs to be run on that day or later for it to appear); summary text that appears on the overview page; location of the illustration to be displayed on the overview page (`banner`); localtion of the illustration on the page of the news item (`banner_large`); caption text that will appear under the illustration on the page of the news item.
-
-## Resources
-
-_Instructions coming soon._
