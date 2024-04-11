@@ -1,0 +1,45 @@
+# This workflow runs a python script and updates the EBI index json with relavant date
+# This runs every Monday and Thursday at 11:11 or can be triggered manually
+# ------------------------------------------------------------------------------------
+
+name: Update EBI index
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 11 * * MON,THU'
+
+jobs:
+  update_ebi_index:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v3
+      - name: Run python script to get new dates
+        id: index_updater
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          RELEASE=$(gh release list -L 1 --json tagName --jq '.[0].tagName')
+          RELEASE_DATE=$(gh release list -L 1 --json publishedAt --jq '.[0].publishedAt[:10]')
+          echo "status=$(python EBI/update_index_json.py --release $RELEASE --release-date $RELEASE_DATE)" >> $GITHUB_OUTPUT
+      - name: Push the changes on successful update
+        if: ${{ steps.index_updater.outputs.status == 'updated' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FILE_TO_COMMIT: EBI/pathogens_portal_index.json
+          DESTINATION_BRANCH: develop
+        run: |
+          export TODAY=$(date +%Y-%m-%d)
+          export MESSAGE="Update EBI index - $TODAY"
+          export SHA=$( git rev-parse $DESTINATION_BRANCH:$FILE_TO_COMMIT )
+          export CONTENT=$( base64 -i $FILE_TO_COMMIT )
+          gh api --method PUT /repos/:owner/:repo/contents/$FILE_TO_COMMIT \
+            --field message="$MESSAGE" \
+            --field content="$CONTENT" \
+            --field encoding="base64" \
+            --field branch="$DESTINATION_BRANCH" \
+            --field sha="$SHA"
