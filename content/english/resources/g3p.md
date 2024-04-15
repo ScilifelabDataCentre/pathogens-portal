@@ -1,14 +1,15 @@
 ---
 title: "Genomic Pandemic Preparedness Portfolio (G3P) – Nationally scalable genomics portfolio for detection and surveillance of viral outbreaks"
 category: "plp1"
+banner: "/resources_thumbs/g3p.jpg"
 resource_info:
-    name: "Genomic Pandemic Preparedness Portfolio (G3P) – Nationally scalable genomics portfolio for detection and surveillance of viral outbreaks"
-    pi: Valtteri Wirta
-    host_organisation: "Karolinska Institutet"
-    contact: "Valtteri Wirta<br>Director, Clinical Genomics facility<br>Email: [valtteri.wirta@ki.se](mailto:valtteri.wirta@ki.se)"
+  name: "Genomic Pandemic Preparedness Portfolio (G3P) – Nationally scalable genomics portfolio for detection and surveillance of viral outbreaks"
+  pi: Valtteri Wirta
+  host_organisation: "Karolinska Institutet"
+  contact: "Valtteri Wirta<br>Director, Clinical Genomics facility<br>Email: [valtteri.wirta@ki.se](mailto:valtteri.wirta@ki.se)"
 for_background_table:
-    pi: Valtteri Wirta
-    pi_affiliation: Karolinska Institutet
+  pi: Valtteri Wirta
+  pi_affiliation: Karolinska Institutet
 ---
 
 The current SARS-CoV-2 pandemic highlights the need of building pandemic preparedness capabilities for genetic monitoring (surveillance) of pathogens causing pandemics, as well as early detection of emerging pathogens and antimicrobial resistance in future pandemics and outbreaks. Therefore, our project focus on sequencing-based pandemic preparedness, by developing laboratory assays, along with associated bioinformatics analysis workflows, data visualisation for knowledge sharing and interpretation, and other tools for efficient national coverage.
@@ -33,10 +34,10 @@ This resource involves three subprojects:
 
 For more information on Taxprofiler (including information on access, use, and contact), please see the dedicated [Taxprofiler](/resources-subprojects/taxprofiler/).
 
-###### 2. SARS-CoV-2 bioinformatics pipeline – GMS Arctic
+###### 2. SARS-CoV-2 bioinformatics pipeline – GMS Artic
 
-For more information on GMS Arctic (including information on access, use, and contact), please see the dedicated [GMS Arctic page](/resources-subprojects/gms-arctic/).
+For more information on GMS Artic (including information on access, use, and contact), please see the dedicated [GMS Artic page](/resources-subprojects/gms-artic/).
 
-###### 3. SARS-CoV-2 Reporter for visualization of SARS-CoV-2 genome sequence data (SC2reporter)
+###### 3. SARS-CoV-2 Reporter for visualisation of SARS-CoV-2 genome sequence data (SC2reporter)
 
 For more information on SC2reporter (including information on access, use, and contact), please see the dedicated [SC2reporter page](/resources-subprojects/sc2reporter/).

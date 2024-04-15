@@ -39,18 +39,12 @@ The Swedish COVID-19 Sample Collection Database is operated in collaboration wit
 
 Relevant sample collections can be identified using one or a combination of several filtering tools provided on the left side of the page. The search results are then displayed on the right side of the screen.
 
-<!-- <div class="row mb-4"><div class="col-lg-7"><img class="img-thumbnail" src="/img/biobanks/example_search.png" alt="Example of a page with search results" ></div></div> -->
-
 ##### Sample collection pages
 
 Each sample collection has a page with information that has been submitted by the person or organisation responsible for providing access to the samples. General information, information about donors and available material types is provided on the left side of the page. The right side of the page contains contact information. In case of research sample collections, information about the collection head as well as information about the person who should be contacted regarding sample disposal (most often, it is the collection head herself or himself) is provided here. In case of healthcare sample collections, the responsibility for sample collection lies within the biobanking organisation, so only contact information for the whole organisation is provided here.
 
-<!-- <div class="row mb-4"><div class="col-lg-7"><img class="img-thumbnail" src="/img/biobanks/example_collection.png" alt="Example of a page with information about a sample collection"></div></div> -->
-
 ##### Biobank and national collection pages
 
 Each biobank or national collection has a dedicated page with general information about the organisation as well as a list of sample collections stored at this particular biobank.
-
-<!-- <div class="row mb-4"><div class="col-lg-7"><img class="img-thumbnail" src="/img/biobanks/example_biobank.png" alt="Example of a page with information about a biobank"></div></div> -->
 
 <i>Information on this page was last updated: 2023.05.10</i>

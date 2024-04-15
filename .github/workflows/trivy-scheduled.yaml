@@ -3,17 +3,15 @@
 # Trivy has scanners that look for security issues, and targets where it can find those issues.
 # https://github.com/aquasecurity/trivy
 #
-# This runs on scheduled time (08:10 and 12:10)for the develop image
-# ------------------------------------------------------------------
+# This runs on scheduled to run on every Monday and Thursday at 12:12
+# --------------------------------------------------------------------
 
 name: Trivy - scheduled scan
 
 on:
   workflow_dispatch:
-    branches:
-      - develop
   schedule:
-    - cron: '10 8,12 * * *'
+    - cron: '12 12 * * MON,THU'
 
 jobs:
   scan:

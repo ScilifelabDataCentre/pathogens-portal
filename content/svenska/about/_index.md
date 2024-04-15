@@ -38,17 +38,17 @@ Vi hjälper er gärna med support, tar emot förslag på förbättringar av nuva
 <div class="container mb-3">
   <div class="row">
     <div class="col-md-2 pt-2">
-      <div><img src="/img/people/lh.png" width="150" class="img-thumbnail"/></div>
+      <div><img src="/img/people/lh.jpg" width="150" class="img-thumbnail"/></div>
       <div><b>Liane Hughes</b></div>
       <div><span class="text-muted">Project leader</span></div>
     </div>
     <div class="col-md-2 pt-2">
-      <div><img src="/img/people/kos2.jpg" width="150" class="img-thumbnail"/></div>
+      <div><img src="/img/people/kos.jpg" width="150" class="img-thumbnail"/></div>
       <div><b>Katarina Öjefors Stark</b></div>
       <div><span class="text-muted">Data steward</span></div>
     </div>
     <div class="col-md-2 pt-2">
-      <div><img src="/img/people/sp.jpeg" width="150" class="img-thumbnail"/></div>
+      <div><img src="/img/people/sp.jpg" width="150" class="img-thumbnail"/></div>
       <div><b>Senthilkumar Panneerselvam</b></div>
       <div><span class="text-muted">Systems developer</span></div>
     </div>

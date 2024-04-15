@@ -6,6 +6,7 @@
 
 # OSX
 .DS_Store
+__pycache__
 
 # backups
 *~
