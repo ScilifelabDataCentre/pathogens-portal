@@ -1,7 +1,7 @@
 ---
 title: SARS-CoV-2-varianter upptäckta i Region Uppsala
 description: Övervakning av virusgenomsekvenser är avgörande för att kunna spåra spridningen av virusvarianter. Denna dashboard visar data från helgenomsekvenseringar som genererats av Akademiska sjukhuset i Uppsala.
-banner: /dashboard_thumbs/nanopore_seq_cropped.png
+banner: /dashboard_thumbs/nanopore_seq_cropped.jpg
 toc: true
 plotly: true
 menu:
