@@ -12,6 +12,13 @@
       SciLifeLab Data Centre wish everyone a Merry Christmas and a Happy New Year! <i class="bi bi-snow2"></i> <i class="bi bi-snow2"></i><br> The team will be away from 20th December until 2nd January, and will respond to any questions/requests as soon as possible.
       {{ end }}
       </div> -->
+    <div style="color: white;" class="bg-success border rounded py-2 px-4 mb-3 fst-italic">
+      {{ if eq $.Site.Language.LanguageName "Svenska" }}
+      Underhåll av Pathogens Portal Sverige kommer att genomföras måndagen den 29 april.<br>Användare kan därför uppleva vissa problem med att komma åt webbplatsen.
+      {{ else }}
+      The Swedish Pathogens Portal will be undergoing maintenance on Monday 29th April.<br>Users may experience some issues accessing the site during this time. 
+      {{ end }}
+      </div>
 
     <!-- Dashboards -->
     {{ range .Site.Menus.homepage_dashboards }}

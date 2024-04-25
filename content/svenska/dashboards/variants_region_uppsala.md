@@ -19,7 +19,7 @@ Under hela COVID-19 pandemin och fram till idag har Sektionen för [klinisk mikr
 
 Denna dashboard innehåller två visualiseringar av data från Sektionen för klinisk mikrobiologi och sjukhushygien vid Akademiska sjukhuset i Uppsala. Sidan innehåller även kontaktuppgifter till forskarna som delar dessa data samt länkar till relevanta publikationer.
 
-Data på denna dashboard ska uppdateras veckovis.
+Data på denna dashboard ska uppdateras varje månad.
 
 ## SARS-CoV-2 sekvenser Visualiseringar
 
