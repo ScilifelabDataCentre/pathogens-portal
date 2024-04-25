@@ -1,7 +1,7 @@
 ---
 title: "BSL3 Biomedicum-SciLifeLab Collaborative Platform"
 category: "plp1"
-banner: "/resources_thumbs/bsl3_lab_2.png"
+banner: "/resources_thumbs/bsl3_lab.png"
 resource_info:
   name: "BSL3 Biomedicum-SciLifeLab Collaborative Platform"
   pi: Antonio Rothfuchs
