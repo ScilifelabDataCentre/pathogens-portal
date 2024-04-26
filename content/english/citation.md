@@ -33,9 +33,9 @@ For official guidance see the [SciCrunch page on RRID citations](https://scicrun
 
 **In-text citation**: Swedish Pathogens Portal, SciLifeLab Data Centre, _version number_, RRID: SCR_024866. (Access date: date of access).
 
-**Reference list**: Swedish Pathogens Portal (_access date_), SciLifeLab Data Centre, version (version number) from https://pathogens.se, RRID:SCR_024866.
+**Reference list**: Swedish Pathogens Portal (_access date_), SciLifeLab Data Centre, version (version number) from https://www.pathogens.se, RRID:SCR_024866.
 
-You will find the version number of the portal at the bottom of the footer on any page, or on our <a target="_blank" href="https://github.com/ScilifelabDataCentre/pathogens-portal">Github repository</a> under 'releases'.
+You will find the version number of the portal at the bottom of the footer on any page, or on our <a target="_blank" href="https://github.com/ScilifelabDataCentre/pathogens-portal">pathogens-portal GitHub repository</a> under 'releases'.
 
 If you are aiming to cite particular pages of the portal in particular (e.g. the Data Highlights), you may find that an author is mentioned and a date is given. In this case, you should include the appropriate date and author instead, but must still include the RRID. There are also some pages were information for how to cite the data itself is provided (e.g. where a DOI is given on a dashboard page). In those cases, you should use that citation.
 
@@ -51,4 +51,4 @@ SciLifeLab Data Centre (year) pathogens-portal-visualisations. version: (version
 
 ## Journalists
 
-Journalists are welcome to reuse images, content, or other material from the **Swedish Pathogens Portal** for articles, blogs, social media etc., provided that the portal is acknowledged. Please refer to the portal as the **Swedish Pathogens Portal** and link to our webpage <https://pathogens.se> when you use content from the portal. You may also include our RRID: **SCR_024866** (see above for information on RRIDs).
+Journalists are welcome to reuse images, content, or other material from the **Swedish Pathogens Portal** for articles, blogs, social media etc., provided that the portal is acknowledged. Please refer to the portal as the **Swedish Pathogens Portal** and link to our webpage <https://www.pathogens.se> when you use content from the portal. You may also include our RRID: **SCR_024866** (see above for information on RRIDs).
