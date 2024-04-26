@@ -18,10 +18,10 @@ dashboards_topics: [COVID-19, Infectious diseases]
 
 <div class="alert alert-info">
   <i class="bi bi-exclamation-triangle-fill"></i>
-  <span>The data on this page are largely historic, though they may be updated occasionally. The Autoimmunity and Serology Profiling unit has now expanded their pandemic preparedness efforts to include tests for multiple other viruses. Information about that work can be found on the <a href="/dashboards/serology_multidisease/"> Multiplex and high-throughput multi-disease serology dashboard</a>.</span>
+  <span>The data on this page are largely historic, though they may be updated occasionally. The Autoimmunity and Serology Profiling unit has now expanded their pandemic preparedness efforts to include tests for multiple other viruses. Information about that work can be found on the <a href="/dashboards/serology_multidisease/"> multi-disease serology dashboard</a>.</span>
 </div>
 
-Serology tests involve testing bodily fluids for the presence of antibodies or other substances. Since the beginning of the pandemic, the SciLifeLab Autoimmunity and Serology Profiling unit has conducted serology tests for antibodies targetting SARS-CoV-2 proteins. The unit has continuously provided the latest data to the Swedish Pathogens Portal. In each of the below sections, we show the numbers of samples that were **positive**, **negative** or **research and development (R&D)**.
+Serology tests involve testing bodily fluids for the presence of antibodies or other substances. Since the beginning of the pandemic, the SciLifeLab Autoimmunity and Serology Profiling unit has conducted serology tests for antibodies targeting SARS-CoV-2 proteins. The unit has continuously provided the latest data to the Swedish Pathogens Portal. In each of the below sections, we show the numbers of samples that were **positive**, **negative** or **research and development (R&D)**.
 
 - **Positive tests**: Serology tests indicating the _presence_ of immunoglobulin G (IgG) antibodies targetting SARS-CoV-2 proteins.
 - **Negative tests**: Serology tests indicating the _absence_ of immunoglobulin G (IgG) antibodies targetting SARS-CoV-2 proteins.
@@ -29,9 +29,9 @@ Serology tests involve testing bodily fluids for the presence of antibodies or o
 
 <div class="alert alert-info">Data last updated: {{% serology_date_modified %}}.</div>
 
-## Number of serology tests completed
+<!-- ## Number of serology tests completed
 
-The below plot shows the total number (sum total) of serology tests related to SARS-CoV-2 completed by the SciLifeLab Autoimmunity and Serology Profiling unit since the beginning of the pandemic. The proportion of tests that indicated an infection with SARS-CoV-2 (proportion positive) is also shown. The plot shows the total number of positive, negative, and research & development (R&D) tests completed over time.
+The below plot shows the total number (sum total) of serology tests related to SARS-CoV-2 completed by the SciLifeLab Autoimmunity and Serology Profiling unit since the beginning of the pandemic.
 
 <br>
 
@@ -41,7 +41,7 @@ The below plot shows the total number (sum total) of serology tests related to S
 
 <div class="plot_wrapper">
   <div class="w-100" id="total-number"></div>
-</div>
+</div> -->
 
 ## Weekly serology tests
 
@@ -69,9 +69,9 @@ The cumulative number of positive, negative, and research & development (R&D) SA
 
 #### About serology testing at the Autoimmunity and Serology Profiling unit
 
-Early in the COVID-19 pandemic, work was initiated to [develop a serological assay](https://www.scilifelab.se/covid-19/kaw-program/serology/) for large scale testing of plasma and serum samples for antibodies against SARS-CoV-2. The work was undertaken by three research groups at [KTH Royal Institute of Technology (KTH)](https://www.kth.se) and the [Autoimmunity and Serology Profiling unit](https://www.scilifelab.se/facilities/autoimmunity-profiling/) at [SciLifeLab](https://www.scilifelab.se). The development of the assay has been funded by Knut and Alice Wallenberg Foundation, Erling-Persson Family Foundation, SciLifeLab, KTH, Region Stockholm, Atlas Copco, Mercodia, Family Christian and Jennifer Dahlberg, and Family Birgitta Klasén.
+Early in the COVID-19 pandemic, work was initiated to [develop a serological assay](https://www.scilifelab.se/capabilities/pandemic-laboratory-preparedness/pandemic-response/other-scilifelab-efforts/serology/) for large scale testing of plasma and serum samples for antibodies against SARS-CoV-2. The work was undertaken by three research groups at [the Department of Protein Science, KTH Royal Institute of Technology (KTH)](https://www.kth.se/pro) and the [Autoimmunity and Serology Profiling unit](https://www.scilifelab.se/facilities/autoimmunity-profiling/) at [SciLifeLab](https://www.scilifelab.se).
 
-By comparing and combining a large number of variants of SARS-CoV-2 proteins as antigens, a highly sensitive and specific multiplex bead-based assay was established. The high-throughput assay can be used to process up to 8000 samples per week. The vast majority of samples analysed to date originated from healthcare personnel, population-based studies, personnel in the pharmaceutical and biotechnology industry, and from within multiple research collaborations. Collaborators and sample providers include Danderyd University Hospital ([see news involving a follow-up study at Danderyd University Hospital](https://www.scilifelab.se/news/four-out-of-five-still-have-antibodies-against-sars-cov-2)), Karolinska University Hospital, Uppsala University Hospital, Skåne University Hospital, Örebro University Hospital, Sophiahemmet Hospital, Public Health Agency of Sweden, RISE (Research Institutes of Sweden), AstraZeneca, Cytiva, SVPH, Karolinska Institutet, KTH, Uppsala University, and Lund University.
+By comparing and combining a large number of variants of SARS-CoV-2 proteins as antigens, a [highly sensitive and specific multiplex bead-based assay](https://doi.org/10.1002/cti2.1312) was established. The high-throughput assay can be used to process up to 8000 samples per week. The vast majority of samples analysed to date originated from healthcare personnel, population-based studies, personnel in the pharmaceutical and biotechnology industry, and from within multiple research collaborations. Collaborators and sample providers include the community study at Danderyd University Hospital ([see news involving a follow-up study at Danderyd University Hospital](https://www.scilifelab.se/news/four-out-of-five-still-have-antibodies-against-sars-cov-2)), Karolinska University Hospital, Uppsala University Hospital, Skåne University Hospital, Örebro University Hospital, Sophiahemmet Hospital, Public Health Agency of Sweden, RISE (Research Institutes of Sweden), AstraZeneca, Cytiva, SVPH, Karolinska Institutet, KTH, Uppsala University, and Lund University.
 
 Check out the [Autoimmunity and Serology Profiling unit page](https://www.scilifelab.se/units/autoimmunity-profiling/) on the SciLifeLab website to find out more about the unit itself. Publications produced by studies making use of the unit are available in the [SciLifeLab Infrastructure Publications database](https://publications.scilifelab.se/label/Autoimmunity%20and%20Serology%20Profiling).
 

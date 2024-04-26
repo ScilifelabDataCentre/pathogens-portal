@@ -17,7 +17,7 @@ Surveillance of a viral pathogen is essential for minimising the impacts of that
 
 Throughout the pandemic and until present day, the section for [Clinical Microbiology and Hospital Hygiene at Uppsala University Hospital](https://www.akademiska.se/en/departments/departments/klinisk-mikrobiologi-och-vardhygien/) have conducted surveillance for SARS-CoV-2 in Uppsala. To do this, they performed whole genome sequencing on samples from SARS-CoV-2 positive patients in the Uppsala region. Throughout the COVID-19 pandemic, they sequenced over 12,000 samples from Uppsala.
 
-This dashboard includes two visualisations of the data from the section for Clinical Microbiology and Hospital Hygiene at Uppsala University Hospital. It also contains contact information for those behind the work, information about the code used to generate the graphs, and relevant publications. The data on this dashboard will be updated **approximately weekly**.
+This dashboard includes two visualisations of the data from the section for Clinical Microbiology and Hospital Hygiene at Uppsala University Hospital. It also contains contact information for those behind the work, information about the code used to generate the graphs, and relevant publications. The data on this dashboard will be updated **approximately monthly**.
 
 ## SARS-CoV-2 Sequence Visualisations
 

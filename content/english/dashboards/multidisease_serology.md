@@ -12,11 +12,6 @@ dashboards_topics:
 toc: true
 ---
 
-<div class="alert alert-info">
-  <i class="bi bi-exclamation-triangle-fill"></i>
-  <span>The information on this dashboard will be extended to include testing data when it becomes available.</span>
-</div>
-
 ## Introduction
 
 The COVID-19 pandemic highlighted the importance of serological surveillance in tracking viral transmission dynamics, understanding immune responses, guiding vaccination strategies, and assisting in decisions related to public health. High-throughput serological assays for SARS-CoV-2 were developed very early in the pandemic at KTH and SciLifeLab to enable surveillance of populations globally. For information about work done with SARS-CoV-2 during the pandemic, see the [historical background section](#historical-background).
@@ -37,7 +32,11 @@ The proteins designed and produced created by the project to date are listed in 
 
 ### Table of proteins created at KTH
 
-Proteins designed, expressed, purified, and characterised at the [KTH node of Protein Production Sweden](https://www.kth.se/pps), a national research infrastructure funded by the Swedish Research Council. They have been expressed either in HEK or CHO cells or in _E.scherichia coli_, with different affinity tags and either as fragments or full-length proteins.
+Proteins designed, expressed, purified, and characterised at the [KTH node of Protein Production Sweden](https://www.kth.se/pps), a national research infrastructure funded by the Swedish Research Council. They have been expressed either in HEK or CHO cells or in _E. coli_, with different affinity tags and either as fragments or full-length proteins.
+
+<div class="d-lg-none alert alert-info">
+  Rotating your phone will improve the view of this table.
+</div>
 
 <div class="table-responsive">
   <table id="variants" class="table table-hover" width="100%">
@@ -45,229 +44,319 @@ Proteins designed, expressed, purified, and characterised at the [KTH node of Pr
       <tr>
         <th scope="col">Virus Type</th>
         <th scope="col">Variant</th>
-        <th scope="col">Comment</th>
+        <th scope="col">Protein</th>
+        <th scope="col">Details</th>
+        <th scope="col">Host</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>SARS-CoV-2</td>
+        <td>Wildtype virus</td>
         <td>Spike</td>
-        <td>Wildtype virus, 20 different variants</td>
+        <td>Spike, 9 different variants</td>
+        <td>HEK/CHO</td>
       </tr>
       <tr>
         <td>SARS-CoV-2</td>
-        <td>Spike RBD</td>
-        <td>Wildtype virus, 10 different variants</td>
+        <td>Wildtype virus</td>
+        <td>Spike</td>
+        <td>Spike RBD, 5 different variants</td>
+        <td>E. coli/HEK/CHO</td>
       </tr>
       <tr>
         <td>SARS-CoV-2</td>
-        <td>Spike S1</td>
-        <td>Wildtype virus, 19 different variants</td>
+        <td>Wildtype virus</td>
+        <td>Spike</td>
+        <td>Spike S1, 14 different variants</td>
+        <td>E. coli/HEK/CHO</td>
       </tr>
       <tr>
         <td>SARS-CoV-2</td>
-        <td>Spike S2</td>
-        <td>Wildtype virus, 4 different variants</td>
+        <td>Wildtype virus</td>
+        <td>Spike</td>
+        <td>Spike S2, 4 different variants</td>
+        <td>E. coli</td>
       </tr>
       <tr>
         <td>SARS-CoV-2</td>
+        <td>Wildtype virus</td>
         <td>Nucleocapsid</td>
-        <td>Wildtype virus, 17 different variants</td>
+        <td>6 different variants</td>
+        <td>E. coli/HEK/CHO</td>
       </tr>
       <tr>
         <td>SARS-CoV-2</td>
+        <td>Wildtype virus</td>
         <td>Envelop</td>
-        <td>Wildtype virus, 2 different variants</td>
+        <td>2 different variants</td>
+        <td>E. coli</td>
       </tr>
       <tr>
         <td>SARS-CoV-2</td>
+        <td>Wildtype virus</td>
         <td>Membrane</td>
-        <td>Wildtype virus, 1 different variants</td>
+        <td>1 variant</td>
+        <td>E. coli</td>
       </tr>
       <tr>
         <td>SARS-CoV-2</td>
-        <td>RNA Ploymerase</td>
-        <td>Wildtype virus, 1 different variants</td>
+        <td>Wildtype virus</td>
+        <td>RNA Polymerase</td>
+        <td>1 variant</td>
+        <td>E. coli</td>
       </tr>
       <tr>
         <td>SARS-CoV-2</td>
+        <td>Wildtype virus</td>
         <td>Non-structural proteins (NSP)</td>
-        <td>Wildtype virus, 24 different variants</td>
+        <td>24 different variants</td>
+        <td>E. coli</td>
       </tr>
       <tr>
         <td>SARS-CoV-2</td>
+        <td>Wildtype virus</td>
         <td>ORF proteins</td>
-        <td>Wildtype virus, 19 different variants</td>
+        <td>19 different variants</td>
+        <td>E. coli</td>
       </tr>
       <tr>
         <td>SARS-CoV-2</td>
         <td>Alpha (B.1.1.7)</td>
+        <td>Spike</td>
         <td>Mutation only in the RBD-region</td>
+        <td>HEK</td>
       </tr>
       <tr>
         <td>SARS-CoV-2</td>
         <td>Beta (B.1.351)</td>
+        <td>Spike</td>
         <td>Mutation only in the RBD-region</td>
+        <td>HEK</td>
       </tr>
       <tr>
         <td>SARS-CoV-2</td>
         <td>Gamma (P.1)</td>
+        <td>Spike</td>
         <td>Mutation only in the RBD-region</td>
+        <td>HEK</td>
       </tr>
       <tr>
         <td>SARS-CoV-2</td>
         <td>Delta (B.1.617.2)</td>
+        <td>Spike</td>
         <td>Mutation only in the RBD-region</td>
+        <td>HEK</td>
       </tr>
       <tr>
         <td>SARS-CoV-2</td>
         <td>Delta plus (B.1.617.2.1)</td>
+        <td>Spike</td>
         <td>Mutation only in the RBD-region</td>
+        <td>HEK</td>
       </tr>
       <tr>
         <td>SARS-CoV-2</td>
         <td>Eta (B.1.525)</td>
+        <td>Spike</td>
         <td>Mutation only in the RBD-region</td>
+        <td>HEK</td>
       </tr>
       <tr>
         <td>SARS-CoV-2</td>
         <td>Kappa (B.1.617.1)</td>
+        <td>Spike</td>
         <td>Mutation only in the RBD-region</td>
+        <td>HEK</td>
       </tr>
       <tr>
         <td>SARS-CoV-2</td>
         <td>Omicron BA.1</td>
+        <td>Spike</td>
         <td>Complete set of mutations</td>
+        <td>HEK</td>
       </tr>
       <tr>
         <td>SARS-CoV-2</td>
         <td>Omicron BA.2</td>
+        <td>Spike</td>
         <td>Complete set of mutations</td>
+        <td>HEK</td>
       </tr>
       <tr>
         <td>SARS-CoV-2</td>
         <td>Omicron BA.5</td>
+        <td>Spike</td>
         <td>Complete set of mutations</td>
+        <td>HEK</td>
       </tr>
       <tr>
-        <td>Other human corona viruses</td>
-        <td>SARS-CoV</td>
+        <td>SARS-CoV-2</td>
         <td></td>
+        <td>Spike</td>
+        <td></td>
+        <td>HEK</td>
       </tr>
       <tr>
-        <td>Other human corona viruses</td>
         <td>MERS-CoV</td>
         <td></td>
+        <td>Spike</td>
+        <td></td>
+        <td>HEK</td>
       </tr>
       <tr>
-        <td>Other human corona viruses</td>
-        <td>HCoV-229E</td>
+        <td>Common human coronaviruses</td>
+        <td>229E</td>
+        <td>Spike</td>
         <td></td>
+        <td>HEK</td>
       </tr>
       <tr>
-        <td>Other human corona viruses</td>
-        <td>HCoV-HKU1</td>
+        <td>Common human coronaviruses</td>
+        <td>HKU1</td>
+        <td>Spike</td>
         <td></td>
+        <td>HEK</td>
       </tr>
       <tr>
-        <td>Other human corona viruses</td>
-        <td>HCoV-NL63</td>
+        <td>Common human coronaviruses</td>
+        <td>NL63</td>
+        <td>Spike</td>
         <td></td>
+        <td>HEK</td>
       </tr>
       <tr>
-        <td>Other human corona viruses</td>
-        <td>HCoV-OC43</td>
+        <td>Common human coronaviruses</td>
+        <td>OC43</td>
+        <td>Spike</td>
         <td></td>
-      </tr>
-      <tr>
-        <td>Influenza virus</td>
-        <td>A/H1N1 HA/Wisconsin/588/2019</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Influenza virus</td>
-        <td>A/H1N1 NA/Wisconsin/588/2019</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Influenza virus</td>
-        <td>A/H3N2 HA/Cambodia/e0826360/2020</td>
-        <td></td>
+        <td>CHO</td>
       </tr>
       <tr>
         <td>Influenza virus</td>
-        <td>A/H3N2 NA/Cambodia/e0826360/2020</td>
+        <td>A/H1N1/Wisconsin/588/2019</td>
+        <td>Hemagglutinin</td>
         <td></td>
+        <td>HEK</td>
       </tr>
       <tr>
         <td>Influenza virus</td>
-        <td>B/Victoria HA/Washington/02/2019</td>
+        <td>A/H1N1/Wisconsin/588/2019</td>
+        <td>Neuraminidase</td>
         <td></td>
+        <td>CHO</td>
       </tr>
       <tr>
         <td>Influenza virus</td>
-        <td>B/Victoria NA/Washington/02/2019</td>
+        <td>A/H3N2/Cambodia/e0826360/2020</td>
+        <td>Hemagglutinin</td>
         <td></td>
+        <td>HEK</td>
+      </tr>
+      <tr>
+        <td>Influenza virus</td>
+        <td>A/H3N2/Cambodia/e0826360/2020</td>
+        <td>Neuraminidase</td>
+        <td></td>
+        <td>HEK</td>
+      </tr>
+      <tr>
+        <td>Influenza virus</td>
+        <td>B/Victoria/Washington/02/2019</td>
+        <td>Hemagglutinin</td>
+        <td></td>
+        <td>HEK</td>
+      </tr>
+      <tr>
+        <td>Influenza virus</td>
+        <td>B/Victoria/Washington/02/2019</td>
+        <td>Neuraminidase</td>
+        <td></td>
+        <td>HEK</td>
       </tr>
       <tr>
         <td>Respiratory Syncytial Virus (RSV)</td>
-        <td>A/A2 Glycoprotein tetramer</td>
+        <td>A/A2</td>
+        <td>Glycoprotein</td>
         <td></td>
+        <td>HEK</td>
       </tr>
       <tr>
         <td>Respiratory Syncytial Virus (RSV)</td>
-        <td>B/18537 Fusion protein</td>
+        <td>B/18537</td>
+        <td>Fusion protein</td>
         <td></td>
+        <td>CHO</td>
       </tr>
       <tr>
         <td>Respiratory Syncytial Virus (RSV)</td>
-        <td>B/18537 Glycoprotein tetramer</td>
+        <td>B/18537</td>
+        <td>Glycoprotein</td>
         <td></td>
+        <td>CHO</td>
       </tr>
       <tr>
         <td>Adenovirus</td>
         <td>HAdV-B7</td>
-        <td>Fiber protein (aka spike protein)</td>
+        <td>Fiber protein</td>
+        <td></td>
+        <td>HEK</td>
       </tr>
       <tr>
         <td>Parainfluenza</td>
         <td>HPIV-1 strain C39</td>
-        <td>F</td>
+        <td>Fusion Protein</td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Parainfluenza</td>
         <td>HPIV-1 strain Washington/1957</td>
-        <td>HN</td>
+        <td>Hemagglutinin-neuraminidase</td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Metapneumovirus</td>
         <td>HMPV-A strain CAN97-83</td>
-        <td>F</td>
+        <td>Fusion Protein</td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Metapneumovirus</td>
         <td>HMPV-A strain CAN97-83</td>
-        <td>G</td>
+        <td>Glycoprotein</td>
+        <td></td>
+        <td>HEK</td>
       </tr>
       <tr>
         <td>Mpox</td>
+        <td></td>
+        <td></td>
         <td>A29L</td>
-        <td></td>
+        <td>HEK</td>
       </tr>
       <tr>
         <td>Mpox</td>
+        <td></td>
+        <td></td>
         <td>A30L</td>
-        <td></td>
+        <td>HEK</td>
       </tr>
       <tr>
         <td>Mpox</td>
+        <td></td>
+        <td></td>
         <td>E8L</td>
-        <td></td>
+        <td>HEK</td>
       </tr>
       <tr>
         <td>Mpox</td>
-        <td>H3L</td>
         <td></td>
+        <td></td>
+        <td>H3L</td>
+        <td>HEK</td>
       </tr>
     </tbody>
   </table>
