@@ -5,14 +5,22 @@ body {
 }
 
 a {
-  /* color: #295986; */
   color: #4770b1;
   text-decoration: none;
 }
 
 a:hover {
-  /* color: #295986; */
   color: #4770b1;
+  text-decoration: underline;
+}
+
+a.dark-blue {
+  color: #295986;
+  text-decoration: none;
+}
+
+a.dark-blue:hover {
+  color: #295986;
   text-decoration: underline;
 }
 
@@ -581,7 +589,7 @@ a.btn-white-teal:hover {
 
 .bg-highlight {
   height: 100%;
-  padding: 16px 10px;
+  padding: 16px 10px 12px;
   background-color: #d8d8d8;
   border-radius: 3px;
 }

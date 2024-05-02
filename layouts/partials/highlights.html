@@ -44,17 +44,19 @@
         </a>
       </div>
       <div class="mt-2">
-              <small>{{ .Date | time.Format ":date_long" }}</small>
+        <small>{{ .Date | time.Format ":date_long" }}</small>
       </div>
       <div>
-        <h6 class="my-1"><a href="{{ .Page.RelPermalink }}">{{ .Title }}</a></h6>
+        <h6 class="my-1"><a class="dark-blue" href="{{ .Page.RelPermalink }}">{{ .Title }}</a></h6>
       </div>
       {{ if not (or $displayedInHome $isSingleHighlightPage) }}
         <div>
           {{ .Summary }}<br>
-          {{ range (.GetTerms "highlights_topics") }}
-            <span class="topic_badge_small"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
-          {{ end }}
+          <div class="mt-1">
+            {{ range (.GetTerms "highlights_topics") }}
+              <span class="topic_badge_small"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
+            {{ end }}
+          </div>
         </div>
       {{ end }}
     </div>
