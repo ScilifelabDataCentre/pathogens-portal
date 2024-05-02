@@ -1,6 +1,6 @@
 ---
 title: "Update on multi-disease serology and Pandemic Laboratory Preparedness at SciLifeLab."
-date: 2024-04-25
+date: 2024-05-02
 summary: Recent updates to existing sections for pandemic laboratory preparedness, and news of a new dashboard.
 banner: /dashboard_thumbs/multi-disease-serology.jpg
 banner_caption: "Representation of multi-disease serology generated using AI."
