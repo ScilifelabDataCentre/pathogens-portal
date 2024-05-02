@@ -1,5 +1,6 @@
 ---
 title: "Historiska data för Örebro och Umeå"
+plotly: true
 aliases:
     - /sv/data_types/environment/wastewater/historic_orebro_umea/
     - /sv/dashboards/wastewater/historic_orebro_umea/
@@ -22,13 +23,15 @@ Malmberg, M., Myrmel, M. & Khatri, M. Dataset of SARS-CoV-2 in wastewater in Ume
   Skrolla grafen horisontellt för att se alla data.
 </div>
 
-<div class="plot_wrapper">
-  <div class="table-responsive" id="umea_combined"></div>
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_graph_Umea.json" height="550px" >}}</div>
 </div>
 
 <div class="small text-muted">*Data från dessa veckor är inte tillgängliga.</div>
 
 <div class="small text-muted">**Proverna från vecka 11 och 12 har förvarats i +4 °C under 2-3 veckor innan analys vilket skiljer sig från övriga insamlade prover.</div>
+
+**Kod som används för att producera plot:** [Skript för att producera plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/umea_covid.py).
 
 ### Mängd SARS-CoV-2 i avloppsvatten från Örebro mellan oktober 2020 och juni 2021
 
@@ -41,17 +44,12 @@ Malmberg, M., Myrmel, M. & Khatri, M. Dataset of SARS CoV-2 in wastewater in Ör
   Skrolla grafen horisontellt för att se alla data.
 </div>
 
-<div class="plot_wrapper">
-  <div class="table-responsive" id="orebro_combined"></div>
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_graph_Orebro.json" height="550px" >}}</div>
 </div>
 
 <div class="small text-muted">*Data från dessa veckor är inte tillgängliga.</div>
 
 <div class="small text-muted">**Proverna från vecka 11 och 12 har förvarats i +4 °C under 2-3 veckor innan analys vilket skiljer sig från övriga insamlade prover.</div>
 
-<script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
-
-<script src="https://datagraphics.dc.scilifelab.se/graphic/030ac237d44248dda87e2c9277a49cc7.js?id=umea_combined"></script>
-<script src="https://datagraphics.dc.scilifelab.se/graphic/fe03ef2220814eeeb3e99eb26a7c46e2.js?id=orebro_combined"></script>
+**Kod som används för att producera plot:** [Skript för att producera plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/orebro_covid.py).

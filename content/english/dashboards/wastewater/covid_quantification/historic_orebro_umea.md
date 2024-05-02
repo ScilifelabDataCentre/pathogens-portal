@@ -1,5 +1,6 @@
 ---
 title: "Historic data for Örebro and Umeå"
+plotly: true
 aliases:
     - /data_types/environment/wastewater/historic_orebro_umea/
     - /dashboards/wastewater/historic_orebro_umea/
@@ -24,13 +25,15 @@ Malmberg, M., Myrmel, M. & Khatri, M. Dataset of SARS-CoV-2 in wastewater in Ume
   Scroll the plot sideways to view all data.
 </div>
 
-<div class="plot_wrapper">
-  <div class="table-responsive" id="umea_combined"></div>
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_graph_Umea.json" height="550px" >}}</div>
 </div>
 
 <div class="small text-muted">*Data for these weeks is not available.</div>
 
 <div class="small text-muted">**The samples from weeks 11 and 12 were stored in +4 °C for 2-3 weeks, this is different from what was done for all other samples.</div>
+
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/umea_covid.py).
 
 ### Amount of SARS-CoV-2 in Örebro wastewater between October 2020 and June 2021
 
@@ -43,17 +46,13 @@ Malmberg, M., Myrmel, M. & Khatri, M. Dataset of SARS CoV-2 in wastewater in Ör
   Scroll the plot sideways to view all data.
 </div>
 
-<div class="plot_wrapper">
-  <div class="table-responsive" id="orebro_combined"></div>
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_graph_Orebro.json" height="550px" >}}</div>
 </div>
 
 <div class="small text-muted">*Data for these weeks is not available.</div>
 
 <div class="small text-muted">**The samples from weeks 11 and 12 were stored in +4 °C for 2-3 weeks, this is different from what was done for all other samples.</div>
 
-<script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/orebro_covid.py).
 
-<script src="https://datagraphics.dc.scilifelab.se/graphic/030ac237d44248dda87e2c9277a49cc7.js?id=umea_combined"></script>
-<script src="https://datagraphics.dc.scilifelab.se/graphic/fe03ef2220814eeeb3e99eb26a7c46e2.js?id=orebro_combined"></script>
