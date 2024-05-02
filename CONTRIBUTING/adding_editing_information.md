@@ -18,6 +18,7 @@ Contributions are welcomed for all sections of the portal. This page describes h
 - [Publications included in a table](#publications-included-in-a-table)
 - [Pandemic preparedness resources](#pandemic-preparedness-resources)
 - [Topics](#topics)
+- [Best practice for images](#best-practice-for-images)
 
 ## Making contributions via GitHub
 
@@ -373,3 +374,11 @@ This is the text of the page. This is the first paragraph.
 
 This is the second paragraph of the text. Markdown formatting should be used in the text. For example, you can make a piece of text italic by placing an asterisk at the beginning and end, *like this*. You can make a piece of text bold by placing two asterisks at the beginning and end, **like this**. You can also add a link with square brackets following round round brackets, [like this](https://example.com/data/).
 ```
+
+## Best practice for images
+
+Swedish pathogens portal uses lot of images, thus following ceratin practices can make site faster and site size reasonable.
+
+* Use appropriate image dimensions - depending upon the purpose of the image (thumbnail, cover, etc), the image dimensions should not exceed more than 100 pixels than required. For example, if the image is going to be used for a thumbnail that would take up `200px` in width and `100px` in height, it would be best if the image dimensions are not more than `300px` in width and `150px` in height. Macbook's inbuilt tool preview can be used to adjust dimensions, see section _"Change an image’s dimensions"_ at their [official document](https://support.apple.com/en-in/guide/preview/prvw2015/mac).
+
+* Use minimal file size - the images with appropriate dimensions should have less file sizes, but sometimes it can be high in file size. In such cases, we can use online compression tools (like [tinypng](https://tinypng.com/), [tinyjpg](https://tinyjpg.com/), etc) to reduce the file size.
