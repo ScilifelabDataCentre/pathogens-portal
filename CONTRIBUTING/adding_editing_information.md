@@ -7,6 +7,7 @@ Contributions are welcomed for all sections of the portal. This page describes h
 - [Making contributions via GitHub](#making-contributions-via-github)
 - [How to add a new page](#how-to-add-a-new-page)
 - [Adding available data](#adding-available-data)
+- [Best practices for images](#best-practices-for-images)
 - [Dashboard pages](#dashboard-pages)
 - [Data highlights](#data-highlights)
 - [Editorials](#editorials)
@@ -120,6 +121,14 @@ In order to add entries in the dataset, you should edit the `available_datasets.
     },
 ```
 
+## Best practices for images
+
+The Swedish Pathogens Portal uses images in many different kinds of pages (see e.g. [data highlights](#data-highlights) and [editorials](#editorials)). In order to ensure that the size and speed of the site is not negatively affected by the addition of images, please follow this guidance when uploading images.
+
+- Use appropriate image dimensions - the dimensions of the images (in terms of height and width) should be the minimum possible without compromising the appearance of the image on the site. [Testing locally](https://github.com/ScilifelabDataCentre/pathogens-portal/blob/develop/CONTRIBUTING/running_a_local_copy.md) can help to determine which dimensions to use. As a general rule, thumbnail images should be twice as wide as they are high. We recommend that thumbnail images are `500px` in width and `250px` if they are also to be used as images within a page (e.g. as an illustration in an editorial). Many tools can be used to resize an image, including Macbook's inbuilt 'Preview' tool. See the _"Change an image’s dimensions"_ section in their [official documentation](https://support.apple.com/en-in/guide/preview/prvw2015/mac) for instructions.
+
+- Minimise image file size - minimising the dimensions of an image will reduce the overall size of the image file (in terms of memory e.g. MB). However, compression can be used to further reduce the file size in some cases. This can be done with online compression tools like [tinypng](https://tinypng.com/) or [tinyjpg](https://tinyjpg.com/).
+
 ## Dashboard pages
 
 **Data dashboards** are pages that include data from either research groups or public data sources. They include custom, dynamic visualisations of the data alongside relevant information about the background of the study, the methods used to collect data, and the research groups involved, among other things.
@@ -153,7 +162,7 @@ Under the metadata, you can write information about the research and the data. T
 
 ### Illustrations
 
-Links to dashboard pages are typically shown in cards e.g. in <https://pathogens.se/dashboards/>. These cards show a small image that is representative of that dashboard. The size of the image should be 250 px high and 500 px wide. The portal team can help with resizing/editing images. Images should be placed in the `/static/dashboard_thumbs` folder.
+Links to dashboard pages are typically shown in cards e.g. in <https://pathogens.se/dashboards/>. These cards show a small image (thumbnail) that is representative of that dashboard. Follow our guidance on [best practices for images](#best-practices-for-images) when uploading images. The portal team can also help with resizing/editing images. Images should be placed in the `/static/dashboard_thumbs` folder.
 
 ## Data highlights
 
@@ -161,7 +170,7 @@ Links to dashboard pages are typically shown in cards e.g. in <https://pathogens
 
 ### Illustrations
 
-Each highlight can have two illustrations. One is used as a thumbnail image on the pages showing multiple highlights e.g. <https://pathogens.se/highlights/>. The other can be shown on the page. Only the first is required, and should be 250 px high and 500 px wide. The portal team can help with resizing/editing images. The illustrations should be placed in the `/static/highlights/banners` folder. The images can be in .png or .jpg format.
+Each highlight can have two illustrations. One is used as a thumbnail image on the pages showing multiple highlights e.g. <https://pathogens.se/highlights/>. The other can be shown on the page. Only the first is required. Follow our guidance on [best practices for images](#best-practices-for-images) when uploading images. The portal team can also help with resizing/editing images. The illustrations should be placed in the `/static/highlights/banners` folder. The images can be in .png or .jpg format.
 
 ### Data highlight files
 
@@ -217,7 +226,7 @@ Information about any infrastruture used to complete the study.
 
 ### Illustrations
 
-Each editorial has an illustation that should be 250 px high and 500 px wide. The portal team can help with resizing/editing images. The illustrations should be placed in the `/static/editorials` folder. The images can be in .png or .jpg format.
+Each editorial has a thumbnail and image to be included in the article. This can be the same image. Follow our guidance on [best practices for images](#best-practices-for-images) when uploading images. The portal team can also help with resizing/editing images. The illustrations should be placed in the `/static/editorials` folder. The images can be in .png or .jpg format.
 
 ### Editorial files
 
@@ -267,11 +276,11 @@ News items about the portal are published under `/updates/`. The news items are 
 
 ### Illustrations
 
-Each news item can have two illustrations. One is used as a thumbnail image on the [portal news page](http://pathogens.se/updates/). The other can be shown on the page. Only the first is required, and should be 250 px high and 500 px wide. The portal team can help with resizing/editing images. The illustrations should be placed in the `/static//updates/banners/` folder. The images can be in .png or .jpg format.
+Each news item can have two illustrations. One is used as a thumbnail image on the [portal news page](http://pathogens.se/updates/). The other can be shown on the page. Only the first is required. Follow our guidance on [best practices for images](#best-practices-for-images) when uploading images. The portal team can also help with resizing/editing images. The illustrations should be placed in the `/static//updates/banners/` folder. The images can be in .png or .jpg format.
 
 ### News files
 
-The news items can be added in the folder `/content/english/updates/`. Each news item is a file with extension **.md**. The file name used here will also be the URL of the news item (e.g., `test-news.md` will become `https://pathogens.se/updates/test-news/`).
+The news items can be added in the folder `/content/english/updates/`. Each news item is a file with extension **.md**. The file name used here will also be the URL of the news item (e.g. `test-news.md` will become `https://pathogens.se/updates/test-news/`).
 
 ### Content of the news files
 
