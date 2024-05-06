@@ -1,6 +1,182 @@
 {
-  "last_updated": "2024-03-04",
+  "last_updated": "2024-05-06",
   "datasets": [
+    {
+      "doi": "10.1136/bmjgh-2023-013018",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Zenodo",
+              "accession_number": "",
+              "description": "Mortality data from 24 countries. The data includes total mortality, and sex-specific and age-specific weekly all-cause mortality for 2015–2021.",
+              "data_type": [
+                  "Public health data"
+              ],
+              "data_url": "https://doi.org/10.5281/zenodo.8414193"
+          },
+          {
+              "type": "code",
+              "repo_name": "Zenodo",
+              "accession_number": "",
+              "description": "Code used to analyse mortality data from 24 countries.",
+              "data_type": [
+                  "Public health data"
+              ],
+              "data_url": "https://doi.org/10.5281/zenodo.8414193"
+          }
+      ],
+      "title": "Magnitude and determinants of excess total, age-specific and sex-specific all-cause mortality in 24 countries worldwide during 2020 and 2021: results on the impact of the COVID-19 pandemic from the C-MOR project",
+      "issue": "4",
+      "volume": "9",
+      "publisher": "BMJ",
+      "published": "2024-04-18",
+      "author": [
+          "Pallari C. T.",
+          "Achilleos S.",
+          "Quattrocchi A.",
+          "Gabel J.",
+          "Critselis E."
+      ]
+  },
+  {
+      "doi": "10.1101/2024.03.28.587189",
+      "available_items": [
+          {
+              "type": "code",
+              "repo_name": "GitHub",
+              "accession_number": "",
+              "description": "A protein language machine learning model that predicts antibody escape to receptor binding domain variants.",
+              "data_type": [
+                  "Protein data",
+                  "Serology data"
+              ],
+              "data_url": "https://github.com/LSSI-ETH/synthetic-coevolution"
+          }
+      ],
+      "title": "Synthetic coevolution reveals adaptive mutational trajectories of neutralizing antibodies and SARS-CoV-2",
+      "issue": "",
+      "volume": "",
+      "publisher": "Cold Spring Harbor Laboratory",
+      "published": "2024-04-01",
+      "author": [
+          "Ehling R. A.",
+          "Minot M.",
+          "Overath M. D.",
+          "Sheward D. J.",
+          "Han J."
+      ]
+  },
+  {
+      "doi": "10.1038/s43856-024-00480-4",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Figshare",
+              "accession_number": "",
+              "description": "Protein levels obtained from dried blood spot (DBS) samples.",
+              "data_type": [
+                  "Protein data"
+              ],
+              "data_url": "https://figshare.scilifelab.se/articles/dataset/Proteome_profiling_of_home-sampled_dried_blood_spots_reveals_proteins_of_SARS-CoV-2_infections/25050422"
+          },
+          {
+              "type": "data",
+              "repo_name": "Figshare",
+              "accession_number": "",
+              "description": "Data from multiplexed serology assays to determine IgG and IgM levels against several versions of SARS-CoV-2 proteins. Samples obtained from dried blood spots (DBS).",
+              "data_type": [
+                  "Protein data"
+              ],
+              "data_url": "https://figshare.scilifelab.se/articles/dataset/Multianalyte_serology_in_home-sampled_blood_enables_an_unbiased_assessment_of_the_immune_response_against_SARS-CoV-2/14555520"
+          },
+          {
+              "type": "code",
+              "repo_name": "GitHub",
+              "accession_number": "",
+              "description": "Code for the analysis and visualisation of proteome data from home-sampled dried blood spots.",
+              "data_type": [
+                  "Protein data"
+              ],
+              "data_url": "https://github.com/Schwenk-Lab/Olink-DBS"
+          }
+      ],
+      "title": "Proteome profiling of home-sampled dried blood spots reveals proteins of SARS-CoV-2 infections",
+      "issue": "1",
+      "volume": "4",
+      "publisher": "Springer Science and Business Media LLC",
+      "published": "2024-04-02",
+      "author": [
+          "Fredolini C.",
+          "Dodig-Crnković T.",
+          "Bendes A.",
+          "Dahl L.",
+          "Dale M."
+      ]
+  },
+  {
+      "doi": "10.1371/journal.pone.0299638",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Dropbox",
+              "accession_number": "",
+              "description": "Survey data on macro-cultural dimensions, including collectivism/individualism, duty/joy, autonomy/traditionalism, and pro-fertility/individual choice norms, as well as perceived societal threats (immigration and subsistence factors) and hygiene norms of spitting. Data from 43 counties during the first 2 waves of COVID-19.",
+              "data_type": [
+                  "Social science and humanities data"
+              ],
+              "data_url": "https://www.dropbox.com/sh/3w444u060nvfp6g/AAAi8bLJNlXQ0T5LY5jJpul3a?dl=0"
+          },
+          {
+              "type": "code",
+              "repo_name": "Dropbox",
+              "accession_number": "",
+              "description": "Analysis code for survey data on macro-cultural dimensions and perceived societal threats in 43 countries during the first 2 waves of COVID-19.",
+              "data_type": [
+                  "Social science and humanities data"
+              ],
+              "data_url": "https://www.dropbox.com/sh/3w444u060nvfp6g/AAAi8bLJNlXQ0T5LY5jJpul3a?dl=0"
+          }
+      ],
+      "title": "New in Town—An internet-based self-efficacy intervention for internal migrants: A randomized controlled trial",
+      "issue": "3",
+      "volume": "19",
+      "publisher": "Public Library of Science (PLoS)",
+      "published": "2024-03-07",
+      "author": [
+          "Maj A.",
+          "Matynia M.",
+          "Michalak N.",
+          "Bis A.",
+          "Andersson G."
+      ]
+  },
+  {
+      "doi": "10.1186/s12889-024-18473-2",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Open Science Framework",
+              "accession_number": "",
+              "description": "Data on social support, affect balance, life satisfaction, demographics, and personality measures.",
+              "data_type": [
+                  "Social science and humanities data"
+              ],
+              "data_url": "https://osf.io/j2a8t/?view_only=6368555f2f494472bc77a2d841acc930"
+          }
+      ],
+      "title": "Social support predicted subsequent subjective well-being during the COVID-19 pandemic: a prospective study",
+      "issue": "1",
+      "volume": "24",
+      "publisher": "Springer Science and Business Media LLC",
+      "published": "2024-04-02",
+      "author": [
+          "Mao Y.",
+          "Chen J.",
+          "Liu X.",
+          "Dang J.",
+          "Schiöth H. B."
+      ]
+  },
     {
       "doi": "10.1016/j.heliyon.2024.e25090",
       "available_items": [
@@ -193,7 +369,7 @@
       "available_items": [
         {
           "type": "data",
-          "repo_name": "OSF HOME",
+          "repo_name": "Open Science Framework",
           "accession_number": "",
           "description": "Results of the Sickness Questionnaire (SicknessQ) in France, assessing symptoms of sickness behavior, including somatic, behavioral, and affective dimensions.",
           "data_type": [
@@ -694,7 +870,7 @@
       "available_items": [
         {
           "type": "data",
-          "repo_name": "OSF",
+          "repo_name": "Open Science Framework",
           "accession_number": "d99ed5ce0ed641ca80965e54c11afc81",
           "description": "Data used in analysis assessing personality traits",
           "data_type": [
@@ -706,7 +882,7 @@
         },
         {
           "type": "code",
-          "repo_name": "OSF",
+          "repo_name": "Open Science Framework",
           "accession_number": "d99ed5ce0ed641ca80965e54c11afc81",
           "description": "Script for data re-analysis of traits",
           "data_type": [
@@ -913,7 +1089,7 @@
       "available_items": [
         {
           "type": "data",
-          "repo_name": "OSF",
+          "repo_name": "Open Science Framework",
           "accession_number": "",
           "description": "Anonymised databases with the individual participant data and the metadata for Bayesian analyses, along with a data dictionary",
           "data_type": ["Other data"],
@@ -921,7 +1097,7 @@
         },
         {
           "type": "protocol",
-          "repo_name": "OSF",
+          "repo_name": "Open Science Framework",
           "accession_number": "",
           "description": "The Study Protocol and Bayesian Statistical Analysis Plan",
           "data_type": ["Other data"],
@@ -1449,7 +1625,7 @@
       "available_items": [
         {
           "type": "data",
-          "repo_name": "OSF",
+          "repo_name": "Open Science Framework",
           "accession_number": "",
           "description": "Students survey data on COVID-19 status",
           "data_type": ["Social science and humanities data"],
@@ -1468,7 +1644,7 @@
       "available_items": [
         {
           "type": "data",
-          "repo_name": "OSF",
+          "repo_name": "Open Science Framework",
           "accession_number": "",
           "description": "Familydemic survey data related to the work and family nexus",
           "data_type": ["Social science and humanities data"],
@@ -2033,7 +2209,7 @@
       "available_items": [
         {
           "type": "data",
-          "repo_name": "OSF",
+          "repo_name": "Open Science Framework",
           "accession_number": "",
           "description": "Data for collectivism and mobility",
           "data_type": ["Social science and humanities data"],
@@ -2077,7 +2253,7 @@
       "available_items": [
         {
           "type": "protocol",
-          "repo_name": "OSF",
+          "repo_name": "Open Science Framework",
           "accession_number": "",
           "description": "The protocol for this study",
           "data_type": ["Other data"],
@@ -2104,7 +2280,7 @@
       "available_items": [
         {
           "type": "data",
-          "repo_name": "OSF",
+          "repo_name": "Open Science Framework",
           "accession_number": "",
           "description": "Processed and anonymised demographic and health data.",
           "data_type": ["Social science and humanities data", "Other data"],
@@ -2129,7 +2305,7 @@
       "available_items": [
         {
           "type": "data",
-          "repo_name": "OSF",
+          "repo_name": "Open Science Framework",
           "accession_number": "",
           "description": "Data related to social motivation",
           "data_type": ["Social science and humanities data", "Other data"],
@@ -2221,7 +2397,7 @@
       "available_items": [
         {
           "type": "data",
-          "repo_name": "OSF",
+          "repo_name": "Open Science Framework",
           "accession_number": "",
           "description": "Anonymised databases with the individual participant data and the metadata for Bayesian analyses.",
           "data_type": ["Social science and humanities data", "Other data"],
@@ -2229,7 +2405,7 @@
         },
         {
           "type": "code",
-          "repo_name": "OSF",
+          "repo_name": "Open Science Framework",
           "accession_number": "",
           "description": "Code used for data analysis.",
           "data_type": ["Social science and humanities data", "Other data"],
