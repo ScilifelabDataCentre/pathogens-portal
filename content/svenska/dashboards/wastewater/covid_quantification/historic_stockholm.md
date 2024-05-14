@@ -1,5 +1,6 @@
 ---
 title: "Historiska data för Stockholm"
+plotly: true
 aliases:
     - /sv/data_types/environment/wastewater/historic_stockholm/
     - /sv/dashboards/wastewater/historic_stockholm/
@@ -16,25 +17,19 @@ Efter koncentrering, filtrering och beredning analyserades proverna med RT-qPCR-
 **Referera till detta dataset:**
 Cetecioglu Z G, Williams, C, Khatami, K, Atasoy, M, Nandy, P, Jafferali, M H, Birgersson, M. SARS-CoV-2 Wastewater Data from Stockholm, Sweden. [https://doi.org/10.17044/scilifelab.14315483](https://doi.org/10.17044/scilifelab.14315483) (2021).
 
-<div class="d-lg-none alert alert-info">
+**Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/wastewater_data_stockholm.py).
+
+<div class="d-md-none alert alert-info">
   Skrolla grafen horisontellt för att se alla data.
 </div>
 
-<div class="plot_wrapper">
-  <div class="table-responsive" id="stockholm_combined"></div>
+ <div class="plot_wrapper mb-3">
+    <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_data_stockholm.json" height="550px">}}</div>
 </div>
 
-<div class="small text-muted">*NB: Alla prover innan vecka 21 har kommit till labbet vecka 21. Mellan vecka 21 och 33 har prover analyserats varannan vecka. Efter vecka 33 har proverna analyserats varje vecka.</div>
+<div class="small text-muted">NB: Alla prover innan vecka 21 har kommit till labbet vecka 21. Mellan vecka 21 och 33 har prover analyserats varannan vecka. Efter vecka 33 har proverna analyserats varje vecka.</div>
 
-<div class="small text-muted">**NB: Avloppsvattenmätningarna har utförts varannan vecka, inte veckovis, mellan vecka 24 och vecka 32 2021.</div>
+<div class="small text-muted">NB: Avloppsvattenmätningarna har utförts varannan vecka, inte veckovis, mellan vecka 24 och vecka 32 2021.</div>
 
-<div class="row ml-0 mt-3"><b>Publikationer:</b></div><div class="row"><div class="col">
-<b><a target="_blank" href="https://doi.org/10.1016/j.scitotenv.2020.142939">Benchmarking virus concentration methods for quantification of SARS-CoV-2 in raw wastewater.</a></b><br>
-                    <span class="text-muted">Jafferali MH, Khatami K, Atasoy M, Birgersson M, Williams C, Cetecioglu Z.</span><br>
-                    <i>Science of The Total Environment</i> 755. DOI: 10.1016/j.scitotenv.2020.142939
 
-<script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
 
-<script src="https://datagraphics.dc.scilifelab.se/graphic/956f9390690043b8ae5f62b90d22f84f.js?id=stockholm_combined"></script>
