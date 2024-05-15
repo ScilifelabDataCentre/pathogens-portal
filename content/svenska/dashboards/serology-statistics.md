@@ -48,7 +48,7 @@ Antalet SARS-CoV-2 serologitester som SciLifeLab Autoimmunity and Serology Profi
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/weekly_serology_tests.json" height="550px" >}}</div>
+  <div class="table-responsive" style="min-width: 800px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/weekly_serology_tests.json" height="550px" >}}</div>
 </div>
 
 **Ladda ner data:** [Serology-testing-statistics-dataset-20202021.csv](https://blobserver.dc.scilifelab.se/blob/Serology-testing-statistics-dataset-20202021.csv)
@@ -64,7 +64,7 @@ Det kumulativa antalet positiva, negativa och forsknings- och utvecklingstester 
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/cumulative_serology_tests.json" height="550px" >}}</div>
+  <div class="table-responsive" style="min-width: 800px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/cumulative_serology_tests.json" height="550px" >}}</div>
 </div>
 
 **Ladda ner data:** [Serology-testing-statistics-dataset-20202021.csv](https://blobserver.dc.scilifelab.se/blob/Serology-testing-statistics-dataset-20202021.csv)

@@ -53,7 +53,7 @@ The number of SARS-CoV-2 serology tests completed by the SciLifeLab Autoimmunity
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/weekly_serology_tests.json" height="550px" >}}</div>
+  <div class="table-responsive" style="min-width: 800px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/weekly_serology_tests.json" height="550px" >}}</div>
 </div>
 
 **Download the data:** [Serology-testing-statistics-dataset-20202021.csv](https://blobserver.dc.scilifelab.se/blob/Serology-testing-statistics-dataset-20202021.csv)
@@ -69,7 +69,7 @@ The cumulative number of positive, negative, and research & development (R&D) SA
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/cumulative_serology_tests.json" height="550px" >}}</div>
+  <div class="table-responsive" style="min-width: 800px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/cumulative_serology_tests.json" height="550px" >}}</div>
 </div>
 
 **Download the data:** [Serology-testing-statistics-dataset-20202021.csv](https://blobserver.dc.scilifelab.se/blob/Serology-testing-statistics-dataset-20202021.csv)
