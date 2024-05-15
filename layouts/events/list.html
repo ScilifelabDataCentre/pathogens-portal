@@ -103,8 +103,8 @@
                 (your email will not be displayed in the event information).</div>
             </div>
             <div class="g-recaptcha" data-sitekey="6LesV0gaAAAAAGFjazG7Hd_hN72cpeYm2woivBT3"></div>
-            <input type="url" id="originUrl" name="originUrl" value="" hidden />
-            <input type='hidden' name='origin' value='event_training_suggestion'>
+            <input type="url" id="originUrl" name="originUrl" value="" hidden aria-label="form-origin-url" />
+            <input type='hidden' name='origin' value='event_training_suggestion' hidden aria-label="form-name" />
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -226,7 +226,7 @@
                               <div class="modal-dialog">
                                 <div class="modal-content">
                                   <div class="modal-header">
-                                    <h5 class="modal-title" id="descriptionModalLabel">${event.title}</h5>
+                                    <h5 class="modal-title" id="descriptionModalLabel${ind}">${event.title}</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                   </div>
                                   <div class="modal-body">
@@ -326,6 +326,10 @@
         alert("Please tick 'I'm not a robot' above the 'Submit the form' button.");
       }
     }); // Forms validation block ends here
+
+    window.addEventListener("load", function () {
+    $('textarea#g-recaptcha-response').attr('aria-label', "The recaptcha response will appear here");
+    });
 
   }); // Document "DOMContentLoaded" trigger ends here
 </script>
