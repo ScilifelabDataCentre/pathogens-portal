@@ -24,7 +24,7 @@ Malmberg, M., Myrmel, M. & Khatri, M. Dataset of SARS-CoV-2 in wastewater in Ume
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_graph_Umea.json" height="550px" >}}</div>
+  <div class="table-responsive" style="min-width: 600px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_graph_Umea.json" height="550px" >}}</div>
 </div>
 
 <div class="small text-muted">*Data från dessa veckor är inte tillgängliga.</div>
@@ -45,7 +45,7 @@ Malmberg, M., Myrmel, M. & Khatri, M. (2021) Dataset of SARS CoV-2 in wastewater
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_graph_Orebro.json" height="550px" >}}</div>
+  <div class="table-responsive" style="min-width: 600px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_graph_Orebro.json" height="550px" >}}</div>
 </div>
 
 <div class="small text-muted">*Data från dessa veckor är inte tillgängliga.</div>
