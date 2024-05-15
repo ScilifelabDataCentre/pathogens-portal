@@ -6,7 +6,7 @@
 
 {{/* Compile list of highlight to show depending upon the page */}}
 {{ if eq $currentPage.File "dashboards" }}
-  {{ $dashboards_to_show = $dashboards_to_show | append $dashboards }}
+  {{ $dashboards_to_show = $dashboards_to_show | append (where $dashboards "Identifier" "ne" "all_dashboards") }}
 {{ else if $displayed_in_homepage }}
   {{ $dashboards_to_show = $dashboards_to_show | append (where $dashboards "Identifier" "in" $homepage_dashboards) }}
 {{ else if strings.HasSuffix $currentPage.Dir "/topics/" }}
