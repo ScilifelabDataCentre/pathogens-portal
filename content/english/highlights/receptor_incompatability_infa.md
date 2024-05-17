@@ -3,7 +3,6 @@ title: New study increases understanding of receptor incompatibility in transmis
 date: 2024-05-21
 summary: New findings from Nilsson and colleagues showed that sialylated glycan structures, previously thought to be exclusive to mammals, are present in the three avian species studied.
 banner: /highlights/banners/infA_receptors_large.jpg
-
 banner_caption: Figure 6 (shared and unique avian sialylated N-glycans) from Nilsson et al. (2024).
 highlights_topics: [Influenza, Infectious diseases]
 tags:
