@@ -7,6 +7,10 @@ menu:
         name: Dashboards
         identifier: dashboards
         post: Dashboards are pages describing research done on a given subject. They include visualisations of and links to data from the research groups(s) involved. <a href="/dashboards/">See all dashboards <i class="bi bi-arrow-right-circle-fill"></i></a>
+    dashboard_menu:
+        identifier: all_dashboards
+        name: "All dashboards"
+        weight: 1
 aliases:
       - /dashboards
       - /visualisations
