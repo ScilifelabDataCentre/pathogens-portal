@@ -23,8 +23,8 @@ dashboards_topics: [COVID-19, Infectious diseases]
 
 Serology tests involve testing bodily fluids for the presence of antibodies or other substances. Since the beginning of the pandemic, the SciLifeLab Autoimmunity and Serology Profiling unit has conducted serology tests for antibodies targeting SARS-CoV-2 proteins. The unit has continuously provided the latest data to the Swedish Pathogens Portal. In each of the below sections, we show the numbers of samples that were **positive**, **negative** or **research and development (R&D)**.
 
-- **Positive tests**: Serology tests indicating the _presence_ of immunoglobulin G (IgG) antibodies targetting SARS-CoV-2 proteins.
-- **Negative tests**: Serology tests indicating the _absence_ of immunoglobulin G (IgG) antibodies targetting SARS-CoV-2 proteins.
+- **Positive tests**: Serology tests indicating the _presence_ of immunoglobulin G (IgG) antibodies targeting SARS-CoV-2 proteins.
+- **Negative tests**: Serology tests indicating the _absence_ of immunoglobulin G (IgG) antibodies targeting SARS-CoV-2 proteins.
 - **R&D tests**: All of the remaining serum, plasma, and saliva samples that were completed to test the levels IgG, IgM, or IgA antibodies targeting SARS-CoV-2 proteins. This includes all of the positive and negative controls, all replicated and re-ran samples and assays, all samples analysed during the continuous development and optimisation of the tests, technically failed samples, and all research associated projects.
 
 <div class="alert alert-info">Data last updated: {{% serology_date_modified %}}.</div>
