@@ -25,10 +25,11 @@
       <div class="col p-2">
         <div class="bg-dashboard">
           <!-- div {{ if .Page.Params.banner_border }}class="px-1 pt-1" {{ end }} -->
-          <div>
-          <a href="{{ .Page.RelPermalink }}">
-            <img class="img-fluid" src="{{ with .Page.Params.banner }}{{ . }}{{ else }}{{ "/img/plp_default2.png" }}{{ end }}">
-          </a>
+          <div aria-hidden="true">
+            <a href="{{ .Page.RelPermalink }}">
+              <img class="img-fluid" src="{{ with .Page.Params.banner }}{{ . }}{{ else }}{{ "/img/plp_default2.png" }}{{ end }}"
+                   alt="Thumbnail for {{ .Name }}">
+            </a>
           </div>
           <div class="p-2 bg-dashboard-title">
             <h6><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></h6>

@@ -161,7 +161,7 @@
                 and data stored in various biobanks across Sweden in their research. The database allows to find sample
                 collections matching their needs using various filters.
               </div>
-              <a class="mb-1" href="/biobanks/">Read more <i class="bi bi-arrow-right-square-fill"></i></a>
+              <a class="mb-1 dark-blue" href="/biobanks/">Read more <i class="bi bi-arrow-right-square-fill"></i></a>
             {{ end }}
         </div>
       </div>
@@ -181,7 +181,7 @@
     <!-- Topics box -->
     <div class="bg-home-topics mb-4">
       <h4 class="mt-0 mb-1">Pandemic preparedness topics</h4>
-      <p class="mb-2 small">Click on one of the <b><a href="/topics/">topics</a></b> below to see only the content that is related to that topic.</p>
+      <p class="mb-2 small">Click on one of the <b><a class="dark-blue" href="/topics/">topics</a></b> below to see only the content that is related to that topic.</p>
       {{ range .Site.Menus.topics_menu }}
         <a href="{{ .Page.RelPermalink }}"><span class="bg-home-topics-btn">{{ .Name }}</span></a>
       {{ end }}
@@ -207,7 +207,7 @@
         </div> {{ end }}
         {{ end }}
         <div class="mt-3 bg-see-all-link">
-          <a href="/updates/">See all Portal news <i class="bi bi-arrow-right-square-fill"></i></a>
+          <a class="dark-blue" href="/updates/">See all Portal news <i class="bi bi-arrow-right-square-fill"></i></a>
         </div>
       </div>
     </div>
@@ -230,7 +230,7 @@
 
     <!-- Share your data ad -->
     <div class="row mt-4 pt-2 px-2">
-      <div class="share-new-data text-white py-2 px-3">
+      <div class="share-new-data py-2 px-3">
         <h4 class="my-1">{{ if eq $.Site.Language.LanguageName "Svenska" }}Dela nya data{{ else }}Share new data{{ end }}</h4>
         {{ if eq $.Site.Language.LanguageName "Svenska" }}Teamet som arbetar med portalen hjälper dig
         gärna dela dina forskningsdata i öppna databaser och svarar på frågor om datahantering.{{ else }}The portal
@@ -238,12 +238,12 @@
         management.{{ end }}
         <div class="row">
           <div class="col-auto">
-            <h6><a class="btn-white-teal"
+            <h6><a class="btn-white-black"
                 href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/share-data/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Riktlinjer{{ else }}Guidelines{{ end }}
                 <i class="bi bi-arrow-right"></i></a></h6>
           </div>
           <div class="col-auto">
-            <h6><a class="btn-white-teal"
+            <h6><a class="btn-white-black"
                 href="{{ if eq $.Site.Language.LanguageName "Svenska" }}/sv{{ end }}/support/">{{ if eq $.Site.Language.LanguageName "Svenska" }}Stödtjänster{{ else }}Support
                 request{{ end }} <i class="bi bi-arrow-right"></i></a></h6>
           </div>
@@ -312,7 +312,7 @@
         }); // for each events iteration to create html ends here
 
         eventsHTML += `       <div class="mt-3 bg-see-all-link">
-                              <a href="/events/">See all events <i class="bi bi-arrow-right-square-fill"></i></a>
+                              <a class="dark-blue" href="/events/">See all events <i class="bi bi-arrow-right-square-fill"></i></a>
                               </div>
                             </div>`;
         var eventsSection = document.getElementById('events-section');

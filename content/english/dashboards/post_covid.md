@@ -179,7 +179,7 @@ Below is a list of pre-prints and published scientific journal articles on _Post
 
 {{< postcovid_publications >}}
 
-<a id="background"><h2> </h2></a>
+<a id="background"></a>
 
 ## Background Information
 

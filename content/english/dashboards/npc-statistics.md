@@ -16,7 +16,7 @@ dashboards_topics: [COVID-19, Infectious diseases]
 <div class="alert alert-info small">
   <p><i class="bi bi-exclamation-triangle-fill"></i>The National Pandemic Centre (NPC) at Karolinska Institute ceased operations of high throughput PCR diagnostics on 2020-12-21.</p>
   <p><span class="font-weight-bold">The data presented here is no longer updated</span> but is kept for historical reference.</p>
-  <a href="https://nyheter.ki.se/covid-19-tester-ki-atergar-till-ordinarie-laboratorieverksamhet-men-har-fortsatt-beredskap">KI Press Release</a>
+  <a class="dark-blue" href="https://nyheter.ki.se/covid-19-tester-ki-atergar-till-ordinarie-laboratorieverksamhet-men-har-fortsatt-beredskap">KI Press Release</a>
 </div>
 
 The dataset visualised in the graphs on this page is available [here](https://datagraphics.dc.scilifelab.se/dataset/bbbaf64a25a1452287a8630503f07418).  The numbers reported here were compiled automatically and, as such, might not correspond to
