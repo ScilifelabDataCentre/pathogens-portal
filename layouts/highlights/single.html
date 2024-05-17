@@ -37,7 +37,7 @@
 
 {{ if $related }}
   <div class="mt-4">
-    <h3>Similar data highlights</h3>
+    <h3>Related highlights & editorials</h3>
     {{ .Scratch.Set "highlights_list" (first 4 $related) }}
     {{ partial "highlights.html" . }}
   </div>

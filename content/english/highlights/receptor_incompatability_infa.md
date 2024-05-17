@@ -1,6 +1,6 @@
 ---
 title: New study increases understanding of receptor incompatibility in transmission of influenza A virus between species
-date: 2024-05-14
+date: 2024-05-21
 summary: New findings from Nilsson and colleagues showed that sialylated glycan structures, previously thought to be exclusive to mammals, are present in the three avian species studied.
 banner: /highlights/banners/infA_receptors.jpg
 banner_large: /highlights/banners/infA_receptors_large.jpg
@@ -12,7 +12,7 @@ tags:
     avian,
     avian influenza,
     InfA. glycoproteomics,
-    influenza,
+    Influenza,
     interspecies transmission,
     sialic acid,
     receptors,

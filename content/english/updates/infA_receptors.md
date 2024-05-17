@@ -1,6 +1,6 @@
 ---
 title: "New data highlight on the incompatablility of receptors in influenza A transmission"
-date: 2024-05-14
+date: 2024-05-21
 summary: Nilsson et al. showed that sialylated glycan structures that were previously thought to be exclusive to mammals were present in avian species. Mass spectrometry proteomics shared openly.
 banner: /highlights/banners/infA_receptors_large.jpg
 banner_caption: "Figure 6 (shared and unique avian sialylated N-glycans) from Nilsson et al. (2024)."
