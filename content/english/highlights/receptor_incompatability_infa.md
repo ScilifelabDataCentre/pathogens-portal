@@ -2,8 +2,8 @@
 title: New study increases understanding of receptor incompatibility in transmission of influenza A virus between species
 date: 2024-05-21
 summary: New findings from Nilsson and colleagues showed that sialylated glycan structures, previously thought to be exclusive to mammals, are present in the three avian species studied.
-banner: /highlights/banners/infA_receptors.jpg
-banner_large: /highlights/banners/infA_receptors_large.jpg
+banner: /highlights/banners/infA_receptors_large.jpg
+
 banner_caption: Figure 6 (shared and unique avian sialylated N-glycans) from Nilsson et al. (2024).
 highlights_topics: [Influenza, Infectious diseases]
 tags:
@@ -19,7 +19,7 @@ tags:
     zoonosis,
   ]
 authors: [Katarina Öjefors Stark]
-images: [/highlights/banners/infA_receptors.jpg"]
+images: [/highlights/banners/infA_receptors_large.jpg"]
 ---
 
 When a novel variant of the influenza A virus (IAV) emerges, it results in an influenza outbreak if immunity within human population is low. Rapid rates of interpersonal transmission and high rates of infection can result in such an IAV becoming a global pandemic. Studies have indicated that the three most recent IAV pandemics (H2N2 1957 Asian flu, H3N2 1968 HongKong flu, and H1N1 2009 Swine flu) were all caused by zoonotic viruses; they all contain genetic material from avian influenza viruses (AIVs). The exact transmission route from bird to human remains unclear, but each of the pandemics probably involved spread from wild to domestic bird species, and then to mammals (e.g. pigs and humans).
