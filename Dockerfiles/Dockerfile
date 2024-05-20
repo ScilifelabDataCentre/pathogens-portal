@@ -9,7 +9,7 @@ RUN wget --quiet "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VER
     tar xzf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
     rm -r hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
     mv hugo /usr/bin && \
-    chmod 755 /usr/bin/hugo
+    chmod 755 /usr/bin/hugo && \
     mkdir /target && \
     hugo -d /target -e "${HUGO_ENV_ARG}"
 
