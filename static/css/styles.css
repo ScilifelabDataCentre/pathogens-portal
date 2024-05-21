@@ -5,14 +5,22 @@ body {
 }
 
 a {
-  /* color: #295986; */
   color: #4770b1;
   text-decoration: none;
 }
 
 a:hover {
-  /* color: #295986; */
   color: #4770b1;
+  text-decoration: underline;
+}
+
+a.dark-blue {
+  color: #193f90;
+  text-decoration: none;
+}
+
+a.dark-blue:hover {
+  color: #193f90;
   text-decoration: underline;
 }
 
@@ -540,18 +548,18 @@ for rows with images to fix that.
   background-color: #2e68a5;
 }
 
-a.btn-white-teal {
+a.btn-white-black {
   padding: 2px 6px;
-  color: #37ae94;
+  color: #1a1c1a;
   background-color: #fff;
   font-size: 0.9em;
   font-weight: 400;
   border-radius: 3px;
 }
 
-a.btn-white-teal:hover {
+a.btn-white-black:hover {
   text-decoration: none;
-  box-shadow: 0px 0px 5px #fff;
+  box-shadow: 0px 0px 5px #55585a;
 }
 
 /*
@@ -581,7 +589,7 @@ a.btn-white-teal:hover {
 
 .bg-highlight {
   height: 100%;
-  padding: 16px 10px;
+  padding: 16px 10px 12px;
   background-color: #d8d8d8;
   border-radius: 3px;
 }

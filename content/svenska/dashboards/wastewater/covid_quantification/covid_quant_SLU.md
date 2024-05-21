@@ -110,7 +110,7 @@ Data som presenteras i grafen visar förhållandet mellan det kopieantal som upp
 
 ## Arkiverade data
 
-- [Historiska data för Örebro och Umeå, mängd SARS-CoV-2 i avloppsvatten från Umeå respektive Örebro mellan oktober 2020 och juni 2021.](/sv/dashboards/wastewater/covid_quantification/historic_orebro_umea).
+- [Historiska data för Örebro och Umeå, mängd SARS-CoV-2 i avloppsvatten från Umeå respektive Örebro mellan oktober 2020 och juni 2021](/sv/dashboards/wastewater/covid_quantification/historic_orebro_umea).
 
 ## Relaterade dataset
 

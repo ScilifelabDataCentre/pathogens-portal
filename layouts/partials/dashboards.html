@@ -6,7 +6,7 @@
 
 {{/* Compile list of highlight to show depending upon the page */}}
 {{ if eq $currentPage.File "dashboards" }}
-  {{ $dashboards_to_show = $dashboards_to_show | append $dashboards }}
+  {{ $dashboards_to_show = $dashboards_to_show | append (where $dashboards "Identifier" "ne" "all_dashboards") }}
 {{ else if $displayed_in_homepage }}
   {{ $dashboards_to_show = $dashboards_to_show | append (where $dashboards "Identifier" "in" $homepage_dashboards) }}
 {{ else if strings.HasSuffix $currentPage.Dir "/topics/" }}
@@ -25,10 +25,11 @@
       <div class="col p-2">
         <div class="bg-dashboard">
           <!-- div {{ if .Page.Params.banner_border }}class="px-1 pt-1" {{ end }} -->
-          <div>
-          <a href="{{ .Page.RelPermalink }}">
-            <img class="img-fluid" src="{{ with .Page.Params.banner }}{{ . }}{{ else }}{{ "/img/plp_default2.png" }}{{ end }}">
-          </a>
+          <div aria-hidden="true">
+            <a href="{{ .Page.RelPermalink }}">
+              <img class="img-fluid" src="{{ with .Page.Params.banner }}{{ . }}{{ else }}{{ "/img/plp_default2.png" }}{{ end }}"
+                   alt="Thumbnail for {{ .Name }}">
+            </a>
           </div>
           <div class="p-2 bg-dashboard-title">
             <h6><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></h6>

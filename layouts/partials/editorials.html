@@ -44,7 +44,7 @@
       data-search-tags="{{ delimit $search_tags ":" | lower }}"
     {{ end }}>
     <div class="bg-highlight">
-      <div>
+      <div aria-hidden="true">
         <a href="{{ .Page.RelPermalink }}">
           <img class="img-fluid rounded-top" src="{{ .Params.banner }}" alt="{{ .Title }}">
         </a>
@@ -53,7 +53,7 @@
               <small>{{ .Date | time.Format ":date_long" }}</small>
       </div>
       <div>
-        <h6 class="my-1"><a href="{{ .Page.RelPermalink }}">{{ .Title }}</a></h6>
+        <h6 class="my-1"><a class="dark-blue" href="{{ .Page.RelPermalink }}">{{ .Title }}</a></h6>
       </div>
       {{ if not (or $displayedInHome $isSingleEditorialPage) }}
         <div>

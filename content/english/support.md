@@ -30,7 +30,7 @@ You are welcome to send both general questions about best approaches to research
 
 <div class="col-12 col-md-4 col-lg-3 d-none d-md-block">
 <figure class="figure">
-    <img width="200" src="/img/logos/nbislogo-orange-txt.svg#floatright">
+    <img width="200" alt="NBIS logo" src="/img/logos/nbislogo-orange-txt.svg#floatright">
 </figure>
 </div>
 
@@ -53,7 +53,7 @@ You can read more about [each of these support services on NBIS website](https:/
 
 <div class="col-12 col-md-4 col-lg-3 d-none d-md-block">
 <figure class="figure">
-    <img width="250" src="/img/logos/SND_logo_eng.png#floatright">
+    <img width="250" alt="SND logo" src="/img/logos/SND_logo_eng.png#floatright">
 </figure>
 </div>
 If you are not working within the life sciences, you will need to turn to the research institute or university where you are working for with your data-related questions. Many of the research institutes in Sweden have a local data support service as part of the [Swedish National Data Service network](https://snd.gu.se/en/about-us/snd-network).

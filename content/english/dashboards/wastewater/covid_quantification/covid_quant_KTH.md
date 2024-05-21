@@ -5,7 +5,7 @@ aliases:
   - /dashboards/wastewater/covid_quant_kth/
 ---
 
-<div class="alert alert-info">As of June 2023, the SARS-CoV-2 data will no longer be updated by SEEC-KTH. Data from after June 2023 is <a href="/dashboards/wastewater/covid_quantification/covid_quant_slu/">available from other research groups.</a></div>
+<div class="alert alert-info">As of June 2023, the SARS-CoV-2 data will no longer be updated by SEEC-KTH. Data from after June 2023 is <a class="dark-blue" href="/dashboards/wastewater/covid_quantification/covid_quant_slu/">available from other research groups.</a></div>
 
 <div class="mt-3">
   <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a>
