@@ -1,7 +1,8 @@
 {{ define "main" }}
 
 {{ $page_topic := .Page.Params.topic }}
-{{ $topic_key := $page_topic | urlize }}
+{{ $topic_key := $page_topic | lower }}
+{{ $topic_key_url := $page_topic | urlize }}
 
 <!-- Content from the markdown file -->
 {{ .Content }}
@@ -13,7 +14,7 @@
 <div class="container mt-3 mb-5">
   {{- partial "highlights.html" . -}}
   <div class="mt-2 fw-bold align-content-end">
-    <a href="/highlights/topics/{{ $topic_key }}">See all data highlights on {{ $page_topic }} ({{ $n_dh }}) 
+    <a href="/highlights/topics/{{ $topic_key_url }}">See all data highlights on {{ $page_topic }} ({{ $n_dh }}) 
       <i class="bi bi-arrow-right-circle-fill"></i>
     </a>
   </div>
@@ -27,7 +28,7 @@
 <h3><i class="bi bi-three-dots-vertical"></i> Dashboards ({{ $n_db }})</h3>
 <div class="container mt-3 mb-5">
   {{- partial "dashboards.html" . -}}
-  <div class="mt-2 fw-bold align-content-end"><a href="/dashboards/topics/{{ $topic_key }}">See all dashboards
+  <div class="mt-2 fw-bold align-content-end"><a href="/dashboards/topics/{{ $topic_key_url }}">See all dashboards
     on {{ $page_topic }} ({{ $n_db }}) <i class="bi bi-arrow-right-circle-fill"></i></a></div>
 <hr>
 </div>
@@ -39,7 +40,7 @@
 <h3><i class="bi bi-three-dots-vertical"></i> Editorials ({{ $n_ed }})</h3>
 <div class="container mt-3 mb-5">
   {{- partial "editorials.html" . -}}
-  <div class="mt-2 fw-bold align-content-end"><a href="/editorials/topics/{{ $topic_key }}">See all editorials
+  <div class="mt-2 fw-bold align-content-end"><a href="/editorials/topics/{{ $topic_key_url }}">See all editorials
     on {{ $page_topic }} ({{ $n_ed }}) <i class="bi bi-arrow-right-circle-fill"></i></a></div>
 <hr>
 </div>
