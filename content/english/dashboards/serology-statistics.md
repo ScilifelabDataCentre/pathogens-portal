@@ -30,20 +30,6 @@ Serology tests involve testing bodily fluids for the presence of antibodies or o
 
 <div class="alert alert-info">Data last updated: {{% serology_date_modified %}}.</div>
 
-<!-- ## Number of serology tests completed
-
-The below plot shows the total number (sum total) of serology tests related to SARS-CoV-2 completed by the SciLifeLab Autoimmunity and Serology Profiling unit since the beginning of the pandemic.
-
-<br>
-
-<div class="d-lg-none alert alert-info">
-  Scroll the plot sideways to view all of the data.
-</div>
-
-<div class="plot_wrapper">
-  <div class="w-100" id="total-number"></div>
-</div> -->
-
 ## Weekly serology tests
 
 The number of SARS-CoV-2 serology tests completed by the SciLifeLab Autoimmunity and Serology Profiling unit each week, divided according to whether tests were positive, negative, or research & development (R&D).
@@ -56,7 +42,7 @@ The number of SARS-CoV-2 serology tests completed by the SciLifeLab Autoimmunity
   <div class="table-responsive" style="min-width: 800px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/weekly_serology_tests.json" height="550px" >}}</div>
 </div>
 
-**Download the data:** [Serology-testing-statistics-dataset-20202021.csv](https://blobserver.dc.scilifelab.se/blob/Serology-testing-statistics-dataset-20202021.csv)
+<!-- **Download the data:** [The number of R&D, negative, and positive tests done per week](https://blobserver.dc.scilifelab.se/blob/Serology-testing-statistics-dataset-20202021.csv) -->
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/serology/weekly-serology-tests.py).
 
@@ -72,7 +58,7 @@ The cumulative number of positive, negative, and research & development (R&D) SA
   <div class="table-responsive" style="min-width: 800px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/cumulative_serology_tests.json" height="550px" >}}</div>
 </div>
 
-**Download the data:** [Serology-testing-statistics-dataset-20202021.csv](https://blobserver.dc.scilifelab.se/blob/Serology-testing-statistics-dataset-20202021.csv)
+<!-- **Download the data:** [The number of R&D, negative, and positive tests done per week](https://blobserver.dc.scilifelab.se/blob/Serology-testing-statistics-dataset-20202021.csv) -->
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/serology/cumulative-serology-tests.py).
 

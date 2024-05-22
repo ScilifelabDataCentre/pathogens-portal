@@ -25,20 +25,6 @@ Serologiska tester innebär att kroppsvätskor testas för förekomst av antikro
 
 <div class="alert alert-info">Senaste uppdatering: {{% serology_date_modified %}}.</div>
 
-<!-- ## Number of serology tests completed
-
-The below plot shows the total number (sum total) of serology tests related to SARS-CoV-2 completed by the SciLifeLab Autoimmunity and Serology Profiling unit since the beginning of the pandemic.
-
-<br>
-
-<div class="d-lg-none alert alert-info">
-  Scroll the plot sideways to view all of the data.
-</div>
-
-<div class="plot_wrapper">
-  <div class="w-100" id="total-number"></div>
-</div> -->
-
 ## Serologiska tester per vecka
 
 Antalet SARS-CoV-2 serologitester som SciLifeLab Autoimmunity and Serology Profiling-enheten genomförde varje vecka, uppdelat efter om testerna var positiva, negativa eller inom forskning och utveckling (R&D).
@@ -51,9 +37,9 @@ Antalet SARS-CoV-2 serologitester som SciLifeLab Autoimmunity and Serology Profi
   <div class="table-responsive" style="min-width: 800px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/weekly_serology_tests.json" height="550px" >}}</div>
 </div>
 
-**Ladda ner data:** [Serology-testing-statistics-dataset-20202021.csv](https://blobserver.dc.scilifelab.se/blob/Serology-testing-statistics-dataset-20202021.csv)
+<!-- **Ladda ner data:** [Serology-testing-statistics-dataset-20202021.csv](https://blobserver.dc.scilifelab.se/blob/Serology-testing-statistics-dataset-20202021.csv) -->
 
-**Kod som används för att producera plot:** [Skript för att producera plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/serology/weekly-serology-tests.py).
+**Källkod som används för att skapa grafen:** [Källkod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/serology/weekly-serology-tests.py).
 
 ## Kumulativa serologiska tester
 
@@ -67,9 +53,9 @@ Det kumulativa antalet positiva, negativa och forsknings- och utvecklingstester 
   <div class="table-responsive" style="min-width: 800px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/cumulative_serology_tests.json" height="550px" >}}</div>
 </div>
 
-**Ladda ner data:** [Serology-testing-statistics-dataset-20202021.csv](https://blobserver.dc.scilifelab.se/blob/Serology-testing-statistics-dataset-20202021.csv)
+<!-- **Ladda ner data:** [Serology-testing-statistics-dataset-20202021.csv](https://blobserver.dc.scilifelab.se/blob/Serology-testing-statistics-dataset-20202021.csv) -->
 
-**Kod som används för att producera plot:** [Skript för att producera plot]](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/serology/cumulative-serology-tests.py).
+**Källkod som används för att skapa grafen:** [Källkod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/serology/cumulative-serology-tests.py).
 
 #### Om serologisk testning vid enheten för Autoimmunity and Serology Profiling
 
