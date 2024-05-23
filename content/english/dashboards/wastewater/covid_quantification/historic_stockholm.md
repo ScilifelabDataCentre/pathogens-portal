@@ -27,4 +27,4 @@ Cetecioglu, Z. G., Williams, C., Khatami, K., Atasoy, M., Nandy, P., Jafferali, 
 
 <div class="small text-muted">All samples up until week 21 of 2020 were received by the lab in week 21. Between weeks 21 and 33 of 2020, samples were analysed biweekly. After week 33 of 2020, samples were typically analysed weekly, although measurements were taken fortnightly, rather than weekly, between weeks 24 and 32 of 2021.</div>
 
-**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/wastewater_data_stockholm.py).
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/historic_stockholm_data.py).
