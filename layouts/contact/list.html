@@ -47,8 +47,8 @@
     </div>
   </div>
   <div class="g-recaptcha" data-sitekey="6LesV0gaAAAAAGFjazG7Hd_hN72cpeYm2woivBT3"></div>
-  <input type="url" id="originUrl" name="originUrl" value="" hidden />
-  <input type='hidden' name='origin' value='general_contact'>
+  <input type="url" id="originUrl" name="originUrl" value="" hidden aria-label="form-origin-url" />
+  <input type='hidden' name='origin' value='general_contact' hidden aria-label="form-name" />
   <div class="form-group row">
     <div class="col-sm-9">
         <button type="submit" class="btn btn-secondary mt-3">{{ if eq $.Site.Language.LanguageName "Svenska" }}Skicka in formuläret{{ else }}Submit the form{{ end }}</button>
@@ -82,7 +82,7 @@
           event.preventDefault();
           alert("{{ if eq $.Site.Language.LanguageName "Svenska" }}Vänligen markera 'I'm not a robot' ovanför 'Skicka' -knappen.{{ else }}Please tick 'I'm not a robot' above the 'Submit' button.{{ end }}");
       }
-  })
+  });
 
   document.getElementById('originUrl').value = location.href;
 
@@ -95,6 +95,10 @@
             requiredCheckboxes.attr('required', 'required');
         }
     });
+  });
+
+  window.addEventListener("load", function () {
+    $('textarea#g-recaptcha-response').attr('aria-label', "The recaptcha response will appear here");
   });
 
 </script>

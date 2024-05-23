@@ -548,18 +548,18 @@ for rows with images to fix that.
   background-color: #2e68a5;
 }
 
-a.btn-white-teal {
+a.btn-white-black {
   padding: 2px 6px;
-  color: #37ae94;
+  color: #1a1c1a;
   background-color: #fff;
   font-size: 0.9em;
   font-weight: 400;
   border-radius: 3px;
 }
 
-a.btn-white-teal:hover {
+a.btn-white-black:hover {
   text-decoration: none;
-  box-shadow: 0px 0px 5px #fff;
+  box-shadow: 0px 0px 5px #55585a;
 }
 
 /*

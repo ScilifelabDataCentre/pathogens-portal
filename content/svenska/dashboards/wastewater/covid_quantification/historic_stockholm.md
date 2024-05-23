@@ -18,7 +18,7 @@ Efter koncentrering, filtrering och beredning analyserades proverna med RT-qPCR-
 Cetecioglu, Z. G., Williams, C., Khatami, K., Atasoy, M., Nandy, P., Jafferali, M. H., Birgersson, M. (2021). SARS-CoV-2 Wastewater Data from Stockholm, Sweden. [https://doi.org/10.17044/scilifelab.14315483](https://doi.org/10.17044/scilifelab.14315483).
 
 <div class="d-md-none alert alert-info">
-  Skrolla grafen horisontellt för att se alla data.
+  Att rotera mobiltelefonen kan förbättra grafens layout.
 </div>
 
  <div class="plot_wrapper mb-3">
@@ -27,4 +27,4 @@ Cetecioglu, Z. G., Williams, C., Khatami, K., Atasoy, M., Nandy, P., Jafferali, 
 
 <div class="small text-muted">Alla prover innan vecka 21 har kommit till labbet vecka 21. Mellan vecka 21 och 33 har prover analyserats varannan vecka. Efter vecka 33 har proverna analyserats varje vecka. Avloppsvattenmätningarna har utförts varannan vecka, inte veckovis, mellan vecka 24 och vecka 32 2021.</div>
 
-**Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/wastewater_data_stockholm.py).
+**Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/historic_stockholm_data.py).

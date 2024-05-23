@@ -38,7 +38,7 @@
       data-search-tags="{{ delimit $search_tags ":" | lower }}"
     {{ end }}>
     <div class="bg-highlight">
-      <div>
+      <div aria-hidden="true">
         <a href="{{ .Page.RelPermalink }}">
           <img class="img-fluid rounded-top" src="{{ .Params.banner }}" alt="{{ .Title }}">
         </a>
