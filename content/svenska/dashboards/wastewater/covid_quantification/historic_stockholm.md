@@ -18,7 +18,7 @@ Efter koncentrering, filtrering och beredning analyserades proverna med RT-qPCR-
 Cetecioglu, Z. G., Williams, C., Khatami, K., Atasoy, M., Nandy, P., Jafferali, M. H., Birgersson, M. (2021). SARS-CoV-2 Wastewater Data from Stockholm, Sweden. [https://doi.org/10.17044/scilifelab.14315483](https://doi.org/10.17044/scilifelab.14315483).
 
 <div class="d-md-none alert alert-info">
-  Skrolla grafen horisontellt för att se alla data.
+  Att rotera mobiltelefonen kan förbättra grafens layout.
 </div>
 
  <div class="plot_wrapper mb-3">
