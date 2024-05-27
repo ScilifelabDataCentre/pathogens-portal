@@ -182,7 +182,7 @@
     <div class="bg-home-topics mb-4">
       <h4 class="mt-0 mb-1">Pandemic preparedness topics</h4>
       <p class="mb-2 small">Click on one of the <b><a class="dark-blue" href="/topics/">topics</a></b> below to see only the content that is related to that topic.</p>
-      {{ range .Site.Menus.topics_menu }}
+      {{ range where .Site.Menus.topics_menu "Identifier" "ne" "all_topics" }}
         <a href="{{ .Page.RelPermalink }}"><span class="bg-home-topics-btn">{{ .Name }}</span></a>
       {{ end }}
     </div>
