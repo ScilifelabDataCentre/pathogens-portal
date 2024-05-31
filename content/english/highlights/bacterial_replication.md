@@ -7,7 +7,7 @@ banner_large: /highlights/banners/ELF_large.png
 banner_caption: Image courtesy Johan Elf lab
 highlights_topics: [Infectious Diseases]
 tags: [Infectious diseasese, Replication, Escherichia coli]
-announcement: "This data highlight was also [published on the SciLifeLab Data Platform](https://data.scilifelab.se/highlights/bacterial_replication/), as the work described in this highlight constitutes data-driven life science. The Platform is a hub for data-driven life science in Sweden, containing multiple relevant resources, tools, and services. It includes information on multiple subjects, including infectious diseases, please check out the [Data Platform](https://data.scilifelab.se/) for more."
+announcement: "This data highlight was also <a class='dark-blue' target='_blank' href='https://data.scilifelab.se/highlights/bacterial_replication/'>published on the SciLifeLab Data Platform</a>, as the work described in this highlight constitutes data-driven life science. The Platform is a hub for data-driven life science in Sweden, containing multiple relevant resources, tools, and services. It includes information on multiple subjects, including infectious diseases, please check out the <a class='dark-blue' target='_blank' href='https://data.scilifelab.se/'>Data Platform</a> for more."
 images: [/highlights/banners/ELF_banner.png]
 ---
 

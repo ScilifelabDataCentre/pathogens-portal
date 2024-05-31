@@ -25,7 +25,7 @@ layout: about_navbar
 <div class="row mt-4">
   <div class="col-12 col-md-4 col-lg-3 d-none d-md-block">
     <figure class="figure">
-      <img width="250" src="/img/logos/scilifelab_kaw_logo.png">
+      <img width="250" alt="KAW logo" src="/img/logos/scilifelab_kaw_logo.png">
     </figure>
   </div>
   <div class="col-12 col-md-8 col-lg-9">
@@ -38,7 +38,7 @@ layout: about_navbar
 <div class="row mt-4">
   <div class="col-12 col-md-4 col-lg-3 d-none d-md-block">
     <figure class="figure">
-      <img width="250" src="/img/logos/scilifelab-logo.svg">
+      <img width="250" alt="Scilifelab logo" src="/img/logos/scilifelab-logo.svg">
     </figure>
   </div>
   <div class="col-12 col-md-8 col-lg-9">

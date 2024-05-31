@@ -7,7 +7,7 @@ banner_large: /highlights/banners/igh_antibody_genes.jpg
 banner_caption: Graphical abstract (Image courtesy Pushparaj et al. 2023)
 highlights_topics: [COVID-19, Infectious Diseases]
 tags: [SARS-CoV-2, Genotyping, Haplotype analysis, Cryo-EM, IGHV1-69, Variability, Individual response, Infection]
-announcement: "This data highlight was also [published on the SciLifeLab Data Platform](https://data.scilifelab.se/highlights/igh_antibody_genes/), as the work described in this highlight constitutes data-driven life science. The Platform is a hub for data-driven life science in Sweden, containing multiple relevant resources, tools, and services. It includes information on multiple subjects, including infectious diseases, please check out the [Data Platform](https://data.scilifelab.se/) for more."
+announcement: "This data highlight was also <a class='dark-blue' target='_blank' href='https://data.scilifelab.se/highlights/igh_antibody_genes/'>published on the SciLifeLab Data Platform</a>, as the work described in this highlight constitutes data-driven life science. The Platform is a hub for data-driven life science in Sweden, containing multiple relevant resources, tools, and services. It includes information on multiple subjects, including infectious diseases, please check out the <a class='dark-blue' target='_blank' href='https://data.scilifelab.se/'>Data Platform</a> for more."
 images: [/highlights/banners/igh_antibody_genes_small.jpg]
 ---
 

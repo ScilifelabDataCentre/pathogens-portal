@@ -26,9 +26,12 @@
   </div>
   <div class="col-md text-md-end mt-2 mt-md-0">
     <span><b>Share this: </b></span>
-    <a target="_blank" class="share-button" href="https://twitter.com/intent/tweet?text=Data%20highlight%20on%20the%20Pathogens%20Portal:%20{{ .Title }}, {{ .Permalink }}"><i class="bi bi-twitter-x me-1"></i></a>
-    <a target="_blank" class="share-button" href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink }}"><i class="bi bi-linkedin me-1"></i></a>
-    <a target="_blank" class="share-button" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"><i class="bi bi-facebook me-1"></i></a>
+    <a target="_blank" class="share-button" aria-label="share highlight on X"
+       href="https://twitter.com/intent/tweet?text=Data%20highlight%20on%20the%20Pathogens%20Portal:%20{{ .Title }}, {{ .Permalink }}"><i class="bi bi-twitter-x me-1"></i></a>
+    <a target="_blank" class="share-button" aria-label="share highlight on linkedin"
+       href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink }}"><i class="bi bi-linkedin me-1"></i></a>
+    <a target="_blank" class="share-button" aria-label="share highlight on facebook"
+       href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"><i class="bi bi-facebook me-1"></i></a>
   </div>
 </div>
 

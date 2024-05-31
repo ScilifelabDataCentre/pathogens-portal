@@ -22,7 +22,7 @@ The CDC is currently conducting research and working in close collaboration with
 
 ### Timeline of outbreak
 <br>
-<figure><img width="1000" src="/img/other/hepatitis_timeline.png"></figure>
+<figure><img alt="Image of Hepatitis outbreak timeline" width="1000" src="/img/other/hepatitis_timeline.png"></figure>
 
 ## Resources
 
