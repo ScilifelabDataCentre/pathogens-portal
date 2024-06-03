@@ -26,8 +26,6 @@ The dataset visualised in the graphs on this page is available [here](https://bl
 
 The total number of SARS-CoV-2 (COVID-19) tests conducted at the national Pandemic Centre (NPC) since the start of the pandemic, separated according to whether the results were positive, negative, or invalid/inconclusive.
 
-Source code for the below graph is available [here](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/npctests/npc_total_tests.py).
-
 <div class="d-md-none alert alert-info">
   Rotating your phone may improve graph layout
 </div>
@@ -36,11 +34,11 @@ Source code for the below graph is available [here](https://github.com/Scilifela
     <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/npc_total_tests.json" height="200px">}}</div>
 </div>
 
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/npctests/npc_total_tests.py).
+
 #### NPC test numbers
 
 The number of SARS-CoV-2 (COVID-19) tests ran daily or weekly, divided according to whether results were positive, negative, or invalid/inconclusive.
-
-Source code is available for both the [daily](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/npctests/npc_tests_daily.py) and [weekly](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/npctests/npc_tests_weekly.py) graphs below.
 
 ##### Daily
 
@@ -52,6 +50,8 @@ Source code is available for both the [daily](https://github.com/ScilifelabDataC
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/npc_tests_daily.json" height="350px">}}</div>
 </div>
 
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/npctests/npc_tests_daily.py).
+
 ##### Weekly
 
 <div class="d-md-none alert alert-info">
@@ -62,12 +62,12 @@ Source code is available for both the [daily](https://github.com/ScilifelabDataC
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/npc_tests_weekly.json" height="350px">}}</div>
 </div>
 
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/npctests/npc_tests_weekly.py).
+
 #### NPC tests positive fraction
 
 The fraction of daily or weekly SARS-CoV-2 (COVID-19) tests that were positive,
 as percentage of all tests conducted **(excluding invalid/inconclusive)**.
-
-Source code is available for both the [daily](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/npctests/npc_positiveTests_fraction_daily.py) and [weekly](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/npctests/npc_positiveTests_fraction_weekly.py) graphs below.
 
 ##### Daily
 
@@ -79,6 +79,8 @@ Source code is available for both the [daily](https://github.com/ScilifelabDataC
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/npc_positiveTests_fraction_daily.json" height="350px">}}</div>
 </div>
 
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/npctests/npc_positiveTests_fraction_daily.py).
+
 ##### Weekly
 
 <div class="d-md-none alert alert-info">
@@ -89,12 +91,12 @@ Source code is available for both the [daily](https://github.com/ScilifelabDataC
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/npc_positiveTests_fraction_weekly.json" height="350px">}}</div>
 </div>
 
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/npctests/npc_positiveTests_fraction_weekly.py).
+
 #### Cumulative NPC test numbers
 
 The sum of all SARS-CoV-2 (COVID-19) virus tests conducted at NPC since the
 start of the pandemic, as a function of date, and divided according to whether results were positive, negative, or invalid/inconclusive.
-
-Source code for the below graph is available [here](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/npctests/npc_cumulative_tests.py).
 
 <div class="d-md-none alert alert-info">
   Rotating your phone may improve graph layout
@@ -103,6 +105,8 @@ Source code for the below graph is available [here](https://github.com/Scilifela
 <div class="plot_wrapper mb-3">
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/npc_cumulative_tests.json" height="550px">}}</div>
 </div>
+
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/npctests/npc_cumulative_tests.py).
 
 The National Pandemic Centre (NPC) was a facility for [SARS-CoV-2 (COVID-19) testing](https://ki.se/mtc/ctmr-and-covid-19) established within the [Centre for Translational Microbiome Research (CTMR)](https://ki.se/en/research/centre-for-translational-microbiome-research-ctmr) at [Karolinska Institutet (KI)](https://ki.se/en)/[SciLifeLab](https://www.scilifelab.se/). At the end of March 2020, the large-scale microbiome research lab was quickly converted into a centre to assist Sweden with analysing SARS-CoV-2 tests. This was made possible by a donation from the [Knut and Alice Wallenberg Foundation (KAW)](https://kaw.wallenberg.org/en) and a previously established collaboration with [MGI Tech](https://en.mgitech.cn/) in Shenzen, China. The NPC initially helped to expand the RNA-extraction capacity at Karolinska Universitets laboratoriet. However, it quickly expanded into a facility that increased the testing capacity across all regions of Sweden.
 
