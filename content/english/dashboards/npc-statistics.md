@@ -6,7 +6,7 @@ banner_border: true
 menu:
   dashboard_menu:
     identifier: npc-statistics
-    name: "National Pandemic Centre (Historic)"
+    name: "SARS-CoV-2 tests at National Pandemic Centre"
 toc: false
 plotly: true
 aliases:
@@ -20,7 +20,7 @@ dashboards_topics: [COVID-19, Infectious diseases]
   <a class="dark-blue" href="https://nyheter.ki.se/covid-19-tester-ki-atergar-till-ordinarie-laboratorieverksamhet-men-har-fortsatt-beredskap">KI Press Release</a>
 </div>
 
-The dataset visualised in the graphs on this page is available [here](https://blobserver.dc.scilifelab.se/blob/NPC-statistics-data-set.csv). The numbers reported here were compiled automatically and, as such, might not correspond to the numbers reported through other sources for different reasons.
+The dataset visualised in the graphs on this page is available [on SciLifeLab's Blobserver](https://blobserver.dc.scilifelab.se/blob/NPC-statistics-data-set.csv). The numbers reported here were compiled automatically and, as such, might not correspond to the numbers reported through other sources for different reasons.
 
 #### Total NPC test numbers
 
