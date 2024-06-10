@@ -1,6 +1,92 @@
 {
-  "last_updated": "2024-05-06",
+  "last_updated": "2024-06-10",
   "datasets": [
+    {
+      "doi": "10.1172/jci.insight.175401",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Figshare",
+              "accession_number": "",
+              "description": "Request access for metadata for the 30 study participants recruited among health-care workers at the University hospital of Örebro, Sweden.",
+              "data_type": [
+                  "Public health data"
+              ],
+              "data_url": "https://doi.org/10.17044/scilifelab.24941913"
+          },
+          {
+              "type": "data",
+              "repo_name": "",
+              "accession_number": "",
+              "description": "Data points for figures, mostly comprising of serological measures (e.g. levels of B-cells) following different vaccination routines or infection experience (excludes RNASeq data).",
+              "data_type": [
+                  "Public health data"
+              ],
+              "data_url": "https://europepmc.org/articles/PMC11141904/bin/jciinsight-9-175401-s275.xlsx"
+          },
+          {
+              "type": "code",
+              "repo_name": "GitHub",
+              "accession_number": "",
+              "description": "Code for bioinformatic analysis with RNASeq analyses (primarily in R).",
+              "data_type": [
+                  "Public health data"
+              ],
+              "data_url": "https://github.com/rodrigarc/orebro_study"
+          }
+      ],
+      "title": "Modulation of innate immune response to mRNA vaccination after SARS-CoV-2 infection or sequential vaccination in humans",
+      "issue": "9",
+      "volume": "9",
+      "publisher": "American Society for Clinical Investigation",
+      "published": "2024-05-08",
+      "author": [
+          "Hellgren F.",
+          "Rosdahl A.",
+          "Arcoverde Cerveira R.",
+          "Lenart K.",
+          "Ols S."
+      ]
+  },
+  {
+      "doi": "10.2196/47064",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Open Science Framework",
+              "accession_number": "",
+              "description": "Data on the open-ended comments from COVID-19 smell longhaulers and non-longhaulers on the Global Consortium for Chemosensory Research (GCCR) survey.",
+              "data_type": [
+                  "Public health data",
+                  "Health data"
+              ],
+              "data_url": "https://osf.io/xv6mn/"
+          },
+          {
+              "type": "code",
+              "repo_name": "Open Science Framework",
+              "accession_number": "",
+              "description": "Code to complete cross-sectional longitudinal analysis using natural language processing (primarily in R).",
+              "data_type": [
+                  "Public health data",
+                  "Health data"
+              ],
+              "data_url": "https://osf.io/xv6mn/"
+          }
+      ],
+      "title": "Giving a Voice to Patients With Smell Disorders Associated With COVID-19: Cross-Sectional Longitudinal Analysis Using Natural Language Processing of Self-Reports",
+      "issue": "",
+      "volume": "10",
+      "publisher": "JMIR Publications Inc.",
+      "published": "2024-05-10",
+      "author": [
+          "Menger N. S.",
+          "Tognetti A.",
+          "Farruggia M. C.",
+          "Mucignat C.",
+          "Bhutani S."
+      ]
+  },
     {
       "doi": "10.1136/bmjgh-2023-013018",
       "available_items": [
