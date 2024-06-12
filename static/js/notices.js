@@ -44,7 +44,15 @@ document.addEventListener("DOMContentLoaded", function() {
                     if (shouldDisplay) {
                         const noticeContainer = document.createElement('div');
                         noticeContainer.className = 'notice alert d-flex justify-content-center align-items-center rounded-0'; // Use Bootstrap classes
-                        noticeContainer.style = `${notice.style}; margin-top: 15px; text-align: center;`; // Add top margin and center text
+                        
+                        // Check if style property is provided and not empty, otherwise use default styles
+                        let style = notice.style;
+                        if (!style || style.trim() === "") {
+                            style = notice.type === "scheduled" 
+                                ? "background-color: #d4de27; color: #000000;" 
+                                : "background-color: #ffc107; color: #000000;";
+                        }
+                        noticeContainer.style = `${style}; margin-top: 15px; text-align: center;`; // Add top margin and center text
 
                         const siteLanguage = document.documentElement.lang;
                         let message = notice.message_en;
