@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
     {{- partial "head.html" . -}}
-    <script src="/js/notices.js" defer></script>
     <body>
         <a class="visually-hidden-focusable" href="#content">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).skip_to_content }}</a>
         {{- partial "navbar.html" . -}}
