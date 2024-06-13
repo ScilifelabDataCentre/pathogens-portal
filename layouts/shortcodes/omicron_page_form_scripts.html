@@ -26,4 +26,10 @@
   document.getElementById('originUrl_ann').value = location.href;
   document.getElementById('originUrl_av_data').value = location.href;
 
+  // Add ARIA label for recaptcha
+  window.addEventListener("load", function () {
+    $('textarea#g-recaptcha-response').attr('aria-label', "The recaptcha response will appear here");
+    $('textarea#g-recaptcha-response-1').attr('aria-label', "The recaptcha response will appear here");
+  });
+
 </script>

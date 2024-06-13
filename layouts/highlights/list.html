@@ -79,8 +79,8 @@
                 data highlight myself.</label>
             </div>
             <div class="g-recaptcha" data-sitekey="6LesV0gaAAAAAGFjazG7Hd_hN72cpeYm2woivBT3"></div>
-            <input type="url" id="originUrl" name="originUrl" value="" hidden />
-            <input type='hidden' name='origin' value='data_highlight_suggestion'>
+            <input type="url" id="originUrl" name="originUrl" value="" hidden aria-label="form-origin-url" />
+            <input type="hidden" name="origin" value="data_highlight_suggestion" hidden aria-label="form-name" />
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -117,6 +117,11 @@
       event.preventDefault();
       alert("Please tick 'I'm not a robot' above the 'Submit the form' button.");
     }
+  });
+
+  // Function to fill ARIA text for recaptcha button
+  window.addEventListener("load", function () {
+    $('textarea#g-recaptcha-response').attr('aria-label', "The recaptcha response will appear here");
   });
   
   // Function to filter the service based on search text

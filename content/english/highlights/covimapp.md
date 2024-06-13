@@ -21,7 +21,7 @@ tags:
     SARS-CoV-2,
   ]
 authors: [Katarina Öjefors Stark]
-announcement: "This data highlight was also published on the <a target='_blank' href='https://data.scilifelab.se/highlights/covimapp/'>SciLifeLab Data Platform</a>, as the work described in this highlight constitutes data-driven life science. The Platform is a hub for data-driven life science in Sweden, containing multiple relevant resources, tools, and services. It includes information on multiple subjects, including infectious diseases, please check out the <a target='_blank' href='https://data.scilifelab.se/'>Data Platform</a> for more."
+announcement: "This data highlight was also published on the <a class='dark-blue' target='_blank' href='https://data.scilifelab.se/highlights/covimapp/'>SciLifeLab Data Platform</a>, as the work described in this highlight constitutes data-driven life science. The Platform is a hub for data-driven life science in Sweden, containing multiple relevant resources, tools, and services. It includes information on multiple subjects, including infectious diseases, please check out the <a class='dark-blue' target='_blank' href='https://data.scilifelab.se/'>Data Platform</a> for more."
 images: [/highlights/banners/covimapp_logo.png"]
 ---
 

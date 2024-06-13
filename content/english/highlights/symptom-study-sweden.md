@@ -18,7 +18,7 @@ The global COVID-19 pandemic has increased challenges to healthcare, society and
 COVID Symptom Study Sweden is run by Lund University and Uppsala University in collaboration with King’s College London and Zoe Global Ltd (Swedish PIs: prof. Tove Fall, Uppsala University, and prof. Maria Gomez and prof. Paul Franks, Lund University). The project aims to map the spread of COVID-19 in Sweden as well as to increase knowledge about the effect of SARS-CoV-2 on human body. The first aim includes investigation of temporal and geographical trends in SARS-CoV-2 spread and investigations of how changes in national strategies affect the spread.
 
 <figure class="figure float-left mx-2 w-25">
-  <img src="/highlights/banners/csss_map.png" class="img-thumbnail">
+  <img alt="Symptoms case map image" src="/highlights/banners/csss_map.png" class="img-thumbnail">
   <figcaption class="figure-caption mt-1"><i>Estimated prevalence of symptomatic cases of COVID-19 in various counties in Sweden, as % of population. Estimates based on data reported by COVID Symptom Study App users, 29.03.2021.</i></figcaption>
 </figure>
 

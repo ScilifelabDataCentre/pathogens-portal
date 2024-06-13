@@ -6,7 +6,7 @@
 {{ range $announcement_list_data }}
   <div class="alert alert-info mb-2">
     <h5>{{ .title }}</h5>
-    <p class="small mb-2 text-muted">{{ .date_time }}</p>
+    <p class="small mb-2" style="color: #55585a;">{{ .date_time }}</p>
     <p>{{ .text | markdownify }}</p>
     {{ if or .name .contact_info }}<p><b>Contact:</b> {{ .name }}, {{ .contact_info }}{{ end }}</p>
   </div>

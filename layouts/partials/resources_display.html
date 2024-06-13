@@ -1,12 +1,12 @@
 <div class="col-md-4 mb-4">
     <div class="bg-plp">
-        <div>
+        <div aria-hidden="true">
           <a href="{{ .Page.RelPermalink }}">
             <img class="img-fluid rounded-top" src="{{ .Params.banner }}" alt="{{ .Title }}">
           </a>
         </div>
         <div>
-          <h6 class="my-1"><a href="{{ .Page.RelPermalink }}">{{ .Title }}</a></h6>
+          <h6 class="my-1"><a class="dark-blue" href="{{ .Page.RelPermalink }}">{{ .Title }}</a></h6>
         </div>
     </div>
 </div>

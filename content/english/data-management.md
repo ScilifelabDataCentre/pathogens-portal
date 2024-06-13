@@ -14,11 +14,11 @@ On this page, you will find information about where to access direct, one-on-one
 
 ### Swedish Pathogens Portal
 
-Whilst the portal contains many general guidelines for RDM e.g. how to [share data](/share-data/), we also offer direct support for individual projects. To access this, please send an email to <a href="mailto:pathogens@scilifelab.se">pathogens@scilifelab.se</a> or send a messsage via the [contact form](/contact/). You can typically expect a response within one working day.
+Whilst the portal contains many general guidelines for RDM e.g. how to [share data](/share-data/), we also offer direct support for individual projects. To access this, please send an email to [pathogens@scilifelab.se](mailto:pathogens@scilifelab.se) or send a messsage via the [contact form](/contact/). You can typically expect a response within one working day.
 
 ### SciLifeLab Data Management Helpdesk
 
-The SciLifeLab Data Management Helpdesk is operated by experts in RDM from the SciLifeLab Data Centre and National Bioinformatics Infrastructure Sweden (NBIS). The purpose of the helpdesk is to provide direct, customised RDM support for those working in life science research in Sweden. To get in touch, send an email to <a href="mailto:data-management@scilifelab.se">data-management@scilifelab.se</a>. Alternatively, you can go to the [SciLifeLab Research Data Management Guidelines](https://data-guidelines.scilifelab.se) and submit questions via the contact form.
+The SciLifeLab Data Management Helpdesk is operated by experts in RDM from the SciLifeLab Data Centre and National Bioinformatics Infrastructure Sweden (NBIS). The purpose of the helpdesk is to provide direct, customised RDM support for those working in life science research in Sweden. To get in touch, send an email to [data-management@scilifelab.se](mailto:data-management@scilifelab.se). Alternatively, you can go to the [SciLifeLab Research Data Management Guidelines](https://data-guidelines.scilifelab.se) and submit questions via the contact form.
 
 ## Resources for infectious disease data
 

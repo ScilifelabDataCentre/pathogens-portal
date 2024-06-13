@@ -12,7 +12,7 @@ aliases:
     - /news/poliovirus_replication
     - /sv/news/poliovirus_replication
 images: ["/highlights/banners/segmentation_highReso.jpeg"]
-announcement: "This data highlight was also [published on the SciLifeLab Data Platform](https://data.scilifelab.se/highlights/poliovirus_replication/), as the work described in this highlight constitutes data-driven life science. The Platform is a hub for data-driven life science in Sweden, containing multiple relevant resources, tools, and services. It includes information on multiple subjects, including infectious diseases, please check out the [Data Platform](https://data.scilifelab.se/) for more."
+announcement: "This data highlight was also <a class='dark-blue' target='_blank' href='https://data.scilifelab.se/highlights/poliovirus_replication/'>published on the SciLifeLab Data Platform</a>, as the work described in this highlight constitutes data-driven life science. The Platform is a hub for data-driven life science in Sweden, containing multiple relevant resources, tools, and services. It includes information on multiple subjects, including infectious diseases, please check out the <a class='dark-blue' target='_blank' href='https://data.scilifelab.se/'>Data Platform</a> for more."
 images: [/highlights/banners/segmentation_highReso.jpeg]
 ---
 
