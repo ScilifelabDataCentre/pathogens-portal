@@ -77,9 +77,10 @@
               <label for="call_description" class="form-label fw-bold">Funding description:</label>
               <textarea class="form-control" id="call_description" name="call_description" rows="5"></textarea>
             </div>
-            <div class="g-recaptcha" data-sitekey="6LesV0gaAAAAAGFjazG7Hd_hN72cpeYm2woivBT3"></div>
-            <input type="url" id="originUrl" name="originUrl" value="" hidden />
-            <input type='hidden' name='origin' value='funding_call_suggestion'>
+            <div class="g-recaptcha" data-sitekey="6LesV0gaAAAAAGFjazG7Hd_hN72cpeYm2woivBT3">
+            </div>
+            <input type="url" id="originUrl" name="originUrl" value="" hidden aria-label="form-origin-url"/>
+            <input type='hidden' name='origin' value='funding_call_suggestion' hidden aria-label="funding_call_suggestion">
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
