@@ -1,3 +1,20 @@
+<!-- Main contet start further below, this is to compute respective language page -->
+
+{{ $page_lang := dict }}
+{{ if .IsTranslated }}
+  {{ range .AllTranslations }}
+    {{ $page_lang = merge $page_lang (dict .Language.Lang .RelPermalink) }}
+  {{ end }}
+{{ else if .Parent.IsTranslated }}
+  {{ $page_lang = merge $page_lang (dict "en" .RelPermalink "sv" (printf "%s%s" "/sv" .Parent.RelPermalink)) }}
+{{ else if .Parent.Parent.IsTranslated }}
+  {{ $page_lang = merge $page_lang (dict "en" .RelPermalink "sv" (printf "%s%s" "/sv" .Parent.Parent.RelPermalink)) }}
+{{ else }}
+  {{ $page_lang = merge $page_lang (dict "en" "/" "sv" "/sv/") }}
+{{ end }}
+
+<!-- MAIN CONTENT -->
+
 <!-- Top navigation bar with logo and menu beside the logo -->
 <nav class="navbar navbar-expand-lg navbar-light bg-white pb-0">
   <div class="container">
@@ -20,43 +37,31 @@
     <!-- Navigation links beside logo, visible only on biger screen -->
     <div class="d-flex flex-column align-items-end collapse navbar-collapse">
 
-      <!-- Language flags -->
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto nav-languages">
-          {{ if .IsTranslated }}
-          {{ range .AllTranslations }}
-          <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span
-                lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"
-                  alt=""></span></a></li>
-          {{ end }}
-          {{ else if .Parent.IsTranslated }}
-          <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span
-                lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"
-                  alt=""></span></a></li>
-          <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Permalink }}"><span lang="sv">sv <img
-                  src="/img/flag-sv.svg" alt=""></span></a></li>
-          {{ else if .Parent.Parent.IsTranslated }}
-          <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span
-                lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"
-                  alt=""></span></a></li>
-          <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Parent.Permalink }}"><span lang="sv">sv
-                <img src="/img/flag-sv.svg" alt=""></span></a></li>
-          {{ else }}
-          {{ range $.Site.Home.AllTranslations }}
-          <li class="nav-item navbar-languages"><a class="nav-link" href="{{ relURL .Permalink }}"><span
-                lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"
-                  alt=""></span></a></li>
-          {{ end }}
-          {{ end }}
-        </ul>
-      </div>
-
-      <!-- Top navbar list i.e. About, Contact, etc -->
+      <!-- Top navbar list i.e. About, Contact, Language, etc -->
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto navbar-top">
           {{ range .Site.Menus.navbar_top }}
           <li class="nav-item"><a class="nav-link" href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
           {{ end }}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-globe2"></i> {{ if eq $.Site.Language.LanguageName "English" }} EN {{ else }} SV {{ end }}
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end nav-languages">
+              <li>
+                <a class="dropdown-item" href="{{ $page_lang.en }}">
+                  <i class="bi bi-{{ if eq .Language.Lang "en" }}check-{{ end }}circle"></i>
+                  <span lang="{{ .Language.Lang }}"> English</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="{{ $page_lang.sv }}">
+                  <i class="bi bi-{{ if eq .Language.Lang "sv" }}check-{{ end }}circle"></i>
+                  <span lang="sv"> Svenska</span>
+                </a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </div>
 
@@ -66,41 +71,28 @@
 <!-- ENDS HERE - Top navigation bar with logo and menu beside the logo -->
 
 <!-- Expandable top navigation menu, controlled by above defined hamburger button, only visible on small screens -->
-<nav class="navbar navbar-expand-lg navbar-light pt-0">
+<nav class="navbar navbar-expand-lg navbar-light pt-0 pb-1">
   <div class="container">
     <div class="collapse navbar-collapse" id="navbarCollapseBottom">
-      
-      <!-- Languages flags -->
-      <ul class="d-lg-none navbar-nav nav-languages-mobile list-group-horizontal">
-        {{ if .IsTranslated }}
-        {{ range .AllTranslations }}
-        <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span
-              lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"
-                alt=""></span></a></li>
-        {{ end }}
-        {{ else if .Parent.IsTranslated }}
-        <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span
-              lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"
-                alt=""></span></a></li>
-        <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Permalink }}"><span lang="sv">sv <img
-                src="/img/flag-sv.svg" alt=""></span></a></li>
-        {{ else if .Parent.Parent.IsTranslated }}
-        <li class="nav-item"><a class="nav-link" href="{{ relURL .Permalink }}"><span
-              lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"
-                alt=""></span></a></li>
-        <li class="nav-item"><a class="nav-link" href="/sv{{ relURL .Parent.Parent.Permalink }}"><span lang="sv">sv
-              <img src="/img/flag-sv.svg" alt=""></span></a></li>
-        {{ else }}
-        {{ range $.Site.Home.AllTranslations }}
-        <li class="nav-item navbar-languages"><a class="nav-link" href="{{ relURL .Permalink }}"><span
-              lang="{{ .Language.Lang }}">{{ .Language.Lang }} <img src="/img/flag-{{ .Language.Lang }}.svg"
-                alt=""></span></a></li>
-        {{ end }}
-        {{ end }}
-      </ul>
 
-      <!-- Top nav list i.e. About, Contact, etc -->
+      <!-- Top nav list i.e. About, Contact, Language, etc -->
       <ul class="d-lg-none navbar-nav nav-top">
+        <li class="nav-item dropdown languages-mobile">
+          <a href="#languageMobile" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="languageMobile">
+            <i class="bi bi-globe2"></i> {{ if eq $.Site.Language.LanguageName "English" }} EN {{ else }} SV {{ end }}
+            <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse ps-2 pt-1" id="languageMobile">
+              <a class="dropdown-item" href="{{ $page_lang.en }}">
+                <i class="bi bi-{{ if eq .Language.Lang "en" }}check-{{ end }}circle"></i>
+                <span lang="{{ .Language.Lang }}"> English</span>
+              </a>
+              <a class="dropdown-item" href="{{ $page_lang.sv }}">
+                <i class="bi bi-{{ if eq .Language.Lang "sv" }}check-{{ end }}circle"></i>
+                <span lang="sv"> Svenska</span>
+              </a>
+          </div>
+        </li>
         {{ range .Site.Menus.navbar_top }}
         <li class="nav-item"><a class="nav-link {{ .Post }}" href="{{ .Page.RelPermalink }}">{{ .Pre }}{{ .Name }}</a>
         </li>
