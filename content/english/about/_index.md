@@ -39,27 +39,27 @@ The team are happy to help with using the Portal, to take suggestions regarding 
 <div class="container mb-3">
   <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6">
     <div class="col pt-2">
-      <div><img src="/img/people/lh.jpg" width="150" class="img-thumbnail"/></div>
+      <div><img src="/img/people/lh.jpg" alt="Picute of Liane H" width="150" class="img-thumbnail"/></div>
       <div><b>Liane Hughes</b></div>
       <div><span class="text-muted">Project leader</span></div>
     </div>
     <div class="col pt-2">
-      <div><img src="/img/people/kos.jpg" width="150" class="img-thumbnail"/></div>
+      <div><img src="/img/people/kos.jpg" alt="Picute of Katarina ÖS" width="150" class="img-thumbnail"/></div>
       <div><b>Katarina Öjefors Stark</b></div>
       <div><span class="text-muted">Data steward</span></div>
     </div>
     <div class="col pt-2">
-      <div><img src="/img/people/sp.jpg" width="150" class="img-thumbnail"/></div>
+      <div><img src="/img/people/sp.jpg" alt="Picute of Senthilkumar P" width="150" class="img-thumbnail"/></div>
       <div><b>Senthilkumar Panneerselvam</b></div>
       <div><span class="text-muted">Systems developer</span></div>
     </div>
     <div class="col pt-2">
-      <div><img src="/img/people/hk.jpg" width="150" class="img-thumbnail"/></div>
+      <div><img src="/img/people/hk.jpg" alt="Picute of Hanna K" width="150" class="img-thumbnail"/></div>
       <div><b>Hanna Kultima</b></div>
       <div><span class="text-muted">Vice head of SciLifeLab Data Centre</span></div>
     </div>
     <div class="col pt-2">
-      <div><img src="/img/people/jr.jpg" width="150" class="img-thumbnail"/></div>
+      <div><img src="/img/people/jr.jpg" alt="Picute of Johan R" width="150" class="img-thumbnail"/></div>
       <div><b>Johan Rung</b></div>
       <div><span class="text-muted">Head of SciLifeLab Data Centre</span></div>
     </div>

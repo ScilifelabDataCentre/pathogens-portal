@@ -121,7 +121,9 @@
     });
   </script>
   {{ end }}
-
+  <!-- Including notices.js to dynamically display notices based on the notices.json available on blobserver-->
+<!--  This script fetches notices from blobserver and displays them on the website based on certain conditions.-->
+  <script src="/js/notices.js" defer></script>
 
   {{ if .Params.recaptcha_two }}
   <!-- reCAPTCHA for Omicron VoC page (because multiple on a single page) -->

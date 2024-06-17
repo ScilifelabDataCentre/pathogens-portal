@@ -35,8 +35,8 @@
             <small class="form-text">If data is not available openly, please provide a clear description of access conditions - who will be granted access, what is the procedure, and what are expections.</small>
           </div>
           <div id="form_av_data_recaptcha"></div>
-          <input type="url" id="originUrl_av_data" name="originUrl" value="" hidden />
-          <input type='hidden' name='origin' value='{{ $origin }}'>
+          <input type="url" id="originUrl_av_data" name="originUrl" value="" hidden aria-label="form-origin-url" />
+          <input type='hidden' name='origin' value='{{ $origin }}' hidden aria-label="form-name" />
           <div class="form-group row">
             <div class="col-sm-9">
                 <button type="button" class="btn btn-secondary mt-3" data-bs-dismiss="modal">Close</button>

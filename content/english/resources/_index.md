@@ -11,5 +11,5 @@ This section of the Swedish Pathogens Portal is dedicted to capabilities related
 The pages for each capability are regularly updated with new information as it becomes available.
 
 <div class="alert alert-info">
-    <i class="bi bi-info-circle-fill"></i> To add or update information about pandemic preparedness capabilities, email us at <a href="mailto:pathogens@scilifelab.se">pathogens@scilifelab.se</a> or use our <a href="https://pathogens.se/contact/">contact form</a> to get in touch.
+    <i class="bi bi-info-circle-fill"></i> To add or update information about pandemic preparedness capabilities, email us at <a class="dark-blue" href="mailto:pathogens@scilifelab.se">pathogens@scilifelab.se</a> or use our <a class="dark-blue" href="https://pathogens.se/contact/">contact form</a> to get in touch.
 </div>

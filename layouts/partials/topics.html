@@ -2,9 +2,10 @@
   {{ range where .Site.Menus.topics_menu "Identifier" "ne" "all_topics"}}
       <div class="col">
         <div class="bg-card">
-          <figure class="figure">
-            <img class="topics-image figure-img" src="{{ with .Page.Params.banner }}{{ . }}{{ else }}{{ "/img/plp_default2.png" }}{{ end }}">
-            <figcaption class="figure-caption font-italic">{{ .Page.Params.credits }}</figcaption>
+          <figure class="figure" aria-hidden="true">
+            <img class="topics-image figure-img" alt="{{ .Title }}"
+              src="{{ with .Page.Params.banner }}{{ . }}{{ else }}{{ "/img/plp_default2.png" }}{{ end }}">
+            <figcaption class="figure-caption font-italic" style="color: #55585a;">{{ .Page.Params.credits }}</figcaption>
           </figure>
           <h6><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></h6>
           <p>{{ .Page.Description }}</p>

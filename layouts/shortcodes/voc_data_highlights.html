@@ -6,7 +6,7 @@
         <div class="col-md mx-2 mb-2 border bg-light">
           <img style="margin-top:0.5rem" src="{{ .Params.banner }}" alt="{{ .Title }}">
           <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
-          <p class="small text-muted">{{.Date.Format "2006-01-02"}}</p>
+          <p class="small" style="color: #55585a;">{{.Date.Format "2006-01-02"}}</p>
           <p>{{ .Summary }}</p>
         </div>
     {{ end }}

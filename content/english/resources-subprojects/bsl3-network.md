@@ -19,6 +19,6 @@ High-level containment laboratories are a cornerstone for pandemic laboratory pr
 For more information on the [Pandemic Laboratory Preparedness resources](/resources/) associated with this subproject, see [BSL3 Biomedicum-SciLifeLab Collaborative Platform](/resources/bsl3/) and [State-of-the-art biosafety level 3 (BSL3) facility](/resources-subprojects/bsl3-facility/).
 
 <figure class="figure">
-  <img src="/resorces/bsl3-network-members.png" class="figure-img img-fluid" alt="A generic square placeholder image with rounded corners in a figure.">
+  <img src="/resorces/bsl3_network_members.png" class="figure-img img-fluid" alt="A map showing current members of the Swedish BSL3 network">
   <figcaption class="figure-caption">Current members of the Swedish BSL3 network</figcaption>
 </figure>
