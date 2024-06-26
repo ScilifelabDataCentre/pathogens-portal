@@ -1,0 +1,14 @@
+{
+  "$schema":  "https://raw.githubusercontent.com/jetify-com/devbox/0.11.1/.schema/devbox.schema.json",
+  "packages": ["hugo@0.123.7"],
+  "shell": {
+    "init_hook": [
+      "echo 'Welcome to devbox!' > /dev/null"
+    ],
+    "scripts": {
+      "server": [
+        "hugo serve"
+      ]
+    }
+  }
+}
