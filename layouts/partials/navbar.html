@@ -77,8 +77,8 @@
 
       <!-- Top nav list i.e. About, Contact, Language, etc -->
       <ul class="d-lg-none navbar-nav nav-top">
-        <li class="nav-item dropdown languages-mobile">
-          <a href="#languageMobile" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="languageMobile">
+        <li class="nav-item py-2 dropdown languages-mobile">
+          <a href="#languageMobile" class="py-2" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="languageMobile">
             <i class="bi bi-globe2"></i> {{ if eq $.Site.Language.LanguageName "English" }} EN {{ else }} SV {{ end }}
             <i class="bi bi-caret-down-fill small"></i>
           </a>
@@ -196,9 +196,17 @@
             {{ end }}
           </div>
         </div>
-        <!-- Sample collection database -->
-        <div class="main_menu_item">
-          <i class="bi bi-journal-text"></i> <a href="/sv/biobanks/">Provsamlingsregistret</a>
+        <!-- Share & Access Data -->
+        <div class="main_menu_item pb-1">
+          <a href="#shareAndAccessData" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="pandemicPreparedness">
+            <i class="bi bi-archive"></i> Datadelning och Tillgång <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="shareAndAccessData">
+            <a class="d-block" href="/sv/share-data/">Dela data</a>
+            <a class="d-block" href="/sv/dashboards/">Data dashboards</a>
+            <a class="d-block" href="/sv/biobanks/">Provsamlingsregistret</a>
+          </div>
         </div>
       </div>
       <hr class="d-lg-none">
