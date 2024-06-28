@@ -79,6 +79,8 @@ Använd knappen **'Deselect all lineages'** för att rensa bort data från alla 
 
 ## Publikationer
 
+Cumlin, T., Karlsson, I., Haars, J., Rosengren, M., Lennerstrand, J., Pimushyna, M., Feuk, L., Ladenvall, C., Kaden, R. (2024). SARS-CoV-2 to Global Preparedness: A Graphical Interface for Standardised High-Throughput Bioinformatics Analysis in Pandemic Scenarios and Surveillance of Drug Resistance. _Int. J. Mol. Sci._, **25**, 6645. DOI: [10.3390/ijms25126645](https://doi.org/10.3390/ijms25126645).
+
 Haars, J., Palanisamy, N., Wallin, F., Mölling, P., Lindh, J., Sundqvist, M., Ellström, P., Kaden, R., Lennerstrand, J. (2023). Prevalence of SARS-CoV-2 Omicron Sublineages and Spike Protein Mutations Conferring Resistance against Monoclonal Antibodies in a Swedish Cohort during 2022–2023. _Microorganisms_, **11**, 2417. DOI: [10.3390/microorganisms11102417](https://doi.org/10.3390/microorganisms11102417).
 
 Mannsverk, S., Bergholm, J., Palanisamy, N., Ellström, P., Kaden, R., Lindh, J., Lennerstrand, J. (2022). SARS-CoV-2 variants of concern and spike protein mutational dynamics in a Swedish cohort during 2021, studied by Nanopore sequencing. _Virology Journal_, **19**, 164. DOI: [10.1186/s12985-022-01896-x](https://doi.org/10.1186/s12985-022-01896-x).
