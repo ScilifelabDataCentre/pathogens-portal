@@ -1,11 +1,6 @@
 ---
 title: Get support
 toc: false
-menu:
-  top_actions:
-    name: Get support
-    weight: 70
-    pre: <i class="bi bi-people-fill me-2"></i>
 aliases:
   - /support_services/bioinformatics/
 ---

@@ -1,10 +1,9 @@
 ---
 title: Citera data, information och resurser från portalen
 menu:
-  top_actions:
+  navbar_top:
     name: Citera oss
-    weight: 80
-    pre: <i class="bi bi-patch-exclamation-fill me-2"></i>
+    weight: 40
   footer_about:
     name: Citera oss
     weight: 30
