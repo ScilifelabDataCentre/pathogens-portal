@@ -2,6 +2,10 @@
 title: Events & Training
 description: Community-sourced collection of events and training opportunities.
 recaptcha: true
+menu:
+    navbar_top:
+        name: Events & Training
+        weight: 40
 ---
 
 This section includes a list of upcoming conferences, webinars, workshops, and training opportunities related to pandemic preparedness and infectious disease. This includes events related to the management of data for these topics. We also welcome suggestions for events related to research data management in general. Such events will instead be listed on the [SciLifeLab Data Platform](https://data.scilifelab.se/events/). We highly encourage users to explore those events.
