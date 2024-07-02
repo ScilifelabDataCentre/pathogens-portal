@@ -79,27 +79,27 @@ figure.float-md-end {
 * Adapt header logo size for smaller mobile devices
 */
 
-@media (max-width: 311px) {
-  .navbar .navbar-brand {
-    max-width: 70%;
-  }
-}
-
 @media (max-width: 263px) {
   .navbar .navbar-brand {
     max-width: 65%;
   }
 }
 
-.navbar .navbar-brand img {
-  height: 65px;
-  max-width: 100%;
+@media (max-width: 311px) {
+  .navbar .navbar-brand {
+    max-width: 70%;
+  }
 }
 
-@media all and (min-width: 992px) {
+@media all and (min-width: 1400px) {
   .navbar .navbar-nav a.nav-link {
     padding: 0.3em 0.8rem;
   }
+}
+
+.navbar .navbar-brand img {
+  height: 65px;
+  max-width: 100%;
 }
 
 a.nav-link:hover,
@@ -110,7 +110,6 @@ a.nav-link:active {
 
 .nav-tabs a.nav-link,
 .nav-list a.nav-link {
-  /* color: #295986; */
   color: #4770b1;
   font-weight: 500;
 }
@@ -130,91 +129,72 @@ a.nav-link:active {
   font-weight: 600;
 }
 
-@media (max-width: 991px) {
-  .navbar .text-vert {
-    display: none;
-  }
-}
-
 .navbar .navbar-nav.navbar-top {
   margin-left: 1rem;
 }
 
-.navbar .navbar-nav.navbar-top li:not(:first-child) a {
-  padding-left: 0;
+.navbar-nav li.nav-item a.nav-link {
+  color: rgba(0, 0, 0, 0.75) !important;
 }
 
-.navbar-top li:not(:last-child) a span {
-  border-right: 1px solid #ccc;
-  padding-right: 1rem;
+.navbar-nav.navbar-top li.nav-item a.nav-link:hover {
+  color: rgba(0, 0, 0, 0.85) !important;
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0.85);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 6px;
 }
 
-.navbar-top a img {
-  width: 1.1rem;
-  opacity: 0.3;
-}
-.nav-languages a img {
-  width: 1.1rem;
-  opacity: 0.5;
-  margin-left: 0.1rem;
-  margin-bottom: 0.1rem;
+.navbar-top li.dropdown a.nav-link {
+  padding-right: 0;
 }
 
-.nav-languages li:not(:last-child) a span {
-  border-right: 1px solid #ccc;
-  padding-right: 1rem;
+.nav-languages li a {
+  text-decoration: none;
 }
 
-.nav-languages li:not(:first-child) a {
-  padding-left: 1rem;
+.languages-mobile a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.75)
 }
 
-.navbar-top a:hover img,
-.navbar-top a:focus img,
-.navbar-top a:active img,
-.nav-languages a:hover img,
-.nav-languages a:focus img,
-.nav-languages a:active img {
-  opacity: 1;
-}
-
-.navbar .navbar-nav a.nav-link.highlight {
-  border: 1px solid rgba(71, 112, 177, 0.9);
-  color: rgba(71, 112, 177, 0.9);
-  padding: 0.3rem 1rem;
-  margin: 0.5rem 0;
+.dropdown-menu.nav-languages {
+  min-width: 1rem;
   border-radius: 2px;
-  margin-left: 0.2em;
-  text-align: center;
+  padding: 4px 0px;
+  margin-top: 0;
 }
-.navbar .navbar-nav a.nav-link.highlight:hover,
-.navbar .navbar-nav a.nav-link.highlight:focus,
-.navbar .navbar-nav a.nav-link.highlight:active {
-  background-color: #d4de27;
-  border-color: #d4de27;
-  color: #1a1c1a;
+
+.dropdown-menu.nav-languages a.dropdown-item {
+  padding: 2px 10px;
+  font-size: 0.9rem;
+}
+
+.dropdown-menu.nav-languages a.dropdown-item:active {
+  background-color: rgba(216, 216, 216, 0.5);
+  color: rgba(0, 0, 0, 0.75);
 }
 
 .main_menu_item {
-  color: rgba(71, 112, 177, 0.9);
+  color: rgba(41, 89, 134, 0.85);
   font-weight: 500;
-  font-size: 1.25em;
+  font-size: 1.07em;
 }
 
 .main_menu_item a {
-  color: rgba(71, 112, 177, 0.9);
+  color: rgba(41, 89, 134, 0.85);
   text-decoration: none;
 }
 
 .main_menu_item_sub a {
   font-weight: 500;
-  color: rgba(71, 112, 177, 0.9);
+  color: rgba(41, 89, 134, 0.85);
   text-align: left;
   vertical-align: middle;
   background-color: transparent;
   border: 1px solid transparent;
   margin: 0.2rem 0.1rem;
-  font-size: 1rem;
+  font-size: 0.95rem;
   white-space: nowrap;
   padding-right: 0.5rem;
   text-decoration: none;
@@ -236,8 +216,7 @@ a.nav-link:active {
 .main_menu_item_sub a:hover,
 .main_menu_item_sub a:focus,
 .main_menu_item_sub a:active {
-  /* color: rgba(41, 89, 134, 1); */
-  color: rgba(71, 112, 177, 1);
+  color: rgba(41, 89, 134, 1);
 }
 
 .main_menu_item_sub_dropdown a {
@@ -266,7 +245,7 @@ a.nav-link:active {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 1.5rem 0;
+  padding: 1.1rem 0;
 }
 
 .breadcrumbs {
@@ -329,27 +308,6 @@ footer img {
   background-color: #295986 !important;
   border: solid 1px #295986;
 }
-
-/*
-
-This no longer an issue, commenting out on 2023-01-28,
-this commented section can be removed after a month or two
-
-There is a bug in Safari whereby it stretches an image nested 
-in a flexbox element to its natural height. I use the class below 
-for rows with images to fix that.
-
-.row_cor {
-    display: -ms-flexbox;
-    display: flex;
-    align-items: flex-start !important;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px ;
-}
-
-*/
 
 #dwbuttons .collapsed {
   background-color: white !important;

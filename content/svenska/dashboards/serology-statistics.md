@@ -9,6 +9,7 @@ menu:
     name: SARS-CoV-2 antikoppstester som utförts av SciLifeLab
 aliases:
   - /sv/data_types/health_data/serology-statistics/
+plotly: true
 ---
 
 <div class="alert alert-info">
@@ -24,20 +25,6 @@ Serologiska tester innebär att kroppsvätskor testas för förekomst av antikro
 
 <div class="alert alert-info">Senaste uppdatering: {{% serology_date_modified %}}.</div>
 
-<!-- ## Number of serology tests completed
-
-The below plot shows the total number (sum total) of serology tests related to SARS-CoV-2 completed by the SciLifeLab Autoimmunity and Serology Profiling unit since the beginning of the pandemic.
-
-<br>
-
-<div class="d-lg-none alert alert-info">
-  Scroll the plot sideways to view all of the data.
-</div>
-
-<div class="plot_wrapper">
-  <div class="w-100" id="total-number"></div>
-</div> -->
-
 ## Serologiska tester per vecka
 
 Antalet SARS-CoV-2 serologitester som SciLifeLab Autoimmunity and Serology Profiling-enheten genomförde varje vecka, uppdelat efter om testerna var positiva, negativa eller inom forskning och utveckling (R&D).
@@ -46,9 +33,13 @@ Antalet SARS-CoV-2 serologitester som SciLifeLab Autoimmunity and Serology Profi
   Att rotera mobiltelefonen kan förbättra grafens layout
 </div>
 
-<div class="plot_wrapper">
-  <div class="w-100" id="bar-chart"></div>
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive" style="min-width: 800px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/weekly_serology_tests.json" height="550px" >}}</div>
 </div>
+
+<!-- **Ladda ner data:** [Serology-testing-statistics-dataset-20202021.csv](https://blobserver.dc.scilifelab.se/blob/Serology-testing-statistics-dataset-20202021.csv) -->
+
+**Källkod som används för att skapa grafen:** [Källkod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/serology/weekly-serology-tests.py).
 
 ## Kumulativa serologiska tester
 
@@ -58,9 +49,13 @@ Det kumulativa antalet positiva, negativa och forsknings- och utvecklingstester 
   Att rotera mobiltelefonen kan förbättra grafens layout
 </div>
 
-<div class="plot_wrapper">
-  <div class="w-100" id="cumulative-plot"></div>
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive" style="min-width: 800px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/cumulative_serology_tests.json" height="550px" >}}</div>
 </div>
+
+<!-- **Ladda ner data:** [Serology-testing-statistics-dataset-20202021.csv](https://blobserver.dc.scilifelab.se/blob/Serology-testing-statistics-dataset-20202021.csv) -->
+
+**Källkod som används för att skapa grafen:** [Källkod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/serology/cumulative-serology-tests.py).
 
 #### Om serologisk testning vid enheten för Autoimmunity and Serology Profiling
 
@@ -69,11 +64,3 @@ Tidigt under covid-19-pandemin inleddes arbetet med att [utveckla en serologisk 
 Genom att jämföra och kombinera ett stort antal varianter av SARS-CoV-2-proteiner som antigener etablerades en [mycket känslig och specifik så kallad multiplex bead-based assay](https://doi.org/10.1002/cti2.1312). Assayen med hög kapacitet kan användas för att bearbeta upp till 8000 prover per vecka. De allra flesta prover som hittills har analyserats kommer från vårdpersonal, befolkningsbaserade studier, personal inom läkemedels- och bioteknikindustrin samt från flera olika forskningssamarbeten. Samarbetspartners och provleverantörer inkluderar samhällsstudien vid Danderyds universitetssjukhus ([se nyhet om uppföljningsstudie vid Danderyds universitetssjukhus](https://www.scilifelab.se/news/four-out-of-five-still-have-antibodies-against-sars-cov-2)), Karolinska universitetssjukhuset, Akademiska sjukhuset i Uppsala, Skånes universitetssjukhus, Universitetssjukhuset Örebro, Sophiahemmet, Folkhälsomyndigheten, RISE (Research Institutes of Sweden), AstraZeneca, Cytiva, SVPH, Karolinska Institutet, KTH, Uppsala universitet och Lunds universitet.
 
 Kolla in [Autoimmunity and Serology Profiling unit page](https://www.scilifelab.se/units/autoimmunity-profiling/) på SciLifeLabs webbplats för att få reda på mer om själva enheten. Publikationer som producerats av studier som använder enheten finns tillgängliga i databasen [SciLifeLab Infrastructure Publications](https://publications.scilifelab.se/label/Autoimmunity%20and%20Serology%20Profiling).
-
-<script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.12.2"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
-
-<script src="https://datagraphics.dc.scilifelab.se/graphic/e5c031600d334d889f33080d3f0ac0dd.js?id=bar-chart"></script>
-<script src="https://datagraphics.dc.scilifelab.se/graphic/4c635b2679e648e384d952dd3e506ff1.js?id=cumulative-plot"></script>
-<script src="https://datagraphics.dc.scilifelab.se/graphic/63d9201aee8747c9b37c17ebb6b01c35.js?id=total-number"></script>

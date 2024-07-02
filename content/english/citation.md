@@ -1,10 +1,9 @@
 ---
 title: How to cite the Portal
 menu:
-  top_actions:
+  navbar_top:
     name: Cite us
-    weight: 80
-    pre: <i class="bi bi-patch-exclamation-fill me-2"></i>
+    weight: 50
   footer_about:
     name: Cite us
     weight: 30

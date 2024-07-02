@@ -3,30 +3,12 @@
 <!-- Main content -->
 <div class="row">
   <div class="col-md-8 vert-line-right mt-3">
-    <!-- <div style="color: white;" class="bg-success border rounded py-2 px-4 mb-3 fst-italic">
-      {{ if eq $.Site.Language.LanguageName "Svenska" }}
-      <i class="bi bi-snow2"></i> <i class="bi bi-snow2"></i>
-      SciLifeLab Data Centre önskar er alla God Jul och Gott Nytt År! <i class="bi bi-snow2"></i> <i class="bi bi-snow2"></i><br> Teamet kommer att vara lediga från 20 december till 2 januari och kommer att svara på eventuella frågor/förfrågningar så snart som möjligt.
-      {{ else }}
-      <i class="bi bi-snow2"></i> <i class="bi bi-snow2"></i>
-      SciLifeLab Data Centre wish everyone a Merry Christmas and a Happy New Year! <i class="bi bi-snow2"></i> <i class="bi bi-snow2"></i><br> The team will be away from 20th December until 2nd January, and will respond to any questions/requests as soon as possible.
-      {{ end }}
-    </div> -->
-    
-    <!-- Cluster migration notice, un comment and modify date when migration date is set -->
-    <!-- div style="color: white;" class="bg-success border rounded py-2 px-4 mb-3 fst-italic">
-      {{ if eq $.Site.Language.LanguageName "Svenska" }}
-      Underhåll av Pathogens Portal Sverige kommer att genomföras måndagen den 29 april.<br>Användare kan därför uppleva vissa problem med att komma åt webbplatsen.
-      {{ else }}
-      The Swedish Pathogens Portal will be undergoing maintenance on Monday 29th April.<br>Users may experience some issues accessing the site during this time. 
-      {{ end }}
-    </div -->
 
     <!-- Dashboards -->
     {{ range .Site.Menus.homepage_dashboards }}
     <div class="row">
       <div class="col">
-        <h2>{{ .Name }}</h2>
+        <h3 class="mt-0">{{ .Name }}</h3>
       </div>
       <div class="col mt-2 pt-1 text-end see-all-link-text">
         <a href="{{ .Page.RelPermalink }}">
@@ -48,7 +30,7 @@
     {{ range .Site.Menus.homepage_highlights }}
     <div class="row mt-4 mb-2">
       <div class="col">
-        <h2>{{ .Name }}</h2>
+        <h3 class="mt-0">{{ .Name }}</h3>
       </div>
       <div class="col mt-2 pt-1 text-end see-all-link-text">
         <a href="{{ .Page.RelPermalink }}">See all highlights <i class="bi bi-arrow-right-square-fill"></i></a>
@@ -92,7 +74,7 @@
     {{ range .Site.Menus.homepage_available_data }}
     <div class="row mt-4 mb-2 pt-2">
       <div class="col">
-        <h2>{{ .Name }}</h2>
+        <h3 class="mt-0">{{ .Name }}</h3>
       </div>
       <div class="col mt-2 pt-1 text-end see-all-link-text">
         <a href="{{ .Page.RelPermalink }}all">See all datasets <i class="bi bi-arrow-right-square-fill"></i></a>
@@ -133,7 +115,7 @@
     {{ range .Site.Menus.homepage_biobanks }}
     <div class="row mt-4 mb-2 pt-2">
       <div class="col-9">
-        <h2>{{ .Name }}</h2>
+        <h3 class="mt-0">{{ .Name }}</h3>
       </div>
       <div class="col mt-2 pt-1 text-end see-all-link-text">
         <a target="_blank" href="https://biobanks.covid19dataportal.se/">
@@ -270,6 +252,34 @@
       req.send(null);
     } // function "getDataFromUrl" ends here
 
+    // Update banner title for homepage from the blobserver
+    function updateBanner(data) {
+      try {
+        // Get the current language
+        const lang = document.documentElement.lang;
+
+        // Find the active title for the 'portal' target
+        const title = data.banner_titles.find(title => title.target === 'pathogens-portal' && title.active);
+        if (title && title[lang]) {
+            const titleElement = document.querySelector('h2#home-banner');
+            titleElement.textContent = title[lang];
+        } else {
+            console.warn('No title found for the language.');
+        }
+      } catch (error) {
+        console.error('An error occurred while updating banner titles:', error);
+      } finally {
+        // Show the hidden banner regardless of whether titles were fetched successfully
+        const banner1 = document.getElementById("home-banner");
+        if (banner1) {
+          banner1.classList.remove("d-none");
+        } else {
+          console.warn('Banner element with ID "home-banner" not found.');
+        }
+      }
+    }; // function updateBanner ends here
+
+    // Add the events fetched from blobserver
     function addEvents(data) {
       var dataArray = data.items, eventList = [];
       // Not interested if the deadline has already passed
@@ -320,11 +330,18 @@
       };
     } // function "addEvents" ends here
 
-    // Call the function to fetch, parse and display events
+    // Call the function to update banner, if any mentioned in blob server
     getDataFromUrl(
-      decodeURIComponent("https%3A%2F%2Fblobserver.dc.scilifelab.se%2Fblob%2Fpathogens_portal_events.json"),
-      addEvents
-    );
+      decodeURIComponent("https%3A%2F%2Fblobserver.dc.scilifelab.se%2Fblob%2Ffreya-banner.json"),
+      updateBanner
+    )
+    // For english site, Call the function to fetch, parse and display events
+    if (document.documentElement.lang === "en") {
+      getDataFromUrl(
+        decodeURIComponent("https%3A%2F%2Fblobserver.dc.scilifelab.se%2Fblob%2Fpathogens_portal_events.json"),
+        addEvents
+      );
+    };
 
     // Add latest tag to very recent news when content is loaded
     document.querySelectorAll("#news-items-container .small").forEach(
@@ -338,16 +355,4 @@
   }); // Document "DOMContentLoaded" trigger ends here
 </script>
 
-<script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.0.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
-
-<script
-  src="https://datagraphics.dc.scilifelab.se/graphic/e4c6a7b8bff648a5adaabbdd3d994bf9.js?id=serology"></script>
-<script
-  src="https://datagraphics.dc.scilifelab.se/graphic/93bad55e86ad4b0f97d4d27c77862bc9.js?id=stockholm_wastewater"></script>
-<script
-  src="https://datagraphics.dc.scilifelab.se/graphic/d262787e199b4c9b8fbbaf5f95edb7bc.js?id=malmo_wastewater"></script>
-<script
-  src="https://datagraphics.dc.scilifelab.se/graphic/6d16b18be0d74425b313040c502f29c8.js?id=uppsala_wastewater"></script>
 {{ end }}

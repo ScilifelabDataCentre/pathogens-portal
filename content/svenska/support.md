@@ -1,11 +1,6 @@
 ---
 title: Stödtjänster
 toc: false
-menu:
-  top_actions:
-    name: Stödtjänster
-    weight: 70
-    pre: <i class="bi bi-people-fill me-2"></i>
 aliases:
   - /sv/support_services/bioinformatics/
 ---

@@ -14,6 +14,7 @@ menu:
 aliases:
   - /data_types/health_data/serology-statistics/
 dashboards_topics: [COVID-19, Infectious diseases]
+plotly: true
 ---
 
 <div class="alert alert-info">
@@ -29,20 +30,6 @@ Serology tests involve testing bodily fluids for the presence of antibodies or o
 
 <div class="alert alert-info">Data last updated: {{% serology_date_modified %}}.</div>
 
-<!-- ## Number of serology tests completed
-
-The below plot shows the total number (sum total) of serology tests related to SARS-CoV-2 completed by the SciLifeLab Autoimmunity and Serology Profiling unit since the beginning of the pandemic.
-
-<br>
-
-<div class="d-lg-none alert alert-info">
-  Scroll the plot sideways to view all of the data.
-</div>
-
-<div class="plot_wrapper">
-  <div class="w-100" id="total-number"></div>
-</div> -->
-
 ## Weekly serology tests
 
 The number of SARS-CoV-2 serology tests completed by the SciLifeLab Autoimmunity and Serology Profiling unit each week, divided according to whether tests were positive, negative, or research & development (R&D).
@@ -51,9 +38,13 @@ The number of SARS-CoV-2 serology tests completed by the SciLifeLab Autoimmunity
   Scroll the plot sideways to view all of the data.
 </div>
 
-<div class="plot_wrapper">
-  <div class="w-100" id="bar-chart"></div>
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive" style="min-width: 800px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/weekly_serology_tests.json" height="550px" >}}</div>
 </div>
+
+<!-- **Download the data:** [The number of R&D, negative, and positive tests done per week](https://blobserver.dc.scilifelab.se/blob/Serology-testing-statistics-dataset-20202021.csv) -->
+
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/serology/weekly-serology-tests.py).
 
 ## Cumulative serology tests
 
@@ -63,9 +54,13 @@ The cumulative number of positive, negative, and research & development (R&D) SA
   Scroll the plot sideways to view all of the data.
 </div>
 
-<div class="plot_wrapper">
-  <div class="w-100" id="cumulative-plot"></div>
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive" style="min-width: 800px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/cumulative_serology_tests.json" height="550px" >}}</div>
 </div>
+
+<!-- **Download the data:** [The number of R&D, negative, and positive tests done per week](https://blobserver.dc.scilifelab.se/blob/Serology-testing-statistics-dataset-20202021.csv) -->
+
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/serology/cumulative-serology-tests.py).
 
 #### About serology testing at the Autoimmunity and Serology Profiling unit
 
@@ -74,11 +69,3 @@ Early in the COVID-19 pandemic, work was initiated to [develop a serological ass
 By comparing and combining a large number of variants of SARS-CoV-2 proteins as antigens, a [highly sensitive and specific multiplex bead-based assay](https://doi.org/10.1002/cti2.1312) was established. The high-throughput assay can be used to process up to 8000 samples per week. The vast majority of samples analysed to date originated from healthcare personnel, population-based studies, personnel in the pharmaceutical and biotechnology industry, and from within multiple research collaborations. Collaborators and sample providers include the community study at Danderyd University Hospital ([see news involving a follow-up study at Danderyd University Hospital](https://www.scilifelab.se/news/four-out-of-five-still-have-antibodies-against-sars-cov-2)), Karolinska University Hospital, Uppsala University Hospital, Skåne University Hospital, Örebro University Hospital, Sophiahemmet Hospital, Public Health Agency of Sweden, RISE (Research Institutes of Sweden), AstraZeneca, Cytiva, SVPH, Karolinska Institutet, KTH, Uppsala University, and Lund University.
 
 Check out the [Autoimmunity and Serology Profiling unit page](https://www.scilifelab.se/units/autoimmunity-profiling/) on the SciLifeLab website to find out more about the unit itself. Publications produced by studies making use of the unit are available in the [SciLifeLab Infrastructure Publications database](https://publications.scilifelab.se/label/Autoimmunity%20and%20Serology%20Profiling).
-
-<script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.12.2"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
-
-<script src="https://datagraphics.dc.scilifelab.se/graphic/e5c031600d334d889f33080d3f0ac0dd.js?id=bar-chart"></script>
-<script src="https://datagraphics.dc.scilifelab.se/graphic/4c635b2679e648e384d952dd3e506ff1.js?id=cumulative-plot"></script>
-<script src="https://datagraphics.dc.scilifelab.se/graphic/63d9201aee8747c9b37c17ebb6b01c35.js?id=total-number"></script>
