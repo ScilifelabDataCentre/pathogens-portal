@@ -65,3 +65,9 @@ The website was built and is maintained by [SciLifeLab Data Centre](https://www.
 
 Liane
 Senthil
+
+### Umea Node
+
+Paul
+Nalina 
+Abdulla
