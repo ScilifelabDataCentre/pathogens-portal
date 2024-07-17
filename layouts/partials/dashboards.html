@@ -4,7 +4,7 @@
 {{ $displayed_in_homepage := .IsHome }}
 {{ $dashboards_to_show := slice }}
 
-{{/* Compile list of highlight to show depending upon the page */}}
+{{/* Compile list of dashboards to show depending upon the page */}}
 {{ if eq $currentPage.File "dashboards" }}
   {{ $dashboards_to_show = $dashboards_to_show | append (where $dashboards "Identifier" "ne" "all_dashboards") }}
 {{ else if $displayed_in_homepage }}
@@ -22,6 +22,7 @@
 
 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 {{ if not $displayed_in_homepage }}g-lg-3{{ end }}">
   {{ range $dashboards_to_show }}
+  {{ $dashboardPage := path.Split (path.Clean .Page.RelPermalink) }}
       <div class="col p-2">
         <div class="bg-dashboard">
           <!-- div {{ if .Page.Params.banner_border }}class="px-1 pt-1" {{ end }} -->
@@ -35,6 +36,9 @@
             <h6><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></h6>
           </div>
           <div class="p-2">
+              <small><b>Updated: <span id="{{ $dashboardPage.File }}"></span></b></small>
+          </div>
+          <div class="px-2">
             {{ .Page.Description }}
           </div>
           {{ if not $displayed_in_homepage }}
