@@ -5,7 +5,10 @@
     {{ range .Site.Menus.wastewater }}
     <li class="nav-item">
         <a class="nav-link{{ if eq $current_page .Page.RelPermalink }} active font-weight-bold{{ end }}"
-            href="{{ if eq $current_page .Page.RelPermalink }}#{{ else }}{{ .Page.RelPermalink }}{{ end }}">{{ .Name }}</a>
+          href="{{ if eq $current_page .Page.RelPermalink }}#{{ else }}{{ .Page.RelPermalink }}{{ end }}"
+          style="font-size: 0.935rem;">
+          {{ .Name }}
+        </a>
     </li>
     {{ end }}
 </ul>
