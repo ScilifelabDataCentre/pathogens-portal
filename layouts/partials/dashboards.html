@@ -52,3 +52,101 @@
       </div>
   {{ end }}
 </div>
+
+
+<script>
+
+// Fetch EBI index data and process dashboard cards
+ fetchEBIIndexData()
+     .then(processDashboardCards)
+     .catch(handleError);
+
+/**
+ * Fetch EBI index file from blobserver
+ */
+ function fetchEBIIndexData() {
+     return fetch('https://blobserver.dc.scilifelab.se/blob/pathogens_portal_EBI_index.json')
+         .then(response => response.json())
+         .then(data => data.entries);
+ }
+
+/**
+ * Process dashboard cards by grabbing the corresponding HTML elements,
+ * finding matching EBI entries based on each dashboard file name,
+ * and updating the 'last updated' date displayed in the card
+ */
+ function processDashboardCards(ebiEntries) {
+     const dashboardCards = document.querySelectorAll('.bg-dashboard');
+
+     dashboardCards.forEach(card => {
+         const spanElement = card.querySelector('span[id]');
+         const idValue = spanElement.id;
+
+         let matchingEbiEntry;
+
+         // Special case for 'covid_publications' dashboard card
+         if (idValue === 'covid_publications') {
+             matchingEbiEntry = findMatchingEntry(ebiEntries,'source_page', 'publications');
+         }
+         // Special case for 'wastewater' dashboard card
+         else if (idValue === 'wastewater') {
+             matchingEbiEntry = findMostRecentEntry(ebiEntries,'source_page', 'wastewater');
+         }
+         // Regular case where idValue is included in the source page path
+         else {
+             matchingEbiEntry = findMatchingEntry(ebiEntries,'source_page', idValue);
+         }
+
+         if (matchingEbiEntry) {
+             const updatedDateField = matchingEbiEntry.fields.find(field => field.name === 'updated_date');
+             const updatedDateStr = updatedDateField?.value;
+             const [year, month, day] = updatedDateStr.split('-');
+             const updatedDate = new Date(`20${year}-${month}-${day}`);
+             spanElement.textContent = updatedDate.toLocaleDateString('en-US', {
+                 year: 'numeric',
+                 month: 'short',
+                 day: 'numeric'
+             });
+         } else {
+             spanElement.textContent = 'No matching entry in EBI index';
+         }
+     });
+ }
+
+/**
+ * Find a matching EBI entry based on the specified field and its value
+ */
+ function findMatchingEntry(ebiEntries, fieldName, fieldValue) {
+     return ebiEntries.find(entry => entry.fields.find(field => field.name === fieldName && field.value.includes(fieldValue)));
+ }
+
+/**
+ * Find the most recent EBI entry based on the specified field and its value
+ */
+ function findMostRecentEntry(ebiEntries, fieldName, fieldValue) {
+     const matchingEntries = ebiEntries.filter(entry => entry.fields.find(field => field.name === fieldName && field.value.includes(fieldValue)));
+     let mostRecentEntry = null;
+     let mostRecentUpdatedDate = null;
+
+     matchingEntries.forEach(entry => {
+         const updatedDateStr = entry.fields.find(field => field.name === 'updated_date').value;
+         const [year, month, day] = updatedDateStr.split('-');
+         const updatedDate = new Date(`20${year}-${month}-${day}`);
+
+         if (!mostRecentUpdatedDate || updatedDate > mostRecentUpdatedDate) {
+             mostRecentUpdatedDate = updatedDate;
+             mostRecentEntry = entry;
+         }
+     });
+
+     return mostRecentEntry;
+ }
+
+/**
+ * Handle errors that occur during the execution of the code
+ */
+ function handleError(error) {
+     console.error(error);
+ }
+
+</script>
