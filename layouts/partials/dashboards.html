@@ -20,10 +20,10 @@
   {{ end }}
 {{ end }}
 
-<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 {{ if not $displayed_in_homepage }}g-lg-3{{ end }}">
+<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 {{ if not $displayed_in_homepage }}g-lg-3{{ end }}" id="dashboard-cards-container">
   {{ range $dashboards_to_show }}
   {{ $dashboardPage := path.Split (path.Clean .Page.RelPermalink) }}
-      <div class="col p-2">
+      <div class="col p-2" id="dashboard-card">
         <div class="bg-dashboard">
           <!-- div {{ if .Page.Params.banner_border }}class="px-1 pt-1" {{ end }} -->
           <div aria-hidden="true">
@@ -73,16 +73,17 @@
 /**
  * Process dashboard cards by grabbing the corresponding HTML elements,
  * finding matching EBI entries based on each dashboard file name,
- * and updating the 'last updated' date displayed in the card
+ * updating the 'last updated' date displayed in the card,
+ * and reordering the cards by most recent update date.
  */
  function processDashboardCards(ebiEntries) {
-     const dashboardCards = document.querySelectorAll('.bg-dashboard');
+     const dashboardCards = document.querySelectorAll('#dashboard-card');
+     const cardData = [];
 
      dashboardCards.forEach(card => {
          const spanElement = card.querySelector('span[id]');
          const idValue = spanElement.id;
-
-         let matchingEbiEntry;
+         let   matchingEbiEntry;
 
          // Special case for 'covid_publications' dashboard card
          if (idValue === 'covid_publications') {
@@ -107,10 +108,22 @@
                  month: 'short',
                  day: 'numeric'
              });
+
+             cardData.push({ card, updatedDate });
+
          } else {
              spanElement.textContent = 'No matching entry in EBI index';
          }
      });
+
+     // Sort the cardData array in descending order based on the updated date
+     cardData.sort((a, b) => b.updatedDate - a.updatedDate);
+
+     // Reorder the dashboard cards in the DOM
+     const container = document.querySelector('#dashboard-cards-container');
+     container.innerHTML = '';
+     cardData.forEach(({ card }) => container.appendChild(card));
+
  }
 
 /**
