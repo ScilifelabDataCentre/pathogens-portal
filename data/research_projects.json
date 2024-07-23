@@ -2,6 +2,84 @@
   "last_updated": "2023-03-06",
   "projects": [
     {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Formas",
+      "project_title": "A comprehensive assessment of the impact of Campylobacter positive broilers on human infection – from farm to molecular epidemiology",
+      "funding_amount": "2,962,992 kr",
+      "pi": "Wonhee Cha",
+      "pi_affiliation": "National Veterinary Institute, SVA",
+      "startdate": "2020-01-01",
+      "enddate": "2022-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2019-01541_Formas"
+    }
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Formas",
+      "project_title": "Curbing the emergence of antimicrobial resistance in a changing global livestock sector",
+      "funding_amount": "2,976,633 kr",
+      "pi": "Ulf Magnusson",
+      "pi_affiliation": "Swedish University of Agricultural Sciences",
+      "startdate": "2019-01-01",
+      "enddate": "2021-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2018-01093_Formas"
+    }
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Formas",
+      "project_title": "DisPersal of AntIbiotic Resistance and antibiotics in Water ecosystems and Influence on liveStock and aquatic wildlifE",
+      "funding_amount": "3,226,000 kr",
+      "pi": "Jonas Bonnedahl",
+      "pi_affiliation": "Linköping University",
+      "startdate": "2021-06-01",
+      "enddate": "2024-05-31 00:00:00",
+      "url": "https://www.vr.se/english/swecris.html#/project/2020-03193_Formas"
+    }
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Formas",
+      "project_title": "Genotyping for better knowledge o spread, virulence and resistance of coagulase negative staphylococci from cases of mastitis in dairy cows including zoonotic aspects",
+      "funding_amount": "2,879,280 kr",
+      "pi": "Karin Persson Waller",
+      "pi_affiliation": "National Veterinary Institute, SVA",
+      "startdate": "2019-01-01",
+      "enddate": "2021-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2018-01043_Formas"
+    }
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Formas",
+      "project_title": "Invertebrates as vectors of antimicrobial resistance genes in urban landscapes",
+      "funding_amount": "2,998,910 kr",
+      "pi": "Richard Svanbäck",
+      "pi_affiliation": "Uppsala University",
+      "startdate": "2024-01-01",
+      "enddate": "2026-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2023-01420_Formas"
+    }
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Formas",
+      "project_title": "Metagenomic time travel to study the evolution of antimicrobial resistance in microbiomes of wild Swedish mammals",
+      "funding_amount": "3,000,000 kr",
+      "pi": "Katerina Guschanski",
+      "pi_affiliation": "Uppsala University",
+      "startdate": "2020-01-01",
+      "enddate": "2022-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2019-00275_Formas"
+    }
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Formas",
+      "project_title": "Microsystem with electrical sensing of bacteria – a novel rapid diagnostic test",
+      "funding_amount": "2,989,847 kr",
+      "pi": "Maria Tenje",
+      "pi_affiliation": "Uppsala University",
+      "startdate": "2023-01-01",
+      "enddate": "2025-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-01032_Formas"
+    }
+    
+    {
       "topic": [
         "COVID-19",
         "Infectious diseases"
