@@ -3,6 +3,61 @@
   "projects": [
     {
       "topic": ["Antibiotic resistance"],
+      "funder": "Vinnova",
+      "project_title": "A new, safe and resistance-free treatment of vaginal fungal and bacterial infections",
+      "funding_amount": "3,000,000 kr",
+      "pi": "Annette SÄFHOLM",
+      "pi_affiliation": "GEDEA BIOTECH AB",
+      "startdate": "2023-04-01",
+      "enddate": "2024-06-30",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-03444_Vinnova"
+    }
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Vinnova",
+      "project_title": "Development of a novel interferon-based therapy to treat and prevent bacterial and viral infections",
+      "funding_amount": "4,999,997 kr",
+      "pi": "Irina Zaitseva",
+      "pi_affiliation": "FarmPharma AB (publ)",
+      "startdate": "2021-10-01",
+      "enddate": "2025-03-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2021-03284_Vinnova"
+    }
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Vinnova",
+      "project_title": "EbsArgent® development",
+      "funding_amount": "1,960,710 kr",
+      "pi": "Elias Arnér",
+      "pi_affiliation": “Thioredoxin Systems AB”,
+      "startdate": "2022-03-01",
+      "enddate": "2024-03-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-00526_Vinnova"
+    }
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Vinnova",
+      "project_title": "Microcalorimetrics for precision diagnostics of orthopaedic infections (CAL- ORTHO)",
+      "funding_amount": "1,400,000 kr",
+      "pi": "Marta Veses Garcia",
+      "pi_affiliation": "SYMCEL SVERIGE AB",
+      "startdate": "2023-05-01",
+      "enddate": "2025-03-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-03477_Vinnova"
+    }
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Vinnova",
+      "project_title": "Strategies against antibiotic resistance in Mycobacterium tuberculosis and ESKAPE pathogens",
+      "funding_amount": "4,420,000 kr",
+      "pi": "Robert Schnell",
+      "pi_affiliation": "Karolinska Institutet",
+      "startdate": "2017-09-01",
+      "enddate": "2020-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2017-00103_Vinnova"
+    }
+    {
+      "topic": ["Antibiotic resistance"],
       "funder": "Formas",
       "project_title": "A comprehensive assessment of the impact of Campylobacter positive broilers on human infection – from farm to molecular epidemiology",
       "funding_amount": "2,962,992 kr",
