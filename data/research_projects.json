@@ -1,6 +1,370 @@
 {
-  "last_updated": "2023-03-06",
+  "last_updated": "2024-07-23",
   "projects": [
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Swedish Research Council",
+      "project_title": "Bacterial Injection Machines within the Human Gut: Structure, Function and Potential as Novel Avenue in Precision Medicine to Battle Antimicrobial Resistance",
+      "funding_amount": "6,000,000 kr",
+      "pi": "Eva Maria Rebrova (Steiner)",
+      "pi_affiliation": "Lund University",
+      "startdate": "2023-12-01",
+      "enddate": "2027-11-30",
+      "url": "https://www.vr.se/english/swecris.html#/project/2023-02264_VR"
+    },
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Swedish Research Council",
+      "project_title": "Curing Sepsis - a personalized bench-to bedside approach for prediction and treatment of short and long-term complication in sepsis",
+      "funding_amount": "2,400,000 kr",
+      "pi": "Adam Linder",
+      "pi_affiliation": "Lund University",
+      "startdate": "2024-01-01",
+      "enddate": "2026-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2023-02707_VR"
+    },
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Swedish Research Council",
+      "project_title": "DELIVER: An Accelerated Antibiotic Screening Platform",
+      "funding_amount": "2,400,000 kr",
+      "pi": "Anders Karlén",
+      "pi_affiliation": "Uppsala University",
+      "startdate": "2023-01-01",
+      "enddate": "2025-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-00654_VR"
+    },
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Swedish Research Council",
+      "project_title": "Development of a molecular kit for the simplified detection of phenotypic antimicrobial resistance.",
+      "funding_amount": "1,998,241 kr",
+      "pi": "Vicente Jose Pelechano Garcia",
+      "pi_affiliation": "Karolinska Institutet",
+      "startdate": "2022-12-01",
+      "enddate": "2024-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-05272_VR"
+    },
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Swedish Research Council",
+      "project_title": "ENABLE-2, a platform for antibacterial drug development",
+      "funding_amount": "100,000,000 kr",
+      "pi": "Anders Karlén",
+      "pi_affiliation": "Uppsala University",
+      "startdate": "2021-07-01",
+      "enddate": "2024-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2021-06603_VR"
+    },
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Swedish Research Council",
+      "project_title": "Engineering of oligonucleotides for developing first-in-class antibiotics",
+      "funding_amount": "4,060,000 kr",
+      "pi": "Frank J. Hernandez",
+      "pi_affiliation": "Linköping University",
+      "startdate": "2022-01-01",
+      "enddate": "2025-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2021-05641_VR"
+    },
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Swedish Research Council",
+      "project_title": "Epidermal Bioelectronics for Infection Monitoring in Human Skin Wound",
+      "funding_amount": "6,000,000 kr",
+      "pi": "Onur Parlak",
+      "pi_affiliation": "Karolinska Institutet",
+      "startdate": "2023-01-01",
+      "enddate": "2026-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-01436_VR"
+    },
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Swedish Research Council",
+      "project_title": "Evolution and plasticity of cyclic di-nucleotide signaling networks in Bacteria",
+      "funding_amount": "3,200,000 kr",
+      "pi": "Ute Römling",
+      "pi_affiliation": "Karolinska Institutet",
+      "startdate": "2023-01-01",
+      "enddate": "2026-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-04865_VR"
+    },
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Swedish Research Council",
+      "project_title": "IDAR-Neo - Identification and characterization of fecal carriage of antimicrobial resistant bacteria in neonates in low-resource settings",
+      "funding_amount": "4,500,000 kr",
+      "pi": "Fredrik Westerlund",
+      "pi_affiliation": "Chalmers University of Technology",
+      "startdate": "2023-01-01",
+      "enddate": "2025-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-03490_VR"
+    },
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Swedish Research Council",
+      "project_title": "Identification of a Novel non-antibiotic Bactericidal agent to fight antimicrobial resistance",
+      "funding_amount": "5,000,000 kr",
+      "pi": "Shilpa Ray",
+      "pi_affiliation": "Karolinska Institutet",
+      "startdate": "2023-01-01",
+      "enddate": "2025-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-00500_VR"
+    },
+    
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Swedish Research Council",
+      "project_title": "Immunobiology of MAIT cells in the healthy and infected human host",
+      "funding_amount": "9,000,000 kr",
+      "pi": "Johan Sandberg",
+      "pi_affiliation": "Karolinska Institutet",
+      "startdate": "2023-12-01",
+      "enddate": "2028-11-30",
+      "url": "https://www.vr.se/english/swecris.html#/project/2023-02857_VR"
+    },
+
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Swedish Research Council",
+      "project_title": "Impact of transformation products of antimicrobial chemicals on the emergence of antimicrobial resistance in aquatic environments",
+      "funding_amount": "3,766,000 kr",
+      "pi": "Foon Yin Lai",
+      "pi_affiliation": "Swedish University of Agricultural Sciences",
+      "startdate": "2021-01-01",
+      "enddate": "2024-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2020-03675_VR"
+    },
+    
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Swedish Research Council",
+      "project_title": "Informing genomic surveillance by uncovering, phenotyping and prioritising resistance genes to new antibiotics",
+      "funding_amount": "3,500,000 kr",
+      "pi": "Anne Farewell",
+      "pi_affiliation": "University of Gothenburg",
+      "startdate": "2024-01-01",
+      "enddate": "2026-12-31",
+      "url": ""
+    },
+    
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Swedish Research Council",
+      "project_title": "Nanoengineered precision therapies of lower respiratory tract infections",
+      "funding_amount": "30,000,000 kr",
+      "pi": "Georgios Sotiriou",
+      "pi_affiliation": "Karolinska Institutet",
+      "startdate": "2022-01-01",
+      "enddate": "2027-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2021-02059_VR"
+    },
+    
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Swedish Research Council",
+      "project_title": "Novel strategies to treat serious infectious diseases and combat antimicrobial resistance",
+      "funding_amount": "5,600,000 kr",
+      "pi": "Kristian Riesbeck",
+      "pi_affiliation": "Lund University",
+      "startdate": "2011-01-01",
+      "enddate": "2014-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2010-04221_VR"
+    },
+    
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Swedish Research Council",
+      "project_title": "Proof-of-concept design of multivalent nanoparticle vaccines against antibiotic-resistant bacteria",
+      "funding_amount": "1,992,738 kr",
+      "pi": "Johan Malmström",
+      "pi_affiliation": "Lund University",
+      "startdate": "2022-12-01",
+      "enddate": "2024-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-05264_VR"
+    },
+    
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Swedish Research Council",
+      "project_title": "Standardized One Health surveillance of antiBiotic residues and antibiotic and heAvy metaL resisTance In BaltiC wAter environMents and wild biRds",
+      "funding_amount": "1,532,000 kr",
+      "pi": "Jonas Waldenström",
+      "pi_affiliation": "Linnaeus University",
+      "startdate": "2024-01-01",
+      "enddate": "2026-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2023-01741_VR"
+    },
+    
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Swedish Research Council",
+      "project_title": "Standardized One Health surveillance of antibiotic residues and antibiotic- and heavy metal resistance in Baltic water environments and wild birds",
+      "funding_amount": "1,943,000 kr",
+      "pi": "Jonas Bonnedahl",
+      "pi_affiliation": "Linköping University",
+      "startdate": "2024-01-01",
+      "enddate": "2026-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2023-01740_VR"
+    },
+    
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Swedish Research Council",
+      "project_title": "Structure, synthesis and recognition of carbohydrates and glycoconjugates",
+      "funding_amount": "4,267,000 kr",
+      "pi": "Johan Bengtsson-Palme",
+      "pi_affiliation": "Chalmers University of Technology",
+      "startdate": "2023-12-01",
+      "enddate": "2026-11-30",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-03014_VR"
+    },
+    
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Swedish Research Council",
+      "project_title": "The role of the normal flora in preventing respiratory infections and antibiotic resistance spread.",
+      "funding_amount": "2,400,000 kr",
+      "pi": "Anders P Håkansson",
+      "pi_affiliation": "Lund University",
+      "startdate": "2022-12-01",
+      "enddate": "2025-11-30",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-01296_VR"
+    },
+    
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Vinnova",
+      "project_title": "A new, safe and resistance-free treatment of vaginal fungal and bacterial infections",
+      "funding_amount": "3,000,000 kr",
+      "pi": "Annette SÄFHOLM",
+      "pi_affiliation": "GEDEA BIOTECH AB",
+      "startdate": "2023-04-01",
+      "enddate": "2024-06-30",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-03444_Vinnova"
+    },
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Vinnova",
+      "project_title": "Development of a novel interferon-based therapy to treat and prevent bacterial and viral infections",
+      "funding_amount": "4,999,997 kr",
+      "pi": "Irina Zaitseva",
+      "pi_affiliation": "FarmPharma AB (publ)",
+      "startdate": "2021-10-01",
+      "enddate": "2025-03-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2021-03284_Vinnova"
+    },
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Vinnova",
+      "project_title": "EbsArgent® development",
+      "funding_amount": "1,960,710 kr",
+      "pi": "Elias Arnér",
+      "pi_affiliation": "Thioredoxin Systems AB",
+      "startdate": "2022-03-01",
+      "enddate": "2024-03-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-00526_Vinnova"
+    },
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Vinnova",
+      "project_title": "Microcalorimetrics for precision diagnostics of orthopaedic infections (CAL- ORTHO)",
+      "funding_amount": "1,400,000 kr",
+      "pi": "Marta Veses Garcia",
+      "pi_affiliation": "SYMCEL SVERIGE AB",
+      "startdate": "2023-05-01",
+      "enddate": "2025-03-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-03477_Vinnova"
+    },
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Vinnova",
+      "project_title": "Strategies against antibiotic resistance in Mycobacterium tuberculosis and ESKAPE pathogens",
+      "funding_amount": "4,420,000 kr",
+      "pi": "Robert Schnell",
+      "pi_affiliation": "Karolinska Institutet",
+      "startdate": "2017-09-01",
+      "enddate": "2020-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2017-00103_Vinnova"
+    },
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Formas",
+      "project_title": "A comprehensive assessment of the impact of Campylobacter positive broilers on human infection – from farm to molecular epidemiology",
+      "funding_amount": "2,962,992 kr",
+      "pi": "Wonhee Cha",
+      "pi_affiliation": "National Veterinary Institute, SVA",
+      "startdate": "2020-01-01",
+      "enddate": "2022-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2019-01541_Formas"
+    },
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Formas",
+      "project_title": "Curbing the emergence of antimicrobial resistance in a changing global livestock sector",
+      "funding_amount": "2,976,633 kr",
+      "pi": "Ulf Magnusson",
+      "pi_affiliation": "Swedish University of Agricultural Sciences",
+      "startdate": "2019-01-01",
+      "enddate": "2021-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2018-01093_Formas"
+    },
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Formas",
+      "project_title": "DisPersal of AntIbiotic Resistance and antibiotics in Water ecosystems and Influence on liveStock and aquatic wildlifE",
+      "funding_amount": "3,226,000 kr",
+      "pi": "Jonas Bonnedahl",
+      "pi_affiliation": "Linköping University",
+      "startdate": "2021-06-01",
+      "enddate": "2024-05-31 00:00:00",
+      "url": "https://www.vr.se/english/swecris.html#/project/2020-03193_Formas"
+    },
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Formas",
+      "project_title": "Genotyping for better knowledge o spread, virulence and resistance of coagulase negative staphylococci from cases of mastitis in dairy cows including zoonotic aspects",
+      "funding_amount": "2,879,280 kr",
+      "pi": "Karin Persson Waller",
+      "pi_affiliation": "National Veterinary Institute, SVA",
+      "startdate": "2019-01-01",
+      "enddate": "2021-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2018-01043_Formas"
+    },
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Formas",
+      "project_title": "Invertebrates as vectors of antimicrobial resistance genes in urban landscapes",
+      "funding_amount": "2,998,910 kr",
+      "pi": "Richard Svanbäck",
+      "pi_affiliation": "Uppsala University",
+      "startdate": "2024-01-01",
+      "enddate": "2026-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2023-01420_Formas"
+    },
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Formas",
+      "project_title": "Metagenomic time travel to study the evolution of antimicrobial resistance in microbiomes of wild Swedish mammals",
+      "funding_amount": "3,000,000 kr",
+      "pi": "Katerina Guschanski",
+      "pi_affiliation": "Uppsala University",
+      "startdate": "2020-01-01",
+      "enddate": "2022-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2019-00275_Formas"
+    },
+    {
+      "topic": ["Antibiotic resistance"],
+      "funder": "Formas",
+      "project_title": "Microsystem with electrical sensing of bacteria – a novel rapid diagnostic test",
+      "funding_amount": "2,989,847 kr",
+      "pi": "Maria Tenje",
+      "pi_affiliation": "Uppsala University",
+      "startdate": "2023-01-01",
+      "enddate": "2025-12-31",
+      "url": "https://www.vr.se/english/swecris.html#/project/2022-01032_Formas"
+    },
+    
     {
       "topic": [
         "COVID-19",
