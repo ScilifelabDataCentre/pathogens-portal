@@ -10,6 +10,7 @@ menu:
 dashboards_topics:
   [COVID-19, Infectious diseases, Influenza, Enteric viruses, Mpox]
 toc: true
+data_status: "historic" # or "updating"
 ---
 
 ## Introduction

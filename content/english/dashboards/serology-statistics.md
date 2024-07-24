@@ -15,6 +15,7 @@ aliases:
   - /data_types/health_data/serology-statistics/
 dashboards_topics: [COVID-19, Infectious diseases]
 plotly: true
+data_status: "historic" # or "updating"
 ---
 
 <div class="alert alert-info">

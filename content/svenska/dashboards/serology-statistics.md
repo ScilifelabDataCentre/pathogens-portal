@@ -10,6 +10,7 @@ menu:
 aliases:
   - /sv/data_types/health_data/serology-statistics/
 plotly: true
+data_status: "historic" # or "updating"
 ---
 
 <div class="alert alert-info">

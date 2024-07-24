@@ -9,6 +9,7 @@ menu:
     identifier: clinmicro_uppsala
     name: SARS-CoV-2 whole genome sequencing (Region Uppsala)
 dashboards_topics: [COVID-19, Infectious diseases]
+data_status: "updating" # or "historic"
 ---
 
 ## Introduction

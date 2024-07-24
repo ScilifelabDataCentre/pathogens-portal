@@ -10,6 +10,7 @@ menu:
   dashboard_menu:
     identifier: crush_covid
     name: CRUSH Covid Uppsala (Partnerprojekt)
+data_status: "historic" # or "updating"
 ---
 
 <div class="containter">
