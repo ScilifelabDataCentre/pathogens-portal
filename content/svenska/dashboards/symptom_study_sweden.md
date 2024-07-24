@@ -22,7 +22,7 @@ COVID Symptom Study Sverige har två huvudsyften. Det första syftet är att und
 
 #### Uppskattad förekomst av symtomatiska covid-19 fall
 
-<div class="alert alert-info">Senast uppdaterad: {{% csss_date_modified %}}.</div>
+<div class="alert alert-info">Senast uppdaterad: {{% csss_date_modified %}} (uppdateras inte längre)</div>
 
 Nedan redovisas uppskattad förekomst av symtomatiska covid-19 fall i olika svenska regioner. Uppskattningen baseras på användardata från appen och en beräkningsmetod. som används för prediktion har utvecklats av forskargruppen bakom COVID Symptoms Study Sverige; se [denna sida](https://www.covid19app.lu.se/artikel/uppdatering-av-prediktionsmodell-0) för mer information om prediktionsmodellen. För mer detaljerad information om hur uppskattad förekomst och andra resultat vänligen se [COVID Symptoms Study Sveriges dashboard](https://csss-resultat.shinyapps.io/csss_dashboard/).
 
