@@ -13,6 +13,11 @@ toc: true
 data_status: "historic" # or "updating"
 ---
 
+
+<div class="alert alert-info bi bi-exclamation-triangle-fill">
+  <span>The data on this page is no longer updated but is kept for historical reference.</span>
+</div>
+
 ## Introduction
 
 The COVID-19 pandemic highlighted the importance of serological surveillance in tracking viral transmission dynamics, understanding immune responses, guiding vaccination strategies, and assisting in decisions related to public health. High-throughput serological assays for SARS-CoV-2 were developed very early in the pandemic at KTH and SciLifeLab to enable surveillance of populations globally. For information about work done with SARS-CoV-2 during the pandemic, see the [historical background section](#historical-background).

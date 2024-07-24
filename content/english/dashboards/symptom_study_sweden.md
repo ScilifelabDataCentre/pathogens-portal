@@ -23,7 +23,7 @@ COVID Symptom Study Sweden has two main objectives. The first objective is to in
 
 #### Estimated prevalence of symptomatic cases
 
-<div class="alert alert-info">Last updated: {{% csss_date_modified %}}.</div>
+<div class="alert alert-info">Last updated: {{% csss_date_modified %}} (no longer updating)</div>
 
 Below are estimates of the prevalence of symptomatic COVID-19 cases in various counties in Sweden. The estimates are made based on the app users' data using the prediction model developed by the team of researchers behind the COVID Symptoms Study Sweden; see [this page](https://www.covid19app.lu.se/artikel/uppdatering-av-prediktionsmodell-0) for more information about the prediction model (only available in Swedish). More detailed prevalence estimates and other results can be explored [on the official dashboard of the project results](https://csss-resultat.shinyapps.io/csss_dashboard/).
 
