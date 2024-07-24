@@ -10,6 +10,7 @@ menu:
   dashboard_menu:
     identifier: npc-statistics
     name: "SARS-CoV-2-tester vid National Pandemic Centre"
+data_status: "historic" # or "updating"
 ---
 
 <div class="alert alert-info small">

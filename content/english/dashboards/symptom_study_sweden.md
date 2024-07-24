@@ -12,6 +12,7 @@ menu:
 aliases:
     - /data_types/health_data/symptom_study_sweden/
 dashboards_topics: [COVID-19, Infectious diseases]
+data_status: "historic" # or "updating"
 ---
 
 **COVID Symptom Study Sweden** is a national research initiative for large-scale data collection and analysis of symptoms, exposure, and risk factors associated with the COVID-19 infection. The project is run by Lund University and Uppsala University in collaboration with King’s College London and Zoe Global Ltd. COVID Symptom Study Sweden is led by prof. Paul Franks and prof. Maria Gomez (Lund University) as well as prof. Tove Fall (Uppsala University).

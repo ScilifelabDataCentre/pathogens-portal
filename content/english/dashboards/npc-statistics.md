@@ -12,6 +12,7 @@ plotly: true
 aliases:
   - /data_types/health_data/npc-statistics/
 dashboards_topics: [COVID-19, Infectious diseases]
+data_status: "historic" # or "updating"
 ---
 
 <div class="alert alert-info small">

@@ -21,6 +21,7 @@ aliases:
   - /data_types/environment/
   - /dashboards/wastewater/introduction/
 dashboards_topics: [COVID-19, Infectious diseases, Enteric viruses, Influenza]
+data_status: "updating" # or "historic"
 ---
 
 ## Introduction

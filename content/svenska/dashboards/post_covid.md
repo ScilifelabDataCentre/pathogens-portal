@@ -10,6 +10,7 @@ menu:
     name: Postcovid
 aliases:
   - /sv/data_types/health_data/post_covid/
+data_status: "historic" # or "updating"
 ---
 
 <div class="alert alert-info">Vänligen notera att graferna endast har engelska figurtexter.</div>
