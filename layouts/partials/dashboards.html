@@ -95,26 +95,52 @@
 
 <script>
 
-// Fetch EBI index data and process dashboard cards
+ // Get the radio buttons and add an event listener to each one
+ const radioButtons = document.querySelectorAll('input[type="radio"][name="status"]');
+ radioButtons.forEach(button => button.addEventListener('change', filterDashboardCards));
+
+/**
+ * Filters the dashboard cards based on the selected radio button.
+ * Hides or shows the dashboard cards based on their data-status attribute.
+ */
+ function filterDashboardCards() {
+     const selectedStatus = document.querySelector('input[type="radio"][name="status"]:checked').value;
+     const dashboardCards = document.querySelectorAll('#dashboard-card');
+
+     dashboardCards.forEach(card => {
+         const dashboardDataStatus = card.getAttribute('data-status');
+
+         // Show or hide the card based on its data-status and the selected status
+         card.style.display = (dashboardDataStatus === selectedStatus || selectedStatus === 'all')? 'block' : 'none';
+     });
+ }
+
+</script>
+
+
+
+<script>
+
+ // Fetch EBI index data and process dashboard cards
  fetchEBIIndexData()
      .then(processDashboardCards)
      .catch(handleError);
 
-/**
- * Fetch EBI index file from blobserver
- */
+ /**
+  * Fetch EBI index file from blobserver
+  */
  function fetchEBIIndexData() {
      return fetch('https://blobserver.dc.scilifelab.se/blob/pathogens_portal_EBI_index.json')
          .then(response => response.json())
          .then(data => data.entries);
  }
 
-/**
- * Process dashboard cards by grabbing the corresponding HTML elements,
- * finding matching EBI entries based on each dashboard file name,
- * updating the 'last updated' date displayed in the card,
- * and reordering the cards by most recent update date.
- */
+ /**
+  * Process dashboard cards by grabbing the corresponding HTML elements,
+  * finding matching EBI entries based on each dashboard file name,
+  * updating the 'last updated' date displayed in the card,
+  * and reordering the cards by most recent update date.
+  */
  function processDashboardCards(ebiEntries) {
      const dashboardCards = document.querySelectorAll('#dashboard-card');
      const cardData = [];
@@ -152,6 +178,11 @@
 
          } else {
              spanElement.textContent = 'No matching entry in EBI index';
+
+             // FIXME temporary placeholder for multidisease data, waiting for EBI index file update
+             updatedDate = new Date("1993-03-27");
+             spanElement.textContent = "March 27 --> Panda's birthday :D";
+             cardData.push({ card, updatedDate });
          }
      });
 
@@ -165,16 +196,16 @@
 
  }
 
-/**
- * Find a matching EBI entry based on the specified field and its value
- */
+ /**
+  * Find a matching EBI entry based on the specified field and its value
+  */
  function findMatchingEntry(ebiEntries, fieldName, fieldValue) {
      return ebiEntries.find(entry => entry.fields.find(field => field.name === fieldName && field.value.includes(fieldValue)));
  }
 
-/**
- * Find the most recent EBI entry based on the specified field and its value
- */
+ /**
+  * Find the most recent EBI entry based on the specified field and its value
+  */
  function findMostRecentEntry(ebiEntries, fieldName, fieldValue) {
      const matchingEntries = ebiEntries.filter(entry => entry.fields.find(field => field.name === fieldName && field.value.includes(fieldValue)));
      let mostRecentEntry = null;
@@ -194,11 +225,12 @@
      return mostRecentEntry;
  }
 
-/**
- * Handle errors that occur during the execution of the code
- */
+ /**
+  * Handle errors that occur during the execution of the code
+  */
  function handleError(error) {
      console.error(error);
  }
 
 </script>
+
