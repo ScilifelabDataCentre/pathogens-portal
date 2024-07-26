@@ -1,6 +1,6 @@
 {{ $dashboards := .Site.Menus.dashboard_menu }}
 {{ $currentPage := path.Split (path.Clean .RelPermalink) }}
-{{ $homepage_dashboards := slice "clinmicro_uppsala" "post_covid" "wastewater" }}
+{{ $homepage_dashboards := slice "recovac" "clinmicro_uppsala" "wastewater" }}
 {{ $displayed_in_homepage := .IsHome }}
 {{ $dashboards_to_show := slice }}
 
@@ -20,37 +20,76 @@
   {{ end }}
 {{ end }}
 
-<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 {{ if not $displayed_in_homepage }}g-lg-3{{ end }}" id="dashboard-cards-container">
-  {{ range $dashboards_to_show }}
-  {{ $dashboardPage := path.Split (path.Clean .Page.RelPermalink) }}
-      <div class="col p-2" id="dashboard-card">
-        <div class="bg-dashboard">
-          <!-- div {{ if .Page.Params.banner_border }}class="px-1 pt-1" {{ end }} -->
-          <div aria-hidden="true">
-            <a href="{{ .Page.RelPermalink }}">
-              <img class="img-fluid" src="{{ with .Page.Params.banner }}{{ . }}{{ else }}{{ "/img/plp_default2.png" }}{{ end }}"
-                   alt="Thumbnail for {{ .Name }}">
-            </a>
-          </div>
-          <div class="p-2 bg-dashboard-title">
-            <h6><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></h6>
-          </div>
-          <div class="p-2">
-              <small><b>Updated: <span id="{{ $dashboardPage.File }}"></span></b></small>
-          </div>
-          <div class="px-2">
-            {{ .Page.Description }}
-          </div>
-          {{ if not $displayed_in_homepage }}
-            <div class="px-2 pb-3">
-            {{ range (.Page.GetTerms "dashboards_topics") }}
-                <span class="topic_badge_small"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
-            {{ end }}
+
+
+<div class="row">
+
+
+    <div id="dashboards-filter">
+        <div class="bg-light p-2" style="position: sticky; top: 15px;">
+            <div class="d-flex align-items-center justify-content-between">
+
+                <h5 class="">Data status</h5>
+                <div class="main_menu_item">
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input d-none" type="radio" id="all" name="status" value="all">
+                        <label class="form-check-label" for="all"><a>All</a></label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input d-none" type="radio" id="updating" name="status" value="updating">
+                        <label class="form-check-label" for="updating"><a>Updating</a></label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input d-none" type="radio" id="historic" name="status" value="historic">
+                        <label class="form-check-label" for="historic"><a>Historic</a></label>
+                    </div>
+
+                </div>
             </div>
-          {{ end }}
         </div>
-      </div>
-  {{ end }}
+    </div>
+
+
+    <div class="col-lg mt-lg-0">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 {{ if not $displayed_in_homepage }}g-lg-3{{ end }}" id="dashboard-cards-container">
+            {{ range $dashboards_to_show }}
+            {{ $dashboardPage := path.Split (path.Clean .Page.RelPermalink) }}
+            <div class="col p-2" id="dashboard-card" data-status="{{.Page.Params.data_status}}">
+                <div class="bg-dashboard">
+                    <!-- div {{ if .Page.Params.banner_border }}class="px-1 pt-1" {{ end }} -->
+                    <div aria-hidden="true">
+                        <a href="{{ .Page.RelPermalink }}">
+                            <img class="img-fluid" src="{{ with .Page.Params.banner }}{{ . }}{{ else }}{{ "/img/plp_default2.png" }}{{ end }}"
+                                 alt="Thumbnail for {{ .Name }}">
+                        </a>
+                    </div>
+                    <div class="p-2 bg-dashboard-title">
+                        <h6><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></h6>
+                    </div>
+                    <div class="p-2">
+                        <small><b>Updated: <span id="{{ $dashboardPage.File }}"></span></b></small>
+                        <br><small><b>{{.Page.Params.data_status}}</b></small>
+                    </div>
+                    <div class="px-2">
+                        {{ .Page.Description }}
+                    </div>
+                    {{ if not $displayed_in_homepage }}
+                    <div class="px-2 pb-3">
+                        {{ range (.Page.GetTerms "dashboards_topics") }}
+                        <span class="topic_badge_small"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+
+
 </div>
 
 
