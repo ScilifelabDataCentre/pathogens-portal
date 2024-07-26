@@ -24,7 +24,8 @@
 
 <div class="row">
 
-
+    {{ if or (eq $currentPage.File "dashboards") (strings.HasSuffix $currentPage.Dir "/dashboards/topics/" ) }}
+    <!-- Only display the filters on the /dashboards and /dashboards/topics pages -->
     <div id="dashboards-filter">
         <div class="bg-light p-2 d-flex align-items-center justify-content-between">
             <h5>{{ if eq $.Site.Language.LanguageName "English" }}Data status{{ else if eq $.Site.Language.LanguageName "Svenska" }}Datastatus{{ end }}</h5>
@@ -44,7 +45,7 @@
             </div>
         </div>
     </div>
-
+    {{ end }}
 
     <div class="col-lg mt-lg-0">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 {{ if not $displayed_in_homepage }}g-lg-3{{ end }}" id="dashboard-cards-container">
@@ -64,7 +65,6 @@
                     </div>
                     <div class="p-2">
                         <small><b>Updated: <span id="{{ $dashboardPage.File }}"></span></b></small>
-                        <br><small><b>{{.Page.Params.data_status}}</b></small>
                     </div>
                     <div class="px-2">
                         {{ .Page.Description }}
@@ -82,10 +82,10 @@
         </div>
     </div>
 
-
 </div>
 
 
+{{ if or (eq $currentPage.File "dashboards") (strings.HasSuffix $currentPage.Dir "/dashboards/topics/" ) }}
 <script>
  /**
   * This script adds the necessary logic for the filtering functionality of the dashboard cards.
@@ -95,10 +95,10 @@
  const radioButtons = document.querySelectorAll('input[type="radio"][name="status"]');
  radioButtons.forEach(button => button.addEventListener('change', filterDashboardCards));
 
-/**
- * Filters the dashboard cards based on the selected radio button.
- * Hides or shows the dashboard cards based on their data-status attribute.
- */
+ /**
+  * Filters the dashboard cards based on the selected radio button.
+  * Hides or shows the dashboard cards based on their data-status attribute.
+  */
  function filterDashboardCards() {
      const selectedStatus = document.querySelector('input[type="radio"][name="status"]:checked').value;
      const dashboardCards = document.querySelectorAll('.dashboard-card');
@@ -112,7 +112,7 @@
  }
 
 </script>
-
+{{ end  }}
 
 
 <script>

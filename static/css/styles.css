@@ -388,6 +388,27 @@ footer img {
   color: rgba(77, 77, 77, 0.8);
 }
 
+/* Styling of dashboard cards filter items */
+.filter-dashboards-items label {
+  color: rgba(41, 89, 134, 0.85);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.filter-dashboards-items label:hover {
+  color: rgba(41, 89, 134, 1);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 6px;
+}
+
+.filter-dashboards-items input:checked ~ label {
+  color: rgba(41, 89, 134, 1);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 6px;
+}
+
 /*
 * Styling of badges to indicate topics
 */
