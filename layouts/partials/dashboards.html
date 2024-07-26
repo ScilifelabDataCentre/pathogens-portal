@@ -24,34 +24,28 @@
 
 <div class="row">
 
-
+    {{ if or (eq $currentPage.File "dashboards") (strings.HasSuffix $currentPage.Dir "/dashboards/topics/" ) }}
+    <!-- Only display the filters on the /dashboards and /dashboards/topics pages -->
     <div id="dashboards-filter">
-        <div class="bg-light p-2" style="position: sticky; top: 15px;">
-            <div class="d-flex align-items-center justify-content-between">
-
-                <h5 class="">Data status</h5>
-                <div class="main_menu_item">
-
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input d-none" type="radio" id="all" name="status" value="all">
-                        <label class="form-check-label" for="all"><a>All</a></label>
-                    </div>
-
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input d-none" type="radio" id="updating" name="status" value="updating">
-                        <label class="form-check-label" for="updating"><a>Updating</a></label>
-                    </div>
-
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input d-none" type="radio" id="historic" name="status" value="historic">
-                        <label class="form-check-label" for="historic"><a>Historic</a></label>
-                    </div>
-
+        <div class="bg-light p-2 d-flex align-items-center justify-content-between">
+            <h5>Data status</h5>
+            <div class="filter-dashboards-items">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input d-none" type="radio" id="all" name="status" value="all">
+                    <label class="form-check-label" for="all"><a>All</a></label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input d-none" type="radio" id="updating" name="status" value="updating">
+                    <label class="form-check-label" for="updating"><a>Updating</a></label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input d-none" type="radio" id="historic" name="status" value="historic">
+                    <label class="form-check-label" for="historic"><a>Historic</a></label>
                 </div>
             </div>
         </div>
     </div>
-
+    {{ end }}
 
     <div class="col-lg mt-lg-0">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 {{ if not $displayed_in_homepage }}g-lg-3{{ end }}" id="dashboard-cards-container">
@@ -71,7 +65,6 @@
                     </div>
                     <div class="p-2">
                         <small><b>Updated: <span id="{{ $dashboardPage.File }}"></span></b></small>
-                        <br><small><b>{{.Page.Params.data_status}}</b></small>
                     </div>
                     <div class="px-2">
                         {{ .Page.Description }}
@@ -89,20 +82,20 @@
         </div>
     </div>
 
-
 </div>
 
 
+{{ if or (eq $currentPage.File "dashboards") (strings.HasSuffix $currentPage.Dir "/dashboards/topics/" ) }}
 <script>
 
  // Get the radio buttons and add an event listener to each one
  const radioButtons = document.querySelectorAll('input[type="radio"][name="status"]');
  radioButtons.forEach(button => button.addEventListener('change', filterDashboardCards));
 
-/**
- * Filters the dashboard cards based on the selected radio button.
- * Hides or shows the dashboard cards based on their data-status attribute.
- */
+ /**
+  * Filters the dashboard cards based on the selected radio button.
+  * Hides or shows the dashboard cards based on their data-status attribute.
+  */
  function filterDashboardCards() {
      const selectedStatus = document.querySelector('input[type="radio"][name="status"]:checked').value;
      const dashboardCards = document.querySelectorAll('#dashboard-card');
@@ -116,7 +109,7 @@
  }
 
 </script>
-
+{{ end  }}
 
 
 <script>
