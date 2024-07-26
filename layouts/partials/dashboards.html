@@ -1,14 +1,11 @@
 {{ $dashboards := .Site.Menus.dashboard_menu }}
 {{ $currentPage := path.Split (path.Clean .RelPermalink) }}
-{{ $homepage_dashboards := slice "recovac" "clinmicro_uppsala" "wastewater" }}
 {{ $displayed_in_homepage := .IsHome }}
 {{ $dashboards_to_show := slice }}
 
 {{/* Compile list of dashboards to show depending upon the page */}}
-{{ if eq $currentPage.File "dashboards" }}
+{{ if or (eq $currentPage.File "dashboards") ($displayed_in_homepage) }}
   {{ $dashboards_to_show = $dashboards_to_show | append (where $dashboards "Identifier" "ne" "all_dashboards") }}
-{{ else if $displayed_in_homepage }}
-  {{ $dashboards_to_show = $dashboards_to_show | append (where $dashboards "Identifier" "in" $homepage_dashboards) }}
 {{ else if strings.HasSuffix $currentPage.Dir "/topics/" }}
   {{ range $dashboards }}
     {{if in (apply .Page.Params.dashboards_topics "urlize" ".") $currentPage.File }}
@@ -172,10 +169,11 @@
          } else {
              spanElement.textContent = 'No matching entry in EBI index';
 
-             // FIXME temporary placeholder for multidisease data, waiting for EBI index file update
+             // FIXME temporary placeholder for multidisease data, waiting for EBI index file update, to be removed...
              updatedDate = new Date("1993-03-27");
              spanElement.textContent = "March 27 --> Panda's birthday :D";
              cardData.push({ card, updatedDate });
+             // ...down to here :)
          }
      });
 
@@ -185,7 +183,12 @@
      // Reorder the dashboard cards in the DOM
      const container = document.querySelector('#dashboard-cards-container');
      container.innerHTML = '';
-     cardData.forEach(({ card }) => container.appendChild(card));
+
+     {{ if $displayed_in_homepage }}
+       cardData.slice(0, 3).forEach(({ card }) => container.appendChild(card));
+     {{ else }}
+       cardData.forEach(({ card }) => container.appendChild(card));
+     {{ end }}
 
  }
 
