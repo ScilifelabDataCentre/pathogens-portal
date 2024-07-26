@@ -3,7 +3,6 @@ title: Amount of SARS-CoV-2 in wastewater (SEEC-SLU)
 plotly: true
 aliases:
   - /dashboards/wastewater/covid_quant_slu/
-data_status: "updating" # or "historic"
 ---
 
 <div class="mt-3">
