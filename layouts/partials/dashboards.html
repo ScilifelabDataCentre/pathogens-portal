@@ -12,9 +12,6 @@
       {{ $dashboards_to_show = $dashboards_to_show | append . }}
     {{ end }}
   {{ end }}
-  {{ if strings.HasPrefix $currentPage.Dir "/topics/" }}
-    {{ $dashboards_to_show = first 3 $dashboards_to_show }}
-  {{ end }}
 {{ end }}
 
 
@@ -109,7 +106,7 @@
  }
 
 </script>
-{{ end  }}
+{{ end }}
 
 
 <script>
@@ -185,7 +182,7 @@
      const container = document.querySelector('#dashboard-cards-container');
      container.innerHTML = '';
 
-     {{ if $displayed_in_homepage }}
+     {{ if or ($displayed_in_homepage) (strings.HasPrefix $currentPage.Dir "/topics/") }}
        cardData.slice(0, 3).forEach(({ card }) => container.appendChild(card));
      {{ else }}
        cardData.forEach(({ card }) => container.appendChild(card));
@@ -230,4 +227,3 @@
  }
 
 </script>
-
