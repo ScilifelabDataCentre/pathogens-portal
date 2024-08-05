@@ -12,6 +12,8 @@ dashboards_topics:
 toc: true
 ---
 
+<div class="alert alert-info">All data last updated: 2024-08-05</div>
+
 ## Introduction
 
 The COVID-19 pandemic highlighted the importance of serological surveillance in tracking viral transmission dynamics, understanding immune responses, guiding vaccination strategies, and assisting in decisions related to public health. High-throughput serological assays for SARS-CoV-2 were developed very early in the pandemic at KTH and SciLifeLab to enable surveillance of populations globally. For information about work done with SARS-CoV-2 during the pandemic, see the [historical background section](#historical-background).
@@ -357,6 +359,237 @@ Proteins designed, expressed, purified, and characterised at the [KTH node of Pr
         <td></td>
         <td>H3L</td>
         <td>HEK</td>
+      </tr>
+      <tr>
+        <td>Bordetella Pertussis</td>
+        <td></td>
+        <td>Pertussis toxin</td>
+        <td>Native</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Bordetella Pertussis</td>
+        <td></td>
+        <td>Membrane protein Pertactin</td>
+        <td></td>
+        <td>E. coli</td>
+      </tr>
+      <tr>
+        <td>Bordetella Pertussis</td>
+        <td>Strain Tomaha I</td>
+        <td>Filamentous haemagglutinin</td>
+        <td>Native</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Bordetella Pertussis</td>
+        <td>Strain Tomaha I</td>
+        <td>Native protein, whole cell</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Clostridium Tetanis</td>
+        <td></td>
+        <td>Tetanus toxin</td>
+        <td>Heavy chain fragment C</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Clostridium Tetanis</td>
+        <td></td>
+        <td>Tetanus toxoid</td>
+        <td>Native</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Corynebacterium Diphteria</td>
+        <td></td>
+        <td>Diphtheria toxin</td>
+        <td>Mutated G52E, native full length</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Corynebacterium Diphteria</td>
+        <td>Strain NCTC 10648</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Cytomegalovirus</td>
+        <td></td>
+        <td>Glycoprotein B</td>
+        <td></td>
+        <td>HEK</td>
+      </tr>
+      <tr>
+        <td>Epstein Barr Virus</td>
+        <td></td>
+        <td>Glycoprotein 125</td>
+        <td></td>
+        <td>HEK</td>
+      </tr>
+      <tr>
+        <td>Hepatitis Virus</td>
+        <td>HBV</td>
+        <td></td>
+        <td>Surface antigen, subtype adw</td>
+        <td>P. pastoris</td>
+      </tr>
+      <tr>
+        <td>Human Papillomavirus (HPV)</td>
+        <td>Type 16</td>
+        <td>Capsid protein L1</td>
+        <td>Full length</td>
+        <td>Yeast</td>
+      </tr>
+      <tr>
+        <td>Human Papillomavirus (HPV)</td>
+        <td>Type 18</td>
+        <td>Capsid protein L1</td>
+        <td>Full length</td>
+        <td>S. cerevisae</td>
+      </tr>
+      <tr>
+        <td>Human Papillomavirus (HPV)</td>
+        <td>Type 6</td>
+        <td>Capsid protein L1</td>
+        <td></td>
+        <td>E. coli</td>
+      </tr>
+      <tr>
+        <td>Human Papillomavirus (HPV)</td>
+        <td>Type 33</td>
+        <td>Capsid protein L1</td>
+        <td></td>
+        <td>E. coli</td>
+      </tr>
+      <tr>
+        <td>Measles Virus</td>
+        <td></td>
+        <td>Nucleoprotein</td>
+        <td></td>
+        <td>HEK</td>
+      </tr>
+      <tr>
+        <td>Measles Virus</td>
+        <td>Strain Edmonston</td>
+        <td></td>
+        <td>Native</td>
+        <td>Vero cells</td>
+      </tr>
+      <tr>
+        <td>Mumps Virus</td>
+        <td></td>
+        <td>Nucleoprotein</td>
+        <td></td>
+        <td>E. coli</td>
+      </tr>
+      <tr>
+        <td>Mumps Virus</td>
+        <td>Strain Jeryl-Lynn</td>
+        <td>Nucleoprotein</td>
+        <td>Full length</td>
+        <td>HEK</td>
+      </tr>
+      <tr>
+        <td>Mumps Virus</td>
+        <td></td>
+        <td>Nucleoprotein</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Mumps Virus</td>
+        <td>Strain Enders</td>
+        <td></td>
+        <td>Native</td>
+        <td>BSC-1 cells</td>
+      </tr>
+      <tr>
+        <td>Poliovirus</td>
+        <td>Type 1, Strain Sabin</td>
+        <td>Capsid protein</td>
+        <td></td>
+        <td>E. coli</td>
+      </tr>
+      <tr>
+        <td>Poliovirus</td>
+        <td>Type 2</td>
+        <td>Capsid protein VP3-VP1</td>
+        <td></td>
+        <td>E. coli</td>
+      </tr>
+      <tr>
+        <td>Poliovirus</td>
+        <td>Type 3</td>
+        <td>Capsid protein VP3-VP1</td>
+        <td></td>
+        <td>E. coli</td>
+      </tr>
+      <tr>
+        <td>Respiratory Syncytial Virus (RSV)</td>
+        <td>RSVA</td>
+        <td>Glycoprotein G</td>
+        <td></td>
+        <td>HEK</td>
+      </tr>
+      <tr>
+        <td>Rotavirus</td>
+        <td>Strain Rotavirus A/RVA/Vaccine/USA/Rotarix-AROLA490AB/1988/G1P1A</td>
+        <td>Glycoprotein VP7</td>
+        <td></td>
+        <td>HEK</td>
+      </tr>
+      <tr>
+        <td>Rotavirus</td>
+        <td>Strain SA-11</td>
+        <td></td>
+        <td></td>
+        <td>MA 104 cells</td>
+      </tr>
+      <tr>
+        <td>Rubella Virus</td>
+        <td></td>
+        <td></td>
+        <td>Grade 4 antigen</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Rubella Virus</td>
+        <td>Strain F-Therien</td>
+        <td>Nucleoprotein</td>
+        <td></td>
+        <td>HEK</td>
+      </tr>
+      <tr>
+        <td>Rubella Virus</td>
+        <td></td>
+        <td>Glycoprotein E1</td>
+        <td></td>
+        <td>E. coli</td>
+      </tr>
+      <tr>
+        <td>Rubella Virus</td>
+        <td>Strain F-Therien</td>
+        <td>Spike glycoprotein E1</td>
+        <td></td>
+        <td>HEK</td>
+      </tr>
+      <tr>
+        <td>Rubella Virus</td>
+        <td>Strain HPV-77</td>
+        <td></td>
+        <td>Rubella Vaccine</td>
+        <td>Insect cells</td>
+      </tr>
+      <tr>
+        <td>Streptococcus Pneumoniae</td>
+        <td></td>
+        <td>Cell wall polysaccharide antigen</td>
+        <td>Native</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
