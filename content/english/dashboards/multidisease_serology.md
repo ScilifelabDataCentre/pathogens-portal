@@ -360,6 +360,38 @@ Proteins designed, expressed, purified, and characterised at the [KTH node of Pr
         <td>H3L</td>
         <td>HEK</td>
       </tr>
+    </tbody>
+  </table>
+</div>
+
+## Ongoing work and collaborations
+
+The work of the project is now expanding into the area of flavivirus (Tick-borne encephalitis virus, Zika virus, Dengue virus, West Nile virus, Yellow fever virus, Japanese encephalitis virus) and herpesvirus (Epstein–Barr virus, Varicella zoster virus, Herpes simplex virus, Cytomegalovirus).
+
+The project is also collaborating with another SciLifeLab PLP project [“Systems-level immunomonitoring to unravel immune response to a novel pathogen”](/resources/immunomonitoring/), headed by Petter Brodin (Karolinska Institutet, KI) and Jochen Schwenk (KTH), to include a wide range of externally produced antigens representing a large part of the Swedish vaccination program, see list below.
+
+The multi-disease serological assay is under constant development and will gradually be incorporated into two SciLifeLab infrastructure units; [Autoimmunity and Serology Profiling](https://www.scilifelab.se/units/autoimmunity-profiling/) and [Affinity Proteomics Stockholm](https://www.scilifelab.se/units/affinity-proteomics/). The goal is to provide a flexible and quickly adaptable assay for high-throughput multiplex studies on seroprevalence, available to both the Public Health Agency of Sweden and researchers in academia and industry.
+
+### Externally produced antigens
+
+<div class="table-responsive">
+  <table id="antigens" class="table table-hover" width="100%">
+    <thead class="table-light">
+      <tr>
+        <th scope="col">Virus Type</th>
+        <th scope="col">Variant</th>
+        <th scope="col">Protein</th>
+        <th scope="col">Details</th>
+        <th scope="col">Host</th>
+      </tr>
+    </thead>
+      <tr>
+        <td>Bordetella Pertussis</td>
+        <td></td>
+        <td>Filamentous haemagglutinin</td>
+        <td></td>
+        <td></td>
+      </tr>
       <tr>
         <td>Bordetella Pertussis</td>
         <td></td>
@@ -590,172 +622,6 @@ Proteins designed, expressed, purified, and characterised at the [KTH node of Pr
         <td>Cell wall polysaccharide antigen</td>
         <td>Native</td>
         <td></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-## Ongoing work and collaborations
-
-The work of the project is now expanding into the area of flavivirus (Tick-borne encephalitis virus, Zika virus, Dengue virus, West Nile virus, Yellow fever virus, Japanese encephalitis virus) and herpesvirus (Epstein–Barr virus, Varicella zoster virus, Herpes simplex virus, Cytomegalovirus).
-
-The project is also collaborating with another SciLifeLab PLP project [“Systems-level immunomonitoring to unravel immune response to a novel pathogen”](/resources/immunomonitoring/), headed by Petter Brodin (Karolinska Institutet, KI) and Jochen Schwenk (KTH), to include a wide range of externally produced antigens representing a large part of the Swedish vaccination program, see list below.
-
-The multi-disease serological assay is under constant development and will gradually be incorporated into two SciLifeLab infrastructure units; [Autoimmunity and Serology Profiling](https://www.scilifelab.se/units/autoimmunity-profiling/) and [Affinity Proteomics Stockholm](https://www.scilifelab.se/units/affinity-proteomics/). The goal is to provide a flexible and quickly adaptable assay for high-throughput multiplex studies on seroprevalence, available to both the Public Health Agency of Sweden and researchers in academia and industry.
-
-### Externally produced antigens
-
-<div class="table-responsive">
-  <table id="antigens" class="table table-hover" width="100%">
-    <thead class="table-light">
-      <tr>
-        <th scope="col">Group</th>
-        <th scope="col">Subtype/Linage/Strain</th>
-      </tr>
-    </thead>
-      <tr>
-        <td>Pertussis</td>
-        <td>Bordetella pertussis Filamentous Hemagglutinin (FHA)</td>
-      </tr>
-      <tr>
-        <td>Pertussis</td>
-        <td>Bordetella pertussis Filamentous Hemagglutinin (FHA) - Bulk antigen</td>
-      </tr>
-      <tr>
-        <td>Pertussis</td>
-        <td>B. Pertussis toxin (mutant)</td>
-      </tr>
-      <tr>
-        <td>Pertussis</td>
-        <td>B. Pertussis Pertactin Protein [His]</td>
-      </tr>
-      <tr>
-        <td>Pertussis</td>
-        <td>Bordetella pertussis Filamentous Hemagglutinin (FHA) - Nativeantigen</td>
-      </tr>
-      <tr>
-        <td>Pertussis</td>
-        <td>B. Pertussis whole-cell (strain tahoma I)</td>
-      </tr>
-      <tr>
-        <td>Measles</td>
-        <td>Measles Virus Nucleoprotein (HEK293)</td>
-      </tr>
-      <tr>
-        <td>Measles</td>
-        <td>Native Measles virus</td>
-      </tr>
-      <tr>
-        <td>Rotavirus</td>
-        <td>Rotavirus VP7 Protein</td>
-      </tr>
-      <tr>
-        <td>Rotavirus</td>
-        <td>RotaVirus (Strain SA-11)</td>
-      </tr>
-      <tr>
-        <td>Rubella</td>
-        <td>Rubella virus nucleoprotein, C-terminal His-tag</td>
-      </tr>
-      <tr>
-        <td>Rubella</td>
-        <td>Rubella Virus Grade 4, natural antigen.</td>
-      </tr>
-      <tr>
-        <td>Rubella</td>
-        <td>Rubella E1</td>
-      </tr>
-      <tr>
-        <td>Rubella</td>
-        <td>Rubella virus E1, C-terminal SHFC-tag</td>
-      </tr>
-      <tr>
-        <td>Rubella</td>
-        <td>Rubella Spike Ectodomain (E1-E2)</td>
-      </tr>
-      <tr>
-        <td>Diphtheria</td>
-        <td>Diphtheria mutated toxin</td>
-      </tr>
-      <tr>
-        <td>Diphtheria</td>
-        <td>Diphtheria Toxoid</td>
-      </tr>
-      <tr>
-        <td>Mumps</td>
-        <td>Mumps Virus Nucleoprotein Recombinant</td>
-      </tr>
-      <tr>
-        <td>Mumps</td>
-        <td>Mumps virus nucleoprotein</td>
-      </tr>
-      <tr>
-        <td>Mumps</td>
-        <td>Mumps virus nucleoprotein, inactivated pathogen.</td>
-      </tr>
-      <tr>
-        <td>Mumps</td>
-        <td>Native Mumps virus</td>
-      </tr>
-      <tr>
-        <td>Humant Papillomvirus</td>
-        <td>HPV type 16 L1 Protein (full length)</td>
-      </tr>
-      <tr>
-        <td>Humant Papillomvirus</td>
-        <td>HPV type 18 L1 Protein (full length)</td>
-      </tr>
-      <tr>
-        <td>Humant Papillomvirus</td>
-        <td>Recombinant HPV type 6 L1 protein (VLP)</td>
-      </tr>
-      <tr>
-        <td>Humant Papillomvirus</td>
-        <td>Recombinant Human Papilloma Virus type 33 L1 protein (VLP)</td>
-      </tr>
-      <tr>
-        <td>Pneumococcus</td>
-        <td>S. Pneumoniae Cell Wall Polysaccharide Antigen</td>
-      </tr>
-      <tr>
-        <td>Tetanus</td>
-        <td>Clostridium tetani Tetanus Toxoid</td>
-      </tr>
-      <tr>
-        <td>Tetanus</td>
-        <td>Tetanus Toxoid, Recombinant Heavy Chain Fragment C</td>
-      </tr>
-      <tr>
-        <td>Hepatit-B</td>
-        <td>HBV Surface Antigen (subtype adw)</td>
-      </tr>
-      <tr>
-        <td>Poliovirus </td>
-        <td>Recombinant Poliovirus type 1 Capsid protein (strain Sabin)</td>
-      </tr>
-      <tr>
-        <td>Poliovirus </td>
-        <td>Recombinant Poliovirus type 2 VP3-VP1 capsid Protein [His]</td>
-      </tr>
-      <tr>
-        <td>Poliovirus </td>
-        <td>Recombinant Poliovirus type 3 VP3-VP1 capsid protein</td>
-      </tr>
-      <tr>
-        <td>Cytomegalovirus (CMV)</td>
-        <td>Cytomegalovirus glycoprotein B (gB)</td>
-      </tr>
-      <tr>
-        <td>Epstein–Barr virus (EBV)</td>
-        <td>Epstein Barr Virus gp125</td>
-      </tr>
-      <tr>
-        <td>Epstein–Barr virus (EBV)</td>
-        <td>Epstein–Barr nuclear antigen 1</td>
-      </tr>
-      <tr>
-        <td>Respiratory syncytial</td>
-        <td>Respiratory Syncytial Virus A Glycoprotein G</td>
       </tr>
     <tbody>
     </tbody>
