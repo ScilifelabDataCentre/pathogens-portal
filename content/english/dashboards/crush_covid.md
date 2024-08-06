@@ -14,6 +14,10 @@ dashboards_topics: [COVID-19, Infectious diseases]
 data_status: "historic" # or "updating"
 ---
 
+<div class="alert alert-info">
+  <span class="bi bi-exclamation-triangle-fill"> The data presented here is no longer updated but is kept for historical reference.</span>
+</div>
+
 <div class="containter">
 <div class="row mr-2 mt-2">
 <div class="col-lg-9">

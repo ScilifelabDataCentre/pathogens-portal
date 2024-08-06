@@ -10,6 +10,7 @@ menu:
     name: Administrering av covid-19 vaccin
 aliases:
   - /sv/data_types/health_data/vaccines/
+dashboards_topics: [COVID-19, Infectious diseases]
 data_status: "historic" # or "updating"
 ---
 

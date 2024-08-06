@@ -5,18 +5,19 @@ aliases:
   - /sv/dashboards/wastewater/covid_quant_kth/
 ---
 
-<div class="alert alert-info">Från juni 2023 kommer SARS-COV-2 data från SEEK-KTH inte längre uppdateras. SARS-COV-2 data efter juni 2023 <a href="/sv/dashboards/wastewater/covid_quantification/covid_quant_slu/">finns tillgängligt från andra forskargrupper.</a></div>
-
 <div class="mt-3">
   <a href="/sv/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Gå tillbaka till SARS-CoV-2-kvantifiering inom avloppsvattenbaserad epidemiologi-dashboarden</a>
 </div>
 <br>
 
+<div class="alert alert-info">Från juni 2023 kommer SARS-COV-2 data från SEEK-KTH inte längre uppdateras. SARS-COV-2 data efter juni 2023 <a href="/sv/dashboards/wastewater/covid_quantification/covid_quant_slu/">finns tillgängligt från andra forskargrupper.</a></div>
+
+
 ## Introduktion
 
 Projektet leds av professor Zeynep Cetecioglu Gurol med hjälp av Mariel Perez-Zabaleta and Isaac Owusu-Agyeman verksamna vid Kungliga Tekniska högskolan (KTH). Bioinformatikanalyser av avloppsvattendata sker i samarbete med professor Luisa Hugerth (Uppsala Universitet). Forskarsamarbetet utgör SEEC-KTH. SEEC-KTH är nu en del av [Institutionen för Industriell bioteknologi](https://www.kth.se/dib/department-of-industrial-biotechnology-1.783103) vid KTH. Projektet finansieras nu som en del av SciLifeLab Pandemic Laboratory Preparedness (PLP) program. Mer information om PLP-programmet finns i [resources section](/resources/).
 
-Data och visualiseringar på den här sidan uppdateras vanligtvis veckovis, oftast på fredagar. Data bakom dashboarden uppdateras kontinuerligt.
+Data och visualiseringar på den här **sidan uppdateras inte längre**.
 
 ## Insamlingsplatser för avloppsvatten
 
@@ -34,7 +35,7 @@ Notera också att även om samma metoder används för alla städer som visas p�
 
 ### Stockholm
 
-<div class="alert alert-info">Senast uppdaterad: <span id="last_modified_stockholm"></span></div>
+<div class="alert alert-info">Senast uppdaterad: <span id="last_modified_stockholm"></span> (uppdateras inte längre)</div>
 
 <button type="button" class="btn btn-sm btn-outline-secondary mb-2" data-bs-toggle="modal" data-bs-target="#interactiveFeaturesModal">
   Hur du kan använda grafens interaktiva funktioner
@@ -76,7 +77,7 @@ Notera också att även om samma metoder används för alla städer som visas p�
 
 ### Malmö
 
-<div class="alert alert-info">Senast uppdaterad: <span id="last_modified_malmo"></span></div>
+<div class="alert alert-info">Senast uppdaterad: <span id="last_modified_malmo"></span> (uppdateras inte längre)</div>
 
 <div class="d-md-none alert alert-info">
   Att rotera mobiltelefonen kan förbättra grafens layout

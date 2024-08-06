@@ -8,6 +8,7 @@ menu:
   dashboard_menu:
     identifier: recovac
     name: Registerbaserade vaccindata (RECOVAC)
+data_status: "updating" # or "historic"
 ---
 
 <div class="alert alert-info">

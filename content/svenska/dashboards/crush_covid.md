@@ -10,8 +10,13 @@ menu:
   dashboard_menu:
     identifier: crush_covid
     name: CRUSH Covid Uppsala (Partnerprojekt)
+dashboards_topics: [COVID-19, Infectious diseases]
 data_status: "historic" # or "updating"
 ---
+
+<div class="alert alert-info">
+  <span class="bi bi-exclamation-triangle-fill"> De data som presenteras här uppdateras inte längre utan bevaras för historisk referens.</span>
+</div>
 
 <div class="containter">
 <div class="row mr-2 mt-2">

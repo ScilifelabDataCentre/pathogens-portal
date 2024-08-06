@@ -20,6 +20,8 @@ aliases:
   - /sv/data_types/environment/wastewater/
   - /sv/data_types/environment/
   - /sv/dashboards/wastewater/introduction/
+dashboards_topics: [COVID-19, Infectious diseases, Enteric viruses, Influenza]
+data_status: "updating" # or "historic"
 ---
 
 <!-- markdownlint-disable MD051 -->
@@ -40,7 +42,7 @@ Data som visas på den här dashboarden är uppdelad efter de olika patogener so
 
 - [**Kvantifiering av Enteriska virus**](/sv/dashboards/wastewater/enteric_quantification/): Data, visualiseringar och information kopplad till kvantifiering av Enteriska virus i avloppsvatten från Göteborg. Dessa data har samlats in, analyserats och delats av Nordergruppen vid Göteborgs universitet (GU).
 
-- [**Kvantifiering av Influensa virus**](/sv/dashboards/wastewater/influensa_quantification/): Data, visualiseringar och information kopplad till kvantifiering av Influensa i avloppsvatten från olika delar av Sverige. Dessa data har samlats in, analyserats och delats av SEEC-noden vid Sveriges lantbruksuniversitet (SLU).
+- [**Kvantifiering av Influensa virus**](/sv/dashboards/wastewater/influenza_quantification/): Data, visualiseringar och information kopplad till kvantifiering av Influensa i avloppsvatten från olika delar av Sverige. Dessa data har samlats in, analyserats och delats av SEEC-noden vid Sveriges lantbruksuniversitet (SLU).
 
 ## Tillgänglighet av källkod
 

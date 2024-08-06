@@ -10,6 +10,8 @@ menu:
     name: Översikt över COVID-19 publikationer
 aliases:
   - /projects/dashboard/
+dashboards_topics: [COVID-19, Infectious diseases]
+data_status: "updating" # or "historic"
 ---
 
 <div class="alert alert-info">

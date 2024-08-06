@@ -5,18 +5,18 @@ aliases:
   - /dashboards/wastewater/covid_quant_kth/
 ---
 
-<div class="alert alert-info">As of June 2023, the SARS-CoV-2 data will no longer be updated by SEEC-KTH. Data from after June 2023 is <a class="dark-blue" href="/dashboards/wastewater/covid_quantification/covid_quant_slu/">available from other research groups.</a></div>
-
 <div class="mt-3">
   <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a>
 </div>
 <br>
 
+<div class="alert alert-info">As of June 2023, the SARS-CoV-2 data will no longer be updated by SEEC-KTH. Data from after June 2023 is <a class="dark-blue" href="/dashboards/wastewater/covid_quantification/covid_quant_slu/">available from other research groups.</a></div>
+
 ## Introduction
 
 This project is led by associate professor Zeynep Cetecioglu Gurol and supported by Mariel Perez-Zabaleta and Isaac Owusu-Agyeman at KTH Royal Institute of Technology (KTH). Bioinformatics analyses of wastewater samples are held by assistant professor Luisa Hugerth (Uppsala University). This group of researchers are known as SEEC-KTH. The project was established as a collaboration between the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19), and the [SEED](https://www.kth.se/en/seed) and [Chemical Engineering](https://www.kth.se/ket/chemical-engineering-1.784196) departments at KTH. The project is now funded as part of the SciLifeLab Pandemic Laboratory Preparedness (PLP) Program. More information about the PLP program can be found in our [resources section](/resources/). SEEC-KTH is now part of the [Department of Industrial Biotechnology](https://www.kth.se/dib/department-of-industrial-biotechnology-1.783103) at KTH.
 
-The data and visualisations on this page are usually updated weekly, typically on Fridays. Data and information about the group on this dashboard are updated frequently, so please check back regularly to stay up to date.
+The data and visualisations on this page are **no longer being updated**.
 
 ## Wastewater collection sites
 
@@ -34,7 +34,7 @@ Please also note that although the same methods are used for all cities shown on
 
 ### Stockholm
 
-<div class="alert alert-info">Last updated: <span id="last_modified_stockholm"></span></div>
+<div class="alert alert-info">Last updated: <span id="last_modified_stockholm"></span> (no longer updating)</div>
 
 <button type="button" class="btn btn-sm btn-outline-secondary mb-2" data-bs-toggle="modal" data-bs-target="#interactiveFeaturesModal">
   How to use the interactive features of the plot
@@ -77,7 +77,7 @@ Please also note that although the same methods are used for all cities shown on
 
 ### Malmö
 
-<div class="alert alert-info">Last updated: <span id="last_modified_malmo"></span></div>
+<div class="alert alert-info">Last updated: <span id="last_modified_malmo"></span> (no longer updating)</div>
 
 <div class="d-md-none alert alert-info">
   Rotating your phone may improve graph layout

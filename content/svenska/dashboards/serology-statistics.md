@@ -9,8 +9,9 @@ menu:
     name: SARS-CoV-2 antikoppstester som utförts av SciLifeLab
 aliases:
   - /sv/data_types/health_data/serology-statistics/
+dashboards_topics: [COVID-19, Infectious diseases]
 plotly: true
-data_status: "historic" # or "updating"
+data_status: "updating" # or "historic"
 ---
 
 <div class="alert alert-info">
@@ -24,7 +25,7 @@ Serologiska tester innebär att kroppsvätskor testas för förekomst av antikro
 - **Negativa tester**: Serologiska tester som indikerar _frånvaro_ av immunoglobulin G (IgG)-antikroppar mot SARS-CoV-2-proteiner.
 - **R&D-tester**: Alla återstående serum-, plasma- och salivprover som kompletterades för att testa nivåerna IgG-, IgM- eller IgA-antikroppar mot SARS-CoV-2-proteiner. Detta omfattar alla positiva och negativa kontroller, alla replikerade och omreplikerade prover och analyser, alla prover som analyserats under den kontinuerliga utvecklingen och optimeringen av testerna, tekniskt misslyckade prover och alla forskningsrelaterade projekt.
 
-<div class="alert alert-info">Senaste uppdatering: {{% serology_date_modified %}} (uppdateras inte längre)</div>
+<div class="alert alert-info">Senaste uppdatering: {{% serology_date_modified %}}</div>
 
 ## Serologiska tester per vecka
 
