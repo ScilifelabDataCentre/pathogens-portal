@@ -612,7 +612,7 @@ The multi-disease serological assay is under constant development and will gradu
       <tr>
         <td>Rubella Virus</td>
         <td>Strain HPV-77</td>
-        <td></td>
+        <td>Spike glycoprotein E1 & E2</td>
         <td>Rubella Vaccine</td>
         <td>Insect cells</td>
       </tr>
