@@ -105,22 +105,22 @@
       <div class="d-lg-none">
         <!-- Data Highlights & Editorials -->
         <div class="main_menu_item pb-1">
-          <a href="#highlightAndEditorial" data-bs-toggle="collapse"  role="button"
-             aria-expanded="false" aria-controls="highlightAndEditorial">
+          <a href="#highlightAndEditorialMobile" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="highlightAndEditorialMobile">
              <i class="bi bi-pencil-square"></i> Data Highlights & Editorials <i class="bi bi-caret-down-fill small"></i>
            </a>
-            <div class="collapse main_menu_item_sub ps-4" id="highlightAndEditorial">
+            <div class="collapse main_menu_item_sub ps-4" id="highlightAndEditorialMobile">
               <a class="d-block" href="/highlights/">Data Highlights</a>
               <a class="d-block" href="/editorials/">Editorials</a>
             </div>
         </div>
         <!-- Data Dashboards -->
         <div class="main_menu_item pb-1">
-          <a href="#dataDashboards" data-bs-toggle="collapse"  role="button"
-             aria-expanded="false" aria-controls="dataDashboards">
+          <a href="#dataDashboardsMobile" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="dataDashboardsMobile">
              <i class="bi bi-graph-up"></i> Data Dashboards <i class="bi bi-caret-down-fill small"></i>
           </a>
-          <div class="collapse main_menu_item_sub ps-4" id="dataDashboards">
+          <div class="collapse main_menu_item_sub ps-4" id="dataDashboardsMobile">
             {{ range .Site.Menus.dashboard_menu }}
             <a class="d-block" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
             {{ end }}
@@ -128,11 +128,11 @@
         </div>
         <!-- Share & Access Data -->
         <div class="main_menu_item pb-1">
-          <a href="#shareAndAccessData" data-bs-toggle="collapse"  role="button"
-             aria-expanded="false" aria-controls="shareAndAccessData">
+          <a href="#shareAndAccessDataMobile" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="shareAndAccessDataMobile">
             <i class="bi bi-archive"></i> Share & Access Data <i class="bi bi-caret-down-fill small"></i>
           </a>
-          <div class="collapse main_menu_item_sub ps-4" id="shareAndAccessData">
+          <div class="collapse main_menu_item_sub ps-4" id="shareAndAccessDataMobile">
             <a class="d-block" href="/share-data/">Share data</a>
             <a class="d-block" href="/datasets/all/">Available datasets</a>
             <a class="d-block" href="/dashboards/">Data dashboards</a>
@@ -143,11 +143,11 @@
         </div>
         <!-- Research & Funding -->
         <div class="main_menu_item pb-1">
-          <a href="#researchAndFunding" data-bs-toggle="collapse"  role="button"
-             aria-expanded="false" aria-controls="researchAndFunding">
+          <a href="#researchAndFundingMobile" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="researchAndFundingMobile">
             <i class="bi bi-inboxes-fill"></i> Research & Funding <i class="bi bi-caret-down-fill small"></i>
           </a>
-          <div class="collapse main_menu_item_sub ps-4" id="researchAndFunding">
+          <div class="collapse main_menu_item_sub ps-4" id="researchAndFundingMobile">
             {{ range .Site.Menus.research_menu }}
             <a class="d-block" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
             {{ end }}
@@ -155,11 +155,11 @@
         </div>
         <!-- Pandemic Preparedness -->
         <div class="main_menu_item pb-1">
-          <a href="#pandemicPreparedness" data-bs-toggle="collapse"  role="button"
-             aria-expanded="false" aria-controls="pandemicPreparedness">
+          <a href="#pandemicPreparednessMobile" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="pandemicPreparednessMobile">
             <i class="bi bi-clipboard-data"></i> Pandemic Preparedness <i class="bi bi-caret-down-fill small"></i>
           </a>
-          <div class="collapse main_menu_item_sub ps-4" id="pandemicPreparedness">
+          <div class="collapse main_menu_item_sub ps-4" id="pandemicPreparednessMobile">
             <a class="d-block" href="/pathogens/">Emerging Pathogens</a>
             <a class="d-block" href="/plp-program-background/">SciLifeLab PLP</a>
             <a class="d-block" href="/resources/">Preparedness Resources</a>
@@ -167,11 +167,11 @@
         </div>
         <!-- Topics -->
         <div class="main_menu_item pb-1">
-          <a href="#topics" data-bs-toggle="collapse"  role="button"
-             aria-expanded="false" aria-controls="topics">
+          <a href="#topicsMobile" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="topicsMobile">
             <i class="bi bi-card-list"></i> Topics <i class="bi bi-caret-down-fill small"></i>
           </a>
-          <div class="collapse main_menu_item_sub ps-4" id="topics">
+          <div class="collapse main_menu_item_sub ps-4" id="topicsMobile">
             {{ range .Site.Menus.topics_menu }}
             <a class="d-block" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
             {{ end }}
@@ -186,11 +186,11 @@
       <div class="d-lg-none">
         <!-- Data dashboards -->
         <div class="main_menu_item pb-1">
-          <a href="#dataDashboards" data-bs-toggle="collapse"  role="button"
-             aria-expanded="false" aria-controls="dataDashboards">
+          <a href="#dataDashboardsMobile" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="dataDashboardsMobile">
             <i class="bi bi-window-stack"></i> Data Dashboards <i class="bi bi-caret-down-fill small"></i>
           </a>
-          <div class="collapse main_menu_item_sub ps-4" id="dataDashboards">
+          <div class="collapse main_menu_item_sub ps-4" id="dataDashboardsMobile">
             {{ range .Site.Menus.dashboard_menu }}
               <a class="d-block" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
             {{ end }}
@@ -198,11 +198,11 @@
         </div>
         <!-- Share & Access Data -->
         <div class="main_menu_item pb-1">
-          <a href="#shareAndAccessData" data-bs-toggle="collapse"  role="button"
-             aria-expanded="false" aria-controls="pandemicPreparedness">
+          <a href="#shareAndAccessDataMobile" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="shareAndAccessDataMobile">
             <i class="bi bi-archive"></i> Datadelning och Tillgång <i class="bi bi-caret-down-fill small"></i>
           </a>
-          <div class="collapse main_menu_item_sub ps-4" id="shareAndAccessData">
+          <div class="collapse main_menu_item_sub ps-4" id="shareAndAccessDataMobile">
             <a class="d-block" href="/sv/share-data/">Dela data</a>
             <a class="d-block" href="/sv/dashboards/">Data dashboards</a>
             <a class="d-block" href="/sv/biobanks/">Provsamlingsregistret</a>
@@ -224,20 +224,20 @@
 
     <!-- Highlights & Editorials -->
     <div class="col-auto main_menu_item">
-      <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+      <a class="dropdown-toggle" href="#" id="highlightAndEditorial"
           data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
           aria-expanded="false"><i class="bi bi-pencil-square"></i> Data Highlights & Editorials</a>
-        <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+        <div class="dropdown-menu main_menu_item_sub" aria-labelledby="highlightAndEditorial">
           <a class="dropdown-item m-0" href="/highlights/">Data Highlights</a>
           <a class="dropdown-item m-0" href="/editorials/">Editorials</a>
         </div>
     </div>
     <!-- Dashboards -->
     <div class="col-auto main_menu_item">
-      <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+      <a class="dropdown-toggle" href="#" id="dataDashboards"
           data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
           aria-expanded="false"><i class="bi bi-graph-up"></i> Data Dashboards</a>
-      <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+      <div class="dropdown-menu main_menu_item_sub" aria-labelledby="dataDashboards">
         {{ range .Site.Menus.dashboard_menu }}
         <a class="dropdown-item m-0" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
         {{ end }}
@@ -245,10 +245,10 @@
     </div>
     <!-- Share and access data -->
     <div class="col-auto main_menu_item">
-      <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+      <a class="dropdown-toggle" href="#" id="shareAndAccessData"
           data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
           aria-expanded="false"><i class="bi bi-archive"></i> Share & Access Data</a>
-      <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+      <div class="dropdown-menu main_menu_item_sub" aria-labelledby="shareAndAccessData">
         <a class="dropdown-item m-0" href="/share-data/">Share data</a>
         <a class="dropdown-item m-0" href="/datasets/all/">Available datasets</a>
         <a class="dropdown-item m-0" href="/dashboards/">Data dashboards</a>
@@ -259,10 +259,10 @@
     </div>
     <!-- Research & Funding -->
     <div class="col-auto main_menu_item">
-      <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+      <a class="dropdown-toggle" href="#" id="researchAndFunding"
           data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
           aria-expanded="false"><i class="bi bi-inboxes-fill"></i> Research & Funding</a>
-      <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+      <div class="dropdown-menu main_menu_item_sub" aria-labelledby="researchAndFunding">
         {{ range .Site.Menus.research_menu }}
         <a class="dropdown-item m-0" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
         {{ end }}
@@ -270,10 +270,10 @@
     </div>
     <!-- Pandemic Preparedness -->
     <div class="col-auto main_menu_item">
-      <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+      <a class="dropdown-toggle" href="#" id="pandemicPreparedness"
           data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
           aria-expanded="false"><i class="bi bi-clipboard-data"></i> Pandemic Preparedness</a>
-      <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+      <div class="dropdown-menu main_menu_item_sub" aria-labelledby="pandemicPreparedness">
         <a class="dropdown-item m-0" href="/pathogens/">Emerging Pathogens</a>
         <a class="dropdown-item m-0" href="/plp-program-background/">SciLifeLab PLP</a>
         <a class="dropdown-item m-0" href="/resources/">PLP Capabilities</a>
@@ -281,10 +281,10 @@
     </div>
     <!-- Topics -->
     <div class="col-auto main_menu_item">
-      <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+      <a class="dropdown-toggle" href="#" id="topics"
           data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
           aria-expanded="false"><i class="bi bi-card-list"></i> Topics</a>
-      <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+      <div class="dropdown-menu main_menu_item_sub" aria-labelledby="topics">
         {{ range .Site.Menus.topics_menu }}
         <a class="dropdown-item m-0" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
         {{ end }}
@@ -303,10 +303,10 @@
       <!-- Data dashboard -->
       <div class="col-md-auto main_menu_item">
         <i class="bi bi-graph-up"></i>
-        <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+        <a class="dropdown-toggle" href="#" id="dataDashboards"
          data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
          aria-expanded="false">Data Dashboards</a>
-        <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+        <div class="dropdown-menu main_menu_item_sub" aria-labelledby="dataDashboards">
           {{ range .Site.Menus.dashboard_menu }}
             <a class="dropdown-item m-0" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
           {{ end }}
@@ -315,10 +315,10 @@
       <!-- Share & Access Data -->
       <div class="col-md-auto main_menu_item">
         <i class="bi bi-archive"></i>
-        <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+        <a class="dropdown-toggle" href="#" id="shareAndAccessData"
          data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
          aria-expanded="false">Datadelning och Tillgång</a>
-        <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+        <div class="dropdown-menu main_menu_item_sub" aria-labelledby="shareAndAccessData">
           <a class="dropdown-item m-0" href="/sv/share-data/">Dela data</a>
           <a class="dropdown-item m-0" href="/sv/dashboards/">Data dashboards</a>
           <a class="dropdown-item m-0" href="/sv/biobanks/">Provsamlingsregistret</a>
