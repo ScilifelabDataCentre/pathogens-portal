@@ -1,0 +1,25 @@
+<div class="row g-2">
+  {{ range sort $.Site.Data.editorial_committee_alumni.members }}
+  <div class="col-sm-12 col-md-6 col-lg-4">
+    <div class="bg-bussiness-card">
+      <div class="row">
+        <div class="col-auto pe-0">
+          <img alt="Picture of {{ .name }}" src="/img/editorial_committee/{{ .thumbnail_name }}.jpg" width="110"/>
+        </div>
+        <div class="col-auto">
+          <div>
+            <b>{{ .name }}</b>
+          </div>
+          <div>
+            <span style="color: #55585a;">{{ .affiliation }}</span>
+          </div>
+          <div>
+            <h6 class="mb-1">Expertise:</h6>
+            <p style="color: #55585a;">{{ .expertise | safeHTML }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+</div>

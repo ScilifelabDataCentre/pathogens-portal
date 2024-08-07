@@ -25,16 +25,16 @@
           "expertise": "Computational biology"
       },
       {
-          "name": "Luisa W. Hugerth, PhD",
-          "thumbnail_name": "lusia",
-          "affiliation": "Uppsala University",
-          "expertise": "Human microbiome"
-      },
-      {
           "name": "Mahmoud Naguib, PhD",
           "thumbnail_name": "mahmoud",
           "affiliation": "Uppsala University",
           "expertise": "Experimental Virology"
-      }
+      },
+      {
+        "name": "Andrea Fossati",
+        "thumbnail_name": "andrea",
+        "affiliation": "Karolinska Institute",
+        "expertise": "systems biology<br>virology<br>microbiology<br>proteomics"
+    }
   ]
 }
