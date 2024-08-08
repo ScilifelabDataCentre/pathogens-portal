@@ -13,11 +13,12 @@ Below are the current editorial committee members, alongside their affiliation a
 
 {{< editorial_committee_cards >}}
 <br>
-*Images courtesy of: Uppsala University (LH, MN), SciLifeLab (LC), Karolinska Instititet (BM), Stockholm University (JA) and Chalmers (JB-P).*
 
 #### Alumni
 
-Below are the alumni editorial committee members.
+The following individuals are former members of the editorial committee who have significantly contributed to the development and growth of our platform. During their tenure, they brought invaluable insights from their respective fields, helping to shape the direction of our content and resources. Their legacy continues to influence the work we do, as they laid a strong foundation for the ongoing collaboration between the research community and the Portal. We extend our deepest gratitude to these distinguished alumni for their dedication and impactful service.
 
 {{< editorial_committee_alumni >}}
 <br>
+
+*Images courtesy of: Uppsala University (LH, MN), SciLifeLab (LC), Karolinska Instititet (BM), Stockholm University (JA) and Chalmers (JB-P).*
