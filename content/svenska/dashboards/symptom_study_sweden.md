@@ -11,7 +11,13 @@ menu:
     dashboard_menu:
         identifier: symptom_study_sweden
         name: COVID Symptom Study Sverige (Partnerprojekt)
+dashboards_topics: [COVID-19, Infectious diseases]
+data_status: "historic" # or "updating"
 ---
+
+<div class="alert alert-info">
+  <span class="bi bi-exclamation-triangle-fill"> De data som presenteras här uppdateras inte längre utan bevaras för historisk referens.</span>
+</div>
 
 **COVID Symptom Study Sverige** är ett nationellt forskningsinitiativ för att samla in och kartlägga symptom på covid-19 och studera trender i smittspridning samt studera riskfaktorer associerade med covid-19 infektion. Projektet drivs av Lunds universitet och Uppsala universitet i samarbete med King’s College London och hälsoföretaget ZOE Global Ltd som utvecklat och driver appen. COVID Symptom Study Sverige leds av professor Paul Franks och professor Maria Gomez (Lunds universitet) samt professor Tove Fall (Uppsala universitet).
 
@@ -21,7 +27,7 @@ COVID Symptom Study Sverige har två huvudsyften. Det första syftet är att und
 
 #### Uppskattad förekomst av symtomatiska covid-19 fall
 
-<div class="alert alert-info">Senast uppdaterad: {{% csss_date_modified %}}.</div>
+<div class="alert alert-info">Senast uppdaterad: {{% csss_date_modified %}} (uppdateras inte längre)</div>
 
 Nedan redovisas uppskattad förekomst av symtomatiska covid-19 fall i olika svenska regioner. Uppskattningen baseras på användardata från appen och en beräkningsmetod. som används för prediktion har utvecklats av forskargruppen bakom COVID Symptoms Study Sverige; se [denna sida](https://www.covid19app.lu.se/artikel/uppdatering-av-prediktionsmodell-0) för mer information om prediktionsmodellen. För mer detaljerad information om hur uppskattad förekomst och andra resultat vänligen se [COVID Symptoms Study Sveriges dashboard](https://csss-resultat.shinyapps.io/csss_dashboard/).
 

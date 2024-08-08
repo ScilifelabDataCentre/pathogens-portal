@@ -10,6 +10,7 @@ menu:
 dashboards_topics:
   [COVID-19, Infectious diseases, Influenza, Enteric viruses, Mpox]
 toc: true
+data_status: "updating" # or "historic"
 ---
 
 <div class="alert alert-info">All data last updated: 2024-08-05</div>

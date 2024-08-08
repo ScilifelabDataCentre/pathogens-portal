@@ -10,9 +10,11 @@ menu:
   dashboard_menu:
     identifier: npc-statistics
     name: "SARS-CoV-2-tester vid National Pandemic Centre"
+dashboards_topics: [COVID-19, Infectious diseases]
+data_status: "historic" # or "updating"
 ---
 
-<div class="alert alert-info small">
+<div class="alert alert-info">
   <p><i class="bi bi-exclamation-triangle-fill"></i>Nationellt Pandemiskt center på Karolinska Institutet upphörde med högkapacitets PCR diagnostik 2020-12-21.</p>
   <p><span class="font-weight-bold">Den data som visas här har slutat uppdateras</span> och utgör endast historisk dokumentation.</p>
   <a href="https://nyheter.ki.se/covid-19-tester-ki-atergar-till-ordinarie-laboratorieverksamhet-men-har-fortsatt-beredskap">KIs pressmeddelande</a>

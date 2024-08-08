@@ -11,7 +11,12 @@ menu:
 aliases:
   - /data_types/health_data/post_covid/
 dashboards_topics: [COVID-19, Infectious diseases]
+data_status: "historic" # or "updating"
 ---
+
+<div class="alert alert-info">
+  <span class="bi bi-exclamation-triangle-fill"> The data presented here is no longer updated but is kept for historical reference.</span>
+</div>
 
 Since the beginning of 2020, the COVID-19 pandemic has challenged healthcare and dramatically changed daily life for people worldwide. The severity of symptoms experienced by patients during the acute infection phase of COVID-19 disease varies between individuals from mild to severe. After this phase, there are usually no indications that the disease will have any long-term effects on their health, regardless of the severity of symptoms experienced during the acute infection phase. However, some patients continue to exhibit symptoms for prolonged periods after the acute phase. The symptoms experienced by such patients are broad, but can include, for example, deep fatigue, joint pain, ‘brain fog’ (difficulty concentrating on certain tasks for longer periods of time), and heart palpitations ([Brodin, 2021](https://doi.org/10.1038/s41591-020-01202-8), [Marx, 2021](https://doi.org/10.1038/s41592-021-01145-z)). These symptoms can have a significant impact on the patients' quality of life.
 
@@ -27,7 +32,7 @@ For more information on _Post COVID-19 condition_ in Sweden, please see [this se
 
 ### Data
 
-<div class="alert alert-info">All data last updated: {{% postcovid_date_modified %}}</div>
+<div class="alert alert-info">All data last updated: {{% postcovid_date_modified %}} (no longer updating)</div>
 
 The data underlying the visualisations on this page are from [The Swedish Board of Health and Welfare](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/) and comprise of data from both the [Patient Register](https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/patientregistret/) and the [‘Cause of Death’ Register](https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/dodsorsaksregistret/). The data are updated monthly, on the second Wednesday of the month, and are available for download [here](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/). Additional data about COVID-19 can be requested from the corresponding registers by any researchers fulfilling the requirements for access, the guidelines for access via the RUT (Register Utiliser Tool) are available [here](https://bestalladata.socialstyrelsen.se/data-for-forskning/).
 

@@ -9,6 +9,7 @@ menu:
     identifier: recovac
     name: Register-based vaccination (RECOVAC)
 dashboards_topics: [COVID-19, Infectious diseases]
+data_status: "updating" # or "historic"
 ---
 
 ## RECOVAC project overview

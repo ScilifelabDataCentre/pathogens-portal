@@ -1,50 +1,229 @@
 {{ $dashboards := .Site.Menus.dashboard_menu }}
 {{ $currentPage := path.Split (path.Clean .RelPermalink) }}
-{{ $homepage_dashboards := slice "clinmicro_uppsala" "post_covid" "wastewater" }}
 {{ $displayed_in_homepage := .IsHome }}
 {{ $dashboards_to_show := slice }}
 
-{{/* Compile list of highlight to show depending upon the page */}}
-{{ if eq $currentPage.File "dashboards" }}
+{{/* Compile list of dashboards to show depending upon the page */}}
+{{ if or (eq $currentPage.File "dashboards") ($displayed_in_homepage) }}
   {{ $dashboards_to_show = $dashboards_to_show | append (where $dashboards "Identifier" "ne" "all_dashboards") }}
-{{ else if $displayed_in_homepage }}
-  {{ $dashboards_to_show = $dashboards_to_show | append (where $dashboards "Identifier" "in" $homepage_dashboards) }}
 {{ else if strings.HasSuffix $currentPage.Dir "/topics/" }}
   {{ range $dashboards }}
     {{if in (apply .Page.Params.dashboards_topics "urlize" ".") $currentPage.File }}
       {{ $dashboards_to_show = $dashboards_to_show | append . }}
     {{ end }}
   {{ end }}
-  {{ if strings.HasPrefix $currentPage.Dir "/topics/" }}
-    {{ $dashboards_to_show = first 3 $dashboards_to_show }}
-  {{ end }}
 {{ end }}
 
-<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 {{ if not $displayed_in_homepage }}g-lg-3{{ end }}">
-  {{ range $dashboards_to_show }}
-      <div class="col p-2">
-        <div class="bg-dashboard">
-          <!-- div {{ if .Page.Params.banner_border }}class="px-1 pt-1" {{ end }} -->
-          <div aria-hidden="true">
-            <a href="{{ .Page.RelPermalink }}">
-              <img class="img-fluid" src="{{ with .Page.Params.banner }}{{ . }}{{ else }}{{ "/img/plp_default2.png" }}{{ end }}"
-                   alt="Thumbnail for {{ .Name }}">
-            </a>
-          </div>
-          <div class="p-2 bg-dashboard-title">
-            <h6><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></h6>
-          </div>
-          <div class="p-2">
-            {{ .Page.Description }}
-          </div>
-          {{ if not $displayed_in_homepage }}
-            <div class="px-2 pb-3">
-            {{ range (.Page.GetTerms "dashboards_topics") }}
-                <span class="topic_badge_small"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
-            {{ end }}
+
+
+<div class="row">
+
+    {{ if or (eq $currentPage.File "dashboards") (strings.HasSuffix $currentPage.Dir "/dashboards/topics/" ) }}
+    <!-- Only display the filters on the /dashboards and /dashboards/topics pages -->
+    <div id="dashboards-filter">
+        <div class="bg-light p-2 d-flex align-items-center justify-content-between">
+            <h5>{{ if eq $.Site.Language.LanguageName "English" }}Data status{{ else if eq $.Site.Language.LanguageName "Svenska" }}Datastatus{{ end }}</h5>
+            <div class="filter-dashboards-items">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input d-none" type="radio" id="all" name="status" value="all">
+                    <label class="form-check-label" for="all"><a>{{ if eq $.Site.Language.LanguageName "English" }}All{{ else if eq $.Site.Language.LanguageName "Svenska" }}Allt{{ end }}</a></label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input d-none" type="radio" id="updating" name="status" value="updating">
+                    <label class="form-check-label" for="updating"><a>{{ if eq $.Site.Language.LanguageName "English" }}Updating{{ else if eq $.Site.Language.LanguageName "Svenska" }}Uppdaterad{{ end }}</a></label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input d-none" type="radio" id="historic" name="status" value="historic">
+                    <label class="form-check-label" for="historic"><a>{{ if eq $.Site.Language.LanguageName "English" }}Historic{{ else if eq $.Site.Language.LanguageName "Svenska" }}Historisk{{ end }}</a></label>
+                </div>
             </div>
-          {{ end }}
         </div>
-      </div>
-  {{ end }}
+    </div>
+    {{ end }}
+
+    <div class="col-lg mt-lg-0">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 {{ if not $displayed_in_homepage }}g-lg-3{{ end }}" id="dashboard-cards-container">
+            {{ range $dashboards_to_show }}
+            {{ $dashboardPage := path.Split (path.Clean .Page.RelPermalink) }}
+            <div class="col p-2 dashboard-card" data-status="{{.Page.Params.data_status}}">
+                <div class="bg-dashboard">
+                    <!-- div {{ if .Page.Params.banner_border }}class="px-1 pt-1" {{ end }} -->
+                    <div aria-hidden="true">
+                        <a href="{{ .Page.RelPermalink }}">
+                            <img class="img-fluid" src="{{ with .Page.Params.banner }}{{ . }}{{ else }}{{ "/img/plp_default2.png" }}{{ end }}"
+                                 alt="Thumbnail for {{ .Name }}">
+                        </a>
+                    </div>
+                    <div class="p-2 bg-dashboard-title">
+                        <h6><a href="{{ .Page.RelPermalink }}">{{ .Name }}</a></h6>
+                    </div>
+                    <div class="p-2">
+                        <small><b>Updated: <span id="{{ $dashboardPage.File }}"></span></b></small>
+                    </div>
+                    <div class="px-2">
+                        {{ .Page.Description }}
+                    </div>
+                    {{ if not $displayed_in_homepage }}
+                    <div class="px-2 pb-3">
+                        {{ range (.Page.GetTerms "dashboards_topics") }}
+                        <span class="topic_badge_small"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+
 </div>
+
+
+{{ if or (eq $currentPage.File "dashboards") (strings.HasSuffix $currentPage.Dir "/dashboards/topics/" ) }}
+<script>
+ /**
+  * This script adds the necessary logic for the filtering functionality of the dashboard cards.
+  */
+
+ // Get the radio buttons and add an event listener to each one
+ const radioButtons = document.querySelectorAll('input[type="radio"][name="status"]');
+ radioButtons.forEach(button => button.addEventListener('change', filterDashboardCards));
+
+ /**
+  * Filters the dashboard cards based on the selected radio button.
+  * Hides or shows the dashboard cards based on their data-status attribute.
+  */
+ function filterDashboardCards() {
+     const selectedStatus = document.querySelector('input[type="radio"][name="status"]:checked').value;
+     const dashboardCards = document.querySelectorAll('.dashboard-card');
+
+     dashboardCards.forEach(card => {
+         const dashboardDataStatus = card.getAttribute('data-status');
+
+         // Show or hide the card based on its data-status and the selected status
+         card.style.display = (dashboardDataStatus === selectedStatus || selectedStatus === 'all')? 'block' : 'none';
+     });
+ }
+
+</script>
+{{ end }}
+
+
+<script>
+ /**
+  * This script adds last updated date information to the dashboard cards.
+  * It also manages the reordering of the dashboard cards.
+  */
+
+ // Fetch EBI index data and process dashboard cards
+ fetchEBIIndexData()
+     .then(processDashboardCards)
+     .catch(handleError);
+
+ /**
+  * Fetch EBI index file from blobserver
+  */
+ function fetchEBIIndexData() {
+     return fetch('https://blobserver.dc.scilifelab.se/blob/pathogens_portal_EBI_index.json')
+         .then(response => response.json())
+         .then(data => data.entries);
+ }
+
+ /**
+  * Process dashboard cards by grabbing the corresponding HTML elements,
+  * finding matching EBI entries based on each dashboard file name,
+  * updating the 'last updated' date displayed in the card,
+  * and reordering the cards by most recent update date.
+  */
+ function processDashboardCards(ebiEntries) {
+     const dashboardCards = document.querySelectorAll('.dashboard-card');
+     const cardData = [];
+
+     dashboardCards.forEach(card => {
+         const spanElement = card.querySelector('span[id]');
+         const idValue = spanElement.id;
+         let   matchingEbiEntry;
+
+         // Special case for 'covid_publications' dashboard card
+         if (idValue === 'covid_publications') {
+             matchingEbiEntry = findMatchingEntry(ebiEntries,'source_page', 'publications');
+         }
+         // Special case for 'wastewater' dashboard card
+         else if (idValue === 'wastewater') {
+             matchingEbiEntry = findMostRecentEntry(ebiEntries,'source_page', 'wastewater');
+         }
+         // Regular case where idValue is included in the source page path
+         else {
+             matchingEbiEntry = findMatchingEntry(ebiEntries,'source_page', idValue);
+         }
+
+         if (matchingEbiEntry) {
+             const updatedDateField = matchingEbiEntry.fields.find(field => field.name === 'updated_date');
+             const updatedDateStr = updatedDateField?.value;
+             const [year, month, day] = updatedDateStr.split('-');
+             const updatedDate = new Date(`20${year}-${month}-${day}`);
+             spanElement.textContent = updatedDate.toLocaleDateString('en-US', {
+                 year: 'numeric',
+                 month: 'short',
+                 day: 'numeric'
+             });
+
+             cardData.push({ card, updatedDate });
+
+         } else {
+             spanElement.textContent = 'No matching entry in EBI index';
+         }
+     });
+
+     // Sort the cardData array in descending order based on the updated date
+     cardData.sort((a, b) => b.updatedDate - a.updatedDate);
+
+     // Reorder the dashboard cards in the DOM
+     const container = document.querySelector('#dashboard-cards-container');
+     container.innerHTML = '';
+
+     {{ if or ($displayed_in_homepage) (strings.HasPrefix $currentPage.Dir "/topics/") }}
+       cardData.slice(0, 3).forEach(({ card }) => container.appendChild(card));
+     {{ else }}
+       cardData.forEach(({ card }) => container.appendChild(card));
+     {{ end }}
+
+ }
+
+ /**
+  * Find a matching EBI entry based on the specified field and its value
+  */
+ function findMatchingEntry(ebiEntries, fieldName, fieldValue) {
+     return ebiEntries.find(entry => entry.fields.find(field => field.name === fieldName && field.value.includes(fieldValue)));
+ }
+
+ /**
+  * Find the most recent EBI entry based on the specified field and its value
+  */
+ function findMostRecentEntry(ebiEntries, fieldName, fieldValue) {
+     const matchingEntries = ebiEntries.filter(entry => entry.fields.find(field => field.name === fieldName && field.value.includes(fieldValue)));
+     let mostRecentEntry = null;
+     let mostRecentUpdatedDate = null;
+
+     matchingEntries.forEach(entry => {
+         const updatedDateStr = entry.fields.find(field => field.name === 'updated_date').value;
+         const [year, month, day] = updatedDateStr.split('-');
+         const updatedDate = new Date(`20${year}-${month}-${day}`);
+
+         if (!mostRecentUpdatedDate || updatedDate > mostRecentUpdatedDate) {
+             mostRecentUpdatedDate = updatedDate;
+             mostRecentEntry = entry;
+         }
+     });
+
+     return mostRecentEntry;
+ }
+
+ /**
+  * Handle errors that occur during the execution of the code
+  */
+ function handleError(error) {
+     console.error(error);
+ }
+
+</script>

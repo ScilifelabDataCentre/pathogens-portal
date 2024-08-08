@@ -11,6 +11,7 @@ menu:
 aliases:
   - /data_types/health_data/vaccines/
 dashboards_topics: [COVID-19, Infectious diseases]
+data_status: "historic" # or "updating"
 ---
 
 <div class="alert alert-info">
@@ -47,7 +48,7 @@ For more information on vaccination in Sweden, please also see the [RECOVAC dash
 
 ## Visualisations related to vaccination coverage
 
-<div class="alert alert-info">The visualisations on this page were last updated: <span id="visualisations_date_modified">2023-03-24</span>.</div>
+<div class="alert alert-info">The visualisations on this page were last updated: <span id="visualisations_date_modified">2023-03-24 (no longer updating)</span></div>
 
 The [Swedish Health Agency (Folkhälsomyndigheten, FoHM)](https://folkhalsomyndigheten.se) provide information, summary statistics, and data related to COVID-19 vaccination in Sweden [(only available in Swedish)](https://www.folkhalsomyndigheten.se/folkhalsorapportering-statistik/statistikdatabaser-och-visualisering/vaccinationsstatistik/statistik-for-vaccination-mot-covid-19/). The visualisations below are based on the publicly available COVID-19 vaccination data from FoHM, which can be [downloaded directly](https://blobserver.dc.scilifelab.se/blob/Folkhalsomyndigheten_Covid19_Vaccine-93.xlsx). For each visualisation, we describe which data in the dataset were used, how calculations were completed, and provide a link to the script(s) used to produce it.
 

@@ -10,9 +10,13 @@ menu:
     name: Postcovid
 aliases:
   - /sv/data_types/health_data/post_covid/
+dashboards_topics: [COVID-19, Infectious diseases]
+data_status: "historic" # or "updating"
 ---
 
-<div class="alert alert-info">Vänligen notera att graferna endast har engelska figurtexter.</div>
+<div class="alert alert-info">
+  <span class="bi bi-exclamation-triangle-fill"> De data som presenteras här uppdateras inte längre utan bevaras för historisk referens.</span>
+</div>
 
 Sedan början av 2020 har covid-19 pandemin utmanat hälso- och sjukvården och förändrat samhällen runt om i världen. Forskning och empiri har visat att covid-19 under den akuta infektionen kan ha olika svårighetsgrad, från mild till moderat till svår. De flesta individer som insjuknar i Covid-19, oavsett sjukdomens svårighetsgrad under den akuta infektionen, återhämtar sig och uppvisar inga kvarstående symptom efter återhämtningen. Vissa patienter uppvisar dock, efter den akuta infektionen, kvarstående eller sena symptom efter covid-19. Besvär och symtom som rapporterats är exempelvis svår trötthet, sämre hälsa, ledvärk, hjärntrötthet (svårighet att koncentrera sig på vissa uppgifter under längre tid) och hjärtklappning ([Brodin, 2021](https://doi.org/10.1038/s41591-020-01202-8), [Marx, 2021](https://doi.org/10.1038/s41592-021-01145-z)).
 
@@ -28,7 +32,7 @@ För mer information om postcovid i Sverige, se följande [avsnitt](https://www.
 
 ### Data
 
-<div class="alert alert-info">Senaste uppdatering:{{% postcovid_date_modified %}}</div>
+<div class="alert alert-info">Senaste uppdatering:{{% postcovid_date_modified %}} (uppdateras inte längre)</div>
 
 Alla data som presenteras här finns tillgängliga för nedladdning från [Socialstyrelsen](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/) och bygger på data från Patientregistret [Patientregistret](https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/patientregistret/) och [Dödsorsaksregistret](https://www.socialstyrelsen.se/statistik-och-data/register/alla-register/dodsorsaksregistret/). Data uppdateras varje månad, den andra onsdagen i månaden och finns tillgängliga [här](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/). Forskare kan ansöka om tillgänglighet till ytterligare data via RUT (Register Utiliser Tool) om deras projekt uppfyller kraven för åtkomst. Riktlinjerna finns [här](https://bestalladata.socialstyrelsen.se/data-for-forskning/).
 
@@ -37,6 +41,8 @@ Alla data som presenteras här finns tillgängliga för nedladdning från [Socia
 All källkod som används för att göra visualiseringarna på denna sidan finns tillgängliga på [GitHub](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/tree/main/postCOVID). Källkod som används är länkad under respektive visualisering.
 
 ## Statistik om postcovid i Sverige
+
+<div class="alert alert-info">Vänligen notera att graferna endast har engelska figurtexter.</div>
 
 De första patienterna som uppvisade kvarstående långvariga symptom efter covid-19-infektion kom i kontakt med sjukvården våren 2020. Flera diagnoser och diagnoskoder har sedan dess använts inom sjukvården. Den 1 juni 2020 började Socialstyrelsen använda diagnosen _Z86.1A (Covid-19 i den egna sjukhistorien)_. _Diagnoskoden U09.9 (ICD-10-SE) Postinfektiöst tillstånd efter covid-19_, infördes 16 oktober 2020 och kompletterade och ersatte delvis koden _Z86.1A_. Från 1 januari 2021 upphörde diagnoskoden _Z86.1A_ att gälla och ersattes med diagnoskoden _U08.9_, Covid-19 i den egna sjukhistorien, enligt [WHO (Världshälsoorganisationens)](https://www.who.int) riktlinjer.
 

@@ -12,9 +12,10 @@ plotly: true
 aliases:
   - /data_types/health_data/npc-statistics/
 dashboards_topics: [COVID-19, Infectious diseases]
+data_status: "historic" # or "updating"
 ---
 
-<div class="alert alert-info small">
+<div class="alert alert-info">
   <p><i class="bi bi-exclamation-triangle-fill"></i>The National Pandemic Centre (NPC) at Karolinska Institute ceased operations of high throughput PCR diagnostics on 2020-12-21.</p>
   <p><span class="font-weight-bold">The data presented here is no longer updated</span> but is kept for historical reference.</p>
   <a class="dark-blue" href="https://nyheter.ki.se/covid-19-tester-ki-atergar-till-ordinarie-laboratorieverksamhet-men-har-fortsatt-beredskap">KI Press Release</a>

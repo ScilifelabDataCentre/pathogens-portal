@@ -10,6 +10,10 @@ aliases:
   - /dashboards/wastewater/enteric_quant_gu/
 ---
 
+<div class="alert alert-info">
+  <span class="bi bi-exclamation-triangle-fill"> The data presented here is no longer updated but is kept for historical reference.</span>
+</div>
+
 ## Introduction
 
 Enteric viruses are a large group of viruses including, for example, calicivirus (including norovirus and sapovirus), adenoviruses, and astroviruses. They are transmitted via faecal-oral route, and cause enteric disease (i.e. diseases with symptoms such as nausea, diarrhea, and vomiting).
@@ -22,7 +26,7 @@ This page details the [latest method used in monitoring](#methods), as well as [
 
 The enteric virus monitoring by the Norder group was done alongside their ongoing monitoring of SARS-CoV-2 in wastewater, the data for which are [also shared on this portal](/dashboards/wastewater/covid_quantification/covid_quant_gu/).
 
-The data and visualisations on this page will be updated **approximately weekly**.
+The data and visualisations on this page is **no longer being updated**.
 
 ## Wastewater collection sites
 
@@ -30,7 +34,7 @@ Influent wastewater samples were collected from Ryaverket wastewater treatment p
 
 ## Visualisations
 
-<div class="alert alert-info">Last updated: <span id="last_modified_enteric"></span></div>
+<div class="alert alert-info">Last updated: <span id="last_modified_enteric"></span> (no longer updating)</div>
 
 Please see [the section with summary information about the viruses](#basic-virus-information) for more information on each of the viruses for which data is being collected.
 
