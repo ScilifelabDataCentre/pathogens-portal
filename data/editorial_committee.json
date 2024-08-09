@@ -3,20 +3,20 @@
       {
           "name": "Ben Murrell, PhD",
           "thumbnail_name": "ben",
-          "affiliation": "Karolinska Institute",
-          "expertise": "Computational biology,<br>Immunology and Virology"
+          "affiliation": "Karolinska Institutet",
+          "expertise": "Computational biology,<br>Immunology and virology"
       },
       {
           "name": "Johan Ankarklev, PhD",
           "thumbnail_name": "johan_ank",
           "affiliation": "Stockholm University",
-          "expertise": "Parasitology and Genetics"
+          "expertise": "Parasitology, Genetics"
       },
       {
           "name": "Johan Bengtsson-Palme, PhD",
           "thumbnail_name": "johan_ben",
           "affiliation": "Chalmers University",
-          "expertise": "Antibiotic resistance and<br>Emergent pathogens"
+          "expertise": "Antibiotic resistance,<br>Emergent pathogens"
       },
       {
           "name": "Laura Carroll, PhD",
@@ -28,13 +28,13 @@
           "name": "Mahmoud Naguib, PhD",
           "thumbnail_name": "mahmoud",
           "affiliation": "Uppsala University",
-          "expertise": "Experimental Virology"
+          "expertise": "Experimental virology"
       },
       {
         "name": "Andrea Fossati",
         "thumbnail_name": "andrea",
-        "affiliation": "Karolinska Institute",
-        "expertise": "systems biology<br>virology<br>microbiology<br>proteomics"
+        "affiliation": "Karolinska Institutet",
+        "expertise": "Systems biology, Virology,<br>Microbiology, Proteomics"
     }
   ]
 }
