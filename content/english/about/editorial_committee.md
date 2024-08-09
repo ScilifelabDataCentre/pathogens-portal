@@ -2,7 +2,7 @@
 title: Editorial committee
 menu:
   navbar_about:
-    name:  "Editorial committee<br><br>"
+    name: "Editorial committee<br><br>"
     weight: 30
 layout: about_navbar
 ---
@@ -21,4 +21,4 @@ The following individuals are former members of the editorial committee who have
 {{< editorial_committee_cards type="alumni">}}
 <br>
 
-*Images courtesy of: Uppsala University (LH, MN), SciLifeLab (LC), Karolinska Instititet (BM), Stockholm University (JA) and Chalmers (JB-P).*
+_Images courtesy of: Uppsala University (LH, MN), SciLifeLab (LC), Karolinska Instititet (AF, BM), Stockholm University (JA) and Chalmers (JB-P)._
