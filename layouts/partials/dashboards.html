@@ -167,11 +167,14 @@
                  month: 'short',
                  day: 'numeric'
              });
-
              cardData.push({ card, updatedDate });
 
          } else {
-             spanElement.textContent = 'No matching entry in EBI index';
+             // In case there is no entry in the EBI file yet,
+             // we add a mock date for the reordering to keep working
+             spanElement.textContent = 'not yet available';
+             updatedDate = new Date('1900-01-01');
+             cardData.push({ card, updatedDate });
          }
      });
 
