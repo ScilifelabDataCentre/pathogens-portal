@@ -1,5 +1,11 @@
 <div class="row g-2">
-  {{ range sort $.Site.Data.editorial_committee.members }}
+  {{ $committee := "" }}
+  {{ if eq (.Get "type") "alumni" }}
+    {{ $committee = $.Site.Data.editorial_committee_alumni.members }}
+  {{ else }}
+    {{ $committee = $.Site.Data.editorial_committee.members }}
+  {{ end }}
+  {{ range sort $committee }}
   <div class="col-sm-12 col-md-6 col-lg-4">
     <div class="bg-bussiness-card">
       <div class="row">
