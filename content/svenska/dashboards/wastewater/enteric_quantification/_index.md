@@ -46,7 +46,7 @@ Vänligen se [avsnittet med sammanfattande information om virusen](#grundläggan
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/enteric_graph_gu.json" height="550px" >}}</div>
 </div>
 
-**Källkod som avvänts för att generera visualiseringar:** [Källskod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/enteric_viruses_gu.py).
+**Källkod som avvänts för att generera visualiseringar:** [Källskod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/archive/enteric_viruses_gu.py).
 
 ## Kommentarer från forskargruppen
 

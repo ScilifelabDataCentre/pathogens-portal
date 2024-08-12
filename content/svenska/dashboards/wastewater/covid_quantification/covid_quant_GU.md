@@ -38,7 +38,7 @@ Ingående avloppsvattenprover insamlas från Ryaverkets avloppsreningsverk (eng.
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_gothenburg.json" height="550px" >}}</div>
 </div>
 
-**Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/gothenburg_covid.py).
+**Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/archive/gothenburg_covid.py).
 
 ## Kommentarer från forskargruppen
 

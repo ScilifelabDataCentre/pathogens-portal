@@ -31,7 +31,7 @@ Malmberg, M., Myrmel, M. & Khatri, M. (2021). Dataset of SARS-CoV-2 in wastewate
 
 <div class="small text-muted">**Proverna från har förvarats i +4 °C under 2-3 veckor innan analys vilket skiljer sig från övriga insamlade prover.</div>
 
-**Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/umea_covid.py).
+**Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/archive/umea_covid.py).
 
 ### Mängd SARS-CoV-2 i avloppsvatten från Örebro mellan oktober 2020 och juni 2021
 
@@ -52,4 +52,4 @@ Malmberg, M., Myrmel, M. & Khatri, M. (2021). Dataset of SARS CoV-2 in wastewate
 
 <div class="small text-muted">**Proverna fhar förvarats i +4 °C under 2-3 veckor innan analys vilket skiljer sig från övriga insamlade prover.</div>
 
-**Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/orebro_covid.py).
+**Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/archive/orebro_covid.py).
