@@ -10,11 +10,13 @@ aliases:
 </div>
 <br>
 
+<div class="alert alert-info">As of April 2024, the SARS-CoV-2 data will no longer be updated by GU. Data from after April 2024 is <a class="dark-blue" href="/dashboards/wastewater/covid_quantification/covid_quant_slu/">available from other research groups.</a></div>
+
 ## Introduction
 
 This project is led by Professor Helene Norder (University of Gothenburg, GU), and supported by co-workers from the University of Gothenburg and Sahlgrenska University Hospital (Hao Wang, Marianela Patzi Churqui, Timur Tunovic, Fredy Saguti, and Kristina Nyström). The wastewater sample collections were performed by Lucica Enache at Ryaverket, Gryaab AB, Gothenburg.
 
-The group began collecting samples on 10th February (week 7) 2020. They updated the methods related to analysing the samples during 2023, and began to use this updated method on 15th May (week 20) 2023. This page concerns only the data collected using their updated method. The associated data and visualisation are **updated approximately weekly**. Corresponding information about data collected using an earlier method is available in the ['Historic SARS-CoV-2 data from Gothenburg' page](/dashboards/wastewater/covid_quantification/historic_covid_gu/).
+The group began collecting samples on 10th February (week 7) 2020. They updated the methods related to analysing the samples during 2023, and began to use this updated method on 15th May (week 20) 2023. This page concerns only the data collected using their updated method. The associated data and visualisation are **no longer being updated**. Corresponding information about data collected using an earlier method is available in the ['Historic SARS-CoV-2 data from Gothenburg' page](/dashboards/wastewater/covid_quantification/historic_covid_gu/).
 
 The SARS-CoV-2 virus monitoring by the Norder group was done alongside their ongoing monitoring of enteric viruses in wastewater, the data for which are [also shared on this portal](/dashboards/wastewater/enteric_quantification/).
 
@@ -24,7 +26,7 @@ Influent wastewater samples were collected from Ryaverket wastewater treatment p
 
 ## Visualisation
 
-<div class="alert alert-info">Last updated: <span id="last_modified_gu"></span></div>
+<div class="alert alert-info">Last updated: <span id="last_modified_gu"></span> (no longer updating)</div>
 
 <div class="d-md-none alert alert-info">
   Rotating your phone may improve graph layout

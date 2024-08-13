@@ -11,6 +11,7 @@ menu:
 aliases:
   - /projects/dashboard/
 dashboards_topics: [COVID-19, Infectious diseases]
+data_status: "updating" # or "historic"
 ---
 
 The visualisations on this page evaluate the development of COVID-19 and SARS-CoV-2 research across Sweden by assessing publication output. Specifically, we consider multiple aspects of journal publications and preprints where at least one author has an affiliation with a Swedish research institute. The database containing the publications themselves [can be found on this page](/publications/), and is available for download, please see [DOI: 10.17044/scilifelab.14124014](https://doi.org/10.17044/scilifelab.14124014) for details. The database is manually curated, so may not be exhaustive. From May 2023, we began to use the Europe PMC REST API to idenfy publications. The scripts that we use to do this are [openly available on GitHub](https://github.com/ScilifelabDataCentre/pathogens-portal-scripts/tree/main/All_publications) and can be reused for work with other pathogens. The database is updated monthly at the start of the month.

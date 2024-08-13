@@ -5,6 +5,10 @@ aliases:
   - /dashboards/wastewater/historic_enteric_GU/
 ---
 
+<div class="alert alert-info">
+  <span class="bi bi-exclamation-triangle-fill"> The data presented here is no longer updated but is kept for historical reference.</span>
+</div>
+
 This page shows historic wastewater epidemiology data for enteric viruses. The data was collected in Gothenburg, Sweden by the group led by Professor Helene Norder (University of Gothenburg, GU). The work was supported by co-workers from the University of Gothenburg and Sahlgrenska University Hospital (Hao Wang, Marianela Patzi Churqui, Timur Tunovic, Fredy Saguti, and Kristina Nyström), and Lucica Enache at Ryaverket, Gryaab AB, Gothenburg. The data shown on this page was collected between week 2 and week 43 of 2023 (i.e. between 9th January and 23rd October 2023). The group started to use a new method from week 20 of 2023 (15th May). Data produced using this new method continues to be updated approximately weekly, and is available on the ['Amount of enteric virus in wastewater (GU)' page](../).
 
 ## Introduction
@@ -23,7 +27,7 @@ Influent wastewater samples were collected from Ryaverket wastewater treatment p
 
 ## Visualisations
 
-<div class="alert alert-info">Last updated: 2023-11-17</div>
+<div class="alert alert-info">Last updated: 2023-11-17 (no longer updating)</div>
 
 Please see [the section with summary information about the viruses](#basic-virus-information) for more information on each of the viruses for which data was collected.
 

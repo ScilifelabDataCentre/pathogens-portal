@@ -10,6 +10,10 @@ menu:
 
 <!-- markdownlint-disable MD051 -->
 
+<div class="alert alert-info">
+  <span class="bi bi-exclamation-triangle-fill"> De data som presenteras här uppdateras inte längre utan bevaras för historisk referens.</span>
+</div>
+
 ## Introduktion
 
 Enteriska virus tillhör en större grupp virus som inkluderar calicivirus (norovirus och sapovirus), adenoviruses, och astroviruses. Dessa virus sprids via fekal-orala smittvägar och orsakar gastroenterit (som kännetecknas av symptom som illamående, diarré och kräkningar).
@@ -22,7 +26,7 @@ Se nedan för mer om [metoderna som används vid övervakning](#metoder), [kort 
 
 Studierna av enteriska virus i avloppsvatten har inom Nordergruppen skett parallellt med arbetet att studera SARS-CoV-2 i avloppsvatten, dessa data delas också [på portalen](/sv/dashboards/wastewater/covid_quantification/covid_quant_gu/).
 
-Data och visualisering på denna webbsida uppdateras oftast **en gång per vecka**.
+Data och visualisering på den här **sidan uppdateras inte längre**.
 
 ## Insamlingsplatser för avloppsvattenprov
 
@@ -30,7 +34,7 @@ Avloppsvattenprover för virusanalys samlas in vid Ryaverkets avloppsreningsverk
 
 ## Visualiseringar
 
-<div class="alert alert-info">Senast uppdaterad: <span id="last_modified_enteric"></span></div>
+<div class="alert alert-info">Senast uppdaterad: <span id="last_modified_enteric"></span> (uppdateras inte längre)</div>
 
 Vänligen se [avsnittet med sammanfattande information om virusen](#grundläggande-virusinformation) för mer information om vart och ett av de virus som data samlas in för.
 

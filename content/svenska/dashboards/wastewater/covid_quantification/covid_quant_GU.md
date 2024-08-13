@@ -10,11 +10,13 @@ aliases:
 </div>
 <br>
 
+<div class="alert alert-info">Från april 2024 kommer SARS-COV-2 data från GU inte längre uppdateras. SARS-COV-2 data efter april 2024 <a href="/sv/dashboards/wastewater/covid_quantification/covid_quant_slu/">finns tillgängligt från andra forskargrupper.</a></div>
+
 ## Introduktion
 
 Denna webbsida visar virusdata relaterade till SARS-CoV-2 i Göteborg, Sverige. Data har insamlats av Professor Helene Norders forskargrupp vid Göteborgs universitet, i samarbete med andra medarbetare från Göteborgs universitet och Sahlgrenska universitetssjukhuset (Hao Wang, Marianela Patzi Churqui, Timur Tunovic, Fredy Saguti och Kristina Nyström) och Lucica Enache, Ryaverket, Gryaab AB, Göteborg.
 
-Gruppen började samla in prover den 10 februari (vecka 7) 2020. De uppdaterade metoderna relaterade till att analysera SARS-CoV-2 proverna under 2023 och började använda denna uppdaterade metod den 15 maj (vecka 20) 2023. Den här sidan berör endast data som samlats in med deras uppdaterade metod. Data och visualisering på denna webbsida uppdateras oftast **en gång per vecka**.
+Gruppen började samla in prover den 10 februari (vecka 7) 2020. De uppdaterade metoderna relaterade till att analysera SARS-CoV-2 proverna under 2023 och började använda denna uppdaterade metod den 15 maj (vecka 20) 2023. Den här sidan berör endast data som samlats in med deras uppdaterade metod. Data och visualisering på den här **sidan uppdateras inte längre**.
 
 Alla forskningsdata som använder den gamla metoden finns tillgängliga här ['Historisk mängd SARS-COV-2 i avloppsvatten (GU)'](/sv/dashboards/wastewater/covid_quantification/historic_covid_gu/).
 
@@ -26,7 +28,7 @@ Ingående avloppsvattenprover insamlas från Ryaverkets avloppsreningsverk (eng.
 
 ## Visualiseringar
 
-<div class="alert alert-info">Senast uppdaterad: <span id="last_modified_gu"></span></div>
+<div class="alert alert-info">Senast uppdaterad: <span id="last_modified_gu"></span> (uppdateras inte längre)</div>
 
 <div class="d-md-none alert alert-info">
   Att rotera mobiltelefonen kan förbättra grafens layout
