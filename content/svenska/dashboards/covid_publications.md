@@ -23,6 +23,8 @@ The visualisations on this page evaluate the development of COVID-19 and SARS-Co
 
 The code used to produce the visulations on this page can be found on [GitHub](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations). Specifically, code related to the number of publications can be found in the ['Count_publications' folder of the repository](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/tree/main/Count_publications), and code used to generated the wordclouds can be found in the ['Wordcloud' folder](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/tree/main/Wordcloud).
 
+{{% publication_updated_date %}}
+
 ## Number of new publications
 
 This graph displays the number of publications (including both journal publications and preprints) published each month, as well as the cumulative daily total of publications contained in the database. The dates reflect either the dates that the articles were uploaded to preprint servers (in the case of preprints) or the official journal publication date, whichever is the most recent. Where a given day of publication is not specified, we assign the date as the first of the month. This causes the appearance of a relatively sharp increase at the start of each month.
