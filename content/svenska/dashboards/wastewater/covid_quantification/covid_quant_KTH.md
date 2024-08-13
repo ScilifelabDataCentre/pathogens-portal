@@ -10,7 +10,7 @@ aliases:
 </div>
 <br>
 
-<div class="alert alert-info">Från juni 2023 kommer SARS-COV-2 data från SEEK-KTH inte längre uppdateras. SARS-COV-2 data efter juni 2023 <a href="/sv/dashboards/wastewater/covid_quantification/covid_quant_slu/">finns tillgängligt från andra forskargrupper.</a></div>
+<div class="alert alert-info">Från juni 2023 kommer SARS-COV-2 data från SEEK-KTH inte längre uppdateras. SARS-COV-2 data efter juni 2023 <a class="dark-blue" href="/sv/dashboards/wastewater/covid_quantification/covid_quant_slu/">finns tillgängligt från andra forskargrupper.</a></div>
 
 
 ## Introduktion
