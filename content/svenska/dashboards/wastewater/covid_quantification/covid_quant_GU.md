@@ -10,7 +10,7 @@ aliases:
 </div>
 <br>
 
-<div class="alert alert-info">Från april 2024 kommer SARS-COV-2 data från GU inte längre uppdateras. SARS-COV-2 data efter april 2024 <a href="/sv/dashboards/wastewater/covid_quantification/covid_quant_slu/">finns tillgängligt från andra forskargrupper.</a></div>
+<div class="alert alert-info">Från april 2024 kommer SARS-COV-2 data från GU inte längre uppdateras. SARS-COV-2 data efter april 2024 <a class="dark-blue" href="/sv/dashboards/wastewater/covid_quantification/covid_quant_slu/">finns tillgängligt från andra forskargrupper.</a></div>
 
 ## Introduktion
 

@@ -11,3 +11,7 @@ __pycache__
 # backups
 *~
 \#*\#
+
+# Node modules and npm cache directory
+node_modules/
+.npm/
