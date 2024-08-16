@@ -62,5 +62,20 @@ Vi hjälper er gärna med support, tar emot förslag på förbättringar av nuva
       <div><b>Johan Rung</b></div>
       <div><span class="text-muted">Head of SciLifeLab Data Centre</span></div>
     </div>
+    <div class="col pt-2">
+      <div><img src="/img/people/pd.jpeg" alt="Picture of Paul D" width="150" class="img-thumbnail"/></div>
+      <div><b>Paul Dulaud</b></div>
+      <div><span class="text-muted">Systems Developer</span></div>
+    </div>
+    <div class="col pt-2">
+      <div><img src="/img/people/nh.jpeg" alt="Picture of Nalina H" width="150" class="img-thumbnail"/></div>
+      <div><b>Nalina Hamsaiyni Venkatesh</b></div>
+      <div><span class="text-muted">Data Steward</span></div>
+    </div>
+    <div class="col pt-2">
+      <div><img src="/img/people/aa.jpg" alt="Picture of Abdullah A" width="150" class="img-thumbnail"/></div>
+      <div><b>Abdullah Aziz</b></div>
+      <div><span class="text-muted">Data Engineer</span></div>
+    </div>
   </div>
 </div>
