@@ -42,327 +42,20 @@ Proteins designed, expressed, purified, and characterised at the [KTH node of Pr
 </div>
 
 <div class="table-responsive">
-  <table id="variants" class="table table-hover" width="100%">
-    <thead class="table-light">
-      <tr>
-        <th scope="col">Virus Type</th>
-        <th scope="col">Variant</th>
-        <th scope="col">Protein</th>
-        <th scope="col">Details</th>
-        <th scope="col">Host</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>SARS-CoV-2</td>
-        <td>Wildtype virus</td>
-        <td>Spike</td>
-        <td>Spike, 9 different variants</td>
-        <td>HEK/CHO</td>
-      </tr>
-      <tr>
-        <td>SARS-CoV-2</td>
-        <td>Wildtype virus</td>
-        <td>Spike</td>
-        <td>Spike RBD, 5 different variants</td>
-        <td>E. coli/HEK/CHO</td>
-      </tr>
-      <tr>
-        <td>SARS-CoV-2</td>
-        <td>Wildtype virus</td>
-        <td>Spike</td>
-        <td>Spike S1, 14 different variants</td>
-        <td>E. coli/HEK/CHO</td>
-      </tr>
-      <tr>
-        <td>SARS-CoV-2</td>
-        <td>Wildtype virus</td>
-        <td>Spike</td>
-        <td>Spike S2, 4 different variants</td>
-        <td>E. coli</td>
-      </tr>
-      <tr>
-        <td>SARS-CoV-2</td>
-        <td>Wildtype virus</td>
-        <td>Nucleocapsid</td>
-        <td>6 different variants</td>
-        <td>E. coli/HEK/CHO</td>
-      </tr>
-      <tr>
-        <td>SARS-CoV-2</td>
-        <td>Wildtype virus</td>
-        <td>Envelop</td>
-        <td>2 different variants</td>
-        <td>E. coli</td>
-      </tr>
-      <tr>
-        <td>SARS-CoV-2</td>
-        <td>Wildtype virus</td>
-        <td>Membrane</td>
-        <td>1 variant</td>
-        <td>E. coli</td>
-      </tr>
-      <tr>
-        <td>SARS-CoV-2</td>
-        <td>Wildtype virus</td>
-        <td>RNA Polymerase</td>
-        <td>1 variant</td>
-        <td>E. coli</td>
-      </tr>
-      <tr>
-        <td>SARS-CoV-2</td>
-        <td>Wildtype virus</td>
-        <td>Non-structural proteins (NSP)</td>
-        <td>24 different variants</td>
-        <td>E. coli</td>
-      </tr>
-      <tr>
-        <td>SARS-CoV-2</td>
-        <td>Wildtype virus</td>
-        <td>ORF proteins</td>
-        <td>19 different variants</td>
-        <td>E. coli</td>
-      </tr>
-      <tr>
-        <td>SARS-CoV-2</td>
-        <td>Alpha (B.1.1.7)</td>
-        <td>Spike</td>
-        <td>Mutation only in the RBD-region</td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>SARS-CoV-2</td>
-        <td>Beta (B.1.351)</td>
-        <td>Spike</td>
-        <td>Mutation only in the RBD-region</td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>SARS-CoV-2</td>
-        <td>Gamma (P.1)</td>
-        <td>Spike</td>
-        <td>Mutation only in the RBD-region</td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>SARS-CoV-2</td>
-        <td>Delta (B.1.617.2)</td>
-        <td>Spike</td>
-        <td>Mutation only in the RBD-region</td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>SARS-CoV-2</td>
-        <td>Delta plus (B.1.617.2.1)</td>
-        <td>Spike</td>
-        <td>Mutation only in the RBD-region</td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>SARS-CoV-2</td>
-        <td>Eta (B.1.525)</td>
-        <td>Spike</td>
-        <td>Mutation only in the RBD-region</td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>SARS-CoV-2</td>
-        <td>Kappa (B.1.617.1)</td>
-        <td>Spike</td>
-        <td>Mutation only in the RBD-region</td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>SARS-CoV-2</td>
-        <td>Omicron BA.1</td>
-        <td>Spike</td>
-        <td>Complete set of mutations</td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>SARS-CoV-2</td>
-        <td>Omicron BA.2</td>
-        <td>Spike</td>
-        <td>Complete set of mutations</td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>SARS-CoV-2</td>
-        <td>Omicron BA.5</td>
-        <td>Spike</td>
-        <td>Complete set of mutations</td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>SARS-CoV-2</td>
-        <td></td>
-        <td>Spike</td>
-        <td></td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>MERS-CoV</td>
-        <td></td>
-        <td>Spike</td>
-        <td></td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>Common human coronaviruses</td>
-        <td>229E</td>
-        <td>Spike</td>
-        <td></td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>Common human coronaviruses</td>
-        <td>HKU1</td>
-        <td>Spike</td>
-        <td></td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>Common human coronaviruses</td>
-        <td>NL63</td>
-        <td>Spike</td>
-        <td></td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>Common human coronaviruses</td>
-        <td>OC43</td>
-        <td>Spike</td>
-        <td></td>
-        <td>CHO</td>
-      </tr>
-      <tr>
-        <td>Influenza virus</td>
-        <td>A/H1N1/Wisconsin/588/2019</td>
-        <td>Hemagglutinin</td>
-        <td></td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>Influenza virus</td>
-        <td>A/H1N1/Wisconsin/588/2019</td>
-        <td>Neuraminidase</td>
-        <td></td>
-        <td>CHO</td>
-      </tr>
-      <tr>
-        <td>Influenza virus</td>
-        <td>A/H3N2/Cambodia/e0826360/2020</td>
-        <td>Hemagglutinin</td>
-        <td></td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>Influenza virus</td>
-        <td>A/H3N2/Cambodia/e0826360/2020</td>
-        <td>Neuraminidase</td>
-        <td></td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>Influenza virus</td>
-        <td>B/Victoria/Washington/02/2019</td>
-        <td>Hemagglutinin</td>
-        <td></td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>Influenza virus</td>
-        <td>B/Victoria/Washington/02/2019</td>
-        <td>Neuraminidase</td>
-        <td></td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>Respiratory Syncytial Virus (RSV)</td>
-        <td>A/A2</td>
-        <td>Glycoprotein</td>
-        <td></td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>Respiratory Syncytial Virus (RSV)</td>
-        <td>B/18537</td>
-        <td>Fusion protein</td>
-        <td></td>
-        <td>CHO</td>
-      </tr>
-      <tr>
-        <td>Respiratory Syncytial Virus (RSV)</td>
-        <td>B/18537</td>
-        <td>Glycoprotein</td>
-        <td></td>
-        <td>CHO</td>
-      </tr>
-      <tr>
-        <td>Adenovirus</td>
-        <td>HAdV-B7</td>
-        <td>Fiber protein</td>
-        <td></td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>Parainfluenza</td>
-        <td>HPIV-1 strain C39</td>
-        <td>Fusion Protein</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Parainfluenza</td>
-        <td>HPIV-1 strain Washington/1957</td>
-        <td>Hemagglutinin-neuraminidase</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Metapneumovirus</td>
-        <td>HMPV-A strain CAN97-83</td>
-        <td>Fusion Protein</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Metapneumovirus</td>
-        <td>HMPV-A strain CAN97-83</td>
-        <td>Glycoprotein</td>
-        <td></td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>Mpox</td>
-        <td></td>
-        <td></td>
-        <td>A29L</td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>Mpox</td>
-        <td></td>
-        <td></td>
-        <td>A30L</td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>Mpox</td>
-        <td></td>
-        <td></td>
-        <td>E8L</td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>Mpox</td>
-        <td></td>
-        <td></td>
-        <td>H3L</td>
-        <td>HEK</td>
-      </tr>
-    </tbody>
-  </table>
+    <table id="table2" class="table table-hover" width="100%">
+        <thead class="table-light">
+            <tr>
+                <th scope="col">Virus Type</th>
+                <th scope="col">Variant</th>
+                <th scope="col">Protein</th>
+                <th scope="col">Details</th>
+                <th scope="col">Host</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data for the second table will be dynamically populated here -->
+        </tbody>
+    </table>
 </div>
 
 ## Ongoing work and collaborations
@@ -376,257 +69,20 @@ The multi-disease serological assay is under constant development and will gradu
 ### Externally produced antigens
 
 <div class="table-responsive">
-  <table id="antigens" class="table table-hover" width="100%">
-    <thead class="table-light">
-      <tr>
-        <th scope="col">Virus Type</th>
-        <th scope="col">Variant</th>
-        <th scope="col">Protein</th>
-        <th scope="col">Details</th>
-        <th scope="col">Host</th>
-      </tr>
-    </thead>
-      <tr>
-        <td>Bordetella Pertussis</td>
-        <td></td>
-        <td>Filamentous haemagglutinin</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Bordetella Pertussis</td>
-        <td></td>
-        <td>Pertussis toxin</td>
-        <td>Native</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Bordetella Pertussis</td>
-        <td></td>
-        <td>Membrane protein Pertactin</td>
-        <td></td>
-        <td>E. coli</td>
-      </tr>
-      <tr>
-        <td>Bordetella Pertussis</td>
-        <td>Strain Tomaha I</td>
-        <td>Filamentous haemagglutinin</td>
-        <td>Native</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Bordetella Pertussis</td>
-        <td>Strain Tomaha I</td>
-        <td>Native protein, whole cell</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Clostridium Tetanis</td>
-        <td></td>
-        <td>Tetanus toxin</td>
-        <td>Heavy chain fragment C</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Clostridium Tetanis</td>
-        <td></td>
-        <td>Tetanus toxoid</td>
-        <td>Native</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Corynebacterium Diphteria</td>
-        <td></td>
-        <td>Diphtheria toxin</td>
-        <td>Mutated G52E, native full length</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Corynebacterium Diphteria</td>
-        <td>Strain NCTC 10648</td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Cytomegalovirus</td>
-        <td></td>
-        <td>Glycoprotein B</td>
-        <td></td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>Epstein Barr Virus</td>
-        <td></td>
-        <td>Glycoprotein 125</td>
-        <td></td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>Hepatitis Virus</td>
-        <td>HBV</td>
-        <td></td>
-        <td>Surface antigen, subtype adw</td>
-        <td>P. pastoris</td>
-      </tr>
-      <tr>
-        <td>Human Papillomavirus (HPV)</td>
-        <td>Type 16</td>
-        <td>Capsid protein L1</td>
-        <td>Full length</td>
-        <td>Yeast</td>
-      </tr>
-      <tr>
-        <td>Human Papillomavirus (HPV)</td>
-        <td>Type 18</td>
-        <td>Capsid protein L1</td>
-        <td>Full length</td>
-        <td>S. cerevisae</td>
-      </tr>
-      <tr>
-        <td>Human Papillomavirus (HPV)</td>
-        <td>Type 6</td>
-        <td>Capsid protein L1</td>
-        <td></td>
-        <td>E. coli</td>
-      </tr>
-      <tr>
-        <td>Human Papillomavirus (HPV)</td>
-        <td>Type 33</td>
-        <td>Capsid protein L1</td>
-        <td></td>
-        <td>E. coli</td>
-      </tr>
-      <tr>
-        <td>Measles Virus</td>
-        <td></td>
-        <td>Nucleoprotein</td>
-        <td></td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>Measles Virus</td>
-        <td>Strain Edmonston</td>
-        <td></td>
-        <td>Native</td>
-        <td>Vero cells</td>
-      </tr>
-      <tr>
-        <td>Mumps Virus</td>
-        <td></td>
-        <td>Nucleoprotein</td>
-        <td></td>
-        <td>E. coli</td>
-      </tr>
-      <tr>
-        <td>Mumps Virus</td>
-        <td>Strain Jeryl-Lynn</td>
-        <td>Nucleoprotein</td>
-        <td>Full length</td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>Mumps Virus</td>
-        <td></td>
-        <td>Nucleoprotein</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Mumps Virus</td>
-        <td>Strain Enders</td>
-        <td></td>
-        <td>Native</td>
-        <td>BSC-1 cells</td>
-      </tr>
-      <tr>
-        <td>Poliovirus</td>
-        <td>Type 1, Strain Sabin</td>
-        <td>Capsid protein</td>
-        <td></td>
-        <td>E. coli</td>
-      </tr>
-      <tr>
-        <td>Poliovirus</td>
-        <td>Type 2</td>
-        <td>Capsid protein VP3-VP1</td>
-        <td></td>
-        <td>E. coli</td>
-      </tr>
-      <tr>
-        <td>Poliovirus</td>
-        <td>Type 3</td>
-        <td>Capsid protein VP3-VP1</td>
-        <td></td>
-        <td>E. coli</td>
-      </tr>
-      <tr>
-        <td>Respiratory Syncytial Virus (RSV)</td>
-        <td>RSVA</td>
-        <td>Glycoprotein G</td>
-        <td></td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>Rotavirus</td>
-        <td>Strain Rotavirus A/RVA/Vaccine/USA/Rotarix-AROLA490AB/1988/G1P1A</td>
-        <td>Glycoprotein VP7</td>
-        <td></td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>Rotavirus</td>
-        <td>Strain SA-11</td>
-        <td></td>
-        <td></td>
-        <td>MA 104 cells</td>
-      </tr>
-      <tr>
-        <td>Rubella Virus</td>
-        <td></td>
-        <td></td>
-        <td>Grade 4 antigen</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Rubella Virus</td>
-        <td>Strain F-Therien</td>
-        <td>Nucleoprotein</td>
-        <td></td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>Rubella Virus</td>
-        <td></td>
-        <td>Glycoprotein E1</td>
-        <td></td>
-        <td>E. coli</td>
-      </tr>
-      <tr>
-        <td>Rubella Virus</td>
-        <td>Strain F-Therien</td>
-        <td>Spike glycoprotein E1</td>
-        <td></td>
-        <td>HEK</td>
-      </tr>
-      <tr>
-        <td>Rubella Virus</td>
-        <td>Strain HPV-77</td>
-        <td>Spike glycoprotein E1 & E2</td>
-        <td>Rubella Vaccine</td>
-        <td>Insect cells</td>
-      </tr>
-      <tr>
-        <td>Streptococcus Pneumoniae</td>
-        <td></td>
-        <td>Cell wall polysaccharide antigen</td>
-        <td>Native</td>
-        <td></td>
-      </tr>
-    <tbody>
-    </tbody>
-  </table>
+    <table id="table1" class="table table-hover" width="100%">
+        <thead class="table-light">
+            <tr>
+                <th scope="col">Pathogen</th>
+                <th scope="col">Variant</th>
+                <th scope="col">Protein</th>
+                <th scope="col">Details</th>
+                <th scope="col">Host</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data for the first table will be dynamically populated here -->
+        </tbody>
+    </table>
 </div>
 
 <script>
@@ -658,3 +114,102 @@ The multi-disease serological assay is under constant development and will gradu
   src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" charset="utf8"
   src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+<script>
+    async function fetchAndPopulateTable(url, tableId, headers) {
+        try {
+            // Attempt to fetch the file
+            const response = await fetch(url);
+
+            // Check if the response is OK
+            if (!response.ok) {
+                throw new Error(`Failed to fetch ${url}: ${response.statusText}`);
+            }
+
+            const arrayBuffer = await response.arrayBuffer();
+
+            // Parse the Excel file
+            let workbook;
+            try {
+                workbook = XLSX.read(arrayBuffer, { type: "array" });
+            } catch (error) {
+                throw new Error(`Error parsing Excel file from ${url}: ${error.message}`);
+            }
+
+            const sheetName = workbook.SheetNames[0]; // Assuming the first sheet
+            const worksheet = workbook.Sheets[sheetName];
+            const jsonData = XLSX.utils.sheet_to_json(worksheet);
+
+            // Check if the parsed JSON data is empty
+            if (jsonData.length === 0) {
+                throw new Error(`The file at ${url} appears to be empty.`);
+            }
+
+            // Populate the table
+            const tableBody = document.getElementById(tableId).querySelector('tbody');
+            tableBody.innerHTML = ''; // Clear any existing content
+
+            jsonData.forEach(row => {
+                const tr = document.createElement('tr');
+
+                // Create cells for each column based on provided headers
+                headers.forEach(column => {
+                    const td = document.createElement('td');
+                    td.textContent = row[column] || ''; // Display an empty string if the data is missing
+                    tr.appendChild(td);
+                });
+
+                tableBody.appendChild(tr);
+            });
+
+            // Initialize DataTables for this table
+            $(`#${tableId}`).DataTable({
+                "sDom": '<"top row"<"col-md"i><"col-md"f>>rt<"bottom row"<"col-md"l><"col-md"p>><"clear">',
+                "order": [],
+                "language": {
+                    "lengthMenu": "Show _MENU_ entries per page",
+                    "zeroRecords": "Nothing found.",
+                    "info": "Showing _START_ to _END_ of _TOTAL_ entries.",
+                    "infoEmpty": "No records available",
+                    "infoFiltered": "(filtered from _MAX_ total records)",
+                    "search": "Search:",
+                    "paginate": {
+                        "first": "First",
+                        "last": "Last",
+                        "next": "»",
+                        "previous": "«"
+                    }
+                }
+            });
+
+        } catch (error) {
+            console.error(`Error processing table ${tableId}:`, error.message);
+
+            // Display an error message in the table
+            const tableBody = document.getElementById(tableId).querySelector('tbody');
+            tableBody.innerHTML = `<tr><td colspan="${headers.length}" class="text-center text-danger">Error: ${error.message}</td></tr>`;
+        }
+    }
+
+    // URLs and headers for the two tables
+    const tables = [
+        {
+            url: "https://blobserver.dc.scilifelab.se/blob/External-PLP-proteinlist.xlsx",
+            tableId: "table1",
+            headers: ['Pathogen', 'Variant', 'Protein', 'Details', 'Host']
+        },
+        {
+            url: "https://blobserver.dc.scilifelab.se/blob/KTH-produced-antigens%20240418.xlsx",
+            tableId: "table2",
+            headers: ['Virus type', 'Variant', 'Protein', 'Details', 'Host']
+        }
+    ];
+
+    // Fetch and populate data for both tables when the page loads
+    window.onload = function() {
+        tables.forEach(table => {
+            fetchAndPopulateTable(table.url, table.tableId, table.headers);
+        });
+    };
+</script>
