@@ -42,7 +42,7 @@ Proteins designed, expressed, purified, and characterised at the [KTH node of Pr
 </div>
 
 <div class="table-responsive">
-    <table id="table2" class="table table-hover" width="100%">
+    <table id="table1" class="table table-hover" width="100%">
         <thead class="table-light">
             <tr>
                 <th scope="col">Virus Type</th>
@@ -53,7 +53,7 @@ Proteins designed, expressed, purified, and characterised at the [KTH node of Pr
             </tr>
         </thead>
         <tbody>
-            <!-- Data for the second table will be dynamically populated here -->
+            <!-- Data for the table will be dynamically populated here -->
         </tbody>
     </table>
 </div>
@@ -69,7 +69,7 @@ The multi-disease serological assay is under constant development and will gradu
 ### Externally produced antigens
 
 <div class="table-responsive">
-    <table id="table1" class="table table-hover" width="100%">
+    <table id="table2" class="table table-hover" width="100%">
         <thead class="table-light">
             <tr>
                 <th scope="col">Pathogen</th>
@@ -80,41 +80,10 @@ The multi-disease serological assay is under constant development and will gradu
             </tr>
         </thead>
         <tbody>
-            <!-- Data for the first table will be dynamically populated here -->
+            <!-- Data for the table will be dynamically populated here -->
         </tbody>
     </table>
 </div>
-
-<script>
-  $(document).ready(function () {
-    var tableConfig = {
-      "sDom": '<"top row"<"col-md"i><"col-md"f>>rt<"bottom row"<"col-md"l><"col-md"p>><"clear">',
-      "order": [],
-      "language": {
-        "lengthMenu": "Show _MENU_ entries per page",
-        "zeroRecords": "Nothing found.",
-        "info": "Showing _START_ to _END_ of _TOTAL_ entries.",
-        "infoEmpty": "No records available",
-        "infoFiltered": "(filtered from _MAX_ total records)",
-        "search": "Search:",
-        "paginate": {
-          "first": "First",
-          "last": "Last",
-          "next": "»",
-          "previous": "«"
-        }
-      }
-    };
-    $('#variants').DataTable(tableConfig);
-    $('#antigens').DataTable(tableConfig);
-  });
-</script>
-
-<script type="text/javascript" charset="utf8"
-  src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
-<script type="text/javascript" charset="utf8"
-  src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 
 <script>
     async function fetchAndPopulateTable(url, tableId, headers) {
@@ -124,26 +93,20 @@ The multi-disease serological assay is under constant development and will gradu
 
             // Check if the response is OK
             if (!response.ok) {
-                throw new Error(`Failed to fetch ${url}: ${response.statusText}`);
+                throw new Error("Failed to load data. Please try again later.");
             }
 
             const arrayBuffer = await response.arrayBuffer();
 
             // Parse the Excel file
-            let workbook;
-            try {
-                workbook = XLSX.read(arrayBuffer, { type: "array" });
-            } catch (error) {
-                throw new Error(`Error parsing Excel file from ${url}: ${error.message}`);
-            }
-
+            const workbook = XLSX.read(arrayBuffer, { type: "array" });
             const sheetName = workbook.SheetNames[0]; // Assuming the first sheet
             const worksheet = workbook.Sheets[sheetName];
             const jsonData = XLSX.utils.sheet_to_json(worksheet);
 
             // Check if the parsed JSON data is empty
             if (jsonData.length === 0) {
-                throw new Error(`The file at ${url} appears to be empty.`);
+                throw new Error("The data is currently unavailable. Please check back later.");
             }
 
             // Populate the table
@@ -188,21 +151,21 @@ The multi-disease serological assay is under constant development and will gradu
 
             // Display an error message in the table
             const tableBody = document.getElementById(tableId).querySelector('tbody');
-            tableBody.innerHTML = `<tr><td colspan="${headers.length}" class="text-center text-danger">Error: ${error.message}</td></tr>`;
+            tableBody.innerHTML = `<tr><td colspan="${headers.length}" class="text-center text-danger">An error occurred while loading the data. Please try again later.</td></tr>`;
         }
     }
 
     // URLs and headers for the two tables
     const tables = [
-        {
-            url: "https://blobserver.dc.scilifelab.se/blob/External-PLP-proteinlist.xlsx",
+       {
+            url: "https://blobserver.dc.scilifelab.se/blob/KTH-produced-antigens%20240418.xlsx",
             tableId: "table1",
-            headers: ['Pathogen', 'Variant', 'Protein', 'Details', 'Host']
+            headers: ['Virus type', 'Variant', 'Protein', 'Details', 'Host']
         },
         {
-            url: "https://blobserver.dc.scilifelab.se/blob/KTH-produced-antigens%20240418.xlsx",
+            url: "https://blobserver.dc.scilifelab.se/blob/External-PLP-proteinlist.xlsx",
             tableId: "table2",
-            headers: ['Virus type', 'Variant', 'Protein', 'Details', 'Host']
+            headers: ['Pathogen', 'Variant', 'Protein', 'Details', 'Host']
         }
     ];
 
@@ -213,3 +176,10 @@ The multi-disease serological assay is under constant development and will gradu
         });
     };
 </script>
+
+
+<script type="text/javascript" charset="utf8"
+  src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" charset="utf8"
+  src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
