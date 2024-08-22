@@ -20,7 +20,7 @@ We want to inform you that whenever you visit our **Service**, we collect the in
 
 You can opt out of your Log Data being collected below:
 
-<iframe id="matoOpOut" src="https://matomo.dc.scilifelab.se/index.php?module=CoreAdminHome&action=optOut&language=en&fontSize=16px&fontFamily=Helvetica"></iframe>
+<iframe id="matoOpOut" title="Data share opt out box" src="https://matomo.dc.scilifelab.se/index.php?module=CoreAdminHome&action=optOut&language=en&fontSize=16px&fontFamily=Helvetica"></iframe>
 
 ## Forms
 

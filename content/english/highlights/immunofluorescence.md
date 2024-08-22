@@ -86,7 +86,7 @@ Select a plate to view using the dropdown below. You can see the HPA ID of the a
 <div class="container">
   <div class="row">
     <div class="col-md-3">
-      <select class="form-control" id="select_plate">
+      <select class="form-control" id="select_plate" aria-labelledby="select_plate">
         <option value="p1">Plate 1</option>
         <option value="p2">Plate 2</option>
         <option value="p3">Plate 3</option>
