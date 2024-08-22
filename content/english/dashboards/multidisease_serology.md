@@ -44,13 +44,7 @@ Proteins designed, expressed, purified, and characterised at the [KTH node of Pr
 <div class="table-responsive">
     <table id="table1" class="table table-hover" width="100%">
         <thead class="table-light">
-            <tr>
-                <th scope="col">Virus Type</th>
-                <th scope="col">Variant</th>
-                <th scope="col">Protein</th>
-                <th scope="col">Details</th>
-                <th scope="col">Host</th>
-            </tr>
+            <!-- Table header will be dynamically populated here -->
         </thead>
         <tbody>
             <!-- Data for the table will be dynamically populated here -->
@@ -71,13 +65,7 @@ The multi-disease serological assay is under constant development and will gradu
 <div class="table-responsive">
     <table id="table2" class="table table-hover" width="100%">
         <thead class="table-light">
-            <tr>
-                <th scope="col">Pathogen</th>
-                <th scope="col">Variant</th>
-                <th scope="col">Protein</th>
-                <th scope="col">Details</th>
-                <th scope="col">Host</th>
-            </tr>
+            <!-- Table header will be dynamically populated here -->
         </thead>
         <tbody>
             <!-- Data for the table will be dynamically populated here -->
@@ -172,11 +160,22 @@ The multi-disease serological assay is under constant development and will gradu
     // Fetch and populate data for both tables when the page loads
     window.onload = function() {
         tables.forEach(table => {
+            // Populate table header
+            const tableHead = document.getElementById(table.tableId).querySelector('thead');
+            tableHead.innerHTML = ''; // Clear any existing content
+            const tr = document.createElement('tr');
+            table.headers.forEach(header => {
+                const th = document.createElement('th');
+                th.textContent = header;
+                tr.appendChild(th);
+            });
+            tableHead.appendChild(tr);
+
+            // Fetch data and populate table content
             fetchAndPopulateTable(table.url, table.tableId, table.headers);
         });
     };
 </script>
-
 
 <script type="text/javascript" charset="utf8"
   src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
