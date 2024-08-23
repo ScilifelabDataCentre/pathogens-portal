@@ -13,7 +13,8 @@ toc: true
 data_status: "updating" # or "historic"
 ---
 
-<div class="alert alert-info">All data last updated: 2024-08-05</div>
+<div class="alert alert-info" id="last-updated">All data last updated: Loading...</div>
+
 
 ## Introduction
 
@@ -157,6 +158,35 @@ The multi-disease serological assay is under constant development and will gradu
         }
     ];
 
+     async function fetchLastModifiedDates() {
+        const jsonUrls = [
+            "https://blobserver.dc.scilifelab.se/blob/External-PLP-proteinlist.xlsx/info.json",
+            "https://blobserver.dc.scilifelab.se/blob/KTH-produced-antigens%20240418.xlsx/info.json"
+        ];
+        
+        try {
+            const datePromises = jsonUrls.map(async (url) => {
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error("Failed to fetch last modified date.");
+                }
+                const data = await response.json();
+                return new Date(data.modified);
+            });
+            
+            const dates = await Promise.all(datePromises);
+            const latestDate = new Date(Math.max.apply(null, dates));
+            
+            // Format date as YYYY-MM-DD
+            const formattedDate = latestDate.toISOString().split('T')[0];
+            
+            document.getElementById('last-updated').innerText = `All data last updated: ${formattedDate}`;
+        } catch (error) {
+            console.error('Error fetching last modified dates:', error.message);
+            document.getElementById('last-updated').innerText = 'All data last updated: Unable to retrieve date';
+        }
+    }
+
     // Fetch and populate data for both tables when the page loads
     window.onload = function() {
         tables.forEach(table => {
@@ -174,6 +204,7 @@ The multi-disease serological assay is under constant development and will gradu
             // Fetch data and populate table content
             fetchAndPopulateTable(table.url, table.tableId, table.headers);
         });
+        fetchLastModifiedDates();
     };
 </script>
 
