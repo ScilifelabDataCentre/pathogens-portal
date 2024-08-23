@@ -147,43 +147,47 @@ The multi-disease serological assay is under constant development and will gradu
     // URLs and headers for the two tables
     const tables = [
        {
-            url: "https://blobserver.dc.scilifelab.se/blob/KTH-produced-antigens%20240418.xlsx",
+            url: "https://blobserver.dc.scilifelab.se/blob/KTH-produced-antigens.xlsx",
+            infoUrl: "https://blobserver.dc.scilifelab.se/blob/KTH-produced-antigens.xlsx/info.json",
             tableId: "table1",
             headers: ['Virus type', 'Variant', 'Protein', 'Details', 'Host']
         },
         {
             url: "https://blobserver.dc.scilifelab.se/blob/External-PLP-proteinlist.xlsx",
+            infoUrl: "https://blobserver.dc.scilifelab.se/blob/External-PLP-proteinlist.xlsx/info.json",
             tableId: "table2",
             headers: ['Pathogen', 'Variant', 'Protein', 'Details', 'Host']
         }
     ];
 
-     async function fetchLastModifiedDates() {
-        const jsonUrls = [
-            "https://blobserver.dc.scilifelab.se/blob/External-PLP-proteinlist.xlsx/info.json",
-            "https://blobserver.dc.scilifelab.se/blob/KTH-produced-antigens%20240418.xlsx/info.json"
-        ];
+    async function fetchLastModifiedDates() {
         
-        try {
-            const datePromises = jsonUrls.map(async (url) => {
-                const response = await fetch(url);
+        const dates = [];
+        
+        for (const {infoUrl} of tables) {
+            try {
+                const response = await fetch(infoUrl);
                 if (!response.ok) {
-                    throw new Error("Failed to fetch last modified date.");
+                    console.warn(`Failed to fetch JSON from ${infoUrl}`);
+                    continue; // Skip to the next URL if fetch fails
                 }
                 const data = await response.json();
-                return new Date(data.modified);
-            });
-            
-            const dates = await Promise.all(datePromises);
-            const latestDate = new Date(Math.max.apply(null, dates));
-            
+                dates.push(new Date(data.modified));
+            } catch (error) {
+                console.warn(`Error fetching or parsing JSON from ${infoUrl}:`, error.message);
+                continue; // Skip to the next URL on error
+            }
+        }
+
+        if (dates.length === 0) {
+            // If no dates were successfully fetched, show an error message
+            document.getElementById('last-updated').innerText = 'All data last updated: Unable to retrieve date';
+        } else {
+            // Get the latest date from the successfully fetched dates
+            const latestDate = new Date(Math.max(...dates));
             // Format date as YYYY-MM-DD
             const formattedDate = latestDate.toISOString().split('T')[0];
-            
             document.getElementById('last-updated').innerText = `All data last updated: ${formattedDate}`;
-        } catch (error) {
-            console.error('Error fetching last modified dates:', error.message);
-            document.getElementById('last-updated').innerText = 'All data last updated: Unable to retrieve date';
         }
     }
 
