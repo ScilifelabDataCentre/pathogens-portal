@@ -73,7 +73,7 @@ Notera också att även om samma metoder används för alla städer som visas p�
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_stockholm.json" height="550px" >}}</div>
 </div>
 
-**Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/combined_stockholm_regular.py).
+**Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/archive/combined_stockholm_regular.py).
 
 ### Malmö
 
@@ -87,7 +87,7 @@ Notera också att även om samma metoder används för alla städer som visas p�
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_kthmalmo.json" height="550px" >}}</div>
 </div>
 
-**Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/quant_malmo_kthplot.py).
+**Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/archive/quant_malmo_kthplot.py).
 
 ## Kommentarer från forskargruppen
 
