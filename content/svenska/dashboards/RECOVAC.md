@@ -60,7 +60,7 @@ In order to infer the impact of vaccination on ICU admissions, it is best to dir
 
 The graphs below have multiple interactive features. In brief, it is possible to view different parts of the data using the buttons above the graphs. For exmaple, it is possible to look only at data from only those over 60 years of age by clicking '>60'. The 'Align timeline' button will change the timeline of the graphs so that only period for which data is available for both types of data shown is visible. The 'Show all data' button can be used to see all of the available data for both datasets (the timelines of the two are not the same).
 
-<div id="dwbuttons"><button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#vis_instr_one" aria-expanded="False" aria-controls="mandatorycollapse">
+<div id="dwbuttonsone"><button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#vis_instr_one" aria-expanded="False" aria-controls="mandatorycollapse">
     Click here for more detailed instructions on using the features of the graphs
 </button>
 </div>
@@ -116,7 +116,7 @@ There is clear evidence of the benefits of vaccination for patients with each co
 
 The graphs below have multiple interactive features. It is possible to see all of the data available for a given comorbidity for clicking on the corresponding button. The 'Align timeline' button will change the timeframe shown so that only the time period that is common between the two graphs is shown. The 'Show all data' button can be used to see all of the available data for both datasets (the timelines of the two are not the same).
 
-<div id="dwbuttons"><button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#vis_instr_two" aria-expanded="False" aria-controls="mandatorycollapse">
+<div id="dwbuttonstwo"><button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#vis_instr_two" aria-expanded="False" aria-controls="mandatorycollapse">
     Click here for more detailed instructions on using the features of the graphs
 </button>
 </div>
