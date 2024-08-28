@@ -1,0 +1,41 @@
+<!-- Shortcode for GitHub Last Modified Date -->
+<span id="last_modified_github"></span>
+<script>
+
+ // Function to fetch the latest commit date from the GitHub repository using Fetch API
+ async function fetchGitHubCommitDate() {
+   const githubApiUrl = "https://api.github.com/repos/MurrellGroup/lineages/commits?path=plots&page=1&per_page=1";
+   try {
+     const response = await fetch(githubApiUrl);
+     // Check for successful response
+     if (!response.ok) {
+       throw new Error(`Error fetching GitHub commit date: ${response.statusText}`);
+     }
+     // Parse response data as JSON
+     const commits = await response.json();
+
+     // Check if there are any commits in the response data
+     if (commits.length === 0) {
+       updateModifiedDateElement("Not updated");
+       return;
+     }
+     // Extract the date of the latest commit and format as YYYY-MM-DD
+     const latestCommitDate = new Date(commits[0].commit.committer.date);
+     const formattedDate = latestCommitDate.toISOString().split('T')[0];
+     updateModifiedDateElement(formattedDate);
+
+   } catch (error) {
+     console.error(error);
+     updateModifiedDateElement("Error fetching date");
+   }
+ }
+
+ // Helper function to update the modified date element
+ function updateModifiedDateElement(dateText) {
+   document.getElementById("last_modified_github").innerText = dateText;
+ }
+
+ // Call the function to fetch the GitHub commit date
+ fetchGitHubCommitDate();
+
+</script>
