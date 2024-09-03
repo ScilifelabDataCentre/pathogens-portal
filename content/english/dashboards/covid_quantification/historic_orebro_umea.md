@@ -4,9 +4,10 @@ plotly: true
 aliases:
   - /data_types/environment/wastewater/historic_orebro_umea/
   - /dashboards/wastewater/historic_orebro_umea/
+  - /dashboards/wastewater/covid_quantification/historic_orebro_umea/
 ---
 
-This page displays data on the amount of SARS-CoV-2 in Umeå and Örebro wastewater between October 2020 and June 2021. A new method was used after June 2021, and [the most recent data can be found here](/dashboards/wastewater/covid_quantification/covid_quant_slu/).
+This page displays data on the amount of SARS-CoV-2 in Umeå and Örebro wastewater between October 2020 and June 2021. A new method was used after June 2021, and [the most recent data can be found here](/dashboards/covid_quantification/).
 
 The data displayed here were collected as part of a research project led by associate professor Maja Malmberg (SLU, Swedish University of Agricultural Sciences: <maja.malmberg@slu.se>), in collaboration with the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19), and associate professor Mette Myrmel at the Norwegian University of Life Sciences.
 

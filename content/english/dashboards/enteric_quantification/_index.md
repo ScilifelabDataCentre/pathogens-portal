@@ -1,13 +1,17 @@
 ---
 title: Amount of enteric virus in wastewater (GU)
+toc: true
 plotly: true
-type: wastewater
+banner: /dashboard_thumbs/wastewater_enteric_virus.png
+description: Enteric virus levels in Gothenburg’s wastewater, including norovirus and adenovirus. Data from the Norder group’s weekly analysis at Ryaverket WWTP helps predict outbreaks and includes samples from surrounding municipalities.
 menu:
-  wastewater:
-    name: Enteric virus quantification (GU)
-    weight: 30
+  dashboard_menu:
+    identifier: wastewater_enteric_quantification
+    name: "Wastewater: Enteric Virus Quantification (GU)"
+    weight: 20
+dashboards_topics: [Wastewater Surveillance, Enteric viruses, Epidemiology]
 aliases:
-  - /dashboards/wastewater/enteric_quant_gu/
+  - /dashboards/wastewater/enteric_quantification/
 ---
 
 <div class="alert alert-info">
@@ -85,7 +89,7 @@ Nucleic acids are extracted from 1ml of the concentrated sample using the QIAamp
 
 ## Archived data
 
-[Historic enteric virus data from Gothenburg collected between week 2 and week 43 of 2023](/dashboards/wastewater/enteric_quantification/historic_enteric_gu/).
+[Historic enteric virus data from Gothenburg collected between week 2 and week 43 of 2023](/dashboards/enteric_quantification/historic_enteric_gu/).
 
 ### Basic virus information
 

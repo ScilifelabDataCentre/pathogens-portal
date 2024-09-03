@@ -1,11 +1,17 @@
 ---
 title: Amount of influenza virus in wastewater (SLU)
 plotly: true
-type: wastewater
+toc: true
+banner: /dashboard_thumbs/wastewater_influenza.png
+description: It presents data on Influenza A and B virus levels in wastewater across Sweden, analyzed by SLU as part of SciLifeLab’s PLP Program. It is a key tool for monitoring community-level influenza trends through wastewater surveillance.
 menu:
-  wastewater:
-    name: Influenza quantification (SLU)
-    weight: 40
+ dashboard_menu:
+    identifier: wastewater_influenza_quantification
+    name: "Wastewater: Influenza Quantification (SLU)"
+    weight: 30
+aliases:
+  - /dashboards/wastewater/influenza_quantification/
+dashboards_topics: [Wastewater Surveillance, Influenza, Epidemiology]
 ---
 
 ## Introduction

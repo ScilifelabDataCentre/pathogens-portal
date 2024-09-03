@@ -3,13 +3,14 @@ title: Historic enteric virus data from Gothenburg
 plotly: true
 aliases:
   - /dashboards/wastewater/historic_enteric_GU/
+  - /dashboards/wastewater/enteric_quantification/historic_enteric_gu/
 ---
 
 <div class="alert alert-info">
   <span class="bi bi-exclamation-triangle-fill"> The data presented here is no longer updated but is kept for historical reference.</span>
 </div>
 
-This page shows historic wastewater epidemiology data for enteric viruses. The data was collected in Gothenburg, Sweden by the group led by Professor Helene Norder (University of Gothenburg, GU). The work was supported by co-workers from the University of Gothenburg and Sahlgrenska University Hospital (Hao Wang, Marianela Patzi Churqui, Timur Tunovic, Fredy Saguti, and Kristina Nyström), and Lucica Enache at Ryaverket, Gryaab AB, Gothenburg. The data shown on this page was collected between week 2 and week 43 of 2023 (i.e. between 9th January and 23rd October 2023). The group started to use a new method from week 20 of 2023 (15th May). Data produced using this new method continues to be updated approximately weekly, and is available on the ['Amount of enteric virus in wastewater (GU)' page](../).
+This page shows historic wastewater epidemiology data for enteric viruses. The data was collected in Gothenburg, Sweden by the group led by Professor Helene Norder (University of Gothenburg, GU). The work was supported by co-workers from the University of Gothenburg and Sahlgrenska University Hospital (Hao Wang, Marianela Patzi Churqui, Timur Tunovic, Fredy Saguti, and Kristina Nyström), and Lucica Enache at Ryaverket, Gryaab AB, Gothenburg. The data shown on this page was collected between week 2 and week 43 of 2023 (i.e. between 9th January and 23rd October 2023). The group started to use a new method from week 20 of 2023 (15th May). Data produced using this new method continues to be updated approximately weekly, and is available on the ['Amount of enteric virus in wastewater (GU)' page](/dashboards/enteric_quantification/).
 
 ## Introduction
 
@@ -17,9 +18,9 @@ Enteric viruses are a large group of viruses including, for example, calicivirus
 
 Wastewater contains many different types of viruses that infect humans because viruses are shed in the faeces and urine of infected individuals. The Norder group at the University of Gothenburg showed that the relative levels of some enteric viruses in wastewater could be used to predict upcoming outbreaks ([Hellmér _et al._, 2014](https://pubmed.ncbi.nlm.nih.gov/25172863/)). Indeed, previous studies by the Norder group have shown that the levels of noroviruses in wastewater increase 1-2 weeks before larger outbreaks in nursing homes and hospital wards.
 
-In 2017, and since 2020, the Norder group at the University of Gothenburg (GU) conducted weekly monitoring of the levels of some enteric viruses in wastewater. They quantify the levels of enteroviruses (including poliovirus), adenoviruses, GG2 (a norovirus causing winter vomiting disease), astroviruses, sapoviruses and also pepper molt mild virus (PMMoV). This page details the [historic methods used in monitoring](#methods), as well as [a brief summary information about the viruses](#basic-virus-information), and [information about citing the historic data](#dataset). Data collected using the updated method is available on the page ['Amount of enteric virus in wastewater (GU)'](../).
+In 2017, and since 2020, the Norder group at the University of Gothenburg (GU) conducted weekly monitoring of the levels of some enteric viruses in wastewater. They quantify the levels of enteroviruses (including poliovirus), adenoviruses, GG2 (a norovirus causing winter vomiting disease), astroviruses, sapoviruses and also pepper molt mild virus (PMMoV). This page details the [historic methods used in monitoring](#methods), as well as [a brief summary information about the viruses](#basic-virus-information), and [information about citing the historic data](#dataset). Data collected using the updated method is available on the page ['Amount of enteric virus in wastewater (GU)'](/dashboards/enteric_quantification/).
 
-The enteric virus monitoring by the Norder group was done alongside their ongoing monitoring of SARS-CoV-2 in wastewater, the data for which is [also shared on this portal](/dashboards/wastewater/covid_quantification/covid_quant_gu/).
+The enteric virus monitoring by the Norder group was done alongside their ongoing monitoring of SARS-CoV-2 in wastewater, the data for which is [also shared on this portal](/dashboards/covid_quantification/covid_quant_gu/).
 
 ## Wastewater collection sites
 

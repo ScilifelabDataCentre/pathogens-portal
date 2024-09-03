@@ -3,14 +3,11 @@ title: Amount of SARS-CoV-2 in wastewater (SEEC-KTH)
 plotly: true
 aliases:
   - /dashboards/wastewater/covid_quant_kth/
+  - /dashboards/wastewater/covid_quantification/covid_quant_kth/
 ---
 
-<div class="mt-3">
-  <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a>
-</div>
-<br>
 
-<div class="alert alert-info">As of June 2023, the SARS-CoV-2 data will no longer be updated by SEEC-KTH. Data from after June 2023 is <a class="dark-blue" href="/dashboards/wastewater/covid_quantification/covid_quant_slu/">available from other research groups.</a></div>
+<div class="alert alert-info">As of June 2023, the SARS-CoV-2 data will no longer be updated by SEEC-KTH. Data from after June 2023 is <a class="dark-blue" href="/dashboards/covid_quantification/">available from other research groups.</a></div>
 
 ## Introduction
 
@@ -111,13 +108,10 @@ After concentration, filtering, and preparation, the samples are analysed using 
 
 ## Archived data
 
-- [Historic data for Stockholm; Gene copy number/week (raw wastewater) with bovine + PMMoV factor between April 2020 and August 2021](/dashboards/wastewater/covid_quantification/historic_stockholm).
+- [Historic data for Stockholm; Gene copy number/week (raw wastewater) with bovine + PMMoV factor between April 2020 and August 2021](/dashboards/covid_quantification/historic_stockholm).
 
 ## Related data
 
 - SARS-CoV-2 variant analysis from wastewater (data available in the European Nucleotide Archive (ENA) under project number [PRJEB60156](https://www.ebi.ac.uk/ena/browser/view/PRJEB60156)): The group at KTH analysed samples from Stockholm and Malmö (2021-2022).
 
-<br>
-<div class="mt-3">
-  <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a>
-</div>
+
