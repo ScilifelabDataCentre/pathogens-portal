@@ -1,14 +1,26 @@
 ---
-title: Mängd SARS-COV-2 i avloppsvatten (SEEC-SLU)
+title: SARS-CoV-2 kvantifiering
+banner: /dashboard_thumbs/wastewater_sars-cov2.png
+menu:
+  wastewater:
+    name: SARS-CoV-2 kvantifiering
+    weight: 20
+description: Utforska SARS-CoV-2-nivåer i avloppsvatten över hela Sverige. Veckodata från SLU-SEEC spårar covid-19-trender, som täcker 43 % av befolkningen, och hjälper till att förutsäga utbrott.
+menu:
+  dashboard_menu:
+    identifier: wastewater_SARS-CoV-2_quantification
+    name: "Avloppsvatten: SARS-CoV-2 kvantifiering"
+    weight: 10
 plotly: true
+toc: true
 aliases:
   - /sv/dashboards/wastewater/covid_quant_slu/
+  - /sv/dashboards/wastewater/covid_quantification/
+  - /sv/dashboards/wastewater/covid_quantification/covid_quant_slu/
+dashboards_topics: [Wastewater Surveillance, COVID-19, Infectious diseases, Epidemiology]
+
 ---
 
-<div class="mt-3">
-  <a href="/sv/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Gå tillbaka till SARS-CoV-2-kvantifiering inom avloppsvattenbaserad epidemiologi-dashboarden</a>
-</div>
-<br>
 
 ## Introduktion
 
@@ -108,15 +120,20 @@ Absolut kvantifiering av antalet kopior av SARS-CoV-2-genomet utförs med ett On
 
 Data som presenteras i grafen visar förhållandet mellan det kopieantal som uppmätts med Flu SC2 Multiplex-testet och PMMoV-testet, multiplicerat med 1000. Resultat från Flu SC2 Multiplex-testet är en proxy för mängden SARS-CoV-2 i avloppsvattnet och PMMoV är en proxy för mängden avföring från människa i avloppsvattnet. Detta förhållande kan i sin tur anses vara en proxy för andelen infekterade individer i populationen i avloppsvattnets upptagningsområde. För att kunna jämföra den data som genereras med den nuvarande metoden med data som genererats med tidigare metoder och kvantifieringsanalyser, har äldre data omvandlats med hjälp av omvandlingsfaktorer. Omvandlingsfaktorerna beräknas baserat på jämförelseperioder när gamla och nya metoder använts parallellt.
 
-## Arkiverade data
-
-- [Historiska data för Örebro och Umeå, mängd SARS-CoV-2 i avloppsvatten från Umeå respektive Örebro mellan oktober 2020 och juni 2021](/sv/dashboards/wastewater/covid_quantification/historic_orebro_umea).
-
 ## Relaterade dataset
 
 - Genomiska SARS-CoV-2 analyser från avloppsvatten (data tillgängligt på European Nucleotide Archive (ENA) under projektnummer [PRJEB60156](https://www.ebi.ac.uk/ena/browser/view/PRJEB60156)). Forskargruppen från SLU har analyserat avloppsvattenprover från Uppsala, Örebro, Umeå och Kalmar (2021-2022).
 
-<br>
-<div class="mt-3">
-  <a href="/sv/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Gå tillbaka till SARS-CoV-2-kvantifiering inom avloppsvattenbaserad epidemiologi-dashboarden</a>
-</div>
+## Arkiverade data
+
+- [Historiska data för Örebro och Umeå, mängd SARS-CoV-2 i avloppsvatten från Umeå respektive Örebro mellan oktober 2020 och juni 2021](/sv/dashboards/covid_quantification/historic_orebro_umea).
+
+
+## Annan kvantifiering av SARS-CoV-2 i hela Sverige
+
+Andra grupper var också involverade i att kvantifiera halterna av SARS-CoV-2 i avloppsvatten. **Varje grupp mäter olika regioner i Sverige, och vissa regioner omfattas av flera grupper**. Nedan finns listor över de områden som täcks av varje grupp. Klicka på gruppens namn för att gå till deras SARS-CoV-2 kvantifieringsdata.
+
+- [**Göteborgs universitet (GU):**](/sv/dashboards/covid_quantification/covid_quant_gu/) Kvantifiering av mängd SARS-CoV-2 i avloppsvatten från Göteborg från Helene Norders forskargrupp vid GU.
+
+- [**SEEC-KTH noden:**](/sv/dashboards/covid_quantification/covid_quant_kth/)Kvantifiering av mängd SARS-CoV-2 i avloppsvatten från Malmö, Stockholm och Göteborg från forskargruppen SEEC-KTH (uppdateras inte efter juni 2023, historiska data finns tillgängliga).
+

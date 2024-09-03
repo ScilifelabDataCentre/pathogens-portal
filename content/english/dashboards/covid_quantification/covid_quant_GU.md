@@ -6,7 +6,7 @@ aliases:
   - /dashboards/wastewater/covid_quantification/covid_quant_gu/
 ---
 
-<div class="alert alert-info">As of April 2024, the SARS-CoV-2 data will no longer be updated by GU. Data from after April 2024 is <a class="dark-blue" href="/dashboards/wastewater/covid_quantification/covid_quant_slu/">available from other research groups.</a></div>
+<div class="alert alert-info">As of April 2024, the SARS-CoV-2 data will no longer be updated by GU. Data from after April 2024 is <a class="dark-blue" href="/dashboards/covid_quantification/">available from other research groups.</a></div>
 
 ## Introduction
 

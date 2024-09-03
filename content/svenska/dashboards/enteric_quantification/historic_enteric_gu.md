@@ -9,7 +9,7 @@ aliases:
   <span class="bi bi-exclamation-triangle-fill"> De data som presenteras här uppdateras inte längre utan bevaras för historisk referens.</span>
 </div>
 
-Denna webbsida visar historiska avloppsvattendata för enteriska virus. Data samlades in i Göteborg, Sverige av prof. Heléne Norders forskargrupp vid Göteborgs universitet, (GU). Forskningen har utfört av personal verksam vid Göteborgs universitet och på Sahlgrenska Universitetssjukhuset (Hao Wang, Marianela Patzi Churqui, Timur Tunovic, Fredy Saguti och Kristina Nyström) och Lucica Enache från Ryaverket, Gryaab AB, Göteburg. Data som visas på denna webbsida samlades in mellan vecka 2 och vecka 43 2023 (dvs. mellan 9 januari och 23 oktober 2023). Forskargruppen började använda en ny metod från och med vecka 20 2023 (15 maj). Data som bygger på den nya metoden uppdateras kontinuerligt ungefär **en gång per vecka** och visas på webbsidan ['Mängd enteriska virus i avloppsvatten (GU)'](../).
+Denna webbsida visar historiska avloppsvattendata för enteriska virus. Data samlades in i Göteborg, Sverige av prof. Heléne Norders forskargrupp vid Göteborgs universitet, (GU). Forskningen har utfört av personal verksam vid Göteborgs universitet och på Sahlgrenska Universitetssjukhuset (Hao Wang, Marianela Patzi Churqui, Timur Tunovic, Fredy Saguti och Kristina Nyström) och Lucica Enache från Ryaverket, Gryaab AB, Göteburg. Data som visas på denna webbsida samlades in mellan vecka 2 och vecka 43 2023 (dvs. mellan 9 januari och 23 oktober 2023). Forskargruppen började använda en ny metod från och med vecka 20 2023 (15 maj). Data som bygger på den nya metoden uppdateras kontinuerligt ungefär **en gång per vecka** och visas på webbsidan ['Mängd enteriska virus i avloppsvatten (GU)'](/dashboards/enteric_quantification/).
 
 ## Introduction
 
@@ -19,7 +19,7 @@ Avloppsvatten innehåller många olika typer av virus som infekterar allt levand
 
 Från starten av COVID-19 pandemin och alltjämt utför Nordergruppen vid Göteborgs universitet (GU) veckovis samtidig övervakning av SARS-CoV-2 och ett antal enteriska virus i avloppsvattnet. Gruppen kvantifierar nivåerna av virus arvsmassa av enterovirus (inklusive poliovirus), adenovirus, GG2 (ett norovirus), astrovirus, sapovirus och som kontroll ett växtvirus, Pepper Mild Mottle virus (PMMoV). Om andra virus misstänkts orsaka utbrott kommer även dessa att övervakas. Se nedan för mer om [metoderna som används vid övervakning](#metoder), [kort sammanfattande information om virusen](#grundläggande-virusinformation), och [information om insamlad data](#dataset).
 
-Den enteriska virusövervakningen av Norder-gruppen sker parallellet med gruppens pågående övervakning av SARS-CoV-2 nivåer i avloppsvatten. SARS-CoV-2 data delas [på denna sida](/dashboards/wastewater/covid_quantification/covid_quant_gu/).
+Den enteriska virusövervakningen av Norder-gruppen sker parallellet med gruppens pågående övervakning av SARS-CoV-2 nivåer i avloppsvatten. SARS-CoV-2 data delas [på denna sida](/dashboards/covid_quantification/covid_quant_gu/).
 
 ## Insamlingsplatser för avloppsvattenprov
 

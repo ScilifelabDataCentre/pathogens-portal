@@ -4,9 +4,10 @@ plotly: true
 aliases:
   - /sv/data_types/environment/wastewater/historic_orebro_umea/
   - /sv/dashboards/wastewater/historic_orebro_umea/
+  - /sv/dashboards/wastewater/covid_quantification/historic_orebro_umea/
 ---
 
-Denna sida visar data för mängd SARS-CoV-2 i avloppsvatten från Umeå och Örebro mellan oktober 2020 och juni 2021. Från juni 2021 ändrades metoden. Se [den här sidan](/dashboards/wastewater/covid_quantification/covid_quant_slu/) för de senaste uppgifterna.
+Denna sida visar data för mängd SARS-CoV-2 i avloppsvatten från Umeå och Örebro mellan oktober 2020 och juni 2021. Från juni 2021 ändrades metoden. Se [den här sidan](/dashboards/covid_quantification/) för de senaste uppgifterna.
 
 Data som visas här samlades in inom ett forskningsprojekt av prof. Maja Malmberg (SLU, Sveriges Lantbruksuniversitet) i samarbete med [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) och Mette Myrmel vid Norwegian University of Life Sciences. Mängden SARS-CoV-2-virus i avloppsvattnet mättes i avloppsreningsanläggningen i Örebro och Umeå. Se [den här kartan för det exakta avrinningsområdet för insamlingskanalerna i Örebro](/wastewater/map_orebro.pdf); se [den här kartan för det exakta avrinningsområdet för insamlingskanalerna i Umeå](/wastewater/map_umeaa.jpg).
 

@@ -4,9 +4,11 @@ plotly: true
 aliases:
   - /sv/data_types/environment/wastewater/historic_stockholm/
   - /sv/dashboards/wastewater/historic_stockholm/
+  - /sv/dashboards/wastewater/covid_quantification/historic_stockholm/
+
 ---
 
-Den här sidan visar data om mängden SARS-CoV-2 i Stockholm mellan april 2020 och augusti 2021 beräknat som genkopienummer/vecka (från avloppsvatten) standardiserat med bovint coronavirus+ PMMoV. Från september 2021 ändrades metoden. Se [den här sidan för de senaste uppgifterna](/dashboards/wastewater/covid_quantification/covid_quant_kth/).
+Den här sidan visar data om mängden SARS-CoV-2 i Stockholm mellan april 2020 och augusti 2021 beräknat som genkopienummer/vecka (från avloppsvatten) standardiserat med bovint coronavirus+ PMMoV. Från september 2021 ändrades metoden. Se [den här sidan för de senaste uppgifterna](/dashboards/covid_quantification/covid_quant_kth/).
 
 Data som visas här samlades in inom ett forskningsprojekt lett av prof. Zeynep Cetecioglu Gurol och kollegor (KTH) är ett samarbete mellan [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19) och avdelningarna [SEED](https://www.kth.se/en/seed) och [Chemical Engineering](https://www.kth.se/ket/chemical-engineering-1.784196) vid KTH, i nära samarbete med Stockholm Vatten och Avfall och Käppala Association. Provtagningen av avloppsvatten började i mitten av april 2020 från Bromma, Henriksdal och Käppala reningsverk. Dessa reningsverk får avloppsvatten från en befolkning på cirka 360 000; 860 000 respektive 500 000. Se [den här kartan för det exakta avrinningsområdet för insamlingskanalerna i Käppala](/wastewater/map_Kappala.pdf) och [den här kartan för det exakta avrinningsområdet för insamlingskanalerna i Bromma och Henriksdal](/wastewater/map_Bromma_Henriksdal.pdf).
 

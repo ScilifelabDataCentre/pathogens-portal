@@ -1,11 +1,17 @@
 ---
 title: Mängd influensa A- och influensa B-virus i avloppsvatten
 plotly: true
-type: wastewater
+toc: true
+banner: /dashboard_thumbs/wastewater_influenza.png
+description: Den presenterar data om influensa A- och B-virusnivåer i avloppsvatten över hela Sverige, analyserade av SLU som en del av SciLifeLabs PLP-program. Det är ett nyckelverktyg för att övervaka influensatrender på samhällsnivå genom övervakning av avloppsvatten.
 menu:
-  wastewater:
-    name: Influensa kvantifiering (SLU)
-    weight: 40
+ dashboard_menu:
+    identifier: wastewater_influenza_quantification
+    name: "Avloppsvatten: Kvantifiering av influensa (SLU)"
+    weight: 30
+aliases:
+  - /sv/dashboards/wastewater/influenza_quantification/
+dashboards_topics: [Wastewater Surveillance, Influenza, Epidemiology]
 ---
 
 ## Introduktion

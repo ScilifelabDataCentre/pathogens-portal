@@ -128,7 +128,7 @@ The data in the graph and datafile represent the ratio of the copy numbers measu
 
 ## Other quantification of SARS-CoV-2 across Sweden
 
-Other groups also involved in quantifying the levels of SARS-CoV-2 in wastewater. **Each group measure different regions of Sweden, and some regions are covered by multiple groups**. Below are lists of the areas covered by each group. Click on the name of the group to go to their SARS-CoV-2 quantification data.
+Other groups were also involved in quantifying the levels of SARS-CoV-2 in wastewater. **Each group measures different regions of Sweden, and some regions are covered by multiple groups**. Below are lists of the areas covered by each group. Click on the name of the group to go to their SARS-CoV-2 quantification data.
 
 - [**Gothenburg university (GU):**](/dashboards/covid_quantification/covid_quant_gu/) Quantification of the level of SARS-CoV-2 in wastewater from Gothenburg by the Norder group at GU.
 

@@ -28,7 +28,7 @@ In 2017, and since 2020, the Norder group at the University of Gothenburg (GU) c
 
 This page details the [latest method used in monitoring](#methods), as well as [a brief summary information about the viruses](#basic-virus-information), and [information about the data collected](#dataset).
 
-The enteric virus monitoring by the Norder group was done alongside their ongoing monitoring of SARS-CoV-2 in wastewater, the data for which are [also shared on this portal](/dashboards/wastewater/covid_quantification/covid_quant_gu/).
+The enteric virus monitoring by the Norder group was done alongside their ongoing monitoring of SARS-CoV-2 in wastewater, the data for which are [also shared on this portal](/dashboards/covid_quantification/covid_quant_gu/).
 
 The data and visualisations on this page is **no longer being updated**.
 
