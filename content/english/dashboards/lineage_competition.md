@@ -30,7 +30,7 @@ For convergent mutations (occuring independently at least three times), the cont
 
 <figure><img alt="Estimates of contribution to growth of convergently occuring mutations" width="1000" src="https://raw.githubusercontent.com/MurrellGroup/lineages/main/plots/N_MCMC_mutations.svg"></figure>
 
-The relatedness of SARS-CoV-2 variants, with their estimated growth rate advantages, can be visualised in a phylogenetic tree. Only recent variants, and key ancestral variants, are shown. Lineage with low growth rate estimates are excluded.
+The relatedness of SARS-CoV-2 variants, with their estimated growth rate advantages, can be visualised in a phylogenetic tree. Only recent variants, and key ancestral variants, are shown. Lineages with low growth rate estimates are excluded.
 
 <figure><img alt="Growth-annotated phylogeny" width="1000" src="https://raw.githubusercontent.com/MurrellGroup/lineages/main/plots/tree_pruned.svg"></figure>
 
