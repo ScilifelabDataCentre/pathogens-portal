@@ -71,7 +71,7 @@
               "accession_number": "",
               "description": "Epitope mapping of analytes binding RBD",
               "data_type": [
-                  "Protien"
+                  "Protein data"
               ],
               "data_url": "https://github.com/mkarla/epitope_mapping"
           },
@@ -81,37 +81,37 @@
               "accession_number": "",
               "description": "Flow cytometry data for: Mammalian cell display with automated oligo design and library assembly allows for rapid residue level conformational epitope mapping",
               "data_type": [
-                  "Protien"
+                  "Protein data"
               ],
               "data_url": "https://figshare.com/articles/dataset/Flow_cytometry_data_for_Mammalian_cell_display_with_automated_oligo_design_and_library_assembly_allows_for_rapid_residue_level_conformational_epitope_mapping/23057480?file=40796915"
           },
           {
               "type": "data",
-              "repo_name": "Protien Data Bank",
+              "repo_name": "Protein Data Bank",
               "accession_number": "6yla",
               "description": "Crystal structure of the SARS-CoV-2 receptor binding domain in complex with CR3022 Fab",
               "data_type": [
-                  "Protien"
+                  "Protein data"
               ],
               "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6YLA"
           },
           {
               "type": "data",
-              "repo_name": "Protien Data Bank",
+              "repo_name": "Protein Data Bank",
               "accession_number": "6vw1",
               "description": "Structure of SARS-CoV-2 chimeric receptor-binding domain complexed with its receptor human ACE2",
               "data_type": [
-                  "Protien"
+                  "Protein data"
               ],
               "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6VW1"
           },
           {
               "type": "data",
-              "repo_name": "Protien Data Bank",
+              "repo_name": "Protein Data Bank",
               "accession_number": "2ajf",
               "description": "Structure of SARS coronavirus spike receptor-binding domain complexed with its receptor",
               "data_type": [
-                  "Protien"
+                  "Protein data"
               ],
               "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2AJF"
           },
@@ -121,7 +121,7 @@
               "accession_number": "MK988448.1",
               "description": "Nucleotide Sequences",
               "data_type": [
-                  "Protien"
+                  "Protein data"
               ],
               "data_url": "https://www.ebi.ac.uk/ena/browser/view/MK988448.1?show=xrefs"
           }
@@ -144,41 +144,41 @@
       "available_items": [
           {
               "type": "data",
-              "repo_name": "Protien Data Bank",
+              "repo_name": "Protein Data Bank",
               "accession_number": "7mmo",
-              "description": "LY-CoV1404 neutralizing antibody against SARS-CoV-2",
+              "description": "LY-CoV1404 neutralising antibody against SARS-CoV-2",
               "data_type": [
-                  "Protien"
+                  "Protein data"
               ],
               "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7MMO"
           },
           {
               "type": "data",
-              "repo_name": "Protien Data Bank",
+              "repo_name": "Protein Data Bank",
               "accession_number": "8iot",
               "description": "Structure of the SARS-CoV-2 XBB.1 spike glycoprotein (closed-2 state)",
               "data_type": [
-                  "Protien"
+                  "Protein data"
               ],
               "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/8IOT"
           },
           {
               "type": "data",
-              "repo_name": "Protien Data Bank",
+              "repo_name": "Protein Data Bank",
               "accession_number": "6xdg",
-              "description": "Complex of SARS-CoV-2 receptor binding domain with the Fab fragments of two neutralizing antibodies",
+              "description": "Complex of SARS-CoV-2 receptor binding domain with the Fab fragments of two neutralising antibodies",
               "data_type": [
-                  "Protien"
+                  "Protein data"
               ],
               "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6XDG"
           },
           {
               "type": "data",
-              "repo_name": "Protien Data Bank",
+              "repo_name": "Protein Data Bank",
               "accession_number": "8iou",
               "description": "Structure of SARS-CoV-2 XBB.1 spike glycoprotein in complex with ACE2 (1-up state)",
               "data_type": [
-                  "Protien"
+                  "Protein data"
               ],
               "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/8IOU"
           },
@@ -188,7 +188,7 @@
               "accession_number": "",
               "description": "Deep mutational scanning of SARS-CoV-2 XBB.1.5 spike using a barcoded lentiviral platform",
               "data_type": [
-                  "Protien"
+                  "Protein data"
               ],
               "data_url": "https://dms-vep.org/SARS-CoV-2_XBB.1.5_spike_DMS/"
           },
@@ -198,7 +198,7 @@
               "accession_number": "",
               "description": "Mass photometry analysis of Spike:ACE2 binding",
               "data_type": [
-                  "Protien"
+                  "Protein data"
               ],
               "data_url": "https://github.com/JackTaylorBrown/massphotometry"
           },
@@ -208,7 +208,7 @@
               "accession_number": "",
               "description": "SARS-CoV-2_XBB.1.5_RBD_DMS",
               "data_type": [
-                  "Protien"
+                  "Protein data"
               ],
               "data_url": "https://github.com/dms-vep/SARS-CoV-2_XBB.1.5_RBD_DMS"
           },
@@ -216,9 +216,9 @@
               "type": "code",
               "repo_name": "Github",
               "accession_number": "",
-              "description": "Pipeline for analyzing deep mutational scanning (DMS) of viral entry proteins (VEPs)",
+              "description": "Pipeline for analysing deep mutational scanning (DMS) of viral entry proteins (VEPs)",
               "data_type": [
-                  "Protien"
+                  "Protein data"
               ],
               "data_url": "https://github.com/dms-vep/dms-vep-pipeline-3"
           },
@@ -228,7 +228,7 @@
               "accession_number": "",
               "description": "SARS-CoV-2_Omicron_BA.2_spike_ACE2_binding",
               "data_type": [
-                  "Protien"
+                  "Protein data"
               ],
               "data_url": "https://github.com/dms-vep/SARS-CoV-2_Omicron_BA.2_spike_ACE2_binding"
           },
@@ -238,7 +238,7 @@
               "accession_number": "",
               "description": "SARS-CoV-2_XBB.1.5_spike_DMS",
               "data_type": [
-                  "Protien"
+                  "Protein data"
               ],
               "data_url": "https://github.com/dms-vep/SARS-CoV-2_XBB.1.5_spike_DMS"
           },
@@ -248,7 +248,7 @@
               "accession_number": "",
               "description": "SARS-CoV-2_XBB.1.5_spike_DMS: SARS-CoV-2_XBB.1.5_spike_DMS-paper",
               "data_type": [
-                  "Protien"
+                  "Protein data"
               ],
               "data_url": "https://zenodo.org/records/10981249"
           }
@@ -273,9 +273,9 @@
               "type": "code",
               "repo_name": "GitLab",
               "accession_number": "",
-              "description": "IgDiscover analyzes antibody repertoires and discovers new V genes from high-throughput sequencing reads.",
+              "description": "IgDiscover analyses antibody repertoires and discovers new V genes from high-throughput sequencing reads.",
               "data_type": [
-                  "Genomics"
+                  "Genomics & transcriptomics data"
               ],
               "data_url": "https://gitlab.com/gkhlab/igdiscover22"
           },
@@ -291,7 +291,7 @@
           },
           {
               "type": "data",
-              "repo_name": "Protien Data Bank",
+              "repo_name": "Protein Data Bank",
               "accession_number": "8p5m",
               "description": "SARS-CoV-2 Spike RBD in complex with Mab-23 (Fab)",
               "data_type": [
@@ -301,7 +301,7 @@
           },
           {
               "type": "data",
-              "repo_name": "Protien Data Bank",
+              "repo_name": "Protein Data Bank",
               "accession_number": "8q5y",
               "description": "cryoEM structure of SARS-CoV2 Spike trimer in complex with Fab23",
               "data_type": [
@@ -352,7 +352,7 @@
               "accession_number": "",
               "description": "PHIRI - WP6 - Use Case C scripts for local analyses (R Markdown)",
               "data_type": [
-                  "Health"
+                  "Health data"
               ],
               "data_url": "https://zenodo.org/records/10013399"
           },
@@ -362,7 +362,7 @@
               "accession_number": "",
               "description": "PHIRI - WP6 - Use Case C Common Data Model & Study Protocol",
               "data_type": [
-                  "Health"
+                  "Health data"
               ],
               "data_url": "https://zenodo.org/records/7639001"
           }
@@ -389,7 +389,7 @@
               "accession_number": "",
               "description": "The code used for the extraction of digital data  from the ICU information system accessed by the automated surveillance system",
               "data_type": [
-                  "Health"
+                  "Health data"
               ],
               "data_url": "https://github.com/johanssonresearch/Automated-surveillance-of-antimicrobial-consumption-in-intensive-care-northern-Sweden"
           }
@@ -412,41 +412,41 @@
       "available_items": [
           {
               "type": "data",
-              "repo_name": "Protien Data Bank",
+              "repo_name": "Protein Data Bank",
               "accession_number": "5u6b",
               "description": "Structure of the Axl kinase domain in complex with a macrocyclic inhibitor",
               "data_type": [
-                  "Protien"
+                  "Protein data"
               ],
               "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5U6B"
           },
           {
               "type": "data",
-              "repo_name": "Protien Data Bank",
+              "repo_name": "Protein Data Bank",
               "accession_number": "6m0j",
               "description": "Crystal structure of SARS-CoV-2 spike receptor-binding domain bound with ACE2",
               "data_type": [
-                  "Protien"
+                  "Protein data"
               ],
               "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6M0J"
           },
           {
               "type": "data",
-              "repo_name": "Protien Data Bank",
+              "repo_name": "Protein Data Bank",
               "accession_number": "4u0q",
               "description": "Plasmodium falciparum reticulocyte-binding protein homologue 5 (PfRH5) bound to basigin",
               "data_type": [
-                  "Protien"
+                  "Protein data"
               ],
               "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4U0Q"
           },
           {
               "type": "data",
-              "repo_name": "Protien Data Bank",
+              "repo_name": "Protein Data Bank",
               "accession_number": "1xar",
               "description": "Crystal Structure of a fragment of DC-SIGNR (containing the carbohydrate recognition domain and two repeats of the neck).",
               "data_type": [
-                  "Protien"
+                  "Protein data"
               ],
               "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1XAR"
           }
@@ -510,7 +510,7 @@
               "accession_number": "",
               "description": "Prevalence of olfactory dysfunction after COVID-19 /Raw Data",
               "data_type": [
-                  "Health"
+                  "Health data"
               ],
               "data_url": "https://osf.io/26jq8/?view_only=53d8bb21c06c48d2bee231f75797789c"
           },
@@ -520,7 +520,7 @@
               "accession_number": "",
               "description": "Prevalence of olfactory dysfunction after COVID-19 /Analyses scripts",
               "data_type": [
-                  "Health"
+                  "Health data"
               ],
               "data_url": "https://osf.io/xv7f9/?view_only=53d8bb21c06c48d2bee231f75797789c"
           }
