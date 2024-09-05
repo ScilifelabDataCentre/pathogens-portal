@@ -8,7 +8,6 @@ menu:
     name: "Wastewater: SARS-CoV-2 Quantification"
     weight: 10
 plotly: true
-toc: true
 aliases:
   - /dashboards/wastewater/covid_quant_slu/
   - /dashboards/wastewater/covid_quantification/
@@ -78,7 +77,7 @@ Please note that although the same methods are used for all cities shown on this
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="800px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_slu_regular_v1.0.json" height="800px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/combined_slu_regular.py).

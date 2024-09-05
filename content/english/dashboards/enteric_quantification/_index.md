@@ -1,6 +1,5 @@
 ---
 title: Amount of enteric virus in wastewater (GU)
-toc: true
 plotly: true
 banner: /dashboard_thumbs/wastewater_enteric_virus.png
 description: Enteric virus levels in Gothenburg’s wastewater, including norovirus and adenovirus. Data from the Norder group’s weekly analysis at Ryaverket WWTP helps predict outbreaks and includes samples from surrounding municipalities.

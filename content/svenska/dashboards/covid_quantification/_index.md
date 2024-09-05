@@ -1,10 +1,6 @@
 ---
 title: SARS-CoV-2 kvantifiering
 banner: /dashboard_thumbs/wastewater_sars-cov2.png
-menu:
-  wastewater:
-    name: SARS-CoV-2 kvantifiering
-    weight: 20
 description: Utforska SARS-CoV-2-nivåer i avloppsvatten över hela Sverige. Veckodata från SLU-SEEC spårar covid-19-trender, som täcker 43 % av befolkningen, och hjälper till att förutsäga utbrott.
 menu:
   dashboard_menu:
@@ -12,7 +8,6 @@ menu:
     name: "Avloppsvatten: SARS-CoV-2 kvantifiering"
     weight: 10
 plotly: true
-toc: true
 aliases:
   - /sv/dashboards/wastewater/covid_quant_slu/
   - /sv/dashboards/wastewater/covid_quantification/
@@ -81,7 +76,7 @@ Notera också att även om samma metoder används för alla städer som visas p�
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="800px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_slu_regular_v1.0.json" height="800px" >}}</div>
 </div>
 
 **Källkod som används för att skapa grafen:** [Källkod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/combined_slu_regular.py).
