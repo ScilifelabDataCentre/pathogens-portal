@@ -16,7 +16,7 @@ data_status: "updating" # or "historic"
 
 <div class="alert alert-info">
   <i class="bi bi-exclamation-triangle-fill"></i>
-  <span>Denna sida är primärt ett arkiv för tidigare publicerade data, men den kan komma att uppdateras även i framtiden.  Enheten Autoimmunity and Serology Profiling har nu utökat sin pandemiberedskap till att omfatta tester för flera andra virus. Information om detta arbete finns på <a href="/dashboards/serology_multidisease/"> 'multi-disease serology dashboard'</a>.</span>
+  <span>Denna sida är primärt ett arkiv för tidigare publicerade data, men den kan komma att uppdateras även i framtiden.  Enheten Autoimmunity and Serology Profiling har nu utökat sin pandemiberedskap till att omfatta tester för flera andra virus. Information om detta arbete finns på <a class="dark-blue" href="/dashboards/serology_multidisease/"> 'multi-disease serology dashboard'</a>.</span>
 </div>
 
 Serologiska tester innebär att kroppsvätskor testas för förekomst av antikroppar eller andra ämnen. Sedan pandemins början har enheten SciLifeLab Autoimmunity and Serology Profiling genomfört serologiska tester för antikroppar riktade mot SARS-CoV-2-proteiner. Enheten har kontinuerligt tillhandahållit de senaste uppgifterna till Swedish Pathogens Portal. I vart och ett av avsnitten nedan visar vi antalet prover som var **positiva**, **negativa** eller **forskning och utveckling (R&D)**.

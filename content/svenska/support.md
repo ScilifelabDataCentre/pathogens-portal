@@ -25,7 +25,7 @@ Vi välkomnar både generella frågor om ”best practise” datahantering, data
 
 <div class="col-12 col-md-4 col-lg-3 d-none d-md-block">
 <figure class="figure">
-    <img width="200" src="/img/logos/nbislogo-orange-txt.svg#floatright">
+    <img width="200" alt="NBIS logo" src="/img/logos/nbislogo-orange-txt.svg#floatright">
 </figure>
 </div>
 
@@ -47,7 +47,7 @@ Läs mer om detta [på NBIS hemsida](https://nbis.se/support/).
 
 <div class="col-12 col-md-4 col-lg-3 d-none d-md-block">
 <figure class="figure">
-    <img width="250" src="/img/logos/SND_logo_eng.png#floatright">
+    <img width="250" alt="SND logo" src="/img/logos/SND_logo_eng.png#floatright">
 </figure>
 </div>
 

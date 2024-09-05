@@ -39,29 +39,44 @@ The team are happy to help with using the Portal, to take suggestions regarding 
 <div class="container mb-3">
   <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6">
     <div class="col pt-2">
-      <div><img src="/img/people/lh.jpg" alt="Picute of Liane H" width="150" class="img-thumbnail"/></div>
+      <div><img src="/img/people/lh.jpg" alt="Picture of Liane H" width="150" class="img-thumbnail"/></div>
       <div><b>Liane Hughes</b></div>
       <div><span class="text-muted">Project leader</span></div>
     </div>
     <div class="col pt-2">
-      <div><img src="/img/people/kos.jpg" alt="Picute of Katarina ÖS" width="150" class="img-thumbnail"/></div>
+      <div><img src="/img/people/kos.jpg" alt="Picture of Katarina ÖS" width="150" class="img-thumbnail"/></div>
       <div><b>Katarina Öjefors Stark</b></div>
       <div><span class="text-muted">Data steward</span></div>
     </div>
     <div class="col pt-2">
-      <div><img src="/img/people/sp.jpg" alt="Picute of Senthilkumar P" width="150" class="img-thumbnail"/></div>
+      <div><img src="/img/people/sp.jpg" alt="Picture of Senthilkumar P" width="150" class="img-thumbnail"/></div>
       <div><b>Senthilkumar Panneerselvam</b></div>
       <div><span class="text-muted">Systems developer</span></div>
     </div>
     <div class="col pt-2">
-      <div><img src="/img/people/hk.jpg" alt="Picute of Hanna K" width="150" class="img-thumbnail"/></div>
+      <div><img src="/img/people/hk.jpg" alt="Picture of Hanna K" width="150" class="img-thumbnail"/></div>
       <div><b>Hanna Kultima</b></div>
       <div><span class="text-muted">Vice head of SciLifeLab Data Centre</span></div>
     </div>
     <div class="col pt-2">
-      <div><img src="/img/people/jr.jpg" alt="Picute of Johan R" width="150" class="img-thumbnail"/></div>
+      <div><img src="/img/people/jr.jpg" alt="Picture of Johan R" width="150" class="img-thumbnail"/></div>
       <div><b>Johan Rung</b></div>
       <div><span class="text-muted">Head of SciLifeLab Data Centre</span></div>
+    </div>
+    <div class="col pt-2">
+      <div><img src="/img/people/pd.jpeg" alt="Picture of Paul D" width="150" class="img-thumbnail"/></div>
+      <div><b>Paul Dulaud</b></div>
+      <div><span class="text-muted">Systems Developer</span></div>
+    </div>
+    <div class="col pt-2">
+      <div><img src="/img/people/nh.jpeg" alt="Picture of Nalina H" width="150" class="img-thumbnail"/></div>
+      <div><b>Nalina Hamsaiyni Venkatesh</b></div>
+      <div><span class="text-muted">Data Steward</span></div>
+    </div>
+    <div class="col pt-2">
+      <div><img src="/img/people/aa.jpg" alt="Picture of Abdullah A" width="150" class="img-thumbnail"/></div>
+      <div><b>Abdullah Aziz</b></div>
+      <div><span class="text-muted">Data Engineer</span></div>
     </div>
   </div>
 </div>

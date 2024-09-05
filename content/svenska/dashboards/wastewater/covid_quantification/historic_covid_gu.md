@@ -29,7 +29,7 @@ _Det blå blocket på grafen indikerar den period då provtagningen gjordes inte
   <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/historic_wastewater_gothenburg.json" height="550px" >}}</div>
 </div>
 
-**Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/gothenburg_covid_historic.py).
+**Källskod som används för att skapa grafen:** [Källskod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/archive/gothenburg_covid_historic.py).
 
 ## Kommentarer från forskargruppen
 

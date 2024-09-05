@@ -1,14 +1,21 @@
 {
-  "$schema":  "https://raw.githubusercontent.com/jetify-com/devbox/0.11.1/.schema/devbox.schema.json",
-  "packages": ["hugo@0.123.7"],
-  "shell": {
-    "init_hook": [
-      "echo 'Welcome to devbox!' > /dev/null"
-    ],
-    "scripts": {
-      "server": [
-        "hugo serve"
-      ]
-    }
-  }
+	"$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.11.1/.schema/devbox.schema.json",
+	"packages": [
+		"hugo@0.123",
+		"nodejs@22"
+	],
+	"env": {
+		"PATH": "$PWD/node_modules/.bin/:$PATH",
+		"npm_config_cache": "$PWD/.npm/"
+	},
+	"shell": {
+		"init_hook": [
+			"echo '\nRunning npm install...'",
+			"npm install --no-fund --loglevel warn",
+			"echo 'Done :)\n'"
+		],
+		"scripts": {
+			"server": ["hugo server"]
+		}
+	}
 }

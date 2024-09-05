@@ -17,7 +17,7 @@ data_status: "historic" # or "updating"
 <div class="alert alert-info">
   <p><i class="bi bi-exclamation-triangle-fill"></i>Nationellt Pandemiskt center på Karolinska Institutet upphörde med högkapacitets PCR diagnostik 2020-12-21.</p>
   <p><span class="font-weight-bold">Den data som visas här har slutat uppdateras</span> och utgör endast historisk dokumentation.</p>
-  <a href="https://nyheter.ki.se/covid-19-tester-ki-atergar-till-ordinarie-laboratorieverksamhet-men-har-fortsatt-beredskap">KIs pressmeddelande</a>
+  <a class="dark-blue" href="https://nyheter.ki.se/covid-19-tester-ki-atergar-till-ordinarie-laboratorieverksamhet-men-har-fortsatt-beredskap">KIs pressmeddelande</a>
 </div>
 
 Datauppsättningen som visualiseras i graferna på denna sida är tillgänglig [på SciLifeLab Blobserver](https://blobserver.dc.scilifelab.se/blob/NPC-statistics-data-set.csv). De siffror som redovisas här har sammanställts automatiskt och kan av olika anledningar inte motsvara siffror som rapporterats via andra källor.

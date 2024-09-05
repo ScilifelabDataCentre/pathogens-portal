@@ -1,5 +1,10 @@
 [
   {
+    "date_time": "2024-08-15",
+    "title": "Case of mpox in Sweden",
+    "text": "A single case of mpox clade 1 was detected in Sweden in August 2024. No additional control measures are needed for this case, which originated in an area in which mpox is endemic. More information about this case is available from <a class='dark-blue' target='_blank' href='https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/communicable-disease-control/disease-information-about-mpox/one-case-of-mpox-clade-i-reported-in-sweden/'>Folkhalsomyndigheten</a>. Data on the number of mpox cases in Sweden between April and July 2024 is also available from <a class='dark-blue' target='_blank' href='https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/utbrottsarkiv/mpox-sverige-april-2024/'>Folkhalsomyndigheten</a> (information only available in Swedish)."
+  },
+  {
     "date_time": "2022-06-03",
     "title": "Workflows for sequence variant analysis",
     "text": "Two Galaxy workflows for mpox sequence variant analysis have been made available. One workflow (Illumina metatranscriptomic PE) deals with variant analysis from metatranscriptomic data. The other workflow (Report generation) can be used to generate the final variant analysis reports/plots. The workflows, and instructions on how to use them, <a class='dark-blue' target='_blank' href='https://galaxyproject.org/projects/mpxv/'>are found here</a>. More workflows will be added here over time"

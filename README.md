@@ -20,7 +20,7 @@ The website is intended to provide a central place to provide information about:
 - Ongoing research projects and funding opportunities for COVID-19 and other topics within pandemic preparedness research
 
 The site is built using the [Hugo](https://gohugo.io/) static web site generator.
-It uses the [Bootstrap](https://getbootstrap.com/) framework. In addition, it uses [Vega-Lite](https://vega.github.io/vega-lite/), [DataTables](https://datatables.net/), [OpenLayers](https://openlayers.org/), [plotly](https://plotly.com/), [ImJoy](https://imjoy.io/) for various features.
+It uses the [Bootstrap](https://getbootstrap.com/) framework. In addition, it uses [DataTables](https://datatables.net/), [OpenLayers](https://openlayers.org/), [plotly](https://plotly.com/), [ImJoy](https://imjoy.io/) for various features.
 
 ## Cite this portal
 

@@ -40,10 +40,12 @@ Before submission of raw sequence data (e.g. shotgun sequencing) it is necessary
 - [SciLifeLab Data Repository for metadata records of sequence data with restricted access](https://scilifelab.se/data/repository)
 
 <div class="container mb-4 ena_tutorial_banner">
-    <a href="/support_services/tutorial_ena/tutorial_ena_intro/"><img height="30px"
-        src="/img/ena_tutorial/ENA_logo_2021.png"></a> <a
-    href="/support_services/tutorial_ena/tutorial_ena_intro/">Tutorial for SARS-CoV-2 genome data submission to
-    ENA</a>
+  <a href="/support_services/tutorial_ena/tutorial_ena_intro/" aria-hidden="true">
+    <img height="30px" alt="ENA logo" src="/img/ena_tutorial/ENA_logo_2021.png">
+  </a>
+  <a href="/support_services/tutorial_ena/tutorial_ena_intro/">
+    Tutorial for SARS-CoV-2 genome data submission to ENA
+  </a>
 </div>
 
 ---

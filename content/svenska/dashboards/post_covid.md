@@ -188,7 +188,7 @@ Det här avsnittet presenterar en lista över publicerade vetenskapliga artiklar
 
 {{< postcovid_publications >}}
 
-<a id="background"><h2> </h2></a>
+<a id="background"></a>
 
 ## Bakgrund
 

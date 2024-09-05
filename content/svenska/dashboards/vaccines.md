@@ -16,7 +16,7 @@ data_status: "historic" # or "updating"
 
 <div class="alert alert-info">
   <i class="bi bi-exclamation-triangle-fill"></i>
-  <span>Uppgifterna på den här sidan uppdateras inte längre vid datakällan. Vi utvärderar för närvarande användningen av andra datakällor för vaccindata. Se vår <a href="/dashboards/recovac/">RECOVAC dashboard</a> för mer information om vaccin effektivitet och säkerhet (denna dashboard är endast tillgänglig på engelska).</span>
+  <span>Uppgifterna på den här sidan uppdateras inte längre vid datakällan. Vi utvärderar för närvarande användningen av andra datakällor för vaccindata. Se vår <a class="dark-blue" href="/dashboards/recovac/">RECOVAC dashboard</a> för mer information om vaccin effektivitet och säkerhet (denna dashboard är endast tillgänglig på engelska).</span>
 </div>
 
 ## General information on COVID-19 vaccines
@@ -41,7 +41,7 @@ On this page, we explore publicly available data for COVID-19 vaccination in Swe
 This page also displays information about [ongoing research projects](/dashboards/vaccines/#ongoing-research-projects) across Sweden related to COVID-19 vaccines. The list includes different kinds of projects, including life science projects, registry-based projects, and public health projects. We also [display a subset of publications](/dashboards/vaccines/#publications) related to vaccine research by researchers affiliated with a Swedish university or research institute.
 
 <div class="alert alert-info">
-    <i class="bi bi-info-circle-fill"></i> We invite researchers affiliated with a Swedish research institute to <a href="https://www.covid19dataportal.se/contact/">contact us</a> about adding information, data, and/or visualisations related to their own vaccine research to this Portal.
+    <i class="bi bi-info-circle-fill"></i> We invite researchers affiliated with a Swedish research institute to <a class="dark-blue" href="https://www.covid19dataportal.se/contact/">contact us</a> about adding information, data, and/or visualisations related to their own vaccine research to this Portal.
 </div>
 
 For more information on vaccination in Sweden, please also see the [RECOVAC dashboard on this portal](/dashboards/recovac/). The dashboard contains information and data visualisations related to the register-based large-scale national population study to monitor COVID-19 vaccination effectiveness and safety [(RECOVAC)](https://www.gu.se/en/research/recovac).
