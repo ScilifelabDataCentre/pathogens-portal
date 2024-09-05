@@ -3,14 +3,11 @@ title: Mängd SARS-COV-2 i avloppsvatten (SEEC-KTH)
 plotly: true
 aliases:
   - /sv/dashboards/wastewater/covid_quant_kth/
+  - /sv/dashboards/wastewater/covid_quantification/covid_quant_kth/
+
 ---
 
-<div class="mt-3">
-  <a href="/sv/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Gå tillbaka till SARS-CoV-2-kvantifiering inom avloppsvattenbaserad epidemiologi-dashboarden</a>
-</div>
-<br>
-
-<div class="alert alert-info">Från juni 2023 kommer SARS-COV-2 data från SEEK-KTH inte längre uppdateras. SARS-COV-2 data efter juni 2023 <a class="dark-blue" href="/sv/dashboards/wastewater/covid_quantification/covid_quant_slu/">finns tillgängligt från andra forskargrupper.</a></div>
+<div class="alert alert-info">Från juni 2023 kommer SARS-COV-2 data från SEEK-KTH inte längre uppdateras. SARS-COV-2 data efter juni 2023 <a class="dark-blue" href="/sv/dashboards/covid_quantification/">finns tillgängligt från andra forskargrupper.</a></div>
 
 
 ## Introduktion
@@ -112,13 +109,9 @@ Efter koncentration, filtrering och beredning analyseras proverna med RT-qPCR -t
 
 ## Arkiverade data
 
-- [Historiska data for Stockholm; genkopieantal per vecka (ofiltrerat avloppsvatten) standardiserat med bovint coronavirus och PMMoV, april 2020 till augusti 2021](/sv/dashboards/wastewater/covid_quantification/historic_stockholm).
+- [Historiska data for Stockholm; genkopieantal per vecka (ofiltrerat avloppsvatten) standardiserat med bovint coronavirus och PMMoV, april 2020 till augusti 2021](/sv/dashboards/covid_quantification/historic_stockholm).
 
 ## Relaterade datasets
 
 - Genomiska SARS-CoV-2 analyser från avloppsvatten data (tillgängligt på European Nucleotide Archive (ENA) under projektnummer [PRJEB60156](https://www.ebi.ac.uk/ena/browser/view/PRJEB60156)): forskargruppen från KTH har analyserat avloppsvattenprover från Stockholm och Malmö (2021-2022).
 
-<br>
-<div class="mt-3">
-  <a href="/sv/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Gå tillbaka till SARS-CoV-2-kvantifiering inom avloppsvattenbaserad epidemiologi-dashboarden</a>
-</div>

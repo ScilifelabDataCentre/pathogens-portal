@@ -3,13 +3,14 @@ title: Historic SARS-CoV-2 data from Gothenburg
 plotly: true
 aliases:
   - /dashboards/wastewater/historic_covid_gu/
+  - /dashboards/wastewater/covid_quantification/historic_covid_gu/
 ---
 
 <div class="alert alert-info">
   <span class="bi bi-exclamation-triangle-fill"> The data presented here is no longer updated but is kept for historical reference.</span>
 </div>
 
-This page shows historic wastewater epidemiology data related to SARS-CoV-2 that was collected in Gothenburg, Sweden. The data was collected by the group led by Professor Helene Norder (University of Gothenburg, GU), supported by co-workers from the University of Gothenburg and Sahlgrenska University Hospital (Hao Wang, Marianela Patzi Churqui, Timur Tunovic, Fredy Saguti, and Kristina Nyström). The data shown on this page was collected between week 7 of 2020, and week 43 of 2023 (i.e. between 10th February 2020 and 23rd October 2023). The group started to use a new method from week 20 of 2023. Data produced using this new method continues to be updated approximately weekly, and is available on the ['Amount of SARS-CoV-2 in wastewater (GU)' page](/dashboards/wastewater/covid_quantification/covid_quant_gu/).
+This page shows historic wastewater epidemiology data related to SARS-CoV-2 that was collected in Gothenburg, Sweden. The data was collected by the group led by Professor Helene Norder (University of Gothenburg, GU), supported by co-workers from the University of Gothenburg and Sahlgrenska University Hospital (Hao Wang, Marianela Patzi Churqui, Timur Tunovic, Fredy Saguti, and Kristina Nyström). The data shown on this page was collected between week 7 of 2020, and week 43 of 2023 (i.e. between 10th February 2020 and 23rd October 2023). The group started to use a new method from week 20 of 2023. Data produced using this new method continues to be updated approximately weekly, and is available on the ['Amount of SARS-CoV-2 in wastewater (GU)' page](/dashboards/covid_quantification/covid_quant_gu/).
 
 ## Wastewater collection sites
 

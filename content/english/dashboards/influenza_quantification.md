@@ -1,11 +1,16 @@
 ---
 title: Amount of influenza virus in wastewater (SLU)
 plotly: true
-type: wastewater
+banner: /dashboard_thumbs/wastewater_influenza.png
+description: It presents data on Influenza A and B virus levels in wastewater across Sweden, analyzed by SLU as part of SciLifeLab’s PLP Program. It is a key tool for monitoring community-level influenza trends through wastewater surveillance.
 menu:
-  wastewater:
-    name: Influenza quantification (SLU)
-    weight: 40
+ dashboard_menu:
+    identifier: wastewater_influenza_quantification
+    name: "Wastewater: Influenza Quantification (SLU)"
+    weight: 30
+aliases:
+  - /dashboards/wastewater/influenza_quantification/
+dashboards_topics: [Wastewater Surveillance, Influenza, Epidemiology]
 ---
 
 ## Introduction
@@ -37,7 +42,7 @@ SLU-SEEC collects and analyses samples for influenza A and B viruses from multip
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infA.json" height="600px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infA_v1.0.json" height="800px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/combined_slu_influenza_a.py).
@@ -49,7 +54,7 @@ SLU-SEEC collects and analyses samples for influenza A and B viruses from multip
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infB.json" height="600px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infB_v1.0.json" height="800px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/combined_slu_influenza_b.py).

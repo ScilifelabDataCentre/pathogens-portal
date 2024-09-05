@@ -1,11 +1,17 @@
 ---
 title: Mängd enteriska virus i avloppsvatten (GU)
+toc: true
+banner: /dashboard_thumbs/wastewater_enteric_virus.png
 plotly: true
-type: wastewater
+description: Enteriska virusnivåer i Göteborgs avloppsvatten, inklusive norovirus och adenovirus. Data från Norder-gruppens veckoanalys vid Ryaverkets reningsverk hjälper till att förutsäga utbrott och inkluderar prover från omgivande kommuner.
 menu:
-  wastewater:
-    name: Enteriska virus kvantifiering (GU)
-    weight: 30
+  dashboard_menu:
+    identifier: wastewater_enteric_quantification
+    name: "Avloppsvatten: Enteriska virus kvantifiering (GU)"
+    weight: 20
+dashboards_topics: [Wastewater Surveillance, Enteric viruses, Epidemiology]
+aliases:
+  - /sv/dashboards/wastewater/enteric_quantification/
 ---
 
 <!-- markdownlint-disable MD051 -->
@@ -20,11 +26,11 @@ Enteriska virus tillhör en större grupp virus som inkluderar calicivirus (noro
 
 Avloppsvatten innehåller många olika typer av virus som infekterar allt levande även människor eftersom infekterade individer utsöndrar viruspartiklar i avföring och urin. Nordergruppen vid Göteborgs universitet har genom sin forsknings påvisat att nivåer av vissa enteriska virus i avloppsvatten kan förutsäga kommande virusutbrott, som att nivåerna av norovirus i avloppsvatten ökar 1-2 veckor innan större utbrott sker på äldreboenden och sjukhusavdelningar ([Hellmér _et al._, 2014](https://pubmed.ncbi.nlm.nih.gov/25172863/)).
 
-Under 2017, och sedan 2020 och alltjämt utför Nordergruppen vid Göteborgs universitet (GU) veckovis samtidig övervakning av ett antal enteriska virus i avloppsvattnet. Gruppen kvantifierar nivåerna av virusarvsmassa av enterovirus (inklusive poliovirus), adenovirus, GG2 (ett norovirus som orsakar vinterkräksjuka), astrovirus, sapovirus och som kontroll ett växtvirus, Pepper Mild Mottle virus (PMMoV). Denna sida fokuserar på de data som producerats med hjälp av en metod för kvantifiering från vecka 20 (15t maj) 2023. Den nya metoden har använts parallellt med den tidigare använda metoden tom vecka 43. Data från den tidigare använda metoden från vecka 2 tom vecka 43 2023 (dvs. 9 januari till 23 oktober 2023) finns tillgängliga på den webbsida som visar [historiska nivåer av enteriska virusdata från Göteborg](/sv/dashboards/wastewater/enteric_quantification/historic_enteric_gu/).
+Under 2017, och sedan 2020 och alltjämt utför Nordergruppen vid Göteborgs universitet (GU) veckovis samtidig övervakning av ett antal enteriska virus i avloppsvattnet. Gruppen kvantifierar nivåerna av virusarvsmassa av enterovirus (inklusive poliovirus), adenovirus, GG2 (ett norovirus som orsakar vinterkräksjuka), astrovirus, sapovirus och som kontroll ett växtvirus, Pepper Mild Mottle virus (PMMoV). Denna sida fokuserar på de data som producerats med hjälp av en metod för kvantifiering från vecka 20 (15t maj) 2023. Den nya metoden har använts parallellt med den tidigare använda metoden tom vecka 43. Data från den tidigare använda metoden från vecka 2 tom vecka 43 2023 (dvs. 9 januari till 23 oktober 2023) finns tillgängliga på den webbsida som visar [historiska nivåer av enteriska virusdata från Göteborg](/sv/dashboards/enteric_quantification/historic_enteric_gu/).
 
 Se nedan för mer om [metoderna som används vid övervakning](#metoder), [kort sammanfattande information om virusen](#grundläggande-virusinformation), och [information om insamlad data](#dataset).
 
-Studierna av enteriska virus i avloppsvatten har inom Nordergruppen skett parallellt med arbetet att studera SARS-CoV-2 i avloppsvatten, dessa data delas också [på portalen](/sv/dashboards/wastewater/covid_quantification/covid_quant_gu/).
+Studierna av enteriska virus i avloppsvatten har inom Nordergruppen skett parallellt med arbetet att studera SARS-CoV-2 i avloppsvatten, dessa data delas också [på portalen](/sv/dashboards/covid_quantification/covid_quant_gu/).
 
 Data och visualisering på den här **sidan uppdateras inte längre**.
 
@@ -86,7 +92,7 @@ Nukleinsyror extraheras från ett koncentrerat prov på 1 ml med hjälp av QIAam
 
 ## Arkiverade data
 
-[Historisk enteriska virus data från Gothenburg mellan veckorna 2 och 43 2023](/sv/dashboards/wastewater/enteric_quantification/historic_enteric_gu/).
+[Historisk enteriska virus data från Gothenburg mellan veckorna 2 och 43 2023](/sv/dashboards/enteric_quantification/historic_enteric_gu/).
 
 ### Grundläggande virusinformation
 

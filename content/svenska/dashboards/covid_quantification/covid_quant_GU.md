@@ -3,14 +3,10 @@ title: Mängd SARS-COV-2 i avloppsvatten (GU)
 plotly: true
 aliases:
   - /sv/dashboards/wastewater/covid_quant_gu/
+  - /sv/dashboards/wastewater/covid_quantification/covid_quant_gu/
 ---
 
-<div class="mt-3">
-  <a href="/sv/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Gå tillbaka till SARS-CoV-2-kvantifiering inom avloppsvattenbaserad epidemiologi-dashboarden</a>
-</div>
-<br>
-
-<div class="alert alert-info">Från april 2024 kommer SARS-COV-2 data från GU inte längre uppdateras. SARS-COV-2 data efter april 2024 <a class="dark-blue" href="/sv/dashboards/wastewater/covid_quantification/covid_quant_slu/">finns tillgängligt från andra forskargrupper.</a></div>
+<div class="alert alert-info">Från april 2024 kommer SARS-COV-2 data från GU inte längre uppdateras. SARS-COV-2 data efter april 2024 <a class="dark-blue" href="/sv/dashboards/covid_quantification/">finns tillgängligt från andra forskargrupper.</a></div>
 
 ## Introduktion
 
@@ -18,9 +14,9 @@ Denna webbsida visar virusdata relaterade till SARS-CoV-2 i Göteborg, Sverige. 
 
 Gruppen började samla in prover den 10 februari (vecka 7) 2020. De uppdaterade metoderna relaterade till att analysera SARS-CoV-2 proverna under 2023 och började använda denna uppdaterade metod den 15 maj (vecka 20) 2023. Den här sidan berör endast data som samlats in med deras uppdaterade metod. Data och visualisering på den här **sidan uppdateras inte längre**.
 
-Alla forskningsdata som använder den gamla metoden finns tillgängliga här ['Historisk mängd SARS-COV-2 i avloppsvatten (GU)'](/sv/dashboards/wastewater/covid_quantification/historic_covid_gu/).
+Alla forskningsdata som använder den gamla metoden finns tillgängliga här ['Historisk mängd SARS-COV-2 i avloppsvatten (GU)'](/sv/dashboards/covid_quantification/historic_covid_gu/).
 
-Studierna av SARS-CoV-2 i avloppsvatten har inom Nordergruppen skett parallellt med arbetet att studera enteriska virus i avloppsvatten, dessa data delas också [på portalen](/sv/dashboards/wastewater/covid_quantification/historic_covid_gu/).
+Studierna av SARS-CoV-2 i avloppsvatten har inom Nordergruppen skett parallellt med arbetet att studera enteriska virus i avloppsvatten, dessa data delas också [på portalen](/sv/dashboards/covid_quantification/historic_covid_gu/).
 
 ## Insamlingsplatser för avloppsvatten
 
@@ -63,15 +59,12 @@ Wang, H., Churqui, M.P., Tunovic, T., Enache, L., Johansson, A., Karmander, A., 
 
 Insamling av avloppsvatten sker genom en fast insamlare som samlar in 30ml avloppsvatten per 10,000m3 av inkommande avloppsvatten. För analys veckovis poolas sju prover (varje avloppsvattenprov representerar insamling under ett dygn). Veckoprovet består av 1.5-15l avloppsvatten (beroende av flödet) som skickas till Klinisk Mikrobiologi vid Sahlgrenska Universitetssjukhuset för analys. Analys sker på måndagen i veckan efter provinsamling.
 
-På Klinisk Mikrobiologi på Sahlgrenska Universitetssjukhuset används två metoder utvecklade inom gruppen för att koncentrera virusmängderna. Den metod som nu används använder sig av ultrafiltrering som primär metod. Den tidigare metoden använde ett elektropositivt filter (Argonide, Florida, USA) för att koncentrera proverna ([Saguti _et al._, 2021](https://pubmed.ncbi.nlm.nih.gov/33212338/)). Båda metoderna användes parallellt mellan vecka 20 och vecka 42 2023. All information som relateras till data insamlat med den tidigare används metoden finns på webbsidan för ['Historiska data för SARS-COV-2 i avloppsvatten'](/sv/dashboards/wastewater/covid_quantification/historic_covid_gu/).
+På Klinisk Mikrobiologi på Sahlgrenska Universitetssjukhuset används två metoder utvecklade inom gruppen för att koncentrera virusmängderna. Den metod som nu används använder sig av ultrafiltrering som primär metod. Den tidigare metoden använde ett elektropositivt filter (Argonide, Florida, USA) för att koncentrera proverna ([Saguti _et al._, 2021](https://pubmed.ncbi.nlm.nih.gov/33212338/)). Båda metoderna användes parallellt mellan vecka 20 och vecka 42 2023. All information som relateras till data insamlat med den tidigare används metoden finns på webbsidan för ['Historiska data för SARS-COV-2 i avloppsvatten'](/sv/dashboards/covid_quantification/historic_covid_gu/).
 
-Nukleinsyror extraheras från ett koncentrerat prov på 1 ml med hjälp av QIAamp Circulating Nucleic Acid Kit (Qiagen, Hilden, Germany). Realtids-PCR (RT-qPCR) användes för att detektera den RNA-beroende RNA polymerase (RdRP) regionen på SARS-CoV-2. Alla körningar innehöll en positiv kontroll bestående av en seriellt utspädd plasmid (Eurofins Genomics, Ebersberg, Germany). Nukleasfritt vatten används som negativ kontroll. Ct-värden från qPCR användes för att kvantifiera mängd SARS-CoV-2 genom i provet. En detaljerad beskrivning av hur mängd SARS-CoV-2 beräknas finns i [Hellmér et al. (2014)](https://doi.org/10.1128/AEM.01981-14), [Saguti _et al._ (2021)](https://doi.org/10.1016/j.watres.2020.116620), [Wang _et al._ (2022)](https://doi.org/10.1016/j.isci.2022.105000), och [Wang _et al._ (2023)](https://doi.org/10.1016/j.scitotenv.2023.165012). I den tidigare använda metoden, som används tom vecka 42 223, beräknades den relativa virusmängden i avloppsvatten genom att dela mängd viralt genom i prover med mängd SARS-CoV-2 genom i ingående mängd avloppsvatten som detekterades i vecka 11 (mitten av mars) 2020. Prover från alla följande veckor har innehållit detekterbara mängder SARS-CoV-2 virus (se webbsidan för [Historiska data för SARS-COV-2 i avloppsvatten](/sv/dashboards/wastewater/covid_quantification/historic_covid_gu/)). Med den nya metoden, som används för de data som visas på denna webbsida, visas istället mängd virusgenom som ett genomsnitt baserat på en veckas insamlad mängd avloppsvatten.
+Nukleinsyror extraheras från ett koncentrerat prov på 1 ml med hjälp av QIAamp Circulating Nucleic Acid Kit (Qiagen, Hilden, Germany). Realtids-PCR (RT-qPCR) användes för att detektera den RNA-beroende RNA polymerase (RdRP) regionen på SARS-CoV-2. Alla körningar innehöll en positiv kontroll bestående av en seriellt utspädd plasmid (Eurofins Genomics, Ebersberg, Germany). Nukleasfritt vatten används som negativ kontroll. Ct-värden från qPCR användes för att kvantifiera mängd SARS-CoV-2 genom i provet. En detaljerad beskrivning av hur mängd SARS-CoV-2 beräknas finns i [Hellmér et al. (2014)](https://doi.org/10.1128/AEM.01981-14), [Saguti _et al._ (2021)](https://doi.org/10.1016/j.watres.2020.116620), [Wang _et al._ (2022)](https://doi.org/10.1016/j.isci.2022.105000), och [Wang _et al._ (2023)](https://doi.org/10.1016/j.scitotenv.2023.165012). I den tidigare använda metoden, som används tom vecka 42 223, beräknades den relativa virusmängden i avloppsvatten genom att dela mängd viralt genom i prover med mängd SARS-CoV-2 genom i ingående mängd avloppsvatten som detekterades i vecka 11 (mitten av mars) 2020. Prover från alla följande veckor har innehållit detekterbara mängder SARS-CoV-2 virus (se webbsidan för [Historiska data för SARS-COV-2 i avloppsvatten](/sv/dashboards/covid_quantification/historic_covid_gu/)). Med den nya metoden, som används för de data som visas på denna webbsida, visas istället mängd virusgenom som ett genomsnitt baserat på en veckas insamlad mängd avloppsvatten.
 
 ## Arkiverade data
 
-- [Historiska SARS-CoV-2 data från Göteborg insamlade mellan vecka 7 2020 och vecka 43 2023](/sv/dashboards/wastewater/covid_quantification/historic_covid_gu/).
+- [Historiska SARS-CoV-2 data från Göteborg insamlade mellan vecka 7 2020 och vecka 43 2023](/sv/dashboards/covid_quantification/historic_covid_gu/).
 
-<br>
-<div class="mt-3">
-  <a href="/sv/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Gå tillbaka till SARS-CoV-2-kvantifiering inom avloppsvattenbaserad epidemiologi-dashboarden</a>
-</div>
+

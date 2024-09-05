@@ -4,9 +4,10 @@ plotly: true
 aliases:
   - /data_types/environment/wastewater/historic_stockholm/
   - /dashboards/wastewater/historic_stockholm/
+  - /dashboards/wastewater/covid_quantification/historic_stockholm/
 ---
 
-This page displays data on the amount of SARS-CoV-2 in the wastewater in Stockholm between April 2020 and August 2021. The amount of SARS-CoV-2 in wastewater was calculated as the number of gene copies per week (raw wastewater) with bovine + PMMoV factor. From September 2021 onwards, the method was changed. Please [see this page for the most recent data](/dashboards/wastewater/covid_quantification/covid_quant_kth/).
+This page displays data on the amount of SARS-CoV-2 in the wastewater in Stockholm between April 2020 and August 2021. The amount of SARS-CoV-2 in wastewater was calculated as the number of gene copies per week (raw wastewater) with bovine + PMMoV factor. From September 2021 onwards, the method was changed. Please [see this page for the most recent data](/dashboards/covid_quantification/covid_quant_kth/).
 
 This project was led by associate professor Zeynep Cetecioglu Gurol and colleagues (KTH Royal Institute of Technology: <zeynepcg@kth.se>). The project was a collaboration between the [SciLifeLab COVID-19 National Research Program](https://www.scilifelab.se/covid-19), the [Sustainable Development, Environmental Science and Engineering (SEED)](https://www.kth.se/en/seed) and [Chemical Engineering](https://www.kth.se/ket/chemical-engineering-1.784196) departments at the KTH Royal Institute of Technology (KTH), as well as Stockholm Vatten och Avfall and the Käppala Association. The sampling of wastewater began in mid-April 2020, from the Bromma, Henriksdal, and Käppala wastewater treatment plants (WWTP). These treatment plants receive wastewater from a population of approximately 360,000, 860,000, and 500,000 people, respectively. Please see the catchment maps for [Käppala](/wastewater/map_Kappala.pdf) and [Bromma and Henriksdal](/wastewater/map_Bromma_Henriksdal.pdf) to understand where the wastewater originated from in each case.
 

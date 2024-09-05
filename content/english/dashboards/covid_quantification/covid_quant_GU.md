@@ -3,22 +3,18 @@ title: Amount of SARS-CoV-2 in wastewater (GU)
 plotly: true
 aliases:
   - /dashboards/wastewater/covid_quant_gu/
+  - /dashboards/wastewater/covid_quantification/covid_quant_gu/
 ---
 
-<div class="mt-3">
-  <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a>
-</div>
-<br>
-
-<div class="alert alert-info">As of April 2024, the SARS-CoV-2 data will no longer be updated by GU. Data from after April 2024 is <a class="dark-blue" href="/dashboards/wastewater/covid_quantification/covid_quant_slu/">available from other research groups.</a></div>
+<div class="alert alert-info">As of April 2024, the SARS-CoV-2 data will no longer be updated by GU. Data from after April 2024 is <a class="dark-blue" href="/dashboards/covid_quantification/">available from other research groups.</a></div>
 
 ## Introduction
 
 This project is led by Professor Helene Norder (University of Gothenburg, GU), and supported by co-workers from the University of Gothenburg and Sahlgrenska University Hospital (Hao Wang, Marianela Patzi Churqui, Timur Tunovic, Fredy Saguti, and Kristina Nyström). The wastewater sample collections were performed by Lucica Enache at Ryaverket, Gryaab AB, Gothenburg.
 
-The group began collecting samples on 10th February (week 7) 2020. They updated the methods related to analysing the samples during 2023, and began to use this updated method on 15th May (week 20) 2023. This page concerns only the data collected using their updated method. The associated data and visualisation are **no longer being updated**. Corresponding information about data collected using an earlier method is available in the ['Historic SARS-CoV-2 data from Gothenburg' page](/dashboards/wastewater/covid_quantification/historic_covid_gu/).
+The group began collecting samples on 10th February (week 7) 2020. They updated the methods related to analysing the samples during 2023, and began to use this updated method on 15th May (week 20) 2023. This page concerns only the data collected using their updated method. The associated data and visualisation are **no longer being updated**. Corresponding information about data collected using an earlier method is available in the ['Historic SARS-CoV-2 data from Gothenburg' page](/dashboards/covid_quantification/historic_covid_gu/).
 
-The SARS-CoV-2 virus monitoring by the Norder group was done alongside their ongoing monitoring of enteric viruses in wastewater, the data for which are [also shared on this portal](/dashboards/wastewater/enteric_quantification/).
+The SARS-CoV-2 virus monitoring by the Norder group was done alongside their ongoing monitoring of enteric viruses in wastewater, the data for which are [also shared on this portal](/dashboards/enteric_quantification/).
 
 ## Wastewater collection sites
 
@@ -62,15 +58,10 @@ Wang, H., Churqui, M.P., Tunovic, T., Enache, L., Johansson, A., Karmander, A., 
 
 Samples of wastewater were collected using a fixed-site sampler that collected 30ml per 10,000m<sup>3</sup> of the incoming wastewater. For the purposes of analysis, seven samples (each representing a 24 hour period) were pooled to create a weekly sample. The weekly sample, which consisted of 1.5-15l of wastewater (depending on the flow) was sent to the Clinical Microbiology Laboratory at Sahlgrenska University Hospital for analysis. Analyses were conducted on the Monday after the sample was collected.
 
-At the Clinical Microbiology Laboratory, two methods developed in-house were used to concentrate viruses. The current method uses ultrafiltration as the primary method of concentration. Our previous method instead used an electropositive filter ([Saguti _et al._, 2021](https://pubmed.ncbi.nlm.nih.gov/33212338/)). The two techniques were used in parallel between weeks 20 and 43 in 2023. All information related to the data collected using the previous method can be found on the page related to [historic SARS-CoV-2 data from Gothenburg](/dashboards/wastewater/covid_quantification/historic_covid_gu/).
+At the Clinical Microbiology Laboratory, two methods developed in-house were used to concentrate viruses. The current method uses ultrafiltration as the primary method of concentration. Our previous method instead used an electropositive filter ([Saguti _et al._, 2021](https://pubmed.ncbi.nlm.nih.gov/33212338/)). The two techniques were used in parallel between weeks 20 and 43 in 2023. All information related to the data collected using the previous method can be found on the page related to [historic SARS-CoV-2 data from Gothenburg](/dashboards/covid_quantification/historic_covid_gu/).
 
-Nucleic acids were extracted from 1ml of the concentrated sample using the QIAamp Circulating Nucleic Acid Kit (Qiagen, Hilden, Germany). Real-time quantitative PCR (RT-qPCR) was performed to detect the RNA-dependent RNA polymerase (RdRP) region of SARS-CoV-2. In all runs, a 10-fold serial diluted plasmid (Eurofins Genomics, Ebersberg, Germany) that contained the target SARS-CoV-2 region was used as a positive control. Nuclease-free water was used as a negative control. Details about the method of calculation are provided in [Hellmér _et al._ (2014)](https://doi.org/10.1128/AEM.01981-14), [Saguti _et al._ (2021)](https://pubmed.ncbi.nlm.nih.gov/33212338/), [Wang _et al._ (2022)](https://doi.org/10.1016/j.isci.2022.105000), and [Wang _et al._ (2023)](https://doi.org/10.1016/j.scitotenv.2023.165012). For the previous method, which was used until week 43 in 2023, the relative amount of viral genome in the wastewater was calculated by dividing the amount of viral genome in the sample by the amount of SARS-CoV-2 genome in the incoming wastewater during week 11 (mid-March) of 2020. Samples from all subsequent weeks contained detectable SARS-CoV-2 genome (see the [historic SARS-CoV-2 data from Gothenburg page to view this data](/dashboards/wastewater/covid_quantification/historic_covid_gu/)). With the new technique, the data for which is shown above, the amount of virus genomes is given as daily average amounts, as is based on one week of wastewater sampling.
+Nucleic acids were extracted from 1ml of the concentrated sample using the QIAamp Circulating Nucleic Acid Kit (Qiagen, Hilden, Germany). Real-time quantitative PCR (RT-qPCR) was performed to detect the RNA-dependent RNA polymerase (RdRP) region of SARS-CoV-2. In all runs, a 10-fold serial diluted plasmid (Eurofins Genomics, Ebersberg, Germany) that contained the target SARS-CoV-2 region was used as a positive control. Nuclease-free water was used as a negative control. Details about the method of calculation are provided in [Hellmér _et al._ (2014)](https://doi.org/10.1128/AEM.01981-14), [Saguti _et al._ (2021)](https://pubmed.ncbi.nlm.nih.gov/33212338/), [Wang _et al._ (2022)](https://doi.org/10.1016/j.isci.2022.105000), and [Wang _et al._ (2023)](https://doi.org/10.1016/j.scitotenv.2023.165012). For the previous method, which was used until week 43 in 2023, the relative amount of viral genome in the wastewater was calculated by dividing the amount of viral genome in the sample by the amount of SARS-CoV-2 genome in the incoming wastewater during week 11 (mid-March) of 2020. Samples from all subsequent weeks contained detectable SARS-CoV-2 genome (see the [historic SARS-CoV-2 data from Gothenburg page to view this data](/dashboards/covid_quantification/historic_covid_gu/)). With the new technique, the data for which is shown above, the amount of virus genomes is given as daily average amounts, as is based on one week of wastewater sampling.
 
 ## Archived data
 
-- [Historic SARS-CoV-2 data from Gothenburg collected between week 7 of 2020 and week 43 of 2023](/dashboards/wastewater/covid_quantification/historic_covid_gu/).
-
-<br>
-<div class="mt-3">
-  <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a>
-</div>
+- [Historic SARS-CoV-2 data from Gothenburg collected between week 7 of 2020 and week 43 of 2023](/dashboards/covid_quantification/historic_covid_gu/).

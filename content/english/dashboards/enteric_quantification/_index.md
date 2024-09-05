@@ -1,13 +1,16 @@
 ---
 title: Amount of enteric virus in wastewater (GU)
 plotly: true
-type: wastewater
+banner: /dashboard_thumbs/wastewater_enteric_virus.png
+description: Enteric virus levels in Gothenburg’s wastewater, including norovirus and adenovirus. Data from the Norder group’s weekly analysis at Ryaverket WWTP helps predict outbreaks and includes samples from surrounding municipalities.
 menu:
-  wastewater:
-    name: Enteric virus quantification (GU)
-    weight: 30
+  dashboard_menu:
+    identifier: wastewater_enteric_quantification
+    name: "Wastewater: Enteric Virus Quantification (GU)"
+    weight: 20
+dashboards_topics: [Wastewater Surveillance, Enteric viruses, Epidemiology]
 aliases:
-  - /dashboards/wastewater/enteric_quant_gu/
+  - /dashboards/wastewater/enteric_quantification/
 ---
 
 <div class="alert alert-info">
@@ -24,7 +27,7 @@ In 2017, and since 2020, the Norder group at the University of Gothenburg (GU) c
 
 This page details the [latest method used in monitoring](#methods), as well as [a brief summary information about the viruses](#basic-virus-information), and [information about the data collected](#dataset).
 
-The enteric virus monitoring by the Norder group was done alongside their ongoing monitoring of SARS-CoV-2 in wastewater, the data for which are [also shared on this portal](/dashboards/wastewater/covid_quantification/covid_quant_gu/).
+The enteric virus monitoring by the Norder group was done alongside their ongoing monitoring of SARS-CoV-2 in wastewater, the data for which are [also shared on this portal](/dashboards/covid_quantification/covid_quant_gu/).
 
 The data and visualisations on this page is **no longer being updated**.
 
@@ -85,7 +88,7 @@ Nucleic acids are extracted from 1ml of the concentrated sample using the QIAamp
 
 ## Archived data
 
-[Historic enteric virus data from Gothenburg collected between week 2 and week 43 of 2023](/dashboards/wastewater/enteric_quantification/historic_enteric_gu/).
+[Historic enteric virus data from Gothenburg collected between week 2 and week 43 of 2023](/dashboards/enteric_quantification/historic_enteric_gu/).
 
 ### Basic virus information
 

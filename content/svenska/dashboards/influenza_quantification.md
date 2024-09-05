@@ -1,11 +1,16 @@
 ---
 title: Mängd influensa A- och influensa B-virus i avloppsvatten
 plotly: true
-type: wastewater
+banner: /dashboard_thumbs/wastewater_influenza.png
+description: Den presenterar data om influensa A- och B-virusnivåer i avloppsvatten över hela Sverige, analyserade av SLU som en del av SciLifeLabs PLP-program. Det är ett nyckelverktyg för att övervaka influensatrender på samhällsnivå genom övervakning av avloppsvatten.
 menu:
-  wastewater:
-    name: Influensa kvantifiering (SLU)
-    weight: 40
+ dashboard_menu:
+    identifier: wastewater_influenza_quantification
+    name: "Avloppsvatten: Kvantifiering av influensa (SLU)"
+    weight: 30
+aliases:
+  - /sv/dashboards/wastewater/influenza_quantification/
+dashboards_topics: [Wastewater Surveillance, Influenza, Epidemiology]
 ---
 
 ## Introduktion
@@ -37,7 +42,7 @@ SLU-SEEC samlar in och analyserar prover för kvantifiering av nivåerna av infl
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infA.json" height="600px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infA_v1.0.json" height="800px" >}}</div>
 </div>
 
 **Källkod som används för att skapa grafen:** [Källkod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/combined_slu_influenza_a.py).
@@ -49,7 +54,7 @@ SLU-SEEC samlar in och analyserar prover för kvantifiering av nivåerna av infl
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infB.json" height="600px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infB_v1.0.json" height="800px" >}}</div>
 </div>
 
 **Källkod som används för att skapa grafen:** [Källkod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/combined_slu_influenza_b.py).
