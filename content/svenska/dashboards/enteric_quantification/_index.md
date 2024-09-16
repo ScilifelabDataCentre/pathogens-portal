@@ -1,6 +1,5 @@
 ---
 title: Mängd enteriska virus i avloppsvatten (GU)
-toc: true
 banner: /dashboard_thumbs/wastewater_enteric_virus.png
 plotly: true
 description: Enteriska virusnivåer i Göteborgs avloppsvatten, inklusive norovirus och adenovirus. Data från Norder-gruppens veckoanalys vid Ryaverkets reningsverk hjälper till att förutsäga utbrott och inkluderar prover från omgivande kommuner.
@@ -8,7 +7,6 @@ menu:
   dashboard_menu:
     identifier: wastewater_enteric_quantification
     name: "Avloppsvatten: Enteriska virus kvantifiering (GU)"
-    weight: 20
 dashboards_topics: [Wastewater Surveillance, Enteric viruses, Epidemiology]
 aliases:
   - /sv/dashboards/wastewater/enteric_quantification/

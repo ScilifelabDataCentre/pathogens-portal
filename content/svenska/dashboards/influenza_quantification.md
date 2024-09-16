@@ -7,7 +7,6 @@ menu:
  dashboard_menu:
     identifier: wastewater_influenza_quantification
     name: "Avloppsvatten: Kvantifiering av influensa (SLU)"
-    weight: 30
 aliases:
   - /sv/dashboards/wastewater/influenza_quantification/
 dashboards_topics: [Wastewater Surveillance, Influenza, Epidemiology]
@@ -42,7 +41,7 @@ SLU-SEEC samlar in och analyserar prover för kvantifiering av nivåerna av infl
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infA_v1.0.json" height="800px" >}}</div>
+  <div class="table-responsive" style="min-width: 1200px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infA_v1.0.json" height="800px" >}}</div>
 </div>
 
 **Källkod som används för att skapa grafen:** [Källkod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/combined_slu_influenza_a.py).
@@ -54,7 +53,7 @@ SLU-SEEC samlar in och analyserar prover för kvantifiering av nivåerna av infl
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infB_v1.0.json" height="800px" >}}</div>
+  <div class="table-responsive" style="min-width: 1200px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infB_v1.0.json" height="800px" >}}</div>
 </div>
 
 **Källkod som används för att skapa grafen:** [Källkod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/combined_slu_influenza_b.py).
@@ -87,4 +86,7 @@ Det virala genomiska materialet från de insamlade proverna extraheras med en me
 
 Absolut kvantifiering av antalet kopior av influensa A- och B-virusgenom görs med metoden One-Step RT-qPCR och Flu SC2 Multiplex-testet från Centers for Disease Control and Prevention (CDC). För att korrigera för variation i population och avloppsvattenflöde kvantifieras förekomsten av viruset pepper mild mottle virus (PMMoV), ett växtvirus från peppar som människor får i sig via maten. PMMoV kvantifieras med hjälp av en modifierad version av testet i [Zhang et al. (2006)](https://doi.org/10.1371/journal.pbio.0040003). PMMoV är det vanligaste RNA-viruset i avföring från människa och används för att uppskatta mängden avföring från människa i avloppsvattenprover [Symonds et al., (2019)](https://doi.org/10.1371/journal.ppat.1007639).
 
-Data som presenteras i grafen visar förhållandet mellan det kopieantal som uppmätts med Flu SC2 Multiplex-testet och PMMoV-testet, multiplicerat med 1000. Resultat från Flu SC2 Multiplex-testet är en proxy för mängden influensa A- och B-virus i avloppsvattnet och PMMoV är en proxy för mängden avföring från människa i avloppsvattnet. Detta förhållande kan i sin tur anses vara en proxy för andelen influensa A- och B-infektioner i populationen i avloppsvattnets upptagningsområde.
+## Data i graferna och datafilen presenteras i tre olika format:
+- **PMMoV-normaliserat Influensa-innehåll** visar förhållandet mellan det kopieantal som uppmätts med influensa-testet och PMMoV-testet, multiplicerat med 1000. Eftersom influensa-testet ger en proxy för influensa-virusmängd i avloppsvattnet och PMMoV är en proxy för avföringsinnehållet (som är relaterat till den bidragande befolkningen) kan förhållandet mellan de två betraktas som en proxy för förekomsten av influensa-infektioner i befolkningen i avloppsvattnets upptagningsområde.
+- **Koncentration av Influensa-genomkopior** visar koncentrationen av influensa-kopienummer som uppmäts i avloppsvattnet. Dessa data påverkas av hur de olika avloppsvattensystemen är uppbyggda och lämpar sig därför inte för jämförelse mellan platser. Virushalten i avloppsvattnet påverkas också av väderhändelser som påverkar avloppsflödet (t.ex. kraftigt regn eller snösmältning).
+- **Influensa-genomkopior/dag/invånare** representerar den uppskattade dagliga virusmängden i avloppsvattnet normaliserad för antalet invånare anslutna till systemet. Dessa data går att jämföra mellan olika platser. Vissa fördröjningar i presentationen av dessa data kan förekomma, jämfört med de andra analyserna.

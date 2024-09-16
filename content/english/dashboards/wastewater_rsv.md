@@ -7,7 +7,6 @@ menu:
   dashboard_menu:
     identifier: rsv_quant
     name: "Wastewater: RSV Quantification (SLU)"
-    weight: 30
 dashboards_topics: [Wastewater Surveillance, RSV, Epidemiology]
 
 ---
@@ -39,7 +38,7 @@ SLU-SEEC collects and analyses samples for RSV from multiple areas. The below ta
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_rsv_v1.0.json" height="800px" >}}</div>
+  <div class="table-responsive" style="min-width: 1200px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_rsv_v1.0.json" height="800px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/combined_slu_rsv.py).
@@ -72,10 +71,10 @@ The viral genomic material from the freshly collected samples is extracted by th
 
 Absolute quantification of the copy numbers of the genome of RSV virus is performed by One-Step RT-qPCR using the assay of <a target="_blank" href="https://doi.org/10.1021/acs.estlett.1c00963">Hughes et al. (2022)</a>. To correct for variations in population size and wastewater flow, pepper mild mottle virus (PMMoV) is quantified using a modified version of the assay of <a target="_blank" href="https://doi.org/10.1371/journal.pbio.0040003">Zhang et al. (2006)</a>. PMMoV is an abundant RNA virus in human faeces and serves as an estimator of human faecal content (<a target="_blank" href="https://doi.org/10.1371/journal.ppat.1007639">Symonds et al., 2019</a>).
 
-The data in the graphs and datafile is presented in three different formats:
-- **PMMoV normalised SARS-CoV2 content** represents the ratio of the copy numbers of RSV and PMMoV measured by the RSV assay and PMMoV-assays, respectively, multiplied by 1000. As the RSV assay provides proxies for RSV virus content in the wastewater and PMMoV is a proxy of the faecal content (which is related to the contributing population), the ratio of the two can be considered to be a proxy for the prevalence of RSV infections in the population of the wastewater catchment area.
-- **SARS-CoV2 genome copies concentration** presents the RSV copy number concentration measured in the wastewater. These data is influenced by the setup of the different wastewater collection nsystems and is therefore not suitable for comparison betwwen sites. The virus concentrations in the wastewater are also influenced by the weather events that impact wastewater flow (e.g., heavy rain or snow melt).
-- **SARS-CoV2 genome copies/day/inhabitant** represents the daily virus amount estimated in the wastewater normalized for the number of inhabitants connected to the system. These data allows for comparison of different sites but some delays in the presentation of these data may occur compared to the other.
+## Data in the graphs and datafile is presented in three different formats:
+- **PMMoV normalised RSV content** represents the ratio of the copy numbers of RSV and PMMoV measured by the RSV assay and PMMoV-assays, respectively, multiplied by 1000. As the RSV assay provides proxies for RSV virus content in the wastewater and PMMoV is a proxy of the faecal content (which is related to the contributing population), the ratio of the two can be considered to be a proxy for the prevalence of RSV infections in the population of the wastewater catchment area.
+- **RSV genome copies concentration** presents the RSV copy number concentration measured in the wastewater. These data is influenced by the setup of the different wastewater collection nsystems and is therefore not suitable for comparison betwwen sites. The virus concentrations in the wastewater are also influenced by the weather events that impact wastewater flow (e.g., heavy rain or snow melt).
+- **RSV genome copies/day/inhabitant** represents the daily virus amount estimated in the wastewater normalized for the number of inhabitants connected to the system. These data allows for comparison of different sites but some delays in the presentation of these data may occur compared to the other.
 
 **How to cite the methods:**
 

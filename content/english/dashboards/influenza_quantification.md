@@ -7,7 +7,6 @@ menu:
  dashboard_menu:
     identifier: wastewater_influenza_quantification
     name: "Wastewater: Influenza Quantification (SLU)"
-    weight: 30
 aliases:
   - /dashboards/wastewater/influenza_quantification/
 dashboards_topics: [Wastewater Surveillance, Influenza, Epidemiology]
@@ -42,7 +41,7 @@ SLU-SEEC collects and analyses samples for influenza A and B viruses from multip
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infA_v1.0.json" height="800px" >}}</div>
+  <div class="table-responsive" style="min-width: 1200px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infA_v1.0.json" height="800px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/combined_slu_influenza_a.py).
@@ -54,7 +53,7 @@ SLU-SEEC collects and analyses samples for influenza A and B viruses from multip
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infB_v1.0.json" height="800px" >}}</div>
+  <div class="table-responsive" style="min-width: 1200px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infB_v1.0.json" height="800px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/combined_slu_influenza_b.py).
@@ -87,4 +86,7 @@ The viral genomic material from the freshly collected samples is extracted by th
 
 Absolute quantification of the copy numbers of the genome of influenza A and B viruses is performed by One-Step RT-qPCR using the Flu SC2 Multiplex Assay from the Centers for Disease Control and Prevention (CDC). To correct for variations in population size and wastewater flow, pepper mild mottle virus (PMMoV) is quantified using a modified version of the assay of [Zhang et al. (2006)](https://doi.org/10.1371/journal.pbio.0040003). PMMoV is an abundant RNA virus in human faeces and serves as an estimator of human faecal content ([Symonds et al., 2019](https://doi.org/10.1371/journal.ppat.1007639)).
 
-The data in the graphs and datafile represent the ratio of the copy numbers measured by the Flu SC2 Multiplex Assay and PMMoV-assays, multiplied by 1000. As the Flu SC2 Multiplex Assay provides proxies for both influenza A and B viruses content in the wastewater and PMMoV is a proxy of the faecal content (which is related to the contributing population), their ratio can be considered as a proxy for the prevalence of influenza A and influenza B infections in the population of the wastewater catchment area.
+## Data in the graphs and datafile is presented in three different formats:
+- **PMMoV normalised Influenza content** represents the ratio of the copy numbers of influenza and PMMoV measured by the influenza assay and PMMoV-assays, respectively, multiplied by 1000. As the influenza assay provides proxies for influenza virus content in the wastewater and PMMoV is a proxy of the faecal content (which is related to the contributing population), the ratio of the two can be considered to be a proxy for the prevalence of influenza infections in the population of the wastewater catchment area.
+- **Influenza genome copies concentration** presents the influenza copy number concentration measured in the wastewater. These data is influenced by the setup of the different wastewater collection nsystems and is therefore not suitable for comparison betwwen sites. The virus concentrations in the wastewater are also influenced by the weather events that impact wastewater flow (e.g., heavy rain or snow melt).
+- **Influenza genome copies/day/inhabitant** represents the daily virus amount estimated in the wastewater normalized for the number of inhabitants connected to the system. These data allows for comparison of different sites but some delays in the presentation of these data may occur compared to the other.

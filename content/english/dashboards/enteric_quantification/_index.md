@@ -7,7 +7,6 @@ menu:
   dashboard_menu:
     identifier: wastewater_enteric_quantification
     name: "Wastewater: Enteric Virus Quantification (GU)"
-    weight: 20
 dashboards_topics: [Wastewater Surveillance, Enteric viruses, Epidemiology]
 aliases:
   - /dashboards/wastewater/enteric_quantification/

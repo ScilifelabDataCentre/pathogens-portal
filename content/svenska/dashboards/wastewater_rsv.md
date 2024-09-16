@@ -6,8 +6,7 @@ banner: /dashboard_thumbs/wastewater_rsv.png
 menu:
   dashboard_menu:
     identifier: rsv_quant
-    name: "Wastewater: RSV kvantifiering (SLU)"
-    weight: 30
+    name: "Avloppsvatten: RSV kvantifiering (SLU)"
 dashboards_topics: [Wastewater Surveillance, RSV, Epidemiology]
 
 ---
@@ -24,7 +23,7 @@ Data och visualiseringar på den här sidan uppdateras vanligtvis veckovis, ofta
 SLU-SEEC samlar in och analyserar prover för kvantifiering av nivåerna av influensa A- och B-virus från ett flertal orter. Nedan visas en tabell med detaljerad information om alla insamlingsplatser. Tabellen listar orter som övervakas, avloppsreningsverk (WWTP) där proverna samlas in, antal personer i upptagningsområdet (antal invånare), mellan vilka datum SLU-SEEC mätningarna skett (startdatum och slutdatum). Ett värde ’null’ istället för slutdatum innebär att insamlingen fortfarande pågår. En asterisk bredvid antal invånare innebär att värdet är uppskattat baserat på hur många invånare som reningsverket betjänar. Informationen i tabellen nedan är [tillgänglig för nedladdning som en excel-fil](https://blobserver.dc.scilifelab.se/blob/SLU_All_sites.xlsx).
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_All_sites.json" height="350px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_All_sites.json" height="750px" >}}</div>
 </div>
 
 ## Visualiseringar
@@ -38,7 +37,7 @@ SLU-SEEC samlar in och analyserar prover för kvantifiering av nivåerna av infl
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_rsv_v1.0.json" height="800px" >}}</div>
+  <div class="table-responsive" style="min-width: 1200px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_rsv_v1.0.json" height="800px" >}}</div>
 </div>
 
 **Källkod som används för att skapa grafen:** [Källkod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/combined_slu_rsv.py).
@@ -71,7 +70,11 @@ Det virala genomiska materialet från de insamlade proverna extraheras med en me
 
 Absolut kvantifiering av antalet kopior av RSV-genom görs med metoden One-Step RT-qPCR med testet som används i <a target="_blank" href="https://doi.org/10.1021/acs.estlett.1c00963">Hughes et al. (2022)</a>. För att korrigera för variation i population och avloppsvattenflöde kvantifieras förekomsten av viruset pepper mild mottle virus (PMMoV), ett växtvirus från peppar som människor får i sig via maten. PMMoV kvantifieras med hjälp av en modifierad version av testet i <a target="_blank" href="https://doi.org/10.1371/journal.pbio.0040003">Zhang et al. (2006)</a>. PMMoV är det vanligaste RNA-viruset i avföring från människa och används för att uppskatta mängden avföring från människa i avloppsvattenprover (<a target="_blank" href="https://doi.org/10.1371/journal.ppat.1007639">Symonds et al. 2019</a>).
 
-Data som presenteras i grafen visar förhållandet mellan det kopieantal som uppmätts med RSV-testet och PMMoV-testet, multiplicerat med 10^4. Resultat från RSV-testet är en proxy för mängden RS-virus i avloppsvattnet och PMMoV är en proxy för mängden avföring från människa i avloppsvattnet. Detta förhållande kan i sin tur anses vara en proxy för andelen RSV-infektioner i populationen i avloppsvattnets upptagningsområde.
+## Data i graferna och datafilen presenteras i tre olika format:
+
+- **PMMoV-normaliserat RSV-innehåll** visar förhållandet mellan det kopieantal som uppmätts med RSV-testet och PMMoV-testet, multiplicerat med 1000. Eftersom RSV-testet ger en proxy för RSV-virusmängd i avloppsvattnet och PMMoV är en proxy för avföringsinnehållet (som är relaterat till den bidragande befolkningen) kan förhållandet mellan de två betraktas som en proxy för förekomsten av RSV-infektioner i befolkningen i avloppsvattnets upptagningsområde.
+- **Koncentration av RSV-genomkopior** visar koncentrationen av RSV-kopienummer som uppmäts i avloppsvattnet. Dessa data påverkas av hur de olika avloppsvattensystemen är uppbyggda och lämpar sig därför inte för jämförelse mellan platser. Virushalten i avloppsvattnet påverkas också av väderhändelser som påverkar avloppsflödet (t.ex. kraftigt regn eller snösmältning).
+- **RSV-genomkopior/dag/invånare** representerar den uppskattade dagliga virusmängden i avloppsvattnet normaliserad för antalet invånare anslutna till systemet. Dessa data går att jämföra mellan olika platser. Vissa fördröjningar i presentationen av dessa data kan förekomma, jämfört med de andra analyserna.
 
 **Citera metoden:**
 
