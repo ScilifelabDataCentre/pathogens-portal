@@ -26,17 +26,11 @@ The data presented on this page is generated in the SLU (Swedish University of A
 
 The data and visualisation on this page are usually updated weekly, typically on Fridays. Please note that the scores provided in the dataset and depicted in plot below are preliminary, so corrections and changes may occur. Data and information about the group on this dashboard are updated frequently, so please check back regularly to stay up to date.
 
-## Wastewater collection sites
-
-SLU-SEEC collects and analyses samples for SARS-CoV-2 from multiple areas. The below table shows details about each of these sites. The table lists the towns/cities monitored, wastewater treatment plants (WWTP) that samples were collected from, the number of people in the catchment area (Number of people), and the dates that monitoring by SLU-SEEC started and ended monitoring (Start and End date, respectively). A value of 'null' for the end date indicates that collection is ongoing. An asterisk (\*) next to the number of people indicates that the value is a BOD-7 value (an estimate of the people connected), rather than the number of people physically connected to each WWTP. The information in the below table is [available for download as an excel file](https://blobserver.dc.scilifelab.se/blob/SLU_COVID_collection_sites.xlsx).
-
-  <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_sluCOVIDsites.json" height="825px" >}}</div>
-</div>
-
 ## Visualisations
 
 <div class="alert alert-info">Last updated: <span id="last_modified_uppsala"></span></div>
+
+Before we proceed with the visualizations of COVID-19 quantification in wastewater, it's important to understand the methodologies used in this process. These methods ensure the accuracy and reliability of the data presented in the graphs. For a comprehensive understanding, please refer to the [Methods](#methods) section.
 
 <b>Important note:</b> Historical data for Ekerö, Enköping, Knivsta, Tierp, Vaxholm, Älvkarleby, and Österåker are available in the dataset (linked below). However, they are no longer included in the visualisation.
 
@@ -95,15 +89,11 @@ The group provide reports to summarise their latest findings. The latest report 
 
 **Contact:** <anna.szekely@slu.se> and <javier.vargas@slu.se>
 
-**Download the data:** [Respiratory virus gene copy numbers normalised per PMMoV gene copy number.CSV file.](https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data.csv). Data are available from week 38 of 2020; updated weekly.
+**Download the data:** [Respiratory virus gene copy numbers normalised per PMMoV gene copy number.CSV file.](https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data_v1.0.csv). Data are available from week 38 of 2020; updated weekly.
 
 **How to cite the dataset:**
 
 Székely, A. J., Malmberg, M., Vargas, J., Mohamed, N., Dafalla, I., Petrini, F., Davies, L. (2023). Dataset of SARS-CoV-2, influenza A and influenza B virus content in wastewater samples from wastewater treatment plants in Sweden. <https://doi.org/10.17044/scilifelab.14256317>.
-
-**How to cite the method:**
-
-Isaksson, F., Lundy, L., Hedström, A., Székely, A. J., Mohamed, N. (2022). Evaluating the Use of Alternative Normalization Approaches on SARS-CoV-2 Concentrations in Wastewater: Experiences from Two Catchments in Northern Sweden. _Environments_, _9_, 39. <https://doi.org/10.3390/environments9030039>.
 
 ## Methods
 
@@ -113,10 +103,23 @@ The freshly collected samples are processed according to standard methodologies.
 
 Absolute quantification of the copy numbers of the SARS-CoV-2 genome is performed using One-Step RT-qPCR. Until week 31 of 2023 the quantification of the viral genomes was performed using the [SARS-CoV-2 specific N1 assay from the Centers for Disease Control and Prevention (CDC)](https://www.fda.gov/media/134922/download). From week 32 of 2023 quantification is performed using the Flu SC2 Multiplex Assay (CDC). To correct for variations in population size and wastewater flow, the pepper mild mottle virus (PMMoV) is quantified using a modified version of the assay of [Zhang _et al._ (2006)](https://doi.org/10.1371/journal.pbio.0040003). PMMoV is an abundant RNA virus in human faeces and serves as an estimator of human faecal content ([Symonds _et al._, 2019](https://doi.org/10.1371/journal.ppat.1007639)). For more details about the sample processing method, and the evaluation of the use of the PMMoV normalisation method for Swedish wastewater, please refer to the corresponding publication: [Isaksson _et al._ (2022)](https://www.mdpi.com/2076-3298/9/3/39).
 
-## Data in the graphs and datafile is presented in three different formats:
+The data in the graphs and datafile is presented in three different formats:
 - **PMMoV normalised SARS-CoV2 content** represents the ratio of the copy numbers of SARS-CoV2 and PMMoV measured by the SARS-CoV2 assay and PMMoV-assays, respectively, multiplied by 1000. As the SARS-CoV2 assay provides proxies for SARS-CoV2 virus content in the wastewater and PMMoV is a proxy of the faecal content (which is related to the contributing population), the ratio of the two can be considered to be a proxy for the prevalence of SARS-CoV2 infections in the population of the wastewater catchment area.
 - **SARS-CoV2 genome copies concentration** presents the SARS-CoV2 copy number concentration measured in the wastewater. These data is influenced by the setup of the different wastewater collection nsystems and is therefore not suitable for comparison betwwen sites. The virus concentrations in the wastewater are also influenced by the weather events that impact wastewater flow (e.g., heavy rain or snow melt).
 - **SARS-CoV2 genome copies/day/inhabitant** represents the daily virus amount estimated in the wastewater normalized for the number of inhabitants connected to the system. These data allows for comparison of different sites but some delays in the presentation of these data may occur compared to the other.
+
+**How to cite the method:**
+
+Isaksson, F., Lundy, L., Hedström, A., Székely, A. J., Mohamed, N. (2022). Evaluating the Use of Alternative Normalization Approaches on SARS-CoV-2 Concentrations in Wastewater: Experiences from Two Catchments in Northern Sweden. _Environments_, _9_, 39. <https://doi.org/10.3390/environments9030039>.
+
+## Wastewater collection sites
+
+SLU-SEEC collects and analyses samples for SARS-CoV-2 from multiple areas. The below table shows details about each of these sites. The table lists the towns/cities monitored, wastewater treatment plants (WWTP) that samples were collected from, the number of people in the catchment area (Number of people), and the dates that monitoring by SLU-SEEC started and ended monitoring (Start and End date, respectively). A value of 'null' for the end date indicates that collection is ongoing. An asterisk (\*) next to the number of people indicates that the value is a BOD-7 value (an estimate of the people connected), rather than the number of people physically connected to each WWTP. The information in the below table is [available for download as an excel file](https://blobserver.dc.scilifelab.se/blob/SLU_COVID_collection_sites.xlsx).
+
+  <div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_sluCOVIDsites.json" height="840px" >}}</div>
+</div>
+
 
 ## Related data
 
@@ -127,9 +130,9 @@ Absolute quantification of the copy numbers of the SARS-CoV-2 genome is performe
 
 - [Historic data for Örebro and Umeå; amount of SARS-CoV-2 in Umeå and Örebro wastewater between October 2020 and June 2021](/dashboards/covid_quantification/historic_orebro_umea).
 
-## Other quantification of SARS-CoV-2 across Sweden
+## Quantification of SARS-CoV-2 by other groups
 
-Other groups were also involved in quantifying the levels of SARS-CoV-2 in wastewater. **Each group measures different regions of Sweden, and some regions are covered by multiple groups**. Below are lists of the areas covered by each group. Click on the name of the group to go to their SARS-CoV-2 quantification data.
+Other groups also quantified SARS-CoV-2 in wastewater in Sweden. The groups used different methods to quantify SARS-CoV-2 and, in some cases, measured different areas of Sweden. All of the data from the groups below is historic:
 
 - [**Gothenburg university (GU):**](/dashboards/covid_quantification/covid_quant_gu/) Quantification of the level of SARS-CoV-2 in wastewater from Gothenburg by the Norder group at GU.
 

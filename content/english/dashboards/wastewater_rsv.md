@@ -1,6 +1,6 @@
 ---
 title: "Amount of Respiratory Syncytial Virus (RSV) in wastewater (SEEC-SLU)"
-description: "Quantification of RSV levels in wastewater across Sweden"
+description: "Explore Respiratory Syncytial Virus (RSV) levels in wastewater across Sweden. Weekly data from SLU-SEEC tracks RSV trends, covering a significant portion of the population, and assists in predicting potential outbreaks."
 plotly: true
 banner: /dashboard_thumbs/wastewater_rsv.png
 menu:
@@ -19,17 +19,11 @@ The data presented on this page is generated in the SLU (Swedish University of A
 
 The data and visualisation on this page are usually updated weekly, typically on Mondays. Please note that the scores provided in the dataset and depicted in plot below are preliminary, so corrections and changes may occur. Data and information about the group on this dashboard are updated frequently, so please check back regularly to stay up to date.
 
-## Wastewater collection sites
-
-SLU-SEEC collects and analyses samples for RSV from multiple areas. The below table shows details about each of these sites. The table lists the towns/cities monitored, wastewater treatment plants (WWTP) that samples were collected from, the number of people in the catchment area (Number of people), and the dates that monitoring by SLU-SEEC started and ended monitoring (Start and End date, respectively). A value of ’null’ for the end date indicates that collection is ongoing. An asterisk next to the number of people indicates that the value is estimated based on the population equivalent (p.e.) loading of the treatment plant. The information in the below table is [available for download as an excel file](https://blobserver.dc.scilifelab.se/blob/SLU_All_sites.xlsx).
-
-<div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_All_sites.json" height="750px" >}}</div>
-</div>
-
 ## Visualisations
 
 <div class="alert alert-info">Last updated: <span id="last_modified_slu_rsv"></span></div>
+
+Before we proceed with the visualizations of RSV levels in wastewater, it's crucial to understand the methodologies employed for quantification. These methods ensure the accuracy and reliability of the data presented in the graphs. For a comprehensive understanding, please refer to the [Methods](#methods) section.
 
 <b>Important note:</b> Please note that although the same methods are used for all cities shown on this tab, differences in the wastewater collection systems and populations of different cities might bias direct comparisons between cities.
 
@@ -57,7 +51,7 @@ The group provide reports to summarise their latest findings. The latest report 
 
 **Contact:** <anna.szekely@slu.se> and <javier.vargas@slu.se>
 
-**Download the data:** [Respiratory virus gene copy numbers normalised per PMMoV gene copy number.CSV file](https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data.csv). Data are available for RSV from week 32 of 2023; updated weekly.
+**Download the data:** [Respiratory virus gene copy numbers normalised per PMMoV gene copy number.CSV file](https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data_v1.0.csv). Data are available for RSV from week 32 of 2023; updated weekly.
 
 **How to cite the dataset:**
 
@@ -71,11 +65,20 @@ The viral genomic material from the freshly collected samples is extracted by th
 
 Absolute quantification of the copy numbers of the genome of RSV virus is performed by One-Step RT-qPCR using the assay of <a target="_blank" href="https://doi.org/10.1021/acs.estlett.1c00963">Hughes et al. (2022)</a>. To correct for variations in population size and wastewater flow, pepper mild mottle virus (PMMoV) is quantified using a modified version of the assay of <a target="_blank" href="https://doi.org/10.1371/journal.pbio.0040003">Zhang et al. (2006)</a>. PMMoV is an abundant RNA virus in human faeces and serves as an estimator of human faecal content (<a target="_blank" href="https://doi.org/10.1371/journal.ppat.1007639">Symonds et al., 2019</a>).
 
-## Data in the graphs and datafile is presented in three different formats:
+The data in the graphs and datafile is presented in three different formats:
+
 - **PMMoV normalised RSV content** represents the ratio of the copy numbers of RSV and PMMoV measured by the RSV assay and PMMoV-assays, respectively, multiplied by 1000. As the RSV assay provides proxies for RSV virus content in the wastewater and PMMoV is a proxy of the faecal content (which is related to the contributing population), the ratio of the two can be considered to be a proxy for the prevalence of RSV infections in the population of the wastewater catchment area.
 - **RSV genome copies concentration** presents the RSV copy number concentration measured in the wastewater. These data is influenced by the setup of the different wastewater collection nsystems and is therefore not suitable for comparison betwwen sites. The virus concentrations in the wastewater are also influenced by the weather events that impact wastewater flow (e.g., heavy rain or snow melt).
 - **RSV genome copies/day/inhabitant** represents the daily virus amount estimated in the wastewater normalized for the number of inhabitants connected to the system. These data allows for comparison of different sites but some delays in the presentation of these data may occur compared to the other.
 
-**How to cite the methods:**
+**How to cite the method:**
 
-Isaksson, F., Lundy, L., Hedström, A., Székely, A. J., Mohamed, N. (2022). Evaluating the Use of Alternative Normalization Approaches on SARS-CoV-2 Concentrations in Wastewater: Experiences from Two Catchments in Northern Sweden. Environments, 9, 39. <https://doi.org/10.3390/environments9030039>.
+Isaksson, F., Lundy, L., Hedström, A., Székely, A. J., Mohamed, N. (2022). Evaluating the Use of Alternative Normalization Approaches on SARS-CoV-2 Concentrations in Wastewater: Experiences from Two Catchments in Northern Sweden. _Environments_, _9_, 39. <https://doi.org/10.3390/environments9030039>.
+
+## Wastewater collection sites
+
+SLU-SEEC collects and analyses samples for RSV from multiple areas. The below table shows details about each of these sites. The table lists the towns/cities monitored, wastewater treatment plants (WWTP) that samples were collected from, the number of people in the catchment area (Number of people), and the dates that monitoring by SLU-SEEC started and ended monitoring (Start and End date, respectively). A value of ’null’ for the end date indicates that collection is ongoing. An asterisk next to the number of people indicates that the value is estimated based on the population equivalent (p.e.) loading of the treatment plant. The information in the below table is [available for download as an excel file](https://blobserver.dc.scilifelab.se/blob/SLU_All_sites.xlsx).
+
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_All_sites.json" height="840px" >}}</div>
+</div>

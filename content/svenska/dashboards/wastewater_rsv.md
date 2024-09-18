@@ -1,6 +1,6 @@
 ---
 title: "Mängd Respiratory Syncytial Virus (RSV eller RS-virus) i avloppsvatten (SEEC-SLU)"
-description: "Quantification of RSV levels in wastewater across Sweden"
+description: "Utforska nivåerna av Respiratory Syncytial Virus (RSV) i avloppsvatten över hela Sverige. Veckodata från SLU-SEEC spårar RSV-trender, täcker en betydande del av befolkningen, och hjälper till att förutsäga potentiella utbrott."
 plotly: true
 banner: /dashboard_thumbs/wastewater_rsv.png
 menu:
@@ -18,17 +18,12 @@ Data som presenteras på denna sida genereras i Sveriges lantbruksuniversitets (
 
 Data och visualiseringar på den här sidan uppdateras vanligtvis veckovis, oftast på måndagar. Notera att de poäng som tillhandahålls i datasetet och som visas i grafen nedan är preliminära, så korrigeringar och ändringar kan förekomma. Data och information om gruppen på den här dashboarden uppdateras kontinuerligt.
 
-## Insamlingsplatser för avloppsvatten
-
-SLU-SEEC samlar in och analyserar prover för kvantifiering av nivåerna av influensa A- och B-virus från ett flertal orter. Nedan visas en tabell med detaljerad information om alla insamlingsplatser. Tabellen listar orter som övervakas, avloppsreningsverk (WWTP) där proverna samlas in, antal personer i upptagningsområdet (antal invånare), mellan vilka datum SLU-SEEC mätningarna skett (startdatum och slutdatum). Ett värde ’null’ istället för slutdatum innebär att insamlingen fortfarande pågår. En asterisk bredvid antal invånare innebär att värdet är uppskattat baserat på hur många invånare som reningsverket betjänar. Informationen i tabellen nedan är [tillgänglig för nedladdning som en excel-fil](https://blobserver.dc.scilifelab.se/blob/SLU_All_sites.xlsx).
-
-<div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_All_sites.json" height="750px" >}}</div>
-</div>
 
 ## Visualiseringar
 
 <div class="alert alert-info">Last updated: <span id="last_modified_slu_rsv"></span></div>
+
+Innan vi fortsätter med visualiseringarna av RSV-nivåer i avloppsvatten är det avgörande att förstå de metoder som används för kvantifiering. Dessa metoder säkerställer noggrannheten och tillförlitligheten i de data som presenteras i diagrammen. För en omfattande förståelse, vänligen hänvisa till [Metoder](#metoder) avsnittet.
 
 **Notera** också att även om samma metoder används för alla städer som visas på den här fliken, kan skillnader i befolkningen och hur avloppsvatten samlas in i olika städer påverka jämförelser dem emellan.
 
@@ -56,7 +51,7 @@ Forskargruppen tillhandahåller en rapport som sammanfattar information från de
 
 **kontakt:** <anna.szekely@slu.se> och <javier.vargas@slu.se>
 
-**Ladda ner data:** RSV-genkopieantal normaliserat mot PMMoV-genkopieantal [CSV-fil](https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data.csv). Data för RSV finns tillgängligt från vecka 32 2023 och uppdateras varje vecka.
+**Ladda ner data:** RSV-genkopieantal normaliserat mot PMMoV-genkopieantal [CSV-fil](https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data_v1.0.csv). Data för RSV finns tillgängligt från vecka 32 2023 och uppdateras varje vecka.
 
 **Citera datasetet:**
 
@@ -70,7 +65,7 @@ Det virala genomiska materialet från de insamlade proverna extraheras med en me
 
 Absolut kvantifiering av antalet kopior av RSV-genom görs med metoden One-Step RT-qPCR med testet som används i <a target="_blank" href="https://doi.org/10.1021/acs.estlett.1c00963">Hughes et al. (2022)</a>. För att korrigera för variation i population och avloppsvattenflöde kvantifieras förekomsten av viruset pepper mild mottle virus (PMMoV), ett växtvirus från peppar som människor får i sig via maten. PMMoV kvantifieras med hjälp av en modifierad version av testet i <a target="_blank" href="https://doi.org/10.1371/journal.pbio.0040003">Zhang et al. (2006)</a>. PMMoV är det vanligaste RNA-viruset i avföring från människa och används för att uppskatta mängden avföring från människa i avloppsvattenprover (<a target="_blank" href="https://doi.org/10.1371/journal.ppat.1007639">Symonds et al. 2019</a>).
 
-## Data i graferna och datafilen presenteras i tre olika format:
+Data i graferna och datafilen presenteras i tre olika format:
 
 - **PMMoV-normaliserat RSV-innehåll** visar förhållandet mellan det kopieantal som uppmätts med RSV-testet och PMMoV-testet, multiplicerat med 1000. Eftersom RSV-testet ger en proxy för RSV-virusmängd i avloppsvattnet och PMMoV är en proxy för avföringsinnehållet (som är relaterat till den bidragande befolkningen) kan förhållandet mellan de två betraktas som en proxy för förekomsten av RSV-infektioner i befolkningen i avloppsvattnets upptagningsområde.
 - **Koncentration av RSV-genomkopior** visar koncentrationen av RSV-kopienummer som uppmäts i avloppsvattnet. Dessa data påverkas av hur de olika avloppsvattensystemen är uppbyggda och lämpar sig därför inte för jämförelse mellan platser. Virushalten i avloppsvattnet påverkas också av väderhändelser som påverkar avloppsflödet (t.ex. kraftigt regn eller snösmältning).
@@ -78,4 +73,12 @@ Absolut kvantifiering av antalet kopior av RSV-genom görs med metoden One-Step 
 
 **Citera metoden:**
 
-Isaksson, F., Lundy, L., Hedström, A., Székely, A. J., Mohamed, N. (2022). Evaluating the Use of Alternative Normalization Approaches on SARS-CoV-2 Concentrations in Wastewater: Experiences from Two Catchments in Northern Sweden. Environments, 9, 39. <https://doi.org/10.3390/environments9030039>.
+Isaksson, F., Lundy, L., Hedström, A., Székely, A. J., Mohamed, N. (2022). Evaluating the Use of Alternative Normalization Approaches on SARS-CoV-2 Concentrations in Wastewater: Experiences from Two Catchments in Northern Sweden. _Environments_, _9_, 39. <https://doi.org/10.3390/environments9030039>.
+
+## Insamlingsplatser för avloppsvatten
+
+SLU-SEEC samlar in och analyserar prover för kvantifiering av nivåerna av influensa A- och B-virus från ett flertal orter. Nedan visas en tabell med detaljerad information om alla insamlingsplatser. Tabellen listar orter som övervakas, avloppsreningsverk (WWTP) där proverna samlas in, antal personer i upptagningsområdet (antal invånare), mellan vilka datum SLU-SEEC mätningarna skett (startdatum och slutdatum). Ett värde ’null’ istället för slutdatum innebär att insamlingen fortfarande pågår. En asterisk bredvid antal invånare innebär att värdet är uppskattat baserat på hur många invånare som reningsverket betjänar. Informationen i tabellen nedan är [tillgänglig för nedladdning som en excel-fil](https://blobserver.dc.scilifelab.se/blob/SLU_All_sites.xlsx).
+
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_All_sites.json" height="840px" >}}</div>
+</div>

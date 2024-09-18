@@ -26,17 +26,12 @@ Data som presenteras på denna sida genereras i Sveriges lantbruksuniversitets (
 
 Data och visualiseringar på den här sidan uppdateras vanligtvis veckovis, oftast på fredagar. Notera att de poäng som tillhandahålls i datasetet och som visas i grafen nedan är preliminära, så korrigeringar och ändringar kan förekomma. Data och information om metod som används uppdateras kontinuerligt.
 
-## Insamlingsplatser för avloppsvatten
-
-SLU-SEEC samlar in och analyserar prover från ett flertal orter. Nedan visas en tabell med detaljerad information om alla insamlingsplatser. Tabellen listar orter som övervakas, avloppsreningsverk (WWTP) där proverna samlas in, antal personer i upptagningsområdet (antal invånare), mellan vilka datum SLU-SEEC mätningarna skett (startdatum och slutdatum). Ett värde ’null’ istället för slutdatum innebär att insamlingen fortfarande pågår. En asterisk bredvid antal invånare innebär att värdet är uppskattat baserat på hur många invånare som reningsverket betjänar (BOD-7). Informationen i tabellen nedan är [tillgänglig för nedladdning som en excel-fil](https://blobserver.dc.scilifelab.se/blob/SLU_COVID_collection_sites.xlsx).
-
-  <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_sluCOVIDsites.json" height="825px" >}}</div>
-</div>
 
 ## Visualiseringar
 
 <div class="alert alert-info">Senast uppdaterad: <span id="last_modified_uppsala"></span></div>
+
+Innan vi fortsätter med visualiseringarna av COVID-19-kvantifiering i avloppsvatten är det viktigt att förstå de metoder som används i denna process. Dessa metoder säkerställer noggrannheten och tillförlitligheten i de data som presenteras i diagrammen. För en omfattande förståelse, vänligen hänvisa till [Metoder](#metoder) avsnittet.
 
 <b>Notera:</b> Historisk data för Ekerö, Enköping, Knivsta, Tierp, Vaxholm, Älvkarleby, och Österåker finns tillgänglig i det länkade datasetet ovan och ingår inte längre i visualiseringen nedan.
 
@@ -94,15 +89,11 @@ Forskargruppen tillhandahåller även en rapport som sammanfattar informationen 
 
 **Kontakt:** <anna.szekely@slu.se> och <javier.vargas@slu.se>
 
-**Ladda ner data:** [Genkopieantal av luftvägsvirus normaliserat mot PMMoV-genkopieantal, CSV fil.](https://raw.githubusercontent.com/ScilifelabDataCentre/pathogens-portal/develop/static/ww_data_temp/SLU_wastewater_data.csv). Data finns tillgängligt från vecka 38 2020 och uppdateras veckovis.
+**Ladda ner data:** [Genkopieantal av luftvägsvirus normaliserat mot PMMoV-genkopieantal, CSV fil.](https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data_v1.0.csv). Data finns tillgängligt från vecka 38 2020 och uppdateras veckovis.
 
 **Citera datasetet:**
 
 Székely, A. J., Malmberg, M., Vargas, J., Mohamed, N., Dafalla, I., Petrini, F., Davies, L. (2023). Dataset of SARS-CoV-2, influenza A and influenza B virus content in wastewater samples from wastewater treatment plants in Sweden. <https://doi.org/10.17044/scilifelab.14256317>.
-
-**Citera metoden:**
-
-Isaksson, F., Lundy, L., Hedström, A., Székely, A. J., Mohamed, N. (2022). Evaluating the Use of Alternative Normalization Approaches on SARS-CoV-2 Concentrations in Wastewater: Experiences from Two Catchments in Northern Sweden. _Environments_, _9_, 39. <https://doi.org/10.3390/environments9030039>.
 
 ## Metoder
 
@@ -112,11 +103,23 @@ Proverna bearbetas enligt standardmetoder. För prover som samlats in fram till 
 
 Absolut kvantifiering av antalet kopior av SARS-CoV-2-genomet utförs med ett One-Step RT-qPCR. Till och med vecka 31 2023 kvantifierades virusgenom med ett [SARS-CoV-2 specifikt N1-test från Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-ncov/lab/rt-pcr-panel-primer-probes.html). För att korrigera för variation i population och avloppsvattenflöde kvantifieras förekomsten av pepper mild mottle virus (PMMoV), ett växtvirus från peppar som människor får i sig via maten. PMMoV kvantifieras med hjälp av en modifierad version av testet i [Zhang _et al._ (2006)](https://doi.org/10.1371/journal.pbio.0040003). PMMoV är det vanligaste RNA-viruset i avföring från människa och används för att uppskatta mängden avföring från människa i avloppsvattenprover ([Symonds _et al._, 2019](https://doi.org/10.1371/journal.ppat.1007639)). För mer information om hur normaliseringsmetoden utvärderats se [Isaksson _et al._ (2022)](https://www.mdpi.com/2076-3298/9/3/39).
 
-## Data i graferna och datafilen presenteras i tre olika format:
+Data i graferna och datafilen presenteras i tre olika format:
 
 - **PMMoV-normaliserat SARS-CoV-2-innehåll** visar förhållandet mellan det kopieantal som uppmätts med SARS-CoV-2-testet och PMMoV-testet, multiplicerat med 1000. Eftersom SARS-CoV-2-testet ger en proxy för SARS-CoV-2-virusmängd i avloppsvattnet och PMMoV är en proxy för avföringsinnehållet (som är relaterat till den bidragande befolkningen) kan förhållandet mellan de två betraktas som en proxy för förekomsten av SARS-CoV-2-infektioner i befolkningen i avloppsvattnets upptagningsområde.
 - **Koncentration av SARS-CoV-2-genomkopior** visar koncentrationen av SARS-CoV-2-kopienummer som uppmäts i avloppsvattnet. Dessa data påverkas av hur de olika avloppsvattensystemen är uppbyggda och lämpar sig därför inte för jämförelse mellan platser. Virushalten i avloppsvattnet påverkas också av väderhändelser som påverkar avloppsflödet (t.ex. kraftigt regn eller snösmältning).
 - **SARS-CoV-2-genomkopior/dag/invånare** representerar den uppskattade dagliga virusmängden i avloppsvattnet normaliserad för antalet invånare anslutna till systemet. Dessa data går att jämföra mellan olika platser. Vissa fördröjningar i presentationen av dessa data kan förekomma, jämfört med de andra analyserna.
+
+**Citera metoden:**
+
+Isaksson, F., Lundy, L., Hedström, A., Székely, A. J., Mohamed, N. (2022). Evaluating the Use of Alternative Normalization Approaches on SARS-CoV-2 Concentrations in Wastewater: Experiences from Two Catchments in Northern Sweden. _Environments_, _9_, 39. <https://doi.org/10.3390/environments9030039>.
+
+## Insamlingsplatser för avloppsvatten
+
+SLU-SEEC samlar in och analyserar prover från ett flertal orter. Nedan visas en tabell med detaljerad information om alla insamlingsplatser. Tabellen listar orter som övervakas, avloppsreningsverk (WWTP) där proverna samlas in, antal personer i upptagningsområdet (antal invånare), mellan vilka datum SLU-SEEC mätningarna skett (startdatum och slutdatum). Ett värde ’null’ istället för slutdatum innebär att insamlingen fortfarande pågår. En asterisk bredvid antal invånare innebär att värdet är uppskattat baserat på hur många invånare som reningsverket betjänar (BOD-7). Informationen i tabellen nedan är [tillgänglig för nedladdning som en excel-fil](https://blobserver.dc.scilifelab.se/blob/SLU_COVID_collection_sites.xlsx).
+
+  <div class="plot_wrapper mb-3">
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_sluCOVIDsites.json" height="840px" >}}</div>
+</div>
 
 ## Relaterade dataset
 
@@ -127,9 +130,9 @@ Absolut kvantifiering av antalet kopior av SARS-CoV-2-genomet utförs med ett On
 - [Historiska data för Örebro och Umeå, mängd SARS-CoV-2 i avloppsvatten från Umeå respektive Örebro mellan oktober 2020 och juni 2021](/sv/dashboards/covid_quantification/historic_orebro_umea).
 
 
-## Annan kvantifiering av SARS-CoV-2 i hela Sverige
+## Kvantifiering av SARS-CoV-2 av andra grupper
 
-Andra grupper var också involverade i att kvantifiera halterna av SARS-CoV-2 i avloppsvatten. **Varje grupp mäter olika regioner i Sverige, och vissa regioner omfattas av flera grupper**. Nedan finns listor över de områden som täcks av varje grupp. Klicka på gruppens namn för att gå till deras SARS-CoV-2 kvantifieringsdata.
+Andra grupper kvantifierade också SARS-CoV-2 i avloppsvatten i Sverige. Grupperna använde olika metoder för att kvantifiera SARS-CoV-2 och mätte i vissa fall olika områden av Sverige. All data från grupperna nedan är historisk:
 
 - [**Göteborgs universitet (GU):**](/sv/dashboards/covid_quantification/covid_quant_gu/) Kvantifiering av mängd SARS-CoV-2 i avloppsvatten från Göteborg från Helene Norders forskargrupp vid GU.
 
