@@ -138,14 +138,17 @@
 
     function addEvents(dataArray) {
       var eventList = []
-      // Not insterested if the deadline have already passed
       dataArray.forEach((event) => {
-        event.banner_date = event.date_start || event.registration_deadline;
-        if (typeof event.banner_date !== 'undefined') {
-          var dateString = event.banner_date + (event.time_start ? ' ' + event.time_start : '');
-          var [h, m] = event.time_start ? event.time_start.split(":") : [0, 0];
-          if (new Date(dateString) >= new Date().setHours(h, m)){
-            eventList.push(event);
+        // Show only events meant for the portal
+        if (typeof event.target !== 'undefined' && event.target.includes("pathogens-portal")) {
+          // Not insterested if the deadline have already passed
+          event.banner_date = event.date_start || event.registration_deadline;
+          if (typeof event.banner_date !== 'undefined') {
+            var dateString = event.banner_date + (event.time_start ? ' ' + event.time_start : '');
+            var [h, m] = event.time_start ? event.time_start.split(":") : [0, 0];
+            if (new Date(dateString) >= new Date().setHours(h, m)){
+              eventList.push(event);
+            };
           };
         };
       }); // dataArray for each ends here
@@ -303,7 +306,7 @@
 
     // Call the function to fetch, parse and display events
     getDataFromUrl(
-      decodeURIComponent("https%3A%2F%2Fblobserver.dc.scilifelab.se%2Fblob%2Fpathogens_portal_events.json"),
+      decodeURIComponent("https%3A%2F%2Fblobserver.dc.scilifelab.se%2Fblob%2Fddls_events.json"),
       addEvents
     );
 
