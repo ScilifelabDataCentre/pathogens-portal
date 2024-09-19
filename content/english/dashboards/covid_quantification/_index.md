@@ -12,7 +12,7 @@ aliases:
   - /dashboards/wastewater/covid_quantification/
   - /dashboards/wastewater/covid_quantification/covid_quant_slu/
 dashboards_topics: [Wastewater Surveillance, COVID-19, Infectious diseases, Epidemiology]
-
+data_status: "updating"
 ---
 
 

@@ -8,7 +8,7 @@ menu:
     identifier: rsv_quant
     name: "Wastewater: RSV Quantification (SLU)"
 dashboards_topics: [Wastewater Surveillance, RSV, Epidemiology]
-
+data_status: "updating"
 ---
 
 ## Introduction

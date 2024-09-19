@@ -10,6 +10,7 @@ menu:
 dashboards_topics: [Wastewater Surveillance, Enteric viruses, Epidemiology]
 aliases:
   - /dashboards/wastewater/enteric_quantification/
+data_status: "historic"
 ---
 
 <div class="alert alert-info">

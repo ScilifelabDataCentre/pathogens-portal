@@ -10,6 +10,7 @@ menu:
 aliases:
   - /sv/dashboards/wastewater/influenza_quantification/
 dashboards_topics: [Wastewater Surveillance, Influenza, Epidemiology]
+data_status: "updating"
 ---
 
 ## Introduktion
