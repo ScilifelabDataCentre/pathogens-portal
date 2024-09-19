@@ -19,7 +19,7 @@ Influensavirus är enkelsträngade, segmenterade RNA-virus inom familjen Orthomy
 
 Data som presenteras på denna sida genereras i Sveriges lantbruksuniversitets (SLU) laboratorier vid Svenskt Miljöepidemiologiskt Centrum (SEEC). Projektet ingår i <a target="_blank" href="https://www.pathogens.se/resources/">SciLifeLab’s Pandemic Laboratory Preparedness (PLP) Program</a> och leds av docent Anna J. Székely (Institutionen för vatten och miljö, SLU). Avloppsanalyserna övervakas av Anna J. Székely, Javier Vargas och Maja Malmberg (Institutionen för biomedicin och veterinär folkhälsovetenskap, sektionen för virologi, SLU). Denna sida visar kvantifiering av nivåerna av influensa A- och B-virus i flera orter över hela Sverige. Projektet har för närvarande den bredaste geografiska täckningen i Sverige och genererar data som täcker 43% av den svenska befolkningen.
 
-Data och visualiseringar på den här sidan uppdateras vanligtvis veckovis, oftast på fredagar. Notera att de poäng som tillhandahålls i datasetet och som visas i grafen nedan är preliminära, så korrigeringar och ändringar kan förekomma. Data och information om gruppen på den här dashboarden uppdateras kontinuerligt.
+Data och visualiseringar på den här sidan uppdateras vanligtvis veckovis, oftast på måndagar. Notera att de poäng som tillhandahålls i datasetet och som visas i grafen nedan är preliminära, så korrigeringar och ändringar kan förekomma. Data och information om gruppen på den här dashboarden uppdateras kontinuerligt.
 
 
 ## Visualiseringar

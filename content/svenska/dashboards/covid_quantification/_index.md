@@ -24,7 +24,7 @@ SARS-CoV-2-viruspartiklar kan utsöndras via andningsdroppar, aerosoler och kan 
 
 Data som presenteras på denna sida genereras i Sveriges lantbruksuniversitets (SLU) laboratorier vid Svenskt Miljöepidemiologiskt Centrum (SEEC). Projektet ingår i [SciLifeLab's Pandemic Laboratory Preparedness (PLP) Program](/resources/) och leds av docent Anna J. Székely (Institutionen för vatten och miljö, SLU). Avloppsanalyserna övervakas av Anna J. Székely Javier Vargas och Maja Malmberg (Institutionen för biomedicin och veterinär folkhälsovetenskap, sektionen för virologi, SLU). Denna sida visar kvantifiering av nivåerna av SARS-CoV-2-virus i flera orter över hela Sverige. Projektet har för närvarande den bredaste geografiska täckningen i Sverige och genererar data som täcker 43% av den svenska befolkningen.
 
-Data och visualiseringar på den här sidan uppdateras vanligtvis veckovis, oftast på fredagar. Notera att de poäng som tillhandahålls i datasetet och som visas i grafen nedan är preliminära, så korrigeringar och ändringar kan förekomma. Data och information om metod som används uppdateras kontinuerligt.
+Data och visualiseringar på den här sidan uppdateras vanligtvis veckovis, oftast på måndagar. Notera att de poäng som tillhandahålls i datasetet och som visas i grafen nedan är preliminära, så korrigeringar och ändringar kan förekomma. Data och information om metod som används uppdateras kontinuerligt.
 
 
 ## Visualiseringar

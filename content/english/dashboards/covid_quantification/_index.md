@@ -24,7 +24,7 @@ Beside respiratory droplets and aerosols, SARS-CoV-2 viral particles, like many 
 
 The data presented on this page is generated in the SLU (Swedish University of Agricultural Sciences) laboratories of SEEC (Swedish Environmental Epidemiology Center). The project is part of [SciLifeLab's Pandemic Laboratory Preparedness (PLP) Program](/resources/), and is led by Anna J. Székely (Dep. of Aquatic Sciences and Assessment, SLU). Wastewater analyses are overseen by Anna J. Székely and Maja Malmberg (Virology unit of Department of Biomedical Science and Veterinary Public Health, SLU). This page pertains to the quantification of the levels of SARS-CoV-2 virus in multiple cities across Sweden. This project currently has the broadest geographic coverage across Sweden; generating data for 43% of the Swedish population.
 
-The data and visualisation on this page are usually updated weekly, typically on Fridays. Please note that the scores provided in the dataset and depicted in plot below are preliminary, so corrections and changes may occur. Data and information about the group on this dashboard are updated frequently, so please check back regularly to stay up to date.
+The data and visualisation on this page are usually updated weekly, typically on Mondays. Please note that the scores provided in the dataset and depicted in plot below are preliminary, so corrections and changes may occur. Data and information about the group on this dashboard are updated frequently, so please check back regularly to stay up to date.
 
 ## Visualisations
 
