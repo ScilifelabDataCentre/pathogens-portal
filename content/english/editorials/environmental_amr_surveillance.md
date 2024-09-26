@@ -43,6 +43,6 @@ This is a **we-need-to-talk moment** for scientists and stakeholders in the fiel
 
 This is why the timing of two workshops this autumn is exciting and promising. First, there will be the [DDLS Symposium on Data-Driven Environmental Monitoring of Infectious Disease](https://www.scilifelab.se/event/ddls-symposium-on-data-driven-environmental-monitoring-of-infectious-diseases/) on 7th-8th October in Uppsala, where, among others, Frank Aarestrup will be present to discuss the future directions of AMR and pathogen monitoring. Second, there will be a workshop organised by [CARe](https://www.gu.se/en/care) in Gothenburg on 28th October on the theme of [sewage surveillance of antibiotic resistance, focusing on the new EU requirements](https://www.gu.se/en/event/workshop-sewage-surveillance-of-antibiotic-resistance-new-eu-requirements-how-when-and-most-importantly-why). Fora like these are critical in getting AMR surveillance in sewage and the broader environment right, and to avoid spending large amounts of money on data that will be hard to use for future interventions.
 
-<!-- #### Cite this editorial
+#### Cite this editorial
 
-Hugerth, L. W. (2024). Editorial: “Feed a gut, and starve a fever” or friendly vs disease-causing pathogens. SciLifeLab. Online resource. DOI: [10.17044/scilifelab.25217921](https://doi.org/10.17044/scilifelab.25217921). -->
+Bengtsson-Palme, J. (2024). Editorial: Surveillance of antimicrobial resistance – flying blind or flying behind? Swedish Pathogens Portal. DOI: [10.17044/scilifelab.27045433](https://doi.org/10.17044/scilifelab.27045433).
