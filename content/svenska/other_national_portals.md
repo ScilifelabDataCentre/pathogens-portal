@@ -11,6 +11,13 @@ Pathogens Portal Sverige lanserades ursprungligen som den 'svenska Covid-19 data
 
 Ett nätverk av nationella dataportaler växte sedan fram då ett antal andra länder lanserade egna nationella Covid-19 dataportaler. Många av dessa har använt [vår källkod](https://github.com/ScilifelabDataCentre/pathogens-portal) för att starta! Nedan är en lista över de andra nationella COVID-19-dataportalerna:
 
+##### Andra Pathogens portals
+
+- [Swiss Pathogens Portal](https://pathogensportal.ch/)
+- [Pathogens Portal Norway](https://pathogens.no/)
+
+##### Andra COVID-19 data portals
+
 - [COVID-19 Data Portal Estland](https://covid19dataportal.ee)
 - [COVID-19 Data Portal Grekland](https://www.covid19dataportal.gr)
 - [COVID-19 Data Portal Italien](https://www.covid19dataportal.it)

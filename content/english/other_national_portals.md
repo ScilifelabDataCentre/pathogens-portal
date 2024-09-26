@@ -9,7 +9,14 @@ menu:
 
 The Swedish Pathogens Portal originated as the 'Swedish COVID-19 Data Portal'. It was the first national node of the [European COVID-19 Data Platform](https://covid19dataportal.org/); a Europe-wide platform allowing researchers to upload, access, and analyse COVID-19 related datasets. The [European COVID-19 Data Platform](https://covid19dataportal.org/) was launched in the spring of 2020 when the European Commission [took the initiative to develop a European data sharing platform for COVID-19 research efforts](https://www.embl.org/news/science/embl-ebi-launches-covid-19-data-portal/). It is operated by the European Molecular Biology Laboratory - European Bioinformatics Institute (EMBL-EBI) and [partners](https://www.covid19dataportal.org/partners).
 
-Besides [Sweden](https://www.pathogens.se), a number of other countries also launched national portals, many of which used [our source code](https://github.com/ScilifelabDataCentre/pathogens-portal) to get started! Below is a list of the other national COVID-19 data portals:
+Besides [Sweden](https://www.pathogens.se), a number of other countries also launched national portals, many of which used [our source code](https://github.com/ScilifelabDataCentre/pathogens-portal) to get started! Below is a list of the other national pathogens and COVID-19 data portals:
+
+##### Other Pathogens portals
+
+- [Swiss Pathogens Portal](https://pathogensportal.ch/)
+- [Pathogens Portal Norway](https://pathogens.no/)
+
+##### Other COVID-19 data portals
 
 - [COVID-19 Data Portal Estonia](https://covid19dataportal.ee)
 - [COVID-19 Data Portal Greece](https://www.covid19dataportal.gr)
