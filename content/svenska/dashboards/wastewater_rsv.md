@@ -12,20 +12,19 @@ data_status: "updating"
 ---
 ## Introduktion
 
-Respiratory Syncytial Virus (RSV) är ett enkelsträngat RNA-virus som orsakar infektioner i lungor och luftvägar. De flesta människor får bara milda förkylningsliknande symtom och återhämtar sig snabbt, men spädbarn och äldre vuxna kan utveckla allvarligare symptom och behöva sjukhusvård. RSV är en av de främsta orsakerna till sjukhusvård vid luftvägssjukdomar hos spädbarn yngre än 1 år.
+Respiratory Syncytial Virus (RSV) är ett enkelsträngat RNA-virus som orsakar infektioner i lungor och luftvägar. De flesta människor får bara milda förkylningsliknande symtom och återhämtar sig snabbt, men spädbarn och äldre vuxna kan utveckla allvarligare symptom och behöva sjukhusvård. RSV är en av de främsta orsakerna till sjukhusvård vid luftvägssjukdomar hos spädbarn yngre än 1 år. För mer information om symtom, risker och vaccination mot RS-virus, besök [Folkhälsomyndighetens motsvarande sida](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/smittsamma-sjukdomar/rs-virusinfektion/).
 
-Data som presenteras på denna sida genereras i Sveriges lantbruksuniversitets (SLU) laboratorier vid Svenskt Miljöepidemiologiskt Centrum (SEEC). Projektet ingår i <a target="_blank" href="https://www.pathogens.se/resources/">SciLifeLab’s Pandemic Laboratory Preparedness (PLP) Program</a> och leds av docent Anna J. Székely (Institutionen för vatten och miljö, SLU). Avloppsanalyserna övervakas av Anna J. Székely, Javier Vargas och docent Maja Malmberg (Institutionen för biomedicin och veterinär folkhälsovetenskap, sektionen för virologi, SLU). Denna sida visar kvantifiering av nivåerna av Respiratory Syncytial Virus (RSV) i flera orter över hela Sverige. Projektet har för närvarande den bredaste geografiska täckningen i Sverige och genererar data som täcker 43% av den svenska befolkningen.
+Data som presenteras på denna sida genereras i Sveriges lantbruksuniversitets (SLU) laboratorier vid Svenskt Miljöepidemiologiskt Centrum (SEEC). Data och visualiseringar på den här sidan uppdateras vanligtvis veckovis, oftast på måndagar. För en omfattande förståelse, vänligen hänvisa till [Metoder](#metoder) avsnittet. För en allmän översikt om avloppsvattenövervakning, vänligen besök [Avloppsbaserad epidemiologi i Sverige](/dashboards/wastewater_background/)
 
-Data och visualiseringar på den här sidan uppdateras vanligtvis veckovis, oftast på måndagar. Notera att de poäng som tillhandahålls i datasetet och som visas i grafen nedan är preliminära, så korrigeringar och ändringar kan förekomma. Data och information om gruppen på den här dashboarden uppdateras kontinuerligt.
+<div class="alert alert-info">
+<b>Viktig notering:</b></br>
+Notera att de poäng som tillhandahålls i datasetet och som visas i grafen nedan är preliminära, så korrigeringar och ändringar kan förekomma. Data och information om gruppen på den här dashboarden uppdateras kontinuerligt. </br>Notera också att även om samma metoder används för alla städer som visas på den här fliken, kan skillnader i befolkningen och hur avloppsvatten samlas in i olika städer påverka jämförelser dem emellan.
+</div>
 
 
 ## Visualiseringar
 
 <div class="alert alert-info">Last updated: <span id="last_modified_slu_rsv"></span></div>
-
-Innan vi fortsätter med visualiseringarna av RSV-nivåer i avloppsvatten är det avgörande att förstå de metoder som används för kvantifiering. Dessa metoder säkerställer noggrannheten och tillförlitligheten i de data som presenteras i diagrammen. För en omfattande förståelse, vänligen hänvisa till [Metoder](#metoder) avsnittet.
-
-**Notera** också att även om samma metoder används för alla städer som visas på den här fliken, kan skillnader i befolkningen och hur avloppsvatten samlas in i olika städer påverka jämförelser dem emellan.
 
 <div class="d-md-none alert alert-info">
   Att rotera mobiltelefonen kan förbättra grafens layout

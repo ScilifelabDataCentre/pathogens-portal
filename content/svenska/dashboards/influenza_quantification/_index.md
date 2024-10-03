@@ -15,20 +15,18 @@ data_status: "updating"
 
 ## Introduktion
 
-Influensavirus är enkelsträngade, segmenterade RNA-virus inom familjen Orthomyxoviridae. Influensa A- och influensa B-virus orsakar säsongsbetonade epidemier av influensa, en mycket smittsam luftvägssjukdom som kännetecknas av symptom som feber, hosta, halsont, värk i kroppen och trötthet, men diarré och kräkningar kan också förekomma. Influensa A-virus är utbrett bland sjöfåglar men infekterar också andra fågelarter och olika däggdjur, inklusive människor och grisar, medan influensa B-virus främst infekterar människor. Influensavirus muterar snabbt, vilket leder till olika stammar och säsongsbetonade utbrott. Både influensa A- och B-virus kan orsaka säsongsbetonade utbrott, men endast influensa A är känt för att orsaka pandemier på grund av att viruset kan smitta olika arter och den potentiella möjligheten till genetisk rekombination mellan olika djurarter. Globalt uppskattas säsongsinfluensan orsaka 290 000–645 000 dödsfall per år.
+Influensavirus är enkelsträngade, segmenterade RNA-virus inom familjen Orthomyxoviridae. Influensa A- och influensa B-virus orsakar säsongsbetonade epidemier av influensa, en mycket smittsam luftvägssjukdom som kännetecknas av symptom som feber, hosta, halsont, värk i kroppen och trötthet, men diarré och kräkningar kan också förekomma. Influensa A-virus är utbrett bland sjöfåglar men infekterar också andra fågelarter och olika däggdjur, inklusive människor och grisar, medan influensa B-virus främst infekterar människor. Influensavirus muterar snabbt, vilket leder till olika stammar och säsongsbetonade utbrott. Både influensa A- och B-virus kan orsaka säsongsbetonade utbrott, men endast influensa A är känt för att orsaka pandemier på grund av att viruset kan smitta olika arter och den potentiella möjligheten till genetisk rekombination mellan olika djurarter. För mer information om symtom, risker och vaccination mot influensavirus, besök [Folkhälsomyndighetens motsvarande sida](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/smittsamma-sjukdomar/influensa-/).
 
-Data som presenteras på denna sida genereras i Sveriges lantbruksuniversitets (SLU) laboratorier vid Svenskt Miljöepidemiologiskt Centrum (SEEC). Projektet ingår i <a target="_blank" href="https://www.pathogens.se/resources/">SciLifeLab’s Pandemic Laboratory Preparedness (PLP) Program</a> och leds av docent Anna J. Székely (Institutionen för vatten och miljö, SLU). Avloppsanalyserna övervakas av Anna J. Székely, Javier Vargas och Maja Malmberg (Institutionen för biomedicin och veterinär folkhälsovetenskap, sektionen för virologi, SLU). Denna sida visar kvantifiering av nivåerna av influensa A- och B-virus i flera orter över hela Sverige. Projektet har för närvarande den bredaste geografiska täckningen i Sverige och genererar data som täcker 43% av den svenska befolkningen.
+Data som presenteras på denna sida genereras i Sveriges lantbruksuniversitets (SLU) laboratorier vid Svenskt Miljöepidemiologiskt Centrum (SEEC). Data och visualiseringar på den här sidan uppdateras vanligtvis veckovis, oftast på måndagar. För en omfattande förståelse, vänligen hänvisa till [Metoder](#metoder) avsnittet. För en allmän översikt om avloppsvattenövervakning, vänligen besök [Avloppsbaserad epidemiologi i Sverige](/dashboards/wastewater_background/)
 
-Data och visualiseringar på den här sidan uppdateras vanligtvis veckovis, oftast på måndagar. Notera att de poäng som tillhandahålls i datasetet och som visas i grafen nedan är preliminära, så korrigeringar och ändringar kan förekomma. Data och information om gruppen på den här dashboarden uppdateras kontinuerligt.
-
+<div class="alert alert-info">
+<b>Viktig notering:</b></br>
+Notera att de poäng som tillhandahålls i datasetet och som visas i grafen nedan är preliminära, så korrigeringar och ändringar kan förekomma. Data och information om gruppen på den här dashboarden uppdateras kontinuerligt. </br>Notera också att även om samma metoder används för alla städer som visas på den här fliken, kan skillnader i befolkningen och hur avloppsvatten samlas in i olika städer påverka jämförelser dem emellan.
+</div>
 
 ## Visualiseringar
 
 <div class="alert alert-info">Last updated: <span id="last_modified_slu_flu"></span></div>
-
-Innan vi fortsätter med visualiseringarna av Influenza A och B-virusnivåer i avloppsvatten är det viktigt att förstå de metoder som används i denna process. Dessa metoder säkerställer noggrannheten och tillförlitligheten i de data som presenteras i diagrammen. För en omfattande förståelse, vänligen hänvisa till [Metoder](#metoder) avsnittet.
-
-**Notera** att även om samma metoder används för alla städer som visas på den här fliken, kan skillnader i befolkningen och hur avloppsvatten samlas in i olika städer påverka jämförelser dem emellan.
 
 ### Influensa A
 
@@ -97,5 +95,9 @@ Isaksson, F., Lundy, L., Hedström, A., Székely, A. J., Mohamed, N. (2022). Eva
 SLU-SEEC samlar in och analyserar prover för kvantifiering av nivåerna av influensa A- och influensa B-virus från ett flertal orter. Nedan visas en tabell med detaljerad information om alla insamlingsplatser. Tabellen listar orter som övervakas, avloppsreningsverk (WWTP) där proverna samlas in, antal personer i upptagningsområdet (Number of people), mellan vilka datum SLU-SEEC mätningarna skett (Start date och End date). Notera att 'Start date' avser det datum då övervakning av influensa A startade, men att startdatumet för influensa B alltid är senare. Ett värde ’null’ istället för slutdatum innebär att insamlingen fortfarande pågår. En asterisk (\*) bredvid antal invånare innebär att värdet är uppskattat baserat på hur många invånare som reningsverket betjänar (BOD-7). Två asterisker (\*\*) bredvid staden/staden indikerar att data endast är tillgänglig för influensa A, och inte influensa B. Informationen i tabellen nedan är [tillgänglig för nedladdning som en excel-fil](https://blobserver.dc.scilifelab.se/blob/SLU_INF_collection_sites.xlsx).
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_sluINFsites.json" height="840px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_sluINFsites.json" height="750px" >}}</div>
 </div>
+
+## Arkiverade data från SLU
+
+- [Historiska influensadata i avloppsvatten från SEEC-SLU](/dashboards/influenza_quantification/historic_influenza_SLU)

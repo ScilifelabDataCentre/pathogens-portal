@@ -18,23 +18,20 @@ data_status: "updating"
 
 ## Introduction
 
-Severe acute respiratory syndrome coronavirus 2 (SARS‑CoV‑2) is a positive-sense single-stranded RNA virus that causes COVID-19 (coronavirus disease 2019), the respiratory illness responsible for the COVID-19 pandemic. SARS-CoV-2 was first identified in the city of Wuhan, Hubei, China, and the World Health Organization (WHO) declared a public health emergency of international concern from January 30, 2020, to May 5, 2023.
+Severe acute respiratory syndrome coronavirus 2 (SARS CoV 2) is a positive-sense single-stranded RNA virus that causes COVID-19 (coronavirus disease 2019), the respiratory illness responsible for the COVID-19 pandemic. SARS-CoV-2 was first identified in the city of Wuhan, Hubei, China, and the World Health Organization (WHO) declared a public health emergency of international concern from January 30, 2020, to May 5, 2023. For more information about symptoms, risks and vaccination against SARS-CoV-2, visit the corresponding site of the [Swedish Public Health Agency](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/smittsamma-sjukdomar/covid-19/).
 
 Beside respiratory droplets and aerosols, SARS-CoV-2 viral particles, like many other human coronaviruses, are also excreted in the stools of infected individuals. This enables the possibility for SARS-CoV-2 virus to be detected in wastewater and population-level infection trends of COVID-19 to be followed by wastewater-based epidemiology (WBE).
 
-The data presented on this page is generated in the SLU (Swedish University of Agricultural Sciences) laboratories of SEEC (Swedish Environmental Epidemiology Center). The project is part of [SciLifeLab's Pandemic Laboratory Preparedness (PLP) Program](/resources/), and is led by Anna J. Székely (Dep. of Aquatic Sciences and Assessment, SLU). Wastewater analyses are overseen by Anna J. Székely and Maja Malmberg (Virology unit of Department of Biomedical Science and Veterinary Public Health, SLU). This page pertains to the quantification of the levels of SARS-CoV-2 virus in multiple cities across Sweden. This project currently has the broadest geographic coverage across Sweden; generating data for 43% of the Swedish population.
+The data presented on this page is generated in the SLU (Swedish University of Agricultural Sciences) laboratories of SEEC (Swedish Environmental Epidemiology Center). The data and visualisation on this page are usually updated weekly, typically on Mondays. For a comprehensive understanding, please refer to the [Methods](#methods) section. For general overview about wastewater surveillance please visit [Wastewater-based epidemiology in Sweden](/dashboards/wastewater_background/)
 
-The data and visualisation on this page are usually updated weekly, typically on Mondays. Please note that the scores provided in the dataset and depicted in plot below are preliminary, so corrections and changes may occur. Data and information about the group on this dashboard are updated frequently, so please check back regularly to stay up to date.
+<div class="alert alert-info">
+<b>Important Note:</b></br>
+The scores provided in the dataset and depicted in the plot below are preliminary, so corrections and changes may occur. Data and information about the group on this dashboard are updated frequently, so please check back regularly to stay up to date. </br>Please note that although the same methods are used for all cities shown on this tab, differences in the wastewater collection systems and populations of different cities might bias direct comparisons between cities.
+</div>
 
 ## Visualisations
 
 <div class="alert alert-info">Last updated: <span id="last_modified_uppsala"></span></div>
-
-Before we proceed with the visualizations of COVID-19 quantification in wastewater, it's important to understand the methodologies used in this process. These methods ensure the accuracy and reliability of the data presented in the graphs. For a comprehensive understanding, please refer to the [Methods](#methods) section.
-
-<b>Important note:</b> Historical data for Ekerö, Enköping, Knivsta, Tierp, Vaxholm, Älvkarleby, and Österåker are available in the dataset (linked below). However, they are no longer included in the visualisation.
-
-Please note that although the same methods are used for all cities shown on this tab, differences in the wastewater collection systems and populations of different cities might bias direct comparisons between cities.
 
 <button type="button" class="btn btn-sm btn-outline-secondary mb-2" data-bs-toggle="modal" data-bs-target="#interactiveFeaturesModal">
   How to use the interactive features of the plot
@@ -129,6 +126,7 @@ SLU-SEEC collects and analyses samples for SARS-CoV-2 from multiple areas. The b
 ## Archived data from SLU
 
 - [Historic data for Örebro and Umeå; amount of SARS-CoV-2 in Umeå and Örebro wastewater between October 2020 and June 2021](/dashboards/covid_quantification/historic_orebro_umea).
+- [Historic SARS-CoV-2 data in wastewater from SEEC-SLU](/dashboards/covid_quantification/historic_covid_SLU)
 
 ## Quantification of SARS-CoV-2 by other groups
 

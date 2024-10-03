@@ -18,24 +18,20 @@ data_status: "updating"
 
 ## Introduktion
 
-_Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)_ är ett enkelsträngat RNA-virus som orsakar COVID-19 (coronavirus disease 2019), den luftvägsinfektion som orsakade COVID-19-pandemin. SARS-CoV-2 identifierades först i staden Wuhan, Hubei, Kina, och Världshälsoorganisationen (WHO) deklarerade att viruset var ett internationellt akut hot mot människors hälsa mellan den 30 januari 2020 och 5 maj 2023.
+Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) är ett enkelsträngat RNA-virus som orsakar COVID-19 (coronavirus disease 2019), den luftvägsinfektion som orsakade COVID-19-pandemin. SARS-CoV-2 identifierades först i staden Wuhan, Hubei, Kina, och Världshälsoorganisationen (WHO) deklarerade att viruset var ett internationellt akut hot mot människors hälsa mellan den 30 januari 2020 och 5 maj 2023. För mer information om symtom, risker och vaccination mot influensavirus, besök [Folkhälsomyndighetens motsvarande sida](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/smittsamma-sjukdomar/covid-19/).
 
-SARS-CoV-2-viruspartiklar kan utsöndras via andningsdroppar, aerosoler och kan även förekomma i avföringen hos smittade individer. Detta möjliggör att SARS-CoV-2-viruset kan upptäckas i avloppsvatten och att infektionstrender på populationsnivå av COVID-19 kan följas genom avloppsvattenbaserad epidemiologi (på engelska wastewater-based epidemiology, WBE).
+SARS-CoV-2-viruspartiklar kan utsöndras via andningsdroppar, aerosoler och kan även förekomma i avföringen hos smittade individer. Detta möjliggör att SARS-CoV-2-viruset kan upptäckas i avloppsvatten och att infektionstrender på populationsnivå av COVID-19 kan följas genom avloppsvattenbaserad epidemiologi (på engelska wastewater-based epidemiology, WBE). 
 
-Data som presenteras på denna sida genereras i Sveriges lantbruksuniversitets (SLU) laboratorier vid Svenskt Miljöepidemiologiskt Centrum (SEEC). Projektet ingår i [SciLifeLab's Pandemic Laboratory Preparedness (PLP) Program](/resources/) och leds av docent Anna J. Székely (Institutionen för vatten och miljö, SLU). Avloppsanalyserna övervakas av Anna J. Székely Javier Vargas och Maja Malmberg (Institutionen för biomedicin och veterinär folkhälsovetenskap, sektionen för virologi, SLU). Denna sida visar kvantifiering av nivåerna av SARS-CoV-2-virus i flera orter över hela Sverige. Projektet har för närvarande den bredaste geografiska täckningen i Sverige och genererar data som täcker 43% av den svenska befolkningen.
+Data som presenteras på denna sida genereras i Sveriges lantbruksuniversitets (SLU) laboratorier vid Svenskt Miljöepidemiologiskt Centrum (SEEC). Data och visualiseringar på den här sidan uppdateras vanligtvis veckovis, oftast på måndagar. För en omfattande förståelse, vänligen hänvisa till [Metoder](#metoder) avsnittet. För en allmän översikt om avloppsvattenövervakning, vänligen besök [Avloppsbaserad epidemiologi i Sverige](/dashboards/wastewater_background/)
 
-Data och visualiseringar på den här sidan uppdateras vanligtvis veckovis, oftast på måndagar. Notera att de poäng som tillhandahålls i datasetet och som visas i grafen nedan är preliminära, så korrigeringar och ändringar kan förekomma. Data och information om metod som används uppdateras kontinuerligt.
-
+<div class="alert alert-info">
+<b>Viktig notering:</b></br>
+Notera att de poäng som tillhandahålls i datasetet och som visas i grafen nedan är preliminära, så korrigeringar och ändringar kan förekomma. Data och information om gruppen på den här dashboarden uppdateras kontinuerligt. </br>Notera också att även om samma metoder används för alla städer som visas på den här fliken, kan skillnader i befolkningen och hur avloppsvatten samlas in i olika städer påverka jämförelser dem emellan.
+</div>
 
 ## Visualiseringar
 
 <div class="alert alert-info">Senast uppdaterad: <span id="last_modified_uppsala"></span></div>
-
-Innan vi fortsätter med visualiseringarna av COVID-19-kvantifiering i avloppsvatten är det viktigt att förstå de metoder som används i denna process. Dessa metoder säkerställer noggrannheten och tillförlitligheten i de data som presenteras i diagrammen. För en omfattande förståelse, vänligen hänvisa till [Metoder](#metoder) avsnittet.
-
-<b>Notera:</b> Historisk data för Ekerö, Enköping, Knivsta, Tierp, Vaxholm, Älvkarleby, och Österåker finns tillgänglig i det länkade datasetet ovan och ingår inte längre i visualiseringen nedan.
-
-Notera också att även om samma metoder används för alla städer som visas på den här fliken, kan skillnader i befolkningen och hur avloppsvatten samlas in i olika städer påverka jämförelser dem emellan.
 
 <button type="button" class="btn btn-sm btn-outline-secondary mb-2" data-bs-toggle="modal" data-bs-target="#interactiveFeaturesModal">
   Hur du kan använda grafens interaktiva funktioner
@@ -128,7 +124,7 @@ SLU-SEEC samlar in och analyserar prover från ett flertal orter. Nedan visas en
 ## Arkiverade data
 
 - [Historiska data för Örebro och Umeå, mängd SARS-CoV-2 i avloppsvatten från Umeå respektive Örebro mellan oktober 2020 och juni 2021](/sv/dashboards/covid_quantification/historic_orebro_umea).
-
+- [Historiska SARS-CoV-2-data i avloppsvatten från SEEC-SLU](/dashboards/covid_quantification/historic_covid_SLU)
 
 ## Kvantifiering av SARS-CoV-2 av andra grupper
 
