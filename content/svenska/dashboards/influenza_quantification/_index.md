@@ -35,7 +35,7 @@ Notera att de poäng som tillhandahålls i datasetet och som visas i grafen neda
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive" style="min-width: 1200px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infA_v1.0.json" height="800px" >}}</div>
+  <div class="table-responsive" style="min-width: 1200px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infA.json" height="800px" >}}</div>
 </div>
 
 **Källkod som används för att skapa grafen:** [Källkod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/combined_slu_influenza_a.py).
@@ -47,7 +47,7 @@ Notera att de poäng som tillhandahålls i datasetet och som visas i grafen neda
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive" style="min-width: 1200px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infB_v1.0.json" height="800px" >}}</div>
+  <div class="table-responsive" style="min-width: 1200px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_slu_infB.json" height="800px" >}}</div>
 </div>
 
 **Källkod som används för att skapa grafen:** [Källkod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/combined_slu_influenza_b.py).
@@ -66,7 +66,7 @@ Forskargruppen tillhandahåller en rapport som sammanfattar information från de
 
 **Kontakt:** <anna.szekely@slu.se> and <javier.vargas@slu.se>
 
-**Ladda ner data:** [Genkopieantal för luftvägsvirus normaliserat mot PMMoV-genkopieantal.CSV fil](https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data_v1.0.csv). Data finns tillgänglig för influensa A-virus från vecka 42 2022 och för influensa B-virus från vecka 12 2023, uppdateras veckovis.
+**Ladda ner data:** [Genkopieantal för luftvägsvirus normaliserat mot PMMoV-genkopieantal.CSV fil](https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data.csv). Data finns tillgänglig för influensa A-virus från vecka 42 2022 och för influensa B-virus från vecka 12 2023, uppdateras veckovis.
 
 **Citera data:**
 
