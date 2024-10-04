@@ -22,7 +22,7 @@ Severe acute respiratory syndrome coronavirus 2 (SARS CoV 2) is a positive-sense
 
 Beside respiratory droplets and aerosols, SARS-CoV-2 viral particles, like many other human coronaviruses, are also excreted in the stools of infected individuals. This enables the possibility for SARS-CoV-2 virus to be detected in wastewater and population-level infection trends of COVID-19 to be followed by wastewater-based epidemiology (WBE).
 
-The data presented on this page is generated in the SLU (Swedish University of Agricultural Sciences) laboratories of SEEC (Swedish Environmental Epidemiology Center). The data and visualisation on this page are usually updated weekly, typically on Mondays. For a comprehensive understanding, please refer to the [Methods](#methods) section. For general overview about wastewater surveillance please visit [Wastewater-based epidemiology in Sweden](/dashboards/wastewater_background/)
+The data presented on this page is generated in the SLU (Swedish University of Agricultural Sciences) laboratories of SEEC (Swedish Environmental Epidemiology Center). The data and visualisation on this page are usually updated weekly, typically on Mondays. Please refer to the [Methods](#methods) for details on measurements and calculations. All related dashboards can be found on the [Wastewater Surveillance](/dashboards/topics/wastewater-surveillance/) page, and sampling sites and project details are available in the [Wastewater Monitoring Background](/dashboards/wastewater_background/).
 
 <div class="alert alert-info">
 <b>Important Note:</b></br>
@@ -94,7 +94,7 @@ Székely, A. J., Malmberg, M., Vargas, J., Mohamed, N., Dafalla, I., Petrini, F.
 
 ## Methods
 
-For most cities represented on this page, raw, untreated wastewater samples that are representative of a single day are collected by flow compensated samplers at the wastewater treatment plants (WWTP). Uppsala is the exception, with all measurements since week 16 of 2021 instead representing 1 week. In Uppsala, samples are collected daily, and then combined flow-proportionally into one composite weekly sample for the purpose of analyses.
+Wastewater is collected from several different treatment plants around the country. For more information about the treatment plants, visit the page about [the background of wastewater surveillance](/dashboards/wastewater_background/). For most cities represented on this page, raw, untreated wastewater samples that are representative of a single day are collected by flow compensated samplers at the wastewater treatment plants (WWTP). Uppsala is the exception, with all measurements since week 16 of 2021 instead representing 1 week. In Uppsala, samples are collected daily, and then combined flow-proportionally into one composite weekly sample for the purpose of analyses.
 
 The freshly collected samples are processed according to standard methodologies. For samples collected up to and including week 18 of 2021, viral particles were concentrated using the electronegative filtration method ([Ahmed _et al._, 2020](https://www.sciencedirect.com/science/article/pii/S004896972033480X)). Since week 19 of 2021, the viral genomic material has instead been concentrated and extracted by the direct capture method, using the Maxwell RSC Enviro TNA kit (Promega).
 
@@ -108,15 +108,6 @@ The data in the graphs and datafile is presented in three different formats:
 **How to cite the method:**
 
 Isaksson, F., Lundy, L., Hedström, A., Székely, A. J., Mohamed, N. (2022). Evaluating the Use of Alternative Normalization Approaches on SARS-CoV-2 Concentrations in Wastewater: Experiences from Two Catchments in Northern Sweden. _Environments_, _9_, 39. <https://doi.org/10.3390/environments9030039>.
-
-## Wastewater collection sites
-
-SLU-SEEC collects and analyses samples for SARS-CoV-2 from multiple areas. The below table shows details about each of these sites. The table lists the towns/cities monitored, wastewater treatment plants (WWTP) that samples were collected from, the number of people in the catchment area (Number of people), and the dates that monitoring by SLU-SEEC started and ended monitoring (Start and End date, respectively). A value of 'null' for the end date indicates that collection is ongoing. An asterisk (\*) next to the number of people indicates that the value is a BOD-7 value (an estimate of the people connected), rather than the number of people physically connected to each WWTP. The information in the below table is [available for download as an excel file](https://blobserver.dc.scilifelab.se/blob/SLU_COVID_collection_sites.xlsx).
-
-  <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_sluCOVIDsites.json" height="840px" >}}</div>
-</div>
-
 
 ## Related data
 

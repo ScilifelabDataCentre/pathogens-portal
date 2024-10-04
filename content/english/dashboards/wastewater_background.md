@@ -38,7 +38,7 @@ Below is a map showing the wastewater treatment plants (WWTPs) from which wastew
 The table below lists; the towns/cities monitored by groups sharing data on this dashboard, wastewater treatment plants (WWTP) that samples were collected from, the number of people in the catchment area (Number of people), whether monitoring is actively ongoing (Active?), the viruses monitored at the site (Viruses monitored), and the group(s) that have monitored/are monitoring the site. An asterisk (*) next to the number of people indicates that the value is an estimate of the people connected based on BOD-7 value, rather than the number of people physically connected to the WWTP. The information in the table below is [available for download as an excel file](https://blobserver.dc.scilifelab.se/blob/overall_ww_collection_sites.xlsx).
 
   <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_overallsites.json" height="840px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_overallsites.json" height="850px" >}}</div>
 </div>
 
 ## Background: Wastewater-based epidemiology

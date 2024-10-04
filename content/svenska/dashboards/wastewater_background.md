@@ -40,7 +40,7 @@ Nedan finns en karta som visar de avloppsreningsverk (på engelska wastewater tr
 Tabellen nedan listar; städerna/orterna som monitoreras av de forskargrupper som delar data, vilka avloppsreningsverk (WWTP) som avloppsprover samlats in ifrån, antal personer i upptagningsområdet (Number of people), om övervakningen är pågående eller inte (Active?), vilket virus som övervakas på platsen (Viruses monitored) och forskargrupp(er) som har övervakat/övervakar platsen. En asterisk (*) bredvid antal personer anger att värdet är baserat på BO-7-värde (en uppskattning av de personer som är anslutna till ett avloppsreningsverk), snarare än antalet personer som är fysiskt anslutna. Informationen i tabellen nedan är [tillgänglig för nedladdning som en excel-fil](https://blobserver.dc.scilifelab.se/blob/overall_ww_collection_sites.xlsx).
 
   <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_overallsites.json" height="840px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_overallsites.json" height="850px" >}}</div>
 </div>
 
 ## Bakgrund: Avloppsvattenbaserad epidemiologi

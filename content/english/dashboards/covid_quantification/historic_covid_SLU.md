@@ -21,8 +21,6 @@ SLU-SEEC collects and analyses samples for SARS-CoV-2 from multiple areas. The b
 
 <div class="alert alert-info">Last updated: 2024-09-30</span></div>
 
-<!-- <div class="alert alert-info">Last updated: <span id="histroic_covid_slu"></span></div> -->
-
 <b>Important note:</b> Historical data for Ekerö, Enköping, Knivsta, Tierp, Vaxholm, Älvkarleby, and Österåker are available in the dataset (linked below). However, they are no longer included in the visualisation.
 
 Please note that although the same methods are used for all cities shown on this tab, differences in the wastewater collection systems and populations of different cities might bias direct comparisons between cities.
@@ -68,12 +66,8 @@ Please note that although the same methods are used for all cities shown on this
 
 ## Commentary from the research group
 
-<!-- <div><b>Date:</b> <span id="slu_comment_date"></span><br><b>Commentary:</b> <span id="slu_comment"></span></div>
-
-{{< ww_dynamic_content >}} -->
 <div><b>Date:</b> 2024-03-20<br><b>Commentary:</b> An error occurred during the processing of the data for week 11-2024, due to a normalization issue. Consequently, the SCV2 data appeared to be 16 times higher and the influenza A data 4 times higher than their actual values. We identified and corrected this error the following day while preparing our official report, and promptly updated the website. We appreciate those who brought this to our attention and apologize to anyone alarmed by the inaccurate results. It's important to note that the data on the website is always preliminary. Please feel free to contact us with any questions or concerns.</div>
 
-{{< ww_dynamic_content >}}
 ## Reports from the research group
 
 The group provide reports to summarise their latest findings. The latest report is available [here](https://blobserver.dc.scilifelab.se/blob/Latest_weekly_report_SEEC-SLU.pdf) (only available in Swedish).

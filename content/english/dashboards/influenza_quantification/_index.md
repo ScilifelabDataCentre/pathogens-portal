@@ -17,7 +17,7 @@ data_status: "updating"
 
 Influenza viruses are negative-sense, single-stranded, segmented RNA viruses within the family Orthomyxoviridae. Influenza A and influenza B viruses cause seasonal epidemics of influenza, commonly known as “the flu”, a highly contagious respiratory disease characterized by symptoms such as fever, cough, sore throat, body aches, and fatigue but diarrhea and vomiting can also occur. Influenza A virus is widespread in water birds but also infects other birds and various mammals, including humans and pigs, while influenza B virus primarily infects humans. Influenza viruses mutate rapidly, leading to different strains and seasonal outbreaks. Both influenza A and influenza B viruses can cause seasonal outbreaks, but only influenza A is known to cause pandemics due to its broad host range and resulting potential for interspecies genetic reassortment. For more information about symptoms, risks and vaccination against influenza viruses, visit the corresponding site of the [Swedish Public Health Agency](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/smittsamma-sjukdomar/influensa-/).
 
-The data presented on this page is generated in the SLU (Swedish University of Agricultural Sciences) laboratories of SEEC (Swedish Environmental Epidemiology Center). The data and visualisation on this page are usually updated weekly, typically on Mondays. For a comprehensive understanding, please refer to the [Methods](#methods) section. For general overview about wastewater surveillance please visit [Wastewater-based epidemiology in Sweden](/dashboards/wastewater_background/)
+The data presented on this page is generated in the SLU (Swedish University of Agricultural Sciences) laboratories of SEEC (Swedish Environmental Epidemiology Center). The data and visualisation on this page are usually updated weekly, typically on Mondays. Please refer to the [Methods](#methods) for details on measurements and calculations. All related dashboards can be found on the [Wastewater Surveillance](/dashboards/topics/wastewater-surveillance/) page, and sampling sites and project details are available in the [Wastewater Monitoring Background](/dashboards/wastewater_background/).
 
 <div class="alert alert-info">
 <b>Important Note:</b></br>
@@ -74,7 +74,7 @@ Székely, A. J., Malmberg, M., Vargas, J., Mohamed, N., Dafalla, I., Petrini, F.
 
 ## Methods
 
-For most cities represented on this page, raw, untreated wastewater samples that are representative of a single day are collected by flow compensated samplers at the wastewater treatment plants (WWTP). Uppsala is the exception, where samples are collected daily, and then combined flow-proportionally into one composite weekly sample for the purpose of analyses.
+Wastewater is collected from several different treatment plants around the country. For more information about the treatment plants, visit the page about [the background of wastewater surveillance](/dashboards/wastewater_background/). For most cities represented on this page, raw, untreated wastewater samples that are representative of a single day are collected by flow compensated samplers at the wastewater treatment plants (WWTP). Uppsala is the exception, where samples are collected daily, and then combined flow-proportionally into one composite weekly sample for the purpose of analyses.
 
 The viral genomic material from the freshly collected samples is extracted by the direct capture method, using the Maxwell RSC Enviro TNA kit (Promega).
 
@@ -88,14 +88,6 @@ The data in the graphs and datafile is presented in three different formats:
 **How to cite the method:**
 
 Isaksson, F., Lundy, L., Hedström, A., Székely, A. J., Mohamed, N. (2022). Evaluating the Use of Alternative Normalization Approaches on SARS-CoV-2 Concentrations in Wastewater: Experiences from Two Catchments in Northern Sweden. _Environments_, _9_, 39. <https://doi.org/10.3390/environments9030039>.
-
-## Wastewater collection sites
-
-SLU-SEEC collects and analyses samples for influenza A and B viruses from multiple areas. The below table shows details about each of these sites. The table lists the towns/cities monitored, wastewater treatment plants (WWTP) that samples were collected from, the number of people in the catchment area (Number of people), and the dates that monitoring by SLU-SEEC started and ended monitoring (Start and End date, respectively). Please note that 'Start date' refers to the first date of monitoring for influenza A, but that the start date for influenza B is always later. A value of ’null’ for the end date indicates that collection is ongoing. An asterisk (\*) next to the number of people indicates that the value is a BOD-7 value (an estimate of the people connected), rather than the number of people physically connected to each WWTP. Two asterisks (\*\*) next to the Town/City indicates that data is only available for influenza A, not influenza B. The information in the below table is [available for download as an excel file](https://blobserver.dc.scilifelab.se/blob/SLU_INF_collection_sites.xlsx). For all the sites please visit [Sample Collection Sites](/dashboards/wastewater_background/#sample-collection-sites)
-
-<div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_sluINFsites.json" height="750px" >}}</div>
-</div>
 
 ## Archived data from SLU
 
