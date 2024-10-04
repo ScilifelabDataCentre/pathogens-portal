@@ -58,10 +58,10 @@ Notera också att även om samma metoder används för alla städer som visas p�
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="800px" >}}</div>
+  <div class="table-responsive">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/historic_wastewater_combined_slu_regular.json" height="800px" >}}</div>
 </div>
 
-**Källkod som används för att skapa grafen:** [Källkod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/archive/combined_slu_regular.py).
+**Källkod som används för att skapa grafen:** [Källkod](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/archive/historic_combined_slu_regular.py).
 
 ## Kommentarer från forskargruppen
 
@@ -75,7 +75,7 @@ Forskargruppen tillhandahåller även en rapport som sammanfattar informationen 
 
 **Kontakt:** <anna.szekely@slu.se> och <javier.vargas@slu.se>
 
-**Ladda ner data:** [Genkopieantal av luftvägsvirus normaliserat mot PMMoV-genkopieantal, CSV fil.](https://raw.githubusercontent.com/ScilifelabDataCentre/pathogens-portal/develop/static/ww_data_temp/SLU_wastewater_data.csv). Data finns tillgängligt från vecka 38 2020 och uppdateras veckovis.
+**Ladda ner data:** [Genkopieantal av luftvägsvirus normaliserat mot PMMoV-genkopieantal, CSV fil.](https://blobserver.dc.scilifelab.se/blob/historic_SLU_wastewater_data.csv). Data finns tillgängligt från vecka 38 2020 och uppdateras veckovis.
 
 **Citera datasetet:**
 

@@ -67,7 +67,7 @@ The scores provided in the dataset and depicted in the plot below are preliminar
 </div>
 
 <div class="plot_wrapper mb-3">
-  <div class="table-responsive" style="min-width: 1200px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_slu_regular_v1.0.json" height="800px" >}}</div>
+  <div class="table-responsive" style="min-width: 1200px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/wastewater_combined_slu_regular.json" height="800px" >}}</div>
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/wastewater/combined_slu_regular.py).
@@ -86,7 +86,7 @@ The group provide reports to summarise their latest findings. The latest report 
 
 **Contact:** <anna.szekely@slu.se> and <javier.vargas@slu.se>
 
-**Download the data:** [Respiratory virus gene copy numbers normalised per PMMoV gene copy number.CSV file.](https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data_v1.0.csv). Data are available from week 38 of 2020; updated weekly.
+**Download the data:** [Respiratory virus gene copy numbers normalised per PMMoV gene copy number.CSV file.](https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data.csv). Data are available from week 38 of 2020; updated weekly.
 
 **How to cite the dataset:**
 
