@@ -8,6 +8,7 @@ menu:
   dashboard_menu:
     identifier: recovac
     name: Registerbaserade vaccindata (RECOVAC)
+dashboards_topics: [COVID-19, Infectious diseases]
 data_status: "updating" # or "historic"
 ---
 
