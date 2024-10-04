@@ -63,7 +63,7 @@
                     <div class="px-2">
                         {{ .Page.Description }}
                     </div>
-                    {{ if not $displayed_in_homepage }}
+                    {{ if and (not $displayed_in_homepage) (eq $.Site.Language.LanguageName "English") }}
                     <div class="px-2 pb-3">
                         {{ range (.Page.GetTerms "dashboards_topics") }}
                         <span class="topic_badge_small"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
