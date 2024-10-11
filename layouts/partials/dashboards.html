@@ -148,10 +148,6 @@
          if (idValue === 'covid_publications') {
              matchingEbiEntry = findMatchingEntry(ebiEntries,'source_page', 'publications');
          }
-         // Special case for 'wastewater' dashboard card
-         else if (idValue === 'wastewater') {
-             matchingEbiEntry = findMostRecentEntry(ebiEntries,'source_page', 'wastewater');
-         }
          // Regular case where idValue is included in the source page path
          else {
              matchingEbiEntry = findMatchingEntry(ebiEntries,'source_page', idValue);
@@ -197,7 +193,7 @@
   * Find a matching EBI entry based on the specified field and its value
   */
  function findMatchingEntry(ebiEntries, fieldName, fieldValue) {
-     return ebiEntries.find(entry => entry.fields.find(field => field.name === fieldName && field.value.includes(fieldValue)));
+     return ebiEntries.find(entry => entry.fields.find(field => field.name === fieldName && field.value.replace(/\/$/, "").endsWith(fieldValue)));
  }
 
  /**
