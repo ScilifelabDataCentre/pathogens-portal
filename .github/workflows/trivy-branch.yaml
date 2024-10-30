@@ -21,7 +21,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Trivy vulnerability scanner
-        uses: aquasecurity/trivy-action@0.9.2
+        env:
+          TRIVY_DB_REPOSITORY: 'ghcr.io/aquasecurity/trivy-db,public.ecr.aws/aquasecurity/trivy-db'
+        uses: aquasecurity/trivy-action@0.28.0
         with:
           scan-type: "fs"
           ignore-unfixed: true
