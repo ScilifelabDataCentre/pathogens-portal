@@ -32,5 +32,5 @@ jobs:
               run: |
                 pa11y-ci \
                   --config ${GITHUB_WORKSPACE}/.github/pa11y.config \
-                  --sitemap https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/develop/.github/sitemap.xml \
+                  --sitemap https://www.pathogens.se/sitemap.xml \
                   --sitemap-exclude 'pdf$'
