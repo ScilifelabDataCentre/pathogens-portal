@@ -59,7 +59,7 @@
 
 {{ $datatypes_to_display := slice }}
 {{ $path := strings.TrimPrefix "/sv" (strings.TrimRight "/" (string .Page.RelPermalink)) }}
-{{ with .Sites.First.GetPage $path }}
+{{ with .Sites.Default.GetPage $path }}
 {{ $datatypes_to_display = .Params.datatypes_to_display }}
 {{ end }}
 
