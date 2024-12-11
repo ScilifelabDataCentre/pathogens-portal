@@ -225,12 +225,6 @@ a.nav-link:active {
   text-align: left;
 }
 
-/* Position tweak for sub dropdown */
-.dropdown-menu .dropdown-menu {
-  top: -0.55rem !important;
-  left: -0.18rem !important;
-}
-
 @media (max-width: 1199px) {
   .main_menu .border-right {
     border: 0px solid !important;
@@ -258,6 +252,12 @@ a.nav-link:active {
 }
 .breadcrumbs .breadcrumb a {
   color: #6c757d;
+}
+
+.toc {
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 .toc ul {
