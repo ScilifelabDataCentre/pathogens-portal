@@ -1,6 +1,957 @@
 {
-  "last_updated": "2024-09-04",
+  "last_updated": "2024-12-13",
   "datasets": [
+    {
+      "doi": "https://doi.org/10.1016/j.isci.2024.110501",
+      "available_items": [
+          {
+              "type": "code",
+              "repo_name": "Github",
+              "accession_number": "",
+              "description": "Complex heatmaps for visualisation",
+              "data_type": [
+                  "Health data"
+              ],
+              "data_url": "https://github.com/jokergoo/ComplexHeatmap"
+          },
+          {
+              "type": "code",
+              "repo_name": "Github",
+              "accession_number": "",
+              "description": "Principal Component Analysis",
+              "data_type": [
+                  "Health data"
+              ],
+              "data_url": "https://github.com/kevinblighe/PCAtools"
+          }
+      ],
+      "title": "Differential immunometabolic responses to Delta and Omicron SARS-CoV-2 variants in golden syrian hamsters",
+      "issue": "8",
+      "volume": "27",
+      "publisher": "Elsevier BV",
+      "published": "2024-11-12",
+      "author": [
+          "Rajaiah R.",
+          "Pandey K.",
+          "Acharya A.",
+          "Ambikan A.",
+          "Kumar N."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.3390/ijerph21080960",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Figshare",
+              "accession_number": "",
+              "description": "Complex heatmaps for visualisation",
+              "data_type": [
+                  "Health data"
+              ],
+              "data_url": "https://figshare.com/articles/dataset/Covid/26134993/1?file=47340397"
+          }
+      ],
+      "title": "Prevalence and Determinants of Changes in Physical Activity and Sedentary Behavior during and after the COVID-19 Pandemic: A Swedish Repeated Cross-Sectional Study",
+      "issue": "8",
+      "volume": "21",
+      "publisher": "MDPI AG",
+      "published": "2024-07-23",
+      "author": [
+          "Kerstis B.",
+          "Elvén M.",
+          "Nilsson K. W.",
+          "von Heideken Wågert P.",
+          "Stier J."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1128/spectrum.01249-24 ",
+      "available_items": [
+          {
+              "type": "code",
+              "repo_name": "Github",
+              "accession_number": "",
+              "description": "Raw growth data from the screen using robot Eve",
+              "data_type": [
+                  "Biochemistry data"
+              ],
+              "data_url": "https://github.com/sunnivass/Robotic_screen/tree/main/data"
+          },
+          {
+              "type": "code",
+              "repo_name": "Github",
+              "accession_number": "",
+              "description": "Scripts used for processing growth data",
+              "data_type": [
+                  "Biochemistry data"
+              ],
+              "data_url": "https://github.com/sunnivass/Robotic_screen"
+          },
+          {
+              "type": "data",
+              "repo_name": "Zenodo",
+              "accession_number": "",
+              "description": "SPositive selection screen in yeast for inhibitors of SARS-CoV-2 Main Protease. Dataset from docking studies",
+              "data_type": [
+                  "Biochemistry data"
+              ],
+              "data_url": "https://zenodo.org/records/7712368"
+          }
+      ],
+      "title": "An automated positive selection screen in yeast provides support for boron-containing compounds as inhibitors of SARS-CoV-2 main protease",
+      "issue": "10",
+      "volume": "12",
+      "publisher": "American Society for Microbiology",
+      "published": "2024-10-03",
+      "author": [
+          "Sigurdardóttir S.",
+          "Silva S. F.",
+          "Tiukova I.",
+          "Alalam H.",
+          "King R. D."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1038/s41467-024-52342-1",
+      "available_items": [
+          {
+              "type": "code",
+              "repo_name": "Github",
+              "accession_number": "",
+              "description": "Statistical code used for the COVIDMENT and Swedish register analysis",
+              "data_type": [
+                  "Health data",
+                  "Social science and humanities data"
+              ],
+              "data_url": "https://github.com/marymbarker22/covid_19_vaccination_paper"
+          }
+      ],
+      "title": "Mental illness and COVID-19 vaccination: a multinational investigation of observational &amp; register-based data",
+      "issue": "1",
+      "volume": "15",
+      "publisher": "Springer Science and Business Media LLC",
+      "published": "2024-09-26",
+      "author": [
+          "Barker M. M.",
+          "Kõiv K.",
+          "Magnúsdóttir I.",
+          "Milbourn H.",
+          "Wang B."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.3389/fimmu.2024.1450380",
+      "available_items": [
+          {
+              "type": "code",
+              "repo_name": "Github",
+              "accession_number": "",
+              "description": "R scripts to analyse the CYTOF data",
+              "data_type": [
+                  "Health data"
+              ],
+              "data_url": "https://github.com/saeyslab/CYTOF_covid19_study"
+          },
+          {
+              "type": "data",
+              "repo_name": "Flowrepository",
+              "accession_number": "",
+              "description": "Mapping the recovery of critically ill COVID 19 patients by mass cytometry",
+              "data_type": [
+                  "Health data"
+              ],
+              "data_url": "https://flowrepository.org/id/FR-FCM-Z34U"
+          }
+      ],
+      "title": "Immunomics in one health: understanding the human, animal, and environmental aspects of COVID-19",
+      "issue": "",
+      "volume": "15",
+      "publisher": "Frontiers Media SA",
+      "published": "2024-09-04",
+      "author": [
+          "Gao J.",
+          "Zhang C.",
+          "Wheelock Å. M.",
+          "Xin S.",
+          "Cai H."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1039/d4md00414k",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "",
+              "accession_number": "",
+              "description": "SUPPORTING INFORMATION",
+              "data_type": [
+                  "Protein data"
+              ],
+              "data_url": "https://www.rsc.org/suppdata/d4/md/d4md00414k/d4md00414k1.pdf"
+          }
+      ],
+      "title": "Asymmetric imidazole-4,5-dicarboxamide derivatives as SARS-CoV-2 main protease inhibitors: design, synthesis and biological evaluation",
+      "issue": "11",
+      "volume": "15",
+      "publisher": "Royal Society of Chemistry (RSC)",
+      "published": "2024-11-13",
+      "author": [
+          "Huynh P. N. H.",
+          "Khamplong P.",
+          "Phan M.",
+          "Nguyen T.",
+          "Vu P. N. L."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1128/aac.00909-24 ",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "European Nucleotide Archive",
+              "accession_number": "MT246667.1",
+              "description": "Severe acute respiratory syndrome coronavirus 2 strain FDAARGOS_983 isolate 2019-nCoV/USA-WA1/2020, complete genome.",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/ena/browser/view/MT246667"
+          },
+          {
+              "type": "data",
+              "repo_name": "Protein Data Bank",
+              "accession_number": "9eor",
+              "description": "SARS-CoV2 major protease in complex with a covalent inhibitor SLL12.",
+              "data_type": [
+                  "Protein data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/9EOR"
+          },
+          {
+              "type": "data",
+              "repo_name": "Protein Data Bank",
+              "accession_number": "9eo6",
+              "description": "SARS-CoV2 major protease in complex with a covalent inhibitor SLL11.",
+              "data_type": [
+                  "Protein data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/9EO6"
+          },
+          {
+              "type": "data",
+              "repo_name": "Protein Data Bank",
+              "accession_number": "9eox",
+              "description": "SARS-CoV2 major protease in covalent complex with a soluble inhibitor.",
+              "data_type": [
+                  "Protein data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/9EOX"
+          }
+      ],
+      "title": "Identification of novel and potent inhibitors of SARS-CoV-2 main protease from DNA-encoded chemical libraries",
+      "issue": "10",
+      "volume": "68",
+      "publisher": "American Society for Microbiology",
+      "published": "2024-10-08",
+      "author": [
+          "Akaberi D.",
+          "Pourghasemi Lati M.",
+          "Krambrich J.",
+          "Berger J.",
+          "Neilsen G."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1101/2024.08.06.606761",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Protein Data Bank",
+              "accession_number": "2G35",
+              "description": "",
+              "data_type": [
+                  "Protein data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2G35"
+          }
+      ],
+      "title": "Defining short linear motif binding determinants by phage-based multiplexed deep mutational scanning",
+      "issue": "",
+      "volume": "",
+      "publisher": "Cold Spring Harbor Laboratory",
+      "published": "2024-08-06",
+      "author": [
+          "Benz C.",
+          "Maasen L.",
+          "Simonetti L.",
+          "Mihalic F.",
+          "Lindqvist R."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1371/journal.ppat.1012499",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Protein Data Bank",
+              "accession_number": "8vlt",
+              "description": "Crystal structure of glycan-targeting antibody 2526 Fab bound to Mannose",
+              "data_type": [
+                  "Protein data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/8vlt"
+          }
+      ],
+      "title": "Isolation and characterization of IgG3 glycan-targeting antibodies with exceptional cross-reactivity for diverse viral families",
+      "issue": "9",
+      "volume": "20",
+      "publisher": "Public Library of Science (PLoS)",
+      "published": "2024-09-18",
+      "author": [
+          "Vukovich M. J.",
+          "Shiakolas A. R.",
+          "Lindenberger J.",
+          "Richardson R. A.",
+          "Bass L. E."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1177/09612033241273052",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Open Science Framework",
+              "accession_number": "",
+              "description": "Anti-SARS-CoV-2 mRNA vaccination among patients living with SLE in Sweden: coverage progression and clinical effectiveness.",
+              "data_type": [
+                  "Health data"
+              ],
+              "data_url": "https://osf.io/rscbz"
+          }
+      ],
+      "title": "Anti-SARS-CoV-2 mRNA vaccination among patients living with SLE in Sweden: Coverage and clinical effectiveness",
+      "issue": "11",
+      "volume": "33",
+      "publisher": "SAGE Publications",
+      "published": "2024-08-12",
+      "author": [
+          "Mageau A.",
+          "Simard J. F.",
+          "Svenungsson E.",
+          "Arkema E. V."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1186/s12916-024-03569-8",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "National Library of Medicine",
+              "accession_number": "",
+              "description": "Simple Cognitive Task Intervention After Trauma During COVID-19 In Hospital Staff EKUT-P RCT",
+              "data_type": [
+                  "Social science and humanities data"
+              ],
+              "data_url": "https://clinicaltrials.gov/study/NCT04460014"
+          },
+          {
+              "type": "data",
+              "repo_name": "National Library of Medicine",
+              "accession_number": "",
+              "description": "A Brief GAmeplay Intervention for NHS ICU Staff Affected by COVID-19 Trauma (GAINS Study) (GAINS)",
+              "data_type": [
+                  "Social science and humanities data"
+              ],
+              "data_url": "https://clinicaltrials.gov/study/NCT04992390"
+          }
+      ],
+      "title": "A guided single session intervention to reduce intrusive memories of work-related trauma: a randomised controlled trial with healthcare workers in the COVID-19 pandemic",
+      "issue": "1",
+      "volume": "22",
+      "publisher": "Springer Science and Business Media LLC",
+      "published": "2024-09-19",
+      "author": [
+          "Kanstrup M.",
+          "Singh L.",
+          "Leehr E. J.",
+          "Göransson K. E.",
+          "Pihlgren S. A."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1038/s44271-023-00046-5",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Open Science Framework",
+              "accession_number": "",
+              "description": "Contrasting the Effects of Pro-social Motivation versus Fear of Covid-19 as a Function of Governmental Trust on Practicing Covid-19 Containment Behaviors Across Countries",
+              "data_type": [
+                  "Social science and humanities data"
+              ],
+              "data_url": "https://osf.io/kws9x/"
+          },
+          {
+              "type": "code",
+              "repo_name": "Open Science Framework",
+              "accession_number": "",
+              "description": "Contrasting the Effects of Pro-social Motivation versus Fear of Covid-19 as a Function of Governmental Trust on Practicing Covid-19 Containment Behaviors Across Countries",
+              "data_type": [
+                  "Social science and humanities data"
+              ],
+              "data_url": "https://osf.io/kws9x/files/osfstorage"
+          }
+      ],
+      "title": "Trust in government moderates the association between fear of COVID-19 as well as empathic concern and preventive behaviour",
+      "issue": "1",
+      "volume": "1",
+      "publisher": "Springer Science and Business Media LLC",
+      "published": "2023-12-15",
+      "author": [
+          "Karakulak A.",
+          "Tepe B.",
+          "Dimitrova R.",
+          "Abdelrahman M.",
+          "Akaliyski P."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1038/s41597-024-03627-z",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "figshare",
+              "accession_number": "",
+              "description": "COVID-19 Taiwan data, including individual course of disease",
+              "data_type": [
+                  "Other data"
+              ],
+              "data_url": "https://figshare.com/articles/dataset/COVID-19_Taiwan_data_including_individual_course_of_disease/24623964/2"
+          },
+          {
+              "type": "code",
+              "repo_name": "Github",
+              "accession_number": "",
+              "description": "Companion code to Wu and Nordling 2023 for visualisation of Taiwanese COVID-19 data",
+              "data_type": [
+                  "Other data"
+              ],
+              "data_url": "https://github.com/nordlinglab/COVID19TW-Viz"
+          }
+      ],
+      "title": "A structured course of disease dataset with contact tracing information in Taiwan for COVID-19 modelling",
+      "issue": "1",
+      "volume": "11",
+      "publisher": "Springer Science and Business Media LLC",
+      "published": "2024-07-24",
+      "author": [
+          "Wu Y.",
+          "Nordling T. E. M."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1371/journal.pgph.0003386",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "figshare",
+              "accession_number": "",
+              "description": "COVID-19 knowledge, and associations with good knowledge of prevention, symptoms ",
+              "data_type": [
+                  "Other data"
+              ],
+              "data_url": "https://figshare.com/collections/_/7102072"
+          }
+      ],
+      "title": "COVID-19 knowledge and practices in Jigawa State, Nigeria: A cross-sectional survey conducted during the second wave",
+      "issue": "7",
+      "volume": "4",
+      "publisher": "Public Library of Science (PLoS)",
+      "published": "2024-07-01",
+      "author": [
+          "Salako J.",
+          "Bakare D.",
+          "Sogbesan A.",
+          "Colbourn T.",
+          "Shittu F."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1038/s42003-024-06508-8",
+      "available_items": [
+          {
+              "type": "code",
+              "repo_name": "Github",
+              "accession_number": "",
+              "description": "Epitope mapping of analytes binding RBD",
+              "data_type": [
+                  "Protien"
+              ],
+              "data_url": "https://github.com/mkarla/epitope_mapping"
+          },
+          {
+              "type": "data",
+              "repo_name": "figshare",
+              "accession_number": "",
+              "description": "Flow cytometry data for: Mammalian cell display with automated oligo design and library assembly allows for rapid residue level conformational epitope mapping",
+              "data_type": [
+                  "Protien"
+              ],
+              "data_url": "https://figshare.com/articles/dataset/Flow_cytometry_data_for_Mammalian_cell_display_with_automated_oligo_design_and_library_assembly_allows_for_rapid_residue_level_conformational_epitope_mapping/23057480?file=40796915"
+          },
+          {
+              "type": "data",
+              "repo_name": "Protien Data Bank",
+              "accession_number": "6yla",
+              "description": "Crystal structure of the SARS-CoV-2 receptor binding domain in complex with CR3022 Fab",
+              "data_type": [
+                  "Protien"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6YLA"
+          },
+          {
+              "type": "data",
+              "repo_name": "Protien Data Bank",
+              "accession_number": "6vw1",
+              "description": "Structure of SARS-CoV-2 chimeric receptor-binding domain complexed with its receptor human ACE2",
+              "data_type": [
+                  "Protien"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6VW1"
+          },
+          {
+              "type": "data",
+              "repo_name": "Protien Data Bank",
+              "accession_number": "2ajf",
+              "description": "Structure of SARS coronavirus spike receptor-binding domain complexed with its receptor",
+              "data_type": [
+                  "Protien"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2AJF"
+          },
+          {
+              "type": "data",
+              "repo_name": "European Nucleotide Archive",
+              "accession_number": "MK988448.1",
+              "description": "Nucleotide Sequences",
+              "data_type": [
+                  "Protien"
+              ],
+              "data_url": "https://www.ebi.ac.uk/ena/browser/view/MK988448.1?show=xrefs"
+          }
+      ],
+      "title": "Mammalian cell display with automated oligo design and library assembly allows for rapid residue level conformational epitope mapping",
+      "issue": "1",
+      "volume": "7",
+      "publisher": "Springer Science and Business Media LLC",
+      "published": "2024-07-03",
+      "author": [
+          "Thalén N. B.",
+          "Karlander M.",
+          "Lundqvist M.",
+          "Persson H.",
+          "Hofström C."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1038/s41586-024-07636-1",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Protien Data Bank",
+              "accession_number": "7mmo",
+              "description": "LY-CoV1404 neutralizing antibody against SARS-CoV-2",
+              "data_type": [
+                  "Protien"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7MMO"
+          },
+          {
+              "type": "data",
+              "repo_name": "Protien Data Bank",
+              "accession_number": "8iot",
+              "description": "Structure of the SARS-CoV-2 XBB.1 spike glycoprotein (closed-2 state)",
+              "data_type": [
+                  "Protien"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/8IOT"
+          },
+          {
+              "type": "data",
+              "repo_name": "Protien Data Bank",
+              "accession_number": "6xdg",
+              "description": "Complex of SARS-CoV-2 receptor binding domain with the Fab fragments of two neutralizing antibodies",
+              "data_type": [
+                  "Protien"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6XDG"
+          },
+          {
+              "type": "data",
+              "repo_name": "Protien Data Bank",
+              "accession_number": "8iou",
+              "description": "Structure of SARS-CoV-2 XBB.1 spike glycoprotein in complex with ACE2 (1-up state)",
+              "data_type": [
+                  "Protien"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/8IOU"
+          },
+          {
+              "type": "data",
+              "repo_name": "Supplementary Data",
+              "accession_number": "",
+              "description": "Deep mutational scanning of SARS-CoV-2 XBB.1.5 spike using a barcoded lentiviral platform",
+              "data_type": [
+                  "Protien"
+              ],
+              "data_url": "https://dms-vep.org/SARS-CoV-2_XBB.1.5_spike_DMS/"
+          },
+          {
+              "type": "code",
+              "repo_name": "Github",
+              "accession_number": "",
+              "description": "Mass photometry analysis of Spike:ACE2 binding",
+              "data_type": [
+                  "Protien"
+              ],
+              "data_url": "https://github.com/JackTaylorBrown/massphotometry"
+          },
+          {
+              "type": "code",
+              "repo_name": "Github",
+              "accession_number": "",
+              "description": "SARS-CoV-2_XBB.1.5_RBD_DMS",
+              "data_type": [
+                  "Protien"
+              ],
+              "data_url": "https://github.com/dms-vep/SARS-CoV-2_XBB.1.5_RBD_DMS"
+          },
+          {
+              "type": "code",
+              "repo_name": "Github",
+              "accession_number": "",
+              "description": "Pipeline for analyzing deep mutational scanning (DMS) of viral entry proteins (VEPs)",
+              "data_type": [
+                  "Protien"
+              ],
+              "data_url": "https://github.com/dms-vep/dms-vep-pipeline-3"
+          },
+          {
+              "type": "code",
+              "repo_name": "Github",
+              "accession_number": "",
+              "description": "SARS-CoV-2_Omicron_BA.2_spike_ACE2_binding",
+              "data_type": [
+                  "Protien"
+              ],
+              "data_url": "https://github.com/dms-vep/SARS-CoV-2_Omicron_BA.2_spike_ACE2_binding"
+          },
+          {
+              "type": "code",
+              "repo_name": "Github",
+              "accession_number": "",
+              "description": "SARS-CoV-2_XBB.1.5_spike_DMS",
+              "data_type": [
+                  "Protien"
+              ],
+              "data_url": "https://github.com/dms-vep/SARS-CoV-2_XBB.1.5_spike_DMS"
+          },
+          {
+              "type": "data",
+              "repo_name": "Zenodo",
+              "accession_number": "",
+              "description": "SARS-CoV-2_XBB.1.5_spike_DMS: SARS-CoV-2_XBB.1.5_spike_DMS-paper",
+              "data_type": [
+                  "Protien"
+              ],
+              "data_url": "https://zenodo.org/records/10981249"
+          }
+      ],
+      "title": "Spike deep mutational scanning helps predict success of SARS-CoV-2 clades",
+      "issue": "8021",
+      "volume": "631",
+      "publisher": "Springer Science and Business Media LLC",
+      "published": "2024-07-03",
+      "author": [
+          "Dadonaite B.",
+          "Brown J.",
+          "McMahon T. E.",
+          "Farrell A. G.",
+          "Figgins M. D."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1038/s41467-024-50286-0",
+      "available_items": [
+          {
+              "type": "code",
+              "repo_name": "GitLab",
+              "accession_number": "",
+              "description": "IgDiscover analyzes antibody repertoires and discovers new V genes from high-throughput sequencing reads.",
+              "data_type": [
+                  "Genomics"
+              ],
+              "data_url": "https://gitlab.com/gkhlab/igdiscover22"
+          },
+          {
+              "type": "code",
+              "repo_name": "Github",
+              "accession_number": "",
+              "description": "HMM code for chimera identification.",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://github.com/MurrellGroup/CHMMera"
+          },
+          {
+              "type": "data",
+              "repo_name": "Protien Data Bank",
+              "accession_number": "8p5m",
+              "description": "SARS-CoV-2 Spike RBD in complex with Mab-23 (Fab)",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/8p5m"
+          },
+          {
+              "type": "data",
+              "repo_name": "Protien Data Bank",
+              "accession_number": "8q5y",
+              "description": "cryoEM structure of SARS-CoV2 Spike trimer in complex with Fab23",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/8q5y"
+          },
+          {
+              "type": "data",
+              "repo_name": "Electron Microscopy Data Bank",
+              "accession_number": "EMD-17451",
+              "description": "SARS-CoV-2 Spike RBD in complex with Mab-23 (Fab)",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/emdb/EMD-17451"
+          },
+          {
+              "type": "data",
+              "repo_name": "Electron Microscopy Data Bank",
+              "accession_number": "EMD-18180",
+              "description": "cryoEM structure of SARS-CoV2 Spike trimer in complex with Fab23",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/emdb/EMD-18180"
+          }
+      ],
+      "title": "Multi-compartmental diversification of neutralizing antibody lineages dissected in SARS-CoV-2 spike-immunized macaques",
+      "issue": "1",
+      "volume": "15",
+      "publisher": "Springer Science and Business Media LLC",
+      "published": "2024-07-27",
+      "author": [
+          "Mandolesi M.",
+          "Das H.",
+          "de Vries L.",
+          "Yang Y.",
+          "Kim C."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1093/eurpub/ckad186",
+      "available_items": [
+          {
+              "type": "code",
+              "repo_name": "Zenodo",
+              "accession_number": "",
+              "description": "PHIRI - WP6 - Use Case C scripts for local analyses (R Markdown)",
+              "data_type": [
+                  "Health"
+              ],
+              "data_url": "https://zenodo.org/records/10013399"
+          },
+          {
+              "type": "data",
+              "repo_name": "Zenodo",
+              "accession_number": "",
+              "description": "PHIRI - WP6 - Use Case C Common Data Model & Study Protocol",
+              "data_type": [
+                  "Health"
+              ],
+              "data_url": "https://zenodo.org/records/7639001"
+          }
+      ],
+      "title": "Socioeconomic disparities in changes to preterm birth and stillbirth rates during the first year of the COVID-19 pandemic: a study of 21 European countries",
+      "issue": "Supplement_1",
+      "volume": "34",
+      "publisher": "Oxford University Press (OUP)",
+      "published": "2024-07-01",
+      "author": [
+          "Zeitlin J.",
+          "Philibert M.",
+          "Barros H.",
+          "Broeders L.",
+          "Cap J."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1186/s13756-024-01424-2",
+      "available_items": [
+          {
+              "type": "code",
+              "repo_name": "Github",
+              "accession_number": "",
+              "description": "The code used for the extraction of digital data  from the ICU information system accessed by the automated surveillance system",
+              "data_type": [
+                  "Health"
+              ],
+              "data_url": "https://github.com/johanssonresearch/Automated-surveillance-of-antimicrobial-consumption-in-intensive-care-northern-Sweden"
+          }
+      ],
+      "title": "Automated surveillance of antimicrobial consumption in intensive care, northern Sweden: an observational case study",
+      "issue": "1",
+      "volume": "13",
+      "publisher": "Springer Science and Business Media LLC",
+      "published": "2024-06-18",
+      "author": [
+          "Winroth A.",
+          "Andersson M.",
+          "Fjällström P.",
+          "Johansson A. F.",
+          "Lind A."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1038/s41598-024-68678-z",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Protien Data Bank",
+              "accession_number": "5u6b",
+              "description": "Structure of the Axl kinase domain in complex with a macrocyclic inhibitor",
+              "data_type": [
+                  "Protien"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5U6B"
+          },
+          {
+              "type": "data",
+              "repo_name": "Protien Data Bank",
+              "accession_number": "6m0j",
+              "description": "Crystal structure of SARS-CoV-2 spike receptor-binding domain bound with ACE2",
+              "data_type": [
+                  "Protien"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6M0J"
+          },
+          {
+              "type": "data",
+              "repo_name": "Protien Data Bank",
+              "accession_number": "4u0q",
+              "description": "Plasmodium falciparum reticulocyte-binding protein homologue 5 (PfRH5) bound to basigin",
+              "data_type": [
+                  "Protien"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4U0Q"
+          },
+          {
+              "type": "data",
+              "repo_name": "Protien Data Bank",
+              "accession_number": "1xar",
+              "description": "Crystal Structure of a fragment of DC-SIGNR (containing the carbohydrate recognition domain and two repeats of the neck).",
+              "data_type": [
+                  "Protien"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1XAR"
+          }
+      ],
+      "title": "Emergence of SARS-CoV-2 omicron variant JN.1 in Tamil Nadu, India - Clinical characteristics and novel mutations",
+      "issue": "1",
+      "volume": "14",
+      "publisher": "Springer Science and Business Media LLC",
+      "published": "2024-07-30",
+      "author": [
+          "Selvavinayagam S. T.",
+          "Sankar S.",
+          "Yong Y. K.",
+          "Murugesan A.",
+          "Suvaithenamudhan S."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1084/jem.20231725 ",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "UniProt",
+              "accession_number": "Q9UK59",
+              "description": "Lariat debranching enzyme",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://www.uniprot.org/uniprotkb/Q9UK59/entry"
+          },
+          {
+              "type": "data",
+              "repo_name": "European Nucleotide Archive",
+              "accession_number": "OM345241.1",
+              "description": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NY-RU-NY1/2020",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/ena/browser/view/OM345241"
+          }
+      ],
+      "title": "SARS-CoV-2 brainstem encephalitis in human inherited DBR1 deficiency",
+      "issue": "9",
+      "volume": "221",
+      "publisher": "Rockefeller University Press",
+      "published": "2024-07-18",
+      "author": [
+          "Chan Y.",
+          "Lundberg V.",
+          "Le Pen J.",
+          "Yuan J.",
+          "Lee D."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1371/journal.pone.0306290",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Open Science Framework",
+              "accession_number": "",
+              "description": "Prevalence of olfactory dysfunction after COVID-19 /Raw Data",
+              "data_type": [
+                  "Health"
+              ],
+              "data_url": "https://osf.io/26jq8/?view_only=53d8bb21c06c48d2bee231f75797789c"
+          },
+          {
+              "type": "code",
+              "repo_name": "Open Science Framework",
+              "accession_number": "",
+              "description": "Prevalence of olfactory dysfunction after COVID-19 /Analyses scripts",
+              "data_type": [
+                  "Health"
+              ],
+              "data_url": "https://osf.io/xv7f9/?view_only=53d8bb21c06c48d2bee231f75797789c"
+          }
+      ],
+      "title": "High prevalence of long-term olfactory disorders in healthcare workers after COVID-19: A case-control study",
+      "issue": "7",
+      "volume": "19",
+      "publisher": "Public Library of Science (PLoS)",
+      "published": "2024-07-01",
+      "author": [
+          "Frasnelli J.",
+          "Tognetti A.",
+          "Winter A. L.",
+          "Thunell E.",
+          "Olsson M. J."
+      ]
+  },
     {
       "doi": "https://doi.org/10.1038/s41597-024-03627-z",
       "available_items": [

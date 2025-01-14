@@ -69,7 +69,7 @@
 
     {{ $datatypes_to_display := slice }}
     {{ $path := strings.TrimPrefix "/sv" (strings.TrimRight "/" (string .Page.RelPermalink)) }}
-    {{ with .Sites.First.GetPage $path }} {{ $datatypes_to_display = .Params.datatypes_to_display }} {{ end }}
+    {{ with .Sites.Default.GetPage $path }} {{ $datatypes_to_display = .Params.datatypes_to_display }} {{ end }}
 
     {{ range .Site.Menus.homepage_available_data }}
     <div class="row mt-4 mb-2 pt-2">
