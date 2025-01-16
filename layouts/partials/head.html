@@ -32,9 +32,6 @@
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
 
-  <!-- Fuse js for search -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/7.0.0/fuse.min.js"></script>
-  <script src="/js/fuse-search.js"></script>
   {{ if or (eq .Section "data_types") (eq .Section "research_projects") (eq .Section "funding") (eq .Section "publications") (eq .Section "dashboards") (.Params.datatables) (eq .Section "datasets") }}
   <!-- Data tables CSS -->
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">

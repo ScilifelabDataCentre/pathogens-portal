@@ -786,55 +786,15 @@ iframe#matoOpOut {
     height: 250px;
   }
 }
-/* Search Input */
-#search-input {
-  padding: 10px;
-  font-size: 16px;
-  color: rgb(85, 88, 90); /* Dark Gray */
-  border-radius: 0;
-  outline: none;
-}
-
-#search-input:focus {
-  border-color: rgb(41, 89, 134); /* Dark Blue */
-  box-shadow: 0 0 5px rgba(41, 89, 134, 0.4);
-}
-
-/* Search Results Container */
-#search-results-container {
-  background-color: rgb(216, 216, 216); /* Accent Gray */
-  border-radius: 5px;
-  border: 1px solid rgb(216, 216, 216);
-  min-height: 200px;
-  max-height: 400px;
-  overflow-y: auto;
-}
-
-/* Search Results List */
+/* Search */
+/* search results area */
 #search-results {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  font-size: 1.175em;
+  background-color: rgba(229, 229, 229, 0.5);
 }
 
-#search-results .list-group-item {
-  border-bottom: 1px solid rgb(216, 216, 216); /* Accent Gray */
-  color: rgb(85, 88, 90); /* Dark Gray */
-  padding: 10px;
-}
-
-#search-results .list-group-item:hover {
-  background-color: rgb(41, 89, 134); /* Dark Blue */
-  color: white;
-  cursor: pointer;
-}
-
-#search-results .list-group-item a {
+#search-results a:hover {
+  font-size: 1.01em;
+  transition: 0.1s;
   text-decoration: none;
-  color: inherit;
 }
-
-#search-results .list-group-item a:hover {
-  color: white;
-}
-
