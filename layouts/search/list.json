@@ -1,0 +1,15 @@
+{{- $.Scratch.Set "content" slice -}}
+{{- range .Site.Pages -}}
+  {{- if not (hasPrefix .RelPermalink "/search/") -}}
+    {{- $tags := .Params.tags | default slice -}}
+    {{- $summary := .Params.summary | default "" -}}
+    {{- $.Scratch.Add "content"
+      (dict
+        "title" .Title 
+        "summary" $summary 
+        "permalink" .Permalink 
+        "tags" $tags
+      ) -}}
+  {{- end -}}
+{{- end -}}
+{{- $.Scratch.Get "content" | jsonify -}}

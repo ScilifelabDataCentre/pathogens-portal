@@ -101,14 +101,3 @@ related:
       threshold: 80
       toLower: false
 
-outputFormats:
-  JSON:
-    mediaType: "application/json"
-    baseName: "search-index" # This ensures the output file is named search-index.json
-    isPlainText: true
-
-outputs:
-  home:
-    - HTML
-    - JSON
-
