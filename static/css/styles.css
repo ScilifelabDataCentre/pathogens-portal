@@ -798,3 +798,7 @@ iframe#matoOpOut {
   transition: 0.1s;
   text-decoration: none;
 }
+
+#search-results mark {
+  padding: 0;
+}
