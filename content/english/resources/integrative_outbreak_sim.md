@@ -11,6 +11,7 @@ for_background_table:
   pi: René Kaden
   pi_affiliation: Uppsala University
   lab: Uppsala University Hospital
+plotly: true
 ---
 
 This collaborative project, including 6 PLP partners and the National Veterinary Institute (SVA) (see the [full list of participants](#list-of-participants) below), is designed to simulate an outbreak scenario by dispatching clinical samples that are spiked with unusual microorganisms to the contributing clinical microbiology laboratories. These samples are delivered in a manner that facilitates enrichment and mimick authentic patient and wastewater samples. The scenarios may encompass complex, potentially zoonotic outbreaks, thus embracing the One Health concept by engaging partners from both human and animal health.
@@ -36,3 +37,13 @@ In total, there are 10 participants in 11 institutes:
 - National Veterinary Institute (SVA)
 - Swedish Pathogens Portal
 - The Swedish University of Agricultural Sciences (SLU)
+
+##### Outcomes
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive" style="min-width: 800px">{{< plotly json="https://blobserver.dc.scilifelab.se/blob/PLP-TEST-labs-analysis.json" height="550px" >}}</div>
+</div>
+
+**Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/PLP/PLP-TEST-labs-analysis.py).
