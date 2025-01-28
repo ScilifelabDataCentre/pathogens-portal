@@ -19,7 +19,7 @@ Please note that each laboratory processes and analyses their wastewater samples
 
 - [**Influenza quantification**](/dashboards/influenza_quantification/): Data, visualisations, and information related to the quantification of Influenza viruses in wastewater in different areas of Sweden. These data are collected, analysed, and shared by the SEEC-SLU.
 
-- [**RSV quantification**](/dashboards/wastewater_rsv/): Data, visualisations, and information related to the quantification of Respiratory Syncytial Virus (RSV) in wastewater in different areas of Sweden. These data are collected, analysed, and shared by the SEEC-SLU.
+- [**RSV quantification**](/dashboards/rsv_quantification/): Data, visualisations, and information related to the quantification of Respiratory Syncytial Virus (RSV) in wastewater in different areas of Sweden. These data are collected, analysed, and shared by the SEEC-SLU.
 
 ## Availability of code
 

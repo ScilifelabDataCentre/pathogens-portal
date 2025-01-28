@@ -6,7 +6,7 @@ resource_info:
   name: "EnBiFlu, testing the efficiency of multifaceted environmental assessment of avian influenza threats and outbreaks"
   pi: Anna J. Székely
   host_organisation: "Swedish University of Agricultural Sciences, SLU."
-  data_etc: "[Dashboard: The amount of SARS-CoV-2 virus in wastewater across Sweden](https://www.pathogens.se/dashboards/wastewater/)"
+  data_etc: "[Dashboard: SARS-CoV-2 Quantification](/dashboards/covid_quantification/)"
   publications_etc:
   webpage:
   contact: "Anna J. Székely<br>Researcher<br>Email: [anna.szekely@slu.se](mailto:anna.szekely@slu.se)"

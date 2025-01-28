@@ -21,7 +21,7 @@ Notera att det förekommer mindre skillnader mellan detektionsmetoderna som grup
 
 - [**Influenza quantification**](/dashboards/influenza_quantification/): Data, visualiseringar och information kopplad till kvantifiering av influensavirus i avloppsvatten från olika delar av Sverige. Dessa data samlas in, analyseras och delas av SEEC-noden vid Sveriges lantbruksuniversitet (SLU).
 
-- [**RSV quantification**](/dashboards/wastewater_rsv/): Data, visualiseringar och information relaterad till kvantifiering av respiratoriskt syncytialvirus (RSV) i avloppsvatten i olika delar av Sverige. Dessa data samlas in, analyseras och delas av SEEC-SLU.
+- [**RSV quantification**](/dashboards/rsv_quantification/): Data, visualiseringar och information relaterad till kvantifiering av respiratoriskt syncytialvirus (RSV) i avloppsvatten i olika delar av Sverige. Dessa data samlas in, analyseras och delas av SEEC-SLU.
 
 ## Tillgänglighet av källkod
 
