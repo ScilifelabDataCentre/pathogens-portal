@@ -260,11 +260,13 @@
 
         // Find the active title for the 'portal' target
         const title = data.banner_titles.find(title => title.target === 'pathogens-portal' && title.active);
-        if (title && title[lang]) {
+        if (title) {
+          if (title[lang]) {
             const titleElement = document.querySelector('h2#home-banner');
             titleElement.textContent = title[lang];
-        } else {
+          } else {
             console.warn('No title found for the language.');
+          }
         }
       } catch (error) {
         console.error('An error occurred while updating banner titles:', error);
