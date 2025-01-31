@@ -27,7 +27,8 @@
   <!-- Bootstrap icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <!-- Pathogens Portal CSS -->
-  <link rel="stylesheet" href="/css/styles.css">
+  {{ $portal_css := resources.Get "css/styles.css" | minify | fingerprint "md5" }}
+  <link rel="stylesheet" href="{{ $portal_css.RelPermalink }}">
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
@@ -121,9 +122,11 @@
     });
   </script>
   {{ end }}
+
   <!-- Including notices.js to dynamically display notices based on the notices.json available on blobserver-->
-<!--  This script fetches notices from blobserver and displays them on the website based on certain conditions.-->
-  <script src="/js/notices.js" defer></script>
+  <!--  This script fetches notices from blobserver and displays them on the website based on certain conditions.-->
+  {{ $notice_js := resources.Get "js/notices.js" | minify | fingerprint "md5" }}
+  <script src="{{ $notice_js.RelPermalink }}" defer></script>
 
   {{ if .Params.recaptcha_two }}
   <!-- reCAPTCHA for Omicron VoC page (because multiple on a single page) -->
