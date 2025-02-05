@@ -53,8 +53,8 @@ In total, there are 10 participants in 11 institutes:
 The labs recorded their procedures chronologically in a pre-prepared log template.
 The granularity of data which labs could share was limited by data governance regulation.
 All the labs received different samples and their analysis methods remained unique to address the sample.
-During the first phase of the outbreak simulation the labs we given unidentified sample for pathogen identification, the analysis time varied from 6 days to 26 days with an average of 14 days.
-The second phase included testing a larger sample size of unidentified sample to deduce and group them based on results, the analysis time was  between 12 days to 26 days with an average of 12 days. 
+During the first phase of the outbreak simulation the labs we were given an unidentified sample for pathogen identification, the analysis time varied from 6 days to 26 days with an average of 14 days.
+The second phase included testing a larger sample size of unidentified sample to deduce and group them based on results, the analysis time was between 12 days to 26 days with an average of 12 days. 
 
 The different analysis methods used during the course of pathogen identification were reported as:
 
