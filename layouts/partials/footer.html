@@ -68,16 +68,58 @@
   </div>
   
   <!-- The hugo env value is passed via github action, during image building -->
+  <!-- This will have version for production instance-->
   {{ $env_info := split hugo.Environment "-" }}
   {{ $git_sha := index $env_info 1 }}
   {{ $code_version := cond (strings.HasPrefix $git_sha "v") $git_sha (substr $git_sha 0 7) }}
-  <div class="d-flex justify-content-center small mt-2">
-    <a target="_blank"
-       href="https://github.com/ScilifelabDataCentre/pathogens-portal{{ with $code_version }}/tree/{{ $code_version }}{{ end }}">
-      {{ if eq $.Site.Language.LanguageName "Svenska" }}Källkod finns tillgänglig på GitHub{{ else }}Website code is available on Github{{ end }} 
-    </a>
-      {{ with $code_version }}<span class="ps-1 text-muted">({{ $code_version }})</span>{{ end }}
+
+  <!-- License and project info -->
+  <div class="row mt-2">
+    <div class="col-md small px-5 px-md-2 pt-1">
+      {{ if eq $.Site.Language.LanguageName "English" }}
+        <p class="mb-2">
+          This project is supported by the National Institute Of Allergy And Infectious Diseases (NIAID) of the National Institutes of Health (NIH) 
+          under Award Number U24AI183840. The content is solely the responsibility of the authors and does not necessarily represent the official 
+          views of the National Institutes of Health.
+        </p>
+        <p class="mb-1">
+          The website content is licensed under the <a target="_blank" rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+          CC-BY 4.0 International License <i class="bi bi-cc-circle" style="vertical-align:text-top;"></i></a>
+        </p>
+        <p>
+          The website code is licensed under the 
+          <a target="_blank" rel="license" href="https://github.com/ScilifelabDataCentre/pathogens-portal/blob/{{ with $code_version }}{{ . }}{{ else }}develop{{ end }}/LICENSE">
+              MIT license
+          </a> 
+          and it is available on 
+          <a target="_blank" href="https://github.com/ScilifelabDataCentre/pathogens-portal{{ with $code_version }}/tree/{{ $code_version }}{{ end }}">
+              Github {{ with $code_version }}<span class="ps-1 text-muted">({{ $code_version }})</span>{{ end }}
+          </a>
+        </p>
+      {{ else }}
+        <p class="mb-2">
+          Detta projekt stöds av "National Institute Of Allergy And Infectious Diseases (NIAID) of the National Institutes of Health (NIH)" under 
+          tilldelningsnummer U24AI183840. Innehållet är enbart författarnas ansvar och representerar inte nödvändigtvis "National Institutes of Healths" 
+          officiella ståndpunkter.
+        </p>
+        <p class="mb-1">
+          Webbplatsens innehåll är licensierat under <a target="_blank" rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+          CC-BY 4.0 International License <i class="bi bi-cc-circle" style="vertical-align:text-top;"></i></a>
+        </p>
+        <p>
+          Webbplatsens kod är licensierad under 
+          <a target="_blank" rel="license" href="https://github.com/ScilifelabDataCentre/pathogens-portal/blob/{{ with $code_version }}{{ . }}{{ else }}develop{{ end }}/LICENSE">
+              MIT license
+          </a> 
+          och finns tillgänglig på  
+          <a target="_blank" href="https://github.com/ScilifelabDataCentre/pathogens-portal{{ with $code_version }}/tree/{{ $code_version }}{{ end }}">
+              Github {{ with $code_version }}<span class="ps-1 text-muted">({{ $code_version }})</span>{{ end }}
+          </a>
+        </p>
+      {{ end }}
+    </div>
   </div>
+
 </footer>
 
 <!-- Bootstrap Bundle with Popper -->

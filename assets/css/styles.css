@@ -254,8 +254,8 @@ a.nav-link:active {
   color: #6c757d;
 }
 
+/* Table of Content */
 .toc {
-  position: sticky;
   top: 0;
   z-index: 999;
 }
@@ -266,6 +266,12 @@ a.nav-link:active {
 }
 .toc ul ul {
   font-size: 0.9rem;
+}
+
+@media all and (min-width: 767px) {
+  .toc {
+    position: sticky;
+  }
 }
 
 .content ul:not([class]),
@@ -785,4 +791,20 @@ iframe#matoOpOut {
   iframe#matoOpOut {
     height: 250px;
   }
+}
+/* Search */
+/* search results area */
+#search-results {
+  font-size: 1.175em;
+  background-color: rgba(229, 229, 229, 0.5);
+}
+
+#search-results a:hover {
+  font-size: 1.01em;
+  transition: 0.1s;
+  text-decoration: none;
+}
+
+#search-results mark {
+  padding: 0;
 }
