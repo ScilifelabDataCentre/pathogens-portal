@@ -8,4 +8,4 @@ aliases:
     - /sv/data_types/all/data/
     - /data_types/all/data/
 ---
-## Published Data
+### Published Data

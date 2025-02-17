@@ -1,0 +1,118 @@
+{{ define "main" }}
+
+<!-- Tab definition -->
+<ul class="nav nav-tabs nav-justified">
+  <li class="nav-item">
+    <a class="nav-link" href="/datasets/all">Data available from research groups in Sweden</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="#"><b>Data query links to central pathogens portal</b></a>
+  </li>
+</ul>
+
+{{ .Content }}
+
+<!-- Outbreaks -->
+<h4 class="bg-light p-2 mb-3">Outbreaks</h4>
+<div class="cpp-query-links">
+   <a target="_blank" href="https://www.pathogensportal.org/priority-pathogens?db=priorityPathogens&query=(country:%22Sweden%22)">
+       View all <span id="outbreak-total">0</span> results in Outbreaks
+   </a>
+   <a target="_blank" href="https://www.pathogensportal.org/priority-pathogens?db=embl-pathogen&query=(country:%22Sweden%22)">
+       View all <span id="outbreak-sequences">0</span> results in Sequences
+   </a>
+   <a target="_blank" href="https://www.pathogensportal.org/priority-pathogens?db=sra-analysis&query=(country:%22Sweden%22)">
+       View all <span id="outbreak-analysis">0</span> results in Analysis 
+   </a>
+   <a target="_blank" href="https://www.pathogensportal.org/priority-pathogens?db=sra-experiment&query=(country:%22Sweden%22)">
+       View all <span id="outbreak-reads">0</span> results in Raw reads
+   </a>
+   <a target="_blank" href="https://www.pathogensportal.org/priority-pathogens?db=sra-sample&query=(country:%22Sweden%22)">
+       View all <span id="outbreak-samples">0</span> results in Samples
+   </a>
+   <a target="_blank" href="https://www.pathogensportal.org/priority-pathogens?db=genome_assembly&query=(country:%22Sweden%22)">
+       View all <span id="outbreak-assembly">0</span> results in Assembly
+   </a>
+</div>
+
+<!-- Pathogens sequences -->
+ <h4 class="bg-light p-2 mb-3">Pathogens Sequences</h4>
+ <div class="cpp-query-links">
+    <a target="_blank" href="https://www.pathogensportal.org/sequences?db=sequences&query=(country:%22Sweden%22)">
+        View all <span id="pathogens-total">0</span> results in Pathogens sequences
+    </a>
+    <a target="_blank" href="https://www.pathogensportal.org/sequences?db=embl-pathogen&query=(country:%22Sweden%22)">
+        View all <span id="pathogens-sequence">0</span> results in Sequences
+    </a>
+    <a target="_blank" href="https://www.pathogensportal.org/sequences?db=sra-analysis&query=(country:%22Sweden%22)">
+        View all <span id="pathogens-analysis">0</span> results in Analysis 
+    </a>
+    <a target="_blank" href="https://www.pathogensportal.org/sequences?db=sra-experiment&query=(country:%22Sweden%22)">
+        View all <span id="pathogens-reads">0</span> results in Raw reads
+    </a>
+    <a target="_blank" href="https://www.pathogensportal.org/sequences?db=genome_assembly&query=(country:%22Sweden%22)">
+        View all <span id="pathogens-assembly">0</span> results in Assembly
+    </a>
+ </div>
+
+ <!-- Samples -->
+ <h4 class="bg-light p-2 mb-3">Samples</h4>
+ <div class="cpp-query-links">
+    <a target="_blank" href="https://www.pathogensportal.org/samples?db=samples&query=(country:%22Sweden%22)">
+        View all <span id="samples-total">0</span> results in Samples
+    </a>
+ </div>
+
+<!-- JS code to populate number on the buttons -->
+<script>
+    // Span id and respective URLS
+    let outbreaksURLs = {
+            "outbreak-sequences": "embl-pathogen/?query=(tag%3A(%22pathogen%3Apriority%22))",
+            "outbreak-analysis": "sra-analysis/?query=(tag%3A(%22pathogen%3Apriority%22))",
+            "outbreak-reads": "sra-experiment/?&query=(tag%3A(%22pathogen%3Apriority%22))",
+            "outbreak-samples": "sra-sample/?query=(tag%3A(%22pathogen%3Apriority%22))",
+            "outbreak-assembly": "genome_assembly/?query=(tag%3A(%22pathogen%3Apriority%22))"
+        }
+    let pathogensSequenceURLs = {
+            "pathogens-sequence": "embl-pathogen/?&query=(id%3A%5B*%20TO%20*%5D)",
+            "pathogens-analysis": "sra-analysis/?query=((tag%3A%22pathogen%22)%20AND%20(tag%3A(*%3A*%20NOT%20%22covid19%22)))",
+            "pathogens-reads": "sra-experiment/?&query=(tag%3Apathogen%20AND%20NOT%20tag%3Acovid19)",
+            "pathogens-assembly": "genome_assembly/?query=((tag%3A%22pathogen%22)%20AND%20(tag%3A(*%3A*%20NOT%20%22covid19%22)))"
+        }
+    let samplesURLs = {
+        "samples-total": "sra-sample/?&query=((tag%3A%22pathogen%22)%20AND%20(tag%3A(*%3A*%20NOT%20%22covid19%22)))"
+    }
+
+    // Function to make the request and fetch the numbers
+    async function fetchStats(URLpath) {
+        let baseURL = "https://www.ebi.ac.uk/ebisearch/ws/rest/";
+        let query = "%20((country%3A%22sweden%22))&size=0&format=JSON&facetcount=0";
+        let response = await fetch(`${baseURL}${URLpath}${query}`);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        let data = await response.json();
+        return data.hitCount;
+    }
+
+    // Function to makes fetch request and updates the numbers
+    async function fetchAndUpdateStats(urlsObject, sumUpSpan=null) {
+        let promises = Object.values(urlsObject).map(urlPath => fetchStats(urlPath));
+        let results = await Promise.all(promises);
+        let spanIDs = Object.keys(urlsObject);
+        spanIDs.forEach((spanID) => document.getElementById(spanID).textContent = results[spanIDs.indexOf(spanID)].toLocaleString());
+        // Update sumup number if needed
+        if (sumUpSpan){
+            document.getElementById(sumUpSpan).textContent = `${results.reduce((acc, curr) => acc + curr, 0).toLocaleString()}`;
+        }
+    }
+
+    // Fetch update number when content is loaded
+    document.addEventListener("DOMContentLoaded", async () => {
+        await fetchAndUpdateStats(outbreaksURLs, "outbreak-total");
+        await fetchAndUpdateStats(pathogensSequenceURLs, "pathogens-total");
+        await fetchAndUpdateStats(samplesURLs);
+    });
+</script>
+
+{{ end }}

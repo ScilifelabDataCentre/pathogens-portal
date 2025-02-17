@@ -10,7 +10,7 @@ aliases:
     - /data_types/protein_data/
     - /data_types/protein_data/data/
 ---
-## Published Data
+### Published Data
 
 #### General useful data sources
 

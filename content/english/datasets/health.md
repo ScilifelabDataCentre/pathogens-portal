@@ -10,7 +10,7 @@ aliases:
     - /data_types/health_data/
     - /data_types/health_data/data/
 ---
-## Published Data
+### Published Data
 
 #### Data available from Swedish public agencies and large data produces
 

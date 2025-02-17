@@ -8,7 +8,7 @@ aliases:
     - /sv/data_types/serology/data/
     - /data_types/serology/data/
 ---
-## Published Data
+### Published Data
 
 #### Data available from Swedish public agencies and large data produces
 
