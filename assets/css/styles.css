@@ -808,3 +808,7 @@ iframe#matoOpOut {
 #search-results mark {
   padding: 0;
 }
+
+.text-muted-dark {
+  color: rgba(0, 0, 0, 0.65);
+}

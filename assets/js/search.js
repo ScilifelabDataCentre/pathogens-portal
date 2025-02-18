@@ -49,14 +49,14 @@ document.addEventListener('DOMContentLoaded', () => {
     "input",
     debounce(() => {
       if (!fuse) {
-        displayMessage("Initializing search...", "text-muted");
+        displayMessage("Initializing search...", "text-muted-dark");
         return;
       }
       const query = searchInput.value.trim();
       if (query) {
         handleSearch(query);
       } else {
-        displayMessage("Start typing to see results ...", "text-muted");
+        displayMessage("Start typing to see results ...", "text-muted-dark");
       }
     }, DEBOUNCE_DELAY)
   );
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
     searchResults.innerHTML = ""; // Clear previous results
 
     if (results.length === 0) {
-      displayMessage("No results found.", "text-muted");
+      displayMessage("No results found.", "text-muted-dark");
       return;
     }
 
@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
   /**
    * Displays a message in the search results container
    */
-  function displayMessage(message, className = "text-muted") {
+  function displayMessage(message, className = "text-muted-dark") {
     searchResults.innerHTML = `<p class="${className}">${message}</p>`;
   }
 });
