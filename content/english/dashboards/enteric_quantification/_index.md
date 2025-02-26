@@ -62,7 +62,7 @@ Please see [the section with summary information about the viruses](#basic-virus
 
 ###### **Download the data:**
 
-[Quantification of SARS-CoV-2 and enteric viruses in wastewater](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx). Results are available for SARS-CoV-2 and enteric viruses from week 20 of 2023. Updated weekly.
+[Quantification of SARS-CoV-2 and enteric viruses in wastewater](https://blobserver.dc.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx). Results are available for SARS-CoV-2 and enteric viruses from week 20 of 2023. Updated weekly.
 
 **Contact:** <helene.norder@gu.se>
 
