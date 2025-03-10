@@ -133,7 +133,7 @@
           <h5>Biobanks</h5>
             {{ if eq $.Site.Language.LanguageName "Svenska" }}
               <div class="my-2">
-                Det svenska Covid-19 provsamlingsregistret är ett verktyg för forskare som vill använda redan insamlade
+                Det svenska Covid-19 provsamlingsregistret är ett verktyg för forskare som vill använda redan insamlade
                 biobanksprover och data relaterade till covid-19 från svenska provsamlingar i sin forskning.
               </div>
               <a class="mb-1 dark-blue" href="/sv/biobanks/">Läs mer <i class="bi bi-arrow-right-square-fill"></i></a>
@@ -161,15 +161,14 @@
 
     {{ if ne $.Site.Language.LanguageName "Svenska" }}
     <!-- PPN links box -->
-    <div class="mb-4">
-      <h4 class="mt-0 mb-2">Pathogens portal Node (PPN)</h4>
+    <div class="mb-4 bg-ppn">
+      <h4 class="mt-0">Pathogens portal Node (PPN)</h4>
       <p>
-        PPNs will be a part of the <a target="_blank" href="https://pathogendatanetwork.org/">Pathogen Data Network</a> to enable
-        a world-wide ecosystem of linked data and tools to support research and public health response to infectious diseases and epidemics.
-        You can checkout the <a target="_blank" href="https://demo-pathogens-portal.serve.scilifelab.se/">demo site</a> or the
-        <a target="_blank" href="https://github.com/ScilifelabDataCentre/node-pathogens-portal">software repository</a> for more information.
+        PPNs will be integrated into the <a target="_blank" href="https://pathogendatanetwork.org/">Pathogen Data Network</a>, enabling
+        a global ecosystem of linked data and tools to support research and public health response to infectious diseases and epidemics.
+        Check out the <a target="_blank" href="https://github.com/ScilifelabDataCentre/node-pathogens-portal">GitHub repository</a> or
+        the <a target="_blank" href="https://demo-pathogens-portal.serve.scilifelab.se/">demo site</a> for more information.
       </p>
-
     </div>
     <!-- Topics box -->
     <div class="bg-home-topics mb-4">
@@ -311,7 +310,7 @@
 
       // Sort the arrays
       eventList = eventList.sort((a, b) => (a.banner_date > b.banner_date) ? 1 : (a.banner_date < b.banner_date) ? -1 : 0);
-      var eventsToShow = eventList.slice(0, 2)
+      var eventsToShow = eventList.slice(0, 3)
       if (eventsToShow.length > 0){
         var eventsHTML = `<div class="row mt-4">
                              <h4 class="mb-1">Events</h4>

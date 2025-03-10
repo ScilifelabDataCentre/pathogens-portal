@@ -659,6 +659,12 @@ div.cpp-query-links a:hover {
   text-decoration: none;
 }
 
+.bg-ppn {
+  background-color: #fff;
+  border: #295986 1px solid;
+  padding: 8px 16px 0px;
+}
+
 .bg-biobank {
   margin: 0px;
   padding: 16px 0px;
