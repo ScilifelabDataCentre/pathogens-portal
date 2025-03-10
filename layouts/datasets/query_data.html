@@ -3,35 +3,38 @@
 <!-- Tab definition -->
 <ul class="nav nav-tabs nav-justified">
   <li class="nav-item">
-    <a class="nav-link" href="/datasets/all">Data available from research groups in Sweden</a>
+    <a class="nav-link" href="/datasets/research_group_publications/all">Datasets from research groups in Sweden</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="#"><b>Data query links to central pathogens portal</b></a>
+    <a class="nav-link active" href="#"><b>Datasets in Central Pathogens Portal</b></a>
   </li>
 </ul>
 
-{{ .Content }}
+<div class="mb-4">
+    {{ .Content }}
+</div>
+
 
 <!-- Outbreaks -->
 <h4 class="bg-light p-2 mb-3">Outbreaks</h4>
 <div class="cpp-query-links">
    <a target="_blank" href="https://www.pathogensportal.org/priority-pathogens?db=priorityPathogens&query=(country:%22Sweden%22)">
-       View all <span id="outbreak-total">0</span> results in Outbreaks
+       View all <span id="outbreak-total"></span> results in Outbreaks
    </a>
    <a target="_blank" href="https://www.pathogensportal.org/priority-pathogens?db=embl-pathogen&query=(country:%22Sweden%22)">
-       View all <span id="outbreak-sequences">0</span> results in Sequences
+       View all <span id="outbreak-sequences"></span> results in Sequences
    </a>
    <a target="_blank" href="https://www.pathogensportal.org/priority-pathogens?db=sra-analysis&query=(country:%22Sweden%22)">
-       View all <span id="outbreak-analysis">0</span> results in Analysis 
+       View all <span id="outbreak-analysis"></span> results in Analysis 
    </a>
    <a target="_blank" href="https://www.pathogensportal.org/priority-pathogens?db=sra-experiment&query=(country:%22Sweden%22)">
-       View all <span id="outbreak-reads">0</span> results in Raw reads
+       View all <span id="outbreak-reads"></span> results in Raw reads
    </a>
    <a target="_blank" href="https://www.pathogensportal.org/priority-pathogens?db=sra-sample&query=(country:%22Sweden%22)">
-       View all <span id="outbreak-samples">0</span> results in Samples
+       View all <span id="outbreak-samples"></span> results in Samples
    </a>
    <a target="_blank" href="https://www.pathogensportal.org/priority-pathogens?db=genome_assembly&query=(country:%22Sweden%22)">
-       View all <span id="outbreak-assembly">0</span> results in Assembly
+       View all <span id="outbreak-assembly"></span> results in Assembly
    </a>
 </div>
 
@@ -39,19 +42,19 @@
  <h4 class="bg-light p-2 mb-3">Pathogens Sequences</h4>
  <div class="cpp-query-links">
     <a target="_blank" href="https://www.pathogensportal.org/sequences?db=sequences&query=(country:%22Sweden%22)">
-        View all <span id="pathogens-total">0</span> results in Pathogens sequences
+        View all <span id="pathogens-total"></span> results in Pathogens sequences
     </a>
     <a target="_blank" href="https://www.pathogensportal.org/sequences?db=embl-pathogen&query=(country:%22Sweden%22)">
-        View all <span id="pathogens-sequence">0</span> results in Sequences
+        View all <span id="pathogens-sequence"></span> results in Sequences
     </a>
     <a target="_blank" href="https://www.pathogensportal.org/sequences?db=sra-analysis&query=(country:%22Sweden%22)">
-        View all <span id="pathogens-analysis">0</span> results in Analysis 
+        View all <span id="pathogens-analysis"></span> results in Analysis 
     </a>
     <a target="_blank" href="https://www.pathogensportal.org/sequences?db=sra-experiment&query=(country:%22Sweden%22)">
-        View all <span id="pathogens-reads">0</span> results in Raw reads
+        View all <span id="pathogens-reads"></span> results in Raw reads
     </a>
     <a target="_blank" href="https://www.pathogensportal.org/sequences?db=genome_assembly&query=(country:%22Sweden%22)">
-        View all <span id="pathogens-assembly">0</span> results in Assembly
+        View all <span id="pathogens-assembly"></span> results in Assembly
     </a>
  </div>
 
@@ -59,7 +62,7 @@
  <h4 class="bg-light p-2 mb-3">Samples</h4>
  <div class="cpp-query-links">
     <a target="_blank" href="https://www.pathogensportal.org/samples?db=samples&query=(country:%22Sweden%22)">
-        View all <span id="samples-total">0</span> results in Samples
+        View all <span id="samples-total"></span> results in Samples
     </a>
  </div>
 

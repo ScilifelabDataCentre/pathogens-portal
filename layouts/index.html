@@ -160,6 +160,17 @@
     <hr class="d-lg-none">
 
     {{ if ne $.Site.Language.LanguageName "Svenska" }}
+    <!-- PPN links box -->
+    <div class="mb-4">
+      <h4 class="mt-0 mb-2">Pathogens portal Node (PPN)</h4>
+      <p>
+        PPNs will be a part of the <a target="_blank" href="https://pathogendatanetwork.org/">Pathogen Data Network</a> to enable
+        a world-wide ecosystem of linked data and tools to support research and public health response to infectious diseases and epidemics.
+        You can checkout the <a target="_blank" href="https://demo-pathogens-portal.serve.scilifelab.se/">demo site</a> or the
+        <a target="_blank" href="https://github.com/ScilifelabDataCentre/node-pathogens-portal">software repository</a> for more information.
+      </p>
+
+    </div>
     <!-- Topics box -->
     <div class="bg-home-topics mb-4">
       <h4 class="mt-0 mb-1">Pandemic preparedness topics</h4>
@@ -179,12 +190,12 @@
     <div class="row px-2">
       <div class="border p-3" id="news-items-container">
         {{ $updates := where .Site.RegularPages "Section" "updates" }}
-        {{ range $index, $el := first 3 $updates }}
+        {{ range $index, $el := first 2 $updates }}
         <div>
           <div class="small text-muted">{{ .Date.Format "2006-01-02" }}</div>
           <div><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
         </div>
-        {{ if ne $index 2}} <div class="px-4 py-1">
+        {{ if ne $index 1}} <div class="px-4 py-1">
           <hr class="my-2">
         </div> {{ end }}
         {{ end }}
@@ -300,7 +311,7 @@
 
       // Sort the arrays
       eventList = eventList.sort((a, b) => (a.banner_date > b.banner_date) ? 1 : (a.banner_date < b.banner_date) ? -1 : 0);
-      var eventsToShow = eventList.slice(0, 3)
+      var eventsToShow = eventList.slice(0, 2)
       if (eventsToShow.length > 0){
         var eventsHTML = `<div class="row mt-4">
                              <h4 class="mb-1">Events</h4>

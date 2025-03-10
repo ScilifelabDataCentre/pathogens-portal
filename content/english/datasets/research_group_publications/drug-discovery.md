@@ -8,4 +8,4 @@ aliases:
     - /sv/data_types/drug_discovery/data/
     - /data_types/drug_discovery/data/
 ---
-### Published Data
+### Publications with accessible data

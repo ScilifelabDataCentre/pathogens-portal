@@ -268,7 +268,7 @@
               "type": "data",
               "repo_name": "Protein Data Bank",
               "accession_number": "2G35",
-              "description": "",
+              "description": "NMR structure of talin-PTB in complex with PIPKI",
               "data_type": [
                   "Protein data"
               ],

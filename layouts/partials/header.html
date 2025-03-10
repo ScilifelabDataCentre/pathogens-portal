@@ -57,6 +57,13 @@
       {{ else if eq .Parent.Title "Editorials_authors" }}
       <li class="breadcrumb-item"><a href="/editorials/">Editorials</a></li>
       <li class="breadcrumb-item"><span style="color:#6c757d;">Authors</span></li>
+      {{ else if eq .Parent.Title "Available datasets" }}
+      <li class="breadcrumb-item"><a href="{{ .Parent.RelPermalink }}">Available datasets</a></li>
+        {{ if strings.Contains .RelPermalink "research_group_publications" }}
+        <li class="breadcrumb-item"><a href="/datasets/research_group_publications/all/">Publications with accessible data</a></li>
+        {{ else if strings.Contains .RelPermalink "central_portal_data" }}
+        <li class="breadcrumb-item"><a href="/datasets/central_portal_data/query_links/">Region based accessible data</a></li>
+        {{ end }}
       {{ else }}
       <li class="breadcrumb-item"><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></li>
       {{ end }}

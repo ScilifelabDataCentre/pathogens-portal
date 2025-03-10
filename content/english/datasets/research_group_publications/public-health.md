@@ -8,7 +8,7 @@ aliases:
     - /sv/data_types/public_health/data/
     - /data_types/public_health/data/
 ---
-### Published Data
+### Publications with accessible data
 
 #### General useful data sources
 

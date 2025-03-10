@@ -10,7 +10,7 @@ aliases:
     - /data_types/imaging_data/
     - /data_types/imaging_data/data/
 ---
-### Published Data
+### Publications with accessible data
 
 #### General useful data sources
 
