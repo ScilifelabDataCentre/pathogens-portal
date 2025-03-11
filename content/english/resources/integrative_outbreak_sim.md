@@ -14,7 +14,7 @@ for_background_table:
 plotly: true
 ---
 
-This collaborative project, including 6 PLP partners and the National Veterinary Institute (SVA) (see the [full list of participants](#list-of-participants) below), is designed to simulate an outbreak scenario by dispatching clinical samples that are spiked with unusual microorganisms to the contributing clinical microbiology laboratories. These samples are delivered in a manner that facilitates enrichment and mimick authentic patient and wastewater samples. The scenarios may encompass complex, potentially zoonotic outbreaks, thus embracing the One Health concept by engaging partners from both human and animal health.
+This collaborative project, including 6 PLP partners, the National Veterinary Institute (SVA), and the Swedish Defence Research Agency (FOI) (see the [full list of participants](#list-of-participants) below), is designed to simulate an outbreak scenario by dispatching clinical samples that are spiked with unusual microorganisms to the contributing clinical microbiology laboratories. These samples are delivered in a manner that facilitates enrichment and mimick authentic patient and wastewater samples. The scenarios may encompass complex, potentially zoonotic outbreaks, thus embracing the One Health concept by engaging partners from both human and animal health.
 
 All project phases will be meticulously documented, and progress updates on the outbreak scenario will be shared via the Swedish Pathogens Portal. This approach ensures real-time project monitoring and public accessibility to information.
 
@@ -24,7 +24,7 @@ The project serves to evaluate pandemic preparedness effectiveness and identify 
 
 ##### List of participants:
 
-In total, there are 10 participants in 11 institutes:
+In total, there are 11 participants in 12 institutes:
 
 - Akademiska Sjukhus Uppsala
 - Clinical Genomics Stockholm (SciLifeLab infrastructure unit)
@@ -35,8 +35,9 @@ In total, there are 10 participants in 11 institutes:
 - Linköping University Hospital
 - National Pandemic Centre (NPC)
 - National Veterinary Institute (SVA)
+- Swedish Defence Research Agency (FOI)
 - Swedish Pathogens Portal
-- The Swedish University of Agricultural Sciences (SLU)
+- Swedish University of Agricultural Sciences (SLU)
 
 ##### Outcomes
 
@@ -53,8 +54,8 @@ In total, there are 10 participants in 11 institutes:
 The labs recorded their procedures chronologically in a pre-prepared log template.
 The granularity of data which labs could share was limited by data governance regulation.
 All the labs received different samples and their analysis methods remained unique to address the sample.
-During the first phase of the outbreak simulation the labs we were given an unidentified sample for pathogen identification, the analysis time varied from 6 days to 26 days with an average of 14 days.
-The second phase included testing a larger sample size of unidentified sample to deduce and group them based on results, the analysis time was between 12 days to 26 days with an average of 12 days. 
+During the first phase of the outbreak simulation the labs were given an unidentified sample for pathogen identification, the analysis time varied from 6 days to 26 days with an average of 14 days.
+The second phase included testing a larger sample size of unidentified samples to deduce and group them based on results, the analysis time was between 12 days to 26 days with an average of 12 days. 
 
 The different analysis methods used during the course of pathogen identification were reported as:
 
@@ -66,7 +67,8 @@ The different analysis methods used during the course of pathogen identification
 - Risk Assessment
 - Technical and Medical Assessment
     
-The pathogens identified during the outbreak simulation was reported to be Christensenella Hongkongensis by Lab 2 and Catabacter Hongkongensis by Lab 3.
+The pathogens identified during the outbreak simulation were reported as *Christensenella hongkongensis* by Lab 2 and *Catabacter hongkongensis* by Lab 3.
+These names refer to the same species, as they have been recognised as synonyms due to taxonomic reclassification.
 
 ###### Lab activities visualisations: Phase 1
 
