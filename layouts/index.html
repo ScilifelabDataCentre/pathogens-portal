@@ -160,16 +160,6 @@
     <hr class="d-lg-none">
 
     {{ if ne $.Site.Language.LanguageName "Svenska" }}
-    <!-- PPN links box -->
-    <div class="mb-4 bg-ppn">
-      <h4 class="mt-0">Pathogens portal Node (PPN)</h4>
-      <p>
-        PPNs will be integrated into the <a target="_blank" href="https://pathogendatanetwork.org/">Pathogen Data Network</a>, enabling
-        a global ecosystem of linked data and tools to support research and public health response to infectious diseases and epidemics.
-        Check out the <a target="_blank" href="https://github.com/ScilifelabDataCentre/node-pathogens-portal">GitHub repository</a> or
-        the <a target="_blank" href="https://demo-pathogens-portal.serve.scilifelab.se/">demo site</a> for more information.
-      </p>
-    </div>
     <!-- Topics box -->
     <div class="bg-home-topics mb-4">
       <h4 class="mt-0 mb-1">Pandemic preparedness topics</h4>
@@ -219,9 +209,22 @@
       </div>
       {{ .Content }}
     {{ end }}
+    
+    {{ if eq $.Site.Language.LanguageName "English" }}
+    <!-- PPN links box -->
+    <div class="mt-4 bg-ppn">
+      <h4 class="mt-0">Pathogens Portal Node (PPN)</h4>
+      <p>
+        PPNs will be integrated into the <a target="_blank" href="https://pathogendatanetwork.org/">Pathogen Data Network</a>, enabling
+        a global ecosystem of linked data and tools to support research and public health response to infectious diseases and epidemics.
+        Check out the <a target="_blank" href="https://github.com/ScilifelabDataCentre/node-pathogens-portal">GitHub repository</a> or
+        the <a target="_blank" href="https://demo-pathogens-portal.serve.scilifelab.se/">demo site</a> for more information.
+      </p>
+    </div>
+    {{ end }}
 
     <!-- Share your data ad -->
-    <div class="row mt-4 pt-2 px-2">
+    <div class="row mt-3 pt-2 px-2">
       <div class="share-new-data py-2 px-3">
         <h4 class="my-1">{{ if eq $.Site.Language.LanguageName "Svenska" }}Dela nya data{{ else }}Share new data{{ end }}</h4>
         {{ if eq $.Site.Language.LanguageName "Svenska" }}Teamet som arbetar med portalen hjälper dig
