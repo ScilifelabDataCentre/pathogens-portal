@@ -133,7 +133,7 @@
           <h5>Biobanks</h5>
             {{ if eq $.Site.Language.LanguageName "Svenska" }}
               <div class="my-2">
-                Det svenska Covid-19 provsamlingsregistret är ett verktyg för forskare som vill använda redan insamlade
+                Det svenska Covid-19 provsamlingsregistret är ett verktyg för forskare som vill använda redan insamlade
                 biobanksprover och data relaterade till covid-19 från svenska provsamlingar i sin forskning.
               </div>
               <a class="mb-1 dark-blue" href="/sv/biobanks/">Läs mer <i class="bi bi-arrow-right-square-fill"></i></a>
@@ -179,12 +179,12 @@
     <div class="row px-2">
       <div class="border p-3" id="news-items-container">
         {{ $updates := where .Site.RegularPages "Section" "updates" }}
-        {{ range $index, $el := first 3 $updates }}
+        {{ range $index, $el := first 2 $updates }}
         <div>
           <div class="small text-muted">{{ .Date.Format "2006-01-02" }}</div>
           <div><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
         </div>
-        {{ if ne $index 2}} <div class="px-4 py-1">
+        {{ if ne $index 1}} <div class="px-4 py-1">
           <hr class="my-2">
         </div> {{ end }}
         {{ end }}
@@ -209,9 +209,22 @@
       </div>
       {{ .Content }}
     {{ end }}
+    
+    {{ if eq $.Site.Language.LanguageName "English" }}
+    <!-- PPN links box -->
+    <div class="mt-4 bg-ppn">
+      <h4 class="mt-0">Pathogens Portal Node (PPN)</h4>
+      <p>
+        PPNs will be integrated into the <a target="_blank" href="https://pathogendatanetwork.org/">Pathogen Data Network</a>, enabling
+        a global ecosystem of linked data and tools to support research and public health response to infectious diseases and epidemics.
+        Check out the <a target="_blank" href="https://github.com/ScilifelabDataCentre/node-pathogens-portal">GitHub repository</a> or
+        the <a target="_blank" href="https://demo-pathogens-portal.serve.scilifelab.se/">demo site</a> for more information.
+      </p>
+    </div>
+    {{ end }}
 
     <!-- Share your data ad -->
-    <div class="row mt-4 pt-2 px-2">
+    <div class="row mt-3 pt-2 px-2">
       <div class="share-new-data py-2 px-3">
         <h4 class="my-1">{{ if eq $.Site.Language.LanguageName "Svenska" }}Dela nya data{{ else }}Share new data{{ end }}</h4>
         {{ if eq $.Site.Language.LanguageName "Svenska" }}Teamet som arbetar med portalen hjälper dig

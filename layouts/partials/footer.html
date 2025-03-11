@@ -86,7 +86,7 @@
           The website content is licensed under the <a target="_blank" rel="license" href="https://creativecommons.org/licenses/by/4.0/">
           CC-BY 4.0 International License <i class="bi bi-cc-circle" style="vertical-align:text-top;"></i></a>
         </p>
-        <p>
+        <p class="mb-1">
           The website code is licensed under the 
           <a target="_blank" rel="license" href="https://github.com/ScilifelabDataCentre/pathogens-portal/blob/{{ with $code_version }}{{ . }}{{ else }}develop{{ end }}/LICENSE">
               MIT license
@@ -95,6 +95,10 @@
           <a target="_blank" href="https://github.com/ScilifelabDataCentre/pathogens-portal{{ with $code_version }}/tree/{{ $code_version }}{{ end }}">
               Github {{ with $code_version }}<span class="ps-1 text-muted">({{ $code_version }})</span>{{ end }}
           </a>
+        </p>
+        <p>
+          If you're interested in rapidly deploying a Pathogens Portal Node for your country or region, please check the reference software implementation 
+          <a target="_blank" href="https://github.com/ScilifelabDataCentre/node-pathogens-portal">here</a>.
         </p>
       {{ else }}
         <p class="mb-2">

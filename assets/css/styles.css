@@ -547,6 +547,24 @@ a.btn-white-black:hover {
   box-shadow: 0px 0px 5px #55585a;
 }
 
+div.cpp-query-links a {
+  padding: 5px 10px;
+  color: #3b6fb6;
+  font-weight: bold;
+  background-color: #FFF;
+  box-shadow: 5px 5px 1px 1px #193f90;
+  border: #3b6fb6 solid 5px;
+  margin: 0px 15px 15px 0px;
+  display: inline-block;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+div.cpp-query-links a:hover {
+  text-decoration: none;
+  transform: translate(4px, 4px);
+  box-shadow: 1px 1px 1px 1px #193f90;
+}
+
 /*
 * Our own backgrounds
 */
@@ -639,6 +657,12 @@ a.btn-white-black:hover {
 
 .bg-dataset-container a {
   text-decoration: none;
+}
+
+.bg-ppn {
+  background-color: #fff;
+  border: #295986 1px solid;
+  padding: 8px 16px 0px;
 }
 
 .bg-biobank {
