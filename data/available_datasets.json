@@ -1,7 +1,574 @@
 {
-  "last_updated": "2024-12-13",
+  "last_updated": "2025-02-20",
   "datasets": [
     {
+      "doi": "https://doi.org/10.1002/jeo2.70030",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Figshare",
+              "accession_number": "",
+              "description": "Dataset for: Trends in Knee Surgeries and Knee Arthroplasty in Sweden: A Decade of Insights",
+              "data_type": [
+                  "Health data"
+              ],
+              "data_url": "https://figshare.com/s/df5678ba3488b6fa67ea?file=42569770"
+          }
+      ],
+      "title": "The COVID‐19 pandemic caused gender‐specific declines in knee surgery rates in Sweden from 2020 to 2021",
+      "issue": "4",
+      "volume": "11",
+      "publisher": "Wiley",
+      "published": "2024-12-31",
+      "author": [
+          "Axenhus M.",
+          "Magnéli M."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1038/s41467-024-53356-5",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Figshare",
+              "accession_number": "",
+              "description": "Prevalent and persistent new-onset autoantibodies in mild to severe COVID-19",
+              "data_type": [
+                  "Health data"
+              ],
+              "data_url": "https://figshare.scilifelab.se/articles/dataset/Prevalent_and_persistent_new-onset_autoantibodies_in_mild_to_severe_COVID-19/26318929/1"
+          },
+          {
+              "type": "data",
+              "repo_name": "UniProt",
+              "accession_number": "P0DTC2",
+              "description": "Spike glycoprotein",
+              "data_type": [
+                  "Protein data"
+              ],
+              "data_url": "https://www.uniprot.org/uniprotkb/P0DTC2/entry"
+          }
+      ],
+      "title": "Prevalent and persistent new-onset autoantibodies in mild to severe COVID-19",
+      "issue": "1",
+      "volume": "15",
+      "publisher": "Springer Science and Business Media LLC",
+      "published": "2024-10-17",
+      "author": [
+          "Jernbom A. F.",
+          "Skoglund L.",
+          "Pin E.",
+          "Sjöberg R.",
+          "Tegel H."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.3390/metabo15010051",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "",
+              "accession_number": "",
+              "description": "Simulation study on the effect of different data variance and data sparisity on factorization. ",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://www.mdpi.com/article/10.3390/metabo15010051/s1"
+          }
+      ],
+      "title": "MiMeJF: Application of Coupled Matrix and Tensor Factorization (CMTF) for Enhanced Microbiome-Metabolome Multi-Omic Analysis",
+      "issue": "1",
+      "volume": "15",
+      "publisher": "MDPI AG",
+      "published": "2025-01-14",
+      "author": [
+          "Ou Z.",
+          "Fu X.",
+          "Norbäck D.",
+          "Lin R.",
+          "Wen J."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1038/s41588-024-02022-z",
+      "available_items": [
+          {
+              "type": "code",
+              "repo_name": "Zenodo",
+              "accession_number": "",
+              "description": "Software of 'Blood DNA virome associates with autoimmune diseases and COVID-19",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://zenodo.org/records/12528938"
+          },
+          {
+              "type": "data",
+              "repo_name": "National Library of Medicine",
+              "accession_number": "NC_001664",
+              "description": "Human betaherpesvirus 6A, variant A DNA, complete virion genome, isolate U1102",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://www.ncbi.nlm.nih.gov/nuccore/NC_001664.4"
+          },
+          {
+              "type": "data",
+              "repo_name": "National Library of Medicine",
+              "accession_number": "NC_000898",
+              "description": "Human herpesvirus 6B, complete genome",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://www.ncbi.nlm.nih.gov/nuccore/NC_000898.1"
+          }
+      ],
+      "title": "Blood DNA virome associates with autoimmune diseases and COVID-19",
+      "issue": "1",
+      "volume": "57",
+      "publisher": "Springer Science and Business Media LLC",
+      "published": "2025-01-15",
+      "author": [
+          "Sasa N.",
+          "Kojima S.",
+          "Koide R.",
+          "Hasegawa T.",
+          "Namkoong H."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1111/tan.70011",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "National Library of Medicine",
+              "accession_number": "NCT04345315",
+              "description": "Correlative Study on Cancer Patients and Healthcare Professionals Exposed to Infection by Severe Acute Respiratory Syndrome-Corona Virus-2 (SARS-Cov-2), COVID-19 Causative Agent. (CORSA)",
+              "data_type": [
+                  "Serology data"
+              ],
+              "data_url": "https://clinicaltrials.gov/study/NCT04345315"
+          },
+          {
+              "type": "data",
+              "repo_name": "immunoSEQ ANALYZER",
+              "accession_number": "NC_000898",
+              "description": "A large-scale database of T-cell receptor beta (TCRb) sequences and binding associations from natural and synthetic exposure to SARS-CoV-2",
+              "data_type": [
+                  "Serology data"
+              ],
+              "data_url": "https://clients.adaptivebiotech.com/immuneaccess"
+          }
+      ],
+      "title": "Exploring the Relationship Between Humoral and Cellular T Cell Responses Against <scp>SARS</scp>‐<scp>CoV</scp>‐2 in Exposed Individuals From Emilia Romagna Region and <scp>COVID</scp>‐19 Severity",
+      "issue": "1",
+      "volume": "105",
+      "publisher": "Wiley",
+      "published": "2025-01-28",
+      "author": [
+          "Mazzotti L.",
+          "Borges de Souza P.",
+          "Azzali I.",
+          "Angeli D.",
+          "Nanni O."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1016/j.ebiom.2024.105415",
+      "available_items": [
+          {
+              "type": "code",
+              "repo_name": "GitHub",
+              "accession_number": "",
+              "description": "SARS-CoV-2 Lineage Competition",
+              "data_type": [
+                  "Serology data"
+              ],
+              "data_url": "https://github.com/MurrellGroup/lineages"
+          }
+      ],
+      "title": "Cross-sectional and longitudinal genotype to phenotype surveillance of SARS-CoV-2 variants over the first four years of the COVID-19 pandemic",
+      "issue": "",
+      "volume": "110",
+      "publisher": "Elsevier BV",
+      "published": "2024-12-11",
+      "author": [
+          "Akerman A.",
+          "Fichter C.",
+          "Milogiannakis V.",
+          "Esneau C.",
+          "Silva M. R."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1371/journal.pone.0313961",
+      "available_items": [
+          {
+              "type": "code",
+              "repo_name": "GitHub",
+              "accession_number": "",
+              "description": "The trajectory of anxiety and depressive symptoms and the impact of self-injury: a longitudinal 12-month cohort study of individuals with psychiatric symptoms.",
+              "data_type": [
+                  "Social science and humanities data"
+              ],
+              "data_url": "https://github.com/neuronssonlab/Ojala_et_al_2024"
+          }
+      ],
+      "title": "The trajectory of anxiety and depressive symptoms and the impact of self-injury: A longitudinal 12-month cohort study of individuals with psychiatric symptoms",
+      "issue": "11",
+      "volume": "19",
+      "publisher": "Public Library of Science (PLoS)",
+      "published": "2024-11-21",
+      "author": [
+          "Ojala O.",
+          "Garke M. Å.",
+          "El Alaoui S.",
+          "Forsström D.",
+          "Hedman-Lagerlöf M."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.3389/fpsyt.2024.1450429",
+      "available_items": [
+          {
+              "type": "code",
+              "repo_name": "GitHub",
+              "accession_number": "",
+              "description": "Delusion proneness predicts COVID-19 vaccination behavior",
+              "data_type": [
+                  "Social science and humanities data"
+              ],
+              "data_url": "https://github.com/kasimacar/CCQOnlineBADE"
+          }
+      ],
+      "title": "Delusion-proneness predicts COVID-19 vaccination behavior",
+      "issue": "",
+      "volume": "15",
+      "publisher": "Frontiers Media SA",
+      "published": "2024-11-25",
+      "author": [
+          "Acar K.",
+          "Karagiannidou A.",
+          "Olsson A.",
+          "van Prooijen J.",
+          "Balter L. J. T."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1136/bmjopen-2024-091627",
+      "available_items": [
+          {
+              "type": "code",
+              "repo_name": "GitHub",
+              "accession_number": "",
+              "description": "The impact of the Covid-19 pandemic on the national telehealth service for triage and referral in Sweden",
+              "data_type": [
+                  "Social science and humanities data"
+              ],
+              "data_url": "https://github.com/OPEN-EM/Telehealth-covid19-sweden"
+          }
+      ],
+      "title": "Impact of the COVID-19 pandemic on the National Telehealth Service for triage and referral in Sweden: a national retrospective observational study",
+      "issue": "12",
+      "volume": "14",
+      "publisher": "BMJ",
+      "published": "2024-12-05",
+      "author": [
+          "Berg J.",
+          "Wretborn J."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1016/j.heliyon.2024.e38276",
+      "available_items": [
+          {
+              "type": "code",
+              "repo_name": "GitHub",
+              "accession_number": "",
+              "description": "Infection Dynamics",
+              "data_type": [
+                  "Health data"
+              ],
+              "data_url": "https://github.com/lindliu/IDE"
+          },
+          {
+              "type": "data",
+              "repo_name": "Institute for Health Metrics and Evaluation",
+              "accession_number": "",
+              "description": "COVID-19 Projections",
+              "data_type": [
+                  "Health data"
+              ],
+              "data_url": "https://covid19.healthdata.org/global?view=cumulative-deaths&tab=trend"
+          }
+      ],
+      "title": "A combined neural ODE-Bayesian optimization approach to resolve dynamics and estimate parameters for a modified SIR model with immune memory",
+      "issue": "19",
+      "volume": "10",
+      "publisher": "Elsevier BV",
+      "published": "2024-12-26",
+      "author": [
+          "Liu D.",
+          "Sopasakis A."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1016/j.heliyon.2024.e38276",
+      "available_items": [
+          {
+              "type": "code",
+              "repo_name": "GitHub",
+              "accession_number": "",
+              "description": "Infection Dynamics",
+              "data_type": [
+                  "Health data"
+              ],
+              "data_url": "https://github.com/lindliu/IDE"
+          },
+          {
+              "type": "data",
+              "repo_name": "Institute for Health Metrics and Evaluation",
+              "accession_number": "",
+              "description": "COVID-19 Projections",
+              "data_type": [
+                  "Health data"
+              ],
+              "data_url": "https://covid19.healthdata.org/global?view=cumulative-deaths&tab=trend"
+          }
+      ],
+      "title": "A combined neural ODE-Bayesian optimization approach to resolve dynamics and estimate parameters for a modified SIR model with immune memory",
+      "issue": "19",
+      "volume": "10",
+      "publisher": "Elsevier BV",
+      "published": "2024-12-26",
+      "author": [
+          "Liu D.",
+          "Sopasakis A."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1038/s41598-025-86846-7",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "National Library of Medicine",
+              "accession_number": "NM_003199",
+              "description": "Homo sapiens transcription factor 4 (TCF4), mRNA",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://www.ncbi.nlm.nih.gov/nuccore/NM_003199.1"
+          },
+          {
+              "type": "data",
+              "repo_name": "National Library of Medicine",
+              "accession_number": "NM_028045",
+              "description": "Mus musculus RIKEN cDNA 1600014E20 gene (1600014E20Rik), mRNA",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://www.ncbi.nlm.nih.gov/nuccore/NM_028045.1?report=genbank"
+          },
+          {
+              "type": "data",
+              "repo_name": "National Library of Medicine",
+              "accession_number": "NM_002163",
+              "description": "Homo sapiens interferon regulatory factor 8 (IRF8), mRNA",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://www.ncbi.nlm.nih.gov/nuccore/NM_002163.2"
+          },
+          {
+              "type": "data",
+              "repo_name": "National Library of Medicine",
+              "accession_number": "NM_002258",
+              "description": "Homo sapiens killer cell lectin like receptor B1 (KLRB1), mRNA",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://www.ncbi.nlm.nih.gov/nuccore/NM_002258.2"
+          }
+      ],
+      "title": "KLRB1 expression in nasopharyngeal mucosa as a prognostic biomarker in COVID-19 patients",
+      "issue": "1",
+      "volume": "15",
+      "publisher": "Springer Science and Business Media LLC",
+      "published": "2025-01-24",
+      "author": [
+          "García-Aranda M.",
+          "Onieva M. Á.",
+          "Martín-García D.",
+          "Quirós R.",
+          "López I."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1038/s41467-024-54996-3",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Protein Data Bank",
+              "accession_number": "7suo",
+              "description": "Crystal Structure of the G3BP1 NTF2-like domain bound to the IDR1 of SARS-CoV-2 nucleocapsid protein",
+              "data_type": [
+                  "Protein data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7SUO"
+          }
+      ],
+      "title": "SARS-CoV-2 N protein recruits G3BP to double membrane vesicles to promote translation of viral mRNAs",
+      "issue": "1",
+      "volume": "15",
+      "publisher": "Springer Science and Business Media LLC",
+      "published": "2024-12-05",
+      "author": [
+          "Long S.",
+          "Guzyk M.",
+          "Perez Vidakovics L.",
+          "Han X.",
+          "Sun R."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1371/journal.ppat.1012755",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "European Nucleotide Archive",
+              "accession_number": "MT093571",
+              "description": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/SWE/01/2020, complete genome.",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/ena/browser/view/MT093571"
+          },
+          {
+              "type": "data",
+              "repo_name": "Protein Data Bank",
+              "accession_number": "3cii",
+              "description": "Structure of NKG2A/CD94 bound to HLA-E",
+              "data_type": [
+                  "Protein data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3CII"
+          },
+          {
+              "type": "data",
+              "repo_name": "Protein Data Bank",
+              "accession_number": "1mhe",
+              "description": "THE HUMAN NON-CLASSICAL MAJOR HISTOCOMPATIBILITY COMPLEX MOLECULE HLA-E",
+              "data_type": [
+                  "Protein data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1MHE"
+          },
+          {
+              "type": "data",
+              "repo_name": "Protein Data Bank",
+              "accession_number": "5w1v",
+              "description": "Structure of the HLA-E-VMAPRTLIL/GF4 TCR complex",
+              "data_type": [
+                  "Protein data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5W1V"
+          }
+      ],
+      "title": "Emerging mutation in SARS-CoV-2 facilitates escape from NK cell recognition and associates with enhanced viral fitness",
+      "issue": "12",
+      "volume": "20",
+      "publisher": "Public Library of Science (PLoS)",
+      "published": "2024-12-09",
+      "author": [
+          "Bilev E.",
+          "Wild N.",
+          "Momayyezi P.",
+          "Sala B. M.",
+          "Sun R."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1186/s12877-024-05473-5",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "National Library of Medicine",
+              "accession_number": "NCT04412265",
+              "description": "Frailty in Elderly Patients With COVID-19 (FRA-COVID)",
+              "data_type": [
+                  "Health data"
+              ],
+              "data_url": "https://clinicaltrials.gov/study/NCT04412265"
+          }
+      ],
+      "title": "Older patients affected by COVID-19: investigating the existence of biological phenotypes",
+      "issue": "1",
+      "volume": "24",
+      "publisher": "Springer Science and Business Media LLC",
+      "published": "2024-11-07",
+      "author": [
+          "Zucchelli A.",
+          "Parigi M.",
+          "Giliani S.",
+          "Vetrano D. L.",
+          "Lucente D."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1111/1751-7915.70073",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "National Library of Medicine",
+              "accession_number": "PRJNA1026337",
+              "description": "Gut microbiota of C57BL/6 mice Metagenome",
+              "data_type": [
+                  "Protein data"
+              ],
+              "data_url": "https://www.ncbi.nlm.nih.gov/bioproject/?term=(PRJNA1026337)%20AND%20bioproject_sra[filter]"
+          }
+      ],
+      "title": "Oral Immunisation With Non‐<scp>GMO</scp> Surface Displayed <scp>SARS</scp>‐<scp>CoV</scp>‐2 Spike Epitopes on Bacteria‐Like Particles Provokes Robust Humoral and Cellular Immune Responses, and Modulated the Gut Microbiome in Mice",
+      "issue": "1",
+      "volume": "18",
+      "publisher": "Wiley",
+      "published": "2025-02-01",
+      "author": [
+          "Vasquez R.",
+          "Song J. H.",
+          "Mendoza R. M.",
+          "Hwang I.",
+          "Bagon B. B."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1038/s41598-024-77408-4",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Open Science Framework",
+              "accession_number": "",
+              "description": "COVID-19 Cross Country Public Opinion",
+              "data_type": [
+                  "Social science and humanities data"
+              ],
+              "data_url": "https://osf.io/ewr7g/"
+          }
+      ],
+      "title": "Ideological diversity of media consumption predicts COVID-19 vaccination",
+      "issue": "1",
+      "volume": "14",
+      "publisher": "Springer Science and Business Media LLC",
+      "published": "2024-11-22",
+      "author": [
+          "Grant M. D.",
+          "Markowitz D. M.",
+          "Sherman D. K.",
+          "Flores A.",
+          "Dickert S."
+      ]
+  },
+  {
       "doi": "https://doi.org/10.1016/j.isci.2024.110501",
       "available_items": [
           {
@@ -268,7 +835,7 @@
               "type": "data",
               "repo_name": "Protein Data Bank",
               "accession_number": "2G35",
-              "description": "",
+              "description": "NMR structure of talin-PTB in complex with PIPKI",
               "data_type": [
                   "Protein data"
               ],

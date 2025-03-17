@@ -65,7 +65,7 @@ Vänligen se [avsnittet med sammanfattande information om virusen](#grundläggan
 
 ###### **Nedladdning av data:**
 
-[Kvantifiering av mängd SARS-CoV-2 och enteriska virus i avloppsvatten](https://blobserver.dckube.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx). Results för SARS-CoV-2 mätningar är tillgängliga från vecka 20 2023. Uppdatering sker varje vecka.
+[Kvantifiering av mängd SARS-CoV-2 och enteriska virus i avloppsvatten](https://blobserver.dc.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx). Results för SARS-CoV-2 mätningar är tillgängliga från vecka 20 2023. Uppdatering sker varje vecka.
 
 **Kontakt:** <helene.norder@gu.se>
 
