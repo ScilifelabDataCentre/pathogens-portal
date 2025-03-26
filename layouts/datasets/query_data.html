@@ -89,12 +89,39 @@
     // Function to make the request and fetch the numbers
     async function fetchStats(URLpath) {
         let baseURL = "https://www.ebi.ac.uk/ebisearch/ws/rest/";
-        let query = "%20((country%3A%22sweden%22))&size=0&format=JSON&facetcount=0";
-        let response = await fetch(`${baseURL}${URLpath}${query}`);
+        let queryURL = `${baseURL}${URLpath}%20((country%3A%22Sweden%22))&size=0&format=JSON&facetcount=0`;
+
+        // Check and use cached request if available
+        if ('caches' in window) {
+            const cache = await caches.open('swedish-pathogens-portal');
+            const cachedResponse = await cache.match(queryURL);
+            // If the cache is older than 6 hours, it will not be used
+            if (cachedResponse && cachedResponse.headers.get('timestamp') > Date.now() - 6 * 60 * 60 * 1000) {
+                const data = await cachedResponse.json();
+                return data.hitCount
+            } else {
+                await cache.delete(queryURL);
+            }
+        }
+
+        // If cache not available or older than 6 hours, fetch the data again
+        let response = await fetch(queryURL);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         let data = await response.json();
+
+        // Store the newly fetched data in cache again
+        if ('caches' in window) {
+            const cache = await caches.open('swedish-pathogens-portal');
+            await cache.put(queryURL, new Response(JSON.stringify(data), {
+                headers: {
+                    'Content-Type': 'application/json',
+                    'timestamp': Date.now()
+                }
+            }));
+        }
+
         return data.hitCount;
     }
 
