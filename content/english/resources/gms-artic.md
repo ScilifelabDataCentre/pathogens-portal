@@ -1,7 +1,8 @@
 ---
 title: "SARS-CoV-2 bioinformatics pipeline – GMS Artic"
-category: "plp1"
+category: "subproject"
 aliases:
+  - /resources-subprojects/gms-artic/
   - /resources-subprojects/gms-arctic/
 resource_info:
   name: "SARS-CoV-2 bioinformatics pipeline – GMS Artic"
@@ -22,4 +23,4 @@ The pipeline performs typing of SARS-CoV-2 data using both the Pangolin and Next
 
 The pipeline is written in Nextflow workflow manager and is already set up to run with conda environments, docker or singularity containers. Support has also been set up for execution with various job schedulers such as slurm, lsf, gls and sge, and is easily adapted for other systems through the Nextflow set up.
 
-For more information on the [Pandemic Laboratory Preparedness resources](/resources/) associated with this subproject, see [Genomic Pandemic Preparedness Portfolio (G3P)](/resources/g3p/), [Rapid establishment of comprehensive laboratory pandemic preparedness – RAPID-SEQ](/resources/rapid-seq/), and [Next generation clinical virology](/resources/ng_clinical_virology/). Please also refer to other associated subprojects; [taxprofiler](/resources-subprojects/taxprofiler/) and [SC2 Reporter](/resources-subprojects/sc2reporter/).
+For more information on the [Pandemic Laboratory Preparedness resources](/resources/) associated with this subproject, see [Genomic Pandemic Preparedness Portfolio (G3P)](/resources/g3p/), [Rapid establishment of comprehensive laboratory pandemic preparedness – RAPID-SEQ](/resources/rapid-seq/), and [Next generation clinical virology](/resources/ng_clinical_virology/). Please also refer to other associated subprojects; [taxprofiler](/resources/taxprofiler/) and [SC2 Reporter](/resources/sc2reporter/).

@@ -1,6 +1,8 @@
 ---
 title: "State-of-the-art biosafety level 3 (BSL3) facility"
-category: "plp1"
+category: "subproject"
+aliases:
+  - /resources-subprojects/bsl3-facility/
 resource_info:
   name: "State-of-the-art biosafety level 3 (BSL3) facility"
   funded_project_title: "BSL3 Biomedicum-SciLifeLab Collaborative Platform"
@@ -16,7 +18,7 @@ BSL3 Biomedicum is fully equipped with state-of-the-art equipment and expertise 
 
 BSL3 Biomedicum is open for companies to perform their research with pathogenic viruses. As an example, Biomedrex is developing CRISPR-based antivirals at BSL3 Biomedicum.
 
-For more information on the [Pandemic Laboratory Preparedness resources](/resources/) associated with this subproject, see [BSL3 Biomedicum-SciLifeLab Collaborative Platform](/resources/bsl3/) and [Swedish biosafety level 3 (BSL3) network](/resources-subprojects/bsl3-network/).
+For more information on the [Pandemic Laboratory Preparedness resources](/resources/) associated with this subproject, see [BSL3 Biomedicum-SciLifeLab Collaborative Platform](/resources/bsl3/) and [Swedish biosafety level 3 (BSL3) network](/resources/bsl3-network/).
 
 <figure class="figure">
   <img src="/resorces/bsl3-facility-htp-av.png" class="figure-img img-fluid" alt="A generic square placeholder image with rounded corners in a figure.">

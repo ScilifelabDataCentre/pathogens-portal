@@ -1,6 +1,8 @@
 ---
 title: "SARS-CoV-2 Reporter for visualisation of SARS-CoV-2 genome sequence data (SC2reporter)"
-category: "plp1"
+category: "subproject"
+aliases:
+  - /resources-subprojects/sc2reporter/
 resource_info:
   name: "SARS-CoV-2 Reporter for visualisation of SARS-CoV-2 genome sequence data (SC2reporter)"
   funded_project_title: "Genomic Pandemic Preparedness Portfolio (G3P) (PLP1 capability)"
@@ -16,7 +18,7 @@ resource_info:
 
 A web-based visualisation application for the ongoing SARS-CoV-2 pandemic. The tool is primarily used for epidemiological analysis where pipeline analysis results and metadata are loaded into a mongoDB database. The SNVs and indels can then be compared between all isolated in the database.
 
-For more information on the [Pandemic Laboratory Preparedness resources](/resources/) associated with this subproject, see [Genomic Pandemic Preparedness Portfolio (G3P)](/resources/g3p/). Please also refer to other associated subprojects; [GMS Arctic](/resources-subprojects/gms-arctic/) and [taxprofiler](/resources-subprojects/taxprofiler/).
+For more information on the [Pandemic Laboratory Preparedness resources](/resources/) associated with this subproject, see [Genomic Pandemic Preparedness Portfolio (G3P)](/resources/g3p/). Please also refer to other associated subprojects; [GMS Arctic](/resources/gms-artic/) and [taxprofiler](/resources/taxprofiler/).
 
 Below is a still image of one of the visualisations produced using SC2reporter.
 
