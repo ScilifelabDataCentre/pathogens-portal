@@ -1,21 +1,24 @@
 {
-	"$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.11.1/.schema/devbox.schema.json",
-	"packages": [
-		"hugo@0.139",
-		"nodejs@22"
-	],
-	"env": {
-		"PATH": "$PWD/node_modules/.bin/:$PATH",
-		"npm_config_cache": "$PWD/.npm/"
-	},
-	"shell": {
-		"init_hook": [
-			"echo '\nRunning npm install...'",
-			"npm install --no-fund --loglevel warn",
-			"echo 'Done :)\n'"
-		],
-		"scripts": {
-			"server": ["hugo server"]
-		}
-	}
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.14.0/.schema/devbox.schema.json",
+  "packages": [
+    "hugo@0.139",
+    "nodejs@22",
+    "htmltest@latest"
+  ],
+  "env": {
+    "DEVBOX_COREPACK_ENABLED": "true",
+    "PATH": "$PWD/node_modules/.bin/:$PATH"
+  },
+  "shell": {
+    "init_hook": [
+      "echo '\nRunning pnpm install...'",
+      "pnpm install",
+      "echo '\n'"
+    ],
+    "scripts": {
+      "server": [
+        "hugo server"
+      ]
+    }
+  }
 }
