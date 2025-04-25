@@ -1,6 +1,8 @@
 ---
 title: "Highly parallelised multi-taxonomic profiling of shotgun metagenomic data (nf-core/taxprofiler)"
-category: "plp1"
+category: "subproject"
+aliases:
+  - /resources-subprojects/taxprofiler/
 resource_info:
   name: "Highly parallelised multi-taxonomic profiling of shotgun metagenomic data (nf-core/taxprofiler)"
   funded_project_title: "Joint contributions from 3 PLP projects: Rapid establishment of comprehensive laboratory pandemic preparedness – RAPID-SEQ (PLP1 capability), Genomic Pandemic Preparedness Portfolio (G3P) (PLP1 capability), and Next generation clinical virology (PLP TDP project)."
@@ -20,4 +22,4 @@ The pipeline supports metagenomic data generated both from Illumina and Nanopore
 
 The pipeline is written in Nextflow DSL-2 workflow manager and it uses Docker/Singularity containers.
 
-For more information on the [Pandemic Laboratory Preparedness resources](/resources/) associated with this subproject, see [Genomic Pandemic Preparedness Portfolio (G3P)](/resources/g3p/), [Rapid establishment of comprehensive laboratory pandemic preparedness – RAPID-SEQ](/resources/rapid-seq/), and [Next generation clinical virology](/resources/ng_clinical_virology/). Please also refer to other associated subprojects; [GMS Arctic](/resources-subprojects/gms-arctic/) and [SC2 Reporter](/resources-subprojects/sc2reporter/).
+For more information on the [Pandemic Laboratory Preparedness resources](/resources/) associated with this subproject, see [Genomic Pandemic Preparedness Portfolio (G3P)](/resources/g3p/), [Rapid establishment of comprehensive laboratory pandemic preparedness – RAPID-SEQ](/resources/rapid-seq/), and [Next generation clinical virology](/resources/ng_clinical_virology/). Please also refer to other associated subprojects; [GMS Arctic](/resources/gms-artic/) and [SC2 Reporter](/resources/sc2reporter/).

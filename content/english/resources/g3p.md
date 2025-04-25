@@ -32,12 +32,12 @@ This resource involves three subprojects:
 
 ###### 1. Highly parallelised multi-taxonomic profiling of shotgun metagenomic data (taxprofiler)
 
-For more information on Taxprofiler (including information on access, use, and contact), please see the dedicated [Taxprofiler](/resources-subprojects/taxprofiler/).
+For more information on Taxprofiler (including information on access, use, and contact), please see the dedicated [Taxprofiler](/resources/taxprofiler/).
 
 ###### 2. SARS-CoV-2 bioinformatics pipeline – GMS Artic
 
-For more information on GMS Artic (including information on access, use, and contact), please see the dedicated [GMS Artic page](/resources-subprojects/gms-artic/).
+For more information on GMS Artic (including information on access, use, and contact), please see the dedicated [GMS Artic page](/resources/gms-artic/).
 
 ###### 3. SARS-CoV-2 Reporter for visualisation of SARS-CoV-2 genome sequence data (SC2reporter)
 
-For more information on SC2reporter (including information on access, use, and contact), please see the dedicated [SC2reporter page](/resources-subprojects/sc2reporter/).
+For more information on SC2reporter (including information on access, use, and contact), please see the dedicated [SC2reporter page](/resources/sc2reporter/).
