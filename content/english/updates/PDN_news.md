@@ -1,8 +1,8 @@
 ---
 title: "Swedish Pathogens Portal as part of the Pathogen Data Network"
-date: 2025-05-15
+date: 2025-05-22
 summary: The Swedish Pathogens Portal is leading work to support the establishment of similar portals around the world.
-banner: /updates/banners/network_PDN.jpeg
+banner: /updates/banners/network_PDN.jpg
 banner_caption: "Representation of a network"
 ---
 
