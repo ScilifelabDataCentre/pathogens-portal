@@ -1,6 +1,590 @@
 {
-  "last_updated": "2025-02-20",
+  "last_updated": "2025-05-22",
   "datasets": [
+    {
+      "doi": "https://doi.org/10.3389/fimmu.2025.1500997",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Figshare",
+              "accession_number": "",
+              "description": "Patients with post COVID-19 condition",
+              "data_type": [
+                  "Health data"
+              ],
+              "data_url": "https://figshare.com/articles/dataset/Karisola_et_al_b_Patients_with_post_COVID-19_condition_b_-_Count-data_and_Metadata/28525220/1"
+          }
+      ],
+      "title": "Patients with post-COVID-19 condition show minor blood transcriptomic changes, with altered erythrocyte gene expression in a male subgroup",
+      "issue": "",
+      "volume": "16",
+      "publisher": "Frontiers Media SA",
+      "published": "2025-03-21",
+      "author": [
+          "Karisola P.",
+          "Kanerva M.",
+          "Vuokko A.",
+          "Liira H.",
+          "Wang S."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1371/journal.pcbi.1012812 ",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Zenodo",
+              "accession_number": "",
+              "description": "Data to accompany Structural prediction of chimeric immunogens to elicit targeted antibodies against betacoronaviruses",
+              "data_type": [
+                  "Protein data",
+                  "Other data"
+              ],
+              "data_url": "https://zenodo.org/records/14530798"
+          },
+          {
+              "type": "code",
+              "repo_name": "Github",
+              "accession_number": "",
+              "description": "Code for generating and predicting coronavirus chimeras",
+              "data_type": [
+                  "Protein data",
+                  "Other data"
+              ],
+              "data_url": "https://github.com/kassonlab/coronavirus-chimera-prediction"
+          }
+      ],
+      "title": "Structural prediction of chimeric immunogen candidates to elicit targeted antibodies against betacoronaviruses",
+      "issue": "2",
+      "volume": "21",
+      "publisher": "Public Library of Science (PLoS)",
+      "published": "2025-02-05",
+      "author": [
+          "Simpson J.",
+          "Kasson P. M."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1093/braincomms/fcaf070 ",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Biostudies",
+              "accession_number": "S-EPMC11851114",
+              "description": "Structural brain changes in post-COVID condition and its relationship with cognitive impairment",
+              "data_type": [
+                  "Health data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/biostudies/europepmc/studies/S-EPMC11851114"
+          }
+      ],
+      "title": "Structural brain changes in post-COVID condition and its relationship with cognitive impairment",
+      "issue": "1",
+      "volume": "7",
+      "publisher": "Oxford University Press (OUP)",
+      "published": "2024-12-24",
+      "author": [
+          "Pacheco-Jaime L.",
+          "Garcia-Vicente C.",
+          "Ariza M.",
+          "Cano N.",
+          "Garolera M."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1136/bmjph-2023-000572",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Biostudies",
+              "accession_number": "S-EPMC11812815",
+              "description": "Quality of life among residents of informal urban settlements during the COVID-19 pandemic in Salvador, Brazil",
+              "data_type": [
+                  "Social science and humanities data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/biostudies/europepmc/studies/S-EPMC11812815"
+          },
+          {
+              "type": "data",
+              "repo_name": "Zenodo",
+              "accession_number": "",
+              "description": "Supplementary files for QoL paper",
+              "data_type": [
+                  "Social science and humanities data"
+              ],
+              "data_url": "https://zenodo.org/records/8340269"
+          }
+      ],
+      "title": "Quality of life among residents of informal urban settlements during the COVID-19 pandemic in Salvador, Brazil",
+      "issue": "1",
+      "volume": "2",
+      "publisher": "BMJ",
+      "published": "2024-08-01",
+      "author": [
+          "Mogaji H.",
+          "Nery N.",
+          "Argibay H. D.",
+          "Cruz J. S.",
+          "Carneiro I. O."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1111/irv.70081",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Biostudies",
+              "accession_number": "S-EPMC11890973",
+              "description": "Effectiveness of the XBB.1.5 COVID-19 Vaccines Against SARS-CoV-2",
+              "data_type": [
+                  "Other data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/biostudies/europepmc/studies/S-EPMC11890973"
+          }
+      ],
+      "title": "Effectiveness of the XBB.1.5 COVID‐19 Vaccines Against SARS‐CoV‐2 Hospitalisation Among Adults Aged ≥ 65 Years During the BA.2.86/JN.1 Predominant Period, VEBIS Hospital Study, Europe, November 2023 to May 2024",
+      "issue": "3",
+      "volume": "19",
+      "publisher": "Wiley",
+      "published": "2025-03-28",
+      "author": [
+          "Antunes L.",
+          "Rojas‐Castro M.",
+          "Lozano M.",
+          "Martínez‐Baz I.",
+          "Leroux‐Roels I."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1038/s41746-025-01456-x",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Biostudies",
+              "accession_number": "S-EPMC11920215",
+              "description": "Wearable data reveals distinct characteristics of individuals with persistent symptoms after a SARS-CoV-2 infection",
+              "data_type": [
+                  "Health data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/biostudies/europepmc/studies/S-EPMC11920215"
+          }
+      ],
+      "title": "Wearable data reveals distinct characteristics of individuals with persistent symptoms after a SARS-CoV-2 infection",
+      "issue": "1",
+      "volume": "8",
+      "publisher": "Springer Science and Business Media LLC",
+      "published": "2025-03-19",
+      "author": [
+          "Ledebur K.",
+          "Wiedermann M.",
+          "Puta C.",
+          "Thurner S.",
+          "Klimek P."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1038/s41591-024-03426-4 ",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Biostudies",
+              "accession_number": "S-EPMC11922756",
+              "description": "Plasma proteomic evidence for increased β-amyloid pathology after SARS-CoV-2 infection",
+              "data_type": [
+                  "Health data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/biostudies/europepmc/studies/S-EPMC11922756"
+          },
+          {
+              "type": "code",
+              "repo_name": "Github",
+              "accession_number": "",
+              "description": "Code repository for Plasma proteomic evidence for increased Alzheimer’s disease-related brain pathology after SARS-CoV-2 infection",
+              "data_type": [
+                  "Health data"
+              ],
+              "data_url": "https://github.com/eduff/BIACOB"
+          },
+          {
+              "type": "data",
+              "repo_name": "National Library of Medicine",
+              "accession_number": "rs429358",
+              "description": "ALFA Allele Frequency",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://www.ncbi.nlm.nih.gov/snp/rs429358"
+          },
+          {
+              "type": "data",
+              "repo_name": "National Library of Medicine",
+              "accession_number": "rs7412",
+              "description": "ALFA Allele Frequency",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://www.ncbi.nlm.nih.gov/snp/rs7412"
+          }
+      ],
+      "title": "Plasma proteomic evidence for increased β-amyloid pathology after SARS-CoV-2 infection",
+      "issue": "3",
+      "volume": "31",
+      "publisher": "Springer Science and Business Media LLC",
+      "published": "2025-01-30",
+      "author": [
+          "Duff E. P.",
+          "Zetterberg H.",
+          "Heslegrave A.",
+          "Dehghan A.",
+          "Elliott P."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.3389/fimmu.2025.1549570",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "National Library of Medicine",
+              "accession_number": "NCT05548829",
+              "description": "COVID RESPONSE STUDY (COVRES)",
+              "data_type": [
+                  "Health data"
+              ],
+              "data_url": "https://clinicaltrials.gov/study/NCT05548829"
+          },
+          {
+              "type": "data",
+              "repo_name": "European Nucleotide Archive",
+              "accession_number": "OR575624.1",
+              "description": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/CHE/SARS-CoV-2 Omicron BA.2/2022, complete genome",
+              "data_type": [
+                  "Health data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/ena/browser/view/OR575624"
+          },
+          {
+              "type": "data",
+              "repo_name": "Protein Data Bank",
+              "accession_number": "7jlt",
+              "description": "Crystal Structure of SARS-CoV-2 NSP7-NSP8 complex",
+              "data_type": [
+                  "Protein data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7JLT"
+          },
+          {
+              "type": "data",
+              "repo_name": "Protein Data Bank",
+              "accession_number": "7tgw",
+              "description": "Omicron spike at 3.0 A (open form)",
+              "data_type": [
+                  "Protein data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7TGW"
+          },
+          {
+              "type": "data",
+              "repo_name": "Protein Data Bank",
+              "accession_number": "6wuu",
+              "description": "Crystal structure of the SARS CoV-2 Papain-like protease in complex with peptide inhibitor VIR250",
+              "data_type": [
+                  "Protein data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6WUU"
+          },
+          {
+              "type": "data",
+              "repo_name": "Protein Data Bank",
+              "accession_number": "8fdw",
+              "description": "Cryo-EM structure of SARS-CoV-2 postfusion spike in membrane",
+              "data_type": [
+                  "Protein data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/8FDW"
+          }
+      ],
+      "title": "Distinct Omicron longitudinal memory T cell profile and T cell receptor repertoire associated with COVID-19 hospitalisation",
+      "issue": "",
+      "volume": "16",
+      "publisher": "Frontiers Media SA",
+      "published": "2025-04-02",
+      "author": [
+          "Markey G.",
+          "McLaughlin J.",
+          "McDaid D.",
+          "Lynch S. M.",
+          "English A."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1038/s41746-025-01456-x",
+      "available_items": [
+          {
+              "type": "code",
+              "repo_name": "Github",
+              "accession_number": "",
+              "description": "EuroMOMO R‐package MOMO",
+              "data_type": [
+                  "Social science and humanities data"
+              ],
+              "data_url": "https://github.com/JensXII/MOMO"
+          }
+      ],
+      "title": "Wearable data reveals distinct characteristics of individuals with persistent symptoms after a SARS-CoV-2 infection",
+      "issue": "1",
+      "volume": "8",
+      "publisher": "Springer Science and Business Media LLC",
+      "published": "2025-03-19",
+      "author": [
+          "Ledebur K.",
+          "Wiedermann M.",
+          "Puta C.",
+          "Thurner S.",
+          "Klimek P."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1016/j.lanepe.2024.101025",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Biostudies",
+              "accession_number": "S-EPMC11838104",
+              "description": "COVID-19 vaccination and birth outcomes of 186,990 women vaccinated before pregnancy: an England-wide cohort study",
+              "data_type": [
+                  "Health data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/biostudies/europepmc/studies/S-EPMC11838104"
+          }
+      ],
+      "title": "COVID-19 vaccination and birth outcomes of 186,990 women vaccinated before pregnancy: an England-wide cohort study",
+      "issue": "",
+      "volume": "45",
+      "publisher": "Elsevier BV",
+      "published": "2024-12-04",
+      "author": [
+          "Suseeladevi A. K.",
+          "Denholm R.",
+          "Retford M.",
+          "Raffetti E.",
+          "Burden C."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1016/j.xgen.2025.100783",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "European Genome-Phenome Archive",
+              "accession_number": "",
+              "description": "COVID-19 GWAS in Japanese",
+              "data_type": [
+                  "Health data"
+              ],
+              "data_url": "https://ega-archive.org/studies/EGAS00001006284"
+          },
+          {
+              "type": "data",
+              "repo_name": "Protein Data Bank",
+              "accession_number": "1hzh",
+              "description": "CRYSTAL STRUCTURE OF THE INTACT HUMAN IGG B12 WITH BROAD AND POTENT ACTIVITY AGAINST PRIMARY HIV-1 ISOLATES: A TEMPLATE FOR HIV VACCINE DESIGN",
+              "data_type": [
+                  "Protein data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1HZH"
+          },
+          {
+              "type": "data",
+              "repo_name": "National Library of Medicine",
+              "accession_number": "rs1043109",
+              "description": "ALFA project",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://www.ncbi.nlm.nih.gov/snp/rs1043109"
+          },
+          {
+              "type": "data",
+              "repo_name": "National Library of Medicine",
+              "accession_number": "rs1043249",
+              "description": "ALFA project",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://www.ncbi.nlm.nih.gov/snp/rs1043249"
+          },
+          {
+              "type": "data",
+              "repo_name": "National Library of Medicine",
+              "accession_number": "rs9270585",
+              "description": "ALFA project",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://www.ncbi.nlm.nih.gov/snp/rs9270585"
+          },
+          {
+              "type": "data",
+              "repo_name": "National Library of Medicine",
+              "accession_number": "rs139861548",
+              "description": "ALFA project",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://www.ncbi.nlm.nih.gov/snp/rs139861548"
+          },
+          {
+              "type": "data",
+              "repo_name": "National Library of Medicine",
+              "accession_number": "rs28472312",
+              "description": "ALFA project",
+              "data_type": [
+                  "Genomics & transcriptomics data"
+              ],
+              "data_url": "https://www.ncbi.nlm.nih.gov/snp/rs28472312"
+          }
+      ],
+      "title": "Germline variants and mosaic chromosomal alterations affect COVID-19 vaccine immunogenicity",
+      "issue": "3",
+      "volume": "5",
+      "publisher": "Elsevier BV",
+      "published": "2025-04-18",
+      "author": [
+          "Sonehara K.",
+          "Uwamino Y.",
+          "Saiki R.",
+          "Takeshita M.",
+          "Namba S."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1186/s12888-025-06519-7",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Biostudies",
+              "accession_number": "S-EPMC11783832",
+              "description": "Acceptability, feasibility, and effectiveness of internet-based cognitive behavior therapy for obsessive-compulsive disorder (OCD-NET): a naturalistic pilot trial during the COVID-19 pandemic in a psychiatric outpatient department in Germany",
+              "data_type": [
+                  "Social science and humanities data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/biostudies/europepmc/studies/S-EPMC11783832"
+          }
+      ],
+      "title": "Acceptability, feasibility, and effectiveness of internet-based cognitive behavior therapy for obsessive–compulsive disorder (OCD-NET): a naturalistic pilot trial during the COVID-19 pandemic in a psychiatric outpatient department in Germany",
+      "issue": "1",
+      "volume": "25",
+      "publisher": "Springer Science and Business Media LLC",
+      "published": "2025-01-30",
+      "author": [
+          "Kohls E.",
+          "Baldofski S.",
+          "Scholl J.",
+          "Flygare O.",
+          "Lundström L."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1101/2025.04.02.646796",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Protein Data Bank",
+              "accession_number": "4w9w",
+              "description": "Crystal Structure of BMP-2-inducible kinase in complex with small molecule AZD-7762",
+              "data_type": [
+                  "Protein data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4W9W"
+          },
+          {
+              "type": "data",
+              "repo_name": "Protein Data Bank",
+              "accession_number": "4wsq",
+              "description": "Crystal Structure of Adaptor Protein 2 Associated Kinase (AAK1) in complex with small molecule inhibitor",
+              "data_type": [
+                  "Protein data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4WSQ"
+          },
+          {
+              "type": "data",
+              "repo_name": "Protein Data Bank",
+              "accession_number": "5y7z",
+              "description": "Complex structure of cyclin G-associated kinase with gefitinib",
+              "data_type": [
+                  "Protein data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5Y7Z"
+          }
+      ],
+      "title": "Development of pyrazolo[1,5-a]pyrimidine based macrocyclic kinase inhibitors targeting AAK1",
+      "issue": "",
+      "volume": "",
+      "publisher": "Cold Spring Harbor Laboratory",
+      "published": "2025-04-03",
+      "author": [
+          "Mensing T. E.",
+          "Kurz C. G.",
+          "Amrhein J. A.",
+          "Ehret T. A. L.",
+          "Preuss F."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1016/j.jmh.2024.100295 ",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Biostudies",
+              "accession_number": "S-EPMC11830300",
+              "description": "Barriers and drivers to COVID-19 protective behaviours of forcibly displaced myanmar nationals (FDMN)/ rohingya refugees in Cox's bazar, Bangladesh: A scoping review",
+              "data_type": [
+                  "Social science and humanities data"
+              ],
+              "data_url": "https://www.ebi.ac.uk/biostudies/europepmc/studies/S-EPMC11830300"
+          }
+      ],
+      "title": "Barriers and drivers to COVID-19 protective behaviours of forcibly displaced myanmar nationals (FDMN)/ rohingya refugees in Cox's bazar, Bangladesh: A scoping review",
+      "issue": "",
+      "volume": "11",
+      "publisher": "Elsevier BV",
+      "published": "2025-03-02",
+      "author": [
+          "Reda S.",
+          "Yusuf Z.",
+          "Karo B.",
+          "Chawla B. S.",
+          "Jansen A."
+      ]
+  },
+  {
+      "doi": "https://doi.org/10.1016/j.heliyon.2025.e41957 ",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "Open Science Framework",
+              "accession_number": "",
+              "description": "Mental Health of University Students: A Multicenter Research Study",
+              "data_type": [
+                  "Social science and humanities data"
+              ],
+              "data_url": "https://osf.io/wj7td/"
+          }
+      ],
+      "title": "Symptoms of anxiety and depression among health and social science students: A multicenter study",
+      "issue": "2",
+      "volume": "11",
+      "publisher": "Elsevier BV",
+      "published": "2025-05-07",
+      "author": [
+          "Pinho L. G.",
+          "Engström M.",
+          "Schneider B. C.",
+          "Fonseca C.",
+          "Lindberg M."
+      ]
+  },
     {
       "doi": "https://doi.org/10.1002/jeo2.70030",
       "available_items": [
