@@ -15,7 +15,7 @@ for_background_table:
 
 Metagenomic sequencing enables the detection of unusual or unexpected pathogens in patient samples where routine methods fail. In a collaboration between Clinical Microbiology and the Precision Medicine Laboratory at Linköping University Hospital, methodology for metagenomic sequencing has been developed and evaluated.
 
-The newly developed capability enables sequencing of total RNA and DNA from patient samples to detect bacteria, viruses, fungi, and parasites without any need for culture or amplification with pathogen-specific reagents. The method is based on nucleic acid extraction, parallel RNA and DNA library preparation, and Illumina sequencing, followed by bioinformatic taxonomic classification using the <a href="/resources-subprojects/taxprofiler/">nf-core/taxprofiler</a> pipeline.
+The newly developed capability enables sequencing of total RNA and DNA from patient samples to detect bacteria, viruses, fungi, and parasites without any need for culture or amplification with pathogen-specific reagents. The method is based on nucleic acid extraction, parallel RNA and DNA library preparation, and Illumina sequencing, followed by bioinformatic taxonomic classification using the <a href="/resources/taxprofiler/">nf-core/taxprofiler</a> pipeline.
 
 The method will be used to detect and analyse unusual pathogens in respiratory samples and skin lesions. In addition, the method will be used for the analysis of cerebrospinal fluid in CNS infections that cannot be diagnosed using other methods. With this technology development, the laboratory has an increased preparedness to monitor and quickly respond to future outbreaks and pandemics.
 

@@ -19,7 +19,7 @@ The laboratory has established large-scale WGS of SARS-CoV-2. To-date 40,000+ sa
 
 Metagenomics has been established as a clinical diagnostic tool as well as preparedness for rapid identification of new pandemic threats.
 
-This project involves two subprojects; taxprofiler and GMS Artic. Please see the [taxprofiler](/resources-subprojects/taxprofiler/) and [GMS Artic](/resources-subprojects/gms-arctic/) pages for more information (including information on access and usage).
+This project involves two subprojects; taxprofiler and GMS Artic. Please see the [taxprofiler](/resources/taxprofiler/) and [GMS Artic](/resources/gms-artic/) pages for more information (including information on access and usage).
 
 **Specific project aims:**
 
