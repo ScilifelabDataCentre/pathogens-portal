@@ -1,3 +1,4 @@
+<!-- Banner -->
 <div class="header"
   style="background-image: linear-gradient(to bottom, rgba(55, 174, 148, 0.52), rgba(55, 174, 148, 0.73)),
          url('{{ if .Params.header_illustration }}{{ .Params.header_illustration }}{{ else }}/img/csm_coronavirus_mc.jpg{{ end }}');">
@@ -22,57 +23,26 @@
       {{ end }}</h2>
   </div>
 </div>
-{{ if not .IsHome }}
-{{ if .Parent }}
-<nav class="breadcrumbs" aria-label="breadcrumb">
-  <div class="container">
-    <ol class="breadcrumb">
 
-      {{/*
-      I know, this is ugly. But recursive functions seems hard in Hugo, and we only go 3 deep currently..
-      */}}
-
-      {{ if .Parent.Parent }}
-      {{ if .Parent.Parent.Parent }}
-      {{ if .Parent.Parent.Parent.Parent }}
-      <li class="breadcrumb-item"><a
-          href="{{ .Parent.Parent.Parent.Parent.RelPermalink }}">{{ .Parent.Parent.Parent.Parent.Title }}</a></li>
-      {{ end }}
-      <li class="breadcrumb-item"><a
-          href="{{ .Parent.Parent.Parent.RelPermalink }}">{{ .Parent.Parent.Parent.Title }}</a></li>
-      {{ end }}
-      <li class="breadcrumb-item"><a href="{{ .Parent.Parent.RelPermalink }}">{{ .Parent.Parent.Title }}</a></li>
-      {{ end }}
-
-      {{/*
-      Make an exception for topics which are only used for data highlights and dashboards
-      */}}
-
-      {{ if eq .Parent.Title "Highlights_topics" }}
-      <li class="breadcrumb-item"><a href="/highlights/">Data highlights</a></li>
-      {{ else if eq .Parent.Title "Dashboards_topics" }}
-      <li class="breadcrumb-item"><a href="/dashboards/">Dashboards</a></li>
-      {{ else if eq .Parent.Title "Editorials_topics" }}
-      <li class="breadcrumb-item"><a href="/editorials/">Editorials</a></li>
-      {{ else if eq .Parent.Title "Editorials_authors" }}
-      <li class="breadcrumb-item"><a href="/editorials/">Editorials</a></li>
-      <li class="breadcrumb-item"><span style="color:#6c757d;">Authors</span></li>
-      {{ else if eq .Parent.Title "Available datasets" }}
-      <li class="breadcrumb-item"><a href="{{ .Parent.RelPermalink }}">Available datasets</a></li>
-        {{ if strings.Contains .RelPermalink "research_group_publications" }}
-        <li class="breadcrumb-item"><a href="/datasets/research_group_publications/all/">Publications with accessible data</a></li>
-        {{ else if strings.Contains .RelPermalink "central_portal_data" }}
-        <li class="breadcrumb-item"><a href="/datasets/central_portal_data/query_links/">Region based accessible data</a></li>
+<!-- Breadcrumbs -->
+{{ if .Ancestors }}
+  {{ $titles_to_split := slice "Highlights_topics" "Dashboards_topics" "Editorials_topics" "Editorials_authors" }}
+  <nav class="breadcrumbs" aria-label="breadcrumb">
+    <div class="container">
+      <ol class="breadcrumb">
+        {{ range $index, $ancestor := .Ancestors.Reverse }}
+          <!-- Special case to add parent section for taxonomy pages -->
+          {{ if in $titles_to_split $ancestor.Title }}
+            {{ $title := split $ancestor.Title "_" }}
+            {{ $section_page := .Site.GetPage (index $title 0) }}
+            <li class="breadcrumb-item"><a href="{{ $section_page.RelPermalink }}">{{ $section_page.Title }}</a>
+            <li class="breadcrumb-item"><span style="color:#6c757d;">{{ title (index $title 1) }}</span></li>
+          {{ else }}
+            <li class="breadcrumb-item"><a href="{{ $ancestor.RelPermalink }}">{{ $ancestor.Title }}</a></li>
+          {{ end }}
         {{ end }}
-      {{ else }}
-      <li class="breadcrumb-item"><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></li>
-      {{ end }}
-
-      <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
-
-    </ol>
-  </div>
-</nav>
-{{ end }}
-
+        <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+      </ol>
+    </div>
+  </nav>
 {{ end }}
