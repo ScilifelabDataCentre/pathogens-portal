@@ -17,9 +17,9 @@ The [Pathogens Data Network (PDN)](https://pathogendatanetwork.org) was formed i
 
 #### List of Pathogen Portals
 
-- [Pathogens Portal Switzerland](https://pathogensportal.ch/)
+- [Pathogens Portal Netherlands](https://www.pathogensportal.nl/)
 - [Pathogens Portal Norway](https://pathogens.no/)
-- [Pathogens Portal Netherlands](https://www.pathogensportal.nl/index.html)
+- [Pathogens Portal Switzerland](https://pathogensportal.ch/)
 
 ### National COVID-19 Data Portals
 
