@@ -6,7 +6,7 @@ banner: /updates/banners/network_PDN.jpg
 banner_caption: "Representation of a network"
 ---
 
-SciLifeLab Data Centre is part of a major international initiative to advance infectious disease data sharing. Funded by the [National Institutes of Health (NIH)](https://www.nih.gov/), the Pathogen Data Network (PDN) will build infrastructure, tools, and training to support FAIR data practices. The four-year project brings together 12 international partners and is coordinated by the [SIB Swiss Institute of Bioinformatics](https://www.sib.swiss/)).
+SciLifeLab Data Centre is part of a major international initiative to advance infectious disease data sharing. Funded by the [National Institutes of Health (NIH)](https://www.nih.gov/), the Pathogen Data Network (PDN) will build infrastructure, tools, and training to support FAIR data practices. The four-year project brings together 12 international partners and is coordinated by the [SIB Swiss Institute of Bioinformatics](https://www.sib.swiss/).
 
 > ‘The Pathogen Data Network aims to become a global, diverse and inclusive hub for distributed resources that foster infectious-disease FAIR data management and processing.’ says Aitana Neves, Associate Director of Clinical Bioinformatics at SIB. ‘With a strong focus on support, capacity building, and trustworthiness, everyone interested is welcome to join its Open Community Forum to actively engage and provide feedback to the resources that will be developed.’
 
