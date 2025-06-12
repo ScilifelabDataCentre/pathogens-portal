@@ -1,0 +1,17 @@
+---
+title: "New national Pathogens Portal node launched"
+date: 2025-06-12
+summary: The Netherlands Pathogens Portal is the latest national node to be launched.
+banner: /updates/banners/Pathogens-Portal-Logo-Netherlands-FINAL.png
+banner_caption: "Logo for the Netherlands Pathogens Portal"
+---
+
+The Swedish Pathogens Portal, developed by the SciLifeLab Data Centre, became the first national node of [EMBL-EBI's Pathogens Portal](https://www.pathogensportal.org/) in August 2023. It quickly became the basis for other national nodes.
+
+The [Swiss](https://pathogensportal.ch/) and [Norwegian](https://pathogens.no/) national nodes were launched in 2024, using funding from Horizon Europe’s [BY-COVID project](https://by-covid.org/). The Swiss node was developed by the [Swiss Institute of Bioinformatics (SIB)](https://www.sib.swiss/). It showcases Swiss resources contributing to the sharing, analysis, and interpretation of pathogens data, and provides documentation to facilitate FAIR research data management. The Norwegian node was developed by [ELIXIR Norway](https://elixir-europe.org/about-us/who-we-are/nodes/norway). It is the primary access point for the Norwegian Pathogen Data Hub, which contains pathogens data together with clinical/epidemiological metadata (available under controlled access). Both nodes collate information about national resources and projects to raise awareness and facilitate collaboration.
+
+The [Netherlands Pathogens Portal](https://www.pathogensportal.nl/) is the latest national node. It was launched at the end of May 2025 by the [Pandemic Disaster & Preparedness Center (PDPC)](https://convergence.nl/pandemic-disaster-preparedness-center/), receiving funding from the Horizon 2020 and Horizon Europe projects [VEO](https://www.veo-europe.eu/) and [BY-COVID](https://by-covid.org/), among others. Like other nodes, it collates information about resources and projects related to national pathogen data, and aims to act as a ‘one stop shop’ for national pathogens resources. Data specialists working on the node have ensured that data are structured and linked. The node launched with a considerable amount of data on [Arboviruses](https://www.pathogensportal.nl/arboviruses.html), with hundreds of data entries related to sequence, serology, and sample data, among others. Data and information related to other pathogens will follow. More information about the launch is available in a recent [interview with stakeholders](https://convergence.nl/dutch-pathogens-portal-launched/).
+
+These nodes form part of the [Pathogen Data Network (PDN)](https://pathogendatanetwork.org). Funded by NIH (award number U24AI183840), the PDN enables a world-wide ecosystem of linked data and tools to support research and public health response to infectious diseases and epidemics. Thanks to this ambitious initiative and the services it provides to the community, [more nodes are on the horizon](https://pathogendatanetwork.org/announcing-the-first-community-led-pathogens-portal-nodes/). For instance, SciLifeLab Data Centre leads work, together with EMBL-EBI, to create a knowledge base of pathogens data, and has released an [openly available code for a minimal local/national pathogens portal](https://github.com/ScilifelabDataCentre/node-pathogens-portal). This minimal code is intended to facilitate the development of other national nodes, and is being used to create the upcoming portals.
+
+To keep up to date with which other national nodes are available, check out our [national portals page](/other_national_portals).
