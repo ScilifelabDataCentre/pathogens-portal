@@ -1,0 +1,20 @@
+# <type>(scope): <short description>
+
+# Example Commit Messages:
+# feat(auth): add user authentication system
+# fix(api): resolve login endpoint timeout
+# docs(readme): update installation instructions
+
+# Example types:
+# feat     - A new feature or capability
+# fix      - A bug fix
+# content  - New content such as markdown pages under `content` directory
+# docs     - Documentation-only changes
+# test     - Adding or correcting tests
+# chore    - Maintenance, tooling, or infrastructure changes
+
+# Example Scope:
+# ui       - User interface components
+# deps     - Dependency updates
+# docs     - Documentation changes
+# ci       - CI/CD pipeline changes
