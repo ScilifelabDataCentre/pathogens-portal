@@ -21,7 +21,7 @@ The Pathogens Portal is Sweden’s national platform for sharing and accessing r
 
 ### Component Interactions & Information Flow
 
-![Information flow in current Pathogens Portal](/pathogens-portal/doc/figures/0002-CurrentInfoFlow.png)
+![Information flow in current Pathogens Portal](../../figures/0002-CurrentInfoFlow.png)
 *Figure 1: Service-level information flow*
 
 
@@ -29,7 +29,7 @@ The Pathogens Portal is Sweden’s national platform for sharing and accessing r
 - **Static content**: Manual edits by Team Freya with direct deployment
 - **Dynamic data**: Users upload raw data to BlobServer. Team Freya then configures automated scripts and cron jobs to transform and visualize the data.
 
-![Updating data workflow in current Pathogens Portal](/pathogens-portal/doc/figures/0002-CurrentActivityDiagram.png)
+![Updating data workflow in current Pathogens Portal](../../figures/0002-CurrentActivityDiagram.png)
 
 *Figure 2: User interaction workflows for updating content/data*
 
@@ -52,7 +52,7 @@ The Pathogens Portal 2.0 aims to address these limitations by redesigning it fro
 
 We will transition the Pathogens Portal (internally known as Pathogens Portal 2.0) from a monolithic static architecture to a **service-oriented, modular web application**. This new architecture will be composed of independently deployable components with well-defined responsibilities, allowing the platform to scale in both functionality and usage.
 
-![Updating data workflow in current Pathogens Portal](/pathogens-portal/doc/figures/0002-portal2.0-architecture.jpg)
+![Updating data workflow in current Pathogens Portal](../../figures/0002-portal2.0-architecture.jpg)
 
 *Figure 3: Pathogens Portal 2.0 architecture*
 
