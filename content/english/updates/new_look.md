@@ -1,8 +1,10 @@
 ---
-title: The latest updates to the COVID-19 & Pandemic Preparedness Portal  # short
+title: The latest updates to the COVID-19 & Pandemic Preparedness Portal # short
 title_full: The latest updates to the COVID-19 & Pandemic Preparedness Portal
 date: 2022-09-28
-summary: The scope of the portal has expanded in 2022 to include other pathogens and pandemic preparedness in general. We've created lots of new content and features in response to this (with more planned!).  
+summary: The scope of the portal has expanded in 2022 to include other pathogens and pandemic preparedness in general. We've created lots of new content and features in response to this (with more planned!).
+banner: /updates/banners/COVIDportal_banner.png
+banner_caption: Swedish COVID-19 and Pandemic Preparedness Portal logo
 ---
 
 ### Our new look

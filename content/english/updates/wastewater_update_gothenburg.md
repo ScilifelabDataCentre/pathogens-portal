@@ -2,8 +2,8 @@
 title: Wastewater updates for Gothenburg
 date: 2024-01-17
 summary: The Norder group at Gothenburg University have recently updated their methods related to quantifying SARS-CoV-2 and enteric viruses in wastewater. Data collected using this new method are now available, and older data collected using their previous data have been moved to a 'historic' page.
-banner: /dashboard_thumbs/wastewater.jpg
-banner_caption: Photo of a Swedish wastewater treatment plant, by Kari Kohvakka (Stockholm Vatten).
+banner: /dashboard_thumbs/wastewater_enteric_virus.png
+banner_caption: Thumbnail for the enteric virus wastewater dashboard.
 ---
 
 We have been working with the Norder group at Gothenburg University to update the [wastewater dashboard](/dashboards/wastewater/).

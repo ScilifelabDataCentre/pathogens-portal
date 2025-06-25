@@ -2,8 +2,8 @@
 title: Update to include data on enteric viruses in wastewater
 date: 2023-08-04
 summary: The Portal is happy to announce that the wastewater dashboard now includes data on the quantification of enteric viruses from the Norder group at Gothenburg University (GU).
-banner: /dashboard_thumbs/wastewater.jpg
-banner_caption: Photo of a Swedish wastewater treatment plant, by Kari Kohvakka (Stockholm Vatten).
+banner: /dashboard_thumbs/wastewater_enteric_virus.png
+banner_caption: Thumbnail for the enteric virus wastewater dashboard.
 ---
 
 Today we release the next stage of the ongoing update to our dashboard related to [wastewater-based epidemiology in Sweden](/dashboards/wastewater/introduction/). Specifically, we have released a new tab for data related to the [quantification of enteric viruses](/dashboards/wastewater/enteric_quantification/). The data and other information featured on this new tab was collected by the Norder group at Gothenburg University (GU). The data is visualised in a similar way to that on the [SARS-Cov-2 quantification pages](/dashboards/wastewater/covid_quantification/), which have long been a part of that the wastewater epidemiology dashboard. The data on the new [enteric viruses tab](/dashboards/wastewater/enteric_quantification/) can be used to determine whether there might be a potential outbreak of one or more of the viruses in Gothenburg (which is the area explored by the group).

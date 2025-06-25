@@ -2,7 +2,8 @@
 title: Relaunch as Swedish COVID-19 and Pandemic Preparedness Portal
 date: 2022-08-17
 summary: Today we officially relaunch the site as the Swedish COVID-19 and Pandemic Preparedness Portal. We have been gradually transitioning sections of the Portal throughout 2022. Our latest section involves a collation of resources related to pandemic preparedness.
-banner_caption:
+banner: /updates/banners/COVIDportal_banner.png
+banner_caption: Swedish COVID-19 and Pandemic Preparedness Portal logo
 ---
 
 Today, we are formally relaunching as the ‘COVID-19 and Pandemic Preparedness Data Portal’. This change in title reflects an expansion in our scope. Instead of focusing solely on COVID-19, we will now consider pandemic preparedness in general and will thus collate and promote resources that could be beneficial for future pandemics. This does not mean that we will stop including resources related to COVID-19. On the contrary, the resources developed for COVID-19 are likely to be of vital importance in future pandemic preparedness, and we aim to highlight this as much as possible.
