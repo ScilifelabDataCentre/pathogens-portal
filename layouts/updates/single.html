@@ -4,8 +4,8 @@
 <p class="text-muted">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).published_text }}: {{ .Date.Format "2006-01-02"}}</p>
 
 <figure class="figure float-end mx-2 w-50">
-  <img src="{{ if (isset .Params "banner_large") }}{{ .Params.banner_large }}{{ else }}{{ .Params.banner }} {{ end }}" alt="{{ .Title }}" class="img-news-banner img-thumbnail">
-  <figcaption class="figure-caption mt-1"><i>{{ .Params.banner_caption | markdownify }}</i></figcaption>
+  <img src="{{ if (isset .Params "banner") }}{{ .Params.banner }}{{ else }}{{"/updates/banners/default_banner.png"}} {{ end }}" alt="{{ .Title }}" class="img-news-banner img-thumbnail">
+  <figcaption class="figure-caption mt-1"><i>{{ "Swedish Pathogens Portal Logo" | markdownify }}</i></figcaption>
 </figure>
 
 {{ .Content }}
