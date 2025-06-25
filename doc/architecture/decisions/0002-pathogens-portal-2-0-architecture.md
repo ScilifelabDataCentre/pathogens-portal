@@ -2,7 +2,8 @@
 
 ## Status
 
-Draft
+Draft.
+Open to revisiting if the current choice of technology is deemed too cumbersome after initial prototyping.
 
 ## Context
 
@@ -10,14 +11,14 @@ The Swedish Pathogens Portal is Sweden's national Pathogens Portal Node. The aim
 
 ### Core Components
 
-**Portal Website:**
-- The Hugo frontend and JavaScript-based dynamic rendering are encapsulated into a single delivery unit that presents content to users via static builds and runtime data loading.
+**Portal website:**
+- The static site generator we currently use, Hugo, is augmented with JavaScript code to add dynamic capabilities. Everything is encapsulated into a single delivery unit.
 
 **Supporting Services:**
-- BlobServer: Stores and serves raw and processed data
-- Form Manager: Handles user-submitted forms
-- DC-Dynamic: Orchestrates scheduled job execution
-- Pathogens Portal Visualisations: Python scripts that process data and generate visualisations that are typically displayed on dashboards
+- **Blobserver:** Stores and serves raw and processed data.
+- **Form Manager:** Handles user-submitted forms.
+- **DC-Dynamic:** Orchestrates scheduled job execution.
+- **Pathogens Portal Visualisations:** Python scripts that process data and generate visualisations that are typically displayed on dashboards.
 
 ### Component Interactions & Information Flow
 
@@ -26,8 +27,9 @@ The Swedish Pathogens Portal is Sweden's national Pathogens Portal Node. The aim
 
 
 ### Workflows to Update Content
-- **Static content**: Manual edits by Team Freya with direct deployment
-- **Dynamic data**: Users upload raw data to BlobServer. Team Freya then configures automated scripts and cron jobs to transform and visualise the data. Team Freya also has some json files in Blobserver (related to events and funding opportunities, for example) that the team update and are read directly from Blobserver in Hugo, meaning that content appears dynamic. 
+- **Static content:** Manual edits in the codebase by Team Freya followed by new deployment.
+- **Dynamic user data:** Users upload raw data to Blobserver. Team Freya configures automated scripts and cron jobs to transform and visualise the data in the static pathogen portal.
+- **Dynamic team data:** Team Freya updates json files in Blobserver (related to events and funding opportunities, for example) which are analysed and injected directly into Hugo via the embedded JavaScript code to make the content appear dynamic. 
 
 ![Updating data workflow in current Pathogens Portal](../../figures/0002-CurrentActivityDiagram.png)
 
@@ -35,22 +37,24 @@ The Swedish Pathogens Portal is Sweden's national Pathogens Portal Node. The aim
 
 ### Motivation for Pathogens Portal 2.0
 
-The current Pathogens Portal architecture, while functional, has several limitations that necessitate a move towards a more dynamic, flexible, and scalable system.
+The current Pathogens Portal architecture has a number of limitations, making it necessary to adopt a more dynamic, flexible and scalable system.
 
 #### Current Limitations
 
-1. **Manual Content Management**: Static content updates require direct code changes and deployment by Team Freya, creating bottlenecks and delays
-2. **Limited User Engagement**: Users cannot directly contribute or suggest content updates through the platform
-3. **Scalability Issues**: The current workflow doesn't scale well for handling multiple data contributors and diverse content types
-4. **Limited Automation**: Data processing and visualization updates require manual intervention and script management
+From a global point of view, we are developing a dynamic site from a static framework:
+
+1. **Too many supporting services:** each service requires dedicated maintainance work, security checks and dependency updates, which increases the workload and disperses the team's efforts. 
+2. **Hard to implement data standards:** in the current workflow, there is no testing related to ensuring that the updated data and associated metadata comply with given standard, which provides very limited help to researchers.
+3. **Limited automation**: in the absence of a dedicated backend, data processing and visualisation updates require manual intervention and script management, and we cannot implement automated workflows to support the sustainable addition of new features.
 
 #### Need to redesign the Swedish Pathogens Portal
 
-The proposed changes to architecture will address these limitations by changing the Swedish Pathogens Portal from a static website to dynamic web application. This transition will transform the portal from a static information repository into an active, community-driven platform that can better serve Sweden's infectious disease and pandemic preparedness research communities.
+This ADR proposes a change in architecture that will address the limitations of the Swedish Pathogens Portal by transitioning it from a static website to a dynamic web application.
+This will allow developers to concentrate their efforts on serving the infectious disease and pandemic preparedness research communities in Sweden more effectively by maintaining fewer services and adding new, data-centred features and automated workflows.
 
 ## Decision
 
-We will transition the Swedish Pathogens Portal from a monolithic static architecture to a **service-oriented, modular web application**. This new architecture will be composed of independently deployable components with well-defined responsibilities, allowing the platform to scale in both functionality and usage.
+We will transform the Swedish Pathogens Portal from a static website into a **service-oriented, modular web application**, eliminating all supporting services such as Blobserver and Form Manager. This new architecture comprises independently deployable components with clearly defined responsibilities, enabling the Pathogens Portal to expand in terms of both functionality and usage.
 
 ![Updating data workflow in current Pathogens Portal](../../figures/0002-portal2.0-architecture.jpg)
 
@@ -58,35 +62,31 @@ We will transition the Swedish Pathogens Portal from a monolithic static archite
 
 ### Core Technology Stack
 
-* **Frontend**: [Next.js](https://nextjs.org/)
-  Responsible for rendering the user interface and interacting with APIs. Supports hybrid rendering (static and dynamic) and offers high performance for modern web delivery.
+* **Frontend**: [Next.js](https://nextjs.org/). Responsible for rendering the user interface and interacting with APIs. Supports hybrid rendering (static and dynamic) and offers high performance for modern web delivery.
 
-* **Backend**: [Django](https://www.djangoproject.com/)
-  Acts as the system’s core, exposing APIs via Django REST Framework, handling authentication, business logic, and orchestrating integrations with external systems.
+* **Backend**: [Django](https://www.djangoproject.com/). Acts as the system’s core, exposing API endpoints via Django REST framework, handling authentication, business logic, and orchestrating integrations with external systems.
 
-* **Database**: [PostgreSQL](https://www.postgresql.org/)
-  Stores structured content, metadata, configuration data, and supports advanced querying through features like JSONB and full-text search.
+* **Database**: [PostgreSQL](https://www.postgresql.org/). Stores structured content, metadata, configuration data, and supports advanced querying through features like JSONB and full-text search.
 
-* **External Services**:
-  These services will be consumed either by the frontend or backend via APIs:
+* **External Services**: These services will be consumed by the backend via their APIs:
 
-  * **Portal Storage Solution** (for data uploads and file access)
-  * **Integrated Data Services (IDS)** (for harmonized metadata and research objects)
-  * **External Repositories** (e.g., publication indexes, genomic data archives)
+  * **Portal storage solution:** for data uploads and file access
+  * **Integrated Data Services (IDS):** for harmonised metadata and research objects
+  * **External repositories:** e.g. publication indexes, genomic data archives
 
 ### Why This Architecture Approach?
 
 We chose a **service-oriented architecture (SOA)** because it provides:
 
-* **Loose coupling**: Components can evolve independently, enabling isolated deployments and targeted updates without affecting other system parts.
-* **Improved scalability**: Each service can scale based on its own resource needs, supporting future growth in data volume and user traffic.
-* **Separation of concerns**: Clean boundaries between UI, logic, and storage layers, facilitating easier maintenance and feature development.
-* **Better integration**: External APIs can be consumed easily via backend orchestration or direct frontend queries, enabling seamless data pipeline integration.
-* **AI/ML readiness**: Modular design supports easy integration of AI services, machine learning pipelines, and automated data processing workflows.
-* **Future feature flexibility**: Architecture supports rapid prototyping and deployment of new features like real-time data visualization, collaborative tools, and advanced analytics.
-* **Enhanced data pipeline integration**: Service boundaries allow for sophisticated ETL processes, data validation, and transformation workflows without impacting user-facing components.
-* **Microservices evolution path**: Current SOA design provides a foundation for future migration to microservices if needed for advanced use cases.
-* **API-first approach**: Enables multiple client types (web, mobile, third-party integrations) while maintaining consistent data access patterns.
+* **Loose coupling:** Components can evolve independently, enabling isolated deployments and targeted updates without affecting other parts of the application.
+* **Improved scalability:** Each service can scale based on its own resource needs, supporting future growth in data volume and user traffic.
+* **Separation of concerns:** Clean boundaries between UI, logic, and storage layers, facilitating easier maintenance and feature development.
+* **Better integration:** External APIs can be consumed easily via backend orchestration or direct frontend queries, enabling seamless data pipeline integration.
+* **AI/ML readiness:** Modular design supports easy integration of AI services, machine learning pipelines, and automated data processing workflows.
+* **Future feature flexibility:** Architecture supports rapid prototyping and deployment of new features like real-time data visualisation, collaborative tools, and advanced analytics.
+* **Enhanced data pipeline integration:** Service boundaries allow for sophisticated ETL processes, data validation, and transformation workflows without impacting user-facing components.
+* **Microservices evolution path:** Current SOA design provides a foundation for future migration to microservices if needed for advanced use cases.
+* **API-first approach:** Enables multiple client types (web, mobile, third-party integrations) while maintaining consistent data access patterns.
 
 This approach aligns with modern web development standards preparing the portal for more complex workflows and higher data integration.
 
@@ -103,8 +103,8 @@ This approach aligns with modern web development standards preparing the portal 
 
 | Option                                               | Reason for Rejection                                                                                                                       |
 | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Monolithic Django app** (Django + templates) | Creates tight coupling between frontend and backend, making it difficult to scale components independently, integrate external services, or implement modern frontend frameworks. Limits deployment flexibility, complicates third-party API integrations, and creates maintenance bottlenecks as the application grows. |
-| **Headless CMS** (Strapi, Directus)                  | Adds operational overhead and limits customization in terms of workflows, data validation, and complex integrations.                       |
+| **Monolithic Django app** (Django + templates) | Creates tighter coupling between frontend and backend parts, not made to scale components independently and more difficult to implement a complete frontend frameworks. |
+| **Headless CMS** (Strapi, Directus)                  | Adds operational overhead and limits customisation in terms of workflows, data validation, and complex integrations.                       |
 | **Continue with Hugo + JS + APIs**                   | Already showing scalability and maintainability limits. Poor support for dynamic workflows, user roles, and content contribution features. |
 | **Node.js (Express)** for backend                    | More boilerplate, lacks built-in features like Django admin. Team familiarity is lower.                                                    |
 
@@ -118,28 +118,30 @@ Adopting a service-oriented architecture (SOA) with decoupled frontend, backend,
 
 ### Positive Outcomes
 
-* **Improved Modularity**: Each component (frontend, backend, database) can be developed, tested, and deployed independently.
-* **Scalable Design**: The system can scale horizontally by distributing workload across services, enabling better handling of increased user traffic or data volumes.
-* **Future-Ready**: The architecture provides a strong foundation for supporting new features such as:
+* **Improved modularity:** Each component (frontend, backend, database) can be developed, tested, and deployed independently.
+* **Scalable design:** The system can scale horizontally by distributing workload across services, enabling better handling of increased user traffic or data volumes.
+* **Future-ready:** The architecture provides a strong foundation for supporting new features such as:
 
   * Automated content and data update workflows without requiring portal releases
-  * AI-powered content summarization and intelligent data processing
+  * AI-powered content summarisation and intelligent data processing
   * Real-time or scheduled data visualisations
   * Editorial workflows with automated publishing pipelines
   * Federated data integration via APIs
-  * End-to-end automation from raw data ingestion to visualization generation
+  * End-to-end automation from raw data ingestion to visualisation generation
+
 * **Flexible Integrations**: External systems like Portal Storage Solution, IDS, and domain-specific repositories can be plugged in with minimal effort.
 
 
 ### Risks & Challenges
 
-* **Team Learning Curve**: The team will need to onboard onto **Next.js**, **React-based UI development**, and managing API interactions from the frontend.
+* **Team learning curve**: The team will need to familiarise themselves with **Next.js**, **React-based UI development**, and managing API interactions from the frontend.
 * **SOA Implementation Complexity**: Adopting a service-oriented approach introduces new operational considerations such as:
 
   * Inter-service communication
   * Deployment coordination
   * Error handling and logging across services
-* **Increased Initial Overhead**: Setting up infrastructure for independent services, CI/CD, and environment management will require initial investment of time and planning.
+
+* **Increased Initial Overhead**: Setting up infrastructure for independent services, CI/CD and environment management will require initial investment of time and planning.
 
 
 ### Mitigation & Flexibility
