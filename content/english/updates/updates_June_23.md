@@ -2,6 +2,7 @@
 title: Recent updates and upcoming improvements
 date: 2023-06-22
 summary: An overview of recent updates and improvements, and things to look out for in future.
+banner: /updates/banners/COVIDportal_banner.png
 banner_caption: Swedish COVID-19 and Pandemic Preparedness Portal logo
 ---
 

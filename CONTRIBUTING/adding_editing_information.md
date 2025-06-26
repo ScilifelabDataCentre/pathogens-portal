@@ -62,11 +62,24 @@ git pull upstream develop
 
 You can now edit/add files with the text editor on your computer. You can test your changes locally, so you can see how it will look on the site. This is good for ensuring that your changes appear as intended. See [this page](https://github.com/ScilifelabDataCentre/pathogens-portal/blob/develop/CONTRIBUTING/running_a_local_copy.md) for information on how to see the effect of changes that you're making locally.
 
+When you have finished editing, commit and push to your fork.
+
+#### Configure Commit Message Template
+
+We follow a structured commit message format defined in [`.github/.gitmessage.txt`](.github/.gitmessage.txt). To use this template:
+
+```bash
+# you just need to run this command once after cloning repository
+git config --local commit.template .github/.gitmessage.txt
+```
+
+This will pre-fill your commit message editor with our lightweight conventional commit template whenever you run `git commit`.
+
 When you have finished editing, commit and push to your fork:
 
 ```bash
 git add .
-git commit -m "My changes"
+git commit  # This will open your editor with the template
 git push
 ```
 
