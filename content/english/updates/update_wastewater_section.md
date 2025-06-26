@@ -2,8 +2,8 @@
 title: Update to wastewater epidemiology dashboard
 date: 2023-04-28
 summary: The Portal team is working closely with groups at multiple Swedish universities that are involved in wastewater epidemiology to bring you the latest research in this area.
-banner: /dashboard_thumbs/wastewater.jpg
-banner_caption: Picture by Kari Kohvakka (Stockholm Vatten och Avfall).
+banner: /updates/banners/COVIDportal_banner.png
+banner_caption: Swedish COVID-19 and Pandemic Preparedness Portal logo
 ---
 
 Today, we are thrilled to release the first stage of the update of our [wastewater-based epidemiology in Sweden dashboard](/dashboards/wastewater/introduction/).

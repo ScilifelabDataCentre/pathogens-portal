@@ -1,7 +1,9 @@
 ---
-title: Explore COVID-19 publications in the field of social sciences and humanities on the Portal  # short
+title: Explore COVID-19 publications in the field of social sciences and humanities on the Portal # short
 date: 2022-12-01
 summary: The Portal contains a database of COVID-19 publications involving Swedish researchers, and an available data section that shows which share data and/or code. It has long been possible to filter both the database and available databases by certain topics. Now, it is possible to identify the research, data, and code related to social sciences and humanities.
+banner: /updates/banners/COVIDportal_banner.png
+banner_caption: Swedish COVID-19 and Pandemic Preparedness Portal logo
 ---
 
 It is now possible to easily identify social science and humanities studies that focus on COVID-19 and involve Swedish researchers.
