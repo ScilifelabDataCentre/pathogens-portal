@@ -3,7 +3,6 @@
 ## Status
 
 Draft.
-Open to revisiting if the current choice of technology is deemed too cumbersome after initial prototyping.
 
 ## Context
 
