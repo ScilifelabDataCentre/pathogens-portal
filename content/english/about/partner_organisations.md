@@ -79,3 +79,17 @@ layout: about_navbar
     </p>
   </div>
 </div>
+<hr class="faded" />
+
+<div class="row mt-4">
+  <div class="col-12 col-md-4 col-lg-3 d-none d-md-block">
+    <figure class="figure">
+      <img height="120" alt="Pathogen Data Network logo" src="/img/logos/pdn_logo.png">
+    </figure>
+  </div>
+  <div class="col-sm-12 col-md-12 col-lg-9">
+      <h6>Pathogen Data Network (PDN)</h6>
+    </p>The Swedish Pathogens Portal is part of the <a href="https://pathogendatanetwork.org/" target="_blank">Pathogen Data Network</a> (PDN), a major international initiative funded by the <a href="https://www.nih.gov/" target="_blank">National Institutes of Health</a> (NIH) <a href="https://pathogendatanetwork.org/pdn-noa/" target="_blank">(award number: U24AI183840)</a>. The project brings together 12 instutions, and is coordinated by the <a href="https://www.sib.swiss/" target="_blank">SIB Swiss Institute of Bioinformatics</a>. Stakeholders include individuals and organisation from multiple areas, including the biomedical field, hospitals, public health, social sciences, and humanities. </p>
+  </p>The Pathogen Data Network (PDN) project enables a global ecosystem of linked research outputs (e.g. data and tools) aimed at supporting infectious disease research, and improving responsiveness to outbreaks. The project covers diverse data types, including host and pathogen genomics, transcriptomics, proteins, pathways and networks, and imaging. <a href="https://pathogendatanetwork.org/about/#objectives" target="_blank">PDN’s objective</a> is four fold: fostering data discovery, supporting efficient surveillance and outbreak response, enabling trustworthy data sharing, preparing the next generation workforce. One of the primary aims of the PDN is to support the development of new Pathogen Portal Nodes (PPNs), i.e. web portal nodes related to infectious disease data that are created by local groups. The <a href="https://github.com/ScilifelabDataCentre/node-pathogens-portal" target="_blank">PPN Toolbox</a> was developed as part of the PDN project to support this effort, and groups aiming to establish a PPN are encouraged to make use of the PPN Toolbox. A list of PPNs can be found on our <a href="https://www.pathogensportal.org/national-data-portals" target="_blank">national nodes page.</a></p> 
+</div>
+</div>
