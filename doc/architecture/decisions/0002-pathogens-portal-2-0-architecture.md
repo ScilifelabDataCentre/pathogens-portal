@@ -11,7 +11,7 @@ The Swedish Pathogens Portal is Sweden's national Pathogens Portal Node (PPN). T
 ### Core Components
 
 **Portal website:**
-- The static site generator we currently use, Hugo, is augmented with JavaScript code to add dynamic capabilities. Everything is encapsulated into a single delivery unit.
+- The static site generator we currently use, Hugo, is augmented with JavaScript code to add dynamic capabilities and relies on external supporting services for data management, form submissions, job scheduling, and data visualisations.
 
 **Supporting Services:**
 - **Blobserver:** Stores and serves two main categories of data:
@@ -28,7 +28,8 @@ The Swedish Pathogens Portal is Sweden's national Pathogens Portal Node (PPN). T
 
 
 ### Workflows to Update Content
-- **Static content:** Manual edits in the codebase and data files (such as json files related to news and events etc,) by Team Freya followed by new deployment.
+
+- **Static content:** Manual edits in the codebase and data files (such as json files related to news, events, etc.) by Team Freya followed by new deployment.
 - **Dynamic user data:** Users upload raw data to Blobserver. Team Freya configures automated scripts and cron jobs to transform and visualise the data in the static pathogen portal.
 - **Dynamic team data:** Team Freya updates json files in Blobserver (related to events and funding opportunities, for example) which are analysed and injected directly into Hugo via the embedded JavaScript code to make the content appear dynamic. 
 
@@ -44,7 +45,7 @@ The current Pathogens Portal architecture has a number of limitations, making it
 
 The motivations for moving from a static web framework include: 
 
-1. **Too many supporting services:** each service requires dedicated maintainance work, security checks and dependency updates, which increases the workload and disperses the team's efforts. 
+1. **Too many supporting services:** Blobserver, Form Manager, DC-Dynamic, Visualisations. Each service requires dedicated maintenance work, security checks and dependency updates, which increases the workload and disperses the team's efforts. 
 2. **Hard to implement data standards:** in the current workflow, there is no testing related to ensuring that the updated data and associated metadata comply with given standard, which provides very limited help to researchers.
 3. **Limited automation**: in the absence of a dedicated backend, data processing and visualisation updates require manual intervention and script management, and we cannot implement automated workflows to support the sustainable addition of new features.
 
@@ -55,7 +56,9 @@ This will allow developers to concentrate their efforts on serving the infectiou
 
 ## Decision
 
-We will transition the Swedish Pathogens Portal from a static website into a **service-oriented, modular web application**, removing dependencies on supporting services like Blobserver, Form Manager, and DC-Dynamics. This new architecture comprises independently deployable components with clearly defined responsibilities, enabling the Swedish Pathogens Portal 2.0 (SPP 2.0) to expand in terms of both functionality and usage.
+We will transition the Swedish Pathogens Portal from a static website into a **modern, dynamic web application**, removing dependencies on supporting services like Form Manager and DC-Dynamics. This new architecture uses a streamlined Django-based approach with server-side rendering and dynamic client-side interactions, enabling the Swedish Pathogens Portal 2.0 (SPP 2.0) to expand in terms of both functionality and usage.
+
+Initially, Blobserver will continue to serve existing data whilst we stabilise the core Django backend. This phased approach allows for gradual migration and reduces implementation risk. Blobserver replacement will be discussed in the future Pathogens Storage System (PSS) ADR.
 
 ![Updating data workflow in current Pathogens Portal](../../figures/0002-portal2.0-architecture.jpg)
 
@@ -63,110 +66,114 @@ We will transition the Swedish Pathogens Portal from a static website into a **s
 
 ### System Boundaries and Active Decisions
 
-- Swedish Pathogens Portal 2.0 (SPP 2.0) will serve only open/public data; no general user authentication or RBAC will be implemented within the portal.
+- Swedish Pathogens Portal 2.0 (SPP 2.0) will serve only open and public data; no general user authentication or RBAC will be implemented within the portal.
 - Only staff users (Team Freya/data managers) will have authenticated access via Django's built-in authentication and authorisation mechanisms to manage portal content. This approach eliminates the need for new releases and redeployments when updating content.
 - Pathogens-related data from research groups and sensitive data management will not be handled by Swedish Pathogens Portal 2.0 (SPP 2.0) but will be delegated to the Pathogens Storage System (PSS), which will have its own ADR to describe this further.
 - Dependency removal strategy:
-  - **Blobserver:** Portal-specific dynamic data will migrate to the SPP 2.0 database. A comprehensive strategy for retiring Blobserver beyond portal-specific data is outside the scope of this ADR.
+  - **Blobserver:** Initially, SPP 2.0 will continue to consume data from Blobserver whilst the core Django backend is stabilised. Portal-specific dynamic data will migrate to the SPP 2.0 database in a subsequent phase. A comprehensive strategy for retiring Blobserver beyond portal-specific data is outside the scope of this ADR.
   - **Form Manager & DC-Dynamics:** SPP 2.0 will no longer depend on these services; their continued use by other systems is outside the scope of this ADR.
 
 ### Out of Scope
 
 This ADR focuses specifically on the architectural design and technology selection for Swedish Pathogens Portal 2.0 (SPP 2.0). The following items are explicitly excluded from this decision's scope:
 
-- **General user authentication and RBAC:** All portal content remains publicly accessible without user registration or role-based access controls
-- **Management of researcher-contributed and sensitive data:** This responsibility is delegated to the Pathogens Storage System (PSS), which will be addressed in a separate ADR
-- **Complete decommissioning strategy for Blobserver:** While portal-specific data will migrate to Swedish Pathogens Portal 2.0 (SPP 2.0), comprehensive Blobserver retirement beyond portal data is outside this ADR's scope
-- **Future use or continuity of Form Manager and DC-Dynamics:** These services will be removed from Swedish Pathogens Portal 2.0 (SPP 2.0) architecture; their potential use by other systems is not addressed here
-- **Migration strategy and implementation details:** Specific data migration procedures, timelines, and technical implementation details from current services to Swedish Pathogens Portal 2.0 (SPP 2.0) will be addressed in separate implementation planning documents
+- **General user authentication and RBAC:** All portal content remains publicly accessible without user registration or role-based access controls.
+- **Management of researcher-contributed and sensitive data:** This responsibility is delegated to the Pathogens Storage System (PSS), which will be addressed in a separate ADR.
+- **Complete decommissioning strategy for Blobserver:** While portal-specific data will migrate to Swedish Pathogens Portal 2.0 (SPP 2.0) in a subsequent phase, comprehensive Blobserver retirement beyond portal data is outside this ADR's scope.
+- **Migration strategy and implementation details:** Specific data migration procedures, timelines, and technical implementation details from current services to Swedish Pathogens Portal 2.0 (SPP 2.0) will be addressed in separate implementation planning documents.
 
 ### Core Technology Stack
 
-* **Frontend**: [Next.js](https://nextjs.org/). Responsible for rendering the user interface and interacting with APIs. Supports hybrid rendering (static and dynamic) and offers high performance for modern web delivery.
+* **Web Framework**: [Django](https://www.djangoproject.com/). Acts as the system's core, handling server-side rendering via Django templates, admin authentication, business logic, and orchestrating integrations with external systems.
 
-* **Backend**: [Django](https://www.djangoproject.com/). Acts as the system's core, exposing API endpoints via Django REST framework, handling authentication, business logic, and orchestrating integrations with external systems.
+* **Frontend Enhancement**: [htmx](https://htmx.org/). Provides modern dynamic behaviour and interactivity to Django templates without requiring a separate frontend framework. Enables AJAX requests, real-time updates, and dynamic content loading directly from HTML.
 
 * **Database**: [PostgreSQL](https://www.postgresql.org/). Stores structured content, metadata, configuration data, and supports advanced querying through features like JSONB and full-text search.
 
-* **External Services**: These services will be consumed by the backend via their APIs:
+* **External Services**: These services will be consumed by the Django application via their APIs:
 
   * **Pathogens Storage System (PSS):** for data uploads and file access
   * **Integrated Data Services (IDS):** for harmonised metadata and research objects
   * **External repositories:** e.g. publication indexes, genomic data archives
 
-### Why This Architecture Approach?
+### Why this Architecture Approach?
 
-We chose a **service-oriented architecture (SOA)** because it provides:
+We chose a **streamlined Django-based architecture** because it provides:
 
-* **Loose coupling:** Components can evolve independently, enabling isolated deployments and targeted updates without affecting other parts of the application.
-* **Improved scalability:** Each service can scale based on its own resource needs, supporting future growth in data volume and user traffic.
-* **Separation of concerns:** Clean boundaries between UI, logic, and storage layers, facilitating easier maintenance and feature development.
-* **Better integration:** External APIs can be consumed easily via backend orchestration or direct frontend queries, enabling seamless data pipeline integration.
-* **AI/ML readiness:** Modular design supports easy integration of AI services, machine learning pipelines, and automated data processing workflows.
-* **Future feature flexibility:** Architecture supports rapid prototyping and deployment of new features like real-time data visualisation, collaborative tools, and advanced analytics.
-* **Enhanced data pipeline integration:** Service boundaries allow for sophisticated ETL processes, data validation, and transformation workflows without impacting user-facing components.
-* **Microservices evolution path:** Current SOA design provides a foundation for future migration to microservices if needed for advanced use cases.
-* **API-first approach:** Enables multiple client types (web, mobile, third-party integrations) while maintaining consistent data access patterns.
+* **Simplified development:** Single framework handles both frontend and backend concerns, reducing complexity and maintenance overhead while maintaining modern web capabilities.
+* **Rapid development:** Django's batteries-included approach combined with htmx enables quick implementation of dynamic features without the complexity of managing separate frontend/backend codebases.
+* **Modern interactivity:** htmx provides dynamic, responsive user experiences comparable to modern SPAs while maintaining the simplicity of server-side rendering.
+* **Excellent SEO:** Server-side rendering ensures optimal search engine indexing and performance, critical for a content-heavy portal.
+* **Team efficiency:** Leverages existing Django expertise while introducing minimal new technology (htmx), reducing the learning curve and development time.
+* **Enhanced testing and debugging:** Single codebase simplifies testing strategies, enables comprehensive integration testing, and provides clearer debugging workflows compared to distributed service architectures.
+* **Future flexibility:** Architecture supports gradual enhancement and can evolve toward API-first approaches when needed without major rewrites.
+* **Enhanced integration:** External APIs can be consumed directly by Django views, enabling seamless data pipeline integration and real-time data processing.
+* **AI/ML readiness:** Django's Python ecosystem provides excellent support for AI services, machine learning pipelines, and automated data processing workflows.
+* **Robust admin interface:** Django's built-in admin system provides immediate content management capabilities for Team Freya.
+* **Progressive enhancement:** htmx enables adding dynamic features incrementally, allowing for gradual migration from static to dynamic content.
 
-This approach aligns with modern web development standards preparing the portal for more complex workflows and higher data integration.
+This approach aligns with modern web development standards while maintaining simplicity and leveraging the team's existing expertise.
 
 
 ### Why These Specific Technologies?
 
 | Component    | Technology | Justification                                                                                                                                                                     |
 | ------------ | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Frontend** | Next.js    | Combines static and dynamic rendering, SEO-friendly, React-based, and widely supported. Flexible enough to handle dashboard-style applications and traditional content rendering. |
-| **Backend**  | Django     | Secure, robust, and feature-rich with a built-in admin interface, powerful ORM, and mature REST tooling. Well known to the team and easy to maintain.                             |
-| **Database** | PostgreSQL | Reliable, performant, and supports advanced features such as full-text search. Integrates seamlessly with Django ORM.                                            |
+| **Web Framework** | Django     | Secure, robust, and feature-rich with built-in admin interface, powerful ORM, and comprehensive templating system. Well known to the team, battle-tested, and easy to maintain. |
+| **Frontend Enhancement** | htmx    | Lightweight, modern approach to dynamic web interfaces. Enables AJAX, WebSocket, and real-time features without complex JavaScript frameworks. Integrates seamlessly with Django templates. |
+| **Database** | PostgreSQL | Reliable, performant, and supports advanced features such as full-text search and JSONB. Integrates seamlessly with Django ORM.                                            |
 
 ### Alternatives Considered
 
 | Option                                               | Reason for Rejection                                                                                                                       |
 | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Monolithic Django app** (Django + templates) | Creates tighter coupling between frontend and backend parts, not made to scale components independently and more difficult to implement a complete frontend frameworks. |
+| **Separate Frontend/Backend** (Next.js + Django REST) | Considering the scope of SPP 2.0, having separate frontend and backend does not add any additional benefits. So, we decided to go with a simpler and more straightforward approach” |
 | **Headless CMS** (Strapi, Directus)                  | Adds operational overhead and limits customisation in terms of workflows, data validation, and complex integrations.                       |
 | **Continue with Hugo + JS + APIs**                   | Already showing scalability and maintainability limits. Poor support for dynamic workflows, user roles, and content contribution features. |
-| **Node.js (Express)** for backend                    | More boilerplate, lacks built-in features like Django admin. Team familiarity is lower.                                                    |
+| **Node.js (Express)** for backend                    | More boilerplate, lacks built-in features like Django admin. Team familiarity is lower and would require learning new ecosystem.                                                   |
+| **Django + React/Vue** as SPA                       | Adds complexity of managing frontend build tools and state management. Requires more JavaScript expertise and reduces SEO benefits.        |
 
 
-This decision positions Swedish Pathogens Portal 2.0 (SPP 2.0) for long-term maintainability and expansion, with the ability to support richer content, data interactivity, editorial workflows, and integration with SciLifeLab's broader data infrastructure.
+This decision positions Swedish Pathogens Portal 2.0 (SPP 2.0) for long-term maintainability and expansion, with the ability to support richer content, data interactivity, editorial workflows, and integration with SciLifeLab's broader data infrastructure while maintaining development simplicity and leveraging existing team expertise.
 
 
 ## Consequences
 
-Adopting a service-oriented architecture (SOA) with decoupled frontend, backend, and database components introduces both **benefits** and **trade-offs**.
+Adopting a streamlined Django-based architecture with htmx for dynamic behaviour introduces both **benefits** and **trade-offs**.
 
 ### Positive Outcomes
 
-* **Improved modularity:** Each component (frontend, backend, database) can be developed, tested, and deployed independently.
-* **Scalable design:** The system can scale horizontally by distributing workload across services, enabling better handling of increased user traffic or data volumes.
+* **Simplified development workflow:** Single codebase to maintain, test, and deploy, reducing operational overhead and development complexity.
+* **Faster development cycles:** Django's batteries-included approach combined with htmx enables rapid implementation of features without managing separate frontend/backend coordination.
 * **Future-ready:** The architecture provides a strong foundation for supporting new features such as:
 
   * Automated content and data update workflows without requiring portal releases
   * AI-powered content summarisation and intelligent data processing
-  * Real-time or scheduled data visualisations
+  * Real-time or scheduled data visualisations via htmx
   * Editorial workflows with automated publishing pipelines
   * Federated data integration via APIs
   * End-to-end automation from raw data ingestion to visualisation generation
 
-* **Flexible Integrations**: External systems like Pathogens Storage System (PSS), IDS, and domain-specific repositories can be plugged in with minimal effort.
+* **Flexible Integrations**: External systems like Pathogens Storage System (PSS), IDS, and domain-specific repositories can be integrated directly into Django views with minimal effort.
+* **Enhanced SEO and Performance**: Server-side rendering ensures optimal search engine indexing and fast initial page loads.
+* **Progressive Enhancement**: htmx allows adding dynamic features incrementally without breaking existing functionality.
 
 
 ### Risks & Challenges
 
-* **Team learning curve**: The team will need to familiarise themselves with **Next.js**, **React-based UI development**, and managing API interactions from the frontend.
-* **SOA Implementation Complexity**: Adopting a service-oriented approach introduces new operational considerations such as:
+* **Team learning curve**: The team will need to familiarise themselves with **htmx** and modern Django patterns for dynamic web development.
+* **Monolithic considerations**: As the application grows, careful attention must be paid to:
 
-  * Inter-service communication
-  * Deployment coordination
-  * Error handling and logging across services
+  * Code organisation and modularity within the Django application
+  * Database performance and query optimisation
+  * Asset management and caching strategies
 
-* **Increased Initial Overhead**: Setting up infrastructure for independent services, CI/CD and environment management will require initial investment of time and planning.
+* **htmx ecosystem**: While growing rapidly, htmx has a smaller ecosystem compared to React/Vue, potentially limiting third-party component availability.
 
 
 ### Mitigation & Flexibility
 
-* The architecture is **intentionally designed to evolve**. If certain design choices prove to be blockers (e.g., service boundaries, data flows, performance), the modular nature of the system allows adjustments without major rewrites.
-* Initial implementation will **reproduce the existing features** of the current Swedish Pathogens Portal, ensuring continuity. As the team gains familiarity, the architecture will support gradual rollout of more advanced features.
-* If requirements change in the future and SPP 2.0 needs to support a general userbase or implement RBAC, the Django backend can support these features, and a new ADR will be created to document and guide such changes.
+* The architecture is **intentionally designed to evolve**. If certain design choices prove to be blockers (e.g., performance, complexity), the Django foundation can support migration to API-first approaches or microservices without major rewrites.
+* Initial implementation will **reproduce the existing features** of the current Swedish Pathogens Portal, ensuring continuity. As the team gains familiarity with htmx, the architecture will support gradual rollout of more advanced dynamic features.
+* If requirements change in the future and SPP 2.0 needs to support a general userbase, implement RBAC, or require API endpoints for external integrations, the Django architecture can support these features, and a new ADR will be created to document and guide such changes.
 
