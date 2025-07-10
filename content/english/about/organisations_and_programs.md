@@ -24,6 +24,20 @@ layout: about_navbar
 
 <div class="row mt-4">
   <div class="col-12 col-md-4 col-lg-3 d-none d-md-block">
+    <figure class="figure mt-3">
+      <img height="40" alt="BY-COVID logo" src="/img/logos/by-covid-logo.svg">
+    </figure>
+  </div>
+  <div class="col-12 col-md-8 col-lg-9">
+      <h6>BY-COVID (BeYond COVID)</h6>
+     <p><a href="https://by-covid.org/" target="_blank">BY-COVID</a> (BeYond COVID) project is a European initiative aiming to enhance pandemic preparedness and future infectious disease response through the development and integration of open, interoperable data resources. The project is funded by the European Union’s <a href="https://by-covid.org/news-events/by-covid-launch/" target="_blank">Horizon Europe programme</a> and coordinated by ELIXIR, in collaboration with a broad network of European research infrastructures and public health institutions that brings together <a href="https://by-covid.org/about" target="_blank">53 partners from 19 countries.</a></p> <p>The BeYond-COVID (BY-COVID) project aims to make COVID-19 data accessible to anyone that can use it, including medical staff in hospitals, researchers in labs, and government officials. The project will provide a framework for making data from other infectious diseases open and accessible to everyone. The project will integrate established national and European infrastructures with ELIXIR, BBMRI, ECRIN, PHIRI and CESSDA. It will build on existing efforts, such as the <a href="https://www.covid19dataportal.org/" target="_blank">COVID-19 Data Platform</a> and the <a href="https://www.veo-europe.eu/" target="_blank">Versatile Emerging infectious disease Observatory project (VEO)</a>, in order to maximise efficiency. It will also develop synergies with the European Health Data Space.</p>
+    <p>Members of the Portal team are involved in the development of the <a href="https://www.infectious-diseases-toolkit.org" target="_blank">Infectious Disease Toolkit</a>, a major deliverable of the BY-COVID project. For more information about the project see the <a href="https://by-covid.org/" target="_blank">official BY-COVID website</a>. </p>
+  </div>
+</div>
+<hr class="faded" />
+
+<div class="row mt-4">
+  <div class="col-12 col-md-4 col-lg-3 d-none d-md-block">
     <figure class="figure">
       <img width="250" alt="KAW logo" src="/img/logos/scilifelab_kaw_logo.png">
     </figure>
