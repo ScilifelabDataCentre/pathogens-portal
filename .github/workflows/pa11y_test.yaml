@@ -1,12 +1,12 @@
-# Pa11y: A tool to check accessibility issue on a webpage
+# Pa11y: A tool to check accessibility issues on a webpage
 # The config file and sitemap file used by this workflow
-# is in the ".github" directory of the repositiory
+# are in the ".github" directory of the repository
 #
-# This workflow is configured to run weekly on 12:12 every Friday
-# It can also be run manually from repo's Gihthub page
+# This workflow is configured to run weekly at 12:12 every Friday
+# It can also be run manually from repo's GitHub page
 #----------------------------------------------------------------
 
-name: Pa11ly Accessibitly Check
+name: Pa11ly Accessibility Check
 on:
   workflow_dispatch:
   schedule:
