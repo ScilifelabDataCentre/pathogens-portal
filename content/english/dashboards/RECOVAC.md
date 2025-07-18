@@ -40,7 +40,7 @@ In each case, the data are subdivided according to the number of doses received 
 
 The top graph in this section shows data on vaccine coverage (i.e. the proportion of the population that has received a given number of doses). The data are from the National Vaccination Register at the Public Health Agency of Sweden (PHAS) and population register data from Statistics Sweden (SCB).
 
-COVID-19 vaccinations first became available in Sweden in late December 2020. They were first offered to those most at risk of developing serious symptoms (i.e. the elderly and those with certain comorbidities). For more details on the vaccine rollout in Sweden, please see our [page on vaccines](https://www.covid19dataportal.se/dashboards/vaccines/).
+COVID-19 vaccinations first became available in Sweden in late December 2020. They were first offered to those most at risk of developing serious symptoms (i.e. the elderly and those with certain comorbidities). For more details on the vaccine rollout in Sweden, please see our [page on vaccines](https://www.pathogens.se/dashboards/vaccines/).
 
 There is a clear trend in the coverage for each dose. Specifically, the levels of coverage initially increase slowly, and then rapidly increase before reaching a plateau. This is in line with the fact that vaccines were made available to more of the population over time; vaccines were initially made available to risk groups and the elderly, and eventually became available to most of the population, including younger age groups.
 
