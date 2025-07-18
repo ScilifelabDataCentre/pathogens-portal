@@ -59,7 +59,7 @@ The work of the project is now expanding into the area of flavivirus (Tick-borne
 
 The project is also collaborating with another SciLifeLab PLP project [“Systems-level immunomonitoring to unravel immune response to a novel pathogen”](/resources/immunomonitoring/), headed by Petter Brodin (Karolinska Institutet, KI) and Jochen Schwenk (KTH), to include a wide range of externally produced antigens representing a large part of the Swedish vaccination program, see list below.
 
-The multi-disease serological assay is under constant development and will gradually be incorporated into two SciLifeLab infrastructure units; [Autoimmunity and Serology Profiling](https://www.scilifelab.se/units/autoimmunity-profiling/) and [Affinity Proteomics Stockholm](https://www.scilifelab.se/units/affinity-proteomics/). The goal is to provide a flexible and quickly adaptable assay for high-throughput multiplex studies on seroprevalence, available to both the Public Health Agency of Sweden and researchers in academia and industry.
+The multi-disease serological assay is under constant development and will gradually be incorporated into two SciLifeLab infrastructure units; [Autoimmunity and Serology Profiling](https://www.scilifelab.se/units/affinity-proteomics/) and [Affinity Proteomics Stockholm](https://www.scilifelab.se/units/affinity-proteomics/). The goal is to provide a flexible and quickly adaptable assay for high-throughput multiplex studies on seroprevalence, available to both the Public Health Agency of Sweden and researchers in academia and industry.
 
 ### Externally produced antigens
 

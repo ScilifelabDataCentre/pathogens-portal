@@ -46,7 +46,6 @@ The portal is operated by the <a target="_blank" href="https://scilifelab.se/dat
 
 SciLifeLab Data Centre (year) pathogens-portal. version: (version number)[Software]. Zenodo. <https://zenodo.org/doi/10.5281/zenodo.10629602>.
 
-SciLifeLab Data Centre (year) pathogens-portal-visualisations. version: (version number)[Software]. Zenodo. _DOI to be confirmed_.
 
 ## Journalists
 
