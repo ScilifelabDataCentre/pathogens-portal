@@ -3,174 +3,180 @@
 </section>
 
 <script>
-  // Functions need to be run when the DOM is ready
-  document.addEventListener("DOMContentLoaded", function (event) {
-    // Takes a URL and calls the callback function pass the data fetched
-    function getDataFromUrl(url, load_callback, loadend_callback) {
-      var req = new XMLHttpRequest();
-      req.overrideMimeType("application/json");
-      req.open("GET", url, true);
-      // The function call for fetching data and display
-      req.onload = function () {
-        load_callback(JSON.parse(req.responseText));
-      };
-      // Add the search function to inputs
-      req.onloadend = function () {
-        $('input:checkbox').on('change', loadend_callback);
-        $("input[type=text]").on("input", loadend_callback);
-      };
-      req.send(null);
-    }; // function "getDataFromUrl" ends here
+  // Takes a URL and calls the callback function pass the data fetched
+  async function getDataFromUrl(url) {
+    const response = await fetch(url);
+    // throw error if any problem
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data = await response.json();
+    return data;
+  }; // function "getDataFromUrl" ends here
 
-    // Function to add data source to the page
-    function addDataSources(dataArray) {
-      var dsList = [], resource_type=[], data_type=[];
-      dataArray.forEach(ds => {
-        if (typeof ds.ddls !== 'undefined') {
-          var scientificArea = ds.ddls.map(sa => sa.toLowerCase());
-        } else {
-          var scientificArea = [];
-        }
-        if (scientificArea.includes("epidemiology and biology of infection")) {
-          dsList.push(ds);
-          if (typeof ds.type !== 'undefined') {
-            ds.type.forEach((t) => {if(!resource_type.includes(t.toLowerCase())){resource_type.push(t.toLowerCase())}});
-          }
-          if (typeof ds.data !== 'undefined') {
-            ds.data.forEach((d) => {if(!data_type.includes(d.toLowerCase())){data_type.push(d.toLowerCase())}});
-          }
-        }
-      });
-      
-      // Sort the arrays
-      dsList = dsList.sort((a,b) => (a.name > b.name) ? 1 : (a.name < b.name) ? -1 : 0);
-      resource_type = resource_type.sort();
-      data_type = data_type.sort();
-
-      // HTML template for the page
-      var dsHTML = `<div class="row mt-3 mb-5">
-                    <div class="col-lg-2 pe-lg-0" id="ds-filters">
-                    <div class="bg-light p-3" style="position: sticky; top: 15px;">
-                      <h5>Search</h5>
-                      <div class="input-group">
-                        <input type="text" id="Search" class="form-control" placeholder="Name/Keywords">
-                        <label class ="form-control-label" for="Search" aria-labelledby="Search"> 
-                      </div>`;
-      if (resource_type.length > 0) {
-        dsHTML += `<h5 class="mt-3">Resource Type</h5>`;
-          resource_type.forEach((rt) => {
-            dsHTML += `<div class="form-check">   
-                        <input class="form-check-input" type="checkbox" id="${rt}" name="resource-type" value="${rt.replaceAll(" ", "-").toLowerCase()}">
-                        <label class="form-check-label" for="${rt}">${rt.charAt(0).toUpperCase() + rt.slice(1)}</label>
-                       </div>`;
-          });
+  // Function to add data source to the page
+  async function addDataSources(dataArray) {
+    let dsList = [], resource_type=[], data_type=[];
+    let scientificArea;
+    dataArray.forEach(ds => {
+      if (typeof ds.ddls !== 'undefined') {
+        scientificArea = ds.ddls.map(sa => sa.toLowerCase());
+      } else {
+        scientificArea = [];
       }
-      if (data_type.length > 0) {
-        dsHTML += `<h5 class="mt-3">Data Type</h5>`;
-          data_type.forEach((dt) => {
-            dsHTML += `<div class="form-check">   
-                        <input class="form-check-input" type="checkbox" id="${dt}" name="data-type" value="${dt.replaceAll(" ", "-").toLowerCase()}">
-                        <label class="form-check-label" for="${dt}">${dt.charAt(0).toUpperCase() + dt.slice(1)}</label>
-                       </div>`;
-          });
-      };
-      dsHTML += `</div>
-                  </div>
-                    <div class="col-lg mt-2 mt-lg-0">
-                      <div class="row g-3" id="ds-container">`;
-      dsList.forEach((ds) => {
-        var this_ds_rtype, this_ds_dtype, this_ds_search;
-        if (typeof ds.type !== 'undefined'){
-            this_ds_rtype = ds.type.map(rt => rt.replaceAll(" ", "-").toLowerCase()).join(" ");
-        };
-        if (typeof ds.data !== 'undefined'){
-            this_ds_dtype = ds.data.map(dt => dt.replaceAll(" ", "-").toLowerCase()).join(" ");
-        };
-        if (typeof ds.search_tags !== 'undefined'){
-            this_ds_search = ds.search_tags.map(st => st.replaceAll(" ", "-").toLowerCase()).join(" ");
-        };
-        dsHTML += `<div class="col-md-6 col-lg-4 dsource" data-rtype="${this_ds_rtype}" data-dtype="${this_ds_dtype}" data-search-tags="${this_ds_search}">
-                    <div class="bg-dashboard">
-                      <div aria-hidden="true">
-                        <a target="_blank" href="${ds.url}">
-                          <img class="img-fluid" alt="${ds.name}" 
-                          src="https://raw.githubusercontent.com/ScilifelabDataCentre/data.scilifelab.se/main/static${ds.thumbnail ? ds.thumbnail : '/img/service_thumbnails/scilifelab.jpg'}">
-                        </a>
-                      </div>
-                      <div class="p-2 bg-dashboard-title">
-                        <h6><a href="${ ds.url }" target="_blank">${ ds.name }</a></h6>
-                      </div>
-                      <div class="p-2">
-                        ${ ds.description }
-                      </div>
-                      <div class="p-2">
-                        <b>Type:</b> ${ds.type.map(rt => rt.charAt(0).toUpperCase() + rt.slice(1)).join(", ")}
-                      </div>
-                    </div>
-                  </div>`;
-      });
-      dsHTML += `<div id="no-filtered-dsource" style="display:none;">
-                  <p class="text-center">No data sources have the given keyword, please try to use another.</p>
+      if (scientificArea.includes("epidemiology and biology of infection")) {
+        dsList.push(ds);
+        if (typeof ds.type !== 'undefined') {
+          ds.type.forEach((t) => {if(!resource_type.includes(t.toLowerCase())){resource_type.push(t.toLowerCase())}});
+        }
+        if (typeof ds.data !== 'undefined') {
+          ds.data.forEach((d) => {if(!data_type.includes(d.toLowerCase())){data_type.push(d.toLowerCase())}});
+        }
+      }
+    });
+    
+    // Sort the arrays
+    dsList = dsList.sort((a,b) => (a.name > b.name) ? 1 : (a.name < b.name) ? -1 : 0);
+    resource_type = resource_type.sort();
+    data_type = data_type.sort();
+
+    // HTML template for the page
+    let dsHTML = `<div class="row mt-3 mb-5">
+                  <div class="col-lg-2 pe-lg-0" id="ds-filters">
+                  <div class="bg-light p-3" style="position: sticky; top: 15px;">
+                    <h5>Search</h5>
+                    <div class="input-group">
+                      <input type="text" id="Search" class="form-control" placeholder="Name/Keywords">
+                      <label class ="form-control-label" for="Search" aria-labelledby="Search"> 
+                    </div>`;
+    if (resource_type.length > 0) {
+      dsHTML += `<h5 class="mt-3">Resource Type</h5>`;
+        resource_type.forEach((rt) => {
+          dsHTML += `<div class="form-check">   
+                      <input class="form-check-input" type="checkbox" id="${rt}" name="resource-type" value="${rt.replaceAll(" ", "-").toLowerCase()}">
+                      <label class="form-check-label" for="${rt}">${rt.charAt(0).toUpperCase() + rt.slice(1)}</label>
+                      </div>`;
+        });
+    }
+    if (data_type.length > 0) {
+      dsHTML += `<h5 class="mt-3">Data Type</h5>`;
+        data_type.forEach((dt) => {
+          dsHTML += `<div class="form-check">   
+                      <input class="form-check-input" type="checkbox" id="${dt}" name="data-type" value="${dt.replaceAll(" ", "-").toLowerCase()}">
+                      <label class="form-check-label" for="${dt}">${dt.charAt(0).toUpperCase() + dt.slice(1)}</label>
+                      </div>`;
+        });
+    };
+    dsHTML += `</div>
                 </div>
+                  <div class="col-lg mt-2 mt-lg-0">
+                    <div class="row g-3" id="ds-container">`;
+    dsList.forEach((ds) => {
+      let this_ds_rtype, this_ds_dtype, this_ds_search;
+      if (typeof ds.type !== 'undefined'){
+          this_ds_rtype = ds.type.map(rt => rt.replaceAll(" ", "-").toLowerCase()).join(" ");
+      };
+      if (typeof ds.data !== 'undefined'){
+          this_ds_dtype = ds.data.map(dt => dt.replaceAll(" ", "-").toLowerCase()).join(" ");
+      };
+      if (typeof ds.search_tags !== 'undefined'){
+          this_ds_search = ds.search_tags.map(st => st.replaceAll(" ", "-").toLowerCase()).join(" ");
+      };
+      dsHTML += `<div class="col-md-6 col-lg-4 dsource" data-rtype="${this_ds_rtype}" data-dtype="${this_ds_dtype}" data-search-tags="${this_ds_search}">
+                  <div class="bg-dashboard">
+                    <div aria-hidden="true">
+                      <a target="_blank" href="${ds.url}">
+                        <img class="img-fluid" alt="${ds.name}" 
+                        src="https://raw.githubusercontent.com/ScilifelabDataCentre/data.scilifelab.se/main/static${ds.thumbnail ? ds.thumbnail : '/img/service_thumbnails/scilifelab.jpg'}">
+                      </a>
+                    </div>
+                    <div class="p-2 bg-dashboard-title">
+                      <h6><a href="${ ds.url }" target="_blank">${ ds.name }</a></h6>
+                    </div>
+                    <div class="p-2">
+                      ${ ds.description }
+                    </div>
+                    <div class="p-2">
+                      <b>Type:</b> ${ds.type.map(rt => rt.charAt(0).toUpperCase() + rt.slice(1)).join(", ")}
+                    </div>
+                  </div>
+                </div>`;
+    });
+    dsHTML += `<div id="no-filtered-dsource" style="display:none;">
+                <p class="text-center">No data sources have the given keyword, please try to use another.</p>
               </div>
             </div>
-          </div>`;
+          </div>
+        </div>`;
 
-      var dsSection = document.getElementById('ds-section');
-      dsSection.innerHTML = dsHTML;
-    };// function add data source ends here
+    let dsSection = document.getElementById('ds-section');
+    dsSection.innerHTML = dsHTML;
+  };// function add data source ends here
 
-    // Function to enable filtering after loading the page
-    function searchAndFilter(){
-      // Get all the imputs
-      var selected_filters = new Object();
-      var resource_type = $("input:checkbox[name=resource-type]:checked").map(function () {return this.value}).get();
-      if (resource_type.length){ selected_filters['data-rtype'] = resource_type };
-      var data_type = $("input:checkbox[name=data-type]:checked").map(function () {return this.value}).get();
-      if (data_type.length){ selected_filters['data-dtype'] = data_type };
-      var search_text = $("input[type=text]").val().toLowerCase();
-      if (search_text.length){ selected_filters['data-search-tags'] = [search_text] };
+  // Function to enable filtering after loading the page
+  function searchAndFilter(){
+    // Get all the imputs
+    let selected_filters = new Object();
+    let resource_type = $("input:checkbox[name=resource-type]:checked").map(function () {return this.value}).get();
+    if (resource_type.length){ selected_filters['data-rtype'] = resource_type };
+    let data_type = $("input:checkbox[name=data-type]:checked").map(function () {return this.value}).get();
+    if (data_type.length){ selected_filters['data-dtype'] = data_type };
+    let search_text = $("input[type=text]").val().toLowerCase();
+    if (search_text.length){ selected_filters['data-search-tags'] = [search_text] };
 
-      // Hide all services before filtering
-      $(`div.dsource`).hide();
-      $(`div#no-filtered-dsource`).hide();
+    // Hide all services before filtering
+    $(`div.dsource`).hide();
+    $(`div#no-filtered-dsource`).hide();
 
-      // Show relavant services based on selected criteria
-      if (!Object.keys(selected_filters).length) {
-        $("div.dsource").show();
-      } else {
-        var all_selected_sources = [];
-        // Iterate over all selected criteria and collect the services
-        for (var [filter_name, filter_list] of Object.entries(selected_filters)) {
-          var s_sources = new Set;
-          filter_list.forEach(function (filter_value) {
-            $(`div.dsource[${filter_name}*=${filter_value}]`).each(function () { s_sources.add(this); });
-          });
-          all_selected_sources.push(s_sources);
-        };
-        // When multiple criteria selectd it should act as AND not OR
-        selected_sources = all_selected_sources.reduce(function (x, y) {
-          var z = new Set;
-          x.forEach(v => y.has(v) && z.add(v));
-          return z;
+    // Show relavant services based on selected criteria
+    if (!Object.keys(selected_filters).length) {
+      $("div.dsource").show();
+    } else {
+      let all_selected_sources = [];
+      // Iterate over all selected criteria and collect the services
+      for (let [filter_name, filter_list] of Object.entries(selected_filters)) {
+        let s_sources = new Set;
+        filter_list.forEach(function (filter_value) {
+          $(`div.dsource[${filter_name}*=${filter_value}]`).each(function () { s_sources.add(this); });
         });
-        // Set display for event with selected criteria
-        if (selected_sources.size) {
-          selected_sources.forEach(function (sSource) { sSource.style.display = ''; })
-        } else {
-          // Display a message if no events available for selected criteria
-          $('div#no-filtered-dsource').show();
-        };
+        all_selected_sources.push(s_sources);
       };
-    } // function search and filter ends here
+      // When multiple criteria selectd it should act as AND not OR
+      selected_sources = all_selected_sources.reduce(function (x, y) {
+        let z = new Set;
+        x.forEach(v => y.has(v) && z.add(v));
+        return z;
+      });
+      // Set display for event with selected criteria
+      if (selected_sources.size) {
+        selected_sources.forEach(function (sSource) { sSource.style.display = ''; })
+      } else {
+        // Display a message if no events available for selected criteria
+        $('div#no-filtered-dsource').show();
+      };
+    };
+  } // function search and filter ends here
 
-    // Call the function to fetch, parse and display events
-    getDataFromUrl(
-      decodeURIComponent("https%3A%2F%2Fraw.githubusercontent.com%2FScilifelabDataCentre%2Fdata.scilifelab.se%2Fmain%2Fdata%2Fdata_sources.json"),
-      addDataSources,
-      searchAndFilter
-    );
+// Functions need to be run when the DOM is ready
+  document.addEventListener("DOMContentLoaded", async () => {
+    // get data sources from data.scilifelab.se
+    let dataSources = await getDataFromUrl(decodeURIComponent("https%3A%2F%2Fraw.githubusercontent.com%2FScilifelabDataCentre%2Fdata.scilifelab.se%2Fdevelop%2Fdata%2Fdata_sources.json"));
+    
+    // get potential data sources from data.scilifelab.se services
+    let services = await getDataFromUrl(decodeURIComponent("https%3A%2F%2Fraw.githubusercontent.com%2FScilifelabDataCentre%2Fdata.scilifelab.se%2Fdevelop%2Fdata%2Fservices.json"));
+    services.forEach((s) => {
+      if (typeof s.data_source_type !== 'undefined') {
+        s.type = s.data_source_type;
+        dataSources.push(s);
+      }
+    });
 
+    // render HTML for the collected data sources
+    await addDataSources(dataSources);
+
+    // enable search and filter
+    $('input:checkbox').on('change', searchAndFilter);
+    $("input[type=text]").on("input", searchAndFilter);
   }) // DOM loaded function ends here
 </script>
 
