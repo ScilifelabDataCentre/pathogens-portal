@@ -22,23 +22,6 @@ The primary objectives include assessing response times and the laboratory's cap
 
 The project serves to evaluate pandemic preparedness effectiveness and identify areas for potential enhancement. Through these concerted efforts, this initiative aims to strengthen our collective capacity to respond swiftly and effectively to emerging infectious threats.
 
-##### List of participants:
-
-In total, there are 11 participants in 12 institutes:
-
-- Akademiska Sjukhus Uppsala
-- Clinical Genomics Stockholm (SciLifeLab infrastructure unit)
-- Clinical Genomics Umeå (SciLifeLab infrastructure unit)
-- Clinical Genomics Örebro (SciLifeLab infrastructure unit)
-- Karolinska Institute (P3 facility)
-- KTH Royal Institute of Technology
-- Linköping University Hospital
-- National Pandemic Centre (NPC)
-- National Veterinary Institute (SVA)
-- Swedish Defence Research Agency (FOI)
-- Swedish Pathogens Portal
-- Swedish University of Agricultural Sciences (SLU)
-
 ##### Outcomes
 
 ###### Summary of the sequence of events
@@ -86,3 +69,36 @@ These names refer to the same species, as they have been recognised as synonyms 
 </div>
 
 **Code used to produce plot:** [Script to produce plot](https://github.com/ScilifelabDataCentre/pathogens-portal-visualisations/blob/main/PLP/PLP-TEST-labs-analysis-phase-2.py).
+
+##### Research findings:
+
+Detecting pathogens directly from blood samples proved to be more difficult than expected. Pathogens are typically present in extremely low concentrations, making it statistically unlikely to capture even a single cell when extracting DNA from a standard extraction volume of a 200 µl blood sample.
+
+Additionally, blood culture bottles may contain chemicals that inhibit DNA extraction or interfere with sequencing steps. In the second phase of the study, EDTA tubes with 4 ml of blood and a higher sample extraction volume was used. While this improved detection rates, blood remains a challenging sample type for comprehensive metagenomic pathogen analysis. Further research is necessary to develop effective methods that enhance pathogen detection from blood, leading to better diagnostic tools. 
+
+A centralized follow up of all results and data requires a reporting standard. This needs to be
+developed in future.
+
+##### Impact on prepardness for future pandemics:
+
+The next epidemic or pandemic could be caused by an unexpected pathogen, making it impossible to predict which clinical samples will be most relevant for diagnosis. To ensure preparedness, reliable detection methods must be available for a wide range of sample types.
+
+Our project focused on blood, driving significant advancements in metagenomic analysis for pathogen detection. However, many other sample types, such as respiratory secretions, stool, or tissue samples, also require further method development to ensure accurate and efficient microbia detection. Strengthening diagnostic capabilities across diverse sample types will enhance early detection, improve patient outcomes, and bolster global readiness for future infectious disease
+outbreaks.
+
+##### List of participants:
+
+In total, there are 11 participants in 12 institutes:
+
+- Akademiska Sjukhus Uppsala
+- Clinical Genomics Stockholm (SciLifeLab infrastructure unit)
+- Clinical Genomics Umeå (SciLifeLab infrastructure unit)
+- Clinical Genomics Örebro (SciLifeLab infrastructure unit)
+- Karolinska Institute (P3 facility)
+- KTH Royal Institute of Technology
+- Linköping University Hospital
+- National Pandemic Centre (NPC)
+- National Veterinary Institute (SVA)
+- Swedish Defence Research Agency (FOI)
+- Swedish Pathogens Portal
+- Swedish University of Agricultural Sciences (SLU)
