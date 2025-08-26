@@ -17,9 +17,11 @@ The [Pathogens Data Network (PDN)](https://pathogendatanetwork.org) was formed i
 
 #### List of Pathogen Portals
 
+- [Pathogens Portal Costa Rica](https://pathogensportal.ucr.ac.cr/)
 - [Pathogens Portal Netherlands](https://www.pathogensportal.nl/)
 - [Pathogens Portal Norway](https://pathogens.no/)
 - [Pathogens Portal Switzerland](https://pathogensportal.ch/)
+- [Pathogens Portal Spain](https://pathogensportal.isciii.es/)
 
 ### National COVID-19 Data Portals
 
