@@ -18,3 +18,11 @@ Throughout the recent SARS-CoV-2 pandemic, it has been evident that a swift resp
 #### Continuation funding
 
 This capability received funding from the REPLPCM call to continue their work. Please see our <a href="/plp-program-background/#progress-to-date-previous-calls">PLP background information page</a> for more information about the REPLPCM call.
+
+##### Research findings:
+
+Rapid detection and monitoring of emergent diseases are possible and constitutes an important factor of the first line of defense against a new pandemic.
+
+##### Impact on prepardness for future pandemics:
+
+Given that commercial procedures for detection and diagnostics of a novel and unknown pathogen are slow and characterized by poor performance it is instrumental for clinical laboratories to have the capacity to design and validate the most urgent assays in house. A key factor is thus that these laboratories maintain the competence and expertise to match these demands.

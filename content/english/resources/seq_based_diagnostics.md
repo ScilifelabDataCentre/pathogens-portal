@@ -25,3 +25,12 @@ This capability received funding from the REPLPCM call to continue their work. P
 - Adapt methods to reduce background genetic information that is inherently present in clinical specimens.
 - Adapt real-time bioinformatic detection using the MinION Oxford Nanopore using a real-time detection protocol.
 - Establish the methodology in the clinical laboratory using a workshop series.
+
+##### Research findings:
+
+We developed a flexible and powerful method to identify viruses directly from patient samples using sequencing technologies. This method can detect both known and unknown viruses and works even when the virus has many genetic variants, like HIV. The technique doesn't need complicated lab steps and can be used directly in hospital labs, making it faster and easier to get accurate results during outbreaks.
+
+##### Impact on prepardness for future pandemics:
+
+The method allows for rapid and accurate virus detection in clinical settings, helping doctors quickly identify the cause of infections. It works for both common and emerging viruses, making it a valuable tool during pandemics. By improving our ability to detect and monitor viruses in fast, this approach strengthens public health response and helps prevent the
+spread of infectious diseases.

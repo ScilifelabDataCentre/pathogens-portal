@@ -38,3 +38,14 @@ We plan to analyse clinical samples with common viruses (for example Influenza A
 ##### Continuation funding:
 
 This capability received funding from the REPLPCM call to continue their work. Please see our <a href="/plp-program-background/#progress-to-date-previous-calls">PLP background information page</a> for more information about the REPLPCM call. With this funding, the capability will focus on the implementation of the metagenomic NGS platform and develop a workflow for clinical use, both for diagnostics and surveillance. Effort will also be put into reaching out to clinicians to inform of the new possibilities that the NGS platform has to offer as a novel diagnostic tool for viral diseases – including unknown viruses.
+
+##### Research findings:
+
+We have found that the virus targeting sequencing method (including wet lab and bioinformatic pipeline) can detect very low numbers of virus in patient samples. The method can detect viruses present in patient samples from various locations, such as serum, plasma, cerebrospinal fluid (CSF), and vesicle samples. The methodology can not only detect viruses at the species level, but it can also, in many cases, generate whole genome sequences. Thus, it is suitable for outbreak investigations. The bioinformatic pipeline we developed is working as anticipated; sequence data is transformed into interactive graphs and data tables that are easily interpretable by clinicians.
+
+In a collaboration we have also searched for viruses in ticks from the African wildlife, where our methodology could detect non-human viruses. This demonstrates that the method is capable of detecting animal viruses with zoonotic potential, which may cross the species barrier and emerge as human pathogens
+
+##### Impact on prepardness for future pandemics:
+
+Our targeted metagenomic NGS platform will hopefully be used to screen a large number of samples in the search for new or emerging viruses. The screening of samples can also be used for molecular surveillance to identify new viral strains of already circulating viruses for example, SARS-CoV-2 and Influenza A. This enables the identification of specific strains
+with mutations that may impact the virus transmissibility or resistance to antivirals. Screening for emerging viruses and new viral strains can provide early warnings of potential epidemics or pandemics by identifying viruses before they lead to large-scale outbreaks.
