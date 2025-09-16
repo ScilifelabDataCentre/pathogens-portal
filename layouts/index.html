@@ -276,7 +276,7 @@
         if (title) {
           if (title[lang]) {
             const titleElement = document.querySelector('h2#home-banner');
-            titleElement.textContent = title[lang];
+            titleElement.innerHTML = title[lang];
           } else {
             console.warn('No title found for the language.');
           }
