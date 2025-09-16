@@ -836,3 +836,9 @@ iframe#matoOpOut {
 .text-muted-dark {
   color: rgba(0, 0, 0, 0.65);
 }
+
+/* Banner title links should appear as normal text */
+#home-banner a {
+  color: inherit;
+  /* text-decoration: none; */
+}
