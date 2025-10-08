@@ -80,7 +80,7 @@ Use the **’Deselect all lineages’ button** to clear data from all lineages f
 
 ## Publications
 
-Haars, J., Wallin, F., Elfving, K., Jonsson, A. K., Ellström, P., Mölling, P., Lindh, J., Yin, H., Sundqvist, M., Kaden, R., Palanisamy, N., Lennerstrand, J. (2025). Dynamics of SARS-CoV-2 variants and mutations in Central Sweden between 2023 and 2024 and their potential implications on monoclonal antibodies pemivibart and sipavibart as PrEP in the region. Infectious Diseases, **1–10**. DOI: [10.1080/23744235.2025.2509011](https://doi.org/10.1080/23744235.2025.2509011)
+Haars, J., Wallin, F., Elfving, K., Jonsson, A. K., Ellström, P., Mölling, P., Lindh, J., Yin, H., Sundqvist, M., Kaden, R., Palanisamy, N., Lennerstrand, J. (2025). Dynamics of SARS-CoV-2 variants and mutations in Central Sweden between 2023 and 2024 and their potential implications on monoclonal antibodies pemivibart and sipavibart as PrEP in the region. _Infectious Diseases_, **1–10**. DOI: [10.1080/23744235.2025.2509011](https://doi.org/10.1080/23744235.2025.2509011)
 
 Cumlin, T., Karlsson, I., Haars, J., Rosengren, M., Lennerstrand, J., Pimushyna, M., Feuk, L., Ladenvall, C., Kaden, R. (2024). SARS-CoV-2 to Global Preparedness: A Graphical Interface for Standardised High-Throughput Bioinformatics Analysis in Pandemic Scenarios and Surveillance of Drug Resistance. _Int. J. Mol. Sci._, **25**, 6645. DOI: [10.3390/ijms25126645](https://doi.org/10.3390/ijms25126645).
 
@@ -89,5 +89,3 @@ Haars, J., Palanisamy, N., Wallin, F., Mölling, P., Lindh, J., Sundqvist, M., E
 Mannsverk, S., Bergholm, J., Palanisamy, N., Ellström, P., Kaden, R., Lindh, J., Lennerstrand, J. (2022). SARS-CoV-2 variants of concern and spike protein mutational dynamics in a Swedish cohort during 2021, studied by Nanopore sequencing. _Virology Journal_, **19**, 164. DOI: [10.1186/s12985-022-01896-x](https://doi.org/10.1186/s12985-022-01896-x).
 
 Martinell, M., Andersson, T., Mannsverk, S., Bergholm, J., Ellström, P., Hill, A., Lindh, J., Kaden, R. (2022). In-Flight Transmission of a SARS-CoV-2 Lineage B.1.617.2 Harbouring the Rare S:E484Q Immune Escape Mutation. _Viruses_, **14**, 504. DOI: [10.3390/v14030504](https://doi.org/10.3390/v14030504).
-
-Haars, J., Wallin, F., Elfving, K., Jonsson, A. K., Ellström, P., Mölling, P., Lindh, J., Yin, H., Sundqvist, M., Kaden, R., Palanisamy, N., Lennerstrand, J. (2025). Dynamics of SARS-CoV-2 variants and mutations in Central Sweden between 2023 and 2024 and their potential implications on monoclonal antibodies pemivibart and sipavibart as PrEP in the region. Infectious Diseases, 1-10.
