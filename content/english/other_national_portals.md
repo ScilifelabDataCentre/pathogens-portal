@@ -27,18 +27,4 @@ The [Pathogens Data Network (PDN)](https://pathogendatanetwork.org) was formed i
 
 The Swedish Pathogens Portal was originally launched as the 'Swedish COVID-19 Data Portal'. It was the first national node of the [European COVID-19 Data Platform](https://covid19dataportal.org/); a Europe-wide platform allowing researchers to upload, access, and analyse COVID-19 related datasets. The [European COVID-19 Data Platform](https://covid19dataportal.org/) was launched in the spring of 2020 when the European Commission [took the initiative to develop a European data sharing platform for COVID-19 research efforts](https://www.embl.org/news/science/embl-ebi-launches-covid-19-data-portal/). It is operated by the European Molecular Biology Laboratory - European Bioinformatics Institute (EMBL-EBI) and [partners](https://www.covid19dataportal.org/partners).
 
-Multiple other countries used the Swedish portal as a basis for their own national node, with some using the source code directly as a basis.
-
-#### List of COVID-19 Data Portals
-
-- [COVID-19 Data Portal Estonia](https://covid19dataportal.ee)
-- [COVID-19 Data Portal Greece](https://www.covid19dataportal.gr)
-- [COVID-19 Data Portal Italy](https://www.covid19dataportal.it)
-- [COVID-19 Data Portal Japan](https://covid19dataportal.jp)
-- [COVID-19 Data Portal Luxembourg](https://covid19dataportal.lu)
-- [COVID-19 Data Portal Netherlands](https://www.covid19dataportal.nl)
-- [COVID-19 Data Portal Poland](https://covid19dataportal.pl)
-- [COVID-19 Data Portal Slovenia](https://covid19dataportal.si)
-- [COVID-19 Data Portal Spain](https://www.covid19dataportal.es)
-
-Norway and Turkey ([see Turkey's archived portal](https://www.loc.gov/item/lcwaN0030712/)) also had national COVID-19 data portals throughout the COVID-19 pandemic.
+In total, 12 national nodes (in Estonia, Greece, Italy, Japan, Luxembourg, the Netherlands, Norway, Poland, Slovenia, Spain, Sweden, and Turkey) were launched during the pandemic. Many of these countries used the Swedish portal as a basis for their own national node, with some using the source code directly as a basis.
