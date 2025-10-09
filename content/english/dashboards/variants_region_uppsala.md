@@ -80,6 +80,8 @@ Use the **’Deselect all lineages’ button** to clear data from all lineages f
 
 ## Publications
 
+Haars, J., Wallin, F., Elfving, K., Jonsson, A. K., Ellström, P., Mölling, P., Lindh, J., Yin, H., Sundqvist, M., Kaden, R., Palanisamy, N., Lennerstrand, J. (2025). Dynamics of SARS-CoV-2 variants and mutations in Central Sweden between 2023 and 2024 and their potential implications on monoclonal antibodies pemivibart and sipavibart as PrEP in the region. _Infectious Diseases_, **1–10**. DOI: [10.1080/23744235.2025.2509011](https://doi.org/10.1080/23744235.2025.2509011)
+
 Cumlin, T., Karlsson, I., Haars, J., Rosengren, M., Lennerstrand, J., Pimushyna, M., Feuk, L., Ladenvall, C., Kaden, R. (2024). SARS-CoV-2 to Global Preparedness: A Graphical Interface for Standardised High-Throughput Bioinformatics Analysis in Pandemic Scenarios and Surveillance of Drug Resistance. _Int. J. Mol. Sci._, **25**, 6645. DOI: [10.3390/ijms25126645](https://doi.org/10.3390/ijms25126645).
 
 Haars, J., Palanisamy, N., Wallin, F., Mölling, P., Lindh, J., Sundqvist, M., Ellström, P., Kaden, R., Lennerstrand, J. (2023). Prevalence of SARS-CoV-2 Omicron Sublineages and Spike Protein Mutations Conferring Resistance against Monoclonal Antibodies in a Swedish Cohort during 2022–2023. _Microorganisms_, **11**, 2417. DOI: [10.3390/microorganisms11102417](https://doi.org/10.3390/microorganisms11102417).
