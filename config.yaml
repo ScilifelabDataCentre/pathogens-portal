@@ -101,3 +101,12 @@ related:
       threshold: 80
       toLower: false
 
+# Publications related configuration
+publications:
+  country: "Sweden"
+  # It is important to use "" (double quotes) within the query string
+  query_list:
+    covid-19: 'ABSTRACT:("sars-cov-2" OR "covid-19")'
+    influenza: 'ABSTRACT:"influenza"'
+  # Optional setting
+  category_display: "list"
