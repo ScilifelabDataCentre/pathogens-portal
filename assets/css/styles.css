@@ -155,7 +155,7 @@ a.nav-link:active {
 
 .languages-mobile a {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.75)
+  color: rgba(0, 0, 0, 0.75);
 }
 
 .dropdown-menu.nav-languages {
@@ -551,7 +551,7 @@ div.cpp-query-links a {
   padding: 5px 10px;
   color: #3b6fb6;
   font-weight: bold;
-  background-color: #FFF;
+  background-color: #fff;
   box-shadow: 5px 5px 1px 1px #193f90;
   border: #3b6fb6 solid 5px;
   margin: 0px 15px 15px 0px;
@@ -841,4 +841,30 @@ iframe#matoOpOut {
 #home-banner a {
   color: inherit;
   /* text-decoration: none; */
+}
+
+/* Styling related Publications page */
+.nav-pub {
+  color: #4770b1;
+  padding: 0.1em 0;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.nav-pub:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.nav-pub.active {
+  color: #1a1c1a;
+  pointer-events: none;
+}
+
+.pub-table {
+  display: none;
+}
+
+.pub-table.active {
+  display: block;
 }

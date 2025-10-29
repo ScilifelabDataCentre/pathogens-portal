@@ -1,6 +1,366 @@
 {
-  "last_updated": "2025-05-22",
+  "last_updated": "2025-10-29",
   "datasets": [
+    {
+      "doi": "https://doi.org/10.1073/pnas.2426528122",
+      "available_items": [
+          {
+              "type": "data",
+              "repo_name": "ProteomeXchange",
+              "accession_number": "",
+              "description": "Mass spectrometry proteomics data files.",
+              "data_type": ["Protein data"],
+              "data_url": "https://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD056702"
+          }
+      ],
+      "title": "SARS-CoV-2 nsp15 enhances viral virulence by subverting host antiviral defenses",
+      "issue": "",
+      "volume": "122",
+      "publisher": "PNAS",
+      "published": "2025-05-09",
+      "author": [
+          "Coabi A.",
+          "Su C.-M.",
+          "Beusch C. M.",
+          "Saeed M."
+      ]
+  },
+  {
+    "doi": "https://doi.org/10.1038/s41588-025-02100-w",
+    "available_items": [
+        {
+            "type": "data",
+            "repo_name": "GWAS Catalog",
+            "accession_number": "GCST90454540",
+            "description": "Metaanalysis of genome-wide genotyping array for long-COVID cases (strict case definition vs broad control).",
+            "data_type": ["Genomics & transcriptomics data"],
+            "data_url": "https://www.ebi.ac.uk/gwas/studies/GCST90454540"
+        },
+        {
+            "type": "data",
+            "repo_name": "LocusZoom",
+            "accession_number": "",
+            "description": "Metaanalysis of genome-wide genotyping array for long-COVID cases (strict case definition vs broad control).",
+            "data_type": ["Genomics & transcriptomics data"],
+            "data_url": "https://my.locuszoom.org/gwas/192226/"
+        },
+        {
+            "type": "data",
+            "repo_name": "GWAS Catalog",
+            "accession_number": "GCST90454541",
+            "description": "Metaanalysis of genome-wide genotyping array for long-COVID cases (broad case definition vs broad control).",
+            "data_type": ["Genomics & transcriptomics data"],
+            "data_url": "https://www.ebi.ac.uk/gwas/studies/GCST90454541"
+        },
+        {
+            "type": "data",
+            "repo_name": "LocusZoom",
+            "accession_number": "",
+            "description": "Metaanalysis of genome-wide genotyping array for long-COVID cases (broad case definition vs broad control).",
+            "data_type": ["Genomics & transcriptomics data"],
+            "data_url": "https://my.locuszoom.org/gwas/826733/"
+        },
+        {
+            "type": "data",
+            "repo_name": "GWAS Catalog",
+            "accession_number": "GGCST90454542",
+            "description": "Metaanalysis of genome-wide genotyping array for long-COVID cases (strict case definition vs strict control).",
+            "data_type": ["Genomics & transcriptomics data"],
+            "data_url": "https://www.ebi.ac.uk/gwas/studies/GCST90454542"
+        },
+        {
+            "type": "data",
+            "repo_name": "LocusZoom",
+            "accession_number": "",
+            "description": "Metaanalysis of genome-wide genotyping array for long-COVID cases (strict case definition vs strict control).",
+            "data_type": ["Genomics & transcriptomics data"],
+            "data_url": "https://my.locuszoom.org/gwas/793752/"
+        },
+        {
+            "type": "data",
+            "repo_name": "GWAS Catalog",
+            "accession_number": "GCST90454543",
+            "description": "Metaanalysis of genome-wide genotyping array for long-COVID cases (broad case definition vs strict control).",
+            "data_type": ["Genomics & transcriptomics data"],
+            "data_url": "https://www.ebi.ac.uk/gwas/studies/GCST90454543"
+        },
+        {
+            "type": "data",
+            "repo_name": "LocusZoom",
+            "accession_number": "",
+            "description": "Metaanalysis of genome-wide genotyping array for long-COVID cases (broad case definition vs strict control).",
+            "data_type": ["Genomics & transcriptomics data"],
+            "data_url": "https://my.locuszoom.org/gwas/91854/"
+        },
+        {
+            "type": "code",
+            "repo_name": "GitHub",
+            "accession_number": "",
+            "description": "Instructions and example code for phenotyping, sample collection, genotyping, genotype and sample quality control, imputation and association analyses-",
+            "data_type": ["Genomics & transcriptomics data"],
+            "data_url": "https://github.com/long-covid-hg/LongCovidTools/tree/main"
+        },
+        {
+            "type": "code",
+            "repo_name": "GitHub",
+            "accession_number": "",
+            "description": "Code for GWAS summary statistics lift-over and meta-analysis.",
+            "data_type": ["Genomics & transcriptomics data"],
+            "data_url": "https://github.com/long-covid-hg/META_ANALYSIS"
+        },
+        {
+            "type": "code",
+            "repo_name": "GitHub",
+            "accession_number": "",
+            "description": "Code for PCA projecting and plotting.",
+            "data_type": ["Genomics & transcriptomics data"],
+            "data_url": "https://github.com/long-covid-hg/pca_projection"
+        },
+        {
+            "type": "code",
+            "repo_name": "GitHub",
+            "accession_number": "",
+            "description": "Code for MR and genetic correlation.",
+            "data_type": ["Genomics & transcriptomics data"],
+            "data_url": "https://github.com/marcoralab/MRcovid"
+        },
+        {
+            "type": "code",
+            "repo_name": "GitHub",
+            "accession_number": "",
+            "description": "Code for fine mapping.",
+            "data_type": ["Genomics & transcriptomics data"],
+            "data_url": "https://github.com/mkanai/slalom"
+        },
+        {
+            "type": "code",
+            "repo_name": "GitHub",
+            "accession_number": "",
+            "description": "Code for Bayesian clustering of effects based on linear relationships.",
+            "data_type": ["Genomics & transcriptomics data"],
+            "data_url": "https://github.com/mjpirinen/linemodels"
+        }
+    ],
+    "title": "Genome-wide association study of long COVID",
+    "issue": "",
+    "volume": "57",
+    "publisher": "Nature genetics",
+    "published": "2025-05-21",
+    "author": [
+        "Lammi V.",
+        "Nakanishi T.",
+        "Jones S. E.",
+        "Andrews S. J.",
+        "Karjalainen J."
+    ]
+},
+{
+  "doi": "https://doi.org/10.1016/j.lanepe.2025.101338",
+  "available_items": [
+      {
+          "type": "code",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "Code to analyse long-term kidney outcomes in post-covid patients. Data from the OpenSAFELY platform.",
+          "data_type": ["Health data"],
+          "data_url": "https://github.com/opensafely/post-covid-kidney-outcomes"
+      }
+  ],
+  "title": "Long-term kidney outcomes after COVID-19: a matched cohort study using the OpenSAFELY platform",
+  "issue": "",
+  "volume": "55",
+  "publisher": "The Lancet Regional Health - Europe",
+  "published": "2025-08-01",
+  "author": [
+      "Mahalingasivam V.",
+      "Zheng B.",
+      "Wing K.",
+      "Parker E.P.K",
+      "Bhaskaran K."
+  ]
+},
+{
+  "doi": "https://doi.org/10.1093/eurpub/ckaf097",
+  "available_items": [
+      {
+          "type": "code",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "code to evaluate the effectiveness of the use of pre-booked vaccination appointment letters on vaccine uptake across different sociodemographic groups in Sweden.",
+          "data_type": ["Social science and humanities data"],
+          "data_url": "https://github.com/MolEpicUU/vax-letters-rdd-sweden"
+      }
+  ],
+  "title": "Effect of COVID-19 vaccination appointment letters on uptake by sociodemographic characteristics: a regression discontinuity analysis in Sweden, December 2020 to September 2021",
+  "issue": "4",
+  "volume": "35",
+  "publisher": "European Journal of Public Health",
+  "published": "2025-06-23",
+  "author": [
+      "Varotsis G.",
+      "Hammar U.",
+      "Bonander C.",
+      "Lundmark P.",
+      "Kennedy B."
+  ]
+},
+{
+  "doi": "https://doi.org/10.1177/09246479251353384",
+  "available_items": [
+      {
+          "type": "data",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "Rates of conception according to COVID-19 vaccination status. Cohort from Czech Republic.",
+          "data_type": ["Health data"],
+          "data_url": "https://github.com/Schmeling-M/C-19-Conception"
+      }
+  ],
+  "title": "Rates of successful conceptions according to COVID-19 vaccination status: Data from the Czech Republic",
+  "issue": "4",
+  "volume": "36",
+  "publisher": "International Journal of Risk & Safety in Medicine",
+  "published": "2025-06-19",
+  "author": [
+      "Manniche V.",
+      "Fürst T.",
+      "Schmeling M.",
+      "Gilthorpe J. D.",
+      "Hansen P. R."
+  ]
+},
+{
+  "doi": "https://doi.org/10.1093/ije/dyaf086",
+  "available_items": [
+      {
+          "type": "code",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "Stata scripts to generate data to test for biases in test-negative COVID-19 effectiveness studies.",
+          "data_type": ["Health data"],
+          "data_url": "https://github.com/epi-gde/STATA-SIMUL"
+      }
+  ],
+  "title": "The potential bias introduced into COVID-19 vaccine effectiveness studies at primary care level due to the availability of SARS-CoV-2 tests in the general population",
+  "issue": "4",
+  "volume": "54",
+  "publisher": "International Journal of Epidemiology",
+  "published": "2025-08-01",
+  "author": [
+      "Delaunay C. L.",
+      "Nunes B.",
+      "Monge S.",
+      "de Lange M.",
+      "Túri, G."
+  ]
+},
+{
+  "doi": "https://doi.org/10.1038/s41598-025-15237-9",
+  "available_items": [
+      {
+          "type": "code",
+          "repo_name": "Zenodo",
+          "accession_number": "",
+          "description": "Code and sample data to generate public transport demand scenarios used to model the impact of public transport on disease spread.",
+          "data_type": ["Public health data"],
+          "data_url": "https://zenodo.org/records/15294444"
+      }
+  ],
+  "title": "Modelling the spread of infectious diseases in public transport systems under varying demand patterns and capacity constraints",
+  "issue": "",
+  "volume": "15",
+  "publisher": "Scientific Reports",
+  "published": "2025-08-15",
+  "author": [
+      "Hajdu L.",
+      "Pavlović J.",
+      "Krész M.",
+      "de Lange M.",
+      "Bóta A."
+  ]
+},
+{
+  "doi": "https://doi.org/10.1016/j.crsus.2025.100424",
+  "available_items": [
+      {
+          "type": "data",
+          "repo_name": "Zenodo",
+          "accession_number": "",
+          "description": "Survey results assessing public risk perception of multiple hazards, including COVID-19.",
+          "data_type": ["Social science and humanities data"],
+          "data_url": "https://zenodo.org/records/5653322"
+      },
+      {
+          "type": "code",
+          "repo_name": "GitHub",
+          "accession_number": "",
+          "description": "R code used to perform nextwork analysis of survey results.",
+          "data_type": ["Social science and humanities data"],
+          "data_url": "https://github.com/paniblanca/NetworkAnalysis_RiskPercep"
+      }
+  ],
+  "title": "Exploring public risk perception of multiple hazards through network analysis",
+  "issue": "7",
+  "volume": "2",
+  "publisher": "Cell Reports Sustainability",
+  "published": "2025-07-25",
+  "author": [
+      "Paniello-Castillo B.",
+      "Triolo F.",
+      "Dryhurst S.",
+      "Taylor O. A.",
+      "Mazzoleni M."
+  ]
+},
+{
+  "doi": "https://doi.org/10.3390/ijerph22060952",
+  "available_items": [
+      {
+          "type": "data",
+          "repo_name": "Figshare",
+          "accession_number": "",
+          "description": "Measures of mental health in a cohort of Swedish adults from both during and after the COVID-19 pandemic.",
+          "data_type": ["Social science and humanities data"],
+          "data_url": "https://figshare.com/articles/dataset/FIG_share_250613_sav/29312996/1?file=55360616"
+      }
+  ],
+  "title": "The Pandemic’s Impact on Mental Well-Being in Sweden: A Longitudinal Study on Life Dissatisfaction, Psychological Distress, and Worries",
+  "issue": "6",
+  "volume": "22",
+  "publisher": "Int. J. Environ. Res. Public Health",
+  "published": "2025-06-17",
+  "author": [
+      "Lindberg D.",
+      "Nilsson K. W.",
+      "Stier J.",
+      "Kerstis B."
+  ]
+},
+{
+  "doi": "https://doi.org/10.3389/fimmu.2025.1589589",
+  "available_items": [
+      {
+          "type": "data",
+          "repo_name": "Figshare",
+          "accession_number": "",
+          "description": "Data include count data and sample information for gene expression analysis related to a cohort of post-covid patients.",
+          "data_type": ["Genomics & transcriptomics data"],
+          "data_url": "https://figshare.scilifelab.se/articles/dataset/Data_Comprehensive_transcriptome_assessment_in_PBMCs_of_post-COVID_patients_at_a_median_follow-up_of_28_months_following_a_mild_COVID_infection/28832492"
+      }
+  ],
+  "title": "Comprehensive transcriptome assessment in PBMCs of post-COVID patients at a median follow-up of 28 months after a mild COVID infection reveals upregulation of JAK/STAT signaling and a prolonged immune response",
+  "issue": "",
+  "volume": "16",
+  "publisher": "Front. Immunol.",
+  "published": "2025-05-30",
+  "author": [
+      "Fineschi S.",
+      "Klar J.",
+      "Lopez Egido J. R",
+      "Schuster J.",
+      "Bergquist J"
+  ]
+},
     {
       "doi": "https://doi.org/10.3389/fimmu.2025.1500997",
       "available_items": [
