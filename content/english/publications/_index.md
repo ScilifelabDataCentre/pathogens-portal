@@ -1,17 +1,11 @@
 ---
-title: Publications on COVID-19 and SARS-CoV-2
+title: Recent Swedish Publications
 menu:
   research_menu:
     identifier: publications
-    name: Swedish COVID-19 Publications
+    name: Recent Swedish Publications
 ---
 
-<div class="alert alert-info">
-  <span class="bi bi-exclamation-triangle-fill"> This dataset will no longer be updated. New features are under development that will show publications for more pathogens.</span>
-</div>
+This page shows recent research from Sweden on multiple different pandemic preparedness topics. The page makes use of the Europe PMC REST API. The underlying code for this search is available on the [Pathogens Portal Node (PPN) Toolbox](https://github.com/ScilifelabDataCentre/node-pathogens-portal). Please note that the publications list is not manually curated.
 
-This section presents a list of published scientific journal articles and preprints on COVID-19 and SARS-CoV-2 where at least one author has an affiliation with a Swedish research institute. Note that this database is primarily a manually curated database and thus it may not be exhaustive. Note that from May 2023, we began to use the Europe PMC REST API to idenfy publications. The scripts that we use to do this are [openly available on GitHub](https://github.com/ScilifelabDataCentre/pathogens-portal-scripts/tree/main/All_publications) and can be reused with other pathogens.
-
-If you would like your publication to be added here or information about your publication to be corrected, [please get in touch with us](/suggestions/). We also have a [page with visualisations of the publications in this database](/dashboards/covid_publications/).
-
-The full dataset of publications displayed on this page is available for download and use for other purposes. The dataset contains bibliographic information, abstracts, categorisation into scientific fields, and manually curated links to the shared data related to each publication. Please see [DOI: 10.17044/scilifelab.14124014](https://doi.org/10.17044/scilifelab.14124014) for details.
+A fully curated list of Swedish publications for SARS-CoV-2 and COVID-19 was generated between May 2020 and May 2025. This is available in our [publications database](https://publications-covid19.scilifelab.se), and is presented on our [publications dashboard](/dashboards/covid_publications/). It can be cited using [DOI: 10.17044/scilifelab.14124014](https://doi.org/10.17044/scilifelab.14124014).

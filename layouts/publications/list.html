@@ -1,363 +1,261 @@
 {{ define "main" }}
 
-{{ .Content }}
-
-{{/*
-  Select which entries from the database to display on this page
-*/}}
-
-{{ $entries_to_display := slice }}
-
-{{ range $index, $entry := $.Site.Data.publications.publications }}
-{{ $entries_to_display = $entries_to_display | append $entry}}
-{{ end }}
-
-<div>
-  {{ if eq $.Site.Language.LanguageName "Svenska" }}
-    <p><i>Senast uppdaterad: {{ substr $.Site.Data.publications.timestamp 0 10 }}</i></p>
-  {{ else }}
-    <p><i>Last updated: {{ substr $.Site.Data.publications.timestamp 0 10 }}</i></p>
-  {{ end }}
+<div class="mb-4">
+    {{ .Content }}
 </div>
 
+<!-- The following block is executed only if required publications config is set in the hugo.yaml config file -->
+{{ if and .Site.Params.publications.country .Site.Params.publications.query_list }}
+{{ $category_display := .Site.Params.publications.category_display }}
 <div class="container">
-  <div class="row">
-    <!-- Apply filters -->
-    <div class="col-lg-2 ps-0 {{ if eq $.Site.Language.LanguageName "Svenska" }}mr-5{{ else }}mr-1{{ end }}">
-      <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_field }}</h5>
-      {{ if eq $.Site.Language.LanguageName "Svenska" }}
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="t_bild" name="topic" value="Category: Imaging">
-        <label class="form-check-label" for="t_bild">Bild</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="t_folk" name="topic" value="Category: Public Health">
-        <label class="form-check-label" for="t_folk">Folkhälsa</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="t_gene" name="topic" value="Category: Genomics & transcriptomics">
-        <label class="form-check-label" for="t_gene">Genomik & transkriptomik</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="t_halsa" name="topic" value="Category: Health">
-        <label class="form-check-label" for="t_halsa">Hälsa</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="t_kemi" name="topic" value="Category: Biochemistry">
-        <label class="form-check-label" for="t_kemi">Kemisk biologi</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="t_lake" name="topic" value="Category: Drug Discovery">
-        <label class="form-check-label" for="t_lake">Läkemedelsutveckling</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="ts_prot" name="topic" value="Category: Proteins">
-        <label class="form-check-label" for="ts_prot">Proteiner</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="ts_sero" name="topic" value="Category: Serology">
-        <label class="form-check-label" for="ts_sero">Serologi</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="t_samha" name="topic" value="Category: Social Science & Humanities">
-        <label class="form-check-label" for="t_samha">Samhällsvetenskap och humaniora</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="t_ovriga" name="topic" value="Category: Other">
-        <label class="form-check-label" for="t_ovriga">Övriga</label>
-      </div>
-      {{ else }}
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="t_biochem" name="topic" value="Category: Biochemistry">
-        <label class="form-check-label" for="t_biochem">Biochemistry</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="t_drug" name="topic" value="Category: Drug Discovery">
-        <label class="form-check-label" for="t_drug">Drug discovery</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="t_gene_tran" name="topic" value="Category: Genomics & transcriptomics">
-        <label class="form-check-label" for="t_gene_tran">Genomics & transcriptomics</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="t_health" name="topic" value="Category: Health">
-        <label class="form-check-label" for="t_health">Health</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="t_image" name="topic" value="Category: Imaging">
-        <label class="form-check-label" for="t_image">Imaging</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="t_protein" name="topic" value="Category: Proteins">
-        <label class="form-check-label" for="t_protein">Proteins</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="t_pub_health" name="topic" value="Category: Public Health">
-        <label class="form-check-label" for="t_pub_health">Public health</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="t_serology" name="topic" value="Category: Serology">
-        <label class="form-check-label" for="t_serology">Serology</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="t_social" name="topic" value="Category: Social Science & Humanities">
-        <label class="form-check-label" for="t_social">Social science & humanities</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="t_other" name="topic" value="Category: Other">
-        <label class="form-check-label" for="t_other">Other</label>
-      </div>
-      {{ end }}
-      
-      <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_availability }}</h5>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="data_avail" name="data_available" value="data available">
-        <label class="form-check-label" for="data_avail">
-          {{ if eq $.Site.Language.LanguageName "Svenska" }}Tillgängliga data{{ else }}Data
-        </label>
-        available{{ end }}
-      </div>
-          
-      <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_type }}</h5>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="ty_journel" name="pub_type" value="Type: Journal article">
-        <label class="form-check-label" for="ty_journel">
-          {{ if eq $.Site.Language.LanguageName "Svenska" }}Tidskrift{{ else }}Journal article{{ end }}
-        </label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="ty_review" name="pub_type" value="Type: Review">
-        <label class="form-check-label" for="ty_review">
-          {{ if eq $.Site.Language.LanguageName "Svenska" }}Review{{ else }}Review{{ end }}
-        </label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="ty_prepri" name="pub_type" value="Type: Preprint">
-        <label class="form-check-label" for="ty_prepri">
-          {{ if eq $.Site.Language.LanguageName "Svenska" }}Preprint{{ else }}Preprint{{ end }}
-        </label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="ty_other" name="pub_type" value="Type: Other">
-        <label class="form-check-label" for="ty_other">
-          {{ if eq $.Site.Language.LanguageName "Svenska" }}Annan{{ else }}Other{{ end }}
-        </label>
-      </div>
-      
-      <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_year }}</h5>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="y20" name="year" value="2020">
-        <label class="form-check-label" for="y20">2020</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="y21" name="year" value="2021">
-        <label class="form-check-label" for="y21">2021</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="y22" name="year" value="2022">
-        <label class="form-check-label" for="y22">2022</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="y23" name="year" value="2023">
-        <label class="form-check-label" for="y23">2023</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="y24" name="year" value="2024">
-        <label class="form-check-label" for="y24">2024</label>
-      </div>
-      
-      <h5>{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_funder }}</h5>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="f_forte" name="funder" value="Funder: Forte">
-          <label class="form-check-label" for="f_forte">Forte</label>
+    <div class="row">
+        {{ if eq $category_display "dropdown" }}
+        <div class="p-0 mb-2">
+            <strong>Categories: </strong>
+            <div id="pub-categories-select" class="d-inline-block"></div>
         </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="f_h2020" name="funder" value="Funder: H2020">
-          <label class="form-check-label" for="f_h2020">H2020</label>
+        {{ else }}
+        <div class="col-lg-2 px-0 mb-2">
+            <div class="pb-3 bg-light">
+                <h5 class="px-3 py-2" style="background-color: #d8d8d8;">Categories</h5>
+                <div id="pub-categories-list" class="px-3"></div>
+            </div>
         </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="f_hjart" name="funder" value="Funder: Hjärt-Lungfonden">
-          <label class="form-check-label" for="f_hjart">Hjärt-Lungfonden</label>
-        </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="f_kaw" name="funder" value="Funder: KAW/SciLifeLab">
-          <label class="form-check-label" for="f_kaw">KAW/SciLifeLab</label>
-        </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="f_nord" name="funder" value="Funder: NordForsk">
-          <label class="form-check-label" for="f_nord">NordForsk</label>
-        </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="f_veten" name="funder" value="Funder: VR">
-          <label class="form-check-label" for="f_veten">
-            {{ if eq $.Site.Language.LanguageName "Svenska" }}Vetenskapsrådet{{ else }}Swedish Research Council{{ end}}
-          </label>
-        </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="f_vin" name="funder" value="Funder: Vinnova">
-          <label class="form-check-label" for="f_vin">Vinnova</label>
+        {{ end }}
+        <div class="col-lg px-0 mt-2{{ if ne $category_display "dropdown" }} ms-lg-3{{ end }}">
+            <!-- Loading indicator -->
+            <div id="pubs-loading" class="text-center py-5" style="display: none;">
+                <div class="spinner-border text-aqua" role="status" style="width: 3rem; height: 3rem;">
+                <span class="visually-hidden">Loading publications...</span>
+                </div>
+                <p class="mt-3 text-muted">Loading publications...</p>
+            </div>
+            <div id="publications-list" class="table-responsive">
+            </div>
         </div>
     </div>
-    
-    <!-- Display table -->
-    <div class="col-lg">
-      <div class="row">
-        <div class="table-responsive">
-          <table class="table table-hover" width="100%">
-            <thead class="table-light">
-              <tr>
-                <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_pub }}</th>
-                <th scope="col">{{ (index $.Site.Params.lang_strings .Site.Language.Lang).pubs_updated }}</th>
-                <th scope="col">Field/Topic</th>
-                <th scope="col">Publication type</th>
-                <th scope="col">Funder</th>
-                <th scope="col">Data availability</th>
-                <th scope="col">Year</th>
-              </tr>
-            </thead>
-            <tbody>
-              {{ $valid_db_list := slice "URL" "NA" "N/A" "GENBANK" "PBD" "BioProject" "GEO" "ISRCTN" "Dryad" "PubChem-Substance" "RefSeq" "dbGaP"}}
-              {{ range $index, $entry := $entries_to_display }}
-              {{ $has_data := false }}
-              {{ range .xrefs }}
-              {{ if in $valid_db_list .db }}
-              {{ $has_data = true }}
-              {{ end }}
-              {{ end }}
-              <tr>
-                <td>
-                  <b><a target="_blank"
-                      href="{{ if .doi }}https://doi.org/{{ .doi }}{{ else }}https://pubmed.ncbi.nlm.nih.gov/{{ .pmid }}{{ end}}">{{ .title }}</a></b><br>
-                  <span class="text-muted">{{ with .authors }}
-                    {{ $n := sub (len .) 1}}
-                    {{ range first $n . }}
-                    {{ $family := (index . "family") }}
-                    {{ $initials := (index . "initials") }}
-                    {{ if not $initials }} {{ $initials = substr (index . "given") 0 1 }} {{ end }}
-                    {{ $family }} {{ $initials }},
-                    {{ end }}
-                    {{ range last 1 . }}
-                    {{ $family := (index . "family") }}
-                    {{ $initials := (index . "initials") }}
-                    {{ if not $initials }} {{ $initials = substr (index . "given") 0 1 }} {{ end }}
-                    {{ $family }} {{ $initials }}
-                    {{ end }}
-                    {{ end }}
-                  </span><br>
-                  <i>{{ .journal.title }}</i>{{ if .journal.volume }}
-                  <b>{{ .journal.volume }}</b>{{ end }}{{if .journal.issue}}
-                  ({{ .journal.issue }}){{ end }}{{ if .journal.pages }} {{ .journal.pages }}{{ end }}.{{ if .doi}} DOI:
-                  {{ .doi }}{{ end }} {{ range $key, $content := .labels }} {{ if eq $key "Type: Preprint"}} <span
-                    class="preprint-icon">preprint</span>{{ end }}{{ end}} {{ if $has_data }}<span
-                    class="data-available-icon">data&nbsp;available</span>{{ end }}
-                </td>
-                <td>{{ .published }}</td>
-                <td>{{ range $key, $content := .labels }} {{ if findRE "Category *?" $key }} {{ $key }} {{ end }}
-                  {{ end }}</td>
-                <td>{{ range $key, $content := .labels }} {{ if findRE "Type *?" $key }} {{ $key }} {{ end }} {{ end }}
-                </td>
-                <td>{{ range $key, $content := .labels }} {{ if findRE "Funder *?" $key }} {{ $key }} {{ end }}
-                  {{ end }}</td>
-                <td>{{ if $has_data }}data available{{ end }}</td>
-                <td>{{ slicestr .published 0 4 }}</td>
-              </tr>
-              {{ end }}
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
 
 <script>
-  $(document).ready(function () {
-    var table = $('table.table').DataTable({
-      "sDom": '<"top row"<"col-md"i><"col-md"f>>rt<"bottom row"<"col-md"l><"col-md"p>><"clear">',
-      "order": [[1, "desc"]],
-      "columnDefs": [{
-        "targets": [2, 3, 4, 5, 6],
-        "visible": false
-      }],
-    {{ if eq $.Site.Language.LanguageName "English" }}
-    "language": {
-    "lengthMenu": "Show _MENU_ entries per page",
-    "zeroRecords": "Nothing found.",
-    "info": "Showing _START_ to _END_ of _TOTAL_ entries",
-    "infoEmpty": "No records available",
-    "infoFiltered": "(filtered from _MAX_ records in total).",
-    "search": "Search:",
-    "paginate": {
-      "first": "First",
-      "last": "Last",
-      "next": "»",
-      "previous": "«"
+    // query list set in hugo config file
+    const queryList = {
+            {{ range $k, $v := .Site.Params.publications.query_list }}
+            '{{ $k }}': '{{ $v }} AND AFF:"{{ $.Site.Params.publications.country }}"',
+            {{ end }}
     }
-  }
+
+    // compile and return relavant query URL
+    function getQueryURL(pubCat, type="web", pastYear=false) {
+        const europePMCWebURL = "https://europepmc.org/search?";
+        const europePMCRestURL = "https://www.ebi.ac.uk/europepmc/webservices/rest/search?sortBy=FIRST_PDATE_D+desc&resultType=core&format=json&pageSize=10&";
+        const europePMCBaseURL = type === "web" ? europePMCWebURL : europePMCRestURL;
+        const query = pastYear ? `${queryList[pubCat]} AND FIRST_PDATE:[${getQueryYear()}]` : queryList[pubCat];
+        return `${europePMCBaseURL}query=${encodeURIComponent(query)}`
+    }
+
+    // Get past year string to add to query
+    function getQueryYear() {
+        const date = new Date();
+        const currentYear = date.getFullYear();
+        const currentMonth = ("0" + (date.getMonth() + 1)).slice(-2);
+        return `${currentYear - 1}-${currentMonth} TO ${currentYear}-${currentMonth}`;
+    }
+
+    // Function to fetch data from Europe PMC
+    async function fetchPubs(queryKey) {
+        const apiQueryURL = getQueryURL(queryKey, "rest", true);
+        // If cache not older than a hour exists, use cached data
+        if ('caches' in window) {
+            const cache = await caches.open('pathogens-portal-node');
+            const cachedResponse = await cache.match(apiQueryURL);
+            if (cachedResponse && cachedResponse.headers.get('timestamp') > Date.now() - 60 * 60 * 1000) {
+                const data = await cachedResponse.json();
+                return data?.resultList?.result
+            } else {
+                await cache.delete(apiQueryURL);
+            }
+        }
+        // Fetch data if cache doesn't exist of older than 24 hours
+        const response = await fetch(apiQueryURL);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        if ('caches' in window) {
+            const cache = await caches.open('pathogens-portal-node');
+            await cache.put(apiQueryURL, new Response(JSON.stringify(data), {
+                headers: {
+                    'Content-Type': 'application/json',
+                    'timestamp': Date.now()
+                }
+            }));
+        }
+        return data?.resultList?.result
+    }
+
+    // Display loader
+    function loaderWheel(show) {
+        const loader = document.getElementById("pubs-loading");
+        loader.style.display = show ? "block" : "none";
+    }
+
+    // Function to render HTML for the publications
+    async function renderTable(pubCat) {
+        // Hide any current active table or messages
+        const activeTables = document.querySelectorAll("#publications-list div.pub-table.active");
+        activeTables.length && activeTables.forEach(tb => tb.classList.remove("active"));
+        const noPubText = document.getElementById("no-pub-text");
+        noPubText && noPubText.remove();
+
+        loaderWheel(true);
+
+        const catID = pubCat.toLowerCase().replace(" ", "-");
+        const tableDivID = catID + '-publications';
+        const tableID = catID + '-table';
+        let pubTableDiv = document.getElementById(tableDivID);
+        if (pubTableDiv) {
+            pubTableDiv.classList.add("active");
+        } else {
+            const pubContainer = document.getElementById("publications-list");
+            const data = await fetchPubs(pubCat);
+            if (data.length) {
+                const tableDiv = document.createElement("div");
+                tableDiv.id = tableDivID;
+                tableDiv.classList.add("pub-table", "active");
+
+                const textDiv = document.createElement("div");
+                textDiv.classList.add("pb-3");
+                textDiv.innerHTML = `Below are the 10 most recent national publications for <code style="text-transform: capitalize">
+                                    ${pubCat}</code>, to see more please visit 
+                                    <a target="_bank" href="${getQueryURL(pubCat)}">Europe PMC</a>`;
+                tableDiv.appendChild(textDiv);
+
+                const table = document.createElement("table");
+                table.id = tableID;
+                table.classList.add("table", "table-hover");
+
+                const thead = document.createElement("thead");
+                thead.classList.add("table-light");
+                const tbody = document.createElement("tbody");
+                const headers = ["Publications"];
+                const headerRow = document.createElement("tr");
+
+                headers.forEach(header => {
+                    const th = document.createElement("th");
+                    th.textContent = header;
+                    th.scope = "col";
+                    headerRow.appendChild(th);
+                });
+                thead.appendChild(headerRow);
+
+                data.forEach(item => {
+                    const row = document.createElement("tr");
+                    const publication = document.createElement("td");
+                    const title = `<div><a href="https://doi.org/${item.doi}" target="_blank"><span style="font-weight:500;">${item.title}</span></a></div>`;
+                    const authors = `<div><span class="text-muted" style="font-size:0.82em">${item.authorString}</span></div>`;
+                    const journal = `<div><span class="text-muted" style="font-size:0.82em">${item.journalInfo?.journal?.title}</span></div>`;
+                    const doi = `<div><span class="text-muted" style="font-size:0.82em">DOI: ${item.doi}</span></div>`;
+
+                    publication.innerHTML = title + authors + journal + doi;
+                    row.appendChild(publication);
+                    tbody.appendChild(row);
+                });
+
+                table.appendChild(thead);
+                table.appendChild(tbody);
+
+                tableDiv.appendChild(table)
+                pubContainer.appendChild(tableDiv);
+            } else {
+                const noPubText = document.createElement("p");
+                noPubText.id = "no-pub-text";
+                noPubText.style.textAlign = "center";
+                noPubText.innerHTML = `Unable to retrieve publications for <code style="text-transform: capitalize">
+                                        ${pubCat}</code>, please report this to the portal team.`;
+                pubContainer.appendChild(noPubText);
+            }
+        }
+        loaderWheel(false);
+    }
+
+    {{ if eq $category_display "dropdown" }}
+    // Function to select categories
+    async function addCategoriesSelector(parentDivID) {
+        let activeCategory;
+        const parentDiv = document.getElementById(parentDivID);
+        const catSelect = document.createElement("select");
+        catSelect.id = "pubcat-selector";
+        catSelect.classList.add("form-select");
+        catSelect.ariaLabel = "Select publication category";
+        catSelect.onchange = async (e) => {
+            const pubCat = e.target.value;
+            pubCat && await renderTable(pubCat);
+        };
+        Object.keys(queryList).forEach((key, index) => {
+            const catID = key.toLowerCase().replace(" ", "-");
+            const catOption = document.createElement("option");
+            catOption.value = key;
+            catOption.style.textTransform = "capitalize";
+            catOption.textContent = key;
+            if (index === 0) {
+                catOption.selected = true;
+                activeCategory = key;
+            }
+            catSelect.appendChild(catOption);
+        });
+        parentDiv.appendChild(catSelect);
+        return activeCategory
+    }
     {{ else }}
-    "language": {
-    "lengthMenu": "Visa _MENU_ poster per sida",
-    "zeroRecords": "Inga resultat",
-    "info": "Visar _START_-_END_ av _TOTAL_ poster",
-    "infoEmpty": "Inga resultat",
-    "infoFiltered": "(filtrerad av _MAX_ poster).",
-    "search": "Sök:",
-    "paginate": {
-      "first": "Första",
-      "last": "Sista",
-      "next": "»",
-      "previous": "«"
+    // Function to add data filters checkbox
+    async function addCategories (parentDiv) {
+        let activeCategory;
+        const pubCat = document.getElementById(parentDiv);
+        const catNav = document.createElement("nav");
+        Object.keys(queryList).forEach((key, index) => {
+            const catID = key.toLowerCase().replace(" ", "-");
+            const catDiv = document.createElement("div");
+            catDiv.id = catID;
+            const catSpan = document.createElement("span");
+            catSpan.classList.add("nav-pub");
+            if (index === 0) {
+                catSpan.classList.add("active");
+                activeCategory = key;
+            }
+            catSpan.textContent = key;
+            catSpan.onclick = async () => {
+                await setCategoryActive(catID);
+                await renderTable(key);
+            };
+            catDiv.appendChild(catSpan);
+            catNav.appendChild(catDiv);
+        });
+        pubCat.appendChild(catNav);
+        return activeCategory;
     }
-  }
+
+    // Function to set active categories
+    function setCategoryActive(catID) {
+        // Remove current active status
+        const activeCategories = document.querySelectorAll("#pub-categories-list span.nav-pub.active");
+        activeCategories.length && activeCategories.forEach(ct => ct.classList.remove("active"));
+        const catNavSpan = document.querySelector(`#pub-categories-list #${catID} span.nav-pub`);
+        catNavSpan && catNavSpan.classList.add("active");
+    }
     {{ end }}
-  }
-  );
 
-  $('input:checkbox').on('change', function () {
-
-    var topics = $('input:checkbox[name="topic"]:checked').map(function () {
-      return this.value;
-    }).get().join('|');
-
-    // filter for publication type, with no regex, no smart filtering, not case sensitive
-    table.column(2).search(topics, true, false, false).draw(false);
-
-    // Publications type filter
-    var pub_types = $('input:checkbox[name="pub_type"]:checked').map(function () {
-      return this.value;
-    }).get().join('|');
-
-    table.column(3).search(pub_types, true, false, false).draw(false);
-
-    // Funder filter
-    var funders = $('input:checkbox[name="funder"]:checked').map(function () {
-      return this.value;
-    }).get().join('|');
-
-    table.column(4).search(funders, true, false, false).draw(false);
-
-    // Data availability filter
-    var data_available = $('input:checkbox[name="data_available"]:checked').map(function () {
-      return this.value;
-    }).get().join('|');
-
-    table.column(5).search(data_available, true, false, false).draw(false);
-
-    // Years filter
-    var years = $('input:checkbox[name="year"]:checked').map(function () {
-      return '^' + this.value + '$';
-    }).get().join('|');
-
-    // filter for year, without regex, smart filtering, not case sensitive
-    table.column(6).search(years, true, false, false).draw(false);
-
-  });
-
-} );
+    // Load the html content
+    document.addEventListener("DOMContentLoaded", async () => {
+        {{ if eq $category_display "dropdown" }}
+        const activeCategory = await addCategoriesSelector("pub-categories-select");
+        {{ else }}
+        const activeCategory = await addCategories("pub-categories-list");
+        {{ end }}
+        await renderTable(activeCategory);
+    });
 
 </script>
 
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>
+{{ end }}
 
 {{ end }}

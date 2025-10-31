@@ -6,6 +6,19 @@ params:
   description: "The Swedish Pathogens Portal provides information about available datasets, resources, tools, and services related to pandemic preparedness in Sweden. We offer support to all those involved in pandemic preparedness research that are affiliated with a Swedish research institution or university."
   images:
     - /img/swe_pathogens_social_media.png
+  # Publications related configuration
+  publications:
+    country: "Sweden"
+    # It is important to use "" (double quotes) within the query string
+    query_list:
+      SARS-CoV-2: 'ABSTRACT:("sars-cov-2" OR "covid-19")'
+      Influenza: 'ABSTRACT:"Influenza"'
+      Mpox: 'ABSTRACT:("mpox" OR "Monkeypox")'
+      Antibiotic Resistance: 'ABSTRACT:("antibiotic resistance" OR "AMR" OR "antimicrobial resistance")'
+      Respiratory Syncytial Virus: 'ABSTRACT:("Respiratory Syncytial Virus" OR "RSV")'
+      Enteric viruses: 'ABSTRACT:("Enteric virus" OR "Enterovirus" OR "Adenovirus" OR "Norovirus" OR "Astroviruses" OR "Sapovirus")'
+      # Optional setting
+    category_display: "list"
 
   # There is a hugo i18n package, but it seems like overkill for so few strings
   lang_strings:
@@ -100,4 +113,3 @@ related:
       weight: 100
       threshold: 80
       toLower: false
-
