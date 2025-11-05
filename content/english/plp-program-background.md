@@ -66,6 +66,12 @@ The following capabilities resulted from the PLP-Test call.
 
 {{< plp_table category="test" >}}
 
+### PM TDPs
+
+The following capabilities were established during Clinical Technology Development Project (PMTDP) call in collaboration with the Precision Medicine Capability at SciLifeLab.
+
+{{< plp_table category="PM_tdp" >}}
+
 ## Further reading about the PLP program
 
 - [Overview of the PLP program](https://www.scilifelab.se/capabilities/pandemic-laboratory-preparedness/).
