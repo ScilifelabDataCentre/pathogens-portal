@@ -6,108 +6,54 @@ aliases:
   - /pathogens/monkeypox
 ---
 
-## General information
+## Background 
 
-Mpox a.k.a. Monkeypox is a zoonotic disease (i.e. one that is transmitted from animals to humans) caused by the mpox virus. The virus is a member of the _Orthopoxvirus_ genus in the family _Poxviridae_. There are currently two clades of mpox virus: the West African clade and the Congo Basin (Central African) clade [according to WHO](https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON385). It is closely related to the virus that causes smallpox (_variola virus_), which has had a major negative impact on human populations throughout history.
+- **Pathogen**: [Mpox](https://www.who.int/news-room/fact-sheets/detail/mpox) (orthopoxvirus), formerly known as “monkeypox,” has two main clades: Clade 1 and Clade 2 (each is further subdivided: 1a/1b and 2a/2b). [The global outbreak in 2022–2023 was driven by Clade 2b](https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON385), which still circulates globally in humans. An outbreak of Clade 1 has also been ongoing in the Democratic Republic of Congo (DRC) since autumn 2023 and, in 2025, the spread of Clade 2 increased in West Africa.
 
-The mpox virus is endemic to certain areas of west and central Africa, but not elsewhere. Outbreaks in other regions are rare. However, in May 2022, multiple cases were detected in different European countries, including Sweden. This led to fears that the virus could become more widespread across the world ([WHO, 2022](https://www.who.int/health-topics/monkeypox#tab=tab_1); [Adler et al., 2022](<https://doi.org/10.1016/s1473-3099(22)00228-6>)). Over 20,000 cases have been detected in Europe since the start of the outbreak. As of September 2022, 161 cases have been detected in Sweden and reported to the Swedish Public Health Agency.
+- **Transmission**: Mpox is a zoonotic disease that spreads from animals to humans. It can also spread between humans, especially via close physical contact, including skin‑to‑skin contact, sexual contact, lesions, bodily fluids, respiratory droplets in close proximity, and indirect contact via contaminated materials. Travel-associated cases have been significant in spreading Mpox outside of Africa, where it is endemic.
 
-Clinically, mpox is typically characterised by fever, unexplained acute rash, and lymphadenopathy. Additional symptoms and complications may also occur (see [the pages from the Centers for Disease Control (CDC)](https://www.cdc.gov/poxvirus/monkeypox/symptoms/index.html) for more detailed information). The incubation time of the virus is normally 5-13 days, but can be up to three weeks. Close personal contact with an infected individual is the most common means of human-human transmission.
+- **Sources and risk factors**: The risk of contracting Mpox is relatively elevated for individuals engaging in new sexual contacts in regions where Mpox is actively circulating (both Clade 1 and 2). Travelers to affected regions are at risk, especially when they come in close contact with local transmission chains. Countries in Africa with ongoing Mpox Clade 1 spread include, among others, DRC, Uganda, Burundi, Kenya, Malawi, and Mozambique. The spread of Clade 2 increased in some West African countries in 2025. 
 
-Information regarding mortality rate is limited, but there is significant variation in the rates that have been reported (from 1 - 10%) ([Adler et al., 2022](<https://doi.org/10.1016/s1473-3099(22)00228-6>)). There are currently no licenced treatments for human mpox, although brincidofovir and tecovirimat (both drugs approved in the USA for use against smallpox) show promise in animal studies ([Adler et al., 2022](<https://doi.org/10.1016/s1473-3099(22)00228-6>)). Whilst no vaccine has been approved in Europe by European Medicines Agency (EMA) to date, EU healthcare has access to doses of [Jynneosvaccine](https://www.cdc.gov/poxvirus/monkeypox/vaccines/jynneos.html). This vaccine is approved by the U.S. Food and Drug Administration (FDA) for both mpox and smallpox. The doses available to EU healthcare were donated by the USA and Canada via the European Health Emergency Preparedness and Response Authority (HERA).
+- **Seasonality**: There is no seasonality, as Mpox outbreaks are driven more by contact patterns, travel, and local transmission dynamics. Patterns may vary by region.
 
-## Ongoing research and data efforts
+## Brief Summary of the Outbreak
 
-In this section, we present announcements about ongoing research efforts primarily by (but not limited to) researchers and institutions based in Sweden. The intention is to 'highlight' these efforts as soon as possible, so that we can maximise their usefulness to researchers.
+On 14 August 2024, the [World Health Organization (WHO) declared Mpox a Public Health Emergency of International Concern (PHEIC)](https://www.who.int/news/item/14-08-2024-who-director-general-declares-mpox-outbreak-a-public-health-emergency-of-international-concern).  
+  
+The international outbreak includes both Clade 1 and Clade 2 viruses; Clade 2b drove earlier global spread, while Clade 1 has circulated in DRC and increasingly in other African countries since late 2023. The international health agencies published reports on the ongoing Mpox transmission in both endemic and non‑endemic regions. The Africa Centres for Disease Control and Prevention (2024) compiled the [Weekly Epidemic Intelligence Report](http://africacdc.org/download/africa-cdc-weekly-event-based-surveillance-report-december-2024/), offering detailed insights into emerging and ongoing public health events across the African continent that includes details on Mpox. The [Communicable Disease Threats Report,](http://ecdc.europa.eu/en/publications-data/communicable-disease-threats-report) published by the European Centre for Disease Prevention and Control (2025), provides weekly surveillance data and risk assessments on infectious disease threats in Europe. The World Health Organization (2025) released its [External Situation Report](http://who.int/publications/m/item/multi-country-outbreak-of-mpox--external-situation-report--46---28-january-2025) to summarize the global epidemiological status of the ongoing multi-country Mpox outbreak as of January 2025. The outbreak has continued into 2025, with fluctuating incidence by country, and increased spread of Clade 2 in West Africa throughout 2025. Most cases outside of Africa during this outbreak were  travel‑associated or linked to known transmission chains.  
 
-Please feel free to submit an announcement using the form below or by sending an e-mail to <datacentre@scilifelab.se>.
+The PHEIC status was active until 5 September 2025. This includes an update on the epidemiological situation for Mpox in Africa, with data on the global situation as of 31 August 2025, in Africa as of 14 September, and the operational response updates as of 19 September 2025.
+## Outbreak Timeline 
 
-Lists of data, tools, publications, and other potentially useful information are provided further down on the page and likely to be more complete.
+| **YEAR** | **DATE**  | **OBSERVATION**                                                                                                                                                                                                                                                                |
+| :------- | :--------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 2022     | December | Outbreak of Mpox Clade 1 begins in Democratic Republic of Congo (DRC), and spreads across provinces.                                                                                                                       |
+| 2024    | 13 August | Mpox outbreak in DRC (Clade 1) spreads to neighboring African countries.                                                  |
+| 2024    | 14 August  | WHO declares Mpox a Public Health Emergency of International Concern (PHEIC).                                                                                                                             |
+| 2024    | 15 August  | First reported Mpox Clade 1 case in Sweden.                                                                                   |
+| 2024    | 23 August  | Approximately 19,600 cases reported in DRC in 2024 by mid-August. Clade 1b spread reported in Burundi, Kenya, Rwanda, Uganda. |
+| 2024    | 28 November  | Vaccination begins in DRC, Rwanda, Nigeria with more than 50,000 vaccinated in DRC.|
+| 2024    | December  | Cases in Africa increase and global case reports indicate that there are new cases in EU/US/Asia (mostly travel‑related).|
+| 2025    | 16 January | Continued spread both within and outside of Africa (e.g. Sweden, UK). Cases outside of Africa are all related to recent travel to endemic regions. |
+| 2025    | 14 February | Mpox Clade 1 cases reported in multiple countries. Cases are detected in multiple European countries (Belgium, France, UK, Sweden). All cases are related to recent travel to endemic regions, or close contact with those that have travelled to those regions.|
+| 2025    | 12 March | Kenya, Zambia and Tanzania record new cases related to community transmission according to WHO.|
+| 2025    | 16 April | In week 15, the UK reports a Clade 1b case without travel history.|
+| 2025    | April - May| The number of cases in Africa declined over a 6-week span in Africa. However, there was country-level variation. Vaccination campaign ongoing in Africa (6+ countries).|
+| 2025    | 28 May| Sierra Leone reports increased Clade 2 cases. Malawi reports its first Clade 1 case. Cases related to recent travel to endemic regions identified in Australia, Thailand.|
+| 2025    | 26 June| Clade 1 increased in Ethiopia.African CDC and WHO assess community transmission in Ethiopia.|
+| 2025    | 31 July | Mpox spreads as new first Clade 1b outbreak in Mozambique and Clade 2 widespread in Sierra Leone, Guinea.|
+| 2025    | 4 September | [WHO declares an end to the PHEIC status  as the total number of Mpox cases in Africa are decreasing in many countries.](https://africacdc.org/news-item/mpox-still-a-continental-emergency-africa-cdc-advisory-group-recommends/) |
 
-{{< pathogens_add_announcement origin="mpox">}}
 
-{{< pathogens_list_announcements announcement_list="mpox_page_announcements">}}
+<style>
+ table td, table th {
+    padding: 5px 10px;
+ }
+ table td:nth-child(2) {
+    text-wrap: nowarp;
+ }
+</style>
 
-## Datasets available
+## Data Visualisation
 
-- Mpox genome at GenBank (ON568298.1): [Mpox virus isolate MPXV-BY-IMB25241, complete genome](https://www.ncbi.nlm.nih.gov/nuccore/ON568298).
-- First draft genome sequence of Mpox virus associated with the suspected multi-country outbreak (from Portugal) ([Isidro et al., 2022](https://virological.org/t/first-draft-genome-sequence-of-monkeypox-virus-associated-with-the-suspected-multi-country-outbreak-may-2022-confirmed-case-in-portugal/799)).
-- Multi-country outbreak of Mpox virus: genetic divergence and first signs of microevolution (9 additional sequences)([Isidro et al., 2022](https://virological.org/t/multi-country-outbreak-of-monkeypox-virus-genetic-divergence-and-first-signs-of-microevolution/806)).
-- First German genome sequence of Mpox virus associated to multi-country outbreak ([Antwerpen et al., 2022](https://virological.org/t/first-german-genome-sequence-of-monkeypox-virus-associated-to-multi-country-outbreak-in-may-2022/812)).
-- [Preliminary structural proteome of the mpox virus causing a multi-country outbreak in May 2022](https://figshare.com/articles/dataset/Preliminary_structural_proteome_of_the_monkeypox_virus_causing_a_multi-country_outbreak_in_May_2022/19877842/2).
-- [Global mpox data 2022](https://github.com/globaldothealth/monkeypox).
-
-## Tools available
-
-These tools have been adapted/developed for use with the mpox virus. They could potentially be adapted for use with other viruses, and with other types of infectious disease. They are thus key in aiding future pandemic preparedness.
-
-- Code used to produce NextStrain builds is available on [GitHub](https://github.com/nextstrain/monkeypox).
-- NextStrain builds: [build using hmpxv1 dataset](https://nextstrain.org/monkeypox/hmpxv1) (focused on human-to-human transmission), [build using hmpxv1 dataset](https://nextstrain.org/monkeypox/mpxv) (includes samples from the animal reservoir and previous human outbreaks).
-- [Galaxy workflows](https://galaxyproject.org/projects/mpxv/) for analysis of mpox virus sequence data.
-- Summary of tools that have been repurposed to enable mpox [viral sequence submission & guidance on how to use them](https://docs.google.com/viewer?url=https://github.com/enasequence/ena-content-dataflow/raw/master/docs/Monkeypox%20virus%20ENA%20Submission%20Guidance.pdf).
-- Model-Based Theoretical Evaluation of the Feasibility of Using Wastewater-Based Epidemiology to Monitor Mpox is available on [FigShare](https://figshare.com/collections/Model-Based_Theoretical_Evaluation_of_the_Feasibility_of_Using_Wastewater-Based_Epidemiology_to_Monitor_Monkeypox/6177355).
-
-## Relevant publications and preprints
-
-- Miura, F., van Ewijk, C.E., Backer J. A., Xiridou, M., Franz, E., Op de Coul, E., Brandwagt, D., van Cleef, B., van Rijckevorsel. G., Swaan. C., van den Hof, S., Wallinga, J. (2022). Estimated incubation period for monkeypox cases confirmed in the Netherlands, May 2022. _Eurosurveillance_, _27_, 2200448. [https://doi.org/10.2807/1560-7917.ES.2022.27.24.2200448](https://doi.org/10.2807/1560-7917.ES.2022.27.24.2200448)
-
-- Pfaff, F., Hoffmann, D., Beer, M. (2022). Monkeypox genomic surveillance will challenge lessons learned from SARS-CoV-2. _Lancet_, _400_, 10345. [https://doi.org/10.1016/s0140-6736(22)01106-0](<https://doi.org/10.1016/s0140-6736(22)01106-0>)
-
-- Kraemer, M.U.G., Tegally, H., Pigott, D.M., Dasgupta, A., Sheldon, J., Wilkinson, E., Schultheiss, M., Han, A., Oglia, M., Marks, S., Kanner, J., O'Brien, K., Dandamudi, S., Rader, B., Sewalk, K., Bento, A.I., Scarpino, S.V., de Oliveira, T., Bogoch, I.I., Katz, R., Brownstein, J.S. (2022). Tracking the 2022 monkeypox outbreak with epidemiological data in real-time. _The Lancet Infectious Diseases_. [https://doi.org/10.1016/S1473-3099(22)00359-0](<https://doi.org/10.1016/S1473-3099(22)00359-0>)
-
-- Rodríguez-Morales, A.J., Ortiz-Martínez, Y., Bonilla-Aldana, D.K. (2022). What has been researched about monkeypox? a bibliometric analysis of an old zoonotic virus causing global concern. _New Microbes and New Infections_, _47_, 100993. [https://doi.org/10.1016/j.nmni.2022.100993](https://doi.org/10.1016/j.nmni.2022.100993)
-
-- Perez Duque, M., Ribeiro, S., Martins, J. V., Casaca, P., Leite, P.P., Tavares, M., Mansinho, K., Duque, L.M., Fernandes, C., Cordeiro, R., Borrego, M.J., Pelerito, A., de Carvalho, I.L., Núncio, S., Manageiro, V., Minetti, C., Machado, J., Haussig, J.M., Croci, R., Spiteri, G., Casal, A.S., Mendes, D., Souto, T., Pocinho, S., Fernandes, T., Firme, A., Vasconcelos, P., Freitas, G. (2022). Ongoing monkeypox virus outbreak, Portugal, 29 April to 23 May 2022. _Eurosurveillance, 27_ 2200424. [https://doi.org/10.2807/1560-7917.ES.2022.27.22.2200424](https://doi.org/10.2807/1560-7917.ES.2022.27.22.2200424)
-
-- Vivancos, R., Anderson, C., Blomquist, P., Balasegaram, S., Bell, A., Bishop, L., Brown, C.S., Chow, Y., Edeghere, O., Florence, I., Logan, S., Manley, P., Crowe, W., McAuley, A., Shankar, A.G., Mora-Peris, B., Paranthaman, K., Prochazka, M., Ryan, C., Simons, D., Vipond, R., Byers, C., Watkins, N.A., UKHSA Monkeypox Incident Management team, Welfare, W., Whittaker, E., Dewsnap, C., Wilson, A., Young, Y., Chand, M., Riley, S., Hopkins, S. (2022). Community transmission of monkeypox in the United Kingdom, April to May 2022. _Eurosurveillance, 27_ 2200422. [https://doi.org/10.2807/1560-7917.ES.2022.27.22.2200422](https://doi.org/10.2807/1560-7917.ES.2022.27.22.2200422)
-
-- Yang, L., Tian, L., Li, L., Liu, Q., Guo, X., Zhou, Y., Pei, R., Chen, X., Wang, Y. (2022). Efficient assembly of a large fragment of monkeypox virus genome as a qPCR template using dual-selection based transformation-associated recombination. _Virologica Sinica_. [https://doi.org/10.1016/j.virs.2022.02.009](https://doi.org/10.1016/j.virs.2022.02.009)
-
-- Adler, H., Gould, S., Hine, P., Snell, L. B., Wong, W., Houlihan, C.F., Osborne, J.C., Rampling, T., Beadsworth, M.B.J., Duncan, C.J.A., Dunning, J., Fletcher, T.E., Hunter, E.R., Jacobs, M., Khoo, S.H., Newsholme, W., Porter, D., Porter, R.J., Ratcliffe, L., Schmid, M.L., Semple, M.G., Tunbridge, A.J., Wingfield, T., Price, N.M., NHS England High Consequence Infectious Diseases (Airborne) (2022). Clinical features and management of human monkeypox: a retrospective observational study in the UK. _The Lancet Infectious Diseases_. [https://doi.org/10.1016/s1473-3099(22)00228-6](<https://doi.org/10.1016/s1473-3099(22)00228-6>)
-
-- Mauldin, M.R., McCollum, A.M., Nakazawa, Y.J., Mandra, A., Whitehouse, E.R., Davidson, W., Zhao, H., Gao, J., Li, Y., Doty, J., Yinka-Ogunleye, A., Akinpelu, A., Aruna, O., Naidoo, D., Lewandowski, K., Afrough, B., Graham, V., Aarons, E., Hewson, R., Vipond, R., Dunning, J., Chand, M., Brown, C., Cohen-Gihon, I., Erez, N., Shifman, O., Israeli, O., Sharon, M., Schwartz, E., Beth-Din, A., Zvi, A., Minn Mak, T., Kai Ng, Y., Cui, L. Lin, R.T.P., Olson, V.A., Brooks, T., Paran, N., Ihekweazu, C., Reynolds, M. G. (2022). Exportation of monkeypox virus from the African continent. _The Journal of infectious diseases, 225_, 1367-1376. [https://doi.org/10.1093/infdis/jiaa559](https://doi.org/10.1093/infdis/jiaa559)
-
-- Khalil, A., Samara, A., O’Brien, P. et al. Call for a unified approach to Monkeypox infection in pregnancy: Lessons from the COVID-19 pandemic. Nat Commun 13, 5038 (2022). [https://doi.org/10.1038/s41467-022-32638-w](https://doi.org/10.1038/s41467-022-32638-w)
-
-- Karan A, Styczynski AR, Huang CH, Sahoo MK, Srinivasan K, Pinsky BA, et al. Human monkeypox without viral prodrome or sexual exposure, California, USA, 2022. Emerg Infect Dis. 2022 Oct. [https://doi.org/10.3201/eid2810.221191](https://doi.org/10.3201/eid2810.221191)
-
-- Kaler J, Hussain A, Flores G, et al. (July 03, 2022) Monkeypox: A Comprehensive Review of Transmission, Pathogenesis, and Manifestation. Cureus 14(7): e26531. [https://doi.org/10.7759/cureus.26531](https://doi.org/10.7759/cureus.26531)
-
-## Other useful resources
-
-- News from Swedish Public Health Agency FoHM on mpox ([in Engish](https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/communicable-disease-control/disease-information-about-monkeypox/)) ([in Swedish](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/smittsamma-sjukdomar/apkoppor/))
-- [Swedish Public Health Agency information about mpox cases April 2024 - July 2024](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/utbrottsarkiv/mpox-sverige-april-2024/) (only in Swedish).
-- [Swedish Public Health Agency information about mpox cases May 2022 - May 2023](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/apkoppor-internationellt-maj-2022-/) (only in Swedish).
-- [Information about PCR detection of mpox from the Swedish Public Health Agency FoHM](https://www.folkhalsomyndigheten.se/mikrobiologi-laboratorieanalyser/laboratorieanalyser-och-tjanster/analyskatalog/pcr/orthopoxvirus/) (only in Swedish)
-- [WHO - Factsheet on mpox](https://www.who.int/news-room/fact-sheets/detail/monkeypox)
-- [WHO - Multi-country outbreak of mpox bi-weekly situation reports](https://www.who.int/emergencies/situation-reports)
-- [WHO - Q&A related to mpox](https://www.who.int/news-room/questions-and-answers/item/monkeypox)
-- [ECDC & WHO - Mpox report](https://monkeypoxreport.ecdc.europa.eu/)
-- [ECDC - Mpox infection prevention and control guidance](https://www.ecdc.europa.eu/en/publications-data/monkeypox-infection-prevention-and-control-guidance-primary-and-acute-care)
-- [ECDC update on the outbreak](https://www.ecdc.europa.eu/en/publications-data/monkeypox-multi-country-outbreak-second-update) from October 2022
-- [ECDC - Factsheet on mpox for health professionals](https://www.ecdc.europa.eu/en/all-topics-z/monkeypox/factsheet-health-professionals)
-- [EMA response to the mpox public health emergency](https://www.ema.europa.eu/en/news/ema-response-monkeypox-public-health-emergency)
-- [P1 cultured virus from a mpox positive patient available from European Virus Archive](https://www.european-virus-archive.com/virus/monkeypox-virus-mpxv2022nl001-animal-human-2022-netherlands-mpxv2022nl001)
-- [Technical briefing documents on the investigation into cases of mpox in England](https://www.gov.uk/government/publications/monkeypox-outbreak-technical-briefings)
-- [San Diego Mpox Wastewater Surveillance Dashboard](https://searchcovid.info/dashboards/wastewater-surveillance-mpx/)
-- [Information from the Centers for Disease Control (CDC) in the USA](https://www.cdc.gov/poxvirus/monkeypox/index.html)
-- [ONA Mpox Outbreak Dashboard](https://onaghi.akuko.io/post/84cd71fb-9ce0-480a-8571-0e608a287849)
-- [Global map and case count](https://www.cdc.gov/poxvirus/monkeypox/response/2022/world-map.html) and [U.S. map and case count](https://www.cdc.gov/poxvirus/monkeypox/response/2022/us-map.html) for mpox in 2022 from the Centers for Disease Control (CDC)
-
-<script>
-  document.getElementById('originUrl_ann').value = location.href;
-  var form_ann = document.querySelector('.needs-validation-ann');
-  form_ann.addEventListener('submit', function(event){
-      if(form_ann.checkValidity() === false) {
-        event.preventDefault();
-        alert("Please fill out all required fields.");
-        event.stopPropagation();
-        form_ann.classList.add('was-validated')
-      }
-  })
-
-  // Add ARIA label for recaptcha
-  window.addEventListener("load", function () {
-    $('textarea#g-recaptcha-response').attr('aria-label', "The recaptcha response will appear here");
-  });
-</script>
+- [Global Mpox Trend](https://worldhealthorg.shinyapps.io/mpx_global/) summarizes the global Mpox surveillance established by WHO in 2022.
