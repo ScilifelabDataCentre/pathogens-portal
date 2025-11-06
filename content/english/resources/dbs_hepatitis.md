@@ -1,7 +1,7 @@
 ---
 title: "A multi-virus assay on dried blood spots (DBS): a powerful tool for enhanced screening and prevention of hepatitis."
 category: "PM_tdp"
-banner: "/resources_thumbs/.jpg"
+banner: "/resources_thumbs/dbs_hepatitis.png"
 resource_info:
   name: "A multi-virus assay on dried blood spots (DBS): a powerful tool for enhanced screening and prevention of hepatitis."
   pi: Claudia Fredolini

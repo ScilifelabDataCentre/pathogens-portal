@@ -1,7 +1,7 @@
 ---
 title: "Rapid diagnostic metagenomic sequencing"
 category: "PM_tdp"
-banner: "/resources_thumbs/travel.jpg"
+banner: "/resources_thumbs/rapid_dia_meta_seq.png"
 resource_info:
   name: "Rapid diagnostic metagenomic sequencing"
   pi: Tobias Allander

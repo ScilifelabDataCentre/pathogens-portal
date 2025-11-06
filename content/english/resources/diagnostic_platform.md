@@ -1,7 +1,7 @@
 ---
 title: "Evaluation of a novel rapid diagnostic platform for infectious diseases"
 category: "PM_tdp"
-banner: "/resources_thumbs/.jpg"
+banner: "/resources_thumbs/diagnostic_platform.png"
 resource_info:
   name: "Evaluation of a novel rapid diagnostic platform for infectious diseases"
   pi: Mikael Åberg
