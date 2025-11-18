@@ -7,7 +7,7 @@
 </section>
 
 {{ $pages := .RegularPages }}
-{{ $project_types := slice "plp1" "tdp" "plp2" "test"}}
+{{ $project_types := slice "plp1" "tdp" "plp2" "test" "PM_tdp"}}
 {{ range $project_type := $project_types }}
 {{ $resources_available := where $pages "Params.category" $project_type }}
 {{ with $resources_available }}
@@ -21,6 +21,8 @@
         <h4 class="pb-3">Pandemic Laboratory Preparedness Capabilities round 2 2022 (PLP2):</h4>
         {{ else if eq $project_type "test" }}
         <h4 class="pb-3">Testing PLP Capabilities (PLP-Test):</h4> 
+        {{ else if eq $project_type "PM_tdp" }}
+        <h4 class="pb-3"> Precision Medicine Technology Development Projects (PMTDP):</h4> 
         {{ end }}
         <div class="row g-2 g-lg-3">
             {{ range . }}
