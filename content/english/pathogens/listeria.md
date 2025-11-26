@@ -1,5 +1,5 @@
 ---
-title: "Listeria (Sweden, September  2025)"
+title: "Listeria (September  2025)"
 toc: true
 recaptcha: true
 aliases:
@@ -26,7 +26,7 @@ _L. monocytogenes_ typically only causes serious illness in those in high risk
 
 ## Outbreak Timeline 
 
-| **YEAR** | **DATE**  | **OBSERVATION**                                                                                                                                                                                                                                                                |
+| **YEAR** |  **DATE**  | **OBSERVATION**                                                                                                                                                                                                                                                                |
 | :------- | :--------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 2025     | 23–27 Sept | Guests at a specific restaurant in central Stockholm ate the tasting menu and subsequently developed symptoms of _L. monocytogenes_ infection.                                                                                                                                 |
 | 2025     | 1 October  | Region Stockholm issued a public notice: “A larger number of persons may have been infected by _L. monocytogenes_ after eating in a restaurant in central Stockholm during 25–27th Sept.” No patients were in intensive care.                                                  |
