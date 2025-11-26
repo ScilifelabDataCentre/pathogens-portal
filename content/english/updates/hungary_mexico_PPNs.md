@@ -1,5 +1,5 @@
 ---
-title: "Two new Pathogens Portal Nodes launched"
+title: "New Pathogens Portal Nodes launched by Hungary and Mexico."
 date: 2025-11-27
 summary: New nodes have been launched in Hungary and Mexico. Both made use of the PPN Toolbox.
 banner: /updates/banners/PDN_official.png
