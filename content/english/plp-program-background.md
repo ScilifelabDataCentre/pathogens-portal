@@ -21,11 +21,9 @@ A call for new capabilities (PLP2) was launched in spring 2022. The aim was to c
 
 In September 2023, the PLP-Test funding call was established to support up to 9 projects to test and improve existing PLP capabilities. The funding was available to those within PLP units and/or agencies related to pandemic preparedness, e.g. FoHM. More information about this call is available on the [SciLifeLab website](https://www.scilifelab.se/news/grants-for-testing-of-plp-capabilities-plp-test/). Please see the [below section on PLP-Test](/plp-program-background/#plp-test) to find out more about the capabilities resulting from this call.
 
-In February 2024, a further call for Clinical Technology Development Projects was established in collaboration with the Precision Medicine Capability at SciLifeLab. The call focused on the creation of clinical technology development projects addressing clinical needs. For more information about this call, see the [Scilifelab website](https://www.scilifelab.se/capabilities/precision-medicine/call-for-clinical-technology-development-projects/).
+In February 2024, a further call for Clinical Technology Development Projects was established in collaboration with the Precision Medicine (PM) Capability at SciLifeLab. The call focused on the creation of clinical technology development projects addressing clinical needs. The code for this call was designated as PMTDP, and more information about the resultant capabilities, please see the [below section on PMTDP](/plp-program-background/#pmtdp).
 
-In June 2025, Pandemic Laboratory Preparedness (PLP) programme launched a new funding call—PLPTDP25—for Technology Development Projects (TDPs). This call is designed to drive rapid, large-scale diagnostics and host response analysis amid outbreaks by funding innovation and refinement of technologies and capabilities that will significantly strengthen Sweden’s national pandemic preparedness. The aim is to ensure that the country can detect, analyse, and respond to emerging infectious threats rapidly and effectively by investing in tools and systems that are scalable, sustainable, and ready for real-world deployment. More information about this call is available on the [SciLifeLab website](https://www.scilifelab.se/news/call-for-grants-for-technology-development-projects-within-pandemic-laboratory-preparedness-plp-tdp/).
-
-To view any current funding available from PLP, view our [funding page](/funding/).
+In June 2025, Pandemic Laboratory Preparedness (PLP) programme launched a new funding call—PLPTDP25—for Technology Development Projects (TDPs). This call is designed to drive rapid, large-scale diagnostics and host response analysis amid outbreaks by funding innovation and refinement of technologies and capabilities that will significantly strengthen Sweden’s national pandemic preparedness. The aim is to ensure that the country can detect, analyse, and respond to emerging infectious threats rapidly and effectively by investing in tools and systems that are scalable, sustainable, and ready for real-world deployment. More information about this call is available on the [SciLifeLab website](https://www.scilifelab.se/news/call-for-grants-for-technology-development-projects-within-pandemic-laboratory-preparedness-plp-tdp/). Information about the resultant capabilities will be added to this page soon.
 
 ## Pillars of the PLP program
 
@@ -65,6 +63,12 @@ The following capabilites were funded as part of the PLP2 call.
 The following capabilities resulted from the PLP-Test call.
 
 {{< plp_table category="test" >}}
+
+### PMTDP
+
+The following capabilities were established during Clinical Technology Development Project (PMTDP) call in collaboration with the Precision Medicine Capability at SciLifeLab.
+
+{{< plp_table category="PM_tdp" >}}
 
 ## Further reading about the PLP program
 

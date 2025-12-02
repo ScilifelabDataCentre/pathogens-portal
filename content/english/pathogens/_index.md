@@ -7,6 +7,7 @@ This section is dedicated outbreaks affecting Sweden. The pages contain informat
 
 ### Current Outbreaks
 
+- **[Hepatitis A (September  2025)](hepatitis_a_25)**
 - **[Listeria (Sweden, September  2025)](listeria)**
 
 ### Historical Outbreaks
