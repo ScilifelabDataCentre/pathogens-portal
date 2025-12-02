@@ -7,7 +7,7 @@ banner: /updates/banners/Outbreaks.png
 banner_caption: Screenshots comparing the old and new layout of the outbreak pages.
 ---
 
-We have redesigned our _Emerging Pathogens_ section as _Outbreaks_ section to remain time relevant and accessible. We have updated the layout of pages to improve readability, navigation and presentation of outbreak related data and background. The new format is designed to give you a clearer overview of key information at a glance, while also making deeper pathogen and outbreak details easier to access.
+We have redesigned our _Emerging Pathogens_ section as [_Outbreaks_](https://www.pathogens.se/pathogens/) section to remain time relevant and accessible. We have updated the layout of pages to improve readability, navigation and presentation of outbreak related data and background. The new format is designed to give you a clearer overview of key information at a glance, while also making deeper pathogen and outbreak details easier to access.
 
 ### What’s new
 
