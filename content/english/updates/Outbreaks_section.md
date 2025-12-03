@@ -1,6 +1,6 @@
 ---
-title: New Layout for Outbreak Section # short
-title_full: Portal Design Update - New Layout for Outbreak Section (formerly known as Emerging Pathogens)
+title: New Layout for Information on Outbreaks # short
+title_full: Portal Design Update - Outbreaks Section (formerly known as Emerging Pathogens)
 date: 2025-12-04
 summary: We have updated the layout of pages to improve the readability, navigation, and presentation of information related to outbreaks impacting Sweden.
 banner: /updates/banners/Outbreaks.png
