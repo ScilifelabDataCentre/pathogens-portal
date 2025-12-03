@@ -5,14 +5,13 @@ toc: false
 
 This section is dedicated outbreaks affecting Sweden. The pages contain information on ongoing outbreaks, and are updated as information becomes available. Where appropriate, more resources will also be added elsewhere on the portal.
 
-### Current Outbreaks
+### Ongoing Outbreaks
 
-- **[Hepatitis A (September  2025)](hepatitis_a_25)**
+- **[Hepatitis A (Sweden, September  2025)](hepatitis_a_25)**
 - **[Listeria (Sweden, September  2025)](listeria)**
 
 ### Historical Outbreaks
 
-- **[Mpox a.k.a. Monkeypox (International, August 2024)](mpox)**
+- **[Mpox (formerly Monkeypox) (International, August 2024)](mpox)**
 - **[Acute hepatitis of unknown origin in children (International, April 2022)](hepatitis_unknown_origin)**
-- **[SARS-CoV-2 Variants of Concern (International, December 2019)](voc/)**
-    - [Omicron](voc/omicron/) (page no longer actively maintained - last updated February 2022)
+- **[SARS-CoV-2 (International, December 2019)](sars_cov_2)**
