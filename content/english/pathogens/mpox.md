@@ -6,7 +6,7 @@ aliases:
   - /pathogens/monkeypox
 ---
 
-## Background 
+## Background
 
 - **Pathogen**: Mpox (formerly known as “monkeypox”) has two main clades: Clade 1 and Clade 2 (each is further subdivided into 1a/1b and 2a/2b). [The global outbreak in 2022–2023 was driven by Clade 2b](https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON385), which still circulates globally in humans. An outbreak of Clade 1 has also been ongoing in the Democratic Republic of Congo (DRC) since autumn 2023. In 2025, the spread of Clade 2 increased in West Africa.
 
@@ -24,7 +24,7 @@ International health agencies published reports on Mpox transmission in both end
 
 The [PHEIC status was active until 5th September 2025](https://www.bmj.com/content/390/bmj.r1908), though [Africa CDC still considered Mpox to be a continental emergency](https://africacdc.org/news-item/mpox-still-a-continental-emergency-africa-cdc-advisory-group-recommends/).
 
-## Outbreak Timeline 
+## Outbreak Timeline
 
 | **YEAR** |  **DATE**   | **OBSERVATION**                                                                                                                                                                                                                                                                                                                                        |
 | :------- | :---------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -56,3 +56,5 @@ The [PHEIC status was active until 5th September 2025](https://www.bmj.com/conte
 ## Data Visualisation
 
 - [Global Mpox Trend](https://worldhealthorg.shinyapps.io/mpx_global/) summarises the global Mpox surveillance established by WHO in 2022.
+- [Monkeypox Outbreak Dashboard](https://onaghi.akuko.io/post/84cd71fb-9ce0-480a-8571-0e608a287849) an interactive dasboard provides global outbreak statistics was developed and maintained by [Ona](https://ona.io/home/) as part of its Global Health Initiative (GHI).
+- [San Diego Mpox Wastewater Surveillance](https://searchcovid.info/dashboards/wastewater-surveillance-mpx/) measured the virus concentration at the wastewater treatment plants to monitor the prevalence of Mpox in San Diego during the outbreak.
