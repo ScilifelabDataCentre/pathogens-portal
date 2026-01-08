@@ -56,5 +56,5 @@ The [PHEIC status was active until 5th September 2025](https://www.bmj.com/conte
 ## Data Visualisation
 
 - [Global Mpox Trend](https://worldhealthorg.shinyapps.io/mpx_global/) summarises the global Mpox surveillance established by WHO in 2022.
-- [Monkeypox Outbreak Dashboard](https://onaghi.akuko.io/post/84cd71fb-9ce0-480a-8571-0e608a287849) an interactive dasboard provides global outbreak statistics was developed and maintained by [Ona](https://ona.io/home/) as part of its Global Health Initiative (GHI).
+- [Monkeypox Outbreak Dashboard](https://onaghi.akuko.io/post/84cd71fb-9ce0-480a-8571-0e608a287849) an interactive dashboard that provides global outbreak statistics was developed and maintained by [Ona](https://ona.io/home/) as part of its Global Health Initiative (GHI).
 - [San Diego Mpox Wastewater Surveillance](https://searchcovid.info/dashboards/wastewater-surveillance-mpx/) measured the virus concentration at the wastewater treatment plants to monitor the prevalence of Mpox in San Diego during the outbreak.
