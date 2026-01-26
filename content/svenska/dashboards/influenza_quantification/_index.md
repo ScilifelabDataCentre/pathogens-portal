@@ -28,6 +28,11 @@ Notera att de poäng som tillhandahålls i datasetet och som visas i grafen neda
 
 <div class="alert alert-info">Last updated: <span id="last_modified_slu_flu"></span></div>
 
+<div class="alert alert-info">
+<b>Meddelande från forskarna</b></br>
+Från och med juli 2025 cirkulerar en ny, nu dominerande variant av influensa A H3N2 (subklade K) som vår nuvarande analysmetod inte är optimerad för, vilket sannolikt leder till en underskattning av de cirkulerande influensanivåerna.</br>
+</div>
+
 ### Influensa A
 
 <div class="d-md-none alert alert-info">
