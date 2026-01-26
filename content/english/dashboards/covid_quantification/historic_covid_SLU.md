@@ -74,7 +74,7 @@ The group provide reports to summarise their latest findings. The latest report 
 
 ## Dataset
 
-**Contact:** <anna.szekely@slu.se> and <javier.vargas@slu.se>
+**Contact:** <SEEC@slu.se>
 
 **Download the data:** [Respiratory virus gene copy numbers normalised per PMMoV gene copy number.CSV file.](https://blobserver.dc.scilifelab.se/blob/historic_SLU_wastewater_data.csv). Data are available from week 38 of 2020; updated weekly.
 
