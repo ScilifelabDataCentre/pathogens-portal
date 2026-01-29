@@ -36,7 +36,7 @@ The scores provided in the dataset and depicted in the plot below are preliminar
 
 <div class="alert alert-info">
 <b>Notice from the research group:</b></br>
-As of July 2025, a newly prevalent influenza A H3N2 variant (<i>subclade K</i>) is circulating that our current assay is not optimized for, which likely results in an underestimation of the levels of influenza circulating.</br>
+As of July 2025, a newly prevalent influenza A H3N2 variant (<i>subclade K</i>) is circulating that our current assay is not optimised for, which likely results in an underestimation of the levels of influenza circulating.</br>
 </div>
 
 <div class="plot_wrapper mb-3">
