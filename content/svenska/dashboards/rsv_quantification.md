@@ -48,7 +48,7 @@ Forskargruppen tillhandahåller en rapport som sammanfattar information från de
 
 ## Dataset
 
-**kontakt:** <anna.szekely@slu.se> och <javier.vargas@slu.se>
+**kontakt:** <SEEC@slu.se>
 
 **Ladda ner data:** RSV-genkopieantal normaliserat mot PMMoV-genkopieantal [CSV-fil](https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data.csv). Data för RSV finns tillgängligt från vecka 32 2023 och uppdateras varje vecka.
 

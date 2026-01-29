@@ -48,7 +48,7 @@ The group provide reports to summarise their latest findings. The latest report 
 
 ## Dataset
 
-**Contact:** <anna.szekely@slu.se> and <javier.vargas@slu.se>
+**Contact:** <SEEC@slu.se>
 
 **Download the data:** [Respiratory virus gene copy numbers normalised per PMMoV gene copy number.CSV file](https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data.csv). Data are available for RSV from week 32 of 2023; updated weekly.
 
