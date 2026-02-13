@@ -1,7 +1,7 @@
 ---
 title: "Universal Method to Co-Profile RNA Synthesis in Host and Pathogen"
 category: "tdp2"
-banner: "/resources_thumbs/.png"
+banner: "/resources_thumbs/rna_synthesis.png"
 resource_info:
   name: "Universal Method to Co-Profile RNA Synthesis in Host and Pathogen"
   pi: Anniina Vihervaara

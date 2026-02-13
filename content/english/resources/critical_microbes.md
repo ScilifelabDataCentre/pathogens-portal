@@ -1,7 +1,7 @@
 ---
 title: "CRITICAL MICROBES – Comprehensive Research on InfecTIons Complications Across the Lifespan – MICROBiology Epidemiology in Sweden"
 category: "tdp2"
-banner: "/resources_thumbs/.png"
+banner: "/resources_thumbs/critical_microbes.png"
 resource_info:
   name: "CRITICAL MICROBES – Comprehensive Research on InfecTIons Complications Across the Lifespan – MICROBiology Epidemiology in Sweden"
   pi: Anne-Marie Fors Connolly

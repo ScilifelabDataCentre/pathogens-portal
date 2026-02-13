@@ -1,7 +1,7 @@
 ---
 title: "Utilizing the Meso Scale Discovery multiplex serology platform and development of novel scalable T cell assays for rapid immunophenotyping"
 category: "tdp2"
-banner: "/resources_thumbs/."
+banner: "/resources_thumbs/meso_scale_discovery.png"
 resource_info:
   name: "Utilizing the Meso Scale Discovery multiplex serology platform and development of novel scalable T cell assays for rapid immunophenotyping to assess the cross- protective potential of current SARS-CoV-2 mRNA vaccination against related, potentially future threat, zoonotic coronaviruses"
   pi: Hans-Gustaf Ljunggren

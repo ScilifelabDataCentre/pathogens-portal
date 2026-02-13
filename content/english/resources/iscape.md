@@ -1,9 +1,9 @@
 ---
 title: "Use of ISCAPE to identify population vulnerabilities in the influenza antibody response"
 category: "tdp2"
-banner: "/resources_thumbs/.png"
+banner: "/resources_thumbs/iscape.png"
 resource_info:
-  name: "Sialic acid-based compounds with broad-spectrum activity against viruses with pandemic potential"
+  name: "Use of ISCAPE to identify population vulnerabilities in the influenza antibody response"
   pi: Gunilla Karlsson Hedestam
   host_organisation: Karolinska Institutet
   contact: "Gunilla Karlsson Hedestam<br>Tumor and Cell Biology (MTC), Department of Microbiology, Karolinska Institutet<br>Email: [Gunilla.Karlsson.Hedestam@ki.se](mailto:Gunilla.Karlsson.Hedestam@ki.se)<br>"

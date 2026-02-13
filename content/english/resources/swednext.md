@@ -1,7 +1,7 @@
 ---
 title: "Maintaining and expanding Sweden’s capacity to assess virus neutralization: “SwedNEXT”"
 category: "tdp2"
-banner: "/resources_thumbs/.png"
+banner: "/resources_thumbs/swednext.png"
 resource_info:
   name: "Maintaining and expanding Sweden’s capacity to assess virus neutralization: “SwedNEXT”"
   pi: Daniel Sheward

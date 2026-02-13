@@ -1,7 +1,7 @@
 ---
 title: "Clinical validation of novel methods to diagnose antibiotic interactions and heteroresistance"
 category: "tdp2"
-banner: "/resources_thumbs/.png"
+banner: "/resources_thumbs/hetroresistance.png"
 resource_info:
   name: "Clinical validation of novel methods to diagnose antibiotic interactions and heteroresistance"
   pi: Dan I. Andersson

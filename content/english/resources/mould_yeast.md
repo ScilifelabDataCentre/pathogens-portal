@@ -1,9 +1,9 @@
 ---
-title: "Identification of molds and yeasts using Nanopore sequencing and MALDI-TOF."
+title: "Identification of molds and yeasts using Nanopore sequencing and MALDI-TOF"
 category: "test"
 banner: "/resources_thumbs/mould_yeast.jpg"
 resource_info:
-  name: "Identification of molds and yeasts using Nanopore sequencing and MALDI-TOF."
+  name: "Identification of molds and yeasts using Nanopore sequencing and MALDI-TOF"
   pi: Johan Lindh
   host_organisation: Uppsala University
   contact: "Johan Lindh<br>Department of Medical Sciences, Clinical Microbiology, Uppsala University<br>Email: [johan.lindh@akademiska.se](mailto:johan.lindh@akademiska.se)"
