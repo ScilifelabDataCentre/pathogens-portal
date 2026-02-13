@@ -1,7 +1,7 @@
 ---
 title: "Towards clinical-grade host response diagnostics for pandemic preparedness"
 category: "tdp2"
-banner: "/resources_thumbs/.png"
+banner: "/resources_thumbs/host_response_diagnostics.png"
 resource_info:
   name: "Towards clinical-grade host response diagnostics for pandemic preparedness"
   pi: Niklas Björkström

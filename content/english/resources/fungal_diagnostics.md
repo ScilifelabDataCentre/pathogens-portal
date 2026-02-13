@@ -1,7 +1,7 @@
 ---
 title: "Next generation fungal diagnostics"
 category: "tdp2"
-banner: "/resources_thumbs/.png"
+banner: "/resources_thumbs/fungal_diagnostics.png"
 resource_info:
   name: "Next generation fungal diagnostics"
   pi: Johan Lindh

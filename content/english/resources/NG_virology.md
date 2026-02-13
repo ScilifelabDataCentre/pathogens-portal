@@ -1,7 +1,7 @@
 ---
 title: "Next Generation Clinical Virology"
 category: "tdp2"
-banner: "/resources_thumbs/.png"
+banner: "/resources_thumbs/next-gen-clin-microbio.jpg"
 resource_info:
   name: "Next Generation Clinical Virology"
   pi: Tobias Allander
