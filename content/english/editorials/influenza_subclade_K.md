@@ -1,9 +1,9 @@
 ---
 title: "Influenza A(H3N2) subclade K: when “seasonal” stops being predictable"
-date: 2026-02-09
+date: 2026-02-16
 summary: A perspective on the potential for influenza viruses to be the next pandemic threat and how to be better prepared for the next pandemic.
-banner: /editorials/topic_influenza.jpg
-banner_caption: A colourised transmission electron microscopic (TEM) image of Avian Influenza A H5N1 viruses (gold) (Credit- CDC).
+banner: /editorials/subclade_k.png
+banner_caption: An AI generated representative image of Subclade K of influenza A(H3N2)
 tags:
   [
     Influenza,
