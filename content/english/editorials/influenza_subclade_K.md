@@ -12,6 +12,8 @@ tags:
     seasonal influenza,
     Pathogens,
     Infectious disease,
+    subclade K,
+    A(H3N2),
   ]
 editorials_topics: [Influenza]
 editorials_authors: [Davide Angeletti]
