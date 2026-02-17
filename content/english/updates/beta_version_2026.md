@@ -1,7 +1,7 @@
 ---
 title: Beta version of the Swedish Pathogens Portal released # short
 title_full: Beta version of Swedish Pathogens Portal released
-date: 2026-02-16
+date: 2026-02-17
 summary: A new, beta version of the Swedish Pathogens Portal has been made available for community feedback.
 banner: /updates/banners/beta_version_update.png
 banner_caption: Comparison of the existing portal with the beta version.
@@ -17,7 +17,7 @@ The Swedish Pathogens Portal needed to be redesigned in a new software in order 
 
 > Liane Hughes, project leader for the Swedish Pathogens Portal says ‘We’re really excited to be able to support the extensive pandemic preparedness research efforts in Sweden. In the coming months, we’ll be collecting community feedback on the new, beta version of the portal. This will allow for iterative improvements, which will be completed alongside the development of new resources.’
 
-There are multiple major changes in the initial beta version compared to the existing portal. For example, major improvements have been made to the wastewater dashboard, thanks to close collaboration with Anna Székely’s group at Sveriges Lantbruksuniversitet (SLU). Information in the portal related to data management has also been streamlined, and the interface has been modified to improve usability.
+There are multiple major changes in the initial beta version compared to the existing portal. For example, major improvements have been made to the wastewater dashboard, thanks to close collaboration with Anna Székely’s group at Sveriges lantbruksuniversitet (SLU). Information in the portal related to data management has also been streamlined, and the interface has been modified to improve usability.
 
 In the coming months, the beta version of the portal will be continuously improved according to feedback, and new resources will be built in collaboration with researchers and research institutions. Users are encouraged to explore the beta version of the portal, and to [reach out with any suggestions](/contact/). The portal will also actively reach out for structured feedback over time.
 
