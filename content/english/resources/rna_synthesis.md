@@ -1,9 +1,9 @@
 ---
-title: "Universal Method to Co-Profile RNA Synthesis in Host and Pathogen"
+title: "Universal method to co-profile RNA synthesis in host and pathogen"
 category: "tdp2"
 banner: "/resources_thumbs/rna_synthesis.png"
 resource_info:
-  name: "Universal Method to Co-Profile RNA Synthesis in Host and Pathogen"
+  name: "Universal method to co-profile RNA synthesis in host and pathogen"
   pi: Anniina Vihervaara
   host_organisation: KTH Royal Institute of Technology
   contact: "Anniina Vihervaara<br> Department of Gene Technology, KTH Royal Institute of Technology<br>Email: [anniina.vihervaara@scilifelab.se](mailto:anniina.vihervaara@scilifelab.se)<br>"
