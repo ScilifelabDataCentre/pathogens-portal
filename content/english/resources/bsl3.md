@@ -30,21 +30,11 @@ The facility has unique capabilities for high-throughput (HTP) screening and for
 
 For more information on BSL3 Biomedicum (including information on access, use, full instrument capabilities and contact), please see the dedicated [BSL3 facility page](/resources/bsl3-facility/).
 
-<figure class="figure">
-  <img src="/resorces/bsl3-facility-crispr-based-antiviral.png" class="figure-img img-fluid" alt="Image showing method of Testing CRISPR-based antivirals at BSL3 Biomedicum">
-  <figcaption class="figure-caption">Testing CRISPR-based antivirals at BSL3 Biomedicum.</figcaption>
-</figure>
-
 ###### 2. The Swedish Biosafety Level 3 (BSL3) Network
 
 The Swedish BSL3 Network (SB3N) is an open network for Swedish BSL3 facilities, in academia and government (BSL3 Directors, HQPs, and users alike) to come together to share experiences, knowledge, and technology. The network maps Swedish BSL3 capabilities and specialisations, defines joint actions for PLP and provides visibility and outreach for its members. Current members in the network come from 6 different Swedish universities and 1 university hospital. SB3N collaborates with the Canadian Consortium for Academic BSL3 Laboratories (CCABL3) and the Coronavirus Variants Rapid Response Network (CoVaRRNet).
 
 For more information on the BSL3 Network (including information on access, use, and contact), please see the dedicated [BSL3 network page](/resources/bsl3-network/).
-
-<figure class="figure">
-  <img src="/resorces/bsl3_network_members.png" class="figure-img img-fluid" alt="A map showing current members of the Swedish BSL3 network">
-  <figcaption class="figure-caption">Current members of the Swedish BSL3 network</figcaption>
-</figure>
 
 ##### Research findings:
 
