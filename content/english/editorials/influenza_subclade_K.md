@@ -1,6 +1,6 @@
 ---
 title: "Influenza A(H3N2) subclade K: when “seasonal” stops being predictable"
-date: 2026-02-16
+date: 2026-02-17
 summary: A perspective on the potential for influenza viruses to be the next pandemic threat and how to be better prepared for the next pandemic.
 banner: /editorials/subclade_k.png
 banner_caption: An AI generated representative image of Subclade K of influenza A(H3N2)
@@ -38,4 +38,4 @@ Clearly this question can be answered at several levels.
 
 3. Finally, we need to modernise the vaccine pipeline. The current approach relies on prediction and long lead times ([Krammer _et al._, 2018](https://doi.org/10.1038/s41572-018-0002-y)). New modalities and strategies that can shorten update cycles or broaden protection across multiple strains, and ideally across multiple seasons, are urgently needed ([Taaffe _et al._, 2024](https://doi.org/10.1016/j.vaccine.2024.126408)). Progress toward broadly protective or “universal” influenza vaccines has been scientifically encouraging ([Arevalo _et al._, 2022](https://doi.org/10.1126/science.abm0271); [Bliss _et al._, 2024](https://doi.org/10.1016/j.ebiom.2024.105153); [Guthmiller _et al._, 2025](https://doi.org/10.1016/j.immuni.2025.02.025)) but operationally difficult, and the commercial landscape remains volatile, with many new vaccines showing non-superiority to current approaches. That is why public investment and diversified development pathways matter. Better seasonal vaccines and faster pivots would also strengthen readiness for pandemic influenza.
 
-The bottom line is that subclade K is not special, but it is what we should expect when a rapidly drifting virus meets a slow update cycle. The best response is to continue pushing visibility, surveillance, and readiness. We should work to ensure higher uptake in risk groups, faster detection and reporting, and sustained investment in next-generation influenza vaccines.
+The bottom line is that subclade K is not special, but it is what we should expect when a rapidly drifting virus meets a slow update cycle. The best response is to continue pushing visibility, surveillance, and readiness. We should work to ensure higher uptake in high-risk groups, faster detection and reporting, and sustained investment in next-generation influenza vaccines.
