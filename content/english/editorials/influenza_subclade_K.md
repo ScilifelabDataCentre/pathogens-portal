@@ -17,7 +17,7 @@ tags:
   ]
 editorials_topics: [Influenza]
 editorials_authors: [Davide Angeletti]
-images: [/editorials/topic_influenza.jpg]
+images: [/editorials/subclade_k.png]
 ---
 
 Influenza is often treated as a seasonal inconvenience but still predictable, manageable, and largely known. Subclade K of influenza A(H3N2) is a reminder that seasonal does not mean stable, it means that we should be prepared every season ([Chen, 2026](https://www.nature.com/articles/d41586-026-00061-6)). This virus is not unprecedented, but it exposes a recurring vulnerability; our vaccine and preparedness systems move on fixed timelines, while influenza evolves on its own schedule.

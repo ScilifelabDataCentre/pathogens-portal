@@ -18,7 +18,7 @@ tags:
   ]
 editorials_topics: [Antibiotic Resistance]
 editorials_authors: [Eva Garmendia]
-images: [/editorials/topic_influenza.jpg]
+images: [/editorials/uppsala_antibiotic_center.jpg]
 ---
 
 Antibiotic resistance does not stay inside laboratories, hospitals, or policy documents. Resistant bacteria and resistance genes can move among people, animals, food systems, water, and the environment ([Larsson and Flach, 2022](https://doi.org/10.1038/s41579-021-00649-x)). It can follow travel routes, supply chains, prescribing habits, and access to care. This is why antibiotic resistance cannot be solved from a single perspective. In fact, antibiotic resistance arguably cannot be solved at all ([Wright, 2010](https://doi.org/10.1186/1741-7007-8-123)), but managing it needs a shared responsibility, a shared language, and a shared space. This belief stands at the core of the [Uppsala Antibiotic Center (UAC)](http://www.uac.uu.se/).
