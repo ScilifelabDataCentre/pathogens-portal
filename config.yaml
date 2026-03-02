@@ -87,11 +87,6 @@ markup:
     renderer:
       unsafe: true
 
-caches:
-  getjson:
-    dir: :cacheDir/:project
-    maxAge: 10s
-
 taxonomies:
   highlights_topic: highlights_topics
   highlights_voc: highlights_vocs
