@@ -86,7 +86,7 @@ The following capabilities were established during Technology Development Projec
 
 **Scientific lead for the PLP program**: Staffan Svärd.
 
-**Scientific co-lead for the PLP program**: Ulf Ribacke.
+**Scientific co-lead for the PLP program**: Jessica Alm.
 
 **Coordinator for the PLP program**: Alice Sollazzo.
 
