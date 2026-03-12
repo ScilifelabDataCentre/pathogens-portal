@@ -46,9 +46,9 @@ The following capabilites were established in the PLP1 call, some received conti
 
 {{< plp_table category="plp1" >}}
 
-### PLP TDPs
+### PLP TDP 2021
 
-The following capabilities were established during the Technology Development Project (TDP) call. Some projects also received continuation funding from REPLPCM.
+The following capabilities were established during the Technology Development Project (TDP) call in 2021. Some projects also received continuation funding from REPLPCM.
 
 {{< plp_table category="tdp" >}}
 
@@ -70,6 +70,12 @@ The following capabilities were established during Clinical Technology Developme
 
 {{< plp_table category="PM_tdp" >}}
 
+### PLP TDP 2025
+
+The following capabilities were established during Technology Development Projects (TDPs) call in 2025.
+
+{{< plp_table category="tdp2" >}}
+
 ## Further reading about the PLP program
 
 - [Overview of the PLP program](https://www.scilifelab.se/capabilities/pandemic-laboratory-preparedness/).
@@ -80,7 +86,7 @@ The following capabilities were established during Clinical Technology Developme
 
 **Scientific lead for the PLP program**: Staffan Svärd.
 
-**Scientific co-lead for the PLP program**: Ulf Ribacke.
+**Scientific co-lead for the PLP program**: Jessica Alm.
 
 **Coordinator for the PLP program**: Alice Sollazzo.
 
