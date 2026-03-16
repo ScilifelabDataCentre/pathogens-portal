@@ -2,7 +2,7 @@
 
 ## Status
 
-Draft.
+Accepted.
 
 ## Context
 
@@ -176,4 +176,8 @@ Adopting a streamlined Django-based architecture with htmx for dynamic behaviour
 * The architecture is **intentionally designed to evolve**. If certain design choices prove to be blockers (e.g., performance, complexity), the Django foundation can support migration to API-first approaches or microservices without major rewrites.
 * Initial implementation will **reproduce the existing features** of the current Swedish Pathogens Portal, ensuring continuity. As the team gains familiarity with htmx, the architecture will support gradual rollout of more advanced dynamic features.
 * If requirements change in the future and SPP 2.0 needs to support a general userbase, implement RBAC, or require API endpoints for external integrations, the Django architecture can support these features, and a new ADR will be created to document and guide such changes.
+
+
+## Note (added 2026-03-16)
+Swedish Pathogens Portal 2.0 was implemented in repository [swedish-pathogens-portal](https://github.com/ScilifelabDataCentre/swedish-pathogens-portal).
 
