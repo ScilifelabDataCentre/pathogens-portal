@@ -11,6 +11,10 @@ dashboards_topics: [Wastewater Surveillance, RSV, Epidemiology]
 data_status: "updating"
 ---
 
+<div class="alert alert-info">
+Data will now exclusively be updated on the <a href="https://swedish-pathogens-portal.scilifelab-2-dev.sys.kth.se/dashboards/slu-wastewater/">new version of this dashboard</a> found on the beta-version of the site. Please refer to that dashboard for future updates.
+</div>
+
 ## Introduction
 
 Respiratory Syncytial Virus (RSV) is a negative-sense, single-stranded RNA virus that causes infections of the lungs and respiratory tract. Most people only have mild, cold-like symptoms and recover quickly, but infants and older adults can develop severe RSV and need hospitalization. RSV is one of the major reasons of hospitalization for respiratory illnesses in infants < 1 year old. For more information about symptoms, risks and vaccination against RSV, visit the corresponding site of the [Swedish Public Health Agency](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/smittsamma-sjukdomar/rs-virusinfektion/).
@@ -73,4 +77,3 @@ The data in the graphs and datafile is presented in three different formats:
 **How to cite the method:**
 
 Isaksson, F., Lundy, L., Hedström, A., Székely, A. J., Mohamed, N. (2022). Evaluating the Use of Alternative Normalization Approaches on SARS-CoV-2 Concentrations in Wastewater: Experiences from Two Catchments in Northern Sweden. _Environments_, _9_, 39. <https://doi.org/10.3390/environments9030039>.
-

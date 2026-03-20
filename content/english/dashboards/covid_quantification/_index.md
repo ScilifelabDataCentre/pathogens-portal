@@ -11,10 +11,14 @@ aliases:
   - /dashboards/wastewater/covid_quant_slu/
   - /dashboards/wastewater/covid_quantification/
   - /dashboards/wastewater/covid_quantification/covid_quant_slu/
-dashboards_topics: [Wastewater Surveillance, COVID-19, Infectious diseases, Epidemiology]
+dashboards_topics:
+  [Wastewater Surveillance, COVID-19, Infectious diseases, Epidemiology]
 data_status: "updating"
 ---
 
+<div class="alert alert-info">
+Data will now exclusively be updated on the <a href="https://swedish-pathogens-portal.scilifelab-2-dev.sys.kth.se/dashboards/slu-wastewater/">new version of this dashboard</a> found on the beta-version of the site. Please refer to that dashboard for future updates.
+</div>
 
 ## Introduction
 
@@ -101,6 +105,7 @@ The freshly collected samples are processed according to standard methodologies.
 Absolute quantification of the copy numbers of the SARS-CoV-2 genome is performed using One-Step RT-qPCR. Until week 31 of 2023 the quantification of the viral genomes was performed using the [SARS-CoV-2 specific N1 assay from the Centers for Disease Control and Prevention (CDC)](https://www.fda.gov/media/134922/download). From week 32 of 2023 quantification is performed using the Flu SC2 Multiplex Assay (CDC). To correct for variations in population size and wastewater flow, the pepper mild mottle virus (PMMoV) is quantified using a modified version of the assay of [Zhang _et al._ (2006)](https://doi.org/10.1371/journal.pbio.0040003). PMMoV is an abundant RNA virus in human faeces and serves as an estimator of human faecal content ([Symonds _et al._, 2019](https://doi.org/10.1371/journal.ppat.1007639)). For more details about the sample processing method, and the evaluation of the use of the PMMoV normalisation method for Swedish wastewater, please refer to the corresponding publication: [Isaksson _et al._ (2022)](https://www.mdpi.com/2076-3298/9/3/39).
 
 The data in the graphs and datafile is presented in three different formats:
+
 - **PMMoV normalised SARS-CoV2 content** represents the ratio of the copy numbers of SARS-CoV2 and PMMoV measured by the SARS-CoV2 assay and PMMoV-assays, respectively, multiplied by 1000. As the SARS-CoV2 assay provides proxies for SARS-CoV2 virus content in the wastewater and PMMoV is a proxy of the faecal content (which is related to the contributing population), the ratio of the two can be considered to be a proxy for the prevalence of SARS-CoV2 infections in the population of the wastewater catchment area.
 - **SARS-CoV2 genome copies concentration** presents the SARS-CoV2 copy number concentration measured in the wastewater. These data is influenced by the setup of the different wastewater collection nsystems and is therefore not suitable for comparison betwwen sites. The virus concentrations in the wastewater are also influenced by the weather events that impact wastewater flow (e.g., heavy rain or snow melt).
 - **SARS-CoV2 genome copies/day/inhabitant** represents the daily virus amount estimated in the wastewater normalized for the number of inhabitants connected to the system. These data allows for comparison of different sites but some delays in the presentation of these data may occur compared to the other.
@@ -112,7 +117,6 @@ Isaksson, F., Lundy, L., Hedström, A., Székely, A. J., Mohamed, N. (2022). Eva
 ## Related data
 
 - SARS-CoV-2 variant analysis from wastewater (data available in the European Nucleotide Archive (ENA) under project number [PRJEB60156](https://www.ebi.ac.uk/ena/browser/view/PRJEB60156)): The group at SLU analysed samples from Uppsala, Örebro, Umeå, and Kalmar (2021-2022).
-
 
 ## Archived data from SLU
 
@@ -126,5 +130,3 @@ Other groups also quantified SARS-CoV-2 in wastewater in Sweden. The groups used
 - [**Gothenburg university (GU):**](/dashboards/covid_quantification/covid_quant_gu/) Quantification of the level of SARS-CoV-2 in wastewater from Gothenburg by the Norder group at GU.
 
 - [**SEEC-KTH node:**](/dashboards/covid_quantification/covid_quant_kth/) Quantification of the levels of SARS-CoV-2 in wastewater from Stockholm and Malmö by the SEEC-KTH node (no longer updated after June 2023, historic data is available).
-
-
