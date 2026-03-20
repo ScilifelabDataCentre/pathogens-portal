@@ -5,10 +5,22 @@ summary: A recently derived asexual lineage of Giardia reveals how mutation accu
 banner: /highlights/banners/giardia_duodenalis.png
 banner_large: /highlights/banners/giardia_duodenalis.png
 banner_caption: "Source: Figure 5 (a,b) of Tichkule et al. (2025)"
-highlights_topics: [Parasite ,Infectious diseases]
+highlights_topics: [Infectious diseases]
 tags:
   [
-    Giardia duodenalis, population genomics, Asexual vs. sexual lineages (AI/AII), Host-range evolution, Muller's Ratchet, Recombination inference, Linkage disequilibrium analyses, Whole-genome SNP profiling, Parasite evolutionary dynamics, Phylogenomic clustering, Genomic signatures of asexuality, Mutation-driven host expansion, Comparative genomics of protist pathogens.
+    Giardia duodenalis,
+    population genomics,
+    Asexual vs. sexual lineages (AI/AII),
+    Host-range evolution,
+    Muller's Ratchet,
+    Recombination inference,
+    Linkage disequilibrium analyses,
+    Whole-genome SNP profiling,
+    Parasite evolutionary dynamics,
+    Phylogenomic clustering,
+    Genomic signatures of asexuality,
+    Mutation-driven host expansion,
+    Comparative genomics of protist pathogens.,
   ]
 images: [/highlights/banners/giardia_duodenalis.png]
 ---
@@ -17,7 +29,7 @@ Giardia duodenalis is an intestinal protozoan parasite that infects a wide varie
 
 Classical evolutionary theory predicts that parasites that reproduce strictly asexually will struggle to adapt to changing environments, and will accumulate harmful mutations over time. This process is known as Muller’s Ratchet. However, _G. duodenalis_ (and some other strictly asexually reproducing parasites) defy these expectations, successfully colonising new hosts. [Tichkule _et al._ (2025)](https://doi.org/10.1038/s41467-025-65843-4) studied _G. duodenalis to find_ a genomic explanation for how this can occur.
 
-Tichkule _et al._ (2025) analysed whole-genome sequences from 107 _G. duodenalis_ isolates belonging to [Assemblage](https://doi.org/10.1016/S0169-4758(99)01624-5) A, after excluding mixed infections. The isolates used were obtained from a wide range of hosts, including humans, dogs, cats, pigs, beavers, and sheep, and the environment. Comparative genomic analyses revealed two major subassemblages: AI and AII. Subassemblage AII showed evidence of meiotic recombination and was almost exclusively associated with humans. In contrast, subassemblage AI appeared to represent a more recently derived asexual lineage, lacking signs of recombination, but capable of infecting a broader spectrum of host species.
+Tichkule _et al._ (2025) analysed whole-genome sequences from 107 _G. duodenalis_ isolates belonging to [Assemblage](<https://doi.org/10.1016/S0169-4758(99)01624-5>) A, after excluding mixed infections. The isolates used were obtained from a wide range of hosts, including humans, dogs, cats, pigs, beavers, and sheep, and the environment. Comparative genomic analyses revealed two major subassemblages: AI and AII. Subassemblage AII showed evidence of meiotic recombination and was almost exclusively associated with humans. In contrast, subassemblage AI appeared to represent a more recently derived asexual lineage, lacking signs of recombination, but capable of infecting a broader spectrum of host species.
 
 To clarify the evolutionary structure within Assemblage A, Tichkule _et al._ (2025) applied phylogenetic clustering and genomic distance metrics.This led to the identification of three genetic groups, including one intermediate cluster derived from feline and environmental isolates. This population framework enabled a fine-scale comparison of recombination patterns and mutation accumulation between the subassemblages. Subassemblage AI genomes displayed signatures typical of asexual evolution, such as strong linkage disequilibrium and a uniform mutation distribution across the genome. On the contrary, subassemblage AII showed evidence of recombination and decay of linkage consistent with sexual reproduction.
 
@@ -34,4 +46,4 @@ By integrating evolutionary theory with population genomics, Tichkule _et al._ (
 
 DOI: [10.1038/s41467-025-65843-4](https://doi.org/10.1038/s41467-025-65843-4)
 
-Tichkule, S., van Oosterhout, C., Cacciò, S. M., Weisz, F., Balan, B., Nohýnková, E.,Naung, M., Ansell, BRE., Emery-Corbin, SJ., Baker, L., Lalle, M., Svärd, S., Gasser, RB., & Jex, A. R. (2025). Host range expansion of asexual parasites can be explained by loss of adaptions in Muller’s Ratchet. **Nature Communications, 16(1), 10805.**
+Tichkule, S., van Oosterhout, C., Cacciò, S. M., Weisz, F., Balan, B., Nohýnková, E.,Naung, M., Ansell, BRE., Emery-Corbin, SJ., Baker, L., Lalle, M., Svärd, S., Gasser, RB., & Jex, A. R. (2025). Host range expansion of asexual parasites can be explained by loss of adaptions in Muller’s Ratchet. _Nature Communications_, **16(1)**, 10805.
