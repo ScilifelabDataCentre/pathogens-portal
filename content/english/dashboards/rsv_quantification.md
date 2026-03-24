@@ -12,7 +12,7 @@ data_status: "updating"
 ---
 
 <div class="alert alert-info">
-Data will now exclusively be updated on the <a href="https://swedish-pathogens-portal.scilifelab-2-dev.sys.kth.se/dashboards/slu-wastewater/">new version of this dashboard</a> found on the beta-version of the site. Please refer to that dashboard for future updates.
+To see data updates, please go to the newn<a href="https://swedish-pathogens-portal.scilifelab-2-dev.sys.kth.se/dashboards/slu-wastewater/rsv/"> RSV quantification tab</a>, found on the beta-version of the site. Data on this page will no longer be updated.
 </div>
 
 ## Introduction
@@ -28,7 +28,7 @@ The scores provided in the dataset and depicted in the plot below are preliminar
 
 ## Visualisations
 
-<div class="alert alert-info">Last updated: <span id="last_modified_slu_rsv"></span></div>
+<div class="alert alert-info">Last updated: 2026-03-23 (further updates are available on the new <a href="https://swedish-pathogens-portal.scilifelab-2-dev.sys.kth.se/dashboards/slu-wastewater/rsv/"> RSV quantification tab</a>).</div>
 
 <div class="d-md-none alert alert-info">
   Rotating your phone may improve graph layout
