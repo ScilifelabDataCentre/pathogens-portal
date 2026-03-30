@@ -1,6 +1,6 @@
 ---
 title: "New data highlight on multidrug‑resistant Enterobacterales in Swedish wastewater effluent"
-date: 2026-03-26
+date: 2026-03-30
 summary: The recent appearance of Carbapenem‑resistant Enterobacterales (CRE) at a wastewater treatment plant indicates a need for integrated surveillance of resistance genes across discipline.
 banner: /highlights/banners/enterobacterales.png
 banner_caption: "Figure 1 of Axelsson _et al._ (2026)"
