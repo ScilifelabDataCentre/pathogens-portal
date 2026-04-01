@@ -30,7 +30,7 @@ The scores provided in the dataset and depicted in the plot below are preliminar
 
 ## Visualisations
 
-<div class="alert alert-info">Last updated: 2026-03-23 (further updates are available on the new <a href="https://swedish-pathogens-portal.scilifelab-2-dev.sys.kth.se/dashboards/slu-wastewater/influenza-a-virus/"> influenza A</a> and <a href="https://swedish-pathogens-portal.scilifelab-2-dev.sys.kth.se/dashboards/slu-wastewater/influenza-b-virus/"> influenza B</a> quantification tabs).</div>
+<div class="alert alert-info">Last updated: 2026-03-30 (further updates are available on the new <a href="https://swedish-pathogens-portal.scilifelab-2-dev.sys.kth.se/dashboards/slu-wastewater/influenza-a-virus/"> influenza A</a> and <a href="https://swedish-pathogens-portal.scilifelab-2-dev.sys.kth.se/dashboards/slu-wastewater/influenza-b-virus/"> influenza B</a> quantification tabs).</div>
 
 ### Influenza A
 
