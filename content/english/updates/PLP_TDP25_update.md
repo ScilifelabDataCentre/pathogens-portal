@@ -1,5 +1,5 @@
 ---
-title: "New capbilities from the Pandemic Laboratory Preparedness (PLP) program"
+title: "New capabilities from the Pandemic Laboratory Preparedness (PLP) program"
 date: 2026-03-12
 summary: Check out the latest capabilities developed from SciLifeLab's Pandemic Laboratory Preparedness (PLP) program.
 banner: /updates/banners/plp_default2.png
