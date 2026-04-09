@@ -46,7 +46,7 @@ There is a clear trend in the coverage for each dose. Specifically, the levels o
 
 #### Information on admission to intensive care units (ICU)
 
-The lower graph in this section shows the number of people admitted to intensive care (ICU), and how many vaccine doses they had received upon admission. These data are from the registers already mentioned, as well as the Swedish Intensive Care Register (SIR), a healthcare quality register.
+The lower graph in this section shows the number of people admitted to intensive care (ICU) until July 2022 and the data is no longer updated, and how many vaccine doses they had received upon admission. These data are from the registers already mentioned, as well as the Swedish Intensive Care Register (SIR), a healthcare quality register.
 
 There are three major peaks in admissions to intensive care (ICU). The timing of these peaks corresponds to peaks in COVID-19 cases, specifically in spring 2020, winter 2021, and spring 2021, when the rates of infection were high.
 
