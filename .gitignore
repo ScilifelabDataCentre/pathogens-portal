@@ -4,6 +4,10 @@
 # more Hugo stuff
 .hugo_build.lock
 
+# Local dev stuff
+devbox*
+pnpm-lock.yaml
+
 # OSX
 .DS_Store
 __pycache__
