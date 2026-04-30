@@ -3,8 +3,7 @@ title: From bottlenecks to breakthroughs - decoding malaria transmission biology
 date: 2026-04-23
 summary: High-resolution omics approaches are uncovering critical bottlenecks in malaria transmission, providing new insights into host–parasite interactions and opportunities for next-generation interventions.
 aliases:
-    - /news/malaria_ediotrial
-    - /news/malaria_editorial
+    - /news/malaria_transmission_ediotrial
 banner: /updates/banners/malaria_transmission.png
 banner_caption: Visualisation depicting transmission cycle of the malarial parasite
 ---
