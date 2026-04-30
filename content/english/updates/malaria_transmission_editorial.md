@@ -2,8 +2,10 @@
 title: From bottlenecks to breakthroughs - decoding malaria transmission biology
 date: 2026-04-23
 summary: High-resolution omics approaches are uncovering critical bottlenecks in malaria transmission, providing new insights into host–parasite interactions and opportunities for next-generation interventions.
+aliases:
+    - /news/malaria_transmission_ediotrial
 banner: /updates/banners/malaria_transmission.png
-banner_caption: Visualisation depicting tranmission cycle of the malarial parasite
+banner_caption: Visualisation depicting transmission cycle of the malarial parasite
 ---
 
 The latest editorial, written by researchers from the [Ankarklev Lab](https://www.ankarklevlab.org/), is entitled “[Mind the Gap: How high-resolution omics is transforming our understanding of malaria transmission biology](editorials/malaria_transmission)”. It explores how malaria remains a major global health challenge, and argues that advancing our understanding of parasite transmission requires moving beyond traditional approaches, and toward high-resolution, data-driven biology. This editorial was contributed and published in the honor of the [World Malaria Day](https://www.who.int/campaigns/world-malaria-day), it highlights the urgent need for innovative research to combat a disease that continues to affect millions globally.

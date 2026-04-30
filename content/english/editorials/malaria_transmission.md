@@ -3,7 +3,7 @@ title: "Mind the Gap: How high-resolution omics is transforming our understandin
 date: 2026-04-23
 summary: High-resolution omics approaches are uncovering critical bottlenecks in malaria transmission, providing new insights into host–parasite interactions and opportunities for next-generation interventions.
 banner: /editorials/malaria_transmission.png
-banner_caption: Visualisation depicting tranmission cycle of the malarial parasite
+banner_caption: Visualisation depicting transmission cycle of the malarial parasite
 tags:
   [
     Pathogens,
