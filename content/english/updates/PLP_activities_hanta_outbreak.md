@@ -1,7 +1,7 @@
 ---
 title: "PLP engaged in preparedness activities related to the Hanta-/Andesvirus outbreak"
 date: 2026-05-22
-summary: The PLP program at SciLifeLab is actively engagaed in national and internation efforts related to the recent Hanta-/Andesvirus outbreak.
+summary: The PLP program at SciLifeLab is actively engagaed in national and international efforts related to the recent Hanta-/Andesvirus outbreak.
 banner: /updates/banners/hantavirus_outbreak.jpg
 banner_caption: "Depiction of hantavirus from the Centers for Disease Control and Prevention (CDC)."
 ---
