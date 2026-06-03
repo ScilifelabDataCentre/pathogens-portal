@@ -12,7 +12,7 @@ data_status: "updating"
 ---
 
 <div class="alert alert-info">
-To see data updates, please go to the newn<a href="https://swedish-pathogens-portal.scilifelab-2-dev.sys.kth.se/dashboards/slu-wastewater/rsv/"> RSV quantification tab</a>, found on the beta-version of the site. Data on this page will no longer be updated.
+To see data updates, please go to the new<a href="https://swedish-pathogens-portal.scilifelab-2-dev.sys.kth.se/dashboards/slu-wastewater/rsv/"> RSV quantification tab</a>, found on the beta-version of the site. Data on this page will no longer be updated.
 </div>
 
 ## Introduction
