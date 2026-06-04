@@ -11,16 +11,20 @@ aliases:
   - /sv/dashboards/wastewater/covid_quant_slu/
   - /sv/dashboards/wastewater/covid_quantification/
   - /sv/dashboards/wastewater/covid_quantification/covid_quant_slu/
-dashboards_topics: [Wastewater Surveillance, COVID-19, Infectious diseases, Epidemiology]
+dashboards_topics:
+  [Wastewater Surveillance, COVID-19, Infectious diseases, Epidemiology]
 data_status: "updating"
 ---
 
+<div class="alert alert-info">
+För att se uppdaterade uppgifter, gå till den nya <a href="https://swedish-pathogens-portal.scilifelab-2-dev.sys.kth.se/dashboards/slu-wastewater/sars-cov-2/">sidan för kvantifiering av SARS-CoV-2</a>, som finns på webbplatsens betaversion. Uppgifterna på denna sida kommer inte längre att uppdateras.
+</div>
 
 ## Introduktion
 
 Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) är ett enkelsträngat RNA-virus som orsakar COVID-19 (coronavirus disease 2019), den luftvägsinfektion som orsakade COVID-19-pandemin. SARS-CoV-2 identifierades först i staden Wuhan, Hubei, Kina, och Världshälsoorganisationen (WHO) deklarerade att viruset var ett internationellt akut hot mot människors hälsa mellan den 30 januari 2020 och 5 maj 2023. För mer information om symtom, risker och vaccination mot influensavirus, besök [Folkhälsomyndighetens motsvarande sida](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/smittsamma-sjukdomar/covid-19/).
 
-SARS-CoV-2-viruspartiklar kan utsöndras via andningsdroppar, aerosoler och kan även förekomma i avföringen hos smittade individer. Detta möjliggör att SARS-CoV-2-viruset kan upptäckas i avloppsvatten och att infektionstrender på populationsnivå av COVID-19 kan följas genom avloppsvattenbaserad epidemiologi (på engelska wastewater-based epidemiology, WBE). 
+SARS-CoV-2-viruspartiklar kan utsöndras via andningsdroppar, aerosoler och kan även förekomma i avföringen hos smittade individer. Detta möjliggör att SARS-CoV-2-viruset kan upptäckas i avloppsvatten och att infektionstrender på populationsnivå av COVID-19 kan följas genom avloppsvattenbaserad epidemiologi (på engelska wastewater-based epidemiology, WBE).
 
 Data som presenteras på denna sida genereras i Sveriges lantbruksuniversitets (SLU) laboratorier vid Svenskt Miljöepidemiologiskt Centrum (SEEC). Data och visualiseringar på den här sidan uppdateras vanligtvis veckovis, oftast på måndagar. För en omfattande förståelse, vänligen hänvisa till [Metoder](#metoder) avsnittet. För en allmän översikt om avloppsvattenövervakning, vänligen besök [Avloppsbaserad epidemiologi i Sverige](/dashboards/wastewater_background/)
 
@@ -31,7 +35,7 @@ Notera att de poäng som tillhandahålls i datasetet och som visas i grafen neda
 
 ## Visualiseringar
 
-<div class="alert alert-info">Senast uppdaterad: <span id="last_modified_uppsala"></span></div>
+<div class="alert alert-info">Senast uppdaterad: 2026-04-20 (ytterligare uppdateringar finns under den nya <a href="https://swedish-pathogens-portal.scilifelab-2-dev.sys.kth.se/dashboards/slu-wastewater/sars-cov-2/">fliken ”SARS-CoV-2-kvantifiering”</a>).</div>
 
 <button type="button" class="btn btn-sm btn-outline-secondary mb-2" data-bs-toggle="modal" data-bs-target="#interactiveFeaturesModal">
   Hur du kan använda grafens interaktiva funktioner
@@ -125,4 +129,3 @@ Andra grupper kvantifierade också SARS-CoV-2 i avloppsvatten i Sverige. Grupper
 - [**Göteborgs universitet (GU):**](/sv/dashboards/covid_quantification/covid_quant_gu/) Kvantifiering av mängd SARS-CoV-2 i avloppsvatten från Göteborg från Helene Norders forskargrupp vid GU.
 
 - [**SEEC-KTH noden:**](/sv/dashboards/covid_quantification/covid_quant_kth/)Kvantifiering av mängd SARS-CoV-2 i avloppsvatten från Malmö, Stockholm och Göteborg från forskargruppen SEEC-KTH (uppdateras inte efter juni 2023, historiska data finns tillgängliga).
-

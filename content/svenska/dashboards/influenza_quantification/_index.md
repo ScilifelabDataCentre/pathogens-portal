@@ -4,7 +4,7 @@ plotly: true
 banner: /dashboard_thumbs/wastewater_influenza.png
 description: Utforska nivåerna av Influenza A och B-virus i avloppsvatten över hela Sverige. Veckodata från SLU-SEEC spårar influensatrender, täcker 43% av den svenska befolkningen, och hjälper till att förutsäga potentiella utbrott.
 menu:
- dashboard_menu:
+  dashboard_menu:
     identifier: wastewater_influenza_quantification
     name: "Avloppsvatten: Kvantifiering av influensa (SLU)"
 aliases:
@@ -12,6 +12,10 @@ aliases:
 dashboards_topics: [Wastewater Surveillance, Influenza, Epidemiology]
 data_status: "updating"
 ---
+
+<div class="alert alert-info">
+För att se uppdaterade uppgifter, gå till den nya <a href="https://swedish-pathogens-portal.scilifelab-2-dev.sys.kth.se/dashboards/slu-wastewater/influenza-a-virus/"> influensa A</a> och <a href="https://swedish-pathogens-portal.scilifelab-2-dev.sys.kth.se/dashboards/slu-wastewater/influenza-b-virus/"> influensa B</a> kvantifiering sidor, som finns på webbplatsens betaversion. Uppgifterna på denna sida kommer inte längre att uppdateras.
+</div>
 
 ## Introduktion
 
@@ -26,7 +30,7 @@ Notera att de poäng som tillhandahålls i datasetet och som visas i grafen neda
 
 ## Visualiseringar
 
-<div class="alert alert-info">Last updated: <span id="last_modified_slu_flu"></span></div>
+<div class="alert alert-info">Senast uppdaterad: 2026-04-20 (ytterligare uppdateringar finns under den nya <a href="https://swedish-pathogens-portal.scilifelab-2-dev.sys.kth.se/dashboards/slu-wastewater/influenza-a-virus/">influensa A</a> och <a href="https://swedish-pathogens-portal.scilifelab-2-dev.sys.kth.se/dashboards/slu-wastewater/influenza-b-virus/"> influensa B</a> kvantifiering sidor).</div>
 
 <div class="alert alert-info">
 <b>Meddelande från forskarna</b></br>
@@ -86,6 +90,7 @@ Det virala genomiska materialet från de insamlade proverna extraheras med en me
 Absolut kvantifiering av antalet kopior av influensa A- och B-virusgenom görs med metoden One-Step RT-qPCR och Flu SC2 Multiplex-testet från Centers for Disease Control and Prevention (CDC). För att korrigera för variation i population och avloppsvattenflöde kvantifieras förekomsten av viruset pepper mild mottle virus (PMMoV), ett växtvirus från peppar som människor får i sig via maten. PMMoV kvantifieras med hjälp av en modifierad version av testet i [Zhang et al. (2006)](https://doi.org/10.1371/journal.pbio.0040003). PMMoV är det vanligaste RNA-viruset i avföring från människa och används för att uppskatta mängden avföring från människa i avloppsvattenprover [Symonds et al., (2019)](https://doi.org/10.1371/journal.ppat.1007639).
 
 Data i graferna och datafilen presenteras i tre olika format:
+
 - **PMMoV-normaliserat Influensa-innehåll** visar förhållandet mellan det kopieantal som uppmätts med influensa-testet och PMMoV-testet, multiplicerat med 1000. Eftersom influensa-testet ger en proxy för influensa-virusmängd i avloppsvattnet och PMMoV är en proxy för avföringsinnehållet (som är relaterat till den bidragande befolkningen) kan förhållandet mellan de två betraktas som en proxy för förekomsten av influensa-infektioner i befolkningen i avloppsvattnets upptagningsområde.
 - **Koncentration av Influensa-genomkopior** visar koncentrationen av influensa-kopienummer som uppmäts i avloppsvattnet. Dessa data påverkas av hur de olika avloppsvattensystemen är uppbyggda och lämpar sig därför inte för jämförelse mellan platser. Virushalten i avloppsvattnet påverkas också av väderhändelser som påverkar avloppsflödet (t.ex. kraftigt regn eller snösmältning).
 - **Influensa-genomkopior/dag/invånare** representerar den uppskattade dagliga virusmängden i avloppsvattnet normaliserad för antalet invånare anslutna till systemet. Dessa data går att jämföra mellan olika platser. Vissa fördröjningar i presentationen av dessa data kan förekomma, jämfört med de andra analyserna.

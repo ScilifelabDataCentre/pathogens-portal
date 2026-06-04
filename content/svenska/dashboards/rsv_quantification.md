@@ -10,6 +10,11 @@ menu:
 dashboards_topics: [Wastewater Surveillance, RSV, Epidemiology]
 data_status: "updating"
 ---
+
+<div class="alert alert-info">
+För att se uppdaterade uppgifter, gå till den nya <a href="https://swedish-pathogens-portal.scilifelab-2-dev.sys.kth.se/dashboards/slu-wastewater/rsv/">sidan för kvantifiering av RSV</a>, som finns på webbplatsens betaversion. Uppgifterna på denna sida kommer inte längre att uppdateras.
+</div>
+
 ## Introduktion
 
 Respiratory Syncytial Virus (RSV) är ett enkelsträngat RNA-virus som orsakar infektioner i lungor och luftvägar. De flesta människor får bara milda förkylningsliknande symtom och återhämtar sig snabbt, men spädbarn och äldre vuxna kan utveckla allvarligare symptom och behöva sjukhusvård. RSV är en av de främsta orsakerna till sjukhusvård vid luftvägssjukdomar hos spädbarn yngre än 1 år. För mer information om symtom, risker och vaccination mot RS-virus, besök [Folkhälsomyndighetens motsvarande sida](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/smittsamma-sjukdomar/rs-virusinfektion/).
@@ -21,10 +26,9 @@ Data som presenteras på denna sida genereras i Sveriges lantbruksuniversitets (
 Notera att de poäng som tillhandahålls i datasetet och som visas i grafen nedan är preliminära, så korrigeringar och ändringar kan förekomma. Data och information om gruppen på den här dashboarden uppdateras kontinuerligt. </br>Notera också att även om samma metoder används för alla städer som visas på den här fliken, kan skillnader i befolkningen och hur avloppsvatten samlas in i olika städer påverka jämförelser dem emellan.
 </div>
 
-
 ## Visualiseringar
 
-<div class="alert alert-info">Last updated: <span id="last_modified_slu_rsv"></span></div>
+<div class="alert alert-info">Senast uppdaterad: 2026-04-13 (ytterligare uppdateringar finns under den nya <a href="https://swedish-pathogens-portal.scilifelab-2-dev.sys.kth.se/dashboards/slu-wastewater/rsv/">RSV kvantifiering sidan</a>).</div>
 
 <div class="d-md-none alert alert-info">
   Att rotera mobiltelefonen kan förbättra grafens layout
