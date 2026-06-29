@@ -1,6 +1,6 @@
 ---
 title: "New data highlight on a new digital approach for identifying rare antibiotic-resistant bacterial subpopulations"
-date: 2026-06-24
+date: 2026-06-29
 summary: A droplet microfluidics platform combined with image texture analysis enables rapid detection of rare antibiotic-resistant bacterial subpopulations that are often missed by standard diagnostic methods.
 banner: /highlights/banners/antibiotic_heteroresistance.png
 banner_caption: "Figure 1 of Agnihotri _et al._ (2026)"

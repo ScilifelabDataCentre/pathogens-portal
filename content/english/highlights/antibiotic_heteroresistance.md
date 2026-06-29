@@ -1,6 +1,6 @@
 ---
 title: Rapid microfluidic approach to detect hidden antibiotic resistance in bloodstream infections
-date: 2026-06-25
+date: 2026-06-29
 summary: A droplet microfluidics platform combined with image texture analysis enables rapid detection of rare antibiotic-resistant bacterial subpopulations that are often missed by standard diagnostic methods.
 banner: /highlights/banners/antibiotic_heteroresistance.png
 banner_large: /highlights/banners/antibiotic_heteroresistance.png
