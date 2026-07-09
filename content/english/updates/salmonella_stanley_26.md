@@ -1,6 +1,6 @@
 ---
 title: "Outbreak of Salmonella Stanley in Sweden"
-date: 2025-10-16
+date: 2026-07-09
 summary: Salmonella Stanley outbreak in Sweden declared over.
 banner: /updates/banners/salmonella_stanley.jpg
 banner_caption: "Image of Salmonella from ECDC"
