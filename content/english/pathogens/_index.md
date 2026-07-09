@@ -9,6 +9,7 @@ This section is dedicated outbreaks affecting Sweden. The pages contain informat
 
 ### Historical Outbreaks
 
+- **[Salmonella Stanley (Sweden, May-June 2026)](salmonella_stanley_26)**
 - **[Hepatitis A (Sweden, September  2025)](hepatitis_a_25)**
 - **[Listeria (Sweden, September  2025)](listeria)**
 - **[Mpox (formerly Monkeypox) (International, August 2024)](mpox)**
