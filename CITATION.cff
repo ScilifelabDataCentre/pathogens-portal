@@ -1,4 +1,4 @@
-cff-version: 1.2.2
+cff-version: 2.0.0
 message: "If you use or reuse this software, please cite it using the following metadata."
 authors:
 - family-names: "Hughes"
@@ -7,9 +7,9 @@ authors:
 - family-names: "Stark"
   given-names: "Katarina Öjefors"
   orcid: 0000-0001-7970-7778
-- family-names: "Kochari"
-  given-names: "Arnold"
-  orcid: 0000-0003-1373-5121
+- family-names: "Hammaren"
+  given-names: "Rickard"
+  orcid: 0000-0001-9017-591X
 - family-names: "Panneerselvam"
   given-names: "Senthilkumar"
   orcid: 0009-0000-0846-9530
@@ -22,6 +22,9 @@ authors:
 - family-names: "Dulaud"
   given-names: "Paul"
   orcid: 0000-0002-7236-9355
+- family-names: "Kochari"
+  given-names: "Arnold"
+  orcid: 0000-0003-1373-5121
 - family-names: "Ewels"
   given-names: "Phil"
   orcid: 0000-0003-4101-2502
