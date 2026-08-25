@@ -17,6 +17,7 @@ The [Pathogens Data Network (PDN)](https://pathogendatanetwork.org) was formed i
 
 #### List of Pathogen Portals
 
+- [Pathogens Portal Chile](https://patogenos.cl/)
 - [Pathogens Portal Costa Rica](https://pathogensportal.ucr.ac.cr/)
 - [Pathogens Portal Hungary](https://pathogensportal.vo.elte.hu/)
 - [Pathogens Portal Mexico](https://www.pathogens.ibt.unam.mx/)
