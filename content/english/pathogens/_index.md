@@ -7,6 +7,7 @@ This section is dedicated outbreaks affecting Sweden. The pages contain informat
 
 ### Ongoing Outbreaks
 
+- **[Measles (Sweden, August 2026 -)](measles_26)**
 - **[Campylobacter (Sweden, June 2026 -)](campylobacter_26)**
 
 ### Historical Outbreaks
