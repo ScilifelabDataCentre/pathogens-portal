@@ -5,7 +5,9 @@ toc: false
 
 This section is dedicated outbreaks affecting Sweden. The pages contain information on ongoing outbreaks, and are updated as information becomes available. Where appropriate, more resources will also be added elsewhere on the portal.
 
-<!-- ### Ongoing Outbreaks -->
+### Ongoing Outbreaks
+
+- **[Campylobacter (Sweden, June 2026 -)](campylobacter_26)**
 
 ### Historical Outbreaks
 
