@@ -2,7 +2,7 @@
 title: "New data highlight on a new MLST scheme for tracking Giardia duodenalis assemblage B outbreaks"
 date: 2026-08-27
 summary: A novel seven-marker MLST scheme enhances molecular typing of Giardia duodenalis assemblage B, improving outbreak detection and epidemiological surveillance.
-banner: /highlights/banners/marker_MLST_scheme.png
+banner: /highlights/banners/MLST_scheme.png
 banner_caption: "Selected marker for final MLST scheme"
 ---
 
