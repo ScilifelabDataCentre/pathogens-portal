@@ -28,6 +28,7 @@ Regional public health authorities continue contact tracing and monitoring to li
 | 2026     |    15 August     | Five confirmed measles cases were reported in Sweden. Three had a likely epidemiological link to the Urkult festival. Folkhälsomyndigheten initiated outbreak investigations together with regional communicable disease units.                                                                            |
 | 2026     |    17 August     | The outbreak expanded to 10 confirmed cases. Most cases were children under 18 years of age, and were reported from six Swedish regions. Contact tracing was intensified.                                                                                                                                  |
 | 2026     |    25 August     | A total of 31 confirmed cases linked to the festival had been reported across 9 Swedish regions. Most cases occurred among school-aged children and young adults, and the majority were unvaccinated. Extensive contact tracing and public health communication continued to prevent further transmission. |
+| 2026     |    28 August     | A total of 36 confirmed cases linked to the festival had been reported across 9 Swedish regions. In 29 cases, the infection was spread during the Urkult festival while remaining cases were infected following contact with an infected individual. No new cases have been reported since 28th August. |
 
 <style>
  table td, table th {
