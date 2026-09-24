@@ -1,10 +1,10 @@
 ---
-title: Mapping Growth Interactions in the Human Gut Microbiome Reveals Key Roles for Extracellular Vesicles and Environmental pH
+title: Investigating growth interactions in the human gut microbiome
 date: 2026-09-24
-summary: Systematic profiling of human gut bacteria reveals predominantly inhibitory growth interactions while identifying extracellular vesicles and pH modulation as mechanisms that can promote the growth of specific microbial species.
+summary: Systematic profiling of human gut bacteria reveals predominantly inhibitory growth interactions, although some factors did promote growth.
 banner: /highlights/banners/growth_interaction.png
 banner_large: /highlights/banners/growth_interaction.png
-banner_caption: "Figure 1 (a,b,c) of Buyanbadrakh et al. (2026)"
+banner_caption: "Figure 1 from Buyanbadrakh et al. (2026)"
 highlights_topics: [Infectious diseases]
 tags:
   [
@@ -22,11 +22,11 @@ tags:
 images: [/highlights/banners/growth_interaction.png]
 ---
 
-The human gut microbiome is a complex microbial ecosystem in which hundreds of bacterial species interact with one another and their surrounding environment. These interactions can determine which species successfully colonize the gut and influence the stability and resilience of the microbial community. Bacteria can compete for nutrients, release inhibitory compounds, exchange metabolites, or modify environmental conditions such as pH. Understanding these interactions is therefore important for predicting microbiome composition and, ultimately, developing approaches to manipulate microbial communities.
+The human gut microbiome is a complex microbial ecosystem in which hundreds of bacterial species interact with one another and their surrounding environment. These interactions can determine which species successfully colonise the gut and influence the stability and resilience of the microbial community. Bacteria can compete for nutrients, release inhibitory compounds, exchange metabolites, or modify environmental conditions, such as pH. Understanding these interactions is therefore important for predicting microbiome composition and, ultimately, developing approaches to manipulate microbial communities.
 
-[Buyanbadrakh _et al._ (2026)](https://www.nature.com/articles/s41467-026-76526-z) systematically investigated growth interactions among 36 representative bacterial strains from the human gut microbiome, spanning six major bacterial phyla. The researchers used a spent-medium approach, in which each bacterial strain was first grown for 24 hours before the cell-free spent medium was collected. Each strain was subsequently grown in the spent medium produced by every other strain, and bacterial growth was monitored for 48 hours by measuring optical density. This resulted in a large-scale dataset comprising 1,224 binary growth interactions.
+[Buyanbadrakh _et al._ (2026)](https://www.nature.com/articles/s41467-026-76526-z) systematically investigated growth interactions among 36 representative bacterial strains from the human gut microbiome, spanning six major bacterial phyla. A spent-medium approach was used, in which each bacterial strain was first grown for 24 hours before the cell-free spent medium was collected. Each strain was subsequently grown in the spent medium produced by every other strain, and bacterial growth was monitored for 48 hours by measuring optical density. This resulted in a large-scale dataset comprising 1,224 binary growth interactions.
 
-The interaction map revealed that inhibitory interactions were considerably more common than growth-promoting interactions. Using a two-fold change in growth as the threshold, 307 interactions (25.1%) were inhibitory, whereas only 51 (4.2%) promoted bacterial growth. When nutrients were replenished in the spent medium, inhibitory interactions decreased more than eight-fold, from 307 to 38. This suggests that many negative interactions arise from nutrient depletion or environmental changes caused by bacterial growth rather than from the production of specific antimicrobial compounds. In contrast, nearly half of the growth-promoting interactions persisted after nutrient replenishment, suggesting that metabolic cross-feeding may contribute to some positive interactions.
+The interaction map revealed that inhibitory interactions were considerably more common than growth-promoting interactions. Using a two-fold change in growth as the threshold, 307 interactions (25.1%) were inhibitory, whereas only 51 (4.2%) promoted bacterial growth. When nutrients were replenished in the spent medium, inhibitory interactions decreased more than eight-fold, from 307 to 38. This suggests that many negative interactions arise from nutrient depletion or environmental changes caused by bacterial growth, rather than from the production of specific antimicrobial compounds. In contrast, nearly half of the growth-promoting interactions persisted after nutrient replenishment, suggesting that metabolic cross-feeding may contribute to some positive interactions.
 
 One particularly interesting positive interaction involved _Clostridium perfringens_ and _Mediterraneibacter gnavus_. The growth of _M. gnavus_ increased in spent medium produced by _C. perfringens_. Proteomic analysis indicated changes in nucleotide-related pathways, prompting the researchers to investigate how _C. perfringens_ might provide growth-promoting components. They found extracellular vesicles in the _C. perfringens_ spent medium and demonstrated that an isolated vesicle fraction increased _M. gnavus_ growth approximately 1.4-fold. The growth-promoting effect disappeared after heat treatment of the vesicles, indicating that vesicle integrity or heat-sensitive components carried within them are important for the interaction. The experiments therefore identify extracellular vesicles as a mechanism through which one gut bacterial species can promote the growth of another.
 
@@ -50,7 +50,7 @@ By systematically mapping interactions among human gut bacteria and investigatin
 
 #### Code
 
-The code to reproduce the growth assay data analysis is available on [Github](https://github.com/mateuslab-prot/SpeciesSpeciesInteractions).
+The code to reproduce the growth assay data analysis is available on [GitHub](https://github.com/mateuslab-prot/SpeciesSpeciesInteractions).
 
 #### Article
 
