@@ -1,5 +1,5 @@
 ---
-title: A New MLST Scheme for Tracking Giardia duodenalis Assemblage B Outbreaks
+title: A new MLST scheme for tracking Giardia duodenalis assemblage B outbreaks
 date: 2026-08-27
 summary: A novel seven-marker MLST scheme enhances molecular typing of Giardia duodenalis assemblage B, improving outbreak detection and epidemiological surveillance.
 banner: /highlights/banners/MLST_scheme.png
@@ -17,7 +17,7 @@ tags:
     Whole-genome sequencing,
     Population genetics,
   ]
-images: [/highlights/banners/giardia_duodenalis.png]
+images: [/highlights/banners/MLST_scheme.png]
 ---
 
 _Giardia duodenalis_ is a protozoan parasite that causes giardiasis, one of the most common intestinal parasitic diseases worldwide. Human infections are primarily caused by assemblages A and B, both of which have zoonotic potential. Molecular typing is essential for investigating outbreaks, identifying transmission routes, and tracing infection sources. However, current typing methods for assemblage B have limited discriminatory power because of its high genetic diversity and extensive allelic sequence heterogeneity (ASH), making epidemiological investigations particularly challenging.
