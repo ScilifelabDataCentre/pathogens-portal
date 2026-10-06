@@ -2,8 +2,8 @@
 title: "Outbreak of Salmonella Stanley in Sweden"
 date: 2026-07-09
 summary: Salmonella Stanley outbreak in Sweden declared over.
-banner: /updates/banners/salmonella_stanley.jpg
-banner_caption: "Image of Salmonella from ECDC"
+banner: /updates/banners/fohm.png
+banner_caption: "Folkhälsomyndigheten logo"
 ---
 An outbreak of _Salmonella Stanley_ infections that affected multiple regions across Sweden has been [declared over by the Public Health Agency of Sweden (Folkhälsomyndigheten, FoHM)](https://www.folkhalsomyndigheten.se/vara-amnesomraden/sjukdomsutbrott/salmonella-stanley-i-sverige-maj-2026/). The outbreak, first identified in late May 2026, involved 18 confirmed cases reported between 23 May and 3 June across six regions of the country. Investigations by FoHM and regional infectious disease control units indicated that all cases were infected with the same strain of _Salmonella Stanley_, suggesting a common source.
 
